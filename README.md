@@ -15,7 +15,6 @@ Web Content
 - projects/
 - news/
 - mediakit/
-- index.html
 
 Global Files
 
