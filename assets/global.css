@@ -1,0 +1,212 @@
+html, body {
+  font-size: 18px;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, button {
+  font-family: Lato, Noto sans, "Helvetica Neue" ,Arial,Helvetica, '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+}
+
+.ui.cards {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ui.marginless.segment {
+  margin: 0;
+}
+
+.ui.paddingless.segment {
+  padding: 0;
+}
+
+.ui.stripe.container {
+  margin: 2rem 0;
+}
+
+.floated.left {
+  float: left;
+}
+
+.floated.right {
+  float: right;
+}
+
+.left.aligned {
+  text-align: left;
+}
+
+.center.aligned {
+  text-align: center;
+}
+
+.right.aligned {
+  text-align: right;
+}
+
+.top.margin {
+  margin-top: 1rem;
+}
+
+.bottom.margin {
+  margin-bottom: 1rem;
+}
+
+.vertical.padding {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.horizontal.padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* for container */
+
+.ui.container {
+  width: 100%;
+  max-width: 1200px!important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+.ui.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+}
+
+/* for grid */
+
+
+/* for header */
+
+#header {
+  background: url(/img/header-shell.png) repeat center 0;
+}
+
+#header .ui.secondary.pointing.menu {
+  border: none;
+}
+
+#header .ui.menu .logo.item {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  margin-left: -1.14285714em;
+}
+
+#header .ui.menu .logo.image {
+  margin: 0;
+  height: 1.5em;
+}
+
+/* for semantic ui sidebar */
+
+#header .ui.menu .item[data-display="mobile"] {
+  display: none;
+  margin-right: -1.14285714em;
+}
+
+#header .ui.menu .item[data-display="mobile"] i.icon {
+  margin-right: 0;
+}
+@media only screen and (max-width: 767px) {
+
+#header .ui.menu .item[data-display="desktop"] {
+  display: none;
+}
+
+#header .ui.menu .item[data-display="mobile"] {
+  display: block;
+}
+
+}
+
+/* for semantic ui sidebar on ios */
+
+html.ios {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+html.ios,
+html.ios body {
+  height: initial !important;
+}
+
+/* for submenu */
+
+#submenu .ui.menu {
+  margin-top: 1rem;
+  background-color: rgba(0,0,0,0.03);
+}
+
+#submenu [data-context="mobile"] {
+  display: none;
+}
+
+#submenu [data-context="mobile"] .menu .item {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+
+#submenu [data-context="desktop"] {
+  display: none;
+}
+
+#submenu [data-context="mobile"] {
+  display: block;
+}
+
+}
+
+/* for headings */
+
+.ui.cards>.card h3.header {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+
+h2.ui.header {
+  display: block;
+  text-align: center;
+}
+
+}
+
+/* for footer */
+
+#footer {
+  background: url(/img/footer.png) repeat 0 0;
+}
+
+#footer .ui.grid.container, #footer .ui.list>.item {
+  font-size: 0.8rem;
+}
+
+/* for semantic ui list in footer */
+
+#footer .ui.horizontal.list>.item {
+  margin-left: 0;
+  margin-right: 1em;
+}
+
+#footer .ui.horizontal.list>.item:last-child {
+  margin-right: 0;
+}
+
+/* for semantic ui list in partner sections */
+
+#partners .ui.horizontal.list, #sponsors .ui.horizontal.list {
+  text-align: center;
+}
+
+#partners .logo, #sponsors .logo {
+  width: auto;
+  height: 5rem;
+}
+
