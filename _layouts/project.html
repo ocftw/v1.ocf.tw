@@ -1,0 +1,110 @@
+---
+layout: page
+---
+
+{% assign current = site.data.settings.current | append: "" %}
+{% assign year = page.year | append: "" %}
+{% assign project_id = page.project_id | append: "" %}
+{% assign project = site.data.projects[year][project_id] %}
+{% assign events = site.data.events[project_id] %}
+
+<div id="project">
+
+<section id="hero" class="ui inverted {{ page.color }} center aligned basic segment marginless">
+  <img class="cover image"
+  {% if page.cover_image %}
+  src="{{ page.cover_image }}"
+  {% else %}
+  src="{{ project.cover }}"
+  {% endif %}
+  style="opacity: {{ page.cover_image_opacity }}" />
+  <div class="cover" style="opacity: {{ page.cover_veil_opacity }}"></div>
+  <hr class="ui hidden section divider" />
+  <div class="ui stripe relative container">
+    <h1 class="ui inverted header">
+      {{ project.name }}
+      {% if page.year != site.data.settings.current %}
+      ( {{ page.year }} 年度)
+      {% endif %}
+    </h1>
+    <p>
+      {{ project.tagline }}
+    </p>
+  </div>
+  <hr class="ui hidden section divider" />
+</section>
+
+<div class="ui container">
+  <section class="ui inverted bottom attached {{ page.color }} segment borderless">
+    <p>{{ project.description }}</p>
+  </section>
+</div>
+
+<div class="ui container">
+  <div class="ui hidden divider"></div>
+  <div class="ui two column stackable grid">
+    <div class="ten wide column">
+
+      {{ content }}
+
+      {% if events and page.show_events %}
+      <h2 id="events" class="ui dividing header">計畫成果</h2>
+      {% include events.html %}
+      {% endif %}
+
+      {% if page.show_budget %}
+      <h2 id="budget" class="ui header">預算表</h2>
+      {% include_relative budget.html %}
+      {% endif %}
+
+      {% if page.gsheet_url %}
+      <h2 id="payments" class="ui dividing header">收支明細</h2>
+      <div class="ui basic paddingless segment">
+        <iframe src="{{ page.gsheet_url }}"></iframe>
+      </div>
+      {% endif %}
+
+      {% if project.sponsor_id and page.show_sponsors %}
+      <h2 class="ui dividing header">贊助單位</h2>
+      <div id="sponsors" class="ui horizontal center aligned list">
+
+        {% for org_id in project.sponsor_id %}
+        {% assign org = site.data.people.orgs[org_id] %}
+        <a class="item" target="_blank" href="{{ org.link[1].url }}">
+          {% if org.logo %}
+          <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+          {% else %}
+          {{ org.name }}
+          {% endif %}
+        </a>
+        {% endfor %}
+
+      </div>
+      {% endif %}
+
+      {% if project.donors and page.show_donors %}
+      <h2 class="ui dividing header">捐助人</h2>
+      <div id="donors" class="ui center aligned labels">
+
+        {% for donor in project.donors %}
+          <span class="ui label">{{ donor }}</span>
+        {% endfor %}
+
+      </div>
+      {% endif %}
+
+    </div>
+
+    <div class="six wide column">
+      <div id="meta" class="ui sticky secondary basic segment">
+
+      {% include meta.html %}
+
+      </div>
+    </div>
+
+  </div>
+  <div class="ui hidden divider"></div>
+</div>
+
+</div>

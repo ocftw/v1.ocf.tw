@@ -1,0 +1,97 @@
+---
+layout: page
+og_title: 電子報
+og_description: 開源開放大小事，搶鮮送到你家！OCF 電子報，每一到二個月不定期出刊。
+---
+
+<div id="news">
+
+<div class="ui center aligned stripe container">
+  <h1 class="ui icon header">
+    <i class="circular newspaper icon"></i>
+    {{ page.og_title }}
+  </h1>
+</div>
+
+<div class="ui stripe container">
+  <div class="ui two column stackable grid">
+    <div class="ten wide column">
+
+      <section id="newsletters">
+
+        {% for news in site.data.news reversed %}
+        {% assign year = news[0] %}
+
+        <h2 class="ui dividing header">{{ year }} 年</h2>
+        <div class="ui divided items">
+
+          {% for item in news[1] reversed %}
+
+          <div class="item">
+            <div class="image">
+              <img src="{{ item.cover }}">
+            </div>
+            <div class="content">
+              <h4 class="ui header">
+                <a href="{{ item.link }}" target="_blank">
+                  {{ item.title }}
+                </a>
+              </h4>
+              <div class="meta">{{ item.subtitle }}</div>
+              <div class="description">
+                <p>
+                  {{ item.description }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+
+        </div>
+
+        {% endfor %}
+
+      </section>
+    </div>
+    <div class="six wide column">
+      <section id="subscribe" class="ui sticky secondary basic segment">
+      <h2 class="ui center aligned small icon header">
+        <i class="mail outline icon"></i>
+        訂閱電子報
+      </h2>
+      <form class="ui form" action="https://ocf.neticrm.tw/civicrm/profile/create?gid=12&amp;reset=1" method="post" name="Edit" id="Edit">
+        <div class="required field">
+          <label for="last_name">姓氏</label>
+          <input type="text" name="last_name" id="last_name" placeholder="姓氏" required />
+        </div>
+        <div class="required field">
+          <label for="first_name">名字</label>
+          <input type="text" name="first_name" id="first_name" placeholder="名字" required />
+        </div>
+        <div class="required field">
+          <label for="email-Primary">電子信箱</label>
+          <input type="email" name="email-Primary" id="email-Primary" placeholder="yourname@example.com" required />
+        </div>
+        <div class="required field">
+          <div class="ui checkbox">
+            <input type="checkbox" id="group[2]" name="group[2]" value="1" checked />
+            <label>我要訂閱電子報</label>
+          </div>
+        </div>
+        <p class="g-recaptcha" data-sitekey="6LedpB4TAAAAAEubH6xXlcjLa1D8jXzMVMG6Q3J2">
+        </p>
+        <button class="ui submit button" name="_qf_Edit_next" value="訂閱" type="submit" id="_qf_Edit_next">訂閱</button>
+        <script src="//www.google.com/recaptcha/api.js"></script>
+
+      </form>
+
+      </section>
+      
+    </div>
+  </div>
+</div>
+
+<hr class="ui hidden divider">
+
+</div>

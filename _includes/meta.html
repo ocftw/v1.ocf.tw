@@ -1,0 +1,185 @@
+{% if page.sidebar_image %}
+<img class="ui fluid image" src="{{ page.sidebar_image }}">
+<h2 class="ui center aligned small header">
+
+{% elsif project.avatar %}
+<img class="ui fluid image" src="{{ project.avatar }}">
+<h2 class="ui center aligned small header">
+
+{% elsif project.organizer_id %}
+{% assign organizer_id = project.organizer_id[0] %}
+
+  {% if site.data.people.orgs[organizer_id].avatar %}
+  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].avatar }}">
+  {% elsif site.data.people.orgs[organizer_id].logo %}
+  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].logo }}">
+  {% elsif site.data.people.orgs[organizer_id].cover %}
+  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].cover }}">
+  {% endif %}
+
+<h2 class="ui center aligned small header">
+
+{% else %}
+<h2 class="ui center aligned small icon header">
+  <i class="info circle icon"></i>
+{% endif %}
+
+  {{ project.name }}
+  {% if page.year != site.data.settings.current %}
+  ( {{ page.year }} 年度)
+  {% endif %}
+  <span class="sub header">小檔案</span>
+</h2>
+
+<div class="ui divided list">
+
+  {% if project.advisor_id %}
+  <div class="item">
+    <span class="ui horizontal label">指導</span>
+    <span class="text">
+    {% for advisor_id in project.advisor_id %}
+      {% assign item = site.data.people.orgs[advisor_id] %}
+      {{ item.name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+
+  {% if project.organizer_id %}
+  <div class="item">
+    <span class="ui horizontal label">主辦</span>
+    <span class="text">
+    {% for organizer_id in project.organizer_id %}
+      {% assign item = site.data.people.orgs[organizer_id] %}
+      {{ item.name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+
+  {% if project.co-organizer_id %}
+  <div class="item">
+    <span class="ui horizontal label">協辦</span>
+    <span class="text">
+    {% for co-organizer_id in project.co-organizer_id %}
+      {% assign item = site.data.people.orgs[co-organizer_id] %}
+      {{ item.name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+
+  {% if project.implementer_id %}
+  <div class="item">
+    <span class="ui horizontal label">承辦</span>
+    <span class="text">
+    {% for implementer_id in project.implementer_id %}
+      {% assign item = site.data.people.orgs[implementer_id] %}
+      {{ item.name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+
+  {% if project.coordinator_id %}
+  <div class="item">
+    <span class="ui horizontal label">召集人</span>
+    <span class="text">
+    {% for coordinator_id in project.coordinator_id %}
+      {% assign item = site.data.people.individuals[coordinator_id] %}
+      {{ item.name }} ({{ item.nick }}) 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+
+  {% if project.staff_id %}
+  <!--
+  <div class="item">
+    <span class="ui horizontal label">工作夥伴</span>
+    <span class="text">
+    {% for staff_id in project.staff_id %}
+      {% assign item = site.data.people.individuals[staff_id] %}
+      {{ item.name }} ({{ item.nick }}) 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  -->
+  {% endif %}
+
+  {% for item in project.meta %}
+  <div class="item">
+    <span class="ui horizontal label">{{ item.label }}</span>
+    <span class="text">{{ item.content }}</span>
+  </div>
+  {% endfor %}
+
+</div>
+
+{% if project.progress %}
+  {% assign progress = project.progress %}
+
+<div class="ui indicating progress active" data-percent="{{ progress.percent }}">
+  <div class="bar" style="width: {{ progress.percent }}%;">
+    <div class="progress">{{ progress.percent }} %</div>
+  </div>
+
+  {% if progress.updated %}
+  <div class="label" style="font-weight: normal; opacity: 0.5;">於 {{ progress.updated }} 更新
+  </div>
+  {% endif %}
+
+</div>
+{% endif %}
+
+{% if page.year == site.data.settings.current %}
+{% if project.action %}
+<div class="ui horizontal divider">
+  <i class="heart icon"></i>
+  加入我們
+</div>
+
+  {% for action in project.action %}
+    {% if action.url %}
+
+<p>
+  <a class="ui {{ action.color }} fluid button" href="{{ action.url }}" target="_blank">
+    <i class="{{action.icon}} icon"></i>
+    {{ action.title }}
+  </a>
+</p>
+
+    {% else %}
+
+<p>{{ action }}</p>
+
+    {% endif %}
+
+  {% endfor %}
+{% endif %}
+{% elsif site.data.projects[current][project_id] %}
+<div class="ui divider">
+</div>
+<a class="center aligned" href="/projects/{{ current }}/{{ project_id }}">前往本年度頁面
+<i class="right arrow icon"></i>
+</a>
+
+{% endif %}

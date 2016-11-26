@@ -1,0 +1,133 @@
+---
+layout: page
+---
+
+{% assign year = page.year | append: '' %}
+
+<div id="report">
+
+<header class="ui center aligned stripe container">
+  <h1 class="ui icon header">
+    <i class="circular trophy icon"></i>
+    {{ site.data.reports[ year ].title }}
+  </h1>
+  <p>
+    {{ site.data.reports[ year ].description }}
+  </p>
+</header>
+
+{% for item in site.data.reports[ year ].items %}
+  {% if item.type == "header" %}
+
+<header class="ui basic very padded segment marginless inverted {{ item.background_color }}">
+  <div class="ui center aligned stripe container">
+    <h2 class="ui inverted header">
+
+    {% if item.icon %}
+
+      <i class="{{ item.icon }} icon bordered"></i>
+
+    {% endif %}
+
+      {{ item.title }}
+    </h2>
+  </div>
+</header>
+
+  {% endif %}
+  {% if item.type == "content" %}
+
+<section class="ui two column stackable grid">
+
+    {% for column in item.columns %}
+      {% if column.type == "image" %}
+
+  <div class="column{% if item.swap %} flex-swap{% endif %}">
+    <img class="ui image" src="{{ column.url }}" />
+  </div>
+
+      {% endif %}
+      {% if column.type == "article" %}
+
+  <div class="column">
+    <div class="ui center aligned stripe container">
+      <h3 class="ui header">
+        {{ column.title }}
+
+        {% if column.subtitle %}
+
+        <div class="sub header">
+          {{ column.subtitle }}
+        </div>
+
+        {% endif %}          
+
+      </h3>
+
+        {% if column.description %}
+
+      <p>
+        {{ column.description }}
+      </p>
+
+        {% endif %}          
+        {% if column.items %}
+
+      <div class="ui link celled list">
+
+          {% for link in column.items %}
+            {% if link.project_id %}
+              {% assign data = site.data.projects[year][link.project_id] %}
+
+        <a class="item" href="{{ data.link[0].url }}" target="_blank">
+
+              {% if data.month %}
+
+          <span class="ui horizontal label">
+            {{ data.month }} 月
+          </span>
+
+              {% endif %}
+
+          {{ data.abbr }}
+        </a>
+
+            {% endif %}
+            {% if link.title %}
+
+        <a class="item" href="link.url" target="_blank">
+          <span class="ui horizontal label">
+            {{ link.month }} 月
+          </span>
+            {{ link.title }}
+        </a>
+
+            {% endif %}
+          {% endfor %}
+
+      </div>
+
+        {% endif %}
+        {% if column.action %}
+
+      <a class="ui basic button" href="{{ column.action.url }}" target="_blank">
+        {{ column.action.title }}
+        <i class="right arrow icon"></i>
+      </a>
+
+        {% endif %}
+
+    </div>
+  </div>
+
+      {% endif %}
+    {% endfor %}
+
+</section>
+
+  {% endif %}
+{% endfor %}
+
+{% include cta.html %}
+
+</div>

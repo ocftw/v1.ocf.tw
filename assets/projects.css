@@ -1,0 +1,28 @@
+/* for cards */
+
+#projects .display-none {
+  display: none!important;
+}
+
+@media only screen and (max-width: 767px) {
+#projects .ui.stackable.cards>.card.display-none {
+  display: none!important;
+}  
+}
+
+/* for labels */
+
+#projects .ui.cards>.card .meta.ui.horizontal.labels {
+  margin-top: 0.5em;
+}
+
+#projects .ui.cards>.card .meta.ui.horizontal.labels .label {
+  margin-bottom: 0.5em;
+}
+
+/* for reports */
+
+#projects #results .ui.items>.item>.image>img {
+  object-fit: cover;
+  min-height: 100%;
+}

@@ -1,0 +1,134 @@
+---
+layout: page
+og_title: 工作夥伴
+og_description: 從 2014 到 2016 的短短兩年內，我們的工作人員從一位成長到五位，熱血的志工們以及合作或贊助夥伴們也不斷增加，很開心有這麼多高手來和我們一起並肩前進。有哪些開源開放之友呢？快來認識他們！
+css: /assets/people.css
+---
+
+<div id="people">
+
+<div class="ui center aligned stripe container">
+
+  <h1 class="ui icon header">
+    <i class="circular users icon"></i>
+    {{ page.og_title }}
+  </h1>
+
+  <div id="submenu" class="ui sticky">
+
+    <nav data-context="desktop" class="ui pagination borderless menu">
+      {% for type in site.data.people.settings %}
+      {% for item in type[1] %}
+      <a class="item" href="#{{ item.id }}">{{ item.name }}</a>
+      {% endfor %}
+      {% endfor %}
+    </nav>
+
+    <nav data-context="mobile" class="ui one item menu">
+      <div class="ui dropdown item">
+        <span data-content="current">跳至...</span>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          {% for type in site.data.people.settings %}
+          {% for item in type[1] %}
+          <a class="item" href="#{{ item.id }}">{{ item.name }}</a>
+          {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+</div>
+
+{% for item in site.data.people.settings.card %}
+<section id="{{ item.id }}">
+  <div class="ui stripe container">
+    <h2 class="ui header">{{ item.name }}</h2>
+    <div class="ui three doubling stackable cards">
+      {% for person_id in site.data.people.relations[item.id] %}
+      {% assign person = site.data.people.individuals[person_id] %}
+      <div class="card">
+
+        {% if person.avatar %}
+        <div class="avatar image">
+          <img src="{{ person.avatar }}">
+        </div>
+        {% endif %}
+
+        <div class="content">
+
+          {% if person.role %}
+          <span class="ui pointing below horizontal label">
+            {{ person.role }}
+          </span>
+          {% endif %}
+
+          <h3 class="header">{{ person.name }} 
+            <span class="small">
+              ({{ person.nick }})
+            </span>
+          </h3>
+
+          {% if person.name_en %}
+          <div class="meta">
+            <div>{{ person.name_en }}</div>
+          </div>
+          {% endif %}
+
+          <div class="description">
+            <p>{{ person.description }}</p>
+          </div>
+        </div>
+
+        {% if person.link %}
+        <div class="extra content">
+          <div class="ui link divided list">
+          {% for link in person.link %}
+            <a class="item" target="_blank" href="{{ link.url }}">
+              <i class="icon globe"></i>
+              {{ link.title }}
+            </a>
+          {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% for item in site.data.people.settings.logo %}
+<section id="{{ item.id }}">
+  <div class="ui stripe container">
+    <h2 class="ui header">{{ item.name }}</h2>
+    <div class="ui horizontal center aligned list">
+      {% for org_id in site.data.people.relations[item.id] %}
+      {% assign org = site.data.people.orgs[org_id] %}
+      <a class="item" target="_blank" href="{{ org.link[1].url }}">
+        <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% for item in site.data.people.settings.label %}
+<section id="{{ item.id }}">
+  <div class="ui stripe container">
+    <h2 class="ui header">{{ item.name }}</h2>
+    <div class="ui center aligned labels">
+      {% for person in site.data.people.relations[item.id] %}
+      <span class="ui label">{{ person }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+</div>

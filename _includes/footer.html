@@ -1,0 +1,116 @@
+
+<footer id="footer" class="ui inverted basic segment marginless">
+
+  <div class="ui stripe container">
+
+    <h2 class="ui inverted small center aligned header">
+      <img src="{{ site.data.people.orgs.ocf.icon }}" />
+      <div class="content">
+        {{ site.data.people.orgs.ocf.name }}
+        <div class="sub header">{{ site.data.people.orgs.ocf.name_en }}
+        </div>
+      </div>
+    </h2>
+
+    <hr class="ui divider" />
+
+    <div class="ui four column stackable grid container">
+
+      <div class="column">
+
+        <p>{{ site.data.people.orgs.ocf.description }}</p>
+        <p>
+        </p>
+        <div class="ui inverted list">
+          <a class="item" href="http://ocf.tw/">
+            <i class="globe icon"></i>
+            <div class="content">
+            {{ site.data.people.orgs.ocf.link[0].url }}
+            </div>
+          </a>
+          <a class="item">
+            <i class="mail icon"></i>
+            <div class="content">
+            {{ site.data.people.orgs.ocf.contact.email.general }}
+            </div>
+          </a>
+        </div>
+
+
+        <div class="ui inverted list">
+          <div class="item">
+            統一編號　38552170
+          </div>
+          <div class="item">
+            愛心碼　1989
+          </div>
+          <div class="item">
+            勸募字號　
+          </div>
+        </div>
+
+      </div>
+
+      <div class="column">
+
+        <h3 class="ui inverted small header">台北辦公室
+        </h3>
+        <div class="ui list inverted">
+          <div class="item">
+          {{ site.data.people.orgs.ocf.contact.address.taipei }}
+          </div>
+        </div>
+
+        <h3 class="ui inverted small header">桃園辦公室
+        </h3>
+        <div class="ui list inverted">
+          <div class="item">
+          {{ site.data.people.orgs.ocf.contact.address.taoyuan }}
+          </div>
+          <div class="item">
+            <i class="phone icon"></i>
+            <div class="content">
+            {{ site.data.people.orgs.ocf.contact.tel.taoyuan }}
+            </div>
+          </div>
+          <div class="item">
+            <i class="fax icon"></i>
+            <div class="content">
+            {{ site.data.people.orgs.ocf.contact.fax.taoyuan }}
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="column">
+
+        <h3 class="ui small inverted header">訂閱</h3>
+        <div class="ui horizontal list inverted">
+        {% include subscribe.html %}
+        </div>
+
+        <h3 class="ui small inverted header">參與</h3>
+        <div class="ui horizontal inverted list">
+        {% include join.html %}
+        </div>
+
+      </div>
+
+      <div class="column">
+
+        <h3 class="ui small inverted header">網站導覽</h3>
+        <div class="ui inverted divided link list">
+        {% include menu.html %}
+        </div>
+
+        <h3 class="ui small inverted header">本站授權</h3>
+        <div class="ui inverted divided link list">
+          <a href="/about/#website" class="item">源碼 MIT / 內容 CC</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>

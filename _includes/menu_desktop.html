@@ -1,0 +1,25 @@
+<a class="logo item" href="/">
+  <img class="ui logo image" src="{{ site.data.people.orgs.ocf.icon }}">
+</a>
+<div class="right menu">
+
+{% for item in site.data.settings.menu %}
+<a href="{{ item.url }}" class="item 
+{% if page.url contains item.url %}
+active
+{% endif %}
+" data-display="desktop">
+{{ item.title }}
+</a>
+{% endfor %}
+
+<a href="/en/" class="item
+{% if page.url contains '/en/' %}
+active
+{% endif %}
+" data-display="desktop">En</a>
+<a class="item" data-display="mobile" data-toggle="sidebar">
+  <i class="sidebar icon"></i>
+</a>
+
+</div>

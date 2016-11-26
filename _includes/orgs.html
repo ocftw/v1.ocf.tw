@@ -1,0 +1,65 @@
+{% assign year = page.year | append: "" %}
+{% assign project_id = page.project_id | append: "" %}
+{% assign project = site.data.projects[year][project_id] %}
+{% assign event_id = page.event_id %}
+{% assign event = site.data.events[year][event_id] %}
+
+<section id="orgs">
+<div class="ui center aligned horizontal list">
+
+{% if event.advisor_id %}
+  {% for org_id in event.advisor_id %}
+  {% assign org = site.data.people.orgs[org_id] %}
+  <a class="item" target="_blank" href="{{ org.link[0].url }}">
+    <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+  </a>
+  {% endfor %}
+{% endif %}
+
+{% if event.organizer_id %}
+  {% for org_id in event.organizer_id %}
+  {% assign org = site.data.people.orgs[org_id] %}
+  <a class="item" target="_blank" href="{{ org.link[0].url }}">
+    <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+  </a>
+  {% endfor %}
+{% endif %}
+
+{% if event.co-organizer_id %}
+  {% for org_id in event.co-organizer_id %}
+  {% assign org = site.data.people.orgs[org_id] %}
+  <a class="item" target="_blank" href="{{ org.link[0].url }}">
+    <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+  </a>
+  {% endfor %}
+{% endif %}
+
+{% if event.implementer_id %}
+  {% for org_id in event.implementer_id %}
+  {% assign org = site.data.people.orgs[org_id] %}
+  <a class="item" target="_blank" href="{{ org.link[0].url }}">
+    <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+  </a>
+  {% endfor %}
+{% endif %}
+
+{% if event.sponsor_id %}
+  {% for org_id in event.sponsor_id %}
+  {% assign org = site.data.people.orgs[org_id] %}
+  <a class="item" target="_blank" href="{{ org.link[0].url }}">
+    <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+  </a>
+  {% endfor %}
+{% endif %}
+
+{% if page.orgs %}
+  {% for org_id in page.orgs %}
+  {% assign org = site.data.people.orgs[org_id] %}
+  <a class="item" target="_blank" href="{{ org.link[0].url }}">
+    <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+  </a>
+  {% endfor %}
+{% endif %}
+
+</div>
+</section>

@@ -1,0 +1,108 @@
+#homepage #hero {
+  background-color: #333;
+  /*
+  background: url(/img/cover.png) no-repeat center center;
+  */
+  background-clip: border-box;
+  margin: 0;
+}
+
+#homepage #header {
+  background-color: none;
+  background: none;
+}
+
+#homepage #header .ui.menu .logo.item {
+  margin: -0.85714286em -1.14285714em;
+}
+
+#homepage #header .ui.menu .logo.image {
+  height: 2.5rem;
+}
+
+#homepage .sentence {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+#homepage cite {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.5em;
+  opacity: 0.5;
+  display: block;
+}
+
+#homepage cite:hover {
+  opacity: 1;
+}
+
+#homepage #what_we_do .items>.item>.image:not(.ui) {
+  width: 8rem;
+}
+
+#homepage #what_we_do .items>.item .bordered.icon {
+  margin-right: 0;
+  width: 100%;
+}
+
+#homepage #what_they_say .slick .small.container {
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+#homepage .ui.reference.image {
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+}
+
+#homepage .blockquote {
+  position: relative;
+  display: inline-block;
+}
+
+#homepage .blockquote:before, .blockquote:after {
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  font-family: Icons;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 1em;
+  height: 1em;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  speak: none;
+}
+
+#homepage .blockquote:before {
+  content: "\f10d";
+  left: -1.5em;
+}
+
+#homepage .blockquote:after {
+  content: "\f10e";
+  right: -1.5em;
+}
+
+#homepage #ads .ui.inverted.segment {
+  background-color: #333;
+}
+
+@media only screen and (max-width: 767px) {
+
+#homepage #what_we_do hr.ui.hidden.divider {
+  display: none;
+}
+
+#homepage #what_we_do .items>.item>.image {
+  width: 100%!important;
+}
+
+}
+

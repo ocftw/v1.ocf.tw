@@ -1,0 +1,266 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+<head>
+
+{% if page.layout == "project" %}
+  {% assign year = page.year | append: "" %}
+  {% assign id = page.project_id | append: "" %}
+  {% assign og_url = page.url %}
+  {% if page.og_title %}
+    {% assign og_title = page.og_title %}
+  {% else %}
+    {% assign og_title = site.data.projects[year][id].name %}
+  {% endif %}
+  {% if page.og_image %}
+    {% assign og_image = page.og_image %}
+  {% else %}
+    {% assign og_image = site.data.projects[year][id].cover %}
+  {% endif %}
+  {% if page.og_description %}
+    {% assign og_description = page.og_description %}
+  {% else %}
+    {% assign og_description = site.data.projects[year][id].description %}
+  {% endif %}
+
+{% elsif page.layout == "event" %}
+  {% assign year = page.year | append: "" %}
+  {% assign id = page.event_id %}
+  {% assign og_url = page.url %}
+  {% if page.og_title %}
+    {% assign og_title = page.og_title %}
+  {% else %}
+    {% assign og_title = site.data.events[year][id].title %}
+  {% endif %}
+  {% if page.og_image %}
+    {% assign og_image = page.og_image %}
+  {% else %}
+    {% assign og_image = site.data.events[year][id].cover %}
+  {% endif %}
+  {% if page.og_description %}
+    {% assign og_description = page.og_description %}
+  {% else %}
+    {% assign og_description = site.data.events[year][id].description %}
+  {% endif %}
+
+{% elsif page.layout == "report" %}
+  {% assign year = page.year | append: "" %}
+  {% assign og_url = page.url %}
+  {% if page.og_title %}
+    {% assign og_title = page.og_title %}
+  {% else %}
+    {% assign og_title = site.data.reports[year].title %}
+  {% endif %}
+  {% if page.og_image %}
+    {% assign og_image = page.og_image %}
+  {% else %}
+    {% assign og_image = site.data.reports[year].cover %}
+  {% endif %}
+  {% if page.og_description %}
+    {% assign og_description = page.og_description %}
+  {% else %}
+    {% assign og_description = site.data.reports[year].description %}
+  {% endif %}
+
+{% elsif page.layout == "redirect" %}
+  {% assign og_url = page.og_url %}
+
+  {% if page.data == "projects" %}
+    {% if page.year == "current" %}
+      {% assign year = site.data.settings.current | append: "" %}
+    {% else %}
+      {% assign year = page.year | append: "" %}
+    {% endif %}
+    {% assign id = page.project_id | append: "" %}
+    {% assign og_title = site.data.projects[year][id].name %}
+    {% assign og_image = site.data.projects[year][id].cover %}
+    {% assign og_description = site.data.projects[year][id].description %}
+
+    {% if page.refresh %}
+    <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
+    {% else %}
+    <meta http-equiv="refresh" content="0; url=/p/{{ year }}/{{ id }}" />
+    {% endif %}
+
+  {% elsif page.data == "events" %}
+    {% assign year = page.year | append: "" %}
+    {% assign project_id = page.project_id | append: "" %}
+    {% assign id = page.event_id %}
+    {% assign og_title = site.data.events[year][id].title %}
+    {% assign og_image = site.data.events[year][id].cover %}
+    {% assign og_description = site.data.events[year][id].description %}
+    {% if page.refresh %}
+    <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
+    {% else %}
+    <meta http-equiv="refresh" content="0; url=/p/{{ year }}/{{ project_id }}/{{ id }}" />
+    {% endif %}
+
+  {% elsif page.data == "reports" %}
+    {% if page.year == "current" %}
+      {% assign year = site.data.settings.current | append: "" %}
+    {% else %}
+      {% assign year = page.year | append: "" %}
+    {% endif %}
+    {% assign og_title = site.data.reports[year].title %}
+    {% assign og_image = site.data.reports[year].cover %}
+    {% assign og_description = site.data.reports[year].description %}
+    <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+
+  {% elsif page.data == "page" %}
+    {% for source_page in site.pages %}
+    {% assign ending = og_url | slice: -1 %}
+    {% if ending != "/" %}
+    {% assign og_url = og_url | append: "/" %}
+    {% endif %}
+    {% if source_page.url == og_url %}
+      {% assign og_title = source_page.og_title %}
+      {% if source_page.og_image %}
+        {% assign og_image = source_page.og_image %}
+      {% else %}
+        {% assign og_image = site.data.people.orgs.ocf.cover %}
+      {% endif %}
+      {% if source_page.og_description %}
+        {% assign og_description = source_page.og_description %}
+      {% else %}
+        {% assign og_image = site.data.people.orgs.ocf.context_description %}
+      {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% if page.refresh %}
+    <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
+    {% else %}
+    <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+    {% endif %}
+
+  {% else %}
+    {% assign og_title = page.og_title %}
+    {% if page.og_image %}
+      {% assign og_image = page.og_image %}
+    {% else %}
+      {% assign og_image = site.data.people.orgs.ocf.cover %}
+    {% endif %}
+    {% if page.og_description %}
+      {% assign og_description = page.og_description %}
+    {% else %}
+      {% assign og_description = site.data.people.orgs.ocf.context_description %}
+    {% endif %}
+    {% if page.refresh %}
+    <meta http-equiv="refresh" content="0; url={{ page.refresh }}" />
+    {% else %}
+    <meta http-equiv="refresh" content="0; url={{ og_url }}" />
+    {% endif %}
+
+  {% endif %}
+
+{% else %}
+  {% if page.og_url %}
+    {% assign og_url = page.og_url %}
+  {% else %}
+    {% assign og_url = page.url %}
+  {% endif %}
+  {% assign og_title = page.og_title %}
+  {% if page.og_image %}
+    {% assign og_image = page.og_image %}
+  {% else %}
+    {% assign og_image = site.data.people.orgs.ocf.cover %}
+  {% endif %}
+  {% if page.og_description %}
+    {% assign og_description = page.og_description %}
+  {% else %}
+    {% assign og_description = site.data.people.orgs.ocf.context_description %}
+  {% endif %}
+
+{% endif %}
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.config_url }}{{ og_url }}" />
+
+  <meta name="description" content="{{ og_description }}" />
+  <meta property="og:description" content="{{ og_description}}" /> 
+  <meta name="twitter:description" content="{{ og_description }}"/>
+
+  <meta property="og:image" content="{{ og_image }}" /> 
+  <meta name="twitter:image:src" content="{{ og_image }}" />
+
+  <meta property="og:title" content="{{ og_title }} | OCF 開放文化基金會" />
+  <meta name="twitter:title" content="{{ og_title }} | OCF 開放文化基金會" />
+  <title>{{ og_title }} | OCF 開放文化基金會</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+
+{% if page.layout != "redirect" %}
+
+  <link rel="stylesheet" href="/assets/semantic.min.css"/>
+
+  {% if page.head %}
+    {% include {{ page.head }} %}
+  {% endif %}
+
+  <link rel="stylesheet" href="/assets/global.css"/>
+
+  {% if page.layout == "project" %}
+  <link rel="stylesheet" href="/assets/project.css"/>
+  {% elsif page.layout == "event" %}
+  <link rel="stylesheet" href="/assets/event.css"/>
+  {% elsif page.layout == "report" %}
+  <link rel="stylesheet" href="/assets/report.css"/>
+  {% endif %}
+
+  {% if page.css %}
+  <link rel="stylesheet" href="{{ page.css }}"/>
+  {% endif %}
+
+{% endif %}
+
+</head>
+<body>
+
+{% if page.layout == "redirect" %}
+
+    {{ content }}
+
+{% else %}
+
+  <nav class="ui right inverted vertical menu sidebar">
+
+  {% if page.layout == "design" %}
+  {% include design_sidebar.html %}
+  {% else %}
+  {% include sidebar.html %}
+  {% endif %}
+
+  </nav>
+  <div class="pusher">
+    {{ content }}
+
+  {% include footer.html %}
+
+  </div>
+
+  <script src="/assets/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+  <script src="/assets/semantic.min.js"></script>
+  <script src="/assets/global.js"></script>
+
+  {% if page.script %}
+    {% include {{ page.script }} %}
+  {% endif %}
+  {% if page.layout == "project" %}
+
+  {% endif %}
+  {% if page.js %}
+
+  <script src="{{ page.js }}"></script>
+
+  {% endif %}
+  {% include ga.html %}
+
+{% endif %}
+
+</body>
+</html>
