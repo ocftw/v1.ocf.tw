@@ -2,7 +2,7 @@
 
 ## Preview
 
-[ocf.tw](http://ocf.tw/)
+[beta.ocf.tw](http://beta.ocf.tw/)
 
 ## Development
 
@@ -11,39 +11,34 @@ $ gem install jekyll
 $ jekyll serve
 ```
 
-## Structure
+## Add Project
 
-### Working Folders
+1. Create project data
 
-Web Content
+- Decide your project id (with all letters in lower case)
 
-- about/
-- people/
-- projects/
-- news/
-- mediakit/
-- index.html
+- Create a new `.yml` file
 
-Global Files
+  - file name: `(your_project_id).yml`
+  - file location: /_data/projects/(current_year)/, for example: [/_data/projects/2016/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/projects/2016)
 
-- assets/
-- img/
+- Copy [sample project](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/projects/_sample_project.yml) content to your new `(your_project_id).yml` file and start editing
 
-Jekyll Files
+2. Add project to `/projects/`
 
-- _deploy/
-- _includes/
-- _layouts/
-- _config.yml
+- Add `(your_project_id)` to the list in [/_data/projects/settings.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/projects/settings.yml)
 
-Github Pages Files
+3. Create a project page
 
-- CNAME
+- Create a new project folder
 
-Semantic UI Sources
+  - folder name: `(your_project_id)`
+  - folder location: /p/(current_year)/, for example: [/p/2016/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/2016)
 
-- _source
+- Create a `index.html` file in your new `(your_project_id)` folder
 
-### Legacy Folders
+- Copy [sample file](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/p/_sample_project/index.html) content to your new `index.html` file and start editing
 
-all other folders
+## Add Staff
+
+(TBD)
