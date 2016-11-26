@@ -1,0 +1,6 @@
+*.sw*
+.DS_Store
+_site
+_deploy
+*.lock
+Gemfile
