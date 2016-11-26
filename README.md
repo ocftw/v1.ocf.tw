@@ -24,7 +24,7 @@ $ jekyll serve
 
   - Copy [sample project](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/projects/_sample_project.yml) content to your new `(your_project_id).yml` file and start editing
 
-2. Add project to [/projects/](http://beta.ocf.tw/projects/){:target="_blank"} page
+2. Add the new project to [/projects/](http://beta.ocf.tw/projects/) page
 
   - Add `(your_project_id)` to the list in [/_data/projects/settings.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/projects/settings.yml)
 
