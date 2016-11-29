@@ -72,7 +72,7 @@
 
 ### 新增年度
 
-1. 編輯全站設定檔 [/_data/settings.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/settings.yml)，將 `current` 欄位內容改為新的年度，如把 `current: 2015` 改成 `current: 2016`
+1. 編輯全站設定檔 [/_data/settings.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/settings.yml) ，將 `current` 欄位內容改為新的年度，如把 `current: 2015` 改成 `current: 2016`
 
 2. 建立新年度的電子報資料
 
@@ -88,20 +88,23 @@
 
 ### 新增電子報
 
-1. 編輯當年度的電子報 yml 檔案，如 2016 年度的檔案為 [/_data/news/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/2016.yml)
+- 編輯當年度的電子報 yml 檔案，如 2016 年度的檔案為 [/_data/news/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/2016.yml)
 
 ### 新增成果報告
 
-1. 編輯當年度的成果報告 yml 檔案，如 2016 年度的檔案為 [/_data/reports/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/reports/2016.yml)
+- 編輯當年度的成果報告 yml 檔案，如 2016 年度的檔案為 [/_data/reports/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/reports/2016.yml)
 
 ### 編輯主選單
 
+- 編輯全站設定檔 [/_data/settings.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/settings.yml) ，修改 `menu` 欄位內容
 
 ### 編輯 people 頁分類選單
 
+- 編輯 people 頁設定檔 [/_data/people/settings.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/settings.yml) ，修改 `card` 、 `logo` 、 `label` 欄位內容
 
 ### 編輯 project 頁分類選單
 
+- 編輯 project 頁設定檔 [/_data/project/settings.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/project/settings.yml) ，修改 `filter` 欄位內容
 
 ### 編輯 about 頁大綱
 
