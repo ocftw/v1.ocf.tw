@@ -88,11 +88,11 @@
 
 ### 新增電子報
 
-- 編輯當年度的電子報 yml 檔案，如 2016 年度的檔案為 [/_data/news/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/2016.yml)
+- 編輯當年度的電子報 `.yml` 檔案，如 2016 年度的檔案為 [/_data/news/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/2016.yml)
 
 ### 新增成果報告
 
-- 編輯當年度的成果報告 yml 檔案，如 2016 年度的檔案為 [/_data/reports/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/reports/2016.yml)
+- 編輯當年度的成果報告 `.yml` 檔案，如 2016 年度的檔案為 [/_data/reports/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/reports/2016.yml)
 
 ### 編輯主選單
 
@@ -108,11 +108,23 @@
 
 ### 編輯 about 頁大綱
 
+- 編輯 about 網頁檔 [/about/index.html](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/about/index.html) ，修改檔頭的 `toc` 欄位內容
 
 ### 編輯 mediakit 頁大綱
 
+- 編輯 mediakit 網頁檔 [/mediakit/index.html](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/mediakit/index.html) ，修改檔頭的 `toc` 欄位內容
 
-## 開發者專區
+## 幕後作業區
+
+### 資料
+
+[工作人員後台](http://beta.ocf.tw/backend/)
+
+### 設計
+
+[設計師後台](http://beta.ocf.tw/design/)
+
+### 程式
 
 ```
 $ gem install jekyll
