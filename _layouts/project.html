@@ -8,7 +8,7 @@ layout: page
 {% assign project = site.data.projects[year][project_id] %}
 {% assign events = site.data.events[project_id] %}
 
-<div id="project">
+<main id="project">
 
 <section id="hero" class="ui inverted {{ page.color }} center aligned basic segment marginless">
   <img class="cover image"
@@ -96,15 +96,15 @@ layout: page
     </div>
 
     <div class="six wide column">
-      <div id="meta" class="ui sticky secondary basic segment">
+      <aside id="meta" class="ui sticky secondary basic segment">
 
       {% include meta.html %}
 
-      </div>
+      </aside>
     </div>
 
   </div>
   <div class="ui hidden divider"></div>
 </div>
 
-</div>
+</main>

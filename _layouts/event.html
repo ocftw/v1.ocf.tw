@@ -8,7 +8,7 @@ layout: page
 {% assign event_id = page.event_id %}
 {% assign event = site.data.events[year][event_id] %}
 
-<div id="event">
+<main id="event">
 
 <section id="hero" class="ui inverted {{ page.color }} basic segment marginless">
   <img class="cover image" src="{{ project.cover }}" style="opacity: {{ page.image_opacity }}" />
@@ -30,7 +30,7 @@ layout: page
   <div class="ui two column stackable grid">
 
     <div class="six wide column">
-      <div class="ui sticky basic paddingless segment">
+      <aside class="ui sticky basic paddingless segment">
 
         {% if event.banner %}
         <img class="ui fluid image" src="{{ event.banner }}">
@@ -40,7 +40,7 @@ layout: page
         <img class="ui fluid image" src="{{ event.logo }}">
         {% endif %}
 
-      </div>
+      </aside>
     </div>
 
     <div class="ten wide column">
@@ -65,4 +65,4 @@ layout: page
   <div class="ui hidden divider"></div>
 </div>
 
-</div>
+</main>
