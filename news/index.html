@@ -20,6 +20,7 @@ og_description: 開源開放大小事，搶鮮送到你家！OCF 電子報，每
       <section id="newsletters">
 
         {% for news in site.data.news reversed %}
+        {% unless news[0] contains "_" %}
         {% assign year = news[0] %}
 
         <h2 class="ui dividing header">{{ year }} 年</h2>
@@ -50,6 +51,7 @@ og_description: 開源開放大小事，搶鮮送到你家！OCF 電子報，每
 
         </div>
 
+        {% endunless %}
         {% endfor %}
 
       </section>
