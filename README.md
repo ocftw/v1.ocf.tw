@@ -68,7 +68,7 @@
 
   - 在活動資料夾中新增 `index.html` 檔案
 
-  - 複製 [活動頁 html 範本](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/_sample_project/_sample_evnet/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
+  - 複製 [活動頁 html 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/p/_sample_project/_sample_event/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
 
 
 ### 新增電子報
