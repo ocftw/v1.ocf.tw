@@ -20,7 +20,6 @@ function readyState(fn) {
 window.onDomReady(onReady);
 
 function onReady( ) {
-  console.log(jsondata);
   var crmCurrency = jsondata.currencySymbol;
   var cpid        = {{ page.cpid }};
   if ( jsondata.money_target > 0 ) {
