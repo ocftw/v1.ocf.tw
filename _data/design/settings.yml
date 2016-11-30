@@ -7,3 +7,5 @@ menu:
     url: /design/redirect
   - title: layout
     url: /design/layout
+  - title: actions
+    url: /design/actions

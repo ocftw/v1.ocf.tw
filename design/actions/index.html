@@ -1,0 +1,83 @@
+---
+layout: design
+og_title: 專案 actions 總覽
+og_description: 這頁是 OCF.tw 官網改版 2016 年度結案交接文件之一，列出全站所有專案頁面的 call to action 連結，用來確認每個專案頁的資料是否完整。
+script: script-tablesort.html
+css: /assets/design.css
+js: /assets/actions.js
+---
+
+<main id="actions">
+
+<section class="ui stripe center aligned container">
+<h1 class="ui icon header">
+<i class="icon flag checkered circular inverted pink"></i>
+{{ page.og_title }}</h1>
+<p>{{ page.og_description }}</p>
+</section>
+
+<section class="ui stripe container">
+<table class="ui sortable table">
+  <thead>
+  <tr>
+    <th class="four wide">url</th>
+    <th class="five wide">title</th>
+    <th class="three wide">links</th>
+    <th class="four wide">actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  {% for p in site.pages %}
+  {% if p.layout == "project" %}
+  <tr class="top aligned" data-url="{{ p.url }}">
+    <td>
+    <pre>{{ p.url }}</pre>
+    </td>
+    <td data-value="title">
+    </td>
+    <td data-value="links">
+    {% assign year = p.year | append: "" %}
+    {% assign project_id = p.project_id | append: "" %}
+    {% assign project = site.data.projects[year][project_id] %}
+    {% for link in project.link %}
+      <a class="item" href="{{ link.url }}"
+      {% if link.target != '_self' %}
+      target="_blank"
+      {% endif %}>
+
+        {% if link.target != "_self" %}
+        <i class="globe icon"></i>
+        {% endif %}
+
+        {{ link.title }}
+
+        {% if link.target == "_self" %}
+        <i class="right arrow icon"></i>
+        {% endif %}
+
+      </a>
+    {% endfor %}
+    </td>
+    <td data-value="actions">
+    {% for action in p.action %}
+      {% if action.url %}
+      <p>
+        <a class="ui {{ action.color }} tiny fluid button" href="{{ action.url }}" target="_blank">
+          <i class="{{action.icon}} icon"></i>
+          {{ action.title }}
+        </a>
+      </p>
+      {% else %}
+      <p>{{ action }}</p>
+      {% endif %}
+    {% endfor %}
+    </td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+  </tbody>
+</table>
+</section>
+
+<hr class="ui hidden divider" />
+</main>
