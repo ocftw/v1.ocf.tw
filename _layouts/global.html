@@ -1,10 +1,15 @@
 ---
 layout: compress
+# jekyll 官方指定使用的 layout，用來幹嘛的有點忘了...
 ---
+
+<!-- 全站所有頁面共用的終極 template -->
+
 <!DOCTYPE html>
 <html>
 <head>
 
+<!-- 讓所有 project 頁自動從專案資料中生出 og 素材 -->
 {% if page.layout == "project" %}
   {% assign year = page.year | append: "" %}
   {% assign id = page.project_id | append: "" %}
@@ -25,6 +30,7 @@ layout: compress
     {% assign og_description = site.data.projects[year][id].description %}
   {% endif %}
 
+<!-- 讓所有 event 頁自動從活動及所屬專案資料中生出 og 素材 -->
 {% elsif page.layout == "event" %}
   {% assign year = page.year | append: "" %}
   {% assign id = page.event_id %}
@@ -45,6 +51,7 @@ layout: compress
     {% assign og_description = site.data.events[year][id].description %}
   {% endif %}
 
+<!-- 讓所有 report 頁自動從報告資料中生出 og 素材 -->
 {% elsif page.layout == "report" %}
   {% assign year = page.year | append: "" %}
   {% assign og_url = page.url %}
@@ -64,9 +71,11 @@ layout: compress
     {% assign og_description = site.data.reports[year].description %}
   {% endif %}
 
+<!-- 讓所有 redirect 頁根據目的地自動找到適合的 og 素材 -->
 {% elsif page.layout == "redirect" %}
   {% assign og_url = page.og_url %}
 
+  <!-- 該 redirect 頁指定資料來源是 projects 的時候 -->
   {% if page.data == "projects" %}
     {% if page.year == "current" %}
       {% assign year = site.data.settings.current | append: "" %}
@@ -84,6 +93,7 @@ layout: compress
     <meta http-equiv="refresh" content="0; url=/p/{{ year }}/{{ id }}" />
     {% endif %}
 
+  <!-- 該 redirect 頁指定資料來源是 events 的時候 -->
   {% elsif page.data == "events" %}
     {% assign year = page.year | append: "" %}
     {% assign project_id = page.project_id | append: "" %}
@@ -97,6 +107,7 @@ layout: compress
     <meta http-equiv="refresh" content="0; url=/p/{{ year }}/{{ project_id }}/{{ id }}" />
     {% endif %}
 
+  <!-- 該 redirect 頁指定資料來源是 reports 的時候 -->
   {% elsif page.data == "reports" %}
     {% if page.year == "current" %}
       {% assign year = site.data.settings.current | append: "" %}
@@ -108,6 +119,7 @@ layout: compress
     {% assign og_description = site.data.reports[year].description %}
     <meta http-equiv="refresh" content="0; url={{ og_url }}" />
 
+  <!-- 該 redirect 頁指定資料來源是轉址目的地頁面的時候 -->
   {% elsif page.data == "page" %}
     {% for source_page in site.pages %}
     {% assign ending = og_url | slice: -1 %}
@@ -134,6 +146,7 @@ layout: compress
     <meta http-equiv="refresh" content="0; url={{ og_url }}" />
     {% endif %}
 
+  <!-- 該 redirect 頁沒有指定資料來源的時候 -->
   {% else %}
     {% assign og_title = page.og_title %}
     {% if page.og_image %}
@@ -154,6 +167,7 @@ layout: compress
 
   {% endif %}
 
+<!-- 讓所有一般頁套用指定或預設的 og 素材 -->
 {% else %}
   {% if page.og_url %}
     {% assign og_url = page.og_url %}
@@ -174,6 +188,8 @@ layout: compress
 
 {% endif %}
 
+<!-- 以上 og 素材來源處理完畢，開始套到 meta 標籤中 -->
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
 
@@ -193,24 +209,32 @@ layout: compress
 
   <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 
+<!-- 替有實際內容的頁面套上 css -->
 {% if page.layout != "redirect" %}
 
   <link rel="stylesheet" href="/assets/semantic.min.css"/>
 
+  <!-- 給所有頁面有額外新增 head 標籤的空間 -->
   {% if page.head %}
     {% include {{ page.head }} %}
   {% endif %}
 
   <link rel="stylesheet" href="/assets/global.css"/>
 
+  <!-- 替所有 project 頁套上 css -->
   {% if page.layout == "project" %}
   <link rel="stylesheet" href="/assets/project.css"/>
+
+  <!-- 替所有 event 頁套上 css -->
   {% elsif page.layout == "event" %}
   <link rel="stylesheet" href="/assets/event.css"/>
+
+  <!-- 替所有 report 頁套上 css -->
   {% elsif page.layout == "report" %}
   <link rel="stylesheet" href="/assets/report.css"/>
   {% endif %}
 
+  <!-- 給所有頁面有額外新增 css 的空間 -->
   {% if page.css %}
   <link rel="stylesheet" href="{{ page.css }}"/>
   {% endif %}
@@ -220,10 +244,12 @@ layout: compress
 </head>
 <body>
 
+<!-- 替 redirect 頁面節省載入時間 -->
 {% if page.layout == "redirect" %}
 
     {{ content }}
 
+<!-- 替有實際內容的頁面套上 sidebar 以及 js -->
 {% else %}
 
   <nav class="ui right inverted vertical menu sidebar">
@@ -250,14 +276,11 @@ layout: compress
   {% if page.script %}
     {% include {{ page.script }} %}
   {% endif %}
-  {% if page.layout == "project" %}
 
-  {% endif %}
   {% if page.js %}
-
   <script src="{{ page.js }}"></script>
-
   {% endif %}
+
   {% include ga.html %}
 
 {% endif %}

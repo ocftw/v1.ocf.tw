@@ -2,10 +2,13 @@
 layout: page
 ---
 
+<!-- 成果報告頁共用的 template -->
+
 {% assign year = page.year | append: '' %}
 
 <main id="report">
 
+<!-- 從成果報告資料產生頁面 header -->
 <header class="ui center aligned stripe container">
   <h1 class="ui icon header">
     <i class="circular trophy icon"></i>
@@ -16,118 +19,102 @@ layout: page
   </p>
 </header>
 
+<!-- 從成果報告資料產生各展示區塊 -->
 {% for item in site.data.reports[ year ].items %}
-  {% if item.type == "header" %}
 
+<!-- 標題區塊 -->
+{% if item.type == "header" %}
 <header class="ui basic very padded segment marginless inverted {{ item.background_color }}">
   <div class="ui center aligned stripe container">
     <h2 class="ui inverted header">
-
     {% if item.icon %}
-
       <i class="{{ item.icon }} icon bordered"></i>
-
     {% endif %}
-
       {{ item.title }}
     </h2>
   </div>
 </header>
 
-  {% endif %}
-  {% if item.type == "content" %}
-
+<!-- 內容區塊 -->
+{% elsif item.type == "content" %}
 <section class="ui two column stackable grid">
 
-    {% for column in item.columns %}
-      {% if column.type == "image" %}
+{% for column in item.columns %}
+  {% if column.type == "image" %}
 
+  <!-- 根據資料決定影像 column 的位置是否要左右對調 -->
   <div class="column{% if item.swap %} flex-swap{% endif %}">
     <img class="ui image" src="{{ column.url }}" />
   </div>
 
-      {% endif %}
-      {% if column.type == "article" %}
-
+  <!-- 根據資料產生文章 column 內容 -->
+  {% elsif column.type == "article" %}
   <div class="column">
     <div class="ui center aligned stripe container">
+
       <h3 class="ui header">
-        {{ column.title }}
-
-        {% if column.subtitle %}
-
+      {{ column.title }}
+      {% if column.subtitle %}
         <div class="sub header">
           {{ column.subtitle }}
         </div>
-
-        {% endif %}          
-
+      {% endif %}
       </h3>
 
-        {% if column.description %}
-
+      {% if column.description %}
       <p>
-        {{ column.description }}
+      {{ column.description }}
       </p>
+      {% endif %}
 
-        {% endif %}          
-        {% if column.items %}
-
+      {% if column.items %}
       <div class="ui link celled list">
+      {% for link in column.items %}
 
-          {% for link in column.items %}
-            {% if link.project_id %}
-              {% assign data = site.data.projects[year][link.project_id] %}
-
+        {% if link.project_id %}
+        {% assign data = site.data.projects[year][link.project_id] %}
         <a class="item" href="{{ data.link[0].url }}" target="_blank">
-
-              {% if data.month %}
-
+          {% if data.month %}
           <span class="ui horizontal label">
-            {{ data.month }} 月
+          {{ data.month }} 月
           </span>
-
-              {% endif %}
-
+          {% endif %}
           {{ data.abbr }}
         </a>
+        {% endif %}
 
-            {% endif %}
-            {% if link.title %}
-
+        {% if link.title %}
         <a class="item" href="link.url" target="_blank">
           <span class="ui horizontal label">
-            {{ link.month }} 月
+          {{ link.month }} 月
           </span>
-            {{ link.title }}
+          {{ link.title }}
         </a>
-
-            {% endif %}
-          {% endfor %}
-
-      </div>
-
         {% endif %}
-        {% if column.action %}
 
+      {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if column.action %}
       <a class="ui basic button" href="{{ column.action.url }}" target="_blank">
         {{ column.action.title }}
         <i class="right arrow icon"></i>
       </a>
-
-        {% endif %}
+      {% endif %}
 
     </div>
   </div>
 
-      {% endif %}
-    {% endfor %}
+    {% endif %}
+  {% endfor %}
 
 </section>
 
-  {% endif %}
+{% endif %}
 {% endfor %}
 
+<!-- 最後放上無所不在的捐款廣告 -->
 {% include cta.html %}
 
 </main>

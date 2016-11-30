@@ -2,6 +2,9 @@
 layout: page
 ---
 
+<!-- 專案頁共用的 template -->
+
+<!-- 抓取專案基本資料 -->
 {% assign current = site.data.settings.current | append: "" %}
 {% assign year = page.year | append: "" %}
 {% assign project_id = page.project_id | append: "" %}
@@ -10,7 +13,10 @@ layout: page
 
 <main id="project">
 
+<!-- 根據專案資料產生頁面 header -->
 <section id="hero" class="ui inverted {{ page.color }} center aligned basic segment marginless">
+
+  <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
   <img class="cover image"
   {% if page.cover_image %}
   src="{{ page.cover_image }}"
@@ -20,6 +26,7 @@ layout: page
   style="opacity: {{ page.cover_image_opacity }}" />
   <div class="cover" style="opacity: {{ page.cover_veil_opacity }}"></div>
   <hr class="ui hidden section divider" />
+
   <div class="ui stripe relative container">
     <h1 class="ui inverted header">
       {{ project.name }}
@@ -34,11 +41,14 @@ layout: page
   <hr class="ui hidden section divider" />
 </section>
 
+<!-- 根據專案資料產生 summary 區塊 -->
+{% if project.description %}
 <div class="ui container">
   <section class="ui inverted bottom attached {{ page.color }} segment borderless">
     <p>{{ project.description }}</p>
   </section>
 </div>
+{% endif %}
 
 <div class="ui container">
   <div class="ui hidden divider"></div>
@@ -47,16 +57,19 @@ layout: page
 
       {{ content }}
 
+      <!-- 根據專案頁設定，從活動資料產生專案成果列表區塊 -->
       {% if events and page.show_events %}
       <h2 id="events" class="ui dividing header">計畫成果</h2>
       {% include events.html %}
       {% endif %}
 
+      <!-- 根據專案頁設定，顯示專案預算表區塊 -->
       {% if page.show_budget %}
       <h2 id="budget" class="ui header">預算表</h2>
       {% include_relative budget.html %}
       {% endif %}
 
+      <!-- 根據專案頁設定，顯示內嵌 gsheet 區塊 -->
       {% if page.gsheet_url contains "http" %}
       <h2 id="payments" class="ui dividing header">收支明細</h2>
       <div class="ui basic paddingless segment">
@@ -64,6 +77,7 @@ layout: page
       </div>
       {% endif %}
 
+      <!-- 根據專案頁設定，從專案資料產生贊助商 logo 牆 -->
       {% if project.sponsor_id and page.show_sponsors %}
       <h2 class="ui dividing header">贊助單位</h2>
       <div id="sponsors" class="ui horizontal center aligned list">
@@ -82,6 +96,7 @@ layout: page
       </div>
       {% endif %}
 
+      <!-- 根據專案頁設定，從專案資料產生捐助人名單 -->
       {% if project.donors and page.show_donors %}
       <h2 class="ui dividing header">捐助人</h2>
       <div id="donors" class="ui center aligned labels">
@@ -98,6 +113,7 @@ layout: page
     <div class="six wide column">
       <aside id="meta" class="ui sticky secondary basic segment">
 
+      <!-- 從專案資料產生小檔案以及 call to action 區塊 -->
       {% include meta.html %}
 
       </aside>

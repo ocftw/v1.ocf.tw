@@ -2,6 +2,9 @@
 layout: page
 ---
 
+<!-- 活動頁共用的 template -->
+
+<!-- 抓取活動基本資料 -->
 {% assign year = page.year | append: "" %}
 {% assign project_id = page.project_id | append: "" %}
 {% assign project = site.data.projects[year][project_id] %}
@@ -10,9 +13,13 @@ layout: page
 
 <main id="event">
 
+<!-- 讓使用者可以連到活動所屬的專案 -->
 <section id="hero" class="ui inverted {{ page.color }} basic segment marginless">
+
+  <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
   <img class="cover image" src="{{ project.cover }}" style="opacity: {{ page.image_opacity }}" />
   <div class="cover" style="opacity: {{ page.veil_opacity }}"></div>
+
   <div class="ui container">
     <a href="{{ project.link[0].url }}" class="ui inverted small header relative">
       <i class="left arrow icon"></i>
@@ -26,18 +33,24 @@ layout: page
 
 <div class="ui container">
   <div class="ui hidden divider"></div>
-
   <div class="ui two column stackable grid">
-
     <div class="six wide column">
+
       <aside class="ui sticky basic paddingless segment">
 
+        <!-- 拿 x 展架海報當配圖，如果有的話 -->
         {% if event.banner %}
         <img class="ui fluid image" src="{{ event.banner }}">
+
+        <!-- 或者拿 og image 當配圖，如果有的話 -->
         {% elsif event.cover %}
         <img class="ui fluid image" src="{{ event.cover }}">
+
+        <!-- 或者拿活動 logo 當配圖，如果有的話 -->
         {% elsif event.logo %}
         <img class="ui fluid image" src="{{ event.logo }}">
+
+        <!-- 以上通通沒有的話就算啦 -->
         {% endif %}
 
       </aside>
@@ -45,22 +58,20 @@ layout: page
 
     <div class="ten wide column">
 
+      <!-- 根據活動資料生出頁面 header -->
       <h1 class="ui header">
         {{ event.title }}
-
         {% if event.subtitle %}
         {% for subtitle in event.subtitle %}
         <span class="sub header">{{ subtitle }}</span>
         {% endfor %}
         {% endif %}
       </h1>
-
       {% include summary.html %}
 
       {{ content }}
 
     </div>
-
   </div>
   <div class="ui hidden divider"></div>
 </div>
