@@ -145,7 +145,7 @@ js: /assets/projects.js
           </div>
         </div>
         <div class="extra content">
-
+        <div class="ui horizontal list">
           {% for link in project.link %}
           <a class="item" href="{{ link.url }}"
           {% if link.target != '_self' %}
@@ -164,7 +164,7 @@ js: /assets/projects.js
 
           </a>
           {% endfor %}
-
+        </div>
         </div>
       </div>
 
