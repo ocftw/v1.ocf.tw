@@ -1,33 +1,42 @@
-name: 智新資通
-name_en:
-abbr: 
-tagline: 
-cover: 
-description: 
-month: 
-start: 
-end: 
+name: U．MAKER
+cover: /p/2016/umaker/og.jpg
+description: 智新資通與開放文化基金會合作，推出3個「自玩自印：不求人」專案，每台機器將捐贈10%給開放文化基金會行政基金專戶，持續支持開放文化的推廣。
 link:
-  - title: 官方網站
-    url: http://www.steps.com.tw/
-tag:
-  - 
+  - title: 專案介紹
+    url: /p/2016/umaker/
+    target: _self
+
 type_id:
   - organization
 topic_id:
   - hardware
 field_id:
   - it
-advisor_id:
+
+tagline: 自玩自印　不求人
+avatar: 
+
 organizer_id:
   - steps
+advisor_id:
 co-organizer_id:
 implementer_id:
+sponsor_id:
+coordinator_id:
+  - pofeng
+donors:
+meta:
+
+start: 
+end: 
+tag:
+abbr: 
+month: 
+
+name_en: 
 board_id:
   - pofeng
 staff_id:
   - singing
 consultant_id:
 volunteer_id:
-coordinator_id:
-  - pofeng
