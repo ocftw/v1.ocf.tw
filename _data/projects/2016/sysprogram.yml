@@ -12,12 +12,6 @@ link:
   - title: 專案介紹
     url: /p/2016/sysprogram
     target: _self
-action:
-  - title: 贊助專案
-    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=13&_ga=1.194098027.715222481.1473081200
-    color: green
-    icon: dollar
-  - 如果你想捐贈我們正需要的教材、儀器設備，請與我們聯絡 ( hi@ocf.tw)。
 tag:
 type_id:
   - community
@@ -38,10 +32,3 @@ volunteer_id:
 coordinator_id:
   - jserv
 meta:
-  - label: 募款目標
-    content: NT$ 200,000
-  - label: 已募款金額
-    content: NT$ 350,600
-progress:
-  percent: 100
-  updated: 2016/10/19

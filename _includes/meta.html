@@ -132,32 +132,71 @@
   </div>
   {% endfor %}
 
-</div>
+{% if page.show_progress %}
+{% assign progress = page.progress %}
 
-{% if project.progress %}
-  {% assign progress = project.progress %}
-
-<div class="ui indicating progress active" data-percent="{{ progress.percent }}">
-  <div class="bar" style="width: {{ progress.percent }}%;">
-    <div class="progress">{{ progress.percent }} %</div>
+  {% if progress.duration %}
+  <div class="item">
+    <span class="ui horizontal label">募款期間</span>
+    <span class="text">
+      {{ progress.duration }}
+    </span>
   </div>
-
-  {% if progress.updated %}
-  <div class="label" style="font-weight: normal; opacity: 0.5;">於 {{ progress.updated }} 更新
+  {% endif %}
+  {% if progress.goal %}
+  <div class="item">
+    <span class="ui horizontal label">募款目標</span>
+    <span id="crm_cpid_{{ page.cpid }}_amt_hi" class="text">
+      {{ progress.goal }}
+    </span>
+  </div>
+  {% endif %}
+  {% if progress.current %}
+  <div class="item">
+    <span class="ui horizontal label">已募得</span>
+    <span id="crm_cpid_{{ page.cpid }}_amt_raised" class="text">
+      {{ progress.current }}
+    </span>
+  </div>
+  {% endif %}
+  {% if progress.count %}
+  <div class="item">
+    <span class="ui horizontal label">支持者</span>
+    <span class="text">
+      <span id="crm_cpid_{{ page.cpid }}_donors">
+      {{ progress.count }}
+      </span>
+      人
+    </span>
   </div>
   {% endif %}
 
 </div>
+
+<div id="crm_cpid_{{ page.cpid }}_amt_fill" class="ui indicating progress active" data-percent="{{ progress.percent }}">
+  <div class="bar" style="width: {{ progress.percent }}%;">
+    <div class="progress">{{ progress.percent }} %</div>
+  </div>
+  {% if progress.updated %}
+  <div class="label" style="font-weight: normal; opacity: 0.5;">於 {{ progress.updated }} 更新
+  </div>
+  {% endif %}
+</div>
+
+{% if page.cpid %}
+{% include progress.html %}
+{% endif %}
+
 {% endif %}
 
 {% if page.year == site.data.settings.current %}
-{% if project.action %}
+{% if page.action %}
 <div class="ui horizontal divider">
   <i class="heart icon"></i>
   加入我們
 </div>
 
-  {% for action in project.action %}
+  {% for action in page.action %}
     {% if action.url %}
 
 <p>

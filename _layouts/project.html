@@ -57,7 +57,7 @@ layout: page
       {% include_relative budget.html %}
       {% endif %}
 
-      {% if page.gsheet_url %}
+      {% if page.gsheet_url contains "http" %}
       <h2 id="payments" class="ui dividing header">收支明細</h2>
       <div class="ui basic paddingless segment">
         <iframe src="{{ page.gsheet_url }}"></iframe>
