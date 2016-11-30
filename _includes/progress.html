@@ -20,6 +20,7 @@ function readyState(fn) {
 window.onDomReady(onReady);
 
 function onReady( ) {
+  console.log(jsondata);
   var crmCurrency = jsondata.currencySymbol;
   var cpid        = {{ page.cpid }};
   if ( jsondata.money_target > 0 ) {
@@ -37,6 +38,9 @@ function onReady( ) {
         success: "Complete!"
       }
     });
+  }
+  if ( jsondata.money_raised ){
+    document.getElementById('progress_updated').textContent = "今天";
   }
 }
 </script>
