@@ -109,3 +109,41 @@ consultant_id:
 volunteer_id:
 # 志工 id，目前不會出現在任何地方，可忽略
   - id
+
+# ------ 以下無註解快速複製版 ------
+
+name: 
+cover: 
+description: 
+link:
+  - title: 
+    url: 
+    target: 
+
+type_id:
+topic_id:
+field_id:
+
+tagline: 
+avatar: 
+
+organizer_id:
+advisor_id:
+co-organizer_id:
+implementer_id:
+sponsor_id:
+coordinator_id:
+donors:
+meta:
+
+start: 
+end: 
+tag:
+abbr: 
+month: 
+
+name_en: 
+board_id:
+staff_id: 
+consultant_id:
+volunteer_id:
