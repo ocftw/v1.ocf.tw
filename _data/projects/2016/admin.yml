@@ -10,7 +10,7 @@ start:
 end: 
 link:
   - title: 專案介紹
-    url: /p/2016/admin
+    url: /p/admin
     target: _self
 tag:
 type_id:

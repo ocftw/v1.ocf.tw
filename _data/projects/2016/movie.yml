@@ -9,7 +9,7 @@ start:
 end: 
 link:
   - title: 專案介紹
-    url: /p/2016/movie
+    url: /p/movie
     target: _self
 tag:
   - 電影
