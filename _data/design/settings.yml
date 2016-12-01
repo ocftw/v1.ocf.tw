@@ -2,10 +2,14 @@
 
 menu:
   - title: og
-    url: /design/og
+    url: /design/og/
   - title: redirect
-    url: /design/redirect
+    url: /design/redirect/
   - title: layout
-    url: /design/layout
+    url: /design/layout/
   - title: actions
-    url: /design/actions
+    url: /design/actions/
+  - title: data
+    url: /design/data/
+  - title: content
+    url: /design/content/
