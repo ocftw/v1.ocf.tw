@@ -7,12 +7,14 @@
 
 <div class="ui list">
 {% for item in site.data.reports %}
+{% unless item[0] contains "_" %}
   <div class="item">
     <a href="/projects/{{ item[0] }}" target="_blank">
       <i class="globe icon"></i>
       {{ item[0] }} 年成果報告
     </a>
   </div>
+{% endunless %}
 {% endfor %}
   <div class="item">
     <a href="https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=1" target="_blank">
