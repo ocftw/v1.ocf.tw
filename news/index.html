@@ -19,14 +19,13 @@ og_description: 開源開放大小事，搶鮮送到你家！OCF 電子報，每
 
       <section id="newsletters">
 
-        {% for news in site.data.news reversed %}
-        {% unless news[0] contains "_" %}
-        {% assign year = news[0] %}
+        {% for news_id in site.data.news.settings.list %}
+        {% assign year = news_id | append: "" %}
 
         <h2 class="ui dividing header">{{ year }} 年</h2>
         <div class="ui divided items">
 
-          {% for item in news[1] reversed %}
+          {% for item in site.data.news[year] reversed %}
 
           <div class="item">
             <div class="image">
@@ -51,7 +50,6 @@ og_description: 開源開放大小事，搶鮮送到你家！OCF 電子報，每
 
         </div>
 
-        {% endunless %}
         {% endfor %}
 
       </section>
