@@ -2,7 +2,10 @@
 layout: design
 og_title: 跨頁 content 總覽
 og_description: 這頁是 OCF.tw 官網改版 2016 年度結案交接文件之一，對照 sitemap 和網站內容元件，圖解呈現各段文字會顯示在什麼地方，讓接手維護的人在修改內容架構時，可以較方便地評估可能的影響範圍。
+head: css-fancybox.html
+script: script-fancybox.html
 css: /assets/design.css
+js: /assets/fancybox.js
 toc:
   slogan: OCF 口號
   description: OCF 簡介文案
@@ -56,10 +59,9 @@ toc:
 
       {% for article in page.toc %}
       <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
-
-      <figure class="ui fluid image">
-        <img src="{{ article[0] }}.png">
-      </figure>
+      <a class="ui fluid image fancybox" rel="fancybox" href="{{ article[0] }}.png" title="{{ article[1] }}">
+        <img src="{{ article[0] }}.png" alt="{{ article[1] }}">
+      </a>
       {% endfor %}
 
     </div>
