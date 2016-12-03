@@ -7,10 +7,10 @@ menu:
     url: /design/redirect/
   - title: actions
     url: /design/actions/
-  - title: content
-    url: /design/content/
   - title: layout
     url: /design/layout/
+  - title: content
+    url: /design/content/
   - title: data
     url: /design/data/
   - title: ui

@@ -9,12 +9,15 @@ js: /assets/redirect.js
 
 <main id="redirect">
 
-<section class="ui stripe center aligned container">
-<h1 class="ui icon header">
-<i class="icon mail forward circular inverted pink"></i>
-{{ page.og_title }}</h1>
-<p>{{ page.og_description }}</p>
-</section>
+<header class="ui stripe center aligned container">
+  <h1 class="ui icon header">
+    <i class="icon mail forward circular inverted pink"></i>
+  {{ page.og_title }}
+  </h1>
+  <div class="intro">
+    <p>{{ page.og_description }}</p>
+  </div>
+</header>
 
 <section class="ui stripe container">
 <table class="ui sortable table">

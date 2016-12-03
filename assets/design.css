@@ -12,3 +12,10 @@ table td pre, table td code {
   background-image: none;
 }
 
+.intro {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: hsla(0, 0%, 0%, 0.05);
+  text-align: left;
+  padding: 1rem;
+}

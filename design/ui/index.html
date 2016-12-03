@@ -10,53 +10,136 @@ toc:
 
 <main id="ui">
 
-<section class="ui stripe center aligned container">
-
+<header class="ui stripe center aligned container">
   <h1 class="ui icon header">
     <i class="icon puzzle circular inverted pink"></i>
     {{ page.og_title }}
   </h1>
-  <p>{{ page.og_description }}</p>
-
-  <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
-    <div class="ui dropdown item">
-      <span data-content="current">跳至...</span>
-      <i class="dropdown icon"></i>
-      <div class="menu">
-
-        {% for article in page.toc %}
-        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
-        {% endfor %}
-
-      </div>
-    </div>
-  </nav>
-
-</section>
+  <div class="intro">
+    <p>{{ page.og_description }}</p>
+  </div>
+</header>
 
 <section class="ui stripe container">
 
-  <div class="ui two column stackable grid">
-
-    <div id="toc" data-context="desktop" class="six wide column">
-      <nav class="ui secondary sticky vertical pointing fluid menu">
-
-        {% for article in page.toc %}
-        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
-        {% endfor %}
-
-      </nav>
-    </div>
-
-    <div class="ten wide column">
-
-      {% for article in page.toc %}
-      <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
-
-      {% endfor %}
-
-    </div>
-  </div>
+<table class="ui sortable table">
+  <thead>
+  <tr>
+    <th class="one wide"></th>
+    <th class="three wide">展示型</th>
+    <th class="three wide">列表型</th>
+    <th class="three wide">文章型</th>
+    <th class="three wide">專案型</th>
+    <th class="three wide">活動型</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="top aligned">
+    <td>版型</td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="top aligned">
+    <td>使用<br />意圖</td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="top aligned">
+    <td>使用<br />方式</td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="top aligned">
+    <td>網頁<br />目的</td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="top aligned">
+    <td>排版<br />原則</td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="top aligned">
+    <td>頭條</td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="top aligned">
+    <td>內容</td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="top aligned">
+    <td>導覽</td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  </tbody>
+</table>
 
 </section>
 
