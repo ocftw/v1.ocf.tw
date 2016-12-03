@@ -5,7 +5,17 @@ table th, table td {
 
 table td pre, table td code {
   margin: 0;
+}
+table td pre {
   padding: 0;
+}
+
+#ui .ui.container {
+  overflow-x: auto;
+}
+
+#ui .ui.unstackable.table {
+  min-width: 640px;
 }
 
 #header {
@@ -18,4 +28,176 @@ table td pre, table td code {
   background-color: hsla(0, 0%, 0%, 0.05);
   text-align: left;
   padding: 1rem;
+}
+
+.webpage {
+  display: flex;
+  height: 15rem;
+  flex-direction: column;
+  box-shadow: 0 0 0 1px hsla(0, 0%, 0%, 0.8);
+  text-align: center;
+}
+
+.webpage .line.collapsed {
+  line-height: 1.2em;
+}
+
+.webpage .line.very.collapsed {
+  line-height: 1em;
+}
+
+.webpage>.content {
+  flex: 1 1 auto;
+}
+
+.webpage>.nav,
+.webpage>.header,
+.webpage>.footer,
+.webpage>.ads {
+  flex: 0 0 auto;
+}
+
+.webpage>.nav,
+.webpage>.footer,
+.webpage>.inverted {
+  background-color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.webpage>.content>.slide,
+.webpage>.header {
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.webpage>.content>.slide,
+.webpage>.header,
+.webpage>.submenu {
+  border-bottom: 1px hsla(0, 0%, 0%, 0.1) solid;
+}
+
+.webpage>.header .icon {
+  margin: 0;
+}
+
+.webpage>.content>.slide:last-child {
+  border-bottom: none;
+}
+
+.webpage>.content>.card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.webpage>.content>.card:first-child {
+  margin-top: 0.2rem;
+}
+
+.webpage>.content>.card>.item {
+  background-color: hsla(0, 0%, 0%, 0.1);
+  flex: 1 1 auto;
+  margin: 0.2rem;
+  min-height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.webpage>.content>.card>.item:first-child {
+  margin-left: 0.4rem;
+}
+
+.webpage>.content>.card>.item:last-child {
+  margin-right: 0.4rem;
+}
+
+.webpage>.content>.article {
+  display: flex;
+  text-align: left;
+}
+
+.webpage>.content>.article>.toc,
+.webpage>.content>.article>.action,
+.webpage>.content>.article>.banner {
+  flex: 1 1 30%;
+}
+
+.webpage>.content>.article>.toc {
+  border-right: 1px hsla(0, 0%, 0%, 0.1) solid;
+}
+
+.webpage>.content>.article>.action .block,
+.webpage>.content>.article>.banner .block {
+  height: 5rem;
+  display: flex;
+}
+
+.webpage>.content>.article>.action .block {
+  margin: 0.4rem 0.4rem 0.4rem 0;
+  background-color: hsla(0, 0%, 0%, 0.1);
+  align-items: flex-end;
+}
+
+.webpage>.content>.article>.banner .block {
+  margin: 0.4rem 0 0.4rem 0.4rem;
+  background-color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 100%, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+.webpage>.content>.article>.action .block .button,
+.webpage>.content>.article>.content .button {
+  border-radius: 0.5em;
+  font-size: 0.8em;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.webpage>.content>.article>.action .block .button{
+  width: 100%;
+}
+
+.webpage>.content>.article>.content .button {
+  margin: 0.4rem;
+}
+
+.webpage>.content>.article>.content {
+  flex: 2 2 60%;
+}
+
+.webpage>.content>.article .heading {
+  height: 1em;
+  line-height: 1em;
+  margin: 0.4rem;
+}
+
+.webpage>.content>.article .line {
+  background-color: hsla(0, 0%, 0%, 0.1);
+  height: 0.4rem;
+  margin: 0.4rem;
+}
+
+.webpage>.content>.article .line.title {
+  height: 1em;
+  line-height: 1em;
+  font-size: 0.8em;
+}
+
+.webpage>.content>.article .line.title.large {
+  height: 1em;
+  line-height: 1em;
+  font-size: 1em;
+}
+
+.webpage>.content>.article>.content>.line:last-child {
+  margin-right: 30%;
 }

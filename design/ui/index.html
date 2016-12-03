@@ -22,73 +22,428 @@ toc:
 
 <section class="ui stripe container">
 
-<table class="ui sortable table">
+<table class="ui center aligned celled unstackable table">
   <thead>
   <tr>
     <th class="one wide"></th>
     <th class="three wide">展示型</th>
     <th class="three wide">列表型</th>
     <th class="three wide">文章型</th>
-    <th class="three wide">專案型</th>
-    <th class="three wide">活動型</th>
+    <th class="three wide">邀請型（大）</th>
+    <th class="three wide">邀請型（小）</th>
   </tr>
   </thead>
   <tbody>
   <tr class="top aligned">
     <td>版型</td>
     <td>
+      <div class="webpage">
+        <div class="nav">導覽列</div>
+        <div class="header inverted">頭條</div>
+        <div class="content">
+          <div class="slide">簡報 1</div>
+          <div class="slide">簡報 2</div>
+          <div class="slide">...</div>
+        </div>
+        <div class="footer">頁尾</div>
+      </div>
     </td>
     <td>
+      <div class="webpage">
+        <div class="nav">導覽列</div>
+        <div class="header">
+          <i class="icon small circle thin"></i>
+          <div>標題</div>
+        </div>
+        <div class="submenu">選單</div>
+        <div class="content">
+          <div class="card">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+          </div>
+          <div class="card">
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+          </div>
+          <div class="card">...
+          </div>
+        </div>
+        <div class="footer">頁尾</div>
+      </div>
     </td>
     <td>
+      <div class="webpage">
+        <div class="nav">導覽列</div>
+        <div class="header">
+          <i class="icon small circle thin"></i>
+          <div>標題</div>
+        </div>
+        <div class="content">
+          <div class="article">
+            <div class="toc">
+              <div class="line title">1</div>
+              <div class="line title">2</div>
+              <div class="line title">3</div>
+            </div>
+            <div class="content">
+              <div class="title line">1</div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="title line">2</div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="title line">3</div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">頁尾</div>
+      </div>
     </td>
     <td>
+      <div class="webpage">
+        <div class="nav">導覽列</div>
+        <div class="header inverted">標題</div>
+        <div class="content">
+          <div class="article">
+            <div class="content">
+              <div class="title line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="title line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="title line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+            <div class="action">
+              <div class="block">
+                <div class="button">GO</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">頁尾</div>
+      </div>
     </td>
     <td>
+      <div class="webpage">
+        <div class="nav">導覽列</div>
+        <div class="nav">上層標題</div>
+        <div class="content">
+          <div class="article">
+            <div class="banner">
+              <div class="block inverted line collapsed">
+              主<br />視<br />覺
+              </div>
+            </div>
+            <div class="content">
+              <div class="heading">標題</div>
+              <div class="title line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="title line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="title line"></div>
+              <div class="line"></div>
+              <div class="button">GO</div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">頁尾</div>
+      </div>
+    </td>
+  </tr>
+  <tr class="top aligned">
+    <td>套用<br />頁面</td>
+    <td>
+      <div class="ui list">
+        <div class="item">
+          <div class="header">首頁</div>
+          <div class="description">
+            <code>/</code>
+          </div>
+        </div>
+        <div class="item">
+          <div class="header">年度報告</div>
+          <div class="description">
+            <code>/p/YYYY/</code>
+          </div>
+        </div>
+        <div class="item">
+          <div class="header">英文版</div>
+          <div class="description">
+            <code>/en/</code>
+          </div>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="ui list">
+        <div class="item">
+          <div class="header">工作夥伴</div>
+          <div class="description">
+            <code>/people/</code>
+          </div>
+        </div>
+        <div class="item">
+          <div class="header">專案與成果</div>
+          <div class="description">
+            <code>/projects/</code>
+          </div>
+          <div class="description">
+            <code>/p/</code>
+          </div>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="ui list">
+        <div class="item">
+          <div class="header">關於我們</div>
+          <div class="description">
+            <code>/about/</code>
+          </div>
+        </div>
+        <div class="item">
+          <div class="header">媒體專區</div>
+          <div class="description">
+            <code>/mediakit/</code>
+          </div>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="ui list">
+        <div class="item">
+          <div class="header">專案</div>
+          <div class="description">
+            <code>/p/YYYY/project_id/</code>
+          </div>
+        </div>
+        <div class="item">
+          <div class="header">電子報</div>
+          <div class="description">
+            <code>/news/</code>
+          </div>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="ui list">
+        <div class="item">
+          <div class="header">活動</div>
+          <div class="description">
+            <code>/p/YYYY/project_id/event_id/</code>
+          </div>
+        </div>
+      </div>
     </td>
   </tr>
   <tr class="top aligned">
     <td>使用<br />意圖</td>
-    <td>
+    <td colspan="2">
+      <div class="ui list">
+        <div class="item">
+        <i class="icon map outline"></i>
+        掌握全貌
+        </div>
+        <div class="item">
+        <i class="icon search"></i>
+        找尋資訊
+        </div>
+      </div>
     </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
+    <td colspan="3">
+      <div class="ui list">
+        <div class="item">
+        <i class="icon info"></i>
+        取得資訊
+        </div>
+      </div>
     </td>
   </tr>
   <tr class="top aligned">
     <td>使用<br />方式</td>
-    <td>
+    <td colspan="2">
+      <div class="ui list">
+        <div class="item">
+        <i class="icon map outline"></i>
+        掃過全頁
+        </div>
+        <div class="item">
+        <i class="icon search"></i>
+        細看局部
+        </div>
+      </div>
     </td>
     <td>
+      <div class="ui list">
+        <div class="item">
+        <i class="icon info"></i>
+        掃過大綱
+        </div>
+        <div class="item">
+        <i class="icon info"></i>
+        閱讀內容
+        </div>
+      </div>
     </td>
-    <td>
-    </td>
-    <td>
-    </td>
-    <td>
+    <td colspan="2">
+      <div class="ui list">
+        <div class="item">
+        <i class="icon info"></i>
+        閱讀內容
+        </div>
+        <div class="item">
+        <i class="icon hand paper"></i>
+        按下動作按鈕
+        </div>
+      </div>
     </td>
   </tr>
   <tr class="top aligned">
     <td>網頁<br />目的</td>
     <td>
+      <div class="ui list">
+        <div class="item">
+        <i class="icon info"></i>
+        傳遞資訊
+        </div>
+        <div class="item">
+        <i class="icon fire"></i>
+        激發興趣
+        </div>
+        <div class="item">
+        <i class="icon heart empty"></i>
+        創造正面印象
+        </div>
+      </div>
     </td>
     <td>
+      <div class="ui list">
+        <div class="item">
+        <i class="icon info"></i>
+        傳遞資訊
+        </div>
+        <div class="item">
+        <i class="icon heart empty"></i>
+        創造正面印象
+        </div>
+      </div>
     </td>
     <td>
+      <div class="ui list">
+        <div class="item">
+        <i class="icon info"></i>
+        傳遞資訊
+        </div>
+      </div>
     </td>
-    <td>
-    </td>
-    <td>
+    <td colspan="2">
+      <div class="ui list">
+        <div class="item">
+        <i class="icon info"></i>
+        傳遞資訊
+        </div>
+        <div class="item">
+        <i class="icon flag outline"></i>
+        號召行動
+        </div>
+      </div>
     </td>
   </tr>
   <tr class="top aligned">
     <td>排版<br />原則</td>
     <td>
+      <div class="ui list">
+        <div class="item">
+        <i class="icon checkmark"></i>
+        尺寸相似的區塊
+        </div>
+        <div class="item">
+        <i class="icon checkmark"></i>
+        區塊一個畫面可看完
+        </div>
+        <div class="item">
+        <i class="icon checkmark"></i>
+        區塊重點五個以內
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="ui list">
+        <div class="item">
+        <i class="icon checkmark"></i>
+        尺寸相似的區塊
+        </div>
+        <div class="item">
+        <i class="icon checkmark"></i>
+        區塊一個畫面可看完
+        </div>
+        <div class="item">
+        <i class="icon checkmark"></i>
+        區塊重點五個以內
+        </div>
+        <div class="item">
+        <i class="icon checkmark"></i>
+        可清楚識別所在位置
+        </div>
+        <div class="item">
+        <i class="icon checkmark"></i>
+        隨時按得到選單
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="ui list">
+        <div class="item">
+        <i class="icon checkmark"></i>
+        可清楚識別所在位置
+        </div>
+        <div class="item">
+        <i class="icon checkmark"></i>
+        隨時按得到大綱
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="ui list">
+        <div class="item">
+        <i class="icon checkmark"></i>
+        可清楚識別所在位置
+        </div>
+        <div class="item">
+        <i class="icon checkmark"></i>
+        隨時按得到按鈕
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="ui list">
+        <div class="item">
+        <i class="icon checkmark"></i>
+        可清楚識別所在位置
+        </div>
+        <div class="item">
+        <i class="icon checkmark"></i>
+        可清楚識別所屬專案
+        </div>
+        <div class="item">
+        <i class="icon checkmark"></i>
+        可輕易按到按鈕
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="top aligned">
+    <td>頭條<br />標題</td>
+    <td>
     </td>
     <td>
     </td>
@@ -100,7 +455,7 @@ toc:
     </td>
   </tr>
   <tr class="top aligned">
-    <td>頭條</td>
+    <td>選單</td>
     <td>
     </td>
     <td>
@@ -126,7 +481,7 @@ toc:
     </td>
   </tr>
   <tr class="top aligned">
-    <td>導覽</td>
+    <td>廣告</td>
     <td>
     </td>
     <td>
