@@ -215,33 +215,33 @@ layout: compress
 
   <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 
-<!-- 替有實際內容的頁面套上 css -->
 {% if page.layout != "redirect" %}
+<!-- 替有實際內容的頁面套上 css -->
 
   <link rel="stylesheet" href="/assets/semantic.min.css"/>
 
-  <!-- 給所有頁面有額外新增 head 標籤的空間 -->
   {% if page.head %}
+  <!-- 給所有頁面有額外新增 head 標籤的空間 -->
     {% include {{ page.head }} %}
   {% endif %}
 
   <link rel="stylesheet" href="/assets/global.css"/>
 
-  <!-- 替所有 project 頁套上 css -->
   {% if page.layout == "project" %}
+  <!-- 替所有 project 頁套上 css -->
   <link rel="stylesheet" href="/assets/project.css"/>
 
-  <!-- 替所有 event 頁套上 css -->
   {% elsif page.layout == "event" %}
+  <!-- 替所有 event 頁套上 css -->
   <link rel="stylesheet" href="/assets/event.css"/>
 
-  <!-- 替所有 report 頁套上 css -->
   {% elsif page.layout == "report" %}
+  <!-- 替所有 report 頁套上 css -->
   <link rel="stylesheet" href="/assets/report.css"/>
   {% endif %}
 
-  <!-- 給所有頁面有額外新增 css 的空間 -->
   {% if page.css %}
+  <!-- 給所有頁面有額外新增 css 的空間 -->
   <link rel="stylesheet" href="{{ page.css }}"/>
   {% endif %}
 
@@ -250,13 +250,13 @@ layout: compress
 </head>
 <body>
 
-<!-- 替 redirect 頁面節省載入時間 -->
 {% if page.layout == "redirect" %}
+<!-- 替 redirect 頁面節省載入時間 -->
 
     {{ content }}
 
-<!-- 替有實際內容的頁面套上 sidebar 以及 js -->
 {% else %}
+<!-- 替有實際內容的頁面套上 sidebar 以及 js -->
 
   <nav class="ui right inverted vertical menu sidebar">
 
