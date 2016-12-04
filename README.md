@@ -74,23 +74,45 @@
 
 1. 編輯全站設定檔 [/_data/settings.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/settings.yml) ，將 `current` 欄位內容改為新的年度，如把 `current: 2015` 改成 `current: 2016`
 
-2. 建立新年度的電子報資料
+2. 設定新年度的專案
 
+  - 設定新年度專案的 `.yml` 檔案
+    - (TBD)
+  - 設定新年度專案頁
+    - (TBD)
+
+3. 設定新年度的電子報
+
+  - 建立新年度電子報的 `.yml` 檔案
     - 檔案名稱： `(new_year).yml` ，例如 `2016.yml`
     - 檔案位置： [/_data/news/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/news)
+    - 複製 [電子報資料 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/_sample_news.yml) 的內容，貼到新建立的 `(new_year).yml` 檔案中編輯
 
-3. 建立新年度的成果報告資料
+  - 將新年度的電子報加到 [電子報](http://beta.ocf.tw/news/) 頁的列表
+
+    - 把 `(new_year)` 加到 [電子報頁設定檔](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/settings.yml) 的清單中
+
+4. 設定新年度的成果報告
+
+  - 建立新年度成果報告的 `.yml` 檔案
 
     - 檔案名稱： `(new_year).yml` ，例如 `2016.yml`
     - 檔案位置： [/_data/reports/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/reports)
+    - 複製 [成果報告資料 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/reports/_sample_report.yml) 的內容，貼到新建立的 `(new_year).yml` 檔案中編輯
 
-4. 建立新年度的成果報告頁
+  - 建立新年度的成果報告頁
 
-### 新增電子報
+    - 檔案名稱： `index.html`
+    - 檔案位置： `/p/(new_year)/` ，例如 [/p/2016/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/2016/)
+    - 複製 [活動頁 html 範本](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/_sample_year/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
+
+  - 可在 `/p/(new_year)/` 預覽成果報告頁，如 [/p/2016/](http://beta.ocf.tw/p/2016/)
+
+### 編輯電子報清單內容
 
 - 編輯當年度的電子報 `.yml` 檔案，如 2016 年度的檔案為 [/_data/news/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/2016.yml)
 
-### 新增成果報告
+### 編輯成果報告頁面內容
 
 - 編輯當年度的成果報告 `.yml` 檔案，如 2016 年度的檔案為 [/_data/reports/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/reports/2016.yml)
 
