@@ -17,6 +17,7 @@ ongoing:
 ---
 
 {% assign current = site.data.settings.current | append: "" %}
+{% assign recent = site.data.settings.current | minus:1 %}
 
 <main id="homepage">
 
@@ -78,39 +79,35 @@ ongoing:
         <div class="ui divided relaxed items">
 
           <div class="item">
+          {% assign item = site.data.people.orgs.ocf.what_we_do[0] %}
             <div class="image">
-              <i class="huge hand rock icon bordered"></i>
+              <i class="huge {{ item.icon }} icon bordered"></i>
             </div>
             <div class="content">
-              <h3 class="header">社群支援</h3>
+              <h3 class="header">{{ item.title }}</h3>
               <div class="description">
                 <p>
-                  活躍的在地社群，是開放文化發展的基礎。我們提供台灣各大開源社群舉辦活動時所需的法人身份，協助整合跨社群資源，降低社群經營的工作負擔。
+                  {{ item.description }}
                 </p>
               </div>
               <div class="extra">
-                <a href="/projects/#communities">相關專案
-                  <i class="right arrow icon"></i>
-                </a>
               </div>
             </div>
           </div>
 
           <div class="item">
+          {% assign item = site.data.people.orgs.ocf.what_we_do[1] %}
             <div class="image">
-              <i class="huge building outline icon bordered"></i>
+              <i class="huge {{ item.icon }} icon bordered"></i>
             </div>
             <div class="content">
-              <h3 class="header">組織合作</h3>
+              <h3 class="header">{{ item.title }}</h3>
               <div class="description">
                 <p>
-                  開放文化在不同領域的導入與應用，各自需要不同的專業。我們與其他深耕多年的組織協力，結合彼此的知識與專長，讓開源協作的方法滲入不同的領域。
+                  {{ item.description }}
                 </p>
               </div>
               <div class="extra">
-                <a href="/projects/#overseas">相關專案
-                  <i class="right arrow icon"></i>
-                </a>
               </div>
             </div>
           </div>
@@ -122,39 +119,35 @@ ongoing:
         <div class="ui divided relaxed items">
 
           <div class="item">
+          {% assign item = site.data.people.orgs.ocf.what_we_do[2] %}
             <div class="image">
-              <i class="huge plane icon bordered"></i>
+              <i class="huge {{ item.icon }} icon bordered"></i>
             </div>
             <div class="content">
-              <h3 class="header">跨國交流</h3>
+              <h3 class="header">{{ item.title }}</h3>
               <div class="description">
                 <p>
-                  開放文化的推廣，在各國的法規與體制下會遇到不同的挑戰。我們協助台灣開源社群與全球各地的相關組織串連，吸取彼此的經驗，探索可能的創新模式。
+                  {{ item.description }}
                 </p>
               </div>
               <div class="extra">
-                <a href="/projects/#overseas">相關專案
-                  <i class="right arrow icon"></i>
-                </a>
               </div>
             </div>
           </div>
 
           <div class="item">
+          {% assign item = site.data.people.orgs.ocf.what_we_do[3] %}
             <div class="image">
-              <i class="huge idea icon bordered"></i>
+              <i class="huge {{ item.icon }} icon bordered"></i>
             </div>
             <div class="content">
-              <h3 class="header">顧問諮詢</h3>
+              <h3 class="header">{{ item.title }}</h3>
               <div class="description">
                 <p>
-                  台灣的開源社群發展十幾年，累積許多寶貴知識和經驗。我們協助政府或民間單位，從社群取得開源圈的最新趨勢和見解，作為政策和法規制度的參考。
+                  {{ item.description }}
                 </p>
               </div>
               <div class="extra">
-                <a href="/projects/#consulting">相關專案
-                  <i class="right arrow icon"></i>
-                </a>
               </div>
             </div>
           </div>
@@ -163,6 +156,11 @@ ongoing:
       </div>
     </div>
   </div>
+
+  <div class="ui center aligned stripe container">
+    <a class="ui button" href="/p/{{ recent }}/">近年成果回顧<i class="right arrow icon"></i></a>
+  </div>
+
 </section>
 
 <section id="what_they_say" class="ui vertical segment">
