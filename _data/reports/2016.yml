@@ -10,174 +10,49 @@ items:
     swap: false
     columns:
       - type: image
-        url: /p/2015/coscup/21995245223_ec0e17bbfb_k.jpg
+        url: 
       - type: article
-        title: 協辦了 7 場大型的社群會議、 2 個夏令營
-        subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
-        description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
+        title: 
+        subtitle: 
+        description: 
         items:
-          - project_id: coscup
-          - project_id: pycon
-          - project_id: g0vsummit
-          - project_id: sitcon
-          - title: blah
-            url: blah
-            month: 6
+          - project_id: 
+          - title: 
+            url: 
+            month: 
+        action:
+          title: 
+          url: 
   - type: content
     swap: true
     columns:
       - type: image
-        url: /p/2015/coscup/21995245223_ec0e17bbfb_k.jpg
+        url: 
       - type: article
-        title: 協辦了 7 場大型的社群會議、 2 個夏令營
-        subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
-        description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
+        title: 
+        subtitle: 
+        description: 
         items:
-          - project_id: jcconf
+          - project_id: 
+          - title: 
+            url: 
+            month: 
         action:
-          title: 認識我們的合作夥伴
-          url: /people/#partners
+          title: 
+          url: 
   - type: header
     title: 組織合作
     icon: building outline
     background_color: olive
-  - type: content
-    swap: false
-    columns:
-      - type: image
-        url: /p/2015/coscup/21995245223_ec0e17bbfb_k.jpg
-      - type: article
-        title: 協辦了 7 場大型的社群會議、 2 個夏令營
-        subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
-        description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
-        items:
-          - project_id: coscup
-          - project_id: pycon
-          - project_id: g0vsummit
-          - project_id: sitcon
-          - title: blah
-            url: blah
-            month: 6
-        action:
-          title: 認識我們的合作夥伴
-          url: /people/#partners
-  - type: content
-    swap: true
-    columns:
-      - type: image
-        url: /p/2015/coscup/21995245223_ec0e17bbfb_k.jpg
-      - type: article
-        title: 協辦了 7 場大型的社群會議、 2 個夏令營
-        subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
-        description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
-        items:
-          - project_id: jcconf
   - type: header
     title: 跨國交流
     icon: plane
     background_color: teal
-  - type: content
-    swap: false
-    columns:
-      - type: image
-        url: /p/2015/coscup/21995245223_ec0e17bbfb_k.jpg
-      - type: article
-        title: 協辦了 7 場大型的社群會議、 2 個夏令營
-        subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
-        description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
-        items:
-          - project_id: coscup
-          - project_id: pycon
-          - project_id: g0vsummit
-          - project_id: sitcon
-          - title: blah
-            url: blah
-            month: 6
-  - type: content
-    swap: true
-    columns:
-      - type: image
-        url: /p/2015/coscup/21995245223_ec0e17bbfb_k.jpg
-      - type: article
-        title: 協辦了 7 場大型的社群會議、 2 個夏令營
-        subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
-        description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
-        items:
-          - project_id: jcconf
-        action:
-          title: 認識我們的合作夥伴
-          url: /people/#partners
   - type: header
     title: 顧問諮詢
     icon: idea
     background_color: blue
-  - type: content
-    swap: false
-    columns:
-      - type: image
-        url: /p/2015/coscup/21995245223_ec0e17bbfb_k.jpg
-      - type: article
-        title: 協辦了 7 場大型的社群會議、 2 個夏令營
-        subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
-        description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
-        items:
-          - project_id: coscup
-          - project_id: pycon
-          - project_id: g0vsummit
-          - project_id: sitcon
-          - title: blah
-            url: blah
-            month: 6
-        action:
-          title: 認識我們的合作夥伴
-          url: /people/#partners
-  - type: content
-    swap: true
-    columns:
-      - type: image
-        url: /p/2015/coscup/21995245223_ec0e17bbfb_k.jpg
-      - type: article
-        title: 協辦了 7 場大型的社群會議、 2 個夏令營
-        subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
-        description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
-        items:
-          - project_id: jcconf
-        action:
   - type: header
     title: 財務報告
     icon: dollar
     background_color: pink
-  - type: content
-    swap: false
-    columns:
-      - type: image
-        url: /p/2015/coscup/21995245223_ec0e17bbfb_k.jpg
-      - type: article
-        title: 協辦了 7 場大型的社群會議、 2 個夏令營
-        subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
-        description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
-        items:
-          - project_id: coscup
-          - project_id: pycon
-          - project_id: g0vsummit
-          - project_id: sitcon
-          - title: blah
-            url: blah
-            month: 6
-        action:
-          title: 認識我們的合作夥伴
-          url: /people/#partners
-  - type: content
-    swap: true
-    columns:
-      - type: image
-        url: /p/2015/coscup/21995245223_ec0e17bbfb_k.jpg
-      - type: article
-        title: 協辦了 7 場大型的社群會議、 2 個夏令營
-        subtitle: 10,000+ 參與者共襄盛舉台灣各類社群活動
-        description: blah blah blah blah blah blah blah blah blah blah blah blah blah 
-        items:
-          - project_id: jcconf
-        action:
-          title: 認識我們的合作夥伴
-          url: /people/#partners
