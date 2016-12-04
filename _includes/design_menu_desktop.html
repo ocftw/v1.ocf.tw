@@ -8,13 +8,15 @@ active
 <div class="right menu">
 
 {% for item in site.data.design.settings.menu %}
-<a href="{{ item.url }}" class="item 
-{% if page.url contains item.url %}
+{% if item[0] != "design" %}
+<a href="{{ item[1].url }}" class="item 
+{% if page.url contains item[1].url %}
 active
 {% endif %}
 " data-display="desktop">
-{{ item.title }}
+{{ item[0] }}
 </a>
+{% endif %}
 {% endfor %}
 
 <a class="item" data-display="mobile" data-toggle="sidebar">

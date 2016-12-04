@@ -1,107 +1,121 @@
 ---
 layout: design
-og_title: 當設計師遇上強迫症
-og_description: 這裡是 OCF 官網設計組用來滿足強迫症的地方，放一些業主不在乎、但自己會很爽的東西。
+data: design
 css: /assets/design.css
 ---
 
-<div id="design">
+{% assign planner = "redirect,actions" | split: "," %}
+{% assign editor = "og,content" | split: "," %}
+{% assign programmer = "redirect,layout,data" | split: "," %}
+{% assign designer = "ui" | split: "," %}
 
-<header class="ui center aligned stripe container">
-  <h1 class="ui icon header">
-    <i class="circular inverted paint brush icon pink"></i>
-    {{ page.og_title }}
-  </h1>
-  <div class="intro">
-    <p>{{ page.og_description }}</p>
-  </div>
-</header>
-
-<hr class="ui hidden divider" />
-
-<section class="ui stripe container">
-
-<div class="ui four column center aligned doubling stackable divided grid">
+<div class="ui four column doubling stackable grid">
   <div class="column">
-    <h2 class="ui small icon header">
+    <h2 class="ui small icon center aligned header inverted">
       <i class="icon suitcase"></i>
       給網站企畫
     </h2>
-    <div class="ui link list">
-      <a class="item" href="/design/redirect/">
-        <i class="icon share"></i>
-        確認有哪些自動導向的頁面
-      </a>
-      <a class="item" href="/design/redirect/">
-        <i class="icon flag checkered"></i>
-        確認每個專案的預設連結及行動按鈕
-      </a>
-      <a class="item" href="https://docs.google.com/presentation/d/1fc5d9jjqp5Jfwx-a4mGl0DIdo0sHFBFupYH1LQJ6N0w/edit?usp=sharing" target="_blank">
+    <div class="ui list">
+      {% for menu_id in planner %}
+      {% assign item = site.data.design.settings.menu[menu_id] %}
+      <div class="item">
+        <i class="icon {{ item.icon }} "></i>
+        <div class="content">
+          <a class="header" href="{{ item.url }}">{{ item.title }}</a>
+          <div class="description">{{ item.tagline }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="item">
         <i class="icon file powerpoint outline"></i>
-        瞭解前期 UX 規劃成果
-      </a>
-      <a class="item" href="https://ocf-tw.hackpad.com/-2016-OCF-Redesign-V61pfKwwlRN" target="_blank">
+        <div class="content">
+          <a class="header" href="https://docs.google.com/presentation/d/1fc5d9jjqp5Jfwx-a4mGl0DIdo0sHFBFupYH1LQJ6N0w/edit?usp=sharing" target="_blank">
+          OCF.tw UX Report
+          </a>
+          <div class="description">
+          追溯前期 UX 規劃脈絡
+          </div>
+        </div>
+      </div>
+      <div class="item">
         <i class="icon file text outline"></i>
-        瞭解網站開發過程
-      </a>
+        <div class="content">
+          <a class="header" href="https://ocf-tw.hackpad.com/-2016-OCF-Redesign-V61pfKwwlRN" target="_blank">
+          OCF 官網改版專案共筆
+          </a>
+          <div class="description">
+          追溯網站開發過程
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="column">
-    <h2 class="ui small icon header">
+    <h2 class="ui small icon center aligned header inverted">
       <i class="icon pencil"></i>
       給網站內容編輯
     </h2>
-    <div class="ui link list">
-      <a class="item" href="https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/README.md" target="_blank">
+    <div class="ui list">
+      {% for menu_id in editor %}
+      {% assign item = site.data.design.settings.menu[menu_id] %}
+      <div class="item">
+        <i class="icon {{ item.icon }} "></i>
+        <div class="content">
+          <a class="header" href="{{ item.url }}">{{ item.title }}</a>
+          <div class="description">{{ item.tagline }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="item">
         <i class="icon github"></i>
-        新增專案、活動、工作夥伴、年度報告等
-      </a>
-      <a class="item" href="/design/content/">
-        <i class="icon share alternate"></i>
-        檢查社交媒體 open graph 資料
-      </a>
-      <a class="item" href="/design/content/">
-        <i class="icon text file"></i>
-        瞭解哪些內容會跨頁呈現
-      </a>
+        <div class="content">
+          <a class="header" href="https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/README.md" target="_blank">
+          GitHub repo 編輯指南
+          </a>
+          <div class="description">step by step 新增專案、活動、工作夥伴、年度報告等
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="column">
-    <h2 class="ui small icon header">
+    <h2 class="ui small icon center aligned header inverted">
       <i class="icon code"></i>
       給網站工程師
     </h2>
-    <div class="ui link list">
-      <a class="item" href="/design/redirect/">
-        <i class="icon share"></i>
-        確認有哪些自動導向的頁面
-      </a>
-      <a class="item" href="/design/data/">
-        <i class="icon grid layout"></i>
-        確認所有頁面的 jekyll layout
-      </a>
-      <a class="item" href="/design/data/">
-        <i class="icon database"></i>
-        瞭解 model 與 view 的關連
-      </a>
+    <div class="ui list">
+      {% for menu_id in programmer %}
+      {% assign item = site.data.design.settings.menu[menu_id] %}
+      <div class="item">
+        <i class="icon {{ item.icon }} "></i>
+        <div class="content">
+          <a class="header" href="{{ item.url }}">{{ item.title }}</a>
+          <div class="description">{{ item.tagline }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </div>
   <div class="column">
-    <h2 class="ui small icon header">
+    <h2 class="ui small icon center aligned header inverted">
       <i class="icon paint brush"></i>
       給網站介面設計師
     </h2>
-    <div class="ui link list">
-      <a class="item" href="/design/ui/">
-        <i class="icon puzzle"></i>
-        瞭解介面設計原則
-      </a>
+    <div class="ui list">
+      {% for menu_id in designer %}
+      {% assign item = site.data.design.settings.menu[menu_id] %}
+      <div class="item">
+        <i class="icon {{ item.icon }} "></i>
+        <div class="content">
+          <a class="header" href="{{ item.url }}">{{ item.title }}</a>
+          <div class="description">{{ item.tagline }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </div>
-</div>
-
-</section>
-
-<hr class="ui hidden section divider" />
-
 </div>

@@ -1,7 +1,6 @@
 ---
 layout: design
-og_title: 跨頁 data 總覽
-og_description: 這頁是 OCF.tw 官網改版 2016 年度結案交接文件之一，對照 sitemap 和 _data 資料夾，圖解呈現各頁面的資料關連，讓接手維護的人在修改程式架構時，可以較方便地評估可能的影響範圍。適用對象：網站工程師
+data: data
 head: css-fancybox.html
 script: script-fancybox.html
 css: /assets/design.css
@@ -18,61 +17,26 @@ toc:
   news: 電子報
 ---
 
-<main id="data">
+<div class="ui two column stackable grid">
 
-<header class="ui stripe center aligned container">
-
-  <h1 class="ui icon header">
-    <i class="icon database circular inverted pink"></i>
-    {{ page.og_title }}
-  </h1>
-  <div class="intro">
-    <p>{{ page.og_description }}</p>
-  </div>
-
-  <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
-    <div class="ui dropdown item">
-      <span data-content="current">跳至...</span>
-      <i class="dropdown icon"></i>
-      <div class="menu">
-
-        {% for article in page.toc %}
-        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
-        {% endfor %}
-
-      </div>
-    </div>
-  </nav>
-
-</header>
-
-<section class="ui stripe container">
-
-  <div class="ui two column stackable grid">
-
-    <div id="toc" data-context="desktop" class="six wide column">
-      <nav class="ui secondary sticky vertical pointing fluid menu">
-
-        {% for article in page.toc %}
-        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
-        {% endfor %}
-
-      </nav>
-    </div>
-
-    <div class="ten wide column">
+  <div id="toc" data-context="desktop" class="six wide column">
+    <nav class="ui secondary sticky vertical pointing fluid menu">
 
       {% for article in page.toc %}
-      <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
-      <a class="ui fluid image fancybox" rel="fancybox" href="{{ article[0] }}.png" title="{{ article[1] }}">
-        <img src="{{ article[0] }}.png" alt="{{ article[1] }}">
-      </a>
+      <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
       {% endfor %}
 
-    </div>
+    </nav>
   </div>
 
-</section>
+  <div class="ten wide column">
 
-<hr class="ui hidden divider" />
-</main>
+    {% for article in page.toc %}
+    <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
+    <a class="ui fluid image fancybox" rel="fancybox" href="{{ article[0] }}.png" title="{{ article[1] }}">
+      <img src="{{ article[0] }}.png" alt="{{ article[1] }}">
+    </a>
+    {% endfor %}
+
+  </div>
+</div>

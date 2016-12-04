@@ -1,17 +1,51 @@
 # 這個檔案用來存 design 頁面的設定，對一般使用者沒有影響
 
 menu:
-  - title: og
+  design:
+    url: /design/
+    icon: paint brush
+    title: 當設計師遇上強迫症
+    tagline: 
+    description: 這裡是 OCF 官網設計組用來滿足強迫症的地方，放一些業主不在乎、但自己會很爽的東西
+  og:
     url: /design/og/
-  - title: redirect
+    icon: share alternate
+    title: 全站 og 總覽
+    tagline: 檢查社交媒體 open graph 資料是否齊全及一致
+    description: 這頁是 OCF.tw 官網改版 2016 年度結案驗收文件之一，列出全站所有頁面的 open graph 資料，包括 url, title, description, image，用來確認資料有沒有缺漏或文案風格有沒有保持一致。適用對象：網站內容編輯
+  redirect:
     url: /design/redirect/
-  - title: actions
+    icon: mail forward
+    title: 全站 redirect 總覽
+    tagline: 確認自動導向的頁面有哪些、會導向哪裡
+    description: 這頁是 OCF.tw 官網改版 2016 年度結案驗收文件之一，列出全站所有頁面的 redirect 資訊，包括跳板頁及目的頁的 url，用來和手工編輯的的 google spreadsheet 比對，確認實做結果和原訂目標是否一致。適用對象：網站企畫 / 網站工程師
+  actions:
     url: /design/actions/
-  - title: layout
+    icon: flag checkered
+    title: 專案 actions 總覽
+    tagline: 確認每個專案的預設連結及 call to action 按鈕
+    description: 這頁是 OCF.tw 官網改版 2016 年度結案交接文件之一，列出全站所有專案頁面的 call to action 連結，用來確認每個專案頁的資料是否完整。適用對象：網站企畫
+  layout:
     url: /design/layout/
-  - title: content
+    icon: grid layout
+    title: 全站 layouts 總覽
+    tagline: 確認所有頁面的 jekyll layout
+    description: 這頁是 OCF.tw 官網改版 2016 年度結案交接文件之一，列出全站所有頁面所使用的 html 模版及頁內零件，用來確認每頁的內容物是否完整。適用對象：網站企畫 / 網站工程師
+  content:
     url: /design/content/
-  - title: data
+    icon: file text
+    title: 跨頁 content 總覽
+    tagline: 確認哪些內容需要跨頁校稿
+    description: 這頁是 OCF.tw 官網改版 2016 年度結案交接文件之一，對照 sitemap 和網站內容元件，圖解呈現各段文字會顯示在什麼地方，讓接手維護的人在修改內容架構時，可以較方便地評估可能的影響範圍。適用對象：網站企畫 / 網站內容編輯
+  data:
     url: /design/data/
-  - title: ui
+    icon: database
+    title: 跨頁 data 總覽
+    tagline: 瞭解 model 與 view 的關連
+    description: 這頁是 OCF.tw 官網改版 2016 年度結案交接文件之一，對照 sitemap 和 _data 資料夾，圖解呈現各頁面的資料關連，讓接手維護的人在修改程式架構時，可以較方便地評估可能的影響範圍。適用對象：網站工程師
+  ui:
     url: /design/ui/
+    icon: puzzle
+    title: 跨頁 UI 總覽
+    tagline: 瞭解全站共通的介面設計原則
+    description: 這頁是 OCF.tw 官網改版 2016 年度結案交接文件之一，列出所有 UI 元件以及使用原則，讓接手設計的人有統一的決策依據，可以較方便地保持頁面之間的一致性。適用對象：網站介面設計師

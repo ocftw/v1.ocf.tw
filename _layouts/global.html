@@ -1,16 +1,14 @@
 ---
 layout: compress
 # jekyll 官方指定使用的 layout，用來壓縮 html 的，開發時可以先拿掉
+# 全站所有頁面共用的終極 template
 ---
-
-<!-- 全站所有頁面共用的終極 template -->
-
 <!DOCTYPE html>
 <html>
 <head>
 
-<!-- 讓所有 project 頁自動從專案資料中生出 og 素材 -->
 {% if page.layout == "project" %}
+<!-- 讓所有 project 頁自動從專案資料中生出 og 素材 -->
   {% assign year = page.year | append: "" %}
   {% assign id = page.project_id | append: "" %}
   {% assign og_url = page.url %}
@@ -30,8 +28,8 @@ layout: compress
     {% assign og_description = site.data.projects[year][id].description %}
   {% endif %}
 
-<!-- 讓所有 event 頁自動從活動及所屬專案資料中生出 og 素材 -->
 {% elsif page.layout == "event" %}
+<!-- 讓所有 event 頁自動從活動及所屬專案資料中生出 og 素材 -->
   {% assign year = page.year | append: "" %}
   {% assign id = page.event_id %}
   {% assign og_url = page.url %}
@@ -51,8 +49,8 @@ layout: compress
     {% assign og_description = site.data.events[year][id].description %}
   {% endif %}
 
-<!-- 讓所有 report 頁自動從報告資料中生出 og 素材 -->
 {% elsif page.layout == "report" %}
+<!-- 讓所有 report 頁自動從報告資料中生出 og 素材 -->
   {% assign year = page.year | append: "" %}
   {% assign og_url = page.url %}
   {% if page.og_title %}
@@ -71,12 +69,20 @@ layout: compress
     {% assign og_description = site.data.reports[year].description %}
   {% endif %}
 
-<!-- 讓所有 redirect 頁根據目的地自動找到適合的 og 素材 -->
+{% elsif page.layout == "design" %}
+<!-- 讓所有 design 頁自動從設定檔中生出 og 素材 -->
+  {% assign og_url = page.url %}
+  {% assign data = page.data %}
+  {% assign og_title = site.data.design.settings.menu[data].title %}
+  {% assign og_image = site.data.people.orgs.ocf.cover %}
+  {% assign og_description = site.data.design.settings.menu[data].description %}
+
 {% elsif page.layout == "redirect" %}
+<!-- 讓所有 redirect 頁根據目的地自動找到適合的 og 素材 -->
   {% assign og_url = page.og_url %}
 
-  <!-- 該 redirect 頁指定資料來源是 projects 的時候 -->
   {% if page.data == "projects" %}
+  <!-- 該 redirect 頁指定資料來源是 projects 的時候 -->
     {% if page.year == "current" %}
       {% assign year = site.data.settings.current | append: "" %}
     {% else %}
@@ -93,8 +99,8 @@ layout: compress
     <meta http-equiv="refresh" content="0; url=/p/{{ year }}/{{ id }}" />
     {% endif %}
 
-  <!-- 該 redirect 頁指定資料來源是 events 的時候 -->
   {% elsif page.data == "events" %}
+  <!-- 該 redirect 頁指定資料來源是 events 的時候 -->
     {% assign year = page.year | append: "" %}
     {% assign project_id = page.project_id | append: "" %}
     {% assign id = page.event_id %}
@@ -107,8 +113,8 @@ layout: compress
     <meta http-equiv="refresh" content="0; url=/p/{{ year }}/{{ project_id }}/{{ id }}" />
     {% endif %}
 
-  <!-- 該 redirect 頁指定資料來源是 reports 的時候 -->
   {% elsif page.data == "reports" %}
+  <!-- 該 redirect 頁指定資料來源是 reports 的時候 -->
     {% if page.year == "current" %}
       {% assign year = site.data.settings.current | append: "" %}
     {% else %}
@@ -119,8 +125,8 @@ layout: compress
     {% assign og_description = site.data.reports[year].description %}
     <meta http-equiv="refresh" content="0; url={{ og_url }}" />
 
-  <!-- 該 redirect 頁指定資料來源是轉址目的地頁面的時候 -->
   {% elsif page.data == "page" %}
+  <!-- 該 redirect 頁指定資料來源是轉址目的地頁面的時候 -->
     {% for source_page in site.pages %}
     {% assign ending = og_url | slice: -1 %}
     {% if ending != "/" %}
@@ -146,8 +152,8 @@ layout: compress
     <meta http-equiv="refresh" content="0; url={{ og_url }}" />
     {% endif %}
 
-  <!-- 該 redirect 頁沒有指定資料來源的時候 -->
   {% else %}
+  <!-- 該 redirect 頁沒有指定資料來源的時候 -->
     {% assign og_title = page.og_title %}
     {% if page.og_image %}
       {% assign og_image = page.og_image %}
@@ -167,8 +173,8 @@ layout: compress
 
   {% endif %}
 
-<!-- 讓所有一般頁套用指定或預設的 og 素材 -->
 {% else %}
+<!-- 讓所有一般頁套用指定或預設的 og 素材 -->
   {% if page.og_url %}
     {% assign og_url = page.og_url %}
   {% else %}

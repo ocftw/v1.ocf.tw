@@ -1,25 +1,11 @@
 ---
 layout: design
-og_title: 專案 actions 總覽
-og_description: 這頁是 OCF.tw 官網改版 2016 年度結案交接文件之一，列出全站所有專案頁面的 call to action 連結，用來確認每個專案頁的資料是否完整。適用對象：網站企畫
+data: actions
 script: script-tablesort.html
 css: /assets/design.css
 js: /assets/actions.js
 ---
 
-<main id="actions">
-
-<header class="ui stripe center aligned container">
-  <h1 class="ui icon header">
-    <i class="icon flag checkered circular inverted pink"></i>
-    {{ page.og_title }}
-  </h1>
-  <div class="intro">
-    <p>{{ page.og_description }}</p>
-  </div>
-</header>
-
-<section class="ui stripe container">
 <table class="ui sortable table">
   <thead>
   <tr>
@@ -30,8 +16,8 @@ js: /assets/actions.js
   </tr>
   </thead>
   <tbody>
-  {% for p in site.pages %}
-  {% if p.layout == "project" %}
+  {% assign pages = site.pages | where: "layout", "project" %}
+  {% for p in pages %}
   <tr class="top aligned" data-url="{{ p.url }}">
     <td>
     <pre>{{ p.url }}</pre>
@@ -76,11 +62,6 @@ js: /assets/actions.js
     {% endfor %}
     </td>
   </tr>
-  {% endif %}
   {% endfor %}
   </tbody>
 </table>
-</section>
-
-<hr class="ui hidden divider" />
-</main>
