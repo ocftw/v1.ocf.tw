@@ -17,7 +17,7 @@
     - 檔案名稱： `(your_project_id).yml` ，例如 `intl.yml`
     - 檔案位置： `/_data/projects/(current_year)/` ，例如 [/_data/projects/2016/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/projects/2016)
 
-  - 複製 [專案 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/projects/_sample_project.yml) 的內容，貼到新建立的 `(your_project_id).yml` 檔案中編輯
+  - 複製 [專案 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/projects/_project_id.yml) 的內容，貼到新建立的 `(your_project_id).yml` 檔案中編輯
 
 2. 把專案加到 [專案與成果](http://beta.ocf.tw/projects/) 頁的列表
 
@@ -45,7 +45,7 @@
     - 檔案名稱： `(staff_id).yml` ，例如 `singing.yml`
     - 檔案位置： [/_data/people/individuals/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/people/individuals)
 
-  - 複製 [工作夥伴 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/individuals/_sample_person.yml) 的內容，貼到新建立的 `(staff_id).yml` 檔案中編輯
+  - 複製 [工作夥伴 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/individuals/_person_id.yml) 的內容，貼到新建立的 `(staff_id).yml` 檔案中編輯
 
 2. 把工作夥伴加到 [工作夥伴](http://beta.ocf.tw/people/) 頁的列表
 
@@ -57,7 +57,7 @@
 
   - 決定活動 id （英數，英文全小寫）
 
-  - 複製 [活動 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/events/_sample_events.yml) 的內容，貼到活動所屬的專案的 `(your_project_id).yml` 檔案中編輯，例如 [_data/events/intl.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/events/intl.yml) ，最新的活動放檔案最上方
+  - 複製 [活動 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/events/_project_id.yml) 的內容，貼到活動所屬的專案的 `(your_project_id).yml` 檔案中編輯，例如 [_data/events/intl.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/events/intl.yml) ，最新的活動放檔案最上方
 
 2. 建立活動頁（optional，視業務需要）
 
@@ -86,7 +86,7 @@
   - 建立新年度電子報的 `.yml` 檔案
     - 檔案名稱： `(new_year).yml` ，例如 `2016.yml`
     - 檔案位置： [/_data/news/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/news)
-    - 複製 [電子報資料 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/_sample_news.yml) 的內容，貼到新建立的 `(new_year).yml` 檔案中編輯
+    - 複製 [電子報資料 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/_yyyy.yml) 的內容，貼到新建立的 `(new_year).yml` 檔案中編輯
 
   - 將新年度的電子報加到 [電子報](http://beta.ocf.tw/news/) 頁的列表
 
@@ -98,7 +98,7 @@
 
     - 檔案名稱： `(new_year).yml` ，例如 `2016.yml`
     - 檔案位置： [/_data/reports/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/reports)
-    - 複製 [成果報告資料 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/reports/_sample_report.yml) 的內容，貼到新建立的 `(new_year).yml` 檔案中編輯
+    - 複製 [成果報告資料 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/reports/_yyyy.yml) 的內容，貼到新建立的 `(new_year).yml` 檔案中編輯
 
   - 建立新年度的成果報告頁
 

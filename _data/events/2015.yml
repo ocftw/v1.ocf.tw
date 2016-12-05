@@ -231,7 +231,7 @@ dalc:
       url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=1636118323330764
   cover: /p/2015/movie/ying_zhan_-01.jpg
   banner: 
-  logo: 
+  avatar: 
   project_id:
   advisor_id:
   organizer_id:
@@ -304,7 +304,7 @@ socp:
       url: https://www.facebook.com/media/set/?set=a.1601440363465227.1073741832.1502561953353069&type=3
   cover: /p/2015/intl/socp/cover.jpg
   banner: /p/2015/intl/socp/banner.jpg
-  logo: 
+  avatar: 
   project_id:
     - intl
   organizer_id:
@@ -356,7 +356,7 @@ elc:
       url: http://ocftw.kktix.cc/events/elc2015
   cover: /p/2015/intl/elc/cover.png
   banner: 
-  logo: 
+  avatar: 
   project_id:
     - intl
   advisor_id:
