@@ -34,6 +34,24 @@
 
   - 複製 [專案頁 html 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/p/_sample_project/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
 
+### 設定長期專案
+
+1. 建立專案頁跳板資料夾
+
+  - 資料夾名稱： `(your_project_id)/` ，例如 `admin/`
+  - 資料夾位置： [/p/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p)
+
+2. 建立專案頁跳板頁
+
+  - 檔案名稱： `index.html`
+  - 檔案位置： `/p/(your_project_id)/` ，例如 [/p/admin/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/admin/)
+  - 檔案內容：複製 [跳板頁 html 範本](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_samples/redirect.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
+
+3. 修改專案資料檔
+
+  - 目標檔案： `/_data/_projects/(year)/(your_project_id).yml` ，例如 [/_data/projects/2016/admin.yml](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/projects/2016/admin.yml)
+  - 將檔案內 `link:` 中第一筆資料的 `url:` ，從完整網址改為跳板頁網址，例如從 `/p/2016/admin/` 改為 `/p/admin/`
+
 ### 新增工作夥伴
 
 1. 建立工作夥伴資料
@@ -53,13 +71,19 @@
 
 ### 新增活動
 
-1. 建立活動資料，同時加到所屬專案的活動列表中
+1. 建立跨專案共用的活動資料，同時加到所屬專案的活動列表中
 
   - 決定活動 id （英數，英文全小寫）
 
-  - 複製 [活動 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/events/_project_id.yml) 的內容，貼到活動所屬的專案的 `(your_project_id).yml` 檔案中編輯，例如 [_data/events/intl.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/events/intl.yml) ，最新的活動放檔案最上方
+  - 複製 [年度活動資料 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/events/_yyyy.yml) 的內容
+  - 貼到活動所屬的年度的 `(year).yml` 檔案中編輯，例如 [_data/events/2016.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/events/2016.yml) ，最新的活動放檔案最上方
 
-2. 建立活動頁（optional，視業務需要）
+2. 建立個別專案專用的活動資料，同時加到所屬專案的活動列表中
+
+  - 複製 [專案活動資料 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/events/_project_id.yml) 的內容
+  - 貼到活動所屬的專案的 `(your_project_id).yml` 檔案中編輯，例如 [_data/events/intl.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/events/intl.yml) ，較新的活動資料放在較上方
+
+3. 建立活動頁（optional，視業務需要）
 
   - 建立活動資料夾
 
@@ -76,12 +100,22 @@
 
 2. 設定新年度的專案
 
-  - 設定新年度專案的 `.yml` 檔案
-    - (TBD)
-  - 設定新年度專案頁
-    - (TBD)
+  - 建立新年度專案的共用資料夾
+    - 資料夾名稱： `(year)` ，例如 `2016`
+    - 資料夾位置一： [/p/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p)
+    - 資料夾位置二： [/_data/projects/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/projects)
 
-3. 設定新年度的電子報
+  - 若有跨年度專案，設定該專案的 `.yml` 檔案和網頁資料夾
+    - 把 `(your_project_id)/` 從舊年度的資料夾，複製到新年度的資料夾，例如把 `/p/2015/admin/` 複製為 `/p/2016/admin/`
+    - 把 `(your_project_id).yml` 從舊年度的資料夾，複製到新年度的資料夾，例如把 `/_data/projects/2015/admin.yml` 複製為 `/_data/projects/2016/admin.yml`
+
+3. 設定新年度的活動
+
+  - 建立新年度活動的共用資料檔
+    - 檔案名稱： `(year).yml` ，例如 `2016.yml`
+    - 檔案位置： [/_data/events/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/events)
+
+4. 設定新年度的電子報
 
   - 建立新年度電子報的 `.yml` 檔案
     - 檔案名稱： `(new_year).yml` ，例如 `2016.yml`
@@ -92,7 +126,7 @@
 
     - 把 `(new_year)` 加到 [電子報頁設定檔](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/settings.yml) 的清單中
 
-4. 設定新年度的成果報告
+5. 設定新年度的成果報告
 
   - 建立新年度成果報告的 `.yml` 檔案
 
@@ -140,11 +174,11 @@
 
 ### 資料
 
-[工作人員後台](http://beta.ocf.tw/backend/)
+[活動列表後台](http://beta.ocf.tw/backend/)
 
 ### 設計
 
-[設計師後台](http://beta.ocf.tw/design/)
+[網站設計團隊後台](http://beta.ocf.tw/design/)
 
 ### 程式
 
