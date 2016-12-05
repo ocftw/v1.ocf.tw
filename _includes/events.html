@@ -1,7 +1,14 @@
 <div class="ui divided items">
 
+{% if page.year == "current" %}
+{% assign project_year = site.data.settings.current %}
+{% else %}
+{% assign project_year = page.year %}
+{% endif %}
+
 {% for event in events %}
-{% if event.year > page.year %}
+
+{% if event.year > project_year %}
 {% else %}
 
   {% assign year = event.year | append: "" %}

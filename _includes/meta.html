@@ -1,3 +1,9 @@
+{% if page.year == "current" %}
+{% assign project_year = site.data.settings.current %}
+{% else %}
+{% assign project_year = page.year %}
+{% endif %}
+
 {% if page.sidebar_image %}
 <img class="ui fluid image" src="{{ page.sidebar_image }}">
 <h2 class="ui center aligned small header">
@@ -25,8 +31,8 @@
 {% endif %}
 
   {{ project.name }}
-  {% if page.year != site.data.settings.current %}
-  ( {{ page.year }} 年度)
+  {% if project_year != site.data.settings.current %}
+  ( {{ project_year }} 年度)
   {% endif %}
   <span class="sub header">小檔案</span>
 </h2>
@@ -194,7 +200,7 @@
 
 {% endif %}
 
-{% if page.year == site.data.settings.current %}
+{% if project_year == site.data.settings.current %}
 {% if page.action %}
 <div class="ui horizontal divider">
   <i class="heart icon"></i>

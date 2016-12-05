@@ -9,7 +9,11 @@ layout: compress
 
 {% if page.layout == "project" %}
 <!-- 讓所有 project 頁自動從專案資料中生出 og 素材 -->
+  {% assign current = site.data.settings.current | append: "" %}
   {% assign year = page.year | append: "" %}
+  {% if year == "current" %}
+    {% assign year = current %}
+  {% endif %}
   {% assign id = page.project_id | append: "" %}
   {% assign og_url = page.url %}
   {% if page.og_title %}
@@ -83,10 +87,10 @@ layout: compress
 
   {% if page.data == "projects" %}
   <!-- 該 redirect 頁指定資料來源是 projects 的時候 -->
-    {% if page.year == "current" %}
-      {% assign year = site.data.settings.current | append: "" %}
-    {% else %}
-      {% assign year = page.year | append: "" %}
+    {% assign current = site.data.settings.current | append: "" %}
+    {% assign year = page.year | append: "" %}
+    {% if year == "current" %}
+      {% assign year = current %}
     {% endif %}
     {% assign id = page.project_id | append: "" %}
     {% assign og_title = site.data.projects[year][id].name %}
@@ -115,10 +119,10 @@ layout: compress
 
   {% elsif page.data == "reports" %}
   <!-- 該 redirect 頁指定資料來源是 reports 的時候 -->
-    {% if page.year == "current" %}
-      {% assign year = site.data.settings.current | append: "" %}
-    {% else %}
-      {% assign year = page.year | append: "" %}
+    {% assign current = site.data.settings.current | append: "" %}
+    {% assign year = page.year | append: "" %}
+    {% if year == "current" %}
+      {% assign year = current %}
     {% endif %}
     {% assign og_title = site.data.reports[year].title %}
     {% assign og_image = site.data.reports[year].cover %}
