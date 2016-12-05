@@ -30,7 +30,7 @@ table td pre {
 }
 
 .intro {
-  max-width: 960px;
+  max-width: 1024px;
   margin: 0 auto;
   background-color: hsla(0, 0%, 0%, 0.05);
   text-align: left;
