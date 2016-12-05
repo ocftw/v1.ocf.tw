@@ -33,8 +33,9 @@ filter:
       legal: 法律
       media: 媒體
       geo: 地理
-      art: 藝術
+      art: 文創
       education: 教育
+      finance: 金融
       misc: 其他
 
 card:

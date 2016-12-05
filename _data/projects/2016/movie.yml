@@ -14,11 +14,13 @@ link:
 tag:
   - 電影
 type_id:
-  - misc
+  - overseas
 topic_id:
-  - misc
+  - source
+  - government
 field_id: 
   - it
+  - art
 advisor_id:
 organizer_id:
   - ocf

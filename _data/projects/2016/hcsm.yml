@@ -6,8 +6,11 @@ link:
     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=20
 
 type_id:
+  - community
 topic_id:
+  - source
 field_id:
+  - it
 
 tagline: 
 avatar: 
