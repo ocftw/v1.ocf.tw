@@ -32,24 +32,30 @@
 
   - 在專案資料夾中新增 `index.html` 檔案
 
-  - 複製 [專案頁 html 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/p/_sample_project/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
+  - 複製 [專案頁 html 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/p/_yyyy/_project_id/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
 
 ### 設定長期專案
 
-1. 建立專案頁跳板資料夾
+1. 建立長期專案資料夾
 
   - 資料夾名稱： `(your_project_id)/` ，例如 `admin/`
   - 資料夾位置： [/p/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p)
 
-2. 建立專案頁跳板頁
+2. 建立長期專案頁
+
+  - 在長期專案資料夾中新增 `index.html` 檔案
+  - 複製 [專案頁 html 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/p/_yyyy/_project_id/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
+  - 將檔案開頭的 `year:` 欄位內容設定為 `current`
+
+3. 建立跳板頁
 
   - 檔案名稱： `index.html`
-  - 檔案位置： `/p/(your_project_id)/` ，例如 [/p/admin/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/admin/)
+  - 檔案位置： `/p/(year)/(your_project_id)/` ，例如 [/p/2016/admin/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/2016/admin/)
   - 檔案內容：複製 [跳板頁 html 範本](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_samples/redirect.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
 
-3. 修改專案資料檔
+4. 修改專案資料檔
 
-  - 目標檔案： `/_data/_projects/(year)/(your_project_id).yml` ，例如 [/_data/projects/2016/admin.yml](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/projects/2016/admin.yml)
+  - 目標檔案： `/_data/_projects/(current_year)/(your_project_id).yml` ，例如 [/_data/projects/2016/admin.yml](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/projects/2016/admin.yml)
   - 將檔案內 `link:` 中第一筆資料的 `url:` ，從完整網址改為跳板頁網址，例如從 `/p/2016/admin/` 改為 `/p/admin/`
 
 ### 新增工作夥伴
@@ -92,7 +98,7 @@
 
   - 在活動資料夾中新增 `index.html` 檔案
 
-  - 複製 [活動頁 html 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/p/_sample_project/_sample_event/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
+  - 複製 [活動頁 html 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/p/_yyyy/_project_id/_event_id/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
 
 ### 新增年度
 
@@ -138,7 +144,7 @@
 
     - 檔案名稱： `index.html`
     - 檔案位置： `/p/(new_year)/` ，例如 [/p/2016/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/2016/)
-    - 複製 [活動頁 html 範本](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/_sample_year/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
+    - 複製 [活動頁 html 範本](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/_yyyy/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
 
   - 可在 `/p/(new_year)/` 預覽成果報告頁，如 [/p/2016/](http://beta.ocf.tw/p/2016/)
 
