@@ -4,9 +4,9 @@ menu:
   design:
     url: /design/
     icon: paint brush
-    title: 當設計師遇上強迫症
-    tagline: 
-    description: 這裡是 OCF 官網設計組用來滿足強迫症的地方，放一些業主不在乎、但自己會很爽的東西
+    title: 網站設計指南
+    tagline: 企畫、編輯、工程、介面
+    description: 這裡是 OCF 官網 2016 改版專案的交接文件，內容涵蓋未來所有參與網站設計的各種角色可能需要的資訊，包括企畫、編輯、工程、介面等。
   og:
     url: /design/og/
     icon: share alternate
