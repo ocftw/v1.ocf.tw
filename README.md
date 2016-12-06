@@ -58,22 +58,39 @@
   - 目標檔案： `/_data/_projects/(current_year)/(your_project_id).yml` ，例如 [/_data/projects/2016/admin.yml](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/projects/2016/admin.yml)
   - 將檔案內 `link:` 中第一筆資料的 `url:` ，從完整網址改為跳板頁網址，例如從 `/p/2016/admin/` 改為 `/p/admin/`
 
-### 新增工作夥伴
+### 新增工作人員
 
-1. 建立工作夥伴資料
+1. 建立工作人員資料
 
-  - 確認工作夥伴的 slack id
+  - 確認工作人員的 slack id
 
-  - 建立工作夥伴的的 `.yml` 檔案
+  - 建立工作人員的的 `.yml` 檔案
 
     - 檔案名稱： `(staff_id).yml` ，例如 `singing.yml`
     - 檔案位置： [/_data/people/individuals/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/people/individuals)
 
-  - 複製 [工作夥伴 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/individuals/_person_id.yml) 的內容，貼到新建立的 `(staff_id).yml` 檔案中編輯
+  - 複製 [工作人員 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/individuals/_person_id.yml) 的內容，貼到新建立的 `(staff_id).yml` 檔案中編輯
 
-2. 把工作夥伴加到 [工作夥伴](http://beta.ocf.tw/people/) 頁的列表
+2. 把工作人員加到 [工作夥伴](http://beta.ocf.tw/people/) 頁的列表
 
   - 把 `(staff_id)` 加到 `/_data/people/relations/(list_id).yml` 的清單中，如 [/_data/people/relations/staff.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/relations/staff.yml) 
+
+### 新增合作單位
+
+1. 建立合作單位資料
+
+  - 確認合作單位的 id，通常採用網域名稱
+
+  - 建立合作單位的的 `.yml` 檔案
+
+    - 檔案名稱： `(org_id).yml` ，例如 `coscup.yml`
+    - 檔案位置： [/_data/people/orgs/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/people/orgs)
+
+  - 複製 [合作單位 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/orgs/_org_id.yml) 的內容，貼到新建立的 `(org_id).yml` 檔案中編輯
+
+2. 把合作單位加到 [工作夥伴](http://beta.ocf.tw/people/) 頁的列表（optional，視業務需要）
+
+  - 把 `(org_id)` 加到 `/_data/people/relations/(list_id).yml` 的清單中，如 [/_data/people/relations/partners.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/relations/partners.yml) 
 
 ### 新增活動
 
