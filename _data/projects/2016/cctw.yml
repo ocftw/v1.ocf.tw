@@ -20,15 +20,14 @@ field_id:
   - legal
 advisor_id:
 organizer_id:
+  - cctw
 co-organizer_id:
 implementer_id:
 board_id:
   - pofeng
 staff_id:
   - singing
-partner_id:
-  - cctw
 consultant_id:
 volunteer_id:
 coordinator_id:
-
+  - lucien
