@@ -9,6 +9,16 @@ description: text
 cover: url
 # 頁首的背景圖片
 
+color: text
+# 頁首的背景圖混色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
+
+cover_image_opacity: 0.9
+# 頁首的背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
+
+cover_veil_opacity: 0.3
+# 蓋在頁首的背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
+
+
 items:
 # 以下每個項目代表一個簡報區塊
 

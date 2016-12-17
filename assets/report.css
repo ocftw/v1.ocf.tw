@@ -1,3 +1,35 @@
+#report #hero {
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#report #hero .cover {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  opacity: 0.3;
+  background-color: #000;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#report #hero .cover.image {
+  opacity: 0.9;
+}
+
+#report #hero .circular.icon {
+  box-shadow: 0 0 0 .1em rgba(255,255,255,0.6) inset;
+}
+
+#report .relative {
+  position: relative;
+}
+
 #report .ui.segment h2.ui.header {
   margin-top: 1rem;
 }

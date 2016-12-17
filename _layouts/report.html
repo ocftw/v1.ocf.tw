@@ -9,14 +9,23 @@ layout: page
 <main id="report">
 
 <!-- 從成果報告資料產生頁面 header -->
-<header class="ui center aligned stripe container">
-  <h1 class="ui icon header">
-    <i class="circular trophy icon"></i>
-    {{ site.data.reports[ year ].title }}
-  </h1>
-  <p>
-    {{ site.data.reports[ year ].description }}
-  </p>
+<header id="hero" class="ui inverted {{ site.data.reports[ year ].color }} center aligned basic segment marginless">
+
+  <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
+  <img class="cover image" src="{{ site.data.reports[ year ].cover }}" style="opacity: {{ site.data.reports[ year ].cover_image_opacity }}" />
+  <div class="cover" style="opacity: {{ site.data.reports[ year ].cover_veil_opacity }}"></div>
+  <hr class="ui hidden divider" />
+
+  <div class="ui stripe relative container">
+    <h1 class="ui inverted icon header">
+      <i class="circular trophy icon"></i>
+      {{ site.data.reports[ year ].title }}
+    </h1>
+    <p>
+      {{ site.data.reports[ year ].description }}
+    </p>
+  </div>
+  <hr class="ui hidden divider" />
 </header>
 
 <!-- 從成果報告資料產生各展示區塊 -->
