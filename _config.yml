@@ -8,3 +8,5 @@ config_url: http://beta.ocf.tw
 #       og_title: "test default title"
 #       og_image: /mediakit/cover.png
 #       og_description: "test default description"
+gems:
+  - jekyll-redirect-from
