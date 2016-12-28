@@ -1,10 +1,13 @@
 ---
-layout: page
+layout: global
 og_title: 專案與成果
 og_description: OCF 平時都在做什麼呢？請看這個年度正在加速進行中的專案們、以及歷年的成果報告。
 css: /assets/projects.css
 js: /assets/projects.js
 ---
+
+<!-- 替 level 1 頁面套上導覽列 -->
+{% include navbar_regular_pages.html %}
 
 {% assign current = site.data.settings.current | append: "" %}
 
