@@ -9,29 +9,7 @@
 
 {% if page.layout == "project" %}
 <!-- 讓所有 project 頁自動從專案資料中生出 og 素材 -->
-  {% assign current = site.data.settings.current | append: "" %}
-  {% assign year = page.year | append: "" %}
-  {% if year == "current" %}
-    {% assign year = current %}
-  {% endif %}
-  {% assign id = page.project_id | append: "" %}
-  {% assign og_url = page.url %}
-  {% if page.og_title %}
-    {% assign og_title = page.og_title %}
-  {% else %}
-    {% assign og_title = site.data.projects[year][id].name %}
-  {% endif %}
-  {% if page.og_image %}
-    {% assign og_image = page.og_image %}
-  {% else %}
-    {% assign og_image = site.data.projects[year][id].cover %}
-  {% endif %}
-  {% if page.og_description %}
-    {% assign og_description = page.og_description %}
-  {% else %}
-    {% assign og_description = site.data.projects[year][id].description %}
-  {% endif %}
-
+  {% include {{ page.layout }}_og.html %}
 {% elsif page.layout == "event" %}
 <!-- 讓所有 event 頁自動從活動及所屬專案資料中生出 og 素材 -->
   {% assign year = page.year | append: "" %}
