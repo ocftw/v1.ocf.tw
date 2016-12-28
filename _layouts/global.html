@@ -7,57 +7,15 @@
 <html>
 <head>
 
-{% if page.layout == "project" %}
-<!-- 讓所有 project 頁自動從專案資料中生出 og 素材 -->
+{% if 
+  page.layout == "project" or 
+  page.layout == "event" or 
+  page.layout == "report" or
+  page.layout == "design" 
+%}
+<!-- 讓所有指定 layout 頁自動從對應的資料中生出 og 素材 -->
+
   {% include {{ page.layout }}_og.html %}
-{% elsif page.layout == "event" %}
-<!-- 讓所有 event 頁自動從活動及所屬專案資料中生出 og 素材 -->
-  {% assign year = page.year | append: "" %}
-  {% assign id = page.event_id %}
-  {% assign og_url = page.url %}
-  {% if page.og_title %}
-    {% assign og_title = page.og_title %}
-  {% else %}
-    {% assign og_title = site.data.events[year][id].title %}
-  {% endif %}
-  {% if page.og_image %}
-    {% assign og_image = page.og_image %}
-  {% else %}
-    {% assign og_image = site.data.events[year][id].cover %}
-  {% endif %}
-  {% if page.og_description %}
-    {% assign og_description = page.og_description %}
-  {% else %}
-    {% assign og_description = site.data.events[year][id].description %}
-  {% endif %}
-
-{% elsif page.layout == "report" %}
-<!-- 讓所有 report 頁自動從報告資料中生出 og 素材 -->
-  {% assign year = page.year | append: "" %}
-  {% assign og_url = page.url %}
-  {% if page.og_title %}
-    {% assign og_title = page.og_title %}
-  {% else %}
-    {% assign og_title = site.data.reports[year].title %}
-  {% endif %}
-  {% if page.og_image %}
-    {% assign og_image = page.og_image %}
-  {% else %}
-    {% assign og_image = site.data.reports[year].cover %}
-  {% endif %}
-  {% if page.og_description %}
-    {% assign og_description = page.og_description %}
-  {% else %}
-    {% assign og_description = site.data.reports[year].description %}
-  {% endif %}
-
-{% elsif page.layout == "design" %}
-<!-- 讓所有 design 頁自動從設定檔中生出 og 素材 -->
-  {% assign og_url = page.url %}
-  {% assign data = page.data %}
-  {% assign og_title = site.data.design.settings.menu[data].title %}
-  {% assign og_image = site.data.people.orgs.ocf.cover %}
-  {% assign og_description = site.data.design.settings.menu[data].description %}
 
 {% else %}
 <!-- 讓所有一般頁套用指定或預設的 og 素材 -->
@@ -112,17 +70,16 @@
 
   <link rel="stylesheet" href="/assets/global.css"/>
 
-  {% if page.layout == "project" %}
-  <!-- 替所有 project 頁套上 css -->
-  <link rel="stylesheet" href="/assets/project.css"/>
+  {% if 
+    page.layout == "project" or 
+    page.layout == "event" or 
+    page.layout == "report" or
+    page.layout == "design" 
+  %}
+  <!-- 替所有指定 layout 頁套上對應的 css -->
 
-  {% elsif page.layout == "event" %}
-  <!-- 替所有 event 頁套上 css -->
-  <link rel="stylesheet" href="/assets/event.css"/>
+  <link rel="stylesheet" href="/assets/{{ page.layout }}.css"/>
 
-  {% elsif page.layout == "report" %}
-  <!-- 替所有 report 頁套上 css -->
-  <link rel="stylesheet" href="/assets/report.css"/>
   {% endif %}
 
   {% if page.css %}
