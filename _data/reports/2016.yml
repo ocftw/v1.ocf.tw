@@ -1,6 +1,6 @@
-title: 2016 回顧
-description: 開放文化基金會，最想要的就是協助、服務各方開放、開源的社群與朋友。2015 年是我們的第一年，雖然第一年剛開始總受限於人力、經費的限制，但因為有各方開放社群大力支持，OCF 還是協助了10,000+的朋友參與開放文化，協辦 7 場大型的社群會議、2 個夏令營、7 場教育訓練，及聯合 3 個使館邀請 11 位國際講者...
-cover: /p/2015/cover.jpg
+title: 開放文化基金會 2016 成果報告
+description: 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ... 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ... 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ... 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ...
+cover: /p/2016/admin/ndc-it-managers-2016.jpg
 color: red
 cover_image_opacity: 
 cover_veil_opacity: 
@@ -8,41 +8,59 @@ items:
   - type: header
     title: 社群支援
     icon: hand rock
-    background_color: yellow
+    background_color: orange
+    description: 在 2016 年 OCF 共協助 8 場研討會、8 項社群營運計畫與 2 項校園人才培育計畫，擔任各自社群專款金流窗口，協助合作簽約、人事聘用、志工招募、稅務處理等行政瑣事，希望給予社群法人行政的後勤支援，讓社群能更專注於開源理念的推廣與活絡。
   - type: content
     swap: false
     columns:
       - type: image
-        url: 
+        url: /p/2016/coscup/coscup2016.jpg
       - type: article
-        title: 
+        title: 大型活動
         subtitle: 
-        description: 
+        description: 大型研討會是開源社群的 blahblah... 今年 OOO 、 OOO 等新夥伴的加入，讓整個生態更 blah blah ...
         items:
-          - project_id: 
-          - title: 
-            url: 
-            month: 
+          - project_id: sitcon
+          - project_id: g0vsummit
+          - project_id: pycon
+          - project_id: coscup
+          - project_id: sitconcamp
+          - project_id: hadoopconf
+          - project_id: makerconf
+          - project_id: jcconf
         action:
-          title: 
-          url: 
+          title: 如果有連結按鈕就放這裡
+          url:
   - type: content
     swap: true
     columns:
       - type: image
-        url: 
+        url: /p/2016/g0vdathon/20n.jpg
       - type: article
-        title: 
+        title: 社群營運
         subtitle: 
-        description: 
+        description: 常態性的長期社群經營是 blahblahblah ...
         items:
-          - project_id: 
-          - title: 
-            url: 
-            month: 
-        action:
-          title: 
-          url: 
+          - project_id: g0vdathon
+          - project_id: osmtw
+          - project_id: osln
+          - project_id: hcsm
+          - project_id: otspace
+          - project_id: opensuse
+          - project_id: sa
+          - project_id: zhdata
+  - type: content
+    swap: false
+    columns:
+      - type: image
+        url: /p/2016/sysprogram/og.jpg
+      - type: article
+        title: 校園推廣
+        subtitle: 
+        description: 向下扎根是 blah blah blah ...
+        items:
+          - project_id: gcoin
+          - project_id: sysprogram
   - type: header
     title: 組織合作
     icon: building outline
