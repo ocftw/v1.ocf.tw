@@ -1,4 +1,18 @@
-project page: redirect to other website
+# 把網址重新導向到站內頁面
+
+- 在目的頁面的檔頭使用 redirect_from: 語法，此語法來自 jekyll-redirect-from 這個 plugin
+
+## 範例
+---
+redirect_from:
+  - /projects
+---
+
+# 把網址重新導向到其他網站的頁面
+
+- 在跳板頁面的檔頭使用以下範例
+
+## 範例一、讓專案頁重新導向到其他網站
 ---
 layout: redirect
 og_url: /p/2016/sitconcamp
@@ -8,54 +22,20 @@ year: 2016
 project_id: sitconcamp
 ---
 
-project page: redirect to our website in year folder
----
-layout: redirect
-og_url: /p/2016/intl
-data: projects
-year: 2016
-project_id: intl
----
-
-project page: redirect to our website in p folder
----
-layout: redirect
-og_url: /p/admin
-refresh: /p/admin
-data: projects
-year: 2016
-project_id: admin
----
-
-event page
+## 範例二、讓活動頁重新導向到其他網站
 ---
 layout: redirect
 og_url: /p/2015/intl/dalc
+refresh: http://...
 data: events
 year: 2015
 project_id: intl
 event_id: 0827
 ---
 
-report page
+## 範例三、讓任何頁面重新導向到其他網站
 ---
 layout: redirect
-og_url: /p/2015
-data: reports
-year: 2015
----
-
-others: retrieve data from destinaiton page
----
-layout: redirect
-og_url: /news
-data: page
----
-
-others: retrieve data from destinaiton page and jump to an anchor
----
-layout: redirect
-og_url: /people
-refresh: /people/#staff
-data: page
+og_url: /...
+refresh: http://...
 ---
