@@ -38,12 +38,25 @@ layout: global
 {% if item.type == "header" %}
 <header class="ui basic very padded segment marginless inverted {{ item.background_color }}">
   <div class="ui center aligned stripe container">
-    <h2 class="ui inverted header">
     {% if item.icon %}
-      <i class="{{ item.icon }} icon bordered"></i>
+    <div class="ui two column stackable grid">
+      <div class="four wide right aligned column">
+        <i class="{{ item.icon }} icon bordered"></i>
+      </div>
+      <div class="twelve wide left aligned column">
     {% endif %}
+
+    <h2 class="ui inverted header">
       {{ item.title }}
     </h2>
+    <p>
+    {{ item.description }}
+    </p>
+
+    {% if item.icon %}
+      </div>
+    </div>
+    {% endif %}
   </div>
 </header>
 
@@ -106,6 +119,12 @@ layout: global
 
       {% endfor %}
       </div>
+      {% endif %}
+
+      {% if column.footer %}
+      <p>
+      {{ column.footer }}
+      </p>
       {% endif %}
 
       {% if column.action %}

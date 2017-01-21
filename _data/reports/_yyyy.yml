@@ -18,7 +18,6 @@ cover_image_opacity: 0.9
 cover_veil_opacity: 0.3
 # 蓋在頁首的背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
 
-
 items:
 # 以下每個項目代表一個簡報區塊
 
@@ -33,6 +32,8 @@ items:
 
     background_color: text
     # header 區塊的被景色，可以是 semantic ui 定義的顏色，參考： http://semantic-ui.com/elements/segment.html#colored
+
+    description: text
 
   - type: content
     # 簡報區塊的類型， content 為內容式區塊，分兩欄
@@ -88,6 +89,8 @@ items:
           url: url
           # 按鈕的連結網址
 
+        footer: text
+
 # ------ 以下無註解 & 內建預設標題快速複製版 ------
 
 title: 201_ 回顧
@@ -98,6 +101,7 @@ items:
     title: 社群支援
     icon: hand rock
     background_color: yellow
+    description: 
   - type: content
     swap: false
     columns:
@@ -115,6 +119,7 @@ items:
         action:
           title: 
           url: 
+        footer: 
   - type: content
     swap: true
     columns:
@@ -136,15 +141,19 @@ items:
     title: 組織合作
     icon: building outline
     background_color: olive
+    description: 
   - type: header
     title: 跨國交流
     icon: plane
     background_color: teal
+    description: 
   - type: header
     title: 顧問諮詢
     icon: idea
     background_color: blue
+    description: 
   - type: header
     title: 財務報告
     icon: dollar
     background_color: pink
+    description: 

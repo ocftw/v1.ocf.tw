@@ -30,33 +30,30 @@
   position: relative;
 }
 
-#report .ui.segment h2.ui.header {
-  margin-top: 1rem;
-}
-
-#report .ui.inverted.header .bordered.icon {
+#report header.ui.segment .bordered.icon {
   box-shadow: 0 0 0 .1em rgba(255,255,255,.5) inset;
+  font-size: 3rem;
 }
 
 #report .flex-swap {
   order: 3;
 }
 
-#report .ui.grid>.column:not(.row) {
+#report section.ui.grid>.column:not(.row) {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#report .ui.column.grid .column {
+#report section.ui.column.grid .column {
   padding: 0;
 }
 
-#report .ui.column.grid {
+#report section.ui.column.grid {
   margin: 0;
 }
 
-#report .ui.two.column.grid .column>.ui.image {
+#report section.ui.two.column.grid .column>.ui.image {
   object-fit: cover;
   min-height: 100%;
 }
