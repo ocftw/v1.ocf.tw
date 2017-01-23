@@ -74,5 +74,8 @@
   order: 0;
 }
 
+#report header.ui.segment .bordered.icon {
+  margin-bottom: 2rem;
+}
 
 }
