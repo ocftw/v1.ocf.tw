@@ -38,21 +38,21 @@ items:
   - type: content
     # 簡報區塊的類型， content 為內容式區塊，分兩欄
 
-    swap: true / false
-    # content 區塊的兩欄在桌面板網頁上是否要左右對調，建議圖放第一欄、文放第二欄，然後跳奇偶數對調
-
     columns:
     # content 區塊的兩欄的內容
 
       - type: image
-        # content 區塊第一欄的類型，建議為 image ，也就是圖片區塊
+        # content 區塊內欄位的類型，若為 image 也就是圖片區塊，請放在第一欄
         # type 為必填
 
         url: url
         # image 欄的圖檔網址，必填
 
+        swap: true / false
+        # image 欄的位置在桌面板網頁上是否要左右對調
+
       - type: article
-        # content 區塊第二欄的類型，建議為 article ，也就是文章區塊
+        # content 區塊內欄位的類型，若為 article 也就是文章區塊，請放第二欄
         # type 為必填
 
         title: text
@@ -114,10 +114,10 @@ items:
     background_color: yellow
     description: 
   - type: content
-    swap: false
     columns:
       - type: image
         url: 
+        swap: false
       - type: article
         title: 
         subtitle: 
@@ -132,10 +132,10 @@ items:
           url: 
         footer: 
   - type: content
-    swap: true
     columns:
       - type: image
         url: 
+        swap: true
       - type: article
         title: 
         subtitle: 

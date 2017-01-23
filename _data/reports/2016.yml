@@ -11,10 +11,10 @@ items:
     background_color: orange
     description: 在 2016 年 OCF 共協助 8 場研討會、8 項社群營運計畫與 2 項校園人才培育計畫，擔任各自社群專款金流窗口，協助合作簽約、人事聘用、志工招募、稅務處理等行政瑣事，希望給予社群法人行政的後勤支援，讓社群能更專注於開源理念的推廣與活絡。
   - type: content
-    swap: false
     columns:
       - type: image
         url: /p/2016/coscup/coscup2016.jpg
+        swap: false
       - type: article
         title: 大型活動
         subtitle: 
@@ -32,10 +32,10 @@ items:
           title: 如果有連結按鈕就放這裡
           url:
   - type: content
-    swap: true
     columns:
       - type: image
         url: /p/2016/g0vdathon/20n.jpg
+        swap: true
       - type: article
         title: 社群營運
         subtitle: 
@@ -50,10 +50,10 @@ items:
           - project_id: sa
           - project_id: zhdata
   - type: content
-    swap: false
     columns:
       - type: image
         url: /p/2016/sysprogram/og.jpg
+        swap: false
       - type: article
         title: 校園推廣
         subtitle: 
