@@ -67,12 +67,12 @@ layout: global
 {% for column in item.columns %}
   {% if column.type == "image" %}
 
-  <!-- 根據資料決定影像 column 的位置是否要左右對調 -->
-  <div class="column{% if item.swap %} flex-swap{% endif %}">
+  <!-- 根據資料產生 image 欄內容，同時決定位置是否要左右對調 -->
+  <div class="column{% if column.swap %} flex-swap{% endif %}">
     <img class="ui image" src="{{ column.url }}" />
   </div>
 
-  <!-- 根據資料產生文章 column 內容 -->
+  <!-- 根據資料產生 article 欄內容 -->
   {% elsif column.type == "article" %}
   <div class="column">
     <div class="ui center aligned stripe container">
@@ -137,8 +137,8 @@ layout: global
     </div>
   </div>
 
-    {% endif %}
-  {% endfor %}
+  {% endif %}
+{% endfor %}
 
 </section>
 
