@@ -74,6 +74,14 @@ items:
     icon: idea
     background_color: blue
   - type: header
+    title: 政策倡議
+    icon: announcement
+    background_color: violet
+  - type: header
     title: 財務報告
     icon: dollar
+    background_color: purple
+  - type: header
+    title: 由衷感謝
+    icon: heart
     background_color: pink
