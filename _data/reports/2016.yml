@@ -47,8 +47,8 @@ items:
           - project_id: hcsm
           - project_id: otspace
           - project_id: opensuse
-          - project_id: sa
           - project_id: zhdata
+          - project_id: sa
   - type: content
     columns:
       - type: image
@@ -65,22 +65,27 @@ items:
     title: 組織合作
     icon: building outline
     background_color: olive
+    description: 
   - type: header
     title: 跨國交流
     icon: plane
     background_color: teal
+    description: 
   - type: header
     title: 顧問諮詢
     icon: idea
     background_color: blue
+    description: 
   - type: header
     title: 政策倡議
     icon: announcement
     background_color: violet
+    description: 
   - type: header
     title: 財務報告
     icon: dollar
     background_color: purple
+    description: 
   - type: content
     columns:
       - type: iframe
@@ -93,3 +98,4 @@ items:
     title: 由衷感謝
     icon: heart
     background_color: pink
+    description: 

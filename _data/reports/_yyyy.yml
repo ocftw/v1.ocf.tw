@@ -164,8 +164,15 @@ items:
     background_color: blue
     description: 
   - type: header
+    title: 政策倡議
+    icon: announcement
+    background_color: violet
+    description: 
+  - type: header
     title: 財務報告
     icon: dollar
+    background_color: purple
+    description: 
   - type: content
     columns:
       - type: iframe
@@ -174,5 +181,8 @@ items:
       - type: iframe
         url: url
         height: 
+  - type: header
+    title: 由衷感謝
+    icon: heart
     background_color: pink
     description: 
