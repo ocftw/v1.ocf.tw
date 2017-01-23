@@ -58,6 +58,12 @@
   min-height: 100%;
 }
 
+#report section.ui.two.column.grid .column>iframe {
+  width: 100%;
+  border: none;
+  padding: 2rem 0;
+}
+
 @media only screen and (max-width: 767px) {
 
 #report .ui.stackable.grid>.column:not(.row) {

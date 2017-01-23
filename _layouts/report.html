@@ -137,6 +137,11 @@ layout: global
     </div>
   </div>
 
+  <!-- 根據資料產生 iframe 欄內容 -->
+  {% elsif column.type == "iframe" %}
+  <div class="column">
+    <iframe src="{{ column.url }}" style="height: {{ column.height }}"></iframe>
+  </div>
   {% endif %}
 {% endfor %}
 

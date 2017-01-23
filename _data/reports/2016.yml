@@ -81,6 +81,14 @@ items:
     title: 財務報告
     icon: dollar
     background_color: purple
+  - type: content
+    columns:
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=963993401&amp;format=interactive
+        height: 25rem
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=495996187&amp;format=interactive
+        height: 25rem
   - type: header
     title: 由衷感謝
     icon: heart
