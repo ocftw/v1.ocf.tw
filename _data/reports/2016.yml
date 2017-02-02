@@ -18,7 +18,7 @@ items:
       - type: article
         title: 大型活動
         subtitle: 
-        description: 大型研討會是開源社群的 blahblah... 今年 OOO 、 OOO 等新夥伴的加入，讓整個生態更 blah blah ...
+        description: 大型研討會是開源社群內部互動交流，以及和外部社會大眾接觸的重要管道，OCF為合作夥伴降低大型活動執行的行政門檻，讓社群生態能在更豐富的討論環境下多元發展。
         items:
           - project_id: sitcon
           - project_id: g0vsummit
