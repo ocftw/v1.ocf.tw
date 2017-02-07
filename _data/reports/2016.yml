@@ -113,7 +113,7 @@ items:
     title: 顧問諮詢
     icon: idea
     background_color: blue
-    description: 
+    description: 秉持開源的精神，不吝分享開放文化精神與知識傳播。
   - type: header
     title: 政策倡議
     icon: announcement
