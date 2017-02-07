@@ -72,6 +72,16 @@ layout: global_2016_transition
     <img class="ui image" src="{{ column.url }}" />
   </div>
 
+  <!-- 根據資料產生 image slider 欄內容 -->
+  {% elsif column.type == "slider" %}
+  <div class="column{% if column.swap %} flex-swap{% endif %}">
+    <div class="slick">
+      {% for slide in column.slides %}
+      <img class="ui image" src="{{ slide.url }}" />
+      {% endfor %}
+    </div>
+  </div>
+
   <!-- 根據資料產生 article 欄內容 -->
   {% elsif column.type == "article" %}
   <div class="column">

@@ -51,6 +51,18 @@ items:
         swap: true / false
         # image 欄的位置在桌面板網頁上是否要左右對調
 
+      - type: slider
+        # content 區塊內欄位的類型，若為 slider 也就是圖片輪播區塊，請放在第一欄
+        # type 為必填
+
+        swap: true / false
+        # slider 欄的位置在桌面板網頁上是否要左右對調
+
+        slides:
+        # slider 內的圖檔們的網址
+          - url: url
+          - url: url
+
       - type: article
         # content 區塊內欄位的類型，若為 article 也就是文章區塊，請放第二欄
         # type 為必填
@@ -101,6 +113,9 @@ items:
         height: 25rem
         # iframe 欄的高度，視內嵌網頁長度而調整
 
+        title: text
+        description: text
+
 
 # ------ 以下無註解 & 內建預設標題快速複製版 ------
 
@@ -133,9 +148,9 @@ items:
         footer: 
   - type: content
     columns:
-      - type: image
-        url: 
+      - type: slider
         swap: true
+
       - type: article
         title: 
         subtitle: 
@@ -178,9 +193,13 @@ items:
       - type: iframe
         url: url
         height: 
+        title: 
+        description: 
       - type: iframe
         url: url
         height: 
+        title: 
+        description: 
   - type: header
     title: 由衷感謝
     icon: heart

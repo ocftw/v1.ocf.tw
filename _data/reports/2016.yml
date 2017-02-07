@@ -141,3 +141,14 @@ items:
     icon: heart
     background_color: pink
     description: 
+  - type: content
+    columns:
+      - type: slider
+        swap: true
+        slides:
+          - url: /p/2016/admin/ndc-it-managers-2016.jpg
+          - url: /p/2016/coscup/coscup2016.jpg
+      - type: article
+        title: TEST
+        subtitle: 
+        description: test
