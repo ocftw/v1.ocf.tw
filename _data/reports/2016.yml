@@ -41,7 +41,7 @@ items:
       - type: article
         title: 社群營運
         subtitle: 
-        description: 常態性的長期經營是延續並維持開源發展能量一大要務，從贊助金流代管到因應社群需求拓展而出的各種營運專案協助，OCF樂於作為各社群營運的後盾，一同成長茁壯。
+        description: 常態性的長期經營是延續並維持開源發展能量一大要務，從贊助金流代管到因應社群需求拓展而出的各種營運專案協助，OCF 樂於作為各社群營運的後盾，一同成長茁壯。
         items:
           - project_id: g0vdathon
           - project_id: osmtw
@@ -122,7 +122,7 @@ items:
       - type: article
         title: 開放建議報告
         subtitle: 
-        description: 我們蒐集了部分社群朋友的建議，撰寫了「公益資訊平台開放暨推廣策略建議書」提供給內政部人民團體司，針對其預計開放更多資料的網站「公益資訊平台」給予開放資料和推廣的建議。
+        description: 我們蒐集了部分社群朋友的建議，撰寫了「公益資訊平台開放暨推廣策略建議書」提供給內政部，針對其網站「公益資訊平台」給予開放資料和推廣的建議。
         items:
           - project_id: 
   - type: content
