@@ -65,13 +65,13 @@ items:
         items:
           - project_id: gcoin
           - project_id: sysprogram
-          # 佔版面的(?說明要怎麼放
+            # 佔版面的(?說明要怎麼放
   - type: header
     title: 組織合作
     icon: building outline
     background_color: olive
     description: 藉由與產、官、學界的跨界合作，共同發揚開放文化的精神，促成與國內外開放社群協力的機會。
-    - type: content
+  - type: content
     columns:
       - type: image
         url: /p/2016/umaker/cover.jpg
@@ -82,7 +82,7 @@ items:
         description: 智新資通熱心做公益，U．MAKER 開源 3D 印表機回饋預購金 10% 支持開放文化。
         items:
           - project_id: umaker      
-    - type: content
+  - type: content
     columns:
       - type: image
         url: /p/2016/admin/ndc-it-managers-2016.jpg
@@ -93,17 +93,17 @@ items:
         description: 積極與國發會合辦政府資訊主管聯席會，邀請專家學者分享台灣的公民科技發展與世界趨勢。
         items:
           - project_id: 
-    - type: content
-        columns:
-          - type: image
-            url: /p/2016/cctw/og.png
-            swap: false
-          - type: article
-            title: 【學】CCTW X OCF — 第 2 彈
-            subtitle: 
-            description: 持續與台灣創用 CC 合作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，能接觸更多國內外的自由文化社群。
-            items:
-              - project_id: cctw
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/cctw/og.png
+        swap: false
+      - type: article
+        title: 【學】CCTW X OCF — 第 2 彈
+        subtitle: 
+        description: 持續與台灣創用 CC 合作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，能接觸更多國內外的自由文化社群。
+        items:
+          - project_id: cctw
   - type: header
     title: 跨國交流
     icon: plane
