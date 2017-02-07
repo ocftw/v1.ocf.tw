@@ -65,12 +65,45 @@ items:
     title: 組織合作
     icon: building outline
     background_color: olive
-    description: 
+    description: 藉由與產、官、學界的跨界合作，共同發揚開放文化的精神，促成與國內外開放社群協力的機會。
+    - type: content
+    columns:
+      - type: image
+        url: /p/2016/umaker/cover.jpg
+        swap: true
+      - type: article
+        title: 【產】取之開源，回饋開源 — 最終章
+        subtitle: 
+        description: 智新資通熱心做公益，U．MAKER 開源 3D 印表機回饋預購金 10% 支持開放文化。
+        items:
+          - project_id: umaker      
+    - type: content
+    columns:
+      - type: image
+        url: /p/2016/admin/ndc-it-managers-2016.jpg
+        swap: true
+      - type: article
+        title: 【官】政府資訊主管聯席會 X OCF — 初登場
+        subtitle: 
+        description: 積極與國發會合辦政府資訊主管聯席會，邀請專家學者分享台灣的公民科技發展與世界趨勢。
+        items:
+          - project_id: 
+    - type: content
+        columns:
+          - type: image
+            url: /p/2016/cctw/og.png
+            swap: false
+          - type: article
+            title: 【學】CCTW X OCF — 第 2 彈
+            subtitle: 
+            description: 持續與台灣創用 CC 合作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，能接觸更多國內外的自由文化社群。
+            items:
+              - project_id: cctw
   - type: header
     title: 跨國交流
     icon: plane
     background_color: teal
-    description: 
+    description: 鼓勵青年學子勇闖國際開源大講台，發表開源成果與拓展國際視野；建立本地社群與國際社群的連結，催生相互認識與合作的機會，追蹤全球公民科技的新趨勢。
   - type: header
     title: 顧問諮詢
     icon: idea
