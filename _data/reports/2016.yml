@@ -18,11 +18,7 @@ items:
       - type: article
         title: 大型活動
         subtitle: 
-<<<<<<< HEAD
         description: 協助合作夥伴降低大型活動執行的行政門檻，讓社群生態在更豐富的討論環境下多元發展。
-=======
-        description: 大型研討會是開源社群內部互動交流，以及和外部社會大眾接觸的重要管道，OCF 為合作夥伴降低大型活動執行的行政門檻，讓社群生態能在更豐富的討論環境下多元發展。
->>>>>>> ee33cb3998833f793a9e800999e172127dedbfa8
         items:
           - project_id: sitcon
           - project_id: g0vsummit
@@ -40,11 +36,7 @@ items:
       - type: article
         title: 社群營運
         subtitle: 
-<<<<<<< HEAD
         description: 延續開源發展能量需要常態性的長期經營，與社群一同成長茁壯。
-=======
-        description: 常態性的長期經營是延續並維持開源發展能量一大要務，從贊助金流代管到因應社群需求拓展而出的各種營運專案協助，OCF 樂於作為各社群營運的後盾，一同成長茁壯。
->>>>>>> ee33cb3998833f793a9e800999e172127dedbfa8
         items:
           - project_id: g0vdathon
           - project_id: osmtw
