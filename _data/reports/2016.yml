@@ -133,7 +133,7 @@ items:
       - type: article
         title: 開放授權諮詢
         subtitle: 
-        description: 另外，我們也和長年研究科技法律，現志工擔任基金會法制顧問的林誠夏先生合作，提供民眾一個免費 / 付費的開放授權諮詢管道。並且也開啟了 OSLN.TW 專案的序幕。
+        description: 我們和長年研究科技法律，現志工擔任基金會法制顧問的林誠夏先生合作，提供民眾一個免費/付費的開放授權諮詢管道。並且也開啟了台灣開源法律網絡的序幕。
         items:
           - project_id: osln
   - type: header
