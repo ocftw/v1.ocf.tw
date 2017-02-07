@@ -86,7 +86,7 @@ items:
     columns:
       - type: image
         url: /p/2016/admin/ndc-it-managers-2016.jpg
-        swap: true
+        swap: false
       - type: article
         title: 【官】政府資訊主管聯席會 X OCF — 初登場
         subtitle: 
@@ -97,7 +97,7 @@ items:
     columns:
       - type: image
         url: /p/2016/cctw/CC_2016.jpg
-        swap: false
+        swap: true
       - type: article
         title: 【學】CCTW X OCF — 第 2 彈
         subtitle: 
