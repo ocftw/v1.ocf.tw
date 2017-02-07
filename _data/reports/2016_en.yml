@@ -1,0 +1,154 @@
+title: 2016 Annual Report | Open Culture Foundation
+description: 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ... 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ... 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ... 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ...
+cover: /p/2016/admin/ndc-it-managers-2016.jpg
+color: red
+cover_image_opacity: 
+cover_veil_opacity: 
+items:
+  - type: header
+    title: Support Communities
+    icon: hand rock
+    background_color: orange
+    description: blah
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/coscup/coscup2016.jpg
+        swap: false
+      - type: article
+        title: 大型活動
+        subtitle: 
+        description: 大型研討會是開源社群內部互動交流，以及和外部社會大眾接觸的重要管道，OCF為合作夥伴降低大型活動執行的行政門檻，讓社群生態能在更豐富的討論環境下多元發展。
+        items:
+          - project_id: sitcon
+          - project_id: g0vsummit
+          - project_id: pycon
+          - project_id: coscup
+          - project_id: sitconcamp
+          - project_id: hadoopcon
+          # project檔案名沒有f、2016maker9/3比hadoop9/9早
+          - project_id: makerconf
+          - project_id: jcconf
+        action:
+          title: link button
+          # 連結可以放篩選過的捐款頁嗎?
+          url:
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/g0vdathon/20n.jpg
+        swap: true
+      - type: article
+        title: 社群營運
+        subtitle: 
+        description: 常態性的長期經營是延續並維持開源發展能量一大要務，從贊助金流代管到因應社群需求拓展而出的各種營運專案協助，OCF樂於作為各社群營運的後盾，一同成長茁壯。
+        items:
+          - project_id: g0vdathon
+          - project_id: osmtw
+          - project_id: osln
+          - project_id: hcsm
+          - project_id: otspace
+          - project_id: opensuse
+          - project_id: zhdata
+          # 中文資訊處理計畫?
+          - project_id: sa
+          - project_id: chewing
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/sysprogram/og.jpg
+        swap: false
+      - type: article
+        title: 校園推廣
+        subtitle: 
+        description: 開源社群要培育新人、向下扎根有賴校園資訊教育的普及與深化，OCF致力於與社群資深開發者合作，建構務實並具有前瞻性的學習環境，培養更多擁有開發能力的人才，為開源社群注入新的活力。
+        items:
+          - project_id: gcoin
+          - project_id: sysprogram
+            # 佔版面的(?說明要怎麼放
+  - type: header
+    title: 組織合作
+    icon: building outline
+    background_color: olive
+    description: 藉由與產、官、學界的跨界合作，共同發揚開放文化的精神，促成與國內外開放社群協力的機會。
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/umaker/cover.jpg
+        swap: true
+      - type: article
+        title: 【產】取之開源，回饋開源 — 最終章
+        subtitle: 
+        description: 2015~2016 年預購 U．MAKER 開源 3D 印表機，智新資通捐出10%做公益，以實際行動支持開放文化。 
+        items:
+          - project_id: umaker      
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/admin/ndc-it-managers-2016.jpg
+        swap: true
+      - type: article
+        title: 【官】政府資訊主管聯席會 X OCF — 初登場
+        subtitle: 
+        description: 積極與國發會合辦政府資訊主管聯席會，邀請專家學者分享台灣的公民科技發展與世界趨勢。
+        items:
+          - project_id: 
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/cctw/og.png
+        swap: false
+      - type: article
+        title: 【學】CCTW X OCF — 第 2 彈
+        subtitle: 
+        description: 持續與台灣創用 CC 合作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，能接觸更多國內外的自由文化社群。
+        items:
+          - project_id: cctw
+  - type: header
+    title: 跨國交流
+    icon: plane
+    background_color: teal
+    description: 鼓勵青年學子勇闖國際開源大講台，發表開源成果與拓展國際視野；建立本地社群與國際社群的連結，催生相互認識與合作的機會，追蹤全球公民科技的新趨勢。
+  - type: header
+    title: 顧問諮詢
+    icon: idea
+    background_color: blue
+    description: 秉持開源的精神，不吝分享開放文化理念並貫徹知識自由傳播。我們蒐集了部分社群朋友的建議，撰寫了「公益資訊平台開放暨推廣策略建議書」提供給內政部人民團體司，針對其預計開放更多資料的網站「公益資訊平台」給予開放資料和推廣的建議。另外，我們也和基金會的法制顧問林誠夏先生合作，提供民眾一個開放授權的諮詢管道。
+  - type: header
+    title: 政策倡議
+    icon: announcement
+    background_color: violet
+    description: 
+  - type: header
+    title: 財務報告
+    icon: dollar
+    background_color: purple
+    description: 
+  - type: content
+    columns:
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=963993401&amp;format=interactive
+        height: 25rem
+        title: 2016 年度行政基金收入<br/>NT$ 2,352,441
+        description: 社群專款專用收入 NT$ 14,004,225
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=495996187&amp;format=interactive
+        height: 25rem
+        title: 2016 年度行政基金支出<br/>NT$ 1,735,636
+        description: 社群專款專用支出 NT$ 11,041,651
+  - type: header
+    title: 由衷感謝
+    icon: heart
+    background_color: pink
+    description: 
+  - type: content
+    columns:
+      - type: slider
+        swap: true
+        slides:
+          - url: /p/2016/admin/ndc-it-managers-2016.jpg
+          - url: /p/2016/coscup/coscup2016.jpg
+      - type: article
+        title: TEST
+        subtitle: 
+        description: test
