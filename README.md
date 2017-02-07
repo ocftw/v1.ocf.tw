@@ -207,6 +207,7 @@
 
 ```
 $ gem install jekyll
+$ gem install jekyll-redirect-from
 $ jekyll serve
 ```
 
