@@ -3,6 +3,13 @@
 # jekyll 官方指定使用的 layout，用來壓縮 html 的，開發時可以先拿掉
 # 全站所有頁面共用的終極 template
 ---
+
+{% if page.lang == 'en' %}
+  {% assign sitename = site.data.people.orgs.ocf.sitename_en %}
+{% else %}
+  {% assign sitename = site.data.people.orgs.ocf.sitename %}
+{% endif %}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,16 +31,23 @@
   {% else %}
     {% assign og_url = page.url %}
   {% endif %}
+
   {% assign og_title = page.og_title %}
+
   {% if page.og_image %}
     {% assign og_image = page.og_image %}
   {% else %}
     {% assign og_image = site.data.people.orgs.ocf.cover %}
   {% endif %}
+
   {% if page.og_description %}
     {% assign og_description = page.og_description %}
   {% else %}
-    {% assign og_description = site.data.people.orgs.ocf.context_description %}
+    {% if page.lang == 'en' %}
+      {% assign og_description = site.data.people.orgs.ocf.context_description_en %}
+    {% else %}
+      {% assign og_description = site.data.people.orgs.ocf.context_description %}
+    {% endif %}
   {% endif %}
 
 {% endif %}
@@ -53,9 +67,9 @@
   <meta property="og:image" content="{{ og_image }}" /> 
   <meta name="twitter:image:src" content="{{ og_image }}" />
 
-  <meta property="og:title" content="{{ og_title }} | OCF 開放文化基金會" />
-  <meta name="twitter:title" content="{{ og_title }} | OCF 開放文化基金會" />
-  <title>{{ og_title }} | OCF 開放文化基金會</title>
+  <meta property="og:title" content="{{ og_title }} | {{ sitename }}" />
+  <meta name="twitter:title" content="{{ og_title }} | {{ sitename }}" />
+  <title>{{ og_title }} | {{ sitename }}</title>
 
   <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 

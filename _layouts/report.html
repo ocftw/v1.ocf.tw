@@ -9,30 +9,36 @@ layout: global_2016_transition
 
 {% assign year = page.year | append: '' %}
 
+{% if page.lang == "en" %}
+  {% assign report_id = year | append: '_' | append: page.lang %}
+{% else %}
+  {% assign report_id = year %}
+{% endif %}
+
 <main id="report">
 
 <!-- 從成果報告資料產生頁面 header -->
-<header id="hero" class="ui inverted {{ site.data.reports[ year ].color }} center aligned basic segment marginless">
+<header id="hero" class="ui inverted {{ site.data.reports[ report_id ].color }} center aligned basic segment marginless">
 
   <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
-  <img class="cover image" src="{{ site.data.reports[ year ].cover }}" style="opacity: {{ site.data.reports[ year ].cover_image_opacity }}" />
-  <div class="cover" style="opacity: {{ site.data.reports[ year ].cover_veil_opacity }}"></div>
+  <img class="cover image" src="{{ site.data.reports[ report_id ].cover }}" style="opacity: {{ site.data.reports[ report_id ].cover_image_opacity }}" />
+  <div class="cover" style="opacity: {{ site.data.reports[ report_id ].cover_veil_opacity }}"></div>
   <hr class="ui hidden divider" />
 
   <div class="ui stripe relative container">
     <h1 class="ui inverted icon header">
       <i class="circular trophy icon"></i>
-      {{ site.data.reports[ year ].title }}
+      {{ site.data.reports[ report_id ].title }}
     </h1>
     <p>
-      {{ site.data.reports[ year ].description }}
+      {{ site.data.reports[ report_id ].description }}
     </p>
   </div>
   <hr class="ui hidden divider" />
 </header>
 
 <!-- 從成果報告資料產生各展示區塊 -->
-{% for item in site.data.reports[ year ].items %}
+{% for item in site.data.reports[ report_id ].items %}
 
 <!-- 標題區塊 -->
 {% if item.type == "header" %}
@@ -50,7 +56,7 @@ layout: global_2016_transition
       {{ item.title }}
     </h2>
     <p>
-    {{ item.description }}
+      {{ item.description }}
     </p>
 
     {% if item.icon %}
@@ -109,19 +115,38 @@ layout: global_2016_transition
         {% if link.project_id %}
         {% assign data = site.data.projects[year][link.project_id] %}
         <a class="item" href="{{ data.link[0].url }}" target="_blank">
+
+          {% if page.lang == 'en' %}
+          {% else %}
+          {% endif %}
+
           {% if data.month %}
           <span class="ui horizontal label">
-          {{ data.month }} 月
+          {% if page.lang == 'en' %}
+            {{ data.month_en }}
+          {% else %}
+            {{ data.month }} 月
+          {% endif %}
           </span>
           {% endif %}
-          {{ data.name }}
+
+          {% if page.lang == 'en' %}
+            {{ data.name_en }}
+          {% else %}
+            {{ data.name }}
+          {% endif %}
+
         </a>
         {% endif %}
 
         {% if link.title %}
         <a class="item" href="link.url" target="_blank">
           <span class="ui horizontal label">
-          {{ link.month }} 月
+          {% if page.lang == 'en' %}
+            {{ link.month }}
+          {% else %}
+            {{ link.month }} 月
+          {% endif %}
           </span>
           {{ link.title }}
         </a>
@@ -166,6 +191,9 @@ layout: global_2016_transition
 {% endfor %}
 
 <!-- 最後放上無所不在的捐款廣告 -->
+{% if page.lang == "en" %}
+{% else %}
 {% include cta.html %}
+{% endif %}
 
 </main>

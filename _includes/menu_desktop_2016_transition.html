@@ -1,8 +1,28 @@
+
+
+
 <a class="logo item" href="http://ocf.tw">
   <img class="ui logo image" src="{{ site.data.people.orgs.ocf.icon }}">
 </a>
 <div class="right menu">
 
+{% if page.lang == "en" %}
+<a href="http://ocf.tw/#whoweare" class="item" data-display="desktop">
+About
+</a>
+<a href="http://ocf.tw/staff/" class="item" data-display="desktop">
+Staff
+</a>
+<a href="http://ocf.tw/donate/" class="item" data-display="desktop">
+Donate
+</a>
+<a href="http://ocf.tw/partner/" class="item" data-display="desktop">
+Events
+</a>
+<a href="http://ocf.tw/activities/" class="item" data-display="desktop">
+Activities
+</a>
+{% else %}
 <a href="http://ocf.tw/#whoweare" class="item" data-display="desktop">
 認識我們
 </a>
@@ -18,6 +38,7 @@
 <a href="http://ocf.tw/activities/" class="item" data-display="desktop">
 活動記錄
 </a>
+{% endif %}
 
 <a class="item" data-display="mobile" data-toggle="sidebar">
   <i class="sidebar icon"></i>

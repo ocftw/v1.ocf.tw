@@ -18,7 +18,11 @@ items:
       - type: article
         title: 大型活動
         subtitle: 
+<<<<<<< HEAD
         description: 協助合作夥伴降低大型活動執行的行政門檻，讓社群生態在更豐富的討論環境下多元發展。
+=======
+        description: 大型研討會是開源社群內部互動交流，以及和外部社會大眾接觸的重要管道，OCF 為合作夥伴降低大型活動執行的行政門檻，讓社群生態能在更豐富的討論環境下多元發展。
+>>>>>>> ee33cb3998833f793a9e800999e172127dedbfa8
         items:
           - project_id: sitcon
           - project_id: g0vsummit
@@ -36,7 +40,11 @@ items:
       - type: article
         title: 社群營運
         subtitle: 
+<<<<<<< HEAD
         description: 延續開源發展能量需要常態性的長期經營，與社群一同成長茁壯。
+=======
+        description: 常態性的長期經營是延續並維持開源發展能量一大要務，從贊助金流代管到因應社群需求拓展而出的各種營運專案協助，OCF 樂於作為各社群營運的後盾，一同成長茁壯。
+>>>>>>> ee33cb3998833f793a9e800999e172127dedbfa8
         items:
           - project_id: g0vdathon
           - project_id: osmtw
@@ -91,14 +99,14 @@ items:
       - type: article
         title: 【產】取之開源，回饋開源 — 最終章
         subtitle: 
-        description: 2015~2016 年預購 U．MAKER 開源 3D 印表機，智新資通捐出10%做公益，以實際行動支持開放文化。 
+        description: 2015 ~ 2016 年預購 U．MAKER 開源 3D 印表機，智新資通捐出10%做公益，以實際行動支持開放文化。 
         items:
           - project_id: umaker      
   - type: content
     columns:
       - type: image
         url: /p/2016/admin/ndc-it-managers-2016.jpg
-        swap: true
+        swap: false
       - type: article
         title: 【官】政府資訊主管聯席會 X OCF — 初登場
         subtitle: 
@@ -108,8 +116,8 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/cctw/og.png
-        swap: false
+        url: /p/2016/cctw/CC_2016.jpg
+        swap: true
       - type: article
         title: 【學】CCTW X OCF — 第 2 彈
         subtitle: 
@@ -134,7 +142,7 @@ items:
       - type: article
         title: 開放建議報告
         subtitle: 
-        description: 我們蒐集了部分社群朋友的建議，撰寫了「公益資訊平台開放暨推廣策略建議書」提供給內政部人民團體司，針對其預計開放更多資料的網站「公益資訊平台」給予開放資料和推廣的建議。
+        description: 我們蒐集了部分社群朋友的建議，撰寫了「公益資訊平台開放暨推廣策略建議書」提供給內政部，針對其網站「公益資訊平台」給予開放資料和推廣的建議。
         items:
           - project_id: 
   - type: content
@@ -145,14 +153,27 @@ items:
       - type: article
         title: 開放授權諮詢
         subtitle: 
-        description: 另外，我們也和長年研究科技法律，現志工擔任基金會法制顧問的林誠夏先生合作，提供民眾一個免費 / 付費的開放授權諮詢管道。並且也開啟了 OSLN.TW 專案的序幕。
+        description: 我們和長年研究科技法律，現志工擔任基金會法制顧問的林誠夏先生合作，提供民眾一個免費/付費的開放授權諮詢管道。並且也開啟了台灣開源法律網絡的序幕。
         items:
           - project_id: osln
   - type: header
     title: 政策倡議
     icon: announcement
     background_color: violet
-    description: 
+    description: 遊說政府機關與民間企業將開放、自由的精神納入服務之中，讓台灣的各類基礎建設可不被綁定在特定軟/硬體之中。
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/admin/Taiwan_CDC_RI_GithubPage.png
+        swap: true
+      - type: article
+        title: 斷開硬體綁架的鎖鏈，減少自然人憑證卡的跨平台問題
+        subtitle: 
+        description: 推動中華電信釋出自然人憑證規格與操作範例未果，遂促成民間自主開發自然人憑證在跨平台上的自由應用
+        action:
+          title: <i class="github icon"></i> Source Code
+          url: https://github.com/orsonwang/Taiwan_CDC_RI
+
   - type: header
     title: 財務報告
     icon: dollar
