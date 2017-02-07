@@ -113,7 +113,29 @@ items:
     title: 顧問諮詢
     icon: idea
     background_color: blue
-    description: 秉持開源的精神，不吝分享開放文化理念並貫徹知識自由傳播。我們蒐集了部分社群朋友的建議，撰寫了「公益資訊平台開放暨推廣策略建議書」提供給內政部人民團體司，針對其預計開放更多資料的網站「公益資訊平台」給予開放資料和推廣的建議。另外，我們也和基金會的法制顧問林誠夏先生合作，提供民眾一個開放授權的諮詢管道。
+    description: 秉持開源的精神，不吝分享開放文化理念並貫徹知識自由傳播。
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/charityreport/charity-report.png
+        swap: true
+      - type: article
+        title: 開放建議報告
+        subtitle: 
+        description: 我們蒐集了部分社群朋友的建議，撰寫了「公益資訊平台開放暨推廣策略建議書」提供給內政部人民團體司，針對其預計開放更多資料的網站「公益資訊平台」給予開放資料和推廣的建議。
+        items:
+          - project_id: 
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/osln/og4x3.png
+        swap: false
+      - type: article
+        title: 開放授權諮詢
+        subtitle: 
+        description: 另外，我們也和長年研究科技法律，現志工擔任基金會法制顧問的林誠夏先生合作，提供民眾一個免費 / 付費的開放授權諮詢管道。並且也開啟了 OSLN.TW 專案的序幕。
+        items:
+          - project_id: osln
   - type: header
     title: 政策倡議
     icon: announcement
