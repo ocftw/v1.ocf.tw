@@ -140,6 +140,11 @@ layout: global_2016_transition
   <!-- 根據資料產生 iframe 欄內容 -->
   {% elsif column.type == "iframe" %}
   <div class="column">
+    <span></span>
+    <h3 class="ui center aligned header">
+      {{ column.title }}
+      <div class="sub header">{{ column.description }}</div>
+    </h3>
     <iframe src="{{ column.url }}" style="height: {{ column.height }}"></iframe>
   </div>
   {% endif %}
