@@ -8,7 +8,12 @@ layout: global_2016_transition
 <!-- 成果報告頁共用的 template -->
 
 {% assign year = page.year | append: '' %}
-{% assign report_id = year | append: '_' | append: page.lang %}
+
+{% if page.lang == "en" %}
+  {% assign report_id = year | append: '_' | append: page.lang %}
+{% else %}
+  {% assign report_id = year %}
+{% endif %}
 
 <main id="report">
 
