@@ -116,10 +116,6 @@ layout: global_2016_transition
         {% assign data = site.data.projects[year][link.project_id] %}
         <a class="item" href="{{ data.link[0].url }}" target="_blank">
 
-          {% if page.lang == 'en' %}
-          {% else %}
-          {% endif %}
-
           {% if data.month %}
           <span class="ui horizontal label">
           {% if page.lang == 'en' %}
@@ -141,13 +137,16 @@ layout: global_2016_transition
 
         {% if link.title %}
         <a class="item" href="link.url" target="_blank">
+          {% if link.month %}
           <span class="ui horizontal label">
-          {% if page.lang == 'en' %}
-            {{ link.month }}
-          {% else %}
-            {{ link.month }} 月
-          {% endif %}
+            {% if page.lang == 'en' %}
+              {{ link.month }}
+            {% else %}
+              {{ link.month }} 月
+            {% endif %}
           </span>
+          {% endif %}
+
           {{ link.title }}
         </a>
         {% endif %}
