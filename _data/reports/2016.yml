@@ -79,7 +79,7 @@ items:
       - type: article
         title: 【產】取之開源，回饋開源 — 最終章
         subtitle: 
-        description: 智新資通熱心做公益，U．MAKER 開源 3D 印表機回饋預購金 10% 支持開放文化。
+        description: 2015~2016 年預購 U．MAKER 開源 3D 印表機，智新資通捐出10%做公益，以實際行動支持開放文化。 
         items:
           - project_id: umaker      
   - type: content
@@ -129,13 +129,13 @@ items:
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=963993401&amp;format=interactive
         height: 25rem
-        title: 收入
-        description: blah
+        title: 2016 年度行政基金收入<br/>NT$ 2,352,441
+        description: 社群專款專用收入 NT$ 14,004,225
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=495996187&amp;format=interactive
         height: 25rem
-        title: 支出
-        description: blah
+        title: 2016 年度行政基金支出<br/>NT$ 1,735,636
+        description: 社群專款專用支出 NT$ 11,041,651
   - type: header
     title: 由衷感謝
     icon: heart
