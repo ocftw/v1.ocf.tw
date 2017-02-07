@@ -18,18 +18,20 @@ items:
       - type: article
         title: 大型活動
         subtitle: 
-        description: 大型研討會是開源社群的 blahblah... 今年 OOO 、 OOO 等新夥伴的加入，讓整個生態更 blah blah ...
+        description: 大型研討會是開源社群內部互動交流，以及和外部社會大眾接觸的重要管道，OCF為合作夥伴降低大型活動執行的行政門檻，讓社群生態能在更豐富的討論環境下多元發展。
         items:
           - project_id: sitcon
           - project_id: g0vsummit
           - project_id: pycon
           - project_id: coscup
           - project_id: sitconcamp
-          - project_id: hadoopconf
+          - project_id: hadoopcon
+          # project檔案名沒有f、2016maker9/3比hadoop9/9早
           - project_id: makerconf
           - project_id: jcconf
         action:
           title: 如果有連結按鈕就放這裡
+          # 連結可以放篩選過的捐款頁嗎?
           url:
   - type: content
     columns:
@@ -39,7 +41,7 @@ items:
       - type: article
         title: 社群營運
         subtitle: 
-        description: 常態性的長期社群經營是 blahblahblah ...
+        description: 常態性的長期經營是延續並維持開源發展能量一大要務，從贊助金流代管到因應社群需求拓展而出的各種營運專案協助，OCF樂於作為各社群營運的後盾，一同成長茁壯。
         items:
           - project_id: g0vdathon
           - project_id: osmtw
@@ -48,7 +50,9 @@ items:
           - project_id: otspace
           - project_id: opensuse
           - project_id: zhdata
+          # 中文資訊處理計畫?
           - project_id: sa
+          - project_id: chewing
   - type: content
     columns:
       - type: image
@@ -57,10 +61,11 @@ items:
       - type: article
         title: 校園推廣
         subtitle: 
-        description: 向下扎根是 blah blah blah ...
+        description: 開源社群要培育新人、向下扎根有賴校園資訊教育的普及與深化，OCF致力於與社群資深開發者合作，建構務實並具有前瞻性的學習環境，培養更多擁有開發能力的人才，為開源社群注入新的活力。
         items:
           - project_id: gcoin
           - project_id: sysprogram
+          # 佔版面的(?說明要怎麼放
   - type: header
     title: 組織合作
     icon: building outline
