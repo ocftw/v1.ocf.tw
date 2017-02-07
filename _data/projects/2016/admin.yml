@@ -10,7 +10,8 @@ start:
 end: 
 link:
   - title: 專案介紹
-    url: /p/admin
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8&_ga=1.234796760.715222481.1473081200
+    # url: /p/admin
     target: _self
 tag:
 type_id:
