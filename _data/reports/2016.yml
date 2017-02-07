@@ -18,7 +18,7 @@ items:
       - type: article
         title: 大型活動
         subtitle: 
-        description: 大型研討會是開源社群內部互動交流，以及和外部社會大眾接觸的重要管道，OCF為合作夥伴降低大型活動執行的行政門檻，讓社群生態能在更豐富的討論環境下多元發展。
+        description: 大型研討會是開源社群內部互動交流，以及和外部社會大眾接觸的重要管道，OCF 為合作夥伴降低大型活動執行的行政門檻，讓社群生態能在更豐富的討論環境下多元發展。
         items:
           - project_id: sitcon
           - project_id: g0vsummit
@@ -79,7 +79,7 @@ items:
       - type: article
         title: 【產】取之開源，回饋開源 — 最終章
         subtitle: 
-        description: 2015~2016 年預購 U．MAKER 開源 3D 印表機，智新資通捐出10%做公益，以實際行動支持開放文化。 
+        description: 2015 ~ 2016 年預購 U．MAKER 開源 3D 印表機，智新資通捐出10%做公益，以實際行動支持開放文化。 
         items:
           - project_id: umaker      
   - type: content
