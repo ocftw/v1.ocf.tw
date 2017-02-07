@@ -136,7 +136,13 @@ layout: global_2016_transition
         {% endif %}
 
         {% if link.title %}
-        <a class="item" href="link.url" target="_blank">
+        {% if link.url %}
+        <a class="item" 
+        href="{{ link.url }}" 
+        target="_blank">
+        {% else %}
+        <div class="item">
+        {% endif %}
           {% if link.month %}
           <span class="ui horizontal label">
             {% if page.lang == 'en' %}
@@ -148,7 +154,11 @@ layout: global_2016_transition
           {% endif %}
 
           {{ link.title }}
+        {% if link.url %}
         </a>
+        {% else %}
+        </div>
+        {% endif %}
         {% endif %}
 
       {% endfor %}
