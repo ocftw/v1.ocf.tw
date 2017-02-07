@@ -10,3 +10,4 @@ config_url: http://beta.ocf.tw
 #       og_description: "test default description"
 gems:
   - jekyll-redirect-from
+encoding: utf-8
