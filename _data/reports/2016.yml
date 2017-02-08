@@ -131,15 +131,6 @@ items:
         title: 接待國際專家
         subtitle: 
         description: 與外館合作 3 場國際專家訪台，處理接待、會議與舉辦公開活動
-        items:
-          - project_id: sitcon
-          - project_id: g0vsummit
-          - project_id: pycon
-          - project_id: coscup
-          - project_id: sitconcamp
-          - project_id: makerconf
-          - project_id: hadoopcon
-          - project_id: jcconf
   - type: content
     columns:
       - type: slider
@@ -154,15 +145,6 @@ items:
         title: 青年盤纏計畫
         subtitle: 
         description: 資助台灣青年登上國際各大開源會議大講台
-        items:
-          - project_id: g0vdathon
-          - project_id: osmtw
-          - project_id: osln
-          - project_id: hcsm
-          - project_id: otspace
-          - project_id: opensuse
-          - project_id: chewingim
-          - project_id: sa
   - type: content
     columns:
       - type: slider    
@@ -185,12 +167,6 @@ items:
         title: 籌組國際重要會議與參訪團
         subtitle: 
         description: 2016 年籌辦兩次公民科技參訪團，邀請或協助不同公民團體與社群參加，積極建立國際關係
-        items:
-          - project_id: gcoin
-            description: 由臺大廖世偉教授帶領學生打造兼顧安全性、效率性、低維護成本且開放的數位金融基礎建設，並投身各大金融業者的區塊鏈教育訓練。
-        action: 
-          title: Gcoin 開源區塊鏈協議交易平台
-          url: https://github.com/OpenNetworking/gcoin-community
   - type: content
     columns:
       - type: slider
@@ -205,14 +181,6 @@ items:
         title: 國際交流系列講座
         subtitle: 
         description: 策劃台灣與國際超過 8 位講者之演講與分享會
-        items:
-          - title: 參加頂尖技術研討會發表開源成果
-          - title: 開放原始碼新專案-無人車、世界最小的 C 語言 ARM 編譯器
-          - title: 邀請矽谷華人工程師經驗分享
-          - title: 數場線上講座、長期實體課程教學
-        action: 
-          title: 看更多成果
-          url: http://ocf.tw/donate/sysprog-incubation.html#/tab-4 
   - type: content
     columns:
       - type: slider
@@ -225,14 +193,9 @@ items:
         title: g0v.news
         subtitle: 
         description: 創刊 g0v.news，報導國際公民科技之局勢，聚焦亞洲各地的公民科技社群之發展
-        items:
-          - title: 參加頂尖技術研討會發表開源成果
-          - title: 開放原始碼新專案-無人車、世界最小的 C 語言 ARM 編譯器
-          - title: 邀請矽谷華人工程師經驗分享
-          - title: 數場線上講座、長期實體課程教學
         action: 
-          title: 看更多成果
-          url: http://ocf.tw/donate/sysprog-incubation.html#/tab-4           
+          title: 官方網站
+          url: https://g0v.news
   - type: header
     title: 顧問諮詢
     icon: idea
