@@ -92,8 +92,6 @@ items:
         title: 【產】取之開源，回饋開源 — 最終章
         subtitle: 
         description: 2015 ~ 2016 年智新資通公司愛心做公益，預購 U．MAKER 開源 3D 印表機，智新資通捐出10%做公益，以實際行動支持開放文化。 
-        items:
-          - project_id: umaker      
   - type: content
     columns:
       - type: image
@@ -103,8 +101,6 @@ items:
         title: 【官】政府資訊主管聯席會 X OCF — 初登場
         subtitle: 
         description: 積極與國發會合辦政府資訊主管聯席會，邀請專家學者分享台灣的公民科技發展與世界趨勢。
-        items:
-          - project_id: 
   - type: content
     columns:
       - type: image
@@ -165,24 +161,18 @@ items:
         action:
           title: <i class="github icon"></i> Source Code
           url: https://github.com/orsonwang/Taiwan_CDC_RI
-
-  - type: header
-    title: 財務報告
-    icon: dollar
-    background_color: purple
-    description: 
   - type: content
     columns:
-      - type: iframe
-        url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=963993401&amp;format=interactive
-        height: 25rem
-        title: 2016 年度行政基金收入<br/>NT$ 2,352,441
-        description: 社群專款專用收入 NT$ 14,004,225
-      - type: iframe
-        url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=495996187&amp;format=interactive
-        height: 25rem
-        title: 2016 年度行政基金支出<br/>NT$ 1,735,636
-        description: 社群專款專用支出 NT$ 11,041,651
+      - type: image
+        url: /p/2016/admin/Taiwan_CDC_RI_GithubPage.png
+        swap: true
+      - type: article
+        title: 斷開硬體綁架的鎖鏈，減少自然人憑證卡的跨平台問題
+        subtitle: 
+        description: 推動中華電信釋出自然人憑證規格與操作範例未果，遂促成民間自主開發自然人憑證在跨平台上的自由應用
+        action:
+          title: <i class="github icon"></i> Source Code
+          url: https://github.com/orsonwang/Taiwan_CDC_RI
   - type: header
     title: 由衷感謝
     icon: heart
@@ -199,3 +189,20 @@ items:
         title: TEST
         subtitle: 
         description: test
+  - type: header
+      title: 財務報告
+      icon: dollar
+      background_color: purple
+      description: 謝謝許多來自不同領域的個人、組織，在人力、物力各方面對 OCF 與各個合作社群的貢獻。OCF 2016 年初開始嘗試的行政中心定期定額捐款專案，要感謝許多朋友參與支持，穩定的助力讓 OCF 同仁能全心全力投入於社群服務、拓展企業組織合作與開放政策倡議上，讓推廣開放文化的原力能持續爆發。
+    - type: content
+      columns:
+        - type: iframe
+          url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=963993401&amp;format=interactive
+          height: 25rem
+          title: 2016 年度行政基金收入<br/>NT$ 2,352,441
+          description: 社群專款專用收入 NT$ 14,004,225
+        - type: iframe
+          url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=495996187&amp;format=interactive
+          height: 25rem
+          title: 2016 年度行政基金支出<br/>NT$ 1,735,636
+          description: 社群專款專用支出 NT$ 11,041,651
