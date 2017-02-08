@@ -119,7 +119,31 @@ layout: global_2016_transition
           {% if data.month %}
           <span class="ui horizontal label">
           {% if page.lang == 'en' %}
-            {{ data.month_en }}
+            {% if data.month == 1 %}
+            Jan
+            {% elsif data.month == 2 %}
+            Feb
+            {% elsif data.month == 3 %}
+            Mar
+            {% elsif data.month == 4 %}
+            Apr
+            {% elsif data.month == 5 %}
+            May
+            {% elsif data.month == 6 %}
+            Jun
+            {% elsif data.month == 7 %}
+            Jul
+            {% elsif data.month == 8 %}
+            Aug
+            {% elsif data.month == 9 %}
+            Sep
+            {% elsif data.month == 10 %}
+            Oct
+            {% elsif data.month == 11 %}
+            Nov
+            {% elsif data.month == 12 %}
+            Dec
+            {% endif %}
           {% else %}
             {{ data.month }} 月
           {% endif %}
