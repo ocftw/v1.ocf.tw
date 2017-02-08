@@ -164,7 +164,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: p/2016/admin/pexels-CC0photo-ideas.jpeg
+        url: /p/2016/admin/pexels-CC0photo-ideas.jpeg
         swap: false
       - type: article
         title: 提倡「開放標準」、「開放格式」精神能納入政府採購法中
