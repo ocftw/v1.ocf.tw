@@ -170,9 +170,6 @@ items:
         title: 提倡「開放標準」、「開放格式」精神能納入政府採購法中
         subtitle: 
         description: 國際上部分國家(澳大利亞、保加利亞)已透過立法或政策方式，將「格式開放性、規格通用性」列入政府採購評選項目之一。開放文化基金會持續關注資訊服務採購規範，希望落實所欲採購的資訊服務與技術服務，其涉及格式與標準者，應優先採購能提供國際標準或國家標準者的目標。
-        action:
-          title: <i class="github icon"></i> Source Code
-          url: https://github.com/orsonwang/Taiwan_CDC_RI
   - type: header
     title: 由衷感謝
     icon: heart
