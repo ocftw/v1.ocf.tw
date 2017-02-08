@@ -165,6 +165,7 @@ items:
           - project_id: sa
   - type: content
     columns:
+      - type: slider    
         slides:
           - url: /p/2016/intl/delegation_1.jpg
           - url: /p/2016/intl/delegation_2.jpg
