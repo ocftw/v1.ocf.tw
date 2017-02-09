@@ -199,6 +199,16 @@ layout: global_2016_transition
       </p>
       {% endif %}
 
+      {% if column.logos %}
+      <div class="ui horizontal center aligned logos list">
+      {% for logo in column.logos %}
+        <a class="item" target="_blank" href="{{ logo.url }}">
+          <img class="logo" src="{{ logo.src }}" alt="{{ logo.title }}" style="height: {{ logo.height }};"/>
+        </a>
+      {% endfor %}
+      </div>
+      {% endif %}
+
       {% if column.action %}
       <a class="ui basic button" href="{{ column.action.url }}" target="_blank">
         {{ column.action.title }}

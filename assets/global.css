@@ -276,7 +276,7 @@ h2.ui.header, h2, h1.ui.header, h1 {
   display: block;
 }
 
-#partners .logo, #sponsors .logo, #orgs .logo {
+.logos .logo, #partners .logo, #sponsors .logo, #orgs .logo {
   width: auto;
   height: 5rem;
 }

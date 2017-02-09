@@ -95,6 +95,21 @@ items:
             month: integer
             # 清單項目的月份標籤
 
+        logos:
+        # article 欄的合作單位 logo 牆
+
+          - src: url
+            # logo 的圖檔網址
+
+            url: url
+            # logo 的連結網址
+
+            title: text
+            # logo 圖片的標題
+
+            height: css (e.g. 3rem)
+            # logo 圖片的高度，若省略，則預設是 5rem（同首頁 logo 牆的設定）
+
         action:
         # article 欄的 call to action 按鈕
 
@@ -113,7 +128,7 @@ items:
         url: url
         # iframe 欄的內嵌頁面網址，必填
 
-        height: 20rem
+        height: css (e.g. 20rem)
         # iframe 欄的高度，可視內嵌網頁長度而調整
 
         title: text
@@ -154,12 +169,18 @@ items:
         action:
           title: 
           url: 
+        logos:
+          - src: 
+            url: 
+            title: 
+            height: 
         footer: 
   - type: content
     columns:
       - type: slider
         swap: true
-
+        slides:
+          - url: 
       - type: article
         title: 
         subtitle: 

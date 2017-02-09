@@ -272,6 +272,19 @@ items:
         title: TEST
         subtitle: 
         description: test
+        logos:
+          - src: /people/partners/ait_logo.jpg
+            url: http://ocf.tw
+            title: AIT
+            height: 3rem
+          - src: /people/partners/ait_logo.jpg
+            url: http://ocf.tw
+            title: AIT
+            height: 3rem
+          - src: /people/partners/ait_logo.jpg
+            url: http://ocf.tw
+            title: AIT
+            height: 3rem
   - type: header
     title: 財務報告
     icon: dollar
