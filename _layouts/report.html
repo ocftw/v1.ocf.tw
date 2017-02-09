@@ -68,17 +68,21 @@ layout: global_2016_transition
 
 <!-- 內容區塊 -->
 {% elsif item.type == "content" %}
+
+{% if item.single_column == true %}
+{% else %}
 <section class="ui two column stackable grid">
+{% endif %}
 
 {% for column in item.columns %}
-  {% if column.type == "image" %}
 
   <!-- 根據資料產生 image 欄內容，同時決定位置是否要左右對調 -->
+  {% if column.type == "image" %}
   <div class="column{% if column.swap %} flex-swap{% endif %}">
     <img class="ui image" src="{{ column.url }}" />
   </div>
 
-  <!-- 根據資料產生 image slider 欄內容 -->
+  <!-- 根據資料產生 image slider 欄內容，同時決定位置是否要左右對調 -->
   {% elsif column.type == "slider" %}
   <div class="column{% if column.swap %} flex-swap{% endif %}">
     <div class="slick">
@@ -208,17 +212,21 @@ layout: global_2016_transition
   <!-- 根據資料產生 iframe 欄內容 -->
   {% elsif column.type == "iframe" %}
   <div class="column">
-    <span></span>
-    <h3 class="ui center aligned header">
-      {{ column.title }}
-      <div class="sub header">{{ column.description }}</div>
-    </h3>
-    <iframe src="{{ column.url }}" style="height: {{ column.height }}"></iframe>
+    <div class="ui center aligned stripe container">
+      <h3 class="ui center aligned header">
+        {{ column.title }}
+        <div class="sub header">{{ column.description }}</div>
+      </h3>
+      <iframe src="{{ column.url }}" style="height: {{ column.height }}; border: none; width: 100%; overflow: {% if column.scrolling == "yes" %}auto{% else %}hidden{% endif %};" scrolling="{{ column.scrolling }}"></iframe>
+    </div>
   </div>
   {% endif %}
 {% endfor %}
 
+{% if item.single_column == true %}
+{% else %}
 </section>
+{% endif %}
 
 {% endif %}
 {% endfor %}
