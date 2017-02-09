@@ -122,7 +122,7 @@ items:
         description: text
         # iframe 欄的描述文字
 
-        scrolling: "yes" / "no"
+        scrolling: "yes / no"
         # iframe 是否要有捲軸，若 "yes" 則會有，若 "no" 則不會
 
 
