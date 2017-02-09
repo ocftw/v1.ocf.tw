@@ -130,7 +130,7 @@ items:
       - type: article
         title: 接待國際專家
         subtitle: 
-        description: 與外館合作 3 場國際專家訪台，處理接待、會議與舉辦公開活動。
+        description: 與外館合作 3 場國際專家訪台，處理接待、會議與舉辦公開活動
   - type: content
     columns:
       - type: slider
@@ -144,7 +144,14 @@ items:
       - type: article
         title: 青年盤纏計畫
         subtitle: 
-        description: 資助台灣青年登上國際各大開源會議大講台。
+        description: 資助台灣青年登上國際各大開源會議大講台
+        items:
+          - title: Open Networking Summit 2016 California
+          - title: FOSS ASIA 2016 Singapore
+          - title: useR! 2016 California 
+        action: 
+          title: 看更多成果
+          url: http://ocf.tw/donate/intl.html#/tab-3
   - type: content
     columns:
       - type: slider    
@@ -165,7 +172,7 @@ items:
       - type: article
         title: 籌組國際重要會議與參訪團
         subtitle: 
-        description: 2016 年籌辦兩次公民科技參訪團，邀請或協助不同公民團體與社群參加，積極建立國際關係。
+        description: 籌辦兩次公民科技參訪團，廣邀公民團體與社群參加，積極建立國際網絡
   - type: content
     columns:
       - type: slider
@@ -179,7 +186,7 @@ items:
       - type: article
         title: 國際交流系列講座
         subtitle: 
-        description: 策劃台灣與國際超過 8 位講者之演講與分享會。
+        description: 規劃台灣與國際超過 8 位講者之演講與參訪分享會
   - type: content
     columns:
       - type: slider
@@ -191,7 +198,7 @@ items:
       - type: article
         title: g0v.news
         subtitle: 
-        description: 創刊 g0v.news，報導國際公民科技之局勢，聚焦亞洲各地的公民科技社群之發展。
+        description: 創刊 g0v.news，報導國際與台灣公民科技局勢，聚焦各地社群發展
         action: 
           title: 官方網站
           url: https://g0v.news
