@@ -94,13 +94,15 @@ items:
         description: 2015 ~ 2016 年智新資通公司愛心做公益，預購 U．MAKER 開源 3D 印表機，智新資通捐出10%做公益，以實際行動支持開放文化。 
   - type: content
     columns:
-      - type: image
-        url: /p/2016/admin/ndc-it-managers-2016.jpg
+      - type: slider
+        slides:
+         - url: /p/2016/admin/ndc-it-managers-2016.jpg
+         - url: /p/2016/admin/ndc-it-managers-2016.jpg-3.jpg
         swap: false
       - type: article
         title: 【官】政府資訊主管聯席會 X OCF — 初登場
         subtitle: 
-        description: 積極與國發會合辦政府資訊主管聯席會，邀請專家學者分享台灣的公民科技發展與世界趨勢。
+        description: 國發會合辦 2 次政府資訊主管聯席會，邀請專家學者分享台灣的公民科技發展與世界趨勢。
   - type: content
     columns:
       - type: image
@@ -130,7 +132,7 @@ items:
       - type: article
         title: 接待國際專家
         subtitle: 
-        description: 與外館合作 3 場國際專家訪台，處理接待、會議與舉辦公開活動
+        description: 與加拿大辦事處、法國在台協會、美國在台協會合作 3 場國際專家訪台活動，包含接待、會議與舉辦公開講座
   - type: content
     columns:
       - type: slider
@@ -178,7 +180,6 @@ items:
       - type: slider
         slides:
           - url: /p/2016/intl/sharing_1.jpg
-          - url: /p/2016/intl/sharing_2.jpg
           - url: /p/2016/intl/sharing_3.jpg
           - url: /p/2016/intl/sharing_4.jpg
           - url: /p/2016/intl/sharing_5.jpg
