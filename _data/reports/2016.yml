@@ -69,7 +69,7 @@ items:
       - type: article
         title: 校園推廣
         subtitle: 
-        description: 秉持「為納稅人而教」的使命，jserv親身帶領學生投入開放系統軟體的開發，在自由的環境裡將創造力極大化。
+        description: 秉持「為納稅人而教」的使命，jserv 親身帶領學生投入開放系統軟體的開發，在自由的環境裡將創造力極大化。
         items:
           - title: 參加頂尖技術研討會發表開源成果
           - title: 開放原始碼新專案-無人車、世界最小的 C 語言 ARM 編譯器
@@ -130,7 +130,7 @@ items:
       - type: article
         title: 接待國際專家
         subtitle: 
-        description: 與外館合作 3 場國際專家訪台，處理接待、會議與舉辦公開活動
+        description: 與外館合作 3 場國際專家訪台，處理接待、會議與舉辦公開活動。
   - type: content
     columns:
       - type: slider
@@ -144,7 +144,7 @@ items:
       - type: article
         title: 青年盤纏計畫
         subtitle: 
-        description: 資助台灣青年登上國際各大開源會議大講台
+        description: 資助台灣青年登上國際各大開源會議大講台。
   - type: content
     columns:
       - type: slider    
@@ -166,7 +166,7 @@ items:
       - type: article
         title: 籌組國際重要會議與參訪團
         subtitle: 
-        description: 2016 年籌辦兩次公民科技參訪團，邀請或協助不同公民團體與社群參加，積極建立國際關係
+        description: 2016 年籌辦兩次公民科技參訪團，邀請或協助不同公民團體與社群參加，積極建立國際關係。
   - type: content
     columns:
       - type: slider
@@ -180,7 +180,7 @@ items:
       - type: article
         title: 國際交流系列講座
         subtitle: 
-        description: 策劃台灣與國際超過 8 位講者之演講與分享會
+        description: 策劃台灣與國際超過 8 位講者之演講與分享會。
   - type: content
     columns:
       - type: slider
@@ -192,7 +192,7 @@ items:
       - type: article
         title: g0v.news
         subtitle: 
-        description: 創刊 g0v.news，報導國際公民科技之局勢，聚焦亞洲各地的公民科技社群之發展
+        description: 創刊 g0v.news，報導國際公民科技之局勢，聚焦亞洲各地的公民科技社群之發展。
         action: 
           title: 官方網站
           url: https://g0v.news
@@ -236,7 +236,7 @@ items:
       - type: article
         title: 斷開硬體綁架的鎖鏈，減少自然人憑證卡的跨平台問題
         subtitle: 
-        description: 推動中華電信釋出自然人憑證規格與操作範例未果，遂促成民間自主開發自然人憑證在跨平台上的自由應用
+        description: 推動中華電信釋出自然人憑證規格與操作範例未果，遂促成民間自主開發自然人憑證在跨平台上的自由應用。
         action:
           title: <i class="github icon"></i> Source Code
           url: https://github.com/orsonwang/Taiwan_CDC_RI
@@ -248,7 +248,7 @@ items:
       - type: article
         title: 提倡「開放標準」、「開放格式」精神能納入政府採購法中
         subtitle: 
-        description: 國際上部分國家(澳大利亞、保加利亞)已透過立法或政策方式，將「格式開放性、規格通用性」列入政府採購評選項目之一。開放文化基金會持續關注資訊服務採購規範，希望落實所欲採購的資訊服務與技術服務，其涉及格式與標準者，應優先採購能提供國際標準或國家標準者的目標。
+        description: 國際上部分國家（澳大利亞、保加利亞）已透過立法或政策方式，將「格式開放性、規格通用性」列入政府採購評選項目之一。開放文化基金會持續關注資訊服務採購規範，希望落實所欲採購的資訊服務與技術服務，其涉及格式與標準者，應優先採購能提供國際標準或國家標準者的目標。
   - type: header
     title: 由衷感謝
     icon: heart
