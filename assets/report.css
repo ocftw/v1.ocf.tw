@@ -53,12 +53,12 @@
   margin: 0;
 }
 
-#report section.ui.two.column.grid .column>.ui.image {
+#report section.ui.column.grid .column>.ui.image {
   object-fit: cover;
   min-height: 100%;
 }
 
-#report section.ui.two.column.grid .column>iframe {
+#report section.ui.column.grid .column>iframe {
   width: 100%;
   border: none;
   padding: 2rem 0;
