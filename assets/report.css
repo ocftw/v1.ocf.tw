@@ -79,3 +79,11 @@
 }
 
 }
+
+@media only screen and (min-width: 1024px) {
+
+#report .ui.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+}
