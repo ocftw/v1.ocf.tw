@@ -49,17 +49,14 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/gcoin/sample.png
+        url: /p/2016/gcoin/cover.png
         swap: false
       - type: article
         title: 人才培育
         subtitle: 
-        description: 與社群資深開發者合作，建構務實並具有前瞻性的學習環境，培養更多擁有開發能力的人才，為開源社群注入新的活力。
-        items:
-          - project_id: gcoin
-            description: 由臺大廖世偉教授帶領學生打造兼顧安全性、效率性、低維護成本且開放的數位金融基礎建設，並投身各大金融業者的區塊鏈教育訓練。
+        description: 由臺大廖世偉教授帶領學生打造兼顧安全性、效率性、低維護成本且開放的數位金融基礎建設，並投身各大金融業者的區塊鏈教育訓練。
         action: 
-          title: Gcoin 開源區塊鏈協議交易平台
+          title: <i class="github icon"></i> Gcoin 開源區塊鏈協議交易平台
           url: https://github.com/OpenNetworking/gcoin-community
   - type: content
     columns:
