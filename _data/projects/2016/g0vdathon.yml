@@ -9,7 +9,8 @@ start:
 end: 
 link:
   - title: 專案介紹
-    url: /p/g0vdathon
+    #url: /p/g0vdathon
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=23
     target: _self
 tag:
   - 定期活動

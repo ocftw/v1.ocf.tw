@@ -7,7 +7,8 @@ description: OpenLab. Taipei 可以說是臺灣自造者空間最一開始的雛
 month: 
 link:
   - title: 專案介紹
-    url: /p/2016/otspace
+    #url: /p/2016/otspace
+    url: http://ocf.tw/donate/otspace.html
     target: _self
 tag:
 type_id:
