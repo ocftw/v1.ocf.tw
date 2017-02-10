@@ -230,9 +230,18 @@ layout: global_2016_transition
       {% if column.logos %}
       <div class="ui horizontal center aligned logos list">
       {% for logo in column.logos %}
-        <a class="item" {% if logo.url %} target="_blank" href="{{ logo.url }}"{% else %} style="cursor: auto;" {% endif %}>
-          <img class="logo" src="{{ logo.src }}" alt="{{ logo.title }}" style="height: {{ logo.height }};"/>
+
+      {% if logo.org_id %}
+        {% assign org = site.data.people.orgs[ logo.org_id ] %}
+        <a class="item" {% if org.link[0].url %} target="_blank" href="{{ org.link[0].url }}"{% else %} style="cursor: auto;" {% endif %}>
+          <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" style="height: {{ column.logo_height }};"/>
         </a>
+      {% else %}
+        <a class="item" {% if logo.url %} target="_blank" href="{{ logo.url }}"{% else %} style="cursor: auto;" {% endif %}>
+          <img class="logo" src="{{ logo.src }}" alt="{{ logo.title }}" style="height: {{ column.logo_height }};"/>
+        </a>
+      {% endif %}
+
       {% endfor %}
       </div>
       {% endif %}

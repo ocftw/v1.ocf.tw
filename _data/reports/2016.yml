@@ -133,16 +133,11 @@ items:
         title: 接待國際專家
         subtitle: 
         description: 與加拿大辦事處、法國在台協會、美國在台協會合作 3 場國際專家訪台活動，包含接待、會議與舉辦公開講座
+        logo_height: 3rem
         logos:
-          - src: /people/partners/cto_logo.png
-            title: 加拿大辦事處
-            height: 3rem        
-          - src: /people/partners/bft_logo.jpg
-            title: 法國在台協會
-            height: 3rem
-          - src: /people/partners/ait_logo.jpg
-            title: AIT 美國在台協會
-            height: 3rem
+          - org_id: cto
+          - org_id: bft
+          - org_id: ait
   - type: content
     columns:
       - type: slider
@@ -315,15 +310,10 @@ items:
     columns:
       - type: article
         swap: true
+        logo_height: 7rem
         logos:
-          - src: /people/sponsors/hct_logistics_logo.png
-            url: https://www.hct.com.tw/index_l.html
-            title: hct
-            height: 7rem
-          - src: /people/sponsors/rc_logo.png
-            url: http://ocf.tw/partner/
-            title: RC
-            height: 7rem
+          - org_id: hct
+          - org_id: rc
       - type: article
         title: 感謝贊助夥伴
         subtitle: 

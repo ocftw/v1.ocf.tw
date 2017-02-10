@@ -124,6 +124,9 @@ items:
         logos:
         # article 欄的合作單位 logo 牆
 
+          - org_id: text
+            # logo 資料來源，若設定 org_id 則會自動抓取該組織的資料
+
           - src: url
             # logo 的圖檔網址
 
@@ -133,8 +136,8 @@ items:
             title: text
             # logo 圖片的標題
 
-            height: css (e.g. 3rem)
-            # logo 圖片的高度，若省略，則預設是 5rem（同首頁 logo 牆的設定）
+        logo_height: css (e.g. 5rem)
+        # logo 牆中每個 logo 圖片的高度，若省略，則預設是 5rem（同首頁 logo 牆的設定）
 
         action:
         # article 欄的 call to action 按鈕
