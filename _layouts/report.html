@@ -42,12 +42,15 @@ layout: global_2016_transition
 
 <!-- 標題區塊 -->
 {% if item.type == "header" %}
+<a name="{{ item.anchor }}"></a>
 <header class="ui basic very padded segment marginless inverted {{ item.background_color }}">
   <div class="ui center aligned stripe container">
     {% if item.icon %}
     <div class="ui two column stackable grid">
       <div class="four wide column">
-        <i class="{{ item.icon }} icon bordered"></i>
+        <a href="#{{ item.anchor }}" style="color: #fff;">
+          <i class="{{ item.icon }} icon bordered"></i>
+        </a>
       </div>
       <div class="twelve wide left aligned column">
     {% endif %}

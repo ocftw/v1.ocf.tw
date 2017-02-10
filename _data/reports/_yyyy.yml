@@ -27,6 +27,9 @@ items:
     title: text
     # header 區塊的標題，建議跟首頁的 what we do 對應
 
+    anchor: text
+    # 可以連到 header 區塊的 anchor 名稱
+
     icon: text
     # header 區塊的 icon，建議跟首頁的 what we do 對應
 

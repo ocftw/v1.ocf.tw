@@ -7,6 +7,7 @@ cover_veil_opacity: 0.1
 items:
   - type: header
     title: 社群支援
+    anchor: community
     icon: hand rock
     background_color: yellow
     description: 在 2016 年 OCF 共協助 8 場研討會、8 項社群營運計畫與 2 項校園人才培育計畫，給予社群法人行政的後勤支援，讓社群能更專注於開源理念的推廣與活絡。
@@ -77,6 +78,7 @@ items:
           url: http://ocf.tw/donate/sysprog-incubation.html#/tab-4 
   - type: header
     title: 組織合作
+    anchor: orgnization
     icon: building outline
     background_color: olive
     description: 藉由與產、官、學界的跨界合作，共同發揚開放文化的精神，促成與國內外開放社群協力的機會。
@@ -113,6 +115,7 @@ items:
           - project_id: cctw
   - type: header
     title: 跨國交流
+    anchor: overseas
     icon: plane
     background_color: teal
     description: 鼓勵青年學子勇闖國際開源大講台，發表開源成果與拓展國際視野；建立本地社群與國際社群的連結，催生相互認識與合作的機會，追蹤全球公民科技的新趨勢。
@@ -212,6 +215,7 @@ items:
           url: https://g0v.news
   - type: header
     title: 顧問諮詢
+    anchor: consulting
     icon: idea
     background_color: blue
     description: 秉持開源的精神，不吝分享開放文化理念並貫徹知識自由傳播。
@@ -239,6 +243,7 @@ items:
           - project_id: osln
   - type: header
     title: 政策倡議
+    anchor: initiative
     icon: announcement
     background_color: violet
     description: 遊說政府機關與民間企業將開放、自由的精神納入服務之中，讓台灣的各類基礎建設可不被綁定在特定軟/硬體之中。
@@ -265,6 +270,7 @@ items:
         description: 國際上部分國家（澳大利亞、保加利亞）已透過立法或政策方式，將「格式開放性、規格通用性」列入政府採購評選項目之一。開放文化基金會持續關注資訊服務採購規範，希望落實所欲採購的資訊服務與技術服務，其涉及格式與標準者，應優先採購能提供國際標準或國家標準者的目標。
   - type: header
     title: 團隊成員
+    anchor: team
     icon: paw
     background_color: purple
     description:
@@ -292,6 +298,7 @@ items:
         description: 文字敘述
   - type: header
     title: 由衷感謝
+    anchor: thanks
     icon: heart
     background_color: pink
     description: 
@@ -323,6 +330,7 @@ items:
         description: 感謝新竹物流、RC文化藝術基金會年度計劃性的贊助支持，以及各企業夥伴在每項計畫活動上的相助。
   - type: header
     title: 財務報告
+    anchor: finance
     icon: dollar
     background_color: orange
     description: 謝謝許多來自不同領域的個人、組織，在人力、物力各方面對 OCF 與各個合作社群的貢獻。OCF 2016 年初開始嘗試的行政中心定期定額捐款專案，要感謝許多朋友參與支持，穩定的助力讓 OCF 同仁能全心全力投入於社群服務、拓展企業組織合作與開放政策倡議上，讓推廣開放文化的原力能持續爆發。
