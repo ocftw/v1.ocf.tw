@@ -227,7 +227,7 @@ layout: global_2016_transition
         {{ column.title }}
         <div class="sub header">{{ column.description }}</div>
       </h3>
-      <iframe src="{{ column.url }}" style="height: {{ column.height }}; border: none; width: 100%; overflow: {% if column.scrolling == "yes" %}auto{% else %}hidden{% endif %};" scrolling="{{ column.scrolling }}"></iframe>
+      <iframe src="{{ column.url }}" style="height: {{ column.height }}; border: none; width: 100%; overflow: {% if column.scrolling == "yes" %}auto{% else %}hidden{% endif %};" scrolling="{% if column.scrolling == "yes" %}auto{% else %}no{% endif %}"></iframe>
     </div>
   </div>
   {% endif %}
