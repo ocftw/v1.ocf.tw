@@ -117,6 +117,7 @@ layout: global_2016_transition
       {% for link in column.items %}
 
         {% if link.project_id %}
+
         {% assign data = site.data.projects[year][link.project_id] %}
         <a class="item" href="{{ data.link[0].url }}" target="_blank">
 
@@ -161,16 +162,11 @@ layout: global_2016_transition
           {% endif %}
 
         </a>
-        {% endif %}
 
-        {% if link.title %}
-        {% if link.url %}
-        <a class="item" 
-        href="{{ link.url }}" 
-        target="_blank">
         {% else %}
-        <div class="item">
-        {% endif %}
+
+        <{% if link.url %}a{% else %}div{% endif %} class="item" {% if link.url %} href="{{ link.url }}" target="_blank" {% else %} style="cursor: default;" {% endif %}>
+
           {% if link.month %}
           <span class="ui horizontal label">
             {% if page.lang == 'en' %}
@@ -182,11 +178,9 @@ layout: global_2016_transition
           {% endif %}
 
           {{ link.title }}
-        {% if link.url %}
-        </a>
-        {% else %}
-        </div>
-        {% endif %}
+
+        </{% if link.url %}a{% else %}div{% endif %}>
+
         {% endif %}
 
       {% endfor %}
@@ -202,7 +196,7 @@ layout: global_2016_transition
       {% if column.logos %}
       <div class="ui horizontal center aligned logos list">
       {% for logo in column.logos %}
-        <a class="item" target="_blank" href="{{ logo.url }}">
+        <a class="item" {% if logo.url %} target="_blank" href="{{ logo.url }}"{% else %} style="cursor: auto;" {% endif %}>
           <img class="logo" src="{{ logo.src }}" alt="{{ logo.title }}" style="height: {{ logo.height }};"/>
         </a>
       {% endfor %}
