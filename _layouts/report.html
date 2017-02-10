@@ -92,6 +92,30 @@ layout: global_2016_transition
     </div>
   </div>
 
+  <!-- 根據資料產生 collage 欄內容，同時決定位置是否要左右對調 -->
+  {% elsif column.type == "collage" %}
+  <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
+    <div class="ui {{ column.grid }} column grid">
+
+    {% for item in column.items %}
+    <div class="column">
+
+      <div class="ui fluid image" >
+      {% if item.person_id %}
+        {% assign person = site.data.people.individuals[item.person_id] %}
+        <img src="{{ person.avatar }}" alt="{{ person.name }} ({{ person.nick }})" />
+        <span class="ui tiny bottom attached inverted label">{{ person.name }} ({{ person.nick }})</span>
+      {% else %}
+        <img src="{{ item.url }}" alt="{{ item.title }}" />
+      {% endif %}
+      </div>
+
+    </div>
+    {% endfor %}
+
+    </div>
+  </div>
+
   <!-- 根據資料產生 article 欄內容 -->
   {% elsif column.type == "article" %}
   <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">

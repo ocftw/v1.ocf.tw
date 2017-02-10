@@ -64,6 +64,27 @@
   padding: 2rem 0;
 }
 
+#report section.ui.column.grid .column[data-type="collage"] .ui.grid {
+  margin: 0;
+}
+#report section.ui.column.grid .column[data-type="collage"] .image {
+  padding-top: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#report section.ui.column.grid .column[data-type="collage"] .image img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+#report section.ui.column.grid .column[data-type="collage"] .image>.ui.label {
+  background-color: rgba(0,0,0,0.3);
+}
+
 @media only screen and (max-width: 767px) {
 
 #report .ui.stackable.grid>.column:not(.row) {
