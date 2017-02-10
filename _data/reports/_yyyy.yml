@@ -69,6 +69,26 @@ items:
           - url: url
           - url: url
 
+      - type: collage
+        # content 區塊內欄位的類型，若為 collage 也就是圖片拼貼區塊，請放在第一欄
+        # type 為必填
+
+        swap: true / false
+        # 此欄的位置在桌面板網頁上是否要左右對調
+
+        items:
+        # collage 內容物
+
+          - person_id: id
+            # 拼圖項目，若設定 person_id 則會自動抓取該個人的資料
+
+          - org_id: id
+            # 拼圖項目，若設定 person_id 則會自動抓取該組織的資料
+
+          - src: image url
+            title: text
+            # 拼圖項目，若無設定 person_id 或 org_id，則會以 src 為圖檔網址來源，同時以 title 為圖檔上的文字標示
+
       - type: article
         # content 區塊內欄位的類型，若為 article 也就是文章區塊，請放第二欄
         # type 為必填

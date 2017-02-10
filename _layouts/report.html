@@ -108,8 +108,15 @@ layout: global_2016_transition
         {% assign person = site.data.people.individuals[item.person_id] %}
         <img src="{{ person.avatar }}" alt="{{ person.name }} ({{ person.nick }})" />
         <span class="ui tiny bottom attached inverted label">{{ person.name }} ({{ person.nick }})</span>
+
+      {% elsif item.org_id %}
+        {% assign org = site.data.people.orgs[item.org_id] %}
+        <img src="{{ org.avatar }}" alt="{{ org.name }}" />
+        <span class="ui tiny bottom attached inverted label">{{ org.name }}</span>
+
       {% else %}
-        <img src="{{ item.url }}" alt="{{ item.title }}" />
+        <img src="{{ item.src }}" alt="{{ item.title }}" />
+        <span class="ui tiny bottom attached inverted label">{{ item.title }}</span>
       {% endif %}
       </div>
 
