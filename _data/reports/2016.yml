@@ -133,6 +133,16 @@ items:
         title: 接待國際專家
         subtitle: 
         description: 與加拿大辦事處、法國在台協會、美國在台協會合作 3 場國際專家訪台活動，包含接待、會議與舉辦公開講座
+        logos:
+          - src: /people/partners/cto_logo.png
+            title: 加拿大辦事處
+            height: 3rem        
+          - src: /people/partners/bft_logo.jpg
+            title: 法國在台協會
+            height: 3rem
+          - src: /people/partners/ait_logo.jpg
+            title: AIT 美國在台協會
+            height: 3rem
   - type: content
     columns:
       - type: slider
