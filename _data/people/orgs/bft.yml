@@ -2,9 +2,12 @@ name: 法國在台協會
 name_en: French Office In Taipei
 name_origin: Le Bureau Français de Taipei
 abbr: 
-type: non-profit
+slogan: 
 description: 
+type: non-profit
 logo: /people/partners/bft_logo.jpg
+avatar:
+cover:
 link:
   - title: 官方網站
     url: http://www.france-taipei.org/

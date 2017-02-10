@@ -1,7 +1,13 @@
 name: 美國在台協會
 name_en: American Institute in Taiwan
+abbr: 
+abbr_en: AIT
+slogan: 
+description: 
+type: government
 logo: /people/partners/ait_logo.jpg
 avatar: /people/partners/ait_avatar.jpg
+cover: 
 link:
   - title: 官方網站
     url: https://www.ait.org.tw/
