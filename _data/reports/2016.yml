@@ -263,11 +263,14 @@ items:
         title: 提倡開放精神能納入政府採購法中
         subtitle: 
         description: 國際上部分國家（澳大利亞、保加利亞）已透過立法或政策方式，將「格式開放性、規格通用性」列入政府採購評選項目之一。開放文化基金會持續關注資訊服務採購規範，希望落實所欲採購的資訊服務與技術服務，其涉及格式與標準者，應優先採購能提供國際標準或國家標準者的目標。
+       
   - type: header
     title: 團隊成員
     icon: paw
     background_color: green 
-    description: 
+    description:
+
+
   - type: header
     title: 由衷感謝
     icon: heart
@@ -276,25 +279,28 @@ items:
   - type: content
     columns:
       - type: image
-        url: 
+        url: /p/2016/admin/charity-helping-hands-and-trees.jpg
+        swap: false
+      - type: article
+        title: 感謝超級熱血志工
+        subtitle: 
+        description: 感謝 ETBlue, Muka, ipa, marr, poga, yayard, 雁子, Macpaul, yuting 等等...強大的志工們這一年來陪著我們到處出任務！ 
+      - type: image
+        url: /mediakit/cover_bg.png
         swap: true
       - type: article
-        title: TEST
+        title: 感謝贊助夥伴
         subtitle: 
-        description: test
+        description: 感謝新竹物流、RC文化藝術基金會年度計劃性的贊助支持，以及各企業夥伴在每項計畫活動上的相助。
         logos:
-          - src: /people/partners/ait_logo.jpg
-            url: http://ocf.tw
-            title: AIT
-            height: 3rem
-          - src: /people/partners/ait_logo.jpg
-            url: http://ocf.tw
-            title: AIT
-            height: 3rem
-          - src: /people/partners/ait_logo.jpg
-            url: http://ocf.tw
-            title: AIT
-            height: 3rem
+          - src: /people/sponsors/hct_logistics_logo.png
+            url: https://www.hct.com.tw/index_l.html
+            title: hct
+            height: 5rem
+          - src: /people/sponsors/rc_logo.png
+            url: http://ocf.tw/partner/
+            title: RC
+            height: 5rem
   - type: header
     title: 財務報告
     icon: dollar
