@@ -78,13 +78,13 @@ layout: global_2016_transition
 
   <!-- 根據資料產生 image 欄內容，同時決定位置是否要左右對調 -->
   {% if column.type == "image" %}
-  <div class="column{% if column.swap %} flex-swap{% endif %}">
+  <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
     <img class="ui image" src="{{ column.url }}" />
   </div>
 
   <!-- 根據資料產生 image slider 欄內容，同時決定位置是否要左右對調 -->
   {% elsif column.type == "slider" %}
-  <div class="column{% if column.swap %} flex-swap{% endif %}">
+  <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
     <div class="slick">
       {% for slide in column.slides %}
       <img class="ui image" src="{{ slide.url }}" />
@@ -94,7 +94,7 @@ layout: global_2016_transition
 
   <!-- 根據資料產生 article 欄內容 -->
   {% elsif column.type == "article" %}
-  <div class="column">
+  <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
     <div class="ui center aligned stripe container">
 
       <h3 class="ui header">
@@ -215,7 +215,7 @@ layout: global_2016_transition
 
   <!-- 根據資料產生 iframe 欄內容 -->
   {% elsif column.type == "iframe" %}
-  <div class="column">
+  <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
     <div class="ui center aligned stripe container">
       <h3 class="ui center aligned header">
         {{ column.title }}

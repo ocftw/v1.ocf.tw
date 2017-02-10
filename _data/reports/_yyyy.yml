@@ -48,18 +48,18 @@ items:
         # content 區塊內欄位的類型，若為 image 也就是圖片區塊，請放在第一欄
         # type 為必填
 
+        swap: true / false
+        # 此欄的位置在桌面板網頁上是否要左右對調
+
         url: url
         # image 欄的圖檔網址，必填
-
-        swap: true / false
-        # image 欄的位置在桌面板網頁上是否要左右對調
 
       - type: slider
         # content 區塊內欄位的類型，若為 slider 也就是圖片輪播區塊，請放在第一欄
         # type 為必填
 
         swap: true / false
-        # slider 欄的位置在桌面板網頁上是否要左右對調
+        # 此欄的位置在桌面板網頁上是否要左右對調
 
         slides:
         # slider 內的圖檔們的網址
@@ -69,6 +69,9 @@ items:
       - type: article
         # content 區塊內欄位的類型，若為 article 也就是文章區塊，請放第二欄
         # type 為必填
+
+        swap: true / false
+        # 此欄的位置在桌面板網頁上是否要左右對調
 
         title: text
         # article 欄的標題，必填
@@ -125,6 +128,9 @@ items:
         # content 區塊內欄位的類型，若為 iframe 也就是內嵌網頁區塊，放在第一欄或第二欄都可以
         # type 為必填
 
+        swap: true / false
+        # 此欄的位置在桌面板網頁上是否要左右對調
+
         url: url
         # iframe 欄的內嵌頁面網址，必填
 
@@ -155,8 +161,8 @@ items:
   - type: content
     columns:
       - type: image
-        url: 
         swap: false
+        url: 
       - type: article
         title: 
         subtitle: 
