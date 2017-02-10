@@ -304,22 +304,23 @@ items:
         title: 感謝超級熱血志工
         subtitle: 
         description: 感謝 ETBlue, Muka, ipa, marr, poga, yayard, 雁子, Macpaul, yuting 等等...強大的志工們這一年來陪著我們到處出任務！ 
-      - type: image
-        url: /mediakit/cover_bg.png
-        swap: true
+  - type: content
+    columns:
       - type: article
-        title: 感謝贊助夥伴
-        subtitle: 
-        description: 感謝新竹物流、RC文化藝術基金會年度計劃性的贊助支持，以及各企業夥伴在每項計畫活動上的相助。
+        swap: true
         logos:
           - src: /people/sponsors/hct_logistics_logo.png
             url: https://www.hct.com.tw/index_l.html
             title: hct
-            height: 5rem
+            height: 7rem
           - src: /people/sponsors/rc_logo.png
             url: http://ocf.tw/partner/
             title: RC
-            height: 5rem
+            height: 7rem
+      - type: article
+        title: 感謝贊助夥伴
+        subtitle: 
+        description: 感謝新竹物流、RC文化藝術基金會年度計劃性的贊助支持，以及各企業夥伴在每項計畫活動上的相助。
   - type: header
     title: 財務報告
     icon: dollar
