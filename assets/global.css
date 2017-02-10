@@ -254,7 +254,7 @@ h2.ui.header, h2, h1.ui.header, h1 {
   background: url(/img/footer.png) repeat 0 0;
 }
 
-#footer .ui.grid.container, #footer .ui.list>.item {
+#footer .ui.grid>.column, #footer .ui.list>.item {
   font-size: 0.8rem;
 }
 
