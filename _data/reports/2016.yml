@@ -233,7 +233,7 @@ items:
       - type: article
         title: 開放授權諮詢
         subtitle: 
-        description: 我們和長年研究科技法律，現志工擔任基金會法制顧問的林誠夏先生合作，提供民眾一個免費/付費的開放授權諮詢管道。並且也開啟了台灣開源法律網絡的序幕。
+        description: 我們和長年研究科技法律，志願擔任基金會法制顧問的林誠夏先生合作，提供民眾一個免費/付費的開放授權諮詢管道。並且也開啟了台灣開源法律網絡的序幕。
         items:
           - project_id: osln
   - type: header
@@ -292,13 +292,13 @@ items:
           - person_id: pofeng
       - type: article
         title: 我們有許多新成員的加入
-        description:  很開心 @rock、@ttcat、@mglee、@afi、@jason、@aaron、@huangfu 與 @miniwu 的加入 OCF 團隊。
+        description:  很開心 @rock、@ttcat、@mglee、@afi、@jason、@aaron、@huangfu 與 @miniwu 加入 OCF 團隊。
   - type: header
     title: 由衷感謝
     anchor: thanks
     icon: heart
     background_color: pink
-    description: OCF 由衷感謝感謝一路走來每一位朋友的支持，與我們一起共同推動開放文化。
+    description: OCF 由衷感謝一路走來每一位朋友的支持，與我們一起共同推動開放文化。
   - type: content
     columns:
       - type: image
@@ -319,7 +319,7 @@ items:
       - type: article
         title: 感謝贊助夥伴
         subtitle: 
-        description: 感謝新竹物流、RC文化藝術基金會年度計劃性的贊助支持，以及各企業夥伴在每項計畫活動上的相助，更感激每一位朋友的滴捐善款，讓我們有滿滿的動力能共同興盛開放文化。
+        description: 感謝新竹物流、RC 文化藝術基金會年度計劃性的贊助支持，以及各企業夥伴在每項計畫活動上的相助，更感激每一位朋友的涓滴善款，讓我們有滿滿的動力能共同興盛開放文化。
         action: 
           title: 捐款徵信
           url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
@@ -353,5 +353,5 @@ items:
         title: 提供社群獨立財務後勤支援
         description: OCF 除了協助 COSCUP、PyCON 等大型社群收取款項舉辦活動外，也協助多個社群的營運與推廣活動，如與 g0v 揪松團合作 2017 的公民科技獎助金計畫。而 OCF 的國際交流計畫有了強力生力軍們的加入，正朝向國際超展開的路線發展中，敬請關注與多多支持。
         action:
-          title: Donte
+          title: Donate
           url: https://ocf.tw/donate
