@@ -86,7 +86,7 @@ items:
     columns:
       - type: image
         url: /p/2016/umaker/cover.jpg
-        swap: true
+        swap: false
       - type: article
         title: 【產】取之開源，回饋開源 — 最終章
         subtitle: 
@@ -97,7 +97,7 @@ items:
         slides:
          - url: /p/2016/admin/ndc-it-managers-2016.jpg
          - url: /p/2016/admin/ndc-it-managers-2016.jpg-3.jpg
-        swap: false
+        swap: true
       - type: article
         title: 【官】政府資訊主管聯席會 X OCF — 初登場
         subtitle: 
@@ -106,7 +106,7 @@ items:
     columns:
       - type: image
         url: /p/2016/cctw/CC_2016.jpg
-        swap: true
+        swap: false
       - type: article
         title: 【學】CCTW X OCF — 第 2 彈
         subtitle: 
@@ -128,7 +128,7 @@ items:
           - url: /p/2016/intl/visit_3.jpg
           - url: /p/2016/intl/visit_4.jpg
           - url: /p/2016/intl/visit_5.jpg
-        swap: false
+        swap: true
       - type: article
         title: 接待國際專家
         subtitle: 
@@ -147,7 +147,7 @@ items:
           - url: /p/2016/intl/youth_3.png
           - url: /p/2016/intl/youth_4.png
           - url: /p/2016/intl/youth_5.jpg
-        swap: true
+        swap: false
       - type: article
         title: 青年盤纏計畫
         subtitle: 
@@ -175,7 +175,7 @@ items:
           - url: /p/2016/intl/delegation_11.jpg
           - url: /p/2016/intl/delegation_12.jpg
           - url: /p/2016/intl/delegation_13.jpg
-        swap: false
+        swap: true
       - type: article
         title: 籌組國際重要會議與參訪團
         subtitle: 
@@ -188,7 +188,7 @@ items:
           - url: /p/2016/intl/sharing_3.jpg
           - url: /p/2016/intl/sharing_4.jpg
           - url: /p/2016/intl/sharing_5.jpg
-        swap: true
+        swap: false
       - type: article
         title: 國際交流系列講座
         subtitle: 
@@ -200,7 +200,7 @@ items:
           - url: /p/2016/intl/g0vnews_1.jpg
           - url: /p/2016/intl/g0vnews_2.jpg
           - url: /p/2016/intl/g0vnews_3.jpg
-        swap: false
+        swap: true
       - type: article
         title: g0v.news
         subtitle: 
@@ -218,7 +218,7 @@ items:
     columns:
       - type: image
         url: /p/2016/charityreport/charity-report.png
-        swap: true
+        swap: false
       - type: article
         title: 開放建議報告
         subtitle: 
@@ -229,7 +229,7 @@ items:
     columns:
       - type: image
         url: /p/2016/osln/og4x3.png
-        swap: false
+        swap: true
       - type: article
         title: 開放授權諮詢
         subtitle: 
@@ -246,7 +246,7 @@ items:
     columns:
       - type: image
         url: /p/2016/admin/Taiwan_CDC_RI_GithubPage.png
-        swap: true
+        swap: false
       - type: article
         title: 減少自然人憑證卡的跨平台問題
         subtitle: 
@@ -258,7 +258,7 @@ items:
     columns:
       - type: image
         url: /p/2016/admin/pexels-CC0photo-ideas.jpeg
-        swap: false
+        swap: true
       - type: article
         title: 提倡開放精神能納入政府採購法中
         subtitle: 
@@ -303,7 +303,7 @@ items:
     columns:
       - type: image
         url: /p/2016/admin/flickr_CCBYothree_volunteer.jpg
-        swap: false
+        swap: true
       - type: article
         title: 感謝超級熱血志工
         subtitle: 
@@ -311,7 +311,7 @@ items:
   - type: content
     columns:
       - type: article
-        swap: true
+        swap: false
         logo_height: 7rem
         logos:
           - org_id: hct
