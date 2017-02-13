@@ -268,11 +268,11 @@ items:
     anchor: team
     icon: paw
     background_color: purple
-    description:
+    description: 我們的團隊正穩健的擴展中，將持續服務各開源社群與關注各開放議題。
   - type: content
     columns:
       - type: collage
-        grid: four
+        grid: five
         swap: false
         items:
           - person_id: singing
@@ -280,7 +280,10 @@ items:
           - person_id: ttcat
           - person_id: mglee
           - person_id: afi
+          - person_id: jason
+          - person_id: aaron
           - person_id: huangfu
+          - person_id: miniwu
           - person_id: lucien
           - person_id: honki
           - person_id: clkao
@@ -288,9 +291,8 @@ items:
           - person_id: jimyhuang
           - person_id: pofeng
       - type: article
-        title: 標題
-        subtitle: 副標題
-        description: 文字敘述
+        title: 我們有許多新成員的加入
+        description:  很開心有 @rock @ttcat、@mglee、@afi、@jason、@aaron、@huangfu 與 @miniwu 在 2016-2017 的加入
   - type: header
     title: 由衷感謝
     anchor: thanks
