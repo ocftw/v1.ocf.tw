@@ -292,13 +292,13 @@ items:
           - person_id: pofeng
       - type: article
         title: 我們有許多新成員的加入
-        description:  很開心有 @rock @ttcat、@mglee、@afi、@jason、@aaron、@huangfu 與 @miniwu 在 2016-2017 的加入
+        description:  很開心 @rock、@ttcat、@mglee、@afi、@jason、@aaron、@huangfu 與 @miniwu 的加入 OCF 團隊。
   - type: header
     title: 由衷感謝
     anchor: thanks
     icon: heart
     background_color: pink
-    description: OCF 由衷感謝感謝一路走來每一位朋友的支持，與我們一起共同推動開放文化
+    description: OCF 由衷感謝感謝一路走來每一位朋友的支持，與我們一起共同推動開放文化。
   - type: content
     columns:
       - type: image
