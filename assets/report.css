@@ -51,7 +51,6 @@
 
 #report section.ui.column.grid .column>.ui.image {
   object-fit: cover;
-  min-height: 100%;
 }
 
 #report section.ui.column.grid .column>iframe {
@@ -93,6 +92,14 @@
 
 #report header.ui.segment .bordered.icon {
   margin-bottom: 2rem;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+#report section.ui.column.grid .column>.ui.image {
+  min-height: 100%;
 }
 
 }
