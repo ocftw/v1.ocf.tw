@@ -318,7 +318,7 @@ items:
         title: 感謝贊助夥伴
         subtitle: 
         description: 感謝新竹物流、RC文化藝術基金會年度計劃性的贊助支持，以及各企業夥伴在每項計畫活動上的相助，更感激每一位朋友的滴捐善款，讓我們有滿滿的動力能共同興盛開放文化。
-      action: 
+        action: 
           title: 捐款徵信
           url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
   - type: header
