@@ -335,13 +335,13 @@ items:
         url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=963993401&amp;format=interactive
         height: 20rem
         title: 2016 年度 OCF 收入
-        description: 行政中心 NT$ 2,352,441 <br/> 國際交流計畫 NT$ 519,616
+        description: 行政中心 NT$ 2,352,441 <br/> 國際交流計畫 NT$ 519,616 <br/> 社群專案 NT$ 14,004,225
         scrolling: "no"
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=495996187&amp;format=interactive
         height: 20rem
         title: 2016 年度 OCF 支出
-        description: 行政中心 NT$ 1,735,636 <br/> 國際交流計畫 NT$ 1,145,654
+        description: 行政中心 NT$ 1,735,636 <br/> 國際交流計畫 NT$ 1,145,654 <br/> 社群專案 NT$ 11,041,651
         scrolling: "no"
   - type: content
     columns:
