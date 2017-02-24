@@ -180,6 +180,9 @@ items:
         title: 籌組國際重要會議與參訪團
         subtitle: 
         description: 籌辦兩次公民科技參訪團，廣邀公民團體與社群參加，積極建立國際網絡
+        action: 
+          title: 成果報告
+          url: http://beta.hackfoldr.org/ocf-intl-events        
   - type: content
     columns:
       - type: slider
@@ -193,6 +196,9 @@ items:
         title: 國際交流系列講座
         subtitle: 
         description: 規劃台灣與國際超過 8 位講者之演講與參訪分享會
+        action: 
+          title: 系列分享會紀錄
+          url: http://beta.hackfoldr.org/ocf-intl-events        
   - type: content
     columns:
       - type: slider
