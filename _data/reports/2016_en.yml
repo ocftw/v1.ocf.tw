@@ -1,47 +1,43 @@
 title: 2016 Annual Report | Open Culture Foundation
-description: 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ... 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ... 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ... 2016 年是台灣開源社群 blahblahblah 的一年，基金會也 blahblahblah ...
-cover: /p/2016/admin/ndc-it-managers-2016.jpg
-color: red
+description: Since its establishment in 2014, OCF has been dedicated to promoting a number of “open culture” causes, including “open source”, “open hardware”, and “open data.” We sincerely thank all of our donors for supporting our work. 
+cover: /mediakit/cover_bg.png
+color: blue
 cover_image_opacity: 
-cover_veil_opacity: 
+cover_veil_opacity: 0.1
 items:
   - type: header
-    title: Support Communities
+    title: Community Support
+    anchor: community
     icon: hand rock
-    background_color: orange
-    description: blah
+    background_color: yellow
+    description: In 2016, we supported 8 conferences, 8 different “open” communities, and 2 educational courses. We provided them with administrative, financial, and logistical assistance in order to encourage a diverse and prosperous environment for open source in Taiwan.
   - type: content
     columns:
       - type: image
         url: /p/2016/coscup/coscup2016.jpg
         swap: false
       - type: article
-        title: 大型活動
+        title: Events & Conferences
         subtitle: 
-        description: 大型研討會是開源社群內部互動交流，以及和外部社會大眾接觸的重要管道，OCF為合作夥伴降低大型活動執行的行政門檻，讓社群生態能在更豐富的討論環境下多元發展。
+        description: 
         items:
           - project_id: sitcon
           - project_id: g0vsummit
           - project_id: pycon
           - project_id: coscup
           - project_id: sitconcamp
-          - project_id: hadoopcon
-          # project檔案名沒有f、2016maker9/3比hadoop9/9早
           - project_id: makerconf
+          - project_id: hadoopcon
           - project_id: jcconf
-        action:
-          title: link button
-          # 連結可以放篩選過的捐款頁嗎?
-          url:
   - type: content
     columns:
       - type: image
         url: /p/2016/g0vdathon/20n.jpg
         swap: true
       - type: article
-        title: 社群營運
+        title: Communities
         subtitle: 
-        description: 常態性的長期經營是延續並維持開源發展能量一大要務，從贊助金流代管到因應社群需求拓展而出的各種營運專案協助，OCF樂於作為各社群營運的後盾，一同成長茁壯。
+        description:
         items:
           - project_id: g0vdathon
           - project_id: osmtw
@@ -49,106 +45,320 @@ items:
           - project_id: hcsm
           - project_id: otspace
           - project_id: opensuse
-          - project_id: zhdata
-          # 中文資訊處理計畫?
+          - project_id: chewingim
           - project_id: sa
-          - project_id: chewing
   - type: content
     columns:
       - type: image
-        url: /p/2016/sysprogram/og.jpg
+        url: /p/2016/gcoin/cover.png
         swap: false
       - type: article
-        title: 校園推廣
+        title: Training
         subtitle: 
-        description: 開源社群要培育新人、向下扎根有賴校園資訊教育的普及與深化，OCF致力於與社群資深開發者合作，建構務實並具有前瞻性的學習環境，培養更多擁有開發能力的人才，為開源社群注入新的活力。
+        description: Led by Dr. Shih-wei Liao, scholars and students from NTU have developed “G-coin”, a secure, efficient, low-cost and open infrastructure for Fintech. Dr. Liao has also conducted training workshops about blockchain for financial service companies.
+        action: 
+          title: <i class="github icon"></i> Gcoin Platform
+          url: https://github.com/OpenNetworking/gcoin-community
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/sysprogram/class.jpg
+        swap: true
+      - type: article
+        title: Education
+        subtitle: 
+        description: A course led by jserv, which introduces students to open source system software development.
         items:
-          - project_id: gcoin
-          - project_id: sysprogram
-            # 佔版面的(?說明要怎麼放
+          - title: Participation in Technical Conferences 
+          - title: New open source projects: unmanned vehicles, and the smallest ARM C compiler in the world.
+          - title: Experience Sharing by Taiwanese engineers from Silicon Valley
+          - title: Online talks and offline workshops
+        action: 
+          title: Learn More (Chinese)
+          url: http://ocf.tw/donate/sysprog-incubation.html#/tab-4 
   - type: header
-    title: 組織合作
+    title: Collaboration
+    anchor: orgnization
     icon: building outline
     background_color: olive
-    description: 藉由與產、官、學界的跨界合作，共同發揚開放文化的精神，促成與國內外開放社群協力的機會。
+    description: In 2016, we collaborated with industries, governments, and academia to promote open source and open culture. 
   - type: content
     columns:
       - type: image
         url: /p/2016/umaker/cover.jpg
+        swap: false
+      - type: article
+        title: <Industries> Makers X OCF
+        subtitle: 
+        description: From 2015 to 2016, STEPS Software Inc. donated 10% of its sale on U.MAKER 3D printers to the Open Culture Foundation. 
+  - type: content
+    columns:
+      - type: slider
+        slides:
+         - url: /p/2016/admin/ndc-it-managers-2016.jpg
+         - url: /p/2016/admin/ndc-it-managers-2016.jpg-3.jpg
         swap: true
       - type: article
-        title: 【產】取之開源，回饋開源 — 最終章
+        title: <Governments> Civil Servants X OCF
         subtitle: 
-        description: 2015~2016 年預購 U．MAKER 開源 3D 印表機，智新資通捐出10%做公益，以實際行動支持開放文化。 
-        items:
-          - project_id: umaker      
+        description: Together with Taiwan’s National Development Council, we’ve held two training camps for technology officers in the government. In these camps, our experts introduced the ideas and methods behind open source and shared international trends on civic technology.
+
   - type: content
     columns:
       - type: image
-        url: /p/2016/admin/ndc-it-managers-2016.jpg
+        url: /p/2016/cctw/CC_2016.jpg
+        swap: false
+      - type: article
+        title: <Academia> CCTW X OCF
+        subtitle: 
+        description: We worked with CCTW to promote open licenses and open knowledge to schools, museums, and civil society organizations.
+        items:
+          - project_id: cctw
+  - type: header
+    title: International Exchange
+    anchor: overseas
+    icon: plane
+    background_color: teal
+    description: We’re making global connections, while also encouraging grassroots development. Most importantly, we’ve built a bridge to bring international actors and Taiwan’s local communities together.
+  - type: content
+    columns:
+      - type: slider
+        slides:
+          - url: /p/2016/intl/visit_1.jpg
+          - url: /p/2016/intl/visit_2.jpg
+          - url: /p/2016/intl/visit_3.jpg
+          - url: /p/2016/intl/visit_4.jpg
+          - url: /p/2016/intl/visit_5.jpg
         swap: true
       - type: article
-        title: 【官】政府資訊主管聯席會 X OCF — 初登場
+        title: Hosting International Guests
         subtitle: 
-        description: 積極與國發會合辦政府資訊主管聯席會，邀請專家學者分享台灣的公民科技發展與世界趨勢。
+        description: In collaboration with the Canadian Trade Office in Taipei, Bureau Français de Taipei, and the American Institute in Taiwan, we’ve hosted Mr. Bassem Asseh, Dr. Ronald Deibert, and Dr Fa-ti Fan, and invited them to give public talks to our community.
+        logo_height: 3rem
+        logos:
+          - org_id: cto
+          - org_id: bft
+          - org_id: ait
+  - type: content
+    columns:
+      - type: slider
+        slides:
+          - url: /p/2016/intl/youth_1.jpg
+          - url: /p/2016/intl/youth_2.jpg
+          - url: /p/2016/intl/youth_3.png
+          - url: /p/2016/intl/youth_4.png
+          - url: /p/2016/intl/youth_5.jpg
+        swap: false
+      - type: article
+        title: Youth Travel Grant
+        subtitle: 
+        description: Our grants have supported Taiwanese youth to attend international open source conferences and activities. 
+        items:
+          - title: Open Networking Summit 2016 California
+          - title: FOSS ASIA 2016 Singapore
+          - title: useR! 2016 California 
+        action: 
+          title: Learn More (Chinese)
+          url: http://ocf.tw/donate/intl.html#/tab-3
+  - type: content
+    columns:
+      - type: slider    
+        slides:
+          - url: /p/2016/intl/delegation_1.jpg
+          - url: /p/2016/intl/delegation_2.jpg
+          - url: /p/2016/intl/delegation_3.jpg
+          - url: /p/2016/intl/delegation_4.jpg
+          - url: /p/2016/intl/delegation_5.jpg
+          - url: /p/2016/intl/delegation_6.png
+          - url: /p/2016/intl/delegation_8.jpg
+          - url: /p/2016/intl/delegation_9.jpg
+          - url: /p/2016/intl/delegation_10.jpg
+          - url: /p/2016/intl/delegation_11.jpg
+          - url: /p/2016/intl/delegation_12.jpg
+          - url: /p/2016/intl/delegation_13.jpg
+        swap: true
+      - type: article
+        title: International Visits
+        subtitle: 
+        description: To extend our global network, we’ve organized Taiwanese delegations made up of civic hackers, NGO workers and civil servants to attend the Code for America Summit in Oakland California, and the the Open Government Partnership Summit in Paris, France. 
+        action: 
+          title: See Report (Chinese)
+          url: http://beta.hackfoldr.org/ocf-intl-events        
+  - type: content
+    columns:
+      - type: slider
+        slides:
+          - url: /p/2016/intl/sharing_1.jpg
+          - url: /p/2016/intl/sharing_3.jpg
+          - url: /p/2016/intl/sharing_4.jpg
+          - url: /p/2016/intl/sharing_5.jpg
+        swap: false
+      - type: article
+        title: Talks and Events
+        subtitle: 
+        description: After returning from these global summits, we held a number of sharing sessions to bring in new ideas and share our experiences.
+        action: 
+          title: See Event Records
+          url: http://beta.hackfoldr.org/ocf-intl-events        
+  - type: content
+    columns:
+      - type: slider
+        slides:
+          - url: /p/2016/intl/g0vnews_1.jpg
+          - url: /p/2016/intl/g0vnews_2.jpg
+          - url: /p/2016/intl/g0vnews_3.jpg
+        swap: true
+      - type: article
+        title: g0v.news
+        subtitle: 
+        description: We founded g0v.news to cover the stories of the civic tech community in Taiwan, and around the world.
+        action: 
+          title: Official Website
+          url: https://g0v.news
+  - type: header
+    title: Advisory Consultations
+    anchor: consulting
+    icon: idea
+    background_color: blue
+    description: Adhering to the spirit of open source, we are generous about sharing ideas on open culture.
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/charityreport/charity-report.png
+        swap: false
+      - type: article
+        title: Open-Source Recommendation Report
+        subtitle: 
+        description: We’ve collected suggestions from our friends in the community, and have composed a proposal entitled “Open Public Welfare Information Platform and Promotion Strategy,” for Taiwan’s Ministry of the Interior. This proposal focuses on suggestions for a website that provides information for an open public welfare web platform.
         items:
           - project_id: 
   - type: content
     columns:
       - type: image
-        url: /p/2016/cctw/og.png
-        swap: false
+        url: /p/2016/osln/og4x3.png
+        swap: true
       - type: article
-        title: 【學】CCTW X OCF — 第 2 彈
+        title: Creative Commons Consultation
         subtitle: 
-        description: 持續與台灣創用 CC 合作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，能接觸更多國內外的自由文化社群。
+        description: We’ve collaborated with Mr. Lucien C.H. Lin — a long-time researcher on tech law, and a volunteer counsel for foundations —to offer the public free consultancy services on "open" licensing. This is a prelude to the creation of an open source legal network. 
         items:
-          - project_id: cctw
+          - project_id: osln
   - type: header
-    title: 跨國交流
-    icon: plane
-    background_color: teal
-    description: 鼓勵青年學子勇闖國際開源大講台，發表開源成果與拓展國際視野；建立本地社群與國際社群的連結，催生相互認識與合作的機會，追蹤全球公民科技的新趨勢。
-  - type: header
-    title: 顧問諮詢
-    icon: idea
-    background_color: blue
-    description: 秉持開源的精神，不吝分享開放文化理念並貫徹知識自由傳播。我們蒐集了部分社群朋友的建議，撰寫了「公益資訊平台開放暨推廣策略建議書」提供給內政部人民團體司，針對其預計開放更多資料的網站「公益資訊平台」給予開放資料和推廣的建議。另外，我們也和基金會的法制顧問林誠夏先生合作，提供民眾一個開放授權的諮詢管道。
-  - type: header
-    title: 政策倡議
+    title: Policy Suggestions
+    anchor: initiative
     icon: announcement
     background_color: violet
-    description: 
+    description: We're persuading government institutions and private enterprises to bring a spirit of freedom and openness into their services, and making Taiwan’s various kinds of infrastructure is not held ransom by proprietary hardware or software. 
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/admin/Taiwan_CDC_RI_GithubPage.png
+        swap: false
+      - type: article
+        title: Decreasing cross-platform problems with MOICA
+        subtitle: 
+        description: MOICA operations and specifications promoted by Chunghwa Telecom failed. This led to an in-house development for MOICA, that is free to use across platforms. 
+        action:
+          title: <i class="github icon"></i> Source Code
+          url: https://github.com/orsonwang/Taiwan_CDC_RI
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/admin/pexels-CC0photo-ideas.jpeg
+        swap: true
+      - type: article
+        title: Advocating for a spirit of openness during government procurement contracts 
+        subtitle: 
+        description: Around the globe, countries like Australia and Bulgaria have passed legislation or policy that demands government procurement contracts to prioritize “open and standardized” software and hardware. OCF continues to pay close attention to procurement on IT services, and hopes that before government procurement commences, that it first meets international definitions of open and standardized. 
   - type: header
-    title: 財務報告
-    icon: dollar
+    title: Our Team
+    anchor: team
+    icon: paw
     background_color: purple
-    description: 
+    description: Our team in the process of steadily enlarging, and will continue to serve various open source communities, and will pay attention to various open source issues.
+  - type: content
+    columns:
+      - type: collage
+        grid: five
+        swap: false
+        items:
+          - person_id: singing
+          - person_id: rock
+          - person_id: ttcat
+          - person_id: mglee
+          - person_id: afi
+          - person_id: jason
+          - person_id: aaron
+          - person_id: huangfu
+          - person_id: miniwu
+          - person_id: lucien
+          - person_id: honki
+          - person_id: clkao
+          - person_id: bobchao
+          - person_id: jimyhuang
+          - person_id: pofeng
+      - type: article
+        title: We have many new members joining our team. 
+        description:  We’re happy to welcome the following members to the OCF family: @rock, @ttcat, @mglee, @afi, @jason, @aaron, @huangfu and @miniwu. 
+  - type: header
+    title: Thanks
+    anchor: thanks
+    icon: heart
+    background_color: pink
+    description: OCF sincerely thanks everyone for their support in helping to promote open culture. 
+  - type: content
+    columns:
+      - type: image
+        url: /p/2016/admin/flickr_CCBYothree_volunteer.jpg
+        swap: true
+      - type: article
+        title: Thanks to our super supportive volunteers. 
+        subtitle: 
+        description: Thanks to ETBlue, Muka, ipa, marr, poga, yayard, 雁子, Macpaul, yuting, and our other awesome volunteers, for helping us conquer our quests around the world!
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        logo_height: 7rem
+        logos:
+          - org_id: hct
+          - org_id: rc
+      - type: article
+        title: Thanks to our sponsors
+        subtitle: 
+        description: Special thanks to HCT Logistics, and the RC Culture and Arts Foundation for their annual sponsorship projects, and a special thanks to our enterprise partners for their support for our projects and events. Thank you also to our individual donors for giving us momentum to popularize open culture.
+        action: 
+          title: Credit Reporting
+          url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
+  - type: header
+    title: Financial Report
+    anchor: finance
+    icon: dollar
+    background_color: orange
+    description: Thanks to individuals and organizations from different fields for their material and personnel support to OCF and cooperating communities. At the beginning of 2016, OCF started a fixed-sum regular donation plan. With our donors’ continued steady support, OCF staff can work fully on supporting communities, expand our collaboration with enterprise and organizations, and promote “open” policies.
   - type: content
     columns:
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=963993401&amp;format=interactive
-        height: 25rem
-        title: 2016 年度行政基金收入<br/>NT$ 2,352,441
-        description: 社群專款專用收入 NT$ 14,004,225
+        height: 20rem
+        title: OCF 2016 Annual Income
+        description: Administrative Center NT$ 2,352,441 <br/> International Exchange Project NT$ 519,616 <br/> Community Projects NT$ 14,004,225
+        scrolling: "no"
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=495996187&amp;format=interactive
-        height: 25rem
-        title: 2016 年度行政基金支出<br/>NT$ 1,735,636
-        description: 社群專款專用支出 NT$ 11,041,651
-  - type: header
-    title: 由衷感謝
-    icon: heart
-    background_color: pink
-    description: 
+        height: 20rem
+        title: OCF 2016 Annual Spending
+        description: Administrative Center NT$ 1,735,636 <br/> International Exchange Project NT$ 1,145,654 <br/> Community Projects NT$ 11,041,651
+        scrolling: "no"
   - type: content
     columns:
-      - type: slider
-        swap: true
-        slides:
-          - url: /p/2016/admin/ndc-it-managers-2016.jpg
-          - url: /p/2016/coscup/coscup2016.jpg
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/1PgJK4SA3Fkds9fBtzenkGv_Z4vkgVcPMdmSvm4ieEAY/pubchart?oid=1303704231&amp;format=interactive
+        height: 20rem
+        scrolling: "no"
       - type: article
-        title: TEST
-        subtitle: 
-        description: test
+        title: Providing independent financial logistics support for communities
+        description: In addition to helping large community events like COSCUP and PyCON to collect operation funds, OCF also helps many communities with their general operations and promotion, such as collaborative projects like the “Civic Tech Grant, with the g0v-jothon group. Also, a number of new collaborators have joined the International Exchange Project, and is on its way towards super expansion! So please keep your eyes on us, and support us.
+        action:
+          title: Donate
+          url: https://ocf.tw/donate
