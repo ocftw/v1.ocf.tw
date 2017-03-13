@@ -70,7 +70,7 @@ items:
         description: A course led by jserv, which introduces students to open source system software development.
         items:
           - title: Participation in Technical Conferences 
-          - title: New open source projects\: unmanned vehicles, and the smallest ARM C compiler in the world.
+          - title: "New open source projects: unmanned vehicles, and the smallest ARM C compiler in the world."
           - title: Experience Sharing by Taiwanese engineers from Silicon Valley
           - title: Online talks and offline workshops
         action: 
@@ -299,7 +299,7 @@ items:
           - person_id: pofeng
       - type: article
         title: We have many new members joining our team. 
-        description:  We’re happy to welcome the following members to the OCF family: @rock, @ttcat, @mglee, @afi, @jason, @aaron, @huangfu and @miniwu. 
+        description:  "We’re happy to welcome the following members to the OCF family: @rock, @ttcat, @mglee, @afi, @jason, @aaron, @huangfu and @miniwu."
   - type: header
     title: Thanks
     anchor: thanks
