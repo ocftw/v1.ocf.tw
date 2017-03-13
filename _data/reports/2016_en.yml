@@ -17,9 +17,8 @@ items:
         url: /p/2016/coscup/coscup2016.jpg
         swap: false
       - type: article
-        title: Events & Conferences
+        title: "Events & Conferences"
         subtitle: 
-        description: 
         items:
           - project_id: sitcon
           - project_id: g0vsummit
@@ -37,7 +36,6 @@ items:
       - type: article
         title: Communities
         subtitle: 
-        description:
         items:
           - project_id: g0vdathon
           - project_id: osmtw
@@ -229,7 +227,7 @@ items:
       - type: article
         title: Open-Source Recommendation Report
         subtitle: 
-        description: We’ve collected suggestions from our friends in the community, and have composed a proposal entitled “Open Public Welfare Information Platform and Promotion Strategy,” for Taiwan’s Ministry of the Interior. This proposal focuses on suggestions for a website that provides information for an open public welfare web platform.
+        description: We collected suggestions from our friends in the community, and composed a proposal and promotion strategy for the new Taiwan NPO Information Platform made by Taiwan’s Ministry of Interior.
         items:
           - project_id: 
   - type: content
@@ -238,9 +236,9 @@ items:
         url: /p/2016/osln/og4x3.png
         swap: true
       - type: article
-        title: Creative Commons Consultation
+        title: Open Licensing Consultations
         subtitle: 
-        description: We’ve collaborated with Mr. Lucien C.H. Lin — a long-time researcher on tech law, and a volunteer counsel for foundations —to offer the public free consultancy services on "open" licensing. This is a prelude to the creation of an open source legal network. 
+        description: We collaborated with Mr. Lucien C.H. Lin — a long-time researcher on tech law, who offers volunteer legal services for non-profits — and offered free consultancy services on "open" licensing. This is a prelude to the creation of an open source legal network.
         items:
           - project_id: osln
   - type: header
@@ -248,7 +246,7 @@ items:
     anchor: initiative
     icon: announcement
     background_color: violet
-    description: We're persuading government institutions and private enterprises to bring a spirit of freedom and openness into their services, and making Taiwan’s various kinds of infrastructure is not held ransom by proprietary hardware or software. 
+    description: We're persuading government institutions and private enterprises to bring a spirit of freedom and openness into their services. We want to make sure Taiwan’s service infrastructure is not held ransom by proprietary-held hardware or software.
   - type: content
     columns:
       - type: image
@@ -257,7 +255,7 @@ items:
       - type: article
         title: Decreasing cross-platform problems with MOICA
         subtitle: 
-        description: MOICA operations and specifications promoted by Chunghwa Telecom failed. This led to an in-house development for MOICA, that is free to use across platforms. 
+        description: Chunghwa Telecom’s MOICA operations and specifications never panned out. This led to an in-house development for MOICA, that is free to use across platforms.
         action:
           title: <i class="github icon"></i> Source Code
           url: https://github.com/orsonwang/Taiwan_CDC_RI
@@ -275,7 +273,7 @@ items:
     anchor: team
     icon: paw
     background_color: purple
-    description: Our team in the process of steadily enlarging, and will continue to serve various open source communities, and will pay attention to various open source issues.
+    description: Our team is growing rapidly, and we continue to serve various open source communities, and pay attention to various open source issues.
   - type: content
     columns:
       - type: collage
