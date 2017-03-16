@@ -19,6 +19,7 @@ items:
       - type: article
         title: "Events & Conferences"
         subtitle: 
+        description: 
         items:
           - project_id: sitcon
           - project_id: g0vsummit
@@ -36,6 +37,7 @@ items:
       - type: article
         title: Communities
         subtitle: 
+        description:
         items:
           - project_id: g0vdathon
           - project_id: osmtw
