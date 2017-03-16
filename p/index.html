@@ -135,19 +135,19 @@ js: /assets/projects.js
 
             {% for id in project.type_id %}
             {% if id != "misc" %}
-            <span class="ui label">{{ site.data.projects.settings.filter.type.items[id] }}</span>
+            <a class="ui label" data-type="{{id}}">{{ site.data.projects.settings.filter.type.items[id] }}</a>
             {% endif %}
             {% endfor %}
 
             {% for id in project.topic_id %}
             {% if id != "misc" %}
-            <span class="ui label">{{ site.data.projects.settings.filter.topic.items[id] }}</span>
+            <a class="ui label" data-topic="{{id}}">{{ site.data.projects.settings.filter.topic.items[id] }}</a>
             {% endif %}
             {% endfor %}
 
             {% for id in project.field_id %}
             {% if id != "misc" %}
-            <span class="ui label">{{ site.data.projects.settings.filter.field.items[id] }}</span>
+            <a class="ui label" data-field="{{id}}">{{ site.data.projects.settings.filter.field.items[id] }}</a>
             {% endif %}
             {% endfor %}
 

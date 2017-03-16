@@ -48,6 +48,23 @@ for (var i = filters.length - 1; i >= 0; i--) {
 
   })
 
+  $('.cards .card .label[data-'+ filter_id +']').on('click tap', function() {
+
+    if (settings[filter_id] === $(this).attr('data-' + filter_id)) {
+
+      settings[filter_id] = "all";
+      $('#submenu [data-content="'+ filter_id +'"]').text( $("#submenu [data-" + filter_id + "='all']").first().text() );
+
+    } else {
+
+      settings[filter_id] = $(this).attr('data-' + filter_id);
+      $('#submenu [data-content="'+ filter_id +'"]').text( $(this).text() );
+
+    }
+    runFilter();
+
+  });
+
 }
 
 });
