@@ -80,9 +80,9 @@ what_we_do:
     description_en: blah
   - id: overseas
     icon: plane
-    title: 跨國交流
+    title: 國際交流
     title_en: blah
-    tagline: 促進台灣社群的跨國交流
+    tagline: 促進台灣開源社群的國際交流
     tagline_en: blah
     description: 開放文化的推廣，在各國的法規與體制下會遇到不同的挑戰。我們協助台灣開源社群與全球各地的相關組織串連，吸取彼此的經驗，探索可能的創新模式。
     description_en: blah
