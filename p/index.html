@@ -190,8 +190,10 @@ js: /assets/projects.js
 <section id="results" class="ui stripe container">
   <div class="ui divided items">
 
-{% for year in site.data.reports %}
-  {% if year[0] != current and year[0] contains "20" %}
+{% for year in site.data.reports reversed %}
+  {% if year[0] contains "20" %}
+    {% if year[0] contains "en" %}
+    {% else %}
     {% assign data = year[1] %}
     <div class="item">
       <div class="image">
@@ -213,7 +215,7 @@ js: /assets/projects.js
         </div>
       </div>
     </div>
-
+    {% endif %}
   {% endif %}
 {% endfor %}
 
