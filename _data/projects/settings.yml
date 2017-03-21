@@ -36,6 +36,7 @@ filter:
       art: 文創
       education: 教育
       finance: 金融
+      agri: 農業
       misc: 其他
 
 card:
@@ -44,8 +45,11 @@ card:
   - admin
   - intl
   - movie
+  - coscup
+  - pycon
+  - sitcon
+  - jcconf
   - g0vdathon
-  - sysprogram
   - cctw
   - osln
   - otspace
@@ -53,14 +57,7 @@ card:
   - osmtw
   - sa
   - hcsm
-  - umaker
-  - g0vsummit
-  - coscup
-  - mopcon
-  - pycon
-  - sitcon
-  - sitconcamp
-  - jcconf
-  - hadoopcon
   - opensuse
-  - makerconf
+  - chewingim
+  
+  

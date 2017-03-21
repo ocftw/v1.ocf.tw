@@ -1,0 +1,43 @@
+name: OpenStreetMap Taiwan
+cover: /p/2016/osmtw/og.jpg
+description: 開放街圖（OpenStreetMap，簡稱 OSM）是一個靠群眾協作而成的地理資料庫，同時也是採用開放資料授權的全球地圖，由像你一樣的使用者繪製，在日常生活、導航、學術、商業領域創造出豐富的應用，台灣開放街圖社群是活躍的參與者之一。凡支持開放街圖運動之個人，捐款至開放文化基金會下之台灣開放街圖社群專戶，即可加入台灣開放街圖社群會員，參與社群營運之事務。
+link:
+  - title: 贊助社群
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=16
+  - title: 加入社群
+    url: http://osmtw.kktix.cc/events/membership2016
+  - title: 官方網站
+    url: http://openstreetmap.tw/
+
+type_id:
+  - community
+topic_id:
+  - data
+field_id:
+  - geo
+
+tagline: 
+avatar: /p/2016/osmtw/avatar.png
+
+organizer_id:
+  - osmtw
+advisor_id:
+co-organizer_id:
+implementer_id:
+sponsor_id:
+coordinator_id:
+donors:
+meta:
+
+start: 
+end: 
+tag:
+abbr: 
+month: 
+
+name_en: OpenStreetMap Taiwan
+board_id:
+staff_id:
+	- singing 
+consultant_id:
+volunteer_id:
