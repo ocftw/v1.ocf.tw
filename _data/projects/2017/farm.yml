@@ -20,7 +20,7 @@ field_id:
   - agri
 avatar: 
 organizer_id:
-  - opensuse
+  - openhackfarm
 advisor_id:
 co-organizer_id:
 implementer_id:
@@ -33,10 +33,10 @@ end:
 tag:
 abbr: 
 month: 
-name_en: openSUSE Taiwan
+name_en: Open Hack Farm
 board_id:
   - jimmy
 staff_id: 
-	- singing
+  - singing
 consultant_id:
 volunteer_id:
