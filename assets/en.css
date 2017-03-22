@@ -34,3 +34,10 @@
 #en cite:hover {
   opacity: 1;
 }
+
+/* for reports */
+
+#en #results .ui.items>.item>.image>img {
+  object-fit: cover;
+  min-height: 100%;
+}

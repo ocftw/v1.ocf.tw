@@ -1,16 +1,17 @@
 ---
-layout: global
+layout: global_2016_transition
 og_title: Welcome
 og_image: 
 og_description: 
 css: /assets/en.css
+lang: en
 ---
 
 <div id="en">
 
 <section id="hero" class="ui inverted center aligned basic segment marginless">
 
-  {% include navbar_landing_pages.html %}
+  {% include navbar_landing_pages_2016_transition.html %}
 
   <div class="ui hidden section divider"></div>
   <div class="ui stripe container">
@@ -33,6 +34,39 @@ The Open Culture Foundation (OCF), is a nonpartisan, nonprofit  organization, fo
 Since its establishment, OCF has supported local communities to run large-scale conferences, seminars, and hackathons, as well as collaborate with a number of international offices and multilateral institutions to deepen Taiwan’s connection to the global open culture community.  Some of our past collaboration partners include the American Institute in Taiwan, British Office Taipei, Bureau Francais de Taipei, and the World Bank. OCF also has strong connections with the  global open source community, and regularly exchanges experiences with civic tech groups worldwide. Our mission is to build bridges between local and global “open” communities, and hope to act as a mediator for open culture. 
 
   </p>
+  </div>
+</section>
+
+<section id="results" class="ui stripe container">
+  <div class="ui divided items">
+{% for year in site.data.reports %}
+  {% if year[0] contains "20" %}
+    {% if year[0] contains "en" %}
+    {% assign data = year[1] %}
+    <div class="item">
+      <div class="image">
+        <img src="{{ data.cover }}">
+      </div>
+      <div class="content">
+        <a class="header">{{ data.title }}</a>
+        <div class="meta">
+          <span></span>
+        </div>
+        <div class="description">
+          <p>{{ data.description }}</p>
+        </div>
+        <div class="extra">
+          <a href="/en/p/{{ year[0] | remove: '_en' }}">
+            View Report
+            <i class="right arrow icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
   </div>
 </section>
 

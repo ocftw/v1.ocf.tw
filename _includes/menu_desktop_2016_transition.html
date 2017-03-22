@@ -1,10 +1,10 @@
+{% if page.lang == "en" %}
 <a class="logo item" href="http://ocf.tw">
   <img class="ui logo image" src="{{ site.data.people.orgs.ocf.icon }}">
-  {{ site.data.people.orgs.ocf.name }}
+  {{ site.data.people.orgs.ocf.name_en }}
 </a>
 <div class="right menu">
 
-{% if page.lang == "en" %}
 <a href="http://ocf.tw/#whoweare" class="item" data-display="desktop">
 About
 </a>
@@ -21,6 +21,12 @@ Events
 Activities
 </a>
 {% else %}
+<a class="logo item" href="http://ocf.tw">
+  <img class="ui logo image" src="{{ site.data.people.orgs.ocf.icon }}">
+  {{ site.data.people.orgs.ocf.name }}
+</a>
+<div class="right menu">
+
 <a href="http://ocf.tw/#whoweare" class="item" data-display="desktop">
 認識我們
 </a>
