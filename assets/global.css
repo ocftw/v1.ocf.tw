@@ -165,7 +165,7 @@ p, a, li, h1, h2, h3, h4, h5, h6,
 }
 
 #header .ui.menu .logo.image {
-  margin: 0;
+  margin: 0 0.5em 0 0;
   height: 1.5em;
 }
 
