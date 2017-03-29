@@ -10,64 +10,64 @@ project_id: gcoin
 
 # ------ 以上為必要，以下為非必要 ------
 
-og_title: text / no
+og_title:
 # 這頁的 og title，若 no 或留空，會採用專案的 name 資料，也就是中文全名
 
-og_description: text / no
+og_description:
 # 這頁的 og description，若 no 或留空，會採用專案的 description 資料
 
-og_image:  text / no
+og_image: 
 # 這頁的 og image 網址，若 no 或留空，會採用專案的 cover 資料
 
-cover_image: url / no
+cover_image:
 # 這頁上方大標題區塊的背景圖網址，若 no 或留空，會採用專案的 cover 資料
 
-cover_image_opacity: decimal / no
+cover_image_opacity:
 # 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設是 0.95
 
-cover_veil_opacity: decimal / no
+cover_veil_opacity:
 # 這頁上方大標題區塊的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設值是 0.1
 
-color: text / no
+color:
 # 這頁上方大標題區塊的背景圖混色，以及緊接在大標題區塊之下的摘要區塊的背景顏色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
 
-sidebar_image: url / no
+sidebar_image:
 # 這頁右側邊欄的配圖，若 no 或留空，會採用專案的 avatar 資料，或主辦單位組織的 avatar / logo / cover 資料，或 semantic ui 的 info icon （以上順序即為採用資料的優先順位，若前一個無資料，則會去找下一個）
 
-show_events: yes / no
+show_events:
 # 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若 no 或留空，則不顯示計畫成果區塊
 
-show_budget: yes / no
+show_budget:
 # 是否顯示預算表，若填 yes 則會自動抓取專案資料夾中的 budget.html 檔案做為預算表內容，若 no 或留空，則不顯示預算表區塊
 
-gsheet_url: url / no
+gsheet_url:
 # 收知明細表的 google spreadsheet 網址，若 no 或留空，則不顯示收支明細區塊
 
-show_sponsors: yes / no
+show_sponsors:
 # 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若 no 或留空，則不顯示贊助商區塊
 
-show_donors: yes / no
+show_donors:
 # 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若 no 或留空，則不顯示捐助人區塊
 
-show_progress: yes / no
+show_progress: yes
 # 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若 no 或留空，則不顯示進度條
 
-cpid: integer / no
+cpid:
 # 專案從 neticrm 抓募款進度資料時使用的 id，若 no 或留空，則不從 neticrm 抓資料
 
 progress:
 # 專案募款進度，會出現在專案列表頁右側邊欄
-  duration: text / no
+  duration:
   # 募款期間，若 no 或留空，則不顯示此項目
-  goal: NT$ (number) / yes / no
+  goal: 
   # 募款目標金額，若 no 或留空，則不顯示此項目
-  current: NT$ (number) / yes / no
+  current: 
   # 已募得款項金額，若 no 或留空，則不顯示此項目
-  percent: (number) / yes / no
+  percent:
   # 進度百分比，若 no 或留空，則不顯示此項目
-  count: (number) / yes / no
+  count: 
   # 捐款人數，若 no 或留空，則不顯示此項目
-  updated: text / yes / no
+  updated: 
   # 資料更新日期，若 no 或留空，則不顯示此項目
 
 action: 
@@ -85,7 +85,7 @@ action:
 
 ---
 
-<h2 class="ui dividing header">計畫說明</h2>
+<h2 class="ui dividing header">123</h2>
 
 <h3 class="ui header">
 標題一
