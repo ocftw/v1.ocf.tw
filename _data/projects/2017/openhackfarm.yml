@@ -1,15 +1,13 @@
 name: 開放農業實驗基地
 name_en: Open Hack Farm
 tagline: 農業 x 科技 x 開源
-cover: /p/2017/farm/og.jpg
+cover: /p/2017/openhackfarm/og.jpg
 description: 2016 年，因爲 LASS 社群的促成，開發了農業微氣候感測器。2017 年，社群募資購買了一台 FarmBot 共同研究。目前 FarmBot 的第一落腳點爲宜蘭，我們開始聚集更多小農與科技人，希望透過社群的力量，進行開放農業實驗，運用適切科技的輔助下，打造更友善的農食環境，讓人與生活重新建立連結。
 
 link:
-  - title: 贊助社群
-    #url: 
-  - title: 社群討論
-    url: https://www.facebook.com/groups/OpenHackFarm/
-
+  - title: 專案介紹
+    url: /p/2017/openhackfarm
+    target: _self
 type_id:
   - community
 topic_id:
@@ -21,7 +19,7 @@ field_id:
   - agri
 avatar: 
 organizer_id:
-  - openhackfarm
+  - farm
 advisor_id:
 co-organizer_id:
 implementer_id:
