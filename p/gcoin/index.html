@@ -1,112 +1,72 @@
 ---
+redirect_from:
+- /partner/gcoin
+- /partner/gcoin/
+
 layout: project
-# 要套用哪種版型，凡是專案頁都套用 project 版型，所以這行不用改
-
-year: current
-# 要從哪個年份抓這頁所需的資料，如：2016
-
+year: 2016
 project_id: gcoin
-# 要從哪個專案 id 抓這頁所需的資料，如：intl
 
-# ------ 以上為必要，以下為非必要 ------
-
-og_title:
-# 這頁的 og title，若 no 或留空，會採用專案的 name 資料，也就是中文全名
-
-og_description:
-# 這頁的 og description，若 no 或留空，會採用專案的 description 資料
-
+og_title: 
+og_description: 
 og_image: 
-# 這頁的 og image 網址，若 no 或留空，會採用專案的 cover 資料
 
-cover_image:
-# 這頁上方大標題區塊的背景圖網址，若 no 或留空，會採用專案的 cover 資料
+cover_image: /p/2016/gcoin/cover_bg.png
+cover_image_opacity: 
+cover_veil_opacity: 
+color: olive
 
-cover_image_opacity:
-# 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設是 0.95
+sidebar_image: /p/2016/gcoin/avatar.png
 
-cover_veil_opacity:
-# 這頁上方大標題區塊的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設值是 0.1
+show_events: 
+show_budget: 
+gsheet_url: 
+show_sponsors: 
+show_donors: 
 
-color:
-# 這頁上方大標題區塊的背景圖混色，以及緊接在大標題區塊之下的摘要區塊的背景顏色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
-
-sidebar_image:
-# 這頁右側邊欄的配圖，若 no 或留空，會採用專案的 avatar 資料，或主辦單位組織的 avatar / logo / cover 資料，或 semantic ui 的 info icon （以上順序即為採用資料的優先順位，若前一個無資料，則會去找下一個）
-
-show_events:
-# 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若 no 或留空，則不顯示計畫成果區塊
-
-show_budget:
-# 是否顯示預算表，若填 yes 則會自動抓取專案資料夾中的 budget.html 檔案做為預算表內容，若 no 或留空，則不顯示預算表區塊
-
-gsheet_url:
-# 收知明細表的 google spreadsheet 網址，若 no 或留空，則不顯示收支明細區塊
-
-show_sponsors:
-# 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若 no 或留空，則不顯示贊助商區塊
-
-show_donors:
-# 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若 no 或留空，則不顯示捐助人區塊
-
-show_progress: yes
-# 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若 no 或留空，則不顯示進度條
-
-cpid:
-# 專案從 neticrm 抓募款進度資料時使用的 id，若 no 或留空，則不從 neticrm 抓資料
-
+show_progress: 
+cpid: 22
 progress:
-# 專案募款進度，會出現在專案列表頁右側邊欄
-  duration:
-  # 募款期間，若 no 或留空，則不顯示此項目
+  duration: 
   goal: 
-  # 募款目標金額，若 no 或留空，則不顯示此項目
   current: 
-  # 已募得款項金額，若 no 或留空，則不顯示此項目
-  percent:
-  # 進度百分比，若 no 或留空，則不顯示此項目
+  percent: 
   count: 
-  # 捐款人數，若 no 或留空，則不顯示此項目
   updated: 
-  # 資料更新日期，若 no 或留空，則不顯示此項目
 
 action: 
-# 專案頁的 call to action，可以是按鈕或一段文字，會出現在右側邊欄的最下方
-  - title: text
-    # 按鈕上的文字
-    url: url
-    # 按下後會連去哪裡
-    color: text
-    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
-    icon: text
-    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
-  - title: text
-    # 沒有設定 url 的狀況下，會單純以一段文字的形式顯示
+  - title: 捐款贊助
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=22
+    color: green
+    icon: dollar
+  - title: 加入開發
+    url: https://github.com/OpenNetworking/gcoin-community
+    color: blue
+    icon: github
+  - title: 如果你想捐贈儀器設備，請與我們聯絡 ( hi@ocf.tw)。
 
 ---
 
-<h2 class="ui dividing header">123</h2>
-
-<h3 class="ui header">
-標題一
-</h3>
+<h2 class="ui dividing header">計畫說明</h2>
 
 <p>
-段落一
+Gcoin 區塊鏈協議致力於提供一套開放的數位金融基礎建設，使用 Gcoin 可打造出支援兼顧安全性、效率性、低維護成本的交易平台。區塊鏈上的數位化資產能夠與真實世界中的各種資產建立不可竄改的連結，包括點數、票據、證券、權證、甚至房地產等線下資產。Gcoin 將區塊鏈針對金融應用與電子商務所需的交易速度與可擴展性加以改進並優化，可真正實現數位金融的虛實整合。
+</p>
+<p>
+開放文化基金會下之 Gcoin 專案，除將致力於 Gcoin 軟體程式之研發，也希望有興趣的開發者一同參與，群策群力讓這個開源專案快速成長，對台灣的金融界能及時貢獻。專案成果除將以開放原始碼授權外，並將推廣新一代的數位金融基礎建設概念及尋求相關法制商業模式等配套落實，使台灣成為 Gcoin 技術能實際應用的場域。
 </p>
 
-<div class="ui list">
-  <div class="item">
-    <i class="checkmark icon"></i>
-    <div class="content">
-    清單一
-    </div>
-  </div>
-</div>
-
 <p>
-<a href="" target="_blank">
+<a href="http://g-coin.org" target="_blank">
 <i class="globe icon"></i>
-連結一
+官方網站
 </a>
 </p>
+
+<p>
+<a href="https://github.com/OpenNetworking/gcoin-community" target="_blank">
+<i class="github icon"></i>
+GitHub
+</a>
+</p>
+
