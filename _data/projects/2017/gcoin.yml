@@ -6,10 +6,10 @@ link:
     url: /p/gcoin
     target: _self
 type_id:
+  - community
 topic_id:
   - source
 field_id:
-  - it
   - finance
 
 tagline: 開源的區塊鏈協議與開放的數位金融基礎建設

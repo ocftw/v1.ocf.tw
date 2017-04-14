@@ -21,7 +21,7 @@ type_id:
 topic_id:
   - source
 field_id:
-  - it
+  - education
 advisor_id:
 organizer_id:
   - sitcon

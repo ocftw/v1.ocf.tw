@@ -17,11 +17,8 @@ tag:
 type_id:
   - community
 topic_id:
-  - data
   - government
-  - source
 field_id:
-  - legal
   - it
 advisor_id:
 organizer_id:

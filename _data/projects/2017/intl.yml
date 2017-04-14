@@ -16,15 +16,10 @@ tag:
   - 盤纏申請
 type_id:
   - overseas
-  - organization
 topic_id:
-  - government
   - data
-  - source
 field_id: 
   - it
-  - media
-  - misc
 advisor_id:
 organizer_id:
   - ocf
