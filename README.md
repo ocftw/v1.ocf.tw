@@ -2,7 +2,7 @@
 
 ## 線上預覽
 
-[beta.ocf.tw](http://beta.ocf.tw/)
+[ocf.tw](http://ocf.tw/)
 
 ## 編輯網站內容
 
@@ -19,7 +19,7 @@
 
   - 複製 [專案 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/projects/_project_id.yml) 的內容，貼到新建立的 `(your_project_id).yml` 檔案中編輯
 
-2. 把專案加到 [專案與成果](http://beta.ocf.tw/projects/) 頁的列表
+2. 把專案加到 [專案與成果](http://ocf.tw/projects/) 頁的列表
 
   - 把 `(your_project_id)` 加到 [/_data/projects/settings.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/projects/settings.yml) 的清單中
 
@@ -71,7 +71,7 @@
 
   - 複製 [工作人員 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/individuals/_person_id.yml) 的內容，貼到新建立的 `(staff_id).yml` 檔案中編輯
 
-2. 把工作人員加到 [工作夥伴](http://beta.ocf.tw/people/) 頁的列表
+2. 把工作人員加到 [工作夥伴](http://ocf.tw/people/) 頁的列表
 
   - 把 `(staff_id)` 加到 `/_data/people/relations/(list_id).yml` 的清單中，如 [/_data/people/relations/staff.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/relations/staff.yml) 
 
@@ -88,7 +88,7 @@
 
   - 複製 [合作單位 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/orgs/_org_id.yml) 的內容，貼到新建立的 `(org_id).yml` 檔案中編輯
 
-2. 把合作單位加到 [工作夥伴](http://beta.ocf.tw/people/) 頁的列表（optional，視業務需要）
+2. 把合作單位加到 [工作夥伴](http://ocf.tw/people/) 頁的列表（optional，視業務需要）
 
   - 把 `(org_id)` 加到 `/_data/people/relations/(list_id).yml` 的清單中，如 [/_data/people/relations/partners.yml](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/people/relations/partners.yml) 
 
@@ -145,7 +145,7 @@
     - 檔案位置： [/_data/news/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/news)
     - 複製 [電子報資料 yml 範本](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/_yyyy.yml) 的內容，貼到新建立的 `(new_year).yml` 檔案中編輯
 
-  - 將新年度的電子報加到 [電子報](http://beta.ocf.tw/news/) 頁的列表
+  - 將新年度的電子報加到 [電子報](http://ocf.tw/news/) 頁的列表
 
     - 把 `(new_year)` 加到 [電子報頁設定檔](https://github.com/ocftw/beta.ocf.tw/blob/gh-pages/_data/news/settings.yml) 的清單中
 
@@ -163,7 +163,7 @@
     - 檔案位置： `/p/(new_year)/` ，例如 [/p/2016/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/2016/)
     - 複製 [活動頁 html 範本](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/p/_yyyy/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
 
-  - 可在 `/p/(new_year)/` 預覽成果報告頁，如 [/p/2016/](http://beta.ocf.tw/p/2016/)
+  - 可在 `/p/(new_year)/` 預覽成果報告頁，如 [/p/2016/](http://ocf.tw/p/2016/)
 
 ### 編輯電子報清單內容
 
@@ -197,11 +197,11 @@
 
 ### 資料
 
-[活動列表後台](http://beta.ocf.tw/backend/)
+[活動列表後台](http://ocf.tw/backend/)
 
 ### 設計
 
-[網站設計團隊後台](http://beta.ocf.tw/design/)
+[網站設計團隊後台](http://ocf.tw/design/)
 
 ### 程式
 
