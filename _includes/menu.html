@@ -1,4 +1,10 @@
-<a href="/" class="item">首頁</a>
+<a href="/" class="item">
+{% if page.lang == "en" %}
+Home
+{% else %}
+首頁
+{% endif %}
+</a>
 
 {% for item in site.data.settings.menu %}
 <a href="{{ item.url }}" class="item 
@@ -6,7 +12,11 @@
 active
 {% endif %}
 ">
+{% if page.lang == "en" %}
+{{ item.title_en }}
+{% else %}
 {{ item.title }}
+{% endif %}
 </a>
 {% endfor %}
 

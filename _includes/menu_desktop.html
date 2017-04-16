@@ -1,18 +1,28 @@
 <a class="logo item" href="/">
   <img class="ui logo image" src="{{ site.data.people.orgs.ocf.icon }}">
+  {% if page.lang == "en" %}
+  {{ site.data.people.orgs.ocf.name_en }}
+  {% else %}
   {{ site.data.people.orgs.ocf.name }}
+  {% endif %}
 </a>
       
 <div class="right menu">
 
 {% for item in site.data.settings.menu %}
-<a href="{{ item.url }}" class="item 
-{% if page.url contains item.url %}
-active
-{% endif %}
-" data-display="desktop">
-{{ item.title }}
-</a>
+  <a href="{{ item.url }}" class="item 
+  {% if page.url contains item.url %}
+  active
+  {% endif %}
+  " data-display="desktop">
+
+  {% if page.lang == "en" %}
+  {{ item.title_en }}
+  {% else %}
+  {{ item.title }}
+  {% endif %}
+
+  </a>
 {% endfor %}
 
 <a href="/en/" class="item
@@ -20,6 +30,7 @@ active
 active
 {% endif %}
 " data-display="desktop">En</a>
+
 <a class="item" data-display="mobile" data-toggle="sidebar">
   <i class="sidebar icon"></i>
 </a>

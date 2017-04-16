@@ -43,7 +43,11 @@
   {% if page.og_description %}
     {% assign og_description = page.og_description %}
   {% else %}
-    {% assign og_description = site.data.people.orgs.ocf.context_description %}
+    {% if page.lang == 'en' %}
+      {% assign og_description = site.data.people.orgs.ocf.context_description_en %}
+    {% else %}
+      {% assign og_description = site.data.people.orgs.ocf.context_description %}
+    {% endif %}
   {% endif %}
 
 {% endif %}

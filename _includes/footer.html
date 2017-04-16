@@ -6,9 +6,14 @@
     <h2 class="ui inverted small center aligned header">
       <img src="{{ site.data.people.orgs.ocf.icon }}" />
       <div class="content">
+        {% if page.lang == "en" %}
+        {{ site.data.people.orgs.ocf.name_en }}
+        {% else %}
         {{ site.data.people.orgs.ocf.name }}
-        <div class="sub header">{{ site.data.people.orgs.ocf.name_en }}
-        </div>
+          <div class="sub header">
+          {{ site.data.people.orgs.ocf.name_en }}
+          </div>
+        {% endif %}
       </div>
     </h2>
 
@@ -18,11 +23,15 @@
 
       <div class="column">
 
-        <p>{{ site.data.people.orgs.ocf.description }}</p>
         <p>
+        {% if page.lang == "en" %}
+        {{ site.data.people.orgs.ocf.description_en }}
+        {% else %}
+        {{ site.data.people.orgs.ocf.description }}
+        {% endif %}
         </p>
         <div class="ui inverted list">
-          <a class="item" href="http://ocf.tw/">
+          <a class="item" href="{{ site.data.people.orgs.ocf.link[0].url }}">
             <i class="globe icon"></i>
             <div class="content">
             {{ site.data.people.orgs.ocf.link[0].url }}
@@ -36,16 +45,27 @@
           </a>
         </div>
 
-
         <div class="ui inverted list">
           <div class="item">
+            {% if page.lang == "en" %}
+            Tax No.: 38552170
+            {% else %}
             統一編號　38552170
+            {% endif %}
           </div>
           <div class="item">
+            {% if page.lang == "en" %}
+            Invoice donation code: 1989
+            {% else %}
             愛心碼　1989
+            {% endif %}
           </div>
           <div class="item">
+            {% if page.lang == "en" %}
+            Fund raising No.: 1051364508 (TODO)
+            {% else %}
             勸募字號　衛部救字第 1051364508 號
+            {% endif %}
           </div>
         </div>
 
@@ -53,19 +73,37 @@
 
       <div class="column">
 
-        <h3 class="ui inverted small header">台北辦公室
+        <h3 class="ui inverted small header">
+        {% if page.lang == "en" %}
+        Taipei Office
+        {% else %}
+        台北辦公室
+        {% endif %}
         </h3>
         <div class="ui list inverted">
           <div class="item">
+          {% if page.lang == "en" %}
+          {{ site.data.people.orgs.ocf.contact.address_en.taipei }}
+          {% else %}
           {{ site.data.people.orgs.ocf.contact.address.taipei }}
+          {% endif %}
           </div>
         </div>
 
-        <h3 class="ui inverted small header">桃園辦公室
+        <h3 class="ui inverted small header">
+        {% if page.lang == "en" %}
+        Taoyuan Office
+        {% else %}
+        桃園辦公室
+        {% endif %}
         </h3>
         <div class="ui list inverted">
           <div class="item">
+          {% if page.lang == "en" %}
+          {{ site.data.people.orgs.ocf.contact.address_en.taoyuan }}
+          {% else %}
           {{ site.data.people.orgs.ocf.contact.address.taoyuan }}
+          {% endif %}
           </div>
           <div class="item">
             <i class="phone icon"></i>
@@ -85,12 +123,24 @@
 
       <div class="column">
 
-        <h3 class="ui small inverted header">訂閱</h3>
+        <h3 class="ui small inverted header">
+        {% if page.lang == "en" %}
+        Subscribe
+        {% else %}
+        訂閱
+        {% endif %}
+        </h3>
         <div class="ui horizontal list inverted">
         {% include subscribe.html %}
         </div>
 
-        <h3 class="ui small inverted header">參與</h3>
+        <h3 class="ui small inverted header">
+        {% if page.lang == "en" %}
+        Join
+        {% else %}
+        參與
+        {% endif %}
+        </h3>
         <div class="ui horizontal inverted list">
         {% include join.html %}
         </div>
@@ -99,18 +149,38 @@
 
       <div class="column">
 
-        <h3 class="ui small inverted header">網站導覽</h3>
+        <h3 class="ui small inverted header">
+        {% if page.lang == "en" %}
+        Sitemap
+        {% else %}
+        網站導覽
+        {% endif %}
+        </h3>
         <div class="ui inverted divided link list">
         {% include menu.html %}
         </div>
 
-        <h3 class="ui small inverted header">本站授權</h3>
+        <h3 class="ui small inverted header">
+        {% if page.lang == "en" %}
+        License for our website
+        {% else %}
+        本站授權
+        {% endif %}
+        </h3>
         <div class="ui inverted divided link list">
-          <a href="/about/#website" class="item">源碼 MIT / 內容 CC</a>
+          <a href="/about/#website" class="item">
+          {% if page.lang == "en" %}
+          Source code: MIT / Content: Creative Commons
+          {% else %}
+          源碼 MIT / 內容 CC
+          {% endif %}
+          </a>
         </div>
 
       </div>
 
     </div>
 
-  </footer>
+  </div>
+
+</footer>
