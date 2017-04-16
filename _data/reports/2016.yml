@@ -75,7 +75,7 @@ items:
           - title: 數場線上講座、長期實體課程教學
         action: 
           title: 看更多成果
-          url: http://ocf.tw/donate/sysprog-incubation.html#/tab-4 
+          url: http://v0.ocf.tw/donate/sysprog-incubation.html#/tab-4 
   - type: header
     title: 組織合作
     anchor: orgnization
@@ -158,7 +158,7 @@ items:
           - title: useR! 2016 California 
         action: 
           title: 看更多成果
-          url: http://ocf.tw/donate/intl.html#/tab-3
+          url: http://v0.ocf.tw/donate/intl.html#/tab-3
   - type: content
     columns:
       - type: slider    
