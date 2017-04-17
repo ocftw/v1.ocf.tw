@@ -21,12 +21,12 @@ layout: global
 <header id="hero" class="ui inverted {{ site.data.reports[ report_id ].color }} center aligned basic very padded segment marginless">
 
   <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
-  <img class="cover image" src="{{ site.data.reports[ report_id ].cover }}" style="opacity: {{ site.data.reports[ report_id ].cover_image_opacity }}" />
+  <img class="cover image" src="{{ site.data.reports[ report_id ].cover }}" style="opacity: {{ site.data.reports[ report_id ].cover_image_opacity }}" alt="Cover image for '{{ site.data.reports[ report_id ].title }}'" />
   <div class="cover" style="opacity: {{ site.data.reports[ report_id ].cover_veil_opacity }}"></div>
   <hr class="ui hidden divider" />
 
   <div class="ui stripe relative container">
-    <img class="ui centered tiny image" src="{{ site.data.people.orgs.ocf.icon }}"/>
+    <img class="ui centered tiny image" src="{{ site.data.people.orgs.ocf.icon }}" alt="Logo image of '{{ site.data.people.orgs.ocf.name }}'"/>
     <h1 class="ui inverted header">
       {{ site.data.reports[ report_id ].title }}
     </h1>
@@ -82,7 +82,7 @@ layout: global
   <!-- 根據資料產生 image 欄內容，同時決定位置是否要左右對調 -->
   {% if column.type == "image" %}
   <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
-    <img class="ui image" src="{{ column.url }}" />
+    <img class="ui image" src="{{ column.url }}" alt="Image for the following section" />
   </div>
 
   <!-- 根據資料產生 image slider 欄內容，同時決定位置是否要左右對調 -->
@@ -106,12 +106,12 @@ layout: global
       <div class="ui fluid image" >
       {% if item.person_id %}
         {% assign person = site.data.people.individuals[item.person_id] %}
-        <img src="{{ person.avatar }}" alt="{{ person.name }} ({{ person.nick }})" />
+        <img src="{{ person.avatar }}" alt="Avatar of '{{ person.name }} ({{ person.nick }})'" />
         <span class="ui tiny bottom attached inverted label">{{ person.name }} ({{ person.nick }})</span>
 
       {% elsif item.org_id %}
         {% assign org = site.data.people.orgs[item.org_id] %}
-        <img src="{{ org.avatar }}" alt="{{ org.name }}" />
+        <img src="{{ org.avatar }}" alt="Avatar of '{{ org.name }}'" />
         <span class="ui tiny bottom attached inverted label">{{ org.name }}</span>
 
       {% else %}
@@ -234,11 +234,11 @@ layout: global
       {% if logo.org_id %}
         {% assign org = site.data.people.orgs[ logo.org_id ] %}
         <a class="item" {% if org.link[0].url %} target="_blank" href="{{ org.link[0].url }}"{% else %} style="cursor: auto;" {% endif %}>
-          <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" style="height: {{ column.logo_height }};"/>
+          <img class="logo" src="{{ org.logo }}" alt="Log of '{{ org.name }}'" style="height: {{ column.logo_height }};"/>
         </a>
       {% else %}
         <a class="item" {% if logo.url %} target="_blank" href="{{ logo.url }}"{% else %} style="cursor: auto;" {% endif %}>
-          <img class="logo" src="{{ logo.src }}" alt="{{ logo.title }}" style="height: {{ column.logo_height }};"/>
+          <img class="logo" src="{{ logo.src }}" alt="Logo of '{{ logo.title }}'" style="height: {{ column.logo_height }};"/>
         </a>
       {% endif %}
 

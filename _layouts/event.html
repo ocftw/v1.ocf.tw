@@ -20,7 +20,7 @@ layout: global
 <nav id="hero" class="ui inverted {{ page.color }} basic segment marginless">
 
   <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
-  <img class="cover image" src="{{ project.cover }}" style="opacity: {{ page.image_opacity }}" />
+  <img class="cover image" src="{{ project.cover }}" style="opacity: {{ page.image_opacity }}" alt="Cover image for '{{ project.name }}'" />
   <div class="cover" style="opacity: {{ page.veil_opacity }}"></div>
 
   <div class="ui container">
@@ -43,15 +43,15 @@ layout: global
 
         <!-- 拿 x 展架海報當配圖，如果有的話 -->
         {% if event.banner %}
-        <img class="ui fluid image" src="{{ event.banner }}">
+        <img class="ui fluid image" src="{{ event.banner }}" alt="Banner image for '{{ event.name }}'" />
 
         <!-- 或者拿 og image 當配圖，如果有的話 -->
         {% elsif event.cover %}
-        <img class="ui fluid image" src="{{ event.cover }}">
+        <img class="ui fluid image" src="{{ event.cover }}" alt="Banner image for '{{ event.name }}'" />
 
         <!-- 或者拿活動 logo 當配圖，如果有的話 -->
         {% elsif event.avatar %}
-        <img class="ui fluid image" src="{{ event.avatar }}">
+        <img class="ui fluid image" src="{{ event.avatar }}" alt="Banner image for '{{ event.name }}'" />
 
         <!-- 以上通通沒有的話就算啦 -->
         {% endif %}

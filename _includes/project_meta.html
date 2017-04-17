@@ -5,22 +5,22 @@
 {% endif %}
 
 {% if page.sidebar_image %}
-<img class="ui fluid image" src="{{ page.sidebar_image }}">
+<img class="ui fluid image" src="{{ page.sidebar_image }}" alt="Visual identity image for '{{ project.name }}'" />
 <h2 class="ui center aligned small header">
 
 {% elsif project.avatar %}
-<img class="ui fluid image" src="{{ project.avatar }}">
+<img class="ui fluid image" src="{{ project.avatar }}" alt="Visual identity image for '{{ project.name }}'" />
 <h2 class="ui center aligned small header">
 
 {% elsif project.organizer_id %}
 {% assign organizer_id = project.organizer_id[0] %}
 
   {% if site.data.people.orgs[organizer_id].avatar %}
-  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].avatar }}">
+  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].avatar }}" alt="Visual identity image for '{{ project.name }}'" />
   {% elsif site.data.people.orgs[organizer_id].logo %}
-  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].logo }}">
+  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].logo }}" alt="Visual identity image for '{{ project.name }}'" />
   {% elsif site.data.people.orgs[organizer_id].cover %}
-  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].cover }}">
+  <img class="ui fluid image" src="{{ site.data.people.orgs[organizer_id].cover }}" alt="Visual identity image for '{{ project.name }}'" />
   {% endif %}
 
 <h2 class="ui center aligned small header">

@@ -29,7 +29,7 @@ layout: global
   {% else %}
   src="{{ project.cover }}"
   {% endif %}
-  style="opacity: {{ page.cover_image_opacity }}" />
+  style="opacity: {{ page.cover_image_opacity }}" alt="Cover image for '{{ project.name }}'" / />
   <div class="cover" style="opacity: {{ page.cover_veil_opacity }}"></div>
   <hr class="ui hidden section divider" />
 
@@ -92,7 +92,7 @@ layout: global
         {% assign org = site.data.people.orgs[org_id] %}
         <a class="item" target="_blank" href="{{ org.link[1].url }}">
           {% if org.logo %}
-          <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+          <img class="logo" src="{{ org.logo }}" alt="Logo of {{ org.name }}" />
           {% else %}
           {{ org.name }}
           {% endif %}

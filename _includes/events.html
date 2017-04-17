@@ -33,11 +33,11 @@
 
     <div class="image">
       {% if item.cover %}
-      <img src="{{ item.cover }}">
+      <img src="{{ item.cover }}" alt="Cover image for '{{ item.name }}'" />
       {% elsif item.avatar %}
-      <img src="{{ item.avatar }}">
+      <img src="{{ item.avatar }}" alt="Cover image for '{{ item.name }}'" />
       {% elsif item.banner %}
-      <img src="{{ item.banner }}">
+      <img src="{{ item.banner }}" alt="Cover image for '{{ item.name }}'" />
       {% endif %}
     </div>
 
