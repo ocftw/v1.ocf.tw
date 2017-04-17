@@ -94,7 +94,7 @@ js: /assets/projects.js
       {% endfor %}
       ">
         <div class="image">
-          <img src="{{ project.cover }}" alt="Cover image for '{{project.name}}'">
+          <img src="https://images.weserv.nl/?url=ocf.tw/{{ project.cover }}&w=500" alt="Cover image for '{{project.name}}'">
         </div>
         <div class="content">
           <h3 class="header">
@@ -197,7 +197,7 @@ js: /assets/projects.js
     {% assign data = year[1] %}
     <div class="item">
       <div class="image">
-        <img src="{{ data.cover }}" alt="Cover image for '{{ data.title }}'">
+        <img src="https://images.weserv.nl/?url=ocf.tw/{{ data.cover }}&w=300" alt="Cover image for '{{ data.title }}'">
       </div>
       <div class="content">
         <a href="/p/{{ year[0] }}" class="header">{{ data.title }}</a>
