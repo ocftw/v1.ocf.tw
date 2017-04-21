@@ -64,7 +64,7 @@ css: /assets/people.css
 
         {% if person.avatar %}
         <div class="avatar image">
-          <img src="{{ person.avatar }}" alt="Avatar image for '{{ person.name }}'" />
+          <img src="{{ person.avatar }}" alt="" />
         </div>
         {% endif %}
 
@@ -121,7 +121,7 @@ css: /assets/people.css
       {% for org_id in site.data.people.relations[item.id] %}
       {% assign org = site.data.people.orgs[org_id] %}
       <a class="item" target="_blank" href="{{ org.link[0].url }}">
-        <img class="logo" src="{{ org.logo }}" alt="Logo of '{{ org.name }}'" />
+        <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
       </a>
       {% endfor %}
     </div>
