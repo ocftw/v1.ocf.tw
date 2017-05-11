@@ -52,8 +52,3 @@
   height: 30rem;
   border: none;
 }
-
-#project .ui.grid>.column:not(.row) {
-  display: flex;
-  flex-direction: column;
-}
