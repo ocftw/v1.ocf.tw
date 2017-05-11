@@ -4,6 +4,29 @@
 {% assign project_year = page.year %}
 {% endif %}
 
+{% if project_year == site.data.settings.current %}
+{% if page.action %}
+<div class="ui horizontal divider">
+  <i class="heart icon"></i>
+  加入我們
+</div>
+
+  {% for action in page.action %}
+    {% if action.url %}
+<p>
+  <a class="ui {{ action.color }} fluid button" href="{{ action.url }}" target="_blank">
+    <i class="{{action.icon}} icon"></i>
+    {{ action.title }}
+  </a>
+</p>
+    {% else %}
+<p>{{ action.title }}</p>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+
+
 {% if page.sidebar_image %}
 <img class="ui fluid image" src="{{ page.sidebar_image }}" alt="Visual identity image for '{{ project.name }}'" />
 <h2 class="ui center aligned small header">
@@ -200,26 +223,7 @@
 
 {% endif %}
 
-{% if project_year == site.data.settings.current %}
-{% if page.action %}
-<div class="ui horizontal divider">
-  <i class="heart icon"></i>
-  加入我們
-</div>
 
-  {% for action in page.action %}
-    {% if action.url %}
-<p>
-  <a class="ui {{ action.color }} fluid button" href="{{ action.url }}" target="_blank">
-    <i class="{{action.icon}} icon"></i>
-    {{ action.title }}
-  </a>
-</p>
-    {% else %}
-<p>{{ action.title }}</p>
-    {% endif %}
-  {% endfor %}
-{% endif %}
 {% elsif site.data.projects[current][project_id] %}
 <div class="ui divider">
 </div>
