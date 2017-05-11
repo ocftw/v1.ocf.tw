@@ -59,6 +59,16 @@ layout: global
 <div class="ui container">
   <div class="ui hidden divider"></div>
   <div class="ui two column stackable grid">
+
+    <div class="six wide column" style="order: 3;">
+      <aside id="meta" class="ui sticky secondary basic segment">
+
+      <!-- 從專案資料產生小檔案以及 call to action 區塊 -->
+      {% include project_meta.html %}
+
+      </aside>
+    </div>
+    
     <div class="ten wide column">
 
       {{ content }}
@@ -114,15 +124,6 @@ layout: global
       </div>
       {% endif %}
 
-    </div>
-
-    <div class="six wide column" style="order: 3;">
-      <aside id="meta" class="ui sticky secondary basic segment">
-
-      <!-- 從專案資料產生小檔案以及 call to action 區塊 -->
-      {% include project_meta.html %}
-
-      </aside>
     </div>
 
   </div>
