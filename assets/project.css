@@ -52,3 +52,13 @@
   height: 30rem;
   border: none;
 }
+
+#project .flex-swap {
+  order: 3;
+}
+
+@media only screen and (max-width: 767px) {
+#project .flex-swap {
+  order: 0;
+}
+}
