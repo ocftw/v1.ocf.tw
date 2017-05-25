@@ -1,0 +1,13 @@
+0318:
+  title: SITCON 2017
+  subtitle:
+    - Internet For Next Generation 新世代的網路挑戰
+  description: SITCON2017將以「新世代的網路挑戰」為年會焦點，揭開網際網路便利的面紗，深入探討網路世代在網路治理、內容過濾、識別追蹤、媒體中立性等不同面向上將面臨的困境與挑戰，並共同探求資訊技術的平衡發展。
+  month: 2
+  start: 2/27
+  link:
+    - title: 活動頁
+      url: sitcon.org/2017/
+  cover: /p/2017/sitcon/og.jpg
+  project_id:
+    - sitcon
