@@ -402,4 +402,17 @@ elc:
   cover: /p/2015/intl/ignite/cover.jpg
   project_id:
     - intl
+0307:
+  title: SITCON 2015
+  subtitle:
+    - 學生計算機年會 2015
+  description: SITCON 學生計算機年會，由對資訊抱持熱誠的學生們所組成的同名社群自發籌辦，希望能透過技術與知識的激盪，給予學生們一個用自身力量實踐夢想的舞台。本屆年會之主軸聚焦於真正的駭客精神，The True Hackers 。希望讓大家瞭解駭客精神的中心思想，以及駭客精神在各個領域的展現。
+  month: 3
+  start: 3/7
+  link:
+    - title: 活動頁
+      url: sitcon.org/2015/
+  cover: /p/2015/sitcon/og.png
+  project_id:
+    - sitcon
 
