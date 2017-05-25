@@ -1,15 +1,14 @@
 name: SITCON 學生計算機年會
 name_en: Students’ Information Technology Conference 2017
-abbr: SITCON 2017
-tagline: 新世代的網路挑戰
+abbr: SITCON 
+tagline: 
 cover: /p/2017/sitcon/og.jpg
-description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
-month: 3
-start: 3/18
-end: 
+description: 2012 年中，一群學生在社群浪潮中為相同的理想聚集，秉持「以學生為本、由學生自發舉辦」的核心理念，SITCON 學生計算機年會及同名社群自 2013 年起，陸續舉行年會、定期聚、黑客松、工作坊、夏令營與多場演講，於技術交流之餘，亦在推廣資訊及開源教育上不遺餘力，希望透過技術與知識的激盪，給予學生們一個用自身力量實踐夢想的舞台。
 link:
-  - title: 官方網站
+  - title: 年會官網
     url: http://sitcon.org/2017
+  - title: 夏令營
+    url: http://sitcon.camp/2017/  
 tag:
   - 大型研討會
   - 定期活動
@@ -23,7 +22,6 @@ advisor_id:
 organizer_id:
   - sitcon
   - ocf
-  - asiii
 co-organizer_id:
 implementer_id:
 board_id:
