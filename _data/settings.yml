@@ -22,5 +22,8 @@ menu:
     title_en: Projects
     url: /p/
   - title: 媒體專區
+  - title: 活動
+    title_en: Journal
+    url: /journal/
     title_en: Mediakit
     url: /mediakit/

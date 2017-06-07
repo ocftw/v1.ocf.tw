@@ -1,0 +1,200 @@
+  <div class="item">
+
+    <div class="image">
+      {% if item.cover %}
+      <img src="{{ item.cover }}" alt="" />
+      {% elsif item.avatar %}
+      <img src="{{ item.avatar }}" alt="" />
+      {% elsif item.banner %}
+      <img src="{{ item.banner }}" alt="" />
+      {% endif %}
+    </div>
+
+    <div class="content">
+
+      {% if item.name %}
+      <h3 class="ui header">{{ item.name }}
+      {% elsif item.title %}
+      <h3 class="ui header">{{ item.title }}
+      {% endif %}
+
+        {% if item.tagline %}
+        <span class="sub header">{{ item.tagline }}</span>
+        {% elsif item.subtitle %}
+        {% for subtitle in item.subtitle %}
+        <span class="sub header">{{ subtitle }}</span>
+        {% endfor %}
+        {% endif %}
+
+      </h3>
+
+      {% if item.label %}
+      <div class="meta">
+        <div class="ui horizontal labels">
+
+          {% for label in item.label %}
+          <span class="ui label {{ label.color }}">{{ label.title }}</span>
+          {% endfor %}
+
+        </div>
+      </div>
+      {% endif %}
+
+      {% if item.start %}
+      <div class="meta">
+        {{ year }}/{{ item.start }}
+        {% if item.end and item.start != item.end %}
+        ~ {{ item.end }}
+        {% endif %}
+      </div>
+      {% endif %}
+
+      {% if item.host_id %}
+      <div class="meta">
+        {% for host_id in item.host_id %}
+        {% assign person = site.data.people.individuals[host_id] %}
+        {{ person.name }} ({{ person.nick }})
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+        {% endfor %}
+      主持
+      </div>
+      {% endif %}
+
+      {% if item.speaker_id %}
+      <div class="meta">
+        {% for speaker_id in item.speaker_id %}
+        {% assign person = site.data.people.individuals[speaker_id] %}
+        {{ person.name }} ({{ person.nick }})
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+        {% endfor %}
+      主講
+      </div>
+      {% endif %}
+
+      {% if item.coordinator_id %}
+      <div class="meta">
+        {% for coordinator_id in item.coordinator_id %}
+        {% assign person = site.data.people.individuals[coordinator_id] %}
+        {{ person.name }} ({{ person.nick }})
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+        {% endfor %}
+      召集
+      </div>
+      {% endif %}
+
+      {% if item.contributor_id %}
+      <div class="meta">
+        {% for contributor_id in item.contributor_id %}
+        {% assign person = site.data.people.individuals[contributor_id] %}
+        {{ person.name }} ({{ person.nick }})
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+        {% endfor %}
+      共同參與
+      </div>
+      {% endif %}
+
+      {% if item.advisor_id %}
+      <div class="meta">
+        {% for advisor_id in item.advisor_id %}
+        {% assign advisor = site.data.people.orgs[advisor_id] %}
+        {{ advisor.name }} 
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+        {% endfor %}
+      指導
+      </div>
+      {% endif %}
+
+      {% if item.organizer_id %}
+      <div class="meta">
+        {% for organizer_id in item.organizer_id %}
+        {% assign organizer = site.data.people.orgs[organizer_id] %}
+        {{ organizer.name }} 
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+        {% endfor %}
+      主辦
+      </div>
+      {% endif %}
+
+      {% if item.co-organizer_id %}
+      <div class="meta">
+        {% for co-organizer_id in item.co-organizer_id %}
+        {% assign organizer = site.data.people.orgs[co-organizer_id] %}
+        {{ organizer.name }}
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+       {% endfor %}
+      協辦
+      </div>
+      {% endif %}
+
+      {% if item.implementer_id %}
+      <div class="meta">
+        {% for implementer_id in item.implementer_id %}
+        {% assign organizer = site.data.people.orgs[implementer_id] %}
+        {{ organizer.name }}
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+        {% endfor %}
+      承辦
+      </div>
+      {% endif %}
+
+      {% if item.sponsor_id %}
+      <div class="meta">
+        {% for sponsor_id in item.sponsor_id %}
+        {% assign organizer = site.data.people.orgs[sponsor_id] %}
+        {{ organizer.name }}
+        {% if forloop.rindex > 1 %}
+        ,
+        {% endif %}
+       {% endfor %}
+      贊助
+      </div>
+      {% endif %}
+
+      {% if type == "event" %}
+      {% for meta in item.meta %}
+      <div class="meta">
+        {{ meta }}
+      </div>
+      {% endfor %}
+      {% endif %}
+
+      {% if item.description %}
+      <div class="description">
+        <p>{{ item.description }}</p>
+      </div>
+      {% endif %}
+
+      <div class="extra">
+        {% for link in item.link %}
+        <a href="{{ link.url }}" 
+          {% if link.target %}
+          target="{{ link.target }}"
+          {% else %}
+          target="_blank"
+          {% endif %}
+          ">
+          <i class="globe icon"></i>
+          {{ link.title }}
+        </a>
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+

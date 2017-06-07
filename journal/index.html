@@ -1,0 +1,91 @@
+---
+layout: global
+og_title: 活動日誌
+og_description: 推廣開放文化需要不斷地、不斷地、不斷地採取行動！基金會歷年來做過哪些嘗試？請看我們的活動日誌 ^_<
+---
+
+<!-- 替 level 1 頁面套上導覽列 -->
+{% include navbar_regular_pages.html %}
+
+<main id="log">
+
+<div class="ui center aligned stripe container">
+  <h1 class="ui icon header">
+    <i class="circular heartbeat icon"></i>
+    {{ page.og_title }}
+  </h1>
+  <p>推廣開放文化需要不斷地、不斷地、不斷地採取行動！（握拳）</p>
+
+  <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
+    <div class="ui dropdown item">
+      <span data-content="current">跳至...</span>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+
+      {% for file in site.data.events reversed %}
+      {% if file[0] contains '20' %}
+        {% assign year = file[0] %}
+        <a href="#{{ year }}" class="item">{{ year }}</a>
+      {% endif %}
+      {% endfor %}
+
+      </div>
+    </div>
+  </nav>
+
+</div>
+
+<hr class="ui hidden divider" />
+
+<div class="ui stripe container">
+  <div class="ui two column stackable grid">
+
+    <div id="toc" data-context="desktop" class="six wide column">
+      <nav class="ui secondary sticky vertical pointing fluid menu">
+
+      {% for file in site.data.events reversed %}
+      {% if file[0] contains '20' %}
+        {% assign year = file[0] %}
+        <a href="#{{ year }}" class="item">{{ year }}</a>
+      {% endif %}
+      {% endfor %}
+
+      </nav>
+    </div>
+
+    <div class="ten wide column">
+
+      {% for file in site.data.events reversed %}
+      {% if file[0] contains '20' %}
+        {% assign year = file[0] %}
+
+        <h2 id="{{ year }}" class="ui dividing header">{{ year }} 年</h2>
+
+        <div class="ui divided items">
+
+        {% assign events = file[1] %}
+        {% if events %}
+        {% for event in events %}
+
+          {% assign item = event[1] %}
+          {% include events_item.html %}
+
+        {% endfor %}
+        {% endif %}
+
+        </div>
+      {% endif %}
+      {% endfor %}
+
+    </div>
+
+  </div>
+</div>
+
+<section id="ads" class="ui vertical segment">
+  <div class="ui stripe container">
+    {% include banner_cta.html %}
+  </div>
+</section>
+
+</main>
