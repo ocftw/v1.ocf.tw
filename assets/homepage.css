@@ -13,11 +13,12 @@
 }
 
 #homepage #header .ui.menu .logo.item {
-  margin: -0.85714286em -1.14285714em;
+  padding: .85714286em 1.14285714em;
 }
 
 #homepage #header .ui.menu .logo.image {
   height: 2.5rem;
+  margin: -1.5rem 1em -1.5rem -1rem;
 }
 
 #homepage .sentence {

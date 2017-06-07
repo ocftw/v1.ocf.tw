@@ -15,15 +15,15 @@ menu:
   - title: 關於
     title_en: About
     url: /about/
-  - title: 工作夥伴
+  - title: 夥伴
     title_en: People
     url: /people/
   - title: 專案與成果
     title_en: Projects
     url: /p/
-  - title: 媒體專區
   - title: 活動
     title_en: Journal
     url: /journal/
+  - title: 媒體區
     title_en: Mediakit
     url: /mediakit/
