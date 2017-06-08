@@ -93,9 +93,13 @@ js: /assets/projects.js
       {{ id }}
       {% endfor %}
       ">
-        <div class="image">
+        <a href="{{ project.link[0].url }}" class="image"
+            {% if project.link[0].target != '_self' %}
+            target="_blank"
+            {% endif %}
+        >
           <img src="https://images.weserv.nl/?url=ocf.tw/{{ project.cover }}&w=500" alt="">
-        </div>
+        </a>
         <div class="content">
           <h3 class="header">
             <a href="{{ project.link[0].url }}"
