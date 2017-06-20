@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+<script>
+var activities = [];
+function createLink(str){
+  var link = str;
+  if (link.match(/\|/)) {
+    link = link.split('|');
+  }
+  else {
+    link = [link, ""];
+  }
+  return link;
+}
+function parseData(data){
+  var entries = data.feed.entry;
+  for (var e in entries) {
+    if (e.match(/\d/)) {
+      console.log(entries[e]);
+      var $img = jQuery('<img>');
+      var $subject = jQuery('<div>');
+      var $desc = jQuery('<div>');
+      var $link1 = jQuery('<a>');
+      var $link2 = jQuery('<a>');
+      var $link3 = jQuery('<a>');
+      var $item = jQuery('<div>');
+      
+      if (typeof entries[e].gsx$photo.$t !== 'undefined') {
+        $img.addClass('photo').attr('src', entries[e].gsx$photo.$t);
+        $item.append($img);
+      }
+      if (typeof entries[e].gsx$subject.$t !== 'undefined') {
+        $subject.addClass('subject').html(entries[e].gsx$subject.$t);
+        $item.append($subject);
+      }
+      if (typeof entries[e].gsx$description.$t !== 'undefined') {
+        $desc.addClass('desc').html(entries[e].gsx$description.$t);
+        $item.append($desc);
+      }
+      if (typeof entries[e].gsx$link1.$t !== 'undefined') {
+        var l = createLink(entries[e].gsx$link1.$t);
+        $link1.addClass('link').attr('href', l[0]).html(l[1]);
+        $item.append($link1);
+      }
+      activities.push($item);
+    }
+  }
+}
+jQuery(document).ready(function($){
+  for(var a in activities) {
+    activities[a].appendTo("#event");
+  }
+});
+</script>
+<script src="https://spreadsheets.google.com/feeds/list/15HVF9T5TgmrrSctKFnxIghvypAewYg5znHRsgoNZMqU/od6/public/values?alt=json-in-script&callback=parseData"></script>
+<div id="event">
+
+</div>
+
+</body>
+</html>
