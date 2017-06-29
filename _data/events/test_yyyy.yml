@@ -1,0 +1,140 @@
+# 這個檔案是屬於某個年度的活動列表的資料檔範例
+
+event_id:
+# 活動的 id，英數小寫
+
+  title: text
+  # 活動的中文正式名稱，會顯示在專案頁的「計畫成果」列表、活動頁
+
+  # ------ 以上必填，以下選填 ------
+
+  title_en:
+  # 活動的英文標題，若有，會顯示在專案頁的「計畫成果」列表、活動頁
+    - text
+
+  label:
+  # 活動的分類標籤，若有，會顯示在專案頁的「計畫成果」列表
+    - title: text
+      # 標籤內的文字
+      color: text
+      # 標籤的顏色，若留空，會使用預設的灰色
+      # 可使用 semantic ui 的 label 顏色，參考： http://semantic-ui.com/elements/label.html#colored
+
+  # 以下 metadata 會以較淡的灰字出現在專案頁的「計畫成果」列表內的活動標題下方
+  start: m/dd
+  # 活動開始日期
+  end: m/dd
+  # 專案結束日期，若留空，視為跟 start 相同
+  organizer_id:
+  # 主辦單位 id
+    - id
+  advisor_id:
+  # 指導單位 id
+    - id
+  co-organizer_id:
+  # 協辦單位 id
+    - id
+  implementer_id:
+  # 承辦單位 id
+    - id
+  sponsor_id:
+  # 贊助單位 id
+    - id
+  coordinator_id:
+  # 召集人 id
+    - id
+  host_id:
+  # 主持人 id
+    - id
+  speaker_id:
+  # 講者 id
+    - id
+  contributor_id:
+  # 參與者 id
+    - id
+  meta:
+  # 活動的其他 metadata
+    - text
+
+  description: text
+  # 活動摘要簡介，若有，會顯示在專案頁的「計畫成果」列表、活動頁
+
+  cover: url
+  # 活動的封面圖片，若有，會顯示在專案頁的「計畫成果」列表、活動頁
+  # 選用長寬比接近 facebook og image 的圖片（1200 x 630）
+
+  banner: url
+  # 活動的海報圖片，若有，會顯示在活動頁，或當作備用圖片，必要時顯示在專案頁
+  # 選用長寬比接近 x 展架的圖片（直式長條形）
+
+  avatar: url
+  # 活動的縮圖，若有，會當作備用圖片，必要時顯示在專案頁的「計畫成果」列表、活動頁
+  # 選用長寬比接近正方形的圖片
+
+  link:
+  # 活動相關網址，出現在專案頁的「計畫成果」列表
+    - title: text
+      # 連結要顯示什麼名稱
+      url: url
+      # 連結要指向哪裡
+      target: _self
+      # 連結要怎麼打開，可省略
+      # 若沒標註 target: _self 則會以 _blank 打開
+
+  # ------ 以下目前沒用到的 ------
+
+  month: m
+  # 專案所屬月份，若有，將來預計會出現在年度成果報告頁
+
+  donors:
+  # 捐助人名單，目前沒有使用此欄位，僅供編輯備註
+    - text
+
+  project_id:
+  # 所屬專案，目前沒有使用此欄位，僅供編輯備註
+    - id
+
+# ------ 以下無註解快速複製版 ------
+
+event_id: 
+  title: 
+  subtitle:
+    - 
+  label:
+    - title: 
+      color: 
+  start: /
+  end: /
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  contributor_id:
+    - 
+  meta:
+    - 
+  description: 
+  cover: 
+  banner: 
+  avatar: 
+  link:
+    - title: 
+      url: 
+      target: _self
+  month: 
+  donors:
+    - 
+  project_id:
+    - 
