@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.3/jquery.csv.min.js"></script>
+  </head>
+  <body>
+    <textarea id="txt" style="height: 100%; width: 100%"></textarea>
+    <script>
+      var output = '';
+      var yaml_format = "{{event_id}}:\n" +
+      "  title: {{title}}\n" +
+      "  subtitle:\n" +
+      "    - {{subtitle}}\n" +
+      "  description: {{description}}\n" +
+      "  month: {{month}}\n" +
+      "  start: {{start}}\n" +
+      "  link:\n" +
+      "    - title: {{lable 1}}\n" +
+      "    - url: {{link1}}\n" +
+      "  cover: {{cover}}\n" +
+      "  project_id:\n" +
+      "    - {{project_id}}\n"
+      $.get('https://docs.google.com/spreadsheets/d/16Mcpc27JhNMgjrtkF4nZUEV4PtM6RV76UodQTWmNaTM/pub?gid=0&single=true&output=csv', '',
+        function(text){
+          $.csv.toObjects(text).forEach(function(obj){
+
+            var temp = yaml_format;
+            console.log(obj)
+            for(value in obj){
+              temp = temp.replace('{{' + value + '}}', obj[value])
+              //console.log(value + ": " + obj[value])
+            };
+            output += temp;
+          });
+          console.log(output);
+          $("#txt").val(output);
+        })
+    </script>
+  </body>
+</html>
