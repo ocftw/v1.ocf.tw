@@ -9,17 +9,30 @@
       var output = '';
       var yaml_format = "{{event_id}}:\n" +
       "  title: {{title}}\n" +
-      "  subtitle:\n" +
-      "    - {{subtitle}}\n" +
       "  description: {{description}}\n" +
       "  month: {{month}}\n" +
       "  start: {{start}}\n" +
+      "  end: {{end}}\n" +
       "  link:\n" +
-      "    - title: {{lable 1}}\n" +
+      "    - title: {{link_tl1}}\n" +
       "    - url: {{link1}}\n" +
       "  cover: {{cover}}\n" +
+      "  contributor_id: {{contributor_id}}\n" +
       "  project_id:\n" +
-      "    - {{project_id}}\n"
+      "    - {{project_id}}\n" +
+      "  label:\n" +
+      "    - {{label}}\n" +
+      "  organizer_id: {{organizer_id}}\n" +
+      "  advisor_id: {{advisor_id}}\n" +
+      "  co-organizer_id: {{co-organizer_id}}\n" +
+      "  implementer_id: {{implementer_id}}\n" +
+      "  sponsor_id: {{sponsor_id}}\n" +
+      "  coordinator_id: {{coordinator_id}}\n" +
+      "  host_id: {{host_id}}\n" +
+      "  speaker_id: {{speaker_id}}\n" +
+      "  banner: {{banner}}\n" +
+      "  avatar: {{avatar}}\n" +
+
       $.get('https://docs.google.com/spreadsheets/d/16Mcpc27JhNMgjrtkF4nZUEV4PtM6RV76UodQTWmNaTM/pub?gid=0&single=true&output=csv', '',
         function(text){
           $.csv.toObjects(text).forEach(function(obj){
