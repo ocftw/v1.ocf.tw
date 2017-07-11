@@ -31,8 +31,8 @@
       "  host_id: {{host_id}}\n" +
       "  speaker_id: {{speaker_id}}\n" +
       "  banner: {{banner}}\n" +
-      "  avatar: {{avatar}}\n" +
-
+      "  avatar: {{avatar}}\n"
+      
       $.get('https://docs.google.com/spreadsheets/d/16Mcpc27JhNMgjrtkF4nZUEV4PtM6RV76UodQTWmNaTM/pub?gid=0&single=true&output=csv', '',
         function(text){
           $.csv.toObjects(text).forEach(function(obj){
