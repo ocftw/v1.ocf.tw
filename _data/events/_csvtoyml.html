@@ -7,6 +7,7 @@
     <textarea id="txt" style="height: 100%; width: 100%"></textarea>
     <script>
       var output = '';
+      //var project_id_list = project_id.split(';').join('\n  - ')
       var yaml_format = "{{event_id}}:\n" +
       "  title: {{title}}\n" +
       "  description: {{description}}\n" +
@@ -17,19 +18,28 @@
       "    - title: {{link_tl1}}\n" +
       "    - url: {{link1}}\n" +
       "  cover: {{cover}}\n" +
-      "  contributor_id: {{contributor_id}}\n" +
+      "  contributor_id:\n" +
+      "    - {{contributor_id}}\n" +
       "  project_id:\n" +
       "    - {{project_id}}\n" +
       "  label:\n" +
       "    - {{label}}\n" +
-      "  organizer_id: {{organizer_id}}\n" +
-      "  advisor_id: {{advisor_id}}\n" +
-      "  co-organizer_id: {{co-organizer_id}}\n" +
-      "  implementer_id: {{implementer_id}}\n" +
-      "  sponsor_id: {{sponsor_id}}\n" +
-      "  coordinator_id: {{coordinator_id}}\n" +
-      "  host_id: {{host_id}}\n" +
-      "  speaker_id: {{speaker_id}}\n" +
+      "  organizer_id:\n"+
+      "    - {{organizer_id}}\n" +
+      "  advisor_id:\n"+
+      "    - {{advisor_id}}\n" +
+      "  co-organizer_id:\n"+
+      "    - {{co-organizer_id}}\n" +
+      "  implementer_id:\n"+
+      "    - {{implementer_id}}\n" +
+      "  sponsor_id:\n"+
+      "    - {{sponsor_id}}\n" +
+      "  coordinator_id:\n"+
+      "    - {{coordinator_id}}\n" +
+      "  host_id:\n"+
+      "    - {{host_id}}\n" +
+      "  speaker_id:\n"+
+      "    - {{speaker_id}}\n" +
       "  banner: {{banner}}\n" +
       "  avatar: {{avatar}}\n"
       
