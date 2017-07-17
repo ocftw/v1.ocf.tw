@@ -38,9 +38,28 @@
           $.csv.toObjects(text).forEach(function(obj){
 
             var temp = yaml_format;
-            console.log(obj)
+            var list = [
+            "advisor_id",
+            "co-organizer_id",
+            "contributor_id",
+            "coordinator_id",
+            "host_id",
+            "implementer_id",
+            "label",
+            "organizer_id",
+            "project_id",
+            "speaker_id",
+            "sponsor_id"
+            ];
+            //console.log(obj)
             for(value in obj){
-              temp = temp.replace('{{' + value + '}}', obj[value])
+              var parsedValue;
+              if (list.includes(value)) {
+                parsedValue = obj[value].split(";").map((item) => item.trim()).join("\n    - ");
+              } else {
+                parsedValue = obj[value];
+              }
+              temp = temp.replace('{{' + value + '}}', parsedValue)
               //console.log(value + ": " + obj[value])
             };
             output += temp;
