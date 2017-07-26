@@ -6,7 +6,7 @@
   end: 
   link:
     - title: 活動網站
-    - url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=5
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=5
   cover: 
   contributor_id:
     - ttcat
@@ -20,23 +20,14 @@
   project_id:
     - admin
   label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0121g0vjothon:
@@ -46,31 +37,20 @@
   start: 1/21
   end: 
   link:
-    - title: 
-    - url: 
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0201ocf:
@@ -81,7 +61,7 @@
   end: 
   link:
     - title: 成果報告
-    - url: http://ocf.tw/p/2016/
+      url: http://ocf.tw/p/2016/
   cover: 
   contributor_id:
     - ttcat
@@ -95,24 +75,15 @@
     - jason
   project_id:
     - admin
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0216g0vjothon:
@@ -122,31 +93,20 @@
   start: 2/16
   end: 
   link:
-    - title: 
-    - url: 
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0304g0vjothon:
@@ -156,31 +116,20 @@
   start: 3/4
   end: 
   link:
-    - title: 
-    - url: 
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0318sitcon:
@@ -191,30 +140,21 @@
   end: 
   link:
     - title: 活動網站
-    - url: http://sitcon.org/2017/
+      url: http://sitcon.org/2017/
   cover: 
   contributor_id:
     - singing
   project_id:
     - sitcon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0318g0vgrant:
@@ -225,30 +165,21 @@
   end: 
   link:
     - title: 活動網站
-    - url: https://grants.g0v.tw/
+      url: https://grants.g0v.tw/
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0324intl:
@@ -258,8 +189,6 @@
   start: 3/24
   end: 
   link:
-    - title: 
-    - url: 
   cover: 
   contributor_id:
     - ttcat
@@ -275,61 +204,42 @@
     - jason
   project_id:
     - intl
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0329intl:
   title: 參加Rightscon 
-  description: RightsCon 是全球最大的數位權利研討會，本次台灣代表團由維基媒體協會、開放文化基金會、台灣人權促進會組成。
-開放文化基金會在 RightsCon 當中關注東亞地區的數位權利狀況，並跟緊歐美最新的討論趨勢。
-也與眾多關注數位權利的國際組織有所交流
+  description: RightsCon 是全球最大的數位權利研討會，本次台灣代表團由維基媒體協會、開放文化基金會、台灣人權促進會組成。開放文化基金會在 RightsCon 當中關注東亞地區的數位權利狀況，並跟緊歐美最新的討論趨勢。也與眾多關注數位權利的國際組織有所交流
   month: 3
   start: 3/29
   end: 3/31
   link:
     - title: 活動網站
-    - url: https://www.rightscon.org/
+      url: https://www.rightscon.org/
   cover: /p/2017/intl/2017.3 RightsCon.jpg
   contributor_id:
     - ttcat
     - pellaeon
   project_id:
     - intl
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
   co-organizer_id:
     - AccessNow
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0416g0vnews:
@@ -340,7 +250,7 @@
   end: 
   link:
     - title: 活動網站
-    - url: http://www.accupass.com/go/hhtpeXg0vnews
+      url: http://www.accupass.com/go/hhtpeXg0vnews
   cover: 
   contributor_id:
     - miniwu
@@ -348,24 +258,15 @@
     - mglee
   project_id:
     - intl
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0420g0vjothon:
@@ -375,31 +276,20 @@
   start: 4/20
   end: 
   link:
-    - title: 
-    - url: 
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0425intl:
@@ -410,7 +300,7 @@
   end: 4/26
   link:
     - title: 活動網站
-    - url: http://tictec.mysociety.org/
+      url: http://tictec.mysociety.org/
   cover: /p/2017/intl/2017.04 TICTeC-r.jpg
   contributor_id:
     - afi
@@ -421,24 +311,16 @@
     - aaron
   project_id:
     - intl
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
   co-organizer_id:
     - mySociety
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0428intl:
@@ -449,7 +331,7 @@
   end: 4/29
   link:
     - title: 活動網站
-    - url: https://datensummit.de/
+      url: https://datensummit.de/
   cover: 
   contributor_id:
     - afi
@@ -458,24 +340,16 @@
     - jason
   project_id:
     - intl
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
   co-organizer_id:
     - Open Knowledge Germany
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0428cctw:
@@ -486,31 +360,22 @@
   end: 4/30
   link:
     - title: 活動網站
-    - url: https://summit.creativecommons.org/
+      url: https://summit.creativecommons.org/
   cover: 
   contributor_id:
     - rock
     - lucien
   project_id:
     - cctw
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0506g0vjothon:
@@ -520,31 +385,20 @@
   start: 5/6
   end: 
   link:
-    - title: 
-    - url: 
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0521pycon:
@@ -555,30 +409,21 @@
   end: 
   link:
     - title: 活動網站
-    - url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-ai-game
+      url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-ai-game
   cover: 
   contributor_id:
     - rock
   project_id:
     - pycon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0523cscs:
@@ -589,7 +434,7 @@
   end: 5/25
   link:
     - title: 活動紀錄
-    - url: http://beta.hackfoldr.org/cscs/
+      url: http://beta.hackfoldr.org/cscs/
   cover: /p/2017/intl/2017 CSCS-r.jpg
   contributor_id:
     - pellaeon
@@ -597,24 +442,16 @@
     - lulukeng
   project_id:
     - intl
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
   co-organizer_id:
     - 民主基金會/華人民主書院/台權會/HITCON
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0525cctw:
@@ -624,65 +461,45 @@
   start: 5/25
   end: 
   link:
-    - title: 
-    - url: 
   cover: 
   contributor_id:
     - lucien
   project_id:
     - cctw
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0528pycon:
-  title: PyCon Taiwan 2017 Tutorial - 實做數學: NumPy 入門
+  title: PyCon Taiwan 2017 Tutorial - 實做數學：NumPy 入門
   description: 
   month: 5
   start: 5/28
   end: 
   link:
     - title: 活動網站
-    - url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-numpy
+      url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-numpy
   cover: 
   contributor_id:
     - rock
   project_id:
     - pycon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0602intl:
@@ -693,65 +510,48 @@
   end: 
   link:
     - title: 臉書活動頁
-    - url: https://www.facebook.com/events/789416757892564
+      url: https://www.facebook.com/events/789416757892564
   cover: 
   contributor_id:
     - pellaeon
     - ttcat
   project_id:
     - intl
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
   co-organizer_id:
     - WikiMedia Taiwan, Moztw
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0603pycon:
-  title: PyCon Taiwan 2017 Tutorial - 實做數學: Tensorflow 及 Keras 實做神經網路
+  title: PyCon Taiwan 2017 Tutorial - 實做數學：Tensorflow 及 Keras 實做神經網路
   description: 
   month: 6
   start: 6/3
   end: 
   link:
     - title: 活動網站
-    - url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-tensorflow-and-keras
+      url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-tensorflow-and-keras
   cover: 
   contributor_id:
     - rock
   project_id:
     - pycon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0606intl:
@@ -761,32 +561,21 @@
   start: 6/6
   end: 
   link:
-    - title: 
-    - url: 
   cover: 
   contributor_id:
     - ttcat
     - aaron
   project_id:
     - intl
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0608intl:
@@ -796,32 +585,22 @@
   start: 6/8
   end: 6/9
   link:
-    - title: 
-    - url: 
   cover: 
   contributor_id:
     - ttcat
     - aaron
   project_id:
     - intl
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
   co-organizer_id:
     - Civic Hall
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0609pycon:
@@ -832,30 +611,22 @@
   end: 6/11
   link:
     - title: 活動網站
-    - url: https://tw.pycon.org/2017/zh-hant/
+      url: https://tw.pycon.org/2017/zh-hant/
   cover: 
   contributor_id:
     - rock
   project_id:
     - pycon
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
   co-organizer_id:
     - asiii
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
 0708cc:
@@ -865,31 +636,20 @@
   start: 7/8
   end: 
   link:
-    - title: 
-    - url: 
   cover: 
   contributor_id:
     - singing
     - lucien
   project_id:
     - cctw
-  label:
-    - 
-  organizer_id:
-    - 
-  advisor_id:
-    - 
-  co-organizer_id:
-    - 
-  implementer_id:
-    - 
-  sponsor_id:
-    - 
-  coordinator_id:
-    - 
-  host_id:
-    - 
-  speaker_id:
-    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
   banner: 
   avatar: 
