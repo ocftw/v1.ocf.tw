@@ -1,13 +1,895 @@
-0318:
-  title: SITCON 2017
-  subtitle:
-    - Internet For Next Generation 新世代的網路挑戰
-  description: SITCON2017將以「新世代的網路挑戰」為年會焦點，揭開網際網路便利的面紗，深入探討網路世代在網路治理、內容過濾、識別追蹤、媒體中立性等不同面向上將面臨的困境與挑戰，並共同探求資訊技術的平衡發展。
-  month: 2
-  start: 2/27
+0114ocf:
+  title: 開源春酒聚
+  description: 開放文化基金會邀請所有捐款人、以及對開源文化有貢獻和興趣的您一起來聚聚，在新的 2017 年，喝點小茶，彼此聊聊過去、展望未來。
+  month: 1
+  start: 1/14
+  end: 
   link:
-    - title: 活動頁
-      url: sitcon.org/2017/
-  cover: /p/2017/sitcon/og.jpg
+    - title: 活動網站
+    - url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=5
+  cover: 
+  contributor_id:
+    - ttcat
+    - singing
+    - rock
+    - mglee
+    - huangfu
+    - afi
+    - ael
+    - aaron
+  project_id:
+    - admin
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0121g0vjothon:
+  title: g0v 第陸次基礎建設「大平台」松
+  description: 
+  month: 1
+  start: 1/21
+  end: 
+  link:
+    - title: 
+    - url: 
+  cover: 
+  contributor_id:
+    - ttcat
+  project_id:
+    - g0vdathon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0201ocf:
+  title: 2016 年度成果報告出刊
+  description: 
+  month: 2
+  start: 2/1
+  end: 
+  link:
+    - title: 成果報告
+    - url: http://ocf.tw/p/2016/
+  cover: 
+  contributor_id:
+    - ttcat
+    - singing
+    - rock
+    - mglee
+    - huangfu
+    - afi
+    - ael
+    - aaron
+    - jason
+  project_id:
+    - admin
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0216g0vjothon:
+  title: g0v 第柒次基礎建設緊急松 - 德國 Prototype Fund x g0v 獎助金
+  description: 
+  month: 2
+  start: 2/16
+  end: 
+  link:
+    - title: 
+    - url: 
+  cover: 
+  contributor_id:
+    - ttcat
+  project_id:
+    - g0vdathon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0304g0vjothon:
+  title: 台灣零時政府第貳拾參次開放資料黑客松
+  description: 
+  month: 3
+  start: 3/4
+  end: 
+  link:
+    - title: 
+    - url: 
+  cover: 
+  contributor_id:
+    - ttcat
+  project_id:
+    - g0vdathon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0318sitcon:
+  title: SITCON 2017
+  description: SITCON2017將以「新世代的網路挑戰」為年會焦點，揭開網際網路便利的面紗，深入探討網路世代在網路治理、內容過濾、識別追蹤、媒體中立性等不同面向上將面臨的困境與挑戰，並共同探求資訊技術的平衡發展。
+  month: 3
+  start: 3/18
+  end: 
+  link:
+    - title: 活動網站
+    - url: http://sitcon.org/2017/
+  cover: 
+  contributor_id:
+    - singing
   project_id:
     - sitcon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0318g0vgrant:
+  title: 2017春季 g0v 公民科技創新獎助金 Kick-off Workshop
+  description: 
+  month: 3
+  start: 3/18
+  end: 
+  link:
+    - title: 活動網站
+    - url: https://grants.g0v.tw/
+  cover: 
+  contributor_id:
+    - ttcat
+  project_id:
+    - g0vdathon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0324intl:
+  title: 「開．新時代」募款茶會
+  description: 
+  month: 3
+  start: 3/24
+  end: 
+  link:
+    - title: 
+    - url: 
+  cover: 
+  contributor_id:
+    - ttcat
+    - singing
+    - rock
+    - mglee
+    - huangfu
+    - afi
+    - ael
+    - aaron
+    - pellaeon
+    - miniwu
+    - jason
+  project_id:
+    - intl
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0329intl:
+  title: 參加Rightscon 
+  description: RightsCon 是全球最大的數位權利研討會，本次台灣代表團由維基媒體協會、開放文化基金會、台灣人權促進會組成。
+開放文化基金會在 RightsCon 當中關注東亞地區的數位權利狀況，並跟緊歐美最新的討論趨勢。
+也與眾多關注數位權利的國際組織有所交流
+  month: 3
+  start: 3/29
+  end: 3/31
+  link:
+    - title: 活動網站
+    - url: https://www.rightscon.org/
+  cover: /p/2017/intl/2017.3 RightsCon.jpg
+  contributor_id:
+    - ttcat
+    - pellaeon
+  project_id:
+    - intl
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - AccessNow
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0416g0vnews:
+  title: 翻轉新聞松
+  description: 
+  month: 4
+  start: 4/16
+  end: 
+  link:
+    - title: 活動網站
+    - url: http://www.accupass.com/go/hhtpeXg0vnews
+  cover: 
+  contributor_id:
+    - miniwu
+    - ttcat
+    - mglee
+  project_id:
+    - intl
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0420g0vjothon:
+  title: g0v 第捌次基礎建設松
+  description: 
+  month: 4
+  start: 4/20
+  end: 
+  link:
+    - title: 
+    - url: 
+  cover: 
+  contributor_id:
+    - ttcat
+  project_id:
+    - g0vdathon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0425intl:
+  title: 參加 TICTeC
+  description: 
+  month: 4
+  start: 4/25
+  end: 4/26
+  link:
+    - title: 活動網站
+    - url: http://tictec.mysociety.org/
+  cover: /p/2017/intl/2017.04 TICTeC-r.jpg
+  contributor_id:
+    - afi
+    - ttcat
+    - mglee
+    - miniwu
+    - jason
+    - aaron
+  project_id:
+    - intl
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - mySociety
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0428intl:
+  title: 參加 Datensummit
+  description: 
+  month: 4
+  start: 4/28
+  end: 4/29
+  link:
+    - title: 活動網站
+    - url: https://datensummit.de/
+  cover: 
+  contributor_id:
+    - afi
+    - ttcat
+    - mglee
+    - jason
+  project_id:
+    - intl
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - Open Knowledge Germany
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0428cctw:
+  title: 創用 CC 2017 全球大會
+  description: 
+  month: 4
+  start: 4/28
+  end: 4/30
+  link:
+    - title: 活動網站
+    - url: https://summit.creativecommons.org/
+  cover: 
+  contributor_id:
+    - rock
+    - lucien
+  project_id:
+    - cctw
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0506g0vjothon:
+  title: 台灣零時政府第貳拾肆次凍省黑客松
+  description: 
+  month: 5
+  start: 5/6
+  end: 
+  link:
+    - title: 
+    - url: 
+  cover: 
+  contributor_id:
+    - ttcat
+  project_id:
+    - g0vdathon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0521pycon:
+  title: PyCon Taiwan 2017 Tutorial - 上雲端、練AI、打電玩！ 從遊戲中誕生的人工智慧之手把手教學
+  description: 
+  month: 5
+  start: 5/21
+  end: 
+  link:
+    - title: 活動網站
+    - url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-ai-game
+  cover: 
+  contributor_id:
+    - rock
+  project_id:
+    - pycon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0523cscs:
+  title: 人權倡議者的資訊安全培力工作坊
+  description: Civil Society Cyber Shield 資安工作坊希望能夠連結人權工作者與資訊科技（尤其是資訊安全）領域的專家，在專家幫助人權工作者的同時，也讓更多人知道人權工作的重要性。本工作坊除了教學之外，也有一部分致力於讓這兩種人互相接觸與瞭解。
+  month: 5
+  start: 5/23
+  end: 5/25
+  link:
+    - title: 活動紀錄
+    - url: http://beta.hackfoldr.org/cscs/
+  cover: /p/2017/intl/2017 CSCS-r.jpg
+  contributor_id:
+    - pellaeon
+    - ttcat
+    - lulukeng
+  project_id:
+    - intl
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 民主基金會/華人民主書院/台權會/HITCON
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0525cctw:
+  title: 藝術創作的公眾素材及創用CC授權應用
+  description: 
+  month: 5
+  start: 5/25
+  end: 
+  link:
+    - title: 
+    - url: 
+  cover: 
+  contributor_id:
+    - lucien
+  project_id:
+    - cctw
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0528pycon:
+  title: PyCon Taiwan 2017 Tutorial - 實做數學: NumPy 入門
+  description: 
+  month: 5
+  start: 5/28
+  end: 
+  link:
+    - title: 活動網站
+    - url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-numpy
+  cover: 
+  contributor_id:
+    - rock
+  project_id:
+    - pycon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0602intl:
+  title: RightsCon 分享會
+  description: RightsCon是全球最大的數位人權大會，今年在歐盟所在地的比利時布魯塞爾舉行。而臺灣關心全球數位人權議題的團體，以臺灣維基協會為主體而組成的 RightsCon臺灣團，加上開放文化基金會、臺灣摩茲社群成員，有幸獲得臺灣民主基金會的協助，前往參與RightsCon大會。6/2 (五) 運用每週五晚上在摩茲工寮固定的摩茲社群聚會時間，RightsCon團將會分享參與會議的所見所聞，如假新聞議題，川普效應和各地極權政府傷害數位人權的暴行，以及帶給臺灣的啟發。
+  month: 6
+  start: 6/2
+  end: 
+  link:
+    - title: 臉書活動頁
+    - url: https://www.facebook.com/events/789416757892564
+  cover: 
+  contributor_id:
+    - pellaeon
+    - ttcat
+  project_id:
+    - intl
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - WikiMedia Taiwan, Moztw
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0603pycon:
+  title: PyCon Taiwan 2017 Tutorial - 實做數學: Tensorflow 及 Keras 實做神經網路
+  description: 
+  month: 6
+  start: 6/3
+  end: 
+  link:
+    - title: 活動網站
+    - url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-tensorflow-and-keras
+  cover: 
+  contributor_id:
+    - rock
+  project_id:
+    - pycon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0606intl:
+  title: 拜訪 The National Archive
+  description: 
+  month: 6
+  start: 6/6
+  end: 
+  link:
+    - title: 
+    - url: 
+  cover: 
+  contributor_id:
+    - ttcat
+    - aaron
+  project_id:
+    - intl
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0608intl:
+  title: 參加 Personal Democracy Forum
+  description: 
+  month: 6
+  start: 6/8
+  end: 6/9
+  link:
+    - title: 
+    - url: 
+  cover: 
+  contributor_id:
+    - ttcat
+    - aaron
+  project_id:
+    - intl
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - Civic Hall
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0609pycon:
+  title: PyCon TW 2017
+  description: 
+  month: 6
+  start: 6/9
+  end: 6/11
+  link:
+    - title: 活動網站
+    - url: https://tw.pycon.org/2017/zh-hant/
+  cover: 
+  contributor_id:
+    - rock
+  project_id:
+    - pycon
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - asiii
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
+0708cc:
+  title: 新北市立聯合醫院教學研究部邀講
+  description: 「數位教材製作的著作權利說明」 - 主講人：林誠夏、「如何尋找與使用免費公眾授權素材」 - 主講人：李欣穎
+  month: 7
+  start: 7/8
+  end: 
+  link:
+    - title: 
+    - url: 
+  cover: 
+  contributor_id:
+    - singing
+    - lucien
+  project_id:
+    - cctw
+  label:
+    - 
+  organizer_id:
+    - 
+  advisor_id:
+    - 
+  co-organizer_id:
+    - 
+  implementer_id:
+    - 
+  sponsor_id:
+    - 
+  coordinator_id:
+    - 
+  host_id:
+    - 
+  speaker_id:
+    - 
+  banner: 
+  avatar: 
