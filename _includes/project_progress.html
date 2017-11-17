@@ -20,7 +20,6 @@ function readyState(fn) {
 window.onDomReady(onReady);
 
 function onReady( ) {
-  console.log(jsondata);
   var crmCurrency = jsondata.currencySymbol;
   var cpid        = {{ page.cpid }};
   if ( jsondata.money_target > 0 ) {
@@ -30,12 +29,13 @@ function onReady( ) {
   document.getElementById('crm_cpid_'+cpid+'_donors').textContent = jsondata.num_donors.replace(/ 捐款人/, "");
   if ( jsondata.money_raised_percentage ) {
     var percent = jsondata.money_raised_percentage.replace(/%/, "");
+    var width = parseInt(percent) > 100 ? '100' : percent;
     document.getElementById('crm_cpid_'+cpid+'_amt_fill').setAttribute("data-percent", percent);
     $('#crm_cpid_'+cpid+'_amt_fill').progress({
-      percent: percent,
+      percent: width,
       text: {
         active: "{percent}",
-        success: "Complete!"
+        success: "{percent}"
       }
     });
   }
