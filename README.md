@@ -168,6 +168,10 @@
 
   - 可在 `/p/(new_year)/` 預覽成果報告頁，如 [/p/2016/](http://ocf.tw/p/2016/)
 
+  - 將成果報告頁加入 [專案與成果](https://ocf.tw/p/) 頁
+    - 檔頭新增文字： `- (new_year)` （獨自一行）
+    - 檔案位置： [/p/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/index.html)
+
 ### 編輯電子報清單內容
 
 - 編輯當年度的電子報 `.yml` 檔案，如 2016 年度的檔案為 [/_data/news/2016.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/news/2016.yml)
