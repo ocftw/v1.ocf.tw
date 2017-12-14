@@ -101,7 +101,7 @@
   - 複製 [年度活動資料 yml 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/events/_yyyy.yml) 的內容
   - 貼到活動所屬的年度的 `(year).yml` 檔案中編輯，例如 [_data/events/2016.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/events/2016.yml) ，最新的活動放檔案最上方
 
-2. 建立個別專案專用的活動資料，同時加到所屬專案的活動列表中
+2. 建立個別專案專用的活動資料，同時加到所屬專案的活動列表中（2016 以前適用，2017 以後的只要做完 1. 就會自動抓進來）
 
   - 複製 [專案活動資料 yml 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/events/_project_id.yml) 的內容
   - 貼到活動所屬的專案的 `(your_project_id).yml` 檔案中編輯，例如 [_data/events/intl.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/events/intl.yml) ，較新的活動資料放在較上方

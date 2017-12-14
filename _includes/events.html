@@ -6,6 +6,30 @@
 {% assign project_year = page.year %}
 {% endif %}
 
+<!-- 新版資料格式：從各年份的 yml 抓資料，只抓 2017 （含）以後的 -->
+
+{% for list in site.data.events %}
+{% if list[0] contains "20" %}
+{% if list[0] > "2016" %}
+
+{% for event in list[1] %}
+{% for pid in event[1].project_id %}
+{% if pid == project_id %}
+
+  {% assign type = "event" %}
+  {% assign item = event[1] %}
+  {% include events_item.html %}
+
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+{% endif %}
+{% endif %}
+{% endfor %}
+
+<!-- 舊版資料格式：從各專案的 yml 抓資料 -->
+
 {% for event in events %}
 
 {% if event.year > project_year %}
