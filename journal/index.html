@@ -2,6 +2,11 @@
 layout: global
 og_title: 活動日誌
 og_description: 推廣開放文化需要不斷地、不斷地、不斷地採取行動！基金會歷年來做過哪些嘗試？請看我們的活動日誌 ^_<
+years:
+  - 2017
+  - 2016
+  - 2015
+  - 2014
 ---
 
 <!-- 替 level 1 頁面套上導覽列 -->
@@ -22,11 +27,8 @@ og_description: 推廣開放文化需要不斷地、不斷地、不斷地採取�
       <i class="dropdown icon"></i>
       <div class="menu">
 
-      {% for file in site.data.events reversed %}
-      {% if file[0] contains '20' %}
-        {% assign year = file[0] %}
+      {% for year in page.years %}
         <a href="#{{ year }}" class="item">{{ year }}</a>
-      {% endif %}
       {% endfor %}
 
       </div>
@@ -43,11 +45,8 @@ og_description: 推廣開放文化需要不斷地、不斷地、不斷地採取�
     <div id="toc" data-context="desktop" class="six wide column">
       <nav class="ui secondary sticky vertical pointing fluid menu">
 
-      {% for file in site.data.events reversed %}
-      {% if file[0] contains '20' %}
-        {% assign year = file[0] %}
+      {% for year in page.years %}
         <a href="#{{ year }}" class="item">{{ year }}</a>
-      {% endif %}
       {% endfor %}
 
       </nav>
@@ -55,15 +54,14 @@ og_description: 推廣開放文化需要不斷地、不斷地、不斷地採取�
 
     <div class="ten wide column">
 
-      {% for file in site.data.events reversed %}
-      {% if file[0] contains '20' %}
-        {% assign year = file[0] %}
+      {% for year in page.years %}
 
         <h2 id="{{ year }}" class="ui dividing header">{{ year }} 年</h2>
 
         <div class="ui divided items">
 
-        {% assign events = file[1] %}
+        {% assign id = year | append: "" %}
+        {% assign events = site.data.events[id] %}
         {% if events %}
         {% for event in events %}
 
@@ -74,7 +72,6 @@ og_description: 推廣開放文化需要不斷地、不斷地、不斷地採取�
         {% endif %}
 
         </div>
-      {% endif %}
       {% endfor %}
 
     </div>

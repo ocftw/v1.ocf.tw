@@ -137,6 +137,9 @@
   - 建立新年度活動的共用資料檔
     - 檔案名稱： `(year).yml` ，例如 `2016.yml`
     - 檔案位置： [/_data/events/](https://github.com/ocftw/beta.ocf.tw/tree/gh-pages/_data/events)
+  - 將新年度加入活動列表頁
+    - 檔頭新增文字： `- (year)` （獨自一行）
+    - 檔案位置： [/journal/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/journal/index.html)
 
 4. 設定新年度的電子報
 
