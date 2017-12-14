@@ -65,7 +65,7 @@ years:
         {% assign id = year | append: "" %}
         {% assign events = site.data.events[id] %}
         {% if events %}
-        {% for event in events %}
+        {% for event in events reversed %}
 
           {% assign item = event[1] %}
           {% include events_item.html %}
