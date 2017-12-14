@@ -12,7 +12,7 @@
 {% if list[0] contains "20" %}
 {% if list[0] > "2016" %}
 
-{% for event in list[1] %}
+{% for event in list[1] reversed %}
 {% for pid in event[1].project_id %}
 {% if pid == project_id %}
 
