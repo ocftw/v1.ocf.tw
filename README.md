@@ -148,9 +148,9 @@
     - 檔案位置： [/_data/news/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/news)
     - 複製 [電子報資料 yml 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/news/_yyyy.yml) 的內容，貼到新建立的 `(new_year).yml` 檔案中編輯
 
-  - 將新年度的電子報加到 [電子報](http://ocf.tw/news/) 頁的列表
-
-    - 把 `(new_year)` 加到 [電子報頁設定檔](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/news/settings.yml) 的清單中
+  - 將新年度的電子報加到 [電子報](http://ocf.tw/news/) 頁
+    - 檔頭新增文字： `- (new_year)` （獨自一行）
+    - 檔案位置： [/news/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/news/index.html)
 
 5. 設定新年度的成果報告
 
