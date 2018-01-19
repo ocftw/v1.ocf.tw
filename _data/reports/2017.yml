@@ -81,9 +81,9 @@ items:
         url: /p/2016/umaker/cover.jpg
         swap: false
       - type: article
-        title: 【產】取之開源，回饋開源 — 最終章
+        title: 【產】/A
         subtitle: 
-        description: 2015 ~ 2016 年智新資通公司愛心做公益，預購 U．MAKER 開源 3D 印表機，智新資通捐出10%做公益，以實際行動支持開放文化。 
+        description:  
   - type: content
     columns:
       - type: slider
@@ -92,18 +92,18 @@ items:
          - url: /p/2016/admin/ndc-it-managers-2016.jpg-3.jpg
         swap: true
       - type: article
-        title: 【官】政府資訊主管聯席會 X OCF — 初登場
+        title: 【官】資策會 — 開源社群推薦
         subtitle: 
-        description: 與國發會合辦 2 次政府資訊主管聯席會，邀請專家學者分享開源、公民科技發展與世界趨勢。
+        description: 資策會希望協助開放原始碼軟體社群的發展，OCF 推薦開放原始碼軟體社群 Debian, Ubuntu, SITCON 社群於資訊月「開源軟體館」參展，讓大眾對於開源軟體和社群協力有更深一層的認識。OCF 也推薦了幾個開源軟體社群和有意願協助社群發展的朋友，一起為日後的推廣活動發想和著力。
   - type: content
     columns:
       - type: image
         url: /p/2016/cctw/CC_2016.jpg
         swap: false
       - type: article
-        title: 【學】CCTW X OCF — 第 2 彈
+        title: 【學】CCTW X OCF — 最終回
         subtitle: 
-        description: 持續與台灣創用 CC 合作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，能接觸更多國內外的自由文化社群。
+        description: 台灣創用 CC 計畫即將階段性任務結束，OCF 承接了 CC Taiwan 的理念，協助在計畫結束之後，建立 CC 台灣社群的網站，繼續和 CC 總部保持聯繫，並繼續在台灣的推廣工作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，長存更多國內外的自由文化社群中。
         items:
           - project_id: cctw
   - type: header
