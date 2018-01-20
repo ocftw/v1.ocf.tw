@@ -83,7 +83,7 @@ items:
         url: /p/2016/umaker/cover.jpg
         swap: false
       - type: article
-        title: 【產】/A
+        title: 【產】N/A
         subtitle: 
         description:  
   - type: content
@@ -109,7 +109,7 @@ items:
         items:
           - project_id: cctw
   - type: header
-    title: 國際交流
+    title: 跨國交流
     anchor: overseas
     icon: plane
     background_color: teal
@@ -125,9 +125,9 @@ items:
           - url: /p/2016/intl/visit_5.jpg
         swap: true
       - type: article
-        title: 接待國際專家
+        title: CivicTechFest 世界公民科技週
         subtitle: 
-        description: 與加拿大辦事處、法國在台協會、美國在台協會合作 3 場國際專家訪台活動，包含接待、會議與舉辦公開講座
+        description: 2017年9月10日-16日，串聯國內外社群，舉辦為期一週的亞洲第一次公民科技大會
         logo_height: 3rem
         logos:
           - org_id: cto
