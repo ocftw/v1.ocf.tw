@@ -128,11 +128,16 @@ items:
         title: CivicTechFest 世界公民科技週
         subtitle: 
         description: 2017年9月10日-16日，串聯國內外社群，舉辦為期一週的亞洲第一次公民科技大會
-        logo_height: 3rem
-        logos:
-          - org_id: cto
-          - org_id: bft
-          - org_id: ait
+        items:
+         - title: 2017開放街圖研討會(SotM Taiwan)
+         - title: 「開放政府觀察報告2014~2016」發表會
+         - title: g0v公民科技獎助金-2017年春季發表會
+         - title: TICTeC@Taipei 公民科技動能推升研討會
+         - title: Creative Workshop
+         - title: NGOs Data Bootcamp 資料實戰營
+         - title: 2017 國際資料經濟高峰會《2017 International Data Economy Summit》
+         - title: g0v 台灣零時政府五週年黑客松
+         - title: Wikimedia Taiwan 十週年研討會
   - type: content
     columns:
       - type: slider
@@ -144,16 +149,12 @@ items:
           - url: /p/2016/intl/youth_5.jpg
         swap: false
       - type: article
-        title: 青年盤纏計畫
+        title: Code for All 全球公民科技聯盟
         subtitle: 
-        description: 資助台灣青年登上國際各大開源會議大講台
-        items:
-          - title: Open Networking Summit 2016 California
-          - title: FOSS ASIA 2016 Singapore
-          - title: useR! 2016 California 
+        description: 2017年 9 月「Code for All 年度會議」在台北召開後，開放文化基金會以正式會員g0v之法人夥伴的身分，加入聯盟執行委員會一同處理全球相關事務。
         action: 
-          title: 看更多成果
-          url: http://v0.ocf.tw/donate/intl.html#/tab-3
+         title: 國際交換獎助金計畫
+         url: https://hackmd.io/s/rJyRy6Jzz
   - type: content
     columns:
       - type: slider    
@@ -172,12 +173,14 @@ items:
           - url: /p/2016/intl/delegation_13.jpg
         swap: true
       - type: article
-        title: 籌組國際重要會議與參訪團
+        title: 資安暨隱私推廣計畫
         subtitle: 
-        description: 籌辦兩次公民科技參訪團，廣邀公民團體與社群參加，積極建立國際網絡
-        action: 
-          title: 成果報告
-          url: http://beta.hackfoldr.org/ocf-intl-events        
+        description: 與臺灣民主基金會、華人民主書院、台灣人權促進會、台灣駭客協會合作，於5月在台北舉行，首次結合資安專家及東南亞NGO，特別為第一線人權工作者設計的資安工作坊。
+        items:
+         - title: Civil Society Cyber Shield 東亞及華人社群人權工作者資安隱私保護工作坊
+         - title: 資安小聚
+         - title: 東南亞資訊安全防護與隱私保護培訓
+         - title: 資安教材資源入口網站     
   - type: content
     columns:
       - type: slider
@@ -188,27 +191,16 @@ items:
           - url: /p/2016/intl/sharing_5.jpg
         swap: false
       - type: article
-        title: 國際交流系列講座
+        title: 出訪交流
         subtitle: 
-        description: 規劃台灣與國際超過 8 位講者之演講與參訪分享會
-        action: 
-          title: 系列分享會紀錄
-          url: http://beta.hackfoldr.org/ocf-intl-events        
-  - type: content
-    columns:
-      - type: slider
-        slides:
-          - url: /p/2016/intl/g0vnews_1.jpg
-          - url: /p/2016/intl/g0vnews_2.jpg
-          - url: /p/2016/intl/g0vnews_3.jpg
-        swap: true
-      - type: article
-        title: g0v.news
-        subtitle: 
-        description: 創刊 g0v.news，報導國際與台灣公民科技局勢，聚焦各地社群發展
-        action: 
-          title: 官方網站
-          url: https://g0v.news
+        description: 籌辦多次公民科技參訪團，廣邀公民團體與社群參加，積極建立國際網絡
+        items:
+         - title: RightsCon 2017 布魯塞爾
+         - title: TICTeC 2017 佛羅倫斯
+         - title: Datensummit 2017 柏林
+         - title: APRIGF 亞太網路治理論壇
+         - title: COCONET Southeast Asia Digital Rights Camp 2017 印尼
+         - title: Code for Japan Summit 2017 神戶      
   - type: header
     title: 顧問諮詢
     anchor: consulting
@@ -219,24 +211,26 @@ items:
     columns:
       - type: image
         url: /p/2016/charityreport/charity-report.png
-        swap: false
+        swap: true
       - type: article
-        title: 開放建議報告
+        title: 自然人憑證
         subtitle: 
-        description: 我們蒐集了部分社群朋友的建議，撰寫了「公益資訊平台開放暨推廣策略建議書」提供給內政部，針對其網站「公益資訊平台」給予開放資料和推廣的建議。
-        items:
-          - project_id: 
+        description: 促進民間自主開發自然人憑證在跨平台上的自由應用。
+        action: 
+         title: 相關報導
+         url: https://rocket.cafe/talks/84456
+        action: 
+         title: <i class="github icon"></i> Source Code
+         url: https://github.com/orsonwang/Taiwan_CDC_RI
   - type: content
     columns:
       - type: image
         url: /p/2016/osln/og4x3.png
-        swap: true
+        swap: false
       - type: article
-        title: 開放授權諮詢
+        title: 晶片國民身分證
         subtitle: 
-        description: 我們和長年研究科技法律，志願擔任基金會法制顧問的林誠夏先生合作，提供民眾一個免費/付費的開放授權諮詢管道。並且也開啟了台灣開源法律網絡的序幕。
-        items:
-          - project_id: osln
+        description: 
   - type: header
     title: 政策倡議
     anchor: initiative
@@ -247,34 +241,41 @@ items:
     columns:
       - type: image
         url: /p/2016/admin/Taiwan_CDC_RI_GithubPage.png
-        swap: false
+        swap: true
       - type: article
-        title: 減少自然人憑證卡的跨平台問題
+        title: 開放政府觀察報告2014-2016
         subtitle: 
-        description: 推動中華電信釋出自然人憑證規格與操作範例未果，遂促成民間自主開發自然人憑證在跨平台上的自由應用。
-        action:
-          title: <i class="github icon"></i> Source Code
-          url: https://github.com/orsonwang/Taiwan_CDC_RI
+        description: 由開放文化基金會研究員李梅君、曾柏瑜，為期一年的資料蒐集、訪談、分析研究，完成中英文版本的「開放政府觀察報告2014-2016」，於2017年9月首發表。
+        items:
+         - title: 「開放政府觀察報告2014~2016」發表會 @教師會館，
+         - title: TICTeC@Taipei 發表 @ TICC
+         - title: 開放政府在地方的可能－台南 @台南新芽演講廳
+  - type: header
+    title: g0v.news
+    anchor: initiative
+    icon: announcement
+    background_color: violet
+    description: 以中英雙語報導國際與台灣公民科技局勢，聚焦各地社群發展
   - type: content
     columns:
       - type: image
         url: /p/2016/admin/pexels-CC0photo-ideas.jpeg
-        swap: true
+        swap: false
       - type: article
-        title: 提倡開放精神能納入政府採購法中
+        title: 
         subtitle: 
-        description: 國際上部分國家（澳大利亞、保加利亞）已透過立法或政策方式，將「格式開放性、規格通用性」列入政府採購評選項目之一。開放文化基金會持續關注資訊服務採購規範，希望落實所欲採購的資訊服務與技術服務，其涉及格式與標準者，應優先採購能提供國際標準或國家標準者的目標。
+        description: 
   - type: header
     title: 團隊成員
     anchor: team
     icon: paw
     background_color: purple
-    description: 我們的團隊正穩健的擴展中，將持續服務各開源社群與關注各開放議題。
+    description: 我們團隊穩健地持續擴展中，玫力在更多方面服務各開源社群與關注各開放議題。
   - type: content
     columns:
       - type: collage
         grid: five
-        swap: false
+        swap: true
         items:
           - person_id: singing
           - person_id: rock
@@ -285,6 +286,11 @@ items:
           - person_id: aaron
           - person_id: huangfu
           - person_id: miniwu
+          - person_id: pellaeon
+          - person_id: lulu
+          - person_id: aiya
+          - person_id: kting
+          - person_id: TYC
           - person_id: lucien
           - person_id: honki
           - person_id: clkao
@@ -293,22 +299,22 @@ items:
           - person_id: pofeng
       - type: article
         title: 我們有許多新成員的加入
-        description:  很開心 @rock、@ttcat、@mglee、@afi、@jason、@aaron、@huangfu 與 @miniwu 加入 OCF 團隊。
+        description:  很開心 @huangfu、@miniwu、@pellaeon、@lulu、@aiya、@Kuan-Ting 與 @TC 在 2017 年加入 OCF 團隊。
   - type: header
     title: 由衷感謝
     anchor: thanks
     icon: heart
     background_color: pink
-    description: OCF 由衷感謝一路走來每一位朋友的支持，與我們一起共同推動開放文化。
+    description: OCF 由衷感謝一路走來每一位朋友的支持，與我們一同推動開放文化。
   - type: content
     columns:
       - type: image
         url: /p/2016/admin/flickr_CCBYothree_volunteer.jpg
-        swap: true
+        swap: false
       - type: article
         title: 感謝超級熱血志工
         subtitle: 
-        description: 感謝 ETBlue, Muka, ipa, marr, poga, yayard, 雁子, Macpaul, yuting 等等...強大的志工們，這一年來陪著我們到處出任務！ 
+        description: 感謝 ETBlue, Muka, ipa, marr, poga, yayard, 雁子, yuting, stella, ael, CYJ, PCC, Candy 等許多強大的志工，這一年來陪著 OCF 到處出任務！ 
   - type: content
     columns:
       - type: article
@@ -316,11 +322,11 @@ items:
         logo_height: 7rem
         logos:
           - org_id: hct
-          - org_id: rc
+          - org_id: archilife
       - type: article
         title: 感謝贊助夥伴
         subtitle: 
-        description: 感謝新竹物流、RC 文化藝術基金會年度計劃性的贊助支持，以及各企業夥伴在每項計畫活動上的相助，更感激每一位朋友的涓滴善款，讓我們有滿滿的動力能共同興盛開放文化。
+        description: 感謝RC 文化藝術基金會、祐生基金會的年度計畫贊助支持，以及各企業夥伴在每項計畫活動上的相助，更感激每一位朋友的涓滴善款，讓我們有滿滿的動力共同興盛開放文化。
         action: 
           title: 捐款徵信
           url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
