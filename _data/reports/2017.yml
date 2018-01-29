@@ -239,14 +239,15 @@ items:
     description: 遊說政府機關與民間企業將開放、自由的精神納入服務之中，讓台灣的各類基礎建設可不被綁定在特定軟/硬體之中。
   - type: content
     columns:
-      - type: image
-        url: /p/2017/intl/report-OGR (3).jpg
-        url: /p/2017/intl/report-OGR (4).jpg
-        url: /p/2017/intl/report-OGR (1).jpg
-        url: /p/2017/intl/report-OGR (2).jpg
-        url: /p/2017/intl/report-OGR (6).jpg
-        url: /p/2017/intl/report-OGR (7).jpg
-        url: /p/2017/intl/report-OGR (5).jpg
+      - type: slider
+        slides:
+          - url: /p/2017/intl/report-OGR_3.jpg
+          - url: /p/2017/intl/report-OGR _1.jpg
+          - url: /p/2017/intl/report-OGR_2.jpg
+          - url: /p/2017/intl/report-OGR _4.jpg
+          - url: /p/2017/intl/report-OGR _6.jpg
+          - url: /p/2017/intl/report-OGR_7.jpg
+          - url: /p/2017/intl/report-OGR _5.jpg
         swap: true
       - type: article
         title: 開放政府觀察報告2014-2016
