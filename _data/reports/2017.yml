@@ -266,13 +266,6 @@ items:
     icon: announcement
     background_color: violet
     description: 以中英雙語報導國際與台灣公民科技局勢，聚焦各地社群發展
-    items:
-         - title: 專題> 黑客公務員的血汗之路
-         - title: 週報> 每週七則全球公民科技精彩案例
-         - title: 文章> 不定期中英文報導
-         action: 
-         title: GO> g0v.news
-         url: https://g0v.news/
   - type: content
     columns:
       - type: image
@@ -282,6 +275,13 @@ items:
         title: 
         subtitle: 
         description: 
+        items:
+         - title: 專題> 黑客公務員的血汗之路
+         - title: 週報> 每週七則全球公民科技精彩案例
+         - title: 文章> 不定期中英文報導
+         action: 
+         title: GO> g0v.news
+         url: https://g0v.news/
   - type: header
     title: 團隊成員
     anchor: team
