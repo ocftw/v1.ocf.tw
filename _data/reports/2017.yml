@@ -142,7 +142,7 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2016/intl/youth_1.jpg
+          - url: /p/2017/intl/0914CfAllSummit.jpg
           - url: /p/2016/intl/youth_2.jpg
           - url: /p/2016/intl/youth_3.png
           - url: /p/2016/intl/youth_4.png
@@ -159,7 +159,7 @@ items:
     columns:
       - type: slider    
         slides:
-          - url: /p/2016/intl/delegation_1.jpg
+          - url: /p/2017/intl/2017 CSCS-r.jpg
           - url: /p/2016/intl/delegation_2.jpg
           - url: /p/2016/intl/delegation_3.jpg
           - url: /p/2016/intl/delegation_4.jpg
@@ -185,7 +185,7 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2017/intl/2017 CSCS-r.jpg
+          - url: /p/2017/intl/2017.04 TICTeC-r.jpg
           - url: /p/2016/intl/sharing_3.jpg
           - url: /p/2016/intl/sharing_4.jpg
           - url: /p/2016/intl/sharing_5.jpg
