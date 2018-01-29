@@ -240,8 +240,14 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/admin/Taiwan_CDC_RI_GithubPage.png
-        swap: true
+        url: /p/2017/intl/report-OGR (3).jpg
+        url: /p/2017/intl/report-OGR (4).jpg
+        url: /p/2017/intl/report-OGR (1).jpg
+        url: /p/2017/intl/report-OGR (2).jpg
+        url: /p/2017/intl/report-OGR (6).jpg
+        url: /p/2017/intl/report-OGR (7).jpg
+        url: /p/2017/intl/report-OGR (5).jpg
+       swap: true
       - type: article
         title: 開放政府觀察報告2014-2016
         subtitle: 
@@ -250,6 +256,9 @@ items:
          - title: 「開放政府觀察報告2014~2016」發表會 @教師會館，
          - title: TICTeC@Taipei 發表 @ TICC
          - title: 開放政府在地方的可能－台南 @台南新芽演講廳
+         action: 
+         title: 開放政府觀察報告線上看
+         url: https://opengovreport.ocf.tw/#tab-0
   - type: header
     title: g0v.news
     anchor: initiative
