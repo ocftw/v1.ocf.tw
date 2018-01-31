@@ -309,6 +309,8 @@ items:
           - person_id: kting
           - person_id: TYC
           - person_id: lucien
+          - person_id: isabel
+          - person_id: miaoski       
           - person_id: honki
           - person_id: clkao
           - person_id: bobchao
@@ -335,7 +337,7 @@ items:
   - type: content
     columns:
       - type: article
-        swap: false
+        swap: true
         logo_height: 7rem
         logos:
           - org_id: hct
