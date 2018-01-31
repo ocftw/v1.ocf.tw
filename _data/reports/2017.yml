@@ -9,7 +9,7 @@ items:
     title: 社群支援
     anchor: community
     icon: hand rock
-    background_color: yellow
+    background_color: olive
     description: 2017 年 OCF 共協助 ? 場研討會、? 項社群營運計畫與 ? 項校園人才培育計畫，給予社群法人行政的後勤支援，讓社群能更專注於開源理念的推廣與活絡。
   - type: content
     columns:
@@ -75,17 +75,8 @@ items:
     title: 組織合作
     anchor: orgnization
     icon: building outline
-    background_color: olive
-    description: 藉由與產、官、學界的跨界合作，共同發揚開放文化的精神，促成與國內外開放社群協力的機會。
-  - type: content
-    columns:
-      - type: image
-        url: /p/2016/umaker/cover.jpg
-        swap: false
-      - type: article
-        title: 【產】N/A
-        subtitle: 
-        description:  
+    background_color: yellow
+    description: 與政府部門、國際組織跨界合作，共同發揚開放文化的精神，促成與國內外開放社群協力的機會。
   - type: content
     columns:
       - type: slider
@@ -94,7 +85,7 @@ items:
          - url: /p/2016/admin/ndc-it-managers-2016.jpg-3.jpg
         swap: true
       - type: article
-        title: 【官】資策會 — 開源社群推薦
+        title: 資策會 — 開源社群推薦
         subtitle: 
         description: 資策會希望協助開放原始碼軟體社群的發展，OCF 推薦開放原始碼軟體社群 Debian, Ubuntu, SITCON 社群於資訊月「開源軟體館」參展，讓大眾對於開源軟體和社群協力有更深一層的認識。OCF 也推薦了幾個開源軟體社群和有意願協助社群發展的朋友，一起為日後的推廣活動發想和著力。
   - type: content
@@ -103,7 +94,7 @@ items:
         url: /p/2016/cctw/CC_2016.jpg
         swap: false
       - type: article
-        title: 【學】CCTW X OCF — 最終回
+        title: CCTW X OCF — CC 台灣社群
         subtitle: 
         description: 台灣創用 CC 計畫即將階段性任務結束，OCF 承接了 CC Taiwan 的理念，協助在計畫結束之後，建立 CC 台灣社群的網站，繼續和 CC 總部保持聯繫，並繼續在台灣的推廣工作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，長存更多國內外的自由文化社群中。
         items:
@@ -120,9 +111,6 @@ items:
         slides:
           - url: /p/2017/intl/0911TICTeC@Taipei.jpg
           - url: /p/2016/intl/visit_2.jpg
-          - url: /p/2016/intl/visit_3.jpg
-          - url: /p/2016/intl/visit_4.jpg
-          - url: /p/2016/intl/visit_5.jpg
         swap: true
       - type: article
         title: CivicTechFest 世界公民科技週
@@ -138,15 +126,15 @@ items:
          - title: 2017 國際資料經濟高峰會《2017 International Data Economy Summit》
          - title: g0v 台灣零時政府五週年黑客松
          - title: Wikimedia Taiwan 十週年研討會
+        action: 
+          title: 活動網站
+          url: http://civictechfest.org/
   - type: content
     columns:
       - type: slider
         slides:
           - url: /p/2017/intl/0914CfAllSummit.jpg
           - url: /p/2016/intl/youth_2.jpg
-          - url: /p/2016/intl/youth_3.png
-          - url: /p/2016/intl/youth_4.png
-          - url: /p/2016/intl/youth_5.jpg
         swap: false
       - type: article
         title: Code for All 全球公民科技聯盟
@@ -161,16 +149,6 @@ items:
         slides:
           - url: /p/2017/intl/2017 CSCS-r.jpg
           - url: /p/2016/intl/delegation_2.jpg
-          - url: /p/2016/intl/delegation_3.jpg
-          - url: /p/2016/intl/delegation_4.jpg
-          - url: /p/2016/intl/delegation_5.jpg
-          - url: /p/2016/intl/delegation_6.png
-          - url: /p/2016/intl/delegation_8.jpg
-          - url: /p/2016/intl/delegation_9.jpg
-          - url: /p/2016/intl/delegation_10.jpg
-          - url: /p/2016/intl/delegation_11.jpg
-          - url: /p/2016/intl/delegation_12.jpg
-          - url: /p/2016/intl/delegation_13.jpg
         swap: true
       - type: article
         title: 資安暨隱私推廣計畫
@@ -187,8 +165,6 @@ items:
         slides:
           - url: /p/2017/intl/2017.04 TICTeC-r.jpg
           - url: /p/2016/intl/sharing_3.jpg
-          - url: /p/2016/intl/sharing_4.jpg
-          - url: /p/2016/intl/sharing_5.jpg
         swap: false
       - type: article
         title: 出訪交流
