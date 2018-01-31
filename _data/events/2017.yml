@@ -20,14 +20,14 @@
   project_id:
     - admin
   label:
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0121g0vjothon:
@@ -37,20 +37,22 @@
   start: 1/21
   end: 
   link:
+    - title: 
+      url: 
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0201ocf:
@@ -75,15 +77,15 @@
     - jason
   project_id:
     - admin
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0216g0vjothon:
@@ -93,20 +95,22 @@
   start: 2/16
   end: 
   link:
+    - title: 
+      url: 
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0304g0vjothon:
@@ -116,20 +120,22 @@
   start: 3/4
   end: 
   link:
+    - title: 
+      url: 
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0318sitcon:
@@ -146,15 +152,16 @@
     - singing
   project_id:
     - sitcon
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+    - admin
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0318g0vgrant:
@@ -171,25 +178,27 @@
     - ttcat
   project_id:
     - g0vdathon
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0324intl:
   title: 「開．新時代」募款茶會
-  description: 
+  description: 2016下半年，國際交流專案已主辦、協辦超過十場以上國內、外之相關講座，並邀請台灣零時政府 g0v 與其它社會團體，分別組團出訪兩次國際公民科技與開放政府大會。2017新的一年，特別舉辦成果發表暨募款茶會，除了總整理成果，也要向大家表達一路來的支持並分享多項新計畫!
   month: 3
   start: 3/24
-  end: 
+  end: 3/24
   link:
-  cover: 
+    - title: 
+      url: 
+  cover: /p/2017/intl/0324intlparty.jpg
   contributor_id:
     - ttcat
     - singing
@@ -204,20 +213,20 @@
     - jason
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
-0329intl:
-  title: 參加Rightscon 
-  description: RightsCon 是全球最大的數位權利研討會，本次台灣代表團由維基媒體協會、開放文化基金會、台灣人權促進會組成。開放文化基金會在 RightsCon 當中關注東亞地區的數位權利狀況，並跟緊歐美最新的討論趨勢。也與眾多關注數位權利的國際組織有所交流
+0329intltrip:
+  title: 海外參訪 - Rightscon 
+  description: RightsCon 是全球最大的數位權利研討會，本次台灣代表團由維基媒體協會、開放文化基金會、台灣人權促進會組成。開放文化基金會在 RightsCon 當中關注東亞地區的數位權利狀況，並跟緊歐美最新的討論趨勢，也與眾多關注數位權利的國際組織有所交流。
   month: 3
   start: 3/29
   end: 3/31
@@ -230,43 +239,44 @@
     - pellaeon
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id:
+  label:
+  organizer_id:
     - AccessNow
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0416g0vnews:
   title: 翻轉新聞松
-  description: 
+  description: g0v.news聯合Hacks/Hackers Taipei，邀請記者、編輯、設計師、前後端工程師，透過一天的活動，一起動腦、一起實作，跨界打造能實際解決當前新聞問題的報導或新聞產品。
   month: 4
   start: 4/16
-  end: 
+  end: 4/16
   link:
     - title: 活動網站
       url: http://www.accupass.com/go/hhtpeXg0vnews
-  cover: 
+  cover: /p/2017/intl/0416g0vnews.jpg
   contributor_id:
     - miniwu
     - ttcat
     - mglee
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+    - Hacks/Hackers Taipei
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0420g0vjothon:
@@ -274,27 +284,29 @@
   description: 
   month: 4
   start: 4/20
-  end: 
+  end: 4/20
   link:
+    - title: 
+      url: 
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
-0425intl:
-  title: 參加 TICTeC
-  description: 
+0425intltrip:
+  title: 海外參訪 - TICTeC
+  description: 第三屆 TICTeC 在義大利佛羅倫斯舉辦，聚焦在公民科技和數位民主對全球公民、政策決定者及政府的影響，討論領域包含公民科技的參與、制度、政治社群、數位能力及相關倫理。群眾來自學術界、商業界、政治領域、NGOs 及教育機構的參與者，共有約200 人參與。開放文化基金會籌組參訪團，於 2017 年 4 月遠赴義大利參與，為 WCIT 2017 & Civic Tech Fest 世界公民科技週的啟動宣傳，並宣布 TICTeC@Taipei 首次在亞洲舉行。
   month: 4
   start: 4/25
   end: 4/26
@@ -311,28 +323,28 @@
     - aaron
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id:
+  label:
+  organizer_id:
     - mySociety
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
-0428intl:
-  title: 參加 Datensummit
-  description: 
+0428intltrip:
+  title: 海外參訪 - Datensummit
+  description: 「開放知識基金會Open Knowledge Foundation 」德國分會於2017年發起第一次的 Datensummit，邀請政府官員、科技人士、學術專家、投資者一同討論開放資料的社會價值與應用。
   month: 4
   start: 4/28
   end: 4/29
   link:
     - title: 活動網站
       url: https://datensummit.de/
-  cover: 
+  cover: /p/2017/intl/0428Datensummit .JPG
   contributor_id:
     - afi
     - ttcat
@@ -340,20 +352,20 @@
     - jason
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id:
+  label:
+  organizer_id:
     - Open Knowledge Germany
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0428cctw:
-  title: 創用 CC 2017 全球大會
+  title: 海外參訪 - 創用 CC 2017 全球大會
   description: 
   month: 4
   start: 4/28
@@ -367,15 +379,15 @@
     - lucien
   project_id:
     - cctw
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0506g0vjothon:
@@ -385,20 +397,22 @@
   start: 5/6
   end: 
   link:
+    - title: 
+      url: 
   cover: 
   contributor_id:
     - ttcat
   project_id:
     - g0vdathon
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0521pycon:
@@ -415,15 +429,15 @@
     - rock
   project_id:
     - pycon
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0523cscs:
@@ -442,16 +456,16 @@
     - lulukeng
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
+  label:
+  organizer_id:
+  advisor_id:
   co-organizer_id:
     - 民主基金會/華人民主書院/台權會/HITCON
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0525cctw:
@@ -461,20 +475,22 @@
   start: 5/25
   end: 
   link:
+    - title: 
+      url: 
   cover: 
   contributor_id:
     - lucien
   project_id:
     - cctw
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0528pycon:
@@ -491,42 +507,42 @@
     - rock
   project_id:
     - pycon
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0602intl:
   title: RightsCon 分享會
-  description: RightsCon是全球最大的數位人權大會，今年在歐盟所在地的比利時布魯塞爾舉行。而臺灣關心全球數位人權議題的團體，以臺灣維基協會為主體而組成的 RightsCon臺灣團，加上開放文化基金會、臺灣摩茲社群成員，有幸獲得臺灣民主基金會的協助，前往參與RightsCon大會。6/2 (五) 運用每週五晚上在摩茲工寮固定的摩茲社群聚會時間，RightsCon團將會分享參與會議的所見所聞，如假新聞議題，川普效應和各地極權政府傷害數位人權的暴行，以及帶給臺灣的啟發。
+  description: RightsCon是全球最大的數位人權大會，今年在歐盟所在地的比利時布魯塞爾舉行。而臺灣關心全球數位人權議題的團體，以臺灣維基協會為主體而組成的 RightsCon臺灣團，加上開放文化基金會、臺灣摩茲社群成員，有幸獲得臺灣民主基金會的協助，前往參與RightsCon大會。RightsCon團員回台後也運用摩茲社群週五在摩茲工寮的聚會時間，分享參與會議的所見所聞，如假新聞議題，川普效應和各地極權政府傷害數位人權的暴行，以及帶給臺灣的啟發。
   month: 6
   start: 6/2
-  end: 
+  end: 6/2
   link:
     - title: 臉書活動頁
       url: https://www.facebook.com/events/789416757892564
-  cover: 
+  cover: /p/2017/intl/2017.3 RightsCon.jpg
   contributor_id:
     - pellaeon
     - ttcat
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
+  label:
+  organizer_id:
+  advisor_id:
   co-organizer_id:
     - WikiMedia Taiwan, Moztw
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0603pycon:
@@ -543,64 +559,69 @@
     - rock
   project_id:
     - pycon
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
-0606intl:
-  title: 拜訪 The National Archive
-  description: 
+0606intltrip:
+  title: 拜訪美國 The National Archive
+  description: g0v公民科技獎助金獲獎團隊"國家寶藏"，要把散落在世界各地的台灣史料，找出來、數位化，這次美國行也特別跟團隊一起拜訪了美國國家檔案局
   month: 6
   start: 6/6
   end: 
   link:
-  cover: 
+    - title: 
+      url: 
+  cover: /p/2017/intl/0606nationaltreasure.JPG
   contributor_id:
     - ttcat
     - aaron
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+    - g0v
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
-0608intl:
-  title: 參加 Personal Democracy Forum
-  description: 
+0608intltrip:
+  title: 海外參訪 - Personal Democracy Forum (PDF), NYC
+  description: 個人民主論壇 (The Personal Democracy Forum，簡稱 PDF) 為美國 Civic Hall 所舉辦於美國紐約，一年一度針對公民科技與數位民主的研討會。PDF17講者橫跨政界、企業與各類公民組織，主題包括政治、選舉、公民科技與各種與科技相關的社會運動議題。超過 800 位社會企業家、公民黑客、政府公務員、研究人員、新媒體與藝術家齊聚一堂，其中包含台灣數位政委唐鳳也受邀出席演講，並與 OCF 副執行長共同擔任座談講者。
   month: 6
   start: 6/8
   end: 6/9
   link:
-  cover: 
+    - title: 
+      url: 
+  cover: /p/2017/intl/0608PDFNYC.JPG
   contributor_id:
     - ttcat
     - aaron
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id:
+  label:
+  organizer_id:
     - Civic Hall
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0609pycon:
@@ -617,16 +638,17 @@
     - rock
   project_id:
     - pycon
-  label: 
-  organizer_id: 
-  advisor_id: 
+    - admin
+  label:
+  organizer_id:
+  advisor_id:
   co-organizer_id:
     - asiii
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
 0708cc:
@@ -636,20 +658,685 @@
   start: 7/8
   end: 
   link:
+    - title: 
+      url: 
   cover: 
   contributor_id:
     - singing
     - lucien
   project_id:
     - cctw
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0714OGR0:
+  title: 開放政府觀察報告 協作工作坊
+  description: 本活動將邀請參與者一同針對 OCF 今年預計出版之《開放政府觀察報告 2014-2016》草稿，提出意見、討論。
+  month: 7
+  start: 7/14
+  end: 7/14
+  link:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/ogr-review
+  cover: 
+  contributor_id:
+    - mglee, afi, ttcat, clkao
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0726intltrip:
+  title: 海外參訪 - APrIGF
+  description: APRIGF 亞太網路治理論壇今年在曼谷舉辦，討論網際網路相關政策，例如網路霸凌、資訊安全、言論自由、隱私權等許多牽涉網際網路的廣泛議題。
+  month: 7
+  start: 7/26
+  end: 7/29
+  link:
+    - title: 活動網站
+      url: https://2017.aprigf.asia/
+  cover: /p/2017/intl/0726APrIGF.jpg
+  contributor_id:
+    - pellaeon
+    - afi
+    - ttcat
+    - ly
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0729g0vjothon:
+  title: g0v hackathon Bangkok
+  description: Join the frist g0v’s hackathon @ Bangkok to hack a better society with all enthusiastic hackers, activists, designers, government officials and social innovators!
+  month: 7
+  start: 7/29
+  end: 
+  link:
+    - title: 活動介紹及資訊
+      url: http://beta.hackfoldr.org/bangkok-hackath0n
+  cover: 
+  contributor_id:
+    - ttcat
+    - afi
+    - pellaeon
+    - ly
+  project_id:
+    - g0vdathon
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0805COSCUP2017:
+  title: COSCUP 2017
+  description: COSCUP 希望藉由每一屆的年度會議，讓世界各地的 FLOSS 愛好者齊聚一堂，並邀請世界各地的專家上台分享經驗，想法與新的技術，來共同的激發國內外的愛好者更加踴躍投入 FLOSS 的開發與使用。
+  month: 8
+  start: 8/5
+  end: 8/6
+  link:
+    - title: 活動網站
+      url: http://coscup.org/2017/
+  cover: /p/2017/coscup/og.png
+  contributor_id:
+    - singing
+    - huangfu
+  project_id:
+    - coscup
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0811APriGF:
+  title: APrIGF 回國分享會
+  description: 分享 OCF 前往曼谷參與 APrIGF 的經驗
+  month: 8
+  start: 8/11
+  end: 
+  link:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/aprigf-sharing
+  cover: 
+  contributor_id:
+    - pellaeon
+    - afi
+    - ttcat
+    - ly
+    - mglee
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0816cscsgroup1:
+  title: NGO 資安討論小聚 
+  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。
+  month: 8
+  start: 8/16
+  end: 
+  link:
+    - title: 
+      url: 
+  cover: 
+  contributor_id:
+    - pellaeon
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0822g0vjothon:
+  title: 台灣零時政府第貳拾伍次科學黑客松
+  description: 
+  month: 8
+  start: 8/22
+  end: 8/25
+  link:
+    - title: 報名頁面
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath15n
+  cover: 
+  contributor_id:
+    - ttcat
+  project_id:
+    - g0vdathon
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+09CTF:
+  title: #CivicTechFest公民科技週
+  description: 世界公民科技週為一週的系列活動，由OCF舉辦，與超過10個國際組織/聯盟串聯，並與國內外團體舉辦超過9場各類型活動，包括研討會、論壇、工作坊、訓練營、黑客松、相關會議。
+  month: 9
+  start: 9/10
+  end: 9/17
+  link:
+    - title: 活動網站
+      url: http://civictechfest.org/
+  cover: /p/2017/intl/09CivicTechFest.jpg
+  contributor_id:
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0910OGR:
+  title: 開放政府觀察報告發表會
+  description: 《開放政府觀察報告 2014-2016》回顧並檢視了台灣 2014-2016 年「開放政府」的發展狀況。透過現況整理，我們將試圖呈現「開放政府」這個概念下可能涵蓋的幾個面向與其內涵，並點出發展過程中可能有的問題與未來挑戰。我們期望這份報告可以建立一個初步的檢視與討論的基礎，讓一般大眾可以容易地理解相關議題的爭議點，也讓議題推動者與政策制定者可以藉此進行更深入的分析、批判與政策倡議。9/10 發表會則是內容的首次發表。
+  month: 9
+  start: 9/10
+  end: 9/10
+  link:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/opengovreport
+  cover: /p/2017/intl/0910OGR release.JPG
+  contributor_id:
+    - afi;mglee;clkao;ttcat;huangfu;wumini
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0911CTF1:
+  title: TICTeC@Taipei
+  description: TICTeC@Taipei 是2017 世界公民科技週的主要活動，由開放文化基金會與英國知名公民科技組織 mySociety共同舉辦，更是第一次在亞洲舉辦，具有標誌性的意義。共有36國超過250位參與者，
+  month: 9
+  start: 9/11
+  end: 9/13
+  link:
+    - title: 成果網站
+      url: http://tictec.mysociety.org/taipei
+  cover: /p/2017/intl/0911TICTeC@Taipei.jpg
+  contributor_id:
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+    - mySociety
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0911CTF2:
+  title: Social Event & g0v Grant DEMO Party
+  description: #CivicTechFest的交流派對，不但有36國參與者一同閒聊深談，更有2017 年春季 g0v 公民科技創新獎助金的 7 件獲獎專案，與全球分享 6 個月來的開發成果！
+  month: 9
+  start: 9/11
+  end: 9/11
+  link:
+    - title: 現場照片
+      url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2012576215684971
+  cover: /p/2017/intl/0911DemoParty.jpg
+  contributor_id:
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0914CTF3:
+  title: CfAll Summit 全球公民科技聯盟年度會議
+  description: Code for All是以科技促進資訊透明、民主參與、政府再造的全球重要網絡之一，台灣g0v作為聯盟會員，與法人夥伴開放文化基金會一起舉辦在台北召開的年度大會，共有來自全球16個會員及夥伴組織共48人參與。會議中於各項討稐後成立六個工作小組，並且由台灣擔任交換計畫負責組織，且正式加入新組成的執行委員定期會議。
+  month: 9
+  start: 9/14
+  end: 9/14
+  link:
+    - title: 現場照片
+      url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2006034489672477
+  cover: /p/2017/intl/0914CfAllSummit.jpg
+  contributor_id:
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+    - Code fo for All / NDI
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0915CTF4:
+  title: NGOs 資料實戰營 
+  description: 不會寫程式也沒有相關分析背景，只能被動接受媒體、長官、前輩的經驗談或是分析結論嗎？是否有方法可以上手資料分析，讓自己也能透過資料驗證經驗、透過資料探索出新觀點、進而運用資料創造價值呢？相信在數位的時代，非政府組織資料處理能力的提升，能讓NGOs在倡議及公民教育工作上更精進，也有助於台灣公民社會進一步進行民主深化。
+  month: 9
+  start: 9/15
+  end: 9/15
+  link:
+    - title: 現場照片
+      url: https://www.facebook.com/media/set/?set=a.2000335226909070.1073741844.1502561953353069&type=1&l=b9ca7bc8a3
+  cover: /p/2017/intl/0915DataBootcamp.jpg
+  contributor_id:
+    - afi;singsing;hungfu;pellaeon
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+    - 開拓文教基金會、資料科學年會
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0916g0vjothon:
+  title: 台灣零時政府五週年黑客松
+  description: 恭喜g0v hackathon(黑客松) 辦理邁入第五年，村長也又老了五歲！從工程師起頭，如今g0v捲動著設計師、人類學家、歷史學家、法律人、農業專門、公務員….等等等各行各業的人，一同在每兩個月的黑客松推坑&填坑，繼續想著如何用科技和程式改造社會。
+  month: 9
+  start: 9/16
+  end: 9/16
+  link:
+    - title: 報名頁面
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath26n
+  cover: 
+  contributor_id:
+    - ttcat
+  project_id:
+    - g0vdathon
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0916CTF5:
+  title: Wikimedia Taiwan 十週年研討會
+  description: Wikimedia Taiwan 十週年研討會是中華民國維基媒體協會成立十週年的回顧，本活動廣邀過去的社群成員、學界研究者、合作伙伴，以及關心開放文化的朋友，一同來了解協會現在已經完成的成果，同時想像未來十年需要共同努力的願景。
+  month: 9
+  start: 9/16
+  end: 9/17
+  link:
+    - title: 活動資訊及議程
+      url: https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/10th_anniversary/Anniversary
+  cover: /p/2017/intl/0916wiki.jpg
+  contributor_id:
+    - pellaeon
+  project_id:
+    - intl
+  label:
+  organizer_id:
+    - WikiMedia Taiwan
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0919ngogroup:
+  title: NGO 資安討論小聚 #2
+  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。
+  month: 9
+  start: 9/19
+  end: 9/19
+  link:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/ngo-infosec-2
+  cover: 
+  contributor_id:
+    - pellaeon
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0924intltrip:
+  title: 海外參訪 - Code for Japan Summit
+  description: 與g0v同為全球公民科技聯盟會員，Code for Japan年度會議特別邀請副執行長吳銘軒前往演講，並即時視覺摘要讓群眾了解台灣公民科技運動。
+  month: 9
+  start: 9/24
+  end: 09/25
+  link:
+    - title: 
+      url: 
+  cover: /p/2017/intl/0924CodeforJapan.jpg
+  contributor_id:
+    - ttcat
+  project_id:
+    - intl
+  label:
+  organizer_id:
+    - Code for Japan
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1001OGrP:
+  title: 開放政府在地方的可能 ─ 台南
+  description: 開放政府觀察報告發表後，兩位研究員受台南新芽邀請，至台南進行針對此觀察報告及開放政府相關推動的分享會
+  month: 10
+  start: 10/1
+  end: 10/01
+  link:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/ogr-tainan
+  cover: 
+  contributor_id:
+    - afi;mglee
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1015CCTW:
+  title: 給 Maker 的開放授權快速上手
+  description: 講者：Irvin。想要在專案中使用網路上的素材或軟體，卻擔心違法？也想分享自己的作品，卻不希望被他人任意盜用？開放授權可以幫得上忙。我們將分享常見的自由軟體與素材授權條款，讓你不懂艱深的法律，也可以簡單暢意的分享。
+  month: 10
+  start: 10/15
+  end: 10/15
+  link:
+    - title: 活動說明
+      url: https://www.facebook.com/events/290257964822846/
+  cover: 
+  contributor_id:
+    - rock
+  project_id:
+    - CCTW
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1020ngogroup:
+  title: NGO 資安討論小聚 #3
+  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。
+  month: 10
+  start: 10/20
+  end: 
+  link:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/ngo-infosec-3
+  cover: 
+  contributor_id:
+    - pellaeon
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1023coconet:
+  title: 海外參訪 COCONET：Southeast Asia Digital Rights Camp
+  description: 
+  month: 10
+  start: 10/23
+  end: 10/27
+  link:
+    - title: 
+      url: 
+  cover: 
+  contributor_id:
+    - ttcat
+  project_id:
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1111BSDTW:
+  title: BSDTW 2017
+  description: 
+  month: 11
+  start: 11/11
+  end: 11/12
+  link:
+    - title: 
+      url: 
+  cover: 
+  contributor_id:
+    - singing
+    - huangfu
+  project_id:
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1107CCTW:
+  title: 創用CC和作品保護的WinWin
+  description: 講者：宮薏婷，介紹創用CC的概念、授權的種類與使用的方式、強調分享作品後續的保障、共享的優點、解說常見問題與疑慮
+  month: 11
+  start: 11/7
+  end: 11/7
+  link:
+    - title: 
+      url: 
+  cover: 
+  contributor_id:
+    - rock
+    - singing
+  project_id:
+    - CCTW
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1202CONCOM:
+  title: CONCOM x OCF 2017
+  description: CONCOM (CONference for open COMmunities) 是以FLOSS 社群經營與研討會籌備者為主的聚會，希望能創造一個交流與探索空間，將平時組織遇到的困難與需求提出與討論，讓具有資源的社群能將活動企劃想法、活動規劃文件、活動公開資源分享出來，希望各社群夥伴們長期累積的活動籌辦經驗、組織經營心得可以互相交流與分享，一同讓 FLOSS 社群的力量可以協力擴展。
+  month: 12
+  start: 12/2
+  end: 12/2
+  link:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/concom2017
+  cover: 
+  contributor_id:
+    - singing
+    - huangfu
+    - rock
+    - lulukeng
+  project_id:
+    - admin
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1114ngogroup:
+  title: NGO 資安討論小聚 #4
+  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。本次討論瀏覽器使用的安全：「未信任的憑證簽發者」是什麼意思？、「Facebook 為什麼好像都知道我喜歡什麼？」、「瀏覽器網址列的鎖頭是什麼意思？」
+  month: 11
+  start: 11/14
+  end: 
+  link:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/ngo-infosec-4
+  cover: 
+  contributor_id:
+    - pellaeon
+  project_id:
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1219ngogroups:
+  title: NGO 資安討論小聚 #5
+  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。即時通訊軟體安全性大比較，為什麼有些即時通訊軟體不安全？有什麼判斷準則？什麼是端到端加密？ (end-to-end encryption)、有什麼符合我的需求的安全通訊軟體？安全的網路電話和文字訊息軟體：Signal 註冊、安裝、使用、驗證對方
+  month: 12
+  start: 12/19
+  end: 
+  link:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/ngo-infosec-5
+  cover: 
+  contributor_id:
+    - pellaeon
+  project_id:
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
   banner: 
   avatar: 
