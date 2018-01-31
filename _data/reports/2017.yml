@@ -60,17 +60,8 @@ items:
         description: 與社群資深開發者合作，建構務實並具有前瞻性的學習環境，培養更多擁有開發能力的人才，為開源社群注入新的活力。
         items:
           - project_id: sysprogram
-          - project_id: Gcoin
-          - title: G-coin 區塊鏈計畫
-            description: 由臺大金融科技暨區塊鏈中心廖世偉教授帶領學生打造兼顧安全性、效率性、低維護成本的 Gcoin 開源區塊鏈協議交易平台，致力於發展開放的數位金融基礎建設。廖老師除了栽培青年學子參與開源專案開發之外，也投身各大金融業者的區塊鏈教育訓練。
-            action:
-              title: Gcoin 開源區塊鏈協議交易平台
-              url: https://github.com/OpenNetworking/gcoin-community
-          - title: 系統軟體走向國際
-            description: 秉持「為納稅人而教」的使命，jserv 親身帶領學生投入開放原始碼專案的開發，在自由的環境裡將創造力極大化。
-        action: 
-          title: 看更多成果
-          url: http://v0.ocf.tw/donate/sysprog-incubation.html#/tab-4 
+          - project_id: gcoin
+          - title: Xschool
   - type: header
     title: 組織合作
     anchor: orgnization
@@ -218,12 +209,11 @@ items:
       - type: slider
         slides:
           - url: /p/2017/intl/report-OGR_3.jpg
-          - url: /p/2017/intl/report-OGR _1.jpg
+          - url: /p/2017/intl/report-OGR_1.jpg
           - url: /p/2017/intl/report-OGR_2.jpg
-          - url: /p/2017/intl/report-OGR _4.jpg
-          - url: /p/2017/intl/report-OGR _6.jpg
+          - url: /p/2017/intl/report-OGR_6.jpg
           - url: /p/2017/intl/report-OGR_7.jpg
-          - url: /p/2017/intl/report-OGR _5.jpg
+          - url: /p/2017/intl/report-OGR_5.jpg
         swap: true
       - type: article
         title: 開放政府觀察報告2014-2016
