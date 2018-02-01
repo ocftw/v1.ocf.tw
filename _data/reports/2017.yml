@@ -61,6 +61,15 @@ items:
           - project_id: sysprogram
           - project_id: gcoin
           - title: Xschool
+  - type: content
+    columns:
+      - type: image
+        url: /p/2017/concom/concom2017.jpg
+        swap: true
+      - type: article
+        title: CONCOM x OCF 2017 — 串連社群，經驗共享
+        subtitle: 
+        description: 舉辦以 FLOSS 社群經營與研討會籌備者為主的聚會，創造交流與探索的空間，讓各社群夥伴們長期累積的活動籌辦經驗、組織經營心得等資源公開分享，一同讓 FLOSS 社群的力量可以協力擴展。
   - type: header
     title: 組織合作
     anchor: orgnization
