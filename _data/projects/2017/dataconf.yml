@@ -1,0 +1,29 @@
+name: DataCon.TW 2017
+name_en: DataCon.TW 2017
+abbr: 
+tagline: 9th Hadoop.TW annual conference
+month: 9
+start: 9/10
+link:
+  - title: 活動網站
+    url: http://2017.datacon.tw/
+tag:
+  - 大型活動
+type_id:
+  - community
+topic_id:
+  - data
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - datacon
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - rock
+consultant_id:
+volunteer_id:
+coordinator_id:
