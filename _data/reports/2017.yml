@@ -10,7 +10,7 @@ items:
     anchor: community
     icon: hand rock
     background_color: olive
-    description: 2017 年 OCF 共協助 ? 場研討會、? 項社群營運計畫與 ? 項校園人才培育計畫，給予社群法人行政的後勤支援，讓社群能更專注於開源理念的推廣與活絡。
+    description: 2017 年 OCF 共協助 7 場大型社群活動、 9 項社群營運計畫與 3 項校園人才培育計畫，給予社群法人行政的後勤支援，讓社群能更專注於開源理念的推廣與活絡。
   - type: content
     columns:
       - type: image
@@ -24,12 +24,10 @@ items:
           - project_id: sitcon
           - project_id: pycon
           - project_id: coscup
-          - project_id: sitconcamp
           - project_id: sotm
-          - project_id: dataconf
+          - project_id: datacon
           - project_id: jcconf
           - project_id: bsdtw
-          - project_id: concom
   - type: content
     columns:
       - type: image
@@ -41,14 +39,14 @@ items:
         description: 支援從贊助金流代管發展而出的各種社群營運專案，常態性的長期經營是延續並維持開源發展能量一大要務。
         items:
           - project_id: g0vdathon
-          - project_id: osmtw
-          - project_id: osln
-          - project_id: hcsm
           - project_id: otspace
-          - project_id: opensuse
-          - project_id: sa
-          - project_id: chewingim
           - project_id: osmtw
+          - project_id: opensuse
+          - project_id: openstack
+          - project_id: chewingim
+          - project_id: osln
+          - project_id: openhackfarm
+          - project_id: hcsm
   - type: content
     columns:
       - type: image
@@ -59,6 +57,7 @@ items:
         subtitle: 
         description: 與社群資深開發者合作，建構務實並具有前瞻性的學習環境，培養更多擁有開發能力的人才，為開源社群注入新的活力。
         items:
+          - title: SITCON 夏令營 2017
           - project_id: sysprogram
           - project_id: gcoin
           - title: Xschool
@@ -168,42 +167,6 @@ items:
          - title: APRIGF 亞太網路治理論壇
          - title: COCONET Southeast Asia Digital Rights Camp 2017 印尼
          - title: Code for Japan Summit 2017 神戶      
-  - type: header
-    title: 顧問諮詢
-    anchor: consulting
-    icon: idea
-    background_color: blue
-    description: 秉持開源的精神，不吝分享開放文化理念並貫徹知識自由傳播。
-  - type: content
-    columns:
-      - type: image
-        url: /p/2016/charityreport/charity-report.png
-        swap: true
-      - type: article
-        title: 自然人憑證
-        subtitle: 
-        description: 促進民間自主開發自然人憑證在跨平台上的自由應用。
-        action: 
-         title: 相關報導
-         url: https://rocket.cafe/talks/84456
-        action: 
-         title: <i class="github icon"></i> Source Code
-         url: https://github.com/orsonwang/Taiwan_CDC_RI
-  - type: content
-    columns:
-      - type: image
-        url: /p/2016/osln/og4x3.png
-        swap: false
-      - type: article
-        title: 晶片國民身分證
-        subtitle: 
-        description: 
-  - type: header
-    title: 政策倡議
-    anchor: initiative
-    icon: announcement
-    background_color: violet
-    description: 遊說政府機關與民間企業將開放、自由的精神納入服務之中，讓台灣的各類基礎建設可不被綁定在特定軟/硬體之中。
   - type: content
     columns:
       - type: slider
@@ -226,21 +189,15 @@ items:
         action:
           title: 開放政府觀察報告線上看
           url: https://opengovreport.ocf.tw/#tab-0
-  - type: header
-    title: g0v.news
-    anchor: initiative
-    icon: announcement
-    background_color: violet
-    description: 以中英雙語報導國際與台灣公民科技局勢，聚焦各地社群發展
   - type: content
     columns:
       - type: image
         url: /p/2016/admin/pexels-CC0photo-ideas.jpeg
         swap: false
       - type: article
-        title: 
+        title: g0v.news
         subtitle: 
-        description: 
+        description: 以中英雙語報導國際與台灣公民科技局勢，聚焦各地社群發展
         items:
           - title: 專題> 黑客公務員的血汗之路
           - title: 週報> 每週七則全球公民科技精彩案例
