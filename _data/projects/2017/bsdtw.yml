@@ -1,0 +1,37 @@
+name: BSDTW 2017
+name_en: BSDTW 2017
+abbr: BSDTW 2017
+tagline: 
+cover: /p/2017/bsdtw/og.png
+description:
+month: 11
+start: 11/11
+end: 11/12
+link:
+  - title: 專案介紹
+    url: /p/2017/bsdtw
+    target: _self
+tag:
+  - 大型研討會
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - bsdtw
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+  - huangfu
+consultant_id:
+volunteer_id:
+coordinator_id:
+
