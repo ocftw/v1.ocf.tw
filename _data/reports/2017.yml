@@ -25,8 +25,8 @@ items:
           - project_id: pycon
           - project_id: coscup
           - project_id: sotm
-          - project_id: datacon
           - project_id: jcconf
+          - project_id: datacon
           - project_id: bsdtw
   - type: content
     columns:
@@ -57,7 +57,7 @@ items:
         subtitle: 
         description: 與社群資深開發者合作，建構務實並具有前瞻性的學習環境，培養更多擁有開發能力的人才，為開源社群注入新的活力。
         items:
-          - title: SITCON 夏令營 2017
+          - project_id: sitconcamp
           - project_id: sysprogram
           - project_id: gcoin
           - title: Xschool
