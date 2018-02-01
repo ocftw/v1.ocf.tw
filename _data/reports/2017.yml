@@ -14,7 +14,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/coscup/coscup2016.jpg
+        url: /p/2017/pycon/pycon2017.jpg
         swap: false
       - type: article
         title: 大型活動 — 互動交流
@@ -31,7 +31,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/g0vdathon/20n.jpg
+        url: /p/2017/openhackfarm/og.jpg
         swap: true
       - type: article
         title: 社群營運 — 維持能量，成長茁壯
@@ -50,10 +50,10 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/sysprogram/class.jpg
+        url: /p/2017/sitcon/sitconcamp2017.jpg
         swap: false
       - type: article
-        title: 校園推廣 — 建構基礎
+        title: 青年培訓 — 打造人才基礎
         subtitle: 
         description: 與社群資深開發者合作，建構務實並具有前瞻性的學習環境，培養更多擁有開發能力的人才，為開源社群注入新的活力。
         items:
