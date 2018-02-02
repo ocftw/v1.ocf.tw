@@ -305,9 +305,7 @@ items:
         logo_height: 12rem
         logos:
           - org_id: archilife
-  - type: content
-    columns:
-      - type: article
-        action: 
-          title: 捐款徵信
-          url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
+  - type: article
+    action: 
+      title: 更多捐款徵信
+      url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
