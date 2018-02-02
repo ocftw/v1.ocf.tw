@@ -98,31 +98,60 @@ items:
         description: 台灣創用 CC 計畫即將階段性任務結束，OCF 承接了 CC Taiwan 的理念，協助在計畫結束之後，建立 CC 台灣社群的網站，繼續和 CC 總部保持聯繫，並繼續在台灣的推廣工作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，長存更多國內外的自由文化社群中。
         items:
           - project_id: cctw
-  - type: header
-    title: 跨國交流
-    anchor: overseas
-    icon: plane
-    background_color: teal
-    description: 鼓勵青年學子勇闖國際開源大講台，發表開源成果與拓展國際視野；建立本地社群與國際社群的連結，催生相互認識與合作的機會，追蹤全球公民科技的新趨勢。
   - type: content
     columns:
       - type: slider
         slides:
-          - url: /p/2017/intl/0911TICTeC@Taipei.jpg
-          - url: /p/2016/intl/visit_2.jpg
+          - url: /p/2017/intl/report-CfAll_1.jpg
+          - url: /p/2017/intl/report-CfAll_2.jpg
+        swap: false
+      - type: article
+        title: Code for All 全球公民科技聯盟
+        subtitle: 
+        description: 2017年 9 月「Code for All Summit年度會議」在台北召開後，開放文化基金會以正式會員g0v之法人夥伴的身分，加入聯盟執行委員會一同處理全球相關事務，並擔任CfAll國際交換獎助金計畫執行者。
+        action: 
+         title: 國際交換獎助金計畫
+         url: https://hackmd.io/s/rJyRy6Jzz
+  - type: content
+    columns:
+      - type: image    
+        url: /p/2017/intl/2017 CSCS-r.jpg
+        swap: true
+      - type: article
+        title: 資安暨隱私推廣計畫
+        subtitle: 
+        description: 與臺灣的科技/資安社群、亞洲人權團體、國際相關組織合作，串聯以往較少交流的資安社群和社運工作者，為亞洲第一線人權工作者及NGO特別設計的資安培訓計畫。
+        items:
+         - title: Civil Society Cyber Shield 東亞及華人社群人權工作者資安隱私保護工作坊
+         - title: 資安小聚
+         - title: 東南亞資訊安全防護與隱私保護培訓
+         - title: 資安教材資源入口網站     
+  - type: header
+    title:國際交流
+    anchor: overseas
+    icon: plane
+    background_color: teal
+    description: 建立本地社群與國際社群的連結，催生相互認識與合作的機會，與全球公民科技新趨勢一同前進。
+  - type: content
+    columns:
+      - type: slider
+        slides:
+          - url: /p/2017/intl/report-CTF_1.jpg
+          - url: /p/2017/intl/report-CTF_2.jpg
+          - url: /p/2017/intl/report-CTF_3.jpg
+          - url: /p/2017/intl/report-CTF_4.jpg
         swap: true
       - type: article
         title: CivicTechFest 世界公民科技週
         subtitle: 
-        description: 2017年9月10日-16日，串聯國內外社群，舉辦為期一週的亞洲第一次公民科技大會
+        description: 2017年9月10日-16日，串聯國內外社群，舉辦為期一週的亞洲第一次公民科技大會，其中TICTeC@Taipei為與英國團體mySociety合作的主要活動，也是TICTeC首次在亞洲舉辦。
         items:
-         - title: 2017開放街圖研討會(SotM Taiwan)
-         - title: 「開放政府觀察報告2014~2016」發表會
-         - title: g0v公民科技獎助金-2017年春季發表會
          - title: TICTeC@Taipei 公民科技動能推升研討會
-         - title: Creative Workshop
+         - title: 2017開放街圖研討會(SotM Taiwan)
+         - title: g0v公民科技獎助金-2017年春季發表會
+         - title: Creative Workshop w/ODN & OGPtoolbox
          - title: NGOs Data Bootcamp 資料實戰營
-         - title: 2017 國際資料經濟高峰會《2017 International Data Economy Summit》
+         - title: 2017 國際資料經濟高峰會
          - title: g0v 台灣零時政府五週年黑客松
          - title: Wikimedia Taiwan 十週年研討會
         action: 
@@ -132,49 +161,23 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2017/intl/0914CfAllSummit.jpg
-          - url: /p/2016/intl/youth_2.jpg
-        swap: false
-      - type: article
-        title: Code for All 全球公民科技聯盟
-        subtitle: 
-        description: 2017年 9 月「Code for All 年度會議」在台北召開後，開放文化基金會以正式會員g0v之法人夥伴的身分，加入聯盟執行委員會一同處理全球相關事務。
-        action: 
-         title: 國際交換獎助金計畫
-         url: https://hackmd.io/s/rJyRy6Jzz
-  - type: content
-    columns:
-      - type: slider    
-        slides:
-          - url: /p/2017/intl/2017 CSCS-r.jpg
-          - url: /p/2016/intl/delegation_2.jpg
-        swap: true
-      - type: article
-        title: 資安暨隱私推廣計畫
-        subtitle: 
-        description: 與臺灣民主基金會、華人民主書院、台灣人權促進會、台灣駭客協會合作，於5月在台北舉行，首次結合資安專家及東南亞NGO，特別為第一線人權工作者設計的資安工作坊。
-        items:
-         - title: Civil Society Cyber Shield 東亞及華人社群人權工作者資安隱私保護工作坊
-         - title: 資安小聚
-         - title: 東南亞資訊安全防護與隱私保護培訓
-         - title: 資安教材資源入口網站     
-  - type: content
-    columns:
-      - type: slider
-        slides:
-          - url: /p/2017/intl/2017.04 TICTeC-r.jpg
-          - url: /p/2016/intl/sharing_3.jpg
+          - url: /p/2017/intl/report-intlmeeting_1.jpg
+          - url: /p/2017/intl/report-intlmeeting_2.JPG
+          - url: /p/2017/intl/report-intlmeeting_3.JPG
+          - url: /p/2017/intl/report-intlmeeting_4.JPG
+          - url: /p/2017/intl/report-intlmeeting_5.JPG
         swap: false
       - type: article
         title: 出訪交流
         subtitle: 
-        description: 籌辦多次公民科技參訪團，廣邀公民團體與社群參加，積極建立國際網絡
+        description: 籌辦多次公民科技參訪團出席國際會議，廣邀公民團體與社群參加，積極建立國際網絡
         items:
          - title: RightsCon 2017 布魯塞爾
          - title: TICTeC 2017 佛羅倫斯
          - title: Datensummit 2017 柏林
-         - title: APRIGF 亞太網路治理論壇
-         - title: COCONET Southeast Asia Digital Rights Camp 2017 印尼
+         - title: PDF NYC 2017 紐約
+         - title: APRIGF 亞太網路治理論壇 曼谷
+         - title: COCONET Southeast Asia Digital Rights Camp 2017 日惹
          - title: Code for Japan Summit 2017 神戶      
   - type: content
     columns:
@@ -182,15 +185,15 @@ items:
         slides:
           - url: /p/2017/intl/report-OGR_1.jpg
           - url: /p/2017/intl/report-OGR_2.jpg
-          - url: /p/2017/intl/report-OGR_3.jpg
+          - url: /p/2017/intl/report-OGR _3.jpg
           - url: /p/2017/intl/report-OGR_4.jpg
         swap: true
       - type: article
         title: 開放政府觀察報告2014-2016
         subtitle: 
-        description: 由開放文化基金會研究員李梅君、曾柏瑜，為期一年的資料蒐集、訪談、分析研究，完成中英文版本的「開放政府觀察報告2014-2016」，於2017年9月首發表。
+        description: 由開放文化基金會研究員李梅君、曾柏瑜，進行為期一年的資料蒐集、訪談、分析研究，完成中英文版本的臺灣「開放政府觀察報告2014-2016」，於2017年9月首發表。
         items:
-          - title: 「開放政府觀察報告2014~2016」發表會 @教師會館，
+          - title: 「開放政府觀察報告2014~2016」首發表會 @教師會館，
           - title: TICTeC@Taipei 發表 @ TICC
           - title: 開放政府在地方的可能－台南 @台南新芽演講廳
         action:
@@ -199,7 +202,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/admin/pexels-CC0photo-ideas.jpeg
+        url: /p/2017/intl/report-g0v.news.jpg
         swap: false
       - type: article
         title: g0v.news
