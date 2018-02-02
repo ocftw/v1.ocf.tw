@@ -180,12 +180,10 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2017/intl/report-OGR_3.jpg
           - url: /p/2017/intl/report-OGR_1.jpg
           - url: /p/2017/intl/report-OGR_2.jpg
-          - url: /p/2017/intl/report-OGR_6.jpg
-          - url: /p/2017/intl/report-OGR_7.jpg
-          - url: /p/2017/intl/report-OGR_5.jpg
+          - url: /p/2017/intl/report-OGR_3.jpg
+          - url: /p/2017/intl/report-OGR_4.jpg
         swap: true
       - type: article
         title: 開放政府觀察報告2014-2016
