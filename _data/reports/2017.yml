@@ -31,7 +31,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2017/openhackfarm/og.jpg
+        url: /p/2017/openhackfarm/ohf_report_cover.png
         swap: true
       - type: article
         title: 社群營運 — 維持能量，成長茁壯
@@ -78,10 +78,8 @@ items:
     description: 與政府部門、國際組織跨界合作，共同發揚開放文化的精神，促成與國內外開放社群協力的機會。
   - type: content
     columns:
-      - type: slider
-        slides:
-         - url: /p/2016/admin/ndc-it-managers-2016.jpg
-         - url: /p/2016/admin/ndc-it-managers-2016.jpg-3.jpg
+      - type: image
+        url: /p/2017/admin/iii_opensource.jpg
         swap: true
       - type: article
         title: 資策會 — 開源社群推薦
@@ -270,7 +268,7 @@ items:
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=963993401&format=interactive
         height: 20rem
         title: 2017 年度 OCF 收入
-        description: blablabla..
+        description: 行政中心 000,000 <br/> 國際交流 000,000 <br/>
         scrolling: "no"
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=495996187&format=interactive
