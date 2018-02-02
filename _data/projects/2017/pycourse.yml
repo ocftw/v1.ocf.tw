@@ -1,0 +1,31 @@
+name: PyCourse
+name_en: PyCourse
+abbr: PyCourse
+tagline: 
+cover: 
+description: PyCourse 是台灣 Python 社群自主舉辦的程式語言教學活動，歡迎各界愛好者來學習、也練習當講師。
+link:
+  - title: 專案首頁
+    url: https://pycourse.kktix.cc/
+tag:
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - pycon
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+  - pofeng
+staff_id:
+  - rock
+consultant_id:
+volunteer_id:
+coordinator_id:
+
