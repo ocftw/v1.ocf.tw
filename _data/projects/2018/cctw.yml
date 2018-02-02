@@ -1,0 +1,34 @@
+name: 台灣創用 CC 計畫
+name_en: Creative Commons Taiwan
+abbr: 
+tagline: 
+cover: /p/2016/cctw/og.png
+description: Creative Commons 所提供的公眾授權條款，台灣稱為「創用 CC」授權條款，取其授權方式便於著作的「創」作與使「用」之意。開放文化基金會從 2015 年開始與台灣創用 CC 計畫合作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，能接觸更多國內外的自由文化社群。 
+month: 
+start: 
+end: 
+link:
+  - title: 官方網站
+    url: http://creativecommons.tw/
+tag:
+  - 
+type_id:
+  - organization
+topic_id:
+  - data
+field_id:
+  - legal
+advisor_id:
+organizer_id:
+  - cctw
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id:
+  - singing
+  - rock
+consultant_id:
+volunteer_id:
+coordinator_id:
+  - lucien

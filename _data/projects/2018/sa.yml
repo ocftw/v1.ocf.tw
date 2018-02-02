@@ -1,0 +1,41 @@
+name: Study area 酷!學園
+cover: /p/2016/sa/og.jpg
+description: 酷學園（Study-Area）於 2000 年由 Netman 創立，鳥哥、梁楓、ZMAN、jou、sakana 等 Linux 界知名人物幾乎都常駐在此與網友切磋、討論技術問題。SA 希望可以幫助一些初入資訊領域的朋友從基礎學起，嘗試用深入淺出的敘述，將一些資訊基礎知識帶給讀者自己去思考和創造，歡迎各位一同支持 SA 社群的營運及推廣活動。
+link:
+  - title: 贊助社群
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=19
+  - title: 參與聚會
+    url: http://studyarea.kktix.cc/
+
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+
+tagline: 
+avatar: 
+
+organizer_id:
+  - sa
+advisor_id:
+co-organizer_id:
+implementer_id:
+sponsor_id:
+coordinator_id:
+donors:
+meta:
+
+start: 
+end: 
+tag:
+abbr: 
+month: 
+
+name_en: Study-Area
+board_id:
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:

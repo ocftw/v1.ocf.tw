@@ -1,0 +1,30 @@
+name: OpenStack Taiwan User Group
+name_en: OpenStack Taiwan User Group
+abbr:
+tagline: 
+cover: /p/2017/openstack/og.jpeg
+description: OpenStack Taiwan User Group 是由台灣 OpenStack 使用者與開發者們共同創立的公開性社團，OpenStack Taiwan User Group 致力於提供一個最好的技術交流場所，並利用 Meetup 定期在各台灣地區舉辦技術與推廣分享活動。
+month: 
+link:
+  - title: 贊助社群
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=29
+tag:
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - openstacktw
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+meta:

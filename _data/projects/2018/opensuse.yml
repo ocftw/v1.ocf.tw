@@ -1,0 +1,39 @@
+name: openSUSE Taiwan
+cover: /p/2016/opensuse/og.png
+description: openSUSE 是基於 Linux 的開源作業系統，適合初學者、有經驗的使用者以及超級技客。正體中文社群創立於 2011 年，協助翻譯 Release notes 與 Wiki 條目、舉辦 Release Party 與 InstallFest 等活動。
+link:
+  - title: 贊助社群
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=17
+  - title: 官方網站
+    url: https://zh-tw.opensuse.org
+  - title: 參加聚會
+    url: http://opensuse-tw.kktix.cc/
+
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+tagline: 
+avatar: 
+organizer_id:
+  - opensuse
+advisor_id:
+co-organizer_id:
+implementer_id:
+sponsor_id:
+coordinator_id:
+donors:
+meta:
+start: 
+end: 
+tag:
+abbr: 
+month: 
+name_en: openSUSE Taiwan
+board_id:
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
