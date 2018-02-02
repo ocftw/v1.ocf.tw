@@ -17,7 +17,7 @@ field_id:
   - it
 advisor_id:
 organizer_id:
-  - pycon
+  - pycourse
 co-organizer_id:
   - ocf
 implementer_id:
