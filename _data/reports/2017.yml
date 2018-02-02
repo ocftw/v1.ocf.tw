@@ -258,21 +258,6 @@ items:
         title: 感謝超級熱血志工
         subtitle: 
         description: 感謝 ETBlue, ipa, marr, Muka, poga, yayard, 雁子, Civic Tech Fest 志工群, CONCOM 志工群等許多強大的志工，這一年來陪著 OCF 到處出任務！ 
-  - type: content
-    columns:
-      - type: article
-        swap: true
-        logo_height: 7rem
-        logos:
-          - org_id: hct
-          - org_id: archilife
-      - type: article
-        title: 感謝贊助夥伴
-        subtitle: 
-        description: 感謝RC 文化藝術基金會、祐生基金會的年度計畫贊助支持，以及各企業夥伴在每項計畫活動上的相助，更感激每一位朋友的涓滴善款，讓我們有滿滿的動力共同興盛開放文化。
-        action: 
-          title: 捐款徵信
-          url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
   - type: header
     title: 財務報告
     anchor: finance
@@ -305,3 +290,20 @@ items:
         action:
           title: Donate
           url: https://ocf.tw/p/
+  - type: header
+    title: 贊助夥伴
+    anchor: sponser
+    description: 感謝RC 文化藝術基金會、祐生基金會的年度計畫贊助支持，以及各企業夥伴在每項計畫活動上的相助，更感激每一位朋友的涓滴善款，讓我們有滿滿的動力共同興盛開放文化。
+      - type: article
+        swap: false
+        logo_height: 7rem
+        logos:
+          - org_id: hct
+          - org_id: rc
+      - type: article
+        title: 感謝贊助夥伴
+        subtitle: 
+        description: 
+        action: 
+          title: 捐款徵信
+          url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
