@@ -294,6 +294,8 @@ items:
     title: 贊助夥伴
     anchor: sponser
     description: 感謝RC 文化藝術基金會、祐生基金會的年度計畫贊助支持，以及各企業夥伴在每項計畫活動上的相助，更感激每一位朋友的涓滴善款，讓我們有滿滿的動力共同興盛開放文化。
+  - type: content
+    columns:
       - type: article
         swap: false
         logo_height: 7rem
