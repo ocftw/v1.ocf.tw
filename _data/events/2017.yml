@@ -1063,31 +1063,6 @@
   speaker_id:
   banner: 
   avatar: 
-0919ngogroup:
-  title: NGO 資安討論小聚 #2
-  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。
-  month: 9
-  start: 9/19
-  end: 9/19
-  link:
-    - title: 報名頁面
-      url: https://ocftw.kktix.cc/events/ngo-infosec-2
-  cover: 
-  contributor_id:
-    - pellaeon
-  project_id:
-    - intl
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0924intltrip:
   title: 海外參訪 - Code for Japan Summit
   description: 與g0v同為全球公民科技聯盟會員，Code for Japan年度會議特別邀請副執行長吳銘軒前往演講，並即時視覺摘要讓群眾了解台灣公民科技運動。
@@ -1123,7 +1098,7 @@
   link:
     - title: 報名頁面
       url: https://ocftw.kktix.cc/events/ogr-tainan
-  cover: 
+  cover: /p/2017/intl/0924CodeforJapan.jpg
   contributor_id:
     - afi;mglee
   project_id:
@@ -1164,44 +1139,20 @@
   speaker_id:
   banner: 
   avatar: 
-1020ngogroup:
-  title: NGO 資安討論小聚 #3
-  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。
-  month: 10
-  start: 10/20
-  end: 
-  link:
-    - title: 報名頁面
-      url: https://ocftw.kktix.cc/events/ngo-infosec-3
-  cover: 
-  contributor_id:
-    - pellaeon
-  project_id:
-    - intl
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 1023coconet:
   title: 海外參訪 COCONET：Southeast Asia Digital Rights Camp
-  description: 
+  description: 針對東南亞，強調區域串聯和合作的數位人權共識營，活動由來自不同國家的團體共同設計，包括印尼、馬來西亞、泰國、緬甸、柬埔寨，此次舉辦吸引各地100人參與，背景多元涵蓋人權工作者、女權工作者、資安講師、紀錄片導演、媒體、藝術家等。活動多以unconference形式進行，促進多方充分討論和意見交換。
   month: 10
   start: 10/23
   end: 10/27
   link:
     - title: 
       url: 
-  cover: 
+  cover: p/2017/intl/1023 coconet.jpg
   contributor_id:
     - ttcat
   project_id:
+    - intl
   label:
   organizer_id:
   advisor_id:
@@ -1281,54 +1232,6 @@
     - lulukeng
   project_id:
     - admin
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-1114ngogroup:
-  title: NGO 資安討論小聚 #4
-  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。本次討論瀏覽器使用的安全：「未信任的憑證簽發者」是什麼意思？、「Facebook 為什麼好像都知道我喜歡什麼？」、「瀏覽器網址列的鎖頭是什麼意思？」
-  month: 11
-  start: 11/14
-  end: 
-  link:
-    - title: 報名頁面
-      url: https://ocftw.kktix.cc/events/ngo-infosec-4
-  cover: 
-  contributor_id:
-    - pellaeon
-  project_id:
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-1219ngogroups:
-  title: NGO 資安討論小聚 #5
-  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。即時通訊軟體安全性大比較，為什麼有些即時通訊軟體不安全？有什麼判斷準則？什麼是端到端加密？ (end-to-end encryption)、有什麼符合我的需求的安全通訊軟體？安全的網路電話和文字訊息軟體：Signal 註冊、安裝、使用、驗證對方
-  month: 12
-  start: 12/19
-  end: 
-  link:
-    - title: 報名頁面
-      url: https://ocftw.kktix.cc/events/ngo-infosec-5
-  cover: 
-  contributor_id:
-    - pellaeon
-  project_id:
   label:
   organizer_id:
   advisor_id:
