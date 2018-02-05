@@ -1021,7 +1021,7 @@
   link:
     - title: 報名頁面
       url: https://g0v-jothon.kktix.cc/events/g0v-hackath26n
-  cover: 
+  cover: /p/2017/intl/0916g0v5year_resized.jpg
   contributor_id:
     - ttcat
   project_id:
@@ -1098,7 +1098,7 @@
   link:
     - title: 報名頁面
       url: https://ocftw.kktix.cc/events/ogr-tainan
-  cover: /p/2017/intl/0924CodeforJapan.jpg
+  cover: /p/2017/intl/1001tainanOGR_resized.jpg
   contributor_id:
     - afi;mglee
   project_id:
@@ -1148,7 +1148,7 @@
   link:
     - title: 
       url: 
-  cover: p/2017/intl/1023 coconet.jpg
+  cover: /p/2017/intl/1023coconet.jpg
   contributor_id:
     - ttcat
   project_id:
