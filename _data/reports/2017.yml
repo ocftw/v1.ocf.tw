@@ -102,7 +102,7 @@ items:
         slides:
           - url: /p/2017/intl/report-CfAll_1.jpg
           - url: /p/2017/intl/report-CfAll_2.jpg
-        swap: false
+        swap: true
       - type: article
         title: Code for All 全球公民科技聯盟
         subtitle: 
@@ -114,7 +114,7 @@ items:
     columns:
       - type: image    
         url: /p/2017/intl/2017 CSCS-r.jpg
-        swap: true
+        swap: false
       - type: article
         title: 資安暨隱私推廣計畫
         subtitle: 
@@ -142,15 +142,13 @@ items:
       - type: article
         title: CivicTechFest 世界公民科技週
         subtitle: 
-        description: 2017年9月10日-16日，串聯國內外社群，舉辦為期一週的亞洲第一次公民科技大會，其中TICTeC@Taipei為與英國團體mySociety合作的主要活動，也是TICTeC首次在亞洲舉辦。
+        description: 2017年9月10日-16日，串聯國內外社群，舉辦為期一週的亞洲第一次公民科技大會，有36國171個組織超過269位參與者。
         items:
-         - title: TICTeC@Taipei 公民科技動能推升研討會
-         - title: 2017開放街圖研討會(SotM Taiwan)
-         - title: g0v公民科技獎助金-2017年春季發表會
+         - title: TICTeC@Taipei 公民科技動能推升研討會 w/mySociety
+         - title: g0v grant demo party / 五周年黑客松
          - title: Creative Workshop w/ODN & OGPtoolbox
          - title: NGOs Data Bootcamp 資料實戰營
          - title: 2017 國際資料經濟高峰會
-         - title: g0v 台灣零時政府五週年黑客松
          - title: Wikimedia Taiwan 十週年研討會
         action: 
           title: 活動網站
@@ -162,8 +160,8 @@ items:
           - url: /p/2017/intl/report-intlmeeting_1.jpg
           - url: /p/2017/intl/report-intlmeeting_2.JPG
           - url: /p/2017/intl/report-intlmeeting_3.JPG
-          - url: /p/2017/intl/report-intlmeeting_4.JPG
-          - url: /p/2017/intl/report-intlmeeting_5.JPG
+          - url: /p/2017/intl/report-intlmeeting_4.jpg
+          - url: /p/2017/intl/report-intlmeeting_5.jpg
         swap: false
       - type: article
         title: 出訪交流
