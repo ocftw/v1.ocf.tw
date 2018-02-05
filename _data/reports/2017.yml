@@ -269,13 +269,13 @@ items:
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=963993401&format=interactive
         height: 20rem
         title: 2017 年度 OCF 收入
-        description: 行政中心 000,000 <br/> 國際交流 000,000 <br/>
+        description: 行政中心 3,930,042 <br/> 國際交流 7,243,301 <br/> 其他社群專案 17,981,913
         scrolling: "no"
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=495996187&format=interactive
         height: 20rem
         title: 2017 年度 OCF 支出
-        description: blablabla
+        description: 行政中心 2,850,876 <br/> 國際交流 6,974,105 <br/> 其他社群專案 16,766,387
         scrolling: "no"
   - type: content
     columns:
