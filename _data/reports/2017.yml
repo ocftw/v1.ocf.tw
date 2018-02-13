@@ -1,5 +1,5 @@
 title: 開放文化基金會 2017 成果報告
-description: 感謝有你的支持，2017 年 OCF 持續服務由開源社群自主發起的各項活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫，與你一起拓展開放文化的新里程。
+description: 2017 年 感謝有你的支持，OCF 與你一起努力拓展開放文化的新里程。我們協助 20 多項由開源社群自主發起活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫。
 cover: /mediakit/cover2017.jpg
 color: blue
 cover_image_opacity: 0.9 
@@ -166,7 +166,7 @@ items:
       - type: article
         title: 出訪交流
         subtitle: 
-        description: 籌辦多次公民科技參訪團出席國際會議，廣邀公民團體與社群參加，積極建立國際網絡
+        description: 籌辦 7 次公民科技參訪團出席國際會議，廣邀公民團體與社群參加，積極建立國際網絡
         items:
          - title: RightsCon 2017 布魯塞爾
          - title: TICTeC 2017 佛羅倫斯
@@ -223,7 +223,7 @@ items:
         url: /p/2017/admin/ocf_trip2017.jpg
         swap: true
       - type: article
-        title: 我們有許多新成員的加入
+        title: 我們有 7 位新成員的加入
         description:  很開心 @huangfu、@miniwu、@pellaeon、@lulu、@aiya、@Kuan-Ting 與 @TC 在 2017 年加入 OCF 團隊。
   - type: content
     columns:
