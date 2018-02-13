@@ -36,7 +36,7 @@ items:
       - type: article
         title: Community operations - Continuously building the momentum
         subtitle: 
-        description: Originally from managing sponsorship funds for the communities, we broaden our work to support the daily operation of these communities:
+        description: Originally from managing sponsorship funds for the communities, we broaden our work to support the daily operation of these communities
         items:
           - project_id: g0vdathon
           - project_id: otspace
