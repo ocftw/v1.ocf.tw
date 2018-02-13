@@ -1,4 +1,4 @@
-title: 開放文化基金會 2017 成果報告
+title: 2017 Annual Report | Open Culture Foundation
 description: 感謝有你的支持，2017 年 OCF 持續服務由開源社群自主發起的各項活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫，與你一起拓展開放文化的新里程。
 cover: /mediakit/cover2017.jpg
 color: blue
@@ -6,20 +6,20 @@ cover_image_opacity: 0.9
 cover_veil_opacity: 0.1
 items:
   - type: header
-    title: 社群支援
+    title: Community support
     anchor: community
     icon: hand rock
     background_color: olive
-    description: 2017 年 OCF 共協助 7 場大型社群活動、 9 項社群營運計畫與 3 項校園人才培育計畫，給予社群法人行政的後勤支援，讓社群能更專注於開源理念的推廣與活絡。
+    description: In 2017, OCF supported 7 conferences, 9 community operation programs and 3 school talent cultivation programs. We support the communities on administrative operation as a legal person, so that they can better focus on developing and advocating their own project.
   - type: content
     columns:
       - type: image
         url: /p/2017/pycon/pycon2017.jpg
         swap: false
       - type: article
-        title: 大型活動 — 互動交流
+        title: Large scale conferences - interaction and exchanges
         subtitle: 
-        description: 協助合作夥伴降低大型活動執行的行政門檻，讓社群生態在更豐富的討論環境下多元發展。
+        description: We help our partners hold large scale conferences by handling administrative work for the event preparations. These conferences are where the community members can exchange ideas and promote their projects.
         items:
           - project_id: sitcon
           - project_id: pycon
@@ -34,9 +34,9 @@ items:
         url: /p/2017/openhackfarm/ohf_report_cover.png
         swap: true
       - type: article
-        title: 社群營運 — 維持能量，成長茁壯
+        title: Community operations - Continuously building the momentum
         subtitle: 
-        description: 支援從贊助金流代管發展而出的各種社群營運專案，常態性的長期經營是延續並維持開源發展能量一大要務。
+        description: Originally from managing sponsorship funds for the communities, we broaden our work to support the daily operation of these communities:
         items:
           - project_id: g0vdathon
           - project_id: otspace
@@ -53,9 +53,9 @@ items:
         url: /p/2017/sitcon/sitconcamp2017.jpg
         swap: false
       - type: article
-        title: 青年培訓 — 打造人才基礎
+        title: Youth training - nurturing future talents
         subtitle: 
-        description: 與社群資深開發者合作，建構務實並具有前瞻性的學習環境，培養更多擁有開發能力的人才，為開源社群注入新的活力。
+        description: We cooperate with senior developers in the community to construct practical, advanced learning environments, to nurture more developer talents into the communities.
         items:
           - project_id: sitconcamp
           - project_id: sysprogram
@@ -67,33 +67,33 @@ items:
         url: /p/2017/concom/concom2017.jpg
         swap: true
       - type: article
-        title: CONCOM x OCF 2017 — 串連社群，經驗共享
+        title: CONCOM x OCF 2017 Connecting communities to share management experiences
         subtitle: 
-        description: 舉辦以 FLOSS 社群經營與研討會籌備者為主的聚會，創造交流與探索的空間，讓各社群夥伴們長期累積的活動籌辦經驗、組織經營心得等資源公開分享，一同讓 FLOSS 社群的力量可以協力擴展。
+        description: CONCOM is a conference for conference organizers and community leaders, where they share their rich experience in organizing all kinds of events and running their communities. With different FLOSS communities sharing experiences, we can grow together.
   - type: header
-    title: 組織合作
+    title: Organizational Collaboration
     anchor: orgnization
     icon: building outline
     background_color: yellow
-    description: 與政府部門、國際組織跨界合作，共同發揚開放文化的精神，促成與國內外開放社群協力的機會。
+    description: We collaborate with industry, government, academic players in various disciplines, to carry forward the open culture by connecting them with domestic and international open culture communities.
   - type: content
     columns:
       - type: image
         url: /p/2017/admin/iii_opensource.jpg
         swap: true
       - type: article
-        title: 資策會 — 開源社群推薦
+        title: Institute for Information Industry (III) - connecting with open source communities
         subtitle: 
-        description: 資策會希望協助開放原始碼軟體社群的發展，OCF 推薦開放原始碼軟體社群 Debian, Ubuntu, SITCON 社群於資訊月「開源軟體館」參展，讓大眾對於開源軟體和社群協力有更深一層的認識。OCF 也推薦了幾個開源軟體社群和有意願協助社群發展的朋友，一起為日後的推廣活動發想和著力。
+        description: The III wishes to help the development of open source software communities. OCF connects them with Taiwanese Debian, Ubuntu, and SITCON community to exhibit in the ITmonth faire, which III co-organized. With this exhibition, we hope to broaden and deepen the public’s understanding of open source and community collaboration. 
   - type: content
     columns:
       - type: image
         url: /p/2017/admin/cctaiwan.jpg
         swap: false
       - type: article
-        title: CCTW X OCF — CC 台灣社群
+        title: CCTW X OCF — CC Taiwan Community
         subtitle: 
-        description: 台灣創用 CC 計畫即將階段性任務結束，OCF 承接了 CC Taiwan 的理念，協助在計畫結束之後，建立 CC 台灣社群的網站，繼續和 CC 總部保持聯繫，並繼續在台灣的推廣工作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，長存更多國內外的自由文化社群中。
+        description: The Creative Commons Taiwan project’s mission of this stage will be completed soon. OCF will be continuing their mission, to create a website for the Taiwanese CC community, to maintain contact with CC Headquarters, and keep on doing advocacy work in Taiwan. As from CCTW’s mission, we will continue to dedicate ourselves in raising awareness on publicly-licensed knowledge.
         items:
           - project_id: cctw
   - type: content
