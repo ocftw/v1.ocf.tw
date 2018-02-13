@@ -262,7 +262,7 @@ items:
         scrolling: "no"
       - type: article
         title: 提供社群獨立財務後勤支援
-        description: blablabla..
+        description: 在 OCF 的每個專案都是獨立自主運作，期許藉由各自穩健的財務規劃促進開源各類活動。
         action:
           title: Donate
           url: https://ocf.tw/p/
