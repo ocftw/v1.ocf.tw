@@ -1,5 +1,5 @@
 title: 開放文化基金會 2017 成果報告
-description: 感謝有你的支持，2017 年 OCF 持續服務由開源社群自主發起的各項活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神，與你一起拓展開放文化的新里程。
+description: 感謝有你的支持，2017 年 OCF 持續服務由開源社群自主發起的各項活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫，與你一起拓展開放文化的新里程。
 cover: /mediakit/cover2017.jpg
 color: blue
 cover_image_opacity: 0.9 
@@ -88,7 +88,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/cctw/CC_2016.jpg
+        url: /p/2017/admin/cctaiwan.jpg
         swap: false
       - type: article
         title: CCTW X OCF — CC 台灣社群
