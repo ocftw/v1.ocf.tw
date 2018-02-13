@@ -219,39 +219,16 @@ items:
     description: OCF 由衷感謝一路走來各方朋友和團隊成員的支持與協力，一同致力於更多面向地推動開放文化。
   - type: content
     columns:
-      - type: collage
-        grid: five
+      - type: image
+        url: /p/2017/admin/ocf_trip2017.jpg
         swap: true
-        items:
-          - person_id: singing
-          - person_id: rock
-          - person_id: ttcat
-          - person_id: mglee
-          - person_id: afi
-          - person_id: jason
-          - person_id: aaron
-          - person_id: huangfu
-          - person_id: miniwu
-          - person_id: pellaeon
-          - person_id: lulukeng
-          - person_id: aiya
-          - person_id: kting
-          - person_id: TYC
-          - person_id: lucien
-          - person_id: isabel
-          - person_id: miaoski       
-          - person_id: honki
-          - person_id: clkao
-          - person_id: bobchao
-          - person_id: jimyhuang
-          - person_id: pofeng
       - type: article
         title: 我們有許多新成員的加入
         description:  很開心 @huangfu、@miniwu、@pellaeon、@lulu、@aiya、@Kuan-Ting 與 @TC 在 2017 年加入 OCF 團隊。
   - type: content
     columns:
       - type: image
-        url: /p/2016/admin/flickr_CCBYothree_volunteer.jpg
+        url: /p/2017/admin/year_end_party.jpg
         swap: false
       - type: article
         title: 感謝超級熱血志工
