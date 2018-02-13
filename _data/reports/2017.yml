@@ -10,7 +10,7 @@ items:
     anchor: community
     icon: hand rock
     background_color: olive
-    description: 2017 年 OCF 共協助 7 場大型社群活動、 9 項社群營運計畫與 3 項校園人才培育計畫，給予社群法人行政的後勤支援，讓社群能更專注於開源理念的推廣與活絡。
+    description: 2017 年 OCF 共協助 7 場大型社群活動、 9 項社群營運計畫與 4 項校園人才培育計畫，給予社群法人行政的後勤支援，讓社群能更專注於開源理念的推廣與活絡。
   - type: content
     columns:
       - type: image
