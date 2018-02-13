@@ -1,0 +1,289 @@
+title: 開放文化基金會 2017 成果報告
+description: 感謝有你的支持，2017 年 OCF 持續服務由開源社群自主發起的各項活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫，與你一起拓展開放文化的新里程。
+cover: /mediakit/cover2017.jpg
+color: blue
+cover_image_opacity: 0.9 
+cover_veil_opacity: 0.1
+items:
+  - type: header
+    title: 社群支援
+    anchor: community
+    icon: hand rock
+    background_color: olive
+    description: 2017 年 OCF 共協助 7 場大型社群活動、 9 項社群營運計畫與 3 項校園人才培育計畫，給予社群法人行政的後勤支援，讓社群能更專注於開源理念的推廣與活絡。
+  - type: content
+    columns:
+      - type: image
+        url: /p/2017/pycon/pycon2017.jpg
+        swap: false
+      - type: article
+        title: 大型活動 — 互動交流
+        subtitle: 
+        description: 協助合作夥伴降低大型活動執行的行政門檻，讓社群生態在更豐富的討論環境下多元發展。
+        items:
+          - project_id: sitcon
+          - project_id: pycon
+          - project_id: coscup
+          - project_id: sotm
+          - project_id: jcconf
+          - project_id: datacon
+          - project_id: bsdtw
+  - type: content
+    columns:
+      - type: image
+        url: /p/2017/openhackfarm/ohf_report_cover.png
+        swap: true
+      - type: article
+        title: 社群營運 — 維持能量，成長茁壯
+        subtitle: 
+        description: 支援從贊助金流代管發展而出的各種社群營運專案，常態性的長期經營是延續並維持開源發展能量一大要務。
+        items:
+          - project_id: g0vdathon
+          - project_id: otspace
+          - project_id: osmtw
+          - project_id: opensuse
+          - project_id: openstack
+          - project_id: chewingim
+          - project_id: osln
+          - project_id: openhackfarm
+          - project_id: hcsm
+  - type: content
+    columns:
+      - type: image
+        url: /p/2017/sitcon/sitconcamp2017.jpg
+        swap: false
+      - type: article
+        title: 青年培訓 — 打造人才基礎
+        subtitle: 
+        description: 與社群資深開發者合作，建構務實並具有前瞻性的學習環境，培養更多擁有開發能力的人才，為開源社群注入新的活力。
+        items:
+          - project_id: sitconcamp
+          - project_id: sysprogram
+          - project_id: gcoin
+          - title: Xschool
+  - type: content
+    columns:
+      - type: image
+        url: /p/2017/concom/concom2017.jpg
+        swap: true
+      - type: article
+        title: CONCOM x OCF 2017 — 串連社群，經驗共享
+        subtitle: 
+        description: 舉辦以 FLOSS 社群經營與研討會籌備者為主的聚會，創造交流與探索的空間，讓各社群夥伴們長期累積的活動籌辦經驗、組織經營心得等資源公開分享，一同讓 FLOSS 社群的力量可以協力擴展。
+  - type: header
+    title: 組織合作
+    anchor: orgnization
+    icon: building outline
+    background_color: yellow
+    description: 與政府部門、國際組織跨界合作，共同發揚開放文化的精神，促成與國內外開放社群協力的機會。
+  - type: content
+    columns:
+      - type: image
+        url: /p/2017/admin/iii_opensource.jpg
+        swap: true
+      - type: article
+        title: 資策會 — 開源社群推薦
+        subtitle: 
+        description: 資策會希望協助開放原始碼軟體社群的發展，OCF 推薦開放原始碼軟體社群 Debian, Ubuntu, SITCON 社群於資訊月「開源軟體館」參展，讓大眾對於開源軟體和社群協力有更深一層的認識。OCF 也推薦了幾個開源軟體社群和有意願協助社群發展的朋友，一起為日後的推廣活動發想和著力。
+  - type: content
+    columns:
+      - type: image
+        url: /p/2017/admin/cctaiwan.jpg
+        swap: false
+      - type: article
+        title: CCTW X OCF — CC 台灣社群
+        subtitle: 
+        description: 台灣創用 CC 計畫即將階段性任務結束，OCF 承接了 CC Taiwan 的理念，協助在計畫結束之後，建立 CC 台灣社群的網站，繼續和 CC 總部保持聯繫，並繼續在台灣的推廣工作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，長存更多國內外的自由文化社群中。
+        items:
+          - project_id: cctw
+  - type: content
+    columns:
+      - type: slider
+        slides:
+          - url: /p/2017/intl/report-CfAll_1.jpg
+          - url: /p/2017/intl/report-CfAll_2.jpg
+        swap: true
+      - type: article
+        title: Code for All 全球公民科技聯盟
+        subtitle: 
+        description: 2017年 9 月「Code for All Summit年度會議」在台北召開後，開放文化基金會以正式會員g0v之法人夥伴的身分，加入聯盟執行委員會一同處理全球相關事務，並擔任CfAll國際交換獎助金計畫執行者。
+        action: 
+         title: 國際交換獎助金計畫
+         url: https://hackmd.io/s/rJyRy6Jzz
+  - type: content
+    columns:
+      - type: image    
+        url: /p/2017/intl/2017 CSCS-r.jpg
+        swap: false
+      - type: article
+        title: 資安暨隱私推廣計畫
+        subtitle: 
+        description: 與臺灣的科技/資安社群、亞洲人權團體、國際相關組織合作，串聯以往較少交流的資安社群和社運工作者，為亞洲第一線人權工作者及NGO特別設計的資安培訓計畫。
+        items:
+         - title: Civil Society Cyber Shield 東亞及華人社群人權工作者資安隱私保護工作坊
+         - title: 資安小聚
+         - title: 東南亞資訊安全防護與隱私保護培訓
+         - title: 資安教材資源入口網站     
+  - type: header
+    title: 國際交流
+    anchor: overseas
+    icon: plane
+    background_color: teal
+    description: 建立本地社群與國際社群的連結，催生相互認識與合作的機會，與全球公民科技新趨勢一同前進。
+  - type: content
+    columns:
+      - type: slider
+        slides:
+          - url: /p/2017/intl/report-CTF_1.jpg
+          - url: /p/2017/intl/report-CTF_2.jpg
+          - url: /p/2017/intl/report-CTF_3.jpg
+          - url: /p/2017/intl/report-CTF_4.jpg
+        swap: true
+      - type: article
+        title: CivicTechFest 世界公民科技週
+        subtitle: 
+        description: 2017年9月10日-16日，串聯國內外社群，舉辦為期一週的亞洲第一次公民科技大會，有36國171個組織超過269位參與者。
+        items:
+         - title: TICTeC@Taipei 公民科技動能推升研討會 w/mySociety
+         - title: g0v grant demo party / 五周年黑客松
+         - title: Creative Workshop w/ODN & OGPtoolbox
+         - title: NGOs Data Bootcamp 資料實戰營
+         - title: 2017 國際資料經濟高峰會
+         - title: Wikimedia Taiwan 十週年研討會
+        action: 
+          title: 活動網站
+          url: http://civictechfest.org/
+  - type: content
+    columns:
+      - type: slider
+        slides:
+          - url: /p/2017/intl/report-intlmeeting_1.jpg
+          - url: /p/2017/intl/report-intlmeeting_2.JPG
+          - url: /p/2017/intl/report-intlmeeting_3.JPG
+          - url: /p/2017/intl/report-intlmeeting_4.jpg
+          - url: /p/2017/intl/report-intlmeeting_5.jpg
+        swap: false
+      - type: article
+        title: 出訪交流
+        subtitle: 
+        description: 籌辦多次公民科技參訪團出席國際會議，廣邀公民團體與社群參加，積極建立國際網絡
+        items:
+         - title: RightsCon 2017 布魯塞爾
+         - title: TICTeC 2017 佛羅倫斯
+         - title: Datensummit 2017 柏林
+         - title: PDF NYC 2017 紐約
+         - title: APRIGF 亞太網路治理論壇 曼谷
+         - title: COCONET Southeast Asia Digital Rights Camp 2017 日惹
+         - title: Code for Japan Summit 2017 神戶      
+  - type: content
+    columns:
+      - type: slider
+        slides:
+          - url: /p/2017/intl/report-OGR_1.jpg
+          - url: /p/2017/intl/report-OGR_2.jpg
+          - url: /p/2017/intl/report-OGR _3.jpg
+          - url: /p/2017/intl/report-OGR_4.jpg
+        swap: true
+      - type: article
+        title: 開放政府觀察報告2014-2016
+        subtitle: 
+        description: 由開放文化基金會研究員李梅君、曾柏瑜，進行為期一年的資料蒐集、訪談、分析研究，完成中英文版本的臺灣「開放政府觀察報告2014-2016」，於2017年9月首發表。
+        items:
+          - title: 「開放政府觀察報告2014~2016」首發表會 @教師會館，
+          - title: TICTeC@Taipei 發表 @ TICC
+          - title: 開放政府在地方的可能－台南 @台南新芽演講廳
+        action:
+          title: 開放政府觀察報告線上看
+          url: https://opengovreport.ocf.tw/#tab-0
+  - type: content
+    columns:
+      - type: image
+        url: /p/2017/intl/report-g0v.news.jpg
+        swap: false
+      - type: article
+        title: g0v.news
+        subtitle: 
+        description: 以中英雙語報導國際與台灣公民科技局勢，聚焦各地社群發展
+        items:
+          - title: 專題 - 黑客公務員的血汗之路
+          - title: 週報 - 每週七則全球公民科技精彩案例
+          - title: 文章 - 不定期中英文報導
+        action:
+          title: GO> g0v.news
+          url: https://g0v.news/
+  - type: header
+    title: 協力成員
+    anchor: team
+    icon: paw
+    background_color: pink
+    description: OCF 由衷感謝一路走來各方朋友和團隊成員的支持與協力，一同致力於更多面向地推動開放文化。
+  - type: content
+    columns:
+      - type: image
+        url: /p/2017/admin/ocf_trip2017.jpg
+        swap: true
+      - type: article
+        title: 我們有許多新成員的加入
+        description:  很開心 @huangfu、@miniwu、@pellaeon、@lulu、@aiya、@Kuan-Ting 與 @TC 在 2017 年加入 OCF 團隊。
+  - type: content
+    columns:
+      - type: image
+        url: /p/2017/admin/year_end_party.jpg
+        swap: false
+      - type: article
+        title: 感謝超級熱血志工
+        subtitle: 
+        description: 感謝 ETBlue, ipa, marr, Muka, poga, yayard, 雁子, Civic Tech Fest 志工群, CONCOM 志工群等許多強大的志工，這一年來陪著 OCF 到處出任務！ 
+  - type: header
+    title: 財務報告
+    anchor: finance
+    icon: dollar
+    background_color: orange
+    description: 謝謝許多來自不同領域的個人、組織，在人力、物力各方面對 OCF 與各個合作社群的貢獻。OCF 2016 年初開始嘗試的行政中心定期定額捐款專案，要感謝許多朋友參與支持，穩定的助力讓 OCF 同仁能全心全力投入於社群服務、拓展企業組織合作與開放政策倡議上，讓推廣開放文化的原力能持續爆發。
+  - type: content
+    columns:
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=963993401&format=interactive
+        height: 20rem
+        title: 2017 年度 OCF 收入
+        description: 行政中心 3,930,042 <br/> 國際交流 7,243,301 <br/> 其他社群專案 17,981,913
+        scrolling: "no"
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=495996187&format=interactive
+        height: 20rem
+        title: 2017 年度 OCF 支出
+        description: 行政中心 2,850,876 <br/> 國際交流 6,974,105 <br/> 其他社群專案 16,766,387
+        scrolling: "no"
+  - type: content
+    columns:
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=1303704231&format=interactive
+        height: 20rem
+        scrolling: "no"
+      - type: article
+        title: 提供社群獨立財務後勤支援
+        description: 在 OCF 的每個專案都是獨立自主運作，期許藉由各自穩健的財務規劃促進開源各類活動。
+        action:
+          title: Donate
+          url: https://ocf.tw/p/
+  - type: header
+    title: 贊助夥伴
+    anchor: sponser
+    background_color: blue
+    description: 感謝RC 文化藝術基金會、祐生研究基金會的年度計畫贊助支持，以及各企業夥伴在每項計畫活動上的相助，更感激每一位朋友的涓滴善款，讓我們有滿滿的動力共同興盛開放文化。
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        logo_height: 12rem
+        logos:
+          - org_id: rc
+      - type: article
+        swap: true
+        logo_height: 12rem
+        logos:
+          - org_id: archilife
+  - type: article
+    action: 
+      title: 更多捐款徵信
+      url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
