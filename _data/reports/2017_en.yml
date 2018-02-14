@@ -93,7 +93,7 @@ items:
       - type: article
         title: CCTW X OCF — CC Taiwan Community
         subtitle: 
-        description: The Creative Commons Taiwan project’s mission of this stage will be completed soon. OCF will be continuing their mission, we will create a website for the Taiwanese CC community,  maintain contact with CC Headquarters, and maintain doing advocacy work in Taiwan. More broadly, we will continue to dedicate ourselves in raising awareness on publicly-licensed knowledge.
+        description: The Creative Commons Taiwan project’s mission of this stage will be completed soon. OCF will be continuing their mission, we will create a website for the Taiwanese CC community,  maintain contact with CC Headquarters, and maintain advocacy work in Taiwan. More broadly, we will continue to dedicate ourselves in raising awareness on publicly-licensed knowledge.
         items:
           - project_id: cctw
   - type: content
