@@ -17,7 +17,7 @@ items:
         url: /p/2017/pycon/pycon2017.jpg
         swap: false
       - type: article
-        title: Large Scale Conferences - interaction and exchanges
+        title: Large Scale Conferences - Interaction and exchanges
         subtitle: 
         description: We help our partners hold large scale conferences by handling administrative work for the event preparations. These conferences are where the community members can exchange ideas and promote their projects.
         items:
@@ -34,7 +34,7 @@ items:
         url: /p/2017/openhackfarm/ohf_report_cover.png
         swap: true
       - type: article
-        title: Community Operations - Continuously building the momentum
+        title: Community Operations - Keeping the momentum
         subtitle: 
         description: Originally from managing sponsorship funds for the communities, we broaden our work to support the daily operation of these communities
         items:
@@ -67,7 +67,7 @@ items:
         url: /p/2017/concom/concom2017.jpg
         swap: true
       - type: article
-        title: CONCOM x OCF 2017 Connecting communities to share management experiences
+        title: CONCOM x OCF 2017 - Gathering communities to share management experiences
         subtitle: 
         description: CONCOM is a conference for conference organizers and community leaders, where they share their rich experience in organizing all kinds of events and running their communities. With different FLOSS communities sharing experiences, we can grow together.
   - type: header
@@ -82,7 +82,7 @@ items:
         url: /p/2017/admin/iii_opensource.jpg
         swap: true
       - type: article
-        title: Institute for Information Industry (III) - Connecting with open source communities
+        title: Institute for Information Industry (III) - Connecting open source communities
         subtitle: 
         description: The III wishes to help the development of open source software communities. OCF connects them with Taiwanese Debian, Ubuntu, and SITCON community to exhibit in the ITmonth faire, which III co-organized. With this exhibition, we hope to broaden and deepen the public’s understanding of open source and community collaboration. 
   - type: content
@@ -93,7 +93,7 @@ items:
       - type: article
         title: CCTW X OCF — CC Taiwan Community
         subtitle: 
-        description: The Creative Commons Taiwan project’s mission of this stage will be completed soon. OCF will be continuing their mission, to create a website for the Taiwanese CC community, to maintain contact with CC Headquarters, and keep on doing advocacy work in Taiwan. As from CCTW’s mission, we will continue to dedicate ourselves in raising awareness on publicly-licensed knowledge.
+        description: The Creative Commons Taiwan project’s mission of this stage will be completed soon. OCF will be continuing their mission, we will create a website for the Taiwanese CC community,  maintain contact with CC Headquarters, and maintain doing advocacy work in Taiwan. More broadly, we will continue to dedicate ourselves in raising awareness on publicly-licensed knowledge.
         items:
           - project_id: cctw
   - type: content
@@ -203,7 +203,7 @@ items:
       - type: article
         title: g0v.news
         subtitle: 
-        description: Reporting on the latest trends and community developments in Taiwan and the world, in Chinese and English
+        description: Reporting on the latest Civic Tech trends and community developments in Taiwan and the world, in Chinese and English.
         items:
           - title: Special column “Overworked Public Servants”
           - title: Civic Tech Digest - weekly news digest on civic tech
@@ -233,13 +233,13 @@ items:
       - type: article
         title: Recognition to our enthusiastic volunteers
         subtitle: 
-        description: We would like to say a big thank you to our helping hands ETBlue, Muka, ipa, marr, poga, yayard, 雁子, yuting, stella, ael, CYJ, PCC, Candy, and so on, to go on missions with OCF all around the world.
+        description: We would like to say a big thank you to our helping hands: ETBlue, Muka, ipa, marr, poga, yayard, 雁子, yuting, stella, ael, CYJ, PCC, Candy, and so on, to go on missions with OCF all around Taiwan and the world.
   - type: header
     title: Financial Report
     anchor: finance
     icon: dollar
     background_color: orange
-    description: We would like to thank individuals and organizations from many different fields donating manpower and equipments to OCF and our partnering communities. OCF started our trial on Periodic Fixed-amount Donations Programme in 2016, since then, there have been many friends supporting us through this programme. With this steady helping force, our staffs may devote fully on serving the communities, developing cooperation with enterprises, and advocating policies. We would also like to thank these donors.
+    description: We would like to thank individuals and organizations from many different fields donating manpower and equipments to OCF and our partnering communities. We would also like to thank donors through the Periodic Fixed-amount Donations Programme. OCF started trial on this program in 2016, since then, there have been many friends supporting us. With this steady helping force, our staffs may devote fully on serving the communities, developing cooperation with enterprises, and advocating policies.
   - type: content
     columns:
       - type: iframe
@@ -262,7 +262,7 @@ items:
         scrolling: "no"
       - type: article
         title: Providing independent financial and logistics support for communities
-        description: At OCF, all of our programmes are independently operated and financed. We hope to maintain a steady, sustainable force in promoting the open culture.
+        description: At OCF, all our programmes are independently operated and financed. We hope to maintain a steady, sustainable force in promoting the open culture.
         action:
           title: Donate
           url: https://ocf.tw/p/
