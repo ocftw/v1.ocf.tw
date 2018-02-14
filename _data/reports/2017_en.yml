@@ -245,13 +245,13 @@ items:
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=963993401&format=interactive
         height: 20rem
-        title: 2017 Annual Income
+        title: 2017 Annual Income (TWD)
         description: Administration Center 3,930,042 <br/> International Networking 7,243,301 <br/> Other Community Projects 17,981,913
         scrolling: "no"
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=495996187&format=interactive
         height: 20rem
-        title: 2017 Annual Spending
+        title: 2017 Annual Spending (TWD)
         description: Administration Center 2,850,876 <br/> International Networking 6,974,105 <br/> Other Community Projects 16,766,387
         scrolling: "no"
   - type: content
