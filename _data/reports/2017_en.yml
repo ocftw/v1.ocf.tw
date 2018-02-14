@@ -1,5 +1,5 @@
 title: 2017 Annual Report | Open Culture Foundation
-description: 感謝有你的支持，2017 年 OCF 持續服務由開源社群自主發起的各項活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫，與你一起拓展開放文化的新里程。
+description: With your support, OCF continued to serve the FLOSS community projects in 2017, bridge local and international Civic Tech communities, foster cross-disciplinary cooperation to open up more fields, and advocate for the importance of privacy and digital security.
 cover: /mediakit/cover2017.jpg
 color: blue
 cover_image_opacity: 0.9 
@@ -231,28 +231,28 @@ items:
         url: /p/2017/admin/year_end_party.jpg
         swap: false
       - type: article
-        title: 感謝超級熱血志工
+        title: Recognition to our enthusiastic volunteers
         subtitle: 
-        description: 感謝 ETBlue, ipa, marr, Muka, poga, yayard, 雁子, Civic Tech Fest 志工群, CONCOM 志工群等許多強大的志工，這一年來陪著 OCF 到處出任務！ 
+        description: We would like to say a big thank you to our helping hands ETBlue, Muka, ipa, marr, poga, yayard, 雁子, yuting, stella, ael, CYJ, PCC, Candy, and so on, to go on missions with OCF all around the world.
   - type: header
-    title: 財務報告
+    title: Financial Report
     anchor: finance
     icon: dollar
     background_color: orange
-    description: 謝謝許多來自不同領域的個人、組織，在人力、物力各方面對 OCF 與各個合作社群的貢獻。OCF 2016 年初開始嘗試的行政中心定期定額捐款專案，要感謝許多朋友參與支持，穩定的助力讓 OCF 同仁能全心全力投入於社群服務、拓展企業組織合作與開放政策倡議上，讓推廣開放文化的原力能持續爆發。
+    description: We would like to thank individuals and organizations from many different fields donating manpower and equipments to OCF and our partnering communities. OCF started our trial on Periodic Fixed-amount Donations Programme in 2016, since then, there have been many friends supporting us through this programme. With this steady helping force, our staffs may devote fully on serving the communities, developing cooperation with enterprises, and advocating policies. We would also like to thank these donors.
   - type: content
     columns:
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=963993401&format=interactive
         height: 20rem
-        title: 2017 年度 OCF 收入
-        description: 行政中心 3,930,042 <br/> 國際交流 7,243,301 <br/> 其他社群專案 17,981,913
+        title: 2017 Annual Income
+        description: Administration Center 3,930,042 <br/> International Networking 7,243,301 <br/> Other Community Projects 17,981,913
         scrolling: "no"
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTvGZZQZtL17CKl2P6ej-psRwhmjUk0DEUCMhWZuaf69km44a-RGi0mTy-cDO2uDjmYpEvWgGrR3xqS/pubchart?oid=495996187&format=interactive
         height: 20rem
-        title: 2017 年度 OCF 支出
-        description: 行政中心 2,850,876 <br/> 國際交流 6,974,105 <br/> 其他社群專案 16,766,387
+        title: 2017 Annual Spending
+        description: Administration Center 2,850,876 <br/> International Networking 6,974,105 <br/> Other Community Projects 16,766,387
         scrolling: "no"
   - type: content
     columns:
@@ -261,16 +261,16 @@ items:
         height: 20rem
         scrolling: "no"
       - type: article
-        title: 提供社群獨立財務後勤支援
-        description: 在 OCF 的每個專案都是獨立自主運作，期許藉由各自穩健的財務規劃促進開源各類活動。
+        title: Providing independent financial and logistics support for communities
+        description: At OCF, all of our programmes are independently operated and financed. We hope to maintain a steady, sustainable force in promoting the open culture.
         action:
           title: Donate
           url: https://ocf.tw/p/
   - type: header
-    title: 贊助夥伴
+    title: Sponsors
     anchor: sponser
     background_color: blue
-    description: 感謝RC 文化藝術基金會、祐生研究基金會的年度計畫贊助支持，以及各企業夥伴在每項計畫活動上的相助，更感激每一位朋友的涓滴善款，讓我們有滿滿的動力共同興盛開放文化。
+    description: We appreciate RC Culture and Arts Foundation and Archlife Research Foundation's support through a yearly sponsorship program, our corporate sponsors’ support in all our projects and events, and our individual donors.
   - type: content
     columns:
       - type: article
@@ -285,5 +285,5 @@ items:
           - org_id: archilife
   - type: article
     action: 
-      title: 更多捐款徵信
+      title: More donations credit
       url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
