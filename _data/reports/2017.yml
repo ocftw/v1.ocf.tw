@@ -275,10 +275,12 @@ items:
     columns:
       - type: article
         swap: false
+        logo_height: auto
         logos:
           - org_id: rc
       - type: article
         swap: true
+        logo_height: auto
         logos:
           - org_id: archilife
   - type: article
