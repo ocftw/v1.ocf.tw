@@ -1,4 +1,4 @@
-name: 台灣創用 CC 計畫
+name: 創用 CC 社群
 name_en: Creative Commons Taiwan
 abbr: 
 tagline: 
@@ -8,8 +8,8 @@ month:
 start: 
 end: 
 link:
-  - title: 官方網站
-    url: http://creativecommons.tw/
+  - title: 社群網站
+    url: https://ocftw.github.io/tw.creativecommons.org/
 tag:
   - 
 type_id:
