@@ -277,7 +277,8 @@ h2.ui.header, h2, h1.ui.header, h1 {
 }
 
 .logos .logo, #partners .logo, #sponsors .logo, #orgs .logo {
-  width: 100%;
+  max-width: 20em;
+  max-height: 10em;
 }
 
 /* for youtube videos */
