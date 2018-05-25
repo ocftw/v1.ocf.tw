@@ -162,9 +162,9 @@
 
         <h3 class="ui small inverted header">
         {% if page.lang == "en" %}
-        License for our website
+        License / Privacy Policy
         {% else %}
-        本站授權
+        本站授權與隱私條款
         {% endif %}
         </h3>
         <div class="ui inverted divided link list">
@@ -173,6 +173,15 @@
           Source code: MIT / Content: Creative Commons
           {% else %}
           源碼 MIT / 內容 CC
+          {% endif %}
+          </a>
+        </div>
+         <div class="ui inverted divided link list">
+          <a href="/privacy.md" class="item">
+          {% if page.lang == "en" %}
+          Privacy Policy
+          {% else %}
+          隱私權條款聲明
           {% endif %}
           </a>
         </div>
