@@ -1166,14 +1166,14 @@
   avatar: 
 1111BSDTW:
   title: BSDTW 2017
-  description: 
+  description: BSDTW 2017 will be held on Nov. 11-12th, 2017, Taipei Taiwan
   month: 11
   start: 11/11
   end: 11/12
   link:
-    - title: 
-      url: 
-  cover: 
+    - title: 官方網站
+      url: https://2017.bsdtw.org/
+  cover: /p/2017/bsdtw/BSDTW.png
   contributor_id:
     - singing
     - huangfu
@@ -1196,8 +1196,8 @@
   start: 11/7
   end: 11/7
   link:
-    - title: 
-      url: 
+    - title: 簡報
+      url: https://drive.google.com/file/d/166F39GjwcRo9q80UtGWecIkDn0Okepx6/view?usp=sharing
   cover: 
   contributor_id:
     - rock
