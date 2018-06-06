@@ -597,7 +597,7 @@
   link:
     - title: 活動網站
       url: https://tw.pycon.org/2017/zh-hant/
-  cover: 
+  cover: /p/2017/pycon/pycontw17-image.png
   contributor_id:
     - rock
   project_id:
