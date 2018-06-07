@@ -161,6 +161,9 @@
   month: 3
   start: 3/18
   end: 
+  link:
+    - title: 活動網站
+      url: https://grants.g0v.tw/  
   cover: 
   contributor_id:
     - ttcat
@@ -578,7 +581,6 @@
     - intl
   label:
   organizer_id:
-    - Civic Hall
   advisor_id:
   co-organizer_id:
   implementer_id:
@@ -649,7 +651,9 @@
       url: https://ocftw.kktix.cc/events/ogr-review
   cover: 
   contributor_id:
-    - mglee;afi;ttcat;clkao
+    - mglee;afi
+    - ttcat
+    - clkao
   project_id:
     - intl
   label:
@@ -677,7 +681,6 @@
     - pellaeon
     - afi
     - ttcat
-    - ly
   project_id:
     - intl
   label:
@@ -705,7 +708,6 @@
     - ttcat
     - afi
     - pellaeon
-    - ly
   project_id:
     - g0vdathon
   label:
@@ -759,7 +761,6 @@
     - pellaeon
     - afi
     - ttcat
-    - ly
     - mglee
   project_id:
     - intl
@@ -856,7 +857,12 @@
       url: https://ocftw.kktix.cc/events/opengovreport
   cover: /p/2017/intl/0910OGR release.JPG
   contributor_id:
-    - afi;mglee;clkao;ttcat;huangfu;miniwu
+    - afi
+    - mglee
+    - clkao
+    - ttcat
+    - huangfu
+    - miniwu
   project_id:
     - intl
   label:
@@ -953,7 +959,10 @@
       url: https://www.facebook.com/media/set/?set=a.2000335226909070.1073741844.1502561953353069&type=1&l=b9ca7bc8a3
   cover: /p/2017/intl/0915DataBootcamp.jpg
   contributor_id:
-    - afi;singing;hungfu;pellaeon
+    - afi
+    - singing
+    - huangfu
+    - pellaeon
   project_id:
     - intl
   label:
@@ -1051,6 +1060,7 @@
   cover: /p/2017/intl/1001tainanOGR_resized.jpg
   contributor_id:
     - afi
+    - mglee
   project_id:
     - intl
   label:
