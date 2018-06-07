@@ -651,7 +651,8 @@
       url: https://ocftw.kktix.cc/events/ogr-review
   cover: 
   contributor_id:
-    - mglee;afi
+    - mglee
+    - afi
     - ttcat
     - clkao
   project_id:
