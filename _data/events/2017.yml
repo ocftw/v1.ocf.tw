@@ -440,6 +440,10 @@
   organizer_id:
   advisor_id:
   co-organizer_id:
+    - tfd
+    - idemocracy
+    - tahr
+    - hitcon
   implementer_id:
   sponsor_id:
   coordinator_id:
