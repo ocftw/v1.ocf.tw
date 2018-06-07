@@ -1035,6 +1035,7 @@
     - intl
   label:
   organizer_id:
+    - wikimediatw
   advisor_id:
   co-organizer_id:
   implementer_id:
@@ -1057,7 +1058,7 @@
     - intl
   label:
   organizer_id:
-    - wikimediatw
+    - code4jap
   advisor_id:
   co-organizer_id:
   implementer_id:
