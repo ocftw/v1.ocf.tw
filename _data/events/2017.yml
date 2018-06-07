@@ -906,6 +906,7 @@
   organizer_id:
   advisor_id:
   co-organizer_id:
+    - mysociety
   implementer_id:
   sponsor_id:
   coordinator_id:
