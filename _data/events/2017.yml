@@ -955,6 +955,8 @@
   organizer_id:
   advisor_id:
   co-organizer_id:
+    - codeforall
+    - ndi
   implementer_id:
   sponsor_id:
   coordinator_id:
