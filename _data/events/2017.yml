@@ -257,7 +257,8 @@
   label:
   organizer_id:
   advisor_id:
-  co-organizer_id:
+  co-organizer_id: 
+    - hhtaipei
   implementer_id:
   sponsor_id:
   coordinator_id:
