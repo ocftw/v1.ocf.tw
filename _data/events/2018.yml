@@ -1,6 +1,6 @@
 0203cctw:
-  title: 創用 CC 小聚 #1
-  description: 創用 CC (Creative Commons) 是一種對自己的著作物，在公開在網路上的同時，予以保障，讓公眾能夠在有條件的授權條款下，合理的使用你的創作物品。 我們期盼透過各種方式討論創用 CC ，除了建立大家對於開放理念、CC 授權的正確觀念之外，也引發民眾對於自己或別人的著作物品應有的尊重與著作權基本概念。 這次的討論我們會談到： Creative Commons 全球社群策略的改變 各國 CC 社群現況與困境分享。。
+  title: 創用 CC 小聚-1
+  description: 創用 CC (Creative Commons) 是一種對自己的著作物，在公開在網路上的同時，予以保障，讓公眾能夠在有條件的授權條款下，合理的使用你的創作物品。 我們期盼透過各種方式討論創用 CC ，除了建立大家對於開放理念、CC 授權的正確觀念之外，也引發民眾對於自己或別人的著作物品應有的尊重與著作權基本概念。 這次的討論我們會談到： Creative Commons 全球社群策略的改變 各國 CC 社群現況與困境分享。
   month: 2
   start: 2/23
   end: 
@@ -13,6 +13,88 @@
     - lucien
   project_id:
     - cctw
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0224python:
+  title: 高雄 Python 學院 - Python 基礎及應用 
+  description: Python 是頂尖的美國大學用來教授入門程式設計課程的第一選擇 (https://goo.gl/5MG1Y1)；天瓏書局 2017 年暢銷書排行榜 (https://goo.gl/UesAnc) 前十名中有八本是跟 Python 相關的書；在 KDnuggets 的調查中，Python 已經超越 R 成為數據科學和機器學習最多人使用的語言 (https://goo.gl/rnKAxv)。Python 的免費、跨平台、及簡單易學，已經讓它成為很多新創公司的最愛。因為使用 Python 可以迅速的完成產品及服務雛形的開發，所以有一些 Python 愛好者打出了 “Life is short, use Python!” 的口號來推廣 Python。 為了降低南部朋友們的進入門檻，我們預計規劃一系列的課程，手把手的帶大家好好的了解這一個語言。
+  month: 2
+  start: 2/24
+  end: 
+  link:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180224
+  cover: 
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0317ocf:
+  title: OCF 2018 烤山豬春酒聚
+  description: "在 2017 年，我們支援 20+ 開源社群自主籌備活動、協辦 7 場大型活動、舉辦 1 周的亞洲第一次公民科技大會、參與 4 項開源與資訊技術青年培育計畫 ...，還有更多 OCF 在開放文化上的耕耘與努力的故事將在春酒上與你分享。
+活動除了成果報告外，2017 年秋季 g0v 公民科技創新獎助金的 6 件獲獎作品同時登場發表，將分享在經過 6 個月的加速開發後，他們為台灣社會帶來什麼樣的改變。"
+  month: 3
+  start: 3/17
+  end: 
+  link:
+    - title: 活動網站
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=9
+  cover: 
+  contributor_id:
+    - ttcat
+    - rock
+    - singing
+    - lulukeng
+    - aiya
+    - pofeng
+    - clkao
+  project_id:
+    - admin
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0324python:
+  title: 高雄 Python 學院 - Python 基礎及應用工作坊
+  description: Python 是頂尖的美國大學用來教授入門程式設計課程的第一選擇 (https://goo.gl/5MG1Y1)；天瓏書局 2017 年暢銷書排行榜 (https://goo.gl/UesAnc) 前十名中有八本是跟 Python 相關的書；在 KDnuggets 的調查中，Python 已經超越 R 成為數據科學和機器學習最多人使用的語言 (https://goo.gl/rnKAxv)。Python 的免費、跨平台、及簡單易學，已經讓它成為很多新創公司的最愛。因為使用 Python 可以迅速的完成產品及服務雛形的開發，所以有一些 Python 愛好者打出了 “Life is short, use Python!” 的口號來推廣 Python。 為了降低南部朋友們的進入門檻，我們預計規劃一系列的課程，手把手的帶大家好好的了解這一個語言。
+  month: 3
+  start: 3/24
+  end: 
+  link:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180224-copy-1
+  cover: 
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
   label:
   organizer_id:
   advisor_id:
