@@ -61,14 +61,21 @@
       url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=9
   cover: 
   contributor_id:
-    - ttcat
+    - aiya
+    - bess
+    - bobchao
+    - clkao
+    - honki
+    - huangfu
+    - jimyhuang
+    - lilin
+    - lulukeng
+    - miniwu
+    - pellaeon
+    - pofeng
     - rock
     - singing
-    - lulukeng
-    - bess
-    - aiya
-    - pofeng
-    - clkao
+    - ttcat
   project_id:
     - admin
   label:
