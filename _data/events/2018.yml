@@ -7,7 +7,7 @@
   link:
     - title: 活動網站
       url: https://ocftw.kktix.cc/events/meetforcreativecommons1
-  cover: 
+  cover: /p/2018/cctw/CC___logo_1_large.png
   contributor_id:
     - rock
     - lucien
@@ -33,7 +33,7 @@
   link:
     - title: 活動網站
       url: https://pycourse.kktix.cc/events/kaohsiungpy20180224
-  cover: 
+  cover: /p/2018/pycourse/pycourse-Kaohsiung .png
   contributor_id:
     - rock
   project_id:
@@ -58,7 +58,7 @@
   link:
     - title: 活動網站
       url: https://sitcon.org/2018/#/
-  cover: 
+  cover: /p/2018/sitcon/2018sitcon.png
   contributor_id:
     - singing
     - huangfu
@@ -85,7 +85,7 @@
   link:
     - title: 活動網站
       url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=9
-  cover: 
+  cover: /p/2018/admin/2018spring party.jpg
   contributor_id:
     - aiya
     - bess
@@ -124,7 +124,7 @@
   link:
     - title: 活動網站
       url: https://pycourse.kktix.cc/events/kaohsiungpy20180224-copy-1
-  cover: 
+  cover: /p/2018/pycourse/pycourse-Kaohsiung .png
   contributor_id:
     - rock
   project_id:
