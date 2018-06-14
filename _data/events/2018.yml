@@ -49,6 +49,32 @@
   speaker_id:
   banner: 
   avatar: 
+0310sitcon:
+  title: 學生計算機年會 SITCON 2018
+  description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
+  month: 3
+  start: 3/10
+  end: 
+  link:
+    - title: 活動網站
+      url: https://sitcon.org/2018/#/
+  cover: 
+  contributor_id:
+    - singing
+    - huangfu
+  project_id:
+    - sitcon
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
 0317ocf:
   title: OCF 2018 烤山豬春酒聚
   description: "在 2017 年，我們支援 20+ 開源社群自主籌備活動、協辦 7 場大型活動、舉辦 1 周的亞洲第一次公民科技大會、參與 4 項開源與資訊技術青年培育計畫 ...，還有更多 OCF 在開放文化上的耕耘與努力的故事將在春酒上與你分享。
@@ -113,4 +139,4 @@
   host_id:
   speaker_id:
   banner: 
-  avatar: 
+  avatar:  
