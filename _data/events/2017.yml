@@ -36,9 +36,6 @@
   month: 1
   start: 1/21
   end: 
-  link:
-    - title: 
-      url: 
   cover: 
   contributor_id:
     - ttcat
@@ -94,9 +91,6 @@
   month: 2
   start: 2/16
   end: 
-  link:
-    - title: 
-      url: 
   cover: 
   contributor_id:
     - ttcat
@@ -119,9 +113,6 @@
   month: 3
   start: 3/4
   end: 
-  link:
-    - title: 
-      url: 
   cover: 
   contributor_id:
     - ttcat
@@ -172,7 +163,7 @@
   end: 
   link:
     - title: 活動網站
-      url: https://grants.g0v.tw/
+      url: https://grants.g0v.tw/  
   cover: 
   contributor_id:
     - ttcat
@@ -195,9 +186,6 @@
   month: 3
   start: 3/24
   end: 3/24
-  link:
-    - title: 
-      url: 
   cover: /p/2017/intl/0324intlparty.jpg
   contributor_id:
     - ttcat
@@ -240,8 +228,7 @@
   project_id:
     - intl
   label:
-  organizer_id:
-    - AccessNow
+  organizer_id: accessnow
   advisor_id:
   co-organizer_id:
   implementer_id:
@@ -270,8 +257,8 @@
   label:
   organizer_id:
   advisor_id:
-  co-organizer_id:
-    - Hacks/Hackers Taipei
+  co-organizer_id: 
+    - hhtaipei
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -285,9 +272,6 @@
   month: 4
   start: 4/20
   end: 4/20
-  link:
-    - title: 
-      url: 
   cover: 
   contributor_id:
     - ttcat
@@ -324,8 +308,7 @@
   project_id:
     - intl
   label:
-  organizer_id:
-    - mySociety
+  organizer_id: mysociety
   advisor_id:
   co-organizer_id:
   implementer_id:
@@ -354,7 +337,7 @@
     - intl
   label:
   organizer_id:
-    - Open Knowledge Germany
+    - open_knowledge_germany
   advisor_id:
   co-organizer_id:
   implementer_id:
@@ -396,9 +379,6 @@
   month: 5
   start: 5/6
   end: 
-  link:
-    - title: 
-      url: 
   cover: 
   contributor_id:
     - ttcat
@@ -460,7 +440,10 @@
   organizer_id:
   advisor_id:
   co-organizer_id:
-    - 民主基金會/華人民主書院/台權會/HITCON
+    - tfd
+    - idemocracy
+    - tahr
+    - hitcon
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -474,9 +457,6 @@
   month: 5
   start: 5/25
   end: 
-  link:
-    - title: 
-      url: 
   cover: 
   contributor_id:
     - lucien
@@ -537,7 +517,8 @@
   organizer_id:
   advisor_id:
   co-organizer_id:
-    - WikiMedia Taiwan, Moztw
+    - wikimediatw
+    - moztw
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -554,7 +535,7 @@
   link:
     - title: 活動網站
       url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-tensorflow-and-keras
-  cover: 
+  cover: p/2017/pycon/pycontw17-image.png
   contributor_id:
     - rock
   project_id:
@@ -576,9 +557,6 @@
   month: 6
   start: 6/6
   end: 
-  link:
-    - title: 
-      url: 
   cover: /p/2017/intl/0606nationaltreasure.JPG
   contributor_id:
     - ttcat
@@ -603,9 +581,6 @@
   month: 6
   start: 6/8
   end: 6/9
-  link:
-    - title: 
-      url: 
   cover: /p/2017/intl/0608PDFNYC.JPG
   contributor_id:
     - ttcat
@@ -614,7 +589,7 @@
     - intl
   label:
   organizer_id:
-    - Civic Hall
+    - civichall
   advisor_id:
   co-organizer_id:
   implementer_id:
@@ -633,7 +608,7 @@
   link:
     - title: 活動網站
       url: https://tw.pycon.org/2017/zh-hant/
-  cover: 
+  cover: /p/2017/pycon/pycontw17-image.png
   contributor_id:
     - rock
   project_id:
@@ -657,9 +632,6 @@
   month: 7
   start: 7/8
   end: 
-  link:
-    - title: 
-      url: 
   cover: 
   contributor_id:
     - singing
@@ -670,6 +642,7 @@
   organizer_id:
   advisor_id:
   co-organizer_id:
+    - asiii
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -688,7 +661,10 @@
       url: https://ocftw.kktix.cc/events/ogr-review
   cover: 
   contributor_id:
-    - mglee, afi, ttcat, clkao
+    - mglee
+    - afi
+    - ttcat
+    - clkao
   project_id:
     - intl
   label:
@@ -716,7 +692,6 @@
     - pellaeon
     - afi
     - ttcat
-    - ly
   project_id:
     - intl
   label:
@@ -744,7 +719,7 @@
     - ttcat
     - afi
     - pellaeon
-    - ly
+    - yhsiang
   project_id:
     - g0vdathon
   label:
@@ -798,8 +773,8 @@
     - pellaeon
     - afi
     - ttcat
-    - ly
     - mglee
+    - yhsiang
   project_id:
     - intl
   label:
@@ -819,9 +794,6 @@
   month: 8
   start: 8/16
   end: 
-  link:
-    - title: 
-      url: 
   cover: 
   contributor_id:
     - pellaeon
@@ -898,7 +870,12 @@
       url: https://ocftw.kktix.cc/events/opengovreport
   cover: /p/2017/intl/0910OGR release.JPG
   contributor_id:
-    - afi;mglee;clkao;ttcat;huangfu;wumini
+    - afi
+    - mglee
+    - clkao
+    - ttcat
+    - huangfu
+    - miniwu
   project_id:
     - intl
   label:
@@ -929,7 +906,7 @@
   organizer_id:
   advisor_id:
   co-organizer_id:
-    - mySociety
+    - mysociety
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -978,7 +955,8 @@
   organizer_id:
   advisor_id:
   co-organizer_id:
-    - Code fo for All / NDI
+    - codeforall
+    - ndi
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -997,14 +975,18 @@
       url: https://www.facebook.com/media/set/?set=a.2000335226909070.1073741844.1502561953353069&type=1&l=b9ca7bc8a3
   cover: /p/2017/intl/0915DataBootcamp.jpg
   contributor_id:
-    - afi;singsing;hungfu;pellaeon
+    - afi
+    - singing
+    - huangfu
+    - pellaeon
   project_id:
     - intl
   label:
   organizer_id:
   advisor_id:
   co-organizer_id:
-    - 開拓文教基金會、資料科學年會
+    - frontier
+    - twdsconf
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -1053,7 +1035,7 @@
     - intl
   label:
   organizer_id:
-    - WikiMedia Taiwan
+    - wikimediatw
   advisor_id:
   co-organizer_id:
   implementer_id:
@@ -1069,9 +1051,6 @@
   month: 9
   start: 9/24
   end: 09/25
-  link:
-    - title: 
-      url: 
   cover: /p/2017/intl/0924CodeforJapan.jpg
   contributor_id:
     - ttcat
@@ -1079,7 +1058,7 @@
     - intl
   label:
   organizer_id:
-    - Code for Japan
+    - code4jap
   advisor_id:
   co-organizer_id:
   implementer_id:
@@ -1100,7 +1079,8 @@
       url: https://ocftw.kktix.cc/events/ogr-tainan
   cover: /p/2017/intl/1001tainanOGR_resized.jpg
   contributor_id:
-    - afi;mglee
+    - afi
+    - mglee
   project_id:
     - intl
   label:
@@ -1127,7 +1107,7 @@
   contributor_id:
     - rock
   project_id:
-    - CCTW
+    - cctw
   label:
   organizer_id:
   advisor_id:
@@ -1145,9 +1125,6 @@
   month: 10
   start: 10/23
   end: 10/27
-  link:
-    - title: 
-      url: 
   cover: /p/2017/intl/1023coconet.jpg
   contributor_id:
     - ttcat
@@ -1166,14 +1143,14 @@
   avatar: 
 1111BSDTW:
   title: BSDTW 2017
-  description: 
+  description: BSDTW 2017 will be held on Nov. 11-12th, 2017, Taipei Taiwan
   month: 11
   start: 11/11
   end: 11/12
   link:
-    - title: 
-      url: 
-  cover: 
+    - title: 官方網站
+      url: https://2017.bsdtw.org/
+  cover: /p/2017/bsdtw/BSDTW.png
   contributor_id:
     - singing
     - huangfu
@@ -1196,14 +1173,14 @@
   start: 11/7
   end: 11/7
   link:
-    - title: 
-      url: 
+    - title: 簡報
+      url: https://drive.google.com/file/d/166F39GjwcRo9q80UtGWecIkDn0Okepx6/view?usp=sharing
   cover: 
   contributor_id:
     - rock
     - singing
   project_id:
-    - CCTW
+    - cctw
   label:
   organizer_id:
   advisor_id:
@@ -1224,7 +1201,7 @@
   link:
     - title: 報名頁面
       url: https://ocftw.kktix.cc/events/concom2017
-  cover: 
+  cover: /p/2017/admin/20171001CONCOMPic.jpg
   contributor_id:
     - singing
     - huangfu

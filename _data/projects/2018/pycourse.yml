@@ -1,0 +1,31 @@
+name: PyCourse
+name_en: PyCourse
+abbr: PyCourse
+tagline: 
+cover: /p/2017/pycourse/og.png
+description: PyCourse - 用學習 Python 來創造無限可能的未來！
+link:
+  - title: 專案首頁
+    url: http://ocf.tw/p/2017/pycourse/
+tag:
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - pycourse
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+  - pofeng
+staff_id:
+  - rock
+consultant_id:
+volunteer_id:
+coordinator_id:
+
