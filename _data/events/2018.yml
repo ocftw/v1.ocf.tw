@@ -226,3 +226,33 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0630cctw:
+  title: CC TW Chapter 第一次會議
+  description: ” Hey! 只要您對創用CC 有興趣，歡迎加入我們第一次CC Taiwan Chapter 聚會！CC Taiwan Chapter簡單說就是 CC 社群所有人的集合，只要對 CC 有貢獻、想推廣，都是CCTW Chapter的一份子！聚會當天還有一項重要任務！我們要推舉出CCTW Chapter中的幾位要角：1. GNC Representative ：負責與Creative Commons Headquarter (CCHQ)交涉、參與會議、進行 CC 網絡策略事務相關的參與工作。2. Chapter Lead (統籌)：負責協調Creative Commons Headquarter (CCHQ) 和 CCTW Chapter 事務的人，會需要和 CC HQ 交涉，也協調 chapter members 參與 CC HQ 需要協助的 CC 相關事務。“
+  month: 6
+  start: 6/30
+  end: 
+  link:
+    - title: 活動網站
+      url: https://cc.ocf.tw/home
+    - title: 會議記錄
+      url: https://cc.ocf.tw/cc-taiwan-chapter/chapter-meeting-20180630 
+  cover: /p/2018/cctw/20180630cc.JPG
+  contributor_id:
+     - rock
+     - pofeng
+     - singing
+     - leona
+  project_id:
+    - cctw 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
