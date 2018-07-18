@@ -1,4 +1,4 @@
-0113g0vdathon:
+0103g0vdathon:
   title: 在開源社群改造社會-2018 年 g0v 公民科技創新獎助金提案說明工作坊
   description: 為鼓勵更多優秀人才投入公民科技領域、加速孵化更多成果，我們向國內外各大具社會影響力之媒體、科技產業募集「公民科技創新獎助金」，並從 g0v 零時政府揪松團設計一套參與、評選機制，來獎助具潛力且有助公共利益的專案，投入原型開發或維護營運。
   month: 1
@@ -8,6 +8,30 @@
     - title: 活動網站
       url: https://g0v-jothon.kktix.cc/events/grant-apply-worksh0p-moz
   cover: /p/2018/g0v/20180103g0vdathon.png
+  contributor_id:
+  project_id:
+    - g0vdathon 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0113g0vdathon:
+  title: g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松
+  description: 台灣零時政府 g0v.tw 雙月大黑客松, 不只寫程式改造社會，還要有菩薩心會許願蓋高牆做功德。不要問為什麼沒有人做功德，先承認你就是沒有人！來吧！來提新專案、來做舊專案、來認識新朋友！拓展開源、開幹、開花的公民行動精神。
+  month: 1
+  start: 1/13
+  end: 
+  link:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath28n
+  cover: /p/2018/g0v/20180113g0vdathon.jpg
   contributor_id:
   project_id:
     - g0vdathon 
