@@ -243,6 +243,35 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0516intl:
+  title: RightsCon Summit Series
+  description: "國際組織 Access Now ，是一個致力於開放自由網路的人權、公共政策、與倡議性之國際非營利組織。自2009年成立以來，Access Now 持續倡議數位人權的議題，其針對下列五個主要的政策領域：數位安全、言論自由、隱私、網路歧視、以及商業與人權。RightsCon 數位人權大會是由 Access Now 所主辦、目前世界最大的數位人權活動，每年在不同國家舉行，2017 年 3 月於布魯塞爾舉辦時，參加者已超過 1500 人，今年在加拿大多倫多的大會於 5/16-18 舉行，參加者人數更是再度超越往年紀錄，來到超過 2000 人的人數，參加者背景分別來自全球的資訊公司、人權組織、網路治理機構與政府和聯合國組織，囊括世界上數位科技領域的所有重要領域，三日的活動中，多軌並行進行的公開議程超過 450 個，更有不計其數的議題工作坊、座談會、圓桌會議、小組討論、閉門會談等，這些來自世界各地的資訊專業人士、政策制定者、學術研究者與人權工作者，從各種面向切入，討論資訊時代的隱私、言論自由等數位人權，以及最新的科技（例如人工智慧、區塊鏈）在數位人權方面的影響，並也探討公民科技如何幫助人們、人權行動者面對怎樣的網路與科技議題或如何使用網路作為發聲、對抗的方式。"
+  month: 5
+  start: 5/16
+  end: 5/18
+  link:
+    - title: 活動網站
+      url: https://www.rightscon.org/
+    - title: 台灣代表團紀錄
+      url: https://beta.hackfoldr.org/RightsCon2018Taiwan
+  cover: /p/2018/intl/0516rightscon.png
+  contributor_id:
+    - ttcat
+    - pellaeon
+    - lilin
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
 0629intl:
   title: 2018 多倫多 RightsCon 數位人權大會分享會
   description: "每年在 RightsCon 數位人權大會中，都可以看到台灣參與者的身影，活躍地參加會議、議程、擔任講者。然而一定有更多台灣的夥伴，雖然關注此議題，卻無法親自前往參加大會。
