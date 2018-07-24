@@ -243,6 +243,32 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0505g0vdathon:
+  title: 台灣零時政府 g0v.tw 雙月大黑客松
+  description: 本次 g0v 大黑客松將於 5/5 舉辦，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、插畫家與媒體工作者等諸眾，帶著熱血來盡一己之力，開源協作參與社會。
+  month: 5
+  start: 5/05
+  end: 
+  link:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath30n
+    - title: 本期共筆
+      url: https://beta.hackfoldr.org/g0v-hackath30n/ 
+  cover: /p/2018/g0v/20180505g0vdathon.png
+  contributor_id:
+  project_id:
+    - g0vdathon 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
 0516intl:
   title: RightsCon Summit Series
   description: "國際組織 Access Now ，是一個致力於開放自由網路的人權、公共政策、與倡議性之國際非營利組織。自2009年成立以來，Access Now 持續倡議數位人權的議題，其針對下列五個主要的政策領域：數位安全、言論自由、隱私、網路歧視、以及商業與人權。RightsCon 數位人權大會是由 Access Now 所主辦、目前世界最大的數位人權活動，每年在不同國家舉行，2017 年 3 月於布魯塞爾舉辦時，參加者已超過 1500 人，今年在加拿大多倫多的大會於 5/16-18 舉行，參加者人數更是再度超越往年紀錄，來到超過 2000 人的人數，參加者背景分別來自全球的資訊公司、人權組織、網路治理機構與政府和聯合國組織，囊括世界上數位科技領域的所有重要領域，三日的活動中，多軌並行進行的公開議程超過 450 個，更有不計其數的議題工作坊、座談會、圓桌會議、小組討論、閉門會談等，這些來自世界各地的資訊專業人士、政策制定者、學術研究者與人權工作者，從各種面向切入，討論資訊時代的隱私、言論自由等數位人權，以及最新的科技（例如人工智慧、區塊鏈）在數位人權方面的影響，並也探討公民科技如何幫助人們、人權行動者面對怎樣的網路與科技議題或如何使用網路作為發聲、對抗的方式。"
