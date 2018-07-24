@@ -272,6 +272,33 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar:
+0601pycon:
+  title: 2018 PyCon Taiwan
+  description: "PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。 "
+  month: 6
+  start: 6/01
+  end: 6/02
+  link:
+    - title: 活動網站
+      url: https://tw.pycon.org/2018/zh-hant/
+  cover: /p/2018/pycon/og.png
+  contributor_id:
+    - rock
+    - huangfu
+    - singing
+  project_id:
+    - pycon
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
 0613intl:
   title: Citizen Lab Summer Institute on Monitoring Internet Openness and Rights
   description: "The Citizen Lab Summer Institute on Monitoring Internet Openness and Rights is an annual research workshop hosted at the Munk School of Global Affairs, University of Toronto. CLSI is a workshop for researchers and practitioners from academia, civil society, and the private sector who are working on Internet openness, security, and rights. The event brings together people with different perspectives from a wide range of backgrounds across technical and social science disciplines. Participants range from established experts to those just entering the area. We started CLSI to demonstrate that a greater understanding of technology and policy can only be achieved through interdisciplinary collaboration. Our aim is to help build and support a community that shares this belief. "
