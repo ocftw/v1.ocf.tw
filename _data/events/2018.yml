@@ -215,6 +215,31 @@
   speaker_id:
   banner: 
   avatar: 
+0413cctw:
+  title: 2018 CC Global Summit
+  description: 創用CC 2018全球大會 
+  month: 4
+  start: 4/13
+  end: 4/15
+  link:
+    - title: 活動網站
+      url: https://ccglobalsummit2018.sched.com/event/E6ty/how-can-glam-institutions-involve-themselves-in-copyright-reform-discussions
+  cover: /p/2018/cctw/20180413cc.png
+  contributor_id:
+  project_id:
+    - cctw
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+    - lucien
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
 0424intl:
   title: NGO 的資安討論小聚 7 - 我在臉書的個資怎麼了？
   description: "這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。本場預計會介紹的主題是：
