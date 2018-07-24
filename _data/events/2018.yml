@@ -500,3 +500,33 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+  0711intl :
+  title: 2018 美國公民科技之行回台分享會
+  description:  "政府與民間的公民科技不一樣嗎?兩大會議，一個以政府視野來探討，一個以公民社群為出發點，有著非常不一樣的氛圍和議程，也帶來許多反思和如何運用科技的探討。而四位分享者，也將以不同身份提出不同觀察，並與大家分享更多會議以外的交流故事、行程秘辛、未來推坑大計，至於驚喜彩蛋，那只能來現場才能得知了啊!!!"
+  month: 7
+  start: 7/11
+  end: 
+  link:
+    - title: 活動直播
+      url: https://www.youtube.com/watch?v=Aa-YETYM7ak
+    - title: 共筆
+      url: https://beta.hackfoldr.org/2018ocf-intl-visits/edit
+  cover: /p/2018/g0v/0711g0v.png  
+  contributor_id:
+    - lulukeng
+    - ttcat
+    - ipa
+    - yhchang  
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
