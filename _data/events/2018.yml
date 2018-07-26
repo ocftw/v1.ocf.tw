@@ -31,6 +31,8 @@
   link:
     - title: 活動網站
       url: https://g0v-jothon.kktix.cc/events/g0v-hackath28n
+    - title: 本期共筆
+      url: https://beta.hackfoldr.org/g0v-hackath28n
   cover: /p/2018/g0v/20180113g0vdathon.jpg
   contributor_id:
   project_id:
@@ -86,6 +88,31 @@
     - rock
   project_id:
     - pycourse
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0226intl:
+  title: NGO 的資安討論小聚 6
+  description: "這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。第六場預計會介紹的主題是：網際網路及手機網路的原理"
+  month: 2
+  start: 2/26
+  end: 
+  link:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/ngo-infosec-6
+  cover:
+  contributor_id:
+    - pellaeon
+  project_id:
+    - intl
   label:
   organizer_id:
   advisor_id:
@@ -188,6 +215,32 @@
   speaker_id:
   banner: 
   avatar: 
+0413cctw:
+  title: 2018 CC Global Summit
+  description: 創用CC 2018全球大會 
+  month: 4
+  start: 4/13
+  end: 4/15
+  link:
+    - title: 活動網站
+      url: https://ccglobalsummit2018.sched.com/event/E6ty/how-can-glam-institutions-involve-themselves-in-copyright-reform-discussions
+  cover: /p/2018/cctw/20180413cc.png
+  contributor_id:
+    - lucien
+    - yixuanlin 
+  project_id:
+    - cctw
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
 0424intl:
   title: NGO 的資安討論小聚 7 - 我在臉書的個資怎麼了？
   description: "這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。本場預計會介紹的主題是：
@@ -207,6 +260,147 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
     - lilin
   project_id:
     - intl 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0505g0vdathon:
+  title: 台灣零時政府 g0v.tw 雙月大黑客松
+  description: 本次 g0v 大黑客松將於 5/5 舉辦，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、插畫家與媒體工作者等諸眾，帶著熱血來盡一己之力，開源協作參與社會。
+  month: 5
+  start: 5/05
+  end: 
+  link:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath30n
+    - title: 本期共筆
+      url: https://beta.hackfoldr.org/g0v-hackath30n/ 
+  cover: /p/2018/g0v/20180505g0vdathon.png
+  contributor_id:
+  project_id:
+    - g0vdathon 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0516intl:
+  title: RightsCon Summit Series
+  description: "國際組織 Access Now ，是一個致力於開放自由網路的人權、公共政策、與倡議性之國際非營利組織。自2009年成立以來，Access Now 持續倡議數位人權的議題，其針對下列五個主要的政策領域：數位安全、言論自由、隱私、網路歧視、以及商業與人權。RightsCon 數位人權大會是由 Access Now 所主辦、目前世界最大的數位人權活動，每年在不同國家舉行，2017 年 3 月於布魯塞爾舉辦時，參加者已超過 1500 人，今年在加拿大多倫多的大會於 5/16-18 舉行，參加者人數更是再度超越往年紀錄，來到超過 2000 人的人數，參加者背景分別來自全球的資訊公司、人權組織、網路治理機構與政府和聯合國組織，囊括世界上數位科技領域的所有重要領域，三日的活動中，多軌並行進行的公開議程超過 450 個，更有不計其數的議題工作坊、座談會、圓桌會議、小組討論、閉門會談等，這些來自世界各地的資訊專業人士、政策制定者、學術研究者與人權工作者，從各種面向切入，討論資訊時代的隱私、言論自由等數位人權，以及最新的科技（例如人工智慧、區塊鏈）在數位人權方面的影響，並也探討公民科技如何幫助人們、人權行動者面對怎樣的網路與科技議題或如何使用網路作為發聲、對抗的方式。"
+  month: 5
+  start: 5/16
+  end: 5/18
+  link:
+    - title: 活動網站
+      url: https://www.rightscon.org/
+    - title: 台灣代表團紀錄
+      url: https://beta.hackfoldr.org/RightsCon2018Taiwan
+  cover: /p/2018/intl/0516rightscon.png
+  contributor_id:
+    - ttcat
+    - pellaeon
+    - lilin
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
+0601pycon:
+  title: 2018 PyCon Taiwan
+  description: "PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。 "
+  month: 6
+  start: 6/01
+  end: 6/02
+  link:
+    - title: 活動網站
+      url: https://tw.pycon.org/2018/zh-hant/
+  cover: /p/2018/pycon/og.png
+  contributor_id:
+    - rock
+    - huangfu
+    - singing
+  project_id:
+    - pycon
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0613intl:
+  title: Citizen Lab Summer Institute on Monitoring Internet Openness and Rights
+  description: "The Citizen Lab Summer Institute on Monitoring Internet Openness and Rights is an annual research workshop hosted at the Munk School of Global Affairs, University of Toronto. CLSI is a workshop for researchers and practitioners from academia, civil society, and the private sector who are working on Internet openness, security, and rights. The event brings together people with different perspectives from a wide range of backgrounds across technical and social science disciplines. Participants range from established experts to those just entering the area. We started CLSI to demonstrate that a greater understanding of technology and policy can only be achieved through interdisciplinary collaboration. Our aim is to help build and support a community that shares this belief. "
+  month: 6
+  start: 6/13
+  end: 6/15
+  link:
+    - title: 活動網站
+      url: https://citizenlab.ca/summerinstitute/2018.html
+  cover: 
+  contributor_id:
+    - pellaeon
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
+0626intl:
+  title: East Asia Combating Disinformation Workshop
+  description: "This workshop is alongside the East Asia Democracy Forum host by TFD and is aim to invite leaders from CSOs, independent media, fact checking communities in this region, and focus on knowledge and skill sharing:
+● Disinformation status quo of East Asia countries
+● Insights, Research pitches
+● Tech tools, projects or actions that have been conducted, and share
+● Hands-on training or capacity building
+● Challenges and Lessons
+● Networking"
+  month: 6
+  start: 6/26
+  end: 6/28
+  link:
+  cover:
+  contributor_id:
+    - ttcat
+    - lulukeng
+    - pellaeon
+    - lilin
+    - vivianlw
+    - yhchang
+  project_id:
+    - intl
   label:
   organizer_id:
   advisor_id:
@@ -295,6 +489,36 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   contributor_id:
   project_id:
     - g0vdathon 
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+  0711intl :
+  title: 2018 美國公民科技之行回台分享會
+  description:  "政府與民間的公民科技不一樣嗎?兩大會議，一個以政府視野來探討，一個以公民社群為出發點，有著非常不一樣的氛圍和議程，也帶來許多反思和如何運用科技的探討。而四位分享者，也將以不同身份提出不同觀察，並與大家分享更多會議以外的交流故事、行程秘辛、未來推坑大計，至於驚喜彩蛋，那只能來現場才能得知了啊!!!"
+  month: 7
+  start: 7/11
+  end: 
+  link:
+    - title: 活動直播
+      url: https://www.youtube.com/watch?v=Aa-YETYM7ak
+    - title: 共筆
+      url: https://beta.hackfoldr.org/2018ocf-intl-visits/edit
+  cover: /p/2018/g0v/0711g0v.png  
+  contributor_id:
+    - lulukeng
+    - ttcat
+    - ipa
+    - yhchang  
+  project_id:
+    - intl
   label:
   organizer_id:
   advisor_id:
