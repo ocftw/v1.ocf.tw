@@ -7,19 +7,19 @@ project_id: g0vsummit
 
 # ------ 以上為必要，以下為非必要 ------
 
-og_title: g0v Summit 2018
+og_title: g0v summit 2018
 # 這頁的 og title，若 no 或留空，會採用專案的 name 資料，也就是中文全名
 
-og_description: g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是亞洲最大的公民科技黑客年會，過去兩屆吸引多達十九國講者投稿。我們致力讓這個聚會成為近千位現場參與者的開放交流平台，無論是工程師、研究者、倡議者、創作者，希望都能繼續透過科技、專業及群眾參與改變社會。 
+og_description: COSCUP 2017 8/5-8/6 @臺灣大學社會科學院盛大舉行。COSCUP 為 Open Source  愛好者交流與分享的大型開放原始碼研討會，今年更邀請了各地社群成為議程的協力夥伴，一同打造更多元的主題和議程，歡迎你來參加一年一度開源人年會。
 # 這頁的 og description，若 no 或留空，會採用專案的 description 資料
 
-og_image:  
+og_image: 
 # 這頁的 og image 網址，若 no 或留空，會採用專案的 cover 資料
 
-cover_image: /p/2018/g0vsummit/og.jpg 
+cover_image: /p/2018/g0vsummit/og.jpg
 # 這頁上方大標題區塊的背景圖網址，若 no 或留空，會採用專案的 cover 資料
 
-cover_image_opacity: decimal / no
+cover_image_opacity:
 # 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設是 0.95
 
 cover_veil_opacity: 0.4
@@ -31,41 +31,8 @@ color: green
 sidebar_image: 
 # 這頁右側邊欄的配圖，若 no 或留空，會採用專案的 avatar 資料，或主辦單位組織的 avatar / logo / cover 資料，或 semantic ui 的 info icon （以上順序即為採用資料的優先順位，若前一個無資料，則會去找下一個）
 
-show_events: yes
+show_events: 
 # 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若 no 或留空，則不顯示計畫成果區塊
-
-show_budget: 
-# 是否顯示預算表，若填 yes 則會自動抓取專案資料夾中的 budget.html 檔案做為預算表內容，若 no 或留空，則不顯示預算表區塊
-
-gsheet_url: 
-# 收知明細表的 google spreadsheet 網址，若 no 或留空，則不顯示收支明細區塊
-
-show_sponsors: 
-# 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若 no 或留空，則不顯示贊助商區塊
-
-show_donors: 
-# 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若 no 或留空，則不顯示捐助人區塊
-
-show_progress: no
-# 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若 no 或留空，則不顯示進度條
-
-cpid: no
-# 專案從 neticrm 抓募款進度資料時使用的 id，若 no 或留空，則不從 neticrm 抓資料
-
-progress:
-# 專案募款進度，會出現在專案列表頁右側邊欄
-  duration:
-  # 募款期間，若 no 或留空，則不顯示此項目
-  goal: 
-  # 募款目標金額，若 no 或留空，則不顯示此項目
-  current: 
-  # 已募得款項金額，若 no 或留空，則不顯示此項目
-  percent: 
-  # 進度百分比，若 no 或留空，則不顯示此項目
-  count: 
-  # 捐款人數，若 no 或留空，則不顯示此項目
-  updated: 
-  # 資料更新日期，若 no 或留空，則不顯示此項目
 
 action: 
 # 專案頁的 call to action，可以是按鈕或一段文字，會出現在右側邊欄的最下方
@@ -79,13 +46,13 @@ action:
     # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
   - title: Facebook
     # 按鈕上的文字
-    url:  https://www.facebook.com/g0v.tw/
+    url: https://www.facebook.com/g0v.tw/
     # 按下後會連去哪裡
     color: teal
     # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
     icon: facebook
-    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html  
-  - title: instagram
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+  - title: Instagram
     # 按鈕上的文字
     url: https://www.instagram.com/g0v.tw/
     # 按下後會連去哪裡
@@ -93,7 +60,7 @@ action:
     # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
     icon: instagram
     # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
-   - title: Twitter
+  - title: Twitter
     # 按鈕上的文字
     url: https://twitter.com/g0vtw
     # 按下後會連去哪裡
@@ -101,7 +68,7 @@ action:
     # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
     icon: twitter
     # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
-   - title: Youtube
+  - title: YouTube
     # 按鈕上的文字
     url: https://www.youtube.com/channel/UCeGbBclLIMoK8wzq2Mzsl8Q
     # 按下後會連去哪裡
@@ -109,18 +76,20 @@ action:
     # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
     icon: youtube
     # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
-   - title: 相片集
+  - title: 相片集
     # 按鈕上的文字
     url: https://www.flickr.com/photos/g0v/
     # 按下後會連去哪裡
-    color: blue
+    color: teal
     # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
-    icon: flickr
+    icon: photo
     # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
 
 ---
-<h2> 關於 g0v 零時政府 </h2>
+<h2>g0v 零時政府</h2>
 <p>g0v，又稱零時政府，已經五年了。從 2012 年憑藉一股憤怒做出《中央政府總預算視覺化》，到 318 佔領運動期間的爆炸性成長，到社群參與者進入政府、走向地方，到開放文化基金會的成立、國際交流、g0v.news、g0v 公民科技獎助金，社群由發散的去中心走向多中心的穩定發展。五年來，參與者持續以當代思維、開放、開源精神號召群眾協作，吸引各領域專業、議題倡議者，也在大大小小的黑客松，開發新工具、嘗試新型態的組織與媒體、建立新合作關係。</p>
 
 <h2>2018 g0v 年會</h2>
-<p>g0v 年會是亞洲最大的公民科技黑客年會。2018，我們希望以「生態系」的角度來細看公民科技的養分在各社群、國家的土地上長出了什麼、連結了什麼、改變了什麼、累積了什麼。2018 也是台灣的地方選舉年，地方政治會如何震盪？開放政府運動又對在地的選舉機制、文化造成了什麼影響？作為黑客社群，我們相信捲起袖子的實踐力量。我們重視進行中或已完成的專案呈現，也認知到分享失敗、醞釀想法及說故事的力量。因此，這一次 g0v 年會徵件分為「台上」及「台下」兩個主題區塊，希望已經成形的專案能藉由更精確的主題描述獲得回饋，也讓「非專案」的故事有分享、思考的空間。<br/> </p>
+<p>g0v 年會是亞洲最大的公民科技黑客年會。2018，我們希望以「生態系」的角度來細看公民科技的養分在各社群、國家的土地上長出了什麼、連結了什麼、改變了什麼、累積了什麼。2018 也是台灣的地方選舉年，地方政治會如何震盪？開放政府運動又對在地的選舉機制、文化造成了什麼影響？
+
+作為黑客社群，我們相信捲起袖子的實踐力量。我們重視進行中或已完成的專案呈現，也認知到分享失敗、醞釀想法及說故事的力量。因此，這一次 g0v 年會徵件分為「台上」及「台下」兩個主題區塊，希望已經成形的專案能藉由更精確的主題描述獲得回饋，也讓「非專案」的故事有分享、思考的空間。<br/> </p>
