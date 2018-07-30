@@ -46,6 +46,7 @@ card:
   - intl
   - movie
   - g0vdathon
+  - g0vsummit
   - coscup
   - pycon
   - pycourse
@@ -62,3 +63,4 @@ card:
   - openhackfarm
   - sysprogram
   - openstack
+
