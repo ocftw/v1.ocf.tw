@@ -1,15 +1,15 @@
-name: COSCUP 開源人年會 2017
-name_en: Conference for Open Source Coders, Users and Promoters 2017
-abbr: COSCUP 2017
+name: COSCUP 2018 X openSUSE.Asia X GNOME.Asia
+name_en: COSCUP 2018 X openSUSE.Asia X GNOME.Asia
+abbr: COSCUP 2018 X openSUSE.Asia X GNOME.Asia
 tagline: 
-cover: /p/2017/coscup/og.png
+cover: /p/2018/coscup/coscup2018.jpg
 description: COSCUP 希望藉由每一屆的年度會議，讓世界各地的 FLOSS 愛好者齊聚一堂，並邀請世界各地的專家上台分享經驗，想法與新的技術，來共同的激發國內外的愛好者更加踴躍投入 FLOSS 的開發與使用。
 month: 8
-start: 8/05
-end: 8/06
+start: 8/11
+end: 8/12
 link:
   - title: 專案介紹
-    url: /p/2017/coscup
+    url: /p/2018/coscup
     target: _self
 tag:
   - 大型研討會
@@ -23,6 +23,8 @@ field_id:
 advisor_id:
 organizer_id:
   - coscup
+  - opensuseasia
+  - gnomeasia
 co-organizer_id:
   - ocf
 implementer_id:
