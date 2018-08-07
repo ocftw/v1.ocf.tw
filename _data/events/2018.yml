@@ -500,7 +500,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
-  0711intl :
+0711intl :
   title: 2018 美國公民科技之行回台分享會
   description:  "政府與民間的公民科技不一樣嗎?兩大會議，一個以政府視野來探討，一個以公民社群為出發點，有著非常不一樣的氛圍和議程，也帶來許多反思和如何運用科技的探討。而四位分享者，也將以不同身份提出不同觀察，並與大家分享更多會議以外的交流故事、行程秘辛、未來推坑大計，至於驚喜彩蛋，那只能來現場才能得知了啊!!!"
   month: 7
@@ -530,6 +530,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0811COSCUP2018 :
   title: COSCUP 2018 X openSUSE.Asia X GNOME.Asia 
   description:  開源人年會 COSCUP 已經邁入第十三年了，今年的活動有些特別，除了延續去年首次嘗試的社群議程外，今年更與 GNOME.Asia 與 openSUSE.Asia 一起合辦，今年的時間地點則於 8/11-12 在台灣科技大學國際大樓舉辦。過去，COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，今年除了有在地社群成為議程的協力夥伴外，更加入了國際社群們，希望能打造更多元的主題和議程。 無論你是寫 Open Source 軟體的開發者、熱衷 Open Source 軟體的推廣者、熟悉 Open Source 軟體的使用者或是想了解 Open Source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP x GNOME.Asia x openSUSE.Asia 2018！ 
   month: 8
@@ -545,7 +546,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
     - singing
     - huangfu  
   project_id:
-    - ocf 
+    - coscup 
   label:
   organizer_id:
     - coscup
