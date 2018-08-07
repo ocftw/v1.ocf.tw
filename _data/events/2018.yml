@@ -530,3 +530,35 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+  title: COSCUP 2018 X openSUSE.Asia X GNOME.Asia 
+  description:  開源人年會 COSCUP 已經邁入第十三年了，今年的活動有些特別，除了延續去年首次嘗試的社群議程外，今年更與 GNOME.Asia 與 openSUSE.Asia 一起合辦，今年的時間地點則於 8/11-12 在台灣科技大學國際大樓舉辦。過去，COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，今年除了有在地社群成為議程的協力夥伴外，更加入了國際社群們，希望能打造更多元的主題和議程。 無論你是寫 Open Source 軟體的開發者、熱衷 Open Source 軟體的推廣者、熟悉 Open Source 軟體的使用者或是想了解 Open Source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP x GNOME.Asia x openSUSE.Asia 2018！ 
+  month: 8
+  start: 8/11
+  end: 8/12
+  link:
+    - title: 完整議程
+      url: https://2018.coscup.org/programs/
+    - title: 活動直播
+      url: https://www.youtube.com/playlist?list=PLqfib4St70XOZt4e6XNiigzW9GI7iG-Iq
+  cover: /p/2018/coscup/coscup2018.jpg 
+  contributor_id:
+    - singing
+    - huangfu  
+  project_id:
+    - ocf 
+  label:
+  organizer_id:
+    - coscup
+    - opensuseasia
+    - gnomeasia
+  advisor_id:
+  co-organizer_id:
+    - ocf
+    - ntust
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
