@@ -530,6 +530,36 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0810osln:
+  title: OpenChain 開源管理 (3) - An Intelligent Way to Go 
+  description: 本次活動邀請到日本OpenChain社群成員，來分享在公司內部推行開源管理的實際經驗與所遭逢的各種狀況，包括了Sony與Panasonic兩大公司，同時也將介紹OpenChain這個提供開源管理範本與資訊的計畫，機會十分難得！您將可以了解到如何聰明、有系統地建立開源管理機制、有那些資源可利用、實務上所遭遇的困難又有那些可能的應對之道。
+  month: 8
+  start: 8/10
+  end: 
+  link:
+    - title: 活動相關資訊與簡報
+      url: https://dmfli.kktix.cc/events/openchain3
+  cover: /p/2018/osln/180810openchain.jpg 
+  contributor_id:
+    - lucien
+    - florence
+    - leona  
+  project_id:
+    - osln
+  label:
+  organizer_id:
+    - openchain
+    - osln
+    - ocf
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
 0811COSCUP2018 :
   title: COSCUP 2018 X openSUSE.Asia X GNOME.Asia 
   description:  開源人年會 COSCUP 已經邁入第十三年了，今年的活動有些特別，除了延續去年首次嘗試的社群議程外，今年更與 GNOME.Asia 與 openSUSE.Asia 一起合辦，今年的時間地點則於 8/11-12 在台灣科技大學國際大樓舉辦。過去，COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，今年除了有在地社群成為議程的協力夥伴外，更加入了國際社群們，希望能打造更多元的主題和議程。 無論你是寫 Open Source 軟體的開發者、熱衷 Open Source 軟體的推廣者、熟悉 Open Source 軟體的使用者或是想了解 Open Source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP x GNOME.Asia x openSUSE.Asia 2018！ 
