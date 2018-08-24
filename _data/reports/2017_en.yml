@@ -10,7 +10,7 @@ items:
     anchor: community
     icon: hand rock
     background_color: olive
-    description: In 2017, OCF supported 7 conferences, 9 community operation programs and 3 school talent cultivation programs. We support the communities on administrative operation as a legal person, so that they can better focus on developing and advocating their own project.
+    description: In 2017, OCF supported 7 conferences, 9 community operation programs and 3 school talent cultivation programs. We support the communities on administrative operation by acting as their fiscal sponsor, so that they can better focus on developing and advocating their own project.
   - type: content
     columns:
       - type: image
