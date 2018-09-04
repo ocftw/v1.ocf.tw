@@ -9,7 +9,13 @@
       
 <div class="right menu">
 
-{% for item in site.data.settings.menu %}
+  {% if page.lang == "en" %}
+  {% assign menu_settings = site.data.settings.menu_en %}
+  {% else %}
+  {% assign menu_settings = site.data.settings.menu %}
+  {% endif %}
+
+{% for item in menu_settings %}
   <a href="{{ item.url }}" class="item 
   {% if page.url contains item.url %}
   active
