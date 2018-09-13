@@ -1,9 +1,9 @@
-name: 創用 CC 社群
-name_en: Creative Commons Taiwan
+name: CC Taiwan Chapter
+name_en: CC Taiwan Chapter
 abbr: 
 tagline: 
-cover: /p/2016/cctw/og.png
-description: Creative Commons 所提供的公眾授權條款，台灣稱為「創用 CC」授權條款，取其授權方式便於著作的「創」作與使「用」之意。開放文化基金會從 2015 年開始與台灣創用 CC 計畫合作，深化公眾授權知識的分享與傳播，讓 CC 授權推廣的種子，能接觸更多國內外的自由文化社群。 
+cover: /p/2018/cctw/ccclogo.jpg
+description: Creative Commons 是美國的非營利組織提出的公眾授權條款，台灣稱為「創用 CC」授權條款，是現今網路世代身為一個創作者所不可或缺的開放共享的授權方式。開放文化基金會自 2018 年起，參與 Creative Commons 會員，持續與 CC 組織互動，並協助社群 "CC Taiwan Chapter" 自主發展，繼續深化公眾授權知識的分享與傳播之外，也讓 CC 授權推廣的種子，能接觸更多國內外的自由文化社群。 
 month: 
 start: 
 end: 
@@ -32,3 +32,4 @@ consultant_id:
 volunteer_id:
 coordinator_id:
   - lucien
+  - rock

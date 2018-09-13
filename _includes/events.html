@@ -8,9 +8,11 @@
 
 <!-- 新版資料格式：從各年份的 yml 抓資料，只抓 2017 （含）以後的 -->
 
-{% for list in site.data.events %}
+{% for list in site.data.events reversed %}
 {% if list[0] contains "20" %}
 {% if list[0] > "2016" %}
+
+{% assign year = list[0] %}
 
 {% for event in list[1] reversed %}
 {% for pid in event[1].project_id %}

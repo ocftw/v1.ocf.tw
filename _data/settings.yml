@@ -13,17 +13,18 @@ current: 2018
 menu:
 # 這個欄位用來設定主選單的選項與連結
   - title: 關於
-    title_en: About
     url: /about/
   - title: 夥伴
-    title_en: People
     url: /people/
   - title: 專案與成果
-    title_en: Projects
     url: /p/
   - title: 活動
-    title_en: Journal
     url: /journal/
   - title: 媒體區
-    title_en: Mediakit
     url: /mediakit/
+
+menu_en:
+  - title_en: About
+    url: /about/
+  - title_en: Projects
+    url: /p/
