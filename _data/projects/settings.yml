@@ -23,6 +23,7 @@ filter:
       data: 開放資料
       government: 開放政府
       hardware: 開放硬體
+      infosec: 資訊安全
       misc: 其他
 
   field:
@@ -52,6 +53,7 @@ card:
   - pycourse
   - sitcon
   - jcconf
+  - debconf18
   - cctw
   - osln
   - otspace
@@ -63,4 +65,6 @@ card:
   - openhackfarm
   - sysprogram
   - openstack
+  - cscs
+  - g0vjothon
 
