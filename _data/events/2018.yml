@@ -593,3 +593,57 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0813intl:
+  title: 亞太網路治理論壇
+  description:  亞太地區網路治理論壇（Asia Pacific Regional Internet Governance Forum, APrIGF）是一個針對網路治理的各方面議題舉辦的大型主題論壇，提供參與者進行經驗分享、討論，創造跨國的區域合作與發展。在聯合國每年舉辦世界網路治理論壇的同時，大家也認為，除了世界級的網路治理議題外，還需要針對特定區域、聚焦在當地的網路治理論壇，因此各個地區也自行發展自己的網路治理論壇。
+  month: 8
+  start: 8/13
+  end: 8/16
+  link:
+    - title: 官方網站
+      url: http://aprigf.vu/
+    - title: 台灣參訪團資訊
+      url: https://beta.hackfoldr.org/AprIGF2018Taiwan
+  cover: /p/2018/intl/0813aprigf.jpg 
+  contributor_id:
+    - pellaeon
+    - lilin 
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0914intl:
+  title: 亞太網路治理論壇 分享會
+  description:  "2016 年曾經成功爭取在台北主辦亞太網路治理論壇的台灣，在每年舉辦的 APrIGF 亞太網路治理論壇，都有許多參與者非常活躍地參加。雖然參與者眾多，但由於時間金錢等資源限制，仍然有許多人雖然有興趣、並關注這個議題，但無法遠道參與國際論壇。為了讓國際參與的經驗不僅是停留在出國參加的少數夥伴身上，而可以讓所有關注網路治理、資訊議題有興趣的朋友都可以共襄盛舉，因此在 APrIGF 結束後，許多前往參與的夥伴都會舉辦分享討論的活動，邀請參加者進行經驗分享、並且讓其他朋友一同加入討論。這個分享會針對所有有興趣但無法前往參加的朋友、或是想要了解網路治理議題的夥伴，歡迎大家一起來聽聽參與者們分享這個大型論壇的經驗！"
+  month: 9
+  start: 9/14
+  end: 
+  link:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/aprigf2018-sharing
+  cover:  
+  contributor_id:
+    - pellaeon
+    - lilin 
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
