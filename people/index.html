@@ -63,9 +63,14 @@ css: /assets/people.css
       <div class="card">
 
         {% if person.avatar %}
-        <div class="avatar image">
-          <img src="{{ person.avatar }}" alt="" />
-        </div>
+        {% if person.nick %}
+          {% assign anchor = person.nick %}
+        {% else %}
+          {% assign anchor = person.name %}
+        {% endif %}
+        <a id="{{ anchor }}" class="avatar image" href="#{{ anchor }}">
+          <img src="{{ person.avatar }}" alt="avatar of {{ person.name }} ({{ person.nick }})" />
+        </a>
         {% endif %}
 
         <div class="content">
