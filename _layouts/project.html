@@ -35,7 +35,11 @@ layout: global
 
   <div class="ui stripe relative container">
     <h1 class="ui inverted header">
+      {% if page.lang == 'en' %}
+      {{ project.name_en }}
+      {% else %}
       {{ project.name }}
+      {% endif %}
       {% if year != current %}
       ( {{ year }} 年度)
       {% endif %}
@@ -51,7 +55,13 @@ layout: global
 {% if project.description %}
 <div class="ui container">
   <section class="ui inverted bottom attached {{ page.color }} segment borderless">
-    <p>{{ project.description }}</p>
+    <p>
+      {% if page.lang == 'en' %}
+      {{ project.description_en }}
+      {% else %}
+      {{ porject.desrciption }}
+      {% endif %}
+    </p>
   </section>
 </div>
 {% endif %}
@@ -75,19 +85,37 @@ layout: global
 
       <!-- 根據專案頁設定，從活動資料產生專案成果列表區塊 -->
       {% if events and page.show_events %}
-      <h2 id="events" class="ui dividing header">計畫成果</h2>
+      <h2 id="events" class="ui dividing header">
+        {% if page.lang == "en" %}
+        Events
+        {% else %}
+        計畫成果
+        {% endif %}
+      </h2>
       {% include events.html %}
       {% endif %}
 
       <!-- 根據專案頁設定，顯示專案預算表區塊 -->
       {% if page.show_budget %}
-      <h2 id="budget" class="ui header">預算表</h2>
+      <h2 id="budget" class="ui header">
+        {% if page.lang == "en" %}
+        Budget
+        {% else %}
+        預算表
+        {% endif %}
+      </h2>
       {% include_relative budget.html %}
       {% endif %}
 
       <!-- 根據專案頁設定，顯示內嵌 gsheet 區塊 -->
       {% if page.gsheet_url contains "http" %}
-      <h2 id="payments" class="ui dividing header">收支明細</h2>
+      <h2 id="payments" class="ui dividing header">
+        {% if page.lang == "en" %}
+        Income Statement
+        {% else %}
+        收支明細
+        {% endif %}
+      </h2>
       <div class="ui basic paddingless segment">
         <iframe src="{{ page.gsheet_url }}"></iframe>
       </div>
@@ -95,7 +123,13 @@ layout: global
 
       <!-- 根據專案頁設定，從專案資料產生贊助商 logo 牆 -->
       {% if project.sponsor_id and page.show_sponsors %}
-      <h2 class="ui dividing header">贊助單位</h2>
+      <h2 class="ui dividing header">
+        {% if page.lang == "en" %}
+        Sponsor
+        {% else %}
+        贊助商
+        {% endif %}
+      </h2>
       <div id="sponsors" class="ui horizontal center aligned list">
 
         {% for org_id in project.sponsor_id %}
@@ -114,7 +148,13 @@ layout: global
 
       <!-- 根據專案頁設定，從專案資料產生捐助人名單 -->
       {% if project.donors and page.show_donors %}
-      <h2 class="ui dividing header">捐助人</h2>
+      <h2 class="ui dividing header">
+        {% if page.lang == "en" %}
+        Donor
+        {% else %}
+        捐助人
+        {% endif %}
+      </h2>
       <div id="donors" class="ui center aligned labels">
 
         {% for donor in project.donors %}
