@@ -25,6 +25,6 @@ menu:
 
 menu_en:
   - title_en: About
-    url: /about/
+    url: /en/about/
   - title_en: Projects
-    url: /p/
+    url: /en/p/
