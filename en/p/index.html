@@ -122,7 +122,7 @@ years:
 
           {% if project.coordinator_id %}
           <div class="meta">
-          Director:
+          Coordinator:
           {% for coordinator_id in project.coordinator_id %}
             {{ site.data.people.individuals[coordinator_id].name }} ({{ site.data.people.individuals[coordinator_id].nick }})
             {% if forloop.rindex > 1 %}
