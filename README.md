@@ -12,7 +12,7 @@
 
   - 決定專案 id （英數，英文全小寫）
 
-  - 建立專案的的 `.yml` 檔案
+  - 建立專案的 `.yml` 檔案
 
     - 檔案名稱： `(your_project_id).yml` ，例如 `intl.yml`
     - 檔案位置： `/_data/projects/(current_year)/` ，例如 [/_data/projects/2016/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/projects/2016)
@@ -33,6 +33,23 @@
   - 在專案資料夾中新增 `index.html` 檔案
 
   - 複製 [專案頁 html 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/_yyyy/_project_id/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
+
+4. 建立英文專頁（optional，可以出現專案在 [Projects](https://ocf.tw/en/p/） )
+
+  - 更新專案的 `.yml` 檔案
+
+    - 檔案位置： `/_data/projects/(current_year)/` ，例如 [/_data/projects/2018/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/projects/2018)
+    - 需新增的項目如下，可參考：[/p/2018/admin](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p/2018/admin.yml)
+      - name_en: 
+      - description_en:
+      - link_en:
+
+  - 建立英文專頁資料夾
+
+    - 資料夾名稱： `(your_project_id)` ，例如 `intl`
+    - 資料夾位置： `/en/(your_project_id)/` ，例如 [/en/admin/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p/2016)
+
+    - 在專案資料夾中新增 `index.html` 檔案
 
 ### 設定長期專案
 
