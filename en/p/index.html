@@ -191,29 +191,33 @@ years:
 <section id="results" class="ui stripe container">
   <div class="ui divided items">
 
-{% for year in page.years %}
-  {% assign id = year | append: "" %}
-  {% assign data = site.data.reports[id] %}
-  <div class="item">
-    <div class="image">
-      <img src="https://images.weserv.nl/?url=ocf.tw/{{ data.cover }}&w=300" alt="">
+{% for year in site.data.reports %}
+  {% if year[0] contains "20" %}
+    {% if year[0] contains "en" %}
+    {% assign data = year[1] %}
+    <div class="item">
+      <div class="image">
+        <img src="{{ data.cover }}" alt="">
+      </div>
+      <div class="content">
+        <a href="/en/p/{{ year[0] | remove: '_en' }}" class="header">{{ data.title }}</a>
+        <div class="meta">
+          <span></span>
+        </div>
+        <div class="description">
+          <p>{{ data.description }}</p>
+        </div>
+        <div class="extra">
+          <a href="/en/p/{{ year[0] | remove: '_en' }}">
+            View Report
+            <i class="right arrow icon"></i>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="content">
-      <a href="/p/{{ id }}" class="header">{{ data.title }}</a>
-      <div class="meta">
-        <span></span>
-      </div>
-      <div class="description">
-        <p>{{ data.description }}</p>
-      </div>
-      <div class="extra">
-        <a href="/p/{{ id }}">
-          View Report
-          <i class="right arrow icon"></i>
-        </a>
-      </div>
-    </div>
-  </div>
+    {% else %}
+    {% endif %}
+  {% endif %}
 {% endfor %}
 
   </div>
