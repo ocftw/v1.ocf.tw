@@ -90,8 +90,8 @@ years:
       {{ id }}
       {% endfor %}
       ">
-        <a href="{{ project.link[0].url }}" class="image"
-            {% if project.link[0].target != '_self' %}
+        <a href="{{ project.link_en[0].url }}" class="image"
+            {% if project.link_en[0].target != '_self' %}
             target="_blank"
             {% endif %}
         >
@@ -99,8 +99,8 @@ years:
         </a>
         <div class="content">
           <h3 class="header">
-            <a href="{{ project.link[0].url }}"
-            {% if project.link[0].target != '_self' %}
+            <a href="{{ project.link_en[0].url }}"
+            {% if project.link_en[0].target != '_self' %}
             target="_blank"
             {% endif %}
             >
