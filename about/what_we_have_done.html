@@ -3,12 +3,14 @@
 </p>
 
 <div class="ui list">
+{% assign i = site.data.settings.current %}
 {% for item in site.data.reports %}
 {% unless item[0] contains "_" %}
+  {% assign i = i | minus:1 %}
   <div class="item">
-    <a href="/p/{{ item[0] }}" target="_blank">
+    <a href="/p/{{ i }}" target="_blank">
       <i class="globe icon"></i>
-      {{ item[0] }} 年成果報告
+      {{ i }} 年成果報告
     </a>
   </div>
 {% endunless %}
