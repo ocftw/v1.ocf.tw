@@ -20,6 +20,7 @@ filter:
     name: 議題
     items:
       source: 開放源碼
+      license: 開放授權
       data: 開放資料
       government: 開放政府
       hardware: 開放硬體
@@ -108,6 +109,7 @@ card:
   - cloudnative
   - cscs
   - g0vjothon
+  - ocnhfa
 
 card_en:
 # 英文專案列表頁上的專案卡片，會以這個清單的順序排列。
