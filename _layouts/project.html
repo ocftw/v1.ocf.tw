@@ -84,7 +84,7 @@ layout: global
       {{ content }}
 
       <!-- 根據專案頁設定，從活動資料產生專案成果列表區塊 -->
-      {% if events and page.show_events %}
+      {% if page.show_events %}
       <h2 id="events" class="ui dividing header">
         {% if page.lang == "en" %}
         Events
