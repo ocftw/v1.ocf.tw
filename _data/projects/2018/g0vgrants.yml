@@ -4,10 +4,15 @@ abbr:
 tagline: 公民科技創新獎助金，為引發正向蝴蝶效應而生！
 cover: /p/g0vjothon/banner.jpg
 description: 每一個公民科技好點子背後的創意與力量，都像是一隻輕拍翅膀的蝴蝶，若能導入持續開發、長期營運的人力與資源，就能引發蝴蝶效應，產生足以扭轉未來的成果。
+description_en: g0v Civic Tech Grants, for the positive butterfly effect! The creative power of each great idea is like a flapping butterfly. With enough resources, these ideas can create positive butterfly effects and change the future. 
 month: 
 start: 
 end: 
 link:
+  - title: 專案介紹
+    url: /p/g0vgrants
+    target: _self
+link_en:
   - title: 專案介紹
     url: /p/g0vgrants
     target: _self
