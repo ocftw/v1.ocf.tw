@@ -10,6 +10,9 @@ end: 6/2
 link:
   - title: 專案首頁
     url: http://ocf.tw/p/2018/pycon/
+link_en:
+  - title: Intro
+    url: http://ocf.tw/p/2018/pycon/
 tag:
   - 大型研討會
   - 定期活動

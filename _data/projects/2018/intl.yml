@@ -14,8 +14,8 @@ link:
     url: /p/intl
     target: _self
 link_en:
-  - title: 專案介紹
-    url: /p/intl
+  - title: Intro
+    url: /en/p/intl
     target: _self
 tag:
   - 盤纏申請

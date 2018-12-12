@@ -13,8 +13,8 @@ link:
     url: /p/intltravelgrants
     target: _self
 link_en:
-  - title: 專案介紹
-    url: /p/intltravelgrants
+  - title: Intro
+    url: /en/p/intltravelgrants
     target: _self
 tag:
   - 工作小組
