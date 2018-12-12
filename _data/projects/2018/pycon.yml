@@ -12,7 +12,8 @@ link:
     url: http://ocf.tw/p/2018/pycon/
 link_en:
   - title: Intro
-    url: http://ocf.tw/p/2018/pycon/
+    url: /en/p/pycon
+    target: _self
 tag:
   - 大型研討會
   - 定期活動

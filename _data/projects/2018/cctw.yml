@@ -13,7 +13,8 @@ link:
     url: https://ocf.tw/p/2018/cctw
 link_en:
   - title: Intro
-    url: https://ocf.tw/p/2018/cctw
+    url: /en/p/cctw
+    target: _self  
 tag:
   - 
 type_id:
