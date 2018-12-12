@@ -114,11 +114,12 @@ card_en:
 # 英文專案列表頁上的專案卡片，會以這個清單的順序排列。
   - admin
   - intl
-  - g0vdathon
-  - g0vsummit
+  - g0vgrants
+  - cscs
   - coscup
   - pycon
+  - g0vsummit
+  - g0vdathon
+  - sitcon
   - cctw
   - debconf18
-  - cscs
-  - sitcon
