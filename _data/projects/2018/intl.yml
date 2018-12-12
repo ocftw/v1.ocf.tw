@@ -13,6 +13,10 @@ link:
   - title: 專案介紹
     url: /p/intl
     target: _self
+link_en:
+  - title: 專案介紹
+    url: /p/intl
+    target: _self
 tag:
   - 盤纏申請
 type_id:
