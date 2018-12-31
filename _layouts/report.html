@@ -21,7 +21,7 @@ layout: global
 <header id="hero" class="ui inverted {{ site.data.reports[ report_id ].color }} center aligned basic very padded segment marginless">
 
   <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
-  <img class="cover image" src="{{ site.data.reports[ report_id ].cover }}" style="opacity: {{ site.data.reports[ report_id ].cover_image_opacity }}" alt="" />
+  <img class="cover image" src="{{ site.data.reports[ report_id ].cover }}" style="opacity: {{ site.data.reports[ report_id ].cover_image_opacity }}" alt="{{ site.data.reports[ report_id ].cover_image_alt }}" />
   <div class="cover" style="opacity: {{ site.data.reports[ report_id ].cover_veil_opacity }}"></div>
   <hr class="ui hidden divider" />
 
@@ -43,7 +43,11 @@ layout: global
 <!-- 標題區塊 -->
 {% if item.type == "header" %}
 <a name="{{ item.anchor }}"></a>
-<header class="ui basic very padded segment marginless inverted {{ item.background_color }}">
+<header class="title ui basic very padded segment marginless inverted {{ item.background_color }}">
+  {% if item.cover %}
+    <img class="cover image" src="{{ item.cover }}" style="opacity: {{ item.cover_image_opacity }}" alt="{{ item.cover_image_alt }}" />
+    <div class="cover" style="opacity: {{ item.cover_veil_opacity }}"></div>
+  {% endif %}
   <div class="ui center aligned stripe container">
     {% if item.icon %}
     <div class="ui two column stackable grid">

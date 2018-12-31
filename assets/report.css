@@ -1,8 +1,10 @@
-#report #hero {
+#report #hero,
+#report .title {
   overflow: hidden;
 }
 
-#report #hero .cover {
+#report #hero .cover,
+#report .title .cover {
   min-width: 100%;
   position: absolute;
   left: 0;
@@ -13,7 +15,8 @@
   background-color: #000;
 }
 
-#report #hero .cover.image {
+#report #hero .cover.image,
+#report .title .cover.image {
   opacity: 0.9;
 }
 

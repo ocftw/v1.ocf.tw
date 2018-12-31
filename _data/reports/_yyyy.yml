@@ -6,11 +6,14 @@ title: YYYY 回顧
 description: text
 # 頁首的副標題
 
+color: text
+# 頁首的背景圖混色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
+
 cover: url
 # 頁首的背景圖片
 
-color: text
-# 頁首的背景圖混色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
+cover_image_alt: ''
+# 頁首背景圖片的替代文字
 
 cover_image_opacity: 0.9
 # 頁首的背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
@@ -37,6 +40,18 @@ items:
     # header 區塊的被景色，可以是 semantic ui 定義的顏色，參考： http://semantic-ui.com/elements/segment.html#colored
 
     description: text
+
+    cover: url
+    # header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
+
+    cover_image_alt: ''
+    # header 區塊背景圖片的替代文字
+
+    cover_image_opacity: 0.9
+    # header 區塊背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
+
+    cover_veil_opacity: 0.3
+    # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
 
   - type: content
     # 簡報區塊的類型， content 為內容式區塊，分兩欄
