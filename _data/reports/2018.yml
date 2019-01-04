@@ -51,7 +51,7 @@ items:
     columns:
       - type: image
         url: /p/2017/sitcon/sitconcamp2017.jpg
-        swap: false
+        swap: true
       - type: article
         title: PTT
         subtitle: 
