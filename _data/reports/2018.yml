@@ -1,295 +1,49 @@
-# 這個檔案是年度成果報告資料檔的範例
-
-title: YYYY 回顧
-# 頁首的大標題
-
-description: text
-# 頁首的副標題
-
-color: text
-# 頁首的背景圖混色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
-
-cover: url
-# 頁首的背景圖片
-
-cover_image_alt: ''
-# 頁首背景圖片的替代文字
-
-cover_image_opacity: 0.9
-# 頁首的背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
-
-cover_veil_opacity: 0.3
-# 蓋在頁首的背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
-
+title: 開放文化基金會 2018 成果報告
+description: 2017 年 感謝有你的支持，OCF 與你一起努力拓展開放文化的新里程。我們協助 20 多項由開源社群自主發起活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫。
+cover: /mediakit/cover2017.jpg
+color: blue
+cover_image_opacity: 0.9 
+cover_veil_opacity: 0.1
 items:
-# 以下每個項目代表一個簡報區塊
+  - type: header
+    title: 行政中心
+    anchor: admin
+    background_color: olive
 
   - type: header
-    # 簡報區塊的類型， header 為標題式區塊，不分欄
-
-    title: text
-    # header 區塊的標題，建議跟首頁的 what we do 對應
-
-    anchor: text
-    # 可以連到 header 區塊的 anchor 名稱
-
-    icon: text
-    # header 區塊的 icon，建議跟首頁的 what we do 對應
-
-    background_color: text
-    # header 區塊的被景色，可以是 semantic ui 定義的顏色，參考： http://semantic-ui.com/elements/segment.html#colored
-
-    description: text
-
+    title: How things work
     cover: url
     # header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
-
     cover_image_alt: ''
     # header 區塊背景圖片的替代文字
-
     cover_image_opacity: 0.9
     # header 區塊背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
-
     cover_veil_opacity: 0.3
     # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
-
-  - type: content
-    # 簡報區塊的類型， content 為內容式區塊，分兩欄
-
-    single_column: true / false
-    # 設定此簡報區塊是否為單欄，若 false 則為預設的兩欄
-
-    columns:
-    # content 區塊的兩欄的內容
-
-      - type: image
-        # content 區塊內欄位的類型，若為 image 也就是圖片區塊，請放在第一欄
-        # type 為必填
-
-        swap: true / false
-        # 此欄的位置在桌面板網頁上是否要左右對調
-
-        url: url
-        # image 欄的圖檔網址，必填
-
-      - type: slider
-        # content 區塊內欄位的類型，若為 slider 也就是圖片輪播區塊，請放在第一欄
-        # type 為必填
-
-        swap: true / false
-        # 此欄的位置在桌面板網頁上是否要左右對調
-
-        slides:
-        # slider 內的圖檔們的網址
-          - url: url
-          - url: url
-
-      - type: collage
-        # content 區塊內欄位的類型，若為 collage 也就是圖片拼貼區塊，請放在第一欄
-        # type 為必填
-
-        swap: true / false
-        # 此欄的位置在桌面板網頁上是否要左右對調
-
-        items:
-        # collage 內容物
-
-          - person_id: id
-            # 拼圖項目，若設定 person_id 則會自動抓取該個人的資料
-
-          - org_id: id
-            # 拼圖項目，若設定 person_id 則會自動抓取該組織的資料
-
-          - src: image url
-            title: text
-            # 拼圖項目，若無設定 person_id 或 org_id，則會以 src 為圖檔網址來源，同時以 title 為圖檔上的文字標示
-
-      - type: article
-        # content 區塊內欄位的類型，若為 article 也就是文章區塊，請放第二欄
-        # type 為必填
-
-        swap: true / false
-        # 此欄的位置在桌面板網頁上是否要左右對調
-
-        title: text
-        # article 欄的標題，必填
-
-        subtitle: text
-        # article 欄的副標題
-
-        description: text
-        # article 欄的簡介段落
-
-        items:
-        # article 欄的清單
-
-          - project_id: text
-            # 清單項目，若設定 project_id 則會自動抓取該年度該專案的資料
-
-          - title: text
-            # 清單項目，若無設定 project_id 則可手動寫入內容
-            # title 為清單項目的顯示文字，必填
-
-            url: url
-            # 清單項目的連結網址
-
-            month: integer
-            # 清單項目的月份標籤
-
-        logos:
-        # article 欄的合作單位 logo 牆
-
-          - org_id: text
-            # logo 資料來源，若設定 org_id 則會自動抓取該組織的資料
-
-          - src: url
-            # logo 的圖檔網址
-
-            url: url
-            # logo 的連結網址
-
-            title: text
-            # logo 圖片的標題
-
-        logo_height: css (e.g. 5rem)
-        # logo 牆中每個 logo 圖片的高度，若省略，則預設是 5rem（同首頁 logo 牆的設定）
-
-        action:
-        # article 欄的 call to action 按鈕
-
-          title: text
-          # 按鈕內的顯示文字
-
-          url: url
-          # 按鈕的連結網址
-
-        footer: text
-
-      - type: iframe
-        # content 區塊內欄位的類型，若為 iframe 也就是內嵌網頁區塊，放在第一欄或第二欄都可以
-        # type 為必填
-
-        swap: true / false
-        # 此欄的位置在桌面板網頁上是否要左右對調
-
-        url: url
-        # iframe 欄的內嵌頁面網址，必填
-
-        height: css (e.g. 20rem)
-        # iframe 欄的高度，可視內嵌網頁長度而調整
-
-        title: text
-        # iframe 欄的標題
-
-        description: text
-        # iframe 欄的描述文字
-
-        scrolling: "yes / no"
-        # iframe 是否要有捲軸，若 "yes" 則會有，若 "no" 或省略不填則不會有
-
-
-# ------ 以下無註解 & 內建預設標題快速複製版 ------
-
-title: 201_ 回顧
-description: 
-cover: 
-items:
-  - type: header
-    title: 社群支援
-    icon: hand rock
-    background_color: yellow
-    description: 
   - type: content
     columns:
       - type: image
+        url: /p/2017/pycon/pycon2017.jpg
         swap: false
-        url: 
       - type: article
-        title: 
+        title: 社群後勤
         subtitle: 
-        description: 
-        items:
-          - project_id: 
-          - title: 
-            url: 
-            month: 
-        action:
-          title: 
-          url: 
-        logos:
-          - src: 
-            url: 
-            title: 
-            height: 
-        footer: 
+        description: 下班後，總是有一群人，不去喝酒尋樂，只為了在一行行的程式碼中，找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，敲打分享著今天得到的新發現。開放文化的社群，就是這麼一群人，而我們行政中心，除了關心和協助之外，也正和這社群們一起成長著。
   - type: content
     columns:
-      - type: slider
+      - type: image
+        url: \p\2018\g0vsummit\g0v summit 2018.jpg
         swap: true
-        slides:
-          - url: 
       - type: article
-        title: 
+        title: 活動協力
         subtitle: 
-        description: 
-        items:
-          - project_id: 
-          - title: 
-            url: 
-            month: 
-        action:
-          title: 
-          url: 
-  - type: header
-    title: 組織合作
-    icon: building outline
-    background_color: olive
-    description: 
-  - type: header
-    title: 國際交流
-    icon: plane
-    background_color: teal
-    description: 
-  - type: header
-    title: 顧問諮詢
-    icon: idea
-    background_color: blue
-    description: 
-  - type: header
-    title: 政策倡議
-    icon: announcement
-    background_color: violet
-    description: 
-  - type: header
-    title: 財務報告
-    icon: dollar
-    background_color: purple
-    description: 
+        description: 每一年總有一些人，默默思考著開源、開放理念如何能夠發揚光大，以及在有限的資源下辦一場好的活動，於是埋頭苦思，從找志工、找場地、找贊助、活動網頁、宣傳、開發票... 等等瑣碎的事情，這時候會想：「哎！要是有人能幫我就好了！」社群除了自己的人力和規劃之外，這些瑣碎的事情，我們也可以出一臂之力來幫忙！
   - type: content
     columns:
-      - type: iframe
-        url: url
-        height: 
-        title: 
-        description: 
-        scrolling: 
-      - type: iframe
-        url: url
-        height: 
-        title: 
-        description: 
-        scrolling: 
-  - type: content
-    single_column: true
-    columns:
-      - type: iframe
-        url: url
-        height: 
-        title: 
-        description: 
-        scrolling: 
-  - type: header
-    title: 由衷感謝
-    icon: heart
-    background_color: pink
-    description: 
+      - type: image
+        url: /p/2017/sitcon/sitconcamp2017.jpg
+        swap: false
+      - type: article
+        title: CC + PTT
+        subtitle: 
+        description: 創作，就是為了要讓世界看見。我們在分享或是改作他人創作品的時候，往往忽略原著作權人本來的權利，以及我們可以讓自己的作品在被授權保護的狀況下分享出去，CC 授權就是這樣的工具。我們密切和 Creative Commons 國際社群保持互動，加入社群會員之外，也成立了 CC Taiwan Chapter，期盼將開放式授權的觀念分享給在地社群。網路世界的真實與虛幻，往往只是一線之間，學會找尋知識共享資訊之外，也要分辨網路消息的真偽，如此多樣性的開放文化相關課題，也正是身在網路世代的我們必須要學習的課題。”PTT ID PROFILING” 就是一個因應現今充斥假資訊的網路世界而產生的開放原始碼專案，他的目的是找出 ID 和 IP 的關聯性，確認帳號的真偽。我們堅持開源，如果不願意將手上的資料和程式碼公開出來，永遠都不會被大眾所信賴。
