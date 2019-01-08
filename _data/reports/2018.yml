@@ -55,11 +55,11 @@ items:
         title: 除了鄉民，更是「源」民
         subtitle: 
         description: ”PTT ID PROFILING” 是在PPT大活躍時代，因應充斥假資訊的網路世界而產生的開放原始碼專案。它的目的是找出 ID 和 IP 的關聯性，確認帳號的真偽。網路時代，真實與虛幻往往一線之隔，學會找尋知識共享資訊之外，懂得分辨真偽、了解多元的開放文化相關課題，是身在網路世代的我們必備素養。我們堅持開源，將資料和程式碼分享公開，穩固奠定人與人間的信賴橋樑。
-　- type: header
+  - type: header
     title: 國際交流
     anchor: international
     background_color: Orange
-　- type: header
+  - type: header
     title: How things work
     cover: url
     # header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
@@ -77,7 +77,7 @@ items:
       - type: article
         title: 開放政府 Ｘ 開放資料 
         description: 開放文化基金會長期關注「開放政府」與「開放資料」相關議題。今年在指標性國際會議 OGP 與 IODC 中，我們看見「開放與開源文化」在經濟發展與反貪腐層面帶來的影響力與改變。實務上，政府與人民之間如何協作，創造開放、穩定的資料公開平台是公民科技能否持續活絡的關鍵。
-　- type: content
+  - type: content
     columns:
       - type: image
         url: \p\2018\intl\intl_annual-2.jpg
@@ -85,7 +85,7 @@ items:
       - type: article
         title: 公民科技 - 出國參訪
         description: 公民以不同角色與背景，利用科技協作讓社會更好，在科技迭代的時代中越顯重要。藉由邀請臺灣相關社群一銅參與全球重要公民科技大會並拜訪相關組織，與國際夥伴持續交流、串聯、合作。
-　- type: content
+  - type: content
     columns:
       - type: image
         url: \p\2018\intl\intl_annual-3.jpg
@@ -93,7 +93,7 @@ items:
       - type: article
         title: 公民科技 - 國際交流
         description: 除了活動互訪，OCF 也開啟相關交流計畫，包括提供國際人士來台，了解台灣開放資料、開源協作、公民科技等經驗。另外，也協助 g0v 社群加入全球公民科技聯盟Code for All，並擔任其交流獎助金執行者。
-　- type: content
+  - type: content
     columns:
       - type: image
         url: \p\2018\intl\intl_annual-4.jpg
