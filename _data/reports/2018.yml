@@ -28,6 +28,19 @@ items:
         title: 社群後勤
         subtitle: 
         description: 下班後，總是有一群人，不去喝酒尋樂，只為了在一行行的程式碼中，找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，敲打分享著今天得到的新發現。開放文化的社群，就是這麼一群人，而我們行政中心，除了關心和協助之外，也正和這社群們一起成長著。
+        items:
+          - project_id: g0vdathon
+          - project_id: otspace
+          - project_id: osmtw
+          - project_id: opensuse
+          - project_id: openstack
+          - project_id: chewingim
+          - project_id: osln
+          - project_id: openhackfarm
+          - project_id: hcsm
+          - project_id: sysprogram
+          - project_id: gcoin
+          - title: Xschool
 　- type: content
     columns:
       - type: image
@@ -37,6 +50,11 @@ items:
         title: 活動協力
         subtitle: 
         description: 每一年總有一些人，默默思考著開源、開放理念如何能夠發揚光大，以及在有限的資源下辦一場好的活動，於是埋頭苦思，從找志工、找場地、找贊助、活動網頁、宣傳、開發票... 等等瑣碎的事情，這時候會想：「哎！要是有人能幫我就好了！」社群除了自己的人力和規劃之外，這些瑣碎的事情，我們也可以出一臂之力來幫忙！
+        items:
+          - project_id: sitcon
+          - project_id: pycon
+          - project_id: coscup
+          - project_id: jcconf
 　- type: content
     columns:
       - type: image
