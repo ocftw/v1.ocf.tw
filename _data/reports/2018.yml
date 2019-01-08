@@ -31,7 +31,7 @@ items:
 　- type: content
     columns:
       - type: image
-        url: \p\2018\g0vsummit\g0v summit 2018.jpg
+        url: \p\2018\g0vsummit\g0v_summit_2018.jpg
         swap: true
       - type: article
         title: 活動協力
@@ -55,3 +55,71 @@ items:
         title: 除了鄉民，更是「源」民
         subtitle: 
         description: ”PTT ID PROFILING” 是在PPT大活躍時代，因應充斥假資訊的網路世界而產生的開放原始碼專案。它的目的是找出 ID 和 IP 的關聯性，確認帳號的真偽。網路時代，真實與虛幻往往一線之隔，學會找尋知識共享資訊之外，懂得分辨真偽、了解多元的開放文化相關課題，是身在網路世代的我們必備素養。我們堅持開源，將資料和程式碼分享公開，穩固奠定人與人間的信賴橋樑。
+  - type: header
+    title: 國際交流
+    anchor: international
+    background_color: orange
+  - type: header
+    title: How things work
+    cover: url
+    # header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
+    cover_image_alt: ''
+    # header 區塊背景圖片的替代文字
+    cover_image_opacity: 0.9
+    # header 區塊背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
+    cover_veil_opacity: 0.3
+    # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\intl\intl_annual-1.jpg
+        swap: false
+      - type: article
+        title: 開放政府 Ｘ 開放資料
+        subtitle: 
+        description:開放文化基金會長期關注「開放政府」與「開放資料」相關議題。今年在指標性國際會議 OGP 與 IODC 中，我們看見「開放與開源文化」在經濟發展與反貪腐層面帶來的影響力與改變。實務上，政府與人民之間如何協作，創造開放、穩定的資料公開平台是公民科技能否持續活絡的關鍵。
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\intl\intl_annual-2.jpg
+        swap: true
+      - type: article
+        title: 公民科技 - 出國參訪
+        subtitle: 
+        description: 公民以不同角色與背景，利用科技協作讓社會更好，在科技迭代的時代中越顯重要。藉由邀請臺灣相關社群一銅參與全球重要公民科技大會並拜訪相關組織，與國際夥伴持續交流、串聯、合作。
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\intl\intl_annual-3.jpg
+        swap: false
+      - type: article
+        title: 公民科技 - 國際交流
+        subtitle: 
+        description: 除了活動互訪，OCF 也開啟相關交流計畫，包括提供國際人士來台，了解台灣開放資料、開源協作、公民科技等經驗。另外，也協助 g0v 社群加入全球公民科技聯盟Code for All，並擔任其交流獎助金執行者。
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\intl\intl_annual-4.jpg
+        swap: true
+      - type: article
+        title: 公民科技 - 資訊
+        subtitle: 
+        description: g0v.news 為 OCF 自行籌辦的公民科技新聞內容分享中心，由編輯選題，與 g0v 社群交流，以中英文與台灣和國際社群分享公民科技相關新聞。此外，也在熱門不實訊息議題方面，與東亞各國夥伴緊密合作，辦理工作坊並參與相關會議。
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\intl\intl_annual-5.jpg
+        swap: false
+      - type: article
+        title: NGO 的資訊安全
+        subtitle: Civil Society Cyber Shield (CSCS)
+        description: NGO 也需要資安！2018 年， 在志工資安講師的協助下， CSCS 專案幫助超過 10 個 NGO 進行資安檢測及教學，並協助修補超過 5 個資安弱點。
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\intl\intl_annual-6.jpg
+        swap: true
+      - type: article
+        title: 數位人權 Ｘ 網路治理
+        subtitle: 出國參訪
+        description: 開放文化基金會長期與社群共同關注網路中立性、隱私權、言論自由、被遺忘權等新興議題。 OCF 與 2 位台灣社群夥伴共同前往 RightsCon 2018 ，並在 5 場議程當中擔任講者或主持，在議程之外，也拜訪當地 3 個相關社群和組織，並和其他大會參與者交流。OCF 支持 2 位員工及 1 位社群成員前往 AprIGF 瞭解網路治理議題的最新趨勢。
