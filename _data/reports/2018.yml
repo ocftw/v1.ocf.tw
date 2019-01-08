@@ -75,7 +75,7 @@ items:
 　- type: content
     columns:
       - type: image
-        url: \p\2018\pycon\group.jpg
+        url: \p\2018\intl\intl_annual-1.jpg
         swap: false
       - type: article
         title: 開放政府 Ｘ 開放資料 
@@ -83,7 +83,7 @@ items:
 　- type: content
     columns:
       - type: image
-        url: \p\2018\pycon\group.jpg
+        url: \p\2018\intl\intl_annual-2.jpg
         swap: true
       - type: article
         title: 公民科技 - 出國參訪
@@ -91,7 +91,7 @@ items:
 　- type: content
     columns:
       - type: image
-        url: \p\2018\pycon\group.jpg
+        url: \p\2018\intl\intl_annual-3.jpg
         swap: false
       - type: article
         title: 公民科技 - 國際交流
@@ -99,7 +99,7 @@ items:
 　- type: content
     columns:
       - type: image
-        url: \p\2018\pycon\group.jpg
+        url: \p\2018\intl\intl_annual-4.jpg
         swap: true
       - type: article
         title: 公民科技 - 資訊
@@ -107,7 +107,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: \p\2018\pycon\group.jpg
+        url: \p\2018\intl\intl_annual-5.jpg
         swap: false
       - type: article
         title: NGO 的資訊安全
@@ -116,7 +116,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: \p\2018\pycon\group.jpg
+        url: \p\2018\intl\intl_annual-6.jpg
         swap: true
       - type: article
         title: 數位人權 Ｘ 網路治理
