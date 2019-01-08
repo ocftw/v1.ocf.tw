@@ -9,7 +9,6 @@ items:
     title: 行政中心
     anchor: admin
     background_color: olive
-
   - type: header
     title: How things work
     cover: url
@@ -60,7 +59,6 @@ items:
     title: 國際交流
     anchor: international
     background_color: Orange
-
 　- type: header
     title: How things work
     cover: url
@@ -71,8 +69,7 @@ items:
     # header 區塊背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
     cover_veil_opacity: 0.3
     # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
-
-　- type: content
+  - type: content
     columns:
       - type: image
         url: \p\2018\intl\intl_annual-1.jpg
