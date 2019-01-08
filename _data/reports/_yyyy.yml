@@ -37,7 +37,7 @@ items:
     # header 區塊的 icon，建議跟首頁的 what we do 對應
 
     background_color: text
-    # header 區塊的被景色，可以是 semantic ui 定義的顏色，若留空則顯示為黑色。參考： http://semantic-ui.com/elements/segment.html#colored
+    # header 區塊的被景色，可以是 semantic ui 定義的顏色，參考： http://semantic-ui.com/elements/segment.html#colored
 
     description: text
 
@@ -52,15 +52,6 @@ items:
 
     cover_veil_opacity: 0.3
     # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
-
-    buttons:
-    # 在 header 區塊底部的按鈕，可以一個或多個，建議一個為佳。若留空則不顯示
-
-      - title: text
-        # 按鈕顯示的文字
-
-        url: url
-        # 按下按鈕後前往的網址
 
   - type: content
     # 簡報區塊的類型， content 為內容式區塊，分兩欄
