@@ -1,6 +1,6 @@
 title: 開放文化基金會 2018 成果報告
 description: 2017 年 感謝有你的支持，OCF 與你一起努力拓展開放文化的新里程。我們協助 20 多項由開源社群自主發起活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫。
-cover: /mediakit/cover2017.jpg
+cover: /p/2018/admin/report_og.png
 color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
@@ -28,16 +28,16 @@ items:
         title: 社群後勤
         subtitle: 
         description: 下班後，總是有一群人，不去喝酒尋樂，只為了在一行行的程式碼中，找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，敲打分享著今天得到的新發現。開放文化的社群，就是這麼一群人，而我們行政中心，除了關心和協助之外，也正和這社群們一起成長著。
-　- type: content
+  - type: content
     columns:
       - type: image
-        url: \p\2018\g0vsummit\g0v summit 2018.jpg
+        url: \p\2018\g0vsummit\g0v_summit_2018.jpg
         swap: true
       - type: article
         title: 活動協力
         subtitle: 
         description: 每一年總有一些人，默默思考著開源、開放理念如何能夠發揚光大，以及在有限的資源下辦一場好的活動，於是埋頭苦思，從找志工、找場地、找贊助、活動網頁、宣傳、開發票... 等等瑣碎的事情，這時候會想：「哎！要是有人能幫我就好了！」社群除了自己的人力和規劃之外，這些瑣碎的事情，我們也可以出一臂之力來幫忙！
-　- type: content
+  - type: content
     columns:
       - type: image
         url: \p\2018\cctw\cc-cover-cc0.jpg
@@ -54,4 +54,4 @@ items:
       - type: article
         title: 除了鄉民，更是「源」民
         subtitle: 
-        description: ”PTT ID PROFILING” 是在PPT大活躍時代，因應充斥假資訊的網路世界而產生的開放原始碼專案。它的目的是找出 ID 和 IP 的關聯性，確認帳號的真偽。網路時代，真實與虛幻往往一線之隔，學會找尋知識共享資訊之外，懂得分辨真偽、了解多元的開放文化相關課題，是身在網路世代的我們必備素養。我們堅持開源，將資料和程式碼分享公開，穩固奠定人與人間的信賴橋樑。
+        description: 「PTT ID PROFILING」是在PPT大活躍時代，因應充斥假資訊的網路世界而產生的開放原始碼專案。它的目的是找出 ID 和 IP 的關聯性，確認帳號的真偽。網路時代，真實與虛幻往往一線之隔，學會找尋知識共享資訊之外，懂得分辨真偽、了解多元的開放文化相關課題，是身在網路世代的我們必備素養。我們堅持開源，將資料和程式碼分享公開，穩固奠定人與人間的信賴橋樑。
