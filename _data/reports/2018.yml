@@ -29,18 +29,7 @@ items:
         subtitle: 
         description: 下班後，總是有一群人，不去喝酒尋樂，只為了在一行行的程式碼中，找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，敲打分享著今天得到的新發現。開放文化的社群，就是這麼一群人，而我們行政中心，除了關心和協助之外，也正和這社群們一起成長著。
         items:
-          - project_id: g0vdathon
-          - project_id: otspace
-          - project_id: osmtw
-          - project_id: opensuse
-          - project_id: openstack
-          - project_id: chewingim
-          - project_id: osln
-          - project_id: openhackfarm
-          - project_id: hcsm
-          - project_id: sysprogram
-          - project_id: gcoin
-          - title: Xschool
+          - project_id: OCNHFA
 　- type: content
     columns:
       - type: image
@@ -54,7 +43,7 @@ items:
           - project_id: sitcon
           - project_id: pycon
           - project_id: coscup
-          - project_id: jcconf
+          - project_id: JCConf
 　- type: content
     columns:
       - type: image
