@@ -40,7 +40,7 @@ items:
 　- type: content
     columns:
       - type: image
-        url: /p/2018/cctw/cc-cover-cc0.jpg
+        url: \p\2018\cctw\cc-cover-cc0.jpg
         swap: false
       - type: article
         title: 創用CC，我們認識一下
@@ -49,7 +49,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2018/cctw/cc-cover-cc0.jpg
+        url: \p\2018\cctw\cc-cover-cc0.jpg
         swap: true
       - type: article
         title: 除了鄉民，更是「源」民
