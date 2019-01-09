@@ -29,7 +29,6 @@ items:
         subtitle: 
         description: 下班後，總是有一群人，不去喝酒尋樂，只為了在一行行的程式碼中，找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，敲打分享著今天得到的新發現。開放文化的社群，就是這麼一群人，而我們行政中心，除了關心和協助之外，也正和這社群們一起成長著。
 　- type: content
-    columns:
       - type: image
         url: \p\2018\g0vsummit\g0v summit 2018.jpg
         swap: true
