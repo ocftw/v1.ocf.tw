@@ -41,6 +41,7 @@ items:
           - project_id: gcoin
           - project_id: ocnhfa
           - project_id: cloudnative
+          - project_id: pycourse
   - type: content
     columns:
       - type: image
@@ -55,6 +56,8 @@ items:
           - project_id: pycon
           - project_id: coscup
           - project_id: jcconf
+          - project_id: debconf
+          - project_id: g0vsummit
   - type: content
     columns:
       - type: image
