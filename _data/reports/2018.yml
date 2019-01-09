@@ -83,9 +83,8 @@ items:
     anchor: international
     background_color: orange
   - type: header
-    title: How things work
-    cover: \p\2018\intl\intl_banner.png
-    cover_image_opacity: 0.9
+    cover: \p\2018\intl\intl_banner_resize.png
+    ge_opacity: 0.9
     cover_veil_opacity: 0.3
   - type: content
     columns:
