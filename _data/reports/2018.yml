@@ -1,6 +1,6 @@
 title: 開放文化基金會 2018 成果報告
 description: 2018 年 感謝有你的支持，OCF 與你一起努力拓展開放文化的新里程。我們協助 20 多項由開源社群自主發起活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫。
-cover: /mediakit/cover2017.jpg
+cover: /p/2018/admin/report_og.png
 color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
@@ -11,7 +11,7 @@ items:
     background_color: olive
   - type: header
     title: How things work
-    cover: url
+    cover: /p/2018/admin/report_og.png
     # header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
     cover_image_alt: ''
     # header 區塊背景圖片的替代文字
@@ -45,7 +45,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: \p\2018\g0vsummit\g0v summit 2018.jpg
+        url: \p\2018\g0vsummit\g0v_summit_2018.jpg
         swap: true
       - type: article
         title: 活動協力
