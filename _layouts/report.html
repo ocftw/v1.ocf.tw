@@ -70,6 +70,16 @@ layout: global
       </div>
     </div>
     {% endif %}
+    {% if item.buttons %}
+      <hr class="ui hidden divider" />
+      <div class="ui buttons">
+      {% for button in item.buttons %}
+      <a class="ui basic inverted button" href="{{ button.url }}" target="_blank">
+        {{ button.title}}
+      </a>
+      {% endfor %}
+      </div>
+    {% endif %}
   </div>
 </header>
 
