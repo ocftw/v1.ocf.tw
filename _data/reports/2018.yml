@@ -29,7 +29,7 @@ items:
         subtitle: 
         description: 下班後，總是有一群人，不去喝酒尋樂，只為了在一行行的程式碼中，找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，敲打分享著今天得到的新發現。開放文化的社群，就是這麼一群人，而我們行政中心，除了關心和協助之外，也正和這社群們一起成長著。
 　- type: content
-    #columns:
+    columns:
       - type: image
         url: \p\2018\g0vsummit\g0v summit 2018.jpg
         swap: true
@@ -46,7 +46,6 @@ items:
         title: 創用CC，我們認識一下
         subtitle: 
         description: 創作，就是為了要讓世界看見。但在分享或編修他人創作同時，如何守護原創者的權利，並使作品在被授權保護的情況下散播感動散播愛？CC 授權就是這樣的工具。我們密切和 Creative Commons 國際社群保持互動，加入社群會員之外，也成立了 CC Taiwan Chapter，期盼將開放式授權的觀念分享給在地社群。
-        
   - type: content
     columns:
       - type: image
