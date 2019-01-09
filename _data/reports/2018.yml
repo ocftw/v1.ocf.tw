@@ -33,7 +33,6 @@ items:
           - project_id: otspace
           - project_id: osmtw
           - project_id: opensuse
-          - project_id: openstack
           - project_id: chewingim
           - project_id: osln
           - project_id: openhackfarm
