@@ -37,9 +37,10 @@ items:
           - project_id: osln
           - project_id: openhackfarm
           - project_id: hcsm
-          - project_id: ocnhfa
           - project_id: sysprogram
           - project_id: gcoin
+          - project_id: ocnhfa
+          - project_id: cloudnative
   - type: content
     columns:
       - type: image
