@@ -54,10 +54,10 @@ items:
         items:
           - project_id: sitcon
           - project_id: pycon
-          - project_id: coscup
-          - project_id: jcconf
           - project_id: debconf18
+          - project_id: coscup
           - project_id: g0vsummit
+          - project_id: jcconf
   - type: content
     columns:
       - type: image
