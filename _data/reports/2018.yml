@@ -18,7 +18,7 @@ items:
     cover_image_opacity: 0.9
     # header 區塊背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
     cover_veil_opacity: 0.3
-    # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
+    # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的字，若或留空，會採用預設值 0.3
   - type: content
     columns:
       - type: image
@@ -84,14 +84,9 @@ items:
     background_color: orange
   - type: header
     title: How things work
-    cover: url
-    # header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
-    cover_image_alt: ''
-    # header 區塊背景圖片的替代文字
+    cover: \p\2018\intl\intl_banner.png
     cover_image_opacity: 0.9
-    # header 區塊背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
     cover_veil_opacity: 0.3
-    # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
   - type: content
     columns:
       - type: image
