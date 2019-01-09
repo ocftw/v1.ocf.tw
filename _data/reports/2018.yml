@@ -5,10 +5,20 @@ color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
 items:
-  - type: header
-    title: 行政中心
-    anchor: admin
-    background_color: olive
+  - type: content
+    columns:
+      - type: article
+        title: 行政中心
+        swap: true
+      - type: collage
+        grid: five
+        swap: false
+        items:
+          - person_id: singing
+          - person_id: rock
+          - person_id: huangfu
+          - person_id: leona
+          - person_id: rosa
   - type: header
     cover: /p/2018/admin/report_og.png
     cover_image_alt: 
