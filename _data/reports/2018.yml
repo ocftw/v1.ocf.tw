@@ -56,7 +56,7 @@ items:
           - project_id: pycon
           - project_id: coscup
           - project_id: jcconf
-          - project_id: debconf
+          - project_id: debconf18
           - project_id: g0vsummit
   - type: content
     columns:
