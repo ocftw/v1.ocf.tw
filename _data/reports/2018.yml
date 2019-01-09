@@ -13,7 +13,7 @@ items:
     title: How things work
     cover: url
     # header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
-    cover_image_alt: ''
+    cover_image_alt: 
     # header 區塊背景圖片的替代文字
     cover_image_opacity: 0.9
     # header 區塊背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
@@ -29,6 +29,7 @@ items:
         subtitle: 
         description: 下班後，總是有一群人，不去喝酒尋樂，只為了在一行行的程式碼中，找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，敲打分享著今天得到的新發現。開放文化的社群，就是這麼一群人，而我們行政中心，除了關心和協助之外，也正和這社群們一起成長著。
 　- type: content
+    columns:
       - type: image
         url: \p\2018\g0vsummit\g0v summit 2018.jpg
         swap: true
