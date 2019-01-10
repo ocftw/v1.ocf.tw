@@ -89,6 +89,7 @@ items:
     background_color: orange
   - type: header
     cover: \p\2018\intl\intl_banner_resize.png
+    cover_image_alt: ''
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
   - type: content
