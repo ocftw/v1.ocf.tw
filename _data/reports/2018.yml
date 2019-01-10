@@ -87,8 +87,10 @@ items:
     title: 國際交流
     anchor: international
     background_color: orange
-  - type: content
-    cover: \p\2018\intl\intl_banner_resize.png
+title: 
+description: 
+  #- type: content
+cover: \p\2018\intl\intl_banner_resize.png
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
   - type: content
