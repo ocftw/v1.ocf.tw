@@ -216,7 +216,7 @@ items:
         logo_height: auto
         logos:
           - org_id: archilife
-  - type: header_image
+  - type: header
     cover: \img\thumbsup.png
     cover_image_alt: ''
     ge_opacity: 0.9
