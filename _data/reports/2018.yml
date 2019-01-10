@@ -89,16 +89,18 @@ items:
         title: 國際交流
         swap: true
       - type: collage
-        grid: seven
+        grid: three
         swap: false
         items:
+            - person_id: pellaeon
             - person_id: ttcat
             - person_id: lulukeng
             - person_id: aiya
-            - person_id: pellaeon
             - person_id: lilin
             - person_id: vivianlw
             - person_id: yhchang
+            - person_id: kting
+            - person_id: TYC
   - type: header
     background_color: orange
     cover: \p\2018\intl\intl_banner_resize.png
