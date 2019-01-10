@@ -19,7 +19,7 @@ items:
           - person_id: huangfu
           - person_id: leona
           - person_id: rosa
-  - type: header
+  - type: header_image
     cover: /p/2018/admin/admin_banner2018_report.png
     cover_image_alt: 
     cover_image_opacity: 0.9
@@ -104,7 +104,7 @@ items:
             - person_id: yhchang
             - person_id: kting
             - person_id: TYC
-  - type: header
+  - type: header_image
     background_color: orange
     cover: \p\2018\intl\intl_banner_resize.png
     cover_image_alt: ''
@@ -210,7 +210,7 @@ items:
         logo_height: auto
         logos:
           - org_id: archilife
-  - type: header
+  - type: header_image
     cover: \img\thumbsup.png
     cover_image_alt: ''
     ge_opacity: 0.9
