@@ -92,7 +92,7 @@ items:
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
   - type: header
-    cover: \img\thumbups.png
+    cover: \img\thumbsups.png
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
   - type: content
