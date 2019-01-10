@@ -168,7 +168,7 @@ items:
         description: 感謝董事大力支持和資源，讓我們以滿滿正能量，全心投入社群服務，全力支援開源活動！
         swap: true
       - type: collage
-        grid: four
+        grid: five
         swap: false
         items:
           - person_id: clkao
