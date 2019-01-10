@@ -5,6 +5,11 @@ color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
 items:
+  - type: header_image
+    cover: /p/2018/admin/admin_banner2018_report.png
+    cover_image_alt: 
+    cover_image_opacity: 0.9
+    cover_veil_opacity: 0.3
   - type: content
     columns:
       - type: article
@@ -19,13 +24,6 @@ items:
           - person_id: huangfu
           - person_id: leona
           - person_id: rosa
-  - type: header_image
-    cover: /p/2018/admin/admin_banner2018_report.png
-    cover_image_alt: 
-    button:
-      url: 測試網址
-      title: 測試按鈕
-      position: right
   - type: content
     columns:
       - type: image
