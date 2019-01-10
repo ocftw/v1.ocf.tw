@@ -5,9 +5,21 @@ color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
 items:
-  - type: image_header
-    anchor: test
-    background_color: teal
+  - type: content
+    columns:
+      - type: article
+        title: 行政中心
+        swap: true
+      - type: collage
+        grid: five
+        swap: false
+        items:
+          - person_id: singing
+          - person_id: rock
+          - person_id: huangfu
+          - person_id: leona
+          - person_id: rosa
+  - type: header_image
     cover: /p/2018/admin/admin_banner2018_report.png
     cover_image_alt: 
     button:
@@ -85,16 +97,16 @@ items:
         grid: five
         swap: false
         items:
-          - person_id: rock
-          - person_id: singing
-          - person_id: huangfu
-          - person_id: leona
-          - person_id: rosa
-  - type: image_header
-    cover: /p/2018/admin/admindonate2.png
-    cover_image_alt: 
-    background_color: teal
-  - type: image_header
+            - person_id: ttcat
+            - person_id: pellaeon
+            - person_id: lulukeng
+            - person_id: aiya
+            - person_id: lilin
+            - person_id: vivianlw
+            - person_id: yhchang
+            - person_id: kting
+            - person_id: TYC
+  - type: header_image
     background_color: orange
     cover: /p/2018/intl/intlcoverbanner.png
     cover_image_alt: ''
@@ -191,10 +203,16 @@ items:
   - type: content
     columns:
       - type: article
-        title: 感謝熱血志工
-        subtitle: 
-        description: 特別感謝付出腦力與肉體的萬能志工群：***REMOVED***，一年來跟OCF鬥陣熬夜、鬥陣動腦、鬥陣上山下海出任務！
-  - type: header
+        swap: false
+        logo_height: auto
+        logos:
+          - org_id: rc
+      - type: article
+        swap: true
+        logo_height: auto
+        logos:
+          - org_id: archilife
+  - type: header_image
     cover: \img\thumbsup.png
     cover_image_alt: ''
     ge_opacity: 0.9
