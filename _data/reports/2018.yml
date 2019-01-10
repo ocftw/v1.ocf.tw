@@ -83,11 +83,24 @@ items:
         title: 除了鄉民，更是「源」民
         subtitle: 
         description: ”PTT ID PROFILING” 是在PPT大活躍時代，因應充斥假資訊的網路世界而產生的開放原始碼專案。它的目的是找出 ID 和 IP 的關聯性，確認帳號的真偽。網路時代，真實與虛幻往往一線之隔，學會找尋知識共享資訊之外，懂得分辨真偽、了解多元的開放文化相關課題，是身在網路世代的我們必備素養。我們堅持開源，將資料和程式碼分享公開，穩固奠定人與人間的信賴橋樑。
+  - type: content
+    columns:
+      - type: article
+        title: 國際交流
+        swap: true
+      - type: collage
+        grid: seven
+        swap: false
+        items:
+            - person_id: ttcat
+            - person_id: lulukeng
+            - person_id: aiya
+            - person_id: pellaeon
+            - person_id: lilin
+            - person_id: vivianlw
+            - person_id: yhchang
   - type: header
-    title: 國際交流
-    anchor: international
     background_color: orange
-  - type: header
     cover: \p\2018\intl\intl_banner_resize.png
     cover_image_alt: ''
     ge_opacity: 0.9
