@@ -65,7 +65,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: \img\cc.jpg
+        url: \p\2018\cctw\ccfor2018rep.jpg
         swap: false
       - type: article
         title: 自媒體時代，創用CC 讓你更被看見！
@@ -76,7 +76,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: \img\pttid.png
+        url: \p\2018\admin\pttid.png
         swap: true
       - type: article
         title: 起風囉！ 鄉民Ｘ開放資料看網路風向！
@@ -208,7 +208,7 @@ items:
         logos:
           - org_id: archilife
   - type: header_image
-    cover: \img\thumbsup.png
+    cover: \p\2018\admin\thumbsup.png
     cover_image_alt: ''
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
