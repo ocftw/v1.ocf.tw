@@ -157,7 +157,7 @@ items:
   - type: header
     title: Special Thanks to
     anchor: thanks
-    background_color: Violet
+    background_color: Purple
     description:  OCF對一路走來、始終陪伴，致力於推動開源文化的每一位朋友和團隊成員，敬摯萬分謝意！
   - type: content
     columns:
