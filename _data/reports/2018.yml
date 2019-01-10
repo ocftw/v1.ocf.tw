@@ -91,11 +91,8 @@ items:
     cover: \p\2018\intl\intl_banner_resize.png
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
-  - type: header
-    cover: \img\thumbsup.png
-    cover_image_opacity: 0.9
-    cover_veil_opacity: 0.3
-    buttons:
+  - type: image
+    url: \img\thumbsup.png
   - type: content
     columns:
       - type: image
