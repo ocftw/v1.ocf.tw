@@ -13,6 +13,10 @@
   opacity: 0.3;
   background-color: #000;
 }
+#report .og-banner {
+  max-width:100%;
+  opacity: 1;
+}
 
 #report .image_header .action {
   position: absolute;
