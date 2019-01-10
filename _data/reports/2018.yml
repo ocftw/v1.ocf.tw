@@ -8,8 +8,7 @@ items:
   - type: header_image
     cover: /p/2018/admin/admin_banner2018_report.png
     cover_image_alt: 
-    cover_image_opacity: 0.9
-    cover_veil_opacity: 0.3
+    background_color: teal
   - type: content
     columns:
       - type: article
