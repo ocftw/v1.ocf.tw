@@ -182,15 +182,9 @@ items:
   - type: content
     columns:
       - type: article
-        swap: false
-        logo_height: auto
-        logos:
-          - org_id: rc
-      - type: article
-        swap: true
-        logo_height: auto
-        logos:
-          - org_id: archilife
+        title: 感謝熱血志工
+        subtitle: 
+        description: 特別感謝付出腦力與肉體的萬能志工群：***REMOVED***，一年來跟OCF鬥陣熬夜、鬥陣動腦、鬥陣上山下海出任務！
   - type: header
     cover: \img\thumbsup.png
     cover_image_alt: ''
