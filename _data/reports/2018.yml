@@ -91,6 +91,10 @@ items:
     cover: \p\2018\intl\intl_banner_resize.png
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
+  - type: header
+    cover: \img\thumbups.png
+    ge_opacity: 0.9
+    cover_veil_opacity: 0.3
   - type: content
     columns:
       - type: image
