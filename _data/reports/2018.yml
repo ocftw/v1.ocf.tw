@@ -174,6 +174,15 @@ items:
           - person_id: honki
           - person_id: jimyhuang
           - person_id: pofeng
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\admin\2018spring party.jpg
+        swap: true
+      - type: article
+        title: 感謝熱血志工
+        subtitle: 
+        description: 
   - type: header
     title: 感謝贊助好夥伴
     anchor: sponser
