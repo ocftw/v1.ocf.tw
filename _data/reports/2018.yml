@@ -23,6 +23,11 @@ items:
           - person_id: huangfu
           - person_id: leona
           - person_id: rosa
+  - type: header_image
+    cover: /p/2018/admin/admin_banner2018_report.png
+    cover_image_alt: 
+    cover_image_opacity: 0.9
+    cover_veil_opacity: 0.3
   - type: content
     columns:
       - type: image
@@ -94,12 +99,15 @@ items:
         grid: three
         swap: false
         items:
-            - title: PTT Crawler 先睹為快
-              url: https://github.com/GundamBox/PttCrawler/blob/master/doc/zh.md
-  - type: header_image
-    cover: /p/2018/admin/admindonate.png
-    cover_image_alt: 
-    background_color: teal
+            - person_id: ttcat
+            - person_id: pellaeon
+            - person_id: lulukeng
+            - person_id: aiya
+            - person_id: lilin
+            - person_id: vivianlw
+            - person_id: yhchang
+            - person_id: kting
+            - person_id: TYC
   - type: header_image
     background_color: orange
     cover: \p\2018\intl\intl_banner_resize.png
@@ -197,7 +205,7 @@ items:
         logo_height: auto
         logos:
           - org_id: archilife
-  - type: header
+  - type: header_image
     cover: \img\thumbsup.png
     cover_image_alt: ''
     ge_opacity: 0.9
