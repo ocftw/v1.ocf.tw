@@ -91,10 +91,18 @@ items:
     cover: \p\2018\intl\intl_banner_resize.png
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
+
   - type: header
+    title: text
+    anchor: text
+    icon: text
+    background_color: 
+    description: text
     cover: \img\thumbsups.png
-    ge_opacity: 0.9
+    cover_image_alt: ''
+    cover_image_opacity: 0.9
     cover_veil_opacity: 0.3
+    buttons:
   - type: content
     columns:
       - type: image
