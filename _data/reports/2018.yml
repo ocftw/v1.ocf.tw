@@ -92,8 +92,8 @@ items:
         grid: three
         swap: false
         items:
-            - person_id: pellaeon
             - person_id: ttcat
+            - person_id: pellaeon
             - person_id: lulukeng
             - person_id: aiya
             - person_id: lilin
