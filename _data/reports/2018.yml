@@ -181,6 +181,15 @@ items:
           - person_id: honki
           - person_id: jimyhuang
           - person_id: pofeng
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\admin\2018spring party.jpg
+        swap: true
+      - type: article
+        title: 感謝熱血志工
+        subtitle: 
+        description: 感謝付出腦力與肉體的萬能志工群：etblue、muka、yaya、子期、賴國瑛、Shelley Chang、徐書磊、CYJ、yutin、PCC、育慈、chuck、GD、八六、芃萱、興中、亮亮，一年來跟OCF鬥陣熬夜、鬥陣動腦、鬥陣上山下海出任務！
   - type: header
     title: 感謝贊助好夥伴
     anchor: sponser
