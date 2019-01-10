@@ -83,6 +83,14 @@ layout: global
   </div>
 </header>
 
+<!-- 標題圖片區塊 -->
+{% elsif item.type == "header_image" %}
+<header class="title ui basic very padded segment marginless paddingless inverted {{ item.background_color }}">
+  {% if item.cover %}
+    <img class="og-banner" src="{{ item.cover }}" alt="{{ item.cover_image_alt }}" />
+  {% endif %}
+</header>
+
 <!-- 內容區塊 -->
 {% elsif item.type == "content" %}
 
