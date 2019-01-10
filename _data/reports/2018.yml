@@ -166,6 +166,10 @@ items:
             - person_id: yhchang
             - person_id: kting
             - person_id: TYC
+  - type: header_image
+    cover: /p/2018/intl/intldonate.png
+    cover_image_alt: 
+    background_color: teal
   - type: header
     title: Special Thanks to
     anchor: thanks
