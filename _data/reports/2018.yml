@@ -208,7 +208,7 @@ items:
         logos:
           - org_id: archilife
   - type: header_image
-    cover: \img\thumbsup.png
+    cover: \p\2018\admin\thumbsup.png
     cover_image_alt: ''
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
