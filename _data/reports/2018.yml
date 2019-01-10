@@ -230,29 +230,8 @@ items:
         logo_height: auto
         logos:
           - org_id: archilife
-      - type: article
-        swap: true
-        logo_height: auto
-        logos:
-          - org_id: Fubon
-  - type: image_header
-    cover: /p/2018/admin/thumbsup2.png
-    cover_image_alt: 
-    background_color: tint
-  - type: content
-    columns:
-      - type: article
-        title: 臉書追蹤OCF，活動不會錯過！
-        items:
-            - title: Follow Us on Facebook
-              url: https://www.facebook.com/www.ocf.tw/?ref=bookmarks
-      - type: article  
-        title: 訂閱EDM，開源資訊不漏接
-        items:
-        - title: 訂閱 OCF 電子報
-          url: https://ocf.tw/news/
-        swap: false
-    items:
+  - type: header
+    cover: \img\thumbsup.png
     cover_image_alt: ''
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
