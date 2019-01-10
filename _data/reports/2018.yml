@@ -86,6 +86,10 @@ items:
             - title: PTT Crawler 先睹為快
               url: https://github.com/GundamBox/PttCrawler/blob/master/doc/zh.md
   - type: header_image
+    cover: /p/2018/admin/admindonate.png
+    cover_image_alt: 
+    background_color: teal
+  - type: header_image
     background_color: orange
     cover: \p\2018\intl\intl_banner_resize.png
     cover_image_alt: ''
