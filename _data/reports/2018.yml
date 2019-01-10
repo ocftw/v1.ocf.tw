@@ -1,5 +1,5 @@
 title: 開放文化基金會 2018 成果報告
-description: 2018 年 感謝有你的支持，OCF 與你一起努力拓展開放文化的新里程。我們協助 20 多項由開源社群自主發起活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫。
+description: 2018 年 感謝有你/妳的支持，邁入第五年，我們協助 20 多項由開源社群自主發起活動計畫，結合國內外的社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫。2019年，OCF 與你一起努力拓展開放文化的新里程！
 cover: /p/2018/admin/report_og.png
 color: blue
 cover_image_opacity: 0.9 
@@ -20,7 +20,7 @@ items:
           - person_id: leona
           - person_id: rosa
   - type: header
-    cover: /p/2018/admin/report_og.png
+    cover: /p/2018/admin/admin_banner2018_report.png
     cover_image_alt: 
     cover_image_opacity: 0.9
     cover_veil_opacity: 0.3
@@ -32,7 +32,7 @@ items:
       - type: article
         title: 社群後勤
         subtitle: 
-        description: 下班後，總是有一群人，不去喝酒尋樂，只為了在一行行的程式碼中，找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，敲打分享著今天得到的新發現。開放文化的社群，就是這麼一群人，而我們行政中心，除了關心和協助之外，也正和這社群們一起成長著。
+        description: 開源社群中，總是有一群人，下班後不去喝酒尋樂，只為了在一行行的程式碼中，實踐開放資料與開放原始碼的應用，然後找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，以自主參與、自主學習、協作等精神，敲打著鍵盤分享今天得到的新發現。開放文化的社群，就是這麼一群人，而 OCF 行政中心，除了關心和協助之外，也正和這社群們一起成長著。
         items:
           - project_id: g0vdathon
           - project_id: otspace
