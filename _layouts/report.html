@@ -70,24 +70,34 @@ layout: global
       </div>
     </div>
     {% endif %}
-    {% if item.buttons %}
-      <hr class="ui hidden divider" />
-      <div class="ui buttons">
-      {% for button in item.buttons %}
-      <a class="ui basic inverted button" href="{{ button.url }}" target="_blank">
-        {{ button.title}}
-      </a>
-      {% endfor %}
-      </div>
+    {% if item.button %}
+      <hr class="ui hidden divider"></hr>
+      <p class="action" style="text-align: {{ item.button.position }}">
+        <a class="ui basic inverted button" href="{{ item.button.url }}" target="_blank">
+          {{ item.button.title}}
+          <i class="icon right arrow"></i>
+        </a>
+      </p>
     {% endif %}
   </div>
 </header>
 
-<!-- 標題圖片區塊 -->
-{% elsif item.type == "header_image" %}
-<header class="title ui basic very padded segment marginless paddingless inverted {{ item.background_color }}">
+<!-- 圖片式標題區塊 -->
+{% elsif item.type == "image_header" %}
+<a name="{{ item.anchor }}"></a>
+<header class="image_header ui basic segment marginless paddingless inverted {{ item.background_color }}">
   {% if item.cover %}
-    <img class="og-banner" src="{{ item.cover }}" alt="{{ item.cover_image_alt }}" />
+    <div class="ui fluid image">
+      <img src="{{ item.cover }}" alt="{{ item.cover_image_alt }}" />
+    </div>
+  {% endif %}
+  {% if item.button %}
+    <p class="action" style="text-align: {{ item.button.position }}">
+      <a class="ui basic inverted button" href="{{ item.button.url }}" target="_blank">
+        {{ item.button.title}}
+        <i class="icon right arrow"></i>
+      </a>
+    </p>
   {% endif %}
 </header>
 
