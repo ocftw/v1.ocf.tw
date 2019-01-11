@@ -172,6 +172,23 @@ items:
     cover_image_alt: 
     background_color: orange
   - type: header
+    title: 給關心社會議題的行動者，議題釐清工具 － Sense.tw
+    anchor: 
+    background_color: Olive
+    description:  
+  - type: content
+    columns:
+      - type: image
+        url: /p/2018/sensetw/sensetw_og.png
+        swap: false
+      - type: article
+        title: 讓公民理性參與政策討論的基礎建設
+        subtitle: 
+        description: Sense.tw 作為科技工具，以開源社群協作的方式營運，匯聚社群的力量，希望讓更多人能夠參與社會議題的討論，讓討論的足跡被留下，讓經驗可以被學習。
+        items:
+            - title: 議題釐清工具，社群協作讓政策 make sense
+              url: https://about.sense.tw/
+  - type: header
     title: 特別感謝
     anchor: thanks
     background_color: purple
