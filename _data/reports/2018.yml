@@ -1,5 +1,5 @@
 title: 開放文化基金會 2018 成果報告
-description: 2018 年感謝有您的支持，OCF 營運邁入第五年，累計協助近 30 項由開源社群自主發起的活動計畫，結合國內外社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫。2019年，OCF 期待與你一起持續拓展開放文化的新里程！
+description: 2018 年感謝有您的支持，OCF 營運邁入第五年，累計協助近 30 項由開源社群自主發起的活動計畫，結合國內外社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣隱私計畫。2019年，OCF 期待與您一起持續拓展開放文化的新里程！
 cover: /p/2018/admin/report_og.png
 color: blue
 cover_image_opacity: 0.9 
@@ -152,10 +152,11 @@ items:
   - type: content
     columns:
       - type: article
-        title: 7 位國際交流夥伴
+        title: 7 位國際交流夥伴與你一起在開放精神中拓展公民科技。
         swap: true
       - type: collage
         grid: five
+        swap: false
         items:
             - person_id: ttcat
             - person_id: pellaeon
@@ -174,7 +175,7 @@ items:
     title: 特別感謝
     anchor: thanks
     background_color: purple
-    description:  OCF對一路走來、始終陪伴，致力於推動開源文化的每一位朋友和團隊成員，敬摯萬分謝意。
+    description:  
   - type: content
     columns:
       - type: article
@@ -207,8 +208,28 @@ items:
         logo_height: auto
         logos:
           - org_id: archilife
-  - type: header_image
-    cover: \p\2018\admin\thumbsup.png
+      - type: article
+        swap: true
+        logo_height: auto
+        logos:
+          - org_id: Fubon
+  - type: content
+    columns:
+      - type: image   
+        url: \p\2018\admin\thumbsup.png
+        swap: true
+      - type: article
+        title: 臉書追蹤OCF，活動不會錯過！
+        items:
+            - title: Follow Us on Facebook
+              url: https://www.facebook.com/www.ocf.tw/?ref=bookmarks
+      - type: article  
+        title: 訂閱EDM，開源資訊不漏接
+        items:
+        - title: 訂閱 OCF 電子報
+          url: https://ocf.tw/news/
+        swap: false
+    items:
     cover_image_alt: ''
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
