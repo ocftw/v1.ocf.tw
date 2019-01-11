@@ -213,11 +213,19 @@ items:
         logo_height: auto
         logos:
           - org_id: Fubon
+  - type: header
+    title: 如果你也覺得開放文化超酷！你還可以這樣支持我們！
+  - type: collage
+    grid: three
+    swap: 
+      items:
+        - image: /p/2018/admin/open_data.png
+        - image: /p/2018/admin/open_government.png
+        - image: /p/2018/admin/open_source.png
+    cover_image_alt: 
+    background_color: red
   - type: content
     columns:
-      - type: image   
-        url: \p\2018\admin\thumbsup.png
-        swap: true
       - type: article
         title: 臉書追蹤OCF，活動不會錯過！
         items:
