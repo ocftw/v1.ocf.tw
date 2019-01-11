@@ -11,20 +11,6 @@ items:
     background_color: teal
   - type: content
     columns:
-      - type: article
-        title: 行政中心
-        swap: false
-      - type: collage
-        grid: five
-        swap: false
-        items:
-          - person_id: rock
-          - person_id: singing
-          - person_id: huangfu
-          - person_id: leona
-          - person_id: rosa
-  - type: content
-    columns:
       - type: image
         url: \p\2018\pycon\group.jpg
         swap: false
@@ -54,7 +40,7 @@ items:
       - type: article
         title: 活動協力
         subtitle: 
-        description: 每一年總有一些人，默默思考著開源、開放理念如何能夠發揚光大；如何在有限的資源下辦一場好的活動，當埋頭苦思於找志工、找場地、找贊助、活動網頁、宣傳、開發票... 等等瑣碎的事情，不時會冒出：「哎！要是有人能幫我就好了！」的念頭。社群除了自己的人力和規劃之外，這些瑣碎的事情，就是OCF行政中心 能夠挺身而出的時候！
+        description: 每一年總有一些人，默默思考著開源、開放理念如何能夠發揚光大；如何在有限的資源下辦一場好的活動，當埋頭苦思於找志工、找場地、找贊助、活動網頁、宣傳、開發票……等等瑣碎的事情，不時會冒出：「哎！要是有人能幫我就好了！」的念頭。而這些繁雜卻重要的小事，就是除了社群自己的活動或營運規劃之外， OCF 行政中心能夠挺身而出提供支援的時候！
         items:
           - project_id: sitcon
           - project_id: pycon
@@ -81,17 +67,31 @@ items:
       - type: article
         title: 起風囉！ 鄉民Ｘ開放資料看網路風向！
         subtitle: 
-        description: ”PTT ID PROFILING” 是在PPT大活躍時代，因應充斥假資訊的網路世界而產生的開放原始碼專案。它的目的是找出 ID 和 IP 的關聯性，確認帳號的真偽。網路時代，真實與虛幻往往一線之隔，學會找尋知識共享資訊之外，懂得分辨真偽、了解多元的開放文化相關課題，是身在網路世代的我們必備素養。我們堅持開源，將資料和程式碼分享公開，穩固奠定人與人間的信賴橋樑。
+        description: ”PTT ID PROFILING” 是在PPT大活躍時代，因應充斥假資訊的網路世界而產生的開放原始碼專案。它的目的是找出 ID 和 IP 的關聯性，並加以分析尋找出假資訊散佈的脈絡與它們的產地。網路時代，真實與虛幻往往一線之隔，學會找尋知識共享資訊之外，懂得分辨真偽、了解多元的開放文化相關課題，是身在網路世代的我們必備素養。我們堅持開源，將資料和程式碼分享公開，穩固奠定人與人間的信賴橋樑。
         items:
             - title: PTT Crawler 先睹為快
               url: https://github.com/GundamBox/PttCrawler/blob/master/doc/zh.md
+  - type: content
+    columns:
+      - type: article
+        title: 行政中心的小夥伴們感謝 300 壯士的支持！
+        swap: true
+      - type: collage
+        grid: five
+        swap: false
+        items:
+          - person_id: rock
+          - person_id: singing
+          - person_id: huangfu
+          - person_id: leona
+          - person_id: rosa
   - type: header_image
-    cover: /p/2018/admin/admindonate.png
+    cover: /p/2018/admin/admindonate2.png
     cover_image_alt: 
     background_color: teal
   - type: header_image
     background_color: orange
-    cover: \p\2018\intl\intl_banner_resize.png
+    cover: /p/2018/intl/intlcoverbanner.png
     cover_image_alt: ''
     ge_opacity: 0.9
     cover_veil_opacity: 0.3
@@ -169,9 +169,9 @@ items:
   - type: header_image
     cover: /p/2018/intl/intldonate.png
     cover_image_alt: 
-    background_color: teal
+    background_color: orange
   - type: header
-    title: Special Thanks to
+    title: 特別感謝
     anchor: thanks
     background_color: purple
     description:  OCF對一路走來、始終陪伴，致力於推動開源文化的每一位朋友和團隊成員，敬摯萬分謝意。
