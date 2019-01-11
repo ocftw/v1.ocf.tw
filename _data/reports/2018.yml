@@ -67,7 +67,7 @@ items:
       - type: article
         title: 起風囉！ 鄉民Ｘ開放資料看網路風向！
         subtitle: 
-        description: ”PTT ID PROFILING” 是在PPT大活躍時代，因應充斥假資訊的網路世界而產生的開放原始碼專案。它的目的是找出 ID 和 IP 的關聯性，並加以分析尋找出假資訊散佈的脈絡與它們的產地。網路時代，真實與虛幻往往一線之隔，學會找尋知識共享資訊之外，懂得分辨真偽、了解多元的開放文化相關課題，是身在網路世代的我們必備素養。我們堅持開源，將資料和程式碼分享公開，穩固奠定人與人間的信賴橋樑。
+        description: “PTT ID PROFILING” 是在 PPT 大活躍時代，因應充斥假資訊的網路世界而產生的開放原始碼專案。它的目的是找出 ID 和 IP 的關聯性，並加以分析尋找出假資訊散佈的脈絡與它們的產地。網路時代，真實與虛幻往往一線之隔，學會找尋知識共享資訊之外，懂得分辨真偽、了解多元的開放文化相關課題，是身在網路世代人們的必備素養。我們堅持開源，將資料和程式碼分享公開，穩固奠定人與人間的信賴橋樑。
         items:
             - title: PTT Crawler 先睹為快
               url: https://github.com/GundamBox/PttCrawler/blob/master/doc/zh.md
@@ -152,7 +152,7 @@ items:
   - type: content
     columns:
       - type: article
-        title: 7 位國際交流夥伴與你一起在開放精神中拓展公民科技。
+        title: 9 位國際交流夥伴與你一起在開放精神中拓展公民科技。
         swap: true
       - type: collage
         grid: five
@@ -172,9 +172,9 @@ items:
     cover_image_alt: 
     background_color: orange
   - type: header
-    title: 給關心社會議題的行動者，議題釐清工具 － Sense.tw
+    title: 給關心社會議題的行動者，議題釐清的工具 － Sense.tw
     anchor: 
-    background_color: Olive
+    background_color: grey
     description:  
   - type: content
     columns:
@@ -184,7 +184,7 @@ items:
       - type: article
         title: 讓公民理性參與政策討論的基礎建設
         subtitle: 
-        description: Sense.tw 作為科技工具，以開源社群協作的方式營運，匯聚社群的力量，希望讓更多人能夠參與社會議題的討論，讓討論的足跡被留下，讓經驗可以被學習。
+        description: Sense.tw 獲得科技匯報「社會與科技溝通平台計畫 - A分項審議之科技，科技之審議」計畫支持。 作為科技工具，以開源社群協作的方式營運，希望串連社群的力量，匯聚更多人參與社會議題的討論，讓公民參與討論的足跡被留下，讓倡議的經驗可以被學習。
         items:
             - title: 議題釐清工具，社群協作讓政策 make sense
               url: https://about.sense.tw/
