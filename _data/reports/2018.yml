@@ -6,9 +6,14 @@ cover_image_opacity: 0.9
 cover_veil_opacity: 0.1
 items:
   - type: image_header
+    anchor: test
+    background_color: teal
     cover: /p/2018/admin/admin_banner2018_report.png
     cover_image_alt: 
-    background_color: teal
+    button:
+      url: 測試網址
+      title: 測試按鈕
+      position: right
   - type: content
     columns:
       - type: image
