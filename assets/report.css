@@ -1,4 +1,5 @@
-#report #hero {
+#report #hero,
+#report .title {
   overflow: hidden;
 }
 
@@ -16,13 +17,6 @@
 #report .og-banner {
   max-width:100%;
   opacity: 1;
-}
-
-#report .image_header .action {
-  position: absolute;
-  bottom: 0;
-  padding: 1rem;
-  width: 100%;
 }
 
 #report #hero .cover.image,

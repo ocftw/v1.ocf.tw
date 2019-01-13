@@ -53,44 +53,14 @@ items:
     cover_veil_opacity: 0.3
     # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
 
-    button:
-    # 在 header 區塊底部的按鈕，若留空則不顯示
+    buttons:
+    # 在 header 區塊底部的按鈕，可以一個或多個，建議一個為佳。若留空則不顯示
 
-      title: text
-      # 按鈕顯示的文字
+      - title: text
+        # 按鈕顯示的文字
 
-      url: url
-      # 按下按鈕後前往的網址
-
-      position: text
-      # 按鈕水平位置： left / right / center
-
-  - type: image_header
-    # 簡報區塊的類型， image_header 為圖片式的標題區塊，不分欄
-
-    anchor: text
-    # 可以連到 image_header 區塊的 anchor 名稱
-
-    background_color: text
-    # image_header 區塊的被景色，可以是 semantic ui 定義的顏色，若留空則顯示為黑色。參考： http://semantic-ui.com/elements/segment.html#colored
-
-    cover: url
-    # image_header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
-
-    cover_image_alt: ''
-    # image_header 區塊背景圖片的替代文字
-
-    button:
-    # 在 image_header 區塊底部的按鈕，若留空則不顯示
-
-      title: text
-      # 按鈕顯示的文字
-
-      url: url
-      # 按下按鈕後前往的網址
-
-      position: text
-      # 按鈕水平位置： left / right / center
+        url: url
+        # 按下按鈕後前往的網址
 
   - type: content
     # 簡報區塊的類型， content 為內容式區塊，分兩欄
