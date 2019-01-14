@@ -5,10 +5,15 @@ color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
 items:
-  - type: header_image
+  - type: image_header
+    anchor: test
+    background_color: teal
     cover: /p/2018/admin/admin_banner2018_report.png
     cover_image_alt: 
-    background_color: teal
+    button:
+      url: 測試網址
+      title: 測試按鈕
+      position: right
   - type: content
     columns:
       - type: image
@@ -85,11 +90,11 @@ items:
           - person_id: huangfu
           - person_id: leona
           - person_id: rosa
-  - type: header_image
+  - type: image_header
     cover: /p/2018/admin/admindonate2.png
     cover_image_alt: 
     background_color: teal
-  - type: header_image
+  - type: image_header
     background_color: orange
     cover: /p/2018/intl/intlcoverbanner.png
     cover_image_alt: ''
@@ -167,7 +172,7 @@ items:
             - person_id: yhchang
             - person_id: kting
             - person_id: TYC
-  - type: header_image
+  - type: image_header
     cover: /p/2018/intl/intldonate.png
     cover_image_alt: 
     background_color: orange
@@ -230,6 +235,7 @@ items:
         logo_height: auto
         logos:
           - org_id: Fubon
+<<<<<<< HEAD
   - type: header
     title: 財務報告
     anchor: finance
@@ -263,6 +269,9 @@ items:
           title: Donate
           url: https://ocf.tw/p/
   - type: header_image
+=======
+  - type: image_header
+>>>>>>> parent of 652bf69... Revert "Merge branch 'gh-pages' of https://github.com/ocftw/v1.ocf.tw into gh-pages"
     cover: /p/2018/admin/thumbsup2.png
     cover_image_alt: 
     background_color: tint
