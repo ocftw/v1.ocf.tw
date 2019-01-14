@@ -247,7 +247,7 @@ items:
     title: 財務報告
     anchor: finance
     icon: dollar
-    background_color: gold
+    background_color: yellow
     description: 2018 年度，OCF 與合作社群在各方面都獲得許多個人或組織的支援，感謝這些來自不同領域的開放文化貢獻者願意與我們一起前進。
   - type: content
     columns:
