@@ -235,7 +235,6 @@ items:
         logo_height: auto
         logos:
           - org_id: Fubon
-<<<<<<< HEAD
   - type: header
     title: 財務報告
     anchor: finance
@@ -268,10 +267,7 @@ items:
         action:
           title: Donate
           url: https://ocf.tw/p/
-  - type: header_image
-=======
   - type: image_header
->>>>>>> parent of 652bf69... Revert "Merge branch 'gh-pages' of https://github.com/ocftw/v1.ocf.tw into gh-pages"
     cover: /p/2018/admin/thumbsup2.png
     cover_image_alt: 
     background_color: tint
