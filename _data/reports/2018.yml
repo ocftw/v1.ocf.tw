@@ -95,6 +95,7 @@ items:
       url: /300/
       position: right
   - type: image_header
+    anchor: intl
     background_color: orange
     cover: /p/2018/intl/intlcoverbanner.png
     cover_image_alt: ''
@@ -176,7 +177,7 @@ items:
     background_color: orange
   - type: header
     title: 給關心社會議題的行動者，議題釐清的工具 － Sense.tw
-    anchor: 
+    anchor: ggv
     background_color: grey
     description:  
   - type: content
