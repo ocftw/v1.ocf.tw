@@ -6,14 +6,10 @@ cover_image_opacity: 0.9
 cover_veil_opacity: 0.1
 items:
   - type: image_header
-    anchor: test
+    anchor: admin
     background_color: teal
     cover: /p/2018/admin/admin_banner2018_report.png
     cover_image_alt: 
-    button:
-      url: 測試網址
-      title: 測試按鈕
-      position: right
   - type: content
     columns:
       - type: image
@@ -94,12 +90,14 @@ items:
     cover: /p/2018/admin/admindonate2.png
     cover_image_alt: 
     background_color: teal
+    button:
+      title: 捐款我們
+      url: /300/
+      position: right
   - type: image_header
     background_color: orange
     cover: /p/2018/intl/intlcoverbanner.png
     cover_image_alt: ''
-    ge_opacity: 0.9
-    cover_veil_opacity: 0.3
   - type: content
     columns:
       - type: image
