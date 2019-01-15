@@ -103,7 +103,6 @@ items:
     columns:
       - type: slider
         slides: 
-          - url: /p/2018/intl/Slide1.jpg
           - url: /p/2018/intl/Korea_OGP.jpg
           - url: /p/2018/intl/OGP summit.jpg
           - url: /p/2018/intl/IODC.jpg
@@ -117,7 +116,6 @@ items:
     columns:
       - type: slider
         slides: 
-          - url: /p/2018/intl/Slide2.jpg
           - url: /p/2018/intl/9月日本_CodefJapan summit .jpg
           - url: /p/2018/intl/5月加州_CfA Summit.jpg
           - url: /p/2018/intl/PDF NYC.jpg
@@ -127,7 +125,7 @@ items:
         title: 公民科技 - 出國參訪
         subtitle: 
         description: 公民以不同角色與背景，利用科技協作讓社會更好，在科技迭代的時代中越顯重要。藉由邀請臺灣相關社群一銅參與全球重要公民科技大會並拜訪相關組織，與國際夥伴持續交流、串聯、合作。
-- type: content
+  - type: content
     columns:
       - type: slider
         slides: 
@@ -149,7 +147,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2018/intl/Slide5.jpg
+        url: \p\2018\intl\intl_annual-_new5.jpg
         swap: true
       - type: article
         title: NGO 的資訊安全
