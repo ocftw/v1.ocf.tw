@@ -184,9 +184,9 @@ items:
     cover_image_alt: 
     background_color: orange
     button:
-    title: 捐款支持國際交流
-    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=11&_ga=2.114915023.911432104.1547515525-1271759763.1528100465
-    position: middle
+     title: 捐款支持國際交流
+     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=11&_ga=2.114915023.911432104.1547515525-1271759763.1528100465
+     position: center
   - type: header
     title: 給關心社會議題的行動者，議題釐清的工具 － Sense.tw
     anchor: ggv
