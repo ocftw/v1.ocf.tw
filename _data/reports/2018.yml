@@ -98,7 +98,7 @@ items:
     anchor: intl
     background_color: orange
     cover: /p/2018/intl/intlcoverbanner.png
-    cover_image_alt: ''
+    cover_image_alt: 
   - type: content
     columns:
       - type: slider
@@ -112,20 +112,24 @@ items:
         title: 開放政府 Ｘ 開放資料
         subtitle: 
         description: 開放文化基金會長期關注「開放政府」與「開放資料」相關議題。今年在指標性國際會議 OGP 與 IODC 中，我們看見「開放與開源文化」在經濟發展與反貪腐層面帶來的影響力與改變。實務上，政府與人民之間如何協作，創造開放、穩定的資料公開平台是公民科技能否持續活絡的關鍵。
-        swap: false
   - type: content
     columns:
-      - type: image
-        url: \p\2018\intl\intl_annual-_new2.jpg
-        swap: true
+      - type: slider
+        slides: 
+          - url: /p/2018/intl/9月日本_CodefJapan summit .jpg
+          - url: /p/2018/intl/5月加州_CfA Summit.jpg
+          - url: /p/2018/intl/PDF NYC.jpg
+          - url: /p/2018/intl/TICTeC.jpg
+        swap: false
       - type: article
         title: 公民科技 - 出國參訪
         subtitle: 
         description: 公民以不同角色與背景，利用科技協作讓社會更好，在科技迭代的時代中越顯重要。藉由邀請臺灣相關社群一銅參與全球重要公民科技大會並拜訪相關組織，與國際夥伴持續交流、串聯、合作。
+  - type: content
     columns:
       - type: image
-        url: \p\2018\intl\intl_annual-_new3.jpg
-        swap: false
+        url: /p/2018/intl/歐洲公民科際參訪_Ams演講.jpg
+        swap: true
       - type: article
         title: 公民科技 - 國際交流
         subtitle: 
@@ -133,8 +137,8 @@ items:
   - type: content
     columns:
       - type: image
-        url: \p\2018\intl\intl_annual-_new4.jpg
-        swap: true
+        url: /p/2018/intl/東亞打擊假新聞工作坊.jpg
+        swap: false
       - type: article
         title: 公民科技 - 資訊
         subtitle: 
@@ -143,7 +147,7 @@ items:
     columns:
       - type: image
         url: \p\2018\intl\intl_annual-_new5.jpg
-        swap: false
+        swap: true
       - type: article
         title: NGO 的資訊安全
         subtitle: Civil Society Cyber Shield (CSCS)
@@ -151,8 +155,8 @@ items:
   - type: content
     columns:
       - type: image
-        url: \p\2018\intl\intl_annual-_new6.jpg
-        swap: true
+        url: /p/2018/intl/RightsCon.JPG
+        swap: false
       - type: article
         title: 數位人權 Ｘ 網路治理
         subtitle: 出國參訪
