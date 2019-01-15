@@ -91,9 +91,9 @@ items:
     cover_image_alt: 
     background_color: teal
     button:
-      title: 捐款我們
+      title: 捐款支持 OCF 行政中心
       url: /300/
-      position: right
+      position: center
   - type: image_header
     anchor: intl
     background_color: orange
@@ -101,13 +101,18 @@ items:
     cover_image_alt: ''
   - type: content
     columns:
-      - type: image
-        url: \p\2018\intl\intl_annual-_new1.jpg
-        swap: false
+      - type: slider
+        slides: 
+          - url: /p/2018/intl/Korea_OGP.jpg
+          - url: /p/2018/intl/OGP summit.jpg
+          - url: /p/2018/intl/IODC.jpg
+          - url: /p/2018/intl/法國台灣開放資料論壇.jpg
+        swap: true
       - type: article
         title: 開放政府 Ｘ 開放資料
         subtitle: 
         description: 開放文化基金會長期關注「開放政府」與「開放資料」相關議題。今年在指標性國際會議 OGP 與 IODC 中，我們看見「開放與開源文化」在經濟發展與反貪腐層面帶來的影響力與改變。實務上，政府與人民之間如何協作，創造開放、穩定的資料公開平台是公民科技能否持續活絡的關鍵。
+        swap: false
   - type: content
     columns:
       - type: image
@@ -117,7 +122,6 @@ items:
         title: 公民科技 - 出國參訪
         subtitle: 
         description: 公民以不同角色與背景，利用科技協作讓社會更好，在科技迭代的時代中越顯重要。藉由邀請臺灣相關社群一銅參與全球重要公民科技大會並拜訪相關組織，與國際夥伴持續交流、串聯、合作。
-  - type: content
     columns:
       - type: image
         url: \p\2018\intl\intl_annual-_new3.jpg
@@ -175,6 +179,10 @@ items:
     cover: /p/2018/intl/intldonate.png
     cover_image_alt: 
     background_color: orange
+    button:
+    title: 捐款支持國際交流
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=11&_ga=2.114915023.911432104.1547515525-1271759763.1528100465
+    position: middle
   - type: header
     title: 給關心社會議題的行動者，議題釐清的工具 － Sense.tw
     anchor: ggv
