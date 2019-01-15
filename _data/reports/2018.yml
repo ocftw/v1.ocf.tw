@@ -69,9 +69,9 @@ items:
         title: 起風囉！ 鄉民Ｘ開放資料看網路風向！
         subtitle: 
         description: “PTT ID PROFILING” 是在 PPT 大活躍時代，因應充斥假資訊的網路世界而產生的開放原始碼專案。它的目的是找出 ID 和 IP 的關聯性，並加以分析尋找出假資訊散佈的脈絡與它們的產地。網路時代，真實與虛幻往往一線之隔，學會找尋知識共享資訊之外，懂得分辨真偽、了解多元的開放文化相關課題，是身在網路世代人們的必備素養。我們堅持開源，將資料和程式碼分享公開，穩固奠定人與人間的信賴橋樑。
-        items:
-            - title: PTT Crawler 先睹為快
-              url: https://github.com/GundamBox/PttCrawler/blob/master/doc/zh.md
+        action:
+          title: PTT Crawler 先睹為快
+          url: https://github.com/GundamBox/PttCrawler/blob/master/doc/zh.md
   - type: content
     columns:
       - type: article
@@ -201,9 +201,9 @@ items:
         title: 讓公民理性參與政策討論的基礎建設
         subtitle: 
         description: Sense.tw 獲得科技會報「社會與科技溝通平台計畫 - A分項審議之科技，科技之審議」計畫支持。 作為科技工具，以開源社群協作的方式營運，希望串連社群的力量，匯聚更多人參與社會議題的討論，讓公民參與討論的足跡被留下，讓倡議的經驗可以被學習。
-        items:
-            - title: 議題釐清工具，社群協作讓政策 make sense
-              url: https://about.sense.tw/
+        action:
+          title: 議題釐清工具，社群協作讓政策 make sense
+          url: https://about.sense.tw/
   - type: header
     title: 特別感謝
     anchor: thanks
@@ -285,15 +285,15 @@ items:
     columns:
       - type: article
         title: 臉書追蹤OCF，活動不會錯過！
-        items:
-            - title: Follow Us on Facebook
-              url: https://www.facebook.com/www.ocf.tw/?ref=bookmarks
+        action: 
+          title: Follow Us on Facebook
+          url: https://www.facebook.com/www.ocf.tw/?ref=bookmarks
       - type: article  
         title: 訂閱EDM，開源資訊不漏接
-        items:
-        - title: 訂閱 OCF 電子報
-          url: https://ocf.tw/news/
         swap: false
+        action:
+          title: 訂閱 OCF 電子報
+          url: https://ocf.tw/news/
     items:
     cover_image_alt: ''
     ge_opacity: 0.9
