@@ -147,7 +147,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: \p\2018\intl\intl_annual-_new5.jpg
+        url: /p/2018/intl/Slide5.jpg
         swap: true
       - type: article
         title: NGO 的資訊安全
