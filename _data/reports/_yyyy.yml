@@ -81,7 +81,7 @@ items:
     # image_header 區塊背景圖片的替代文字
 
     button:
-    # 在 image_header 區塊底部的按鈕，若留空則不顯示
+    # 在 image_header 區塊底部的按鈕，若留空則不顯示。若設定按鈕，請一併設定 background_color，因為手機版上會使用它當按鈕的背景色
 
       title: text
       # 按鈕顯示的文字
@@ -90,7 +90,7 @@ items:
       # 按下按鈕後前往的網址
 
       position: text
-      # 按鈕水平位置： left / right / center
+      # 按鈕水平位置： left / right / center ；螢幕寬度小於 640px 時會一律置中對齊
 
   - type: content
     # 簡報區塊的類型， content 為內容式區塊，分兩欄

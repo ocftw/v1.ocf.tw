@@ -92,7 +92,7 @@ layout: global
     </div>
   {% endif %}
   {% if item.button %}
-    <p class="action" style="text-align: {{ item.button.position }}">
+    <p class="action {{ item.button.position }} aligned">
       <a class="ui basic inverted button" href="{{ item.button.url }}" target="_blank">
         {{ item.button.title}}
         <i class="icon right arrow"></i>

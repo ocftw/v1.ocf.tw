@@ -21,8 +21,24 @@
 #report .image_header .action {
   position: absolute;
   bottom: 0;
-  padding: 1rem;
+  padding: 1rem 2rem;
   width: 100%;
+}
+
+#report .image_header .action.right.aligned {
+  text-align: right;
+}
+
+#report .image_header .action.left.aligned {
+  text-align: left;
+}
+
+#report .image_header .action.center.aligned {
+  text-align: center;
+}
+
+#report .image_header .action .button {
+  margin: 0;
 }
 
 #report #hero .cover.image,
@@ -114,6 +130,15 @@
 #report header.ui.segment {
   padding-left: 0;
   padding-right: 0;
+}
+
+#report .image_header .action,
+#report .image_header .action.right.aligned,
+#report .image_header .action.left.aligned,
+#report .image_header .action.center.aligned {
+  padding: 1rem;
+  position: static;
+  text-align: center;
 }
 
 }
