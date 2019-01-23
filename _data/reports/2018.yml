@@ -138,6 +138,21 @@ items:
         title: 公民科技 - 出國參訪
         subtitle: 
         description: 公民以不同角色與背景，利用科技協作讓社會更好，在科技迭代的時代中越顯重要。藉由邀請臺灣相關社群一銅參與全球重要公民科技大會並拜訪相關組織，與國際夥伴持續交流、串聯、合作。
+        items:
+          - title: 【出訪】TICTeC 公民科技動能推升研討會 @ 葡萄牙
+            url: https://drive.google.com/file/d/102HT1saiVWcDeHzYqOs5l4C_xA6Q3Zks/view
+          - title: 【出訪】PDFCEE 個人民主論壇 2018 @ 波蘭
+            url: https://drive.google.com/file/d/102HT1saiVWcDeHzYqOs5l4C_xA6Q3Zks/view
+          - title: 【出訪】Code for America Summit @美國/加州
+            url: https://drive.google.com/file/d/1LBtK-GXChzKqsqJiEDsQA7Q-BkEG3ca1/view
+          - title: 【出訪】PDFNYC個人民主論壇2018 @美國/紐約
+            url: https://drive.google.com/file/d/1LBtK-GXChzKqsqJiEDsQA7Q-BkEG3ca1/view
+          - title: 【出訪】Code for Japan Summit 2018 @ 日本
+            url: 
+          - title: 【出訪】歐洲公民科技團體拜訪 @義大利、巴黎、阿姆斯特丹、柏林
+            url: 
+          - title: 【活動】美國公民科技之行回台分享會 @ 台北
+            url: https://ocftw.kktix.cc/events/usavisits
   - type: content
     columns:
       - type: slider
@@ -148,6 +163,11 @@ items:
         title: 公民科技 - 國際交流
         subtitle: 
         description: 除了活動互訪，OCF 也開啟相關交流計畫，包括提供國際人士來台，了解台灣開放資料、開源協作、公民科技等經驗。另外，在g0v加入全球公民科技聯盟Code for All之後，OCF擔任聯繫窗口並負責前三期該聯盟交換計劃獎助金執行者。
+        items:
+          - title: 【專案】公民科技交流計畫
+            url: 
+          - title: 【專案】Code for All全球網絡交換計畫
+            url: https://codeforall.org/members
   - type: content
     columns:
       - type: image
@@ -157,6 +177,13 @@ items:
         title: 公民科技 - 資訊
         subtitle: 
         description: g0v.news 為 OCF 自行籌辦的公民科技新聞內容分享中心，由編輯選題，與 g0v 社群交流，以中英文與台灣和國際社群分享公民科技相關新聞。此外，也在熱門不實訊息議題方面，與東亞各國夥伴緊密合作，辦理工作坊並參與相關會議。
+        items:
+          - title: 【專案】g0v.news
+            url: https://g0v.news/
+          - title: 【活動】2018 East Asia Combating Disinformation Workshop @ 台北
+            url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2159090151033576
+          - title: 【出訪】Disinformation Forum with Digital Asia Hub @ 印尼
+            url: 
   - type: content
     columns:
       - type: image
@@ -166,6 +193,13 @@ items:
         title: 數位人權
         subtitle: Civil Society Cyber Shield (CSCS)
         description: NGO 也需要資安！2018 年， 在志工資安講師的協助下， CSCS 專案舉辦種子講師訓練，與超過 10 個 NGO 合作，進行資安檢測及教學。
+        items:
+          - title: 【活動】資安小聚
+            url: 
+          - title: 【活動】「公民實驗室」分享會：中國網路審查與監控 @台北
+            url: https://ocftw.kktix.cc/events/citizenlab
+          - title: 【活動】讓網路審查無所遁形的工具—OONI 偵測器工作坊 @台北
+            url: https://ocftw.kktix.cc/events/ooni-workshop
   - type: content
     columns:
       - type: image
@@ -175,6 +209,15 @@ items:
         title: 數位人權 Ｘ 網路治理
         subtitle: 出國參訪
         description: 開放文化基金會長期與社群共同關注網路中立性、隱私權、言論自由、被遺忘權等新興議題。 OCF 與 2 位台灣社群夥伴共同前往 RightsCon 2018 ，並在 5 場議程當中擔任講者或主持，在議程之外，也拜訪當地 3 個相關社群和組織，並和其他大會參與者交流。針對APrIGF，有2位OCFT成員及1位社群成員前往，瞭解亞太區域網路治理議題的最新趨勢。
+        items:
+          - title: 【出訪】RightsCon 數位人權大會 2018 @加拿大
+            url: https://drive.google.com/file/d/15viWKHeKQW2sJGjCwNRmRR4gFE1MlUo_/view
+          - title: 【出訪】APrIGF 亞太網路治理論壇 @萬那杜
+            url: 
+          - title: 【活動】數位人權大會回台分享會 @台北
+            url: https://ocftw.kktix.cc/events/rightscon2018-sharing
+          - title: 【活動】亞太網路治理論壇回台分享會 @台北
+            url: https://ocftw.kktix.cc/events/aprigf2018-sharing
   - type: content
     columns:
       - type: article
