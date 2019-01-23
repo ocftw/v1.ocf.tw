@@ -112,10 +112,9 @@ items:
         title: 開放政府 Ｘ 開放資料
         subtitle: 
         description: 開放文化基金會長期關注「開放政府」與「開放資料」相關議題。今年在指標性國際會議 OGP 與 IODC 中，我們看見「開放與開源文化」在經濟發展與反貪腐層面帶來的影響力與改變。實務上，政府與人民之間如何協作，創造開放、穩定的資料公開平台是公民科技能否持續活絡的關鍵。
-        action:
-            title: 【活動】法國-臺灣開放資料座談  @台北
+        items:
+          - title: 【活動】法國-臺灣開放資料座談  @台北
             url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2116011962008062
-
   - type: content
     columns:
       - type: slider
