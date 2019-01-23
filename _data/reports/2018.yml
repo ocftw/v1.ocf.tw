@@ -13,7 +13,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: \p\2018\pycon\group.jpg
+        url: \p\2018\pycon\group壓縮.jpg
         swap: false
       - type: article
         title: 社群後勤
