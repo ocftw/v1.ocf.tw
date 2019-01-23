@@ -115,6 +115,16 @@ items:
         items:
           - title: 【活動】法國-臺灣開放資料座談  @台北
             url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2116011962008062
+          - title: 【出訪】Open Government Partnership (OGP) Summit 2018  @喬治亞
+            url: https://drive.google.com/file/d/1-Ac3aDX1e-1P1mR4mUDmHM3JVd4RrAjq/view
+          - title: 【出訪】OGP Asia-Pacific Regional Meeting  @韓國
+            url: 
+          - title: 【出訪】International Open Data Conference(IODC) 2018  @阿根廷
+            url: 
+          - title: 【活動】喬治亞OGP Summit 回台系列分享會 @台北
+            url: https://ocftw.kktix.cc/events/ogpsharing
+          - title: 【活動】阿根廷IODC 回台分享會 @台北
+            url: https://ocftw.kktix.cc/events/opendatavisits
   - type: content
     columns:
       - type: slider
