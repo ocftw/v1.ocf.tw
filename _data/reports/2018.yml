@@ -113,23 +113,18 @@ items:
         subtitle: 
         description: 開放文化基金會長期關注「開放政府」與「開放資料」相關議題。今年在指標性國際會議 OGP 與 IODC 中，我們看見「開放與開源文化」在經濟發展與反貪腐層面帶來的影響力與改變。實務上，政府與人民之間如何協作，創造開放、穩定的資料公開平台是公民科技能否持續活絡的關鍵。
         action:
-          title: 【活動】法國-臺灣開放資料座談  @台北
-          url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2116011962008062
-        action:
-          title: 【出訪】Open Government Partnership (OGP) Summit 2018  @喬治亞
-          url: https://drive.google.com/file/d/1-Ac3aDX1e-1P1mR4mUDmHM3JVd4RrAjq/view
-        action:
-          title: 【出訪】OGP Asia-Pacific Regional Meeting  @韓國
-          url: 
-        action:
-          title: 【出訪】International Open Data Conference(IODC) 2018  @阿根廷
-          url: 
-        action:
-          title: 【活動】喬治亞OGP Summit 回台系列分享會 @台北
-          url: https://ocftw.kktix.cc/events/ogpsharing
-        action:
-          title: 【活動】阿根廷IODC 回台分享會 @台北
-          url: https://ocftw.kktix.cc/events/opendatavisits
+              - title: 【活動】法國-臺灣開放資料座談  @台北
+                url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2116011962008062
+              - title: 【出訪】Open Government Partnership (OGP) Summit 2018  @喬治亞
+                url: https://drive.google.com/file/d/1-Ac3aDX1e-1P1mR4mUDmHM3JVd4RrAjq/view
+              - title: 【出訪】OGP Asia-Pacific Regional Meeting  @韓國
+                url: 
+              - title: 【出訪】International Open Data Conference(IODC) 2018  @阿根廷
+                url: 
+              - title: 【活動】喬治亞OGP Summit 回台系列分享會 @台北
+                url: https://ocftw.kktix.cc/events/ogpsharing
+              - title: 【活動】阿根廷IODC 回台分享會 @台北
+                url: https://ocftw.kktix.cc/events/opendatavisits
   - type: content
     columns:
       - type: slider
