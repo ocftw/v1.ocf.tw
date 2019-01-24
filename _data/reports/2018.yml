@@ -97,7 +97,7 @@ items:
   - type: image_header
     anchor: intl
     background_color: orange
-    cover: /p/2018/intl/intlcoverbanner.png
+    cover: /p/2018/intl/intlcoverbanner-new.png
     cover_image_alt: 
   - type: content
     columns:
