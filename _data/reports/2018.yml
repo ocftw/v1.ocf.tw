@@ -87,7 +87,7 @@ items:
           - person_id: leona
           - person_id: rosa
   - type: image_header
-    cover: /p/2018/admin/admindonate2.png
+    cover: /p/2018/admin/admindonate-GRAY.png
     cover_image_alt: 
     background_color: teal
     button:
@@ -250,7 +250,7 @@ items:
             - person_id: kting
             - person_id: TYC
   - type: image_header
-    cover: /p/2018/intl/intldonate.png
+    cover: /p/2018/intl/intldonate-gray.jpg
     cover_image_alt: 
     background_color: orange
     button:
