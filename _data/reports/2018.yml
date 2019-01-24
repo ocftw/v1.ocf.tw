@@ -103,7 +103,12 @@ items:
     columns:
       - type: slider
         slides: 
-
+          - url: \p\2018\intl\intl-成果報告resize\7月喬治亞_OGP summit.jpg
+          - url: \p\2018\intl\intl-成果報告resize\9月阿根廷_IODC.jpg
+          - url: \p\2018\intl\intl-成果報告resize\11月韓國_OGP區域會議.jpg
+          - url: \p\2018\intl\intl-成果報告resize\法國台灣開放資料論壇.jpg
+          - url: \p\2018\intl\intl-成果報告resize\開放政府回台分享會1.jpg
+          - url: \p\2018\intl\intl-成果報告resize\開放政府回台分享會2.jpg
         swap: true
       - type: article
         title: 開放政府 & 開放資料
