@@ -162,6 +162,7 @@ items:
         slides: 
           - url: \p\2018\intl\intl-成果報告resize\Ams演講.jpg
           - url: \p\2018\intl\intl-成果報告resize\code for all.jpg
+        swap: true
       - type: article
         title: 公民科技 - 國際交流
         subtitle: 
