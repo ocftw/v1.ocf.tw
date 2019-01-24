@@ -131,10 +131,11 @@ items:
     columns:
       - type: slider
         slides: 
-          - url: /p/2018/intl/9月日本_CodefJapan summit .jpg
-          - url: /p/2018/intl/5月加州_CfA Summit.jpg
-          - url: /p/2018/intl/PDF NYC.jpg
-          - url: /p/2018/intl/TICTeC.jpg
+          - url: \p\2018\intl\intl-成果報告resize\4月葡萄牙_TICTeC.jpeg
+          - url: \p\2018\intl\intl-成果報告resize\5月加州_CfA Summit.jpg
+          - url: \p\2018\intl\intl-成果報告resize\6月紐約_PDF NYC.jpg
+          - url: \p\2018\intl\intl-成果報告resize\9月日本_CodefJapan summit .jpg
+          - url: \p\2018\intl\intl-成果報告resize\美國行分享會.jpg
         swap: false
       - type: article
         title: 公民科技 - 出國參訪
