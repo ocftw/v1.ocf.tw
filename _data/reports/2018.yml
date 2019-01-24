@@ -160,8 +160,8 @@ items:
     columns:
       - type: slider
         slides: 
-          - url: /p/2018/intl/歐洲公民科際參訪_Ams演講.jpg
-        swap: true
+          - url: \p\2018\intl\intl-成果報告resize\Ams演講.jpg
+          - url: \p\2018\intl\intl-成果報告resize\code for all.jpg
       - type: article
         title: 公民科技 - 國際交流
         subtitle: 
@@ -173,8 +173,11 @@ items:
             url: https://codeforall.org/members
   - type: content
     columns:
-      - type: image
-        url: /p/2018/intl/東亞打擊假新聞工作坊.jpg
+      - type: slider
+        slides: 
+          - url: \p\2018\intl\intl-成果報告resize\(放第一張) g0v.news.jpg
+          - url: \p\2018\intl\intl-成果報告resize\東亞打擊假新聞工作坊.jpg
+          - url: \p\2018\intl\intl-成果報告resize\g0v.news 不實資訊文章配圖.jpg
         swap: false
       - type: article
         title: 公民科技 - 資訊
@@ -190,7 +193,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2018/intl/Slide5.jpg
+        url: \p\2018\intl\intl-成果報告resize\CSCS.jpg
         swap: true
       - type: article
         title: 數位人權
@@ -207,8 +210,12 @@ items:
             url: https://ocf.tw/p/cscs/
   - type: content
     columns:
-      - type: image
-        url: /p/2018/intl/RightsCon.JPG
+      - type: slider
+        slides: 
+          - url: \p\2018\intl\intl-成果報告resize\5月加拿大_RightsCon.jpg
+          - url: \p\2018\intl\intl-成果報告resize\APrIGF.jpg
+          - url: \p\2018\intl\intl-成果報告resize\分享會 (1).jpg
+          - url: \p\2018\intl\intl-成果報告resize\分享會 (2).jpg
         swap: false
       - type: article
         title: 數位人權 & 網路治理
