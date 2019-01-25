@@ -901,6 +901,56 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0901python:
+  title: 【高雄 Python 學院】 用Python建構股票分析系統(速成班)
+  description: 本課程的目標，是要讓學員在最短的時間內擁有自己的系統。課程首先會講解股票分析系統的架構，之後我們會說明如何訂定策略及藉由回測來判斷策略的好壞，希望藉由循序漸進的引導，最後可以讓學員建構出自己的股票分析系統。本次上課的內容為講師在 PyCon TW 2017 的演講 的更新及延伸。
+  month: 9
+  start: 9/1
+  end: 
+  link:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180901
+  cover: /p/2018/pycourse/pycourse-Kaohsiung .png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0908python:
+  title: 【高雄 Python 學院】 MicroPython智慧自走車工作坊 (workshop)
+  description: 無人駕駛、Arduino智能自走車的議題好熱門，但學習Python語言是否就和這些硬體應用無緣?不用怕，本工作坊將一步一步的帶大家使用MicroPython的硬體設計自己的智慧自走車，讓你使用Python也可以享受和硬體互動的樂趣。上完課程後可以帶回自己的自走車，隨時展示你的學習成果！本工作坊偏向實作應用課程，會設計各種使用情境，讓大家思考要如何達成練習情境的功能，視問題的難易度，講師也會提出參考做法，讓大家可順利的藉由引導來完成實作，以熟悉各種Python的技能。
+  month: 9
+  start: 9/8
+  end: 
+  link:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180908
+  cover: /p/2018/pycourse/pycourse-Kaohsiung .png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
 0914intl:
   title: 亞太網路治理論壇 分享會
   description:  "2016 年曾經成功爭取在台北主辦亞太網路治理論壇的台灣，在每年舉辦的 APrIGF 亞太網路治理論壇，都有許多參與者非常活躍地參加。雖然參與者眾多，但由於時間金錢等資源限制，仍然有許多人雖然有興趣、並關注這個議題，但無法遠道參與國際論壇。為了讓國際參與的經驗不僅是停留在出國參加的少數夥伴身上，而可以讓所有關注網路治理、資訊議題有興趣的朋友都可以共襄盛舉，因此在 APrIGF 結束後，許多前往參與的夥伴都會舉辦分享討論的活動，邀請參加者進行經驗分享、並且讓其他朋友一同加入討論。這個分享會針對所有有興趣但無法前往參加的朋友、或是想要了解網路治理議題的夥伴，歡迎大家一起來聽聽參與者們分享這個大型論壇的經驗！"
@@ -927,3 +977,131 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+1024intl:
+  title: 2018開放資料高峰會-回台分享會
+  description: 作為全球開放資料最重要的會議，IODC (International Open Data Conference) 於2010年開始舉辦，2018年邁入第五屆，並首次辦在南半球，於阿根廷首都布宜諾斯艾利斯(Buenous Aires)舉辦。除了開放文化基金會，還有Open Data聯盟以及中研院，共計有八位台灣參與者。
+  month: 10
+  start: 10/24
+  end: 
+  link:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/opendatavisits
+  cover:  
+  contributor_id:
+    - ttcat
+    - lulu
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1028intl:
+  title: 「公民實驗室」分享會：中國網路審查與監控
+  description: 中國對網路言論與活動的審查、對異議人士的監控大概是所有極權國家中手段最細緻與全面的。然而中國的審查制度與技術從來不透明，需要長期而深入的研究，才有可能一窺堂奧。來自加拿大多倫多大學的公民實驗室，專注於網路開放以及揭露各國政府在網路侵犯基本人權的行徑，就針對中國的審查制度有長期的研究。很榮幸邀請到公民實驗室來為我們解析研究中國審查制度的成果、他們如何進行相關研究，以及中國政府的審查與監控機制對國際有什麼影響。
+  month: 10
+  start: 10/28
+  end: 
+  link:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/citizenlab
+  cover:  
+  contributor_id:
+    - yhchang
+    - vivian
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+1101intl:
+  title: 讓網路審查無所遁形的工具—— OONI 偵測器工作坊
+  description: 人民要如何瞭解網路審查的現狀和趨勢呢？要瞭解政府阻擋了哪一些網站，是否有一套自動化的檢查程式？政府阻擋與開放特定網站，也會因為國家、地區、電信商、時間有所不同，是否有方法彙整不同條件下檢查程式的結果，讓我們看出趨勢？解答以上這些問題，即是「網路審查開放測量計劃」（Open Observatory of Network Interference, OONI）成立的初衷。開放文化基金會 （OCF）近期邀請到 OONI 的專案人員在臺灣舉辦工作坊，以增進臺灣大眾對於 OONI 、網路審查，以及更大範圍上對於資安、隱私、網路自由的關注。
+  month: 11
+  start: 11/1
+  end: 
+  link:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/ooni-workshop
+  cover:  
+  contributor_id:
+    - pellaeon
+    - lilin
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
+1103python:
+  title: 【高雄 Python 學院】 MiroPython IoT基礎工作坊
+  description: 在本次工作坊中，我們會使用MicroPython的硬體來進行IoT的開發應用。將一步一步的帶大家了解MicroPython的硬體相關知識，並且應用各種基礎的Python語法和硬體互動，實作IoT的各種應用。本工作坊偏向實作應用課程，會設計各種使用情境，讓大家思考要如何達成練習情境的功能，視問題的難易度，講師也會提出參考做法，讓大家可順利的藉由引導來完成實作，以熟悉各種Python的技能。
+  month: 11
+  start: 11/3
+  end: 
+  link:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20181103
+  cover: /p/2018/pycourse/pycourse-Kaohsiung .png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
+1201python:
+  title: 【高雄 Python 學院】 用Python做機器學習 (速成班)
+description: 本課程的目標，是要讓學員在最短的時間內開始使用 scikit-learn 來做機器學習。本次課程沒有涵蓋深度學習的實作，如果是想要學習深度學習的朋友，請期待之後的深度學習速成班。另外，本次課程著重在 scikit-learn 的使用及介紹，沒有艱深的數學，想要鑽研數學式的朋友請期待其他課程。
+month: 12
+start: 12/1
+  end: 
+  link:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20181103
+  cover:  https://pycourse.kktix.cc/events/kaohsiungpy20181201
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
