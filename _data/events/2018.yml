@@ -124,6 +124,32 @@
   speaker_id:
   banner: 
   avatar: 
+0303g0vdathon:
+  title: g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松
+  description: 鄧東波／Open Data 聯盟副會長。主題：邁向鏈結開放資料之智慧服務Towards Linked Open Data for Intelligent Services
+  month: 3
+  start: 3/3
+  end: 
+  link:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath29n
+  cover: /p/2018/g0v/20180303g0vdathon.png_large.jpg
+  contributor_id:
+    - singing
+    - huangfu
+  project_id:
+    - sitcon
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
 0310sitcon:
   title: 學生計算機年會 SITCON 2018
   description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
