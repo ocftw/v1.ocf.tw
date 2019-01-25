@@ -1082,9 +1082,9 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   avatar:
 1201python:
   title: 【高雄 Python 學院】 用Python做機器學習 (速成班)
-description: 本課程的目標，是要讓學員在最短的時間內開始使用 scikit-learn 來做機器學習。本次課程沒有涵蓋深度學習的實作，如果是想要學習深度學習的朋友，請期待之後的深度學習速成班。另外，本次課程著重在 scikit-learn 的使用及介紹，沒有艱深的數學，想要鑽研數學式的朋友請期待其他課程。
-month: 12
-start: 12/1
+  description: 本課程的目標，是要讓學員在最短的時間內開始使用 scikit-learn 來做機器學習。本次課程沒有涵蓋深度學習的實作，如果是想要學習深度學習的朋友，請期待之後的深度學習速成班。另外，本次課程著重在 scikit-learn 的使用及介紹，沒有艱深的數學，想要鑽研數學式的朋友請期待其他課程。
+  month: 12
+  start: 12/1
   link:
     - title: 活動網站
       url: https://pycourse.kktix.cc/events/kaohsiungpy20181103
