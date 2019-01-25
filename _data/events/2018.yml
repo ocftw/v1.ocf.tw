@@ -425,7 +425,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   banner: 
   avatar: 
 0428python:
-  title: 高雄 Python 學院-使用 Python 打造 Line 機器人工作坊 (上)
+  title: 【高雄 Python 學院】 使用 Python 打造 Line 機器人工作坊 (上)
   description: 本工作坊是「Python 基礎及應用」課程的實戰課程。在上兩次的課程中，我們將 Python 的一些基礎介紹傳授給初學者，這次，我們將進一步的實戰，透過 Python 打造 Line 機器人 (Line Bot)，這次我們將會手把手的帶大家從 0 建立一個  Line Bot ，並且將這個 Line Bot 佈署到雲端 ( Heroku ) ，這樣一來，您也可以將自己建立的 Line Bot 分享給你的親朋好友使用。
   month: 4
   start: 4/28
@@ -450,7 +450,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   banner: 
   avatar: 
 0505python:
-  title: 高雄 Python 學院-使用 Python 打造 Line 機器人工作坊 (下)
+  title: 【高雄 Python 學院】 使用 Python 打造 Line 機器人工作坊 (下)
   description: 本工作坊是「Python 基礎及應用」課程的實戰課程。在上兩次的課程中，我們將 Python 的一些基礎介紹傳授給初學者，這次，我們將進一步的實戰，透過 Python 打造 Line 機器人 (Line Bot)，這次我們將會手把手的帶大家從 0 建立一個  Line Bot ，並且將這個 Line Bot 佈署到雲端 ( Heroku ) ，這樣一來，您也可以將自己建立的 Line Bot 分享給你的親朋好友使用。
   month: 5
   start: 5/5
@@ -607,7 +607,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   banner: 
   avatar:
 0623python:
-  title: [高雄 Python 學院] IoT基礎實作工作坊
+  title: 【高雄 Python 學院】 IoT基礎實作工作坊
   description: 本工作坊是「Python 基礎及應用」課程的後續課程。在上一次的課程中，我們在六個小時內練習了各種Python的基礎語法。在本工作坊中，我們將一步一步的帶大家了解MicroPython的硬體相關知識，並且應用各種基礎的Python語法和硬體互動，實作IoT的各種應用。本工作坊偏向實作應用課程，會設計各種使用情境，讓大家思考要如何達成練習情境的功能，視問題的難易度，講師也會提出參考做法，讓大家可順利的藉由引導來完成實作，以熟悉各種Python的技能。
   month: 6
   start: 6/23
