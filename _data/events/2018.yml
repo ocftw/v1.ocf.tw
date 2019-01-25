@@ -424,6 +424,56 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0428python:
+  title: [高雄 Python 學院] 使用 Python 打造 Line 機器人工作坊 (上)
+  description: 本工作坊是「Python 基礎及應用」課程的實戰課程。在上兩次的課程中，我們將 Python 的一些基礎介紹傳授給初學者，這次，我們將進一步的實戰，透過 Python 打造 Line 機器人 (Line Bot)，這次我們將會手把手的帶大家從 0 建立一個  Line Bot ，並且將這個 Line Bot 佈署到雲端 ( Heroku ) ，這樣一來，您也可以將自己建立的 Line Bot 分享給你的親朋好友使用。
+  month: 4
+  start: 4/28
+  end: 
+  link:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180428
+  cover: /p/2018/pycourse/pycourse-Kaohsiung .png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0505python:
+  title: [高雄 Python 學院] 使用 Python 打造 Line 機器人工作坊 (下)
+  description: 本工作坊是「Python 基礎及應用」課程的實戰課程。在上兩次的課程中，我們將 Python 的一些基礎介紹傳授給初學者，這次，我們將進一步的實戰，透過 Python 打造 Line 機器人 (Line Bot)，這次我們將會手把手的帶大家從 0 建立一個  Line Bot ，並且將這個 Line Bot 佈署到雲端 ( Heroku ) ，這樣一來，您也可以將自己建立的 Line Bot 分享給你的親朋好友使用。
+  month: 5
+  start: 5/5
+  end: 
+  link:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180505
+  cover: /p/2018/pycourse/pycourse-Kaohsiung .png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
 0505g0vdathon:
   title: 台灣零時政府 g0v.tw 雙月大黑客松
   description: 本次 g0v 大黑客松將於 5/5 舉辦，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、插畫家與媒體工作者等諸眾，帶著熱血來盡一己之力，開源協作參與社會。
@@ -506,6 +556,31 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0612intl:
+  title: 歐洲公民科技組織拜訪
+  description: 法國國會議員Paula Forteza 邀請OCF國際交流組參與她每週五的開放辦公室活動，國際交流組也希望在歐美公民科技社群近一步發展關係，建立未來合作機會，因此將 4 個城市拉出一條出訪軸線，拜訪四地公民科技利益相關方，進一步了解歐洲現存的公民科技工具與平台，建立關係及潛在資源，並藉出訪行程宣傳今年g0v Summit。四個城市出訪，共訪談交流 9 個民間團體，2 地市府官員（米蘭與阿姆斯特丹），1 位中央數位計畫官員，並由當地團體協助組織了3場演講，分別在巴黎國會辦公室、荷蘭市府 Datalab 計畫辦公室、以及德國公民社群 Code for Berlin 定期聚會。拜訪行程因同時宣傳 g0v Summit，有一半的拜訪團體都投稿參與今年的 g0v Summit。
+  month: 6
+  start: 6/12
+  end: 7/25
+  link:
+    - title: 參訪報告
+      url: https://docs.google.com/document/d/1cuHiaqRvUnRb2Ydd2hsEOcGG6qZUW_uUrknKYWu0OjU/edit#heading=h.4rpx3qvpes03
+  cover: \p\2018\intl\歐洲公民科技組織拜訪.JPG
+  contributor_id:
+    - aiya
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
 0613intl:
   title: Citizen Lab Summer Institute on Monitoring Internet Openness and Rights
   description: "The Citizen Lab Summer Institute on Monitoring Internet Openness and Rights is an annual research workshop hosted at the Munk School of Global Affairs, University of Toronto. CLSI is a workshop for researchers and practitioners from academia, civil society, and the private sector who are working on Internet openness, security, and rights. The event brings together people with different perspectives from a wide range of backgrounds across technical and social science disciplines. Participants range from established experts to those just entering the area. We started CLSI to demonstrate that a greater understanding of technology and policy can only be achieved through interdisciplinary collaboration. Our aim is to help build and support a community that shares this belief. "
@@ -520,6 +595,31 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
     - pellaeon
   project_id:
     - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
+0623python:
+  title: [高雄 Python 學院] IoT基礎實作工作坊
+  description: 本工作坊是「Python 基礎及應用」課程的後續課程。在上一次的課程中，我們在六個小時內練習了各種Python的基礎語法。在本工作坊中，我們將一步一步的帶大家了解MicroPython的硬體相關知識，並且應用各種基礎的Python語法和硬體互動，實作IoT的各種應用。本工作坊偏向實作應用課程，會設計各種使用情境，讓大家思考要如何達成練習情境的功能，視問題的難易度，講師也會提出參考做法，讓大家可順利的藉由引導來完成實作，以熟悉各種Python的技能。
+  month: 6
+  start: 6/23
+  end: 
+  link:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180623
+  cover:  /p/2018/pycourse/pycourse-Kaohsiung .png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
   label:
   organizer_id:
   advisor_id:
@@ -761,6 +861,33 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   contributor_id:
     - pellaeon
     - lilin 
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0818intl:
+  title: OGP開放政府高峰會 分享會
+  description: 開放政府夥伴聯盟目前已有 76 個會員國，這些國家共同倡議並簽署了《開放政府宣言》，針對政府資訊透明、公民賦權、打擊腐敗、利用科技增進政府治理等等項目提出實質承諾，每兩年舉辦一次高峰會。而今年的 OGP Summit 在7月中於俄羅斯南方小國喬治亞（Georgia）舉行，吸引超過 2000 位來自各國的政府公務員、公民社會團體參與，就開放政府在世界各地的實踐成果、各自面對的困境與未來發展交流對話。為舉辦開放政府高峰會，喬治亞特別開放短期免簽讓台灣人參與，開放文化基金會也因此籌組了2018 OGP Summit 台灣民間參訪團，並於回台後8/18, 8/23, 9/7舉辦 3 場不同主題的分享會，和大家分享今年開放政府高峰會不同面向的各自觀察。
+  month: 8
+  start: 8/18
+  end: 9/7
+  link:
+    - title: 參訪報告
+      url: https://docs.google.com/document/d/1kIeQtHKaaZg7A_HkZigd8pZ7Nf0E8tR4kuEsaSSFXgg/edit
+  cover: \p\2018\intl\ogp開放政府分享會.JPG
+  contributor_id:
+    - ttcat
+    - aiya
+    - lulu
   project_id:
     - intl
   label:
