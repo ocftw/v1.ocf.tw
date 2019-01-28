@@ -201,9 +201,9 @@ items:
           - url: \p\2018\intl\intl-成果報告resize\(補) 數位人權3.JPG
         swap: true
       - type: article
-        title: 數位人權
+        title: NGO 的資訊安全
         subtitle: Civil Society Cyber Shield (CSCS)
-        description: NGO 也需要資安！2018 年， 在志工資安講師的協助下， CSCS 專案舉辦種子講師訓練，與超過 10 個 NGO 合作，進行資安檢測及教學。
+        description: NGO 也需要資安！2018 年，在志工資安講師的協助下， CSCS 舉辦種子講師培訓，幫助超過 10 個 NGO 進行資安檢測及教學，並協助修補超過 5 個資安弱點。
         items:
           - title: 【專案】Civil Society Cyber Shield (CSCS)
             url: https://ocf.tw/p/cscs/
