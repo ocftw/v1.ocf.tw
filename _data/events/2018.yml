@@ -76,7 +76,7 @@
   avatar: 
 0224python:
   title: 【高雄 Python 學院】 Python 基礎及應用 
-  description: Python 是頂尖的美國大學用來教授入門程式設計課程的第一選擇 (https://goo.gl/5MG1Y1)；天瓏書局 2017 年暢銷書排行榜 (https://goo.gl/UesAnc) 前十名中有八本是跟 Python 相關的書；在 KDnuggets 的調查中，Python 已經超越 R 成為數據科學和機器學習最多人使用的語言 (https://goo.gl/rnKAxv)。Python 的免費、跨平台、及簡單易學，已經讓它成為很多新創公司的最愛。因為使用 Python 可以迅速的完成產品及服務雛形的開發，所以有一些 Python 愛好者打出了 “Life is short, use Python!” 的口號來推廣 Python。 為了降低南部朋友們的進入門檻，我們預計規劃一系列的課程，手把手的帶大家好好的了解這一個語言。
+  description: 本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
   month: 2
   start: 2/24
   end: 
@@ -244,7 +244,7 @@
   avatar: 
 0324python:
   title: 【高雄 Python 學院】 Python 基礎及應用工作坊
-  description: Python 是頂尖的美國大學用來教授入門程式設計課程的第一選擇 (https://goo.gl/5MG1Y1)；天瓏書局 2017 年暢銷書排行榜 (https://goo.gl/UesAnc) 前十名中有八本是跟 Python 相關的書；在 KDnuggets 的調查中，Python 已經超越 R 成為數據科學和機器學習最多人使用的語言 (https://goo.gl/rnKAxv)。Python 的免費、跨平台、及簡單易學，已經讓它成為很多新創公司的最愛。因為使用 Python 可以迅速的完成產品及服務雛形的開發，所以有一些 Python 愛好者打出了 “Life is short, use Python!” 的口號來推廣 Python。 為了降低南部朋友們的進入門檻，我們預計規劃一系列的課程，手把手的帶大家好好的了解這一個語言。
+  description: 本工作坊是「Python 基礎及應用」課程的後續課程。在上一次的課程中，我們在六個小時內一次性地將初學者可能會使用到的技術盡量涵蓋，希望在知識性上讓參與者覺得物超所值。然而從問卷中，我們了解到多數初學者希望可以增加實作時數，進一步的熟悉 Python 的使用。因此我們在討論之後，決定開一個六個小時的工作坊。在本工作坊內，我們會將基本語法做簡短的複習，接著會提出不同的使用情境，讓參與者思考如何解題，視問題的難易程度，在 5-10 分鐘後，講師會提出一個參考的做法，再讓參與者做最後的嘗試及提問。上一次的課程，比較偏向知識的教授，而本工作坊則偏向技術的使用，需要參與者思考及動手，藉由動腦及動手讓 Python 語言自動地變成自己的技能。
   month: 3
   start: 3/24
   end: 
@@ -316,29 +316,6 @@
   speaker_id:
   banner: 
   avatar: 
-0421intl:
-  title: 法國&臺灣開放資料座談 FR-TW Open Data Forum
-  description: 法國是如何推動智慧城市？並且推動全面的數位化變革？在數位化的過程中，地方政府如何因應？又如何影響民主制度？由法國在台協會和開放文化基金會共同舉辦，邀請四位法國/台灣講者，從政務官角度及學者角度切入，聊聊兩國地方政府推動及使用開放資料的經驗、案例分享，也聊聊民間使用開放資料的實質回饋。
-  month: 4
-  start: 4/21
-  link:
-    - title: 活動網站
-      url: https://ocftw.kktix.cc/events/frtwopendata
-  cover: /p/2018/intl/0421intl-frenchopendata.jpg
-  contributor_id:
-  project_id:
-    - intl
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0418intl:
   title: 2018TICTeC公民科技動能推升研討會
   description: TICTeC（The Impacts of Civic Technology Conference，公民科技動能推升研討會) 為一年一度關注開放資料及公民科技影響力的國際研討會，致力於探討公民科技在不同社會環境與政治脈絡下的影響力，是串連世界各國公民科技社群的重要網絡。有別於其它著重技術的研討會，TICTeC 更具有學術性的色彩，強調線上與線下、科技與社會的串連。2018年度會議在葡萄牙首都里斯本舉辦。
@@ -353,6 +330,29 @@
   contributor_id:
     - ttcat
     - aiya
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
+0421intl:
+  title: 法國&臺灣開放資料座談 FR-TW Open Data Forum
+  description: 法國是如何推動智慧城市？並且推動全面的數位化變革？在數位化的過程中，地方政府如何因應？又如何影響民主制度？由法國在台協會和開放文化基金會共同舉辦，邀請四位法國/台灣講者，從政務官角度及學者角度切入，聊聊兩國地方政府推動及使用開放資料的經驗、案例分享，也聊聊民間使用開放資料的實質回饋。
+  month: 4
+  start: 4/21
+  link:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/frtwopendata
+  cover: /p/2018/intl/0421intl-frenchopendata.jpg
+  contributor_id:
   project_id:
     - intl
   label:
@@ -529,6 +529,30 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar:
+0529intl:
+  title: Code for America Summit
+  description: At the Summit, you’ll find the right people—at every level, from every level of government—in the right place, at the right time. Our workshops, main stage presentations and panels, breakout sessions, and networking events show that there’s a cheaper, better, faster way to do the job of government enabled technology.
+  month: 5
+  start: 5/29
+  end: 5/31
+  link:
+    - title: 活動網站
+      url: https://www.codeforamerica.org/events/summit/2018
+  cover: 
+  contributor_id:
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
 0601pycon:
   title: 2018 PyCon Taiwan
   description: "PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。 "
@@ -555,7 +579,31 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   host_id:
   speaker_id:
   banner: 
-  avatar: 
+  avatar:
+0607intl:
+  title: Personal Democracy Forum 2018:How We Make Good
+  description: 吸引近 400 位產官學代表參與的個人民主論壇（ Personal Democracy Forum CEE 2018），繼今年 4 月底在波蘭首聚後，6 月亦在紐約登場。來自不同國家的講者，將於此分享各種實踐公民人權的方式與經驗。
+  month: 6
+  start: 6/2
+  end: 
+  link:
+    - title: 活動網站
+      url: https://www.pdf-18.com/
+  cover: 
+  contributor_id:
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:  
 0612intl:
   title: 歐洲公民科技組織拜訪
   description: 法國國會議員Paula Forteza 邀請OCF國際交流組參與她每週五的開放辦公室活動，國際交流組也希望在歐美公民科技社群近一步發展關係，建立未來合作機會，因此將 4 個城市拉出一條出訪軸線，拜訪四地公民科技利益相關方，進一步了解歐洲現存的公民科技工具與平台，建立關係及潛在資源，並藉出訪行程宣傳今年g0v Summit。四個城市出訪，共訪談交流 9 個民間團體，2 地市府官員（米蘭與阿姆斯特丹），1 位中央數位計畫官員，並由當地團體協助組織了3場演講，分別在巴黎國會辦公室、荷蘭市府 Datalab 計畫辦公室、以及德國公民社群 Code for Berlin 定期聚會。拜訪行程因同時宣傳 g0v Summit，有一半的拜訪團體都投稿參與今年的 g0v Summit。
@@ -667,7 +715,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   avatar: 
 0629intl:
   title: 2018 多倫多 RightsCon 數位人權大會分享會
-  description: "每年在 RightsCon 數位人權大會中，都可以看到台灣參與者的身影，活躍地參加會議、議程、擔任講者。然而一定有更多台灣的夥伴，雖然關注此議題，卻無法親自前往參加大會。
+  description: 每年在 RightsCon 數位人權大會中，都可以看到台灣參與者的身影，活躍地參加會議、議程、擔任講者。然而一定有更多台灣的夥伴，雖然關注此議題，卻無法親自前往參加大會。
 
 為了讓國際參與的經驗不僅是停留在出國參加的少數夥伴身上，而可以讓所有關注人權、對資訊議題有興趣的朋友都可以共襄盛舉，因此每年都會在 RightsCon 大會結束後，邀請參與RightsCon 的台灣參加者舉辦經驗分享。
 
@@ -680,6 +728,8 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   link:
     - title: 活動網站
       url: https://ocftw.kktix.cc/events/rightscon2018-sharing 
+    - title: 活動共筆
+      url: https://hackmd.io/5lRa67SAQLy_erJd62bdvQ  
   cover: /p/2018/intl/0619intl.JPG
   contributor_id:
      - pellaeon
@@ -729,7 +779,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   avatar: 
 0707g0vdathon :
   title: 台灣零時政府 g0v.tw 雙月大黑客松 
-  description:  零時政府黑客松由 g0v 揪松團舉辦，兩個月一次的單天活動，百名與會者來自不同的城市、背景、專長與年紀，利用三分鐘快速發表自己想做的事，並在現場尋找志同道合的夥伴，發揮各自所長，同時透過線上與線下協作的方式，用弄髒雙手的精神來「讓事情發生」。 沒有想法，我也可以貢獻嗎？ 可以！只要帶上你的腦袋與雙手，直接到活動現場找尋志同道合的提案吧！你也可以成為黑客松小幫手，先加入 g0v slack 線上聊天室的 jothon 群組自我介紹，再到每次黑客松共筆的資訊列表看看是否還缺少什麼人力喔！
+  description: 零時政府黑客松由 g0v 揪松團舉辦，兩個月一次的單天活動，百名與會者來自不同的城市、背景、專長與年紀，利用三分鐘快速發表自己想做的事，並在現場尋找志同道合的夥伴，發揮各自所長，同時透過線上與線下協作的方式，用弄髒雙手的精神來「讓事情發生」。 沒有想法，我也可以貢獻嗎？ 可以！只要帶上你的腦袋與雙手，直接到活動現場找尋志同道合的提案吧！你也可以成為黑客松小幫手，先加入 g0v slack 線上聊天室的 jothon 群組自我介紹，再到每次黑客松共筆的資訊列表看看是否還缺少什麼人力喔！
   month: 7
   start: 7/7
   end: 
@@ -755,7 +805,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   avatar: 
 0711intl :
   title: 2018 美國公民科技之行回台分享會
-  description:  "政府與民間的公民科技不一樣嗎?兩大會議，一個以政府視野來探討，一個以公民社群為出發點，有著非常不一樣的氛圍和議程，也帶來許多反思和如何運用科技的探討。而四位分享者，也將以不同身份提出不同觀察，並與大家分享更多會議以外的交流故事、行程秘辛、未來推坑大計，至於驚喜彩蛋，那只能來現場才能得知了啊!!!"
+  description: 政府與民間的公民科技不一樣嗎？兩大會議，一個以政府視野來探討，一個以公民社群為出發點，有著非常不一樣的氛圍和議程，也帶來許多反思和如何運用科技的探討。而四位分享者，也將以不同身份提出不同觀察，並與大家分享更多會議以外的交流故事、行程秘辛、未來推坑大計，至於驚喜彩蛋，那只能來現場才能得知了啊！！
   month: 7
   start: 7/11
   end: 
@@ -771,7 +821,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
     - ipa
     - yhchang  
   project_id:
-    - intl
+    - g0vsummit
   label:
   organizer_id:
   advisor_id:
@@ -901,6 +951,31 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0821intl:
+  title: Digital Asia Hub
+  description: The Digital Asia Hub convened a symposium on the topic of Disinformation & Discourse:Rebuilding Trust in Institutions, Platforms, & Civic Spaces on 21 August, 2018, in Jakarta, Indonesia, bringing together over 50 subject matter experts from all over Asia and the world, across academia, industry, government, and civil society.
+  month: 8
+  start: 8/21
+  end: 
+  link:
+    - title: 官網報導
+      url: https://www.digitalasiahub.org/2018/08/22/disinformation-and-discourse-rebuilding-trust-in-institutions-platforms-and-civic-spaces/
+  cover: 
+  contributor_id:
+    - yhchang
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
 0901python:
   title: 【高雄 Python 學院】 用Python建構股票分析系統(速成班)
   description: 本課程的目標，是要讓學員在最短的時間內擁有自己的系統。課程首先會講解股票分析系統的架構，之後我們會說明如何訂定策略及藉由回測來判斷策略的好壞，希望藉由循序漸進的引導，最後可以讓學員建構出自己的股票分析系統。本次上課的內容為講師在 PyCon TW 2017 的演講 的更新及延伸。
@@ -953,7 +1028,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   avatar: 
 0914intl:
   title: 亞太網路治理論壇 分享會
-  description:  "2016 年曾經成功爭取在台北主辦亞太網路治理論壇的台灣，在每年舉辦的 APrIGF 亞太網路治理論壇，都有許多參與者非常活躍地參加。雖然參與者眾多，但由於時間金錢等資源限制，仍然有許多人雖然有興趣、並關注這個議題，但無法遠道參與國際論壇。為了讓國際參與的經驗不僅是停留在出國參加的少數夥伴身上，而可以讓所有關注網路治理、資訊議題有興趣的朋友都可以共襄盛舉，因此在 APrIGF 結束後，許多前往參與的夥伴都會舉辦分享討論的活動，邀請參加者進行經驗分享、並且讓其他朋友一同加入討論。這個分享會針對所有有興趣但無法前往參加的朋友、或是想要了解網路治理議題的夥伴，歡迎大家一起來聽聽參與者們分享這個大型論壇的經驗！"
+  description: 2016 年曾經成功爭取在台北主辦亞太網路治理論壇的台灣，在每年舉辦的 APrIGF 亞太網路治理論壇，都有許多參與者非常活躍地參加。雖然參與者眾多，但由於時間金錢等資源限制，仍然有許多人雖然有興趣、並關注這個議題，但無法遠道參與國際論壇。為了讓國際參與的經驗不僅是停留在出國參加的少數夥伴身上，而可以讓所有關注網路治理、資訊議題有興趣的朋友都可以共襄盛舉，因此在 APrIGF 結束後，許多前往參與的夥伴都會舉辦分享討論的活動，邀請參加者進行經驗分享、並且讓其他朋友一同加入討論。這個分享會針對所有有興趣但無法前往參加的朋友、或是想要了解網路治理議題的夥伴，歡迎大家一起來聽聽參與者們分享這個大型論壇的經驗！
   month: 9
   start: 9/14
   end: 
@@ -977,6 +1052,30 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+1005g0vsummit2018:
+  title: g0v summit 2018
+  description: g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是國際開放政府社群的焦點活動，過去兩屆吸引多達十九國講者投稿。雙年會全部由社群參與者志願籌辦，議程也秉持開放協作精神，全部議程皆有口譯、文字記錄和直播。議程除了大會籌辦，也開放完整時段的開放工作坊（Unconference）由參與者提案決定議程內容，以演講、討論、自由對話等形式創造新的協作空間。閉幕前自由報名的全場閃電講更是開源社群傳統，以開放分享的精神貫穿年會。
+  month: 10
+  start: 10/5
+  end: 10/6
+  link:
+    - title: 活動網頁
+      url: https://summit.g0v.tw/2018/
+  cover: \p\2018\g0vsummit\g0v_summit_2018.jpeg
+  contributor_id:
+  project_id:
+    - g0vsummit
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
 1024intl:
   title: 2018開放資料高峰會-回台分享會
   description: 作為全球開放資料最重要的會議，IODC (International Open Data Conference) 於2010年開始舉辦，2018年邁入第五屆，並首次辦在南半球，於阿根廷首都布宜諾斯艾利斯(Buenous Aires)舉辦。除了開放文化基金會，還有Open Data聯盟以及中研院，共計有八位台灣參與者。
