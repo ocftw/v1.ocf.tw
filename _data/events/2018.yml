@@ -1197,3 +1197,27 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar:
+1227intl:
+  title:  Chaos Communication Congress
+  description: The Chaos Communication Congress is an annual conference organized by the Chaos Computer Club. The congress features a variety of lectures and workshops on technical and political issues related to security, cryptography, privacy and online freedom of speech. The event takes place regularly at the end of the year since 1984.
+  month: 12
+  start: 12/27
+  link: 12/30
+    - title: 活動網站
+      url: https://events.ccc.de/congress/2018/wiki/index.php/Main_Page
+  cover: /p/2018/intl/35C3_Logo.svg
+  contributor_id:
+    - pellaeon
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
