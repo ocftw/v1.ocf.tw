@@ -115,17 +115,17 @@ items:
         subtitle: 
         description: OCF has long been concerned with open government and open data. In the landmark international conferences of OGP and IODC this year, we saw the influence and change brought by open culture and open source, in the area of economic development and anti-corruption. In practice, the key for civic tech in Taiwan to continue to thrive depends on the collaboration between government and citizens and how they create open, stable data platforms.
         items:
-          - title: 【活動】法國-臺灣開放資料座談  @台北
+          - title: Event：France-Taiwan open data conversation @Taipei
             url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2116011962008062
-          - title: 【出訪】Open Government Partnership (OGP) Summit 2018  @喬治亞
+          - title: Visit：Open government partnership(OGP) summit 2018 @Georgia
             url: https://drive.google.com/file/d/1-Ac3aDX1e-1P1mR4mUDmHM3JVd4RrAjq/view
-          - title: 【出訪】OGP Asia-Pacific Regional Meeting  @韓國
+          - title: Visit：OGP Asia-pacific regional meeting @South Korea
             url: 
-          - title: 【出訪】International Open Data Conference(IODC) 2018  @阿根廷
+          - title: Visit：International Open Data Conference(IODC) @Argentina
             url: 
-          - title: 【活動】喬治亞OGP Summit 回台系列分享會 @台北
+          - title: Event：OGP summit Georgiasharing talk series @Taipei
             url: https://ocftw.kktix.cc/events/ogpsharing
-          - title: 【活動】阿根廷IODC 回台分享會 @台北
+          - title: Event：IODC Argentia sharing talk @Taipei
             url: https://ocftw.kktix.cc/events/opendatavisits
   - type: content
     columns:
@@ -138,23 +138,23 @@ items:
           - url: \p\2018\intl\intl-成果報告resize\美國行分享會.jpg
         swap: false
       - type: article
-        title: 公民科技 - 出國參訪
+        title: Civi Tech - Overseas Visiting
         subtitle: 
-        description: 公民以不同角色與背景，利用科技協作讓社會更好，在科技迭代的時代中越顯重要。藉由邀請臺灣相關社群一銅參與全球重要公民科技大會並拜訪相關組織，與國際夥伴持續交流、串聯、合作。
+        description: Citizens with different backgrounds collaborate using technology to improve society has increasing importance in the age of changing technology. By inviting civic tech communities in Taiwan to participate in major global civic tech conference and visit relevant organizations, OCF continues to engage, connect and collaborate with our international partners.
         items:
-          - title: 【出訪】TICTeC 公民科技動能推升研討會 @ 葡萄牙
+          - title: 【Visit】TICTeC @ Portugal 
             url: https://drive.google.com/file/d/102HT1saiVWcDeHzYqOs5l4C_xA6Q3Zks/view
-          - title: 【出訪】PDFCEE 個人民主論壇 2018 @ 波蘭
+          - title: 【Visit】PDF CEE Personal Freedom Forum 2018 @ Poland 
             url: https://drive.google.com/file/d/102HT1saiVWcDeHzYqOs5l4C_xA6Q3Zks/view
-          - title: 【出訪】Code for America Summit @美國/加州
+          - title: 【Visit】Code for America Summit @California/US 
             url: https://drive.google.com/file/d/1LBtK-GXChzKqsqJiEDsQA7Q-BkEG3ca1/view
-          - title: 【出訪】PDFNYC個人民主論壇2018 @美國/紐約
+          - title: 【Visit】PDF NYC Personal Freedom Forum 2018 @New York/US
             url: https://drive.google.com/file/d/1LBtK-GXChzKqsqJiEDsQA7Q-BkEG3ca1/view
-          - title: 【出訪】Code for Japan Summit 2018 @ 日本
+          - title: 【Visit】Code for Japan Summit 2018 @Japan
             url: 
-          - title: 【出訪】歐洲公民科技團體拜訪 @義大利、巴黎、阿姆斯特丹、柏林
+          - title: 【Visit】Civic Tech communities in Europe @Italy, Paris, Amsterdem, Berlin 
             url: 
-          - title: 【活動】美國公民科技之行回台分享會 @ 台北
+          - title: 【Event】Sharing Talk of Civic tech in the US @Taipei
             url: https://ocftw.kktix.cc/events/usavisits
   - type: content
     columns:
@@ -165,13 +165,13 @@ items:
           - url: \p\2018\intl\intl-成果報告resize\(補) 公民科技交流計畫2.jpg
         swap: true
       - type: article
-        title: 公民科技 - 國際交流
+        title: Civic Tech - International Exchange
         subtitle: 
-        description: 除了活動互訪，OCF 也開啟相關交流計畫，包括提供國際人士來台，了解台灣開放資料、開源協作、公民科技等經驗。另外，在g0v加入全球公民科技聯盟Code for All之後，OCF擔任聯繫窗口並負責前三期該聯盟交換計劃獎助金執行者。
+        description: Apart from visiting international partners, OCF has initiated several exchange program. We invited international fellows to  Taiwan to learn Taiwan’s experience in open data, open source collaboration and civic tech. Additionally, after the g0v community joined the global civic tech network Code for All, OCF served as liaison for the Code for All Exchange Program and contributed to 3 international exchange projects.
         items:
-          - title: 【專案】公民科技交流計畫
+          - title: Project：Civic Tech exchange program
             url: 
-          - title: 【專案】Code for All全球網絡交換計畫
+          - title: Project：Code for All global network exchange program
             url: https://codeforall.org/members
   - type: content
     columns:
@@ -182,15 +182,15 @@ items:
           - url: \p\2018\intl\intl-成果報告resize\g0v.news 不實資訊文章配圖.jpg
         swap: false
       - type: article
-        title: 公民科技 - 資訊
+        title: Civic Tech - Information
         subtitle: 
-        description: g0v.news 為 OCF 自行籌辦的公民科技新聞內容分享中心，由編輯選題，與 g0v 社群交流，以中英文與台灣和國際社群分享公民科技相關新聞。此外，也在熱門不實訊息議題方面，與東亞各國夥伴緊密合作，辦理工作坊並參與相關會議。
+        description: g0v.news is the civic tech news platform established by OCF. g0v.news engages the g0v community and shares civic tech news. They also work closely with  partners in East Asia on disinformation by organizing workshops and participate in relevant conferences. 
         items:
-          - title: 【專案】g0v.news
+          - title: 【Project】g0v.news
             url: https://g0v.news/
-          - title: 【活動】2018 East Asia Combating Disinformation Workshop @ 台北
+          - title: 【Event】2018 East Asia Combating Disinformation Workshop @ Taipei
             url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2159090151033576
-          - title: 【出訪】Disinformation Forum with Digital Asia Hub @ 印尼
+          - title: 【Visit】Disinformation Forum with Digital Asia Hub @ Indonesia
             url: 
   - type: content
     columns:
@@ -201,17 +201,18 @@ items:
           - url: \p\2018\intl\intl-成果報告resize\(補) 數位人權3.JPG
         swap: true
       - type: article
-        title: NGO 的資訊安全
+        title: Digital Security for NGO
         subtitle: Civil Society Cyber Shield (CSCS)
-        description: NGO 也需要資安！2018 年，在志工資安講師的協助下， CSCS 舉辦種子講師培訓，幫助超過 10 個 NGO 進行資安檢測及教學，並協助修補超過 5 個資安弱點。
+        description: NGOs need digital security too! In 2018, with the assistance of volunteer lecturers, CSCS project trains lecturers and works with more than ten NGOs. We  conduct digital security health checks for NGOs and assisted them to fix over 5 digital security weaknesses.  
+
         items:
-          - title: 【專案】Civil Society Cyber Shield (CSCS)
+          - title: 【Project】Civil Society Cyber Shield (CSCS)
             url: https://ocf.tw/p/cscs/
-          - title: 【活動】資安小聚
+          - title: 【Event】Digital Security Meetup for NGOs
             url: 
-          - title: 【活動】「公民實驗室」分享會：中國網路審查與監控 @台北
+          - title: 【Event】CitizenLab Talk: Internet Censhorship and Monitoring in China @Taipei
             url: https://ocftw.kktix.cc/events/citizenlab
-          - title: 【活動】讓網路審查無所遁形的工具—OONI 偵測器工作坊 @台北
+          - title: 【Event】OONI Probe workshop: revealing online cencerships @Taiepi
             url: https://ocftw.kktix.cc/events/ooni-workshop
   - type: content
     columns:
@@ -223,22 +224,22 @@ items:
           - url: \p\2018\intl\intl-成果報告resize\分享會 (2).jpg
         swap: false
       - type: article
-        title: 數位權利 & 網路治理
-        subtitle: 出國參訪
-        description: 開放文化基金會長期與社群共同關注網路中立性、隱私權、言論自由、被遺忘權等新興議題。 OCF 與 2 位台灣社群夥伴共同前往 RightsCon 2018 ，OCF 及台灣社群一共在 5 場議程當中擔任講者或主持，在議程之外，也拜訪當地 3 個相關社群和組織，並和其他參與者交流。另外，OCF 也支持 2 位員工及 1 位社群成員前往 AprIGF 瞭解網路治理議題的最新趨勢。
+        title: Digital rights & Internet governance
+        subtitle: Overseas Visiting
+        description: OCF and community members have been observing emerging issues such as net neutrality, freedom of speech and the right to be forgotten for long. In 2018 with two local community members, OCF joined RightsCon. We spoke/moderated in more than 5 sessions. We also visited three local communities and organizations in relevant fields. Additionally, two of OCF staffs and one community member participated in APrIGF, learning the latest trend of internet governance in Asia Pacific.
         items:
-          - title: 【出訪】RightsCon 數位人權大會 2018 @加拿大
+          - title: 【Visit】Rightscon 2018 @Canada
             url: https://beta.hackfoldr.org/RightsCon2018Taiwan
-          - title: 【出訪】APrIGF 亞太網路治理論壇 @萬那杜
+          - title: 【Visit】APrIGF: Asia Pacific Region Internet Governance Forum @Vanuatu
             url: https://beta.hackfoldr.org/AprIGF2018Taiwan
-          - title: 【活動】數位人權大會回台分享會 @台北
+          - title: 【Event】Rightscon sharing talk @Taipei
             url: https://ocftw.kktix.cc/events/rightscon2018-sharing
-          - title: 【活動】亞太網路治理論壇回台分享會 @台北
+          - title: 【Event】AprlGF sharing talk @Taipei
             url: https://ocftw.kktix.cc/events/aprigf2018-sharing
   - type: content
     columns:
       - type: article
-        title: 9 位國際交流夥伴與你一起在開放精神中拓展公民科技。
+        title: 9 staff of international exchange program dedicate to promote civic tech and open culture.
         swap: false
       - type: collage
         grid: five
