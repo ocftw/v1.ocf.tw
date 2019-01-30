@@ -210,9 +210,9 @@ items:
             url: https://ocf.tw/p/cscs/
           - title: 【Event】Digital Security Meetup for NGOs
             url: 
-          - title: 【Event】CitizenLab Talk: Internet Censhorship and Monitoring in China @Taipei
+          - title: 【Event】CitizenLab Talk - Internet Censhorship and Monitoring in China @Taipei
             url: https://ocftw.kktix.cc/events/citizenlab
-          - title: 【Event】OONI Probe workshop: revealing online cencerships @Taiepi
+          - title: 【Event】OONI Probe workshop - revealing online cencerships @Taiepi
             url: https://ocftw.kktix.cc/events/ooni-workshop
   - type: content
     columns:
