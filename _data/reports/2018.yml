@@ -259,7 +259,7 @@ items:
     background_color: orange
     button:
      title: 捐款支持
-     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=11&_ga=2.114915023.911432104.1547515525-1271759763.1528100465
+     url: https://lihi.cc/3Mkab
      position: center
   - type: header
     title: 給關心社會議題的行動者，議題釐清的工具 － Sense.tw
@@ -361,13 +361,13 @@ items:
         title: 臉書追蹤OCF，活動不會錯過！
         action: 
           title: Follow Us on Facebook
-          url: https://www.facebook.com/www.ocf.tw/?ref=bookmarks
+          url: https://lihi.cc/NKpPE
       - type: article  
         title: 訂閱EDM，開源資訊不漏接
         swap: false
         action:
           title: 訂閱 OCF 電子報
-          url: https://ocf.tw/news/
+          url: https://lihi.cc/mePVc
     items:
     cover_image_alt: ''
     ge_opacity: 0.9
