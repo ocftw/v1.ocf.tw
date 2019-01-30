@@ -331,13 +331,13 @@ items:
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQYTboHuAwPuFbNUmtyfTEmL1ZQFhH11Qdy_pxrJm681_FOVxj8tQwWT3U-SBEE2xMAJM1XXAzH8qow/pubchart?oid=926655003&format=interactive
         height: 20rem
         title: 2018 年度 OCF 收入
-        description: 行政中心  NT$ 6,575,149  <br/> 國際交流  NT$ 10,273,575  <br/> 其他社群專案  NT$ 744,440 
+        description: 行政中心  NT$ 6,575,149  <br/> 國際交流  NT$ 10,273,575  <br/> 其他社群專案   NT$ 30,534,537  
         scrolling: "no"
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQYTboHuAwPuFbNUmtyfTEmL1ZQFhH11Qdy_pxrJm681_FOVxj8tQwWT3U-SBEE2xMAJM1XXAzH8qow/pubchart?oid=1609732394&format=interactive
         height: 20rem
         title: 2018 年度 OCF 支出
-        description: 行政中心  NT$ 4,058,812  <br/> 國際交流  NT$ 9,539,192  <br/> 其他社群專案  NT$ 1,222,614 
+        description: 行政中心  NT$ 4,058,812  <br/> 國際交流  NT$ 9,539,192  <br/> 其他社群專案   NT$ 28,856,675  
         scrolling: "no"
   - type: content
     columns:
