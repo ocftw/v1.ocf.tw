@@ -1,0 +1,374 @@
+title: 2018 Annual Report | Open Culture Foundation
+description: Thanks for all your support in 2018! In our 5 years of operation, we have supported nearly 30 projects initiated by open source communities. We participate in transboundary cooperation to promote open culture and digital rights, and combining community experiences locally and internationally to promote civic tech. We look forward to achieve new milestones of open culture with you in 2019!
+cover: /p/2018/admin/report_壓縮1.png
+color: blue
+cover_image_opacity: 0.9 
+cover_veil_opacity: 0.1
+items:
+  - type: image_header
+    anchor: admin
+    background_color: teal
+    cover: \p\2018\admin\admin_banner2018_report.png
+    cover_image_alt: 
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\pycon\group壓縮.jpg
+        swap: false
+      - type: article
+        title: Community Logistics
+        subtitle: 
+        description: In the open source community, there is always a group of people who don’t seek for entertainment  after work but code tirelessly, only to improve the open source code and open data applications, then find their own sense of accomplishment. There is always a group of people willing to share online what they learn today with the spirit of self-participation, self-learning and co-working. Members of open culture communities are exactly this kind of people. The OCF administrative team is not only caring and assisting communities, but also growing with them. 
+        items:
+          - project_id: g0vdathon
+          - project_id: otspace
+          - project_id: osmtw
+          - project_id: opensuse
+          - project_id: chewingim
+          - project_id: osln
+          - project_id: openhackfarm
+          - project_id: hcsm
+          - project_id: sysprogram
+          - project_id: gcoin
+          - project_id: ocnhfa
+          - project_id: cloudnative
+          - project_id: pycourse
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\g0vsummit\g0v_summit_2018.jpg
+        swap: true
+      - type: article
+        title: Event Collaboration
+        subtitle: 
+        description: Every year, there is always a group of people working hard to promote open source and open culture, and how to organize an successful event with limited resources. When  they struggle to organize volunteers, venues, funding, webpages, promotion and accounting, they always wish for a powerful institution coming up to help. Those miscellaneous but important logistic works are exactly what the OCF administrative team offers to support.
+        items:
+          - project_id: sitcon
+          - project_id: pycon
+          - project_id: debconf18
+          - project_id: coscup
+          - project_id: g0vsummit
+          - project_id: jcconf
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\cctw\ccfor2018rep.jpg
+        swap: false
+      - type: article
+        title: Age of self-media - being seen by using Creative Commons
+        subtitle: 
+        description: People want their creative works to be seen by the world. When using and sharing works, it is crucial to protect rights of the original creators. Creative Commons is a open license, that protect creators’ rights while promoting sharing. We are engaging closely with international Creative Commons community - not only as a community member, we also established CC Taiwan Chapter. We hope to spread the idea of open licensing to more local communities. 
+        items:
+          - project_id: cctw
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\admin\pttid.png
+        swap: true
+      - type: article
+        title: Netizens look at post metadata to analyze online discourse trends
+        subtitle: 
+        description: “PTT ID PROFILING” is an open source  project born from a trends of disinformation on PTT (popular Taiwanese forum). It is designed to find the correlation between usernames and source IP in order to identify the source and context of disinformation. In the internet era, there is only a thin line that separates truth and falsehood. It’s essential for us to learn to tell truth and falsehood, embrace diversity and open culture, alongside finding shared knowledge. We hold on to the principles of open source, sharing the data and code, to sustaining the trust between people.
+        action:
+          title: Check out PTT Crawler
+          url: https://github.com/GundamBox/PttCrawler/blob/master/doc/zh.md
+  - type: content
+    columns:
+      - type: article
+        title: OCF administrative team appreciate donors’ support!
+        swap: true
+      - type: collage
+        grid: five
+        swap: false
+        items:
+          - person_id: rock
+          - person_id: singing
+          - person_id: huangfu
+          - person_id: leona
+          - person_id: rosa
+  - type: image_header
+    cover: /p/2018/admin/admindonate-GRAY.png
+    cover_image_alt: 
+    background_color: teal
+    button:
+      title: Donate
+      url: /300/
+      position: center
+  - type: image_header
+    anchor: intl
+    background_color: orange
+    cover: /p/2018/intl/intlcoverbanner-new.png
+    cover_image_alt: 
+  - type: content
+    columns:
+      - type: slider
+        slides: 
+          - url: \p\2018\intl\intl-成果報告resize\法國台灣開放資料論壇.jpg
+          - url: \p\2018\intl\intl-成果報告resize\11月韓國_OGP區域會議.jpg
+          - url: \p\2018\intl\intl-成果報告resize\9月阿根廷_IODC.jpg
+          - url: \p\2018\intl\intl-成果報告resize\7月喬治亞_OGP summit.jpg
+          - url: \p\2018\intl\intl-成果報告resize\開放政府回台分享會1.jpg
+          - url: \p\2018\intl\intl-成果報告resize\開放政府回台分享會2.jpg
+        swap: true
+      - type: article
+        title: Open government & Open data
+        subtitle: 
+        description: OCF has long been concerned with open government and open data. In the landmark international conferences of OGP and IODC this year, we saw the influence and change brought by open culture and open source, in the area of economic development and anti-corruption. In practice, the key for civic tech in Taiwan to continue to thrive depends on the collaboration between government and citizens and how they create open, stable data platforms.
+        items:
+          - title: 【活動】法國-臺灣開放資料座談  @台北
+            url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2116011962008062
+          - title: 【出訪】Open Government Partnership (OGP) Summit 2018  @喬治亞
+            url: https://drive.google.com/file/d/1-Ac3aDX1e-1P1mR4mUDmHM3JVd4RrAjq/view
+          - title: 【出訪】OGP Asia-Pacific Regional Meeting  @韓國
+            url: 
+          - title: 【出訪】International Open Data Conference(IODC) 2018  @阿根廷
+            url: 
+          - title: 【活動】喬治亞OGP Summit 回台系列分享會 @台北
+            url: https://ocftw.kktix.cc/events/ogpsharing
+          - title: 【活動】阿根廷IODC 回台分享會 @台北
+            url: https://ocftw.kktix.cc/events/opendatavisits
+  - type: content
+    columns:
+      - type: slider
+        slides: 
+          - url: \p\2018\intl\intl-成果報告resize\4月葡萄牙_TICTeC.jpeg
+          - url: \p\2018\intl\intl-成果報告resize\5月加州_CfA Summit.jpg
+          - url: \p\2018\intl\intl-成果報告resize\6月紐約_PDF NYC.jpg
+          - url: \p\2018\intl\intl-成果報告resize\9月日本_CodefJapan summit .jpg
+          - url: \p\2018\intl\intl-成果報告resize\美國行分享會.jpg
+        swap: false
+      - type: article
+        title: 公民科技 - 出國參訪
+        subtitle: 
+        description: 公民以不同角色與背景，利用科技協作讓社會更好，在科技迭代的時代中越顯重要。藉由邀請臺灣相關社群一銅參與全球重要公民科技大會並拜訪相關組織，與國際夥伴持續交流、串聯、合作。
+        items:
+          - title: 【出訪】TICTeC 公民科技動能推升研討會 @ 葡萄牙
+            url: https://drive.google.com/file/d/102HT1saiVWcDeHzYqOs5l4C_xA6Q3Zks/view
+          - title: 【出訪】PDFCEE 個人民主論壇 2018 @ 波蘭
+            url: https://drive.google.com/file/d/102HT1saiVWcDeHzYqOs5l4C_xA6Q3Zks/view
+          - title: 【出訪】Code for America Summit @美國/加州
+            url: https://drive.google.com/file/d/1LBtK-GXChzKqsqJiEDsQA7Q-BkEG3ca1/view
+          - title: 【出訪】PDFNYC個人民主論壇2018 @美國/紐約
+            url: https://drive.google.com/file/d/1LBtK-GXChzKqsqJiEDsQA7Q-BkEG3ca1/view
+          - title: 【出訪】Code for Japan Summit 2018 @ 日本
+            url: 
+          - title: 【出訪】歐洲公民科技團體拜訪 @義大利、巴黎、阿姆斯特丹、柏林
+            url: 
+          - title: 【活動】美國公民科技之行回台分享會 @ 台北
+            url: https://ocftw.kktix.cc/events/usavisits
+  - type: content
+    columns:
+      - type: slider
+        slides: 
+          - url: \p\2018\intl\intl-成果報告resize\Ams演講.jpg
+          - url: \p\2018\intl\intl-成果報告resize\code for all.jpg
+          - url: \p\2018\intl\intl-成果報告resize\(補) 公民科技交流計畫2.jpg
+        swap: true
+      - type: article
+        title: 公民科技 - 國際交流
+        subtitle: 
+        description: 除了活動互訪，OCF 也開啟相關交流計畫，包括提供國際人士來台，了解台灣開放資料、開源協作、公民科技等經驗。另外，在g0v加入全球公民科技聯盟Code for All之後，OCF擔任聯繫窗口並負責前三期該聯盟交換計劃獎助金執行者。
+        items:
+          - title: 【專案】公民科技交流計畫
+            url: 
+          - title: 【專案】Code for All全球網絡交換計畫
+            url: https://codeforall.org/members
+  - type: content
+    columns:
+      - type: slider
+        slides: 
+          - url: \p\2018\intl\intl-成果報告resize\(放第一張) g0v.news.jpg
+          - url: \p\2018\intl\intl-成果報告resize\東亞打擊假新聞工作坊.jpg
+          - url: \p\2018\intl\intl-成果報告resize\g0v.news 不實資訊文章配圖.jpg
+        swap: false
+      - type: article
+        title: 公民科技 - 資訊
+        subtitle: 
+        description: g0v.news 為 OCF 自行籌辦的公民科技新聞內容分享中心，由編輯選題，與 g0v 社群交流，以中英文與台灣和國際社群分享公民科技相關新聞。此外，也在熱門不實訊息議題方面，與東亞各國夥伴緊密合作，辦理工作坊並參與相關會議。
+        items:
+          - title: 【專案】g0v.news
+            url: https://g0v.news/
+          - title: 【活動】2018 East Asia Combating Disinformation Workshop @ 台北
+            url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2159090151033576
+          - title: 【出訪】Disinformation Forum with Digital Asia Hub @ 印尼
+            url: 
+  - type: content
+    columns:
+      - type: slider
+        slides: 
+          - url: \p\2018\intl\intl-成果報告resize\CSCS.jpg
+          - url: \p\2018\intl\intl-成果報告resize\(補) 數位人權.JPG
+          - url: \p\2018\intl\intl-成果報告resize\(補) 數位人權3.JPG
+        swap: true
+      - type: article
+        title: NGO 的資訊安全
+        subtitle: Civil Society Cyber Shield (CSCS)
+        description: NGO 也需要資安！2018 年，在志工資安講師的協助下， CSCS 舉辦種子講師培訓，幫助超過 10 個 NGO 進行資安檢測及教學，並協助修補超過 5 個資安弱點。
+        items:
+          - title: 【專案】Civil Society Cyber Shield (CSCS)
+            url: https://ocf.tw/p/cscs/
+          - title: 【活動】資安小聚
+            url: 
+          - title: 【活動】「公民實驗室」分享會：中國網路審查與監控 @台北
+            url: https://ocftw.kktix.cc/events/citizenlab
+          - title: 【活動】讓網路審查無所遁形的工具—OONI 偵測器工作坊 @台北
+            url: https://ocftw.kktix.cc/events/ooni-workshop
+  - type: content
+    columns:
+      - type: slider
+        slides: 
+          - url: \p\2018\intl\intl-成果報告resize\5月加拿大_RightsCon.jpg
+          - url: \p\2018\intl\intl-成果報告resize\APrIGF.jpg
+          - url: \p\2018\intl\intl-成果報告resize\分享會 (1).jpg
+          - url: \p\2018\intl\intl-成果報告resize\分享會 (2).jpg
+        swap: false
+      - type: article
+        title: 數位權利 & 網路治理
+        subtitle: 出國參訪
+        description: 開放文化基金會長期與社群共同關注網路中立性、隱私權、言論自由、被遺忘權等新興議題。 OCF 與 2 位台灣社群夥伴共同前往 RightsCon 2018 ，OCF 及台灣社群一共在 5 場議程當中擔任講者或主持，在議程之外，也拜訪當地 3 個相關社群和組織，並和其他參與者交流。另外，OCF 也支持 2 位員工及 1 位社群成員前往 AprIGF 瞭解網路治理議題的最新趨勢。
+        items:
+          - title: 【出訪】RightsCon 數位人權大會 2018 @加拿大
+            url: https://beta.hackfoldr.org/RightsCon2018Taiwan
+          - title: 【出訪】APrIGF 亞太網路治理論壇 @萬那杜
+            url: https://beta.hackfoldr.org/AprIGF2018Taiwan
+          - title: 【活動】數位人權大會回台分享會 @台北
+            url: https://ocftw.kktix.cc/events/rightscon2018-sharing
+          - title: 【活動】亞太網路治理論壇回台分享會 @台北
+            url: https://ocftw.kktix.cc/events/aprigf2018-sharing
+  - type: content
+    columns:
+      - type: article
+        title: 9 位國際交流夥伴與你一起在開放精神中拓展公民科技。
+        swap: false
+      - type: collage
+        grid: five
+        swap: true
+        items:
+            - person_id: ttcat
+            - person_id: pellaeon
+            - person_id: lulukeng
+            - person_id: aiya
+            - person_id: lilin
+            - person_id: vivianlw
+            - person_id: yhchang
+            - person_id: kting
+            - person_id: TYC
+  - type: image_header
+    cover: /p/2018/intl/intldonate-gray.jpg
+    cover_image_alt: 
+    background_color: orange
+    button:
+     title: 捐款支持
+     url: https://lihi.cc/3Mkab
+     position: center
+  - type: header
+    title: 給關心社會議題的行動者，議題釐清的工具 － Sense.tw
+    anchor: ggv
+    background_color: teal
+    description:  
+  - type: content
+    columns:
+      - type: image
+        url: /p/2018/sensetw/sensetw_og.png
+        swap: false
+      - type: article
+        title: 讓公民理性參與政策討論的基礎建設
+        subtitle: 
+        description: Sense.tw 獲得科技會報「社會與科技溝通平台計畫 - A分項審議之科技，科技之審議」計畫支持。 作為科技工具，以開源社群協作的方式營運，希望串連社群的力量，匯聚更多人參與社會議題的討論，讓公民參與討論的足跡被留下，讓倡議的經驗可以被學習。
+        action:
+          title: 議題釐清工具，社群協作讓政策 make sense
+          url: https://about.sense.tw/
+  - type: header
+    title: 特別感謝
+    anchor: thanks
+    background_color: purple
+    description:  
+  - type: content
+    columns:
+      - type: article
+        title: 感謝超能董事
+        description: 感謝董事大力支持和資源，讓我們以滿滿正能量，全心投入社群服務，全力支援開源活動！
+        swap: true
+      - type: collage
+        grid: five
+        swap: false
+        items:
+          - person_id: clkao
+          - person_id: bobchao
+          - person_id: honki
+          - person_id: jimyhuang
+          - person_id: pofeng
+  - type: content
+    columns:
+      - type: image
+        url: \p\2018\admin\2018spring party.jpg
+        swap: true
+      - type: article
+        title: 感謝熱血志工
+        subtitle: 
+        description: 感謝付出腦力與肉體的 ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayard, CSCS 資安講師, EFF SSD 翻譯校對志工群等，這一年來陪 OCF 上山下海，鬥陣熬夜、鬥陣討論、鬥陣出任務！
+  - type: content
+    columns:
+      - type: article
+        title: 感謝贊助好夥伴
+        swap: true
+        description: 感謝RC文化藝術基金會、祐生研究基金會、富邦文教基金會年度計畫贊助，企業夥伴在各項專案活動的支持，更感激不遺餘力投注資源的每一個「你」，讓我們在興盛開放文化的路上元氣爆發！
+      - type: article
+        logo_height: 7rem
+        logos:
+          - org_id: rc
+          - org_id: archilife
+          - org_id: Fubon
+  - type: header
+    title: 財務報告
+    anchor: finance
+    icon: dollar
+    background_color: yellow
+    description: 2018 年度，OCF 與合作社群在各方面都獲得許多個人或組織的支援，感謝這些來自不同領域的開放文化貢獻者願意與我們一起前進。
+  - type: content
+    columns:
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQYTboHuAwPuFbNUmtyfTEmL1ZQFhH11Qdy_pxrJm681_FOVxj8tQwWT3U-SBEE2xMAJM1XXAzH8qow/pubchart?oid=926655003&format=interactive
+        height: 20rem
+        title: 2018 年度 OCF 收入
+        description: 行政中心  NT$ 6,575,149  <br/> 國際交流  NT$ 10,273,575  <br/> 其他社群專案   NT$ 30,534,537  
+        scrolling: "no"
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQYTboHuAwPuFbNUmtyfTEmL1ZQFhH11Qdy_pxrJm681_FOVxj8tQwWT3U-SBEE2xMAJM1XXAzH8qow/pubchart?oid=1609732394&format=interactive
+        height: 20rem
+        title: 2018 年度 OCF 支出
+        description: 行政中心  NT$ 4,058,812  <br/> 國際交流  NT$ 9,539,192  <br/> 其他社群專案   NT$ 28,856,675  
+        scrolling: "no"
+  - type: content
+    columns:
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQYTboHuAwPuFbNUmtyfTEmL1ZQFhH11Qdy_pxrJm681_FOVxj8tQwWT3U-SBEE2xMAJM1XXAzH8qow/pubchart?oid=1303704231&format=interactive
+        height: 20rem
+        scrolling: "no"
+      - type: article
+        title: 提供社群獨立財務後勤支援
+        description: 在 OCF 的每個專案都是獨立自主運作，期許藉由各自穩健的財務規劃促進開源各類活動。
+        action:
+          title: Donate
+          url: https://ocf.tw/p/
+  - type: image_header
+    cover: /p/2018/admin/thumbsup2.png
+    cover_image_alt: 
+    background_color: tint
+  - type: content
+    columns:
+      - type: article
+        title: 臉書追蹤OCF，活動不會錯過！
+        action: 
+          title: Follow Us on Facebook
+          url: https://lihi.cc/NKpPE
+      - type: article  
+        title: 訂閱EDM，開源資訊不漏接
+        swap: false
+        action:
+          title: 訂閱 OCF 電子報
+          url: https://lihi.cc/mePVc
+    items:
+    cover_image_alt: ''
+    ge_opacity: 0.9
+    cover_veil_opacity: 0.3
