@@ -263,7 +263,7 @@ items:
      url: https://lihi.cc/3Mkab
      position: center
   - type: header
-    title: 給關心社會議題的行動者，議題釐清的工具 － Sense.tw
+    title: Sense.tw - A online tool for social activists to map out discussion
     anchor: ggv
     background_color: teal
     description:  
@@ -273,14 +273,14 @@ items:
         url: /p/2018/sensetw/sensetw_og.png
         swap: false
       - type: article
-        title: 讓公民理性參與政策討論的基礎建設
+        title: Infrastructure for citizens to discuss public policies
         subtitle: 
-        description: Sense.tw 獲得科技會報「社會與科技溝通平台計畫 - A分項審議之科技，科技之審議」計畫支持。 作為科技工具，以開源社群協作的方式營運，希望串連社群的力量，匯聚更多人參與社會議題的討論，讓公民參與討論的足跡被留下，讓倡議的經驗可以被學習。
+        description: Sense.tw received the support of Board of Science and Technology, Executive Yuan. As a technological tool, operated by community, we hope to aggregate more social issues discussion, and allow the discussion to be recorded, experience learned.
         action:
-          title: 議題釐清工具，社群協作讓政策 make sense
+          title: Community use discussion mapping tool collaboratively to make sense of public policies
           url: https://about.sense.tw/
   - type: header
-    title: 特別感謝
+    title: Special Thanks
     anchor: thanks
     background_color: purple
     description:  
