@@ -5,11 +5,6 @@ color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
 items:
-  - type: image_header
-    anchor: admin
-    background_color: teal
-    cover: \p\2018\admin\admin_banner2018_report.png
-    cover_image_alt: 
   - type: content
     columns:
       - type: image
@@ -61,19 +56,6 @@ items:
         items:
           - project_id: cctw
   - type: content
-    columns:
-      - type: image
-        url: \p\2018\admin\pttid.png
-        swap: true
-      - type: article
-        title: Netizens look at post metadata to analyze online discourse trends
-        subtitle: 
-        description: “PTT ID PROFILING” is an open source  project born from a trends of disinformation on PTT (popular Taiwanese forum). It is designed to find the correlation between usernames and source IP in order to identify the source and context of disinformation. In the internet era, there is only a thin line that separates truth and falsehood. It’s essential for us to learn to tell truth and falsehood, embrace diversity and open culture, alongside finding shared knowledge. We hold on to the principles of open source, sharing the data and code, to sustaining the trust between people.
-        action:
-          title: Check out PTT Crawler
-          url: https://github.com/GundamBox/PttCrawler/blob/master/doc/zh.md
-  - type: content
-    columns:
       - type: article
         title: OCF administrative team appreciate donors’ support!
         swap: true
@@ -86,19 +68,6 @@ items:
           - person_id: huangfu
           - person_id: leona
           - person_id: rosa
-  - type: image_header
-    cover: /p/2018/admin/admindonate-GRAY.png
-    cover_image_alt: 
-    background_color: teal
-    button:
-      title: Donate
-      url: /300/
-      position: center
-  - type: image_header
-    anchor: intl
-    background_color: orange
-    cover: /p/2018/intl/intlcoverbanner-new.png
-    cover_image_alt: 
   - type: content
     columns:
       - type: slider
@@ -254,14 +223,6 @@ items:
             - person_id: yhchang
             - person_id: kting
             - person_id: TYC
-  - type: image_header
-    cover: /p/2018/intl/intldonate-gray.jpg
-    cover_image_alt: 
-    background_color: orange
-    button:
-     title: Donate
-     url: https://lihi.cc/3Mkab
-     position: center
   - type: header
     title: Sense.tw - A online tool for social activists to map out discussion
     anchor: ggv
