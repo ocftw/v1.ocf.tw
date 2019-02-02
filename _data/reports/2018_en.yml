@@ -259,7 +259,7 @@ items:
     cover_image_alt: 
     background_color: orange
     button:
-     title: 捐款支持
+     title: Donate
      url: https://lihi.cc/3Mkab
      position: center
   - type: header
@@ -305,15 +305,15 @@ items:
         url: \p\2018\admin\2018spring party.jpg
         swap: true
       - type: article
-        title: 感謝熱血志工
+        title: Recognition to our enthusiastic volunteers
         subtitle: 
-        description: 感謝付出腦力與肉體的 ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayard, CSCS 資安講師, EFF SSD 翻譯校對志工群等，這一年來陪 OCF 上山下海，鬥陣熬夜、鬥陣討論、鬥陣出任務！
+        description: We would like to say a big thank you to our helping hands: ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayard, CSCS digital security trainers, EFF SSD translation reviewers, and so on, to go on missions with OCF all around Taiwan and the world.
   - type: content
     columns:
       - type: article
-        title: 感謝贊助好夥伴
+        title: Sponsors
         swap: true
-        description: 感謝RC文化藝術基金會、祐生研究基金會、富邦文教基金會年度計畫贊助，企業夥伴在各項專案活動的支持，更感激不遺餘力投注資源的每一個「你」，讓我們在興盛開放文化的路上元氣爆發！
+        description: We appreciate RC Culture and Arts Foundation, Archlife Research Foundation, and Fubon Cultural & Educational Foundation's support through a yearly sponsorship program, our corporate sponsors’ support in all our projects and events, and our individual donors.
       - type: article
         logo_height: 7rem
         logos:
@@ -321,34 +321,34 @@ items:
           - org_id: archilife
           - org_id: Fubon
   - type: header
-    title: 財務報告
+    title: Financial Report
     anchor: finance
     icon: dollar
     background_color: yellow
-    description: 2018 年度，OCF 與合作社群在各方面都獲得許多個人或組織的支援，感謝這些來自不同領域的開放文化貢獻者願意與我們一起前進。
+    description: We would like to thank individuals and organizations from many different fields donating manpower and equipments to OCF and our partnering communities. With this steady helping force, our staffs may devote fully on serving the communities, developing cooperation with enterprises, and advocating policies.
   - type: content
     columns:
       - type: iframe
-        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQYTboHuAwPuFbNUmtyfTEmL1ZQFhH11Qdy_pxrJm681_FOVxj8tQwWT3U-SBEE2xMAJM1XXAzH8qow/pubchart?oid=926655003&format=interactive
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTNKBL_NnUaaHxRJ88yGNY-xTjqhyim0IuK3RgFeBhhqcH3Z_gxDKzwjjz-yFc9VAlRPzDSORo9G6lr/pubchart?oid=926655003&format=interactive
         height: 20rem
-        title: 2018 年度 OCF 收入
-        description: 行政中心  NT$ 6,575,149  <br/> 國際交流  NT$ 10,273,575  <br/> 其他社群專案   NT$ 30,534,537  
+        title: 2018 OCF Annual Income (TWD)
+        description: Administration Center 6,575,149<br/>International Networking Program 10,273,575<br/>Other Community Projects 30,534,537
         scrolling: "no"
       - type: iframe
-        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQYTboHuAwPuFbNUmtyfTEmL1ZQFhH11Qdy_pxrJm681_FOVxj8tQwWT3U-SBEE2xMAJM1XXAzH8qow/pubchart?oid=1609732394&format=interactive
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTNKBL_NnUaaHxRJ88yGNY-xTjqhyim0IuK3RgFeBhhqcH3Z_gxDKzwjjz-yFc9VAlRPzDSORo9G6lr/pubchart?oid=1609732394&format=interactive
         height: 20rem
-        title: 2018 年度 OCF 支出
-        description: 行政中心  NT$ 4,058,812  <br/> 國際交流  NT$ 9,539,192  <br/> 其他社群專案   NT$ 28,856,675  
+        title: 2018 OCF Annual Spending
+        description: Administration Center NT$ 4,058,812  <br/> International Networking Program  NT$ 9,539,192  <br/> Other Community Projects  NT$ 28,856,675  
         scrolling: "no"
   - type: content
     columns:
       - type: iframe
-        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQYTboHuAwPuFbNUmtyfTEmL1ZQFhH11Qdy_pxrJm681_FOVxj8tQwWT3U-SBEE2xMAJM1XXAzH8qow/pubchart?oid=1303704231&format=interactive
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTNKBL_NnUaaHxRJ88yGNY-xTjqhyim0IuK3RgFeBhhqcH3Z_gxDKzwjjz-yFc9VAlRPzDSORo9G6lr/pubchart?oid=1303704231&format=interactive
         height: 20rem
         scrolling: "no"
       - type: article
-        title: 提供社群獨立財務後勤支援
-        description: 在 OCF 的每個專案都是獨立自主運作，期許藉由各自穩健的財務規劃促進開源各類活動。
+        title: Independent Financial and Logistics Support for Communities
+        description: Providing independent financial and logistics support for communities At OCF, all our programmes are independently operated and financed. We hope to maintain a steady, sustainable force in promoting the open culture.
         action:
           title: Donate
           url: https://ocf.tw/p/
@@ -359,15 +359,15 @@ items:
   - type: content
     columns:
       - type: article
-        title: 臉書追蹤OCF，活動不會錯過！
+        title: Follow Us on Facebook
         action: 
           title: Follow Us on Facebook
           url: https://lihi.cc/NKpPE
       - type: article  
-        title: 訂閱EDM，開源資訊不漏接
+        title: Subscribe to our newsletter
         swap: false
         action:
-          title: 訂閱 OCF 電子報
+          title: Subscribe to our newsletter
           url: https://lihi.cc/mePVc
     items:
     cover_image_alt: ''
