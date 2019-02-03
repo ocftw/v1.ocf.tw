@@ -74,6 +74,11 @@ items:
           - person_id: huangfu
           - person_id: leona
           - person_id: rosa
+  - type: header
+    title: International Networking Program
+    anchor: intl
+    background_color: yellow
+    description: 
   - type: content
     columns:
       - type: slider
