@@ -5,6 +5,11 @@ color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
 items:
+  - type: header
+    title: Administration Center
+    anchor: administration
+    background_color: olive
+    description: 
   - type: content
     columns:
       - type: image
