@@ -249,8 +249,8 @@ items:
   - type: content
     columns:
       - type: article
-        title: 感謝超能董事
-        description: 感謝董事大力支持和資源，讓我們以滿滿正能量，全心投入社群服務，全力支援開源活動！
+        title: The powerful board members of OCF
+        description: Board members support OCF team with their knowledge, experiences and resource. Thanks for their contribution. OCF team is able to fully commit to servicing communities and support open source activities.
         swap: true
       - type: collage
         grid: five
