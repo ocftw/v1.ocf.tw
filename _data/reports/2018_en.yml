@@ -118,7 +118,7 @@ items:
           - url: \p\2018\intl\intl-成果報告resize\美國行分享會.jpg
         swap: false
       - type: article
-        title: Civi Tech - Overseas Visiting
+        title: Civic Tech - Overseas Visiting
         subtitle: 
         description: Citizens with different backgrounds collaborate using technology to improve society has increasing importance in the age of changing technology. By inviting civic tech communities in Taiwan to participate in major global civic tech conference and visit relevant organizations, OCF continues to engage, connect and collaborate with our international partners.
         items:
@@ -149,9 +149,9 @@ items:
         subtitle: 
         description: Apart from visiting international partners, OCF has initiated several exchange program. We invited international fellows to  Taiwan to learn Taiwan’s experience in open data, open source collaboration and civic tech. Additionally, after the g0v community joined the global civic tech network Code for All, OCF served as liaison for the Code for All Exchange Program and contributed to 3 international exchange projects.
         items:
-          - title: Project：Civic Tech exchange program
+          - title: 【Project】Civic Tech exchange program
             url: 
-          - title: Project：Code for All global network exchange program
+          - title: 【Project】Code for All global network exchange program
             url: https://codeforall.org/members
   - type: content
     columns:
