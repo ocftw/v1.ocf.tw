@@ -1173,30 +1173,6 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar:
-1201python:
-  title: 【高雄 Python 學院】 用Python做機器學習 (速成班)
-  description: 本課程的目標，是要讓學員在最短的時間內開始使用 scikit-learn 來做機器學習。本次課程沒有涵蓋深度學習的實作，如果是想要學習深度學習的朋友，請期待之後的深度學習速成班。另外，本次課程著重在 scikit-learn 的使用及介紹，沒有艱深的數學，想要鑽研數學式的朋友請期待其他課程。
-  month: 12
-  start: 12/1
-  link:
-    - title: 活動網站
-      url: https://pycourse.kktix.cc/events/kaohsiungpy20181201
-  cover: /p/2018/pycourse/pycourse-Kaohsiung .png
-  contributor_id:
-    - rock
-  project_id:
-    - pycourse
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar:
 1110intl:
   title:  Oslo Freedom Forum
   description: The Oslo Freedom Forum (OFF) is a thriving global community of people united by the common vision of making the world a more peaceful, prosperous, and free place. OFF brings together leaders in advocacy, business, technology, policy, philanthropy, media, academia, and arts to share their stories and brainstorm ways to expand freedom and unleash human potential across the globe. 
@@ -1225,6 +1201,30 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+1201python:
+  title: 【高雄 Python 學院】 用Python做機器學習 (速成班)
+  description: 本課程的目標，是要讓學員在最短的時間內開始使用 scikit-learn 來做機器學習。本次課程沒有涵蓋深度學習的實作，如果是想要學習深度學習的朋友，請期待之後的深度學習速成班。另外，本次課程著重在 scikit-learn 的使用及介紹，沒有艱深的數學，想要鑽研數學式的朋友請期待其他課程。
+  month: 12
+  start: 12/1
+  link:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20181201
+  cover: /p/2018/pycourse/pycourse-Kaohsiung .png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar:
 1227intl:
   title:  Chaos Communication Congress
   description: The Chaos Communication Congress is an annual conference organized by the Chaos Computer Club. The congress features a variety of lectures and workshops on technical and political issues related to security, cryptography, privacy and online freedom of speech. The event takes place regularly at the end of the year since 1984.
