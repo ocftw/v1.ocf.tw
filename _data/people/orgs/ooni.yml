@@ -1,0 +1,8 @@
+name: Open Observatory of Network Interference
+abbr: OONI
+type: community
+description: "A free software, global observation network for detecting censorship, surveillance and traffic manipulation on the internet"
+logo: /people/partners/ooni-logo-600px.png
+link:
+  - title: 官方網站
+    url: https://ooni.io/
