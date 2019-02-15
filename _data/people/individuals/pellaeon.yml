@@ -6,6 +6,8 @@ description: 2012 年開始學習成為自由開源軟體的貢獻者，並參�
   比較為人所知的專案有 bsd-cloudinit ，讓 FreeBSD 可以在雲端環境更好地運行；以及 ownCloud ，自由的私有檔案雲。
 avatar: /people/staff/pellaeon.jpg
 link:
+  - title: GitHub
+    url: https://github.com/pellaeon
 log: 
   - date: 
     action: 到職
