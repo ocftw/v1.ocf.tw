@@ -1,0 +1,45 @@
+name: COSCUP 2018 X openSUSE.Asia X GNOME.Asia
+name_en: COSCUP 2018 X openSUSE.Asia X GNOME.Asia
+abbr: COSCUP 2018 X openSUSE.Asia X GNOME.Asia
+tagline: 
+cover: /p/2018/coscup/coscup2018.jpg
+description: COSCUP 希望藉由每一屆的年度會議，讓世界各地的 FLOSS 愛好者齊聚一堂，並邀請世界各地的專家上台分享經驗，想法與新的技術，來共同的激發國內外的愛好者更加踴躍投入 FLOSS 的開發與使用。
+description_en: COSCUP's aim is providing a platform to connect Open Source coders, users, and promoters, and promote FLOSS with the annual conference. The conference is free to attend because of the enthusiastic sponsors and donators. Since the conference venue is limited, tickets are often sold out immediately after the online registration starts. 
+month: 8
+start: 8/11
+end: 8/12
+link:
+  - title: 專案介紹
+    url: /p/2018/coscup
+    target: _self
+link_en:
+  - title: Intro
+    url: /en/p/coscup
+    target: _self
+tag:
+  - 大型研討會
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - coscup
+  - opensuseasia
+  - gnomeasia
+co-organizer_id:
+  - ocf
+  - ntust
+implementer_id:
+board_id:
+  - bobchao
+staff_id: 
+  - singing
+  - huangfu
+consultant_id:
+volunteer_id:
+coordinator_id:
+

@@ -1,0 +1,40 @@
+name: DebConf18
+name_en: DebConf18
+abbr: DebConf18
+cover: /p/2018/debconf/debconf18logo.JPG
+description: DebConf 是為改進 Debian 有興趣之貢獻者、使用者舉辦的年度會議。歷屆以來 DebConf 的與會者、講者均來自世界各地。上一屆的 DebConf 在 2017 年 8 月於加拿大蒙特婁舉辦，共有 400 名來自 50 個國家的與會者。
+description_en: DebConf is the annual conference for Debian contributors and users interested in improving Debian. Previous Debian conferences have featured speakers and attendees from all around the world. DebConf17 took place in Montréal, Canada and was attended by 400 participants from 51 countries.
+month: 7
+start: 7/29
+end: 8/5
+link:
+  - title: 專案介紹
+    url: /p/2018/debconf 
+    target: _self
+link_en:
+  - title: Intro
+    url: /en/p/debconf 
+    target: _self
+tag:
+  - 大型研討會
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - debconf18
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+  - pofeng
+staff_id:
+  - huangfu
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:

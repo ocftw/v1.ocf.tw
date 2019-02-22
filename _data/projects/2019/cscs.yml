@@ -1,0 +1,44 @@
+name: 公民團體資安暨隱私交流計劃
+name_en: Civil Society Cyber Shield (under OCF International Program)
+abbr: 
+tagline: 以資安保護公民社會
+cover: /p/cscs/cscs-logo.png
+avatar:
+description: 公民團體本身的敏感性，同時又欠缺相關資源，讓他們在利用資訊科技進行他們的工作的時候，安全容易受到威脅，例如網路監控、針對性的網路攻擊、網路封鎖、干擾和審查。台灣活躍的資安社群和公民社會一直在世界上廣為人知。Civil Society Cyber Shield 期待掌握台灣此二強項，扮演科技人士和公民社會的橋樑，藉由連結雙方，提升公民團體使用資訊科技的安全。
+description_en: Citizen groups tend to engage in sensitive issues and thus become the target of cyber attack. But at the same time, they usually lack the resources to defend themselves. In this case, their work can be threatened by network monitoring, cyber attack, network blockade, network interruption, and Internet censorship. Taiwan has always been famous for its active information security community and civil society. Therefore, Civil Society Cyber Shield hopes to combine these two specialties of Taiwan and serve as the connection between technology experts and citizens. By connecting these two groups of people, we can improve the information security of citizen groups. 
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/cscs
+    target: _self
+link_en:
+  - title: Intro
+    url: /en/p/cscs
+    target: _self
+tag:
+type_id:
+  - organization
+topic_id:
+  - infosec
+field_id: 
+  - it
+advisor_id:
+organizer_id:
+  - ocf
+co-organizer_id:
+  - hitcon
+  - tahr
+  - newschool
+implementer_id:
+board_id:
+  - clkao
+staff_id: 
+  - ttcat
+  - pellaeon 
+  - lilin
+consultant_id:
+  - miaoski
+volunteer_id:
+coordinator_id:

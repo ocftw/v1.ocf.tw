@@ -1,0 +1,39 @@
+name: 國際開源會議盤纏計畫
+name_en: Travel Grants for Open Source Conference
+abbr: 
+tagline: 
+cover: 
+description: 大型國際開源會議通常並不提供講者交通與食宿，因此對年輕學生來說，是個很大的門檻。希望藉此計畫，提供旅費補助，鼓勵學生們投稿，直接和國際開源社群分享成果、交流經驗，並且在回國後自主舉辦分享會，把所得知識公共化。
+description_en: Organizers of large-scale international open source conferences might not cover the costs of transportation and accommodation. These necessary expenses could become a financial burden on young students. Therefore, we provide travel grants for students who are willing to submit their papers to international conferences and share their findings and experience with both global and local open source community.  
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/intltravelgrants
+    target: _self
+link_en:
+  - title: Intro
+    url: /en/p/intltravelgrants
+    target: _self
+tag:
+  - 工作小組
+type_id:
+  - community
+topic_id:
+  - government
+field_id:
+  - it
+advisor_id:
+organizer_id:
+co-organizer_id:
+implementer_id:
+sponsor_id:
+board_id:
+staff_id:
+consultant_id:
+volunteer_id:
+coordinator_id:
+meta:
+  - label: 
+    content: 
