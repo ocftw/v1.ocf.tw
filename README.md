@@ -186,8 +186,9 @@
   - 可在 `/p/(new_year)/` 預覽成果報告頁，如 [/p/2016/](http://ocf.tw/p/2016/)
 
   - 將成果報告頁加入 [專案與成果](https://ocf.tw/p/) 頁
-    - 檔頭新增文字： `- (new_year)` （獨自一行）
+    - 在檔頭 `years` 欄位新增年份： `  - (new_year)` （獨自一行，前面有兩個空白）
     - 檔案位置： [/p/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/index.html)
+    - 英文版檔案位置： [/en/p/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/en/p/index.html)
 
 ### 編輯電子報清單內容
 
