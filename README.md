@@ -190,6 +190,10 @@
     - 檔案位置： [/p/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/index.html)
     - 英文版檔案位置： [/en/p/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/en/p/index.html)
 
+  - 在英文首頁加入年度報告
+    - 在檔頭 `years` 欄位新增年份： `  - (new_year)` （獨自一行，前面有兩個空白）
+	- 英文首頁原始檔位置： `/en/index.html`
+
 ### 編輯電子報清單內容
 
 - 編輯當年度的電子報 `.yml` 檔案，如 2016 年度的檔案為 [/_data/news/2016.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/news/2016.yml)
