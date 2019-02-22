@@ -196,7 +196,7 @@ years:
   {% assign data = site.data.reports[id] %}
   <div class="item">
     <div class="image">
-      <img src="https://images.weserv.nl/?url=ocf.tw/{{ data.cover }}&w=300" alt="">
+      <img src="{{ data.cover }}" alt="">
     </div>
     <div class="content">
       <a href="/en/p/{{ year }}" class="header">{{ data.title }}</a>
