@@ -326,7 +326,7 @@
       url: https://tictec.mysociety.org/2018
     - title: 參訪報告
       url: https://docs.google.com/document/d/16ZGcEuIhVm7dvBLaQwcZ5DlALptLuMUHv0Vbm0YvgrQ/edit#heading=h.770g6vwuymp9
-  cover: 
+  cover: /p/2018/intl/tictec2018.jpg
   contributor_id:
     - ttcat
     - aiya
@@ -538,7 +538,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   link:
     - title: 活動網站
       url: https://www.codeforamerica.org/events/summit/2018
-  cover: 
+  cover: /p/2018/intl/CodeforAmericaSummit.jpg
   contributor_id:
   project_id:
     - intl
@@ -638,7 +638,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   link:
     - title: 活動網站
       url: https://citizenlab.ca/summerinstitute/2018.html
-  cover: 
+  cover: /p/2018/intl/0613CitizenLab.png
   contributor_id:
     - pellaeon
   project_id:
