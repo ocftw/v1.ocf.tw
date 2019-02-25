@@ -108,7 +108,7 @@
   link:
     - title: 活動網站
       url: https://ocftw.kktix.cc/events/ngo-infosec-6
-  cover:
+  cover: /p/2018/intl/ngosecurity.jpg
   contributor_id:
     - pellaeon
   project_id:
@@ -379,7 +379,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
       url: https://ocftw.kktix.cc/events/ngo-infosec-7
     - title: 活動簡報
       url: https://docs.google.com/presentation/d/1Mf5dQtu9oAbJOrGj0SxJPxuVVOlPlde_fs-3c0AD45g
-  cover: 
+  cover: /p/2018/intl/ngosecurity.jpg
   contributor_id:
     - pellaeon
     - lilin
