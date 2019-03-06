@@ -1,0 +1,26 @@
+0316admin:
+  title: OCF 2019 常常酒酒聚 ft. PyCon Taiwan 志工回娘家
+  description:  在 2018 年，我們支援 20 多個開源社群自主籌備活動、協辦 6 場大型活動、促成台灣 CC 與全球 CC 社群接軌、與 35 國的各個組織交流、帶領了 6 個多達 20 位社群朋友參與的出訪交流團、g0v.news 的營運... 等等，還有更多 OCF 在開放文化上的耕耘與努力的故事將在聚會上分享。PyCon Taiwan 的籌備團隊這次也和 OCF 一起，邀請曾經參與過籌備的志工朋友們，在這個春暖花開的時節回來聚聚。
+  month: 3
+  start: 3/16
+  end: 
+  link:
+    - title: FB活動頁
+      url: https://www.facebook.com/events/309250896445205/
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/ocf-spring-2019?fbclid=IwAR3RI3tqO66KQG_jM7TwzURgIihBG39qvAGkV2tO3eQb5UaSBNP3ZnKPbP8
+  cover: \p\2019\admin\2019 spring party.png
+  contributor_id:
+  project_id:
+    - admin
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
