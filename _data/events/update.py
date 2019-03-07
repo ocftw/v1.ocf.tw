@@ -16,26 +16,26 @@ for row in reader:
   title: "{title}"
   description: "{description}"
   month: "{month}"
-  start: "{start}"
-  end: "{end}"
+  start: {start}
+  end: {end}
   link:
-    - title: "{link_tl1}"
-      url: "{link1}"
-    - title: "{link_tl2}"
-      url: "{link2}"
+    - title: {link_tl1}
+      url: {link1}
+    - title: {link_tl2}
+      url: {link2}
   cover: {cover}
-  contributor_id: "{contributor_id}"
+  contributor_id: {contributor_id}
   project_id:
-    - "{project_id}"
-  label: "{label}"
-  organizer_id: "{organizer_id}"
-  advisor_id: "{advisor_id}"
-  co-organizer_id: "{co-organizer_id}"
-  implementer_id: "{implementer_id}"
-  sponsor_id: "{sponsor_id}"
-  coordinator_id: "{coordinator_id}"
-  host_id: "{host_id}"
-  speaker_id: "{speaker_id}"
-  banner: "{banner}"
-  avatar: "{avatar}" """
+    - {project_id}
+  label: {label}
+  organizer_id: {organizer_id}
+  advisor_id: {advisor_id}
+  co-organizer_id: {co-organizer_id}
+  implementer_id: {implementer_id}
+  sponsor_id: {sponsor_id}
+  coordinator_id: {coordinator_id}
+  host_id: {host_id}
+  speaker_id: {speaker_id}
+  banner: {banner}
+  avatar: {avatar}"""
     print(fstring.format(**row))
