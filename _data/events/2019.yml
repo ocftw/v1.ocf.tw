@@ -13,7 +13,7 @@
       url: "https://ocftw.kktix.cc/events/greenhost1"
     - title: ""
       url: ""
-  cover: "/p/2019/intl/banner-840x420.png"
+  cover: /p/2019/intl/banner-840x420.png
   contributor_id: "pellaeon"
   project_id:
     - "intl"
@@ -42,7 +42,7 @@
       url: "https://ocftw.kktix.cc/events/greenhost2"
     - title: ""
       url: ""
-  cover: "/p/2019/intl/banner-840x420.png"
+  cover: /p/2019/intl/banner-840x420.png
   contributor_id: "pellaeon"
   project_id:
     - "intl"
@@ -71,7 +71,7 @@
       url: "https://ocftw.kktix.cc/events/greenhost3"
     - title: ""
       url: ""
-  cover: "/p/2019/intl/banner-840x420.png"
+  cover: /p/2019/intl/banner-840x420.png
   contributor_id: "pellaeon"
   project_id:
     - "intl"
@@ -97,7 +97,7 @@
       url: "https://www.facebook.com/events/309250896445205/"
     - title: "報名頁面"
       url: "https://ocftw.kktix.cc/events/ocf-spring-2019?fbclid=IwAR3RI3tqO66KQG_jM7TwzURgIihBG39qvAGkV2tO3eQb5UaSBNP3ZnKPbP8"
-  cover: "\p\2019\admin\2019 spring party.png"
+  cover: \p\2019\admin\2019 spring party.png
   contributor_id: ""
   project_id:
     - "admin"

@@ -23,7 +23,7 @@ for row in reader:
       url: "{link1}"
     - title: "{link_tl2}"
       url: "{link2}"
-  cover: "{cover}"
+  cover: {cover}
   contributor_id: "{contributor_id}"
   project_id:
     - "{project_id}"
