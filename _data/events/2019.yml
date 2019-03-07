@@ -1,26 +1,114 @@
-0316admin:
-  title: OCF 2019 常常酒酒聚 ft. PyCon Taiwan 志工回娘家
-  description:  在 2018 年，我們支援 20 多個開源社群自主籌備活動、協辦 6 場大型活動、促成台灣 CC 與全球 CC 社群接軌、與 35 國的各個組織交流、帶領了 6 個多達 20 位社群朋友參與的出訪交流團、g0v.news 的營運... 等等，還有更多 OCF 在開放文化上的耕耘與努力的故事將在聚會上分享。PyCon Taiwan 的籌備團隊這次也和 OCF 一起，邀請曾經參與過籌備的志工朋友們，在這個春暖花開的時節回來聚聚。
-  month: 3
-  start: 3/16
-  end: 
+0225greenhost1:
+  title: "Greenhost 如何建立獨立且開放的雲端主機平台？主題一：資料中心與網路骨幹"
+  description: "OCF 不定期與國際友人合作，在台灣舉辦推廣開放文化的活動。本次由來自阿姆斯特丹的主機託管商 Greenhost 的創辦人 Mart 來進行三場經歷真槍實戰後所建立一座主機託管服務商的分享，預計將會針對不同的基礎建設拆分成 3 場精彩的內容，於 2/25 起每週一晚上舉辦：
+
+第一場：資料中心與網路骨幹
+
+本次分享將會分享 GreenHost 上千台服務器大型資料中心的建立心路歷程的和分享其建立時的具體考量及介紹"
+  month: "2"
+  start: "2/25"
+  end: "2/25"
   link:
-    - title: FB活動頁
-      url: https://www.facebook.com/events/309250896445205/
-    - title: 報名頁面(2019/2/1-2019/3/11)
-      url: https://ocftw.kktix.cc/events/ocf-spring-2019?fbclid=IwAR3RI3tqO66KQG_jM7TwzURgIihBG39qvAGkV2tO3eQb5UaSBNP3ZnKPbP8
-  cover: \p\2019\admin\2019 spring party.png
-  contributor_id:
+    - title: "活動資訊及報名"
+      url: "https://ocftw.kktix.cc/events/greenhost1"
+    - title: ""
+      url: ""
+  cover: "/p/2019/intl/banner-840x420.png"
+  contributor_id: "pellaeon"
   project_id:
-    - admin
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
+    - "intl"
+  label: ""
+  organizer_id: ""
+  advisor_id: ""
+  co-organizer_id: ""
+  implementer_id: ""
+  sponsor_id: ""
+  coordinator_id: ""
+  host_id: ""
+  speaker_id: ""
+  banner: ""
+  avatar: "" 
+0304greenhost2:
+  title: "Greenhost 如何建立獨立且開放的雲端主機平台？主題二：網路資源及路由管理： IP, AS Number, DNS"
+  description: "OCF 不定期與國際友人合作，在台灣舉辦推廣開放文化的活動。本次由來自阿姆斯特丹的主機託管商 Greenhost 的創辦人 Mart 來進行三場經歷真槍實戰後所建立一座主機託管服務商的分享，預計將會針對不同的基礎建設拆分成 3 場精彩的內容，於 2/25 起每週一晚上舉辦：
+第二場：網路資源及路由管理： IP, AS Number, DNS
+
+本次分享將會承續第一場之分享，著重在網路架構的部分進行實戰經驗分享，身為一家專業的託管服務商是如何看待跟管理路由"
+  month: "3"
+  start: "3/4"
+  end: "3/4"
+  link:
+    - title: "活動資訊及報名"
+      url: "https://ocftw.kktix.cc/events/greenhost2"
+    - title: ""
+      url: ""
+  cover: "/p/2019/intl/banner-840x420.png"
+  contributor_id: "pellaeon"
+  project_id:
+    - "intl"
+  label: ""
+  organizer_id: ""
+  advisor_id: ""
+  co-organizer_id: ""
+  implementer_id: ""
+  sponsor_id: ""
+  coordinator_id: ""
+  host_id: ""
+  speaker_id: ""
+  banner: ""
+  avatar: "" 
+0311greenhost3:
+  title: "Greenhost 如何建立獨立且開放的雲端主機平台？主題三：軟體平臺架構"
+  description: "OCF 不定期與國際友人合作，在台灣舉辦推廣開放文化的活動。本次由來自阿姆斯特丹的主機託管商 Greenhost 的創辦人 Mart 來進行三場經歷真槍實戰後所建立一座主機託管服務商的分享，預計將會針對不同的基礎建設拆分成 3 場精彩的內容，於 2/25 起每週一晚上舉辦：
+第三場：軟體平臺架構
+
+本次分享將會著重在軟體選擇及使用的部分，分享如何選擇開源或企業版的軟體產品，具體考量點又是什麼？歡迎一起參加討論"
+  month: "3"
+  start: "3/11"
+  end: "3/11"
+  link:
+    - title: "活動資訊及報名"
+      url: "https://ocftw.kktix.cc/events/greenhost3"
+    - title: ""
+      url: ""
+  cover: "/p/2019/intl/banner-840x420.png"
+  contributor_id: "pellaeon"
+  project_id:
+    - "intl"
+  label: ""
+  organizer_id: ""
+  advisor_id: ""
+  co-organizer_id: ""
+  implementer_id: ""
+  sponsor_id: ""
+  coordinator_id: ""
+  host_id: ""
+  speaker_id: ""
+  banner: ""
+  avatar: "" 
+0316admin:
+  title: "OCF 2019 常常酒酒聚 ft. PyCon Taiwan 志工回娘家"
+  description: "在 2018 年，我們支援 20 多個開源社群自主籌備活動、協辦 6 場大型活動、促成台灣 CC 與全球 CC 社群接軌、與 35 國的各個組織交流、帶領了 6 個多達 20 位社群朋友參與的出訪交流團、g0v.news 的營運... 等等，還有更多 OCF 在開放文化上的耕耘與努力的故事將在聚會上分享。PyCon Taiwan 的籌備團隊這次也和 OCF 一起，邀請曾經參與過籌備的志工朋友們，在這個春暖花開的時節回來聚聚。"
+  month: "3"
+  start: "3/16"
+  end: "3/16"
+  link:
+    - title: "FB活動頁"
+      url: "https://www.facebook.com/events/309250896445205/"
+    - title: "報名頁面"
+      url: "https://ocftw.kktix.cc/events/ocf-spring-2019?fbclid=IwAR3RI3tqO66KQG_jM7TwzURgIihBG39qvAGkV2tO3eQb5UaSBNP3ZnKPbP8"
+  cover: "\p\2019\admin\2019 spring party.png"
+  contributor_id: ""
+  project_id:
+    - "admin"
+  label: ""
+  organizer_id: ""
+  advisor_id: ""
+  co-organizer_id: ""
+  implementer_id: ""
+  sponsor_id: ""
+  coordinator_id: ""
+  host_id: ""
+  speaker_id: ""
+  banner: ""
+  avatar: "" 
