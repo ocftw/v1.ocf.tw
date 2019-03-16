@@ -43,6 +43,9 @@ subscribe:
   - title: YouTube
     url: https://www.youtube.com/c/OcfTw
     icon: youtube play
+  - title: Twitter
+    url: https://twitter.com/ocftaiwan
+    icon: twitter
 join:
   - title: Google Groups
     url: https://groups.google.com/forum/#!forum/ocf-general
