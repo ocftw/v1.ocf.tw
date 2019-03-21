@@ -109,6 +109,7 @@ card:
   - cscs
   - g0vgrants
   - ocnhfa
+  - intldonate
 
 card_en:
 # 英文專案列表頁上的專案卡片，會以這個清單的順序排列。
