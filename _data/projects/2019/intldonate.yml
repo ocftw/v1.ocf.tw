@@ -1,0 +1,48 @@
+name: 國際盤纏計畫
+name_en: 
+abbr: 
+tagline: 
+tagline_en: 
+cover: 
+avatar: 
+description: 台灣的開源與開放文化社群相當蓬勃，平均一年有超過十場中大型的會議。在此同時，我們也希望看到更多台灣的貢獻者，站上國際舞台。為鼓勵台灣更多年輕的開放文化貢獻者與國際社群交流，開放文化基金會設立「國際盤纏計劃」，補助經國外開放文化及開源相關活動投稿錄取的學生投稿者的旅費。
+description_en: 
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/intldonate
+    target: _self
+link_en:
+  - title: 
+    url: 
+    target: 
+tag:
+  - 盤纏申請
+type_id:
+  - overseas
+topic_id:
+  - data
+field_id: 
+  - it
+advisor_id:
+organizer_id:
+  - ocf
+co-organizer_id:
+implementer_id:
+board_id:
+  - clkao
+staff_id: 
+  - mglee
+  - afi
+  - aaron
+  - jason
+  - miniwu
+  - pellaeon 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+  - clkao
+
