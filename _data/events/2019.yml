@@ -112,3 +112,27 @@
   speaker_id: 
   banner: 
   avatar: 
+0415admin:
+  title: 開源教-教我正確選擇軟體授權
+  description: GPL, AGPL, LGPL, MIT, BSD... 各種複雜的軟體授權條款，是大部分人在利用開源的軟體套件的時候會遇到的棘手問題。到底用了哪些授權方式的軟體、套件，或是用了開源的資料庫，會如何影響到我本來想要選擇的授權方式呢？我又應該要選擇哪一種授權方式，才能符合我心中希望這軟體被流通應用的方式？「開源教教我正確選擇軟體授權」第一堂課程，特地請到長年研究開源科技法律授權的林誠夏法制顧問，深入淺出介紹各種開源授權方式，並透過實例的操作，分析已經用了很多套件的開源軟體，如何選擇合適的授權。絕對保證能夠幫各位從頭根治到腳，通體舒暢從此不再煩惱授權！千萬不要錯過這次的分享！
+  month: 4
+  start: 4/15
+  end: 4/15
+  link:
+    - title: 報名頁面(3/16-4/12)
+      url: https://ocftw.kktix.cc/events/openist-licensing
+  cover: /p/2019/openists/openists20190415.png
+  contributor_id: 
+  project_id:
+    - admin
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar:
