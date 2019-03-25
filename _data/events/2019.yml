@@ -9,10 +9,9 @@
   start: 2/25
   end: 2/25
   link:
+
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/greenhost1
-    - title: 
-      url: 
   cover: /p/2019/intl/banner-840x420.png
   contributor_id: pellaeon
   project_id:
@@ -38,10 +37,9 @@
   start: 3/4
   end: 3/4
   link:
+
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/greenhost2
-    - title: 
-      url: 
   cover: /p/2019/intl/banner-840x420.png
   contributor_id: pellaeon
   project_id:
@@ -67,10 +65,9 @@
   start: 3/11
   end: 3/11
   link:
+
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/greenhost3
-    - title: 
-      url: 
   cover: /p/2019/intl/banner-840x420.png
   contributor_id: pellaeon
   project_id:
@@ -93,6 +90,7 @@
   start: 3/16
   end: 3/16
   link:
+
     - title: FB活動頁
       url: https://www.facebook.com/events/309250896445205/
     - title: 報名頁面
@@ -119,10 +117,6 @@
   start: 3/25
   end: 3/29
   link:
-    - title: 
-      url: 
-    - title: 
-      url: 
   cover: /p/2019/intl/Infracon_2019_twheading-1024x341.jpg
   contributor_id: pellaeon
   project_id:
@@ -145,10 +139,9 @@
   start: 4/1
   end: 4/5
   link:
+
     - title: 官方網站
       url: https://internetfreedomfestival.org/
-    - title: 
-      url: 
   cover: /p/2019/intl/internet-freedom-festival-logo.png
   contributor_id: pellaeon;lulu
   project_id:
@@ -173,10 +166,9 @@
   start: 4/15
   end: 4/15
   link:
+
     - title: 活動網頁&報名(3/16-4/12)
       url: https://ocftw.kktix.cc/events/openist-licensing
-    - title: 
-      url: 
   cover: /p/2019/openists/openists20190415.png
   contributor_id: singing;rock
   project_id:
@@ -199,10 +191,9 @@ Rightscon2019:
   start: 6/11
   end: 6/14
   link:
+
     - title: 官方網站
       url: https://www.rightscon.org/
-    - title: 
-      url: 
   cover: 
   contributor_id: Yhchang
   project_id:
