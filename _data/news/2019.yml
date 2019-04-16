@@ -12,8 +12,13 @@
 
 - title: 開源之外同樣重要的網路中立
   subtitle: 2019 年 2 月號
-  description: 各位捐款人和志工朋友，謝謝你們一路支持開放文化基金會到現在，我們今年也舉辦了年度的發表會，邀請開源各界好朋友一起來參與，和我們分享關於開放文化的大小事。這次我們也和 PyCon Taiwan 一起，邀請了長期參與 PyCon TW 年會的志工朋友回娘家相聚，想必會增添不少熱鬧氣氛喔！快來參加吧！
+  description: 如果高速公路的四線道，分出一線道給每月支付 1,000 元的民眾，讓他們以速限 180 km/h 的速度行駛，大家對這樣的政策會怎麼想呢？「網路中立」(Internet Neutrality) 就是類似的概念，民眾已經普遍習慣使用的網路，用以取代書籍獲取知識、取代電話聯繫親友，卻有可能因為政策上的改變，被網路供應商限制速度，甚至不能拜訪特定的網站內容，不再保持它平等、中立的特性，那會是一個什麼樣的不平等的世界呢？
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=75
   cover: /p/2019/newspaper/ocf_ooni.png
 
+- title: 國際盤纏計劃再發動！
+  subtitle: 2019 年 4 月號
+  description: 台灣平均一年有超過十場的開放原始碼、開源相關中大型會議，我們希望看到更多台灣的開源貢獻者，能夠站上國際舞台，發表和開源相關的研究之外，也能夠增廣見聞。
+  link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=82
+  cover: /p/2019/newspaper/ocfintl.png
 
