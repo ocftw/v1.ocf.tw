@@ -167,8 +167,10 @@
   end: 4/15
   link:
 
-    - title: 活動網頁&報名(3/16-4/12)
-      url: https://ocftw.kktix.cc/events/openist-licensing
+    - title: 課程共筆&簡報
+      url: https://hackmd.io/s/rk-sbm42z
+    - title: YouTube
+      url: https://www.youtube.com/watch?v=raHdvb8y_-Q&feature=youtu.be&fbclid=IwAR3HFoAhZuMamVDNawOuvU2vY1W2cKoyTJWEFAl1LIWw_Xqp3Tvrwl2UMcw
   cover: /p/2019/openists/openists20190415.png
   contributor_id: 
     - singing
