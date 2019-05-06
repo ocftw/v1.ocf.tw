@@ -15,9 +15,9 @@ link:
     url: /p/2019/intldonate
     target: _self
 link_en:
-  - title: 
-    url: 
-    target: 
+  - title: Intro
+    url: /en/p/intltravelgrants
+    target: _self
 tag:
   - 工作小組
 type_id:
