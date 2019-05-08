@@ -501,7 +501,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   banner: 
   avatar: 
 0516intl:
-  title: RightsCon Summit Series
+  title: 國際出訪：RightsCon Summit Series
   description: "國際組織 Access Now ，是一個致力於開放自由網路的人權、公共政策、與倡議性之國際非營利組織。自2009年成立以來，Access Now 持續倡議數位人權的議題，其針對下列五個主要的政策領域：數位安全、言論自由、隱私、網路歧視、以及商業與人權。RightsCon 數位人權大會是由 Access Now 所主辦、目前世界最大的數位人權活動，每年在不同國家舉行，2017 年 3 月於布魯塞爾舉辦時，參加者已超過 1500 人，今年在加拿大多倫多的大會於 5/16-18 舉行，參加者人數更是再度超越往年紀錄，來到超過 2000 人的人數，參加者背景分別來自全球的資訊公司、人權組織、網路治理機構與政府和聯合國組織，囊括世界上數位科技領域的所有重要領域，三日的活動中，多軌並行進行的公開議程超過 450 個，更有不計其數的議題工作坊、座談會、圓桌會議、小組討論、閉門會談等，這些來自世界各地的資訊專業人士、政策制定者、學術研究者與人權工作者，從各種面向切入，討論資訊時代的隱私、言論自由等數位人權，以及最新的科技（例如人工智慧、區塊鏈）在數位人權方面的影響，並也探討公民科技如何幫助人們、人權行動者面對怎樣的網路與科技議題或如何使用網路作為發聲、對抗的方式。"
   month: 5
   start: 5/16
@@ -583,7 +583,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   banner: 
   avatar:
 0607intl:
-  title: Personal Democracy Forum 2018 :How We Make Good
+  title: 國際出訪：Personal Democracy Forum 2018 :How We Make Good
   description: 吸引近 400 位產官學代表參與的個人民主論壇（ Personal Democracy Forum CEE 2018），繼今年 4 月底在波蘭首聚後，6 月亦在紐約登場。來自不同國家的講者，將於此分享各種實踐公民人權的方式與經驗。
   month: 6
   start: 6/2
@@ -716,7 +716,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   banner: 
   avatar: 
 0629intl:
-  title: 國際出訪：2018 多倫多 RightsCon 數位人權大會分享會
+  title: 2018 多倫多 RightsCon 數位人權大會分享會
   description: 每年在 RightsCon 數位人權大會中，都可以看到台灣參與者的身影，活躍地參加會議、議程、擔任講者。然而一定有更多台灣的夥伴，雖然關注此議題，卻無法親自前往參加大會。為了讓國際參與的經驗不僅是停留在出國參加的少數夥伴身上，而可以讓所有關注人權、對資訊議題有興趣的朋友都可以共襄盛舉，因此每年都會在 RightsCon 大會結束後，邀請參與RightsCon 的台灣參加者舉辦經驗分享。今年，數名來自台灣，各自分屬資訊、人權等領域的組織工作者，都前往多倫多參與這個大會，並且在大會中多場議程擔任講者、主持人，或參與閉門會議等。這個分享會針對所有有興趣但無法前往參加的朋友、或是想要了解數位人權議題的任何人，歡迎大家一起來聽聽參與者們分享這個大會的參與經驗！"
   month: 6
   start: 6/29
@@ -829,6 +829,32 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
+0717intl:
+  title: 國際出訪：2019 OGP summit 開放政府夥伴聯盟高峰會
+  description: 為促進各國政府公開透明以深化全球民主的發展，在 2011 年聯合國大會後，八國政府組成開放政府夥伴聯盟（Open Government Partnership，簡稱 OGP），共同倡議並簽署了《開放政府宣言》。OGP目前已有 76 個會員國，這些國家共同倡議並簽署了《開放政府宣言》，針對政府資訊透明、公民賦權、打擊腐敗、利用科技增進政府治理等等項目提出實質承諾，每兩年舉辦一次高峰會。而今年的 OGP Summit 在7月中於俄羅斯南方小國喬治亞（Georgia）舉行，吸引超過 2000 位來自各國的政府公務員、公民社會團體參與，就開放政府在世界各地的實踐成果、各自面對的困境與未來發展交流對話。為舉辦開放政府高峰會，喬治亞特別開放短期免簽讓台灣人參與，開放文化基金會也因此籌組了2018 OGP Summit 台灣民間參訪團。
+  month: 7
+  start: 7/17
+  end: 7/19
+  link:
+    - title: 參訪報告
+      url: https://docs.google.com/document/d/1kIeQtHKaaZg7A_HkZigd8pZ7Nf0E8tR4kuEsaSSFXgg/edit
+  cover: \p\2018\intl\ogp開放政府分享會.JPG
+  contributor_id:
+    - ttcat
+    - aiya
+  project_id:
+    - intl
+  label:
+  organizer_id:
+  advisor_id:
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  host_id:
+  speaker_id:
+  banner: 
+  avatar: 
 0810osln:
   title: OpenChain 開源管理 (3) - An Intelligent Way to Go 
   description: 本次活動邀請到日本OpenChain社群成員，來分享在公司內部推行開源管理的實際經驗與所遭逢的各種狀況，包括了Sony與Panasonic兩大公司，同時也將介紹OpenChain這個提供開源管理範本與資訊的計畫，機會十分難得！您將可以了解到如何聰明、有系統地建立開源管理機制、有那些資源可利用、實務上所遭遇的困難又有那些可能的應對之道。
@@ -922,13 +948,13 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   avatar: 
 0818intl:
   title: OGP開放政府高峰會 分享會
-  description: 開放政府夥伴聯盟目前已有 76 個會員國，這些國家共同倡議並簽署了《開放政府宣言》，針對政府資訊透明、公民賦權、打擊腐敗、利用科技增進政府治理等等項目提出實質承諾，每兩年舉辦一次高峰會。而今年的 OGP Summit 在7月中於俄羅斯南方小國喬治亞（Georgia）舉行，吸引超過 2000 位來自各國的政府公務員、公民社會團體參與，就開放政府在世界各地的實踐成果、各自面對的困境與未來發展交流對話。為舉辦開放政府高峰會，喬治亞特別開放短期免簽讓台灣人參與，開放文化基金會也因此籌組了2018 OGP Summit 台灣民間參訪團，並於回台後8/18, 8/23, 9/7舉辦 3 場不同主題的分享會，和大家分享今年開放政府高峰會不同面向的各自觀察。
+  description: OGP Summit 在7月中於俄羅斯南方小國喬治亞（Georgia）舉行，為舉辦開放政府高峰會，喬治亞特別開放短期免簽讓台灣人參與，開放文化基金會也因此籌組了2018 OGP Summit 台灣民間參訪團，並於回台後舉辦 3 場不同主題的分享會：OGP整體觀察 、媒體觀察暨推動台灣加入 OGP 的意義與下一步 聚焦各國案例：公民科技 x 不實訊息 x 環境。
   month: 8
   start: 8/18
   end: 9/7
   link:
-    - title: 參訪報告
-      url: https://docs.google.com/document/d/1kIeQtHKaaZg7A_HkZigd8pZ7Nf0E8tR4kuEsaSSFXgg/edit
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/ogpsharing
   cover: \p\2018\intl\ogp開放政府分享會.JPG
   contributor_id:
     - ttcat
@@ -948,7 +974,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   banner: 
   avatar: 
 0821intl:
-  title: 國際出訪：igital Asia Hub
+  title: 國際出訪：Digital Asia Hub
   description: The Digital Asia Hub convened a symposium on the topic of Disinformation & Discourse:Rebuilding Trust in Institutions, Platforms, & Civic Spaces on 21 August, 2018, in Jakarta, Indonesia, bringing together over 50 subject matter experts from all over Asia and the world, across academia, industry, government, and civil society.
   month: 8
   start: 8/21
