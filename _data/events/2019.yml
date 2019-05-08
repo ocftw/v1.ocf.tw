@@ -87,6 +87,31 @@
   title: "OCF 2019 常常酒酒聚 ft. PyCon Taiwan 志工回娘家"
   description: "在 2018 年，我們支援 20 多個開源社群自主籌備活動、協辦 6 場大型活動、促成台灣 CC 與全球 CC 社群接軌、與 35 國的各個組織交流、帶領了 6 個多達 20 位社群朋友參與的出訪交流團、g0v.news 的營運... 等等，還有更多 OCF 在開放文化上的耕耘與努力的故事將在聚會上分享。PyCon Taiwan 的籌備團隊這次也和 OCF 一起，邀請曾經參與過籌備的志工朋友們，在這個春暖花開的時節回來聚聚。"
   month: "3"
+  start: 3/19
+  end: 3/20
+  link:
+
+    - title: 活動紀錄官網
+      url: https://tictec.mysociety.org/2019
+  cover: /p/2019/intl/2019 TICTeC.png
+  contributor_id: Aiya
+  project_id:
+    - intl
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
+0316admin:
+  title: "2019 TICTeC 公民科技動能推升研討會"
+  description: "TICTeC 為一年一度關注開放資料及公民科技影響力的國際研討會，致力於探討公民科技在不同社會環境與政治脈絡下的影響力，是串連世界各國公民科技社群的重要網絡。今年會議台灣的參與者，則有 g0v 參與者 Isabel, ttcat 和開放文化基金會工作人員 Aiya。三人的參與，主要為了加強國際連結，讓國際社群看到 g0v --亞洲最大的公民科技社群在這波浪潮持續進行。"
+  month: "3"
   start: 3/16
   end: 3/16
   link:
