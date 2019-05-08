@@ -124,7 +124,7 @@
       url: 
   cover: /p/2019/intl/2019 TICTeC.png
   contributor_id: 
-    - Aiya 
+    - aiya 
   project_id:
     - intl
   label: 
@@ -173,7 +173,8 @@
   cover: /p/2019/intl/internet-freedom-festival-logo.png
   contributor_id: 
     - pellaeon
-    - lulu
+    - lulukeng
+    
   project_id:
     - intl
   label: 
@@ -283,7 +284,8 @@
       url: https://ocftw.kktix.cc/events/ticteciff2019
   cover: /p/2019/intl/2019 TICTeC&IFF分享會.jpg
   contributor_id: 
-    - lulu
+    - lulukeng
+    
   project_id:
     - intl
   label: 
