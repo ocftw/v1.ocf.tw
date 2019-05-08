@@ -299,6 +299,32 @@
   speaker_id: 
   banner: 
   avatar: 
+0529ogpsummit:
+  title: 國際出訪：2019 OGP summit 國際夥伴聯盟高峰會
+  description: 開放政府夥伴聯盟(OGP)，不只是一個組織，也不只是會議主辦單位，在2011聯合國大會後，OGP 負責串聯各國加入簽署《開放政府宣言》，讓開放政府不再是口號，而有明確的執行準則，以落實政府資訊透明、公民賦權、打擊腐敗、利用科技增進政府治理等等項目。今年 OGP summit 在加拿大渥太華舉行，由外交部統籌，OCF 作為民間團體之一，與其他公民社團代表和政府代表，一同前往參與盛會，也希望台灣在開放政府方面能有實質的進展。
+  month: 5
+  start: 5/29
+  end: 5/31
+  link:
+    - title: 官方網站
+      url: https://ogpsummit.org/en/
+  cover: /p/2019/intl/2019ogpsummit.jpg
+  contributor_id: 
+    - lulukeng
+  project_id:
+    - intl
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
+
 
 0611Rightscon2019:
   title: 國際出訪：Rightscon summit
