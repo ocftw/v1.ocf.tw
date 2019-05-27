@@ -45,7 +45,11 @@ layout: global
       {% endif %}
     </h1>
     <p>
+      {% if page.lang == 'en' %}
+      {{ project.tagline_en }}
+      {% else %}
       {{ project.tagline }}
+      {% endif %}
     </p>
   </div>
   <hr class="ui hidden section divider" />
