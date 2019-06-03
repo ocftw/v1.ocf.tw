@@ -1,6 +1,15 @@
 name: 曹鼎
 nick: Bryce
 name_en: Bryce Tsao
-role: 
-description: 
+role: 喵嗚
+description: 肄業於清大、交大、臺大的流浪學生。關注性別、科技與人權議題，喜歡自己動手挑戰新鮮事。曾參與 CCCA、開源社、女性主義有事嗎、臺大性平會與臺大工會。2019 起在 OCF 負責國際交流事務。
 avatar: /people/staff/bryce.jpg
+link:
+  - title: GitHub
+    url: https://github.com/tsaodingtw
+  - title: CCCA
+    url: https://ccca.tw
+  - title: 臺灣大學開源社
+    url: https://ntuosc.org
+  - title: 女性主義有事嗎
+    url: https://www.facebook.com/whatswrongwithfeminism
