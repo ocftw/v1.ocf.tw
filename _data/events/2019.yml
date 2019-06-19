@@ -160,35 +160,6 @@
   speaker_id: 
   banner: 
   avatar: 
-0326ocnhfa:
-  title: "2019年三月集[聊]思[天]會"
-  description: "藝術人文開放網絡 終於要辦第一次公開的聊天會囉！
-
-這次我們先來暖暖身，無論你是藝術家、人文學類工作者、熱愛藝文的開放文化擁護者，文青程式設計師，甚至是路人甲.....，想要在親切人味的藝文氣氛中、藉由科技、藝術、人文與開放文化等話(八)題(卦)的交流中碰撞出智(自)慧(嗨)的火花，都歡迎一起來參加！"
-  month: "3"
-  start: 3/26
-  end: 
-  link:
-    - title: FB活動頁
-      url: https://www.facebook.com/events/2235299483183902/
-    - title: 筆記
-      url: https://hackmd.io/LHbEDGG_RJ6tCM1vhg4Zyw?fbclid=IwAR3ZQp0EmVu3S-gTPHns_qLlZy-1BXqSyF1lAyufh-IiL-jG4NLnF8AfAAQ
-  cover: /p/2019/OCNHFA/ocnhfa201903.jpg
-  contributor_id: 
-    - rock
-  project_id:
-    - ocnhfa
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
 0401IFF:
   title: "國際出訪：Internet Freedom Festival"
   description: "國際出訪：此活動為 Open Technology Fund (OTF) 旗下的一個年度專案，規模為 2000人，是國際上知名與網路自由、數位人權、隱私監控、網路審查等相關的活動。"
@@ -247,37 +218,7 @@
   speaker_id: 
   banner: 
   avatar: 
-0430ocnhfa:
-  title: "2019年四月集[聊]思[天]會"
-  description: "藝術人文開放網絡：2019年四月集[聊]思[天]會
 
-無論你是藝術家、人文學類工作者、熱愛藝文的開放文化擁護者，文青程式設計師，甚至是路人甲.....，想要在親切人味的藝文氣氛中、藉由科技、藝術、人文與開放文化等話(八)題(卦)的交流中碰撞出智(自)慧(嗨)的火花，都歡迎一起來參加！
-
-藝開網的集思會聊天主題採「開放提議、協同策劃」的方式進行，若您想提案有興趣的聊天話題，歡迎在集思會專屬Trello上開設主題卡片！方式及建議方向請參閱版上「歡迎在本版開立主題卡片」相關說明。"
-  month: "4"
-  start: 4/30
-  end: 
-  link:
-    - title: FB活動頁
-      url: https://www.facebook.com/events/570895216754579/
-    - title: 筆記
-      url: https://hackmd.io/gQZVOPy7TcGR1duYFQcA_A?fbclid=IwAR1-bMyuT1jYIWSK4ei_F66IJzTtgi_SJGJs4pn4jh3HRuhazMM4O3QcQWY
-  cover: /p/2019/OCNHFA/ocnhfa201904.jpg
-  contributor_id: 
-    - rock
-  project_id:
-    - ocnhfa
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
 0503IFF:
   title: "全球最大—網路自由節 Internet Freedom Festival 回國分享"
   description: "IFF是捲動全球網路自由社群的 Unconference 大會，以非傳統、充滿火花、深度交流、如慶典般的盛會著稱，2019 台灣有12位參與者，為大家帶來第一手的分享。 "
@@ -345,37 +286,6 @@
     - lulukeng
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0528ocnhfa:
-  title: "2019年五月集[聊]思[天]會"
-  description: "藝術人文開放網絡：2019年五月集[聊]思[天]會
-
-無論你是藝術家、人文學類工作者、熱愛藝文的開放文化擁護者，文青程式設計師，甚至是路人甲.....，想要在親切人味的藝文氣氛中、藉由科技、藝術、人文與開放文化等話(八)題(卦)的交流中碰撞出智(自)慧(嗨)的火花，都歡迎一起來參加！
-
-藝開網的集思會聊天主題採「開放提議、協同策劃」的方式進行，若您想提案有興趣的聊天話題，歡迎在集思會專屬Trello上開設主題卡片！方式及建議方向請參閱版上「歡迎在本版開立主題卡片」相關說明。"
-  month: "4"
-  start: 5/28
-  end: 
-  link:
-    - title: FB活動頁
-      url: https://www.facebook.com/events/2075312292761897/
-    - title: 筆記
-      url: https://hackmd.io/ReUq4FKQSZiHvQkM6mo5-Q
-  cover: /p/2019/OCNHFA/ocnhfa201905.jpg
-  contributor_id: 
-    - rock
-  project_id:
-    - ocnhfa
   label: 
   organizer_id: 
   advisor_id: 
