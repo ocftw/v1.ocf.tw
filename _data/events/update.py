@@ -19,14 +19,14 @@ for row in reader:
   start: {start}
   end: {end}
   link:"""
-    fstring2 = """
-    - title: {link_tl1}
+    fstring2 = """    - title: {link_tl1}
       url: {link1}""" if row['link1'] else None
     fstring3 = """    - title: {link_tl2}
       url: {link2}""" if row['link2'] else None
     fstring4 = """  cover: {cover}
-  contributor_id: {contributor_id}
-  project_id:
+  contributor_id:"""
+    fstring5 = '\n'.join([ "    - "+c for c in row['contributor_id'].split(';')])
+    fstring6 = """  project_id:
     - {project_id}
   label: {label}
   organizer_id: {organizer_id}
@@ -43,3 +43,5 @@ for row in reader:
     if fstring2: print(fstring2.format(**row))
     if fstring3: print(fstring3.format(**row))
     print(fstring4.format(**row))
+    print(fstring5.format(**row))
+    print(fstring6.format(**row))
