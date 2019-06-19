@@ -384,11 +384,11 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   start: 6/24
   end:
   link:
-    - title: 活動網頁
+    - title: 活動網頁 (6/19-6/23)
       url: https://ocftw.kktix.cc/events/openist-githubdesktop
   cover: /p/2019/openists/openists20190624.png
   contributor_id: 
-    - ROCK
+    - rock
   project_id:
     - admin
   label: 
