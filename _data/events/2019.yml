@@ -9,11 +9,11 @@
   start: 2/25
   end: 2/25
   link:
-
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/greenhost1
   cover: /p/2019/intl/banner-840x420.png
-  contributor_id: pellaeon
+  contributor_id: 
+    - pellaeon
   project_id:
     - intl
   label: 
@@ -37,11 +37,11 @@
   start: 3/4
   end: 3/4
   link:
-
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/greenhost2
   cover: /p/2019/intl/banner-840x420.png
-  contributor_id: pellaeon
+  contributor_id: 
+    - pellaeon
   project_id:
     - intl
   label: 
@@ -65,11 +65,11 @@
   start: 3/11
   end: 3/11
   link:
-
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/greenhost3
   cover: /p/2019/intl/banner-840x420.png
-  contributor_id: pellaeon
+  contributor_id: 
+    - pellaeon
   project_id:
     - intl
   label: 
@@ -88,15 +88,15 @@
   description: "在 2018 年，我們支援 20 多個開源社群自主籌備活動、協辦 6 場大型活動、促成台灣 CC 與全球 CC 社群接軌、與 35 國的各個組織交流、帶領了 6 個多達 20 位社群朋友參與的出訪交流團、g0v.news 的營運... 等等，還有更多 OCF 在開放文化上的耕耘與努力的故事將在聚會上分享。PyCon Taiwan 的籌備團隊這次也和 OCF 一起，邀請曾經參與過籌備的志工朋友們，在這個春暖花開的時節回來聚聚。"
   month: "3"
   start: 3/16
-  end: 3/15
+  end: 3/16
   link:
-
     - title: FB活動頁
       url: https://www.facebook.com/events/309250896445205/
     - title: 報名頁面
       url: https://ocftw.kktix.cc/events/ocf-spring-2019?fbclid=IwAR3RI3tqO66KQG_jM7TwzURgIihBG39qvAGkV2tO3eQb5UaSBNP3ZnKPbP8
   cover: \p\2019\admin\2019 spring party.png
   contributor_id: 
+    - 
   project_id:
     - admin
   label: 
@@ -117,14 +117,11 @@
   start: 3/19
   end: 3/20
   link:
-
     - title: 活動紀錄官網
       url: https://tictec.mysociety.org/2019
-    - title: 出訪報告
-      url: 
   cover: /p/2019/intl/2019 TICTeC.png
   contributor_id: 
-    - aiya 
+    - aiya
   project_id:
     - intl
   label: 
@@ -139,8 +136,8 @@
   banner: 
   avatar: 
 0325infracon:
-  title: 國際出訪：Infracon
-  description: Infracon is a conference for alternative infrastructure and service providers around the world.
+  title: "國際出訪：Infracon"
+  description: "Infracon is a conference for alternative infrastructure and service providers around the world."
   month: "3"
   start: 3/25
   end: 3/29
@@ -161,20 +158,50 @@
   speaker_id: 
   banner: 
   avatar: 
+0326ocnhfa:
+  title: "2019年三月集[聊]思[天]會"
+  description: "藝術人文開放網絡 終於要辦第一次公開的聊天會囉！
+
+這次我們先來暖暖身，無論你是藝術家、人文學類工作者、熱愛藝文的開放文化擁護者，文青程式設計師，甚至是路人甲.....，想要在親切人味的藝文氣氛中、藉由科技、藝術、人文與開放文化等話(八)題(卦)的交流中碰撞出智(自)慧(嗨)的火花，都歡迎一起來參加！"
+  month: "3"
+  start: 3/26
+  end: 
+  link:
+    - title: FB活動頁
+      url: https://www.facebook.com/events/2235299483183902/
+    - title: 筆記
+      url: https://hackmd.io/LHbEDGG_RJ6tCM1vhg4Zyw?fbclid=IwAR3ZQp0EmVu3S-gTPHns_qLlZy-1BXqSyF1lAyufh-IiL-jG4NLnF8AfAAQ
+  cover: /p/2019/OCNHFA/ocnhfa201903.jpg
+  contributor_id: 
+    - rock
+  project_id:
+    - ocnhfa
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
 0401IFF:
-  title: 國際出訪：Internet Freedom Festival
-  description: 此活動為 Open Technology Fund (OTF) 旗下的一個年度專案，規模為 2000人，是國際上知名與網路自由、數位人權、隱私監控、網路審查等相關的活動。
-  month: 4
+  title: "國際出訪：Internet Freedom Festival"
+  description: "國際出訪：此活動為 Open Technology Fund (OTF) 旗下的一個年度專案，規模為 2000人，是國際上知名與網路自由、數位人權、隱私監控、網路審查等相關的活動。"
+  month: "4"
   start: 4/1
   end: 4/5
   link:
     - title: 官方網站
       url: https://internetfreedomfestival.org/
+    - title: 出訪報告
+      url: https://docs.google.com/document/d/1AEWozvYGMxPx0bRbwSas19jHxGaMt-3ySrhGRwZy_ac/edit
   cover: /p/2019/intl/internet-freedom-festival-logo.png
   contributor_id: 
     - pellaeon
     - lulukeng
-    - aiya
   project_id:
     - intl
   label: 
@@ -189,17 +216,18 @@
   banner: 
   avatar: 
 0415admin:
-  title: 開源教 - 教我正確選擇軟體授權
-  description: GPL, AGPL, LGPL, MIT, BSD... 各種複雜的軟體授權條款，是大部分人在利用開源的軟體套件的時候會遇到的棘手問題。到底用了哪些授權方式的軟體、套件，或是用了開源的資料庫，會如何影響到我本來想要選擇的授權方式呢？我又應該要選擇哪一種授權方式，才能符合我心中希望這軟體被流通應用的方式？「開源教教我正確選擇軟體授權」第一堂課程，特地請到長年研究開源科技法律授權的林誠夏法制顧問，深入淺出介紹各種開源授權方式，並透過實例的操作，分析已經用了很多套件的開源軟體，如何選擇合適的授權。絕對保證能夠幫各位從頭根治到腳，通體舒暢從此不再煩惱授權！千萬不要錯過這次的分享！
-  month: 4
+  title: "開源教 - 教我正確選擇軟體授權"
+  description: "GPL, AGPL, LGPL, MIT, BSD... 各種複雜的軟體授權條款，是大部分人在利用開源的軟體套件的時候會遇到的棘手問題。到底用了哪些授權方式的軟體、套件，或是用了開源的資料庫，會如何影響到我本來想要選擇的授權方式呢？我又應該要選擇哪一種授權方式，才能符合我心中希望這軟體被流通應用的方式？
+
+「開源教教我正確選擇軟體授權」第一堂課程，特地請到長年研究開源科技法律授權的林誠夏法制顧問，深入淺出介紹各種開源授權方式，並透過實例的操作，分析已經用了很多套件的開源軟體，如何選擇合適的授權。絕對保證能夠幫各位從頭根治到腳，通體舒暢從此不再煩惱授權！千萬不要錯過這次的分享！"
+  month: "4"
   start: 4/15
   end: 4/15
   link:
-
-    - title: 課程共筆&簡報
+    - title: 活動網頁&報名(3/16-4/12)
+      url: https://ocftw.kktix.cc/events/openist-licensing
+    - title: 筆記/簡報
       url: https://hackmd.io/s/rk-sbm42z
-    - title: YouTube課程錄影
-      url: https://www.youtube.com/watch?v=raHdvb8y_-Q&feature=youtu.be&fbclid=IwAR3HFoAhZuMamVDNawOuvU2vY1W2cKoyTJWEFAl1LIWw_Xqp3Tvrwl2UMcw
   cover: /p/2019/openists/openists20190415.png
   contributor_id: 
     - singing
@@ -217,22 +245,26 @@
   speaker_id: 
   banner: 
   avatar: 
+0430ocnhfa:
+  title: "2019年四月集[聊]思[天]會"
+  description: "藝術人文開放網絡：2019年四月集[聊]思[天]會
 
-0503IFF:
-  title: 全球最大—網路自由節 Internet Freedom Festival 回國分享
-  description: IFF是捲動全球網路自由社群的 Unconference 大會，以非傳統、充滿火花、深度交流、如慶典般的盛會著稱，2019 台灣有12位參與者，為大家帶來第一手的分享。 
-  month: 5
-  start: 5/3
-  end: 5/3
+無論你是藝術家、人文學類工作者、熱愛藝文的開放文化擁護者，文青程式設計師，甚至是路人甲.....，想要在親切人味的藝文氣氛中、藉由科技、藝術、人文與開放文化等話(八)題(卦)的交流中碰撞出智(自)慧(嗨)的火花，都歡迎一起來參加！
+
+藝開網的集思會聊天主題採「開放提議、協同策劃」的方式進行，若您想提案有興趣的聊天話題，歡迎在集思會專屬Trello上開設主題卡片！方式及建議方向請參閱版上「歡迎在本版開立主題卡片」相關說明。"
+  month: "4"
+  start: 4/30
+  end: 
   link:
-
-    - title: 活動報名頁
-      url: https://ocftw.kktix.cc/events/visitiff2019
-  cover: /p/2019/intl/2019 IFF 分享會.jpg
+    - title: FB活動頁
+      url: https://www.facebook.com/events/570895216754579/
+    - title: 筆記
+      url: https://hackmd.io/gQZVOPy7TcGR1duYFQcA_A?fbclid=IwAR1-bMyuT1jYIWSK4ei_F66IJzTtgi_SJGJs4pn4jh3HRuhazMM4O3QcQWY
+  cover: /p/2019/OCNHFA/ocnhfa201904.jpg
   contributor_id: 
-    - pellaeon
+    - rock
   project_id:
-    - intl
+    - ocnhfa
   label: 
   organizer_id: 
   advisor_id: 
@@ -244,11 +276,36 @@
   speaker_id: 
   banner: 
   avatar: 
-
+0503IFF:
+  title: "全球最大—網路自由節 Internet Freedom Festival 回國分享"
+  description: "IFF是捲動全球網路自由社群的 Unconference 大會，以非傳統、充滿火花、深度交流、如慶典般的盛會著稱，2019 台灣有12位參與者，為大家帶來第一手的分享。 "
+  month: "5"
+  start: 5/3
+  end: 
+  link:
+    - title: 活動報名頁
+      url: https://ocftw.kktix.cc/events/visitiff2019
+  cover: /p/2019/intl/2019 IFF 分享會.jpg
+  contributor_id: 
+    - pellaeon
+  project_id:
+    - intl
+  label: 
+  organizer_id: OCF
+  advisor_id: 
+  co-organizer_id: 五倍紅寶石
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
 0509ccsummit2019:
-  title: 國際出訪：Creative Commons Global Summit 2019
-  description: Creative Commons 為推廣開放式公眾授權的組織，於 2003 年 11 月與中央研究院資訊科學研究所「台灣創用 CC 計畫」合作 iCommons 計畫，在台灣進行 Creative Commons 授權條款華語（台灣）翻譯及公開討論，並與其他機構及創作者合作推廣 Creative Commons ，經過歷年的推廣，目前許多政府機關構已使用創用CC授權條款來進行公部門素材的釋出，例如智慧財產局的著作權小辭典、教育部之重編國語辭典，以及行政院國發會協調編撰的政府資料開放授權條款第一版，皆使用或內嵌創用CC授權之採用或轉換條款，開放文化基金會對國內開放授權之應用推廣具協作與支持關係，故希望能藉此參與 Creative Commons 所推動的建立全球性公眾資源庫的工作，和與會的各國代表交流經驗，並在日後將相關重要資訊與知識推廣至國內的教育與行政機構。Creative Commons為避免政治力過度影響全球性文化與教育素材的交流，其兼容全球各地網絡參與的模式是讓參與會員得以獨立政治或經濟分會(Chapter)的方式加入，故於華文地區中國大陸、台灣、香港，以及澳門皆有個別運作互不相屬的獨立組織，此一模式對我國當前的國際環境具友善性，更值得國人透過此一國際知識分享的平台，展現自主性與其他國際組織產生連結與交流。
-  month: 5
+  title: "國際出訪：Creative Commons Global Summit 2019"
+  description: "Creative Commons 為推廣開放式公眾授權的組織，於 2003 年 11 月與中央研究院資訊科學研究所「台灣創用 CC 計畫」合作 iCommons 計畫，在台灣進行 Creative Commons 授權條款華語（台灣）翻譯及公開討論，並與其他機構及創作者合作推廣 Creative Commons ，經過歷年的推廣，目前許多政府機關構已使用創用CC授權條款來進行公部門素材的釋出，例如智慧財產局的著作權小辭典、教育部之重編國語辭典，以及行政院國發會協調編撰的政府資料開放授權條款第一版，皆使用或內嵌創用CC授權之採用或轉換條款，開放文化基金會對國內開放授權之應用推廣具協作與支持關係，故希望能藉此參與 Creative Commons 所推動的建立全球性公眾資源庫的工作，和與會的各國代表交流經驗，並在日後將相關重要資訊與知識推廣至國內的教育與行政機構。Creative Commons為避免政治力過度影響全球性文化與教育素材的交流，其兼容全球各地網絡參與的模式是讓參與會員得以獨立政治或經濟分會(Chapter)的方式加入，故於華文地區中國大陸、台灣、香港，以及澳門皆有個別運作互不相屬的獨立組織，此一模式對我國當前的國際環境具友善性，更值得國人透過此一國際知識分享的平台，展現自主性與其他國際組織產生連結與交流。
+"
+  month: "5"
   start: 5/9
   end: 5/11
   link:
@@ -271,23 +328,52 @@
   speaker_id: 
   banner: 
   avatar: 
-
 0517ticteciff:
-  title: 前進 TICTeC & Internet Freedom Festival ( IFF ) 共同分享會
-  description: 公民科技實踐者(TICTeC)  v.s. 網路人權行動者 (IFF)，兩場台灣科技社群組隊參與的國際會議，討論不同面向的科技運用分享。 
-  month: 5
+  title: "前進 TICTeC & Internet Freedom Festival ( IFF ) 共同分享會"
+  description: "公民科技實踐者(TICTeC)  v.s. 網路人權行動者 (IFF)，兩場台灣科技社群組隊參與的國際會議，討論
+不同面向的科技運用分享。"
+  month: "5"
   start: 5/17
   end: 5/17
   link:
-
     - title: 活動報名頁
       url: https://ocftw.kktix.cc/events/ticteciff2019
   cover: /p/2019/intl/2019 TICTeC&IFF分享會.jpg
   contributor_id: 
     - lulukeng
-    - aiya
   project_id:
     - intl
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
+0528ocnhfa:
+  title: "2019年五月集[聊]思[天]會"
+  description: "藝術人文開放網絡：2019年五月集[聊]思[天]會
+
+無論你是藝術家、人文學類工作者、熱愛藝文的開放文化擁護者，文青程式設計師，甚至是路人甲.....，想要在親切人味的藝文氣氛中、藉由科技、藝術、人文與開放文化等話(八)題(卦)的交流中碰撞出智(自)慧(嗨)的火花，都歡迎一起來參加！
+
+藝開網的集思會聊天主題採「開放提議、協同策劃」的方式進行，若您想提案有興趣的聊天話題，歡迎在集思會專屬Trello上開設主題卡片！方式及建議方向請參閱版上「歡迎在本版開立主題卡片」相關說明。"
+  month: "4"
+  start: 5/28
+  end: 
+  link:
+    - title: FB活動頁
+      url: https://www.facebook.com/events/2075312292761897/
+    - title: 筆記
+      url: https://hackmd.io/ReUq4FKQSZiHvQkM6mo5-Q
+  cover: /p/2019/OCNHFA/ocnhfa201905.jpg
+  contributor_id: 
+    - rock
+  project_id:
+    - ocnhfa
   label: 
   organizer_id: 
   advisor_id: 
@@ -300,13 +386,13 @@
   banner: 
   avatar: 
 0529ogpsummit:
-  title: 國際出訪：2019 OGP summit 國際夥伴聯盟高峰會
-  description: 開放政府夥伴聯盟(OGP)，不只是一個組織，也不只是會議主辦單位，在2011聯合國大會後，OGP 負責串聯各國加入簽署《開放政府宣言》，讓開放政府不再是口號，而有明確的執行準則，以落實政府資訊透明、公民賦權、打擊腐敗、利用科技增進政府治理等等項目。今年 OGP summit 在加拿大渥太華舉行，由外交部統籌，OCF 作為民間團體之一，與其他公民社團代表和政府代表，一同前往參與盛會，也希望台灣在開放政府方面能有實質的進展。
-  month: 5
+  title: "國際出訪：2019 OGP summit 國際夥伴聯盟高峰會"
+  description: "開放政府夥伴聯盟(OGP)，不只是一個組織，也不只是會議主辦單位，在2011聯合國大會後，OGP 負責串聯各國加入簽署《開放政府宣言》，讓開放政府不再是口號，而有明確的執行準則，以落實政府資訊透明、公民賦權、打擊腐敗、利用科技增進政府治理等等項目。今年 OGP summit 在加拿大渥太華舉行，由外交部統籌，OCF 作為民間團體之一，與其他公民社團代表和政府代表，一同前往參與盛會，也希望台灣在開放政府方面能有實質的進展。"
+  month: "5"
   start: 5/29
   end: 5/31
   link:
-    - title: 官方網站
+    - title: 會議官網
       url: https://ogpsummit.org/en/
   cover: /p/2019/intl/2019ogpsummit.jpg
   contributor_id: 
@@ -314,7 +400,7 @@
   project_id:
     - intl
   label: 
-  organizer_id: 
+  organizer_id: 外交部
   advisor_id: 
   co-organizer_id: 
   implementer_id: 
@@ -324,12 +410,10 @@
   speaker_id: 
   banner: 
   avatar: 
-
-
 0611Rightscon2019:
-  title: 國際出訪：Rightscon summit
-  description: RightsCon 數位人權大會是由 Access Now 所主辦、目前世界最大的數位人權活動國際組織 Access Now ，是一個致力於開放自由網路的人權、公共政策、與倡議性之國際非營利組織。每年的 Rightscon 在全球不同城市舉辦
-  month: 6
+  title: "國際出訪：Rightscon summit "
+  description: "國際出訪：RightsCon 數位人權大會是由 Access Now 所主辦、目前世界最大的數位人權活動國際組織 Access Now ，是一個致力於開放自由網路的人權、公共政策、與倡議性之國際非營利組織。每年的 Rightscon 在全球不同城市舉辦"
+  month: "6"
   start: 6/11
   end: 6/14
   link:
@@ -353,9 +437,9 @@
   banner: 
   avatar: 
 0614HKOSCon:
-  title: 國際出訪：Hong Kong Open Source Conference 香港開源年會
-  description: 香港開源年會旨在推動開放原始碼開發，促進社群交流，並鼓勵工商業界使用開放原始碼軟體及方案。今年 COSCUP 與 HKOSC 首度合作交換議程軌，COSCUP 籌組台灣遠征團隊至香港，規劃整個「COSCUP 特別議程軌」活動，切磋技術、互相交流。
-  month: 6
+  title: "國際出訪：Hong Kong Open Source Conference 香港開源年會"
+  description: "國際出訪：香港開源年會旨在推動開放原始碼開發，促進社群交流，並鼓勵工商業界使用開放原始碼軟體及方案。今年 COSCUP 與 HKOSC 首度合作交換議程軌，COSCUP 籌組台灣遠征團隊至香港，規劃整個「COSCUP 特別議程軌」活動，切磋技術、互相交流。"
+  month: "6"
   start: 6/14
   end: 6/15
   link:
