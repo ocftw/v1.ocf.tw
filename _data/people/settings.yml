@@ -8,6 +8,8 @@ card:
 # name: 網頁上的小標題要顯示什麼字
   - id: staff
     name: 工作人員
+  - id: intern
+    name: 實習生
   - id: consultants
     name: 顧問
   - id: volunteers
