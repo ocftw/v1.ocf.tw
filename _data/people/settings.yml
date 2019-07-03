@@ -10,8 +10,6 @@ card:
     name: 工作人員
   - id: consultants
     name: 顧問
-  - id: alumni
-    name: 校友
   - id: volunteers
     name: 熱血志工
   - id: board
