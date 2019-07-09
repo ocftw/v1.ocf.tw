@@ -197,7 +197,7 @@
   start: 4/15
   end: 4/15
   link:
-    - title: 活動網頁&報名(3/16-4/12)
+    - title: 活動網頁
       url: https://ocftw.kktix.cc/events/openist-licensing
     - title: 筆記/簡報
       url: https://hackmd.io/s/rk-sbm42z
@@ -384,8 +384,11 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   start: 6/24
   end:
   link:
-    - title: 活動網頁 (6/19-6/23)
+    - title: 活動網頁
       url: https://ocftw.kktix.cc/events/openist-githubdesktop
+  link:
+    - title: 簡報
+      url: https://drive.google.com/open?id=1-1PV87hKHnSSDDAJ9sRBwSXT9ooSZgxA
   cover: /p/2019/openists/openists20190624.png
   contributor_id: 
     - rock
