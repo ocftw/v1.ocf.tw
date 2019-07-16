@@ -1,5 +1,32 @@
 # 警告！編輯此檔案請同步編輯 Google 試算表： https://docs.google.com/spreadsheets/d/1Jkf1VyZrzbmyWvz5LRh7HI07uchdikIHVSM-1vxb9-Q/edit
 # 否則你的修改將會被蓋掉！
+
+0216pycourse:
+  title: "【高雄 Python 學院】 用Python建構股票分析系統(寒假班)        "
+  description: "本課程著重在思考，主要的目標是要引導學員對投資理財做自發性的思考，並讓學員於課程後擁有一個簡單的股票分析系統。
+課程首先會講解股票分析系統的架構，之後我們會說明如何訂定策略及藉由回測來判斷策略的好壞，希望藉由循序漸進的引導，最後可以讓學員建構出自己的股票分析系統。"
+  month: "2"
+  start: 2/16
+  end: 2/16
+  link:
+    - title: 活動資訊及報名
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20190216
+  cover: /p/2018/pycourse/pycourse-Kaohsiung%20.png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
 0225greenhost1:
   title: "Greenhost 如何建立獨立且開放的雲端主機平台？主題一：資料中心與網路骨幹"
   description: "OCF 不定期與國際友人合作，在台灣舉辦推廣開放文化的活動。本次由來自阿姆斯特丹的主機託管商 Greenhost 的創辦人 Mart 來進行三場經歷真槍實戰後所建立一座主機託管服務商的分享，預計將會針對不同的基礎建設拆分成 3 場精彩的內容，於 2/25 起每週一晚上舉辦：
@@ -14,7 +41,7 @@
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/greenhost1
   cover: /p/2019/intl/banner-840x420.png
-  contributor_id: 
+  contributor_id:
     - pellaeon
   project_id:
     - intl
@@ -42,7 +69,7 @@
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/greenhost2
   cover: /p/2019/intl/banner-840x420.png
-  contributor_id: 
+  contributor_id:
     - pellaeon
   project_id:
     - intl
@@ -70,7 +97,7 @@
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/greenhost3
   cover: /p/2019/intl/banner-840x420.png
-  contributor_id: 
+  contributor_id:
     - pellaeon
   project_id:
     - intl
@@ -97,7 +124,7 @@
     - title: 報名頁面
       url: https://ocftw.kktix.cc/events/ocf-spring-2019?fbclid=IwAR3RI3tqO66KQG_jM7TwzURgIihBG39qvAGkV2tO3eQb5UaSBNP3ZnKPbP8
   cover: \p\2019\admin\2019 spring party.png
-  contributor_id: 
+  contributor_id:
     - 
   project_id:
     - admin
@@ -122,7 +149,7 @@
     - title: 活動紀錄官網
       url: https://tictec.mysociety.org/2019
   cover: /p/2019/intl/2019 TICTeC.png
-  contributor_id: 
+  contributor_id:
     - aiya
   project_id:
     - intl
@@ -145,7 +172,7 @@
   end: 3/29
   link:
   cover: /p/2019/intl/Infracon_2019_twheading-1024x341.jpg
-  contributor_id: 
+  contributor_id:
     - pellaeon
   project_id:
     - intl
@@ -172,7 +199,7 @@
     - title: 出訪報告
       url: https://docs.google.com/document/d/1AEWozvYGMxPx0bRbwSas19jHxGaMt-3ySrhGRwZy_ac/edit
   cover: /p/2019/intl/internet-freedom-festival-logo.png
-  contributor_id: 
+  contributor_id:
     - pellaeon
     - lulukeng
   project_id:
@@ -202,7 +229,7 @@
     - title: 筆記/簡報
       url: https://hackmd.io/s/rk-sbm42z
   cover: /p/2019/openists/openists20190415.png
-  contributor_id: 
+  contributor_id:
     - singing
     - rock
   project_id:
@@ -218,7 +245,56 @@
   speaker_id: 
   banner: 
   avatar: 
-
+0420pycourse:
+  title: "【高雄 Python 學院】 Python 基礎及應用 (假日班)"
+  description: "本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。"
+  month: "4"
+  start: 4/20
+  end: 4/20
+  link:
+    - title: 活動資訊及報名
+      url: https://pycourse.kktix.cc/events/khpy20190420
+  cover: /p/2018/pycourse/pycourse-Kaohsiung%20.png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
+0423pycourse:
+  title: "【高雄 Python 學院】 Python 基礎及應用 (平日班)"
+  description: "本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。"
+  month: "4"
+  start: 4/23
+  end: 4/23
+  link:
+    - title: 活動資訊及報名
+      url: https://pycourse.kktix.cc/events/khpy20190423
+  cover: /p/2018/pycourse/pycourse-Kaohsiung%20.png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
 0503IFF:
   title: "全球最大—網路自由節 Internet Freedom Festival 回國分享"
   description: "IFF是捲動全球網路自由社群的 Unconference 大會，以非傳統、充滿火花、深度交流、如慶典般的盛會著稱，2019 台灣有12位參與者，為大家帶來第一手的分享。 "
@@ -229,7 +305,7 @@
     - title: 活動報名頁
       url: https://ocftw.kktix.cc/events/visitiff2019
   cover: /p/2019/intl/2019 IFF 分享會.jpg
-  contributor_id: 
+  contributor_id:
     - pellaeon
   project_id:
     - intl
@@ -257,7 +333,7 @@
     - title: 活動速記
       url: https://medium.com/@cctaiwan/%E9%82%A3%E4%BA%9B-global-creative-commons-summit-2019-%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%8B-214352b43b42
   cover: /p/2019/cctw/20180413cc.png
-  contributor_id: 
+  contributor_id:
     - singing
     - rock
   project_id:
@@ -284,7 +360,7 @@
     - title: 活動報名頁
       url: https://ocftw.kktix.cc/events/ticteciff2019
   cover: /p/2019/intl/2019 TICTeC&IFF分享會.jpg
-  contributor_id: 
+  contributor_id:
     - lulukeng
   project_id:
     - intl
@@ -309,12 +385,62 @@
     - title: 會議官網
       url: https://ogpsummit.org/en/
   cover: /p/2019/intl/2019ogpsummit.jpg
-  contributor_id: 
+  contributor_id:
     - lulukeng
   project_id:
     - intl
   label: 
   organizer_id: 外交部
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
+0608FtOMeetandHack:
+  title: "國際出訪：Facing the Ocean Meet and Hack面海黑客松"
+  description: "國際出訪：FtO Meet and Hack為台灣公民科技社群首次參與主辦的跨國黑客松活動，由台灣、日本、南韓及香港的公民科技團體於沖繩市府之新創空間舉行，專案提案包括環境、弱勢權益、人權等。"
+  month: "6"
+  start: 6/8
+  end: 6/9
+  link:
+    - title: HackMD
+      url: https://g0v.hackmd.io/sKoAWScPRxqizCZVMl7JoQ
+  cover: /p/2019/intl/FtOMeetandHack.jpeg
+  contributor_id:
+    - Howie
+  project_id:
+    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
+0610pycourse:
+  title: "【高雄 Python 學院】 Python 基礎及應用 (平日班)"
+  description: "本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。"
+  month: "6"
+  start: 4/23
+  end: 4/23
+  link:
+    - title: 活動資訊及報名
+      url: https://pycourse.kktix.cc/events/khpy20190610
+  cover: /p/2018/pycourse/pycourse-Kaohsiung%20.png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
+  label: 
+  organizer_id: 
   advisor_id: 
   co-organizer_id: 
   implementer_id: 
@@ -334,7 +460,7 @@
     - title: 官方網站
       url: https://www.rightscon.org/
   cover: \p\2019\intl\RC2019Tunis.jpg
-  contributor_id: 
+  contributor_id:
     - yhchang
     - pellaeon
   project_id:
@@ -360,7 +486,7 @@
     - title: 官方網站
       url: https://hkoscon.org/2019/
   cover: /p/2019/intl/HKOSCon0614.png
-  contributor_id: 
+  contributor_id:
     - singing
   project_id:
     - intl
@@ -375,24 +501,78 @@
   speaker_id: 
   banner: 
   avatar: 
-
 0624openists:
-  title: "開源教 - 教我玩轉桌面 GitHub"
+  title: "開源教 - 教我玩轉桌面 GITHUB"
   description: "身處在 3C（C 是 Computers：手機、平板、電腦）時代，不可能再只用紙張和文件夾來管理檔案，而管理大量的檔案，就會需要用到版本控制的概念。傳統的版本控制是把檔案名稱用 ooo_v1、ooo_v2 或是其他改檔名的方式，來區隔出不同時期所編輯的版本，管理起來不方便，且容易弄錯。
 GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使用的工具，他可以透過圖形化介面的操作，輕輕鬆鬆用版本控制的概念，和其他協作者一起管理 GitHub 上的專案，或是你電腦裡的檔案。如果你還弄不清楚 pull request、commit、conflict 是什麼，那這堂課就非常適合你來哦！"
   month: "6"
   start: 6/24
-  end:
+  end: 
   link:
     - title: 活動網頁
       url: https://ocftw.kktix.cc/events/openist-githubdesktop
     - title: 簡報
       url: https://drive.google.com/open?id=1-1PV87hKHnSSDDAJ9sRBwSXT9ooSZgxA
   cover: /p/2019/openists/openists20190624.png
-  contributor_id: 
+  contributor_id:
     - rock
   project_id:
     - admin
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
+0728cctw:
+  title: "Creative Commons Taiwan Chapter #2"
+  description: "* Chapter Representative 與 Chapter Lead 的改選
+* CC Summit 2019 分享！
+* CC Website 討論
+* CC 募款頁發表！
+* 共同翻譯書籍小成果發表！ 
+* 玩 CC 推廣用 Poker！"
+  month: "7"
+  start: 7/28
+  end: 
+  link:
+    - title: 社群網站
+      url: http://cc.ocf.tw
+  cover: /people/partners/cctw_logo.png
+  contributor_id:
+    - rock
+  project_id:
+    - cctw
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
+0729pycourse:
+  title: "手把手打造智慧音箱 | Hack Google AIY Voice Kit"
+  description: "本次課程將透過簡單明嘹的教學，讓您輕鬆使用 Python 程式語言，透過 Raspberry Pi 的環境設定，快速地打造屬於自己的智慧音箱。喜愛動手做、熱愛新玩意的你千萬不可錯過喔！"
+  month: "7"
+  start: 7/29
+  end: 7/30
+  link:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=15
+  cover: /p/2019/pycourse/pysosorry.png
+  contributor_id:
+    - rock
+  project_id:
+    - pycourse
   label: 
   organizer_id: 
   advisor_id: 
