@@ -110,6 +110,7 @@ card:
   - g0vgrants
   - ocnhfa
   - intldonate
+  - cscs
 
 card_en:
 # 英文專案列表頁上的專案卡片，會以這個清單的順序排列。
@@ -126,3 +127,4 @@ card_en:
   - sitcon
   - cctw
   - debconf18
+  - cscs
