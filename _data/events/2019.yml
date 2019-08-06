@@ -1,6 +1,5 @@
 # 警告！編輯此檔案請同步編輯 Google 試算表： https://docs.google.com/spreadsheets/d/1Jkf1VyZrzbmyWvz5LRh7HI07uchdikIHVSM-1vxb9-Q/edit
 # 否則你的修改將會被蓋掉！
-
 0216pycourse:
   title: "【高雄 Python 學院】 用Python建構股票分析系統(寒假班)        "
   description: "本課程著重在思考，主要的目標是要引導學員對投資理財做自發性的思考，並讓學員於課程後擁有一個簡單的股票分析系統。
@@ -226,8 +225,8 @@
   start: 4/15
   end: 4/15
   link:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/openist-licensing
+    - title: 錄影
+      url: https://youtu.be/raHdvb8y_-Q
     - title: 筆記/簡報
       url: https://hackmd.io/s/rk-sbm42z
   cover: /p/2019/openists/openists20190415.png
@@ -511,8 +510,8 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   start: 6/24
   end: 
   link:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/openist-githubdesktop
+    - title: 錄影
+      url: https://youtu.be/skhzt66nrNc
     - title: 簡報
       url: https://drive.google.com/open?id=1-1PV87hKHnSSDDAJ9sRBwSXT9ooSZgxA
   cover: /p/2019/openists/openists20190624.png
@@ -585,7 +584,7 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   host_id: 
   speaker_id: 
   banner: 
-  avatar:
+  avatar: 
 0821openists:
   title: "開源教 - 教我認清著作權＋快樂使用網路資源"
   description: "網路世界是一個巨大的資源寶庫，卻也暗藏各種侵權地雷，如果不了解著作權的基本概念，隨時有可能踩線卻不自知。其實只要學會「探路」的訣竅，就能快樂使用網路資源，善用開源的資源實現各種創意！
@@ -596,7 +595,7 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   link:
     - title: 活動網頁
       url: https://ocftw.kktix.cc/events/openist-ipandcc
-  cover: \p\2019\openists\openists20190821.png
+  cover: /p/2019/openists/openists20190821.png
   contributor_id:
     - rock
   project_id:
@@ -612,23 +611,26 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   speaker_id: 
   banner: 
   avatar: 
-
-
-
-0824cscs:
-  title: 網路公民必須學會的資安防護
-  description: 數位科技是鼓勵群眾參加活動的有利武器，但同時也將參加者暴露在政府的監控下。極權高科技監控時代，參加者越需要在彼此間串連時保護自己 。例如，香港近期的社會運動中，政府利用數位足跡找出參加者的真實身分，而為了避免政府的監控，香港社運人士揚棄較為開放的 Facebook 與 Twitter，轉向使用隱密的加密即時通訊軟體。這些平台讓參加者可以用較為安全的方式散播活動的資訊和策略，掌握物資的流動，讓參加者免於受監控之恐懼。當網路成為人們獲取資訊、參與公共事務的管道，參加者如何避免在網路監控時代下留下電子足跡？要如何兼顧資訊安全，並確保參與公民的自由與人權呢？讓您不能不知的資訊安全 ABC 一次就上手！
+0824 資安講座:
+  title: "網路公民必須學會的資安防護"
+  description: "數位科技是鼓勵群眾參加活動的有利武器，但同時也將參加者暴露在政府的監控下。極權高科技監控時代，參加者越需要在彼此間串連時保護自己 。例如，香港近期的社會運動中，政府利用數位足跡找出參加者的真實身分，而為了避免政府的監控，香港社運人士揚棄較為開放的 Facebook 與 Twitter，轉向使用隱密的加密即時通訊軟體。這些平台讓參加者可以用較為安全的方式散播活動的資訊和策略，掌握物資的流動，讓參加者免於受監控之恐懼。
+當網路成為人們獲取資訊、參與公共事務的管道，參加者如何避免在網路監控時代下留下電子足跡？要如何兼顧資訊安全，並確保參與公民的自由與人權呢？讓您不能不知的資訊安全 ABC 一次就上手！
+【時間】2019/8/24 (週六) 14:30-17:30  
+【主講】王保羅（媒體工作者，常駐香港）
+                 秉宇 / PCC（CSCS 資安講師）
+【地點】創咖啡 Trust Cafe
+"
   month: "8"
   start: 8/24
   end: 8/24
   link:
-    - title: FB活動頁
+    - title: FB活動頁 
       url: https://www.facebook.com/events/2438418669711037/
-    - title: 報名連結(2019/8/15截止)
+    - title: 報名連結
       url: https://forms.gle/8ve26T1NevX6kyJS9
-  cover: \p\2019\intl\青平台824講座宣傳圖1.png
+  cover: https://drive.google.com/open?id=1dbtjkuo4h0BTXJi6VGAulYWmdtLdlz2r
   contributor_id:
-    - aiya
+    - Aiya
   project_id:
     - cscs
   label: 
@@ -641,8 +643,7 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   host_id: 
   speaker_id: 
   banner: 
-  avatar:
-
+  avatar: 
 0829cscstot:
   title: "NGO 資安種子講師訓練"
   description: "台灣擁有在國際間相當知名的開源社群，亦有著極為活躍的公民社會。為了促進這兩個社群之間的交流，開放文化基金會國際交流組與華人民主書院、台灣駭客協會、台灣人權促進會共四個組織共同開啟 「CSCS 專案：Civil Society Cyber Shield」，讓社會運動與組織者能夠接觸最新的資安工具、對抗資安威脅，在安全的線上環境中推動社會議題。2019 年， CSCS 希望招募新一批志工資安講師，持續進行資訊安全、隱私權的推廣及教學工作。"
@@ -667,4 +668,4 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   host_id: 
   speaker_id: 
   banner: 
-  avatar:
+  avatar: 
