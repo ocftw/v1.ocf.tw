@@ -4,3 +4,7 @@ _site
 _deploy
 *.lock
 Gemfile
+_data/events/2019.yml
+p/2019/COSCUP/COSCUP-2019.png
+_data/events/2019.yml
+*.yml
