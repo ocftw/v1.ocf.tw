@@ -460,6 +460,8 @@
   link:
     - title: 官方網站
       url: https://www.rightscon.org/
+    - title: 出訪紀錄
+      url: https://drive.google.com/open?id=11gE-oYY_UVfPfWqv-vkL0eVaGG0p575r
   cover: \p\2019\intl\RC2019Tunis.jpg
   contributor_id:
     - yhchang
@@ -587,27 +589,24 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   speaker_id: 
   banner: 
   avatar: 
-
 0817COSCUP:
-  title: COSCUP 2019
-  description: 開源人年會 COSCUP 已經邁入第十四年了，今年的活動有些特別，除了延續去年首次嘗試的社群議程外，今年的時間地點則於 8/17-18 在台灣科技大學國際大樓舉辦。過去，COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，今年除了有在地社群成為議程的協力夥伴外，更加入了國際社群們，希望能打造更多元的主題和議程。無論你是寫 open source 軟體的開發者、熱衷 open source 軟體的推廣者、熟悉 open source 軟體的使用者或是想了解 open source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP 2019！
+  title: "COSCUP 2019"
+  description: "開源人年會 COSCUP 已經邁入第十四年了，今年的活動有些特別，除了延續去年首次嘗試的社群議程外，今年的時間地點則於 8/17-18 在台灣科技大學國際大樓舉辦。過去，COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，今年除了有在地社群成為議程的協力夥伴外，更加入了國際社群們，希望能打造更多元的主題和議程。無論你是寫 open source 軟體的開發者、熱衷 open source 軟體的推廣者、熟悉 open source 軟體的使用者或是想了解 open source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP 2019！"
   month: "8"
   start: 8/17
   end: 8/18
   link:
     - title: 活動網頁
       url: https://coscup.org/2019/
-  cover: \p\2019\coscup\coscup2019.png
+  cover: \p\2019\COSCUP\COSCUP-2019.png
   contributor_id:
     - rosa
   project_id:
+    - coscup
   label: 
   organizer_id: 
-    - coscup
   advisor_id: 
   co-organizer_id: 
-    - ocf
-    - ntust
   implementer_id: 
   sponsor_id: 
   coordinator_id: 
@@ -615,7 +614,6 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   speaker_id: 
   banner: 
   avatar: 
-
 0821openists:
   title: "開源教 - 教我認清著作權＋快樂使用網路資源"
   description: "網路世界是一個巨大的資源寶庫，卻也暗藏各種侵權地雷，如果不了解著作權的基本概念，隨時有可能踩線卻不自知。其實只要學會「探路」的訣竅，就能快樂使用網路資源，善用開源的資源實現各種創意！
@@ -700,12 +698,39 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   speaker_id: 
   banner: 
   avatar: 
+1004JCConf:
+  title: "JCConf 2019"
+  description: "JCConf Taiwan (Java Community Conference Taiwan) 是由社群成員發起的 Java 程式語言及相關領域研討會，由 TWJUG (Taiwan Java User Group) 主辦，Scala Taiwan 和 科斯高 協辦。宗旨在提供台灣的 Java 開發者有更多參與社群以及交流技術的機會，目標與會對象主要為使用 Java 語言及 JVM 相關技術的程式開發者和相關從業人員。"
+  month: "10"
+  start: 10/4
+  end: 10/4
+  link:
+    - title: 官網
+      url: https://jcconf.tw/2019/
+    - title: 報名頁
+      url: https://twjug.kktix.cc/events/jcconf-2019
+  cover: \p\2019\JCConf\JCConf2019.png
+  contributor_id:
+    - rosa
+  project_id:
+    - jcconf
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
 1015 資安講座:
   title: "數位時代，自已的權利自己顧 -- 基礎資安教戰講座"
   description: "隨著科技發展越發進步、方便，人手一機上網搞定生活大小事已成常態，然而資料數位化廣泛應用後，本來應該只在自己電腦&手機&帳戶裡的資訊，常在不知不覺間成為別人輕易可獲取的資訊。資訊安全已成為現代網民必備知識，更是數位公民不可不會的重要技能！千萬別錯過為初心者準備的教戰訓練。
 時間：10/15 晚上 7.30-9.30 pm
 地點： 77 OMG 文創中心
-主講：珣珣 / Hazel Yen
+主講：珣珣 / Hazel Yen  
 "
   month: "10"
   start: 10/15
@@ -715,17 +740,17 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
       url: https://ocftw.kktix.cc/events/e0c1048b
   cover: /p/2019/intl/數位時代，自己的權利自己顧！.png
   contributor_id:
-    - aiya
+    - Aiya
   project_id:
-    - cscs
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner:
-  avatar:
+    - 
+  label: 
+  organizer_id: 
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
