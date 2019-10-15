@@ -1,0 +1,40 @@
+name: 開源貢獻者快速通關
+name_en: OSCVPass
+tagline: 省時快速、輕鬆開源！
+cover: \p\2019\oscvpass\OSCVIP快速通關.png
+description: OSCVPass(開源貢獻者快速通關)是由 OCF 發起的全新專案。由 OCF 募集志工，審核 SITCON、COSCUP 等不同開源社群活動的開源貢獻者申請資格，並處理統整資料等庶務，同時精省活動志工的工作流程與貢獻者反覆整理申請資料的時間，達到雙贏局面。
+
+link:
+  - title: 專案介紹
+    url: /p/2019/oscvpass
+    target: _self
+type_id:
+  - community
+topic_id:
+  - misc
+field_id:
+  - misc
+avatar: 
+organizer_id:
+  - ocf
+  - coscup
+  - sitcon
+advisor_id:
+co-organizer_id:
+implementer_id:
+sponsor_id:
+coordinator_id:
+donors:
+meta:
+start: 
+end: 
+tag:
+abbr: 
+month: 
+board_id:
+  - singing
+staff_id: 
+  - singing
+  - rosa
+consultant_id:
+volunteer_id:
