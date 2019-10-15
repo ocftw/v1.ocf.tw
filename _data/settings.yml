@@ -20,8 +20,8 @@ menu:
     url: /p/
   - title: 活動
     url: /journal/
-  - title: 媒體區
-    url: /mediakit/
+  - title: News
+    url: /news/
 
 menu_en:
   - title_en: About

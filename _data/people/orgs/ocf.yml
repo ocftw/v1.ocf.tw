@@ -27,19 +27,12 @@ contact:
     taipei: (10058) 4F., No.94, Sec. 1, Bade Rd., Zhongzheng Dist., Taipei City 100, Taiwan
     taoyuan: (33059) No.807, Zhongshan Rd., Taoyuan Dist., Taoyuan City 330, Taiwan
 subscribe:
-  - title: News
-    url: /news
-    icon: newspaper
-    target: _self
   - title: Blog
     url: http://blog.ocf.tw/
     icon: rss
   - title: Facebook
     url: https://www.facebook.com/www.ocf.tw
     icon: facebook
-  - title: Google+
-    url: https://www.google.com/+OcfTw
-    icon: google plus
   - title: YouTube
     url: https://www.youtube.com/c/OcfTw
     icon: youtube play
@@ -56,6 +49,10 @@ join:
   - title: GitHub
     url: https://github.com/ocftw
     icon: github
+  - title: 媒體區
+    url: /mediakit
+    icon: image
+    target: _self
 icon: /mediakit/icon_white.png
 logo: /mediakit/logo.png
 avatar: /mediakit/avatar.jpg
