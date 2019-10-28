@@ -1,0 +1,122 @@
+---
+layout: project
+# 要套用哪種版型，凡是專案頁都套用 project 版型，所以這行不用改
+
+year: 2019
+# 要從哪個年份抓這頁所需的資料，如：2016
+
+project_id: gdghualien
+# 要從哪個專案 id 抓這頁所需的資料，如：intl
+
+# ------ 以上為必要，以下為非必要 ------
+
+og_title: GDG Hualien
+# 這頁的 og title，若 no 或留空，會採用專案的 name 資料，也就是中文全名
+
+og_description: 
+# 這頁的 og description，若 no 或留空，會採用專案的 description 資料
+
+og_image:  
+# 這頁的 og image 網址，若 no 或留空，會採用專案的 cover 資料
+
+cover_image: p/2019/gdghualien/cover.png
+# 這頁上方大標題區塊的背景圖網址，若 no 或留空，會採用專案的 cover 資料
+
+cover_image_opacity: 
+# 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設是 0.95
+
+cover_veil_opacity: 
+# 這頁上方大標題區塊的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設值是 0.1
+
+color: blue
+# 這頁上方大標題區塊的背景圖混色，以及緊接在大標題區塊之下的摘要區塊的背景顏色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
+
+sidebar_image: no
+# 這頁右側邊欄的配圖，若 no 或留空，會採用專案的 avatar 資料，或主辦單位組織的 avatar / logo / cover 資料，或 semantic ui 的 info icon （以上順序即為採用資料的優先順位，若前一個無資料，則會去找下一個）
+
+show_events: no
+# 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若 no 或留空，則不顯示計畫成果區塊
+
+show_budget: no
+# 是否顯示預算表，若填 yes 則會自動抓取專案資料夾中的 budget.html 檔案做為預算表內容，若 no 或留空，則不顯示預算表區塊
+
+gsheet_url: no
+# 收支表的 google spreadsheet 網址，若 no 或留空，則不顯示收支明細區塊
+
+show_sponsors: no
+# 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若 no 或留空，則不顯示贊助商區塊
+
+show_donors: no
+# 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若 no 或留空，則不顯示捐助人區塊
+
+show_progress: no
+# 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若 no 或留空，則不顯示進度條
+
+cpid: no
+# 專案從 neticrm 抓募款進度資料時使用的 id，若 no 或留空，則不從 neticrm 抓資料
+
+progress:
+# 專案募款進度，會出現在專案列表頁右側邊欄
+  duration: no
+  # 募款期間，若 no 或留空，則不顯示此項目
+  goal: NT$ no
+  # 募款目標金額，若 no 或留空，則不顯示此項目
+  current: no
+  # 已募得款項金額，若 no 或留空，則不顯示此項目
+  percent: no
+  # 進度百分比，若 no 或留空，則不顯示此項目
+  count: no
+  # 捐款人數，若 no 或留空，則不顯示此項目
+  updated: no
+  # 資料更新日期，若 no 或留空，則不顯示此項目
+
+action: 
+# 專案頁的 call to action，可以是按鈕或一段文字，會出現在右側邊欄的最下方
+  - title: 贊助專案
+    # 按鈕上的文字
+    url: url
+    # 按下後會連去哪裡
+    color: teal
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    icon: dollar
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+  - title: text
+    # 沒有設定 url 的狀況下，會單純以一段文字的形式顯示
+
+
+---
+
+<h2 class="ui dividing header">計畫簡介</h2>
+
+<p>
+GDG 花蓮是 2019 年初成立的 Google 技術開發者社群，舉行各類聚會，包含演講、自由交流、 workshop, study jam, 及年會 Devfest。
+</p>
+<p>
+由於創立成員與花蓮 Python 社群重疊度很高，議題較偏向開源技術，如 Tensorflow, Keras, Kotlin, Docker, Android, 以及 Python 和 Raspberry Pi 上 Google 的 API，讓不同專業以及不同背景的高手，能互相交流、擦出火花。
+</p>
+<p>
+在初學者方面，我們也利用建置雲端環境的方式，自然而然的介紹 linux 命令列、 git、 ssh 等開源技術常見的工具和觀念。 
+</p>
+<p>
+歡迎東部對此有興趣的朋友，加入一起分享技術。
+</p>
+
+<h3 class="ui header">
+共同參與
+</h3>
+
+<div class="ui list">
+  <div class="item">
+    <i class="facebook square"></i>
+    <div class="content">
+      <a href="https://www.facebook.com/GDGHualien/">GDG Hualien 粉絲專頁</a>
+    </div>
+  </div>
+  <div class="item">
+    <i class="meetup"></i>
+    <div class="content">
+      <a href="https://www.meetup.com/GDG-Hualien/">GDG Hualien Meetup</a>
+    </div>
+  </div>
+</div>
+

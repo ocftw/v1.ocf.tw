@@ -1,0 +1,161 @@
+---
+layout: event
+year: 2019
+project_id: gdghualien
+event_id: gdgdfhl2019
+color: teal
+veil_opacity:
+
+summary:
+  - 由花蓮 Google 開發者社群 (GDG Hualien)、女性資訊技術從業人員社群 (Women Techmakers) 共同舉辦。
+  - 做為花蓮年度盛大的 Google 技術社群研討會，我們希望能在輕鬆的環境下讓您盡情瞭解我們所做的經驗分享！
+
+agenda:
+  - time: 08:30 - 09:00
+    title: 報到 / Registration
+  - time: 09:20 - 09:30
+    title: 開場 / Opening
+    speaker: 魏澤人
+  - time: 09:30 - 10:00
+    title: 主題演講：(TBD)
+    speaker: 范聖佑 Shengyou Fan
+  - time: 10:00 - 10:10
+    title: Break
+  - time: 10:10 - 10:40
+    title: APP Girls創辦人教你如何跨越程式高牆 - admob google廣告串接與開發經驗和自學經驗分享
+    speaker: 鄭雅方
+  - time: 10:40 - 10:50
+    title: Break
+  - time: 10:50 - 11:20
+    title: 探索 BigQuery
+    speaker: Bob Lee
+  - time: 11:20 - 11:30
+    title: Break
+  - time: 11:30 - 12:00
+    title: Kotlin overview
+    speaker: Takkuma Lee
+  - time: 12:00 - 13:00
+    title: Lunch Break
+  - time: 13:00 - 13:30
+    title: 女性開發者經驗分享
+    speaker: Smile Chao / Bob Lee / 鄭雅方
+  - time: 13:30 - 13:40
+    title: Break
+  - time: 13:40 - 14:30
+    title: 工作坊1
+    subtitle: 程式麻瓜也能玩聊天機器人，免程式，使用 Dialogflow 建置 Google 語音助理動作 (Google Assistant Action)
+    speaker: 林建宏 Wolke Lin
+  - time: 14:30 - 15:00
+    title: Tea Break
+  - time: 15:00 - 16:00
+    title: 工作坊2
+    subtitle: 實作 Google Cloud Run 作為 dialogflow webhook
+    speaker: 林建宏 Wolke Lin
+  - time: 16:00 - 16:10
+    title: Break
+  - time: 16:10 - 16:40
+    title: 探索 Tensorflow 2.0
+    speaker: 魏澤人
+  - time: 16:40 - 17:00
+    title: 閉幕 / Closing Ceremony
+
+speakers:
+  - name: 魏澤人
+    title: ML GDE / 交大 AI 學院副教授
+    avatar: 
+    description:
+    specialty:
+    experience:
+    education:
+  - name: 范聖佑 Shengyou Fan
+    title: JetBrains Developer Advocate
+    avatar: 
+    description:
+      JetBrains 技術傳教士，負責推廣 IntelliJ IDEA 系列 IDE 及 YouTrack、TeamCity、Upsource 等團隊合作解決方案，協助開發者善用工具輔助來提升生產力，同時維護程式碼品質。工作之餘也熱血經營技術社群，常在各社群及研討會裡出沒，歡迎拍打餵食。
+  - name: 鄭雅方
+    title: App Girls 創辦人
+  - name: Bob Lee
+    title: Software Engineer, Decore
+  - name: Takkuma Lee
+    title: Android Engineer
+    description:
+      喜歡技術與研究，專門挖坑順便推人下坑然後自己無法補完坑；專注於 Android application 開發，目前研究學習開發 Flutter 與 iOS 中。
+  - name: Smile Chao
+    title: consultant + Digi maker
+  - name: 林建宏 Wolke Lin
+    title: Assistant GDE / LAE / Voice app studio 創辦人
+    avatar: 
+    description:
+     台灣 9 位 LAE (LINE API EXPERT)之一 亞太 4 位 Assistant GDE(Google Developer Expert) 之一 voice app studio 創辦人 http://facebook.com/voiceappstudio/ 軟體工程系統開發，技術文件寫作, 教育訓練，喜好研究程式語言、框架、社群，從中學習設計，目前以node.js 開發前後台及智能語音應用/聊天機器人為主。
+
+---
+
+{% assign year = page.year | append: "" %}
+{% assign event_id = page.event_id | append: "" %}
+{% assign event = site.data.events[year][event_id] %}
+
+{% include_relative intro.html %}
+<div class="ui horizontal divider">
+  <i class="icon announcement"></i>
+</div>
+
+{% include event_speakers.html %}
+<div class="ui horizontal divider">
+  <i class="icon announcement"></i>
+</div>
+
+{% include event_agenda.html %}
+<div class="ui horizontal divider">
+  <i class="icon announcement"></i>
+</div>
+
+<p>
+  本活動由開放文化基金會、法國在台協會共同舉辦，g0v 社群國際交流團提供支援。
+</p>
+<p>
+  This event is hosted by Open Culture Foundation, Le Bureau français de Taipei, and supported by the g0v community on international exchange.
+</p>
+
+{% include event_orgs.html %}
+<div class="ui horizontal divider">
+  <i class="icon announcement"></i>
+</div>
+
+<p>「Democracy à la Carte? 民主直接點？」系列活動 (需另外報名）
+</p>
+<div class="ui divided list">
+  <div class="item">
+    8/24(一) 民主與城市展望 / 台大校友會館
+    <a target="_blank" href="http://www.voila.tw/livres/2015/08/13/%E6%B0%91%E4%B8%BB%E8%88%87%E5%9F%8E%E5%B8%82%E5%B1%95%E6%9C%9B-%E5%BA%A7%E8%AB%87%E6%9C%83/">
+    <i class="icon globe"></i>
+    活動資訊</a>
+  </div>
+  <div class="item">
+    8/25(二) 哲學星期五 « 青年參與 » /  台中市中區民族路35號
+    <a target="_blank" href="http://www.voila.tw/livres/2015/08/13/%E5%93%B2%E5%AD%B8%E6%98%9F%E6%9C%9F%E4%BA%94-%E9%9D%92%E5%B9%B4%E5%8F%83%E8%88%87/">
+    <i class="icon globe"></i>
+    活動資訊</a>
+  </div>
+  <div class="item">
+    8/27(四) 民主的數位空間 （本活動）
+  </div>
+</div>
+<p>
+本活動免費參加！如果您希望支持我們舉辦更多國際交流活動，您也可以選擇贊助開放文化基金會，超過三千元我們將致贈本活動門票予您或您的朋友。
+</p>
+
+<div class="ui list">
+  <a target="_blank" href="https://kktix.com/events/ignite-od/registrations/new" class="item">
+  ☞ 立刻贊助國際交流計畫（含 15% 行政費用）</a>
+  <a target="_blank" href="http://ocf.tw/donate/" class="item">
+  ☞ 一般捐款及定期定額</a>
+</div>
+
+<div class="ui horizontal divider">
+  <i class="icon announcement"></i>
+</div>
+
+<h2 class="ui header">報名本活動</h2>
+<iframe class="kktix" src="https://kktix.com/tickets_widget?slug=dalc" frameborder="0" height="420" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+
+
