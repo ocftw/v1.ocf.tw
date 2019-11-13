@@ -784,3 +784,38 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   speaker_id: 
   banner: 
   avatar: 
+1116gdghldf:
+  title: "GDG Hualien DevFest 2019"
+  description: "此次活動我們將邀請GDE、各類型開發者擔任講師與座談人：
+ML GDE/交大 AI 學院, 魏澤人副教授
+GDG Hualien, Bob Lee
+App Girls, 雅方
+GDG Taoyuan, Takuma Lee
+WTM/GDG Hualien, 笑笑
+Assistant GDE/Voice app studio, 林建宏 (Wolke Lin)
+JetBrains Developer Advocate, 范聖佑 (Shengyou Fan)
+
+活動當天的工作坊講師會帶各位實際操作，請大家攜帶筆記型電腦。"
+  month: "11"
+  start: 11/16
+  end: 
+  link:
+    - title: 活動官網
+      url: https://gdg-hualien.site
+      title: 報名頁
+      url: https://gdghualien.kktix.cc/events/devfest2019
+  cover: 
+  contributor_id:
+  project_id:
+    - gdghualien
+  label: 
+  organizer_id: GDG Hualien, WTM
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: Google Inc., 理程興業
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
