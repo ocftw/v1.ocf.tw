@@ -1,0 +1,33 @@
+name: GDG Hualien
+name_en: 
+abbr: GDG Hualien
+tagline: 
+cover: /p/2019/gdghualien/cover.png
+description: GDG 花蓮是 2019 年初成立的 Google 技術開發者社群，舉行各類聚會，包含演講、自由交流、 workshop, study jam, 及年會 Devfest。
+description_en: 
+month: 11
+start: 11/16
+end: 
+link:
+  - title: 專案介紹
+    url: /p/2019/gdghualien
+    target: _self
+tag:
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - gdghualien
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+staff_id: 
+consultant_id:
+volunteer_id:
+coordinator_id:
+

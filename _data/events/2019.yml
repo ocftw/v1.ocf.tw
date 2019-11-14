@@ -767,7 +767,7 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   link:
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/tor2019twsharing
-  cover: 
+  cover:
   contributor_id:
     - pellaeon
     - lulukeng
@@ -804,7 +804,7 @@ JetBrains Developer Advocate, 范聖佑 (Shengyou Fan)
       url: https://gdg-hualien.site
     - title: 報名頁
       url: https://gdghualien.kktix.cc/events/devfest2019
-  cover: 
+  cover: /p/2019/gdghualien/event.png
   contributor_id:
   project_id:
     - gdghualien
