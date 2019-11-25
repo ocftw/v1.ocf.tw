@@ -88,29 +88,6 @@ speakers:
 
 ---
 
-{% assign year = page.year | append: "" %}
-{% assign event_id = page.event_id | append: "" %}
-{% assign event = site.data.events[year][event_id] %}
-
-{% include_relative intro.html %}
-<div class="ui horizontal divider">
-  <i class="icon announcement"></i>
-</div>
-
-{% include event_speakers.html %}
-<div class="ui horizontal divider">
-  <i class="icon announcement"></i>
-</div>
-
-{% include event_agenda.html %}
-<div class="ui horizontal divider">
-  <i class="icon announcement"></i>
-</div>
-
-{% include event_orgs.html %}
-<div class="ui horizontal divider">
-  <i class="icon announcement"></i>
-</div>
 
 <h2 class="ui header">報名本活動</h2>
 <iframe class="kktix" src="https://gdghualien.kktix.cc/events/devfest2019" frameborder="0" height="420" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
