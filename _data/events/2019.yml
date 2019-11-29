@@ -819,3 +819,29 @@ JetBrains Developer Advocate, 范聖佑 (Shengyou Fan)
   speaker_id: 
   banner: 
   avatar: 
+1228wordcamp:
+  title: WordCamp Taipei 2019 
+  description: WordCamp 是由各地區用戶發起的非正式大會，討論 WordPress 這個打造全球超過 7500 萬個網站、自由開源的部落格軟體與之相關的話題。2006 年 Matt Mullenweg 在美國舊金山舉行了第一屆 WordCamp，從那時起，WordPress 社群已發起累計 1005 場 WordCamp，地點遍及 6 大洲、65 個國家與 74 個城市。
+  month: 12
+  start: 12/18
+  end: 
+  link:
+    - title: 活動官網
+      url: https://2019.taipei.wordcamp.org/
+    - title: 報名購票
+      url: https://2019.taipei.wordcamp.org/tickets/
+  cover: /p/2019/wordcamp/WCTPE2019-Key-Visual.png.png
+  contributor_id:
+  project_id:
+    - gdghualien
+  label: 
+  organizer_id: wordcamp
+  advisor_id: 
+  co-organizer_id: 
+  implementer_id: 
+  sponsor_id: 
+  coordinator_id: 
+  host_id: 
+  speaker_id: 
+  banner: 
+  avatar: 
