@@ -1,0 +1,129 @@
+---
+layout: project
+# 要套用哪種版型，凡是專案頁都套用 project 版型，所以這行不用改
+
+year: 2019
+# 要從哪個年份抓這頁所需的資料，如：2016
+
+project_id: oscvpass
+# 要從哪個專案 id 抓這頁所需的資料，如：intl
+
+# ------ 以上為必要，以下為非必要 ------
+
+og_title: OSCVPass 開源貢獻者快速通關 
+# 這頁的 og title，若 no 或留空，會採用專案的 name 資料，也就是中文全名
+
+og_description: 「開源者貢獻票」是在台灣開源社群大型活動中常見的優惠票券，只要向活動主辦方提交在開源領域各個專案的特殊貢獻，即可申請獲取。但參與不同活動往往得分次申請，除了麻煩還是麻煩。為了免去繁瑣程序，OCF 啟動 全新 OSCVPass (開源貢獻者快速通關)專案，僅需向 OCF 提交一次資料，即可申請 COSCUP、SITCON 開源貢獻票！
+# 這頁的 og description，若 no 或留空，會採用專案的 description 資料
+
+og_image: 
+# 這頁的 og image 網址，若 no 或留空，會採用專案的 cover 資料
+
+cover_image: 
+# 這頁上方大標題區塊的背景圖網址，若 no 或留空，會採用專案的 cover 資料
+
+cover_image_opacity:
+# 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設是 0.95
+
+cover_veil_opacity: 0.1
+# 這頁上方大標題區塊的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設值是 0.1
+
+color: Blue
+# 這頁上方大標題區塊的背景圖混色，以及緊接在大標題區塊之下的摘要區塊的背景顏色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
+
+sidebar_image: p\2019\wordcamp\wctpe-logo.png
+# 這頁右側邊欄的配圖，若 no 或留空，會採用專案的 avatar 資料，或主辦單位組織的 avatar / logo / cover 資料，或 semantic ui 的 info icon （以上順序即為採用資料的優先順位，若前一個無資料，則會去找下一個）
+
+show_events:
+# 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若 no 或留空，則不顯示計畫成果區塊
+
+show_budget: 
+# 是否顯示預算表，若填 yes 則會自動抓取專案資料夾中的 budget.html 檔案做為預算表內容，若 no 或留空，則不顯示預算表區塊
+
+gsheet_url: 
+# 收知明細表的 google spreadsheet 網址，若 no 或留空，則不顯示收支明細區塊
+
+show_sponsors:
+# 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若 no 或留空，則不顯示贊助商區塊
+
+show_donors:
+# 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若 no 或留空，則不顯示捐助人區塊
+
+show_progress: 
+# 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若 no 或留空，則不顯示進度條
+
+cpid: 
+# 專案從 neticrm 抓募款進度資料時使用的 id，若 no 或留空，則不從 neticrm 抓資料
+
+progress:
+# 專案募款進度，會出現在專案列表頁右側邊欄
+  duration: 
+  # 募款期間，若 no 或留空，則不顯示此項目
+  goal: 
+  # 募款目標金額，若 no 或留空，則不顯示此項目
+  current: 
+  # 已募得款項金額，若 no 或留空，則不顯示此項目
+  percent: 
+  # 進度百分比，若 no 或留空，則不顯示此項目
+  count: 
+  # 捐款人數，若 no 或留空，則不顯示此項目
+  updated: 
+  # 資料更新日期，若 no 或留空，則不顯示此項目
+
+action: 
+  - title: 立即購票參與
+    url: https://2019.taipei.wordcamp.org/tickets/
+    color: Yellow
+    icon: ticket alternate
+  - title: 官方網站
+    url: https://2019.taipei.wordcamp.org/
+    color: Yellow
+    icon: home
+
+  
+---
+
+
+<h2 class="ui dividing header">活動簡介</h2>
+
+<p>
+WordCamp 是由各地區用戶發起的非正式大會，討論 <a href="https://wordpress.org/">WordPress</a> 這個打造全球超過 7500 萬個網站、自由開源的部落格軟體與之相關的話題。2006 年 Matt Mullenweg 在美國舊金山舉行了第一屆 WordCamp，從那時起，WordPress 社群已發起累計 1005 場 WordCamp，地點遍及 6 大洲、65 個國家與 74 個城市。
+</p>
+<p>
+2016 年末，台北開始了每月不間斷的小聚活動，平均參與人數約 20 位，目標設定在不分年齡性別與職業，對 WordPress 網站有興趣的同好，大家透過持續參與活動交流並且為台灣 WordPress 社群奠下基礎。
+<br>2018 年由一群熱愛開源的夥伴集結號召，與日本社群導師一同完成台灣第一屆 WordCamp Taipei 2018，活動非常成功。</br>
+</p>
+<p>
+活動過後大家的熱情不減，2019 年開始更是快速成長，全台灣陸陸續續有主辦自發號召小聚，時至今日，每個月平均已經有 12 場的小聚在全台灣舉辦，這樣的討論熱度造就今年 WordCamp Taipei 2019 的主題：社群。
+</p>
+<p>
+我們希望各種領域使用到網站資源的夥伴，都可以來認識這樣開源的工具，更能因為不同領域而創造出合作的火花，WordPress 就像是我們會說的語言，彼此互相幫助，這裡就是一個大家庭，大社群。
+
+<ul><li><a href="https://2019.taipei.wordcamp.org/code-of-conduct/">社群行為準則</a></li>
+<ul><li><a href="https://2019.taipei.wordcamp.org/schedule/">WordCamp Taipei 2019 議程資訊</a></li>
+<ul><li><a href="https://2019.taipei.wordcamp.org/travel-guide/">WordCamp Taipei 2019 交通&住宿</a></li>
+</p>
+
+<p>
+社群媒體：
+  <div class="item">
+    <div class="content">
+      <i class="facebook square icon"></i>
+      <a href="https://www.facebook.com/WordCamp.Taipei/">FB 粉絲專頁</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <i class="instagram icon"></i>
+      <a href="https://www.instagram.com/wctpe/">Instagram</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <i class="twitter square icon"></i>
+      <a href="https://twitter.com/WordCampTaipei">Instagram</a>
+    </div>
+  </div>
+
+</p>
+
