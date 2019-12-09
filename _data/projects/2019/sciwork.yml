@@ -30,6 +30,7 @@ advisor_id:
 organizer_id:
   - sciwork
 co-organizer_id:
+  - ocf
 implementer_id:
 board_id:
   - bobchao
