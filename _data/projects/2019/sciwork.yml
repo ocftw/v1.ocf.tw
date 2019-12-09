@@ -12,11 +12,11 @@ start:
 end: 
 link:
   - title: 專案介紹
-    url: /p/sciwork
+    url: /p/2019/sciwork
     target: _self
 link_en:
   - title: Intro
-    url: /en/p/sciwork
+    url: /en/p/2019/sciwork
     target: _self
 tag:
   - 
