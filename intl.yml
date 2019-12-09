@@ -1,0 +1,48 @@
+name: 國際交流計畫
+name_en: International Networking Program
+abbr: 
+tagline: 用科技串起全球公民社群
+tagline_en: Connect global civic tech communities with technology.
+cover: /p/2017/intl/og2017.jpg
+avatar: /p/2019/intl/intl 專案頁 右側圖.jpg
+description: 在無國界的開源社群中，與全球串聯彼此交流，並且把台灣經驗帶往國際舞台產生更大的影響力，有效串連資源，與全球開放科技社群一同成長。過去幾年，透過國際會議參與、跨國講座及工作坊在台舉辦、資料建置撰寫，國際交流組已與許多不同國家團體開啟實質合作的計畫，建立緊密的全球夥伴網絡。
+description_en: OCF has always tried to connect with those who are interested in open source, bring Taiwan experience to the world, and grow with the global community. In the past few years, through international conferences, workshops, data construction, and information sharing, our International Networking Program has teamed up with other organizations, launched many collaborative projects, and created a tight network with open & tech communities from all over the world. 
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/intl
+    target: _self
+link_en:
+  - title: Intro
+    url: /en/p/intl
+    target: _self
+tag:
+  - 盤纏申請
+type_id:
+  - overseas
+topic_id:
+  - data
+field_id: 
+  - it
+advisor_id:
+organizer_id:
+  - ocf
+co-organizer_id:
+implementer_id:
+board_id:
+  - clkao
+staff_id: 
+  - ttcat
+  - mglee
+  - afi
+  - aaron
+  - jason
+  - miniwu
+  - pellaeon 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+
