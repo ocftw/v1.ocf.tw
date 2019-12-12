@@ -23,11 +23,11 @@ avatar:
 organizer_id:
 advisor_id:
 co-organizer_id:
+  - ocf
+  - goscup
 implementer_id:
 sponsor_id:
 coordinator_id:
-  - ocf
-  - goscup
 donors:
 meta:
 
