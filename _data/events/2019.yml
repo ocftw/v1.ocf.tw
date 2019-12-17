@@ -767,7 +767,9 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   link:
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/tor2019twsharing
-  cover:
+    - title: 活動錄影
+      url: https://www.youtube.com/watch?v=Xx7t3aqHuV0&feature=youtu.be
+  cover: /p/2019/intl/Tor KKtix in EN.png
   contributor_id:
     - pellaeon
     - lulukeng
