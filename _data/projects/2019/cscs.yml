@@ -26,8 +26,9 @@ field_id:
   - it
 advisor_id:
 organizer_id:
-  - ocf
+  - cscs
 co-organizer_id:
+  - ocf
   - hitcon
   - tahr
   - newschool
