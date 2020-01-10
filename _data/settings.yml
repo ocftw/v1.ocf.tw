@@ -24,7 +24,7 @@ menu:
     url: /news/
 
 menu_en:
-  - title_en: About
+  - title: About
     url: /en/about/
-  - title_en: Projects
+  - title: Projects
     url: /en/p/

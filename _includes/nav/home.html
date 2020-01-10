@@ -1,7 +1,11 @@
+{% if page.url == '/' or page.url == '/en/' %}
+
 <header id="header" class="ui container">
   <nav class="ui large secondary inverted pointing menu">
 
-    {% include menu_desktop_2016_transition.html %}
+  {% include nav/header.html %}
 
   </nav>
 </header>
+
+{% endif %}
