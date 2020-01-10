@@ -1,0 +1,32 @@
+{% if page.url contains '/en/' %}
+  {% assign lang = 'en' %}
+{% endif %}
+
+{% if lang == "en" %}
+  {% assign home_url = '/en/' %}
+  {% assign menu = site.data.settings.menu_en %}
+  {% assign lang_text = 'Tw' %}
+  {% assign lang_url = '/' %}
+{% else %}
+  {% assign home_url = '/' %}
+  {% assign menu = site.data.settings.menu %}
+  {% assign lang_text = 'En' %}
+  {% assign lang_url = '/en/' %}
+{% endif %}
+
+<a class="item" href="{{ home_url }}">
+  Home
+</a>
+
+{% for item in menu %}
+  {% if page.url contains item.url %}
+    {% assign item_class = 'active' %}
+  {% else %}
+    {% assign item_class = '' %}
+  {% endif %}
+  <a href="{{ item.url }}" class="item {{ item_class }} " data-display="desktop">
+    {{ item.title }}
+  </a>
+{% endfor %}
+
+<a href="{{ lang_url }}" class="item" data-display="desktop">{{ lang_text }}</a>

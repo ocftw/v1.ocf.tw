@@ -1,0 +1,44 @@
+{% if lang == "en" %}
+  {% assign taipei_title = 'Taipei Office' %}
+  {% assign taipei_address = org.contact.address_en.taipei %}
+  {% assign taoyuan_title = 'Taoyuan Office' %}
+  {% assign taoyuan_address = org.contact.address_en.taoyuan %}
+{% else %}
+  {% assign taipei_title = '台北辦公室' %}
+  {% assign taipei_address = org.contact.address.taipei %}
+  {% assign taoyuan_title = '桃園辦公室' %}
+  {% assign taoyuan_address = org.contact.address.taoyuan %}
+{% endif %}
+
+{% assign taoyuan_tel = org.contact.tel.taoyuan %}
+{% assign taoyuan_fax = org.contact.fax.taoyuan %}
+
+<h3 class="ui inverted small header">
+  {{ taipei_title }}
+</h3>
+<div class="ui list inverted">
+  <div class="item">
+    {{ taipei_address }}
+  </div>
+</div>
+
+<h3 class="ui inverted small header">
+  {{ taoyuan_title }}
+</h3>
+<div class="ui list inverted">
+  <div class="item">
+    {{ taoyuan_address }}
+  </div>
+  <div class="item">
+    <i class="phone icon"></i>
+    <div class="content">
+    {{ taoyuan_tel }}
+    </div>
+  </div>
+  <div class="item">
+    <i class="fax icon"></i>
+    <div class="content">
+    {{ taoyuan_fax }}
+    </div>
+  </div>
+</div>

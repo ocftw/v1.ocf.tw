@@ -111,17 +111,17 @@
   {% if page.layout == "design" %}
   {% include design_sidebar.html %}
   {% else %}
-  {% include sidebar.html %}
+    {% include nav/sidebar.html %}
   {% endif %}
 
   </nav>
   <div class="pusher">
 
-  {% include nav.html %}
+  {% include nav/header/global.html %}
 
   {{ content }}
 
-  {% include footer.html %}
+  {% include nav/footer.html %}
 
   </div>
 

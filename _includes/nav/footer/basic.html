@@ -1,0 +1,41 @@
+{% if lang == "en" %}
+  {% assign description = org.description_en %}
+  {% assign tax = 'Tax No.: 38552170' %}
+  {% assign invoice = 'Invoice donation code: 1989' %}
+  {% assign raising = 'Fund raising No.: 1081369475' %}
+{% else %}
+  {% assign description = org.description %}
+  {% assign tax = '統一編號　38552170' %}
+  {% assign invoice = '捐贈碼　1989' %}
+  {% assign raising = '勸募字號　衛部救字第 1081369475 號' %}
+{% endif %}
+
+<p>
+  {{ description }}
+</p>
+<div class="ui inverted list">
+  <a class="item" href="{{ org.link[0].url }}">
+    <i class="globe icon"></i>
+    <div class="content">
+    {{ org.link[0].url }}
+    </div>
+  </a>
+  <a class="item">
+    <i class="mail icon"></i>
+    <div class="content">
+    {{ org.contact.email.general }}
+    </div>
+  </a>
+  <a class="item">
+    <i class="key icon"></i>
+    <div class="content">
+      9928 19B0 A83B 5DA1 AD48 F323 08C3 6A5B 366C 671E
+    </div>
+  </a>
+</div>
+
+<div class="ui inverted list">
+  <div class="item">{{ tax }}</div>
+  <div class="item">{{ invoice }}</div>
+  <div class="item">{{ raising }}</div>
+</div>

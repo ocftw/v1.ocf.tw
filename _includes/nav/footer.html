@@ -1,0 +1,25 @@
+{% assign org = site.data.people.orgs.ocf %}
+
+<footer id="footer" class="ui inverted basic segment marginless">
+  <div class="ui stripe container">
+
+    {% include nav/footer/logo.html %}
+
+    <hr class="ui divider" />
+    <div class="ui four column stackable grid">
+      <div class="column">
+        {% include nav/footer/basic.html %}
+      </div>
+      <div class="column">
+        {% include nav/footer/office.html %}
+      </div>
+      <div class="column">
+        {% include nav/footer/action.html %}
+      </div>
+      <div class="column">
+        {% include nav/footer/site.html %}
+      </div>
+    </div>
+
+  </div>
+</footer>

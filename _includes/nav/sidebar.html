@@ -1,0 +1,44 @@
+{% assign org = site.data.people.orgs.ocf %}
+
+{% include nav/links/footer-sidebar.html %}
+
+{% if lang == "en" %}
+  {% assign subscribe_title = 'Subscribe' %}
+  {% assign join_title = 'Join' %}
+  {% assign license_title = 'License for our website' %}
+  {% assign license_content = 'Source code: MIT / Content: Creative Commons' %}
+{% else %}
+  {% assign subscribe_title = '訂閱' %}
+  {% assign join_title = '參與' %}
+  {% assign license_title = '本站授權' %}
+  {% assign license_content = '源碼 MIT / 內容 CC' %}
+{% endif %}
+
+<div class="item">
+  {{ subscribe_title }}
+  <div class="menu">
+    {% for item in org.subscribe %}
+      {% include nav/links/item.html %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="item">
+  {{ join_title }}
+  <div class="menu">
+  {% for item in org.join %}
+    {% include nav/links/item.html %}
+  {% endfor %}
+  </div>
+</div>
+
+<div class="item">
+  {{ license_title }}
+  <div class="menu">
+    <a href="/about/#website" class="item">
+      {{ license_content }}
+    </a>
+  </div>
+</div>
+
+

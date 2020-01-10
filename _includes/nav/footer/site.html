@@ -1,0 +1,32 @@
+{% if lang == "en" %}
+  {% assign sitemap_title = 'Sitemap' %}
+  {% assign license_title = 'License / Privacy Policy' %}
+  {% assign license_content = 'Source code: MIT / Content: Creative Commons' %}
+  {% assign privacy_title = 'Privacy Policy' %}
+{% else %}
+  {% assign sitemap_title = '網站導覽' %}
+  {% assign license_title = '本站授權與隱私條款' %}
+  {% assign license_content = '源碼 MIT / 內容 CC' %}
+  {% assign privacy_title = '隱私權條款聲明' %}
+{% endif %}
+
+<h3 class="ui small inverted header">
+  {{ sitemap_title }}
+</h3>
+<div class="ui inverted divided link list">
+{% include nav/links/footer-sidebar.html %}
+</div>
+
+<h3 class="ui small inverted header">
+  {{ license_title }}
+</h3>
+<div class="ui inverted divided link list">
+  <a href="/about/#website" class="item">
+    {{ license_content }}
+  </a>
+</div>
+  <div class="ui inverted divided link list">
+  <a href="https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/PRIVACY.md" class="item">
+    {{ privacy_title }}
+  </a>
+</div>

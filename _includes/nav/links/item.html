@@ -1,0 +1,12 @@
+{% if lang == 'en and item.title_en' %}
+  {% assign item_title = item.title_en %}
+{% else %}
+  {% assign item_title = item.title %}
+{% endif %}
+
+<a class="item" target="_blank" href="{{ item.url }}">
+  <i class="{{ item.icon }} icon"></i>
+  <div class="content">
+  {{ item_title }}
+  </div>
+</a>
