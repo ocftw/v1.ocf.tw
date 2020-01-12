@@ -1,0 +1,23 @@
+{% if link.url contains 'http' %}
+  {% assign link_target = '_blank' %}
+{% endif %}
+
+{% if include.icon == 'conditional' %}
+  {% if link_target == '_blank' %}
+    {% assign link_icon = 'globe' %}
+  {% else %}
+    {% assign link_icon = 'right arrow' %}
+  {% endif %}
+{% else %}
+  {% assign link_icon = include.icon %}
+{% endif %}
+
+<a class="{{ include.class }}" href="{{ link.url }}" target="{{ link_target }}">
+  {% if include.icon and link_icon != 'right arrow' %}
+    <i class="icon {{ link_icon }}"></i>
+  {% endif %}
+  {{ link.title }}
+  {% if link_icon == 'right arrow' %}
+    <i class="icon {{ link_icon }}"></i>
+  {% endif %}
+</a>

@@ -1,0 +1,30 @@
+{% include _var/events.html %}
+
+<!--
+  set variables:
+  event, event_id, event_name, event_description, event_subtitles,
+  event_labels, event_metas, event_links, event_reports, event_url
+-->
+
+{% assign event_id = page.name | split: '.' | first %}
+{% assign event = events | where: 'event_id', event_id | first %}
+
+{% if lang == 'en' %}
+  {% assign event_name = event.name_en %}
+  {% assign event_description = event.description_en %}
+  {% assign event_subtitles = event.subtitles_en %}
+  {% assign event_labels = event.labels_en %}
+  {% assign event_metas = event.metas_en %}
+  {% assign event_links = event.links_en %}
+  {% assign event_reports = event.reports_en %}
+{% else %}
+  {% assign event_name = event.name %}
+  {% assign event_description = event.description %}
+  {% assign event_subtitles = event.subtitles %}
+  {% assign event_labels = event.labels %}
+  {% assign event_metas = event.metas %}
+  {% assign event_links = event.links %}
+  {% assign event_reports = event.reports %}
+{% endif %}
+
+{% assign event_url = event_id | prepend: project_url %}

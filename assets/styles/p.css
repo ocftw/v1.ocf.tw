@@ -1,0 +1,71 @@
+#project #hero {
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#project #hero .cover {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#project #hero .cover.image {
+  opacity: 0.95;
+}
+
+#project #hero .cover.veil {
+  opacity: 0.1;
+  background-color: #000;
+}
+
+#project .relative {
+  position: relative;
+}
+
+#project .items .item .ui.horizontal.labels .label{
+  margin-bottom: .5em;
+}
+
+#project #meta .ui.divider:first-child {
+  margin-top: 0;
+}
+
+#project #meta .ui.header:not(.icon) {
+  margin-top: 1rem;
+}
+
+#project #meta .list .item .ui.label {
+  width: 5em;
+  padding: 0.55em 0;
+  float: left;
+  background: none;
+  text-align: left;
+}
+
+#project #meta .list .item .text {
+  display: block;
+  margin-left: 5em;
+}
+
+#project iframe {
+  width: 100%;
+  height: 30rem;
+  border: none;
+}
+
+#project .flex-swap {
+  order: 3;
+}
+
+@media only screen and (max-width: 767px) {
+#project .flex-swap {
+  order: 0;
+}
+}

@@ -123,6 +123,10 @@ p, a, li, h1, h2, h3, h4, h5, h6,
   padding-right: 1rem;
 }
 
+.ui.label+.text {
+  margin-left: 0.5rem;
+}
+
 /* for container */
 
 .ui.container {
@@ -271,12 +275,18 @@ h2.ui.header, h2, h1.ui.header, h1 {
 
 /* for semantic ui list in partner sections */
 
-#partners .ui.horizontal.list, #sponsors .ui.horizontal.list, #orgs .ui.horizontal.list {
+#partners .ui.horizontal.list,
+#sponsors .ui.horizontal.list,
+#orgs .ui.horizontal.list {
   text-align: center;
   display: block;
 }
 
-.logos .logo, #partners .logo, #sponsors .logo, #orgs .logo {
+#logos .logo,
+.logos .logo,
+#partners .logo,
+#sponsors .logo,
+#orgs .logo {
   max-width: 20em;
   max-height: 10em;
 }

@@ -1,0 +1,61 @@
+{% include _var/lang.html %}
+
+<!--
+  set variables:
+  project, project_id, project_name, project_description, project_url
+  (optional) parent_project, parent_project_id, parent_project_name, parent_project_description, parent_project_url
+-->
+
+{% if page.url contains '/en/p/' or page.url contains '/p/' %}
+  {% assign paths = page.url | replace: '/en/p/', '' | replace: '/p/', '' | split: '/' %}
+{% endif %}
+
+{% if paths[1] and page.name != paths[1] %}
+  <!-- this is a child project -->
+  <!-- setup parent project data -->
+  {% assign parent_project_id = paths[0] %}
+  {% assign parent_project = site.data.p[parent_project_id].project %}
+  {% if lang == 'en' %}
+    {% assign parent_project_url = parent_project_id | prepend: '/en/p/' | append: '/' %}
+    {% assign parent_project_name = parent_project.name_en %}
+    {% assign parent_project_description = parent_project.description_en %}  
+  {% else %}
+    {% assign parent_project_url = parent_project_id | prepend: '/p/' | append: '/' %}
+    {% assign parent_project_name = parent_project.name %}
+    {% assign parent_project_description = parent_project.description %}
+  {% endif %}
+  <!-- setup project data -->
+  {% assign project_id = paths[1] %}
+  {% assign project = site.data.p[parent_project_id][project_id].project %}
+  {% if lang == 'en' %}
+    {% assign project_url = project_id
+      | prepend: '/'
+      | prepend: project_id
+      | prepend: '/en/p/'
+      | append: '/' %}
+    {% assign project_name = project.name_en %}
+    {% assign project_description = project.description_en %}  
+  {% else %}
+    {% assign project_url = project_id
+      | prepend: '/'
+      | prepend: project_id
+      | prepend: '/p/'
+      | append: '/' %}
+    {% assign project_name = project.name %}
+    {% assign project_description = project.description %}
+  {% endif %}
+{% else %}
+  <!-- this is a major project -->
+  <!-- setup project data -->
+  {% assign project_id = paths[0] %}
+  {% assign project = site.data.p[project_id].project %}
+  {% if lang == 'en' %}
+    {% assign project_url = project_id | prepend: '/en/p/' | append: '/' %}
+    {% assign project_name = project.name_en %}
+    {% assign project_description = project.description_en %}  
+  {% else %}
+    {% assign project_url = project_id | prepend: '/p/' | append: '/' %}
+    {% assign project_name = project.name %}
+    {% assign project_description = project.description %}
+  {% endif %}
+{% endif %}

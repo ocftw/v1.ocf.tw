@@ -1,0 +1,28 @@
+{% assign progress = page.progress %}
+
+{% if lang == 'en' %}
+  {% assign progress_update_text = 'updated at' %}
+{% else %}
+  {% assign progress_update_text = '更新於' %}
+{% endif %}
+
+{% if progress.percent %}
+<div id="crm_cpid_{{ page.cpid }}_amt_fill" class="ui indicating progress active" data-percent="{{ progress.percent }}">
+  <div class="bar" style="width: {{ progress.percent }}%;">
+    <div class="progress">{{ progress.percent }} %</div>
+  </div>
+</div>
+{% endif %}
+
+{% if progress.updated %}
+<p class="center aligned" style="font-weight: normal; opacity: 0.5; margin-top: -2em;">
+  {{ progress_update_text }}
+  <span id="progress_updated">
+  {{ progress.updated }}
+  </span>
+</p>
+{% endif %}
+
+{% if page.cpid %}
+  {% include p/meta/progress/script.html %}
+{% endif %}

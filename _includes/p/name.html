@@ -1,0 +1,30 @@
+<!-- 抓取目前時間 -->
+
+{% include _var/now.html %}
+
+<!-- 根據語系和目前時間產生專案標題 -->
+
+{% if lang == 'en' %}
+  {% assign label_text = 'COMMUNITY PROJECT' %}
+  {% assign expire_text = '(closed)' %}
+{% else %}
+  {% assign label_text = '社群專案' %}
+  {% assign expire_text = '（已結案）' %}
+{% endif %}
+
+{% if include.color %}
+  {% assign label_color = include.color %}
+{% else %}
+  {% assign label_color = project.theme_color %}
+{% endif %}
+
+{% if project.organizer_ids contains 'ocf' %}
+{% else %}
+  <span class="ui {{ label_color }} label">{{ label_text }}</span>
+{% endif %}
+
+<span class="text">{{ project_name }}</span>
+
+{% if now > project.end %}
+  {{ expire_text }}  
+{% endif %}

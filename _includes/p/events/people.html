@@ -1,0 +1,56 @@
+{% assign org_types = 'advisor,organizer,co-organizer,implementer,sponsor' | split: ',' %}
+{% assign individual_types = 'host,speaker,coordinator,contributor' | split: ',' %}
+
+{% for org_type in org_types %}
+  {% assign key = org_type | append: '_ids' %}
+  {% if event[key] %}
+    {% if lang == "en" %}
+      {% assign org_role = site.data.people.settings.orgs[org_type].name_en %}
+    {% else %}
+      {% assign org_role = site.data.people.settings.orgs[org_type].name %}
+    {% endif %}
+    <div class="meta">
+    {{ org_role }}:
+    <span class="text">
+    {% for org_id in event[key] %}
+      {% if lang == "en" %}
+        {% assign org_name = site.data.people.orgs[org_id].name_en %}
+      {% else %}
+        {% assign org_name = site.data.people.orgs[org_id].name %}
+      {% endif %}
+      {{ org_name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+{% endfor %}
+
+{% for individual_type in individual_types %}
+  {% assign key = individual_type | append: '_ids' %}
+  {% if event[key] %}
+    {% if lang == "en" %}
+      {% assign individual_role = site.data.people.settings.individuals[individual_type].name_en %}
+    {% else %}
+      {% assign individual_role = site.data.people.settings.individuals[individual_type].name %}
+    {% endif %}
+    <div class="meta">
+    {{ individual_role }}:
+    <span class="text">
+    {% for individual_id in event[key] %}
+      {% if lang == "en" %}
+        {% assign item_name = site.data.people.individuals[individual_id].name_en %}
+      {% else %}
+        {% assign item_name = site.data.people.individuals[individual_id].name %}
+      {% endif %}
+      {{ item_name }} 
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+{% endfor %}

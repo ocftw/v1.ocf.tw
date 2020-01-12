@@ -1,6 +1,4 @@
-{% if page.url contains '/en/' %}
-  {% assign lang = 'en' %}
-{% endif %}
+{% include _var/lang.html %}
 
 {% assign org = site.data.people.orgs.ocf %}
 

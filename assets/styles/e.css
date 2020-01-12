@@ -1,0 +1,50 @@
+#event #hero .ui.header>.icon {
+  font-size: 1em;
+  vertical-align: initial;
+}
+
+#event #hero {
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#event #hero .cover {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#event #hero .cover.image {
+  opacity: 0.9;
+}
+
+#event #hero .cover.veil {
+  opacity: 0.2;
+  background-color: #000;
+}
+
+#event .relative {
+  position: relative;
+}
+
+#event .single.column {
+  width: 80%;
+  min-width: 768px;
+  margin: 0 auto;
+}
+
+#event .ui.two.column.grid {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#event .ui.two.column.grid .paddingless.column {
+  padding: 0;
+}

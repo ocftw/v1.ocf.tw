@@ -1,0 +1,60 @@
+{% assign org_types = 'advisor,organizer,co-organizer,implementer' | split: ',' %}
+{% assign individual_types = 'coordinator' | split: ',' %}
+
+{% for org_type in org_types %}
+  {% assign key = org_type | append: '_ids' %}
+  {% if project[key] %}
+  <div class="item">
+    <span class="ui horizontal label">
+      {% assign org_type_settings = site.data.people.settings.orgs[org_type] %}
+      {% if lang == "en" %}
+        {{ org_type_settings.name_en }}
+      {% else %}
+        {{ org_type_settings.name }}
+      {% endif %}
+    </span>
+    <span class="text">
+    {% for org_id in project[key] %}
+      {% assign item = site.data.people.orgs[org_id] %}
+      {% if lang == "en" and item.name_en %}
+        {{ item.name_en }}
+      {% else %}
+        {{ item.name }}
+      {% endif %}
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+{% endfor %}
+
+{% for individual_type in individual_types %}
+  {% assign key = individual_type | append: '_ids' %}
+  {% if project[key] %}
+  <div class="item">
+    <span class="ui horizontal label">
+      {% assign individual_type_settings = site.data.people.settings.individuals[individual_type] %}
+      {% if lang == "en" %}
+        {{ individual_type_settings.name_en }}
+      {% else %}
+        {{ individual_type_settings.name }}
+      {% endif %}
+    </span>
+    <span class="text">
+    {% for individual_id in project[key] %}
+      {% assign item = site.data.people.individuals[individual_id] %}
+      {% if lang == "en" and item.name_en %}
+        {{ item.name_en }}
+      {% else %}
+        {{ item.name }}
+      {% endif %}
+      {% if forloop.rindex > 1 %}
+      ,
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+{% endfor %}

@@ -1,0 +1,72 @@
+---
+layout: global
+---
+
+{% include _var/event.html %}
+
+<main id="event">
+
+<!-- 上層專案連結 -->
+
+<nav id="hero" class="ui inverted {{ project.theme_color }} basic segment marginless">
+  <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
+  <img class="cover image" src="{{ project.cover_image }}" style="opacity: {{ page.project_cover_image_opacity }}" alt="Cover image for '{{ project.name }}'" />
+  <div class="cover veil" style="opacity: {{ page.project_cover_veil_opacity }}"></div>
+
+  <div class="ui container">
+    <a href="{{ project_url }}" class="ui inverted small header relative">
+      <i class="left arrow icon"></i>
+      返回 {% include p/name.html %}
+    </a>
+  </div>
+</nav>
+
+<!-- 活動資訊 -->
+
+<div class="ui container">
+
+  <!-- 版型 start -->
+  {% if event.banner_image %}
+  <div class="ui two column stackable grid">
+    <div class="six wide {{ event.theme_color }} paddingless column">
+      <aside class="ui sticky basic paddingless segment">
+        <img class="ui fluid image" src="{{ event.banner_image }}" alt="Banner image for '{{ event_name }}'" />
+      </aside>
+    </div>
+    <div class="ten wide column">
+  {% else %}
+  <div class="single column">
+    {% if event.cover_image %}
+    <img class="ui fluid image" src="{{ event.cover_image }}" alt="Cover image for '{{ event_name }}'" />
+    {% else %}
+    <div></div>
+    {% endif %}
+  {% endif %}
+  <!-- 版型 end -->
+
+  <h1 class="ui header">
+    {{ event_name }}
+    {% if event_subtitles %}
+      {% for subtitle in event_subtitles %}
+        <span class="sub header">{{ subtitle }}</span>
+      {% endfor %}
+    {% endif %}
+  </h1>
+  <div class="ui basic secondary segment">
+    <p>{{ event_description }}</p>
+  </div>    
+  {{ content }}
+  <div class="ui hidden divider"></div>
+
+  <!-- 版型 start -->
+  {% if event.banner_image %}
+    </div>
+  </div>
+  {% else %}
+  </div>
+{% endif %}
+  <!-- 版型 end -->
+
+</div>
+
+</main>

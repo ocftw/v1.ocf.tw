@@ -1,0 +1,78 @@
+<!-- 抓取目前時間 -->
+
+{% include _var/now.html %}
+
+<!-- 根據語系設定專案顯示資訊 -->
+
+{% if lang == 'en' %}
+  {% assign project_metas = project.metas_en %}
+  {% assign project_links = project.links_en %}
+{% else %}
+  {% assign project_metas = project.metas %}
+  {% assign project_links = project.links %}
+{% endif %}
+
+<!-- 行動按鈕 -->
+
+{% if now > project.end %}
+{% else %}
+  {% include p/meta/join.html %}
+{% endif %}
+
+<!-- 頭像 -->
+
+<div class="ui horizontal divider">
+  <i class="info circle icon"></i>
+  {% if lang == "en" %}
+    About us
+  {% else %}
+    小檔案
+  {% endif %}
+</div>
+
+{% include p/meta/avatar.html %}
+
+<!-- 專案名稱 -->
+
+<h2 class="ui center aligned small header">
+  {% include p/name.html %}
+</h2>
+
+<!-- 專案 meta 資訊 -->
+
+<div class="ui divided list">
+
+{% include p/meta/people.html %}
+
+{% for item in project_metas %}
+<div class="item">
+  <span class="ui horizontal label">{{ item.label }}</span>
+  <span class="text">{{ item.content }}</span>
+</div>
+{% endfor %}
+
+{% if page.show_progress %}
+  {% include p/meta/raising.html %}
+{% endif %}
+
+</div>
+
+{% if page.show_progress %}
+  {% include p/meta/progress.html %}
+{% endif %}
+
+<!-- 相關連結 -->
+
+{% if project_links %}
+<div class="ui link list">
+{% for link in project_links %}
+  {% include _shared/link.html class='item' icon='globe' %}
+{% endfor %}
+</div>
+{% endif %}
+
+{% if page.url != project_url %}
+<a class="ui fluid button" href="/p/{{ project_id }}">回專案主頁面
+  <i class="right arrow icon"></i>
+</a>
+{% endif %}

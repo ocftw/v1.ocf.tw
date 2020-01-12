@@ -1,6 +1,4 @@
-{% if page.url contains '/en/' %}
-  {% assign lang = 'en' %}
-{% endif %}
+{% include _var/lang.html %}
 
 {% if lang == "en" %}
   {% assign home_url = '/en/' %}
