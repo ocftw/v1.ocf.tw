@@ -31,7 +31,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2017/openhackfarm/1024x768TEST.png
+        url: /p/2017/openhackfarm/ohf_report_cover.png
         swap: true
       - type: article
         title: 社群營運 — 維持能量，成長茁壯
