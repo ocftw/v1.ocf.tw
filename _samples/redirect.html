@@ -10,32 +10,6 @@ redirect_from:
 
 # 把網址重新導向到其他網站的頁面
 
-- 在跳板頁面的檔頭使用以下範例
+- 在跳板頁面使用以下內容
 
-## 範例一、讓專案頁重新導向到其他網站
----
-layout: old_redirect
-og_url: /p/2016/sitconcamp
-refresh: http://sitcon.camp/2016/
-data: projects
-year: 2016
-project_id: sitconcamp
----
-
-## 範例二、讓活動頁重新導向到其他網站
----
-layout: old_redirect
-og_url: /p/2015/intl/dalc
-refresh: http://...
-data: events
-year: 2015
-project_id: intl
-event_id: 0827
----
-
-## 範例三、讓任何頁面重新導向到其他網站
----
-layout: old_redirect
-og_url: /...
-refresh: http://...
----
+<body onload='window.location="..."'>
