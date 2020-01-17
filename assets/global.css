@@ -151,7 +151,7 @@ p, a, li, h1, h2, h3, h4, h5, h6,
 /* for header */
 
 #header {
-  background: url(/img/header-shell.png) repeat center 0;
+  background: url(/assets/images/header-shell.png) repeat center 0;
 }
 
 #header .ui.secondary.pointing.menu {
@@ -255,7 +255,7 @@ h2.ui.header, h2, h1.ui.header, h1 {
 /* for footer */
 
 #footer {
-  background: url(/img/footer.png) repeat 0 0;
+  background: url(/assets/images/footer.png) repeat 0 0;
 }
 
 #footer .ui.grid>.column, #footer .ui.list>.item {
