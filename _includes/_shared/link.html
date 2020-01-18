@@ -1,4 +1,16 @@
-{% if link.url contains 'http' %}
+{% if include.url %}
+  {% assign link_url = include.url %}
+{% else %}
+  {% assign link_url = link.url %}
+{% endif %}
+
+{% if include.title %}
+  {% assign link_title = include.title %}
+{% else %}
+  {% assign link_title = link.title %}
+{% endif %}
+
+{% if link_url contains 'http' %}
   {% assign link_target = '_blank' %}
 {% endif %}
 
@@ -12,11 +24,11 @@
   {% assign link_icon = include.icon %}
 {% endif %}
 
-<a class="{{ include.class }}" href="{{ link.url }}" target="{{ link_target }}">
+<a class="{{ include.class }}" href="{{ link_url }}" target="{{ link_target }}">
   {% if include.icon and link_icon != 'right arrow' %}
     <i class="icon {{ link_icon }}"></i>
   {% endif %}
-  {{ link.title }}
+  {{ link_title }}
   {% if link_icon == 'right arrow' %}
     <i class="icon {{ link_icon }}"></i>
   {% endif %}

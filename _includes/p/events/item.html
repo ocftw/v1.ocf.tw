@@ -1,105 +1,98 @@
-  <div class="item">
-    <!-- 根據語系決定活動顯示名稱 -->
+{% include _var/event.html %}
+
+<div class="item">
+
+  <!-- 活動主視覺圖片 -->
+
+  <div class="image">
+    {% if event.banner_image %}
+    <img src="{{ event.banner_image }}" alt="Event banner image for {{ event_name }}" />
+    {% elsif event.cover_image %}
+    <img src="{{ event.cover_image }}" alt="Event cover image for {{ event_name }}" />
+    {% endif %}
+  </div>
+
+  <div class="content">
 
     {% if lang == 'en' %}
-      {% assign event_name = event.name_en %}
-      {% assign event_description = event.description_en %}
-      {% assign event_tagline = event.tagline_en %}
-      {% assign event_subtitles = event.subtitles_en %}
-      {% assign event_labels = event.labels_en %}
-      {% assign event_metas = event.metas_en %}
-      {% assign event_links = event.links_en %}
     {% else %}
-      {% assign event_name = event.name %}
-      {% assign event_description = event.description %}
-      {% assign event_tagline = event.tagline %}
-      {% assign event_subtitles = event.subtitles %}
-      {% assign event_labels = event.labels %}
-      {% assign event_metas = event.metas %}
-      {% assign event_links = event.links %}
     {% endif %}
 
-    <!-- 活動主視覺圖片 -->
 
-    <div class="image">
-      {% if event.cover_image %}
-      <img src="{{ event.cover_image }}" alt="Event cover image for {{ event_name }}" />
-      {% elsif event.banner_image %}
-      <img src="{{ event.banner_image }}" alt="Event banner image for {{ event_name }}" />
+
+    <!-- 活動名稱與副標題 -->
+
+    <h3 class="ui header">
+      {% if event_url %}
+        {% include _shared/link.html url=event_url title=event_name %}
+      {% else %}
+        {{ event_name }}
       {% endif %}
-    </div>
-
-    <div class="content">
-
-      <!-- 活動名稱與副標題 -->
-
-      <h3 class="ui header">
-      {{ event_name }}
-      {% if event_tagline %}
-        <span class="sub header">{{ event_tagline }}</span>
-      {% endif %}
-      {% if event_subtitles %}
-        {% for subtitle in event_subtitles %}
-        <span class="sub header">{{ subtitle }}</span>
-        {% endfor %}
-      {% endif %}
-      </h3>
-
-      <!-- 活動分類標籤 -->
-
-      {% if event_labels %}
-      <div class="meta">
-        <div class="ui horizontal labels">
-          {% for label in event_labels %}
-          <span class="ui label {{ label.color }}">{{ label.title }}</span>
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
-
-      <!-- 活動日期 -->
-
-      {% if event.start %}
-      <div class="meta">
-        {{ event.start }}
-        {% if event.end and event.start != event.end %}
-        ~ {{ event.end }}
-        {% endif %}
-      </div>
-      {% endif %}
-
-      <!-- 相關人員 -->
-
-      {% include p/events/people.html %}
-
-      <!-- 其他資訊 -->
-
-      {% if event_metas %}
-      {% for meta in event_metas %}
-      <div class="meta">
-        {{ meta }}
-      </div>
+    {% if event_tagline %}
+      <span class="sub header">{{ event_tagline }}</span>
+    {% endif %}
+    {% if event_subtitles %}
+      {% for subtitle in event_subtitles %}
+      <span class="sub header">{{ subtitle }}</span>
       {% endfor %}
-      {% endif %}
+    {% endif %}
+    </h3>
 
-      <!-- 活動簡介 -->
+    <!-- 活動分類標籤 -->
 
-      {% if event_description %}
-      <div class="description">
-        <p>{{ event_description }}</p>
-      </div>
-      {% endif %}
-
-      <!-- 相關連結 -->
-
-      {% if event_links %}
-      <div class="extra">
-        {% for link in event_links %}
-          {% include _shared/link.html icon='globe' %}
+    {% if event_labels %}
+    <div class="meta">
+      <div class="ui horizontal labels">
+        {% for label in event_labels %}
+        <span class="ui label {{ label.color }}">{{ label.title }}</span>
         {% endfor %}
       </div>
-      {% endif %}
-
     </div>
+    {% endif %}
+
+    <!-- 活動日期 -->
+
+    {% if event.start %}
+    <div class="meta">
+      {{ event.start }}
+      {% if event.end and event.start != event.end %}
+      ~ {{ event.end }}
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- 相關人員 -->
+
+    {% include p/events/people.html %}
+
+    <!-- 其他資訊 -->
+
+    {% if event_metas %}
+    {% for meta in event_metas %}
+    <div class="meta">
+      {{ meta }}
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    <!-- 活動簡介 -->
+
+    {% if event_description %}
+    <div class="description">
+      <p>{{ event_description }}</p>
+    </div>
+    {% endif %}
+
+    <!-- 相關連結 -->
+
+    {% if event_links %}
+    <div class="extra">
+      {% for link in event_links %}
+        {% include _shared/link.html icon='conditional' %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
   </div>
+</div>
 

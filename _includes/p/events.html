@@ -1,75 +1,15 @@
 <div class="ui divided items">
 
 <!-- 2020 年版資料格式 -->
-
 {% include _var/events.html %}
 
 {% if events %}
   {% assign events = events | sort: "start" | reverse %}
   {% for event in events %}
-    {% include p/events/item.html %}
-  {% endfor %}
-{% endif %}
-
-<!-- 新版資料格式：從各年份的 yml 抓資料，只抓 2017 （含）以後的 -->
-
-{% if parent_project %}
-{% else %}
-
-  {% assign i = site.data.settings.current %}
-  {% for list in site.data.events %}
-    {% if i < 2014 %}
-      {% break %}
-    {% endif %}
-
-    {% assign year = i | downcase %}
-
-    {% for event in site.data.events[year] reversed %}
-      {% for pid in event[1].project_id %}
-        {% if pid == project_id %}
-
-          {% assign type = "event" %}
-          {% assign item = event[1] %}
-
-          {% include events_item.html %}
-
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-
-    {% assign i = i | minus:1 %}
-  {% endfor %}
-
-{% endif %}
-
-<!-- 舊版資料格式：從各專案的 yml 抓資料 -->
-
-{% if parent_project %}
-{% else %}
-
-  {% for event in events %}
-    {% if event.year > project_year %}
-    {% else %}
-
-      {% assign year = event.year | append: "" %}
-      {% if event.event_id %}
-        {% assign type = "event" %}
-        {% assign event_id = event.event_id %}
-        {% assign item = site.data.events[year][event_id] %}
-      {% elsif event.project_id %}
-        {% assign type = "project" %}
-        {% assign project_id = event.project_id %}
-        {% assign item = site.data.projects[year][project_id] %}
-      {% else %}
-        {% assign type = "event" %}
-        {% assign item = event %}
-      {% endif %}
-
-      {% include events_item.html %}
-
+    {% if event %}
+      {% include p/events/item.html %}
     {% endif %}
   {% endfor %}
-
 {% endif %}
 
 </div>
