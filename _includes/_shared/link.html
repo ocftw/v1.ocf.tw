@@ -12,6 +12,8 @@
 
 {% if link_url contains 'http' %}
   {% assign link_target = '_blank' %}
+{% else %}
+  {% assign link_target = '_self' %}
 {% endif %}
 
 {% if include.icon == 'conditional' %}

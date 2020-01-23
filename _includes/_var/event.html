@@ -27,7 +27,54 @@
 {% assign event_id = event.id %}
 
 {% if event_id %}
-  {% assign event_url = event_id | prepend: project_url %}
+  {% assign event_url = undefined %}
+
+  {% if parent_project %}
+    {% assign project_events = site.data.p[parent_project_id][project_id].events %}
+  {% else %}
+    {% assign project_events = site.data.p[project_id].events %}
+  {% endif %}
+  {% for project_event in project_events %}
+    {% if project_event.id == event_id %}
+      {% assign event_url = event_id | prepend: project_url %}
+    {% endif %}
+    {% if event_url %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if event_url %}
+  {% else %}
+    {% for project_folder in site.data.p[project_id] %}
+      {% if project_folder[0] != 'project' and project_folder[0] != 'events' %}
+        {% assign sub_project_id = project_folder[0] %}
+        {% for project_event in project_folder[1].events %}
+          {% if project_event.id == event_id %}
+            {% assign event_path = event_id
+              | prepend: '/'
+              | prepend: sub_project_id
+              | prepend: '/'
+              | prepend: project_id
+            %}
+            {% if lang == 'en' %}
+              {% assign event_url = event_path
+                | prepend: '/en/p/' %}
+            {% else %}
+              {% assign event_url = event_path
+                | prepend: '/p/' %}
+            {% endif %}
+          {% endif %}
+          {% if event_url %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if event_url %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
 {% else %}
   {% assign event_url = undefined %}
 {% endif %}
