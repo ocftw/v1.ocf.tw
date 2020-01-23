@@ -46,6 +46,7 @@
   {% if event_url %}
   {% else %}
     {% for project_folder in site.data.p[project_id] %}
+
       {% if project_folder[0] != 'project' and project_folder[0] != 'events' %}
         {% assign sub_project_id = project_folder[0] %}
         {% for project_event in project_folder[1].events %}
@@ -68,7 +69,9 @@
             {% break %}
           {% endif %}
         {% endfor %}
+        {% assign sub_project_id = undefined %}
       {% endif %}
+
       {% if event_url %}
         {% break %}
       {% endif %}

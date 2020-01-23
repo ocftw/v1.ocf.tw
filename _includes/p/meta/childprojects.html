@@ -14,16 +14,22 @@
       <div class="ui link list">
       {% assign has_sub_project = true %}
     {% endif %}
+
     {% assign sub_project_id = project_folder[0] %}
     {% assign sub_project = site.data.p[project_id][sub_project_id].project %}
     {% include p/name.html project=sub_project return='var' %}
-    {% assign sub_project_url = project_url
-      | append: project_folder[0]
-    %}
+    {% assign sub_project_url = project_url | append: project_folder[0] %}
+
     {% include _shared/link.html class='item' icon='conditional' url=sub_project_url title=include_project_name %}
+
+    {% assign sub_project_id = undefined %}
+    {% assign sub_project = undefined %}
+    {% assign sub_project_url = undefined %}
   {% endif %}
 {% endfor %}
 
 {% if has_sub_project == true %}
   </div>
 {% endif %}
+
+{% assign has_sub_project = undefined %}
