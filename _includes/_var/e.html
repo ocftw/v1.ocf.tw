@@ -6,5 +6,5 @@
 -->
 
 {% assign event_id = page.name | split: '.' | first %}
-{% assign event = events | where: 'event_id', event_id | first %}
+{% assign event = events | where: 'id', event_id | first %}
 {% include _var/event.html %}

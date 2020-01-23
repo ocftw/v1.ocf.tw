@@ -24,7 +24,7 @@
   {% assign event_reports = event.reports %}
 {% endif %}
 
-{% assign event_id = event.event_id %}
+{% assign event_id = event.id %}
 
 {% if event_id %}
   {% assign event_url = event_id | prepend: project_url %}
