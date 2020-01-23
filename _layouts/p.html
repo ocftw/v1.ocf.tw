@@ -27,6 +27,17 @@ layout: global
 <header id="hero" class="ui inverted {{ project.theme_color }} center aligned basic segment marginless">
   <img class="cover image" src="{{ project.cover_image }}" style="opacity: {{ page.cover_image_opacity }}" alt="project cover image for {{ project_name }}" />
   <div class="cover veil" style="opacity: {{ page.cover_veil_opacity }}"></div>
+
+  {% if parent_project and page.show_parent_link %}
+  <div class="ui left aligned container">
+    <a href="{{ parent_project_url }}" class="ui inverted small header relative">
+      <i class="left arrow icon"></i>
+      {% include p/name.html project=parent_project return='var' %}
+      返回 {{ include_project_name }}
+    </a>
+  </div>
+  {% endif %}
+
   <hr class="ui hidden section divider" />
   <div class="ui stripe relative container">
     <h1 class="ui inverted header">

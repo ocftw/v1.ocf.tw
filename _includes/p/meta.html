@@ -35,7 +35,8 @@
 <!-- 專案名稱 -->
 
 <h2 class="ui center aligned small header">
-  {% include p/name.html %}
+  {% include p/name.html return='var' %}
+  {{ include_project_name }}
 </h2>
 
 <!-- 專案 meta 資訊 -->
@@ -71,8 +72,9 @@
 </div>
 {% endif %}
 
-{% if parent_project_id %}
-<a class="ui fluid button" href="/p/{{ parent_project_id }}">回專案主頁面
-  <i class="right arrow icon"></i>
-</a>
+<!-- 子專案 -->
+
+{% if parent_project %}
+{% elsif page.show_child_projects %}
+  {% include p/meta/childprojects.html %}
 {% endif %}

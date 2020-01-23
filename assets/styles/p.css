@@ -25,6 +25,11 @@
   background-color: #000;
 }
 
+#project #hero .ui.header > .icon {
+  font-size: 1em;
+  vertical-align: initial;
+}
+
 #project .relative {
   position: relative;
 }
