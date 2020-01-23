@@ -71,8 +71,8 @@
 </div>
 {% endif %}
 
-{% if page.url != project_url %}
-<a class="ui fluid button" href="/p/{{ project_id }}">回專案主頁面
+{% if parent_project_id %}
+<a class="ui fluid button" href="/p/{{ parent_project_id }}">回專案主頁面
   <i class="right arrow icon"></i>
 </a>
 {% endif %}
