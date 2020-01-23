@@ -28,22 +28,7 @@ js: /assets/actions.js
     {% assign project_id = p.project_id | append: "" %}
     {% assign project = site.data.projects[year][project_id] %}
     {% for link in project.link %}
-      <a class="item" href="{{ link.url }}"
-      {% if link.target != '_self' %}
-      target="_blank"
-      {% endif %}>
-
-        {% if link.target != "_self" %}
-        <i class="globe icon"></i>
-        {% endif %}
-
-        {{ link.title }}
-
-        {% if link.target == "_self" %}
-        <i class="right arrow icon"></i>
-        {% endif %}
-
-      </a>
+      {% include _shared/link.html class='item' icon='conditional' %}
     {% endfor %}
     </td>
     <td data-value="actions">

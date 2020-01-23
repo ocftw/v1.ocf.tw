@@ -304,10 +304,7 @@ ongoing:
         <div class="extra content">
 
     {% for link in project.link %}
-          <a class="item" target="{{ link.target }}" href="{{ link.url }}">
-            {{ link.title }}
-            <i class="right arrow icon"></i>
-          </a>
+      {% include _shared/link.html class='item' icon='conditional' %}
     {% endfor %}
 
         </div>

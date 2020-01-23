@@ -99,10 +99,7 @@ css: /assets/people.css
         <div class="extra content">
           <div class="ui link divided list">
           {% for link in person.link %}
-            <a class="item" target="_blank" href="{{ link.url }}">
-              <i class="icon globe"></i>
-              {{ link.title }}
-            </a>
+            {% include _shared/link.html class='item' icon='globe' %}
           {% endfor %}
           </div>
         </div>
