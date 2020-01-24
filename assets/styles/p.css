@@ -55,7 +55,7 @@
 }
 
 #project #meta #cast.list .item .text {
-  display: inline-block;
+  display: block;
 }
 
 #project #meta #child.list .item .icon {

@@ -23,7 +23,7 @@
     - lucien
     - pofeng
     - clkao
-  contributor_ids:
+  participant_ids:
     - singing
     - mglee
 
@@ -58,7 +58,7 @@
   organizer_ids:
     - ndc
     - ocf
-  contributor_ids:
+  participant_ids:
     - clkao
     - ttcat
     - chiahua
@@ -136,7 +136,7 @@
       url: https://lucien.hackpad.com/20160429-TPP-53D94GyF2Lp
   links_en:
 
-  contributor_ids:
+  participant_ids:
     - lucien
 
   reports:

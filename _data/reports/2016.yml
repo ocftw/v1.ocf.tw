@@ -14,7 +14,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/coscup/coscup2016.jpg
+        url: /p/coscup/2016/coscup2016.jpg
         swap: false
       - type: article
         title: 大型活動

@@ -733,32 +733,6 @@
   speaker_id:
   banner: 
   avatar: 
-0805COSCUP2017:
-  title: COSCUP 2017
-  description: COSCUP 希望藉由每一屆的年度會議，讓世界各地的 FLOSS 愛好者齊聚一堂，並邀請世界各地的專家上台分享經驗，想法與新的技術，來共同的激發國內外的愛好者更加踴躍投入 FLOSS 的開發與使用。
-  month: 8
-  start: 8/5
-  end: 8/6
-  link:
-    - title: 活動網站
-      url: http://coscup.org/2017/
-  cover: /p/2017/coscup/og.png
-  contributor_id:
-    - singing
-    - huangfu
-  project_id:
-    - coscup
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0811APriGF:
   title: APrIGF 回國分享會
   description: 分享 OCF 前往曼谷參與 APrIGF 的經驗
