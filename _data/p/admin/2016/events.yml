@@ -1,0 +1,255 @@
+- id: 
+
+  name: 拜會行政院數位政務委員唐鳳
+  name_en: 
+
+  description: 開放文化基金會就政府施政數位化與開放源碼、開放資料有關的重大議題，提出一體適用性、不針對特定相對人的政策建言，期望協助執事者共同導正、順暢相關施政的未來發展。透過本次拜會，提出相關的建言與請益。
+  description_en: 
+
+  cover_image: /people/partners/ey_logo.png
+
+  start: 2016/10/25
+  end: 
+
+  links:
+    - title: 投影片
+      url: http://www.slideshare.net/autang/20160912-66111207
+    - title: 會議記錄
+      url: https://sayit.archive.tw/2016-10-25-%E9%96%8B%E6%94%BE%E6%96%87%E5%8C%96%E5%9F%BA%E9%87%91%E6%9C%83%E8%88%87%E5%94%90%E6%94%BF%E5%A7%94%E4%BA%A4%E6%B5%81
+  links_en:
+
+  coordinator_ids:
+    - au
+    - lucien
+    - pofeng
+    - clkao
+  contributor_ids:
+    - singing
+    - mglee
+
+  reports:
+    2016: 10
+  reports_en:
+
+- id: 
+
+  name: 資訊主管聯席會中央部會分組 105 年度第 2 次會議
+  name_en: 
+
+  description: 行政院國家發展委員會與開放文化基金會合辦「資訊主主管聯席會」，OCF 邀請了董事 clkao、g0v 唐鳳、公民參與專家呂家華，來與各部會資訊相關的主管分享世界公民科技趨勢、2016 g0v 年會，以及這兩年公民參與與科技平台結合的案例與心法。會中我們也參與國發會資訊處安排的巨量資料分析、open data 去識別化、跨部會協作和如何從數據推導決策的討論，也針對各局處之間的推展交換意見。一位資深的資訊主管最後用「資訊是現代化國家的樑柱！」一句話鼓舞了現場的與會者！
+  description_en: 
+
+  cover_image: /people/partners/ndc_avatar.png
+
+  start: 2016/07/22
+  end: 
+
+  metas:
+    - 行政院政務委員吳政忠、行政院科技會報執行秘書郭耀煌、國發會副主任委員曾旭正、中央各部會資訊主管
+  metas_en:
+
+  links:
+    - title: 會議摘要
+      url: http://www.ndc.gov.tw/News_Content.aspx?n=A6476B49BA86BBD5&sms=EB94E48F39DD9A4E&s=1A729EC945A82FC2
+    - title: 臉書貼文
+      url: https://www.facebook.com/www.ocf.tw/posts/1752049098404352
+  links_en:
+
+  organizer_ids:
+    - ndc
+    - ocf
+  contributor_ids:
+    - clkao
+    - ttcat
+    - chiahua
+
+  reports:
+    2016: 07
+  reports_en:
+
+- id: 
+
+  name: 謝開源夏季啤酒趴
+  name_en: 
+
+  description: 熱愛開源文化的你一定要來 Mouse 與 Singing 揪的「謝開源夏季啤酒趴」！除了啤酒外，我們還找來了「阿里山鄒族山豬亮」的烤全山豬！讓我們在 2016 年的初夏、社群研討會季節來臨前，聚一聚、來點啤酒、吃吃喝喝吧！
+  description_en: 
+
+  cover_image: /p/2016/admin/osbeerparty.jpg
+
+  start: 2016/05/29
+  end: 
+
+  links:
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/osbeerparty2016
+    - title: 活動照片
+      url: https://www.facebook.com/www.ocf.tw/photos/?tab=album&album_id=1748318348777427
+  links_en:
+
+  co-organizer_ids:
+    - ocf
+  coordinator_ids:
+    - mouse
+    - singing
+
+  reports:
+    2016: 05
+  reports_en:
+
+- id: 
+
+  name: 協助 OpenLab Taipei 於 Maker Fair 義賣
+  name_en: 
+
+  cover_image: /people/partners/openlab_logo.jpg
+
+  start: 2016/05/07
+  end: 2016/05/08
+
+  organizer_ids:
+    - openlab
+  co-organizer_ids:
+    - ocf
+
+  reports:
+    2016: 05
+  reports_en:
+
+- id: 
+
+  name: 參與智慧財產局 TPP 與智慧財產權修法配套公聽會
+  name_en: 
+
+  description: 為因應我國加入「跨太平洋夥伴協定(TPP)」，就著作權法應為配套修正之部分，本局（經濟部智慧財產局）訂於105年4月29日召開公聽會，歡迎各界先進踴躍報名參加。
+  description_en: 
+
+  cover_image: /people/partners/ipo_logo.jpg
+
+  start: 2016/04/29
+  end: 
+
+  links:
+    - title: 活動資訊
+      url: https://www.tipo.gov.tw/ct.asp?xItem=586327&ctNode=7127&mp=1
+    - title: 文字記錄
+      url: https://lucien.hackpad.com/20160429-TPP-53D94GyF2Lp
+  links_en:
+
+  contributor_ids:
+    - lucien
+
+  reports:
+    2016: 04
+  reports_en:
+
+- id: 
+
+  name: 協助 openSUSE 正體中文社群 募款 
+  name_en: 
+
+  cover_image: /people/partners/opensuse_taiwan_cover.png
+
+  start: 2016/04
+  end: 
+
+  links: 
+    - title: 募款專頁
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=17&_ga=1.229013466.715222481.1473081200
+  links_en:
+
+  reports:
+    2016: 04
+  reports_en:
+
+- id:
+
+  name: 協助 Apache Spark@Hsinchu 於交大舉辦活動 
+  name_en: 
+
+  start: 2016/04
+
+- id:
+
+  name: 協助 OpenLab.Taiepi 募款
+  name_en: 
+
+  cover_image: /people/partners/openlab_logo.jpg
+
+  start: 2016/03/25
+  end:
+
+  links: 
+    - title: 募款專頁
+      url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=15&_ga=1.235977543.715222481.1473081200
+    - title: 會議記錄
+      url: https://ocf-tw.hackpad.com/OCF-openlab.taipei-325-Meeting-2tfOMhEuRq3
+  links_en:
+
+  reports:
+    2016: 03
+  reports_en:
+
+- id:
+
+  name: 協助籌備 OH:RepRap Festival（開放硬體：3DP大拜拜）
+  name_en: 
+
+  cover_image: /people/partners/openlab_logo.jpg
+
+  start: 2016/03/25
+  end:
+
+  links: 
+    - title: 討論共筆
+      url: https://openlabtaipei.hackpad.com/OHRepRap-Festival3DPv1.0-BPYkkSQWxJr
+    - title: 會議記錄
+      url: https://ocf-tw.hackpad.com/OCF-openlab.taipei-325-Meeting-2tfOMhEuRq3
+  links_en:
+
+  reports:
+    2016: 03
+  reports_en:
+
+- id:
+
+  name: 協尋 OpenLab.Taipei 空間
+  name_en: 
+
+  cover_image: /people/partners/openlab_logo.jpg
+
+  start: 2016/03/25
+  end:
+
+  links: 
+    - title: 討論共筆
+      url: https://openlabtaipei.hackpad.com/Openlab.Taipei--zevGpEe1VBQ
+    - title: 會議記錄
+      url: https://ocf-tw.hackpad.com/OCF-openlab.taipei-325-Meeting-2tfOMhEuRq3
+  links_en:
+
+  reports:
+    2016: 03
+  reports_en:
+
+- id:
+
+  name: 參與 司改會全民司改運動第一次籌備會議
+  name_en: 
+
+  start: 2016/03/12
+
+  reports:
+    2016: 03
+  reports_en:
+
+- id: 
+
+  name: 參與 國民健康署資訊專家會議
+  name_en: 
+
+  start: 2016/01/20
+ 
+  reports:
+    2016: 01
+  reports_en:

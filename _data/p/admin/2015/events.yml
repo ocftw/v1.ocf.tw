@@ -1,0 +1,241 @@
+- id: 
+
+  name: CONCOM X OCF 2015
+  name_en: 
+
+  description: CONCOM 的全稱為 CONference for open COMmunities，希望能藉這個會議促進各開放社群及相關研討會的人、事、物交流，同時也提升由志工所籌辦的各種研討會與活動品質。活動模仿 Barcamp 的方式進行，邀請台灣各 FLOSS 社群或研討會籌備組織團隊一起「來．講．學」！
+  description_en: 
+
+  cover_image: /p/2015/concom/cover.jpg
+
+  start: 2015/12/12
+
+  links: 
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/concom2015
+    - title: 活動共筆集
+      url: http://beta.hackfoldr.org/concom2015
+    - title: 影音紀錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnsAEqOdBTJ5QXyXkq2I_Lj
+  links_en:
+
+  organizer_ids:
+    - ocf
+  host_ids:
+    - singing
+
+  reports:
+    2015: 12
+  reports_en:
+
+- id: 
+
+  name: 參與司法陽光網記者會
+  name_en: 
+
+  start: 2015/11/17
+
+  reports:
+    2015: 11
+  reports_en:
+
+- id: 
+
+  name: 嘉義大學資訊管理系專題演講「開源人生指南 - 如何不慎豐富人脈與經驗」
+  name_en: 
+
+  start: 2015/10/07
+
+  links: 
+    - title: 投影片
+      url: http://www.slideshare.net/bobchao/ss-54725827
+  links_en:
+
+  speaker_ids:
+    - bobchao
+
+  reports:
+    2015: 10
+  reports_en:
+
+- id: 
+
+  name: 2015 國會改革與監督國際會議
+  name_en: 
+
+  start: 2015/10/02
+  end: 2015/10/03
+
+  metas:
+    - 主辦：公民監督國會聯盟
+    - 協辦：台灣環境資訊協會、國會調查兵團、開放文化基金會、割闌尾計劃、監票者聯盟
+
+  reports:
+    2015: 10
+  reports_en:
+
+- id: 
+
+  name: 「開放資料(Open Data)：機會、挑戰與發展策略」論壇
+  name_en: 
+
+  subtitles:
+    - 董事長 李柏鋒 主講：從開放源碼到開放資料
+  subtitles_en:
+
+  start: 2015/07/03
+
+  links:
+    - title: 投影片
+      url: https://docs.google.com/presentation/d/1nVjLm4ABDBFuGk6Hv7yumLUtuleFkH9WHwphKfm9aaA/edit#slide=id.ga19855402_0_28
+  links_en:
+
+  contributor_ids:
+    - pofeng
+
+  reports:
+    2015: 07
+  reports_en:
+
+- id: 
+
+  name: 出席 著作權法修正草案第二稿公聽會
+  name_en: 
+
+  start: 2015/05/25
+
+  links:
+    - title: 公聽會資訊
+      url: https://www.tipo.gov.tw/ct.asp?xItem=549150&ctNode=7127&mp=1
+    - title: 活動錄影
+      url: https://youtu.be/vR4wQc0Hpfc
+    - title: 智慧局報告投影片
+      url: https://drive.google.com/file/d/0B1uXLsanO-xAN3VsZ19xRTB1X2M/view?usp=sharing
+    - title: Lucien 第一次發言
+      url: https://youtu.be/vR4wQc0Hpfc?t=1h7m6s
+    - title: nchild 第一次發言
+      url: https://youtu.be/vR4wQc0Hpfc?t=2h17m5s
+    - title: pofeng 第一次發言
+      url: https://youtu.be/vR4wQc0Hpfc?t=2h47m30s
+    - title: nchild 第二次發言
+      url: https://youtu.be/vR4wQc0Hpfc?t=3h23m18s
+  links_en:
+
+  contributor_ids:
+    - lucien
+    - nchild
+    - pofeng
+
+  reports:
+    2015: 05
+  reports_en:
+
+- id: 
+
+  name: 出席 中央研究院 人文社會科學研究中心 健康統計區建置-專家會議
+  name_en: 
+
+  start: 2015/05/14
+
+  reports:
+    2015: 05
+  reports_en:
+
+- id: 
+
+  name: 出席 104 年「非營利組織資訊科技運用」座談會
+  name_en: 
+
+  subtitles:
+    - 董事 黃雋 主講：網路科技於社會倡議
+  subtitles_en:
+
+  start: 2015/04/20
+
+  links:
+    - title: 活動資訊
+      url: http://apply.frontier.org.tw/2015/introduce.htm
+  links_en:
+
+  contributor_ids:
+    - jimyhuang
+
+  reports:
+    2015: 04
+  reports_en:
+
+- id:
+
+  name: 臺北市政府開放資料黑客松
+  name_en: 
+
+  cover_image: /p/2015/admin/taipeigov0523.jpg
+
+  start: 2015/05/23
+
+  links:
+    - title: 活動官方網站
+      url: http://hackathon.data.taipei/
+  links_en:
+
+  organizer_ids:
+    - doittp
+    - netivism
+  co-organizer_ids:
+    - ocf
+    - dsc
+    - g0vjothon
+
+  reports:
+    2015: 05
+  reports_en:
+
+- id:
+
+  name: 董事會
+  name_en: 
+
+  start: 2015/03/12
+
+  links:
+    - title: 會議記錄
+      url: https://drive.google.com/file/d/0B3LuzeRY0rWtM3ZsRGVCbTRKTVE/view?usp=sharing
+  links_en:
+
+  reports:
+    2015: 03
+  reports_en:
+
+- id:
+
+  name: 烤山豬募款餐會
+  name_en: 
+
+  cover_image: /p/2015/admin/201502party.jpg
+
+  start: 2015/02/07
+
+  links:
+    - title: 活動共筆
+      url: https://ocf-tw.hackpad.com/2015-02-07-Party--REAMH2Ulrbx
+  links_en:
+
+  reports:
+    2015: 02
+  reports_en:
+
+- id:
+
+  name: 新境界文教基金會：地方政府 open data 策略建議 (草稿)
+  name_en: 
+
+  start: 2015/02/05
+
+  links: 
+    - title: 會議記錄
+      url: https://smartcity.hackpad.com/A.-Hackathon--VEDXba5WDu4
+  links_en:
+
+  reports:
+    2015: 02
+  reports_en:
