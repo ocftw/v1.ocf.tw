@@ -1,14 +1,25 @@
-html, body {
+html,
+body {
   font-size: 18px;
 }
 
-html, body, h1, h2, h3, h4, h5, h6, button {
-  font-family: Lato, Noto sans, "Helvetica Neue" ,Arial,Helvetica, '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: Lato, Noto sans, 'Helvetica Neue', Arial, Helvetica, '微軟正黑體',
+    'Microsoft JhengHei', sans-serif;
 }
 
-pre, code {
-  background-color: rgba(0,0,0,0.05);
-  color: rgba(0,0,0,0.5);
+pre,
+code {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 pre {
@@ -23,15 +34,32 @@ code {
 
 /* adjust default semantic ui line height */
 
-p, a, li, h1, h2, h3, h4, h5, h6, 
-.header, .ui.header, .ui.header .sub.header, .header .sub.header,
-.ui.list .item, .ui.list .item .content, 
-.ui.items>.item, .ui.items>.item .meta, .ui.items>.item .description, 
-.ui.cards>.card, .ui.cards>.card .meta, .ui.cards>.card .description {
+p,
+a,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.header,
+.ui.header,
+.ui.header .sub.header,
+.header .sub.header,
+.ui.list .item,
+.ui.list .item .content,
+.ui.items > .item,
+.ui.items > .item .meta,
+.ui.items > .item .description,
+.ui.cards > .card,
+.ui.cards > .card .meta,
+.ui.cards > .card .description {
   line-height: 1.7em;
 }
 
-.ui.horizontal.list>.item>i.icon, .ui.horizontal.list>.item>.content {
+.ui.horizontal.list > .item > i.icon,
+.ui.horizontal.list > .item > .content {
   vertical-align: initial;
 }
 
@@ -39,28 +67,22 @@ p, a, li, h1, h2, h3, h4, h5, h6,
   line-height: 1.5em;
 }
 
-.ui.header .sub.header, .header .sub.header, 
-.ui.items>.item .meta, 
-.ui.cards>.card .meta {
+.ui.header .sub.header,
+.header .sub.header,
+.ui.items > .item .meta,
+.ui.cards > .card .meta {
   margin-bottom: 0;
 }
 
-.ui.header .sub.header:first-child, .header .sub.header:first-child, 
-.ui.items>.item .header+.meta, 
-.ui.cards>.card .header+.meta  {
+.ui.header .sub.header:first-child,
+.header .sub.header:first-child,
+.ui.items > .item .header + .meta,
+.ui.cards > .card .header + .meta {
   margin-top: 0.2em;
-}
-
-.ui.list .list>.item, .ui.list>.item, ol.ui.list li, ul.ui.list li {
 }
 
 .ui.items .item .meta .ui.labels {
   margin-top: 0.5em;
-}
-
-/* for cards margin */
-
-.ui.cards {
 }
 
 /* universal */
@@ -123,7 +145,7 @@ p, a, li, h1, h2, h3, h4, h5, h6,
   padding-right: 1rem;
 }
 
-.ui.label+.text {
+.ui.label + .text {
   margin-left: 0.5rem;
 }
 
@@ -131,22 +153,17 @@ p, a, li, h1, h2, h3, h4, h5, h6,
 
 .ui.container {
   width: 100%;
-  max-width: 1200px!important;
+  max-width: 1440px !important;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 @media only screen and (max-width: 767px) {
-
-.ui.container {
-  padding-left: 0;
-  padding-right: 0;
+  .ui.container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
-
-}
-
-/* for grid */
-
 
 /* for header */
 
@@ -175,24 +192,22 @@ p, a, li, h1, h2, h3, h4, h5, h6,
 
 /* for semantic ui sidebar */
 
-#header .ui.menu .item[data-display="mobile"] {
+#header .ui.menu .item[data-display='mobile'] {
   display: none;
   margin-right: -1.14285714em;
 }
 
-#header .ui.menu .item[data-display="mobile"] i.icon {
+#header .ui.menu .item[data-display='mobile'] i.icon {
   margin-right: 0;
 }
 @media only screen and (max-width: 767px) {
+  #header .ui.menu .item[data-display='desktop'] {
+    display: none;
+  }
 
-#header .ui.menu .item[data-display="desktop"] {
-  display: none;
-}
-
-#header .ui.menu .item[data-display="mobile"] {
-  display: block;
-}
-
+  #header .ui.menu .item[data-display='mobile'] {
+    display: block;
+  }
 }
 
 /* for semantic ui sidebar on ios */
@@ -210,46 +225,49 @@ html.ios body {
 
 #submenu .ui.menu {
   margin-top: 1rem;
-  background-color: rgba(240,240,240,0.8);
+  background-color: rgba(240, 240, 240, 0.8);
 }
 
-#submenu [data-context="mobile"], #submenu[data-context="mobile"] {
+#submenu [data-context='mobile'],
+#submenu[data-context='mobile'] {
   display: none;
 }
 
-#submenu [data-context="mobile"] .menu .item, #submenu[data-context="mobile"] .menu .item {
+#submenu [data-context='mobile'] .menu .item,
+#submenu[data-context='mobile'] .menu .item {
   text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
+  #submenu [data-context='desktop'],
+  #toc[data-context='desktop'] {
+    display: none;
+  }
 
-#submenu [data-context="desktop"], #toc[data-context="desktop"] {
-  display: none;
-}
-
-#submenu [data-context="mobile"], #submenu[data-context="mobile"] {
-  display: block;
-}
-
+  #submenu [data-context='mobile'],
+  #submenu[data-context='mobile'] {
+    display: block;
+  }
 }
 
 /* for headings */
 
-.ui.cards>.card h3.header {
+.ui.cards > .card h3.header {
   margin-bottom: 0;
 }
 
 @media only screen and (max-width: 767px) {
+  h2.ui.header,
+  h2,
+  h1.ui.header,
+  h1 {
+    display: block;
+    text-align: center;
+  }
 
-h2.ui.header, h2, h1.ui.header, h1 {
-  display: block;
-  text-align: center;
-}
-
-#about h2.ui.header {
-  text-align: left;
-}
-
+  #about h2.ui.header {
+    text-align: left;
+  }
 }
 
 /* for footer */
@@ -258,18 +276,19 @@ h2.ui.header, h2, h1.ui.header, h1 {
   background: url(/assets/images/footer.png) repeat 0 0;
 }
 
-#footer .ui.grid>.column, #footer .ui.list>.item {
+#footer .ui.grid > .column,
+#footer .ui.list > .item {
   font-size: 0.8rem;
 }
 
 /* for semantic ui list in footer */
 
-#footer .ui.horizontal.list>.item {
+#footer .ui.horizontal.list > .item {
   margin-left: 0;
   margin-right: 1em;
 }
 
-#footer .ui.horizontal.list>.item:last-child {
+#footer .ui.horizontal.list > .item:last-child {
   margin-right: 0;
 }
 
@@ -311,9 +330,4 @@ h2.ui.header, h2, h1.ui.header, h1 {
 figure {
   margin-left: 0;
   margin-right: 0;
-}
-
-/* for about page, media page */
-
-#toc {
 }

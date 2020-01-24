@@ -34,8 +34,8 @@
   position: relative;
 }
 
-#project .items .item .ui.horizontal.labels .label{
-  margin-bottom: .5em;
+#project .items .item .ui.horizontal.labels .label {
+  margin-bottom: 0.5em;
 }
 
 #project #meta .ui.divider:first-child {
@@ -73,7 +73,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-#project .flex-swap {
-  order: 0;
-}
+  #project .flex-swap {
+    order: 0;
+  }
 }
