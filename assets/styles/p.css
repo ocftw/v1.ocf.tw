@@ -58,9 +58,8 @@
   display: inline-block;
 }
 
-#project #meta #child.list .item .text {
-  display: table-cell;
-  padding-right: 0.25rem;
+#project #meta #child.list .item .icon {
+  display: inline-block;
 }
 
 #project iframe {
