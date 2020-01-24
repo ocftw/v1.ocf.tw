@@ -183,7 +183,7 @@
   link:
     - title: 簡報文件
       url: https://docs.google.com/document/d/1KEEXhtw17Mj618RG5SDmZuYxyfeyIWiEuUa7oLWx0sw/edit#heading=h.9vpfwesezz7r
-  cover: /p/2018/admin/digitalcivil.png
+  cover: /p/admin/2018/digitalcivil.png
   contributor_id:
     - ttcat
     - lulukeng
@@ -212,7 +212,7 @@
   link:
     - title: 活動網站
       url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=9
-  cover: /p/2018/admin/2018spring party.jpg
+  cover: /p/admin/2018/2018spring party.jpg
   contributor_id:
     - aiya
     - bess

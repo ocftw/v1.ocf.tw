@@ -79,7 +79,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2017/admin/iii_opensource.jpg
+        url: /p/admin/2017/iii_opensource.jpg
         swap: true
       - type: article
         title: Institute for Information Industry (III) - Connecting open source communities
@@ -88,7 +88,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2017/admin/cctaiwan.jpg
+        url: /p/admin/2017/cctaiwan.jpg
         swap: false
       - type: article
         title: CCTW X OCF — CC Taiwan Community
@@ -220,7 +220,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2017/admin/ocf_trip2017.jpg
+        url: /p/admin/2017/ocf_trip2017.jpg
         swap: true
       - type: article
         title: New team members in 2017
@@ -228,7 +228,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2017/admin/year_end_party.jpg
+        url: /p/admin/2017/year_end_party.jpg
         swap: false
       - type: article
         title: Recognition to our enthusiastic volunteers

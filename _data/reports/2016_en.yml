@@ -95,8 +95,8 @@ items:
     columns:
       - type: slider
         slides:
-         - url: /p/2016/admin/ndc-it-managers-2016.jpg
-         - url: /p/2016/admin/ndc-it-managers-2016.jpg-3.jpg
+         - url: /p/admin/2016/ndc-it-managers-2016.jpg
+         - url: /p/admin/2016/ndc-it-managers-2016.jpg-3.jpg
         swap: true
       - type: article
         title: <Governments> Civil Servants X OCF
@@ -252,7 +252,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/admin/Taiwan_CDC_RI_GithubPage.png
+        url: /p/admin/2016/Taiwan_CDC_RI_GithubPage.png
         swap: false
       - type: article
         title: Decreasing cross-platform problems with MOICA
@@ -264,7 +264,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/admin/pexels-CC0photo-ideas.jpeg
+        url: /p/admin/2016/pexels-CC0photo-ideas.jpeg
         swap: true
       - type: article
         title: Advocating for a spirit of openness during government procurement contracts 
@@ -309,7 +309,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/admin/flickr_CCBYothree_volunteer.jpg
+        url: /p/admin/2016/flickr_CCBYothree_volunteer.jpg
         swap: true
       - type: article
         title: Thanks to our super supportive volunteers. 

@@ -1,6 +1,6 @@
 title: 2018 Annual Report | Open Culture Foundation
 description: Thanks for all your support in 2018! In our 5 years of operation, we have supported nearly 30 projects initiated by open source communities. We participate in transboundary cooperation to promote open culture and digital rights, and combining community experiences locally and internationally to promote civic tech. We look forward to achieve new milestones of open culture with you in 2019!
-cover: /p/2018/admin/report_壓縮1.png
+cover: /p/admin/2018/report_壓縮1.png
 color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
@@ -274,7 +274,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: \p\2018\admin\2018spring party.jpg
+        url: /p/admin/2018/2018spring party.jpg
         swap: true
       - type: article
         title: Recognition to our enthusiastic volunteers
@@ -325,7 +325,7 @@ items:
           title: Donate
           url: https://ocf.tw/p/
   - type: image_header
-    cover: /p/2018/admin/thumbsup2.png
+    cover: /p/admin/2018/thumbsup2.png
     cover_image_alt: 
     background_color: tint
   - type: content

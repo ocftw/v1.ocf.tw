@@ -1,6 +1,6 @@
 title: 開放文化基金會 2018 成果報告
 description: 2018 年感謝有您的支持，OCF 營運邁入第五年，累計協助近 30 項由開源社群自主發起的活動計畫，結合國內外社群經驗推動公民科技的發展，參與跨界合作共同發揚開放精神及推廣數位權利。2019年，OCF 期待與您一起持續拓展開放文化的新里程！
-cover: /p/2018/admin/report_壓縮1.png
+cover: /p/admin/2018/report_壓縮1.png
 color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
@@ -8,7 +8,7 @@ items:
   - type: image_header
     anchor: admin
     background_color: teal
-    cover: \p\2018\admin\admin_banner2018_report.png
+    cover: /p/admin/2018/admin_banner2018_report.png
     cover_image_alt: 
   - type: content
     columns:
@@ -63,7 +63,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: \p\2018\admin\pttid.png
+        url: /p/admin/2018/pttid.png
         swap: true
       - type: article
         title: 起風囉！ 鄉民Ｘ開放資料看網路風向！
@@ -87,7 +87,7 @@ items:
           - person_id: leona
           - person_id: rosa
   - type: image_header
-    cover: /p/2018/admin/admindonate-GRAY.png
+    cover: /p/admin/2018/admindonate-GRAY.png
     cover_image_alt: 
     background_color: teal
     button:
@@ -301,7 +301,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: \p\2018\admin\2018spring party.jpg
+        url: /p/admin/2018/2018spring party.jpg
         swap: true
       - type: article
         title: 感謝熱血志工
@@ -352,7 +352,7 @@ items:
           title: Donate
           url: https://ocf.tw/p/
   - type: image_header
-    cover: /p/2018/admin/thumbsup2.png
+    cover: /p/admin/2018/thumbsup2.png
     cover_image_alt: 
     background_color: tint
   - type: content
