@@ -46,17 +46,21 @@
   margin-top: 1rem;
 }
 
-#project #meta .list .item .ui.label {
-  width: 5em;
+#project #meta #cast.list .item .ui.label {
+  min-width: 5em;
   padding: 0.55em 0;
   float: left;
   background: none;
   text-align: left;
 }
 
-#project #meta .list .item .text {
-  display: block;
-  margin-left: 5em;
+#project #meta #cast.list .item .text {
+  display: inline-block;
+}
+
+#project #meta #child.list .item .text {
+  display: table-cell;
+  padding-right: 0.25rem;
 }
 
 #project iframe {

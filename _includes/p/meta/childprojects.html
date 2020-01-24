@@ -2,29 +2,31 @@
 
 {% for project_folder in site.data.p[project_id] %}
   {% if project_folder[0] != 'project' and project_folder[0] != 'events' %}
-    {% if has_sub_project == false %}
-      <div class="ui horizontal divider">
-        <i class="folder open icon"></i>
-        {% if lang == "en" %}
-          Child projects
-        {% else %}
-          子專案
-        {% endif %}
-      </div>
-      <div class="ui link list">
-      {% assign has_sub_project = true %}
-    {% endif %}
-
     {% assign sub_project_id = project_folder[0] %}
     {% assign sub_project = site.data.p[project_id][sub_project_id].project %}
-    {% include p/name.html project=sub_project return='var' %}
-    {% assign sub_project_url = project_url | append: project_folder[0] %}
 
-    {% include _shared/link.html class='item' icon='conditional' url=sub_project_url title=include_project_name %}
+    {% if sub_project %}
+      {% if has_sub_project == false %}
+        <div class="ui horizontal divider">
+          <i class="folder open icon"></i>
+          {% if lang == "en" %}
+            Child projects
+          {% else %}
+            子專案
+          {% endif %}
+        </div>
+        <div id="child" class="ui link list">
+        {% assign has_sub_project = true %}
+      {% endif %}
+
+      {% assign sub_project_url = project_url | append: project_folder[0] %}
+      {% include p/name.html project=sub_project return='var' %}
+      {% include _shared/link.html class='item' icon='conditional' url=sub_project_url title=include_project_name %}
+      {% assign sub_project_url = undefined %}
+    {% endif %}
 
     {% assign sub_project_id = undefined %}
     {% assign sub_project = undefined %}
-    {% assign sub_project_url = undefined %}
   {% endif %}
 {% endfor %}
 
