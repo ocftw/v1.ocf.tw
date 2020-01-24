@@ -202,46 +202,6 @@
   speaker_id:
   banner: 
   avatar:
-0317ocf:
-  title: OCF 2018 烤山豬春酒聚
-  description: "在 2017 年，我們支援 20+ 開源社群自主籌備活動、協辦 7 場大型活動、舉辦 1 周的亞洲第一次公民科技大會、參與 4 項開源與資訊技術青年培育計畫 ...，還有更多 OCF 在開放文化上的耕耘與努力的故事將在春酒上與你分享。
-活動除了成果報告外，2017 年秋季 g0v 公民科技創新獎助金的 6 件獲獎作品同時登場發表，將分享在經過 6 個月的加速開發後，他們為台灣社會帶來什麼樣的改變。"
-  month: 3
-  start: 3/17
-  end: 
-  link:
-    - title: 活動網站
-      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=9
-  cover: /p/admin/2018/2018spring party.jpg
-  contributor_id:
-    - aiya
-    - bess
-    - bobchao
-    - clkao
-    - honki
-    - huangfu
-    - jimyhuang
-    - lilin
-    - lulukeng
-    - miniwu
-    - pellaeon
-    - pofeng
-    - rock
-    - singing
-    - ttcat
-  project_id:
-    - admin
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0324python:
   title: 【高雄 Python 學院】 Python 基礎及應用工作坊
   description: 本工作坊是「Python 基礎及應用」課程的後續課程。在上一次的課程中，我們在六個小時內一次性地將初學者可能會使用到的技術盡量涵蓋，希望在知識性上讓參與者覺得物超所值。然而從問卷中，我們了解到多數初學者希望可以增加實作時數，進一步的熟悉 Python 的使用。因此我們在討論之後，決定開一個六個小時的工作坊。在本工作坊內，我們會將基本語法做簡短的複習，接著會提出不同的使用情境，讓參與者思考如何解題，視問題的難易程度，在 5-10 分鐘後，講師會提出一個參考的做法，再讓參與者做最後的嘗試及提問。上一次的課程，比較偏向知識的教授，而本工作坊則偏向技術的使用，需要參與者思考及動手，藉由動腦及動手讓 Python 語言自動地變成自己的技能。

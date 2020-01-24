@@ -9,20 +9,6 @@
   <!-- get events in project scope  -->
   {% assign events = site.data.p[parent_project_id][project_id].events %}
 
-{% elsif project and project_id == 'admin' %}
-  <!-- get events for admin -->
-  {% for project_folder in site.data.p %}
-    {% assign project_folder_name = project_folder[0] %}
-    {% if project_folder[1].events and project_folder_name != 'project_id' %}
-      {% assign events = events | concat: project_folder[1].events %}
-    {% endif %}
-    {% for sub_project_folder in site.data.p[project_folder_name] %}
-      {% if project_folder_name != 'project_id' and sub_project_folder[1].events %}
-        {% assign events = events | concat: sub_project_folder[1].events %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-
 {% elsif project %}
   <!-- get events in project and children scope -->
   {% assign events = site.data.p[project_id].events %}

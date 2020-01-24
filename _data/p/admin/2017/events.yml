@@ -1,0 +1,93 @@
+- id: 
+
+  name: 開源春酒聚
+  name_en: 
+
+  description: 開放文化基金會邀請所有捐款人、以及對開源文化有貢獻和興趣的您一起來聚聚，在新的 2017 年，喝點小茶，彼此聊聊過去、展望未來。
+  description_en: 
+
+  cover_image: 
+
+  start: 2017/01/14
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=5
+  links_en:
+
+  participant_ids:
+    - ttcat
+    - singing
+    - rock
+    - mglee
+    - huangfu
+    - afi
+    - ael
+    - aaron
+
+  reports:
+    2017: 01
+  reports_en:
+
+- id: 
+
+  name: 2016 年度成果報告出刊
+  name_en: 
+
+  description: 
+  description_en: 
+
+  cover_image: 
+
+  start: 2017/02/01
+  end: 
+
+  links:
+    - title: 成果報告
+      url: http://ocf.tw/p/2016/
+  links_en:
+
+  participant_ids:
+    - ttcat
+    - singing
+    - rock
+    - mglee
+    - huangfu
+    - afi
+    - ael
+    - aaron
+    - jason
+
+  reports:
+    2017: 02
+  reports_en:
+
+- id: 
+
+  name: CONCOM x OCF 2017
+  name_en: 
+
+  description: CONCOM (CONference for open COMmunities) 是以FLOSS 社群經營與研討會籌備者為主的聚會，希望能創造一個交流與探索空間，將平時組織遇到的困難與需求提出與討論，讓具有資源的社群能將活動企劃想法、活動規劃文件、活動公開資源分享出來，希望各社群夥伴們長期累積的活動籌辦經驗、組織經營心得可以互相交流與分享，一同讓 FLOSS 社群的力量可以協力擴展。
+  description_en: 
+
+  cover_image: /p/admin/2017/20171001CONCOMPic.jpg
+
+  start: 2017/12/02
+  end: 
+
+  links:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/concom2017
+  links_en:
+
+  participant_ids:
+    - singing
+    - huangfu
+    - rock
+    - lulukeng
+
+  reports:
+    2017: 12
+  reports_en:
+
