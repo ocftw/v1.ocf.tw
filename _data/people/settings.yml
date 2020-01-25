@@ -80,7 +80,7 @@ individuals:
     name: 主講
     name_en: Speaker
   participant:
-    name: 參與者
+    name: 參與
     name_en: Participant
   donor:
     name: 捐助人

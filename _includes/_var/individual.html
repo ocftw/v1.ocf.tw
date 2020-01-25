@@ -1,0 +1,10 @@
+<!--
+  set variables:
+  individual_name
+-->
+
+{% if lang == "en" %}
+  {% assign individual_name = include.individual.name_en %}
+{% else %}
+  {% assign individual_name = include.individual.name %}
+{% endif %}

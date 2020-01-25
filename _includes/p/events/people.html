@@ -4,21 +4,12 @@
 {% for org_type in org_types %}
   {% assign key = org_type | append: '_ids' %}
   {% if event[key] %}
-    {% if lang == "en" %}
-      {% assign org_role = site.data.people.settings.orgs[org_type].name_en %}
-    {% else %}
-      {% assign org_role = site.data.people.settings.orgs[org_type].name %}
-    {% endif %}
-    <div class="meta">
-    {{ org_role }}:
+  <div class="meta">
+      {% include _shared/org_type.html org_type=org_type %}
+      :
     <span class="text">
     {% for org_id in event[key] %}
-      {% if lang == "en" %}
-        {% assign org_name = site.data.people.orgs[org_id].name_en %}
-      {% else %}
-        {% assign org_name = site.data.people.orgs[org_id].name %}
-      {% endif %}
-      {{ org_name }} 
+      {% include _shared/org_name.html org_id=org_id %}
       {% if forloop.rindex > 1 %}
       ,
       {% endif %}
@@ -31,21 +22,12 @@
 {% for individual_type in individual_types %}
   {% assign key = individual_type | append: '_ids' %}
   {% if event[key] %}
-    {% if lang == "en" %}
-      {% assign individual_role = site.data.people.settings.individuals[individual_type].name_en %}
-    {% else %}
-      {% assign individual_role = site.data.people.settings.individuals[individual_type].name %}
-    {% endif %}
-    <div class="meta">
-    {{ individual_role }}:
+  <div class="meta">
+    {% include _shared/individual_type.html individual_type=individual_type %}
+    :
     <span class="text">
     {% for individual_id in event[key] %}
-      {% if lang == "en" %}
-        {% assign item_name = site.data.people.individuals[individual_id].name_en %}
-      {% else %}
-        {% assign item_name = site.data.people.individuals[individual_id].name %}
-      {% endif %}
-      {{ item_name }} 
+      {% include _shared/individual_name.html individual_id=individual_id %}
       {% if forloop.rindex > 1 %}
       ,
       {% endif %}

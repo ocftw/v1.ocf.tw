@@ -32,6 +32,12 @@ code {
   margin: 0 0.5em;
 }
 
+code.nick {
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 1rem;
+}
+
 /* adjust default semantic ui line height */
 
 p,
