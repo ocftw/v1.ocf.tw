@@ -62,7 +62,7 @@
   description: 
   description_en: 
 
-  cover_image: p/2017/pycon/pycontw17-image.png
+  cover_image: /p/pycon/2017/pycontw17-image.png
 
   start: 2017/06/03
   end: 
@@ -90,7 +90,7 @@
   description: 
   description_en: 
 
-  cover_image: /p/2017/pycon/pycontw17-image.png
+  cover_image: /p/pycon/2017/pycontw17-image.png
 
   start: 2017/06/09
   end: 2017/06/11

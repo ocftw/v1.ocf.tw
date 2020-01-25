@@ -14,7 +14,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2017/pycon/pycon2017.jpg
+        url: /p/pycon/2017/pycon2017.jpg
         swap: false
       - type: article
         title: Large Scale Conferences - Interaction and exchanges
