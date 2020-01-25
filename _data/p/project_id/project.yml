@@ -82,7 +82,7 @@ links_en:
     url: url
     icon: text
 
-actions: 
+actions:
 # 專案頁的 call to action，可以是按鈕或一段文字，會出現在專案頁側邊欄
   - title: text
     # 按鈕上的文字
@@ -146,7 +146,7 @@ donors_en:
 board_ids:
 # 負責董事 id （隱藏欄位，僅供內部備註用）
   - id
-staff_ids: 
+staff_ids:
 # 負責員工 id （隱藏欄位，僅供內部備註用）
   - id
 
