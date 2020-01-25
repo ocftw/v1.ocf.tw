@@ -16,8 +16,7 @@ layout: global
   <div class="ui container">
     <a href="{{ project_url }}" class="ui inverted small header relative">
       <i class="left arrow icon"></i>
-      {% include p/name.html return='var' %}
-      返回 {{ include_project_name }}
+      返回 {% include p/name.html return='string' %}
     </a>
   </div>
 </nav>

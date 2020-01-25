@@ -32,8 +32,7 @@ layout: global
   <div class="ui left aligned container">
     <a href="{{ parent_project_url }}" class="ui inverted small header relative">
       <i class="left arrow icon"></i>
-      {% include p/name.html project=parent_project return='var' %}
-      返回 {{ include_project_name }}
+      返回 {% include p/name.html project=parent_project return='string' %}
     </a>
   </div>
   {% endif %}

@@ -35,8 +35,7 @@
 <!-- 專案名稱 -->
 
 <h2 class="ui center aligned small header">
-  {% include p/name.html return='var' %}
-  {{ include_project_name }}
+  {% include p/name.html return='string' %}
 </h2>
 
 <!-- 專案 meta 資訊 -->
@@ -45,12 +44,7 @@
 
 {% include p/meta/people.html %}
 
-{% for item in project_metas %}
-<div class="item">
-  <span class="ui horizontal label">{{ item.label }}</span>
-  <span class="text">{{ item.content }}</span>
-</div>
-{% endfor %}
+{% include p/meta/metas.html %}
 
 {% if page.show_progress %}
   {% include p/meta/raising.html %}
@@ -64,13 +58,7 @@
 
 <!-- 相關連結 -->
 
-{% if project_links %}
-<div class="ui link list">
-{% for link in project_links %}
-  {% include _shared/link.html class='item' icon='globe' %}
-{% endfor %}
-</div>
-{% endif %}
+{% include p/meta/links.html %}
 
 <!-- 子專案 -->
 
