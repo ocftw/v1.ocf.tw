@@ -10,7 +10,7 @@
 
   start: 2015/12/12
 
-  links: 
+  links:
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/concom2015
     - title: 活動共筆集
@@ -21,6 +21,7 @@
 
   organizer_ids:
     - ocf
+
   host_ids:
     - singing
 

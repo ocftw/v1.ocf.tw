@@ -1,13 +1,13 @@
 # 2020 版專案資料範本
 
-name: text （必填）
+name: 專案名稱（必填）
 # 專案的中文正式名稱，會顯示在專案列表頁、專案頁、活動頁
-name_en: text
+name_en: Project name
 # 英文版網頁用
 
-description: text （必填）
+description: 用一段話簡單介紹這個專案（必填）
 # 專案描述，會出現在專案列表頁、專案頁
-description_en: text
+description_en: Introduce the project in one paragraph
 # 英文版網頁用
 
 abbr: text
@@ -99,35 +99,39 @@ actions_en:
     icon: text
   - title: text
 
-organizer_ids:
-# 主辦單位 id，若有，會出現在專案列表頁、專案頁右側邊欄、以及行政中心的「計畫成果」列表內
-  - id
 advisor_ids:
-# 指導單位 id，若有，會出現在專案頁右側邊欄、以及行政中心的「計畫成果」列表內
+# 指導單位 id
+  - id
+organizer_ids:
+# 主辦單位 id
   - id
 co-organizer_ids:
-# 協辦單位 id，若有，會出現在專案頁右側邊欄、以及行政中心的「計畫成果」列表內
+# 協辦單位 id
   - id
 implementer_ids:
-# 承辦單位 id，若有，會出現在專案頁右側邊欄、以及行政中心的「計畫成果」列表內
+# 承辦單位 id
   - id
 sponsor_ids:
-# 贊助單位 id，若有，會出現在專案頁最下方、以及行政中心的「計畫成果」列表內
+# 贊助單位 id
   - id
+
 coordinator_ids:
-# 召集人 id，若有，會出現在專案頁右側邊欄、以及行政中心的「計畫成果」列表內
+# 召集人 id
   - id
-board_ids:
-# 負責董事 id，目前不會出現在任何地方，僅供編輯備註
+case-handler_ids:
+# 窗口 id
   - id
-staff_ids: 
-# 負責員工 id，目前不會出現在任何地方，僅供編輯備註
+co-worker_ids:
+# 協力 id
   - id
 consultant_ids:
-# 顧問 id，目前不會出現在任何地方，僅供編輯備註
+# 顧問 id
   - id
 volunteer_ids:
-# 志工 id，目前不會出現在任何地方，僅供編輯備註
+# 志工 id
+  - id
+contributor_ids:
+# 貢獻者 id
   - id
 donors:
 # 捐助人名單，若有，會出現在專案頁最下方
@@ -135,6 +139,13 @@ donors:
 donors_en:
 # 英文版網頁用
   - text
+
+board_ids:
+# 負責董事 id （隱藏欄位，僅供內部備註用）
+  - id
+staff_ids: 
+# 負責員工 id （隱藏欄位，僅供內部備註用）
+  - id
 
 reports:
   yyyy: mm

@@ -7,15 +7,9 @@ description_en: COSCUP's aim is providing a platform to connect Open Source code
 abbr: COSCUP
 abbr_en: COSCUP
 
-tagline: 
-tagline_en: 
-
 cover_image: /p/coscup/2019/coscup_og.jpg
 avatar_image: 
 theme_color: green
-
-start: 
-end: 
 
 type_ids:
   - community
@@ -28,17 +22,14 @@ tags:
   - 定期活動
 tags_en:
 
-metas:
-metas_en:
-
 links:
-links_en:
-
-actions: 
   - title: 官方網站
     url: https://coscup.org/
     color: green
     icon: world icon
+links_en:
+
+actions: 
   - title: 2019！開源久酒！
     url: https://coscup2019.kktix.cc/events/welcomeparty-2019
     color: blue
@@ -47,19 +38,8 @@ actions_en:
 
 organizer_ids:
   - coscup
-advisor_ids:
-co-organizer_ids:
-implementer_ids:
-sponsor_ids:
-coordinator_ids:
+
 board_ids:
   - bobchao
 staff_ids:
   - singing
-consultant_ids:
-volunteer_ids:
-donors:
-donors_en:
-
-reports:
-reports_en:

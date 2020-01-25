@@ -55,12 +55,15 @@ individuals:
   coordinator:
     name: 召集人
     name_en: Coordinator
-  board:
-    name: 董事
-    name_en: Board
   case-handler:
     name: 接洽窗口
     name_en: Case handler
+  co-worker:
+    name: 協力
+    name_en: Co-worker
+  board:
+    name: 董事
+    name_en: Board
   staff: 
     name: 工作人員
     name_en: Staff

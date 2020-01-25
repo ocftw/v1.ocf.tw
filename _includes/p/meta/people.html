@@ -1,5 +1,5 @@
 {% assign org_types = 'advisor,organizer,co-organizer,implementer' | split: ',' %}
-{% assign individual_types = 'coordinator' | split: ',' %}
+{% assign individual_types = 'coordinator,case-handler,co-worker,volunteer,contributor,consultant' | split: ',' %}
 
 {% for org_type in org_types %}
   {% assign key = org_type | append: '_ids' %}

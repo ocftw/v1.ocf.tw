@@ -17,7 +17,7 @@
       url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=9
   links_en:
 
-  participant_ids:
+  co-worker_ids:
     - aiya
     - bess
     - bobchao
@@ -56,7 +56,7 @@
       url: https://docs.google.com/document/d/1KEEXhtw17Mj618RG5SDmZuYxyfeyIWiEuUa7oLWx0sw/edit#heading=h.9vpfwesezz7r
   links_en:
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
     - lulukeng
     - rock

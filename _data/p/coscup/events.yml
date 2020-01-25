@@ -6,46 +6,24 @@
   description: 開源人年會 COSCUP 已經邁入第十四年了，今年的活動有些特別，除了延續去年首次嘗試的社群議程外，今年的時間地點則於 8/17-18 在台灣科技大學國際大樓舉辦。過去，COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，今年除了有在地社群成為議程的協力夥伴外，更加入了國際社群們，希望能打造更多元的主題和議程。無論你是寫 open source 軟體的開發者、熱衷 open source 軟體的推廣者、熟悉 open source 軟體的使用者或是想了解 open source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP 2019！
   description_en: 
 
-  subtitles:
-  subtitles_en:
-
   cover_image: /p/coscup/2019/coscup2019.png
-  banner_image: 
-  theme_color: 
 
   start: 2019/08/17
   end: 2019/08/18
-
-  labels:
-  labels_en:
-
-  metas:
-  metas_en:
 
   links:
     - title: 活動網頁
       url: https://coscup.org/2019/
   links_en:
 
-  advisor_ids:
   organizer_ids:
     - coscup
   co-organizer_ids:
     - ocf
     - ntust
-  implementer_ids:
-  sponsor_ids:
-  coordinator_ids:
-  board_ids:
-  staff_ids:
+
+  co-worker_ids:
     - rosa
-  consultant_ids:
-  volunteer_ids:
-  host_ids:
-  speaker_ids:
-  participant_ids:
-  donors:
-  donors_en:
 
   reports:
     2019: 08
@@ -60,21 +38,10 @@
   description: 開源人年會 COSCUP 已經邁入第十三年了，今年的活動有些特別，除了延續去年首次嘗試的社群議程外，今年更與 GNOME.Asia 與 openSUSE.Asia 一起合辦，今年的時間地點則於 8/11-12 在台灣科技大學國際大樓舉辦。過去，COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，今年除了有在地社群成為議程的協力夥伴外，更加入了國際社群們，希望能打造更多元的主題和議程。 無論你是寫 Open Source 軟體的開發者、熱衷 Open Source 軟體的推廣者、熟悉 Open Source 軟體的使用者或是想了解 Open Source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP x GNOME.Asia x openSUSE.Asia 2018！
   description_en: 
 
-  subtitles:
-  subtitles_en:
-
   cover_image: /p/coscup/2018/coscup2018.jpg
-  banner_image: 
-  theme_color: 
 
   start: 2018/08/11
   end: 2018/08/12
-
-  labels:
-  labels_en:
-
-  metas:
-  metas_en:
 
   links:
     - title: 完整議程
@@ -87,7 +54,6 @@
       url: https://coscup2018.kktix.cc/events/welcomeparty-2018
   links_en:
 
-  advisor_ids:
   organizer_ids:
     - coscup
     - opensuseasia
@@ -95,19 +61,14 @@
   co-organizer_ids:
     - ocf
     - ntust
-  implementer_ids:
-  sponsor_ids:
-  coordinator_ids:
+
+  co-worker_ids:
+    - singing
+    - huangfu  
+
   board_ids:
     - bobchao
   staff_ids:
-    - singing
-    - huangfu  
-  host_ids:
-  speaker_ids:
-  participant_ids:
-  donors:
-  donors_en:
 
   reports:
     2018: 08
@@ -121,21 +82,10 @@
   description: COSCUP 2017 8/5-8/6 @臺灣大學社會科學院盛大舉行。COSCUP 為 Open Source  愛好者交流與分享的大型開放原始碼研討會，今年更邀請了各地社群成為議程的協力夥伴，一同打造更多元的主題和議程，歡迎你來參加一年一度開源人年會。COSCUP 2017 以「擁抱社群，回歸創始，莫忘初衷，擁抱開源」為主題，COSCUP 與 22 個開源社群一同協調規劃今年的 8 軌議程，超過 140 段議程輪番登場，網羅目前台灣熱門議題，吸引來自世界各地講者，帶來包含開放農業、物聯網技術與開發、資料庫的應用與研究、全端網頁技術的優化、Android App 開發、分散式與海量計算電腦區塊鏈、作業系統開發與選擇、電腦字型發展、社群經營、開放 API 與資訊安全。除了上述這些議題，COSCUP 也有準備輕鬆愉快的開源歷程分享，讓第一次參與 COSCUP 的與會者們瞭解其他人的開源之路。
   description_en: 
 
-  subtitles:
-  subtitles_en:
-
   cover_image: /p/coscup/2017/og.png
-  banner_image: 
-  theme_color: 
 
   start: 2017/08/05
   end: 2017/08/06
-
-  labels:
-  labels_en:
-
-  metas:
-  metas_en:
 
   links:
     - title: 活動網站
@@ -146,24 +96,18 @@
       url: https://coscup2017.kktix.cc/events/coscup2017-individual-sponsor
   links_en:
 
-  advisor_ids:
   organizer_ids:
     - coscup
   co-organizer_ids:
     - ocf
-  implementer_ids:
-  sponsor_ids:
-  coordinator_ids:
+
+  co-worker_ids:
+    - singing
+    - huangfu  
+
   board_ids:
     - bobchao
   staff_ids:
-    - singing
-    - huangfu  
-  host_ids:
-  speaker_ids:
-  participant_ids:
-  donors:
-  donors_en:
 
   reports:
     2017: 08
@@ -177,48 +121,27 @@
   description: “ It’s BETTER when it’s SHARED. ” 「分享」一直以來都是 COSCUP 的主軸，我們相信，唯有透過分享、討論與眾人的再創造，才能真正落實 open source 的精神與信念，帶給這個世界更多的可能。 人生不該被侷限在任何規則裡。除去你想像中的限制與框架，你會驚訝地發現，被激發的火花也許比你想像要多很多。不管你是迫不及待分享你過去試圖打破產業／方法間界限的貢獻與經驗，，亦或想在此盛會中聆聽交流、激發自己更多潛力，將未成形的想法付諸實現，甚至是以一個新手的身份體驗何謂 open source 的分享精神，從老手身上交接一個新的世代，我們都歡迎你前來共襄盛舉，參與一年一度 COSCUP 開源人年會。
   description_en: 
 
-  subtitles:
-  subtitles_en:
-
   cover_image: /p/coscup/2016/og.png
-  banner_image: 
-  theme_color: 
 
   start: 2016/08/20
   end: 2016/08/21
-
-  labels:
-  labels_en:
-
-  metas:
-  metas_en:
 
   links:
     - title: 官方網站
       url: http://coscup.org/2016/
   links_en:
 
-  advisor_ids:
   organizer_ids:
     - coscup
   co-organizer_ids:
     - ocf
-  implementer_ids:
-  sponsor_ids:
 
-  coordinator_ids:
+  co-worker_ids:
+    - singing
+
   board_ids:
     - bobchao
   staff_ids:
-    - singing
-  consultant_ids:
-  volunteer_ids:
-  contributor_ids:
-  host_ids:
-  speaker_ids:
-  participant_ids:
-  donors:
-  donors_en:
 
   reports:
     2016: 08
@@ -229,51 +152,27 @@
   name: COSCUP 開源人年會 2015
   name_en: Conference for Open Source Coders, Users and Promoters 2015
 
-  description: 
-  description_en: 
-
-  subtitles:
-  subtitles_en:
-
   cover_image: /p/coscup/2015/og.jpg
-  banner_image: 
-  theme_color: 
 
   start: 2015/08/15
   end: 2015/08/16
-
-  labels:
-  labels_en:
-
-  metas:
-  metas_en:
 
   links:
     - title: 官方網站
       url: http://coscup.org/2015/
   links_en:
 
-  advisor_ids:
   organizer_ids:
     - coscup
   co-organizer_ids:
     - ocf
-  implementer_ids:
-  sponsor_ids:
 
-  coordinator_ids:
+  co-worker_ids:
+    - singing
+
   board_ids:
     - bobchao
   staff_ids:
-    - singing
-  consultant_ids:
-  volunteer_ids:
-  contributor_ids:
-  host_ids:
-  speaker_ids:
-  participant_ids:
-  donors:
-  donors_en:
 
   reports:
     2015: 08

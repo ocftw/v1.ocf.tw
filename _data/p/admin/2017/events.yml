@@ -16,7 +16,7 @@
       url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=5
   links_en:
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
     - singing
     - rock
@@ -48,7 +48,7 @@
       url: http://ocf.tw/p/2016/
   links_en:
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
     - singing
     - rock
@@ -81,7 +81,7 @@
       url: https://ocftw.kktix.cc/events/concom2017
   links_en:
 
-  participant_ids:
+  co-worker_ids:
     - singing
     - huangfu
     - rock
