@@ -74,10 +74,13 @@ links:
     # 連結要顯示什麼名稱
     url: url
     # 連結要指向哪裡
+    icon: text
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
 links_en:
 # 英文版網頁用
   - title: text
     url: url
+    icon: text
 
 actions: 
 # 專案頁的 call to action，可以是按鈕或一段文字，會出現在專案頁側邊欄
@@ -85,18 +88,18 @@ actions:
     # 按鈕上的文字
     url: url
     # 按下後會連去哪裡
-    color: text
-    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
     icon: text
     # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+    color: text
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
   - title: text
     # 沒有設定 url 的狀況下，會單純以一段文字的形式顯示
 actions_en: 
 # 英文版網頁用
   - title: text
     url: url
-    color: text
     icon: text
+    color: text
   - title: text
 
 advisor_ids:

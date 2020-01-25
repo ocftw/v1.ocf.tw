@@ -28,7 +28,7 @@ js: /assets/actions.js
     {% assign project_id = p.project_id | append: "" %}
     {% assign project = site.data.projects[year][project_id] %}
     {% for link in project.link %}
-      {% include _shared/link.html class='item' icon='conditional' %}
+      {% include _shared/link.html link=link class='item' icon='conditional' %}
     {% endfor %}
     </td>
     <td data-value="actions">

@@ -31,23 +31,18 @@ tags_en:
 links:
   - title: PyCon TW 官網
     url: http://pycon.tw/
-    color: blue
     icon: home
   - title: Twitter
     url: https://twitter.com/pycontw
-    color: blue
     icon: twitter
   - title: Facebook
     url: https://www.facebook.com/pycontw/
-    color: blue
     icon: facebook
   - title: YouTube
     url: https://www.youtube.com/channel/UCHLnNgRnfGYDzPCCH8qGbQw/
-    color: blue
     icon: youtube
   - title: 相片集
     url: https://www.flickr.com/photos/pycon_tw/
-    color: blue
     icon: flickr
 links_en:
 

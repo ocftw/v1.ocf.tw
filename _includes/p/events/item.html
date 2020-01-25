@@ -88,7 +88,7 @@
     {% if event_links %}
     <div class="extra">
       {% for link in event_links %}
-        {% include _shared/link.html icon='conditional' %}
+        {% include _shared/link.html link=link icon='conditional' %}
       {% endfor %}
     </div>
     {% endif %}

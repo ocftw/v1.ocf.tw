@@ -21,7 +21,7 @@
 
       {% assign sub_project_url = project_url | append: project_folder[0] %}
       {% include p/name.html project=sub_project return='var' %}
-      {% include _shared/link.html class='item' icon='conditional' url=sub_project_url title=include_project_name %}
+      {% include _shared/link.html class='item' url=sub_project_url title=include_project_name icon='conditional' %}
       {% assign sub_project_url = undefined %}
     {% endif %}
 

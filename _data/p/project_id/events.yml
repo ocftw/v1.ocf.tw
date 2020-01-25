@@ -62,10 +62,13 @@
       # 連結要顯示什麼名稱
       url: url
       # 連結要指向哪裡
+      icon: text
+      # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
   links_en:
   # 英文版網頁用
     - title: text
       url: url
+      icon: text
 
   advisor_ids:
   # 指導單位 id
