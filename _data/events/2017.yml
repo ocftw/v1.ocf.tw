@@ -330,31 +330,6 @@
   speaker_id:
   banner: 
   avatar: 
-0521pycon:
-  title: PyCon Taiwan 2017 Tutorial - 上雲端、練AI、打電玩！ 從遊戲中誕生的人工智慧之手把手教學
-  description: 
-  month: 5
-  start: 5/21
-  end: 
-  link:
-    - title: 活動網站
-      url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-ai-game
-  cover: 
-  contributor_id:
-    - rock
-  project_id:
-    - pycon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0523cscs:
   title: 人權倡議者的資訊安全培力工作坊
   description: Civil Society Cyber Shield 資安工作坊希望能夠連結人權工作者與資訊科技（尤其是資訊安全）領域的專家，在專家幫助人權工作者的同時，也讓更多人知道人權工作的重要性。本工作坊除了教學之外，也有一部分致力於讓這兩種人互相接觸與瞭解。
@@ -408,31 +383,6 @@
   speaker_id:
   banner: 
   avatar: 
-0528pycon:
-  title: PyCon Taiwan 2017 Tutorial - 實做數學：NumPy 入門
-  description: 
-  month: 5
-  start: 5/28
-  end: 
-  link:
-    - title: 活動網站
-      url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-numpy
-  cover: 
-  contributor_id:
-    - rock
-  project_id:
-    - pycon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0602intl:
   title: RightsCon 分享會
   description: RightsCon是全球最大的數位人權大會，今年在歐盟所在地的比利時布魯塞爾舉行。而臺灣關心全球數位人權議題的團體，以臺灣維基協會為主體而組成的 RightsCon臺灣團，加上開放文化基金會、臺灣摩茲社群成員，有幸獲得臺灣民主基金會的協助，前往參與RightsCon大會。RightsCon團員回台後也運用摩茲社群週五在摩茲工寮的聚會時間，分享參與會議的所見所聞，如假新聞議題，川普效應和各地極權政府傷害數位人權的暴行，以及帶給臺灣的啟發。
@@ -454,31 +404,6 @@
   co-organizer_id:
     - wikimediatw
     - moztw
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0603pycon:
-  title: PyCon Taiwan 2017 Tutorial - 實做數學：Tensorflow 及 Keras 實做神經網路
-  description: 
-  month: 6
-  start: 6/3
-  end: 
-  link:
-    - title: 活動網站
-      url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-tensorflow-and-keras
-  cover: p/2017/pycon/pycontw17-image.png
-  contributor_id:
-    - rock
-  project_id:
-    - pycon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -527,33 +452,6 @@
     - civichall
   advisor_id:
   co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0609pycon:
-  title: PyCon TW 2017
-  description: 
-  month: 6
-  start: 6/9
-  end: 6/11
-  link:
-    - title: 活動網站
-      url: https://tw.pycon.org/2017/zh-hant/
-  cover: /p/2017/pycon/pycontw17-image.png
-  contributor_id:
-    - rock
-  project_id:
-    - pycon
-    - admin
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-    - asiii
   implementer_id:
   sponsor_id:
   coordinator_id:

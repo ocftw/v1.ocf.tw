@@ -1,0 +1,113 @@
+- id: 
+
+  name: PyCon Taiwan 2017 Tutorial - 上雲端、練AI、打電玩！ 從遊戲中誕生的人工智慧之手把手教學
+  name_en: 
+
+  description: 
+  description_en: 
+
+  cover_image: 
+
+  start: 2017/05/21
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-ai-game
+  links_en:
+
+  organizer_ids:
+    - pycon
+
+  co-worker_ids:
+    - rock
+
+  reports:
+    2017: mm
+  reports_en:
+
+- id: 
+
+  name: PyCon Taiwan 2017 Tutorial - 實做數學：NumPy 入門
+  name_en: 
+
+  description: 
+  description_en: 
+
+  cover_image: 
+
+  start: 2017/05/28
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-numpy
+  links_en:
+
+  organizer_ids:
+    - pycon
+
+  co-worker_ids:
+    - rock
+
+  reports:
+    2017: 05
+  reports_en:
+
+- id: 
+
+  name: PyCon Taiwan 2017 Tutorial - 實做數學：Tensorflow 及 Keras 實做神經網路
+  name_en: 
+
+  description: 
+  description_en: 
+
+  cover_image: p/2017/pycon/pycontw17-image.png
+
+  start: 2017/06/03
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://pycontw.kktix.cc/events/pycontw2017-tutorial-tensorflow-and-keras
+  links_en:
+
+  organizer_ids:
+    - pycon
+
+  co-worker_ids:
+    - rock
+
+  reports:
+    2017: 06
+  reports_en:
+
+- id: 
+
+  name: PyCon TW 2017
+  name_en: 
+
+  description: 
+  description_en: 
+
+  cover_image: /p/2017/pycon/pycontw17-image.png
+
+  start: 2017/06/09
+  end: 2017/06/11
+
+  links:
+    - title: 活動網站
+      url: https://tw.pycon.org/2017/zh-hant/
+  links_en:
+
+  organizer_ids:
+    - pycon
+  co-organizer_ids:
+    - ocf
+
+  co-worker_ids:
+    - rock
+
+  reports:
+    2017: 06
+  reports_en:
