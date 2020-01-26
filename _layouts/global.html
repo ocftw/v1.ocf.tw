@@ -119,23 +119,25 @@
 
 <!-- 替有實際內容的頁面套上 sidebar 以及 js -->
 
-<nav class="ui right inverted vertical menu sidebar">
-
+  <nav class="ui right inverted vertical menu sidebar">
   {% if page.layout == "design" %}
-    {% include design_sidebar.html %}
+    {% include design/sidebar.html %}
   {% else %}
     {% include nav/sidebar.html %}
   {% endif %}
-
   </nav>
-  <div class="pusher">
 
-  {% include nav/header/global.html %}
+  <div class="pusher">
+  {% if page.layout == "design" %}
+    {% include nav/header/design.html %}
+  {% elsif page.url == '/' or page.url == '/en/' %}
+  {% else %}
+    {% include nav/header/global.html %}
+  {% endif %}
 
   {{ content }}
 
   {% include nav/footer.html %}
-
   </div>
 
   <script src="/assets/libs/jquery-3.1.1.min.js"></script>
@@ -155,7 +157,7 @@
   <script src="{{ page.js }}"></script>
   {% endif %}
 
-  {% include ga.html %}
+  <script src="/assets/scripts/ga.js"></script>
 
 </body>
 </html>

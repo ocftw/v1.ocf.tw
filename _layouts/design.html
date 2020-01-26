@@ -5,15 +5,6 @@ layout: global
 <!-- 設計師後台頁面共用的 template -->
 {% assign data = page.data %}
 
-<!-- 套上設計師後台頁面專屬的導覽列 -->
-<header id="header" class="ui segment inverted pink basic marginless paddingless">
-  <div class="ui container">
-    <nav class="ui secondary inverted pointing menu">
-    {% include design_menu_desktop.html %}
-    </nav>
-  </div>
-</header>
-
 <!-- 套上設計師後台頁面的大標題區塊 -->
 <main id="{{ data }}">
   <header class="ui stripe center aligned container">
