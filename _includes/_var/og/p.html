@@ -8,8 +8,10 @@
 {% assign og_url = project_url %}
 {% assign og_title = project_name %}
 
-{% if project.cover_image %}
-  {% assign og_image = project.cover_image %}
+{% if project.og_image %}
+  {% assign og_image = project.og_image %}
+{% elsif project.header_image %}
+  {% assign og_image = project.header_image %}
 {% elsif project.avatar_image %}
   {% assign og_image = project.avatar_image %}
 {% endif %}

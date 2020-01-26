@@ -25,7 +25,7 @@ layout: global
 <!-- header 區塊 -->
 
 <header id="hero" class="ui inverted {{ project.theme_color }} center aligned basic segment marginless">
-  <img class="cover image" src="{{ project.cover_image }}" style="opacity: {{ page.cover_image_opacity }}" alt="project cover image for {{ project_name }}" />
+  <img class="cover image" src="{{ project_header_image }}" style="opacity: {{ page.cover_image_opacity }}" alt="project cover image for {{ project_name }}" />
   <div class="cover veil" style="opacity: {{ page.cover_veil_opacity }}"></div>
 
   {% if parent_project and page.show_parent_link %}

@@ -7,8 +7,9 @@ description_en: Citizen groups tend to engage in sensitive issues and thus becom
 tagline: 以資安保護公民社會
 tagline_en: 
 
-cover_image: /p/cscs/cscs-logo.png
-avatar_image: /p/cscs/cscs-logo.png
+og_image: /p/cscs/cscs-logo.png
+header_image: 
+avatar_image: 
 theme_color: blue
 
 start: 

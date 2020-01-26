@@ -7,8 +7,9 @@ description_en: COSCUP's aim is providing a platform to connect Open Source code
 abbr: COSCUP
 abbr_en: COSCUP
 
-cover_image: /p/coscup/2019/coscup_og.jpg
-avatar_image: 
+og_image: 
+header_image: /p/coscup/2019/coscup_og.jpg
+avatar_image: /p/coscup/avatar.jpg
 theme_color: green
 
 type_ids:
