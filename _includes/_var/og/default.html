@@ -1,0 +1,29 @@
+<!--
+  set variables:
+  og_url, og_title, og_image, og_description
+-->
+
+{% if page.og_url %}
+  {% assign og_url = page.og_url %}
+{% else %}
+  {% assign og_url = page.url %}
+{% endif %}
+
+{% assign og_title = page.og_title %}
+
+{% if page.og_image %}
+  {% assign og_image = page.og_image %}
+{% else %}
+  {% assign og_image = site.data.people.orgs.ocf.cover %}
+{% endif %}
+
+{% if page.og_description %}
+  {% assign og_description = page.og_description %}
+{% else %}
+  {% if lang == 'en' %}
+    {% assign og_description = site.data.people.orgs.ocf.context_description_en %}
+  {% else %}
+    {% assign og_description = site.data.people.orgs.ocf.context_description %}
+  {% endif %}
+{% endif %}
+

@@ -4,10 +4,21 @@
 # 全站所有頁面共用的終極 template
 ---
 
-<!-- 根據網址決定語系 -->
 {% include _var/lang.html %}
 
-<!-- 根據語系決定網站顯示名稱 -->
+{% if 
+  page.layout == "project" or 
+  page.layout == "event" or 
+  page.layout == "report" or
+  page.layout == "design" or
+  page.layout == "p" or 
+  page.layout == "e"
+%}
+  {% include _var/og/{{ page.layout }}.html %}
+{% else %}
+  {% include _var/og/default.html %}
+{% endif %}
+
 {% if lang == 'en' %}
   {% assign sitename = site.data.people.orgs.ocf.sitename_en %}
 {% else %}
@@ -17,50 +28,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-{% if 
-  page.layout == "project" or 
-  page.layout == "event" or 
-  page.layout == "report" or
-  page.layout == "design" 
-%}
-  <!-- 讓所有指定 layout 頁自動從對應的資料中生出 og 素材 -->
-  {% include {{ page.layout }}_og.html %}
-{% elsif 
-  page.layout == "p" or 
-  page.layout == "e"
-%}
-  <!-- 讓所有指定 layout 頁自動從對應的資料中生出 og 素材 -->
-  {% include _var/og/{{ page.layout }}.html %}
-{% else %}
-  <!-- 讓所有一般頁套用指定或預設的 og 素材 -->
-  {% if page.og_url %}
-    {% assign og_url = page.og_url %}
-  {% else %}
-    {% assign og_url = page.url %}
-  {% endif %}
-
-  {% assign og_title = page.og_title %}
-
-  {% if page.og_image %}
-    {% assign og_image = page.og_image %}
-  {% else %}
-    {% assign og_image = site.data.people.orgs.ocf.cover %}
-  {% endif %}
-
-  {% if page.og_description %}
-    {% assign og_description = page.og_description %}
-  {% else %}
-    {% if lang == 'en' %}
-      {% assign og_description = site.data.people.orgs.ocf.context_description_en %}
-    {% else %}
-      {% assign og_description = site.data.people.orgs.ocf.context_description %}
-    {% endif %}
-  {% endif %}
-
-{% endif %}
-
-<!-- 以上 og 素材來源處理完畢，開始套到 meta 標籤中 -->
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
@@ -81,43 +48,27 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
 
-<!-- 替有實際內容的頁面套上 css -->
-
   <link rel="stylesheet" href="/assets/libs/semantic/semantic.min.css"/>
-
-  {% if page.head %}
-    <!-- 給所有頁面有額外新增 head 標籤的空間 -->
-    {% include {{ page.head }} %}
-  {% endif %}
-
   <link rel="stylesheet" href="/assets/styles/global.css"/>
 
   {% if 
     page.layout == "project" or 
     page.layout == "event" or 
     page.layout == "report" or
-    page.layout == "design" 
-  %}
-    <!-- 替所有指定 layout 頁套上對應的 css -->
-    <link rel="stylesheet" href="/assets/styles/{{ page.layout }}.css"/>
-  {% elsif 
+    page.layout == "design" or
     page.layout == "p" or 
     page.layout == "e" or
     page.layout == "f"
   %}
-    <!-- 替所有指定 layout 頁套上對應的 css -->
     <link rel="stylesheet" href="/assets/styles/{{ page.layout }}.css"/>
   {% endif %}
 
   {% if page.css %}
-  <!-- 給所有頁面有額外新增 css 的空間 -->
   <link rel="stylesheet" href="{{ page.css }}"/>
   {% endif %}
 
 </head>
 <body>
-
-<!-- 替有實際內容的頁面套上 sidebar 以及 js -->
 
   <nav class="ui right inverted vertical menu sidebar">
   {% if page.layout == "design" %}
@@ -145,12 +96,14 @@
   <script src="/assets/libs/semantic/semantic.min.js"></script>
   <script src="/assets/scripts/global.js"></script>
 
-  {% if page.script %}
-    {% include {{ page.script }} %}
+  {% if page.enable_slick %}
+    {% include _plugins/slick.html %}
   {% endif %}
-
-  {% if page.footer %}
-    {% include {{ page.footer }} %}
+  {% if page.enable_fancybox %}
+    {% include _plugins/fancybox.html %}
+  {% endif %}
+  {% if page.enable_tablesort %}
+    {% include _plugins/tablesort.html %}
   {% endif %}
 
   {% if page.js %}
