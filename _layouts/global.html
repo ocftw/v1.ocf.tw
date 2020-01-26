@@ -151,6 +151,10 @@
   <script src="{{ page.js }}"></script>
   {% endif %}
 
+  {% if page.footer %}
+    {% include {{ page.footer }} %}
+  {% endif %}
+
   {% include ga.html %}
 
 </body>
