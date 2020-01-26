@@ -90,7 +90,7 @@
     {% include {{ page.head }} %}
   {% endif %}
 
-  <link rel="stylesheet" href="/assets/global.css"/>
+  <link rel="stylesheet" href="/assets/styles/global.css"/>
 
   {% if 
     page.layout == "project" or 
@@ -99,7 +99,7 @@
     page.layout == "design" 
   %}
     <!-- 替所有指定 layout 頁套上對應的 css -->
-    <link rel="stylesheet" href="/assets/{{ page.layout }}.css"/>
+    <link rel="stylesheet" href="/assets/styles/{{ page.layout }}.css"/>
   {% elsif 
     page.layout == "p" or 
     page.layout == "e" or
@@ -138,10 +138,10 @@
 
   </div>
 
-  <script src="/assets/jquery-3.1.1.min.js"></script>
+  <script src="/assets/libs/jquery-3.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
   <script src="/assets/libs/semantic/semantic.min.js"></script>
-  <script src="/assets/global.js"></script>
+  <script src="/assets/scripts/global.js"></script>
 
   {% if page.script %}
     {% include {{ page.script }} %}
