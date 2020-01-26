@@ -8,28 +8,16 @@
 
 {% assign og_url = page.url %}
 
-{% if page.og_title %}
-  {% assign og_title = page.og_title %}
-{% else %}
-  {% if page.lang == 'en' %}
+{% if page.lang == 'en' %}
   {% assign og_title = site.data.projects[year][id].name_en %}
-  {% else %}
+{% else %}
   {% assign og_title = site.data.projects[year][id].name %}
-  {% endif %}
 {% endif %}
 
-{% if page.og_image %}
-  {% assign og_image = page.og_image %}
-{% else %}
-  {% assign og_image = site.data.projects[year][id].cover %}
-{% endif %}
+{% assign og_image = site.data.projects[year][id].cover %}
 
-{% if page.og_description %}
-  {% assign og_description = page.og_description %}
-{% else %}
-  {% if page.lang == 'en' %}
+{% if page.lang == 'en' %}
   {% assign og_description = site.data.projects[year][id].description_en %}
-  {% else %}
+{% else %}
   {% assign og_description = site.data.projects[year][id].description %}
-  {% endif %}
 {% endif %}
