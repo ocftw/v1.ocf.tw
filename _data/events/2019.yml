@@ -405,7 +405,7 @@
       url: https://www.rightscon.org/
     - title: 出訪紀錄
       url: https://drive.google.com/open?id=11gE-oYY_UVfPfWqv-vkL0eVaGG0p575r
-  cover: \p\2019\intl\RC2019Tunis.jpg
+  cover: /p/2019/intl/RC2019Tunis.jpg
   contributor_id:
     - yhchang
     - pellaeon
@@ -515,7 +515,7 @@
       url: https://jcconf.tw/2019/
     - title: 報名頁
       url: https://twjug.kktix.cc/events/jcconf-2019
-  cover: \p\2019\JCConf\JCConf2019.png
+  cover: /p/2019/JCConf/JCConf2019.png
   contributor_id:
     - rosa
   project_id:
