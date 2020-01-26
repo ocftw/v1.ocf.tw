@@ -47,8 +47,7 @@
 }
 
 #project #meta #cast.list .item .ui.label {
-  min-width: 5em;
-  padding: 0.55em 0;
+  padding: 0.45rem 0;
   float: left;
   background: none;
   text-align: left;
@@ -56,6 +55,7 @@
 
 #project #meta #cast.list .item .text {
   display: block;
+  margin-left: 5rem;
 }
 
 #project #meta #links.list .item .icon,

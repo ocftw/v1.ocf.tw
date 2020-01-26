@@ -9,8 +9,7 @@ layout: global
 <!-- 上層專案連結 -->
 
 <nav id="hero" class="ui inverted {{ project.theme_color }} basic segment marginless">
-  <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
-  <img class="cover image" src="{{ project.cover_image }}" style="opacity: {{ page.project_cover_image_opacity }}" alt="Cover image for '{{ project.name }}'" />
+  <img class="cover image" src="{{ project.cover_image }}" style="opacity: {{ page.project_cover_image_opacity }}" alt="Cover image for '{{ project_name }}'" />
   <div class="cover veil" style="opacity: {{ page.project_cover_veil_opacity }}"></div>
 
   <div class="ui container">
@@ -54,8 +53,10 @@ layout: global
   </h1>
   <div class="ui basic secondary segment">
     <p>{{ event_description }}</p>
-  </div>    
+  </div>
+
   {{ content }}
+
   <div class="ui hidden divider"></div>
 
   <!-- 版型 start -->
