@@ -6,21 +6,7 @@ layout: global
 
 <main id="event">
 
-<!-- 上層專案連結 -->
-
-<nav id="hero" class="ui inverted {{ project.theme_color }} basic segment marginless">
-  <img class="cover image" src="{{ project_header_image }}" style="opacity: {{ page.project_cover_image_opacity }}" alt="Cover image for '{{ project_name }}'" />
-  <div class="cover veil" style="opacity: {{ page.project_cover_veil_opacity }}"></div>
-
-  <div class="ui container">
-    <a href="{{ project_url }}" class="ui inverted small header relative">
-      <i class="left arrow icon"></i>
-      返回 {% include p/name.html return='string' %}
-    </a>
-  </div>
-</nav>
-
-<!-- 活動資訊 -->
+{% include e/header.html %}
 
 <div class="ui container">
 

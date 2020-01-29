@@ -83,7 +83,7 @@
   <div class="pusher">
   {% if page.layout == "design" %}
     {% include nav/header/design.html %}
-  {% elsif page.url == '/' or page.url == '/en/' %}
+  {% elsif page.layout == "landing" %}
   {% else %}
     {% include nav/header/global.html %}
   {% endif %}

@@ -22,44 +22,7 @@ layout: global
 
 <main id="project">
 
-<!-- header 區塊 -->
-
-<header id="hero" class="ui inverted {{ project.theme_color }} center aligned basic segment marginless">
-  <img class="cover image" src="{{ project_header_image }}" style="opacity: {{ page.cover_image_opacity }}" alt="project cover image for {{ project_name }}" />
-  <div class="cover veil" style="opacity: {{ page.cover_veil_opacity }}"></div>
-
-  {% if parent_project and page.show_parent_link %}
-  <div class="ui left aligned container">
-    <a href="{{ parent_project_url }}" class="ui inverted small header relative">
-      <i class="left arrow icon"></i>
-      返回 {% include p/name.html project=parent_project return='string' %}
-    </a>
-  </div>
-  {% endif %}
-
-  <hr class="ui hidden section divider" />
-  <div class="ui stripe relative container">
-    <h1 class="ui inverted header">
-      {% include p/name.html %}
-    </h1>
-    <p>
-      {{ project_tagline }}
-    </p>
-  </div>
-  <hr class="ui hidden section divider" />
-</header>
-
-<!-- summary 區塊 -->
-
-{% if project_description %}
-<div class="ui container">
-  <section class="ui inverted bottom attached {{ project.theme_color }} segment borderless">
-    <p>
-      {{ project_description }}
-    </p>
-  </section>
-</div>
-{% endif %}
+{% include p/header.html %}
 
 <!-- 主要區塊 -->
 
