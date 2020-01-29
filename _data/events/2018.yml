@@ -22,32 +22,6 @@
   speaker_id:
   banner: 
   avatar: 
-0113g0vdathon:
-  title: g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松
-  description: 台灣零時政府 g0v.tw 雙月大黑客松, 不只寫程式改造社會，還要有菩薩心會許願蓋高牆做功德。不要問為什麼沒有人做功德，先承認你就是沒有人！來吧！來提新專案、來做舊專案、來認識新朋友！拓展開源、開幹、開花的公民行動精神。
-  month: 1
-  start: 1/13
-  end: 
-  link:
-    - title: 活動網站
-      url: https://g0v-jothon.kktix.cc/events/g0v-hackath28n
-    - title: 本期共筆
-      url: https://beta.hackfoldr.org/g0v-hackath28n
-  cover: /p/2018/g0v/20180113g0vdathon.jpg
-  contributor_id:
-  project_id:
-    - g0vdathon 
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0203cctw:
   title: 創用 CC 小聚-1
   description: 創用 CC (Creative Commons) 是一種對自己的著作物，在公開在網路上的同時，予以保障，讓公眾能夠在有條件的授權條款下，合理的使用你的創作物品。 我們期盼透過各種方式討論創用 CC ，除了建立大家對於開放理念、CC 授權的正確觀念之外，也引發民眾對於自己或別人的著作物品應有的尊重與著作權基本概念。 這次的討論我們會談到： Creative Commons 全球社群策略的改變 各國 CC 社群現況與困境分享。
@@ -124,30 +98,6 @@
   speaker_id:
   banner: 
   avatar: 
-0303g0vdathon:
-  title: g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松
-  description: 鄧東波／Open Data 聯盟副會長。主題：邁向鏈結開放資料之智慧服務Towards Linked Open Data for Intelligent Services
-  month: 3
-  start: 3/3
-  end: 
-  link:
-    - title: 活動網站
-      url: https://g0v-jothon.kktix.cc/events/g0v-hackath29n
-  cover: /p/2018/g0v/20180303g0vdathon.png_large.jpg
-  contributor_id: pellaeon
-  project_id:
-    - g0vdathon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar:
 0310sitcon:
   title: 學生計算機年會 SITCON 2018
   description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
@@ -242,29 +192,6 @@
     - yixuanlin 
   project_id:
     - cctw
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0414g0vdathon:
-  title: g0v 復活節第拾次基礎建設松
-  description: g0v 社群號稱「人、坑、松」組成，但實際上常有混亂分散的問題。如何讓參與者容易串連協作，需要更多好用的工具與平台。揪松團於 2016 年重啟社群基礎建設計畫，揪碼農筆農一起耕耘，打造多中心的協作生態。希望透過常態經營基礎建設專案，讓公民黑客線上線下的連結及參與，在黑客松之外能夠更續航。這次又多了 g0v 機器大使、g0v 辦松工具包之類的專案，想要促進人坑松的交流，一起來入坑吧！ 
-  month: 4
-  start: 4/14
-  link:
-    - title: 活動網站
-      url: https://g0v-jothon.kktix.cc/events/infrath10n
-  cover: /p/2018/g0v/20180414g0vdathon.jpg
-  contributor_id:
-  project_id:
-    - g0vdathon
   label:
   organizer_id:
   advisor_id:
@@ -423,32 +350,6 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
     - rock
   project_id:
     - pycourse
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0505g0vdathon:
-  title: 台灣零時政府 g0v.tw 雙月大黑客松
-  description: 本次 g0v 大黑客松將於 5/5 舉辦，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、插畫家與媒體工作者等諸眾，帶著熱血來盡一己之力，開源協作參與社會。
-  month: 5
-  start: 5/05
-  end: 
-  link:
-    - title: 活動網站
-      url: https://g0v-jothon.kktix.cc/events/g0v-hackath30n
-    - title: 本期共筆
-      url: https://beta.hackfoldr.org/g0v-hackath30n/ 
-  cover: /p/2018/g0v/20180505g0vdathon.png
-  contributor_id:
-  project_id:
-    - g0vdathon 
   label:
   organizer_id:
   advisor_id:
@@ -695,32 +596,6 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
      - leona
   project_id:
     - cctw 
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0707g0vdathon :
-  title: 台灣零時政府 g0v.tw 雙月大黑客松 
-  description: 零時政府黑客松由 g0v 揪松團舉辦，兩個月一次的單天活動，百名與會者來自不同的城市、背景、專長與年紀，利用三分鐘快速發表自己想做的事，並在現場尋找志同道合的夥伴，發揮各自所長，同時透過線上與線下協作的方式，用弄髒雙手的精神來「讓事情發生」。 沒有想法，我也可以貢獻嗎？ 可以！只要帶上你的腦袋與雙手，直接到活動現場找尋志同道合的提案吧！你也可以成為黑客松小幫手，先加入 g0v slack 線上聊天室的 jothon 群組自我介紹，再到每次黑客松共筆的資訊列表看看是否還缺少什麼人力喔！
-  month: 7
-  start: 7/7
-  end: 
-  link:
-    - title: 活動網站
-      url: https://g0v-jothon.kktix.cc/events/g0v-hackath31n
-    - title: 共筆
-      url: https://beta.hackfoldr.org/g0v-hackath31n/
-  cover: /p/2018/g0v/0707g0vdathon.png 
-  contributor_id:
-  project_id:
-    - g0vdathon 
   label:
   organizer_id:
   advisor_id:

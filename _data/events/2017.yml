@@ -1,69 +1,3 @@
-0121g0vjothon:
-  title: g0v 第陸次基礎建設「大平台」松
-  description: 
-  month: 1
-  start: 1/21
-  end: 
-  cover: 
-  contributor_id:
-    - ttcat
-  project_id:
-    - g0vdathon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0216g0vjothon:
-  title: g0v 第柒次基礎建設緊急松 - 德國 Prototype Fund x g0v 獎助金
-  description: 
-  month: 2
-  start: 2/16
-  end: 
-  cover: 
-  contributor_id:
-    - ttcat
-  project_id:
-    - g0vdathon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0304g0vjothon:
-  title: 台灣零時政府第貳拾參次開放資料黑客松
-  description: 
-  month: 3
-  start: 3/4
-  end: 
-  cover: 
-  contributor_id:
-    - ttcat
-  project_id:
-    - g0vdathon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0318sitcon:
   title: SITCON 2017
   description: SITCON2017將以「新世代的網路挑戰」為年會焦點，揭開網際網路便利的面紗，深入探討網路世代在網路治理、內容過濾、識別追蹤、媒體中立性等不同面向上將面臨的困境與挑戰，並共同探求資訊技術的平衡發展。
@@ -201,28 +135,6 @@
   speaker_id:
   banner: 
   avatar: 
-0420g0vjothon:
-  title: g0v 第捌次基礎建設松
-  description: 
-  month: 4
-  start: 4/20
-  end: 4/20
-  cover: 
-  contributor_id:
-    - ttcat
-  project_id:
-    - g0vdathon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0425intltrip:
   title: 海外參訪 - TICTeC
   description: 第三屆 TICTeC 在義大利佛羅倫斯舉辦，聚焦在公民科技和數位民主對全球公民、政策決定者及政府的影響，討論領域包含公民科技的參與、制度、政治社群、數位能力及相關倫理。群眾來自學術界、商業界、政治領域、NGOs 及教育機構的參與者，共有約200 人參與。開放文化基金會籌組參訪團，於 2017 年 4 月遠赴義大利參與，為 WCIT 2017 & Civic Tech Fest 世界公民科技週的啟動宣傳，並宣布 TICTeC@Taipei 首次在亞洲舉行。
@@ -297,28 +209,6 @@
     - lucien
   project_id:
     - cctw
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0506g0vjothon:
-  title: 台灣零時政府第貳拾肆次凍省黑客松
-  description: 
-  month: 5
-  start: 5/6
-  end: 
-  cover: 
-  contributor_id:
-    - ttcat
-  project_id:
-    - g0vdathon
   label:
   organizer_id:
   advisor_id:
@@ -538,34 +428,6 @@
   speaker_id:
   banner: 
   avatar: 
-0729g0vjothon:
-  title: g0v hackathon Bangkok
-  description: Join the frist g0v’s hackathon @ Bangkok to hack a better society with all enthusiastic hackers, activists, designers, government officials and social innovators!
-  month: 7
-  start: 7/29
-  end: 
-  link:
-    - title: 活動介紹及資訊
-      url: http://beta.hackfoldr.org/bangkok-hackath0n
-  cover: 
-  contributor_id:
-    - ttcat
-    - afi
-    - pellaeon
-    - yhsiang
-  project_id:
-    - g0vdathon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0811APriGF:
   title: APrIGF 回國分享會
   description: 分享 OCF 前往曼谷參與 APrIGF 的經驗
@@ -606,31 +468,6 @@
     - pellaeon
   project_id:
     - intl
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0822g0vjothon:
-  title: 台灣零時政府第貳拾伍次科學黑客松
-  description: 
-  month: 8
-  start: 8/22
-  end: 8/25
-  link:
-    - title: 報名頁面
-      url: https://g0v-jothon.kktix.cc/events/g0v-hackath15n
-  cover: 
-  contributor_id:
-    - ttcat
-  project_id:
-    - g0vdathon
   label:
   organizer_id:
   advisor_id:
@@ -794,31 +631,6 @@
   co-organizer_id:
     - frontier
     - twdsconf
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0916g0vjothon:
-  title: 台灣零時政府五週年黑客松
-  description: 恭喜g0v hackathon(黑客松) 辦理邁入第五年，村長也又老了五歲！從工程師起頭，如今g0v捲動著設計師、人類學家、歷史學家、法律人、農業專門、公務員….等等等各行各業的人，一同在每兩個月的黑客松推坑&填坑，繼續想著如何用科技和程式改造社會。
-  month: 9
-  start: 9/16
-  end: 9/16
-  link:
-    - title: 報名頁面
-      url: https://g0v-jothon.kktix.cc/events/g0v-hackath26n
-  cover: /p/2017/intl/0916g0v5year_resized.jpg
-  contributor_id:
-    - ttcat
-  project_id:
-    - g0vdathon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
   implementer_id:
   sponsor_id:
   coordinator_id:

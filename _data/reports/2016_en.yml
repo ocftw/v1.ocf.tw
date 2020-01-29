@@ -32,7 +32,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/g0vdathon/20n.jpg
+        url: /p/g0vdathon/2016/20n.jpg
         swap: true
       - type: article
         title: Communities
