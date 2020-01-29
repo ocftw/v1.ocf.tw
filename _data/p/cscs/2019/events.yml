@@ -27,6 +27,9 @@
   co-worker_ids:
     - aiya
 
+  project_ids:
+    - cscs
+
   reports:
     2019: 08
   reports_en:
@@ -51,6 +54,9 @@
 
   co-worker_ids:
     - bryce
+
+  project_ids:
+    - cscs
 
   reports:
     2019: 08

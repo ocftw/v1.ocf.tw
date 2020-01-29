@@ -22,6 +22,9 @@
   co-worker_ids:
     - rock
 
+  project_ids:
+    - pycon
+
   reports:
     2017: mm
   reports_en:
@@ -50,6 +53,9 @@
   co-worker_ids:
     - rock
 
+  project_ids:
+    - pycon
+
   reports:
     2017: 05
   reports_en:
@@ -77,6 +83,9 @@
 
   co-worker_ids:
     - rock
+
+  project_ids:
+    - pycon
 
   reports:
     2017: 06
@@ -107,6 +116,9 @@
 
   co-worker_ids:
     - rock
+
+  project_ids:
+    - pycon
 
   reports:
     2017: 06

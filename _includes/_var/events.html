@@ -30,22 +30,30 @@
   <!-- get events in global scope -->
   {% for project_folder in site.data.p %}
     {% assign project_folder_name = project_folder[0] %}
-    {% if project_folder[1].events %}
-      {% if events %}
-        {% assign events = events | concat: project_folder[1].events %}
-      {% else %}
-        {% assign events = project_folder[1].events %}
-      {% endif %}
-    {% endif %}
-    {% for sub_project_folder in site.data.p[project_folder_name] %}
-      {% if sub_project_folder[1].events %}
+    {% if project_folder_name != 'project_id' %}
+
+      {% if project_folder[1].events %}
         {% if events %}
-          {% assign events = events | concat: sub_project_folder[1].events %}
+          {% assign events = events | concat: project_folder[1].events %}
         {% else %}
-          {% assign events = sub_project_folder[1].events %}
+          {% assign events = project_folder[1].events %}
         {% endif %}
       {% endif %}
-    {% endfor %}
+      {% for sub_project_folder in site.data.p[project_folder_name] %}
+        {% if sub_project_folder[1].events %}
+          {% if events %}
+            {% assign events = events | concat: sub_project_folder[1].events %}
+          {% else %}
+            {% assign events = sub_project_folder[1].events %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+    {% endif %}
   {% endfor %}
 
+{% endif %}
+
+{% if events %}
+  {% assign events = events | sort: "start" | reverse %}
 {% endif %}

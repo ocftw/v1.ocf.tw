@@ -14,11 +14,35 @@
 
   <div class="content">
 
-    {% if lang == 'en' %}
-    {% else %}
+    <!-- 在 journal 頁時：顯示所屬專案 -->
+
+    {% if page.layout == "global" %}
+    {% for project_id in event.project_ids %}
+      <p>
+      {% assign project = site.data.p[project_id].project %}
+      {% if lang == 'en' %}
+        {% assign project_url = project_id | prepend: '/en/p/' | append: '/' %}
+        {% assign project_links = project.links_en %}
+        {% assign project_name = project.name_en %}
+        Project: 
+      {% else %}
+        {% assign project_url = project_id | prepend: '/p/' | append: '/' %}
+        {% assign project_links = project.links %}
+        {% assign project_name = project.name %}
+        專案：
+      {% endif %}
+
+      {% assign file = site.static_files | where: "path", project_url | append: ".html" %}
+      {% if file %}
+      {% else %}
+        {% assign project_url = project_links.first.url %}
+      {% endif %}
+      <a href="{{ project_url }}">
+        {% include p/name.html return="string" project=project %}
+      </a>
+      </p>
+    {% endfor %}
     {% endif %}
-
-
 
     <!-- 活動名稱與副標題 -->
 

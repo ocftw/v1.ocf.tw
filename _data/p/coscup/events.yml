@@ -25,6 +25,9 @@
   co-worker_ids:
     - rosa
 
+  project_ids:
+    - coscup
+
   reports:
     2019: 08
   reports_en:
@@ -70,6 +73,9 @@
     - bobchao
   staff_ids:
 
+  project_ids:
+    - coscup
+
   reports:
     2018: 08
   reports_en:
@@ -109,6 +115,9 @@
     - bobchao
   staff_ids:
 
+  project_ids:
+    - coscup
+
   reports:
     2017: 08
   reports_en:
@@ -143,6 +152,9 @@
     - bobchao
   staff_ids:
 
+  project_ids:
+    - coscup
+
   reports:
     2016: 08
   reports_en:
@@ -173,6 +185,9 @@
   board_ids:
     - bobchao
   staff_ids:
+
+  project_ids:
+    - coscup
 
   reports:
     2015: 08

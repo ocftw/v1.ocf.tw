@@ -27,6 +27,9 @@
     - ttcat
     - lulukeng
 
+  project_ids:
+    - cscs
+
   reports:
     2017: 05
   reports_en:
@@ -46,6 +49,9 @@
 
   co-worker_ids:
     - pellaeon
+
+  project_ids:
+    - cscs
 
   reports:
     2017: 08

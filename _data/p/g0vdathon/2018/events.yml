@@ -18,6 +18,9 @@
       url: https://beta.hackfoldr.org/g0v-hackath28n
   links_en:
 
+  project_ids:
+    - g0vdathon
+
   reports:
     2018: 01
   reports_en:
@@ -43,6 +46,9 @@
   contributor_ids:
     - pellaeon
 
+  project_ids:
+    - g0vdathon
+
   reports:
     2018: 03
   reports_en:
@@ -64,6 +70,9 @@
     - title: 活動網站
       url: https://g0v-jothon.kktix.cc/events/infrath10n
   links_en:
+
+  project_ids:
+    - g0vdathon
 
   reports:
     2018: 04
@@ -89,6 +98,9 @@
       url: https://beta.hackfoldr.org/g0v-hackath30n/ 
   links_en:
 
+  project_ids:
+    - g0vdathon
+
   reports:
     2018: 05
   reports_en:
@@ -112,6 +124,9 @@
     - title: 共筆
       url: https://beta.hackfoldr.org/g0v-hackath31n/
   links_en:
+
+  project_ids:
+    - g0vdathon
 
   reports:
     2018: 07

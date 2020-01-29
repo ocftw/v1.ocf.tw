@@ -26,6 +26,9 @@
     - huangfu
     - singing
 
+  project_ids:
+    - pycon
+
   reports:
     2018: 06
   reports_en:

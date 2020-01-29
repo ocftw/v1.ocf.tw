@@ -10,6 +10,9 @@
       url: https://docs.google.com/document/d/1HekMPpwwlDK0VKqd_Rj8QfOyMVJ84h5scfj8U-4tkvY/edit?usp=sharing
   links_en:
 
+  project_ids:
+    - admin
+
   reports:
     2014: 10
   reports_en:
@@ -35,6 +38,9 @@
     - ossf
     - ocf
 
+  project_ids:
+    - admin
+
   reports:
     2014: 09
   reports_en:
@@ -50,6 +56,9 @@
     - title: 會議記錄
       url: https://docs.google.com/document/d/1T0lR9Lcthqw1d2UOXBBEyOgDAA6b5JyGX-3p8aLcK8U/edit?usp=sharing
   links_en:
+
+  project_ids:
+    - admin
 
   reports:
     2014: 08
@@ -67,6 +76,9 @@
       url: https://ocf-tw.hackpad.com/610-OCF--px6TtlvptWv
   links_en:
 
+  project_ids:
+    - admin
+
   reports:
     2014: 06
   reports_en:
@@ -82,6 +94,9 @@
     - title: 會議記錄
       url: https://ocf-tw.hackpad.com/528-OCF--GXbbUNYBtuS
   links_en:
+
+  project_ids:
+    - admin
 
   reports:
     2014: 05
@@ -101,6 +116,9 @@
     - title: 董事籌備會紀錄
       url: https://ocf-tw.hackpad.com/hX7x0JLv1sb
   links_en:
+
+  project_ids:
+    - admin
 
   reports:
     2014: 04

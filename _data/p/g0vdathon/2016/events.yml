@@ -26,6 +26,9 @@
   co-organizer_ids:
     - ocf
 
+  project_ids:
+    - g0vdathon
+
   reports:
     2016: 10
   reports_en:
@@ -60,6 +63,9 @@
     - g0vjothon
   co-organizer_ids:
     - ocf
+
+  project_ids:
+    - g0vdathon
 
   reports:
     2016: 08
@@ -96,6 +102,9 @@
   co-organizer_ids:
     - ocf
 
+  project_ids:
+    - g0vdathon
+
   reports:
     2016: 06
   reports_en:
@@ -130,6 +139,9 @@
     - g0vjothon
   co-organizer_ids:
     - ocf
+
+  project_ids:
+    - g0vdathon
 
   reports:
     2016: 03

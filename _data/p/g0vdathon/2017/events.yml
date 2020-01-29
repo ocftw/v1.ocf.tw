@@ -9,6 +9,9 @@
   participant_ids:
     - ttcat
 
+  project_ids:
+    - g0vdathon
+
   reports:
     2017: 01
   reports_en:
@@ -23,6 +26,9 @@
 
   participant_ids:
     - ttcat
+
+  project_ids:
+    - g0vdathon
 
   reports:
     2017: 02
@@ -39,6 +45,9 @@
   participant_ids:
     - ttcat
 
+  project_ids:
+    - g0vdathon
+
   reports:
     2017: 03
   reports_en:
@@ -54,6 +63,9 @@
   participant_ids:
     - ttcat
 
+  project_ids:
+    - g0vdathon
+
   reports:
     2017: 04
   reports_en:
@@ -68,6 +80,9 @@
 
   participant_ids:
     - ttcat
+
+  project_ids:
+    - g0vdathon
 
   reports:
     2017: 05
@@ -95,6 +110,9 @@
     - pellaeon
     - yhsiang
 
+  project_ids:
+    - g0vdathon
+
   reports:
     2017: 07
   reports_en:
@@ -114,6 +132,9 @@
 
   participant_ids:
     - ttcat
+
+  project_ids:
+    - g0vdathon
 
   reports:
     2017: 08
@@ -139,6 +160,9 @@
 
   participant_ids:
     - ttcat
+
+  project_ids:
+    - g0vdathon
 
   reports:
     2017: 09

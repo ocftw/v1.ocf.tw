@@ -18,6 +18,9 @@
       url: https://ocftw.kktix.cc/events/ocf-spring-2019?fbclid=IwAR3RI3tqO66KQG_jM7TwzURgIihBG39qvAGkV2tO3eQb5UaSBNP3ZnKPbP8
   links_en:
 
+  project_ids:
+    - admin
+
   reports:
     2019: 03
   reports_en:
@@ -47,6 +50,9 @@
     - singing
     - rock
 
+  project_ids:
+    - admin
+
   reports:
     2019: 04
   reports_en:
@@ -75,6 +81,9 @@
   co-worker_ids:
     - rock
 
+  project_ids:
+    - admin
+
   reports:
     2019: 06
   reports_en:
@@ -100,6 +109,9 @@
 
   co-worker_ids:
     - rock
+
+  project_ids:
+    - admin
 
   reports:
     2019: 08

@@ -120,6 +120,10 @@
   # 英文版網頁用
     - text
 
+  project_ids:
+    - id
+  # 所屬專案 id
+
   board_ids:
   # 負責董事 id （隱藏欄位，僅供內部備註用）
     - id

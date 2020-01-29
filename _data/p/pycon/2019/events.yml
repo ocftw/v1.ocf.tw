@@ -23,6 +23,9 @@
     - rock
     - leona
 
+  project_ids:
+    - pycon
+
   reports:
     2019: 06
   reports_en:

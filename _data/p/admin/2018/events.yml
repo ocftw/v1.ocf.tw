@@ -34,6 +34,9 @@
     - singing
     - ttcat
 
+  project_ids:
+    - admin
+
   reports:
     2018: 03
   reports_en:
@@ -60,6 +63,9 @@
     - ttcat
     - lulukeng
     - rock
+
+  project_ids:
+    - admin
 
   reports:
     2018: 03
