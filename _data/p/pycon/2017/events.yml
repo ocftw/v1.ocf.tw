@@ -1,7 +1,7 @@
 - id: 
 
   name: PyCon Taiwan 2017 Tutorial - 上雲端、練AI、打電玩！ 從遊戲中誕生的人工智慧之手把手教學
-  name_en: 
+  name_en: PyCon Taiwan 2017 Tutorial - AI for Games
 
   description: 
   description_en: 
@@ -32,7 +32,7 @@
 - id: 
 
   name: PyCon Taiwan 2017 Tutorial - 實做數學：NumPy 入門
-  name_en: 
+  name_en: PyCon Taiwan 2017 Tutorial - NumPy
 
   description: 
   description_en: 
@@ -63,7 +63,7 @@
 - id: 
 
   name: PyCon Taiwan 2017 Tutorial - 實做數學：Tensorflow 及 Keras 實做神經網路
-  name_en: 
+  name_en: PyCon Taiwan 2017 Tutorial - Tensorflow, Keras
 
   description: 
   description_en: 
@@ -94,7 +94,7 @@
 - id: 
 
   name: PyCon TW 2017
-  name_en: 
+  name_en: PyCon TW 2017
 
   description: 
   description_en: 

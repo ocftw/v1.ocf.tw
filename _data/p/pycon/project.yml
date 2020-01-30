@@ -46,6 +46,26 @@ links:
     url: https://www.flickr.com/photos/pycon_tw/
     icon: flickr
 links_en:
+  - title: PyCon TW 
+    url: https://tw.pycon.org/
+    color: blue
+    icon: home
+  - title: Twitter
+    url: https://twitter.com/pycontw
+    color: blue
+    icon: twitter
+  - title: Facebook
+    url: https://www.facebook.com/pycontw/
+    color: blue
+    icon: facebook
+  - title: YouTube
+    url: https://www.youtube.com/channel/UCHLnNgRnfGYDzPCCH8qGbQw/
+    color: blue
+    icon: youtube
+  - title: Flickr
+    url: https://www.flickr.com/photos/pycon_tw/
+    color: blue
+    icon: flickr
 
 actions:
   - title: 加入籌備志工
@@ -53,6 +73,10 @@ actions:
     color: blue
     icon: users
 actions_en: 
+  - title: Join Us!
+    url: mailto:organizer@pycon.tw
+    color: blue
+    icon: users
 
 organizer_ids:
   - pycon
