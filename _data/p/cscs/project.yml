@@ -34,6 +34,14 @@ actions:
     color: blue
     icon: user
 actions_en:
+  - title: I can help!
+    url: mailto:intl@ocf.tw
+    color: green
+    icon: envelope
+  - title: I need help!
+    url: mailto:intl@ocf.tw
+    color: blue
+    icon: user
 
 organizer_ids:
   - cscs
