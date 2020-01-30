@@ -3,7 +3,7 @@
   individual_name
 -->
 
-{% if lang == "en" %}
+{% if lang == "en" and include.individual.name_en %}
   {% assign individual_name = include.individual.name_en %}
 {% else %}
   {% assign individual_name = include.individual.name %}

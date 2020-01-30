@@ -42,37 +42,33 @@ code.nick {
 
 /* adjust default semantic ui line height */
 
-p,
-a,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.header,
-.ui.header,
-.ui.header .sub.header,
-.header .sub.header,
-.ui.list .item,
-.ui.list .item .content,
-.ui.items > .item,
-.ui.items > .item .meta,
-.ui.items > .item .description,
-.ui.cards > .card,
-.ui.cards > .card .meta,
-.ui.cards > .card .description {
-  line-height: 1.7em;
+[data-lang='tw'] p,
+[data-lang='tw'] a,
+[data-lang='tw'] li,
+[data-lang='tw'] h1,
+[data-lang='tw'] h2,
+[data-lang='tw'] h3,
+[data-lang='tw'] h4,
+[data-lang='tw'] h5,
+[data-lang='tw'] h6,
+[data-lang='tw'] .header,
+[data-lang='tw'] .ui.header,
+[data-lang='tw'] .ui.header .sub.header,
+[data-lang='tw'] .header .sub.header,
+[data-lang='tw'] .ui.list .item,
+[data-lang='tw'] .ui.list .item .content,
+[data-lang='tw'] .ui.items > .item,
+[data-lang='tw'] .ui.items > .item .meta,
+[data-lang='tw'] .ui.items > .item .description,
+[data-lang='tw'] .ui.cards > .card,
+[data-lang='tw'] .ui.cards > .card .meta,
+[data-lang='tw'] .ui.cards > .card .description {
+  line-height: 1.6em;
 }
 
 .ui.horizontal.list > .item > i.icon,
 .ui.horizontal.list > .item > .content {
   vertical-align: initial;
-}
-
-.en {
-  line-height: 1.5em;
 }
 
 .ui.header .sub.header,

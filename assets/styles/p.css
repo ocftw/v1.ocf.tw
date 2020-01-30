@@ -46,16 +46,22 @@
   margin-top: 1rem;
 }
 
+#project #meta #cast.list .item {
+  display: flex;
+  align-items: center;
+  min-height: 1.6rem;
+}
+
 #project #meta #cast.list .item .ui.label {
-  padding: 0.45rem 0;
-  float: left;
+  padding-left: 0;
+  padding-right: 0;
+  min-width: 5rem;
   background: none;
   text-align: left;
 }
 
 #project #meta #cast.list .item .text {
-  display: block;
-  margin-left: 5rem;
+  flex-grow: 1;
 }
 
 #project #meta #links.list .item .icon,
