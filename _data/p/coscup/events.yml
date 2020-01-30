@@ -14,6 +14,10 @@
   links:
     - title: 活動網頁
       url: https://coscup.org/2019/
+    - title: 2019！開源久酒！
+      url: https://coscup2019.kktix.cc/events/welcomeparty-2019
+      color: blue
+      icon: beer
   links_en:
 
   organizer_ids:
@@ -56,6 +60,18 @@
     - title: Welcome Party! 來！喝！講！
       url: https://coscup2018.kktix.cc/events/welcomeparty-2018
   links_en:
+    - title: Offical Website
+      url: https://2018.coscup.org/
+      color: yellow
+      icon: world icon
+    - title: BoF 2018！ 
+      url: http://blog.coscup.org/2018/08/bof2018-zh.html
+      color: teal
+      icon: user plus
+    - title: Welcome Party!
+      url: https://coscup2018.kktix.cc/events/welcomeparty-2018
+      color: blue
+      icon: user beer
 
   organizer_ids:
     - coscup
