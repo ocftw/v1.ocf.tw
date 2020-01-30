@@ -6,7 +6,7 @@
   start: 2017/01/21
   end: 
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
 
   project_ids:
@@ -24,7 +24,7 @@
   start: 2017/02/16
   end: 
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
 
   project_ids:
@@ -42,7 +42,7 @@
   start: 2017/03/04
   end: 
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
 
   project_ids:
@@ -60,7 +60,7 @@
   start: 2017/04/20
   end: 
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
 
   project_ids:
@@ -78,7 +78,7 @@
   start: 2017/05/06
   end: 
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
 
   project_ids:
@@ -104,7 +104,7 @@
       url: http://beta.hackfoldr.org/bangkok-hackath0n
   links_en:
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
     - afi
     - pellaeon
@@ -130,7 +130,7 @@
       url: https://g0v-jothon.kktix.cc/events/g0v-hackath15n
   links_en:
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
 
   project_ids:
@@ -158,7 +158,7 @@
       url: https://g0v-jothon.kktix.cc/events/g0v-hackath26n
   links_en:
 
-  participant_ids:
+  co-worker_ids:
     - ttcat
 
   project_ids:

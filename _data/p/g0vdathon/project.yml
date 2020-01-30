@@ -56,6 +56,14 @@ actions:
     color: blue
     icon: dollar
 actions_en:
+  - title: One-off Donation
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=23
+    color: green
+    icon: dollar
+  - title: Monthly Donation
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=30
+    color: blue
+    icon: dollar
 
 advisor_ids:
 organizer_ids:
