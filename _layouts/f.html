@@ -5,39 +5,28 @@ layout: global
 {% include _var/f.html %}
 
 <main id="freestyle">
-  <!-- 上層專案連結 -->
-  <nav id="hero" class="ui inverted {{ project.theme_color }} basic segment marginless">
-    <img class="cover image" src="{{ project.cover_image }}" style="opacity: {{ page.project_cover_image_opacity }}" alt="Cover image for '{{ project.name }}'" />
-    <div class="cover veil" style="opacity: {{ page.project_cover_veil_opacity }}"></div>
 
-    <div class="ui container">
-      <a href="{{ project_url }}" class="ui inverted small header relative">
-        <i class="left arrow icon"></i>
-        返回 {% include p/name.html return='string' %}
-      </a>
-    </div>
-  </nav>
+{% include e/header.html %}
 
-  <!-- 頁面內容 -->
-  <div class="ui container">
-    <section id="content">
-      {% if page.og_image %}
-      <img class="ui fluid image" src="{{ page.og_image }}" alt="Cover image for '{{ page.og_title }}'" />
-      {% else %}
-      <div></div>
-      {% endif %}
+<div class="ui container">
+  <section id="content">
+    {% if page.og_image %}
+    <img class="ui fluid image" src="{{ page.og_image }}" alt="Cover image for '{{ page.og_title }}'" />
+    {% else %}
+    <div></div>
+    {% endif %}
 
-      <h2 class="ui header">
-        {{ page.og_title }}
-      </h2>
-      <div class="ui basic secondary segment">
-        {{ page.og_description }}
-      </div>    
-    
-      {{ content }}
+    <h2 class="ui header">
+      {{ page.og_title }}
+    </h2>
+    <div class="ui basic secondary segment">
+      {{ page.og_description }}
+    </div>    
+  
+    {{ content }}
 
-      <div class="ui hidden divider"></div>
-    </section>
-  </div>
+    <div class="ui hidden divider"></div>
+  </section>
+</div>
 
 </main>
