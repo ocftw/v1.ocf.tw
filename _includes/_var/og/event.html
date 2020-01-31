@@ -1,0 +1,18 @@
+{% assign year = page.year | append: "" %}
+{% assign id = page.event_id %}
+
+{% assign og_url = page.url %}
+
+{% if page.lang == 'en' %}
+  {% assign og_title = site.data.events[year][id].title_en %}
+{% else %}
+  {% assign og_title = site.data.events[year][id].title %}
+{% endif %}
+
+{% assign og_image = site.data.events[year][id].cover %}
+
+{% if page.lang == 'en' %}
+  {% assign og_description = site.data.events[year][id].description_en %}
+{% else %}
+  {% assign og_description = site.data.events[year][id].description %}
+{% endif %}

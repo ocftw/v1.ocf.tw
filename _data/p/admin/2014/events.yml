@@ -1,0 +1,125 @@
+- id:
+
+  name: 董事會
+  name_en: 
+
+  start: 2014/10/31
+
+  links:
+    - title: 會議記錄
+      url: https://docs.google.com/document/d/1HekMPpwwlDK0VKqd_Rj8QfOyMVJ84h5scfj8U-4tkvY/edit?usp=sharing
+  links_en:
+
+  project_ids:
+    - admin
+
+  reports:
+    2014: 10
+  reports_en:
+
+- id:
+
+  name: Introduction to Apache Spark 演講
+  name_en: 
+
+  description: Apache Spark 出身在 UC Berkely AMPLab 實驗室，他是目前 Big Data 界最受歡迎的 Big Data Platform 。Apache Spark 最強大的地方是在於運算速度跟使用的簡易性。在 許多資料學習的使用案例上，他的 RDD cache 機制，比 Hadoop MapReduce 快 10 ~ 100 倍的時間，他支援的 DAG Engine 讓他可以輕易的寫出更多可能性的 Big Data 程式。並且Apache Spark 擁有彈性的 API，讓程式設計師可以直接使用 Python, Java , Scala 等熟悉的語言來寫 Big Data 程式。
+  description_en: 
+
+  start: 2014/09/24
+
+  links:
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/0924spark
+    - title: 活動錄影
+      url: https://www.youtube.com/watch?v=HV5UecjI4hI&feature=youtu.be&list=PLuW7NCGvKlyVGjKlW9w8oxDiQFMaJ0JZN
+  links_en:
+
+  organizer_ids:
+    - ossf
+    - ocf
+
+  project_ids:
+    - admin
+
+  reports:
+    2014: 09
+  reports_en:
+
+- id:
+
+  name: 董事會
+  name_en: 
+
+  start: 2014/08/06
+
+  links:
+    - title: 會議記錄
+      url: https://docs.google.com/document/d/1T0lR9Lcthqw1d2UOXBBEyOgDAA6b5JyGX-3p8aLcK8U/edit?usp=sharing
+  links_en:
+
+  project_ids:
+    - admin
+
+  reports:
+    2014: 08
+  reports_en:
+
+- id:
+
+  name: 工作會議
+  name_en: 
+
+  start: 2014/06/10
+
+  links:
+    - title: 會議記錄
+      url: https://ocf-tw.hackpad.com/610-OCF--px6TtlvptWv
+  links_en:
+
+  project_ids:
+    - admin
+
+  reports:
+    2014: 06
+  reports_en:
+
+- id:
+
+  name: 工作會議
+  name_en: 
+
+  start: 2014/05/28
+
+  links:
+    - title: 會議記錄
+      url: https://ocf-tw.hackpad.com/528-OCF--GXbbUNYBtuS
+  links_en:
+
+  project_ids:
+    - admin
+
+  reports:
+    2014: 05
+  reports_en:
+
+
+- id:
+
+  name: 籌備會議
+  name_en: 
+
+  start: 2014/04/07
+
+  links: 
+    - title: 捐助人會議記錄
+      url: https://ocf-tw.hackpad.com/MYzSdIkHe0X
+    - title: 董事籌備會紀錄
+      url: https://ocf-tw.hackpad.com/hX7x0JLv1sb
+  links_en:
+
+  project_ids:
+    - admin
+
+  reports:
+    2014: 04
+  reports_en:

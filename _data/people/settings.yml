@@ -30,3 +30,61 @@ logo:
 # name: 網頁上的小標題要顯示什麼字
   #- id: donors
     #name: 捐助人
+
+
+# 以下設定顯示在 2020 版專案頁 / 活動頁 meta 區塊的文字
+
+orgs:
+  advisor:
+    name: 指導
+    name_en: Advisor
+  organizer:
+    name: 主辦
+    name_en: Organizer
+  co-organizer:
+    name: 協辦
+    name_en: Co-organizer
+  implementer:
+    name: 承辦
+    name_en: Case Handling Unit
+  sponsor:
+    name: 贊助
+    name_en: Sponsor
+
+individuals:
+  coordinator:
+    name: 召集人
+    name_en: Coordinator
+  case-handler:
+    name: 接洽窗口
+    name_en: Case handler
+  co-worker:
+    name: 協力
+    name_en: Co-worker
+  board:
+    name: 董事
+    name_en: Board
+  staff: 
+    name: 工作人員
+    name_en: Staff
+  consultant:
+    name: 顧問
+    name_en: Consultant
+  volunteer:
+    name: 志工
+    name_en: Volunteer
+  contributor:
+    name: 貢獻者
+    name_en: Contributor
+  host:
+    name: 主持
+    name_en: Host
+  speaker:
+    name: 主講
+    name_en: Speaker
+  participant:
+    name: 參與
+    name_en: Participant
+  donor:
+    name: 捐助人
+    name_en: Donor

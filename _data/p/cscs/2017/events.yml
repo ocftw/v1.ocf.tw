@@ -1,0 +1,58 @@
+- id: 
+
+  name: 人權倡議者的資訊安全培力工作坊
+  name_en: 
+
+  description: Civil Society Cyber Shield 資安工作坊希望能夠連結人權工作者與資訊科技（尤其是資訊安全）領域的專家，在專家幫助人權工作者的同時，也讓更多人知道人權工作的重要性。本工作坊除了教學之外，也有一部分致力於讓這兩種人互相接觸與瞭解。
+  description_en: 
+
+  cover_image: /p/2017/intl/2017 CSCS-r.jpg
+
+  start: 2017/05/23
+  end: 
+
+  links:
+    - title: 活動紀錄
+      url: http://beta.hackfoldr.org/cscs/
+  links_en:
+
+  co-organizer_ids:
+    - tfd
+    - idemocracy
+    - tahr
+    - hitcon
+
+  co-worker_ids:
+    - pellaeon
+    - ttcat
+    - lulukeng
+
+  project_ids:
+    - cscs
+
+  reports:
+    2017: 05
+  reports_en:
+
+- id: 
+
+  name: NGO 資安討論小聚
+  name_en: 
+
+  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。
+  description_en: 
+
+  cover_image: 
+
+  start: 2017/08/16
+  end: 
+
+  co-worker_ids:
+    - pellaeon
+
+  project_ids:
+    - cscs
+
+  reports:
+    2017: 08
+  reports_en:

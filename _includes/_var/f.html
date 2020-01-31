@@ -1,0 +1,18 @@
+{% include _var/p.html %}
+
+<!--
+  set variables:
+  project, project_id, project_name, project_description, project_url, project_header_image
+-->
+
+{% if project %}
+{% else %}
+
+  {% assign project = parent_project %}
+  {% assign project_id = parent_project_id %}
+  {% assign project_name = parent_project_name %}
+  {% assign project_description = parent_project_description %}
+  {% assign project_url = parent_project_url %}
+  {% assign project_header_image = parent_project_header_image %}
+
+{% endif %}

@@ -1,0 +1,21 @@
+{% include _var/p.html %}
+
+<!--
+  set variables:
+  og_url, og_title, og_image, og_description
+-->
+
+{% assign og_url = project_url %}
+{% include p/name.html return='var' %}
+{% assign og_title = include_project_name %}
+{% assign include_project_name = undefined %}
+
+{% if project.og_image %}
+  {% assign og_image = project.og_image %}
+{% elsif project.header_image %}
+  {% assign og_image = project.header_image %}
+{% elsif project.avatar_image %}
+  {% assign og_image = project.avatar_image %}
+{% endif %}
+
+{% assign og_description = project_description %}

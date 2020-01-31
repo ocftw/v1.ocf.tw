@@ -1,0 +1,83 @@
+<!--
+  set variables:
+  event_name, event_description, event_subtitles, event_tagline,
+  event_labels, event_metas, event_links, event_reports, event_url
+-->
+
+{% if lang == 'en' %}
+  {% assign event_name = event.name_en %}
+  {% assign event_description = event.description_en %}
+  {% assign event_subtitles = event.subtitles_en %}
+  {% assign event_tagline = event.tagline_en %}
+  {% assign event_labels = event.labels_en %}
+  {% assign event_metas = event.metas_en %}
+  {% assign event_links = event.links_en %}
+  {% assign event_reports = event.reports_en %}
+{% else %}
+  {% assign event_name = event.name %}
+  {% assign event_description = event.description %}
+  {% assign event_subtitles = event.subtitles %}
+  {% assign event_tagline = event.tagline %}
+  {% assign event_labels = event.labels %}
+  {% assign event_metas = event.metas %}
+  {% assign event_links = event.links %}
+  {% assign event_reports = event.reports %}
+{% endif %}
+
+{% assign event_id = event.id %}
+
+{% if event_id %}
+  {% assign event_url = undefined %}
+
+  {% if parent_project %}
+    {% assign project_events = site.data.p[parent_project_id][project_id].events %}
+  {% else %}
+    {% assign project_events = site.data.p[project_id].events %}
+  {% endif %}
+  {% for project_event in project_events %}
+    {% if project_event.id == event_id %}
+      {% assign event_url = event_id | prepend: project_url %}
+    {% endif %}
+    {% if event_url %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if event_url %}
+  {% else %}
+    {% for project_folder in site.data.p[project_id] %}
+
+      {% if project_folder[0] != 'project' and project_folder[0] != 'events' %}
+        {% assign sub_project_id = project_folder[0] %}
+        {% for project_event in project_folder[1].events %}
+          {% if project_event.id == event_id %}
+            {% assign event_path = event_id
+              | prepend: '/'
+              | prepend: sub_project_id
+              | prepend: '/'
+              | prepend: project_id
+            %}
+            {% if lang == 'en' %}
+              {% assign event_url = event_path
+                | prepend: '/en/p/' %}
+            {% else %}
+              {% assign event_url = event_path
+                | prepend: '/p/' %}
+            {% endif %}
+          {% endif %}
+          {% if event_url %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% assign sub_project_id = undefined %}
+      {% endif %}
+
+      {% if event_url %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+{% else %}
+  {% assign event_url = undefined %}
+{% endif %}

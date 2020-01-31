@@ -1,0 +1,24 @@
+{% if lang == 'en' %}
+  {% assign project_links = project.links_en %}
+  {% assign project_links_title = 'Links' %}
+{% else %}
+  {% assign project_links = project.links %}
+  {% assign project_links_title = '相關連結' %}
+{% endif %}
+
+{% if project_links %}
+
+<div class="ui horizontal divider">
+  <i class="linkify icon"></i>
+  {{ project_links_title }}
+</div>
+
+<div id="links" class="ui link list">
+  {% for link in project_links %}
+    {% include _shared/link.html link=link class='item' icon='conditional' %}
+  {% endfor %}
+</div>
+
+{% endif %}
+
+{% assign project_links = undefined %}

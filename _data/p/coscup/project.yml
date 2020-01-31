@@ -1,0 +1,53 @@
+name: COSCUP 開源人年會
+name_en: COSCUP
+
+description: COSCUP 希望藉由每一屆的年度會議，讓世界各地的 FLOSS 愛好者齊聚一堂，並邀請世界各地的專家上台分享經驗，想法與新的技術，來共同的激發國內外的愛好者更加踴躍投入 FLOSS 的開發與使用。
+description_en: COSCUP's aim is providing a platform to connect Open Source coders, users, and promoters, and promote FLOSS with the annual conference. The conference is free to attend because of the enthusiastic sponsors and donators. Since the conference venue is limited, tickets are often sold out immediately after the online registration starts.
+
+abbr: COSCUP
+abbr_en: COSCUP
+
+tagline: Conference for Open Source Coders, Users and Promoters
+tagline_en: Conference for Open Source Coders, Users and Promoters
+
+og_image: 
+header_image: /p/coscup/2019/coscup_og.jpg
+avatar_image: /p/coscup/avatar.jpg
+theme_color: green
+
+type_ids:
+  - community
+topic_ids:
+  - source
+field_ids:
+  - it
+tags:
+  - 大型研討會
+  - 定期活動
+tags_en:
+
+links:
+  - title: 官方網站
+    url: https://coscup.org/
+    color: green
+    icon: world icon
+links_en:
+  - title: Offical Website
+    url: https://coscup.org/
+    color: yellow
+    icon: world icon
+
+actions: 
+  - title: 2019！開源久酒！
+    url: https://coscup2019.kktix.cc/events/welcomeparty-2019
+    color: blue
+    icon: beer
+actions_en: 
+
+organizer_ids:
+  - coscup
+
+board_ids:
+  - bobchao
+staff_ids:
+  - singing

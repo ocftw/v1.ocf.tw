@@ -1,0 +1,50 @@
+<!-- Widget script begin -->
+<script type="text/javascript">
+  /* create onDomReady Event */
+  window.onDomReady = DomReady;
+  /* Setup the event */
+  function DomReady(fn) { /* W3C */
+    if(document.addEventListener) {
+      document.addEventListener("DOMContentLoaded", fn, false);
+    } else { /* IE */
+      document.onreadystatechange = function(){readyState(fn)};
+    }
+  }
+  /* IE execute function */
+  function readyState(fn) {
+    /* dom is ready for interaction */
+    if(document.readyState == "interactive") {
+      fn();
+    }
+  }
+  window.onDomReady(onReady);
+  
+  function onReady( ) {
+    var crmCurrency = jsondata.currencySymbol;
+    var cpid        = {{ page.cpid }};
+    if ( jsondata.money_target > 0 ) {
+      document.getElementById('crm_cpid_'+cpid+'_amt_hi').textContent = jsondata.money_target_display.replace(/目標金額: /, "");
+    }
+    document.getElementById('crm_cpid_'+cpid+'_amt_raised').textContent = jsondata.money_raised.replace(/已募得 /, "");
+    document.getElementById('crm_cpid_'+cpid+'_donors').textContent = jsondata.num_donors.replace(/ 捐款人/, "");
+    if ( jsondata.money_raised_percentage ) {
+      var percent = jsondata.money_raised_percentage.replace(/%/, "");
+      var width = parseInt(percent) > 100 ? '100' : percent;
+      document.getElementById('crm_cpid_'+cpid+'_amt_fill').setAttribute("data-percent", percent);
+      $('#crm_cpid_'+cpid+'_amt_fill').progress({
+        percent: width,
+        text: {
+          active: "{percent}",
+          success: "{percent}"
+        }
+      });
+    }
+    if ( jsondata.money_raised ){
+      document.getElementById('progress_updated').textContent = "今天";
+    }
+  }
+  </script>
+  
+  <script type="text/javascript" src="https://ocf.neticrm.tw/sites/all/modules/civicrm//extern/widget.php?cpageId={{ page.cpid }}&widgetId=3"></script>
+  <!-- Widget script end -->
+  

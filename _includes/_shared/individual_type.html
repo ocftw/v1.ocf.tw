@@ -1,0 +1,12 @@
+{% assign individual_type_settings = site.data.people.settings.individuals[include.individual_type] %}
+
+{% if lang == "en" %}
+  {% assign individual_type_name = individual_type_settings.name_en %}
+{% else %}
+  {% assign individual_type_name = individual_type_settings.name %}
+{% endif %}
+
+{{ individual_type_name }}
+
+{% assign individual_type_settings = undefined %}
+{% assign individual_type_name = undefined %}

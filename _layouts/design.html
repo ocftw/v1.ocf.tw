@@ -3,19 +3,11 @@ layout: global
 ---
 
 <!-- 設計師後台頁面共用的 template -->
+
 {% assign data = page.data %}
 
-<!-- 套上設計師後台頁面專屬的導覽列 -->
-<header id="header" class="ui segment inverted pink basic marginless paddingless">
-  <div class="ui container">
-    <nav class="ui secondary inverted pointing menu">
-    {% include design_menu_desktop.html %}
-    </nav>
-  </div>
-</header>
-
-<!-- 套上設計師後台頁面的大標題區塊 -->
 <main id="{{ data }}">
+  <!-- 套上設計師後台頁面的大標題區塊 -->
   <header class="ui stripe center aligned container">
     <h1 class="ui icon header">
       <i class="icon {{ site.data.design.settings.menu[data].icon }} circular inverted pink"></i>
@@ -24,7 +16,6 @@ layout: global
     <div class="intro">
       <p>{{ site.data.design.settings.menu[data].description }}</p>
     </div>
-
     {% if page.toc %}
     <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
       <div class="ui dropdown item">
@@ -40,15 +31,15 @@ layout: global
       </div>
     </nav>
     {% endif %}
-
   </header>
-  <section class="ui stripe container">
-      
-  {{ content }}
 
+  <section class="ui stripe container">
+  {{ content }}
   </section>
 </main>
+
 <hr class="ui divider">
+
 <section class="ui stripe container">
 {% include banner_cta.html %}
 </section>

@@ -1,0 +1,65 @@
+<!-- 抓取目前時間 -->
+
+{% include _var/now.html %}
+
+<!-- 根據語系和目前時間產生專案標題 -->
+
+{% if include.project %}
+  {% assign include_project = include.project %}
+{% else %}
+  {% assign include_project = project %}
+{% endif %}
+
+{% if lang == 'en' %}
+  {% assign label_text = 'COMMUNITY PROJECT' %}
+  {% assign expire_text = ' (closed)' %}
+  {% assign include_project_name = include_project.name_en %}  
+{% else %}
+  {% assign label_text = '社群專案' %}
+  {% assign expire_text = '（已結案）' %}
+  {% assign include_project_name = include_project.name %}  
+{% endif %}
+
+{% if include.return == 'var' or include.return == 'string' %}
+  <!--
+    set variables:
+    include_project_name
+  -->
+
+  {% if include_project.organizer_ids contains 'ocf' %}
+  {% else %}
+    {% assign include_project_name = include_project_name
+      | prepend: '】'
+      | prepend: label_text
+      | prepend: '【'
+    %}
+  {% endif %}
+
+  {% if now > include_project.end %}
+    {% assign include_project_name = include_project_name | append: expire_text %}
+  {% endif %}
+
+  {% if include.return == 'string' %}
+  {{ include_project_name }}
+  {% endif %}
+
+{% else %}
+
+  {% if include.color %}
+    {% assign label_color = include.color %}
+  {% else %}
+    {% assign label_color = include_project.theme_color %}
+  {% endif %}
+
+  {% if include_project.organizer_ids contains 'ocf' %}
+  {% else %}
+    <span class="ui {{ label_color }} label">{{ label_text }}</span>
+  {% endif %}
+
+  <span class="text">{{ include_project_name }}</span>
+
+  {% if now > include_project.end %}
+    {{ expire_text }}  
+  {% endif %}
+
+{% endif %}

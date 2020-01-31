@@ -1,0 +1,59 @@
+---
+layout: global
+---
+
+{% include _var/e.html %}
+
+<main id="event">
+
+{% include e/header.html %}
+
+<div class="ui container">
+
+  <!-- 版型 start -->
+  {% if event.banner_image %}
+  <div class="ui two column stackable grid">
+    <div class="six wide {{ event.theme_color }} paddingless column">
+      <aside class="ui sticky basic paddingless segment">
+        <img class="ui fluid image" src="{{ event.banner_image }}" alt="Banner image for '{{ event_name }}'" />
+      </aside>
+    </div>
+    <div class="ten wide column">
+  {% else %}
+  <div class="single column">
+    {% if event.cover_image %}
+    <img class="ui fluid image" src="{{ event.cover_image }}" alt="Cover image for '{{ event_name }}'" />
+    {% else %}
+    <div></div>
+    {% endif %}
+  {% endif %}
+  <!-- 版型 end -->
+
+  <h1 class="ui header">
+    {{ event_name }}
+    {% if event_subtitles %}
+      {% for subtitle in event_subtitles %}
+        <span class="sub header">{{ subtitle }}</span>
+      {% endfor %}
+    {% endif %}
+  </h1>
+  <div class="ui basic secondary segment">
+    <p>{{ event_description }}</p>
+  </div>
+
+  {{ content }}
+
+  <div class="ui hidden divider"></div>
+
+  <!-- 版型 start -->
+  {% if event.banner_image %}
+    </div>
+  </div>
+  {% else %}
+  </div>
+{% endif %}
+  <!-- 版型 end -->
+
+</div>
+
+</main>

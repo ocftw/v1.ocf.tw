@@ -1,0 +1,86 @@
+#project #hero {
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#project #hero .cover {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#project #hero .cover.image {
+  opacity: 0.95;
+}
+
+#project #hero .cover.veil {
+  opacity: 0.1;
+  background-color: #000;
+}
+
+#project #hero .ui.header > .icon {
+  font-size: 1em;
+  vertical-align: initial;
+}
+
+#project .relative {
+  position: relative;
+}
+
+#project .items .item .ui.horizontal.labels .label {
+  margin-bottom: 0.5em;
+}
+
+#project #meta .ui.divider:first-child {
+  margin-top: 0;
+}
+
+#project #meta .ui.header:not(.icon) {
+  margin-top: 1rem;
+}
+
+#project #meta #cast.list .item {
+  display: flex;
+  align-items: center;
+  min-height: 1.6rem;
+}
+
+#project #meta #cast.list .item .ui.label {
+  padding-left: 0;
+  padding-right: 0;
+  min-width: 5rem;
+  background: none;
+  text-align: left;
+}
+
+#project #meta #cast.list .item .text {
+  flex-grow: 1;
+}
+
+#project #meta #links.list .item .icon,
+#project #meta #child.list .item .icon {
+  display: inline-block;
+}
+
+#project iframe {
+  width: 100%;
+  height: 30rem;
+  border: none;
+}
+
+#project .flex-swap {
+  order: 3;
+}
+
+@media only screen and (max-width: 767px) {
+  #project .flex-swap {
+    order: 0;
+  }
+}

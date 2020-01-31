@@ -1,0 +1,73 @@
+- id: 
+
+  name: OCF 2018 烤山豬春酒聚
+  name_en: 
+
+  description: "在 2017 年，我們支援 20+ 開源社群自主籌備活動、協辦 7 場大型活動、舉辦 1 周的亞洲第一次公民科技大會、參與 4 項開源與資訊技術青年培育計畫 ...，還有更多 OCF 在開放文化上的耕耘與努力的故事將在春酒上與你分享。
+  活動除了成果報告外，2017 年秋季 g0v 公民科技創新獎助金的 6 件獲獎作品同時登場發表，將分享在經過 6 個月的加速開發後，他們為台灣社會帶來什麼樣的改變。"
+  description_en: 
+
+  cover_image: /p/admin/2018/2018spring party.jpg
+
+  start: 2018/03/17
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=9
+  links_en:
+
+  co-worker_ids:
+    - aiya
+    - bess
+    - bobchao
+    - clkao
+    - honki
+    - huangfu
+    - jimyhuang
+    - lilin
+    - lulukeng
+    - miniwu
+    - pellaeon
+    - pofeng
+    - rock
+    - singing
+    - ttcat
+
+  project_ids:
+    - admin
+
+  reports:
+    2018: 03
+  reports_en:
+
+- id: 
+
+  name: 不簡單生活節：公民科技改變世界
+  name_en: 
+
+  description: 開放文化基金會與富邦文教基金會「不簡單生活節」合作，為學校教師準備了一系列精彩的開放源軟體、開放文化，和公民科技如何改變世界的社群經驗分享活動。
+  description_en: 
+
+  cover_image: /p/admin/2018/digitalcivil.png
+
+  start: 2018/03/10
+  end: 
+
+  links:
+    - title: 簡報文件
+      url: https://docs.google.com/document/d/1KEEXhtw17Mj618RG5SDmZuYxyfeyIWiEuUa7oLWx0sw/edit#heading=h.9vpfwesezz7r
+  links_en:
+
+  co-worker_ids:
+    - ttcat
+    - lulukeng
+    - rock
+
+  project_ids:
+    - admin
+
+  reports:
+    2018: 03
+  reports_en:
+

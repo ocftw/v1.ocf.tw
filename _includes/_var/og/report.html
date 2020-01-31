@@ -1,0 +1,12 @@
+{% assign year = page.year | append: '' %}
+
+{% if page.lang == "en" %}
+  {% assign report_id = year | append: '_' | append: page.lang %}
+{% else %}
+  {% assign report_id = year %}
+{% endif %}
+
+{% assign og_url = page.url %}
+{% assign og_title = site.data.reports[ report_id ].title %}
+{% assign og_image = site.data.reports[ report_id ].cover %}
+{% assign og_description = site.data.reports[ report_id ].description %}

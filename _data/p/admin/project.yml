@@ -1,0 +1,62 @@
+name: 基金會行政中心
+name_en: OCF Administration Center
+
+description: 開設獨立帳戶、收款取款、對帳、製作報表、開立收據、流程諮詢、彙整資料、成果發表、活動規劃、網站維護……一點都不迷人的繁瑣的行政庶務，卻是在幕後默默支援所有專案、不可或缺的基礎建設。行政中心奠定營運基石，讓所有專案共同受益。
+description_en: OCF helps Taiwan’s open source community deal with tedious administrative tasks, such as opening an independent account, collecting and withdrawing cash, balancing accounts, making reports, issuing receipts, providing consulting service, collecting data, presenting achievements, organizing events, maintaining websites. These seemingly insignificant chores are the foundation of the whole community.
+
+og_image: /mediakit/cover.png
+header_image: /mediakit/cover_bg.png
+avatar_image: /mediakit/avatar.jpg
+theme_color: teal
+
+start: '2014'
+end: 
+
+type_ids:
+  - misc
+topic_ids:
+  - misc
+field_ids:
+  - misc
+
+actions: 
+  - title: 單次捐款
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8
+    color: yellow
+    icon: dollar
+  - title: 長期認養：成為三百壯士
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=7
+    color: green
+    icon: dollar
+actions_en: 
+  - title: One-off Donation
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8
+    color: yellow
+    icon: dollar
+  - title: Monthly Donation
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=7
+    color: green
+    icon: dollar
+
+organizer_ids:
+  - ocf
+sponsor_ids:
+  - coscup
+  - pycon
+  - osdc
+  - netivism
+  - izero
+  - archilife
+  - rc
+  - hct
+
+coordinator_ids:
+  - pofeng
+
+board_ids:
+  - pofeng
+staff_ids: 
+  - singing
+  - rock
+  - xini
+  - rosa

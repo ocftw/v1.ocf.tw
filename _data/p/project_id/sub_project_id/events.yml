@@ -1,0 +1,139 @@
+# 2020 版活動資料範本
+
+- id: event_f_id
+  # 活動頁的檔案名稱，如果沒有獨立活動頁，則留空
+
+  name: 活動名稱（必填）
+  # 活動的中文正式名稱，會顯示在專案頁的「計畫成果」列表、活動頁
+  name_en: Event name
+  # 英文版網頁用
+
+  description: 用一段話簡單介紹這個活動
+  # 活動摘要簡介，若有，會顯示在專案頁的「計畫成果」列表、活動頁
+  description_en: Introduce the event in one paragraph
+  # 英文版網頁用
+
+  subtitles:
+  # 活動的副標題，若有，會顯示在專案頁的「計畫成果」列表、活動頁
+    - text
+  subtitles_en:
+  # 英文版網頁用
+    - text
+
+  cover_image: # url （建議填）
+  # 活動的封面圖片，若有，會顯示在專案頁的「計畫成果」列表、活動頁
+  # 選用長寬比接近 facebook og image 的圖片（1200 x 630）
+  banner_image: # url
+  # 活動的海報圖片，若有，會顯示在活動頁，或當作備用圖片，必要時顯示在專案頁
+  # 選用長寬比接近 x 展架的圖片（1600 x 1350）
+  theme_color: olive
+  # theme_color: text
+  # 專案頁與所屬活動頁的布景顏色，若留空，則會採用黑色
+  # 填入 semantic ui inverted segment 的顏色 class name 如 teal / pink / blue / green / red ... 等
+  # semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
+
+  start: 2020/01/01
+  # 活動開始日期
+  end: 2020/01/02
+  # 專案結束日期，若留空，視為跟 start 相同
+
+  labels:
+  # 活動的分類標籤，若有，會顯示在專案頁的「計畫成果」列表
+    - title: text
+      # 標籤內的文字
+      color: text
+      # 標籤的顏色，若留空，會使用預設的灰色
+      # 可使用 semantic ui 的 label 顏色，參考： http://semantic-ui.com/elements/label.html#colored
+  labels_en:
+  # 英文版網頁用
+    - title: text
+      color: text
+
+  metas:
+  # 活動的其他 metadata
+    - text
+  metas_en:
+  # 英文版網頁用
+    - text
+
+  links:
+  # 活動相關網址，出現在專案頁的「計畫成果」列表
+    - title: text
+      # 連結要顯示什麼名稱
+      url: url
+      # 連結要指向哪裡
+      icon: text
+      # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+  links_en:
+  # 英文版網頁用
+    - title: text
+      url: url
+      icon: text
+
+  advisor_ids:
+  # 指導單位 id
+    - id
+  organizer_ids:
+  # 主辦單位 id
+    - id
+  co-organizer_ids:
+  # 協辦單位 id
+    - id
+  implementer_ids:
+  # 承辦單位 id
+    - id
+  sponsor_ids:
+  # 贊助單位 id
+    - id
+
+  coordinator_ids:
+  # 召集人 id
+    - id
+  case-handler_ids:
+  # 窗口 id
+    - id
+  co-worker_ids:
+  # 協力 id
+    - id
+  consultant_ids:
+  # 顧問 id
+    - id
+  volunteer_ids:
+  # 志工 id
+    - id
+  contributor_ids:
+  # 貢獻者 id
+    - id
+  host_ids:
+  # 主持人 id
+    - id
+  speaker_ids:
+  # 講者 id
+    - id
+  participant_ids:
+  # 參與者 id
+    - id
+  donors:
+  # 捐助人名單，目前沒有使用此欄位，僅供編輯備註
+    - text
+  donors_en:
+  # 英文版網頁用
+    - text
+
+  project_ids:
+    - id
+  # 所屬專案 id
+
+  board_ids:
+  # 負責董事 id （隱藏欄位，僅供內部備註用）
+    - id
+  staff_ids:
+  # 負責員工 id （隱藏欄位，僅供內部備註用）
+    - id
+
+  reports:
+    yyyy: mm
+  # 活動所屬年份與月份，若有，會出現在年度成果報告頁
+  reports_en:
+    yyyy: mm
+  # 英文版網頁用

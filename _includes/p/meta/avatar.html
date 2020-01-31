@@ -1,0 +1,19 @@
+{% if project_avatar_image %}
+{% elsif project.organizer_ids %}
+  {% assign organizer_id = project.organizer_ids[0] %}
+  {% assign organizer = site.data.people.orgs[organizer_id] %}
+  {% if organizer.avatar %}
+    {% assign project_avatar_image = organizer.avatar %}
+  {% elsif organizer.logo %}
+    {% assign project_avatar_image = organizer.logo %}
+  {% elsif organizer.cover %}
+    {% assign project_avatar_image = organizer.cover %}
+  {% endif %}
+{% endif %}
+
+{% if project_avatar_image %}
+  <img class="ui fluid image" src="{{ project_avatar_image }}" alt="Visual identity image for '{{ project_name }}'" />
+{% endif %}
+
+{% assign organizer_id = undefined %}
+{% assign organizer = undefined %}

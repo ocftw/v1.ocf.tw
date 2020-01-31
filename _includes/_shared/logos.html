@@ -1,0 +1,17 @@
+<div id="logos" class="ui horizontal center aligned list">
+  {% for org_id in org_ids %}
+  {% assign org = site.data.people.orgs[org_id] %}
+  <a class="item" target="_blank" href="{{ org.link[0].url }}">
+    {% if lang == 'en' and org.name_en %}
+      {% assign org_name = org.name_en %}
+    {% else %}
+      {% assign org_name = org.name %}
+    {% endif %}
+    {% if org.logo %}
+      <img class="logo" src="{{ org.logo }}" alt="{{ org_name }}" />
+    {% else %}
+      {{ org_name }}
+    {% endif %}
+  </a>
+  {% endfor %}
+</div>

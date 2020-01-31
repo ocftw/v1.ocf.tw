@@ -1,0 +1,23 @@
+{% assign current = site.data.settings.current | append: "" %}
+{% assign year = page.year | append: "" %}
+{% if year == "current" %}
+  {% assign year = current %}
+{% endif %}
+
+{% assign id = page.project_id | append: "" %}
+
+{% assign og_url = page.url %}
+
+{% if page.lang == 'en' %}
+  {% assign og_title = site.data.projects[year][id].name_en %}
+{% else %}
+  {% assign og_title = site.data.projects[year][id].name %}
+{% endif %}
+
+{% assign og_image = site.data.projects[year][id].cover %}
+
+{% if page.lang == 'en' %}
+  {% assign og_description = site.data.projects[year][id].description_en %}
+{% else %}
+  {% assign og_description = site.data.projects[year][id].description %}
+{% endif %}

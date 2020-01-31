@@ -5,12 +5,12 @@ og_description: 推廣開放文化需要不斷地、不斷地、不斷地採取�
 
 # 活動日誌檔名與排序
 years:
-  - 2019
-  - 2018
-  - 2017
-  - 2016
-  - 2015
-  - 2014
+  - "2019"
+  - "2018"
+  - "2017"
+  - "2016"
+  - "2015"
+  - "2014"
 ---
 
 <main id="log">
@@ -54,20 +54,25 @@ years:
     </div>
 
     <div class="thirteen wide column">
-
       {% for year in page.years %}
 
         <h2 id="{{ year }}" class="ui dividing header">{{ year }} 年</h2>
 
         <div class="ui divided items">
 
-        {% assign id = year | append: "" %}
-        {% assign events = site.data.events[id] %}
+        {% include _var/events.html %}
+        {% for event in events %}
+          {% if event.start contains year %}
+            {% include p/events/item.html %}
+          {% endif %}
+        {% endfor %}
+
+        {% assign events = site.data.events[year] %}
         {% if events %}
         {% for event in events reversed %}
 
           {% assign item = event[1] %}
-          {% include events_item.html %}
+          {% include events/item.html %}
 
         {% endfor %}
         {% endif %}

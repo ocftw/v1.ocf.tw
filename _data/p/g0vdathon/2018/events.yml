@@ -1,0 +1,133 @@
+- id: 
+
+  name: g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松
+  name_en: 
+
+  description: 台灣零時政府 g0v.tw 雙月大黑客松, 不只寫程式改造社會，還要有菩薩心會許願蓋高牆做功德。不要問為什麼沒有人做功德，先承認你就是沒有人！來吧！來提新專案、來做舊專案、來認識新朋友！拓展開源、開幹、開花的公民行動精神。
+  description_en: 
+
+  cover_image: /p/2018/g0v/20180113g0vdathon.jpg
+
+  start: 2018/01/13
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath28n
+    - title: 本期共筆
+      url: https://beta.hackfoldr.org/g0v-hackath28n
+  links_en:
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2018: 01
+  reports_en:
+
+- id: 
+
+  name: g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松
+  name_en: 
+
+  description: 鄧東波／Open Data 聯盟副會長。主題：邁向鏈結開放資料之智慧服務Towards Linked Open Data for Intelligent Services
+  description_en: 
+
+  cover_image: /p/2018/g0v/20180303g0vdathon.png_large.jpg
+
+  start: 2018/03/03
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath29n
+  links_en:
+
+  contributor_ids:
+    - pellaeon
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2018: 03
+  reports_en:
+
+- id: 
+
+  name: g0v 復活節第拾次基礎建設松
+  name_en: 
+
+  description: g0v 社群號稱「人、坑、松」組成，但實際上常有混亂分散的問題。如何讓參與者容易串連協作，需要更多好用的工具與平台。揪松團於 2016 年重啟社群基礎建設計畫，揪碼農筆農一起耕耘，打造多中心的協作生態。希望透過常態經營基礎建設專案，讓公民黑客線上線下的連結及參與，在黑客松之外能夠更續航。這次又多了 g0v 機器大使、g0v 辦松工具包之類的專案，想要促進人坑松的交流，一起來入坑吧！ 
+  description_en: 
+
+  cover_image: /p/2018/g0v/20180414g0vdathon.jpg
+
+  start: 2018/04/14
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/infrath10n
+  links_en:
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2018: 04
+  reports_en:
+
+- id: 
+
+  name: 台灣零時政府 g0v.tw 雙月大黑客松
+  name_en: 
+
+  description: 本次 g0v 大黑客松將於 5/5 舉辦，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、插畫家與媒體工作者等諸眾，帶著熱血來盡一己之力，開源協作參與社會。
+  description_en: 
+
+  cover_image: /p/2018/g0v/20180505g0vdathon.png
+
+  start: 2018/05/05
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath30n
+    - title: 本期共筆
+      url: https://beta.hackfoldr.org/g0v-hackath30n/ 
+  links_en:
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2018: 05
+  reports_en:
+
+- id: 
+
+  name: 台灣零時政府 g0v.tw 雙月大黑客松
+  name_en: 
+
+  description: 零時政府黑客松由 g0v 揪松團舉辦，兩個月一次的單天活動，百名與會者來自不同的城市、背景、專長與年紀，利用三分鐘快速發表自己想做的事，並在現場尋找志同道合的夥伴，發揮各自所長，同時透過線上與線下協作的方式，用弄髒雙手的精神來「讓事情發生」。 沒有想法，我也可以貢獻嗎？ 可以！只要帶上你的腦袋與雙手，直接到活動現場找尋志同道合的提案吧！你也可以成為黑客松小幫手，先加入 g0v slack 線上聊天室的 jothon 群組自我介紹，再到每次黑客松共筆的資訊列表看看是否還缺少什麼人力喔！
+  description_en: 
+
+  cover_image: /p/2018/g0v/0707g0vdathon.png 
+
+  start: 2018/0707
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath31n
+    - title: 共筆
+      url: https://beta.hackfoldr.org/g0v-hackath31n/
+  links_en:
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2018: 07
+  reports_en:

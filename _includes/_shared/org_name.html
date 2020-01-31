@@ -1,0 +1,7 @@
+{% assign org = site.data.people.orgs[include.org_id] %}
+{% include _var/org.html org=org %}
+
+{{ org_name }}
+
+{% assign org = undefined %}
+{% assign org_name = undefined %}

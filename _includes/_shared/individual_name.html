@@ -1,0 +1,10 @@
+{% assign individual = site.data.people.individuals[include.individual_id] %}
+{% include _var/individual.html individual=individual %}
+
+{{ individual_name }}
+{% if individual.nick %}
+  <code class="nick">{{ individual.nick }}</code>
+{% endif %}
+
+{% assign individual = undefined %}
+{% assign individual_name = undefined %}

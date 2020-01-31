@@ -1,0 +1,48 @@
+{% if include.title %}
+  {% assign link_title = include.title %}
+{% endif %}
+
+{% if include.url %}
+  {% assign link_url = include.url %}
+{% endif %}  
+
+{% if include.link %}
+  {% assign link_url = include.link.url %}
+  {% assign link_title = include.link.title %}
+{% endif %}
+
+{% if link_url contains 'http' %}
+  {% assign link_target = '_blank' %}
+{% else %}
+  {% assign link_target = '_self' %}
+{% endif %}
+
+{% if include.icon %}
+  {% if include.icon == 'conditional' %}
+    {% if link_target == '_blank' %}
+      {% assign link_icon = 'globe' %}
+    {% else %}
+      {% assign link_icon = 'right arrow' %}
+    {% endif %}
+  {% else %}
+    {% assign link_icon = include.icon %}
+  {% endif %}
+{% endif %}
+
+{% if include.link and include.link.icon %}
+  {% assign link_icon = include.link.icon %}
+{% endif %}
+
+<a class="{{ include.class }}" href="{{ link_url }}" target="{{ link_target }}">
+  {% if link_icon %}
+    <i class="icon {{ link_icon }}"></i>
+  {% endif %}
+  <span class="text">
+    {{ link_title }}
+  </span>
+</a>
+
+{% assign link_url = undefined %}
+{% assign link_title = undefined %}
+{% assign link_icon = undefined %}
+{% assign link_target = undefined %}

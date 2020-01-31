@@ -1,0 +1,13 @@
+<!--
+  set variables:
+  og_url, og_title, og_image, og_description
+-->
+
+{% assign og_url = page.url %}
+{% assign og_title = page.og_title %}
+{% assign og_image = site.data.people.orgs.ocf.cover %}
+{% if lang == 'en' %}
+  {% assign og_description = site.data.people.orgs.ocf.context_description_en %}
+{% else %}
+  {% assign og_description = site.data.people.orgs.ocf.context_description %}
+{% endif %}

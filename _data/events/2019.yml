@@ -111,33 +111,6 @@
   speaker_id: 
   banner: 
   avatar: 
-0316admin:
-  title: "OCF 2019 常常酒酒聚 ft. PyCon Taiwan 志工回娘家"
-  description: "在 2018 年，我們支援 20 多個開源社群自主籌備活動、協辦 6 場大型活動、促成台灣 CC 與全球 CC 社群接軌、與 35 國的各個組織交流、帶領了 6 個多達 20 位社群朋友參與的出訪交流團、g0v.news 的營運... 等等，還有更多 OCF 在開放文化上的耕耘與努力的故事將在聚會上分享。PyCon Taiwan 的籌備團隊這次也和 OCF 一起，邀請曾經參與過籌備的志工朋友們，在這個春暖花開的時節回來聚聚。"
-  month: "3"
-  start: 3/16
-  end: 3/16
-  link:
-    - title: FB活動頁
-      url: https://www.facebook.com/events/309250896445205/
-    - title: 報名頁面
-      url: https://ocftw.kktix.cc/events/ocf-spring-2019?fbclid=IwAR3RI3tqO66KQG_jM7TwzURgIihBG39qvAGkV2tO3eQb5UaSBNP3ZnKPbP8
-  cover: \p\2019\admin\2019 spring party.png
-  contributor_id:
-    - 
-  project_id:
-    - admin
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
 0319tictec:
   title: "國際出訪：2019 TICTeC 公民科技動能推升研討會"
   description: "TICTeC 為一年一度關注開放資料及公民科技影響力的國際研討會，致力於探討公民科技在不同社會環境與政治脈絡下的影響力，是串連世界各國公民科技社群的重要網絡。今年會議台灣的參與者，則有 g0v 參與者 Isabel, ttcat 和開放文化基金會工作人員 Aiya。三人的參與，主要為了加強國際連結，讓國際社群看到 g0v --亞洲最大的公民科技社群在這波浪潮持續進行。"
@@ -205,36 +178,6 @@
     - lulukeng
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0415admin:
-  title: "開源教 - 教我正確選擇軟體授權"
-  description: "GPL, AGPL, LGPL, MIT, BSD... 各種複雜的軟體授權條款，是大部分人在利用開源的軟體套件的時候會遇到的棘手問題。到底用了哪些授權方式的軟體、套件，或是用了開源的資料庫，會如何影響到我本來想要選擇的授權方式呢？我又應該要選擇哪一種授權方式，才能符合我心中希望這軟體被流通應用的方式？
-
-「開源教教我正確選擇軟體授權」第一堂課程，特地請到長年研究開源科技法律授權的林誠夏法制顧問，深入淺出介紹各種開源授權方式，並透過實例的操作，分析已經用了很多套件的開源軟體，如何選擇合適的授權。絕對保證能夠幫各位從頭根治到腳，通體舒暢從此不再煩惱授權！千萬不要錯過這次的分享！"
-  month: "4"
-  start: 4/15
-  end: 4/15
-  link:
-    - title: 錄影
-      url: https://youtu.be/raHdvb8y_-Q
-    - title: 筆記/簡報
-      url: https://hackmd.io/s/rk-sbm42z
-  cover: /p/2019/openists/openists20190415.png
-  contributor_id:
-    - singing
-    - rock
-  project_id:
-    - admin
   label: 
   organizer_id: 
   advisor_id: 
@@ -462,7 +405,7 @@
       url: https://www.rightscon.org/
     - title: 出訪紀錄
       url: https://drive.google.com/open?id=11gE-oYY_UVfPfWqv-vkL0eVaGG0p575r
-  cover: \p\2019\intl\RC2019Tunis.jpg
+  cover: /p/2019/intl/RC2019Tunis.jpg
   contributor_id:
     - yhchang
     - pellaeon
@@ -495,34 +438,6 @@
     - singing
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0624openists:
-  title: "開源教 - 教我玩轉桌面 GITHUB"
-  description: "身處在 3C（C 是 Computers：手機、平板、電腦）時代，不可能再只用紙張和文件夾來管理檔案，而管理大量的檔案，就會需要用到版本控制的概念。傳統的版本控制是把檔案名稱用 ooo_v1、ooo_v2 或是其他改檔名的方式，來區隔出不同時期所編輯的版本，管理起來不方便，且容易弄錯。
-GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使用的工具，他可以透過圖形化介面的操作，輕輕鬆鬆用版本控制的概念，和其他協作者一起管理 GitHub 上的專案，或是你電腦裡的檔案。如果你還弄不清楚 pull request、commit、conflict 是什麼，那這堂課就非常適合你來哦！"
-  month: "6"
-  start: 6/24
-  end: 
-  link:
-    - title: 錄影
-      url: https://youtu.be/skhzt66nrNc
-    - title: 簡報
-      url: https://drive.google.com/open?id=1-1PV87hKHnSSDDAJ9sRBwSXT9ooSZgxA
-  cover: /p/2019/openists/openists20190624.png
-  contributor_id:
-    - rock
-  project_id:
-    - admin
   label: 
   organizer_id: 
   advisor_id: 
@@ -589,115 +504,6 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   speaker_id: 
   banner: 
   avatar: 
-0817COSCUP:
-  title: "COSCUP 2019"
-  description: "開源人年會 COSCUP 已經邁入第十四年了，今年的活動有些特別，除了延續去年首次嘗試的社群議程外，今年的時間地點則於 8/17-18 在台灣科技大學國際大樓舉辦。過去，COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，今年除了有在地社群成為議程的協力夥伴外，更加入了國際社群們，希望能打造更多元的主題和議程。無論你是寫 open source 軟體的開發者、熱衷 open source 軟體的推廣者、熟悉 open source 軟體的使用者或是想了解 open source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP 2019！"
-  month: "8"
-  start: 8/17
-  end: 8/18
-  link:
-    - title: 活動網頁
-      url: https://coscup.org/2019/
-  cover: \p\2019\COSCUP\COSCUP-2019.png
-  contributor_id:
-    - rosa
-  project_id:
-    - coscup
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0821openists:
-  title: "開源教 - 教我認清著作權＋快樂使用網路資源"
-  description: "網路世界是一個巨大的資源寶庫，卻也暗藏各種侵權地雷，如果不了解著作權的基本概念，隨時有可能踩線卻不自知。其實只要學會「探路」的訣竅，就能快樂使用網路資源，善用開源的資源實現各種創意！
-內容會包括：著作權基本概念介紹、中國有嘻哈「徐真真《當妮走了》」音樂採樣 vs 抄襲事件、網路世界最常發生的著作權侵權誤區、創意 remix 竟然也有商標權人找上門？、開源授權停看聽"
-  month: "8"
-  start: 8/21
-  end: 
-  link:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/openist-ipandcc
-  cover: /p/2019/openists/openists20190821.png
-  contributor_id:
-    - rock
-  project_id:
-    - admin
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0824 資安講座:
-  title: "網路公民必須學會的資安防護"
-  description: "數位科技是鼓勵群眾參加活動的有利武器，但同時也將參加者暴露在政府的監控下。極權高科技監控時代，參加者越需要在彼此間串連時保護自己 。例如，香港近期的社會運動中，政府利用數位足跡找出參加者的真實身分，而為了避免政府的監控，香港社運人士揚棄較為開放的 Facebook 與 Twitter，轉向使用隱密的加密即時通訊軟體。這些平台讓參加者可以用較為安全的方式散播活動的資訊和策略，掌握物資的流動，讓參加者免於受監控之恐懼。
-當網路成為人們獲取資訊、參與公共事務的管道，參加者如何避免在網路監控時代下留下電子足跡？要如何兼顧資訊安全，並確保參與公民的自由與人權呢？讓您不能不知的資訊安全 ABC 一次就上手！
-【時間】2019/8/24 (週六) 14:30-17:30  
-【主講】王保羅（媒體工作者，常駐香港）
-                 秉宇 / PCC（CSCS 資安講師）
-【地點】創咖啡 Trust Cafe
-"
-  month: "8"
-  start: 8/24
-  end: 8/24
-  link:
-    - title: FB活動頁 
-      url: https://www.facebook.com/events/2438418669711037/
-    - title: 報名連結
-      url: https://forms.gle/8ve26T1NevX6kyJS9
-  cover: \p\2019\intl\青平台824講座宣傳圖1.png
-  contributor_id:
-    - Aiya
-  project_id:
-    - cscs
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0829cscstot:
-  title: "NGO 資安種子講師訓練"
-  description: "台灣擁有在國際間相當知名的開源社群，亦有著極為活躍的公民社會。為了促進這兩個社群之間的交流，開放文化基金會國際交流組與華人民主書院、台灣駭客協會、台灣人權促進會共四個組織共同開啟 「CSCS 專案：Civil Society Cyber Shield」，讓社會運動與組織者能夠接觸最新的資安工具、對抗資安威脅，在安全的線上環境中推動社會議題。2019 年， CSCS 希望招募新一批志工資安講師，持續進行資訊安全、隱私權的推廣及教學工作。"
-  month: "8"
-  start: 8/29
-  end: 9/1
-  link:
-    - title: 活動資訊及報名
-      url: https://ocftw.kktix.cc/events/cscs2019tot
-  cover: /p/2019/intl/CSCS-kktix.png
-  contributor_id:
-    - bryce
-  project_id:
-    - cscs
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
 1004JCConf:
   title: "JCConf 2019"
   description: "JCConf Taiwan (Java Community Conference Taiwan) 是由社群成員發起的 Java 程式語言及相關領域研討會，由 TWJUG (Taiwan Java User Group) 主辦，Scala Taiwan 和 科斯高 協辦。宗旨在提供台灣的 Java 開發者有更多參與社群以及交流技術的機會，目標與會對象主要為使用 Java 語言及 JVM 相關技術的程式開發者和相關從業人員。"
@@ -709,7 +515,7 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
       url: https://jcconf.tw/2019/
     - title: 報名頁
       url: https://twjug.kktix.cc/events/jcconf-2019
-  cover: \p\2019\JCConf\JCConf2019.png
+  cover: /p/2019/JCConf/JCConf2019.png
   contributor_id:
     - rosa
   project_id:

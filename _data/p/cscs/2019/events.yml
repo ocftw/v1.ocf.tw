@@ -1,0 +1,64 @@
+- id: 
+
+  name: 網路公民必須學會的資安防護
+  name_en: 
+
+  description: 數位科技是鼓勵群眾參加活動的有利武器，但同時也將參加者暴露在政府的監控下。極權高科技監控時代，參加者越需要在彼此間串連時保護自己 。例如，香港近期的社會運動中，政府利用數位足跡找出參加者的真實身分，而為了避免政府的監控，香港社運人士揚棄較為開放的 Facebook 與 Twitter，轉向使用隱密的加密即時通訊軟體。這些平台讓參加者可以用較為安全的方式散播活動的資訊和策略，掌握物資的流動，讓參加者免於受監控之恐懼。當網路成為人們獲取資訊、參與公共事務的管道，參加者如何避免在網路監控時代下留下電子足跡？要如何兼顧資訊安全，並確保參與公民的自由與人權呢？讓您不能不知的資訊安全 ABC 一次就上手！
+  description_en: 
+
+  cover_image: /p/2019/intl/青平台824講座宣傳圖1.png
+
+  start: 2019/08/24
+  end: 
+
+  metas:
+    - "【時間】2019/8/24 (週六) 14:30-17:30  "
+    - 【主講】王保羅（媒體工作者，常駐香港）、秉宇 / PCC（CSCS 資安講師）
+    - 【地點】創咖啡 Trust Cafe
+  metas_en:
+
+  links:
+    - title: FB活動頁 
+      url: https://www.facebook.com/events/2438418669711037/
+    - title: 報名連結
+      url: https://forms.gle/8ve26T1NevX6kyJS9
+  links_en:
+
+  co-worker_ids:
+    - aiya
+
+  project_ids:
+    - cscs
+
+  reports:
+    2019: 08
+  reports_en:
+
+- id: 
+
+  name: NGO 資安種子講師訓練
+  name_en: 
+
+  description: 台灣擁有在國際間相當知名的開源社群，亦有著極為活躍的公民社會。為了促進這兩個社群之間的交流，開放文化基金會國際交流組與華人民主書院、台灣駭客協會、台灣人權促進會共四個組織共同開啟 「CSCS 專案：Civil Society Cyber Shield」，讓社會運動與組織者能夠接觸最新的資安工具、對抗資安威脅，在安全的線上環境中推動社會議題。2019 年， CSCS 希望招募新一批志工資安講師，持續進行資訊安全、隱私權的推廣及教學工作。
+  description_en: 
+
+  cover_image: /p/2019/intl/CSCS-kktix.png
+
+  start: 2019/08/29
+  end: 2019/09/01
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/cscs2019tot
+  links_en:
+
+  co-worker_ids:
+    - bryce
+
+  project_ids:
+    - cscs
+
+  reports:
+    2019: 08
+  reports_en:
+

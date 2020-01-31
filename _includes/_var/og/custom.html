@@ -1,0 +1,20 @@
+<!--
+  set variables:
+  og_url, og_title, og_image, og_description
+-->
+
+{% if page.og_url %}
+  {% assign og_url = page.og_url %}
+{% endif %}
+
+{% if page.og_title %}
+  {% assign og_title = page.og_title %}
+{% endif %}
+
+{% if page.og_image %}
+  {% assign og_image = page.og_image %}
+{% endif %}
+
+{% if page.og_description %}
+  {% assign og_description = page.og_description %}
+{% endif %}

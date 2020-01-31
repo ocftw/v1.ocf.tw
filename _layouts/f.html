@@ -1,0 +1,32 @@
+---
+layout: global
+---
+
+{% include _var/f.html %}
+
+<main id="freestyle">
+
+{% include e/header.html %}
+
+<div class="ui container">
+  <section id="content">
+    {% if page.og_image %}
+    <img class="ui fluid image" src="{{ page.og_image }}" alt="Cover image for '{{ page.og_title }}'" />
+    {% else %}
+    <div></div>
+    {% endif %}
+
+    <h2 class="ui header">
+      {{ page.og_title }}
+    </h2>
+    <div class="ui basic secondary segment">
+      {{ page.og_description }}
+    </div>    
+  
+    {{ content }}
+
+    <div class="ui hidden divider"></div>
+  </section>
+</div>
+
+</main>

@@ -1,0 +1,169 @@
+- id: 
+
+  name: g0v 第陸次基礎建設「大平台」松
+  name_en: 
+
+  start: 2017/01/21
+  end: 
+
+  co-worker_ids:
+    - ttcat
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2017: 01
+  reports_en:
+
+- id: 
+
+  name: g0v 第柒次基礎建設緊急松 - 德國 Prototype Fund x g0v 獎助金
+  name_en: 
+
+  start: 2017/02/16
+  end: 
+
+  co-worker_ids:
+    - ttcat
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2017: 02
+  reports_en:
+
+- id: 
+
+  name: 台灣零時政府第貳拾參次開放資料黑客松
+  name_en: 
+
+  start: 2017/03/04
+  end: 
+
+  co-worker_ids:
+    - ttcat
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2017: 03
+  reports_en:
+
+- id: 
+
+  name: g0v 第捌次基礎建設松
+  name_en: 
+
+  start: 2017/04/20
+  end: 
+
+  co-worker_ids:
+    - ttcat
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2017: 04
+  reports_en:
+
+- id: 
+
+  name: 台灣零時政府第貳拾肆次凍省黑客松
+  name_en: 
+
+  start: 2017/05/06
+  end: 
+
+  co-worker_ids:
+    - ttcat
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2017: 05
+  reports_en:
+
+- id: 
+
+  name: g0v hackathon Bangkok
+  name_en: 
+
+  description: Join the frist g0v’s hackathon @ Bangkok to hack a better society with all enthusiastic hackers, activists, designers, government officials and social innovators!
+  description_en: 
+
+  start: 2017/07/29
+  end: 
+
+  links:
+    - title: 活動介紹及資訊
+      url: http://beta.hackfoldr.org/bangkok-hackath0n
+  links_en:
+
+  co-worker_ids:
+    - ttcat
+    - afi
+    - pellaeon
+    - yhsiang
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2017: 07
+  reports_en:
+
+- id: 
+
+  name: 台灣零時政府第貳拾伍次科學黑客松
+  name_en: 
+
+  start: 2017/08/22
+  end: 2017/08/25
+
+  links:
+    - title: 報名頁面
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath15n
+  links_en:
+
+  co-worker_ids:
+    - ttcat
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2017: 08
+  reports_en:
+
+- id: 
+
+  name: 台灣零時政府五週年黑客松
+  name_en: 
+
+  description: 恭喜g0v hackathon(黑客松) 辦理邁入第五年，村長也又老了五歲！從工程師起頭，如今g0v捲動著設計師、人類學家、歷史學家、法律人、農業專門、公務員….等等等各行各業的人，一同在每兩個月的黑客松推坑&填坑，繼續想著如何用科技和程式改造社會。
+  description_en: 
+
+  cover_image: /p/2017/intl/0916g0v5year_resized.jpg
+
+  start: 2017/09/16
+  end: 
+
+  links:
+    - title: 報名頁面
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath26n
+  links_en:
+
+  co-worker_ids:
+    - ttcat
+
+  project_ids:
+    - g0vdathon
+
+  reports:
+    2017: 09
+  reports_en:

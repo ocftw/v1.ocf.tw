@@ -1,0 +1,90 @@
+name: 台灣 Python 年會
+name_en: PyCon Taiwan
+
+description: PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。
+description_en: PyCon Taiwan is an annual conference held by a group of Python enthusiasts to promote the use of Python and the possibilities Python can create. We sincerely invite every Python expert to share experience, exchange thoughts, and make new friends in PyCon Taiwan.
+
+abbr: PyCon Taiwan
+abbr_en: PyCon Taiwan
+
+tagline: PyCon Taiwan
+tagline_en: 
+
+og_image: /p/pycon/2018/og.png
+header_image: /p/pycon/2018/group壓縮.jpg
+avatar_image: /p/pycon/pytwlogo.jpg
+theme_color: 
+
+start: 
+end: 
+
+type_ids:
+  - community
+topic_ids:
+  - source
+field_ids:
+  - it
+tags:
+  - 大型研討會
+  - 定期活動
+tags_en:
+
+links:
+  - title: PyCon TW 官網
+    url: http://pycon.tw/
+    icon: home
+  - title: Twitter
+    url: https://twitter.com/pycontw
+    icon: twitter
+  - title: Facebook
+    url: https://www.facebook.com/pycontw/
+    icon: facebook
+  - title: YouTube
+    url: https://www.youtube.com/channel/UCHLnNgRnfGYDzPCCH8qGbQw/
+    icon: youtube
+  - title: 相片集
+    url: https://www.flickr.com/photos/pycon_tw/
+    icon: flickr
+links_en:
+  - title: PyCon TW 
+    url: https://tw.pycon.org/
+    color: blue
+    icon: home
+  - title: Twitter
+    url: https://twitter.com/pycontw
+    color: blue
+    icon: twitter
+  - title: Facebook
+    url: https://www.facebook.com/pycontw/
+    color: blue
+    icon: facebook
+  - title: YouTube
+    url: https://www.youtube.com/channel/UCHLnNgRnfGYDzPCCH8qGbQw/
+    color: blue
+    icon: youtube
+  - title: Flickr
+    url: https://www.flickr.com/photos/pycon_tw/
+    color: blue
+    icon: flickr
+
+actions:
+  - title: 加入籌備志工
+    url: mailto:organizer@pycon.tw
+    color: blue
+    icon: users
+actions_en: 
+  - title: Join Us!
+    url: mailto:organizer@pycon.tw
+    color: blue
+    icon: users
+
+organizer_ids:
+  - pycon
+co-organizer_ids:
+  - ocf
+
+board_ids:
+  - pofeng
+staff_ids: 
+  - rock
+  - leona

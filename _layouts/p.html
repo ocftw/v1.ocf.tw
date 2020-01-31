@@ -1,0 +1,98 @@
+---
+layout: global
+---
+
+{% include _var/p.html %}
+
+{% if lang == 'en' %}
+  {% assign project_tagline = project.tagline_en %}
+  {% assign project_donors = project.donors_en %}
+  {% assign events_title = 'Events' %}
+  {% assign statement_title = 'Income Statement' %}
+  {% assign sponsor_title = site.data.people.settings.orgs.sponsor.name_en %}
+  {% assign donor_title = site.data.people.settings.individuals.donor.name_en %}
+{% else %}
+  {% assign project_tagline = project.tagline %}
+  {% assign project_donors = project.donors %}
+  {% assign events_title = '計畫成果' %}
+  {% assign statement_title = '收支明細' %}
+  {% assign sponsor_title = site.data.people.settings.orgs.sponsor.name %}
+  {% assign donor_title = site.data.people.settings.individuals.donor.name %}
+{% endif %}
+
+<main id="project">
+
+{% include p/header.html %}
+
+<!-- 主要區塊 -->
+
+<div class="ui container">
+  <div class="ui hidden divider"></div>
+  <div class="ui two column stackable grid">
+
+    <!-- 右側邊欄 -->
+
+    <div class="six wide column flex-swap">
+      <aside id="meta" class="ui sticky secondary basic segment">
+      {% include p/meta.html %}
+      </aside>
+    </div>
+    
+    <!-- 左側內容 start -->
+
+    <div class="ten wide column">
+
+      {{ content }}
+
+      <!-- 屬於此專案的活動 -->
+
+      {% if page.show_events %}
+      <h2 class="ui dividing header">
+        {{ events_title }}
+      </h2>
+      {% include p/events.html %}
+      {% endif %}
+
+      <!-- 幫內嵌 gsheet -->
+
+      {% if page.gsheet_url contains "http" %}
+      <h2 id="payments" class="ui dividing header">
+        {{ statement_title }}
+      </h2>
+      <div class="ui basic paddingless segment">
+        <iframe src="{{ page.gsheet_url }}"></iframe>
+      </div>
+      {% endif %}
+
+      <!-- 贊助商 logo 牆 -->
+
+      {% if project.sponsor_ids and page.show_sponsors %}
+      <h2 class="ui dividing header">
+        {{ sponsor_title }}
+      </h2>
+      {% assign org_ids = project.sponsor_ids %}
+      {% include _shared/logos.html %}
+      {% endif %}
+
+      <!-- 捐助人名單 -->
+
+      {% if project_donors and page.show_donors %}
+      <h2 class="ui dividing header">
+        {{ donor_title }}
+      </h2>
+      <div id="donors" class="ui center aligned labels">
+        {% for donor in project_donors %}
+          <span class="ui label">{{ donor }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+    </div>
+
+    <!-- 左側內容 end -->
+
+  </div>
+  <div class="ui hidden divider"></div>
+</div>
+
+</main>

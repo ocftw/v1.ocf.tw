@@ -22,32 +22,6 @@
   speaker_id:
   banner: 
   avatar: 
-0113g0vdathon:
-  title: g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松
-  description: 台灣零時政府 g0v.tw 雙月大黑客松, 不只寫程式改造社會，還要有菩薩心會許願蓋高牆做功德。不要問為什麼沒有人做功德，先承認你就是沒有人！來吧！來提新專案、來做舊專案、來認識新朋友！拓展開源、開幹、開花的公民行動精神。
-  month: 1
-  start: 1/13
-  end: 
-  link:
-    - title: 活動網站
-      url: https://g0v-jothon.kktix.cc/events/g0v-hackath28n
-    - title: 本期共筆
-      url: https://beta.hackfoldr.org/g0v-hackath28n
-  cover: /p/2018/g0v/20180113g0vdathon.jpg
-  contributor_id:
-  project_id:
-    - g0vdathon 
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0203cctw:
   title: 創用 CC 小聚-1
   description: 創用 CC (Creative Commons) 是一種對自己的著作物，在公開在網路上的同時，予以保障，讓公眾能夠在有條件的授權條款下，合理的使用你的創作物品。 我們期盼透過各種方式討論創用 CC ，除了建立大家對於開放理念、CC 授權的正確觀念之外，也引發民眾對於自己或別人的著作物品應有的尊重與著作權基本概念。 這次的討論我們會談到： Creative Commons 全球社群策略的改變 各國 CC 社群現況與困境分享。
@@ -124,30 +98,6 @@
   speaker_id:
   banner: 
   avatar: 
-0303g0vdathon:
-  title: g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松
-  description: 鄧東波／Open Data 聯盟副會長。主題：邁向鏈結開放資料之智慧服務Towards Linked Open Data for Intelligent Services
-  month: 3
-  start: 3/3
-  end: 
-  link:
-    - title: 活動網站
-      url: https://g0v-jothon.kktix.cc/events/g0v-hackath29n
-  cover: /p/2018/g0v/20180303g0vdathon.png_large.jpg
-  contributor_id: pellaeon
-  project_id:
-    - g0vdathon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar:
 0310sitcon:
   title: 學生計算機年會 SITCON 2018
   description: SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量。希望藉由提供一個經驗交流與資訊技術實務分享的平台，使已有成就者能夠傳承己身經驗，嶄露頭角者在激盪中獲得靈感與啟發，並同時讓初入茅廬者得以對資訊科學有更深入的了解；進而達到「學以致用、教學相長」的目標。
@@ -183,7 +133,7 @@
   link:
     - title: 簡報文件
       url: https://docs.google.com/document/d/1KEEXhtw17Mj618RG5SDmZuYxyfeyIWiEuUa7oLWx0sw/edit#heading=h.9vpfwesezz7r
-  cover: /p/2018/admin/digitalcivil.png
+  cover: /p/admin/2018/digitalcivil.png
   contributor_id:
     - ttcat
     - lulukeng
@@ -202,46 +152,6 @@
   speaker_id:
   banner: 
   avatar:
-0317ocf:
-  title: OCF 2018 烤山豬春酒聚
-  description: "在 2017 年，我們支援 20+ 開源社群自主籌備活動、協辦 7 場大型活動、舉辦 1 周的亞洲第一次公民科技大會、參與 4 項開源與資訊技術青年培育計畫 ...，還有更多 OCF 在開放文化上的耕耘與努力的故事將在春酒上與你分享。
-活動除了成果報告外，2017 年秋季 g0v 公民科技創新獎助金的 6 件獲獎作品同時登場發表，將分享在經過 6 個月的加速開發後，他們為台灣社會帶來什麼樣的改變。"
-  month: 3
-  start: 3/17
-  end: 
-  link:
-    - title: 活動網站
-      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=9
-  cover: /p/2018/admin/2018spring party.jpg
-  contributor_id:
-    - aiya
-    - bess
-    - bobchao
-    - clkao
-    - honki
-    - huangfu
-    - jimyhuang
-    - lilin
-    - lulukeng
-    - miniwu
-    - pellaeon
-    - pofeng
-    - rock
-    - singing
-    - ttcat
-  project_id:
-    - admin
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0324python:
   title: 【高雄 Python 學院】 Python 基礎及應用工作坊
   description: 本工作坊是「Python 基礎及應用」課程的後續課程。在上一次的課程中，我們在六個小時內一次性地將初學者可能會使用到的技術盡量涵蓋，希望在知識性上讓參與者覺得物超所值。然而從問卷中，我們了解到多數初學者希望可以增加實作時數，進一步的熟悉 Python 的使用。因此我們在討論之後，決定開一個六個小時的工作坊。在本工作坊內，我們會將基本語法做簡短的複習，接著會提出不同的使用情境，讓參與者思考如何解題，視問題的難易程度，在 5-10 分鐘後，講師會提出一個參考的做法，再讓參與者做最後的嘗試及提問。上一次的課程，比較偏向知識的教授，而本工作坊則偏向技術的使用，需要參與者思考及動手，藉由動腦及動手讓 Python 語言自動地變成自己的技能。
@@ -282,29 +192,6 @@
     - yixuanlin 
   project_id:
     - cctw
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0414g0vdathon:
-  title: g0v 復活節第拾次基礎建設松
-  description: g0v 社群號稱「人、坑、松」組成，但實際上常有混亂分散的問題。如何讓參與者容易串連協作，需要更多好用的工具與平台。揪松團於 2016 年重啟社群基礎建設計畫，揪碼農筆農一起耕耘，打造多中心的協作生態。希望透過常態經營基礎建設專案，讓公民黑客線上線下的連結及參與，在黑客松之外能夠更續航。這次又多了 g0v 機器大使、g0v 辦松工具包之類的專案，想要促進人坑松的交流，一起來入坑吧！ 
-  month: 4
-  start: 4/14
-  link:
-    - title: 活動網站
-      url: https://g0v-jothon.kktix.cc/events/infrath10n
-  cover: /p/2018/g0v/20180414g0vdathon.jpg
-  contributor_id:
-  project_id:
-    - g0vdathon
   label:
   organizer_id:
   advisor_id:
@@ -474,32 +361,6 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
-0505g0vdathon:
-  title: 台灣零時政府 g0v.tw 雙月大黑客松
-  description: 本次 g0v 大黑客松將於 5/5 舉辦，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、插畫家與媒體工作者等諸眾，帶著熱血來盡一己之力，開源協作參與社會。
-  month: 5
-  start: 5/05
-  end: 
-  link:
-    - title: 活動網站
-      url: https://g0v-jothon.kktix.cc/events/g0v-hackath30n
-    - title: 本期共筆
-      url: https://beta.hackfoldr.org/g0v-hackath30n/ 
-  cover: /p/2018/g0v/20180505g0vdathon.png
-  contributor_id:
-  project_id:
-    - g0vdathon 
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0516intl:
   title: 國際出訪：RightsCon Summit Series
   description: "國際組織 Access Now ，是一個致力於開放自由網路的人權、公共政策、與倡議性之國際非營利組織。自2009年成立以來，Access Now 持續倡議數位人權的議題，其針對下列五個主要的政策領域：數位安全、言論自由、隱私、網路歧視、以及商業與人權。RightsCon 數位人權大會是由 Access Now 所主辦、目前世界最大的數位人權活動，每年在不同國家舉行，2017 年 3 月於布魯塞爾舉辦時，參加者已超過 1500 人，今年在加拿大多倫多的大會於 5/16-18 舉行，參加者人數更是再度超越往年紀錄，來到超過 2000 人的人數，參加者背景分別來自全球的資訊公司、人權組織、網路治理機構與政府和聯合國組織，囊括世界上數位科技領域的所有重要領域，三日的活動中，多軌並行進行的公開議程超過 450 個，更有不計其數的議題工作坊、座談會、圓桌會議、小組討論、閉門會談等，這些來自世界各地的資訊專業人士、政策制定者、學術研究者與人權工作者，從各種面向切入，討論資訊時代的隱私、言論自由等數位人權，以及最新的科技（例如人工智慧、區塊鏈）在數位人權方面的影響，並也探討公民科技如何幫助人們、人權行動者面對怎樣的網路與科技議題或如何使用網路作為發聲、對抗的方式。"
@@ -555,33 +416,6 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar:
-0601pycon:
-  title: 2018 PyCon Taiwan
-  description: "PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。 "
-  month: 6
-  start: 6/01
-  end: 6/02
-  link:
-    - title: 活動網站
-      url: https://tw.pycon.org/2018/zh-hant/
-  cover: /p/2018/pycon/og.png
-  contributor_id:
-    - rock
-    - huangfu
-    - singing
-  project_id:
-    - pycon
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar:
 0607intl:
   title: 國際出訪：Personal Democracy Forum 2018 :How We Make Good
   description: 吸引近 400 位產官學代表參與的個人民主論壇（ Personal Democracy Forum CEE 2018），繼今年 4 月底在波蘭首聚後，6 月亦在紐約登場。來自不同國家的講者，將於此分享各種實踐公民人權的方式與經驗。
@@ -615,7 +449,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   link:
     - title: 參訪報告
       url: https://docs.google.com/document/d/1cuHiaqRvUnRb2Ydd2hsEOcGG6qZUW_uUrknKYWu0OjU/edit#heading=h.4rpx3qvpes03
-  cover: \p\2018\intl\歐洲公民科技組織拜訪.JPG
+  cover: /p/2018/intl/歐洲公民科技組織拜訪.JPG
   contributor_id:
     - aiya
   project_id:
@@ -773,32 +607,6 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   speaker_id:
   banner: 
   avatar: 
-0707g0vdathon :
-  title: 台灣零時政府 g0v.tw 雙月大黑客松 
-  description: 零時政府黑客松由 g0v 揪松團舉辦，兩個月一次的單天活動，百名與會者來自不同的城市、背景、專長與年紀，利用三分鐘快速發表自己想做的事，並在現場尋找志同道合的夥伴，發揮各自所長，同時透過線上與線下協作的方式，用弄髒雙手的精神來「讓事情發生」。 沒有想法，我也可以貢獻嗎？ 可以！只要帶上你的腦袋與雙手，直接到活動現場找尋志同道合的提案吧！你也可以成為黑客松小幫手，先加入 g0v slack 線上聊天室的 jothon 群組自我介紹，再到每次黑客松共筆的資訊列表看看是否還缺少什麼人力喔！
-  month: 7
-  start: 7/7
-  end: 
-  link:
-    - title: 活動網站
-      url: https://g0v-jothon.kktix.cc/events/g0v-hackath31n
-    - title: 共筆
-      url: https://beta.hackfoldr.org/g0v-hackath31n/
-  cover: /p/2018/g0v/0707g0vdathon.png 
-  contributor_id:
-  project_id:
-    - g0vdathon 
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0711intl :
   title: 2018 美國公民科技之行回台分享會
   description: 政府與民間的公民科技不一樣嗎？兩大會議，一個以政府視野來探討，一個以公民社群為出發點，有著非常不一樣的氛圍和議程，也帶來許多反思和如何運用科技的探討。而四位分享者，也將以不同身份提出不同觀察，並與大家分享更多會議以外的交流故事、行程秘辛、未來推坑大計，至於驚喜彩蛋，那只能來現場才能得知了啊！！
@@ -838,7 +646,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   link:
     - title: 參訪報告
       url: https://docs.google.com/document/d/1kIeQtHKaaZg7A_HkZigd8pZ7Nf0E8tR4kuEsaSSFXgg/edit
-  cover: \p\2018\intl\ogp開放政府分享會.JPG
+  cover: /p/2018/intl/ogp開放政府分享會.JPG
   contributor_id:
     - ttcat
     - aiya
@@ -878,39 +686,6 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
     - ocf
   advisor_id:
   co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0811COSCUP2018 :
-  title: COSCUP 2018 X openSUSE.Asia X GNOME.Asia 
-  description:  開源人年會 COSCUP 已經邁入第十三年了，今年的活動有些特別，除了延續去年首次嘗試的社群議程外，今年更與 GNOME.Asia 與 openSUSE.Asia 一起合辦，今年的時間地點則於 8/11-12 在台灣科技大學國際大樓舉辦。過去，COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，今年除了有在地社群成為議程的協力夥伴外，更加入了國際社群們，希望能打造更多元的主題和議程。 無論你是寫 Open Source 軟體的開發者、熱衷 Open Source 軟體的推廣者、熟悉 Open Source 軟體的使用者或是想了解 Open Source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP x GNOME.Asia x openSUSE.Asia 2018！ 
-  month: 8
-  start: 8/11
-  end: 8/12
-  link:
-    - title: 完整議程
-      url: https://2018.coscup.org/programs/
-    - title: 活動直播
-      url: https://www.youtube.com/playlist?list=PLqfib4St70XOZt4e6XNiigzW9GI7iG-Iq
-  cover: /p/2018/coscup/coscup2018.jpg 
-  contributor_id:
-    - singing
-    - huangfu  
-  project_id:
-    - coscup 
-  label:
-  organizer_id:
-    - coscup
-    - opensuseasia
-    - gnomeasia
-  advisor_id:
-  co-organizer_id:
-    - ocf
-    - ntust
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -1085,7 +860,7 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
   link:
     - title: 活動網頁
       url: https://summit.g0v.tw/2018/
-  cover: \p\2018\g0vsummit\g0v_summit_2018.jpg
+  cover: /p/2018/g0vsummit/g0v_summit_2018.jpg
   contributor_id:
   project_id:
     - g0vsummit

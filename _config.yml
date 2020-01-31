@@ -1,4 +1,4 @@
-source:      .
+source: .
 destination: _deploy
 config_url: http://ocf.tw
 # defaults:
@@ -8,6 +8,6 @@ config_url: http://ocf.tw
 #       og_title: "test default title"
 #       og_image: /mediakit/cover.png
 #       og_description: "test default description"
-gems:
+plugins:
   - jekyll-redirect-from
 encoding: utf-8

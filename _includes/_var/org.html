@@ -1,0 +1,10 @@
+<!--
+  set variables:
+  org_name
+-->
+
+{% if lang == "en" and include.org.name_en %}
+  {% assign org_name = include.org.name_en %}
+{% else %}
+  {% assign org_name = include.org.name %}
+{% endif %}

@@ -1,0 +1,10 @@
+{% assign parent = include.project %}
+
+<div class="ui left aligned container">
+  <a href="{{ include.url }}" class="ui inverted small header relative">
+    <i class="left arrow icon"></i>
+    返回 {% include p/name.html project=parent return='string' %}
+  </a>
+</div>
+
+{% assign parent = undefined %}

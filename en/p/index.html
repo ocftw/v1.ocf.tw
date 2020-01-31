@@ -2,8 +2,8 @@
 layout: global
 og_title: Projects
 og_description: OCF's ongoing projects
-css: /assets/projects.css
-js: /assets/projects.js
+css: /assets/styles/projects.css
+js: /assets/scripts/projects.js
 lang: en
 
 # 歷年成果檔名與排序
@@ -156,22 +156,7 @@ years:
         <div class="extra content">
         <div class="ui horizontal list">
           {% for link in project.link_en %}
-          <a class="item" href="{{ link.url }}"
-          {% if link.target != '_self' %}
-          target="_blank"
-          {% endif %}>
-
-            {% if link.target != "_self" %}
-            <i class="globe icon"></i>
-            {% endif %}
-
-            {{ link.title }}
-
-            {% if link.target == "_self" %}
-            <i class="right arrow icon"></i>
-            {% endif %}
-
-          </a>
+            {% include _shared/link.html link=link class='item' icon='conditional' %}
           {% endfor %}
         </div>
         </div>

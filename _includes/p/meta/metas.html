@@ -1,0 +1,18 @@
+{% if lang == 'en' %}
+  {% assign project_metas = project.metas_en %}
+{% else %}
+  {% assign project_metas = project.metas %}
+{% endif %}
+
+{% if project_metas %}
+
+{% for item in project_metas %}
+<div class="item">
+  <span class="ui horizontal label">{{ item.label }}</span>
+  <span class="text">{{ item.content }}</span>
+</div>
+{% endfor %}
+
+{% endif %}
+
+{% assign project_metas = undefined %}

@@ -1,0 +1,13 @@
+<div id="events" class="ui divided items">
+
+{% include _var/events.html %}
+
+{% if events %}
+  {% for event in events %}
+    {% if event %}
+      {% include p/events/item.html %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+</div>

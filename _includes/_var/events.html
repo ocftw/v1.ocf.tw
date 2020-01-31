@@ -1,0 +1,59 @@
+{% include _var/p.html %}
+
+<!--
+  set variables:
+  events
+-->
+
+{% if parent_project %}
+  <!-- get events in project scope  -->
+  {% if site.data.p[parent_project_id][project_id].events %}
+    {% assign events = site.data.p[parent_project_id][project_id].events %}
+  {% endif %}
+
+{% elsif project %}
+  <!-- get events in project and children scope -->
+  {% if site.data.p[project_id].events %}
+    {% assign events = site.data.p[project_id].events %}
+  {% endif %}
+  {% for sub_project_folder in site.data.p[project_id] %}
+    {% if sub_project_folder[1].events %}
+      {% if events %}
+        {% assign events = events | concat: sub_project_folder[1].events %}
+      {% else %}
+        {% assign events = sub_project_folder[1].events %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+{% else %}
+  <!-- get events in global scope -->
+  {% for project_folder in site.data.p %}
+    {% assign project_folder_name = project_folder[0] %}
+    {% if project_folder_name != 'project_id' %}
+
+      {% if project_folder[1].events %}
+        {% if events %}
+          {% assign events = events | concat: project_folder[1].events %}
+        {% else %}
+          {% assign events = project_folder[1].events %}
+        {% endif %}
+      {% endif %}
+      {% for sub_project_folder in site.data.p[project_folder_name] %}
+        {% if sub_project_folder[1].events %}
+          {% if events %}
+            {% assign events = events | concat: sub_project_folder[1].events %}
+          {% else %}
+            {% assign events = sub_project_folder[1].events %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+    {% endif %}
+  {% endfor %}
+
+{% endif %}
+
+{% if events %}
+  {% assign events = events | sort: "start" | reverse %}
+{% endif %}

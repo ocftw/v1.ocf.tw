@@ -1,0 +1,92 @@
+name: g0v 雙月定期大黑客松
+name_en: g0v Hackathons
+
+description: g0v 零時政府發源地——固定雙月月底舉辦的 g0v 大黑客松，聚集了工程師、設計師、律師、學者、NGO 工作者、公務員... 一起動手改變世界，現場提供源源不絕的食物，讓大家盡情 hack、eat、hack！
+description_en: The g0v Hackathon has, since 2012, been a bimonthly event, where community members gather for good food and beverages while developing projects. g0v Hackathon is a cross-disciplinary platform for members to exchange ideas that celebrate openness, open source and open action. Hackathon attendees employ a tripartite method, applying their expertise, IT knowledge and crowd collaboration to explore the possibilities of a new solution to a challenge. g0v projects are all open source. Source codes and documents are released under open source licenses. 
+
+abbr: 
+abbr_en: 
+
+tagline: 
+tagline_en: 
+
+og_image: /p/g0vdathon/2018/g0vdathon_og.jpg
+header_image: /p/g0vdathon/2018/g0vdathonbanner.jpg
+avatar_image: 
+theme_color: red
+
+start: 
+end: 
+
+type_ids:
+  - community
+topic_ids:
+  - government
+field_ids:
+  - it
+tags:
+  - 定期活動
+tags_en:
+
+metas:
+metas_en:
+
+links:
+  - title: g0v 社群行事曆
+    url: http://g0v.tw/actinfo.html
+  - title: g0v 揪松團活動列表
+    url: http://g0v-jothon.kktix.cc/
+  - title: g0v 揪松團工作小組討論區
+    url: https://groups.google.com/forum/#!forum/g0v-jothon-staff
+  - title: g0v 大松入口網站
+    url: http://hack.g0v.tw/
+  - title: g0v 大松收支明細
+    url: http://hack.g0v.tw/transaction
+  - title: OCF 捐款徵信資訊
+    url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
+links_en:
+
+actions:
+  - title: 單次贊助
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=23
+    color: green
+    icon: dollar
+  - title: 定期定額成為大松認養人
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=30
+    color: blue
+    icon: dollar
+actions_en:
+  - title: One-off Donation
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=23
+    color: green
+    icon: dollar
+  - title: Monthly Donation
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=30
+    color: blue
+    icon: dollar
+
+advisor_ids:
+organizer_ids:
+  - g0vjothon
+co-organizer_ids:
+implementer_ids:
+sponsor_ids:
+  - rc
+
+coordinator_ids:
+  - ipa
+case-handler_ids:
+co-worker_ids:
+consultant_ids:
+volunteer_ids:
+contributor_ids:
+donors:
+donors_en:
+
+board_ids:
+  - clkao
+staff_ids:
+  - ttcat
+
+reports:
+reports_en:

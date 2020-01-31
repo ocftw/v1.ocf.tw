@@ -1,0 +1,12 @@
+{% assign org_type_settings = site.data.people.settings.orgs[include.org_type] %}
+
+{% if lang == "en" %}
+  {% assign org_type_name = org_type_settings.name_en %}
+{% else %}
+  {% assign org_type_name = org_type_settings.name %}
+{% endif %}
+
+{{ org_type_name }}
+
+{% assign org_type_settings = undefined %}
+{% assign org_type_name = undefined %}
