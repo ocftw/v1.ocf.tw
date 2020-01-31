@@ -8,7 +8,7 @@ items:
   - type: image_header
     anchor: admin
     background_color: teal
-    cover: \p\2018\admin\admin_banner2018_report.png
+    cover: \p\2018\admin\2019成果報告 圖片.png
     cover_image_alt: 
   - type: content
     columns:
