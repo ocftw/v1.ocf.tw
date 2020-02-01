@@ -15,7 +15,7 @@
       <!-- 在 journal 頁註明所屬專案 -->
       {% if page.layout == "global" %}
       {% for pid in item.project_id %}
-      {% assign pdata = site.data.projects[id][pid] %}
+      {% assign pdata = site.data.projects[year][pid] %}
       <p>
         專案：
         <a href="{{ pdata.link.first.url }}">
