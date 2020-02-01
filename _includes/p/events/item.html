@@ -19,17 +19,17 @@
     {% if page.layout == "global" %}
     {% for project_id in event.project_ids %}
       <p>
+        {% include _shared/titles.html type='shared' id='project' %} ⸺ 
+
       {% assign project = site.data.p[project_id].project %}
       {% if lang == 'en' %}
         {% assign project_url = project_id | prepend: '/en/p/' | append: '/' %}
         {% assign project_links = project.links_en %}
         {% assign project_name = project.name_en %}
-        Project: 
       {% else %}
         {% assign project_url = project_id | prepend: '/p/' | append: '/' %}
         {% assign project_links = project.links %}
         {% assign project_name = project.name %}
-        專案：
       {% endif %}
 
       {% assign file = site.static_files | where: "path", project_url | append: ".html" %}

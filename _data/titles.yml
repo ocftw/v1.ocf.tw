@@ -14,6 +14,9 @@ shared:
   updated:
     name: 更新於
     name_en: Updated at
+  project:
+    name: 專案
+    name_en: Project
 
 project:
   events:

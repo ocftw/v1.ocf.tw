@@ -54,6 +54,7 @@ layout: global
 
         {% if event_labels %}
           <h3 class="ui dividing small header">
+            {% include _shared/titles.html type='shared' id='tags' %}
           </h3>
           {% include e/labels.html %}
         {% endif %}
@@ -62,6 +63,7 @@ layout: global
 
         {% if event.start %}
           <h3 class="ui dividing small header">
+          {% include _shared/titles.html type='shared' id='date' %}
           </h3>
           {% include e/startend.html %}
         {% endif %}
@@ -69,6 +71,7 @@ layout: global
         <!-- 相關人員 -->
 
         <h3 class="ui dividing small header">
+          {% include _shared/titles.html type='shared' id='cast' %}
         </h3>
         {% include p/events/people.html %}
         {% if event_metas %}
@@ -82,6 +85,7 @@ layout: global
 
         {% if event_links %}
           <h3 class="ui dividing small header">
+            {% include _shared/titles.html type='shared' id='links' %}
           </h3>
           <div class="ui link list">
             {% for link in event_links %}
