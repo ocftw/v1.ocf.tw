@@ -26,8 +26,12 @@
 
 {% assign event_id = event.id %}
 
+<!-- generate event_url -->
+
 {% if event_id %}
   {% assign event_url = undefined %}
+
+  <!-- check event location in project folder -->
 
   {% if parent_project %}
     {% assign project_events = site.data.p[parent_project_id][project_id].events %}
@@ -42,6 +46,8 @@
       {% break %}
     {% endif %}
   {% endfor %}
+
+  <!-- check event location globally -->
 
   {% if event_url %}
   {% else %}
@@ -76,6 +82,21 @@
         {% break %}
       {% endif %}
     {% endfor %}
+  {% endif %}
+
+  <!-- check if the event page exsits -->
+
+  {% if event_url %}
+    {% assign event_file_url = event_url | append: ".html" %}
+    {% assign file = site.pages | where: "url", event_file_url | first %}
+
+    {% if file %}
+    {% else %}
+      {% assign event_url = undefined %}
+    {% endif %}
+
+    {% assign file = undefined %}
+    {% assign event_file_url = undefined %}
   {% endif %}
 
 {% else %}

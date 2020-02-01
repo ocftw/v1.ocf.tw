@@ -32,11 +32,13 @@
         {% assign project_name = project.name %}
       {% endif %}
 
-      {% assign file = site.static_files | where: "path", project_url | append: ".html" %}
+      {% assign file = site.pages | where: 'url', project_url | first %}
       {% if file %}
       {% else %}
         {% assign project_url = project_links.first.url %}
       {% endif %}
+      {% assign file = undefined %}
+
       <a href="{{ project_url }}">
         {% include p/name.html return="string" project=project %}
       </a>
