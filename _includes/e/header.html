@@ -1,6 +1,6 @@
 <nav id="hero" class="ui inverted {{ project.theme_color }} basic segment marginless">
-  <img class="cover image" src="{{ project_header_image }}" style="opacity: {{ page.project_cover_image_opacity }}" alt="header image for '{{ project_name }}'" />
-  <div class="cover veil" style="opacity: {{ page.project_cover_veil_opacity }}"></div>
+  <img class="background image" src="{{ project_header_image }}" style="opacity: {{ page.project_header_image_opacity }}" alt="header image for '{{ project_name }}'" />
+  <div class="background veil" style="opacity: {{ page.project_header_veil_opacity }}"></div>
 
   {% include _shared/parent.html url=project_url project=project %}
 

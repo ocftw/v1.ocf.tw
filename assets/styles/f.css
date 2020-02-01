@@ -9,7 +9,7 @@
   padding-right: 0;
 }
 
-#freestyle #hero .cover {
+#freestyle #hero .background {
   object-fit: cover;
   object-position: center;
   width: 100%;
@@ -21,11 +21,11 @@
   right: 0;
 }
 
-#freestyle #hero .cover.image {
+#freestyle #hero .background.image {
   opacity: 0.9;
 }
 
-#freestyle #hero .cover.veil {
+#freestyle #hero .background.veil {
   opacity: 0.2;
   background-color: #000;
 }

@@ -9,7 +9,7 @@
   padding-right: 0;
 }
 
-#event #hero .cover {
+#event #hero .background {
   object-fit: cover;
   object-position: center;
   width: 100%;
@@ -21,11 +21,11 @@
   right: 0;
 }
 
-#event #hero .cover.image {
+#event #hero .background.image {
   opacity: 0.9;
 }
 
-#event #hero .cover.veil {
+#event #hero .background.veil {
   opacity: 0.2;
   background-color: #000;
 }
