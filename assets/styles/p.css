@@ -64,11 +64,6 @@
   flex-grow: 1;
 }
 
-#project #meta #links.list .item .icon,
-#project #meta #child.list .item .icon {
-  display: inline-block;
-}
-
 #project iframe {
   width: 100%;
   height: 30rem;
