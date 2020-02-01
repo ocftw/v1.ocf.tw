@@ -31,17 +31,68 @@ layout: global
 
   <h1 class="ui header">
     {{ event_name }}
-    {% if event_subtitles %}
-      {% for subtitle in event_subtitles %}
-        <span class="sub header">{{ subtitle }}</span>
-      {% endfor %}
-    {% endif %}
+    {% include e/subheaders.html %}
   </h1>
   <div class="ui basic secondary segment">
     <p>{{ event_description }}</p>
   </div>
 
   {{ content }}
+
+  <div class="ui hidden divider"></div>
+
+  <div class="ui basic secondary segment">
+    <div class="ui top attached center aligned label">
+      <i class="grey icon info"></i>
+      {{ event_name }}
+    </div>
+
+    <div class="ui two column stackable grid">
+      <div class="column">
+
+        <!-- 活動分類標籤 -->
+
+        {% if event_labels %}
+          <h3 class="ui dividing small header">
+          </h3>
+          {% include e/labels.html %}
+        {% endif %}
+
+        <!-- 活動日期 -->
+
+        {% if event.start %}
+          <h3 class="ui dividing small header">
+          </h3>
+          {% include e/startend.html %}
+        {% endif %}
+
+        <!-- 相關人員 -->
+
+        <h3 class="ui dividing small header">
+        </h3>
+        {% include p/events/people.html %}
+        {% if event_metas %}
+          {% include e/metas.html %}
+        {% endif %}
+
+      </div>
+      <div class="column">
+
+        <!-- 相關連結 -->
+
+        {% if event_links %}
+          <h3 class="ui dividing small header">
+          </h3>
+          <div class="ui link list">
+            {% for link in event_links %}
+              {% include _shared/link.html class='item' link=link icon='conditional' %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
 
   <div class="ui hidden divider"></div>
 

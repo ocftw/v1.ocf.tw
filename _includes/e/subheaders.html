@@ -1,0 +1,8 @@
+{% if event_tagline %}
+  <span class="sub header">{{ event_tagline }}</span>
+{% endif %}
+{% if event_subtitles %}
+  {% for subtitle in event_subtitles %}
+    <span class="sub header">{{ subtitle }}</span>
+  {% endfor %}
+{% endif %}

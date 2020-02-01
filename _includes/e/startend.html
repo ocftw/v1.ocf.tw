@@ -1,0 +1,4 @@
+{{ event.start }}
+{% if event.end and event.start != event.end %}
+~ {{ event.end }}
+{% endif %}

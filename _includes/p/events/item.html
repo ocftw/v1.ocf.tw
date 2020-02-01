@@ -52,36 +52,22 @@
       {% else %}
         {{ event_name }}
       {% endif %}
-    {% if event_tagline %}
-      <span class="sub header">{{ event_tagline }}</span>
-    {% endif %}
-    {% if event_subtitles %}
-      {% for subtitle in event_subtitles %}
-      <span class="sub header">{{ subtitle }}</span>
-      {% endfor %}
-    {% endif %}
+      {% include e/subheaders.html %}
     </h3>
 
     <!-- 活動分類標籤 -->
 
     {% if event_labels %}
-    <div class="meta">
-      <div class="ui horizontal labels">
-        {% for label in event_labels %}
-        <span class="ui label {{ label.color }}">{{ label.title }}</span>
-        {% endfor %}
+      <div class="meta">
+        {% include e/labels.html %}
       </div>
-    </div>
     {% endif %}
-
+      
     <!-- 活動日期 -->
 
     {% if event.start %}
     <div class="meta">
-      {{ event.start }}
-      {% if event.end and event.start != event.end %}
-      ~ {{ event.end }}
-      {% endif %}
+      {% include e/startend.html %}
     </div>
     {% endif %}
 
@@ -92,11 +78,7 @@
     <!-- 其他資訊 -->
 
     {% if event_metas %}
-    {% for meta in event_metas %}
-    <div class="meta">
-      {{ meta }}
-    </div>
-    {% endfor %}
+      {% include e/metas.html %}
     {% endif %}
 
     <!-- 活動簡介 -->
@@ -111,9 +93,7 @@
 
     {% if event_links %}
     <div class="extra">
-      {% for link in event_links %}
-        {% include _shared/link.html link=link icon='conditional' %}
-      {% endfor %}
+      {% include e/links.html %}
     </div>
     {% endif %}
 
