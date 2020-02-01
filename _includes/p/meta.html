@@ -23,11 +23,7 @@
 
 <div class="ui horizontal divider">
   <i class="info circle icon"></i>
-  {% if lang == "en" %}
-    About us
-  {% else %}
-    小檔案
-  {% endif %}
+  {% include _shared/titles.html type='project' id='about' %}
 </div>
 
 {% include p/meta/avatar.html %}

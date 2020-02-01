@@ -7,15 +7,11 @@ layout: global
 {% if lang == 'en' %}
   {% assign project_tagline = project.tagline_en %}
   {% assign project_donors = project.donors_en %}
-  {% assign events_title = 'Events' %}
-  {% assign statement_title = 'Income Statement' %}
   {% assign sponsor_title = site.data.people.settings.orgs.sponsor.name_en %}
   {% assign donor_title = site.data.people.settings.individuals.donor.name_en %}
 {% else %}
   {% assign project_tagline = project.tagline %}
   {% assign project_donors = project.donors %}
-  {% assign events_title = '計畫成果' %}
-  {% assign statement_title = '收支明細' %}
   {% assign sponsor_title = site.data.people.settings.orgs.sponsor.name %}
   {% assign donor_title = site.data.people.settings.individuals.donor.name %}
 {% endif %}
@@ -48,7 +44,7 @@ layout: global
 
       {% if page.show_events %}
       <h2 class="ui dividing header">
-        {{ events_title }}
+        {% include _shared/titles.html type='project' id='events' %}
       </h2>
       {% include p/events.html %}
       {% endif %}
@@ -57,7 +53,7 @@ layout: global
 
       {% if page.gsheet_url contains "http" %}
       <h2 id="payments" class="ui dividing header">
-        {{ statement_title }}
+        {% include _shared/titles.html type='project' id='statement' %}
       </h2>
       <div class="ui basic paddingless segment">
         <iframe src="{{ page.gsheet_url }}"></iframe>

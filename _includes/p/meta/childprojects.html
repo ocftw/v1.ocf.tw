@@ -9,11 +9,7 @@
       {% if has_sub_project == false %}
         <div class="ui horizontal divider">
           <i class="folder open icon"></i>
-          {% if lang == "en" %}
-            Child projects
-          {% else %}
-            子專案
-          {% endif %}
+          {% include _shared/titles.html type='project' id='child' %}
         </div>
         <div id="child" class="ui link list">
         {% assign has_sub_project = true %}

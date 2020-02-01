@@ -1,16 +1,14 @@
 {% if lang == 'en' %}
   {% assign project_actions = project.actions_en %}
-  {% assign project_actions_title = 'Join Us' %}
 {% else %}
   {% assign project_actions = project.actions %}
-  {% assign project_actions_title = '加入我們' %}
 {% endif %}
 
 {% if project_actions %}
 
 <div class="ui horizontal divider">
   <i class="heart icon"></i>
-  {{ project_actions_title }}
+  {% include _shared/titles.html type='project' id='join' %}
 </div>
 
 {% for action in project_actions %}

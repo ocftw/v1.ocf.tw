@@ -1,11 +1,5 @@
 {% assign progress = page.progress %}
 
-{% if lang == 'en' %}
-  {% assign progress_update_text = 'updated at' %}
-{% else %}
-  {% assign progress_update_text = '更新於' %}
-{% endif %}
-
 {% if progress.percent %}
 <div id="crm_cpid_{{ page.cpid }}_amt_fill" class="ui indicating progress active" data-percent="{{ progress.percent }}">
   <div class="bar" style="width: {{ progress.percent }}%;">
@@ -16,7 +10,7 @@
 
 {% if progress.updated %}
 <p class="center aligned" style="font-weight: normal; opacity: 0.5; margin-top: -2em;">
-  {{ progress_update_text }}
+  {% include _shared/titles.html type='shared' id='updated' %}
   <span id="progress_updated">
   {{ progress.updated }}
   </span>

@@ -1,20 +1,10 @@
 {% assign progress = page.progress %}
 
-{% if lang == 'en' %}
-  {% assign raising_duration_text = 'Duration' %}
-  {% assign raising_goal_text = 'Goal' %}
-  {% assign raising_current_text = 'Raised' %}
-  {% assign raising_count_text = 'Donors' %}
-{% else %}
-  {% assign raising_duration_text = '募款期間' %}
-  {% assign raising_goal_text = '募款目標' %}
-  {% assign raising_current_text = '已募得' %}
-  {% assign raising_count_text = '支持者' %}
-{% endif %}
-
 {% if progress.duration %}
 <div class="item">
-  <span class="ui horizontal label">{{ raising_duration_text }}</span>
+  <span class="ui horizontal label">
+  {% include _shared/titles.html type='project' id='raising_duration' %}
+  </span>
   <span class="text">
     {{ progress.duration }}
   </span>
@@ -23,7 +13,9 @@
 
 {% if progress.goal %}
 <div class="item">
-  <span class="ui horizontal label">{{ raising_goal_text }}</span>
+  <span class="ui horizontal label">
+  {% include _shared/titles.html type='project' id='raising_goal' %}
+  </span>
   <span id="crm_cpid_{{ page.cpid }}_amt_hi" class="text">
     {{ progress.goal }}
   </span>
@@ -32,7 +24,9 @@
 
 {% if progress.current %}
 <div class="item">
-  <span class="ui horizontal label">{{ raising_current_text }}</span>
+  <span class="ui horizontal label">
+  {% include _shared/titles.html type='project' id='raising_current' %}
+  </span>
   <span id="crm_cpid_{{ page.cpid }}_amt_raised" class="text">
     {{ progress.current }}
   </span>
@@ -41,7 +35,9 @@
 
 {% if progress.count %}
 <div class="item">
-  <span class="ui horizontal label">{{ raising_count_text }}</span>
+  <span class="ui horizontal label">
+  {% include _shared/titles.html type='project' id='raising_count' %}
+  </span>
   <span class="text">
     <span id="crm_cpid_{{ page.cpid }}_donors">
     {{ progress.count }}

@@ -1,0 +1,9 @@
+{% assign settings = site.data.titles[include.type][include.id] %}
+
+{% if lang == "en" %}
+  {{ settings.name_en }}
+{% else %}
+  {{ settings.name }}
+{% endif %}
+
+{% assign settings = undefined %}

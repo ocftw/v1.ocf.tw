@@ -1,0 +1,45 @@
+shared:
+  tags:
+    name: 分類標籤
+    name_en: Tags
+  date:
+    name: 日期
+    name_en: Date
+  cast:
+    name: 組織與人員
+    name_en: Cast
+  links:
+    name: 相關連結
+    name_en: Links
+  updated:
+    name: 更新於
+    name_en: Updated at
+
+project:
+  events:
+    name: 相關活動
+    name_en: Events
+  statement:
+    name: 收支明細
+    name_en: Income Statement
+  join:
+    name: 加入我們
+    name_en: Join Us
+  about:
+    name: 小檔案
+    name_en: About us
+  raising_duration:
+    name: 募款期間
+    name_en: Duration
+  raising_goal:
+    name: 募款目標
+    name_en: Goal
+  raising_current:
+    name: 已募得
+    name_en: Raised
+  raising_count:
+    name: 支持者
+    name_en: Donors
+  child:
+    name: 子專案
+    name_en: Child projects
