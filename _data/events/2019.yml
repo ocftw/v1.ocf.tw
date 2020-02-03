@@ -349,17 +349,17 @@
   banner: 
   avatar: 
 0608FtOMeetandHack:
-  title: "國際出訪：Facing the Ocean Meet and Hack面海黑客松"
-  description: "國際出訪：FtO Meet and Hack為台灣公民科技社群首次參與主辦的跨國黑客松活動，由台灣、日本、南韓及香港的公民科技團體於沖繩市府之新創空間舉行，專案提案包括環境、弱勢權益、人權等。"
+  title: "國際出訪：Facing the Ocean Meet and Hack 面海黑客松 (沖繩)"
+  description: "Facing the Ocea (FtO) Meet and Hack 為台灣 + 日本 + 南韓三地公民科技社群主辦的跨國黑客松活動，首次辦理於日本沖繩市府之新創空間舉行，聚集三地各領域人員一同提案、一同開發專案，提案範圍包括環境、弱勢權益、人權等。"
   month: "6"
   start: 6/8
   end: 6/9
   link:
-    - title: HackMD
-      url: https://g0v.hackmd.io/sKoAWScPRxqizCZVMl7JoQ
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1aHUddYAEcJvFFYKNPNDyBDpDG07TXr6CNROR5lER6K0/edit#
   cover: /p/2019/intl/FtOMeetandHack.jpeg
   contributor_id:
-    - howie
+    - lulukeng
   project_id:
     - intl
   label: 
