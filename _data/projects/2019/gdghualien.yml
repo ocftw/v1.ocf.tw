@@ -22,6 +22,7 @@ field_id:
 advisor_id:
 organizer_id:
   - gdghualien
+  - wtm
 co-organizer_id:
   - ocf
 implementer_id:
