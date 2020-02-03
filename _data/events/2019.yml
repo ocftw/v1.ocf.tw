@@ -307,6 +307,7 @@
   cover: /p/2019/intl/2019 TICTeC&IFF分享會.jpg
   contributor_id:
     - lulukeng
+    - aiya
   project_id:
     - intl
   label: 
@@ -328,7 +329,9 @@
   end: 5/31
   link:
     - title: 會議官網
-      url: https://ogpsummit.org/en/
+      url: https://www.opengovpartnership.org/events/ogp-global-summit-2019-ottawa-canada/
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1oi8N-aJ2g55YFTF1YQmnQE28h0coV9CbV-x2o5y2fzw/edit
   cover: /p/2019/intl/2019ogpsummit.jpg
   contributor_id:
     - lulukeng
