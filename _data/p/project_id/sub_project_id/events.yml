@@ -20,15 +20,15 @@
   # 英文版網頁用
     - text
 
-  cover_image: # url （建議填）
+  cover_image: /p/project_id/cover.png
   # 活動的封面圖片，若有，會顯示在專案頁的「計畫成果」列表、活動頁
   # 選用長寬比接近 facebook og image 的圖片（1200 x 630）
-  banner_image: # url
+  banner_image: /p/project_id/banner.png
   # 活動的海報圖片，若有，會顯示在活動頁，或當作備用圖片，必要時顯示在專案頁
   # 選用長寬比接近 x 展架的圖片（1600 x 1350）
-  theme_color: olive
+  theme_color: 
   # theme_color: text
-  # 專案頁與所屬活動頁的布景顏色，若留空，則會採用黑色
+  # 專案頁與所屬活動頁的布景顏色，若留空，則會採用白色
   # 填入 semantic ui inverted segment 的顏色 class name 如 teal / pink / blue / green / red ... 等
   # semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
 
