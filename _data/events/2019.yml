@@ -121,7 +121,7 @@
     - title: 活動紀錄官網
       url: https://tictec.mysociety.org/2019
     - title: 出訪報告
-      url: https://docs.google.com/document/u/1/d/1JdO1Jw3wV8GOLuMMjWIF5h28B_4WTO5JX-B9rt14IHE/mobilebasic?fbclid=IwAR1eWc71G7yLrZFmxT4IGRQOBYXSSUOjp70I7_enoyBpTySHmDc-GdvGJ00#heading=h.22alvjh5aech
+      url: https://docs.google.com/document/d/1KkDRF9P4l2C7o_5HFHkefagVoABHM4TjSSUTZkWjDCQ/edit#heading=h.86pbshub2q2z
   cover: /p/2019/intl/2019 TICTeC.png
   contributor_id:
     - aiya
@@ -171,11 +171,12 @@
     - title: 官方網站
       url: https://internetfreedomfestival.org/
     - title: 出訪報告
-      url: https://docs.google.com/document/d/1AEWozvYGMxPx0bRbwSas19jHxGaMt-3ySrhGRwZy_ac/edit
+      url: https://docs.google.com/document/d/1a5WC6RlKSTS-wpgb6l56nFCXpl58E6hdSEPMJysSoQQ/edit
   cover: /p/2019/intl/internet-freedom-festival-logo.png
   contributor_id:
     - pellaeon
     - lulukeng
+    - aiya
   project_id:
     - intl
   label: 
@@ -306,6 +307,7 @@
   cover: /p/2019/intl/2019 TICTeC&IFF分享會.jpg
   contributor_id:
     - lulukeng
+    - aiya
   project_id:
     - intl
   label: 
@@ -327,7 +329,9 @@
   end: 5/31
   link:
     - title: 會議官網
-      url: https://ogpsummit.org/en/
+      url: https://www.opengovpartnership.org/events/ogp-global-summit-2019-ottawa-canada/
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1oi8N-aJ2g55YFTF1YQmnQE28h0coV9CbV-x2o5y2fzw/edit
   cover: /p/2019/intl/2019ogpsummit.jpg
   contributor_id:
     - lulukeng
@@ -345,17 +349,17 @@
   banner: 
   avatar: 
 0608FtOMeetandHack:
-  title: "國際出訪：Facing the Ocean Meet and Hack面海黑客松"
-  description: "國際出訪：FtO Meet and Hack為台灣公民科技社群首次參與主辦的跨國黑客松活動，由台灣、日本、南韓及香港的公民科技團體於沖繩市府之新創空間舉行，專案提案包括環境、弱勢權益、人權等。"
+  title: "國際出訪：Facing the Ocean Meet and Hack 面海黑客松 (沖繩)"
+  description: "Facing the Ocea (FtO) Meet and Hack 為台灣 + 日本 + 南韓三地公民科技社群主辦的跨國黑客松活動，首次辦理於日本沖繩市府之新創空間舉行，聚集三地各領域人員一同提案、一同開發專案，提案範圍包括環境、弱勢權益、人權等。"
   month: "6"
   start: 6/8
   end: 6/9
   link:
-    - title: HackMD
-      url: https://g0v.hackmd.io/sKoAWScPRxqizCZVMl7JoQ
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1aHUddYAEcJvFFYKNPNDyBDpDG07TXr6CNROR5lER6K0/edit#
   cover: /p/2019/intl/FtOMeetandHack.jpeg
   contributor_id:
-    - howie
+    - lulukeng
   project_id:
     - intl
   label: 
@@ -404,7 +408,7 @@
     - title: 官方網站
       url: https://www.rightscon.org/
     - title: 出訪紀錄
-      url: https://drive.google.com/open?id=11gE-oYY_UVfPfWqv-vkL0eVaGG0p575r
+      url: https://docs.google.com/document/d/1ojKKMW1hKmUgadBUP3JiaGuSRSF6Ton3XkkP1-w245Q/edit
   cover: /p/2019/intl/RC2019Tunis.jpg
   contributor_id:
     - yhchang
