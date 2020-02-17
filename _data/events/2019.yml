@@ -1,5 +1,6 @@
 # 警告！編輯此檔案請同步編輯 Google 試算表： https://docs.google.com/spreadsheets/d/1Jkf1VyZrzbmyWvz5LRh7HI07uchdikIHVSM-1vxb9-Q/edit
-# 否則你的修改將會被蓋掉！0216pycourse:
+# 否則你的修改將會被蓋掉！
+0216pycourse:
   title: "【高雄 Python 學院】 用Python建構股票分析系統(寒假班)        "
   description: "本課程著重在思考，主要的目標是要引導學員對投資理財做自發性的思考，並讓學員於課程後擁有一個簡單的股票分析系統。
 課程首先會講解股票分析系統的架構，之後我們會說明如何訂定策略及藉由回測來判斷策略的好壞，希望藉由循序漸進的引導，最後可以讓學員建構出自己的股票分析系統。"
@@ -110,33 +111,6 @@
   speaker_id: 
   banner: 
   avatar: 
-0316admin:
-  title: "OCF 2019 常常酒酒聚 ft. PyCon Taiwan 志工回娘家"
-  description: "在 2018 年，我們支援 20 多個開源社群自主籌備活動、協辦 6 場大型活動、促成台灣 CC 與全球 CC 社群接軌、與 35 國的各個組織交流、帶領了 6 個多達 20 位社群朋友參與的出訪交流團、g0v.news 的營運... 等等，還有更多 OCF 在開放文化上的耕耘與努力的故事將在聚會上分享。PyCon Taiwan 的籌備團隊這次也和 OCF 一起，邀請曾經參與過籌備的志工朋友們，在這個春暖花開的時節回來聚聚。"
-  month: "3"
-  start: 3/16
-  end: 3/16
-  link:
-    - title: FB活動頁
-      url: https://www.facebook.com/events/309250896445205/
-    - title: 報名頁面
-      url: https://ocftw.kktix.cc/events/ocf-spring-2019?fbclid=IwAR3RI3tqO66KQG_jM7TwzURgIihBG39qvAGkV2tO3eQb5UaSBNP3ZnKPbP8
-  cover: \p\2019\admin\2019 spring party.png
-  contributor_id:
-    - 
-  project_id:
-    - admin
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
 0319tictec:
   title: "國際出訪：2019 TICTeC 公民科技動能推升研討會"
   description: "TICTeC 為一年一度關注開放資料及公民科技影響力的國際研討會，致力於探討公民科技在不同社會環境與政治脈絡下的影響力，是串連世界各國公民科技社群的重要網絡。今年會議台灣的參與者，則有 g0v 參與者 Isabel, ttcat 和開放文化基金會工作人員 Aiya。三人的參與，主要為了加強國際連結，讓國際社群看到 g0v --亞洲最大的公民科技社群在這波浪潮持續進行。"
@@ -202,38 +176,9 @@
   contributor_id:
     - pellaeon
     - lulukeng
+    - aiya
   project_id:
     - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0415admin:
-  title: "開源教 - 教我正確選擇軟體授權"
-  description: "GPL, AGPL, LGPL, MIT, BSD... 各種複雜的軟體授權條款，是大部分人在利用開源的軟體套件的時候會遇到的棘手問題。到底用了哪些授權方式的軟體、套件，或是用了開源的資料庫，會如何影響到我本來想要選擇的授權方式呢？我又應該要選擇哪一種授權方式，才能符合我心中希望這軟體被流通應用的方式？
-
-「開源教教我正確選擇軟體授權」第一堂課程，特地請到長年研究開源科技法律授權的林誠夏法制顧問，深入淺出介紹各種開源授權方式，並透過實例的操作，分析已經用了很多套件的開源軟體，如何選擇合適的授權。絕對保證能夠幫各位從頭根治到腳，通體舒暢從此不再煩惱授權！千萬不要錯過這次的分享！"
-  month: "4"
-  start: 4/15
-  end: 4/15
-  link:
-    - title: 錄影
-      url: https://youtu.be/raHdvb8y_-Q
-    - title: 筆記/簡報
-      url: https://hackmd.io/s/rk-sbm42z
-  cover: /p/2019/openists/openists20190415.png
-  contributor_id:
-    - singing
-    - rock
-  project_id:
-    - admin
   label: 
   organizer_id: 
   advisor_id: 
@@ -362,6 +307,7 @@
   cover: /p/2019/intl/2019 TICTeC&IFF分享會.jpg
   contributor_id:
     - lulukeng
+    - aiya
   project_id:
     - intl
   label: 
@@ -403,21 +349,19 @@
   banner: 
   avatar: 
 0608FtOMeetandHack:
-  title: "國際出訪：Facing the Ocean Meet and Hack 面海黑客松  (沖繩)"
-  description: "國際出訪：FtO Meet and Hack為台灣+日本+南韓三地公民科技社群主辦的跨國黑客松活動，首次辦理於日本沖繩市府之新創空間舉行，聚集三地各領域人員一同提案、一同開發專案，提案範圍包括環境、弱勢權益、人權等。"
+  title: "國際出訪：Facing the Ocean Meet and Hack 面海黑客松 (沖繩)"
+  description: "Facing the Ocea (FtO) Meet and Hack 為台灣 + 日本 + 南韓三地公民科技社群主辦的跨國黑客松活動，首次辦理於日本沖繩市府之新創空間舉行，聚集三地各領域人員一同提案、一同開發專案，提案範圍包括環境、弱勢權益、人權等。"
   month: "6"
   start: 6/8
   end: 6/9
   link:
-    - title: HackMD
-      url: https://g0v.hackmd.io/sKoAWScPRxqizCZVMl7JoQ
     - title: 出訪紀錄
       url: https://docs.google.com/document/d/1aHUddYAEcJvFFYKNPNDyBDpDG07TXr6CNROR5lER6K0/edit#
   cover: /p/2019/intl/FtOMeetandHack.jpeg
   contributor_id:
-    - Howie
+    - lulukeng
   project_id:
-    - 
+    - intl
   label: 
   organizer_id: 
   advisor_id: 
@@ -465,7 +409,7 @@
       url: https://www.rightscon.org/
     - title: 出訪紀錄
       url: https://docs.google.com/document/d/1ojKKMW1hKmUgadBUP3JiaGuSRSF6Ton3XkkP1-w245Q/edit
-  cover: \p\2019\intl\RC2019Tunis.jpg
+  cover: /p/2019/intl/RC2019Tunis.jpg
   contributor_id:
     - yhchang
     - pellaeon
@@ -496,84 +440,6 @@
   cover: /p/2019/intl/HKOSCon0614.png
   contributor_id:
     - singing
-  project_id:
-    - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0624openists:
-  title: "開源教 - 教我玩轉桌面 GITHUB"
-  description: "身處在 3C（C 是 Computers：手機、平板、電腦）時代，不可能再只用紙張和文件夾來管理檔案，而管理大量的檔案，就會需要用到版本控制的概念。傳統的版本控制是把檔案名稱用 ooo_v1、ooo_v2 或是其他改檔名的方式，來區隔出不同時期所編輯的版本，管理起來不方便，且容易弄錯。
-GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使用的工具，他可以透過圖形化介面的操作，輕輕鬆鬆用版本控制的概念，和其他協作者一起管理 GitHub 上的專案，或是你電腦裡的檔案。如果你還弄不清楚 pull request、commit、conflict 是什麼，那這堂課就非常適合你來哦！"
-  month: "6"
-  start: 6/24
-  end: 
-  link:
-    - title: 錄影
-      url: https://youtu.be/skhzt66nrNc
-    - title: 簡報
-      url: https://drive.google.com/open?id=1-1PV87hKHnSSDDAJ9sRBwSXT9ooSZgxA
-  cover: /p/2019/openists/openists20190624.png
-  contributor_id:
-    - rock
-  project_id:
-    - admin
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0703OGPsummit:
-  title: "2019 開放政府全球峰會 OGP summit"
-  description: "從開放資料打貪出發，加入透明、課責、公民參與特質的「開放政府」相關方案，成為全球許多國家，從政府到民間，殷殷期盼的社會進步優良解方。而 1~2年舉辦一次的全球大會，更是成為各國政府火力展示成果、各國民間團體審視批判的大會師。然而各國到底關注什麼? 各方是各說各話還是持續對話進展? 也成為每年參與者關注焦點。"
-  month: "7"
-  start: 7/3
-  end: 7/10
-  link:
-    - title: 活動報名頁
-      url: https://ocftw.kktix.cc/events/tw2019ogpsummit
-  cover: 
-  contributor_id:
-    - 
-  project_id:
-    - 
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0722rightscon:
-  title: "前進突尼西亞 RightsCon - 數位人權大會回國分享會"
-  description: "每年在 RightsCon 數位人權大會中，都可以看到台灣參與者的身影，活躍地參加會議、議程、擔任講者，今年更是有超過 10 個台灣人參與，可謂「軟實力爆棚」。Rightscon 會議多軌同時進行，主題涵蓋極為廣泛，沒有人是可以全部聽完的。因此這次分享會將會有超過五位參與者各自分享不同主題，從數位人權、隱私、不實資訊、網路監管、人工智慧等各種議題，說好說滿。"
-  month: "7"
-  start: 7/22
-  end: 7/22
-  link:
-    - title: 活動報名頁
-      url: https://ocftw.kktix.cc/events/2019rightscontaiwan
-  cover: 
-  contributor_id:
-    - 
   project_id:
     - intl
   label: 
@@ -642,143 +508,6 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   speaker_id: 
   banner: 
   avatar: 
-0817COSCUP:
-  title: "COSCUP 2019"
-  description: "開源人年會 COSCUP 已經邁入第十四年了，今年的活動有些特別，除了延續去年首次嘗試的社群議程外，今年的時間地點則於 8/17-18 在台灣科技大學國際大樓舉辦。過去，COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，今年除了有在地社群成為議程的協力夥伴外，更加入了國際社群們，希望能打造更多元的主題和議程。無論你是寫 open source 軟體的開發者、熱衷 open source 軟體的推廣者、熟悉 open source 軟體的使用者或是想了解 open source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP 2019！"
-  month: "8"
-  start: 8/17
-  end: 8/18
-  link:
-    - title: 活動網頁
-      url: https://coscup.org/2019/
-  cover: \p\2019\COSCUP\COSCUP-2019.png
-  contributor_id:
-    - rosa
-  project_id:
-    - coscup
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0821openists:
-  title: "開源教 - 教我認清著作權＋快樂使用網路資源"
-  description: "網路世界是一個巨大的資源寶庫，卻也暗藏各種侵權地雷，如果不了解著作權的基本概念，隨時有可能踩線卻不自知。其實只要學會「探路」的訣竅，就能快樂使用網路資源，善用開源的資源實現各種創意！
-內容會包括：著作權基本概念介紹、中國有嘻哈「徐真真《當妮走了》」音樂採樣 vs 抄襲事件、網路世界最常發生的著作權侵權誤區、創意 remix 竟然也有商標權人找上門？、開源授權停看聽"
-  month: "8"
-  start: 8/21
-  end: 
-  link:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/openist-ipandcc
-  cover: /p/2019/openists/openists20190821.png
-  contributor_id:
-    - rock
-  project_id:
-    - admin
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0824 資安講座:
-  title: "網路公民必須學會的資安防護"
-  description: "數位科技是鼓勵群眾參加活動的有利武器，但同時也將參加者暴露在政府的監控下。極權高科技監控時代，參加者越需要在彼此間串連時保護自己 。例如，香港近期的社會運動中，政府利用數位足跡找出參加者的真實身分，而為了避免政府的監控，香港社運人士揚棄較為開放的 Facebook 與 Twitter，轉向使用隱密的加密即時通訊軟體。這些平台讓參加者可以用較為安全的方式散播活動的資訊和策略，掌握物資的流動，讓參加者免於受監控之恐懼。
-當網路成為人們獲取資訊、參與公共事務的管道，參加者如何避免在網路監控時代下留下電子足跡？要如何兼顧資訊安全，並確保參與公民的自由與人權呢？讓您不能不知的資訊安全 ABC 一次就上手！
-【時間】2019/8/24 (週六) 14:30-17:30  
-【主講】王保羅（媒體工作者，常駐香港）
-                 秉宇 / PCC（CSCS 資安講師）
-【地點】創咖啡 Trust Cafe
-"
-  month: "8"
-  start: 8/24
-  end: 8/24
-  link:
-    - title: FB活動頁 
-      url: https://www.facebook.com/events/2438418669711037/
-    - title: 報名連結
-      url: https://forms.gle/8ve26T1NevX6kyJS9
-  cover: \p\2019\intl\青平台824講座宣傳圖1.png
-  contributor_id:
-    - Aiya
-  project_id:
-    - cscs
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0829cscstot:
-  title: "NGO 資安種子講師訓練"
-  description: "台灣擁有在國際間相當知名的開源社群，亦有著極為活躍的公民社會。為了促進這兩個社群之間的交流，開放文化基金會國際交流組與華人民主書院、台灣駭客協會、台灣人權促進會共四個組織共同開啟 「CSCS 專案：Civil Society Cyber Shield」，讓社會運動與組織者能夠接觸最新的資安工具、對抗資安威脅，在安全的線上環境中推動社會議題。2019 年， CSCS 希望招募新一批志工資安講師，持續進行資訊安全、隱私權的推廣及教學工作。"
-  month: "8"
-  start: 8/29
-  end: 9/1
-  link:
-    - title: 活動資訊及報名
-      url: https://ocftw.kktix.cc/events/cscs2019tot
-  cover: /p/2019/intl/CSCS-kktix.png
-  contributor_id:
-    - bryce
-  project_id:
-    - cscs
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-0916opensource:
-  title: "2019 開源科技訓練營"
-  description: "由開放文化基金會和軟體自由協會合作，結合過去多年經驗，規劃10天兩軌開源訊練課程，包括「初心者課程」手把手從頭來、「開源人課程」進階學習也了解社群經營，還有兩軌迷你黑客松直接嘗試運用所學開啟專案。希望不論是新手想要習得運用開源、開放的數位工具技能，或是技術人想要支援更多社群應用的可能，都能在課程裡找到起頭的方式。"
-  month: "9"
-  start: 9/16
-  end: 9/26
-  link:
-    - title: 活動資訊及報名
-      url: https://ocftw.kktix.cc/events/2019openbootcamp
-  cover: /p/2019/intl/2019 開源科技訓練營.png
-
-  contributor_id:
-    - lulukeng
-    - singing
-    - rock
-  project_id:
-    - intl
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
 1004JCConf:
   title: "JCConf 2019"
   description: "JCConf Taiwan (Java Community Conference Taiwan) 是由社群成員發起的 Java 程式語言及相關領域研討會，由 TWJUG (Taiwan Java User Group) 主辦，Scala Taiwan 和 科斯高 協辦。宗旨在提供台灣的 Java 開發者有更多參與社群以及交流技術的機會，目標與會對象主要為使用 Java 語言及 JVM 相關技術的程式開發者和相關從業人員。"
@@ -790,7 +519,7 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
       url: https://jcconf.tw/2019/
     - title: 報名頁
       url: https://twjug.kktix.cc/events/jcconf-2019
-  cover: \p\2019\JCConf\JCConf2019.png
+  cover: /p/2019/JCConf/JCConf2019.png
   contributor_id:
     - rosa
   project_id:
@@ -819,39 +548,9 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   link:
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/e0c1048b
-    - title: 簡報
-      url: https://drive.google.com/file/d/1LrLgnygIKbLwFhErQG5lTKbubuMyaB9X/view?fbclid=IwAR2QEK__NF-IA296qpM1D9uE19pHJvzIsCI2jcYfHuGSg4jv3_SsvikJrCc
   cover: /p/2019/intl/數位時代，自己的權利自己顧！.png
   contributor_id:
-    - Aiya
-  project_id:
-    - cscs
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
-1021coconet2019:
-  title: "國際出訪：CocoNet 東南亞數位人權營隊"
-  description: "東南亞是全球上網人口快速成長的重點區域之一，然而網路使用的衍生問題，也是東南亞各方十分關注的議題，COCONET (Connecting Communities and Networks)，以串聯社群和網絡為出發點的 COCONET，其副標語為：Southeast Asia Digital Rights Camp，也是在東南亞區域少見以數位權利為主題的跨區域會議。COCONET 的主要主辦單位為菲律賓知名獨立媒體 Engagemedia，以及關注於數位權利的 APC (Association for Progressive Communications) 組織與在東南亞推動媒體自由與人權的組織 SEAPA。值得一提的是，Engagemedia 不只是媒體，更是將數位科技應用在媒體報導、議題分析、社會倡議等各方面的先驅。
-"
-  month: "10"
-  start: 10/21
-  end: 10/25
-  link:
-    - title: 官方資訊
-      url: https://www.engagemedia.org/Projects/camp-coconet
-    - title: 出訪紀錄
-      url: https://docs.google.com/document/d/1GH82H2ETaZC3IgVVpZByuMYebqXpoVgRDYMkjOz1gqY/edit
-  cover: /p/2019/intl/2019 CocoNet.jpg
-  contributor_id:
-    - bryce
+    - aiya
   project_id:
     - intl
   label: 
@@ -878,14 +577,14 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   link:
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/tor2019twsharing
-    - title: 影片
+    - title: 活動錄影
       url: https://www.youtube.com/watch?v=Xx7t3aqHuV0&feature=youtu.be
-  cover: 
+  cover: /p/2019/intl/Tor KKtix in EN.png
   contributor_id:
     - pellaeon
     - lulukeng
   project_id:
-    - cscs
+    - intl
   label: 
   organizer_id: 
   advisor_id: 
@@ -898,15 +597,14 @@ GitHub Desktop 是一套專門給初學者、或是非程式專業的人們使�
   banner: 
   avatar: 
 1116gdghldf:
-  title: "GDG Hualien DevFest 2019 
-"
+  title: "GDG Hualien DevFest 2019"
   description: "此次活動我們將邀請GDE、各類型開發者擔任講師與座談人：
-ML GDE/交大 AI 學院, 魏澤人副教授
-GDG Hualien, Bob Lee
-App Girls, 雅方
-GDG Taoyuan, Takuma Lee
-WTM/GDG Hualien, 笑笑
-Assistant GDE/Voice app studio, 林建宏 (Wolke Lin)
+ML GDE/交大 AI 學院, 魏澤人副教授、
+GDG Hualien, Bob Lee、
+App Girls, 雅方、
+GDG Taoyuan, Takuma Lee、
+WTM/GDG Hualien, 笑笑、
+Assistant GDE/Voice app studio, 林建宏 (Wolke Lin)、
 JetBrains Developer Advocate, 范聖佑 (Shengyou Fan)
 
 活動當天的工作坊講師會帶各位實際操作，請大家攜帶筆記型電腦。"
@@ -915,15 +613,13 @@ JetBrains Developer Advocate, 范聖佑 (Shengyou Fan)
   end: 
   link:
     - title: 活動官網
-      url: https://gdg-hualien.site/
+      url: https://gdg-hualien.site
     - title: 報名頁
       url: https://gdghualien.kktix.cc/events/devfest2019
   cover: /p/2019/gdghualien/event.png
   contributor_id:
-    - 
   project_id:
     - gdghualien
-
   label: 
   organizer_id: GDG Hualien, WTM
   advisor_id: 
@@ -936,20 +632,18 @@ JetBrains Developer Advocate, 范聖佑 (Shengyou Fan)
   banner: 
   avatar: 
 1127coconet:
-  title: "COCONET 回國分享會"
-  description: "當人權不彰的東南亞國家，遇上網路科技的蓬勃，結果會是什麼？ COCONET作為東南亞知名的數位權利營隊，聚集了一百二十個來自東南亞、南亞和台灣的行動者，從他們的眼睛，找出科技組織人權運動的可能，也攤開亞洲「數位人權」的災情。除了假新聞、斷網、數位監控，COCONET 的行動者也從性別、人權、種族屠殺、中國因素等議題，彼此交換情報，學習各國運動的成功與失敗經驗。現場也有科技專家，傳授運用無人機、影音紀錄、開源工具等，讓人權運動者更安全、更專業的透過網路取得支援。 11 月 27 日，台灣參與者將分享從五天的營隊中，看見的東南亞，以及台灣能夠扮演的角色。
-"
-  month: "11"
+  title: COCONET 回國分享會 
+  description: COCONET 聚集 120 個來自東南亞的行動者與科技專家共同討論亞洲「數位人權」的災情、交換關於假新聞、斷網、數位監控等情報，從各國運動成功與失敗的經驗中學習如何讓人權運動者更安全、更專業的透過網路取得支援。
+  month: 11
   start: 11/27
-  end: 11/27
+  end: 
   link:
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/tw2019coconet-sharing
-  cover: p/2019/intl/2019_coconet_share.png
-  contributor_id:
-    - lulukeng
+  cover: /p/2019/intl/2019_coconet_share.png
+  contributor_id: lulukeng
   project_id:
-    - 
+    - intl
   label: 
   organizer_id: 
   advisor_id: 
@@ -962,27 +656,22 @@ JetBrains Developer Advocate, 范聖佑 (Shengyou Fan)
   banner: 
   avatar: 
 1228wordcamp:
-  title: "WordCamp Taipei 2019 
-"
-  description: "WordCamp 是由各地區用戶發起的非正式大會，討論 WordPress 這個打造全球超過 7500 萬個網站、自由開源的部落格軟體與之相關的話題。2006 年 Matt Mullenweg 在美國舊金山舉行了第一屆 WordCamp，從那時起，WordPress 社群已發起累計 1005 場 WordCamp，地點遍及 6 大洲、65 個國家與 74 個城市。
-"
-  month: "12"
-  start: 12/28
+  title: WordCamp Taipei 2019 
+  description: WordCamp 是由各地區用戶發起的非正式大會，討論 WordPress 這個打造全球超過 7500 萬個網站、自由開源的部落格軟體與之相關的話題。2006 年 Matt Mullenweg 在美國舊金山舉行了第一屆 WordCamp，從那時起，WordPress 社群已發起累計 1005 場 WordCamp，地點遍及 6 大洲、65 個國家與 74 個城市。
+  month: 12
+  start: 12/18
   end: 
   link:
     - title: 活動官網
       url: https://2019.taipei.wordcamp.org/
     - title: 報名購票
-
       url: https://2019.taipei.wordcamp.org/tickets/
   cover: /p/2019/wordcamp/WCTPE2019-Key-Visual.png.png
   contributor_id:
-    - rosa
   project_id:
     - wordcamp
-
   label: 
-  organizer_id: 
+  organizer_id: wordcamp
   advisor_id: 
   co-organizer_id: 
   implementer_id: 
