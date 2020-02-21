@@ -1,29 +1,2 @@
 # 警告！編輯此檔案請同步編輯 Google 試算表： https://docs.google.com/spreadsheets/d/1Jkf1VyZrzbmyWvz5LRh7HI07uchdikIHVSM-1vxb9-Q/edit
 # 否則你的修改將會被蓋掉！
-
-0216pycourse:
-  title: "【高雄 Python 學院】 用Python建構股票分析系統(寒假班)        "
-  description: "本課程著重在思考，主要的目標是要引導學員對投資理財做自發性的思考，並讓學員於課程後擁有一個簡單的股票分析系統。
-課程首先會講解股票分析系統的架構，之後我們會說明如何訂定策略及藉由回測來判斷策略的好壞，希望藉由循序漸進的引導，最後可以讓學員建構出自己的股票分析系統。"
-  month: "2"
-  start: 2/16
-  end: 2/16
-  link:
-    - title: 活動資訊及報名
-      url: https://pycourse.kktix.cc/events/kaohsiungpy20190216
-  cover: /p/2018/pycourse/pycourse-Kaohsiung%20.png
-  contributor_id:
-    - rock
-  project_id:
-    - pycourse
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
