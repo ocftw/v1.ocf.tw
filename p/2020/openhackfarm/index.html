@@ -1,0 +1,249 @@
+---
+layout: project
+# 要套用哪種版型，凡是專案頁都套用 project 版型，所以這行不用改
+
+year: 2019
+# 要從哪個年份抓這頁所需的資料，如：2016
+
+project_id: openhackfarm
+# 要從哪個專案 id 抓這頁所需的資料，如：intl
+
+# ------ 以上為必要，以下為非必要 ------
+
+og_title: Open Hack Farm
+# 這頁的 og title，若 no 或留空，會採用專案的 name 資料，也就是中文全名
+
+og_description:
+# 這頁的 og description，若 no 或留空，會採用專案的 description 資料
+
+og_image: 
+# 這頁的 og image 網址，若 no 或留空，會採用專案的 cover 資料
+
+cover_image: /p/2017/openhackfarm/cover.jpg
+# 這頁上方大標題區塊的背景圖網址，若 no 或留空，會採用專案的 cover 資料
+
+cover_image_opacity:
+# 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設是 0.95
+
+cover_veil_opacity: 0.4
+# 這頁上方大標題區塊的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設值是 0.1
+
+color: olive
+# 這頁上方大標題區塊的背景圖混色，以及緊接在大標題區塊之下的摘要區塊的背景顏色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
+
+sidebar_image: /p/2019/openhackfarm/og.jpg
+# 這頁右側邊欄的配圖，若 no 或留空，會採用專案的 avatar 資料，或主辦單位組織的 avatar / logo / cover 資料，或 semantic ui 的 info icon （以上順序即為採用資料的優先順位，若前一個無資料，則會去找下一個）
+
+show_events:
+# 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若 no 或留空，則不顯示計畫成果區塊
+
+show_budget: yes
+# 是否顯示預算表，若填 yes 則會自動抓取專案資料夾中的 budget.html 檔案做為預算表內容，若 no 或留空，則不顯示預算表區塊
+
+gsheet_url: https://openhackfarm.github.io/funding/
+# 收知明細表的 google spreadsheet 網址，若 no 或留空，則不顯示收支明細區塊
+
+show_sponsors:
+# 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若 no 或留空，則不顯示贊助商區塊
+
+show_donors:
+# 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若 no 或留空，則不顯示捐助人區塊
+
+show_progress: yes
+# 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若 no 或留空，則不顯示進度條
+
+cpid: 32
+# 專案從 neticrm 抓募款進度資料時使用的 id，若 no 或留空，則不從 neticrm 抓資料
+
+progress:
+# 專案募款進度，會出現在專案列表頁右側邊欄
+  duration: 2019/4/12 起
+  # 募款期間，若 no 或留空，則不顯示此項目
+  goal: yes
+  # 募款目標金額，若 no 或留空，則不顯示此項目
+  current: yes
+  # 已募得款項金額，若 no 或留空，則不顯示此項目
+  percent: yes
+  # 進度百分比，若 no 或留空，則不顯示此項目
+  count: yes
+  # 捐款人數，若 no 或留空，則不顯示此項目
+  updated: yes
+  # 資料更新日期，若 no 或留空，則不顯示此項目
+
+action: 
+# 專案頁的 call to action，可以是按鈕或一段文字，會出現在右側邊欄的最下方
+  - title: 贊助專案
+    # 按鈕上的文字
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=32
+    # 按下後會連去哪裡
+    color: green
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    icon: dollar
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+  - title: 參與專案 / 贊助設備
+    # 按鈕上的文字
+    url: https://www.facebook.com/groups/OpenHackFarm/
+    # 按下後會連去哪裡
+    color: blue
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    icon: facebook f 
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+  
+
+---
+
+
+<h2 class="ui dividing header">計畫說明</h2>
+
+<p>
+進行農耕生活四年多，2016 年開始，因爲 LASS 社群的促成，開發了農業微型氣象站及田間感測器，以科學方法蒐集植物生長數據，建立開放農業資料庫。
+</p>
+<p>
+2017 年起，在宜蘭的小農村，成立了「Open Hack Farm」，進行「開放農業實驗」計畫，並與台灣農業社群及空間合作，以開源軟、硬體及數位加工技術，以最少資源打造科技農具。
+</p>
+<p>
+2018 年，我們加強對土地的關注，推動堆肥及土壤改良實驗，以生態、科學及改良式機械，加速生命物質循環，保護土壤不要再退化，提高生態多樣性，增強環境的緩衝能力。採用再生性的農耕方法，是爲生活永續之方針。
+</p>
+<p>
+農村的共享科技實驗室，期望能連結更多小農與科技人，透過社群的力量，進行農耕實驗及研發，並運用適切科技輔助，打造更友善的農食環境。讓我們重新與生活產生連結吧，Open Hack Farm！
+</p>
+
+<h3 class="ui header">計畫網頁</h3>
+
+<div class="ui list">
+  <div class="item">
+    <i class="facebook square icon"></i>
+    <div class="content">
+      <a href="https://www.facebook.com/groups/OpenHackFarm/">Open Hack Farm 專案計畫</a>
+    </div>
+  </div>
+  <div class="item">
+    <i class="wordpress icon"></i>
+    <div class="content">
+      <a href="https://openhackfarm.wordpress.com/blog/">Open Hack Farm 部落格</a>
+    </div>
+  </div>
+  <div class="item">
+    <i class="home icon"></i>
+    <div class="content">
+     <a href="https://www.openhackfarm.tw/">Open Hack Farm 官方網站</a>
+    </div>
+  </div>
+</div>
+
+<img src="/p/2019/openhackfarm/2019-new.jpg" class="ui  rounded image">
+
+
+<h3 class="ui header">2019 研究方向</h3>
+<h4 class="ui header">Open Data</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">
+    開放作物資料庫
+        <ul>
+            <li>作物影像。</li>
+            <li>現代農民曆。</li>
+        </ul>
+    </div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">
+    開放病蟲害資料庫
+        <ul>
+            <li>病蟲害影像。</li>
+            <li>疫情地圖。</li>
+        </ul>
+    </div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">
+    氣象資料
+        <ul>
+            <li>歷史氣候圖表。</li>
+            <li>地區微氣候站。</li>
+            <li>地區氣象預報。</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<h4 class="ui header">IOT</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">水田感測器 - 巡田水 v3</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">動力水閘門</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">旱田感測器 - 顧菜園 v4</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">堆肥感測器</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">AgriSensor Breakout Board</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">遠距無線通訊基地臺</div>
+  </div>
+</div>
+
+<h4 class="ui header">Chatbot</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">Line 農夫小幫手</div>
+  </div>
+</div>
+
+<h4 class="ui header">Web</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">CSA Farmer’s Market</div>
+  </div>
+</div>
+
+<h4 class="ui header">Maker</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">堆肥加速器 (碎草機、蚯蚓繁殖、堆肥感測器)</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">福壽螺誘捕裝置</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">綠能模組式田間自走裝置</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">食物乾燥箱</div>
+  </div>
+</div>
+
+<h4 class="ui header">收支記錄</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">
+      <a href="https://openhackfarm.github.io/funding/" target="_blank">Open Hack Farm 收支表</a>
+    </div>
+  </div>
+</div>
+
+<a class="ui small button" href="https://hackmd.io/DwqOZNpsR9iykHPuChCuIw?view" >Read More</a>
+
+
