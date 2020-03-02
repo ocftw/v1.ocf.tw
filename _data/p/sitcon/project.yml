@@ -1,0 +1,39 @@
+name: 【社群專案】SITCON 學生計算機年會
+name_en: Students’ Information Technology Conference
+abbr: SITCON 
+tagline: 
+cover: /p/sitcon/2020.png
+description: 2012 年中，一群學生在社群浪潮中為相同的理想聚集，秉持「以學生為本、由學生自發舉辦」的核心理念，SITCON 學生計算機年會及同名社群自 2013 年起，陸續舉行年會、定期聚、黑客松、工作坊、夏令營與多場演講，於技術交流之餘，亦在推廣資訊及開源教育上不遺餘力，希望透過技術與知識的激盪，給予學生們一個用自身力量實踐夢想的舞台。
+description_en: 
+month: 3
+start: 3/28
+link:
+  - title: 專案介紹
+    url: /p/sitcon
+    target: _self  
+link_en:
+  - title: Intro
+    url: /en/p/sitcon
+    target: _self  
+tag:
+  - 大型研討會
+  - 定期活動
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - education
+advisor_id:
+organizer_id:
+  - sitcon
+  - ocf
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id:
+  - rock
+consultant_id:
+volunteer_id:
+coordinator_id:
