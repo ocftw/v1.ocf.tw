@@ -23,8 +23,8 @@
   reports_en:
 
 - id: 
-  name: PyCon TW 2017
-  name_en: PyCon TW 2017
+  name: PyCon Taiwan 2017
+  name_en: PyCon Taiwan 2017
   description: 
   description_en: 
   cover_image: /p/pycon/2017/pycontw17-image.png
@@ -85,37 +85,29 @@
   reports_en:
 
 - id: 
-
   name: PyCon Taiwan 2019
   name_en: PyCon Taiwan 2019
-
   cover_image: /p/pycon/py2019logo.png
-
   start: 2019/09/20
   end: 2019/09/22
-
   links:
     - title: 活動網站
       url: https://tw.pycon.org/2019/zh-hant/
   links_en:
-
   organizer_ids:
     - pycon
   co-organizer_ids:
     - ocf
-
   co-worker_ids:
     - rock
     - leona
-
   project_ids:
     - pycon
-
   reports:
     2019: 09
   reports_en:
 
-
+- id:
   name: PyCon Taiwan 2020
   name_en: PyCon Taiwan 2020
 
