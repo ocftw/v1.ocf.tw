@@ -1,0 +1,29 @@
+name: 【社群專案】SotM Taiwan 台灣開放街圖研討會 2017
+name_en: SotM Taiwan 2017
+abbr: SotM Taiwan 2017
+tagline: 
+month: 9
+start: 9/10
+link:
+  - title: 活動報名網站
+    url: https://sotmtw.kktix.cc/events/2017sotmtw
+tag:
+type_id:
+  - community
+topic_id:
+  - data
+field_id:
+  - geo
+advisor_id:
+organizer_id:
+  - sotm
+  - ocf
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:

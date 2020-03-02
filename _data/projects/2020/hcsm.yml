@@ -1,0 +1,40 @@
+name: 【社群專案】新竹碼農
+cover: /people/partners/hcsm_logo.png
+description: 新竹碼農是一群熱愛 Open Source 工程師們在新竹創立的定期聚會，目前固定隔週四在 Book 11 聊天分享，歡迎各位碼農友路過參加聚會，也可線上小額贊助聚會經費。
+link:
+  - title: 贊助社群
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=20
+
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+
+tagline: 
+avatar: 
+
+organizer_id:
+  - hcsm
+advisor_id:
+co-organizer_id:
+implementer_id:
+sponsor_id:
+coordinator_id:
+donors:
+meta:
+
+start: 
+end: 
+tag:
+abbr: 
+month: 
+
+name_en: Hsinchu Coding Serfs Meeting
+board_id:
+
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:

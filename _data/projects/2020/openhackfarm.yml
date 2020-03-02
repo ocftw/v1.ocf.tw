@@ -1,0 +1,37 @@
+name: 【社群專案】開放農業實驗基地
+name_en: Open Hack Farm
+tagline: 農業 x 科技 x 開源
+cover: /p/2019/openhackfarm/og.jpg
+description: 進行農耕生活四年多，於 2017 年，在宜蘭的小農村裡，成立了「開放農業實驗基地」。希望聚集更多小農與科技人，透過社群的力量，進行開放農耕實驗及研發，並運用適切科技輔助，打造更友善的農食環境。讓我們與生活產生新的連結吧，Open Hack Farm！
+
+link:
+  - title: 專案介紹
+    url: /p/2019/openhackfarm
+    target: _self
+type_id:
+  - community
+topic_id:
+  - data
+field_id:
+  - agri
+avatar: 
+organizer_id:
+  - farm
+advisor_id:
+co-organizer_id:
+implementer_id:
+sponsor_id:
+coordinator_id:
+donors:
+meta:
+start: 
+end: 
+tag:
+abbr: 
+month: 
+board_id:
+  - jimmy
+staff_id: 
+  - leona
+consultant_id:
+volunteer_id:

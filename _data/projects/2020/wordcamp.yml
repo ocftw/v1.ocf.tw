@@ -1,0 +1,48 @@
+name: 【社群專案】WordCamp Taipei 2019
+cover: /p/2019/wordcamp/WCTPE2019-Key-Visual.png.png
+description: WordCamp 是由各地區用戶發起的非正式大會，討論 WordPress 這個打造全球超過 7500 萬個網站、自由開源的部落格軟體與之相關的話題。2006 年 Matt Mullenweg 在美國舊金山舉行了第一屆 WordCamp，從那時起，WordPress 社群已發起累計 1005 場 WordCamp，地點遍及 6 大洲、65 個國家與 74 個城市。
+link:
+  - title: 專案介紹
+    url: /p/2019/wordcamp
+    target: _self
+  - title: 活動官網
+    url: https://2019.taipei.wordcamp.org/
+  - title: 贊助活動
+    url: https://2019.taipei.wordcamp.org/sponsors/call-for-sponsors/
+
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - media
+
+tagline: 
+avatar: 
+
+organizer_id:
+advisor_id:
+co-organizer_id:
+  - ocf
+  - goscup
+implementer_id:
+sponsor_id:
+coordinator_id:
+donors:
+meta:
+
+start: 12/28
+end: 12/28
+tag:
+  - 大型研討會
+  - 定期活動
+abbr: 
+month: 
+
+name_en: 
+board_id:
+
+staff_id: 
+  - rosa
+consultant_id:
+volunteer_id:

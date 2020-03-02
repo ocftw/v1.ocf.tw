@@ -1,0 +1,44 @@
+name: g0v.news公民科技媒體專案
+name_en: g0v.news Media Project
+abbr: 
+tagline: 
+cover: /en/p/g0vnews/g0vnewsog.jpg
+description: g0v.news是一個聚焦公民科技與開放政府兩個領域的新聞平台，透過英語與中文的報導帶給讀者最新的各國趨勢與案例，並促進公眾對科技與政府的理解與討論。
+description_en: g0v.news is a news platform that focuses on civic tech and open government, publishing in both English and Chinese. The aim of the platform is to enhance the public’s understanding of civic tech, and incite wider discussion about its use.
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/g0vnews
+    target: _self
+link_en:
+  - title: Intro
+    url: /en/p/g0vnews
+    target: _self
+tag:
+  - 工作小組
+type_id:
+  - community
+topic_id:
+  - government
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - ocf
+co-organizer_id:
+implementer_id:
+sponsor_id:
+board_id:
+  - clkao
+staff_id:
+  - yhchang
+consultant_id:
+volunteer_id:
+coordinator_id:
+  - clkao
+meta:
+  - label: 
+    content: 
+

@@ -1,0 +1,30 @@
+name: 【社群專案】Cloud Native Taiwan User Group
+name_en: Cloud Native Taiwan User Group
+abbr:
+tagline: 
+cover: /p/2019/cloudnative/og.png
+description: Cloud Native Taiwan User Group 希望整合台灣雲端相關社群如 OpenStack, Kubernetes, Ceph, SDN 等，並利用 Meetup 定期在各台灣地區舉辦技術與推廣分享活動。
+month: 
+link:
+  - title: 贊助社群
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=29
+tag:
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+advisor_id:
+organizer_id:
+  - cloudnative.tw
+co-organizer_id:
+implementer_id:
+board_id:
+  - pofeng
+staff_id: 
+  - singing
+consultant_id:
+volunteer_id:
+coordinator_id:
+meta:
