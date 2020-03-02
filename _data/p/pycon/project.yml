@@ -11,7 +11,7 @@ tagline: PyCon Taiwan
 tagline_en: 
 
 og_image: /p/pycon/py2020logo.png
-header_image: /p/pycon/pyconbackground.png
+header_image: /p/pycon/pycontwbackground.png
 avatar_image: /p/pycon/py2020logo.png
 theme_color: 
 
@@ -68,12 +68,12 @@ links_en:
     icon: flickr
 
 actions:
-  - title: 加入籌備志工
+  - title: 合作洽詢
     url: mailto:organizer@pycon.tw
     color: blue
     icon: users
 actions_en: 
-  - title: Join Us!
+  - title: Contact
     url: mailto:organizer@pycon.tw
     color: blue
     icon: users
@@ -87,4 +87,4 @@ board_ids:
   - pofeng
 staff_ids: 
   - rock
-  - leona
+  - xini
