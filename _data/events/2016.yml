@@ -1,3 +1,32 @@
+1230:
+  title: 2016 OGP summit 系列分享會會
+  subtitle: 
+  label:
+  meta:
+  description: 開放政府夥伴聯盟(OGP)目前已有近70個會員國，這些國家共同倡議並簽署了《開放政府宣言》，針對政府資訊透明、公民賦權、打擊腐敗、利用科技增進政府治理等等項目提出實質承諾。而今年的OGP summit (12/7~8)在法國巴黎舉行，回台後由台灣參與組發起共三場主題分享會。
+  month: 12
+  start: 12/30
+  end: 
+  link: 
+    - title: 12/30：開放政府中的公民力量
+      url: https://ocftw.kktix.cc/events/ogpshare1
+    - title: 1/16：開放政府中的公民審議
+      url: https://ocftw.kktix.cc/events/ogpshare2
+    - title: 1/19：開放政府中的公民力量
+      url: https://ocftw.kktix.cc/events/ogpshare3
+  cover: /p/2016/intl/2016OGPsharing.jpg
+  project_id:
+    - intl
+  advisor_id:
+  organizer_id:
+    - ocf
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
+
 1207:
   title: 國際出訪：2016 OGP Summit 開放政府夥伴聯盟全球高峰會
   subtitle: 巴黎 - 法國
