@@ -27,3 +27,71 @@
   reports:
     2017: 06
   reports_en:
+
+- id: 
+
+  name: PyCon Taiwan 2018
+  name_en: PyCon Taiwan 2018
+
+  description: PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。 
+  description_en: 
+
+  cover_image: /p/pycon/2018/og.png
+
+  start: 2018/06/01
+  end: 2018/06/02
+
+  links:
+    - title: 活動網站
+      url: https://tw.pycon.org/2018/zh-hant/
+  links_en:
+
+  organizer_ids:
+    - pycon
+  co-organizer_ids:
+    - ocf
+
+  co-worker_ids:
+    - rock
+    - huangfu
+    - singing
+
+  project_ids:
+    - pycon
+
+  reports:
+    2018: 06
+  reports_en:
+
+- id: 
+
+  name: PyCon Taiwan 2019
+  name_en: PyCon Taiwan 2019
+
+  description: 
+  description_en: 
+
+  cover_image: /p/pycon/2018/og.png
+
+  start: 2019/06/01
+  end: 2019/06/02
+
+  links:
+  links_en:
+
+  organizer_ids:
+    - pycon
+  co-organizer_ids:
+    - ocf
+
+  co-worker_ids:
+    - rock
+    - leona
+
+  project_ids:
+    - pycon
+
+  reports:
+    2019: 06
+  reports_en:
+
