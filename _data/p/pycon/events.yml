@@ -1,3 +1,28 @@
+
+- id: 
+  name: PyCon Taiwan 2016
+  name_en: PyCon Taiwan 2016
+  cover_image: /p/pycon/2016/og.png
+  start: 2018/06/03
+  end: 2018/06/05
+
+  links:
+    - title: 活動網站
+      url: https://tw.pycon.org/2016/zh-hant/
+  organizer_ids:
+    - pycon
+  co-organizer_ids:
+    - ocf
+  co-worker_ids:
+    - rock
+
+  project_ids:
+    - pycon
+
+  reports:
+    2016: 06
+  reports_en:
+
 - id: 
   name: PyCon TW 2017
   name_en: PyCon TW 2017
