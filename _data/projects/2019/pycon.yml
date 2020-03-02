@@ -2,7 +2,7 @@ name: 【社群專案】PyCon（台灣 Python 年會）
 name_en: PyCon Taiwan
 abbr: PyCon Taiwan
 tagline: 
-cover: /p/pycon/2018/og.png
+cover: /p/pycon/py2020logo.png
 description: PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。
 description_en: PyCon Taiwan is an annual conference held by a group of Python enthusiasts to promote the use of Python and the possibilities Python can create. We sincerely invite every Python expert to share experience, exchange thoughts, and make new friends in PyCon Taiwan.
 month: 6
@@ -34,7 +34,7 @@ board_id:
   - pofeng
 staff_id:
   - rock
-  - leona
+  - xini
 consultant_id:
 volunteer_id:
 coordinator_id:
