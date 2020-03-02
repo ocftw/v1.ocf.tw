@@ -1,3 +1,28 @@
+1207:
+  title: 國際出訪：2016 OGP Summit 開放政府夥伴聯盟全球高峰會
+  subtitle: 巴黎 - 法國
+  label:
+  meta:
+  description: 2016 OGP Summit 之中，本次共有11為台灣參與者組成出訪團，是第一次台灣大規模的參與 OGP Summit，且來自台灣公民社會的參與者共報名了三個場次，包含一個和德國 Open Knowledge Fundation、南非 Open Data Durban 及墨西哥 C í vica Digital 合辦的「Fork and Merge」圓桌會議，以及兩個 15 分鐘的短講。
+  month: 12
+  start: 12/07
+  end: 12/09
+  link: 
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/16NtkMWRpwBvL96u8gARsgMK_qSln6BBnzM8vJzomff0/edit#heading=h.ijnpxjmgktj9
+  cover: /p/2016/intl/2016OGPsummit.JPG
+  project_id:
+    - intl
+  advisor_id:
+  organizer_id:
+    - ocf
+  co-organizer_id:
+  implementer_id:
+  sponsor_id:
+  coordinator_id:
+  contributor_id:
+  donors:
+
 1101:
   title: 國際出訪：2016 Code for America Summit　美國民主科技大會
   subtitle:
