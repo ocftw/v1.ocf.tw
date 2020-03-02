@@ -115,9 +115,9 @@
   meta:
     - 2016/7/13
     - Ting-Wei Lin / 林庭蔚 (National Taiwan University)
-  description: 
-  month: 
-  start: 
+  description: Ting-Wei Lin / 林庭蔚 (National Taiwan University)
+  month: 7
+  start: 7/13
   end: 
   link: 
     - title: 影音紀錄
@@ -146,8 +146,10 @@
     - Ping-Chun Huang / 黃秉鈞 (National Chiao Tung University)
     - 分享主題：Global SDN-IP Deployment at NCTU
   description: 
-  month: 
-  start: 
+    - Ping-Chun Huang / 黃秉鈞 (National Chiao Tung University)
+    - 分享主題：Global SDN-IP Deployment at NCTU
+  month: 5
+  start: 5/22
   end: 
   link: 
   cover: /p/2016/intl/ons0519.jpg
@@ -174,8 +176,10 @@
     - Ping-Chun Huang / 黃秉鈞 (National Chiao Tung University)
     - 分享主題：Global SDN-IP Deployment at NCTU
   description: 
-  month: 
-  start: 
+    - Ping-Chun Huang / 黃秉鈞 (National Chiao Tung University)
+    - 分享主題：Global SDN-IP Deployment at NCTU
+  month: 5
+  start: 5/19
   end: 
   link: 
     - title: 活動頁
@@ -208,8 +212,10 @@
     - Menghsuan Tsai / 蔡孟軒 (National Cheng Kung University)
     - 分享主題：How to Share Open Source, Bake to TFG - experience sharing
   description: 
-  month: 
-  start: 
+    - Menghsuan Tsai / 蔡孟軒 (National Cheng Kung University)
+    - 分享主題：How to Share Open Source, Bake to TFG - experience sharing
+  month: 5
+  start: 5/1
   end: 
   link: 
     - title: 影音紀錄
