@@ -11,30 +11,25 @@ header_image: /p/sitcon/2020back.png
 avatar_image: /p/sitcon/2020.png
 theme_color: 
 
- 
+
+
 
 tag:
   - 大型研討會
   - 定期活動
-type_id:
+type_ids:
   - community
-topic_id:
+topic_ids:
   - source
-field_id:
+field_ids:
   - education
-advisor_id:
-organizer_id:
+organizer_ids:
   - sitcon
   - ocf
-co-organizer_id:
-implementer_id:
-board_id:
+board_ids:
   - pofeng
-staff_id:
+staff_ids:
   - rock
-consultant_id:
-volunteer_id:
-coordinator_id:
 
 
 action: 
