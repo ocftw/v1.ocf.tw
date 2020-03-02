@@ -10,7 +10,7 @@ start: 9/5
 end: 9/6
 link:
   - title: 專案首頁
-    url: http://ocf.tw/p/2020/pycon/
+    url: http://ocf.tw/p/pycon/
 link_en:
   - title: Intro
     url: /en/p/pycon
