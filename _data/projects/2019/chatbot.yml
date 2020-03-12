@@ -1,0 +1,37 @@
+name: 【社群專案】 Chatbot Developers Taiwan
+name_en: Chatbot
+abbr: 
+tagline: Science, code, and open source
+tagline_en: Science, code, and open source
+cover: /p/2019/chatbot/chatbotTW.png
+avatar: 
+description: Chatbot Developers Taiwan 社群致力於提供一個討論聊天機器人的相關應用的社群。在台北、台中每個月皆有一次的定期 meetup 聚會。
+month: 
+start: 
+end: 
+link:
+  - title: 專案介紹
+    url: /p/2019/chatbot
+    target: _self
+tag:
+  - 
+type_id:
+  - community 
+topic_id:
+  - source
+field_id: 
+  - it
+advisor_id:
+organizer_id:
+  - chatbot
+co-organizer_id:
+  - ocf
+implementer_id:
+board_id:
+  - bobchao
+staff_id: 
+  - xini
+consultant_id:
+volunteer_id:
+coordinator_id:
+
