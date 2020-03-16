@@ -1,0 +1,140 @@
+- id: 
+  name: 學生計算機年會 SITCON 2015
+  name_en: SITCON 2015
+  cover_image: /p/sitcon/2015.png
+  start: 2015/03/07
+  end: 2015/03/07
+
+  links:
+    - title: 活動網站
+      url: https://sitcon.org/2015/#/
+  organizer_ids:
+    - sitcon
+  co-organizer_ids:
+    - ocf
+  co-worker_ids:
+
+  project_ids:
+    - sitcon
+
+  reports:
+    2015: 03
+  reports_en:
+
+- id: 
+  name: 學生計算機年會 SITCON 2016
+  name_en: SITCON 2016
+  cover_image: /p/sitcon/2016.png
+  start: 2016/02/27
+  end: 2016/02/27
+
+  links:
+    - title: 活動網站
+      url: https://sitcon.org/2016/#/
+  organizer_ids:
+    - sitcon
+  co-organizer_ids:
+    - ocf
+  co-worker_ids:
+
+  project_ids:
+    - sitcon
+
+  reports:
+    2016: 02
+  reports_en:
+
+- id: 
+  name: 學生計算機年會 SITCON 2017
+  name_en: SITCON 2017
+  cover_image: /p/sitcon/2017.png
+  start: 2017/03/18
+  end: 2017/03/18
+
+  links:
+    - title: 活動網站
+      url: https://sitcon.org/2017/#/
+  organizer_ids:
+    - sitcon
+  co-organizer_ids:
+    - ocf
+  co-worker_ids:
+
+  project_ids:
+    - sitcon
+
+  reports:
+    2017: 03
+  reports_en:
+
+
+- id: 
+  name: 學生計算機年會 SITCON 2018
+  name_en: SITCON 2018
+  cover_image: /p/sitcon/2018.png
+  start: 2018/03/10
+  end: 2018/03/10
+
+  links:
+    - title: 活動網站
+      url: https://sitcon.org/2018/#/
+  organizer_ids:
+    - sitcon
+  co-organizer_ids:
+    - ocf
+  co-worker_ids:
+
+  project_ids:
+    - sitcon
+
+  reports:
+    2018: 10
+  reports_en:
+
+
+- id: 
+  name: 學生計算機年會 SITCON 2019
+  name_en: SITCON 2019
+  cover_image: /p/sitcon/2019.png
+  start: 2019/03/24
+  end: 2019/03/24
+
+  links:
+    - title: 活動網站
+      url: https://sitcon.org/2019/#/
+  organizer_ids:
+    - sitcon
+  co-organizer_ids:
+    - ocf
+  co-worker_ids:
+
+  project_ids:
+    - sitcon
+
+  reports:
+    2019: 03
+  reports_en:
+
+- id: 
+  name: 學生計算機年會 SITCON 2020
+  name_en: SITCON 2020
+  cover_image: /p/sitcon/2020.png
+  start: 2020/08/08
+  end: 2020/08/08
+
+  links:
+    - title: 活動網站
+      url: https://sitcon.org/2020/#/
+  organizer_ids:
+    - sitcon
+  co-organizer_ids:
+    - ocf
+  co-worker_ids:
+    - rock
+
+  project_ids:
+    - sitcon
+
+  reports:
+    2020: 08
+  reports_en:
