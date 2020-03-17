@@ -10,11 +10,9 @@ og_image: /p/sitcon/2020.png
 header_image: /p/sitcon/2020back.png
 avatar_image: /p/sitcon/2020.png
 theme_color: 
-
-
-
-
-tag:
+start: 
+end: 
+tags:
   - 大型研討會
   - 定期活動
 type_ids:
