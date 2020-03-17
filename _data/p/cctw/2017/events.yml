@@ -22,6 +22,9 @@
     - rock
     - lucien
 
+  project_ids:
+    - cctw
+
 - id: 
 
   name: 藝術創作的公眾素材及創用CC授權應用
@@ -42,6 +45,9 @@
 
   participant_ids:
     - lucien
+
+  project_ids:
+    - cctw
 
 - id: 
 
@@ -67,6 +73,9 @@
     - singing
     - lucien
 
+  project_ids:
+    - cctw
+
 - id: 
 
   name: 給 Maker 的開放授權快速上手
@@ -89,6 +98,9 @@
 
   participant_ids:
     - rock
+
+  project_ids:
+    - cctw
 
 - id: 
 
@@ -113,3 +125,6 @@
   participant_ids:
     - rock
     - singing
+
+  project_ids:
+    - cctw

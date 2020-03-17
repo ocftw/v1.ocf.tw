@@ -20,6 +20,9 @@
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrliLgmxGQA50JE6BmiAWdBq
   links_en:
 
+  project_ids:
+    - cctw
+
 - id: 
 
   name: 創用 CC 好愛聚 2（CC Global Summit 分享）
@@ -44,6 +47,9 @@
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrmEvr7A-vgQGELCZsm2sKtJ
   links_en:
 
+  project_ids:
+    - cctw
+
 - id: 
 
   name: OCF X CCTW：創用 CC 好愛聚
@@ -63,3 +69,6 @@
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/cccomm
   links_en:
+
+  project_ids:
+    - cctw

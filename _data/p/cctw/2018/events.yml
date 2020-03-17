@@ -22,6 +22,9 @@
     - rock
     - lucien
 
+  project_ids:
+    - cctw
+
 - id: 
 
   name: 國際出訪：2018 CC Global Summit
@@ -46,6 +49,9 @@
     - lucien
     - yixuanlin 
 
+  project_ids:
+    - cctw
+
 - id: 
 
   name: CC TW Chapter 第一次會議
@@ -69,7 +75,10 @@
   links_en:
 
   participant_ids:
-     - rock
-     - pofeng
-     - singing
-     - leona
+    - rock
+    - pofeng
+    - singing
+    - leona
+
+  project_ids:
+    - cctw

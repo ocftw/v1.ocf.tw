@@ -24,6 +24,9 @@
     - singing
     - rock
 
+  project_ids:
+    - cctw
+
 - id: 
 
   name: "Creative Commons Taiwan Chapter #2"
@@ -52,3 +55,5 @@
   participant_ids:
     - rock
 
+  project_ids:
+    - cctw
