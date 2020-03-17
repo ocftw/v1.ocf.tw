@@ -1,0 +1,69 @@
+name: 國際交流計畫
+name_en: International Networking Program
+
+description: 在無國界的開源社群中，與全球串聯彼此交流，並且把台灣經驗帶往國際舞台產生更大的影響力，有效串連資源，與全球開放科技社群一同成長。過去幾年，透過國際會議參與、跨國講座及工作坊在台舉辦、資料建置撰寫，國際交流組已與許多不同國家團體開啟實質合作的計畫，建立緊密的全球夥伴網絡。
+description_en: OCF has always tried to connect with those who are interested in open source, bring Taiwan experience to the world, and grow with the global community. In the past few years, through international conferences, workshops, data construction, and information sharing, our International Networking Program has teamed up with other organizations, launched many collaborative projects, and created a tight network with open & tech communities from all over the world. 
+
+abbr: 
+abbr_en: 
+
+tagline: 用科技串起全球公民社群
+tagline_en: Connect global civic tech communities with technology.
+
+og_image: /p/intl/2017/og2017.jpg
+header_image: /p/intl/2019/上幅.jpg
+avatar_image: /p/intl/2019/intl 專案頁 右側圖.jpg
+theme_color: teal
+
+start: 
+end: 
+
+type_ids:
+  - overseas
+topic_ids:
+  - data
+field_ids:
+  - it
+tags:
+  - 盤纏申請
+tags_en:
+
+metas:
+metas_en:
+
+links:
+links_en:
+
+actions:
+actions_en:
+
+advisor_ids:
+organizer_ids:
+  - ocf
+co-organizer_ids:
+implementer_ids:
+sponsor_ids:
+
+coordinator_ids:
+case-handler_ids:
+co-worker_ids:
+consultant_ids:
+volunteer_ids:
+contributor_ids:
+donors:
+donors_en:
+
+board_ids:
+  - clkao
+staff_ids:
+  - ttcat
+  - mglee
+  - afi
+  - aaron
+  - jason
+  - miniwu
+  - pellaeon 
+  - singing
+
+reports:
+reports_en:

@@ -1,0 +1,46 @@
+- id: 
+
+  name: 跳躍吧！火燙燙的 g0v 美東松 功力灌頂！
+  name_en: 
+
+  description: 
+  description_en: 
+
+  cover_image: /p/intl/2014/g0vus1212.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2014/12/12
+  end: 
+
+  labels:
+    - title: 盤纏
+      color:
+    - title: 邀講
+      color:
+    - title: g0v 零時政府
+      color:
+  labels_en:
+
+  metas:
+    - LY (yhsiang), 游知澔 (chihao) 主講
+    - 場地贊助：Coworking Taiwan 台灣共用工作空間交流協會
+  metas_en:
+
+  links:
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/1212ocf
+    - title: 影音紀錄
+      url: https://www.youtube.com/playlist?list=PLdwQWxpS513AwgH-wfEamTGP2dOAhKc-J
+  links_en:
+
+  organizer_ids:
+    - ocf
+  sponsor_ids:
+    - coworking
+
+  coordinator_ids:
+    - shiashia
+  contributor_ids:
+    - yhsiang
+    - chihao

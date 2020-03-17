@@ -1,0 +1,475 @@
+- id: 
+
+  name: Greenhost 如何建立獨立且開放的雲端主機平台？主題一：資料中心與網路骨幹
+  name_en: 
+
+  description: OCF 不定期與國際友人合作，在台灣舉辦推廣開放文化的活動。本次由來自阿姆斯特丹的主機託管商 Greenhost 的創辦人 Mart 來進行三場經歷真槍實戰後所建立一座主機託管服務商的分享，預計將會針對不同的基礎建設拆分成 3 場精彩的內容，於 2/25 起每週一晚上舉辦第一場：資料中心與網路骨幹
+  description_en: 
+
+  cover_image: /p/intl/2019/banner-840x420.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/02/25
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+    - 本次分享將會分享 GreenHost 上千台服務器大型資料中心的建立心路歷程的和分享其建立時的具體考量及介紹
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/greenhost1
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+
+- id: 
+
+  name: Greenhost 如何建立獨立且開放的雲端主機平台？主題二：網路資源及路由管理： IP, AS Number, DNS
+  name_en: 
+
+  description: OCF 不定期與國際友人合作，在台灣舉辦推廣開放文化的活動。本次由來自阿姆斯特丹的主機託管商 Greenhost 的創辦人 Mart 來進行三場經歷真槍實戰後所建立一座主機託管服務商的分享，預計將會針對不同的基礎建設拆分成 3 場精彩的內容，於 2/25 起每週一晚上舉辦第二場：網路資源及路由管理： IP, AS Number, DNS
+  description_en: 
+
+  cover_image: /p/intl/2019/banner-840x420.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/03/04
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+    - 本次分享將會承續第一場之分享，著重在網路架構的部分進行實戰經驗分享，身為一家專業的託管服務商是如何看待跟管理路由
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/greenhost2
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+
+- id: 
+
+  name: Greenhost 如何建立獨立且開放的雲端主機平台？主題三：軟體平臺架構
+  name_en: 
+
+  description: OCF 不定期與國際友人合作，在台灣舉辦推廣開放文化的活動。本次由來自阿姆斯特丹的主機託管商 Greenhost 的創辦人 Mart 來進行三場經歷真槍實戰後所建立一座主機託管服務商的分享，預計將會針對不同的基礎建設拆分成 3 場精彩的內容，於 2/25 起每週一晚上舉辦第三場：軟體平臺架構
+  description_en: 
+
+  cover_image: /p/intl/2019/banner-840x420.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/03/11
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+    - 本次分享將會著重在軟體選擇及使用的部分，分享如何選擇開源或企業版的軟體產品，具體考量點又是什麼？歡迎一起參加討論
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/greenhost3
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+
+- id: 
+
+  name: 國際出訪：2019 TICTeC 公民科技動能推升研討會
+  name_en: 
+
+  description: TICTeC 為一年一度關注開放資料及公民科技影響力的國際研討會，致力於探討公民科技在不同社會環境與政治脈絡下的影響力，是串連世界各國公民科技社群的重要網絡。今年會議台灣的參與者，則有 g0v 參與者 Isabel, ttcat 和開放文化基金會工作人員 Aiya。三人的參與，主要為了加強國際連結，讓國際社群看到 g0v --亞洲最大的公民科技社群在這波浪潮持續進行。
+  description_en: 
+
+  cover_image: /p/intl/2019/2019 TICTeC.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/03/19
+  end: 2019/03/20
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動紀錄官網
+      url: https://tictec.mysociety.org/2019
+    - title: 出訪報告
+      url: https://docs.google.com/document/d/1KkDRF9P4l2C7o_5HFHkefagVoABHM4TjSSUTZkWjDCQ/edit#heading=h.86pbshub2q2z
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - aiya
+
+- id: 
+
+  name: 國際出訪：Infracon
+  name_en: 
+
+  description: "Infracon is a conference for alternative infrastructure and service providers around the world."
+  description_en: 
+
+  cover_image: /p/intl/2019/Infracon_2019_twheading-1024x341.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2019/03/25
+  end: 2019/03/29
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+
+- id: 
+
+  name: 國際出訪：Internet Freedom Festival
+  name_en: 
+
+  description: "國際出訪：此活動為 Open Technology Fund (OTF) 旗下的一個年度專案，規模為 2000人，是國際上知名與網路自由、數位人權、隱私監控、網路審查等相關的活動。"
+  description_en: 
+
+  cover_image: /p/intl/2019/internet-freedom-festival-logo.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/04/01
+  end: 2019/04/05
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 官方網站
+      url: https://internetfreedomfestival.org/
+    - title: 出訪報告
+      url: https://docs.google.com/document/d/1a5WC6RlKSTS-wpgb6l56nFCXpl58E6hdSEPMJysSoQQ/edit
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+    - lulukeng
+    - aiya
+
+- id: 
+
+  name: 全球最大—網路自由節 Internet Freedom Festival 回國分享
+  name_en: 
+
+  description: "IFF是捲動全球網路自由社群的 Unconference 大會，以非傳統、充滿火花、深度交流、如慶典般的盛會著稱，2019 台灣有12位參與者，為大家帶來第一手的分享。 "
+  description_en: 
+
+  cover_image: /p/intl/2019/2019 IFF 分享會.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2019/05/03
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動報名頁
+      url: https://ocftw.kktix.cc/events/visitiff2019
+  links_en:
+
+  organizer_ids:
+    - ocf
+  co-organizer_ids:
+    - 5xruby
+  participant_ids:
+    - pellaeon
+
+- id: 
+
+  name: 前進 TICTeC & Internet Freedom Festival ( IFF ) 共同分享會
+  name_en: 
+
+  description: "公民科技實踐者(TICTeC)  v.s. 網路人權行動者 (IFF)，兩場台灣科技社群組隊參與的國際會議，討論不同面向的科技運用分享。"
+  description_en: 
+
+  cover_image: /p/intl/2019/2019 TICTeC&IFF分享會.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2019/05/17
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動報名頁
+      url: https://ocftw.kktix.cc/events/ticteciff2019
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - lulukeng
+    - aiya
+
+- id: 
+
+  name: 國際出訪：2019 OGP summit 國際夥伴聯盟高峰會
+  name_en: 
+
+  description: "開放政府夥伴聯盟(OGP)，不只是一個組織，也不只是會議主辦單位，在2011聯合國大會後，OGP 負責串聯各國加入簽署《開放政府宣言》，讓開放政府不再是口號，而有明確的執行準則，以落實政府資訊透明、公民賦權、打擊腐敗、利用科技增進政府治理等等項目。今年 OGP summit 在加拿大渥太華舉行，由外交部統籌，OCF 作為民間團體之一，與其他公民社團代表和政府代表，一同前往參與盛會，也希望台灣在開放政府方面能有實質的進展。"
+  description_en: 
+
+  cover_image: /p/intl/2019/2019ogpsummit.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2019/05/29
+  end: 2019/05/31
+
+  labels:
+  labels_en:
+
+  metas:
+    - 主辦：外交部
+  metas_en:
+
+  links:
+    - title: 會議官網
+      url: https://www.opengovpartnership.org/events/ogp-global-summit-2019-ottawa-canada/
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1oi8N-aJ2g55YFTF1YQmnQE28h0coV9CbV-x2o5y2fzw/edit
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - lulukeng
+
+- id: 
+
+  name: 國際出訪：Facing the Ocean Meet and Hack 面海黑客松 (沖繩)
+  name_en: 
+
+  description: "Facing the Ocea (FtO) Meet and Hack 為台灣 + 日本 + 南韓三地公民科技社群主辦的跨國黑客松活動，首次辦理於日本沖繩市府之新創空間舉行，聚集三地各領域人員一同提案、一同開發專案，提案範圍包括環境、弱勢權益、人權等。"
+  description_en: 
+
+  cover_image: /p/intl/2019/FtOMeetandHack.jpeg
+  banner_image: 
+  theme_color: 
+
+  start: 2019/06/08
+  end: 2019/06/09
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1aHUddYAEcJvFFYKNPNDyBDpDG07TXr6CNROR5lER6K0/edit#
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - lulukeng
+
+- id: 
+
+  name: 國際出訪：Rightscon summit
+  name_en: 
+
+  description: "國際出訪：RightsCon 數位人權大會是由 Access Now 所主辦、目前世界最大的數位人權活動國際組織 Access Now ，是一個致力於開放自由網路的人權、公共政策、與倡議性之國際非營利組織。每年的 Rightscon 在全球不同城市舉辦"
+  description_en: 
+
+  cover_image: /p/intl/2019/RC2019Tunis.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2019/06/11
+  end: 2019/06/14
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 官方網站
+      url: https://www.rightscon.org/
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1ojKKMW1hKmUgadBUP3JiaGuSRSF6Ton3XkkP1-w245Q/edit
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - yhchang
+    - pellaeon
+
+- id: 
+
+  name: 國際出訪：Hong Kong Open Source Conference 香港開源年會
+  name_en: 
+
+  description: "國際出訪：香港開源年會旨在推動開放原始碼開發，促進社群交流，並鼓勵工商業界使用開放原始碼軟體及方案。今年 COSCUP 與 HKOSC 首度合作交換議程軌，COSCUP 籌組台灣遠征團隊至香港，規劃整個「COSCUP 特別議程軌」活動，切磋技術、互相交流。"
+  description_en: 
+
+  cover_image: /p/intl/2019/HKOSCon0614.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/06/14
+  end: 2019/06/15
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 官方網站
+      url: https://hkoscon.org/2019/
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1zg0fJwNAC7xs71Cak-5pCpKJGOCoNK9GAeaFEaT5Otw/edit?usp=sharing
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - singing
+
+- id: 
+
+  name: 數位時代，自已的權利自己顧 -- 基礎資安教戰講座
+  name_en: 
+
+  description: "隨著科技發展越發進步、方便，人手一機上網搞定生活大小事已成常態，然而資料數位化廣泛應用後，本來應該只在自己電腦&手機&帳戶裡的資訊，常在不知不覺間成為別人輕易可獲取的資訊。資訊安全已成為現代網民必備知識，更是數位公民不可不會的重要技能！千萬別錯過為初心者準備的教戰訓練。"
+  description_en: 
+
+  cover_image: /p/intl/2019/數位時代，自己的權利自己顧！.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/10/15
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+    - 時間：10/15 晚上 7.30-9.30 pm
+    - 地點：77 OMG 文創中心
+    - 主講：珣珣 / Hazel Yen  
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/e0c1048b
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - aiya
+
+- id: 
+
+  name: Tor Sharing @ Taipei - 關於匿名瀏覽器，你知道多少?
+  name_en: 
+
+  description: "Tor, The Onion Router ，洋蔥路由器，是一套可以增強網路瀏覽匿名性的開源軟體。它會將使用者的網路流量，加密後導流通過三個洋蔥路由節點，再送往目標網站，如此一來，網站不知道使用者真正的來源，三個洋蔥路由節點也不會同時知道使用者的來源和目的地，達成網路傳輸的匿名性。另外，Tor 也具有繞過網路封鎖的功能。如今，Tor 經常被用於匿名傳送資訊、越過網路封鎖，使用人數眾多，是國際知名專案!!這次開放文化基金會（OCF）邀請到 Tor 的創始人之一 Roger Dingledine ，除了將由 Roger 公開與大家來介紹 Tor ，也將在主持人帶領下，與台灣社群交流相關技術知識。"
+  description_en: 
+
+  cover_image: /p/intl/2019/Tor KKtix in EN.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/10/31
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/tor2019twsharing
+    - title: 活動錄影
+      url: https://www.youtube.com/watch?v=Xx7t3aqHuV0&feature=youtu.be
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+    - lulukeng
+
+
+- id: 
+
+  name: COCONET 回國分享會
+  name_en: 
+
+  description: COCONET 聚集 120 個來自東南亞的行動者與科技專家共同討論亞洲「數位人權」的災情、交換關於假新聞、斷網、數位監控等情報，從各國運動成功與失敗的經驗中學習如何讓人權運動者更安全、更專業的透過網路取得支援。
+  description_en: 
+
+  cover_image: /p/intl/2019/2019_coconet_share.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/11/27
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/tw2019coconet-sharing
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - lulukeng

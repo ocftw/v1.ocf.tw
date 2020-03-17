@@ -1,0 +1,742 @@
+- id: 
+
+  name: 「開．新時代」募款茶會
+  name_en: 
+
+  description: 2016下半年，國際交流專案已主辦、協辦超過十場以上國內、外之相關講座，並邀請台灣零時政府 g0v 與其它社會團體，分別組團出訪兩次國際公民科技與開放政府大會。2017新的一年，特別舉辦成果發表暨募款茶會，除了總整理成果，也要向大家表達一路來的支持並分享多項新計畫!
+  description_en: 
+
+  cover_image: /p/intl/2017/0324intlparty.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/03/24
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat
+    - singing
+    - rock
+    - mglee
+    - huangfu
+    - afi
+    - ael
+    - aaron
+    - pellaeon
+    - miniwu
+    - jason
+
+- id: 
+
+  name: 海外參訪 - Rightscon
+  name_en: 
+
+  description: RightsCon 是全球最大的數位權利研討會，本次台灣代表團由維基媒體協會、開放文化基金會、台灣人權促進會組成。開放文化基金會在 RightsCon 當中關注東亞地區的數位權利狀況，並跟緊歐美最新的討論趨勢，也與眾多關注數位權利的國際組織有所交流。
+  description_en: 
+
+  cover_image: /p/intl/2017/2017.3 RightsCon.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/03/29
+  end: 2017/03/31
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://www.rightscon.org/
+  links_en:
+
+  organizer_ids:
+    - accessnow
+  participant_ids:
+    - ttcat
+    - pellaeon
+
+- id: 
+
+  name: 翻轉新聞松
+  name_en: 
+
+  description: g0v.news聯合Hacks/Hackers Taipei，邀請記者、編輯、設計師、前後端工程師，透過一天的活動，一起動腦、一起實作，跨界打造能實際解決當前新聞問題的報導或新聞產品。
+  description_en: 
+
+  cover_image: /p/intl/2017/0416g0vnews.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/04/16
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: http://www.accupass.com/go/hhtpeXg0vnews
+  links_en:
+
+  organizer_ids:
+  co-organizer_ids:
+    - hhtaipei
+  participant_ids:
+    - miniwu
+    - ttcat
+    - mglee
+
+
+- id: 
+
+  name: 海外參訪 - TICTeC
+  name_en: 
+
+  description: 第三屆 TICTeC 在義大利佛羅倫斯舉辦，聚焦在公民科技和數位民主對全球公民、政策決定者及政府的影響，討論領域包含公民科技的參與、制度、政治社群、數位能力及相關倫理。群眾來自學術界、商業界、政治領域、NGOs 及教育機構的參與者，共有約200 人參與。開放文化基金會籌組參訪團，於 2017 年 4 月遠赴義大利參與，為 WCIT 2017 & Civic Tech Fest 世界公民科技週的啟動宣傳，並宣布 TICTeC@Taipei 首次在亞洲舉行。
+  description_en: 
+
+  cover_image: /p/intl/2017/2017.04 TICTeC-r.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/04/25
+  end: 2017/04/26
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: http://tictec.mysociety.org/
+  links_en:
+
+  organizer_ids:
+    - mysociety
+  participant_ids:
+    - afi
+    - ttcat
+    - mglee
+    - miniwu
+    - jason
+    - aaron
+
+- id: 
+
+  name: 海外參訪 - Datensummit
+  name_en: 
+
+  description: 「開放知識基金會Open Knowledge Foundation 」德國分會於2017年發起第一次的 Datensummit，邀請政府官員、科技人士、學術專家、投資者一同討論開放資料的社會價值與應用。
+  description_en: 
+
+  cover_image: /p/intl/2017/0428Datensummit .JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2017/04/28
+  end: 2017/04/29
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://datensummit.de/
+  links_en:
+
+  organizer_ids:
+    - open_knowledge_germany
+  participant_ids:
+    - afi
+    - ttcat
+    - mglee
+    - jason
+
+- id: 
+
+  name: 人權倡議者的資訊安全培力工作坊
+  name_en: 
+
+  description: Civil Society Cyber Shield 資安工作坊希望能夠連結人權工作者與資訊科技（尤其是資訊安全）領域的專家，在專家幫助人權工作者的同時，也讓更多人知道人權工作的重要性。本工作坊除了教學之外，也有一部分致力於讓這兩種人互相接觸與瞭解。
+  description_en: 
+
+  cover_image: /p/intl/2017/2017 CSCS-r.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/05/23
+  end: 2017/05/25
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動紀錄
+      url: http://beta.hackfoldr.org/cscs/
+  links_en:
+
+  organizer_ids:
+  co-organizer_ids:
+    - tfd
+    - idemocracy
+    - tahr
+    - hitcon
+  participant_ids:
+    - pellaeon
+    - ttcat
+    - lulukeng
+
+- id: 
+
+  name: RightsCon 分享會
+  name_en: 
+
+  description: RightsCon是全球最大的數位人權大會，今年在歐盟所在地的比利時布魯塞爾舉行。而臺灣關心全球數位人權議題的團體，以臺灣維基協會為主體而組成的 RightsCon臺灣團，加上開放文化基金會、臺灣摩茲社群成員，有幸獲得臺灣民主基金會的協助，前往參與RightsCon大會。RightsCon團員回台後也運用摩茲社群週五在摩茲工寮的聚會時間，分享參與會議的所見所聞，如假新聞議題，川普效應和各地極權政府傷害數位人權的暴行，以及帶給臺灣的啟發。
+  description_en: 
+
+  cover_image: /p/intl/2017/2017.3 RightsCon.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/06/02
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 臉書活動頁
+      url: https://www.facebook.com/events/789416757892564
+  links_en:
+
+  co-organizer_ids:
+    - wikimediatw
+    - moztw
+  participant_ids:
+    - pellaeon
+    - ttcat
+
+- id: 
+
+  name: 拜訪美國 The National Archive
+  name_en: 
+
+  description: g0v公民科技獎助金獲獎團隊"國家寶藏"，要把散落在世界各地的台灣史料，找出來、數位化，這次美國行也特別跟團隊一起拜訪了美國國家檔案局
+  description_en: 
+
+  cover_image: /p/intl/2017/0606nationaltreasure.JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2017/06/06
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+  links_en:
+
+  organizer_ids:
+  co-organizer_ids:
+    - g0v
+  participant_ids:
+    - ttcat
+    - aaron
+
+- id: 
+
+  name: 海外參訪 - Personal Democracy Forum (PDF), NYC
+  name_en: 
+
+  description: 個人民主論壇 (The Personal Democracy Forum，簡稱 PDF) 為美國 Civic Hall 所舉辦於美國紐約，一年一度針對公民科技與數位民主的研討會。PDF17講者橫跨政界、企業與各類公民組織，主題包括政治、選舉、公民科技與各種與科技相關的社會運動議題。超過 800 位社會企業家、公民黑客、政府公務員、研究人員、新媒體與藝術家齊聚一堂，其中包含台灣數位政委唐鳳也受邀出席演講，並與 OCF 副執行長共同擔任座談講者。
+  description_en: 
+
+  cover_image: /p/intl/2017/0608PDFNYC.JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2017/06/08
+  end: 2017/06/09
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+  links_en:
+
+  organizer_ids:
+    - civichall
+  participant_ids:
+    - ttcat
+    - aaron
+
+- id: 
+
+  name: 開放政府觀察報告 協作工作坊
+  name_en: 
+
+  description: 本活動將邀請參與者一同針對 OCF 今年預計出版之《開放政府觀察報告 2014-2016》草稿，提出意見、討論。
+  description_en: 
+
+  cover_image: /p/intl/2017/170714intl.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/07/14
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/ogr-review
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - mglee
+    - afi
+    - ttcat
+    - clkao
+
+- id: 
+
+  name: 海外參訪 - APrIGF
+  name_en: 
+
+  description: APRIGF 亞太網路治理論壇今年在曼谷舉辦，討論網際網路相關政策，例如網路霸凌、資訊安全、言論自由、隱私權等許多牽涉網際網路的廣泛議題。
+  description_en: 
+
+  cover_image: /p/intl/2017/0726APrIGF.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/07/26
+  end: 2017/07/29
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://2017.aprigf.asia/
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+    - afi
+    - ttcat
+
+- id: 
+
+  name: APrIGF 回國分享會
+  name_en: 
+
+  description: 分享 OCF 前往曼谷參與 APrIGF 的經驗
+  description_en: 
+
+  cover_image: /p/intl/2017/170811intl.JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2017/08/11
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/aprigf-sharing
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+    - afi
+    - ttcat
+    - mglee
+    - yhsiang
+
+- id: 
+
+  name: NGO 資安討論小聚
+  name_en: 
+
+  description: 這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。
+  description_en: 
+
+  cover_image: 
+  banner_image: 
+  theme_color: 
+
+  start: 2017/08/16
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+
+- id: 
+
+  name: "#CivicTechFest公民科技週"
+  name_en: 
+
+  description: 世界公民科技週為一週的系列活動，由OCF舉辦，與超過10個國際組織/聯盟串聯，並與國內外團體舉辦超過9場各類型活動，包括研討會、論壇、工作坊、訓練營、黑客松、相關會議。
+  description_en: 
+
+  cover_image: /p/intl/2017/09CivicTechFest.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/09/10
+  end: 2017/09/17
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: http://civictechfest.org/
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+
+- id: 
+
+  name: 開放政府觀察報告發表會
+  name_en: 
+
+  description: 《開放政府觀察報告 2014-2016》回顧並檢視了台灣 2014-2016 年「開放政府」的發展狀況。透過現況整理，我們將試圖呈現「開放政府」這個概念下可能涵蓋的幾個面向與其內涵，並點出發展過程中可能有的問題與未來挑戰。我們期望這份報告可以建立一個初步的檢視與討論的基礎，讓一般大眾可以容易地理解相關議題的爭議點，也讓議題推動者與政策制定者可以藉此進行更深入的分析、批判與政策倡議。9/10 發表會則是內容的首次發表。
+  description_en: 
+
+  cover_image: /p/intl/2017/0910OGR release.JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2017/09/10
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/opengovreport
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - afi
+    - mglee
+    - clkao
+    - ttcat
+    - huangfu
+    - miniwu
+
+- id: 
+
+  name: TICTeC@Taipei
+  name_en: 
+
+  description: TICTeC@Taipei 是2017 世界公民科技週的主要活動，由開放文化基金會與英國知名公民科技組織 mySociety共同舉辦，更是第一次在亞洲舉辦，具有標誌性的意義。共有36國超過250位參與者，
+  description_en: 
+
+  cover_image: /p/intl/2017/0911TICTeC@Taipei.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/09/11
+  end: 2017/09/13
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 成果網站
+      url: http://tictec.mysociety.org/taipei
+  links_en:
+
+  organizer_ids:
+  co-organizer_ids:
+    - mysociety
+  participant_ids:
+
+- id: 
+
+  name: Social Event & g0v Grant DEMO Party
+  name_en: 
+
+  description: CivicTechFest的交流派對，不但有36國參與者一同閒聊深談，更有2017 年春季 g0v 公民科技創新獎助金的 7 件獲獎專案，與全球分享 6 個月來的開發成果！
+  description_en: 
+
+  cover_image: /p/intl/2017/0911DemoParty.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/09/11
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 現場照片
+      url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2012576215684971
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+
+- id: 
+
+  name: CfAll Summit 全球公民科技聯盟年度會議
+  name_en: 
+
+  description: Code for All是以科技促進資訊透明、民主參與、政府再造的全球重要網絡之一，台灣g0v作為聯盟會員，與法人夥伴開放文化基金會一起舉辦在台北召開的年度大會，共有來自全球16個會員及夥伴組織共48人參與。會議中於各項討稐後成立六個工作小組，並且由台灣擔任交換計畫負責組織，且正式加入新組成的執行委員定期會議。
+  description_en: 
+
+  cover_image: /p/intl/2017/0914CfAllSummit.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/09/14
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 現場照片
+      url: https://www.facebook.com/pg/www.ocf.tw/photos/?tab=album&album_id=2006034489672477
+  links_en:
+
+  organizer_ids:
+  co-organizer_ids:
+    - codeforall
+    - ndi
+  participant_ids:
+
+- id: 
+
+  name: NGOs 資料實戰營
+  name_en: 
+
+  description: 不會寫程式也沒有相關分析背景，只能被動接受媒體、長官、前輩的經驗談或是分析結論嗎？是否有方法可以上手資料分析，讓自己也能透過資料驗證經驗、透過資料探索出新觀點、進而運用資料創造價值呢？相信在數位的時代，非政府組織資料處理能力的提升，能讓NGOs在倡議及公民教育工作上更精進，也有助於台灣公民社會進一步進行民主深化。
+  description_en: 
+
+  cover_image: /p/intl/2017/0915DataBootcamp.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/09/15
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 現場照片
+      url: https://www.facebook.com/media/set/?set=a.2000335226909070.1073741844.1502561953353069&type=1&l=b9ca7bc8a3
+  links_en:
+
+  co-organizer_ids:
+    - frontier
+    - twdsconf
+  participant_ids:
+    - afi
+    - singing
+    - huangfu
+    - pellaeon
+
+- id: 
+
+  name: Wikimedia Taiwan 十週年研討會
+  name_en: 
+
+  description: Wikimedia Taiwan 十週年研討會是中華民國維基媒體協會成立十週年的回顧，本活動廣邀過去的社群成員、學界研究者、合作伙伴，以及關心開放文化的朋友，一同來了解協會現在已經完成的成果，同時想像未來十年需要共同努力的願景。
+  description_en: 
+
+  cover_image: /p/intl/2017/0916wiki.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/09/16
+  end: 2017/09/17
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動資訊及議程
+      url: https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/10th_anniversary/Anniversary
+  links_en:
+
+  organizer_ids:
+    - wikimediatw
+  participant_ids:
+    - pellaeon
+
+- id: 
+
+  name: 海外參訪 - Code for Japan Summit
+  name_en: 
+
+  description: 與g0v同為全球公民科技聯盟會員，Code for Japan年度會議特別邀請副執行長吳銘軒前往演講，並即時視覺摘要讓群眾了解台灣公民科技運動。
+  description_en: 
+
+  cover_image: /p/intl/2017/0924CodeforJapan.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/09/24
+  end: 2017/09/25
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+  links_en:
+
+  organizer_ids:
+    - code4jap
+  participant_ids:
+    - ttcat
+
+- id: 
+
+  name: 開放政府在地方的可能 ─ 台南
+  name_en: 
+
+  description: 開放政府觀察報告發表後，兩位研究員受台南新芽邀請，至台南進行針對此觀察報告及開放政府相關推動的分享會
+  description_en: 
+
+  cover_image: /p/intl/2017/1001tainanOGR_resized.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/10/01
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/ogr-tainan
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - afi
+    - mglee
+
+- id: 
+
+  name: 海外參訪 COCONET：Southeast Asia Digital Rights Camp
+  name_en: 
+
+  description: 針對東南亞，強調區域串聯和合作的數位人權共識營，活動由來自不同國家的團體共同設計，包括印尼、馬來西亞、泰國、緬甸、柬埔寨，此次舉辦吸引各地100人參與，背景多元涵蓋人權工作者、女權工作者、資安講師、紀錄片導演、媒體、藝術家等。活動多以unconference形式進行，促進多方充分討論和意見交換。
+  description_en: 
+
+  cover_image: /p/intl/2017/1023coconet.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2017/10/23
+  end: 2017/10/27
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat

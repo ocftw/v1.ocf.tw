@@ -1,0 +1,767 @@
+- id: 
+
+  name: NGO 的資安討論小聚 6
+  name_en: 
+
+  description: "這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。第六場預計會介紹的主題是：網際網路及手機網路的原理"
+  description_en: 
+
+  cover_image: /p/intl/2018/ngosecurity.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/02/26
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/ngo-infosec-6
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+
+- id: 
+
+  name: 不簡單生活節：公民科技改變世界
+  name_en: 
+
+  description: 開放文化基金會與富邦文教基金會「不簡單生活節」合作，為學校教師準備了一系列精彩的開放源軟體、開放文化，和公民科技如何改變世界的社群經驗分享活動。
+  description_en: 
+
+  cover_image: /p/admin/2018/digitalcivil.png
+  banner_image: 
+  theme_color: 
+
+  start: 2018/03/10
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 簡報文件
+      url: https://docs.google.com/document/d/1KEEXhtw17Mj618RG5SDmZuYxyfeyIWiEuUa7oLWx0sw/edit#heading=h.9vpfwesezz7r
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat
+    - lulukeng
+    - rock
+
+- id: 
+
+  name: 國際出訪：2018TICTeC公民科技動能推升研討會
+  name_en: 
+
+  description: TICTeC（The Impacts of Civic Technology Conference，公民科技動能推升研討會) 為一年一度關注開放資料及公民科技影響力的國際研討會，致力於探討公民科技在不同社會環境與政治脈絡下的影響力，是串連世界各國公民科技社群的重要網絡。有別於其它著重技術的研討會，TICTeC 更具有學術性的色彩，強調線上與線下、科技與社會的串連。2018年度會議在葡萄牙首都里斯本舉辦。
+  description_en: 
+
+  cover_image: /p/intl/2018/tictec2018.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/04/18
+  end: 2018/04/19
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://tictec.mysociety.org/2018
+    - title: 參訪報告
+      url: https://docs.google.com/document/d/16ZGcEuIhVm7dvBLaQwcZ5DlALptLuMUHv0Vbm0YvgrQ/edit#heading=h.770g6vwuymp9
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat
+    - aiya
+
+- id: 
+
+  name: 法國&臺灣開放資料座談 FR-TW Open Data Forum
+  name_en: 
+
+  description: 法國是如何推動智慧城市？並且推動全面的數位化變革？在數位化的過程中，地方政府如何因應？又如何影響民主制度？由法國在台協會和開放文化基金會共同舉辦，邀請四位法國/台灣講者，從政務官角度及學者角度切入，聊聊兩國地方政府推動及使用開放資料的經驗、案例分享，也聊聊民間使用開放資料的實質回饋。
+  description_en: 
+
+  cover_image: /p/intl/2018/0421intl-frenchopendata.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/04/21
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/frtwopendata
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+
+- id: 
+
+  name: NGO 的資安討論小聚 7 - 我在臉書的個資怎麼了？
+  name_en: 
+
+  description: "這個聚會是希望有個場合可以讓需要資訊安全方面幫助的 NGO 工作者有地方可以問問題和討論，聚會以輕鬆的方式進行，目的更著重在建立一個互相交換情報、互相支持的網絡。我們的聚會有 NGO 工作者和資訊安全及其他電腦領域的專業人士參加。本場預計會介紹的主題是：Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避免自己在劍橋分析類似的案例中受害？FB 朋友傳來看起來像病毒的影片連結？"
+  description_en: 
+
+  cover_image: /p/intl/2018/ngosecurity.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/04/24
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/ngo-infosec-7
+    - title: 活動簡報
+      url: https://docs.google.com/presentation/d/1Mf5dQtu9oAbJOrGj0SxJPxuVVOlPlde_fs-3c0AD45g
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+    - lilin
+
+- id: 
+
+  name: 國際出訪：Personal Democracy Forum Central and Eastern Europe(PDFCEE)　個人民主論壇 PDF 2018
+  name_en: 
+
+  description: 個人民主論壇中東歐區域分支（PDF CEE），2016 年於波蘭首辦。今年 2018 年 PDF CEE 的主題定為：Future for All（全民的未來），這是對現實世界快速的公民科技運動發展的反省，反思毫無停歇、快速變化的科技發展在大幅改變決策方式之餘，也同時讓一些公民被屏除於決策過程之外。我們當下面對的挑戰，反而是如合促成更好的 inclusion，來正面積極的展望未來，並促成”為每個人打造的未來“。
+  description_en: 
+
+  cover_image: /p/intl/2018/20180426pdfcee.png
+  banner_image: 
+  theme_color: 
+
+  start: 2018/04/26
+  end: 2018/04/27
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://pdfcee.pl/en/
+    - title: 相關報導
+      url: https://g0v.news/%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9%E8%88%87%E8%8F%AF%E6%B2%99%E7%9A%84%E8%9B%BB%E8%AE%8A-%E8%A7%80%E5%85%89%E5%9E%83%E5%9C%BE-%E7%A9%BA%E6%B1%99-%E9%BB%91%E5%BF%83%E9%83%BD%E6%9B%B4-%E5%B0%8F%E5%B8%82%E6%B0%91%E7%94%A8%E7%A7%91%E6%8A%80%E8%A7%A3%E6%B1%BA-%E5%9F%8E%E5%B8%82%E4%B9%8B%E7%97%9B-7b8ae3500d96
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat
+    - aiya
+
+- id: 
+
+  name: 國際出訪：RightsCon Summit Series
+  name_en: 
+
+  description: "國際組織 Access Now ，是一個致力於開放自由網路的人權、公共政策、與倡議性之國際非營利組織。自2009年成立以來，Access Now 持續倡議數位人權的議題，其針對下列五個主要的政策領域：數位安全、言論自由、隱私、網路歧視、以及商業與人權。RightsCon 數位人權大會是由 Access Now 所主辦、目前世界最大的數位人權活動，每年在不同國家舉行，2017 年 3 月於布魯塞爾舉辦時，參加者已超過 1500 人，今年在加拿大多倫多的大會於 5/16-18 舉行，參加者人數更是再度超越往年紀錄，來到超過 2000 人的人數，參加者背景分別來自全球的資訊公司、人權組織、網路治理機構與政府和聯合國組織，囊括世界上數位科技領域的所有重要領域，三日的活動中，多軌並行進行的公開議程超過 450 個，更有不計其數的議題工作坊、座談會、圓桌會議、小組討論、閉門會談等，這些來自世界各地的資訊專業人士、政策制定者、學術研究者與人權工作者，從各種面向切入，討論資訊時代的隱私、言論自由等數位人權，以及最新的科技（例如人工智慧、區塊鏈）在數位人權方面的影響，並也探討公民科技如何幫助人們、人權行動者面對怎樣的網路與科技議題或如何使用網路作為發聲、對抗的方式。"
+  description_en: 
+
+  cover_image: /p/intl/2018/0516rightscon.png
+  banner_image: 
+  theme_color: 
+
+  start: 2018/05/16
+  end: 2018/05/18
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://www.rightscon.org/
+    - title: 台灣代表團紀錄
+      url: https://beta.hackfoldr.org/RightsCon2018Taiwan
+    - title: 出訪報告
+      url: "https://github.com/ocftw/v1.ocf.tw/raw/gh-pages/p/intl/2018/2018%20%E5%A4%9A%E5%80%AB%E5%A4%9A%20RightsCon%20%E4%B8%96%E7%95%8C%E6%95%B8%E4%BD%8D%E4%BA%BA%E6%AC%8A%E5%A4%A7%E6%9C%83%E6%9C%83%E5%BE%8C%E5%A0%B1%E5%91%8A%20%E5%85%AC%E9%96%8B%E7%89%88.pdf"
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat
+    - pellaeon
+    - lilin
+
+- id: 
+
+  name: 國際出訪：Code for America Summit
+  name_en: 
+
+  description: At the Summit, you’ll find the right people—at every level, from every level of government—in the right place, at the right time. Our workshops, main stage presentations and panels, breakout sessions, and networking events show that there’s a cheaper, better, faster way to do the job of government enabled technology.
+  description_en: 
+
+  cover_image: /p/intl/2018/CodeforAmericaSummit.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/05/29
+  end: 2018/05/31
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://www.codeforamerica.org/events/summit/2018
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+
+- id: 
+
+  name: 國際出訪：Personal Democracy Forum 2018 :How We Make Good
+  name_en: 
+
+  description: 吸引近 400 位產官學代表參與的個人民主論壇（ Personal Democracy Forum CEE 2018），繼今年 4 月底在波蘭首聚後，6 月亦在紐約登場。來自不同國家的講者，將於此分享各種實踐公民人權的方式與經驗。
+  description_en: 
+
+  cover_image: /p/intl/2018/0607intl.JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2018/06/02
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://www.pdf-18.com/
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+
+- id: 
+
+  name: 國際出訪：歐洲公民科技組織拜訪
+  name_en: 
+
+  description: 法國國會議員Paula Forteza 邀請OCF國際交流組參與她每週五的開放辦公室活動，國際交流組也希望在歐美公民科技社群近一步發展關係，建立未來合作機會，因此將 4 個城市拉出一條出訪軸線，拜訪四地公民科技利益相關方，進一步了解歐洲現存的公民科技工具與平台，建立關係及潛在資源，並藉出訪行程宣傳今年g0v Summit。四個城市出訪，共訪談交流 9 個民間團體，2 地市府官員（米蘭與阿姆斯特丹），1 位中央數位計畫官員，並由當地團體協助組織了3場演講，分別在巴黎國會辦公室、荷蘭市府 Datalab 計畫辦公室、以及德國公民社群 Code for Berlin 定期聚會。拜訪行程因同時宣傳 g0v Summit，有一半的拜訪團體都投稿參與今年的 g0v Summit。
+  description_en: 
+
+  cover_image: /p/intl/2018/歐洲公民科技組織拜訪.JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2018/06/12
+  end: 2018/07/25
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 參訪報告
+      url: https://docs.google.com/document/d/1cuHiaqRvUnRb2Ydd2hsEOcGG6qZUW_uUrknKYWu0OjU/edit#heading=h.4rpx3qvpes03
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - aiya
+
+- id: 
+
+  name: 國際出訪：Citizen Lab Summer Institute on Monitoring Internet Openness and Rights
+  name_en: 
+
+  description: "The Citizen Lab Summer Institute on Monitoring Internet Openness and Rights is an annual research workshop hosted at the Munk School of Global Affairs, University of Toronto. CLSI is a workshop for researchers and practitioners from academia, civil society, and the private sector who are working on Internet openness, security, and rights. The event brings together people with different perspectives from a wide range of backgrounds across technical and social science disciplines. Participants range from established experts to those just entering the area. We started CLSI to demonstrate that a greater understanding of technology and policy can only be achieved through interdisciplinary collaboration. Our aim is to help build and support a community that shares this belief. "
+  description_en: 
+
+  cover_image: /p/intl/2018/CitizenLab.png
+  banner_image: 
+  theme_color: 
+
+  start: 2018/06/13
+  end: 2018/06/15
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://citizenlab.ca/summerinstitute/2018.html
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+
+- id: 
+
+  name: East Asia Combating Disinformation Workshop
+  name_en: 
+
+  description: "This workshop is alongside the East Asia Democracy Forum host by TFD and is aim to invite leaders from CSOs, independent media, fact checking communities in this region, and focus on knowledge and skill sharing:
+● Disinformation status quo of East Asia countries
+● Insights, Research pitches
+● Tech tools, projects or actions that have been conducted, and share
+● Hands-on training or capacity building
+● Challenges and Lessons
+● Networking"
+  description_en: 
+
+  cover_image: /p/intl/2018/0626intl.JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2018/06/26
+  end: 2018/06/28
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat
+    - lulukeng
+    - pellaeon
+    - lilin
+    - vivianlw
+    - yhchang
+
+- id: 
+
+  name: 2018 多倫多 RightsCon 數位人權大會分享會
+  name_en: 
+
+  description: 每年在 RightsCon 數位人權大會中，都可以看到台灣參與者的身影，活躍地參加會議、議程、擔任講者。然而一定有更多台灣的夥伴，雖然關注此議題，卻無法親自前往參加大會。為了讓國際參與的經驗不僅是停留在出國參加的少數夥伴身上，而可以讓所有關注人權、對資訊議題有興趣的朋友都可以共襄盛舉，因此每年都會在 RightsCon 大會結束後，邀請參與RightsCon 的台灣參加者舉辦經驗分享。今年，數名來自台灣，各自分屬資訊、人權等領域的組織工作者，都前往多倫多參與這個大會，並且在大會中多場議程擔任講者、主持人，或參與閉門會議等。這個分享會針對所有有興趣但無法前往參加的朋友、或是想要了解數位人權議題的任何人，歡迎大家一起來聽聽參與者們分享這個大會的參與經驗！"
+  description_en: 
+
+  cover_image: /p/intl/2018/0619intl.JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2018/06/29
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/rightscon2018-sharing 
+    - title: 活動共筆
+      url: https://hackmd.io/5lRa67SAQLy_erJd62bdvQ  
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+     - pellaeon
+     - lilin
+
+- id: 
+
+  name: 2018 美國公民科技之行回台分享會
+  name_en: 
+
+  description: 政府與民間的公民科技不一樣嗎？兩大會議，一個以政府視野來探討，一個以公民社群為出發點，有著非常不一樣的氛圍和議程，也帶來許多反思和如何運用科技的探討。而四位分享者，也將以不同身份提出不同觀察，並與大家分享更多會議以外的交流故事、行程秘辛、未來推坑大計，至於驚喜彩蛋，那只能來現場才能得知了啊！！
+  description_en: 
+
+  cover_image: /p/2018/g0v/0711g0v.png 
+  banner_image: 
+  theme_color: 
+
+  start: 2018/07/11
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動直播
+      url: https://www.youtube.com/watch?v=Aa-YETYM7ak
+    - title: 結案報告
+      url: https://drive.google.com/file/d/1LBtK-GXChzKqsqJiEDsQA7Q-BkEG3ca1/view?usp=sharing
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - lulukeng
+    - ttcat
+    - ipa
+    - yhchang  
+
+- id: 
+
+  name: 國際出訪：2018 OGP summit 開放政府夥伴聯盟高峰會
+  name_en: 
+
+  description: 為促進各國政府公開透明以深化全球民主的發展，在 2011 年聯合國大會後，八國政府組成開放政府夥伴聯盟（Open Government Partnership，簡稱 OGP），共同倡議並簽署了《開放政府宣言》。OGP目前已有 76 個會員國，這些國家共同倡議並簽署了《開放政府宣言》，針對政府資訊透明、公民賦權、打擊腐敗、利用科技增進政府治理等等項目提出實質承諾，每兩年舉辦一次高峰會。而今年的 OGP Summit 在7月中於俄羅斯南方小國喬治亞（Georgia）舉行，吸引超過 2000 位來自各國的政府公務員、公民社會團體參與，就開放政府在世界各地的實踐成果、各自面對的困境與未來發展交流對話。為舉辦開放政府高峰會，喬治亞特別開放短期免簽讓台灣人參與，開放文化基金會也因此籌組了2018 OGP Summit 台灣民間參訪團。
+  description_en: 
+
+  cover_image: /p/intl/2018/ogp開放政府分享會.JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2018/07/17
+  end: 2018/07/19
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 參訪報告
+      url: https://docs.google.com/document/d/1YYlpDGasJ5e-M8uJXw67DOQCfwrm0Ix8wMS7Fo-sBIM/edit
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat
+    - aiya
+
+- id: 
+
+  name: 國際出訪：亞太網路治理論壇
+  name_en: 
+
+  description: 亞太地區網路治理論壇（Asia Pacific Regional Internet Governance Forum, APrIGF）是一個針對網路治理的各方面議題舉辦的大型主題論壇，提供參與者進行經驗分享、討論，創造跨國的區域合作與發展。在聯合國每年舉辦世界網路治理論壇的同時，大家也認為，除了世界級的網路治理議題外，還需要針對特定區域、聚焦在當地的網路治理論壇，因此各個地區也自行發展自己的網路治理論壇。
+  description_en: 
+
+  cover_image: /p/intl/2018/0813aprigf.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/08/13
+  end: 2018/08/16
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 官方網站
+      url: http://aprigf.vu/
+    - title: 台灣參訪團資訊
+      url: https://beta.hackfoldr.org/AprIGF2018Taiwan
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+    - lilin 
+
+- id: 
+
+  name: OGP開放政府高峰會 分享會
+  name_en: 
+
+  description: OGP Summit 在7月中於俄羅斯南方小國喬治亞（Georgia）舉行，為舉辦開放政府高峰會，喬治亞特別開放短期免簽讓台灣人參與，開放文化基金會也因此籌組了2018 OGP Summit 台灣民間參訪團，並於回台後舉辦 3 場不同主題的分享會：OGP整體觀察 、媒體觀察暨推動台灣加入 OGP 的意義與下一步 聚焦各國案例：公民科技 x 不實訊息 x 環境。
+  description_en: 
+
+  cover_image: /p/intl/2018/2019OGPsharing.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/08/18
+  end: 2018/09/07
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/ogpsharing
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat
+    - aiya
+    - lulukeng
+
+- id: 
+
+  name: 國際出訪：Digital Asia Hub
+  name_en: 
+
+  description: The Digital Asia Hub convened a symposium on the topic of Disinformation & Discourse:Rebuilding Trust in Institutions, Platforms, & Civic Spaces on 21 August, 2018, in Jakarta, Indonesia, bringing together over 50 subject matter experts from all over Asia and the world, across academia, industry, government, and civil society.
+  description_en: 
+
+  cover_image: /p/intl/2018/DigitalAsiaHub.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/08/21
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 官網報導
+      url: https://www.digitalasiahub.org/2018/08/22/disinformation-and-discourse-rebuilding-trust-in-institutions-platforms-and-civic-spaces/
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - yhchang
+
+- id: 
+
+  name: 亞太網路治理論壇 分享會
+  name_en: 
+
+  description: 2016 年曾經成功爭取在台北主辦亞太網路治理論壇的台灣，在每年舉辦的 APrIGF 亞太網路治理論壇，都有許多參與者非常活躍地參加。雖然參與者眾多，但由於時間金錢等資源限制，仍然有許多人雖然有興趣、並關注這個議題，但無法遠道參與國際論壇。為了讓國際參與的經驗不僅是停留在出國參加的少數夥伴身上，而可以讓所有關注網路治理、資訊議題有興趣的朋友都可以共襄盛舉，因此在 APrIGF 結束後，許多前往參與的夥伴都會舉辦分享討論的活動，邀請參加者進行經驗分享、並且讓其他朋友一同加入討論。這個分享會針對所有有興趣但無法前往參加的朋友、或是想要了解網路治理議題的夥伴，歡迎大家一起來聽聽參與者們分享這個大型論壇的經驗！
+  description_en: 
+
+  cover_image: /p/intl/2018/APrIGF.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/09/14
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/aprigf2018-sharing
+    - title: 參訪報告
+      url: https://docs.google.com/document/d/18bd4luXaMwRsYY0ywLbVzqhgibztVMOILZQhhIa_jgw/edit
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+    - lilin 
+
+- id: 
+
+  name: 2018開放資料高峰會-回台分享會
+  name_en: 
+
+  description: 作為全球開放資料最重要的會議，IODC (International Open Data Conference) 於2010年開始舉辦，2018年邁入第五屆，並首次辦在南半球，於阿根廷首都布宜諾斯艾利斯(Buenous Aires)舉辦。除了開放文化基金會，還有Open Data聯盟以及中研院，共計有八位台灣參與者。
+  description_en: 
+
+  cover_image: /p/intl/2018/IODC2018.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/10/24
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/opendatavisits
+    - title: 參訪報告
+      url: https://docs.google.com/document/d/199dE73HFgWkM7_x2zWtI5asYiOy-QLAkBzS8pmnMyaY/edit
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat
+    - lulukeng
+
+- id: 
+
+  name: 「公民實驗室」分享會：中國網路審查與監控
+  name_en: 
+
+  description: 中國對網路言論與活動的審查、對異議人士的監控大概是所有極權國家中手段最細緻與全面的。然而中國的審查制度與技術從來不透明，需要長期而深入的研究，才有可能一窺堂奧。來自加拿大多倫多大學的公民實驗室，專注於網路開放以及揭露各國政府在網路侵犯基本人權的行徑，就針對中國的審查制度有長期的研究。很榮幸邀請到公民實驗室來為我們解析研究中國審查制度的成果、他們如何進行相關研究，以及中國政府的審查與監控機制對國際有什麼影響。
+  description_en: 
+
+  cover_image: /p/intl/2018/civiclab.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/10/28
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/citizenlab
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - yhchang
+    - vivianlw
+
+- id: 
+
+  name: 讓網路審查無所遁形的工具—— OONI 偵測器工作坊
+  name_en: 
+
+  description: 人民要如何瞭解網路審查的現狀和趨勢呢？要瞭解政府阻擋了哪一些網站，是否有一套自動化的檢查程式？政府阻擋與開放特定網站，也會因為國家、地區、電信商、時間有所不同，是否有方法彙整不同條件下檢查程式的結果，讓我們看出趨勢？解答以上這些問題，即是「網路審查開放測量計劃」（Open Observatory of Network Interference, OONI）成立的初衷。開放文化基金會 （OCF）近期邀請到 OONI 的專案人員在臺灣舉辦工作坊，以增進臺灣大眾對於 OONI 、網路審查，以及更大範圍上對於資安、隱私、網路自由的關注。
+  description_en: 
+
+  cover_image: /p/intl/2018/OONI.jpeg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/11/01
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/ooni-workshop
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+    - lilin
+
+- id: 
+
+  name: Oslo Freedom Forum
+  name_en: 
+
+  description: The Oslo Freedom Forum (OFF) 是每年舉辦的國際會議，其會議主要為組織、串聯全球社群一起來討論如何讓人類世界更加和平自由。2018 為 OFF 首次於台灣舉辦，OCF 除了現場參與，也與不同專案 (ex. cofacts, 透明足跡, 台權會網路透明度報告) 一起於現場設立攤位，於所有與會者一起交流台灣在地和全球人權議題。 
+  description_en: 
+
+  cover_image: /p/intl/2018/OFFinTaiwan_2018_Website_Event.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/11/10
+  end: 
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://oslofreedomforum.com/events/2018-oslo-freedom-forum-in-taiwan
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttcat
+    - lulukeng
+    - lilin
+    - yhchang
+
+- id: 
+
+  name: 國際出訪：Chaos Communication Congress
+  name_en: 
+
+  description: The Chaos Communication Congress is an annual conference organized by the Chaos Computer Club. The congress features a variety of lectures and workshops on technical and political issues related to security, cryptography, privacy and online freedom of speech. The event takes place regularly at the end of the year since 1984.
+  description_en: 
+
+  cover_image: /p/intl/2018/35C3_Logo.svg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/12/27
+  end: 2018/12/30
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://events.ccc.de/congress/2018/wiki/index.php/Main_Page
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
