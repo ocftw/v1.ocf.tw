@@ -52,7 +52,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2018/cctw/ccfor2018rep.jpg
+        url: /p/cctw/2018/ccfor2018rep.jpg
         swap: false
       - type: article
         title: Age of self-media - being seen by using Creative Commons

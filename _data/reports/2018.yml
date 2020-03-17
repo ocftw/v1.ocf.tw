@@ -52,7 +52,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2018/cctw/ccfor2018rep.jpg
+        url: /p/cctw/2018/ccfor2018rep.jpg
         swap: false
       - type: article
         title: 自媒體時代，創用CC 讓你更被看見！

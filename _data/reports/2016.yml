@@ -105,7 +105,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/cctw/CC_2016.jpg
+        url: /p/cctw/2016/CC_2016.jpg
         swap: false
       - type: article
         title: 【學】CCTW X OCF — 第 2 彈
