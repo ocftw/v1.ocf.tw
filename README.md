@@ -1,198 +1,173 @@
-# OCF.TW 開放文化基金會官方網站
+# OCF.TW 開放文化基金會官方網站交接文件
 
-## 線上預覽
+這份文件是寫給維護 OCF 網站的人，希望讓大家不用特別花時間學習網站開發技術，就能順利完成新增專案、修改頁面內容等日常工作。
 
-[ocf.tw](http://ocf.tw/)
+## 背景知識
 
-## 編輯網站內容
+大家知道網站分成前端、後端，前端就是看得到的網頁，後端則是看不到的伺服器、資料庫。我們 OCF 官網因為寄生在 github 上面，使用內建工具的關係，只需要做前端就可以了。
+
+只要按照規定的方式，製作網頁版面跟網頁資料，github 的內建工具 jekyll 就會幫我們自動合成前端的網頁。網頁版面的檔案格式是 .html，網頁資料的檔案格式是 .yml，這就是維護 OCF 官網時需要編輯的兩種檔案。
+
+編輯完成後，可以先到 [編輯紀錄](https://github.com/ocftw/v1.ocf.tw/commits/gh-pages) 檢查剛才改的內容是不是有成功合成到網頁，確認有綠色勾勾以後，就可以直接到上線網址 [ocf.tw](http://ocf.tw/) 看結果。
+
+## 如何編輯網站內容
 
 ### 新增專案
 
-1. 建立專案資料
+#### 一、建立專案資料
 
-  - 決定專案 id （英數，英文全小寫）
+1. 決定專案 id （英數，英文全小寫）
+2. 建立專案資料的資料夾
+    - 位置：`_data/p/（專案 id）/`
+3. 建立專案的 yml 檔案
+    - 名稱：`project.yml`
+    - 位置：`_data/p/（專案 id）/`
+4. 編輯專案的 yml 檔案
+    - 範例：[`_data/p/project_id/project.yml`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/p/project_id/project.yml)
 
-  - 建立專案的 `.yml` 檔案
+#### 二、建立專案網頁
 
-    - 檔案名稱： `(your_project_id).yml` ，例如 `intl.yml`
-    - 檔案位置： `/_data/projects/(current_year)/` ，例如 [/_data/projects/2016/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/projects/2016)
+1. 建立專案網頁的資料夾
+    - 名稱：專案 id
+    - 位置：`p/`
+2. 建立專案網頁的 html 檔案
+    - 名稱：`index.html`
+    - 位置：`p/（專案 id）/`
+3. 編輯專案網頁的 html 檔案
+    - 範例：[`p/project_id/index.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/project_id/index.html)
+    - [專案網頁範例預覽](https://ocf.tw/p/project_id/)
 
-  - 複製 [專案 yml 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/projects/_project_id.yml) 的內容，貼到新建立的 `(your_project_id).yml` 檔案中編輯
+#### 三、建立專案英文網頁
 
-2. 把專案加到 [專案與成果](http://ocf.tw/projects/) 頁的列表
+1. 建立專案英文網頁的資料夾
+    - 名稱：專案 id
+    - 位置：`en/p/`
+2. 建立專案英文網頁的 html 檔案
+    - 名稱：`index.html`
+    - 位置：`en/p/（專案 id）/`
+3. 編輯專案英文網頁的 html 檔案
+    - 範例：[`en/p/project_id/index.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/en/p/project_id/index.html)
+    - [專案英文網頁範例預覽](https://ocf.tw/en/p/project_id/)
 
-  - 把 `(your_project_id)` 加到 [/_data/projects/settings.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/projects/settings.yml) 的清單中
+#### 四、把專案加到 [專案與成果](http://ocf.tw/projects/) 頁的列表
 
-3. 建立專案頁（optional，視業務需要）
+::: warning
+TODO：未來專案列表會自動抓取資料，不需再額外設定
+:::
 
-  - 建立專案資料夾
+### 新增子專案
 
-    - 資料夾名稱： `(your_project_id)` ，例如 `intl`
-    - 資料夾位置： `/p/(current_year)/` ，例如 [/p/2016/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p/2016)
+子專案的 yml 資料格式和 html 頁面版型，都和專案沒有分別，只是檔案位置不在 `p/` 而是在 `p/（專案 id）/` ，也就是專案資料夾的下一層。
 
-  - 在專案資料夾中新增 `index.html` 檔案
+#### 一、建立子專案資料
 
-  - 複製 [專案頁 html 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/_yyyy/_project_id/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
+1. 確認所屬專案 id
+2. 決定子專案 id （英數，英文全小寫）
+3. 建立子專案資料的資料夾
+    - 位置：`_data/p/（專案 id）/（子專案 id）/`
+4. 建立子專案的 yml 檔案
+    - 名稱：`project.yml`
+    - 位置：`_data/p/（專案 id）/（子專案 id）/`
+5. 編輯子專案的 yml 檔案
+    - 範例：[`_data/p/project_id/sub_project_id/project.yml`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/p/project_id/sub_project_id/project.yml)
 
-4. 建立英文專頁（optional，可以出現專案在 [Projects](https://ocf.tw/en/p/） )
+#### 二、建立子專案網頁
 
-  - 更新專案的 `.yml` 檔案
+1. 建立子專案網頁的資料夾
+    - 名稱：子專案 id
+    - 位置：`p/（專案 id）/`
+2. 建立子專案網頁的 html 檔案
+    - 名稱：`index.html`
+    - 位置：`p/（專案 id）/（子專案 id）/`
+3. 編輯子專案網頁的 html 檔案
+    - 範例：[`p/project_id/sub_project_id/index.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/project_id/sub_project_id/index.html)
+    - [子專案網頁範例預覽](https://ocf.tw/p/project_id/sub_project_id/)
 
-    - 檔案位置： `/_data/projects/(current_year)/` ，例如 [/_data/projects/2018/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/projects/2018)
-    - 需新增的項目如下，可參考：[/p/2018/admin](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p/2018/admin.yml)
-      - name_en: 
-      - description_en:
-      - link_en:
+#### 三、建立子專案英文網頁
 
-  - 建立英文專頁資料夾
-
-    - 資料夾名稱： `(your_project_id)` ，例如 `intl`
-    - 資料夾位置： `/en/(your_project_id)/` ，例如 [/en/admin/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p/2016)
-
-    - 在專案資料夾中新增 `index.html` 檔案
-
-### 設定長期專案
-
-1. 建立長期專案資料夾
-
-  - 資料夾名稱： `(your_project_id)/` ，例如 `admin/`
-  - 資料夾位置： [/p/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p)
-
-2. 建立長期專案頁
-
-  - 在長期專案資料夾中新增 `index.html` 檔案
-  - 複製 [專案頁 html 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/_yyyy/_project_id/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
-  - 將檔案開頭的 `year:` 欄位內容設定為 `current`
-
-3. 建立跳板頁
-
-  - 檔案名稱： `index.html`
-  - 檔案位置： `/p/(year)/(your_project_id)/` ，例如 [/p/2016/admin/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p/2016/admin/)
-  - 檔案內容：複製 [跳板頁 html 範本](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_samples/redirect.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
-
-4. 修改專案資料檔
-
-  - 目標檔案： `/_data/_projects/(current_year)/(your_project_id).yml` ，例如 [/_data/projects/2016/admin.yml](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/projects/2016/admin.yml)
-  - 將檔案內 `link:` 中第一筆資料的 `url:` ，從完整網址改為跳板頁網址，例如從 `/p/2016/admin/` 改為 `/p/admin/`
-
-### 新增工作人員
-
-1. 建立工作人員資料
-
-  - 確認工作人員的 slack id
-
-  - 建立工作人員的的 `.yml` 檔案
-
-    - 檔案名稱： `(staff_id).yml` ，例如 `singing.yml`
-    - 檔案位置： [/_data/people/individuals/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/people/individuals)
-
-  - 複製 [工作人員 yml 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/people/individuals/_person_id.yml) 的內容，貼到新建立的 `(staff_id).yml` 檔案中編輯
-
-2. 把工作人員加到 [工作夥伴](http://ocf.tw/people/) 頁的列表
-
-  - 把 `(staff_id)` 加到 `/_data/people/relations/(list_id).yml` 的清單中，如 [/_data/people/relations/staff.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/people/relations/staff.yml) 
-
-### 新增合作單位
-
-1. 建立合作單位資料
-
-  - 確認合作單位的 id，通常採用網域名稱
-
-  - 建立合作單位的的 `.yml` 檔案
-
-    - 檔案名稱： `(org_id).yml` ，例如 `coscup.yml`
-    - 檔案位置： [/_data/people/orgs/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/people/orgs)
-
-  - 複製 [合作單位 yml 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/people/orgs/_org_id.yml) 的內容，貼到新建立的 `(org_id).yml` 檔案中編輯
-
-2. 把合作單位加到 [工作夥伴](http://ocf.tw/people/) 頁的列表（optional，視業務需要）
-
-  - 把 `(org_id)` 加到 `/_data/people/relations/(list_id).yml` 的清單中，如 [/_data/people/relations/partners.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/people/relations/partners.yml) 
+1. 建立子專案英文網頁的資料夾
+    - 名稱：子專案 id
+    - 位置：`en/p/`
+2. 建立子專案英文網頁的 html 檔案
+    - 名稱：`index.html`
+    - 位置：`en/p/（專案 id）/（子專案 id）/`
+3. 編輯子專案英文網頁的 html 檔案
+    - 範例：[`en/p/project_id/sub_project_id/index.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/en/p/project_id/sub_project_id/index.html)
+    - [子專案英文網頁範例預覽](https://ocf.tw/en/p/project_id/sub_project_id/)
 
 ### 新增活動
 
-1. 建立跨專案共用的活動資料，同時加到所屬專案的活動列表中
+#### 一、建立活動資料
 
-  - 決定活動 id （英數，英文全小寫）
+1. 確認所屬專案 id、子專案 id（如果有子專案的話）
+2. 決定活動 id （英數，英文全小寫）
+3. 建立活動的 yml 檔案
+    - 名稱：`events.yml`
+    p.s. 因為一個 yml 檔案內有多筆活動資料，所以檔名是複數，有 s 喔
+    - 位置：`_data/p/（專案 id）/` 或 `_data/p/（專案 id）/（子專案 id）/`
+3. 編輯活動的 yml 檔案
+    - 範例：[`_data/p/project_id/events.yml`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/p/project_id/events.yml)
 
-  - 複製 [年度活動資料 yml 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/events/_yyyy.yml) 的內容
-  - 貼到活動所屬的年度的 `(year).yml` 檔案中編輯，例如 [_data/events/2016.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/events/2016.yml) ，最新的活動放檔案最上方
+#### 二、建立活動網頁
 
-2. 建立個別專案專用的活動資料，同時加到所屬專案的活動列表中（2016 以前適用，2017 以後的只要做完 1. 就會自動抓進來）
+1. 建立活動網頁的 html 檔案
+    - 名稱：`（活動 id）.html`
+    - 位置：`p/（專案 id）/` 或 `p/（專案 id）/（子專案 id）/`
+2. 編輯活動網頁的 html 檔案
+    - 範例：[`p/project_id/event_id.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/project_id/event_id.html)
+    - [活動網頁範例預覽](https://ocf.tw/p/project_id/event_id)
 
-  - 複製 [專案活動資料 yml 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/events/_project_id.yml) 的內容
-  - 貼到活動所屬的專案的 `(your_project_id).yml` 檔案中編輯，例如 [_data/events/intl.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/events/intl.yml) ，較新的活動資料放在較上方
+#### 三、建立活動英文網頁
 
-3. 建立活動頁（optional，視業務需要）
+1. 建立活動英文網頁的 html 檔案
+    - 名稱：`（活動 id）.html`
+    - 位置：`en/p/（專案 id）/` 或 `en/p/（專案 id）/（子專案 id）/`
+2. 編輯活動英文網頁的 html 檔案
+    - 範例：[`en/p/project_id/event_id.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/en/p/project_id/event_id.html)
+    - [活動英文網頁範例預覽](https://ocf.tw/en/p/project_id/event_id)
 
-  - 建立活動資料夾
+---
 
-    - 資料夾名稱： `(your_event_id)` ，例如 `dalc`
-    - 資料夾位置： `/p/(current_year)/(project_id)/(evnet_id)` ，例如 [/p/2015/intl/dalc/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p/2015/intl/dalc)
+分隔線：以下同 2016 版
 
-  - 在活動資料夾中新增 `index.html` 檔案
+---
 
-  - 複製 [活動頁 html 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/_yyyy/_project_id/_event_id/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
+### 新增工作人員
 
-### 新增年度
+一、建立工作人員資料
 
-1. 編輯全站設定檔 [/_data/settings.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/settings.yml) ，將 `current` 欄位內容改為新的年度，如把 `current: 2015` 改成 `current: 2016`
+1. 確認人員 id （建議沿用公務上的 slack id / telegram id / twitter id 等）
+2. 建立工作人員的 yml 檔案
+    - 名稱： `（人員 id）.yml`
+    - 位置： `_data/people/individuals/`
+3. 編輯工作人員的 yml 檔案
+    - 範例： [`_data/people/individuals/_person_id.yml`](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/people/individuals/_person_id.yml)
 
-2. 設定新年度的專案
+二、把工作人員加到 [工作夥伴](http://ocf.tw/people/) 頁的列表
 
-  - 建立新年度專案的共用資料夾
-    - 資料夾名稱： `(year)` ，例如 `2016`
-    - 資料夾位置一： [/p/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p)
-    - 資料夾位置二： [/_data/projects/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/projects)
+  - 把 `（人員 id）` 加到 `/_data/people/relations/(list_id).yml` 的清單中，如 [/_data/people/relations/staff.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/people/relations/staff.yml) 
 
-  - 若有跨年度專案，設定該專案的 `.yml` 檔案和網頁資料夾
-    - 把 `(your_project_id)/` 從舊年度的資料夾，複製到新年度的資料夾，例如把 `/p/2015/admin/` 複製為 `/p/2016/admin/`
-    - 把 `(your_project_id).yml` 從舊年度的資料夾，複製到新年度的資料夾，例如把 `/_data/projects/2015/admin.yml` 複製為 `/_data/projects/2016/admin.yml`
+::: warning
+TODO: 將來會改成直接在 yml 裡面開一個欄位，設定該 staff 是否顯示在列表
+:::
 
-3. 設定新年度的活動
+### 新增合作單位
 
-  - 建立新年度活動的共用資料檔
-    - 檔案名稱： `(new_year).yml` ，例如 `2016.yml`
-    - 檔案位置： [/_data/events/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/events)
-  - 將新年度加入 [活動日誌](https://ocf.tw/journal/) 頁
-    - 檔頭新增文字： `- (new_year)` （獨自一行）
-    - 檔案位置： [/journal/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/journal/index.html)
+一、建立合作單位資料
 
-4. 設定新年度的電子報
+1. 確認組織 id（建議沿用該單位官網的網域名稱）
+2. 建立合作單位的 yml 檔案
+    - 名稱： `（組織 id）.yml`
+    - 位置： `_data/people/orgs/`
+3. 編輯合作單位的 yml 檔案
+    - 範例： [`_data/people/orgs/_org_id.yml`](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/people/org/_org_id.ymls)
 
-  - 建立新年度電子報的 `.yml` 檔案
-    - 檔案名稱： `(new_year).yml` ，例如 `2016.yml`
-    - 檔案位置： [/_data/news/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/news)
-    - 複製 [電子報資料 yml 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/news/_yyyy.yml) 的內容，貼到新建立的 `(new_year).yml` 檔案中編輯
+二、把合作單位加到 [工作夥伴](http://ocf.tw/people/) 頁的列表（optional，視業務需要）
+  - 把 `（組織 id）` 加到 `/_data/people/relations/(list_id).yml` 的清單中，如 [/_data/people/relations/partners.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/people/relations/partners.yml) 
 
-  - 將新年度的電子報加到 [電子報](http://ocf.tw/news/) 頁
-    - 檔頭新增文字： `- (new_year)` （獨自一行）
-    - 檔案位置： [/news/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/news/index.html)
-
-5. 設定新年度的成果報告
-
-  - 建立新年度成果報告的 `.yml` 檔案
-
-    - 檔案名稱： `(new_year).yml` ，例如 `2016.yml`
-    - 檔案位置： [/_data/reports/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/_data/reports)
-    - 複製 [成果報告資料 yml 範本](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/reports/_yyyy.yml) 的內容，貼到新建立的 `(new_year).yml` 檔案中編輯
-
-  - 建立新年度的成果報告頁
-
-    - 檔案名稱： `index.html`
-    - 檔案位置： `/p/(new_year)/` ，例如 [/p/2016/](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p/2016/)
-    - 複製 [活動頁 html 範本](https://github.com/ocftw/v1.ocf.tw/tree/gh-pages/p/_yyyy/index.html) 的內容，貼到新建立的 `index.html` 檔案中編輯
-
-  - 可在 `/p/(new_year)/` 預覽成果報告頁，如 [/p/2016/](http://ocf.tw/p/2016/)
-
-  - 將成果報告頁加入 [專案與成果](https://ocf.tw/p/) 頁
-    - 在檔頭 `years` 欄位新增年份： `  - (new_year)` （獨自一行，前面有兩個空白）
-    - 檔案位置： [/p/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/index.html)
-    - 英文版檔案位置： [/en/p/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/en/p/index.html)
-
-  - 在英文首頁加入年度報告
-    - 在檔頭 `years` 欄位新增年份： `  - (new_year)` （獨自一行，前面有兩個空白）
-	- 英文首頁原始檔位置： `/en/index.html`
+::: warning
+TODO: 將來會改成直接在 yml 裡面開一個欄位，設定該 org 是否顯示在列表
+:::
 
 ### 編輯電子報清單內容
 
@@ -201,6 +176,10 @@
 ### 編輯成果報告頁面內容
 
 - 編輯當年度的成果報告 `.yml` 檔案，如 2016 年度的檔案為 [/_data/reports/2016.yml](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/reports/2016.yml)
+
+::: warning
+TODO: 目前只支援舊版（2016）專案資料，將來會支援新版（2020）專案資料
+:::
 
 ### 編輯主選單
 
@@ -222,15 +201,16 @@
 
 - 編輯 mediakit 網頁檔 [/mediakit/index.html](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/mediakit/index.html) ，修改檔頭的 `toc` 欄位內容
 
-## 幕後作業區
-
-### 資料
-
-[活動列表後台](http://ocf.tw/backend/)
+## 給開發人員看的東西
 
 ### 設計
 
 [網站設計團隊後台](http://ocf.tw/design/)
+
+::: warning
+TODO: 目前為舊版（2016）網站架構，將來視情況看要不要替新版網站架構做文件
+:::
+
 
 ### 程式
 
