@@ -29,6 +29,9 @@
   participant_ids:
     - pellaeon
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: Greenhost 如何建立獨立且開放的雲端主機平台？主題二：網路資源及路由管理： IP, AS Number, DNS
@@ -60,6 +63,9 @@
   participant_ids:
     - pellaeon
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: Greenhost 如何建立獨立且開放的雲端主機平台？主題三：軟體平臺架構
@@ -90,6 +96,9 @@
   organizer_ids:
   participant_ids:
     - pellaeon
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -123,6 +132,9 @@
   participant_ids:
     - aiya
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：Infracon
@@ -150,6 +162,9 @@
   organizer_ids:
   participant_ids:
     - pellaeon
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -185,6 +200,9 @@
     - lulukeng
     - aiya
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 全球最大—網路自由節 Internet Freedom Festival 回國分享
@@ -218,6 +236,9 @@
   participant_ids:
     - pellaeon
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 前進 TICTeC & Internet Freedom Festival ( IFF ) 共同分享會
@@ -248,6 +269,9 @@
   participant_ids:
     - lulukeng
     - aiya
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -282,6 +306,9 @@
   participant_ids:
     - lulukeng
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：Facing the Ocean Meet and Hack 面海黑客松 (沖繩)
@@ -311,6 +338,9 @@
   organizer_ids:
   participant_ids:
     - lulukeng
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -345,6 +375,9 @@
     - yhchang
     - pellaeon
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：Hong Kong Open Source Conference 香港開源年會
@@ -376,6 +409,9 @@
   organizer_ids:
   participant_ids:
     - singing
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -410,6 +446,9 @@
   participant_ids:
     - aiya
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: Tor Sharing @ Taipei - 關於匿名瀏覽器，你知道多少?
@@ -443,6 +482,8 @@
     - pellaeon
     - lulukeng
 
+  project_ids:
+    - intl
 
 - id: 
 
@@ -473,3 +514,6 @@
   organizer_ids:
   participant_ids:
     - lulukeng
+
+  project_ids:
+    - intl

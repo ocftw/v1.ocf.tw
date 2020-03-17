@@ -25,6 +25,9 @@
   organizer_ids:
     - ocf
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：2016 OGP Summit 開放政府夥伴聯盟全球高峰會
@@ -58,6 +61,9 @@
   organizer_ids:
     - ocf
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：2016 Code for America Summit　美國民主科技大會
@@ -87,6 +93,9 @@
   organizer_ids:
     - ocf
   
+  project_ids:
+    - intl
+
 - id: 
 
   name: 南特。開放政府的新實踐
@@ -121,6 +130,9 @@
     - bft
     - ocf
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 法國南特經驗─城市的公共治理（從文化到能源轉型）
@@ -154,6 +166,9 @@
     - 5philo
     - bft
     - ocf
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -192,6 +207,9 @@
       url: https://ocf-tw.hackpad.com/Citizen-Online--7PQf8kFCHNX
   links_en:
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: useR! 2016 Conference 會後分享
@@ -220,6 +238,9 @@
     - title: 影音紀錄
       url: https://www.youtube.com/watch?v=iokv1yX-chU
   links_en:
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -251,6 +272,9 @@
 
   links:
   links_en:
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -291,6 +315,9 @@
       url: https://blog.night9.cc/open-networking-summit-2016
   links_en:
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: Fossasia 2016 會後分享
@@ -321,3 +348,6 @@
     - title: 會後心得
       url: http://blog.ocf.tw/2016/04/fossasia-2016.html
   links_en:
+
+  project_ids:
+    - intl

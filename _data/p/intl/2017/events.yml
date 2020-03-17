@@ -36,6 +36,9 @@
     - miniwu
     - jason
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 海外參訪 - Rightscon
@@ -67,6 +70,9 @@
   participant_ids:
     - ttcat
     - pellaeon
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -102,6 +108,9 @@
     - ttcat
     - mglee
 
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -139,6 +148,9 @@
     - jason
     - aaron
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 海外參訪 - Datensummit
@@ -172,6 +184,9 @@
     - ttcat
     - mglee
     - jason
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -210,6 +225,9 @@
     - ttcat
     - lulukeng
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: RightsCon 分享會
@@ -243,6 +261,9 @@
     - pellaeon
     - ttcat
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 拜訪美國 The National Archive
@@ -274,6 +295,9 @@
     - ttcat
     - aaron
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 海外參訪 - Personal Democracy Forum (PDF), NYC
@@ -303,6 +327,9 @@
   participant_ids:
     - ttcat
     - aaron
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -337,6 +364,9 @@
     - ttcat
     - clkao
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 海外參訪 - APrIGF
@@ -368,6 +398,9 @@
     - pellaeon
     - afi
     - ttcat
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -403,6 +436,9 @@
     - mglee
     - yhsiang
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: NGO 資安討論小聚
@@ -430,6 +466,9 @@
   organizer_ids:
   participant_ids:
     - pellaeon
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -459,6 +498,9 @@
 
   organizer_ids:
   participant_ids:
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -495,6 +537,9 @@
     - huangfu
     - miniwu
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: TICTeC@Taipei
@@ -526,6 +571,9 @@
     - mysociety
   participant_ids:
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: Social Event & g0v Grant DEMO Party
@@ -554,6 +602,9 @@
 
   organizer_ids:
   participant_ids:
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -586,6 +637,9 @@
     - codeforall
     - ndi
   participant_ids:
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -622,6 +676,9 @@
     - huangfu
     - pellaeon
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: Wikimedia Taiwan 十週年研討會
@@ -653,6 +710,9 @@
   participant_ids:
     - pellaeon
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 海外參訪 - Code for Japan Summit
@@ -681,6 +741,9 @@
     - code4jap
   participant_ids:
     - ttcat
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -713,6 +776,9 @@
     - afi
     - mglee
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 海外參訪 COCONET：Southeast Asia Digital Rights Camp
@@ -740,3 +806,6 @@
   organizer_ids:
   participant_ids:
     - ttcat
+
+  project_ids:
+    - intl

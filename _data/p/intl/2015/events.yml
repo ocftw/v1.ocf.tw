@@ -35,6 +35,9 @@
       url: https://www.facebook.com/www.ocf.tw/posts/1657544684521461
   links_en:
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 工作坊：身份識別、隱私權與自由
@@ -78,6 +81,9 @@
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrlHvIPzWAWxPLqdxtuIJnqm
   links_en:
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 專家講座：資訊與人權的交會
@@ -111,6 +117,9 @@
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/imhp
   links_en:
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -147,6 +156,9 @@
       url: http://bit.ly/ntnd-album
   links_en:
 
+  project_ids:
+    - intl
+
 - id: dalc
 
   name: 民主直接點？數位空間
@@ -178,7 +190,7 @@
 
   links:
     - title: 入口頁
-      url: /p/intl/2015/dalc
+      url: /p/intl/dalc
       target: _self
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/dalc
@@ -192,6 +204,9 @@
     - ocf
     - bft
 
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -230,6 +245,9 @@
       url: http://dbootcamp.taipei/zh/
   links_en:
 
+  project_ids:
+    - intl
+
 - id: socp
 
   name: 公民參與大亂鬥
@@ -261,7 +279,7 @@
 
   links:
     - title: 入口頁
-      url: /p/intl/2015/socp
+      url: /p/intl/socp
       target: _self
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/socp
@@ -278,6 +296,9 @@
     - ait
     - ndc
     - ms
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -312,6 +333,9 @@
     - title: 活動頁
       url: http://ocftw.kktix.cc/events/elc2015-hsz
   links_en:
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -355,6 +379,9 @@
     - skymizer
     - vmfive
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 點燃開放資料之夜
@@ -394,3 +421,6 @@
     - title: 活動照片
       url: https://www.facebook.com/media/set/?set=a.1568447143431216.1073741830.1502561953353069&type=3
   links_en:
+
+  project_ids:
+    - intl

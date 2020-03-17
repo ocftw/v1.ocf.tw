@@ -28,6 +28,9 @@
   participant_ids:
     - pellaeon
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 不簡單生活節：公民科技改變世界
@@ -59,6 +62,9 @@
     - ttcat
     - lulukeng
     - rock
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -93,6 +99,9 @@
     - ttcat
     - aiya
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 法國&臺灣開放資料座談 FR-TW Open Data Forum
@@ -121,6 +130,9 @@
 
   organizer_ids:
   participant_ids:
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -155,6 +167,9 @@
     - pellaeon
     - lilin
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：Personal Democracy Forum Central and Eastern Europe(PDFCEE)　個人民主論壇 PDF 2018
@@ -187,6 +202,9 @@
   participant_ids:
     - ttcat
     - aiya
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -224,6 +242,9 @@
     - pellaeon
     - lilin
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：Code for America Summit
@@ -253,6 +274,9 @@
   organizer_ids:
   participant_ids:
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：Personal Democracy Forum 2018 :How We Make Good
@@ -281,6 +305,9 @@
 
   organizer_ids:
   participant_ids:
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -312,6 +339,9 @@
   participant_ids:
     - aiya
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：Citizen Lab Summer Institute on Monitoring Internet Openness and Rights
@@ -341,6 +371,9 @@
   organizer_ids:
   participant_ids:
     - pellaeon
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -381,6 +414,9 @@
     - vivianlw
     - yhchang
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 2018 多倫多 RightsCon 數位人權大會分享會
@@ -413,6 +449,9 @@
   participant_ids:
      - pellaeon
      - lilin
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -449,6 +488,9 @@
     - ipa
     - yhchang  
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：2018 OGP summit 開放政府夥伴聯盟高峰會
@@ -479,6 +521,9 @@
   participant_ids:
     - ttcat
     - aiya
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -513,6 +558,9 @@
     - pellaeon
     - lilin 
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: OGP開放政府高峰會 分享會
@@ -545,6 +593,9 @@
     - aiya
     - lulukeng
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：Digital Asia Hub
@@ -574,6 +625,9 @@
   organizer_ids:
   participant_ids:
     - yhchang
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -608,6 +662,9 @@
     - pellaeon
     - lilin 
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 2018開放資料高峰會-回台分享會
@@ -641,6 +698,9 @@
     - ttcat
     - lulukeng
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 「公民實驗室」分享會：中國網路審查與監控
@@ -672,6 +732,9 @@
     - yhchang
     - vivianlw
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 讓網路審查無所遁形的工具—— OONI 偵測器工作坊
@@ -702,6 +765,9 @@
   participant_ids:
     - pellaeon
     - lilin
+
+  project_ids:
+    - intl
 
 - id: 
 
@@ -736,6 +802,9 @@
     - lilin
     - yhchang
 
+  project_ids:
+    - intl
+
 - id: 
 
   name: 國際出訪：Chaos Communication Congress
@@ -765,3 +834,6 @@
   organizer_ids:
   participant_ids:
     - pellaeon
+
+  project_ids:
+    - intl
