@@ -22,32 +22,6 @@
   speaker_id:
   banner: 
   avatar: 
-0203cctw:
-  title: 創用 CC 小聚-1
-  description: 創用 CC (Creative Commons) 是一種對自己的著作物，在公開在網路上的同時，予以保障，讓公眾能夠在有條件的授權條款下，合理的使用你的創作物品。 我們期盼透過各種方式討論創用 CC ，除了建立大家對於開放理念、CC 授權的正確觀念之外，也引發民眾對於自己或別人的著作物品應有的尊重與著作權基本概念。 這次的討論我們會談到： Creative Commons 全球社群策略的改變 各國 CC 社群現況與困境分享。
-  month: 2
-  start: 2/23
-  end: 
-  link:
-    - title: 活動網站
-      url: https://ocftw.kktix.cc/events/meetforcreativecommons1
-  cover: /p/2018/cctw/cctw.png
-  contributor_id:
-    - rock
-    - lucien
-  project_id:
-    - cctw
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0224python:
   title: 【高雄 Python 學院】 Python 基礎及應用 
   description: 本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
@@ -166,32 +140,6 @@
     - rock
   project_id:
     - pycourse
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0413cctw:
-  title: 國際出訪：2018 CC Global Summit
-  description: 創用CC 2018全球大會 
-  month: 4
-  start: 4/13
-  end: 4/15
-  link:
-    - title: 活動網站
-      url: https://ccglobalsummit2018.sched.com/event/E6ty/how-can-glam-institutions-involve-themselves-in-copyright-reform-discussions
-  cover: /p/2018/cctw/20180413cc.png
-  contributor_id:
-    - lucien
-    - yixuanlin 
-  project_id:
-    - cctw
   label:
   organizer_id:
   advisor_id:
@@ -566,36 +514,6 @@ Facebook 最近鬧很大的劍橋分析隱私爭議是怎麼回事？如何避�
      - lilin
   project_id:
     - intl
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0630cctw:
-  title: CC TW Chapter 第一次會議
-  description: ” Hey! 只要您對創用CC 有興趣，歡迎加入我們第一次CC Taiwan Chapter 聚會！CC Taiwan Chapter簡單說就是 CC 社群所有人的集合，只要對 CC 有貢獻、想推廣，都是CCTW Chapter的一份子！聚會當天還有一項重要任務！我們要推舉出CCTW Chapter中的幾位要角：1. GNC Representative ：負責與Creative Commons Headquarter (CCHQ)交涉、參與會議、進行 CC 網絡策略事務相關的參與工作。2. Chapter Lead (統籌)：負責協調Creative Commons Headquarter (CCHQ) 和 CCTW Chapter 事務的人，會需要和 CC HQ 交涉，也協調 chapter members 參與 CC HQ 需要協助的 CC 相關事務。“
-  month: 6
-  start: 6/30
-  end: 
-  link:
-    - title: 活動網站
-      url: https://cc.ocf.tw/home
-    - title: 會議記錄
-      url: https://cc.ocf.tw/cc-taiwan-chapter/chapter-meeting-20180630 
-  cover: /p/2018/cctw/20180630cc.JPG
-  contributor_id:
-     - rock
-     - pofeng
-     - singing
-     - leona
-  project_id:
-    - cctw 
   label:
   organizer_id:
   advisor_id:

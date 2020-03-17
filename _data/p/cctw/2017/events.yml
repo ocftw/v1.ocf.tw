@@ -1,0 +1,115 @@
+- id: 
+
+  name: 海外參訪 - 創用 CC 2017 全球大會
+  name_en: 
+
+  description: 
+  description_en: 
+
+  cover_image: 
+  banner_image: 
+  theme_color: 
+
+  start: 2017/04/28
+  end: 2017/04/30
+
+  links:
+    - title: 活動網站
+      url: https://summit.creativecommons.org/
+  links_en:
+
+  participant_ids:
+    - rock
+    - lucien
+
+- id: 
+
+  name: 藝術創作的公眾素材及創用CC授權應用
+  name_en: 
+
+  description: 
+  description_en: 
+
+  cover_image: 
+  banner_image: 
+  theme_color: 
+
+  start: 2017/05/25
+  end: 
+
+  links:
+  links_en:
+
+  participant_ids:
+    - lucien
+
+- id: 
+
+  name: 新北市立聯合醫院教學研究部邀講
+  name_en: 
+
+  description: 「數位教材製作的著作權利說明」 - 主講人：林誠夏、「如何尋找與使用免費公眾授權素材」 - 主講人：李欣穎
+  description_en: 
+
+  cover_image: 
+  banner_image: 
+  theme_color: 
+
+  start: 2017/07/08
+  end: 
+
+  links:
+  links_en:
+
+  co-organizer_ids:
+    - asiii
+  participant_ids:
+    - singing
+    - lucien
+
+- id: 
+
+  name: 給 Maker 的開放授權快速上手
+  name_en: 
+
+  description: 講者：Irvin。想要在專案中使用網路上的素材或軟體，卻擔心違法？也想分享自己的作品，卻不希望被他人任意盜用？開放授權可以幫得上忙。我們將分享常見的自由軟體與素材授權條款，讓你不懂艱深的法律，也可以簡單暢意的分享。
+  description_en: 
+
+  cover_image: 
+  banner_image: 
+  theme_color: 
+
+  start: 2017/10/15
+  end: 
+
+  links:
+    - title: 活動說明
+      url: https://www.facebook.com/events/290257964822846/
+  links_en:
+
+  participant_ids:
+    - rock
+
+- id: 
+
+  name: 創用CC和作品保護的WinWin
+  name_en: 
+
+  description: 講者：宮薏婷，介紹創用CC的概念、授權的種類與使用的方式、強調分享作品後續的保障、共享的優點、解說常見問題與疑慮
+  description_en: 
+
+  cover_image: 
+  banner_image: 
+  theme_color: 
+
+  start: 2017/11/7
+  end: 
+
+  links:
+    - title: 簡報
+      url: https://drive.google.com/file/d/166F39GjwcRo9q80UtGWecIkDn0Okepx6/view?usp=sharing
+  links_en:
+
+  participant_ids:
+    - rock
+    - singing

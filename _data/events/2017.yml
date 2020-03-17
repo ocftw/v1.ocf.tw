@@ -194,32 +194,6 @@
   speaker_id:
   banner: 
   avatar: 
-0428cctw:
-  title: 海外參訪 - 創用 CC 2017 全球大會
-  description: 
-  month: 4
-  start: 4/28
-  end: 4/30
-  link:
-    - title: 活動網站
-      url: https://summit.creativecommons.org/
-  cover: 
-  contributor_id:
-    - rock
-    - lucien
-  project_id:
-    - cctw
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 0523cscs:
   title: 人權倡議者的資訊安全培力工作坊
   description: Civil Society Cyber Shield 資安工作坊希望能夠連結人權工作者與資訊科技（尤其是資訊安全）領域的專家，在專家幫助人權工作者的同時，也讓更多人知道人權工作的重要性。本工作坊除了教學之外，也有一部分致力於讓這兩種人互相接觸與瞭解。
@@ -244,28 +218,6 @@
     - idemocracy
     - tahr
     - hitcon
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0525cctw:
-  title: 藝術創作的公眾素材及創用CC授權應用
-  description: 
-  month: 5
-  start: 5/25
-  end: 
-  cover: 
-  contributor_id:
-    - lucien
-  project_id:
-    - cctw
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -342,30 +294,6 @@
     - civichall
   advisor_id:
   co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0708cc:
-  title: 新北市立聯合醫院教學研究部邀講
-  description: 「數位教材製作的著作權利說明」 - 主講人：林誠夏、「如何尋找與使用免費公眾授權素材」 - 主講人：李欣穎
-  month: 7
-  start: 7/8
-  end: 
-  cover: 
-  contributor_id:
-    - singing
-    - lucien
-  project_id:
-    - cctw
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-    - asiii
   implementer_id:
   sponsor_id:
   coordinator_id:
@@ -713,31 +641,6 @@
   speaker_id:
   banner: 
   avatar: 
-1015CCTW:
-  title: 給 Maker 的開放授權快速上手
-  description: 講者：Irvin。想要在專案中使用網路上的素材或軟體，卻擔心違法？也想分享自己的作品，卻不希望被他人任意盜用？開放授權可以幫得上忙。我們將分享常見的自由軟體與素材授權條款，讓你不懂艱深的法律，也可以簡單暢意的分享。
-  month: 10
-  start: 10/15
-  end: 10/15
-  link:
-    - title: 活動說明
-      url: https://www.facebook.com/events/290257964822846/
-  cover: 
-  contributor_id:
-    - rock
-  project_id:
-    - cctw
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
 1023coconet:
   title: 海外參訪 COCONET：Southeast Asia Digital Rights Camp
   description: 針對東南亞，強調區域串聯和合作的數位人權共識營，活動由來自不同國家的團體共同設計，包括印尼、馬來西亞、泰國、緬甸、柬埔寨，此次舉辦吸引各地100人參與，背景多元涵蓋人權工作者、女權工作者、資安講師、紀錄片導演、媒體、藝術家等。活動多以unconference形式進行，促進多方充分討論和意見交換。
@@ -774,32 +677,6 @@
     - singing
     - huangfu
   project_id:
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-1107CCTW:
-  title: 創用CC和作品保護的WinWin
-  description: 講者：宮薏婷，介紹創用CC的概念、授權的種類與使用的方式、強調分享作品後續的保障、共享的優點、解說常見問題與疑慮
-  month: 11
-  start: 11/7
-  end: 11/7
-  link:
-    - title: 簡報
-      url: https://drive.google.com/file/d/166F39GjwcRo9q80UtGWecIkDn0Okepx6/view?usp=sharing
-  cover: 
-  contributor_id:
-    - rock
-    - singing
-  project_id:
-    - cctw
   label:
   organizer_id:
   advisor_id:
