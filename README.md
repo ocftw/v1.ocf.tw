@@ -126,6 +126,29 @@ TODO：未來專案列表會自動抓取資料，不需再額外設定
     - 範例：[`en/p/project_id/event_id.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/en/p/project_id/event_id.html)
     - [活動英文網頁範例預覽](https://ocf.tw/en/p/project_id/event_id)
 
+### 新增自由頁面
+
+需要在專案底下架一個網頁、但又沒有要套用任何特定版型的時候，可以使用自由頁面，自由頁面僅提供 header 跟 footer，中間的內容和排版不受任何限制。
+
+#### 一、建立自由頁面
+
+1. 決定自由頁面 id
+2. 建立自由頁面的 html 檔案
+    - 名稱：`（自由頁面 id）.html`
+    - 位置：`p/（專案 id）/` 或 `p/（專案 id）/（子專案 id）/`
+2. 編輯自由頁面的 html 檔案
+    - 範例：[`p/project_id/freestyle.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/project_id/freestyle.html)
+    - [自由頁面範例預覽](https://ocf.tw/p/project_id/freestyle)
+
+#### 二、建立英文版自由頁面
+
+1. 建立英文版自由頁面的 html 檔案
+    - 名稱：`（自由頁面 id）.html`
+    - 位置：`en/p/（專案 id）/` 或 `en/p/（專案 id）/（子專案 id）/`
+2. 編輯英文版自由頁面的 html 檔案
+    - 範例：[`en/p/project_id/freestyle.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/en/p/project_id/freestyle.html)
+    - [英文版自由頁面範例預覽](https://ocf.tw/en/p/project_id/freestyle)
+
 ---
 
 分隔線：以下同 2016 版
