@@ -100,8 +100,8 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2017/intl/report-CfAll_1.jpg
-          - url: /p/2017/intl/report-CfAll_2.jpg
+          - url: /p/intl/2017/report-CfAll_1.jpg
+          - url: /p/intl/2017/report-CfAll_2.jpg
         swap: true
       - type: article
         title: Code for All 全球公民科技聯盟
@@ -113,7 +113,7 @@ items:
   - type: content
     columns:
       - type: image    
-        url: /p/2017/intl/2017 CSCS-r.jpg
+        url: /p/intl/2017/2017 CSCS-r.jpg
         swap: false
       - type: article
         title: 資安暨隱私推廣計畫
@@ -134,10 +134,10 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2017/intl/report-CTF_1.jpg
-          - url: /p/2017/intl/report-CTF_2.jpg
-          - url: /p/2017/intl/report-CTF_3.jpg
-          - url: /p/2017/intl/report-CTF_4.jpg
+          - url: /p/intl/2017/report-CTF_1.jpg
+          - url: /p/intl/2017/report-CTF_2.jpg
+          - url: /p/intl/2017/report-CTF_3.jpg
+          - url: /p/intl/2017/report-CTF_4.jpg
         swap: true
       - type: article
         title: CivicTechFest 世界公民科技週
@@ -157,11 +157,11 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2017/intl/report-intlmeeting_1.jpg
-          - url: /p/2017/intl/report-intlmeeting_2.JPG
-          - url: /p/2017/intl/report-intlmeeting_3.JPG
-          - url: /p/2017/intl/report-intlmeeting_4.jpg
-          - url: /p/2017/intl/report-intlmeeting_5.jpg
+          - url: /p/intl/2017/report-intlmeeting_1.jpg
+          - url: /p/intl/2017/report-intlmeeting_2.JPG
+          - url: /p/intl/2017/report-intlmeeting_3.JPG
+          - url: /p/intl/2017/report-intlmeeting_4.jpg
+          - url: /p/intl/2017/report-intlmeeting_5.jpg
         swap: false
       - type: article
         title: 出訪交流
@@ -179,10 +179,10 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2017/intl/report-OGR_1.jpg
-          - url: /p/2017/intl/report-OGR_2.jpg
-          - url: /p/2017/intl/report-OGR _3.jpg
-          - url: /p/2017/intl/report-OGR_4.jpg
+          - url: /p/intl/2017/report-OGR_1.jpg
+          - url: /p/intl/2017/report-OGR_2.jpg
+          - url: /p/intl/2017/report-OGR _3.jpg
+          - url: /p/intl/2017/report-OGR_4.jpg
         swap: true
       - type: article
         title: 開放政府觀察報告2014-2016
@@ -198,7 +198,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2017/intl/report-g0v.news.jpg
+        url: /p/intl/2017/report-g0v.news.jpg
         swap: false
       - type: article
         title: g0v.news

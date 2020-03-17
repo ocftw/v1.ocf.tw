@@ -83,12 +83,12 @@ items:
     columns:
       - type: slider
         slides: 
-          - url: /p/2018/intl/intl-成果報告resize/法國台灣開放資料論壇.jpg
-          - url: /p/2018/intl/intl-成果報告resize/11月韓國_OGP區域會議.jpg
-          - url: /p/2018/intl/intl-成果報告resize/9月阿根廷_IODC.jpg
-          - url: /p/2018/intl/intl-成果報告resize/7月喬治亞_OGP summit.jpg
-          - url: /p/2018/intl/intl-成果報告resize/開放政府回台分享會1.jpg
-          - url: /p/2018/intl/intl-成果報告resize/開放政府回台分享會2.jpg
+          - url: /p/intl/2018/intl-成果報告resize/法國台灣開放資料論壇.jpg
+          - url: /p/intl/2018/intl-成果報告resize/11月韓國_OGP區域會議.jpg
+          - url: /p/intl/2018/intl-成果報告resize/9月阿根廷_IODC.jpg
+          - url: /p/intl/2018/intl-成果報告resize/7月喬治亞_OGP summit.jpg
+          - url: /p/intl/2018/intl-成果報告resize/開放政府回台分享會1.jpg
+          - url: /p/intl/2018/intl-成果報告resize/開放政府回台分享會2.jpg
         swap: true
       - type: article
         title: Open government & Open data
@@ -111,11 +111,11 @@ items:
     columns:
       - type: slider
         slides: 
-          - url: /p/2018/intl/intl-成果報告resize/4月葡萄牙_TICTeC.jpeg
-          - url: /p/2018/intl/intl-成果報告resize/5月加州_CfA Summit.jpg
-          - url: /p/2018/intl/intl-成果報告resize/6月紐約_PDF NYC.jpg
-          - url: /p/2018/intl/intl-成果報告resize/9月日本_CodefJapan summit .jpg
-          - url: /p/2018/intl/intl-成果報告resize/美國行分享會.jpg
+          - url: /p/intl/2018/intl-成果報告resize/4月葡萄牙_TICTeC.jpeg
+          - url: /p/intl/2018/intl-成果報告resize/5月加州_CfA Summit.jpg
+          - url: /p/intl/2018/intl-成果報告resize/6月紐約_PDF NYC.jpg
+          - url: /p/intl/2018/intl-成果報告resize/9月日本_CodefJapan summit .jpg
+          - url: /p/intl/2018/intl-成果報告resize/美國行分享會.jpg
         swap: false
       - type: article
         title: Civic Tech - Overseas Visiting
@@ -140,9 +140,9 @@ items:
     columns:
       - type: slider
         slides: 
-          - url: /p/2018/intl/intl-成果報告resize/Ams演講.jpg
-          - url: /p/2018/intl/intl-成果報告resize/code for all.jpg
-          - url: /p/2018/intl/intl-成果報告resize/(補) 公民科技交流計畫2.jpg
+          - url: /p/intl/2018/intl-成果報告resize/Ams演講.jpg
+          - url: /p/intl/2018/intl-成果報告resize/code for all.jpg
+          - url: /p/intl/2018/intl-成果報告resize/(補) 公民科技交流計畫2.jpg
         swap: true
       - type: article
         title: Civic Tech - International Exchange
@@ -157,9 +157,9 @@ items:
     columns:
       - type: slider
         slides: 
-          - url: /p/2018/intl/intl-成果報告resize/(放第一張) g0v.news.jpg
-          - url: /p/2018/intl/intl-成果報告resize/東亞打擊假新聞工作坊.jpg
-          - url: /p/2018/intl/intl-成果報告resize/g0v.news 不實資訊文章配圖.jpg
+          - url: /p/intl/2018/intl-成果報告resize/(放第一張) g0v.news.jpg
+          - url: /p/intl/2018/intl-成果報告resize/東亞打擊假新聞工作坊.jpg
+          - url: /p/intl/2018/intl-成果報告resize/g0v.news 不實資訊文章配圖.jpg
         swap: false
       - type: article
         title: Civic Tech - Information
@@ -176,9 +176,9 @@ items:
     columns:
       - type: slider
         slides: 
-          - url: /p/2018/intl/intl-成果報告resize/CSCS.jpg
-          - url: /p/2018/intl/intl-成果報告resize/(補) 數位人權.JPG
-          - url: /p/2018/intl/intl-成果報告resize/(補) 數位人權3.JPG
+          - url: /p/intl/2018/intl-成果報告resize/CSCS.jpg
+          - url: /p/intl/2018/intl-成果報告resize/(補) 數位人權.JPG
+          - url: /p/intl/2018/intl-成果報告resize/(補) 數位人權3.JPG
         swap: true
       - type: article
         title: Digital Security for NGO
@@ -198,10 +198,10 @@ items:
     columns:
       - type: slider
         slides: 
-          - url: /p/2018/intl/intl-成果報告resize/5月加拿大_RightsCon.jpg
-          - url: /p/2018/intl/intl-成果報告resize/APrIGF.jpg
-          - url: /p/2018/intl/intl-成果報告resize/分享會 (1).jpg
-          - url: /p/2018/intl/intl-成果報告resize/分享會 (2).jpg
+          - url: /p/intl/2018/intl-成果報告resize/5月加拿大_RightsCon.jpg
+          - url: /p/intl/2018/intl-成果報告resize/APrIGF.jpg
+          - url: /p/intl/2018/intl-成果報告resize/分享會 (1).jpg
+          - url: /p/intl/2018/intl-成果報告resize/分享會 (2).jpg
         swap: false
       - type: article
         title: Digital rights & Internet governance

@@ -124,11 +124,11 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2016/intl/visit_1.jpg
-          - url: /p/2016/intl/visit_2.jpg
-          - url: /p/2016/intl/visit_3.jpg
-          - url: /p/2016/intl/visit_4.jpg
-          - url: /p/2016/intl/visit_5.jpg
+          - url: /p/intl/2016/visit_1.jpg
+          - url: /p/intl/2016/visit_2.jpg
+          - url: /p/intl/2016/visit_3.jpg
+          - url: /p/intl/2016/visit_4.jpg
+          - url: /p/intl/2016/visit_5.jpg
         swap: true
       - type: article
         title: Hosting International Guests
@@ -143,11 +143,11 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2016/intl/youth_1.jpg
-          - url: /p/2016/intl/youth_2.jpg
-          - url: /p/2016/intl/youth_3.png
-          - url: /p/2016/intl/youth_4.png
-          - url: /p/2016/intl/youth_5.jpg
+          - url: /p/intl/2016/youth_1.jpg
+          - url: /p/intl/2016/youth_2.jpg
+          - url: /p/intl/2016/youth_3.png
+          - url: /p/intl/2016/youth_4.png
+          - url: /p/intl/2016/youth_5.jpg
         swap: false
       - type: article
         title: Youth Travel Grant
@@ -164,18 +164,18 @@ items:
     columns:
       - type: slider    
         slides:
-          - url: /p/2016/intl/delegation_1.jpg
-          - url: /p/2016/intl/delegation_2.jpg
-          - url: /p/2016/intl/delegation_3.jpg
-          - url: /p/2016/intl/delegation_4.jpg
-          - url: /p/2016/intl/delegation_5.jpg
-          - url: /p/2016/intl/delegation_6.png
-          - url: /p/2016/intl/delegation_8.jpg
-          - url: /p/2016/intl/delegation_9.jpg
-          - url: /p/2016/intl/delegation_10.jpg
-          - url: /p/2016/intl/delegation_11.jpg
-          - url: /p/2016/intl/delegation_12.jpg
-          - url: /p/2016/intl/delegation_13.jpg
+          - url: /p/intl/2016/delegation_1.jpg
+          - url: /p/intl/2016/delegation_2.jpg
+          - url: /p/intl/2016/delegation_3.jpg
+          - url: /p/intl/2016/delegation_4.jpg
+          - url: /p/intl/2016/delegation_5.jpg
+          - url: /p/intl/2016/delegation_6.png
+          - url: /p/intl/2016/delegation_8.jpg
+          - url: /p/intl/2016/delegation_9.jpg
+          - url: /p/intl/2016/delegation_10.jpg
+          - url: /p/intl/2016/delegation_11.jpg
+          - url: /p/intl/2016/delegation_12.jpg
+          - url: /p/intl/2016/delegation_13.jpg
         swap: true
       - type: article
         title: International Visits
@@ -188,10 +188,10 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2016/intl/sharing_1.jpg
-          - url: /p/2016/intl/sharing_3.jpg
-          - url: /p/2016/intl/sharing_4.jpg
-          - url: /p/2016/intl/sharing_5.jpg
+          - url: /p/intl/2016/sharing_1.jpg
+          - url: /p/intl/2016/sharing_3.jpg
+          - url: /p/intl/2016/sharing_4.jpg
+          - url: /p/intl/2016/sharing_5.jpg
         swap: false
       - type: article
         title: Talks and Events
@@ -204,9 +204,9 @@ items:
     columns:
       - type: slider
         slides:
-          - url: /p/2016/intl/g0vnews_1.jpg
-          - url: /p/2016/intl/g0vnews_2.jpg
-          - url: /p/2016/intl/g0vnews_3.jpg
+          - url: /p/intl/2016/g0vnews_1.jpg
+          - url: /p/intl/2016/g0vnews_2.jpg
+          - url: /p/intl/2016/g0vnews_3.jpg
         swap: true
       - type: article
         title: g0v.news

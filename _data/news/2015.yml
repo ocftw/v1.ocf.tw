@@ -8,13 +8,13 @@
   subtitle: 2015 年 3 月號
   description: 適逢英國開放資料代表團訪台，這是促進和國際開放資料社群交流的大好時機，現場邀請了10名勇者挑戰全英文閃燃講 (Ignite Talks) ，究竟每位在只有「5分鐘20張投影片，15秒自動跳頁」的挑戰下，講者如何為大家帶來一個不一樣夜晚呢？
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=10
-  cover: /p/2015/intl/ignite/cover.jpg
+  cover: /p/intl/2015/ignite/cover.jpg
 
 - title: "jserv: 「哥教的不是知識是 guts！」"
   subtitle: 2015 年 4 月號
   description: 今年3月份舉辦的 Embedded Linux Conference（ELC）， Jserv 帶著成大學生廖健富 (Jeff Liaw) 一同前往發表開放原始碼成果和演說，將會一同向大家分享 ELC 上所發表的研究成果與會議的見聞。  
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=11
-  cover: /p/2015/intl/elc/cover.png
+  cover: /p/intl/2015/elc/cover.png
 
 - title: 北市府開放資料黑客松，開始報名！歡迎偷跑 ₍₍◝(･'ω'･)◟⁾⁾ 一人也可以組隊打怪，總獎金高達18萬元唷！
   subtitle: 2015 年 5 月號
@@ -26,7 +26,7 @@
   subtitle: 2015 年 6 月號
   description: 美國開放政府改革先鋒．來台最大講座，國際 x 在地：產官學宅首度同台，將分享精彩的公民參與推動經驗與挑戰，一同探討開放政府與數位民主等相關議題，現場開放 Lightning talks 報名，邀請公民一同來開講！
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=15
-  cover: /p/2015/intl/socp/cover.jpg
+  cover: /p/intl/2015/socp/cover.jpg
 
 - title: 資料新聞正夯！d| Bootcamp Taipei - 8/21 ~8/23
   subtitle: 2015 年 7 月號
@@ -38,7 +38,7 @@
   subtitle: 2015 年 8 月號
   description: 本場次邀請分別從產業與學界進入政府的法國巴黎市副市長市主任 Julien Antelin 與 台北市資訊局長 李維斌，分享開放資料與科技公民參與。
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=18
-  cover: /p/2015/intl/dalc/cover.jpg
+  cover: /p/intl/2015/dalc/cover.jpg
 
 - title: 創用CC 民間講員招募
   subtitle: 2015 年 9 月號
@@ -50,7 +50,7 @@
   subtitle: 活動特刊
   description: 我們邀請到來自摩洛哥的 Andrew Mandelbaum 來分享芬蘭、摩洛哥、英國等地，使用新科技的一些民主案例；同場加映從民間進入衛福部的 Peggy，由她分享血淚交織的政府網路溝通經驗。
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=21
-  cover: /p/2015/intl/ntnd/cover.png
+  cover: /p/intl/2015/ntnd/cover.png
 
 - title: OCF 好康相報：KKTIX 贊助 FLOSS 社群免費升級年約用戶
   subtitle: 2015 年 10 月號
