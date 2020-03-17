@@ -151,7 +151,7 @@ TODO：未來專案列表會自動抓取資料，不需再額外設定
 
 ---
 
-分隔線：以下同 2016 版
+分隔線：以下同 [2016 版 README](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_docs/v2016/README.md)
 
 ---
 
