@@ -1,0 +1,54 @@
+- id: 
+
+  name: 國際出訪：Creative Commons Global Summit 2019
+  name_en: 
+
+  description: Creative Commons 為推廣開放式公眾授權的組織，於 2003 年 11 月與中央研究院資訊科學研究所「台灣創用 CC 計畫」合作 iCommons 計畫，在台灣進行 Creative Commons 授權條款華語（台灣）翻譯及公開討論，並與其他機構及創作者合作推廣 Creative Commons ，經過歷年的推廣，目前許多政府機關構已使用創用CC授權條款來進行公部門素材的釋出，例如智慧財產局的著作權小辭典、教育部之重編國語辭典，以及行政院國發會協調編撰的政府資料開放授權條款第一版，皆使用或內嵌創用CC授權之採用或轉換條款，開放文化基金會對國內開放授權之應用推廣具協作與支持關係，故希望能藉此參與 Creative Commons 所推動的建立全球性公眾資源庫的工作，和與會的各國代表交流經驗，並在日後將相關重要資訊與知識推廣至國內的教育與行政機構。Creative Commons為避免政治力過度影響全球性文化與教育素材的交流，其兼容全球各地網絡參與的模式是讓參與會員得以獨立政治或經濟分會(Chapter)的方式加入，故於華文地區中國大陸、台灣、香港，以及澳門皆有個別運作互不相屬的獨立組織，此一模式對我國當前的國際環境具友善性，更值得國人透過此一國際知識分享的平台，展現自主性與其他國際組織產生連結與交流。
+  description_en: 
+
+  cover_image: /p/cctw/2018/20180413cc.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/05/09
+  end: 2019/05/11
+
+  links:
+    - title: 官方網站
+      url: https://summit.creativecommons.org/
+    - title: 活動速記
+      url: https://medium.com/@cctaiwan/%E9%82%A3%E4%BA%9B-global-creative-commons-summit-2019-%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%8B-214352b43b42
+  links_en:
+
+  participant_ids:
+    - singing
+    - rock
+
+- id: 
+
+  name: "Creative Commons Taiwan Chapter #2"
+  name_en: 
+
+  description: "* Chapter Representative 與 Chapter Lead 的改選
+* CC Summit 2019 分享！
+* CC Website 討論
+* CC 募款頁發表！
+* 共同翻譯書籍小成果發表！ 
+* 玩 CC 推廣用 Poker！"
+  description_en: 
+
+  cover_image: /people/partners/cctw_logo.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/07/28
+  end: 
+
+  links:
+    - title: 社群網站
+      url: http://cc.ocf.tw
+  links_en:
+
+  participant_ids:
+    - rock
+

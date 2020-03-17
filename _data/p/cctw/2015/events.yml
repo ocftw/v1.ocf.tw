@@ -1,0 +1,65 @@
+- id: 
+
+  name: 開源獸拳 — 《四招六式》祕訣大公開
+  name_en: 
+
+  description: 創用CC授權是一種將著作公眾授權的方式，究竟他與一般的著作權有何不同呢？開源獸這次要來帶大家揮動拳腳，認識《創用CC授權》的四招六式，帶你了解如何「共創共享」全球多達8億的創作與多媒體素材。
+  description_en: 
+
+  cover_image: /p/cctw/2015/1121.png
+  banner_image: 
+  theme_color: 
+
+  start: 2015/11/21
+  end: 
+
+  links:
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/ocf-cc-1121
+    - title: 影音記錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrliLgmxGQA50JE6BmiAWdBq
+  links_en:
+
+- id: 
+
+  name: 創用 CC 好愛聚 2（CC Global Summit 分享）
+  name_en: 
+
+  description: 
+  description_en: 
+
+  cover_image: /p/cctw/2015/cover.png
+  banner_image: 
+  theme_color: 
+
+  start: 2015/11/15
+  end: 
+
+  links:
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/ccgs
+    - title: 活動共筆
+      url: https://cctw.hackpad.com/20151115
+    - title: 影音記錄
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrmEvr7A-vgQGELCZsm2sKtJ
+  links_en:
+
+- id: 
+
+  name: OCF X CCTW：創用 CC 好愛聚
+  name_en: 
+
+  description: 
+  description_en: 
+
+  cover_image: /p/cctw/2015/cover.png
+  banner_image: 
+  theme_color: 
+
+  start: 2015/10/21
+  end: 
+
+  links:
+    - title: 活動頁
+      url: http://ocftw.kktix.cc/events/cccomm
+  links_en:

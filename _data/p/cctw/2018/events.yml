@@ -1,0 +1,75 @@
+- id: 
+
+  name: 創用 CC 小聚-1
+  name_en: 
+
+  description: 創用 CC (Creative Commons) 是一種對自己的著作物，在公開在網路上的同時，予以保障，讓公眾能夠在有條件的授權條款下，合理的使用你的創作物品。 我們期盼透過各種方式討論創用 CC ，除了建立大家對於開放理念、CC 授權的正確觀念之外，也引發民眾對於自己或別人的著作物品應有的尊重與著作權基本概念。 這次的討論我們會談到： Creative Commons 全球社群策略的改變 各國 CC 社群現況與困境分享。
+  description_en: 
+
+  cover_image: /p/cctw/2018/cctw.png
+  banner_image: 
+  theme_color: 
+
+  start: 2018/02/23
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/meetforcreativecommons1
+  links_en:
+
+  participant_ids:
+    - rock
+    - lucien
+
+- id: 
+
+  name: 國際出訪：2018 CC Global Summit
+  name_en: 
+
+  description: 創用CC 2018全球大會 
+  description_en: 
+
+  cover_image: /p/cctw/2018/20180413cc.png
+  banner_image: 
+  theme_color: 
+
+  start: 2018/04/13
+  end: 2018/04/15
+
+  links:
+    - title: 活動網站
+      url: https://ccglobalsummit2018.sched.com/event/E6ty/how-can-glam-institutions-involve-themselves-in-copyright-reform-discussions
+  links_en:
+
+  participant_ids:
+    - lucien
+    - yixuanlin 
+
+- id: 
+
+  name: CC TW Chapter 第一次會議
+  name_en: 
+
+  description: ”Hey! 只要您對創用CC 有興趣，歡迎加入我們第一次CC Taiwan Chapter 聚會！CC Taiwan Chapter簡單說就是 CC 社群所有人的集合，只要對 CC 有貢獻、想推廣，都是CCTW Chapter的一份子！聚會當天還有一項重要任務！我們要推舉出CCTW Chapter中的幾位要角：1. GNC Representative ：負責與Creative Commons Headquarter (CCHQ)交涉、參與會議、進行 CC 網絡策略事務相關的參與工作。2. Chapter Lead (統籌)：負責協調Creative Commons Headquarter (CCHQ) 和 CCTW Chapter 事務的人，會需要和 CC HQ 交涉，也協調 chapter members 參與 CC HQ 需要協助的 CC 相關事務。“
+  description_en: 
+
+  cover_image: /p/cctw/2018/20180630cc.JPG
+  banner_image: 
+  theme_color: 
+
+  start: 2018/06/30
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://cc.ocf.tw/home
+    - title: 會議記錄
+      url: https://cc.ocf.tw/cc-taiwan-chapter/chapter-meeting-20180630 
+  links_en:
+
+  participant_ids:
+     - rock
+     - pofeng
+     - singing
+     - leona
