@@ -1,0 +1,40 @@
+# 2020 版專案資料範本
+
+name: Chatbot Developers Taiwan 
+# 專案的中文正式名稱，會顯示在專案列表頁、專案頁、活動頁
+name_en: chatbot
+# 英文版網頁用
+
+description: Chatbot Developers Taiwan 社群致力於提供一個討論聊天機器人的相關應用的社群。在台北、台中每個月皆有一次的定期 meetup 聚會，每回小聚都會安排講者主題分享、新知討論，環繞在 chatbot 與 AI ，及大家共同關心的話題中。歡迎大家踴躍分享、自由與會眾交流，也期望大家可以在分享中得到收穫。
+
+同時，也很歡迎各位自薦、推薦講者。亦或者是上台閃電秀，分享自己開發的 chatbot 或是任何 chatbot 有關的任何議題。
+description_en: 
+# 英文版網頁用
+
+abbr: Chatbot Developers Taiwan
+# 專案的簡稱，若有，會出現在成果報告頁
+# 201701 update: 成果報告頁改為顯示專案全名，此欄位目前沒用處
+
+og_image: /p/2019/chatbot/chatbotTW.png
+# og_image: url
+# 專案的預覽縮圖，會出現在專案列表頁、sns 連結預覽
+# 選用長寬比接近 facebook og image 的圖片（1200 x 630）
+header_image: /p/2019/chatbot/chatbottw.jpg
+# header_image: url
+# 專案頁首的底圖，若有，會出現在專案頁、活動頁
+# 選用長寬比接近長條形的圖片（1400 x 300）
+avatar_image: /p/2019/chatbot/chatbotTW.png
+# avatar_image: url
+# 專案的 avatar 圖檔網址，若有，會出現在專案頁的右側邊欄
+# 選用長寬比接近正方形的圖片
+theme_color: teal
+
+action: 
+  - title: 支持我們
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=39
+    color: teal
+    icon: money
+  - title: Facebook
+    url: https://www.facebook.com/chatbot.tw/
+    color: blue
+    icon: facebook
