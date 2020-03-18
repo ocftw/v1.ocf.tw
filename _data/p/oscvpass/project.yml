@@ -11,9 +11,9 @@ abbr_en:
 tagline: 省時快速、輕鬆開源！
 tagline_en: 
 
-og_image: /p/2019/oscvpass/OSCVPASS_Banner.png
-header_image: /p/2019/oscvpass/OSCVPASS_city.png
-avatar_image: /p/2019/oscvpass/OSCVPASS_Banner.png
+og_image: /p/oscvpass/2019/OSCVPASS_Banner.png
+header_image: /p/oscvpass/2019/OSCVPASS_city.png
+avatar_image: /p/oscvpass/2019/OSCVPASS_Banner.png
 theme_color: yellow
 
 start: 
@@ -29,8 +29,6 @@ tags:
 tags_en:
 
 metas:
-  - label: 
-    content: 
 metas_en:
 
 links:
