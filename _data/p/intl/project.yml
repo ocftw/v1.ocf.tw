@@ -36,6 +36,14 @@ links_en:
 
 actions:
 actions_en:
+  - title: Donation
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=11&_ga=1.194098027.715222481.1473081200
+    color: yellow
+    icon: dollar
+  - title: Travel Grants Application
+    url: https://ocftw.typeform.com/to/e9i57X
+    color: green
+    icon: mail
 
 advisor_ids:
 organizer_ids:
