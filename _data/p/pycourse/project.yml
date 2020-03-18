@@ -1,31 +1,30 @@
-name: PyCourse
+name: 【社群專案】PyCourse
 name_en: PyCourse
-abbr: PyCourse
-tagline: 
-cover: /p/pycourse/2017/og.png
 description: Python 是開源的程式語言，它免費、跨平台、及簡單易學，已經讓它成為很多新創公司的最愛。因為使用 Python 可以迅速的完成產品及服務雛形的開發，所以有一些 Python 愛好者打出了 “Life is short, use Python!” 的口號來推廣 Python。 PyCourse 不定期會舉辦各類教學活動，歡迎您的參與！如果您也熱愛分享，也可以自己準備一下，來 PyCourse 當講師喔！
-link:
-  - title: 專案首頁
-    url: http://ocf.tw/p/2018/pycourse/
-tag:
+description_en:
+abbr: PyCourse
+abbr_en: PyCourse
+tagline: PyCourse
+
+og_image: /p/pycourse/2019/og.png
+header_image: /p/pycourse/2019/og.png
+avatar_image: /p/pycourse/2019/og.png
+theme_color: 
+start: 
+end: 
+tags:
   - 定期活動
-type_id:
+type_ids:
   - community
-topic_id:
+topic_ids:
   - source
-field_id:
-  - it
-advisor_id:
-organizer_id:
+field_ids:
+  - education
+organizer_ids:
   - pycourse
-co-organizer_id:
   - ocf
-implementer_id:
-board_id:
+board_ids:
   - pofeng
-staff_id:
+staff_ids:
   - rock
-consultant_id:
-volunteer_id:
-coordinator_id:
 
