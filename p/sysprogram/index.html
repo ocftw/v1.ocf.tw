@@ -2,82 +2,37 @@
 redirect_from:
 - /donate/sysprog-incubation
 - /donate/sysprog-incubation/
+- /p/2017/sysprogram/
+- /p/2018/sysprogram/
+- /p/2019/sysprogram/
+- /p/2020/sysprogram/
 
-layout: project
-# 要套用哪種版型，凡是專案頁都套用 project 版型，所以這行不用改
-
-year: 2019
-# 要從哪個年份抓這頁所需的資料，如：2016
-
-project_id: sysprogram
-# 要從哪個專案 id 抓這頁所需的資料，如：intl
-
-
-# ------ 以上為必要，以下為非必要 ------
+layout: p
 
 og_title: 
-# 這頁的 og title，若 no 或留空，會採用專案的 name 資料，也就是中文全名
-
 og_description: 
-# 這頁的 og description，若 no 或留空，會採用專案的 description 資料
-
 og_image: 
-# 這頁的 og image 網址，若 no 或留空，會採用專案的 cover 資料
 
-cover_image: 
-# 這頁上方大標題區塊的背景圖網址，若 no 或留空，會採用專案的 cover 資料
+header_image_opacity: 
+header_veil_opacity: 0.7
 
-cover_image_opacity:
-# 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設是 0.95
-
-cover_veil_opacity: 0.7
-# 這頁上方大標題區塊的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若 no 或留空，預設值是 0.1
-
-color: 
-# 這頁上方大標題區塊的背景圖混色，以及緊接在大標題區塊之下的摘要區塊的背景顏色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
-
-sidebar_image:
-# 這頁右側邊欄的配圖，若 no 或留空，會採用專案的 avatar 資料，或主辦單位組織的 avatar / logo / cover 資料，或 semantic ui 的 info icon （以上順序即為採用資料的優先順位，若前一個無資料，則會去找下一個）
-
-show_events: no
-# 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若 no 或留空，則不顯示計畫成果區塊
-
-show_budget: yes
-# 是否顯示預算表，若填 yes 則會自動抓取專案資料夾中的 budget.html 檔案做為預算表內容，若 no 或留空，則不顯示預算表區塊
-
+show_events: 
 gsheet_url: 
-# 收知明細表的 google spreadsheet 網址，若 no 或留空，則不顯示收支明細區塊
-
-show_sponsors: no
-# 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若 no 或留空，則不顯示贊助商區塊
-
+show_sponsors: 
 show_donors: yes
-# 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若 no 或留空，則不顯示捐助人區塊
 
 show_progress: yes
-# 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若 no 或留空，則不顯示進度條
-
-cpid: 27
-# 專案從 neticrm 抓募款進度資料時使用的 id，若 no 或留空，則不從 neticrm 抓資料
-
 progress:
-# 專案募款進度，會出現在專案列表頁右側邊欄
-  duration: no
-  # 募款期間，若 no 或留空，則不顯示此項目
+  duration: 
   goal: yes
-  # 募款目標金額，若 no 或留空，則不顯示此項目
   current: yes
-  # 已募得款項金額，若 no 或留空，則不顯示此項目
   percent: 100
-  # 進度百分比，若 no 或留空，則不顯示此項目
   count: yes
-  # 捐款人數，若 no 或留空，則不顯示此項目
   updated: yes
-  # 資料更新日期，若 no 或留空，則不顯示此項目
-
-action: 
-
+cpid: 27
+show_child_projects: yes
 ---
+
 
 <h2 class="ui dividing header">計畫說明</h2>
 <h3 class="ui header">為什麼要系統軟體走向國際？</h3>
@@ -116,7 +71,7 @@ action:
   <div class="item">
     <i class="archive icon"></i>
     <div class="content">
-      <a href="../../../p/2016/sysprogram/" target="_blank">2016 年募款計畫</a>
+      <a href="/p/sysprogram/2016/" target="_blank">2016 年募款計畫</a>
     </div>
   </div>
   <div class="item">
@@ -133,3 +88,140 @@ action:
   </div>
 </div>
 
+
+<h2 class="ui header">預算表</h2>
+
+<table class="ui table"> 
+  <thead> 
+    <tr> 
+      <th>分類</th> 
+      <th>名稱</th> 
+      <th>數量</th> 
+      <th>成本</th> 
+      <th>預算</th> 
+    </tr> 
+  </thead> 
+  <tbody>
+  <!--item 1 start-->
+    <tr>
+      <td class="positive" colspan="5">資助學生參與國際 & 國內研討會</td> 
+    </tr> 
+    <tr> 
+      <td rowspan="3">國外旅費</td> 
+      <td>來回機票</td> 
+      <td>5 場</td> 
+      <td>NT$40,000</td>
+      <td>NT$200,000</td> 
+    </tr> 
+    <tr> 
+      <td>住宿</td> 
+      <td>5 場</td> 
+      <td>NT$3,000</td>
+      <td>NT$60,000</td> 
+    </tr> 
+    <tr> 
+      <td>報名費</td> 
+      <td>5 場</td> 
+      <td>USD$500</td>
+      <td>NT$80,000</td> 
+    </tr> 
+    <tr> 
+      <td>國內交通</td> 
+      <td>來回高鐵</td> 
+      <td>5 場</td> 
+      <td>NT$2000</td>
+      <td>NT$10,000</td> 
+    </tr> 
+  <!--item 1 end -->
+  <!--item 2 start-->
+    <tr>
+      <td class="positive" colspan="5">添購實驗用硬體耗材</td> 
+    </tr> 
+    <tr> 
+      <td rowspan="3">硬體相關</td> 
+      <td>開發板</td> 
+      <td>40 pcs</td> 
+      <td>NT$1,500</td>
+      <td>NT$60,000</td> 
+    </tr> 
+    <tr> 
+      <td>相關周邊</td> 
+      <td>40 pcs</td> 
+      <td>NT$1,000</td>
+      <td>NT$40,000</td> 
+    </tr> 
+    <tr> 
+      <td>雜項費用</td> 
+      <td>40 pcs</td> 
+      <td>NT$ 200</td>
+      <td>NT$8,000</td> 
+    </tr> 
+  <!--item 2 end -->
+  <!--item 3 start-->
+    <tr>
+      <td class="positive" colspan="5">邀請旅外業界講師</td> 
+    </tr> 
+    <tr> 
+      <td>國內交通</td> 
+      <td>高鐵來回</td> 
+      <td>6 回</td> 
+      <td>NT$2,000</td>
+      <td>NT$12,000</td> 
+    </tr> 
+    <tr> 
+      <td>國內住宿</td> 
+      <td>隔夜旅館</td> 
+      <td>6 回</td> 
+      <td>NT$2,000</td>
+      <td>NT$12,000</td> 
+    </tr> 
+    <tr> 
+      <td>雜項費用</td> 
+      <td>雜項費用</td> 
+      <td>6 場</td> 
+      <td>NT$1,000</td>
+      <td>NT$6,000</td> 
+    </tr> 
+  <!--item 3 end -->
+  <!--item 4 start-->
+    <tr>
+      <td class="positive" colspan="5">實體及線上公開課程教材</td> 
+    </tr> 
+    <tr> 
+      <td>場地租借</td> 
+      <td>場地租借</td> 
+      <td>5 回</td> 
+      <td>NT$2,000</td>
+      <td>NT$10,000</td> 
+    </tr> 
+    <tr> 
+      <td>課程教材</td> 
+      <td>教材&雜費</td> 
+      <td>10 回</td> 
+      <td>NT$500</td>
+      <td>NT$5,000</td> 
+    </tr> 
+  <!--item 4 end -->
+  <!--item 5 start-->
+    <tr>
+      <td class="positive" colspan="5">行政經費</td> 
+    </tr> 
+    <tr> 
+      <td>OCF 社群支援</td> 
+      <td>OCF 行政服務</td> 
+      <td>10%</td> 
+      <td></td> 
+      <td>NT$50,300</td> 
+    </tr> 
+  <!--item 5 end -->      
+  </tbody> 
+  <tfoot>
+    <tr> 
+      <th>總預算</th> 
+      <th></th> 
+      <th></th> 
+      <th></th> 
+      <th>NT$553,300</th> 
+    </tr> 
+  </tfoot>
+</table>
