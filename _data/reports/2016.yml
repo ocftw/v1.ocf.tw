@@ -62,7 +62,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2016/sysprogram/class.jpg
+        url: /p/sysprogram/2016/class.jpg
         swap: true
       - type: article
         title: 校園推廣
