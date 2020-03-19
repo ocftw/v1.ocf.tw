@@ -7,7 +7,7 @@ description_en:
 abbr: PyCourse
 abbr_en: PyCourse
 
-tagline: PyCourse
+tagline: 
 tagline_en: 
 
 og_image: /p/pycourse/2019/og.png
@@ -31,26 +31,7 @@ tags:
   - 定期活動
 tags_en:
 
-metas:
-  - label: 
-    content: 
-metas_en:
 
-links:
-  - title: 
-    url: 
-    icon: 
-links_en:
-
-actions:
-  - title: 
-    url: 
-    icon: 
-    color: 
-  - title: 
-actions_en:
-
-advisor_ids:
 organizer_ids:
   - pycourse
   - ocf
