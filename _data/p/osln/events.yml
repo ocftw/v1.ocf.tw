@@ -1,0 +1,109 @@
+- id: 
+  name: OpenChain開源管理 - 訓練課程介紹(1)
+  desctiption: 本次的討論會主要是介紹OpenChain這個開源管理計畫，以及該計畫的產出「自由開源軟體授權管理訓練課程」。
+  cover_image: /p/osln/2019/og.png
+  start: 2018/03/05
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://dmfli.kktix.cc/events/openchain1
+  organizer_ids:
+    - osln
+  co-organizer_ids:
+    - ocf
+
+  project_ids:
+    - osln
+
+  reports:
+    2018: 03
+  reports_en:
+  
+  - id: 
+  name: OpenChain開源管理(2) - SPDX 與 FOSSology 實際應用
+  description: 延續上次對OpenChain規範書及依該規範書產出的「自由開源軟體授權管理訓練課程」，最多參與者的反饋，是如何在正確運用這些知識的前提下，簡要並正確的利用相關工具，實作開源授權管理分析與基礎紀錄。此次，我們將在這樣的反饋下，說明 SPDX 開源套件授權資訊紀錄格式，並配合 FOSSology 這套本身即為開源專案的自由開源授權分析工具，選擇 5 - 10 個講者過往協助過的分析案例，在實作說明下，引導參與者善用這些工具，來了解實際開源合規（法遵）的解析程序為何。
+  cover_image: /p/osln/2019/og.png
+  start: 2018/05/14
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://dmfli.kktix.cc/events/openchain2
+  organizer_ids:
+    - osln
+  co-organizer_ids:
+    - ocf
+
+  project_ids:
+    - osln
+
+  reports:
+    2018: 05
+
+- id: 
+  name: OpenChain 開源管理 (3) - An Intelligent Way to Go
+  description: 本次活動邀請到日本OpenChain社群成員，來分享在公司內部推行開源管理的實際經驗與所遭逢的各種狀況，包括了Sony與Panasonic兩大公司，同時也將介紹OpenChain這個提供開源管理範本與資訊的計畫，機會十分難得！您將可以了解到如何聰明、有系統地建立開源管理機制、有那些資源可利用、實務上所遭遇的困難又有那些可能的應對之道。
+  cover_image: /p/osln/2019/og.png
+  start: 2018/08/10
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://dmfli.kktix.cc/events/openchain3
+  organizer_ids:
+    - osln
+  co-organizer_ids:
+    - ocf
+
+  project_ids:
+    - osln
+
+  reports:
+    2018: 08
+  reports_en:
+  
+  
+  
+  - id: 
+  name: Open Source Compliance Workshop Taipei 2019 / 2019台北開源合規工作坊
+  description: 開源軟體在台灣業界的應用非常廣泛，但是想要將產品做到合於開源授權規定，卻是一件令許多商業使用者感到困難的事情。近年來「開源合規 (Open Source Compliance) 」這個概念浮上檯面，相關的討論發展開來，產生了各種方法與工具，讓使用者能夠以較便利並有次序的方式來達到開源合規的狀態。<br>這場工作坊將會介紹目前國際最新的開源合規資訊與工具，同時也將有國內外的公司來分享開源合規的實務經驗，以及在過程中如何克服遭遇到的困難。若是你正在利用開源軟體，那麼這將是本年度你最不該錯過的一場活動！
+  cover_image: /p/osln/2019/og.png
+  start: 2019/09/27
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://dmfli.kktix.cc/events/openchain4
+  organizer_ids:
+    - osln
+  co-organizer_ids:
+    - ocf
+  project_ids:
+    - osln
+
+  reports:
+    2019: 09
+  reports_en:
+  
+  
+  - id: 
+  name: 開源授權小聚會
+  description: 農曆新年後，開源開春第一炮的活動，開源授權小聚會將帶來目前全球最新的開源授權相關資訊，同時也將介紹開源合規的輔助工具，歡迎來報名參加、認識朋友。
+  cover_image: /p/osln/2019/og.png
+  start: 2020/02/10
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://dmfli.kktix.cc/events/dmfli7
+  organizer_ids:
+    - osln
+  co-organizer_ids:
+    - ocf
+  project_ids:
+    - osln
+
+  reports:
+    2020: 02
+  reports_en:
