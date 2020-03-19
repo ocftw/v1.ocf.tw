@@ -6,6 +6,7 @@
   links:
     - title: 2018/2/24 Python 基礎及應用
       url: https://pycourse.kktix.cc/events/kaohsiungpy20180224
+  links:
     - title: 2018/3/24 Python 基礎及應用工作坊
       url: https://pycourse.kktix.cc/events/kaohsiungpy20180224-copy-1
     - title: 2018/4/28 使用 Python 打造 Line 機器人工作坊 (上)
@@ -45,12 +46,12 @@
   description: 本次課程將透過簡單明嘹的教學，讓您輕鬆使用 Python 程式語言，透過 Raspberry Pi 的環境設定，快速地打造屬於自己的智慧音箱。喜愛動手做、熱愛新玩意的你千萬不可錯過喔！
   start: 7/29
   end: 7/30
-  link:
+  links:
     - title: 活動網頁
       url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=15
-  cover: /p/pycourse/2019/pysosorry.png
-  contributor_id:
+  cover_image: /p/pycourse/2019/pysosorry.png
+  co-worker_ids:
     - rock
-  project_id:
+  project_ids:
     - pycourse
   
