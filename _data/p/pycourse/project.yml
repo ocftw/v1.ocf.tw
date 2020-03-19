@@ -1,30 +1,78 @@
 name: 【社群專案】PyCourse
 name_en: PyCourse
+
 description: Python 是頂尖的美國大學用來教授入門程式設計課程的第一選擇；天瓏書局 2017 年暢銷書排行榜，前十名中有八本是跟 Python 相關的書；在 KDnuggets 的調查中，Python 已經超越 R 成為數據科學和機器學習最多人使用的語言。
-description_en:
+description_en: 
+
 abbr: PyCourse
 abbr_en: PyCourse
+
 tagline: PyCourse
+tagline_en: 
 
 og_image: /p/pycourse/2019/og.png
 header_image: /p/pycourse/2019/og.png
 avatar_image: /p/pycourse/2019/og.png
 theme_color: 
+
 start: 
 end: 
-tags:
-  - 定期活動
+
 type_ids:
   - community
+
 topic_ids:
   - source
+
 field_ids:
   - education
+
+tags:
+  - 定期活動
+tags_en:
+
+metas:
+  - label: 
+    content: 
+metas_en:
+
+links:
+  - title: 
+    url: 
+    icon: 
+links_en:
+
+actions:
+  - title: 
+    url: 
+    icon: 
+    color: 
+  - title: 
+actions_en:
+
+advisor_ids:
 organizer_ids:
   - pycourse
   - ocf
+co-organizer_ids:
+implementer_ids:
+sponsor_ids:
+
+coordinator_ids:
+case-handler_ids:
+co-worker_ids:
+consultant_ids:
+volunteer_ids:
+contributor_ids:
+donors:
+donors_en:
+
 board_ids:
   - pofeng
+
 staff_ids:
   - rock
 
+reports:
+  yyyy: mm
+reports_en:

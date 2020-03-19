@@ -1,19 +1,56 @@
-- id: pycourse
+- id: PyCourse
+
   name: 【高雄 Python 學院】 Python 基礎及應用 
   name_en: 
-  cover_image: /p/pycourse/2018/pycourse-Kaohsiung.png
-  start: 2018/02/24
-  end:
+
   description: 本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
+  description_en: 
+
+  subtitles:
+  subtitles_en:
+
+  cover_image: /p/pycourse/2018/pycourse-Kaohsiung.png
+  banner_image: 
+  theme_color: olive
+
+  start: 2018/02/04
+  end: 2018/02/04
+
+  labels:
+    - title: 
+      color: 
+  labels_en:
+    - title: 
+      color: 
+
+  metas:
+  metas_en:
+
   links:
     - title: 活動網站
       url: https://pycourse.kktix.cc/events/kaohsiungpy20180224
+  links_en:
+    - title: 
+      url: 
+
+  advisor_ids:
   organizer_ids:
-    - pycourse
+      - pycourse
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+  coordinator_ids:
   co-worker_ids:
-    - rock
+      - rock
   project_ids:
-    - pycourse
+      - pycourse
+  host_ids:
+  speaker_ids:
+  participant_ids:
+  donors:
+  donors_en:
+
   reports:
     2018: 02
   reports_en:
+    yyyy: mm
