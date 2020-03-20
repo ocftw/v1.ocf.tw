@@ -11,7 +11,7 @@ start:
 end: 
 link:
   - title: 專案介紹
-    url: /p/2019/chatbot
+    url: /p/chatbot
     target: _self
 tag:
   - 
