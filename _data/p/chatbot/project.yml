@@ -21,7 +21,7 @@ avatar_image: /p/chatbot/chatbotTW.png
 # 選用長寬比接近正方形的圖片
 theme_color: teal
 
-action: 
+actions: 
   - title: 支持我們
     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=39
     color: teal
@@ -30,3 +30,20 @@ action:
     url: https://www.facebook.com/chatbot.tw/
     color: blue
     icon: facebook
+    
+type_ids:
+  - community
+topic_ids:
+  - source
+field_ids:
+  - it
+tags:
+  - 定期活動
+tags_en:
+
+organizer_ids:
+  - chatbot
+co-organizer_ids:
+  - ocf
+staff_ids: 
+  - xini
