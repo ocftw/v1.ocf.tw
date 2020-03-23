@@ -1,0 +1,55 @@
+- id: 
+
+  name: g0v summit 2018
+  name_en: g0v summit 2018
+
+  description: g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是國際開放政府社群的焦點活動，過去兩屆吸引多達十九國講者投稿。雙年會全部由社群參與者志願籌辦，議程也秉持開放協作精神，全部議程皆有口譯、文字記錄和直播。議程除了大會籌辦，也開放完整時段的開放工作坊（Unconference）由參與者提案決定議程內容，以演講、討論、自由對話等形式創造新的協作空間。閉幕前自由報名的全場閃電講更是開源社群傳統，以開放分享的精神貫穿年會。
+  description_en: 
+
+  subtitles:
+  subtitles_en:
+
+  cover_image: /p/g0vsummit/2018/g0v_summit_2018.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/10/5
+  end: 2018/10/7
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網頁
+      url: https://summit.g0v.tw/2018/
+  links_en:
+
+  advisor_ids:
+  organizer_ids:
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+
+  coordinator_ids:
+  case-handler_ids:
+  co-worker_ids:
+  consultant_ids:
+  volunteer_ids:
+  contributor_ids:
+  host_ids:
+  speaker_ids:
+  participant_ids:
+  donors:
+  donors_en:
+
+  project_ids:
+    - g0vsummit
+  board_ids:
+  staff_ids:
+
+  reports:
+    2018: 10
+  reports_en:
