@@ -103,8 +103,6 @@
     - leona
   project_ids:
     - pycon
-  reports:
-    2019: 09
   reports_en:
 
 - id:
@@ -134,9 +132,6 @@
     - xini
   project_ids:
     - pycon
-
-  reports:
-    2020: 09
   reports_en:
 
 
