@@ -1,21 +1,17 @@
 - id: 
-  name: 自由時報：〈全球觀測站〉自造工坊 傳承銀髮族技藝
+  name: 
   cover_image: /p/otspace/2017/openlabtaipei.jpg
   labels: 
     - title: 媒體報導
   links: 
-    - title: 新聞連結
+    - title: 2016/3/1 自由時報：〈全球觀測站〉自造工坊 傳承銀髮族技藝
       url: http://news.ltn.com.tw/news/supplement/paper/963407
-  reports:
-    2016: 04
 
 - id: 
-  name: 赤皮仔藝術 maker自學課程
+  name: 活動課程
   cover_image: /p/otspace/2017/openlabtaipei.jpg
   labels: 
-    - title: 活動
-  links: 
     - title: 
+  links: 
+    - title: 赤皮仔藝術 maker 自學課程
       url: 
-  reports:
-    2016: 03
