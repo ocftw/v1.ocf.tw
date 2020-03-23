@@ -34,7 +34,7 @@
       url: http://www.lovelytaiwan.org.tw/web/news_detail.php?id=278
   cover: /p/otspace/2017/openlabtaipei.jpg
 
-- name: Openlab Taipei: Connecting the Maker Community
+- name: Connecting the Maker Community
   labels:
     - title: 媒體報導
       color: 
@@ -142,7 +142,7 @@
       color: 
   cover: /p/otspace/2017/openlabtaipei.jpg
 
-- name: TechNews： 2013 IDEAS SHOW展場報導─自造者社群創業專場
+- name: TechNews - 2013 IDEAS SHOW展場報導─自造者社群創業專場
   labels:
     - title: 媒體報導
       color: 
