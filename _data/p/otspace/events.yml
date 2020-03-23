@@ -9,14 +9,15 @@
   subtitles:
   subtitles_en:
 
-  cover_image: /p/2017/otspace/openlabtaipei.jpg
+  cover_image: /p/otspace/2017/openlabtaipei.jpg
   banner_image: 
   theme_color: 
 
   start: 
   end: 
 
-  labels: 媒體報導
+  labels: 
+    - title: 媒體報導
   labels_en:
 
   metas:
@@ -50,5 +51,5 @@
   staff_ids:
 
   reports:
-    yyyy: mm
+    2016: 04
   reports_en:
