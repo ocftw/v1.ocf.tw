@@ -1,13 +1,11 @@
 - id:
   name: 在開源社群改造社會-2018 年 g0v 公民科技創新獎助金提案說明工作坊
   description: 為鼓勵更多優秀人才投入公民科技領域、加速孵化更多成果，我們向國內外各大具社會影響力之媒體、科技產業募集「公民科技創新獎助金」，並從 g0v 零時政府揪松團設計一套參與、評選機制，來獎助具潛力且有助公共利益的專案，投入原型開發或維護營運。
-  month: 1
-  start: 1/3
   end: 
   links:
     - title: 活動網站
       url: https://g0v-jothon.kktix.cc/events/grant-apply-worksh0p-moz
-  cover: /p/2018/g0v/20180103g0vdathon.png
+  cover_image: /p/g0vgrants/20180103g0vdathon.png
   contributor_ids:
   project_ids:
     - g0vgrants 
@@ -24,3 +22,17 @@
   avatar: 
   reports:
     2018: 01
+
+
+- id:
+  name: 2017春季 g0v 公民科技創新獎助金 Kick-off Workshop
+  description: 為鼓勵更多優秀人才投入公民科技領域、加速孵化更多成果，我們向國內外各大具社會影響力之媒體、科技產業募集「公民科技創新獎助金」，並從 g0v 零時政府揪松團設計一套參與、評選機制，來獎助具潛力且有助公共利益的專案，投入原型開發或維護營運。
+  links:
+    - title: 活動網站
+      url: https://grants.g0v.tw/
+  contributor_ids:
+    - ttcat
+  project_ids:
+    - g0vgrants
+  reports:
+    2017: 03
