@@ -1,4 +1,4 @@
-- name: 自由時報：〈全球觀測站〉自造工坊 傳承銀髮族技藝
+- name: 自由時報 -〈全球觀測站〉自造工坊 傳承銀髮族技藝
   labels:
     - title: 媒體報導
       color: 
@@ -43,7 +43,7 @@
       url: https://medium.com/@yahsinhuangtw/openlab-taipei-connecting-the-maker-community-611ee54acd9c#.l6hc6g3s9
   cover: /p/otspace/2017/openlabtaipei.jpg
 
-- name: 數位時代：台灣 Maker 來了
+- name: 數位時代 - 台灣 Maker 來了
   labels:
     - title: 媒體報導
       color: 
