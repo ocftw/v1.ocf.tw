@@ -2,12 +2,12 @@ name: 【社群專案】OpenLab. Taipei 空間營運計劃
 name_en: OpenLab. Taipei
 abbr: OT Space
 tagline: FLOSS + Art = OpenLab. Taipei
-cover: /p/2019/otspace/og.jpg
-description: OpenLab. Taipei 可以說是臺灣自造者空間最一開始的雛形，提供一個空間讓大家可以在這裡製作東西、一起討論、交流。2013、2014以來自造者運動（Maker Movement）於台灣漸成規模，各地自造者空間如雨後春筍般出現；作為台灣自造者運動的先驅，OpenLab.Taipei 從 2010 年座落寶藏巖，可謂篳路藍縷地見證著了國內自造者圈的成長。 
+cover: /p/otspace/2019/og.jpg
+description: OpenLab. Taipei 可以說是臺灣自造者空間最一開始的雛形，提供一個空間讓大家可以在這裡製作東西、一起討論、交流。2013、2014 以來自造者運動（Maker Movement）於台灣漸成規模，各地自造者空間如雨後春筍般出現；作為台灣自造者運動的先驅，OpenLab.Taipei 從 2010 年座落寶藏巖，2019 年移至台北國際藝術村，可謂篳路藍縷地見證著了國內自造者圈的成長。 
 month: 
 link:
   - title: 專案介紹
-    url: /p/2019/otspace
+    url: /p/otspace
     target: _self  
 tag:
 type_id:
@@ -24,7 +24,7 @@ implementer_id:
 board_id:
   - pofeng
 staff_id: 
-  - leona
+  - rock
 consultant_id:
 volunteer_id:
 coordinator_id:
