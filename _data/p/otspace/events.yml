@@ -1,4 +1,5 @@
-- name: 自由時報：〈全球觀測站〉自造工坊 傳承銀髮族技藝
+- id: openlab
+  name: 自由時報：〈全球觀測站〉自造工坊 傳承銀髮族技藝
   labels:
     - title: 媒體報導
       color: 
@@ -9,13 +10,15 @@
       url: http://news.ltn.com.tw/news/supplement/paper/963407
   cover_image: /p/otspace/2017/openlabtaipei.jpg
   
-- name: 赤皮仔藝術 maker自學課程
+- id: openlab
+  name: 赤皮仔藝術 maker自學課程
   labels:
     - title: 活動
       color: 
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: 劍人工作坊
+- id: openlab
+  name: 劍人工作坊
   subtitle:
   labels:
     - title: 活動
@@ -25,7 +28,8 @@
       url: http://taipeiartistvillage.tumblr.com/post/138539880813/%E5%B7%A5%E4%BD%9C%E5%9D%8A%E4%BB%8B%E7%B4%B9%E9%84%AD%E9%B4%BB%E6%97%97-openlabtaipei-%E5%8A%8D%E4%BA%BA%E5%85%89%E5%8A%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A
   cover_image: /p/otspace/2017/openlabtaipei.jpg
   
-- name: 再生藝術工坊合作活動
+- id: openlab
+  name: 再生藝術工坊合作活動
   labels:
     - title: 活動
       color: 
@@ -34,7 +38,8 @@
       url: http://www.lovelytaiwan.org.tw/web/news_detail.php?id=278
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: Connecting the Maker Community
+- id: openlab
+  name: Connecting the Maker Community
   labels:
     - title: 媒體報導
       color: 
@@ -43,7 +48,8 @@
       url: https://medium.com/@yahsinhuangtw/openlab-taipei-connecting-the-maker-community-611ee54acd9c#.l6hc6g3s9
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: 數位時代：台灣 Maker 來了
+- id: openlab
+  name: 數位時代：台灣 Maker 來了
   labels:
     - title: 媒體報導
       color: 
@@ -52,31 +58,36 @@
       url: http://www.bnext.com.tw/article/view/id/36407
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: 108 大眼仔、轉不停機器人
+- id: openlab
+  name: 108 大眼仔、轉不停機器人
   labels:
     - title: 活動
       color: 
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: Arduino Day
+- id: openlab
+  name: Arduino Day
   labels:
     - title: 活動
       color: 
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: IBM Watson Humix 分享
+- id: openlab
+  name: IBM Watson Humix 分享
   labels:
     - title: 活動
       color: 
  cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: 國美館展覽：蛋生音
+- id: openlab
+  name: 國美館展覽：蛋生音
   label:
     - title: 活動
       color: 
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: 3D列印媽媽展
+- id: openlab
+  name: 3D列印媽媽展
   labels:
     - title: 活動
       color: 
@@ -85,13 +96,15 @@
       url: http://www.appledaily.com.tw/realtimenews/article/new/20150924/698317/
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: Power Maker 搞飛機講座
+- id: openlab
+  name: Power Maker 搞飛機講座
   labels:
     - title: 活動
       color: 
   cover_image: /p/otspace/2017/openlabtaipei.jpg
-  
-- name: 自造者國際論壇
+
+- id: openlab
+  name: 自造者國際論壇
   labels:
     - title: 活動
       color: 
@@ -100,7 +113,8 @@
       url: http://news.ltn.com.tw/news/life/breakingnews/1327634
   cover_image: /p/otspace/2017/openlabtaipei.jpg
   
-- name: 週二來一招
+- id: openlab
+  name: 週二來一招
   labels:
     - title: 活動
       color: 
@@ -108,8 +122,9 @@
     - title: 2015 回顧與展望
       url: http://gogoprivateryan.blogspot.tw/2016/01/2015-ot-meetup.html
   cover_image: /p/otspace/2017/openlabtaipei.jpg
-  
-- name: 科技報橘：自爽經濟學：當 Maker 只是好玩！—— 專訪 OpenLab.Taipei 共同創辦人鄭鴻旗
+ 
+- id: openlab
+  name: 科技報橘：自爽經濟學：當 Maker 只是好玩！—— 專訪 OpenLab.Taipei 共同創辦人鄭鴻旗
   labels:
     - title: 媒體報導
       color: 
@@ -118,7 +133,8 @@
       url: http://buzzorange.com/techorange/2014/03/17/openlab-taipei-arduino/
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: MakerConf
+- id: openlab
+  name: MakerConf
   labels:
     - title: 活動
       color: 
@@ -127,7 +143,8 @@
       url: http://www.openfoundry.org/tw/foss-news/9270-makerconf
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: 太陽花鋁罐燈
+- id: openlab
+  name: 太陽花鋁罐燈
   labels:
     - title: 活動
       color: 
@@ -135,13 +152,16 @@
     - title: 活動照片
       url: https://hackpad-attachments.s3.amazonaws.com/hackpad.com_rNjkp2kzMVH_p.211398_1428569241633_1957724_10152031230381375_1740066020_o.jpg
   cover_image: /p/otspace/2017/openlabtaipei.jpg
-- name: 寫字機器人、Plotclock
+
+- id: openlab
+  name: 寫字機器人、Plotclock
   labels:
     - title: 活動
       color: 
   cover_image: /p/otspace/2017/openlabtaipei.jpg
 
-- name: TechNews：2013 IDEAS SHOW展場報導─自造者社群創業專場
+- id: openlab
+  name: TechNews：2013 IDEAS SHOW 展場報導─自造者社群創業專場
   labels:
     - title: 媒體報導
       color: 
