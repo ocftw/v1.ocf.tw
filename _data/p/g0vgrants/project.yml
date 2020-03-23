@@ -11,9 +11,9 @@ abbr_en:
 tagline: 公民科技創新獎助金，為引發正向蝴蝶效應而生！
 tagline_en: g0v Civic Tech Grants, for the positive butterfly effect!
 
-og_image: /p/g0vjothon/banner.jpg
-header_image: /p/g0vjothon/banner.jpg
-avatar_image: 
+og_image: /p/g0vgrants/banner.jpg
+header_image: /p/g0vgrants/banner.jpg
+avatar_image: /p/g0vgrants/g0vgrant-logo.svg
 theme_color: 
 
 start: 
@@ -35,17 +35,20 @@ metas:
 metas_en:
 
 links:
-  - title: 
-    url: 
-    icon: 
+  - title:
+    url:
+    icon:
 links_en:
 
 actions:
-  - title: 
-    url: 
+  - title: 獎助金成果
+    url: https://grants.g0v.tw/power/
+    color: green
     icon: 
-    color: 
-  - title: 
+  - title: 月戰報
+    url: https://beta.hackfoldr.org/ctgrant-reports/
+    color: blue
+    icon: 
 actions_en:
 
 advisor_ids:
