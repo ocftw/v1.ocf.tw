@@ -1,5 +1,5 @@
 
-name: 【社群專案】g0v 公民科技創新獎助金
+name: g0v 公民科技創新獎助金
 name_en: G0V Grants
 
 description: 每一個公民科技好點子背後的創意與力量，都像是一隻輕拍翅膀的蝴蝶，若能導入持續開發、長期營運的人力與資源，就能引發蝴蝶效應，產生足以扭轉未來的成果。
@@ -33,12 +33,6 @@ metas:
     content: 2017：聯合報系願景工程、台灣大哥大基金會、前政委 蔡玉玲 律師、Openfind、天氣風險管理開發
         2018：聯合報系願景工程、中華電信、AppWorks、悠遊卡公司 
 metas_en:
-
-links:
-  - title:
-    url:
-    icon:
-links_en:
 
 actions:
   - title: 獎助金成果
