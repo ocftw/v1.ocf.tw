@@ -228,12 +228,9 @@ items:
     cover_image_alt:
   - type: content
     columns:
-      - type: article
-        title: 9 位國際交流夥伴與你一起在開放精神中拓展公民科技。
-        swap: false
       - type: collage
         grid: five
-        swap: true
+        single_column: true
         items:
             - person_id: clkao
             - person_id: bobchao
