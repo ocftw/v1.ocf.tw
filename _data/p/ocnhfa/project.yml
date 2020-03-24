@@ -1,4 +1,3 @@
-# 2020 版專案資料範本
 
 name: 藝術人文開放網絡
 name_en: Open Culture Network for Humanities and Fine Arts
@@ -10,7 +9,7 @@ og_image: /p/ocnhfa/OCNHFA.jpg
 # og_image: url
 # 專案的預覽縮圖，會出現在專案列表頁、sns 連結預覽
 # 選用長寬比接近 facebook og image 的圖片（1200 x 630）
-header_image: 
+header_image: /p/ocnhfa/ocnhfacover.jpg 
 # 專案頁首的底圖，若有，會出現在專案頁、活動頁
 # 選用長寬比接近長條形的圖片（1400 x 300）
 avatar_image: ]
@@ -35,3 +34,9 @@ co-organizer_ids:
   - ocf
 staff_ids: 
   - rock
+
+actions: 
+  - title: 討論區
+    url: https://www.facebook.com/groups/2197780563821860/
+    color: grey
+    icon: home
