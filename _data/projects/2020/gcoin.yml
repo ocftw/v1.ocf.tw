@@ -1,24 +1,24 @@
 name: 【社群專案】Gcoin 區塊鏈計畫
-cover: /p/2019/gcoin/cover.png
+cover: /p/gcoin/2019/cover.png
 description: 開放文化基金會下之 Gcoin 專案，除將致力於 Gcoin 軟體程式之研發，也希望有興趣的開發者一同參與，群策群力讓這個開源專案快速成長，對台灣的金融界能及時貢獻。專案成果除將以開放原始碼授權外，並將推廣新一代的數位金融基礎建設概念及尋求相關法制商業模式等配套落實，使台灣成為 Gcoin 技術能實際應用的場域。
 link:
   - title: 專案介紹
-    url: /p/2019/gcoin
-type_id:
+    url: /p/gcoin
+type_ids:
   - community
-topic_id:
+topic_ids:
   - source
-field_id:
+field_ids:
   - finance
 
 tagline: 開源的區塊鏈協議與開放的數位金融基礎建設
 avatar: 
-organizer_id:
-advisor_id:
-co-organizer_id:
-implementer_id:
-sponsor_id:
-coordinator_id:
+organizer_ids:
+advisor_ids:
+co-organizer_ids:
+implementer_ids:
+sponsor_ids:
+coordinator_ids:
 donors:
 meta:
   - label: 計畫主持人
@@ -33,9 +33,9 @@ abbr:
 month: 
 
 name_en: Gcoin Blockchain Project
-board_id:
+board_ids:
   - clkao
-staff_id:
+staff_ids:
   - rock 
-consultant_id:
-volunteer_id:
+consultant_ids:
+volunteer_ids:
