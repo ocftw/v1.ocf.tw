@@ -35,6 +35,8 @@ items:
           - project_id: cscs
           - project_id: ocnhfa
           - project_id: gdghualien
+  - type: content
+    columns:
       - type: article
         swap: true
         title: 活動協力
