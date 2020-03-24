@@ -109,7 +109,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/admin/2019/9.jpg
+        url: /p/admin/2019/9.png
         swap: false
       - type: article
         title: 開源科技訓練營
@@ -118,7 +118,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/admin/2019/9.jpg
+        url: /p/admin/2019/7.jpg
         swap: true
       - type: article
         title: 開源教教我
