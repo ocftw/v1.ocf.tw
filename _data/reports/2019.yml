@@ -231,34 +231,7 @@ items:
     background_color: 
     cover: /p/admin/2019/4.png
     cover_image_alt:
-  - type: content
-    columns:
-      - type: article
-        title: 9 位國際交流夥伴與你一起在開放精神中拓展公民科技。
-        swap: false
-      - type: collage
-        grid: five
-        swap: true
-        items:
-            - person_id: clkao
-            - person_id: bobchao
-            - person_id: honki
-            - person_id: jimyhuang
-            - person_id: pofeng
-            - person_id: rock
-            - person_id: singing
-            - person_id: huangfu
-            - person_id: leona
-            - person_id: rosa
-            - person_id: ttcat
-            - person_id: pellaeon
-            - person_id: lulukeng
-            - person_id: aiya
-            - person_id: lilin
-            - person_id: vivianlw
-            - person_id: yhchang
-            - person_id: kting
-            - person_id: TYC
+
   - type: content
     single_column: true
     columns:
