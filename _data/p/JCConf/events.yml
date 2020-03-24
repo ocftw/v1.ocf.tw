@@ -63,7 +63,7 @@
 
 - id: 
 
-  name: Java Community Conference Taiwan
+  name: Java Community Conference Taiwan 2018
   name_en: Java Community Conference Taiwan
 
   description: Java Community Conference Taiwan 是由社群主辦的 Java 開發者年會，以提供更多機會讓開發人員之間能夠互相交流。分享內容的程度不論初階到進階，只要和 Java 程式語言、框架、JVM 及虛擬化相關技術、移動裝置、開發工具、開發流程...等等，任何你認為可以分享的主題都歡迎您的投稿，歡迎分享你的發現、研究或各種實際案例經驗給大家。 
@@ -72,7 +72,7 @@
   subtitles:
   subtitles_en:
 
-  cover_image: /p/JCConf/2018/JCConf2018.png
+  cover_image: /p/JCConf/2018/og.png
   banner_image: 
   theme_color: 
 
@@ -122,7 +122,7 @@
     2018: 10
   reports_en:
 
-  - id: 
+- id: 
 
   name: Java Community Conference Taiwan 2017
   name_en: Java Community Conference Taiwan 2017
@@ -133,7 +133,7 @@
   subtitles:
   subtitles_en:
 
-  cover_image: /p/JCConf/2017/JCConf2017.png
+  cover_image: /p/JCConf/2017/og.png
   banner_image: 
   theme_color: 
 
