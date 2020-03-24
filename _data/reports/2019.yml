@@ -27,11 +27,11 @@ items:
           - project_id: osln
           - project_id: otspace
           - project_id: gcoin
-          - project_id: osm
+          - project_id: osmtw
           - project_id: hcsm
           - project_id: opensuse
           - project_id: chewingim
-          - project_id: OHF
+          - project_id: openhackfarm
           - project_id: sysprogram
           - project_id: cloudnative
           - project_id: cscs
@@ -65,11 +65,14 @@ items:
         description: OCF 首度發起 OSCVPass (開源貢獻者快速通關) 專案，讓開源專案貢獻者能更快速、更方便的獲得研討會活動的各式優待票．鼓勵更多人參與 Open Source 貢獻。
         items:
           - project_id: OSCVPass
+
   - type: image_header
     anchor: OCF
     background_color: 
-    cover: /p/2019/3.png
+    cover: /p/admin/2019/3.png
     cover_image_alt: 
+
+
   - type: content
     columns:
       - type: image
@@ -104,11 +107,13 @@ items:
       title: 捐款支持
       url: /300/
       position: center
+
   - type: image_header
     anchor: intl
     background_color: orange
     cover: /p/intl/2018/intlcoverbanner-new.png
     cover_image_alt: 
+
   - type: content
     columns:
       - type: slider
