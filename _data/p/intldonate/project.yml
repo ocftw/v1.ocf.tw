@@ -1,35 +1,23 @@
 name: 國際盤纏計劃
 name_en: Travel Grants for Open Source Conference
-abbr: 
-tagline: 
-tagline_en: 
-cover: /p/intldonate/intldonate.png
-avatar: 
+
 description: 大型國際開源會議通常並不提供講者交通與食宿，因此對年輕學生來說，是個很大的門檻。希望藉此計畫，提供旅費補助，鼓勵學生們投稿，直接和國際開源社群分享成果、交流經驗，並且在回國後自主舉辦分享會，把所得知識公共化。
 description_en: Organizers of large-scale international open source conferences might not cover the costs of transportation and accommodation. These necessary expenses could become a financial burden on young students. Therefore, we provide travel grants for students who are willing to submit their papers to international conferences and share their findings and experience with both global and local open source community.
-month: 
+
+tagline: 帶你用開源走向國際
+tagline_en: 
+
+og_image: /p/intldonate/intldonate.png
+header_image: /p/intldonate/intldonate.png
+avatar_image: 
+theme_color: blue
+
 start: 
 end: 
-link:
-  - title: 專案介紹
-    url: /p/intldonate
-    target: _self
-link_en:
-  - title: Intro
-    url: /en/p/intltravelgrants
-    target: _self
-tag:
-  - 工作小組
-type_id:
-field_id: 
-  - it
-advisor_id:
-organizer_id:
-co-organizer_id:
-implementer_id:
-board_id:
-staff_id: 
-consultant_id:
-volunteer_id:
-coordinator_id:
 
+type_ids:
+topic_ids:
+field_ids:
+  - it
+tags:
+tags_en:
