@@ -75,7 +75,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/2018/g0vsummit/g0v_summit_2018.jpg
+        url: /p/admin/8.jpg
         swap: true
       - type: article
         title: CSCS (Civil Society Cyber Shield)
