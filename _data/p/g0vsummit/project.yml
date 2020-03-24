@@ -38,13 +38,7 @@ metas:
 metas_en:
 
 links:
-  - title: 專案介紹
-    url: /p/g0vsummit 
-    target: _self
 links_en:
-  - title: Intro
-    url: /en/p/g0vsummit 
-    target: _self
 
 actions:
   - title: 
