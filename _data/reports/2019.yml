@@ -73,39 +73,39 @@ items:
     cover_image_alt: 
 
   - type: content
-      columns:
-        - type: image
-          url: /p/2018/g0vsummit/g0v_summit_2018.jpg
-          swap: true
-        - type: article
-          title: CSCS (Civil Society Cyber Shield)
-          subtitle: 
-          description: 來自資安界和公民社會團體的CSCS成員，今年舉辦了一場資安種子講師培訓，並為超過10個公民團體成員，進行4場資安提升工作坊，幫助公民團體在安全的線上環境中推動社會議題。更將資安意識提升的對象拓展到一般大眾，舉辦4場免費的資安講座，並製作了4隻簡單易懂的資安影片，幫助民眾落實生活中的資安大小事。
-          items:
-          - title: 【專案介紹】CSCS公民團體資安暨隱私交流計劃
-            url: https://ocf.tw/p/cscs/
-          - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題一：資料中心與網路骨幹
-            url: https://ocftw.kktix.cc/events/greenhost1?_ga=2.231636957.391689372.1579257657-2027007759.1573796777
-          - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題二：網路資源及路由管理： IP, AS Number, DNS
-            url: https://ocftw.kktix.cc/events/greenhost2?_ga=2.64417901.391689372.1579257657-2027007759.1573796777
-          - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題三：軟體平臺架構
-            url: https://ocftw.kktix.cc/events/greenhost3?_ga=2.61161198.391689372.1579257657-2027007759.1573796777
-          - title: 【活動】COSCUP 開源隱私社群軌
-            url: https://ocf.tw/p/cscs/2019/COSCUP_2019_%E9%96%8B%E6%BA%90%E9%9A%B1%E7%A7%81%E8%BB%8C_%E6%B4%BB%E5%8B%95%E8%A8%98%E9%8C%84.pdf
-          - title: 【活動】網路公民必須學會的資安防護
-            url: https://www.facebook.com/events/2438418669711037/
-          - title: 【活動】NGO 資安種子講師訓練
-            url: https://ocftw.kktix.cc/events/cscs2019tot?_ga=2.27802750.391689372.1579257657-2027007759.1573796777
-          - title: 數位時代，自已的權利自己顧 -- 基礎資安教戰講座
-            url: https://ocftw.kktix.cc/events/e0c1048b?_ga=2.244118087.391689372.1579257657-2027007759.1573796777
-          - title: 【活動】Tor Sharing @ Taipei - 關於匿名瀏覽器，你知道多少?
-            url: https://www.youtube.com/watch?v=Xx7t3aqHuV0&feature=youtu.be
-          - title: 資安小診所＠Oslo Freedum Forum Taipei 
-            url: 
-          - title: 【教學影片】日常資安小教室，常見問題全都錄
-            url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnc5ZT8EbxqjzbwqQCcMNWN
-          - title: 【專案】開源軟體與教材翻譯與推廣
-            url: https://ocf.tw/p/cscs/2019/
+    columns:
+      - type: image
+        url: /p/2018/g0vsummit/g0v_summit_2018.jpg
+        swap: true
+      - type: article
+        title: CSCS (Civil Society Cyber Shield)
+        subtitle: 
+        description: 來自資安界和公民社會團體的CSCS成員，今年舉辦了一場資安種子講師培訓，並為超過10個公民團體成員，進行4場資安提升工作坊，幫助公民團體在安全的線上環境中推動社會議題。更將資安意識提升的對象拓展到一般大眾，舉辦4場免費的資安講座，並製作了4隻簡單易懂的資安影片，幫助民眾落實生活中的資安大小事。
+        items:
+        - title: 【專案介紹】CSCS公民團體資安暨隱私交流計劃
+          url: https://ocf.tw/p/cscs/
+        - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題一：資料中心與網路骨幹
+          url: https://ocftw.kktix.cc/events/greenhost1?_ga=2.231636957.391689372.1579257657-2027007759.1573796777
+        - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題二：網路資源及路由管理： IP, AS Number, DNS
+          url: https://ocftw.kktix.cc/events/greenhost2?_ga=2.64417901.391689372.1579257657-2027007759.1573796777
+        - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題三：軟體平臺架構
+          url: https://ocftw.kktix.cc/events/greenhost3?_ga=2.61161198.391689372.1579257657-2027007759.1573796777
+        - title: 【活動】COSCUP 開源隱私社群軌
+          url: https://ocf.tw/p/cscs/2019/COSCUP_2019_%E9%96%8B%E6%BA%90%E9%9A%B1%E7%A7%81%E8%BB%8C_%E6%B4%BB%E5%8B%95%E8%A8%98%E9%8C%84.pdf
+        - title: 【活動】網路公民必須學會的資安防護
+          url: https://www.facebook.com/events/2438418669711037/
+        - title: 【活動】NGO 資安種子講師訓練
+          url: https://ocftw.kktix.cc/events/cscs2019tot?_ga=2.27802750.391689372.1579257657-2027007759.1573796777
+        - title: 數位時代，自已的權利自己顧 -- 基礎資安教戰講座
+          url: https://ocftw.kktix.cc/events/e0c1048b?_ga=2.244118087.391689372.1579257657-2027007759.1573796777
+        - title: 【活動】Tor Sharing @ Taipei - 關於匿名瀏覽器，你知道多少?
+          url: https://www.youtube.com/watch?v=Xx7t3aqHuV0&feature=youtu.be
+        - title: 資安小診所＠Oslo Freedum Forum Taipei 
+          url: 
+        - title: 【教學影片】日常資安小教室，常見問題全都錄
+          url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnc5ZT8EbxqjzbwqQCcMNWN
+        - title: 【專案】開源軟體與教材翻譯與推廣
+          url: https://ocf.tw/p/cscs/2019/
 
   - type: content
     columns:
