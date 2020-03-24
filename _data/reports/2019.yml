@@ -14,12 +14,12 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/pycon/2018/group壓縮.jpg
-        swap: false
+        url: /p/admin/2019/0.jpg
+        swap: true
       - type: article
-        title: 社群後勤
+        title: 活動協力
         subtitle: 
-        description: 開源社群中，總是有一群人，下班後不去喝酒尋樂，只為了在一行行的程式碼中，實踐開放資料與開放原始碼的應用，然後找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，以自主參與、自主學習、協作等精神，敲打著鍵盤分享今天得到的新發現。開放文化的社群，就是這麼一群人，而 OCF 行政中心，除了關心和協助之外，也正和這社群們一起成長著。
+        description: 每一年總有一些人，默默思考著開源、開放理念如何能夠發揚光大；如何在有限的資源下辦一場好的活動，當埋頭苦思於找志工、找場地、找贊助、活動網頁、宣傳、開發票……等等瑣碎的事情，不時會冒出：「哎！要是有人能幫我就好了！」的念頭。而這些繁雜卻重要的小事，就是除了社群自己的活動或營運規劃之外， OCF 行政中心能夠挺身而出提供支援的時候！
         items:
           - project_id: g0vdathon
           - project_id: pycourse
@@ -37,16 +37,6 @@ items:
           - project_id: cscs
           - project_id: ocnhfa
           - project_id: gdghualien
-  - type: content
-    columns:
-      - type: image
-        url: /p/2018/g0vsummit/g0v_summit_2018.jpg
-        swap: true
-      - type: article
-        title: 活動協力
-        subtitle: 
-        description: 每一年總有一些人，默默思考著開源、開放理念如何能夠發揚光大；如何在有限的資源下辦一場好的活動，當埋頭苦思於找志工、找場地、找贊助、活動網頁、宣傳、開發票……等等瑣碎的事情，不時會冒出：「哎！要是有人能幫我就好了！」的念頭。而這些繁雜卻重要的小事，就是除了社群自己的活動或營運規劃之外， OCF 行政中心能夠挺身而出提供支援的時候！
-        items:
           - project_id: pycon
           - project_id: coscup
           - project_id: sitcon
