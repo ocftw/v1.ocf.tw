@@ -76,7 +76,7 @@ action:
     # 按下後會連去哪裡
     color: green
     # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
-    icon: dollar
+    icon: world icon
     # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
   - title: 參與專案 / 贊助設備
     # 按鈕上的文字
@@ -84,5 +84,5 @@ action:
     # 按下後會連去哪裡
     color: blue
     # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
-    icon: facebook f 
+    icon: facebook
     # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
