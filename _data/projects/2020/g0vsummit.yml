@@ -1,7 +1,7 @@
 name: 【社群專案】g0v Summit 2018
 name_en: g0v Summit 2018
 abbr: g0v Summit 2018
-cover: /p/2018/g0vsummit/og.jpg
+cover: /p/g0vsummit/2018/og.jpg
 description: g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是亞洲最大的公民科技黑客年會，過去兩屆吸引多達十九國講者投稿。我們致力讓這個聚會成為近千位現場參與者的開放交流平台，無論是工程師、研究者、倡議者、創作者，希望都能繼續透過科技、專業及群眾參與改變社會。
 description_en: The Largest Civic Tech Event in Asia
 month: 10
@@ -9,7 +9,7 @@ start: 10/5
 end: 10/7
 link:
   - title: 專案介紹
-    url: /p/2018/g0vsummit 
+    url: /p/g0vsummit 
     target: _self
 link_en:
   - title: Intro
