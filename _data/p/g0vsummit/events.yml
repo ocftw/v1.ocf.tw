@@ -53,3 +53,59 @@
   reports:
     2018: 10
   reports_en:
+
+- id: 
+
+  name: G0V Summit 零時政府高峰會 2016
+  name_en: G0V Summit 2016
+
+  description: g0v.tw 2012 年底 g0v 社群運作逐漸成形，從那時起 g0v 零時政府社群便以數位世代的思維，以開源方式號召群眾參與著手開發新工具、新組織型態、新合作關係。經過多方共同努力，透過 g0v 的開放特性作為平台，與 NGO 和政府建立了多方互動，但需要更長遠的跨領域交流，為此籌辦 g0v.tw summit 零時政府高峰會，希望有更多深入的溝通與交流，與有志運用科技改變社會的各界共同參與，期待開放力量成為實際改變的動能。
+  description_en: 
+
+  subtitles:
+  subtitles_en:
+
+  cover_image: /p/g0vsummit/2016/cover.png
+  banner_image: 
+  theme_color: 
+
+  start: 2016/5/14
+  end: 2016/5/15
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網頁
+      url: https://summit.g0v.tw/2018/
+  links_en:
+
+  advisor_ids:
+  organizer_ids:
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+
+  coordinator_ids:
+  case-handler_ids:
+  co-worker_ids:
+  consultant_ids:
+  volunteer_ids:
+  contributor_ids:
+  host_ids:
+  speaker_ids:
+  participant_ids:
+  donors:
+  donors_en:
+
+  project_ids:
+    - g0vsummit
+  board_ids:
+  staff_ids:
+
+  reports:
+    2016: 05
+  reports_en:
