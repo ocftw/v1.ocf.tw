@@ -235,7 +235,7 @@ items:
 
 
 
-  - type: content
+  - type: article
     single_column: true
     columns:
       - type: article
