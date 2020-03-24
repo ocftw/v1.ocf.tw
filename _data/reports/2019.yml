@@ -227,6 +227,7 @@ items:
     cover: /p/admin/2019/4.png
     cover_image_alt:
   - type: content
+    single_column: true
     columns:
       - type: collage
         grid: ten
