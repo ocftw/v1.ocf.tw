@@ -75,7 +75,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/admin/8.jpg
+        url: /p/admin/2019/8.jpg
         swap: true
       - type: article
         title: CSCS (Civil Society Cyber Shield)
