@@ -4,11 +4,11 @@ description: 開放文化基金會下之 Gcoin 專案，除將致力於 Gcoin �
 link:
   - title: 專案介紹
     url: /p/gcoin
-type_ids:
+type_id:
   - community
-topic_ids:
+topic_id:
   - source
-field_ids:
+field_id:
   - finance
 
 tagline: 開源的區塊鏈協議與開放的數位金融基礎建設
@@ -33,9 +33,9 @@ abbr:
 month: 
 
 name_en: Gcoin Blockchain Project
-board_ids:
+board_id:
   - clkao
-staff_ids:
+staff_id:
   - rock 
 consultant_ids:
 volunteer_ids:
