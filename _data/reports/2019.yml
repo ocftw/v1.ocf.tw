@@ -229,7 +229,7 @@ items:
   - type: content
     columns:
       - type: collage
-        grid: five
+        grid: ten
         single_column: true
         items:
             - person_id: clkao
@@ -250,6 +250,8 @@ items:
             - person_id: yhchang
             - person_id: kting
             - person_id: TYC
+            - person_id: leaf
+            - person_id: liyu
   - type: content
     single_column: true
     columns:
