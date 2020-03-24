@@ -77,11 +77,11 @@ items:
         - type: image
           url: /p/2018/g0vsummit/g0v_summit_2018.jpg
           swap: true
-    - type: article
-      title: CSCS (Civil Society Cyber Shield)
-      subtitle: 
-      description: 來自資安界和公民社會團體的CSCS成員，今年舉辦了一場資安種子講師培訓，並為超過10個公民團體成員，進行4場資安提升工作坊，幫助公民團體在安全的線上環境中推動社會議題。更將資安意識提升的對象拓展到一般大眾，舉辦4場免費的資安講座，並製作了4隻簡單易懂的資安影片，幫助民眾落實生活中的資安大小事。
-        items:
+        - type: article
+          title: CSCS (Civil Society Cyber Shield)
+          subtitle: 
+          description: 來自資安界和公民社會團體的CSCS成員，今年舉辦了一場資安種子講師培訓，並為超過10個公民團體成員，進行4場資安提升工作坊，幫助公民團體在安全的線上環境中推動社會議題。更將資安意識提升的對象拓展到一般大眾，舉辦4場免費的資安講座，並製作了4隻簡單易懂的資安影片，幫助民眾落實生活中的資安大小事。
+          items:
           - title: 【專案介紹】CSCS公民團體資安暨隱私交流計劃
             url: https://ocf.tw/p/cscs/
           - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題一：資料中心與網路骨幹
@@ -119,6 +119,10 @@ items:
         action:
           title: PTT Crawler
           url: https://github.com/ocftw/PttCrawler/blob/master/doc/zh.md
+  
+
+
+
   - type: content
     columns:
       - type: article
