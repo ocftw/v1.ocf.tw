@@ -230,7 +230,6 @@ items:
     columns:
       - type: collage
         grid: ten
-        single_column: true
         items:
             - person_id: clkao
             - person_id: bobchao
