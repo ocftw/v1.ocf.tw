@@ -1,5 +1,5 @@
 name: 【社群專案】公民團體資安暨隱私交流計劃
-name_en: Civil Society Cyber Shield (under OCF International Program)
+name_en: Civil Society Cyber Shield 
 abbr: 
 tagline: 以資安保護公民社會
 cover: /p/cscs/cscs-logo.png
@@ -36,9 +36,7 @@ implementer_id:
 board_id:
   - clkao
 staff_id: 
-  - ttcat
-  - pellaeon 
-  - lilin
+  - claire
 consultant_id:
   - miaoski
 volunteer_id:
