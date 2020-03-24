@@ -8,7 +8,7 @@ items:
   - type: image_header
     anchor: admin
     background_color: teal
-    cover: /p/admin/2018/admin_banner2018_report.png
+    cover: /p/admin/2019/2.png
     cover_image_alt: 
   - type: content
     columns:
@@ -21,18 +21,21 @@ items:
         description: 開源社群中，總是有一群人，下班後不去喝酒尋樂，只為了在一行行的程式碼中，實踐開放資料與開放原始碼的應用，然後找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，以自主參與、自主學習、協作等精神，敲打著鍵盤分享今天得到的新發現。開放文化的社群，就是這麼一群人，而 OCF 行政中心，除了關心和協助之外，也正和這社群們一起成長著。
         items:
           - project_id: g0vdathon
+          - project_id: pycourse
+          - project_id: cctw
+          - project_id: osln
           - project_id: otspace
-          - project_id: osmtw
+          - project_id: gcoin
+          - project_id: osm
+          - project_id: hcsm
           - project_id: opensuse
           - project_id: chewingim
-          - project_id: osln
-          - project_id: openhackfarm
-          - project_id: hcsm
+          - project_id: OHF
           - project_id: sysprogram
-          - project_id: gcoin
-          - project_id: ocnhfa
           - project_id: cloudnative
-          - project_id: pycourse
+          - project_id: cscs
+          - project_id: ocnhfa
+          - project_id: gdghualien
   - type: content
     columns:
       - type: image
@@ -43,23 +46,29 @@ items:
         subtitle: 
         description: 每一年總有一些人，默默思考著開源、開放理念如何能夠發揚光大；如何在有限的資源下辦一場好的活動，當埋頭苦思於找志工、找場地、找贊助、活動網頁、宣傳、開發票……等等瑣碎的事情，不時會冒出：「哎！要是有人能幫我就好了！」的念頭。而這些繁雜卻重要的小事，就是除了社群自己的活動或營運規劃之外， OCF 行政中心能夠挺身而出提供支援的時候！
         items:
-          - project_id: sitcon
           - project_id: pycon
-          - project_id: debconf18
           - project_id: coscup
-          - project_id: g0vsummit
+          - project_id: sitcon
           - project_id: jcconf
+          - project_id: wordcamp
+          - project_id: g0vgrants
+          - project_id: sciwork
   - type: content
     columns:
       - type: image
         url: /p/cctw/2018/ccfor2018rep.jpg
         swap: false
       - type: article
-        title: 自媒體時代，創用CC 讓你更被看見！
+        title: 服務社群
         subtitle: 
-        description: 創作，就是為了要讓世界看見。但在分享或編修他人創作同時，如何守護原創者的權利，並使作品在被授權保護的情況下散播感動散播愛？CC 授權就是這樣的工具。我們密切和 Creative Commons 國際社群保持互動，加入社群會員之外，也成立了 CC Taiwan Chapter，期盼將開放式授權的觀念分享給在地社群。
+        description: OCF 首度發起 OSCVPass (開源貢獻者快速通關) 專案，讓開源專案貢獻者能更快速、更方便的獲得研討會活動的各式優待票．鼓勵更多人參與 Open Source 貢獻。
         items:
-          - project_id: cctw
+          - project_id: OSCVPass
+  - type: image_header
+    anchor: OCF
+    background_color: 
+    cover: /p/2019/3.png
+    cover_image_alt: 
   - type: content
     columns:
       - type: image
