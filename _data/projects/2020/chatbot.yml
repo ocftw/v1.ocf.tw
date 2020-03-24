@@ -9,7 +9,7 @@ description: Chatbot Developers Taiwan 社群致力於提供一個討論聊天�
 month: 
 start: 
 end: 
-links:
+link:
   - title: 專案介紹
     url: /p/chatbot
     target: _self
@@ -22,16 +22,16 @@ topic_ids:
 field_ids: 
   - it
 advisor_ids:
-organizer_ids:
+organizer_id:
   - chatbot
-co-organizer_ids:
+co-organizer_id:
   - ocf
-implementer_ids:
-board_ids:
+implementer_id:
+board_id:
   - bobchao
-staff_ids: 
+staff_id: 
   - xini
-consultant_ids:
-volunteer_ids:
-coordinator_ids:
+consultant_id:
+volunteer_id:
+coordinator_id:
 
