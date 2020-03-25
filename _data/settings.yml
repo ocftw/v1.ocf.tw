@@ -18,6 +18,8 @@ menu:
     url: /people/
   - title: 基金會專案
     url: /p/ocf
+  - title: 社群專案
+    url: /p/community
   - title: 活動
     url: /journal/
   - title: News
@@ -28,3 +30,5 @@ menu_en:
     url: /en/about/
   - title: Our Projects
     url: /en/p/ocf
+  - title: Community Projects
+    url: /en/p/community

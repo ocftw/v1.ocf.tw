@@ -42,6 +42,17 @@
           {% assign item_class = 'active' %}
         {% endif %}
       {% endif %}
+    {% elsif item.url contains '/p/community' %}
+      {% if project.organizer_ids contains 'ocf' %}
+      {% else %}
+        {% assign item_class = 'active' %}
+      {% endif %}
+      {% if parent_project %}
+        {% if parent_project.organizer_ids contains 'ocf' %}
+        {% else %}
+          {% assign item_class = 'active' %}
+        {% endif %}
+      {% endif %}
     {% endif %}
 
   {% endif %}
