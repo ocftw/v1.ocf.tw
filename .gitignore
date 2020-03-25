@@ -4,3 +4,4 @@ _site
 _deploy
 *.lock
 Gemfile
+.jekyll-cache
