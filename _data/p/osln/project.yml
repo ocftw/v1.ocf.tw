@@ -44,3 +44,6 @@ board_ids:
   - pofeng
 staff_ids: 
   - rock
+
+listed: yes
+listed_en: 

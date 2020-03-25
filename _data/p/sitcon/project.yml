@@ -29,6 +29,8 @@ board_ids:
 staff_ids:
   - rock
 
+listed: yes
+listed_en: 
 
 actions: 
 # 專案頁的 call to action，可以是按鈕或一段文字，會出現在右側邊欄的最下方
@@ -56,4 +58,3 @@ actions:
     # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
     icon: facebook
     # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
----

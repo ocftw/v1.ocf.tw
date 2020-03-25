@@ -51,3 +51,6 @@ board_ids:
   - bobchao
 staff_ids:
   - singing
+
+listed: yes
+listed_en: yes

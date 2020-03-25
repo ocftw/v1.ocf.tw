@@ -1,4 +1,5 @@
 {% include _var/now.html %}
+{% include _var/lang.html %}
 
 <!--
   set variables: plist
@@ -9,30 +10,39 @@
 {% for project_folder in site.data.p %}
 {% assign project_id = project_folder[0] %}
 {% assign project = project_folder[1].project %}
-
-{% if page.host == 'ocf' %}
-
-  {% if project.organizer_ids contains 'ocf' %}
-    {% if now > project.end %}
-    {% else %}
-      {% assign plist = plist | append: ',' | append: project_id %}
-    {% endif %}
-  {% endif %}
-
+{% if lang == 'en' %}
+  {% assign project_listed = project.listed_en %}
 {% else %}
+  {% assign project_listed = project.listed %}
+{% endif %}
 
-  {% if project.organizer_ids contains 'ocf' %}
-  {% else %}
-    {% if now > project.end %}
-    {% else %}
-      {% assign plist = plist | append: ',' | append: project_id %}
+{% if project_listed %}
+  {% if page.host == 'ocf' %}
+
+    {% if project.organizer_ids contains 'ocf' %}
+      {% if now > project.end %}
+      {% else %}
+        {% assign plist = plist | append: ',' | append: project_id %}
+      {% endif %}
     {% endif %}
-  {% endif %}
 
+  {% else %}
+
+    {% if project.organizer_ids contains 'ocf' %}
+    {% else %}
+      {% if now > project.end %}
+      {% else %}
+        {% assign plist = plist | append: ',' | append: project_id %}
+      {% endif %}
+    {% endif %}
+
+  {% endif %}
 {% endif %}
 
 {% assign project_id = undefined %}
 {% assign project = undefined %}
+{% assign project_listed = undefined %}
 {% endfor %}
 
 {% assign plist = plist | split: ',' | shift | sort %}
+

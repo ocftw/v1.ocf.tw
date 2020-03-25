@@ -28,8 +28,6 @@ tags:
 tags_en:
 
 metas:
-  - label: 
-    content: 
 metas_en:
 
 links:
@@ -60,6 +58,9 @@ board_ids:
   - pofeng
 staff_ids:
   - singing
+
+listed: yes
+listed_en: 
 
 reports:
 reports_en:
