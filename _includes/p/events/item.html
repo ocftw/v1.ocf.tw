@@ -22,22 +22,7 @@
         {% include _shared/titles.html type='shared' id='project' %} ⸺ 
 
       {% assign project = site.data.p[project_id].project %}
-      {% if lang == 'en' %}
-        {% assign project_url = project_id | prepend: '/en/p/' | append: '/' %}
-        {% assign project_links = project.links_en %}
-        {% assign project_name = project.name_en %}
-      {% else %}
-        {% assign project_url = project_id | prepend: '/p/' | append: '/' %}
-        {% assign project_links = project.links %}
-        {% assign project_name = project.name %}
-      {% endif %}
-
-      {% assign file = site.pages | where: 'url', project_url | first %}
-      {% if file %}
-      {% else %}
-        {% assign project_url = project_links.first.url %}
-      {% endif %}
-      {% assign file = undefined %}
+      {% include _var/plist/item.html project=project %}
 
       <a href="{{ project_url }}">
         {% include p/name.html return="string" project=project %}

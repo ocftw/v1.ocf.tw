@@ -1,0 +1,41 @@
+{% for filter in site.data.plist.settings %}
+
+{% if lang == 'en' %}
+  {% assign filter_name = filter.name_en %}
+  {% assign filter_prefix = 'All ' %}
+{% else %}
+  {% assign filter_name = filter.name %}
+  {% assign filter_prefix = '所有' %}
+{% endif %}
+
+<div class="ui dropdown item">
+
+  <span data-content="{{ filter.id }}">
+  {{ filter_prefix }}{{ filter_name }}
+  </span>
+
+  <i class="dropdown icon"></i>
+  <div class="menu">
+
+    <a class="item" data-{{ filter.id }}="all">
+      {{ filter_prefix }}{{ filter_name }}
+    </a>
+
+    {% for item in filter.items %}
+      <a class="item" data-{{ filter.id }}="{{ item.id }}">
+      {% if lang == 'en' %}
+        {{ item.name_en }}
+      {% else %}
+        {{ item.name }}
+      {% endif %}
+      </a>
+    {% endfor %}
+
+  </div>
+</div>
+
+{% assign filter_name = undefined %}
+{% assign filter_prefix = undefined %}
+
+{% endfor %}
+

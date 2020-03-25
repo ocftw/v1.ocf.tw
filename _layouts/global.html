@@ -60,6 +60,7 @@
     page.layout == "report" or
     page.layout == "design" or
     page.layout == "p" or 
+    page.layout == "plist" or 
     page.layout == "e" or
     page.layout == "f"
   %}
@@ -107,6 +108,12 @@
   {% endif %}
   {% if page.enable_tablesort %}
     {% include _plugins/tablesort.html %}
+  {% endif %}
+
+  {% if 
+    page.layout == "plist"
+  %}
+    <script src="/assets/scripts/{{ page.layout }}.js"></script>
   {% endif %}
 
   {% if page.js %}

@@ -1,0 +1,25 @@
+#plist .card.display-none {
+  display: none;
+}
+
+#plist .card .extra.content {
+  background-color: #F3F4F5;
+}
+
+#plist .card .meta .ui.list .item {
+  display: flex;
+  align-items: center;
+  min-height: 1.6rem;
+}
+
+#plist .card .meta .ui.list .item > .ui.label {
+  padding-left: 0;
+  padding-right: 0;
+  min-width: 5rem;
+  background: none;
+  text-align: left;
+}
+
+#plist .card .meta .ui.list .item .text {
+  flex-grow: 1;
+}

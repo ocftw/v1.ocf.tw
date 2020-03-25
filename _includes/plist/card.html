@@ -1,0 +1,44 @@
+{% assign project = include.project %}
+{% include _var/plist/item.html project=project %}
+
+<div class="card" data-type="
+  {% for id in project.type_ids %}
+  {{ id }}
+  {% endfor %}
+  " data-topic="
+  {% for id in project.topic_ids %}
+  {{ id }}
+  {% endfor %}
+  " data-field="
+  {% for id in project.field_ids %}
+  {{ id }}
+  {% endfor %}
+  ">
+  <a href="{{ project_url }}" class="image" {% if project_url contains 'http' %} target="_blank" {% else %} {% endif %}>
+    <img src="{{ project.og_image }}" alt="Thumbnail for '{{project_name}}'">
+  </a>
+  <div class="content">
+    <h3 class="header">
+      {% include _shared/link.html title=project_name url=project_url %}
+    </h3>
+    <div class="description">
+      {{ project_description }}
+    </div>
+  </div>
+  <div class="meta extra content">
+    <div class="ui divided list">
+      {% include p/meta/people.html %}
+      {% include p/meta/metas.html %}
+    </div>
+  </div>
+  {% if project_links %}
+  <div class="link extra content">
+    <div class="ui divided list">
+      {% for link in project_links %}
+        {% include _shared/link.html link=link class='item' icon='conditional' %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  {% include plist/item/tags.html %}
+</div>

@@ -1,0 +1,77 @@
+- id: type
+  name: 類型
+  name_en: Types
+  items:
+    - id: community
+      name: 社群支援
+      name_en: Community Support
+    - id: organization
+      name: 組織合作
+      name_en: Organization Collaboration
+    - id: overseas
+      name: 國際交流
+      name_en: International Communication
+    - id: consultanting
+      name: 顧問諮詢
+      name_en: Consulting Service
+    - id: misc
+      name: 其他
+      name_en: Misc
+
+- id: topic
+  name: 議題
+  name_en: Issues
+  items:
+    - id: source
+      name: 開放源碼
+      name_en: Open Source
+    - id: license
+      name: 開放授權
+      name_en: Open License
+    - id: data
+      name: 開放資料
+      name_en: Open Data
+    - id: government
+      name: 開放政府
+      name_en: Open Gov
+    - id: hardware
+      name: 開放硬體
+      name_en: Open Hardware
+    - id: infosec
+      name: 資訊安全
+      name_en: Information Security
+    - id: misc
+      name: 其他
+      name_en: Misc
+
+- id: field
+  name: 領域
+  name_en: Fields
+  items:
+    - id: it
+      name: 資訊科技
+      name_en: IT
+    - id: legal
+      name: 法律
+      name_en: Legal
+    - id: media
+      name: 媒體
+      name_en: Media
+    - id: geo
+      name: 地理
+      name_en: Geography
+    - id: art
+      name: 文創
+      name_en: Culture
+    - id: education
+      name: 教育
+      name_en: Education
+    - id: finance
+      name: 金融
+      name_en: Finance
+    - id: agri
+      name: 農業
+      name_en: Argriculture
+    - id: misc
+      name: 其他
+      name_en: Misc

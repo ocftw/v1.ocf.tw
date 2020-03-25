@@ -16,8 +16,8 @@ menu:
     url: /about/
   - title: 夥伴
     url: /people/
-  - title: 專案與成果
-    url: /p/
+  - title: 基金會專案
+    url: /p/ocf
   - title: 活動
     url: /journal/
   - title: News
@@ -26,5 +26,5 @@ menu:
 menu_en:
   - title: About
     url: /en/about/
-  - title: Projects
-    url: /en/p/
+  - title: Our Projects
+    url: /en/p/ocf

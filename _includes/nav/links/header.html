@@ -24,14 +24,33 @@
 <div class="right menu">
 
 {% for item in menu %}
+  {% assign item_class = '' %}
+
   {% if page.url contains item.url %}
     {% assign item_class = 'active' %}
-  {% else %}
-    {% assign item_class = '' %}
   {% endif %}
+
+  {% if page.layout == 'p' %}
+
+    {% include _var/p.html %}
+    {% if item.url contains '/p/ocf' %}
+      {% if project.organizer_ids contains 'ocf' %}
+        {% assign item_class = 'active' %}
+      {% endif %}
+      {% if parent_project %}
+        {% if parent_project.organizer_ids contains 'ocf' %}
+          {% assign item_class = 'active' %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+
+  {% endif %}
+
   <a href="{{ item.url }}" class="item {{ item_class }} " data-display="desktop">
     {{ item.title }}
   </a>
+
+  {% assign item_class = undefined %}
 {% endfor %}
 
 <a href="{{ lang_url }}" class="item" data-display="desktop">{{ lang_text }}</a>
