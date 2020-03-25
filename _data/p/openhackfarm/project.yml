@@ -76,6 +76,9 @@ board_ids:
 staff_ids:
   - leona
 
+listed: yes
+listed_en: 
+
 reports:
   2020: 01
 reports_en:
