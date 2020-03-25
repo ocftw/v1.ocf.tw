@@ -196,21 +196,21 @@ code.nick {
 
 /* for semantic ui sidebar */
 
-#header .ui.menu .item[data-display='mobile'] {
+#header [data-display='mobile'] {
   display: none;
   margin-right: -1.14285714em;
 }
-
-#header .ui.menu .item[data-display='mobile'] i.icon {
+#header [data-display='mobile'] i.icon {
   margin-right: 0;
 }
+
 @media only screen and (max-width: 767px) {
-  #header .ui.menu .item[data-display='desktop'] {
+  #header [data-display='desktop'] {
     display: none;
   }
 
-  #header .ui.menu .item[data-display='mobile'] {
-    display: block;
+  #header [data-display='mobile'] {
+    display: flex;
   }
 }
 

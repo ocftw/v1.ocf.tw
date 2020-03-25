@@ -13,18 +13,20 @@
 
 {% for action in project_actions %}
   {% if action.url %}
-    {% if action.url contains 'http' %}
-      {% assign link_target = '_blank' %}
-    {% endif %}
+    {% assign item_class = action.color | append: ' ui fluid button' %}
     <p>
-      <a class="ui {{ action.color }} fluid button" href="{{ action.url }}" target="{{ link_target }}">
-        <i class="{{action.icon}} icon"></i>
-        {{ action.title }}
-      </a>
+      {% include _shared/link.html
+        url=action.url
+        class=item_class
+        title=action.title
+        icon=action.icon %}
     </p>
+    {% assign item_class = undefined %}
   {% else %}
     <p>{{ action.title }}</p>
   {% endif %}
 {% endfor %}
 
 {% endif %}
+
+{% assign project_actions = undefined %}

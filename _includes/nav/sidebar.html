@@ -35,9 +35,7 @@
 <div class="item">
   {{ license_title }}
   <div class="menu">
-    <a href="/about/#website" class="item">
-      {{ license_content }}
-    </a>
+    {% include _shared/link.html url='/about/#website' class='item' title=license_content %}
   </div>
 </div>
 

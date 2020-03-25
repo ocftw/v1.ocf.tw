@@ -1,3 +1,5 @@
+<!-- setup link title and link url -->
+
 {% if include.title %}
   {% assign link_title = include.title %}
 {% endif %}
@@ -11,11 +13,15 @@
   {% assign link_title = include.link.title %}
 {% endif %}
 
+<!-- setup link target -->
+
 {% if link_url contains 'http' %}
   {% assign link_target = '_blank' %}
 {% else %}
   {% assign link_target = '_self' %}
 {% endif %}
+
+<!-- setup link icon -->
 
 {% if include.icon %}
   {% if include.icon == 'conditional' %}
@@ -33,14 +39,25 @@
   {% assign link_icon = include.link.icon %}
 {% endif %}
 
+<!-- render -->
+
 <a class="{{ include.class }}" href="{{ link_url }}" target="{{ link_target }}">
   {% if link_icon %}
     <i class="icon {{ link_icon }}"></i>
   {% endif %}
+
+  {% if include.style != 'horizontal' %}
   <span class="content">
+  {% endif %}
+
     {{ link_title }}
+
+  {% if include.style != 'horizontal' %}
   </span>
+  {% endif %}
 </a>
+
+<!-- clean up temporary variables -->
 
 {% assign link_url = undefined %}
 {% assign link_title = undefined %}

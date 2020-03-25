@@ -9,17 +9,19 @@
 <h3 class="ui small inverted header">
   {{ subscribe_title }}
 </h3>
+
 <div class="ui horizontal list inverted">
 {% for item in org.subscribe %}
-  {% include nav/links/item.html %}
+  {% include nav/links/item.html style='horizontal' %}
 {% endfor %}
 </div>
 
 <h3 class="ui small inverted header">
   {{ join_title }}
 </h3>
+
 <div class="ui horizontal inverted list">
 {% for item in org.join %}
-  {% include nav/links/item.html %}
+  {% include nav/links/item.html style='horizontal' %}
 {% endfor %}
 </div>

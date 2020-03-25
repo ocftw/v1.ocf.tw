@@ -1,12 +1,20 @@
 {% assign year_id = include.year_id %}
 {% assign report = include.report %}
+{% assign report_url = '/p/' | append: year_id %}
+{% assign more_text = '閱讀' %}
+{% if lang == 'en' %}
+  {% assign more_text = 'Read' %}
+{% endif %}
 
 <div class="item">
   <div class="image">
     <img src="{{ report.cover }}" alt="">
   </div>
   <div class="content">
-    <a href="/p/{{ year_id }}" class="header">{{ report.title }}</a>
+    {% include _shared/link.html
+      url=report_url
+      class='header'
+      title=report.title %}
     <div class="meta">
       <span></span>
     </div>
@@ -14,15 +22,15 @@
       <p>{{ report.description }}</p>
     </div>
     <div class="extra">
-      <a href="/p/{{ year_id }}">
-
-      {% if lang == 'en' %}
-        Read
-      {% else %}
-        閱讀
-      {% endif %}
-        <i class="right arrow icon"></i>
-      </a>
+      {% include _shared/link.html
+        url=report_url
+        title=more_text
+        icon='right arrow' %}
     </div>
   </div>
 </div>
+
+{% assign year_id = undefined %}
+{% assign report = undefined %}
+{% assign report_url = undefined %}
+{% assign more_text = undefined %}

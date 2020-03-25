@@ -1,30 +1,15 @@
 {% include _var/lang.html %}
 
 {% if lang == "en" %}
+  {% assign home_text = 'Home' %}
   {% assign home_url = '/en/' %}
-  {% assign menu = site.data.settings.menu_en %}
-  {% assign lang_text = 'Tw' %}
-  {% assign lang_url = '/' %}
 {% else %}
+  {% assign home_text = '首頁' %}
   {% assign home_url = '/' %}
-  {% assign menu = site.data.settings.menu %}
-  {% assign lang_text = 'En' %}
-  {% assign lang_url = '/en/' %}
 {% endif %}
 
-<a class="item" href="{{ home_url }}">
-  Home
-</a>
+{% include _shared/link.html url=home_url class='item' title=home_text %}
+{% include nav/links/main.html %}
 
-{% for item in menu %}
-  {% if page.url contains item.url %}
-    {% assign item_class = 'active' %}
-  {% else %}
-    {% assign item_class = '' %}
-  {% endif %}
-  <a href="{{ item.url }}" class="item {{ item_class }} " data-display="desktop">
-    {{ item.title }}
-  </a>
-{% endfor %}
-
-<a href="{{ lang_url }}" class="item" data-display="desktop">{{ lang_text }}</a>
+{% assign home_text = undefined %}
+{% assign home_url = undefined %}

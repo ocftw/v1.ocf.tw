@@ -5,69 +5,25 @@
 {% if lang == "en" %}
   {% assign home_text = org.name_en %}
   {% assign home_url = '/en/' %}
-  {% assign menu = site.data.settings.menu_en %}
-  {% assign lang_text = 'Tw' %}
-  {% assign lang_url = '/' %}
 {% else %}
   {% assign home_text = org.abbr %}
   {% assign home_url = '/' %}
-  {% assign menu = site.data.settings.menu %}
-  {% assign lang_text = 'En' %}
-  {% assign lang_url = '/en/' %}
 {% endif %}
 
 <a class="logo item" href="{{ home_url }}">
   <img class="ui logo image" src="{{ org.icon }}" alt="ocf logo">
   {{ home_text }}
 </a>
-      
-<div class="right menu">
 
-{% for item in menu %}
-  {% assign item_class = '' %}
-
-  {% if page.url contains item.url %}
-    {% assign item_class = 'active' %}
-  {% endif %}
-
-  {% if page.layout == 'p' %}
-
-    {% include _var/p.html %}
-    {% if item.url contains '/p/ocf' %}
-      {% if project.organizer_ids contains 'ocf' %}
-        {% assign item_class = 'active' %}
-      {% endif %}
-      {% if parent_project %}
-        {% if parent_project.organizer_ids contains 'ocf' %}
-          {% assign item_class = 'active' %}
-        {% endif %}
-      {% endif %}
-    {% elsif item.url contains '/p/community' %}
-      {% if project.organizer_ids contains 'ocf' %}
-      {% else %}
-        {% assign item_class = 'active' %}
-      {% endif %}
-      {% if parent_project %}
-        {% if parent_project.organizer_ids contains 'ocf' %}
-        {% else %}
-          {% assign item_class = 'active' %}
-        {% endif %}
-      {% endif %}
-    {% endif %}
-
-  {% endif %}
-
-  <a href="{{ item.url }}" class="item {{ item_class }} " data-display="desktop">
-    {{ item.title }}
-  </a>
-
-  {% assign item_class = undefined %}
-{% endfor %}
-
-<a href="{{ lang_url }}" class="item" data-display="desktop">{{ lang_text }}</a>
-
-<a class="item" data-display="mobile" data-toggle="sidebar">
-  <i class="sidebar icon"></i>
-</a>
-
+<div class="right menu" data-display="desktop">
+  {% include nav/links/main.html %}
 </div>
+
+<div class="right menu" data-display="mobile">
+  <a class="item" data-toggle="sidebar">
+    <i class="sidebar icon"></i>
+  </a>
+</div>
+
+{% assign home_text = undefined %}
+{% assign home_url = undefined %}

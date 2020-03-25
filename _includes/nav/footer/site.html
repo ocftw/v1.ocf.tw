@@ -21,12 +21,14 @@
   {{ license_title }}
 </h3>
 <div class="ui inverted divided link list">
-  <a href="/about/#website" class="item">
-    {{ license_content }}
-  </a>
+  {% include _shared/link.html
+    url='/about/#website'
+    class='item'
+    title=license_content %}
 </div>
   <div class="ui inverted divided link list">
-  <a href="https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/PRIVACY.md" class="item">
-    {{ privacy_title }}
-  </a>
+  {% include _shared/link.html
+    url='https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/PRIVACY.md'
+    class='item'
+    title=privacy_title %}
 </div>
