@@ -3,6 +3,7 @@ layout: global
 ---
 
 {% include _var/plist.html %}
+{% include _var/rlist.html %}
 
 <div id="plist">
 
@@ -38,6 +39,30 @@ layout: global
 
     </div>
 
+  </section>
+
+  <div class="ui horizontal divider">
+  {% if lang == 'en' %}
+    Annual Reports
+  {% else %}
+    歷年成果
+  {% endif %}
+  </div>
+
+  <section id="results" class="ui stripe container">
+    <div class="ui divided items">
+
+      {% for year_id in rlist %}
+
+        {% if year_id == '_yyyy' %}
+        {% else %}
+          {% assign report = site.data.reports[year_id] %}
+          {% include rlist/item.html year_id=year_id report=report %}
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
   </section>
 
   <hr class="ui divider" />

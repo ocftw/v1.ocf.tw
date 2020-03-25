@@ -1,0 +1,28 @@
+{% assign year_id = include.year_id %}
+{% assign report = include.report %}
+
+<div class="item">
+  <div class="image">
+    <img src="{{ report.cover }}" alt="">
+  </div>
+  <div class="content">
+    <a href="/p/{{ year_id }}" class="header">{{ report.title }}</a>
+    <div class="meta">
+      <span></span>
+    </div>
+    <div class="description">
+      <p>{{ report.description }}</p>
+    </div>
+    <div class="extra">
+      <a href="/p/{{ year_id }}">
+
+      {% if lang == 'en' %}
+        Read
+      {% else %}
+        閱讀
+      {% endif %}
+        <i class="right arrow icon"></i>
+      </a>
+    </div>
+  </div>
+</div>
