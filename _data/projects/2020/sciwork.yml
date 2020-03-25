@@ -3,7 +3,7 @@ name_en: Sciwork
 abbr: 
 tagline: Science, code, and open source
 tagline_en: Science, code, and open source
-cover: /p/2019/sciwork/sciworkbkg.png
+cover: /p/sciwork/sciworkbkg.png
 avatar: 
 description: Sciwork is a conference for researchers and engineers to share and discuss computer code for scientific, numerical, and engineering work. It will be held in Hsinchu on 22nd February 2020. We believe in the power of openness, and we will use open source as a means to advance software development for computational sciences.
 description_en: Sciwork is a conference for researchers and engineers to share and discuss computer code for scientific, numerical, and engineering work. It will be held in Hsinchu on 22nd February 2020. We believe in the power of openness, and we will use open source as a means to advance software development for computational sciences.
@@ -12,7 +12,7 @@ start:
 end: 
 link:
   - title: 專案介紹
-    url: /p/2019/sciwork
+    url: /p/sciwork
     target: _self
 link_en:
   - title: Intro

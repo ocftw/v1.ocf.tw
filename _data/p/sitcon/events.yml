@@ -111,8 +111,6 @@
   project_ids:
     - sitcon
 
-  reports:
-    2019: 03
   reports_en:
 
 - id: 
@@ -135,6 +133,4 @@
   project_ids:
     - sitcon
 
-  reports:
-    2020: 08
   reports_en:

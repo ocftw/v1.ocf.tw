@@ -1,0 +1,45 @@
+# 2020 版專案資料範本
+
+name: OpenLab. Taipei 空間營運計劃 
+# 專案的中文正式名稱，會顯示在專案列表頁、專案頁、活動頁
+name_en: OpenLab. Taipei
+# 英文版網頁用
+
+description: OpenLab. Taipei 可以說是臺灣自造者空間最一開始的雛形，提供一個空間讓大家可以在這裡製作東西、一起討論、交流。2013、2014 以來自造者運動（Maker Movement）於台灣漸成規模，各地自造者空間如雨後春筍般出現；作為台灣自造者運動的先驅，OpenLab.Taipei 從 2010 年座落寶藏巖，2019 年移至台北國際藝術村，可謂篳路藍縷地見證著了國內自造者圈的成長。 
+
+og_image: /p/otspace/2019/og.jpg
+# og_image: url
+# 專案的預覽縮圖，會出現在專案列表頁、sns 連結預覽
+# 選用長寬比接近 facebook og image 的圖片（1200 x 630）
+header_image: /p/otspace/2019/og.jpg
+# header_image: url
+# 專案頁首的底圖，若有，會出現在專案頁、活動頁
+# 選用長寬比接近長條形的圖片（1400 x 300）
+avatar_image: /p/otspace/2019/og.jpg
+# avatar_image: url
+# 專案的 avatar 圖檔網址，若有，會出現在專案頁的右側邊欄
+# 選用長寬比接近正方形的圖片
+theme_color: teal
+
+actions: 
+  - title: Facebook
+    url: http://www.facebook.com/groups/openlab.taipei/
+    color: blue
+    icon: facebook
+    
+type_ids:
+  - community
+topic_ids:
+  - source
+field_ids:
+  - hardware
+tags:
+  - 定期活動
+tags_en:
+
+organizer_ids:
+  - openlab
+co-organizer_ids:
+  - ocf
+staff_ids: 
+  - rock

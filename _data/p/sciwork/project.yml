@@ -1,0 +1,47 @@
+name: Sciwork
+name_en: Sciwork
+
+description: Sciwork is a conference for researchers and engineers to share and discuss computer code for scientific, numerical, and engineering work. It will be held in Hsinchu on 22nd February 2020. We believe in the power of openness, and we will use open source as a means to advance software development for computational sciences.
+description_en: Sciwork is a conference for researchers and engineers to share and discuss computer code for scientific, numerical, and engineering work. It will be held in Hsinchu on 22nd February 2020. We believe in the power of openness, and we will use open source as a means to advance software development for computational sciences.
+tagline: Science, code, and open source
+tagline_en: Science, code, and open source
+
+og_image: /p/sciwork/sciwork.png
+header_image: /p/sciwork/sciworkbkg.png
+avatar_image: /p/sciwork/sciwork.png
+theme_color: 
+
+start: 
+end: 
+
+type_ids:
+  - community
+topic_ids:
+  - source
+field_ids:
+  - it
+tags:
+  - 大型研討會
+  - 定期活動
+tags_en:
+
+actions: 
+  - title: Official website (2020)
+    url: https://conf.sciwork.dev/2020/
+    color: blue
+    icon: home
+
+  - title: Follow us on twitter
+    url: https://twitter.com/sciwork
+    color: teal
+    icon: twitter
+
+organizer_ids:
+  - sciwork
+co-organizer_ids:
+  - ocf
+
+board_ids:
+  - bobchao
+staff_ids: 
+  - rock

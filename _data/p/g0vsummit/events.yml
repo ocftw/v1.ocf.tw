@@ -1,0 +1,167 @@
+- id: 
+
+  name: g0v summit 2018
+  name_en: g0v summit 2018
+
+  description: g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是國際開放政府社群的焦點活動，過去兩屆吸引多達十九國講者投稿。雙年會全部由社群參與者志願籌辦，議程也秉持開放協作精神，全部議程皆有口譯、文字記錄和直播。議程除了大會籌辦，也開放完整時段的開放工作坊（Unconference）由參與者提案決定議程內容，以演講、討論、自由對話等形式創造新的協作空間。閉幕前自由報名的全場閃電講更是開源社群傳統，以開放分享的精神貫穿年會。
+  description_en: 
+
+  subtitles:
+  subtitles_en:
+
+  cover_image: /p/g0vsummit/2018/g0v_summit_2018.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/10/5
+  end: 2018/10/7
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網頁
+      url: https://summit.g0v.tw/2018/
+  links_en:
+
+  advisor_ids:
+  organizer_ids:
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+
+  coordinator_ids:
+  case-handler_ids:
+  co-worker_ids:
+  consultant_ids:
+  volunteer_ids:
+  contributor_ids:
+  host_ids:
+  speaker_ids:
+  participant_ids:
+  donors:
+  donors_en:
+
+  project_ids:
+    - g0vsummit
+  board_ids:
+  staff_ids:
+
+  reports:
+    2018: 10
+  reports_en:
+
+- id: 
+
+  name: G0V Summit 零時政府高峰會 2016
+  name_en: G0V Summit 2016
+
+  description: g0v.tw 2012 年底 g0v 社群運作逐漸成形，從那時起 g0v 零時政府社群便以數位世代的思維，以開源方式號召群眾參與著手開發新工具、新組織型態、新合作關係。經過多方共同努力，透過 g0v 的開放特性作為平台，與 NGO 和政府建立了多方互動，但需要更長遠的跨領域交流，為此籌辦 g0v.tw summit 零時政府高峰會，希望有更多深入的溝通與交流，與有志運用科技改變社會的各界共同參與，期待開放力量成為實際改變的動能。
+  description_en: 
+
+  subtitles:
+  subtitles_en:
+
+  cover_image: /p/g0vsummit/2016/og.png
+  banner_image: 
+  theme_color: 
+
+  start: 2016/5/14
+  end: 2016/5/15
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網頁
+      url: https://summit.g0v.tw/2016/
+  links_en:
+
+  advisor_ids:
+  organizer_ids:
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+
+  coordinator_ids:
+  case-handler_ids:
+  co-worker_ids:
+  consultant_ids:
+  volunteer_ids:
+  contributor_ids:
+  host_ids:
+  speaker_ids:
+  participant_ids:
+  donors:
+  donors_en:
+
+  project_ids:
+    - g0vsummit
+  board_ids:
+  staff_ids:
+
+  reports:
+    2016: 05
+  reports_en:
+
+- id: 
+
+  name: G0V Summit 零時政府高峰會 2014
+  name_en: G0V Summit 2014
+
+  description: 從開放資料出發，透過開源社群促進開放政府的可能。在這條路上，g0v 社群與 NGO 、政府建立了多方互動。但改變需要更長遠的跨界交流，因此在今年初，我們開始籌備 g0v.tw Summit 零時政府年會，希望從多元面向探討運用科技與開源精神改變社會的可能。
+  description_en: 
+
+  subtitles:
+  subtitles_en:
+
+  cover_image: /p/g0vsummit/2014/thumbnail.png
+  banner_image: 
+  theme_color: 
+
+  start: 2014/11/18
+  end: 2014/11/19
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 大會官方網站
+      url: https://summit.g0v.tw/2014/
+  links_en:
+
+  advisor_ids:
+  organizer_ids:
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+
+  coordinator_ids:
+  case-handler_ids:
+  co-worker_ids:
+  consultant_ids:
+  volunteer_ids:
+  contributor_ids:
+  host_ids:
+  speaker_ids:
+  participant_ids:
+  donors:
+  donors_en:
+
+  project_ids:
+    - g0vsummit
+  board_ids:
+  staff_ids:
+
+  reports:
+    2014: 11
+  reports_en:

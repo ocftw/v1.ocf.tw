@@ -1,0 +1,317 @@
+---
+layout: p
+# 要套用哪種版型，凡是專案頁都套用 p 版型，所以這行不用改
+
+year: 2016
+# 要從哪個年份抓這頁所需的資料，如：2016
+
+project_id: openhackfarm
+# 要從哪個專案 id 抓這頁所需的資料，如：intl
+
+# ------ og 設定（選填） ------
+
+og_title: Open Hack Farm
+# 這頁的 og title，若留空，會採用專案的 name
+og_description: 
+# 這頁的 og description，若留空，會採用專案的 description
+og_image: /p/openhackfarm/2019/cover.jpg
+# 這頁的 og image 網址，若留空，會採用專案的 cover_image
+
+# ------ header 設定（選填） ------
+
+header_image_opacity: 
+# 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若留空，預設值是 0.95
+header_veil_opacity: 0.4
+# 這頁上方大標題區塊的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若留空，預設值是 0.1
+
+# ------ 內文設定（選填） ------
+
+show_events: yes
+# 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若留空，則不顯示計畫成果區塊
+gsheet_url: https://openhackfarm.github.io/funding/
+# 收知明細表的 google spreadsheet 網址，若留空，則不顯示收支明細區塊
+show_sponsors: 
+# 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若留空，則不顯示贊助商區塊
+show_donors: 
+# 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若留空，則不顯示捐助人區塊
+
+# ------ 右側邊欄設定（選填） ------
+
+show_progress: 
+# 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若留空，則不顯示進度條
+progress:
+# 專案募款進度，會出現在專案列表頁右側邊欄
+  duration: 2019/04/12 起
+  # 募款期間，若留空，則不顯示此項目
+  goal: yes
+  # 募款目標金額，若留空，則不顯示此項目
+  current: yes
+  # 已募得款項金額，若留空，則不顯示此項目
+  percent: yes
+  # 進度百分比，若留空，則不顯示此項目
+  count: yes
+  # 捐款人數，若留空，則不顯示此項目
+  updated: yes
+  # 資料更新日期，若留空，則不顯示此項目
+cpid: 32
+# 專案從 neticrm 抓募款進度資料時使用的 id，若留空，則不從 neticrm 抓資料
+show_child_projects: yes
+# 如果有子專案，是否在右側邊欄下方顯示通往子專案的連結。若留空，則不顯示
+---
+
+
+
+
+<h2 class="ui dividing header">計畫說明</h2>
+
+<p>
+進行農耕生活四年多，2016 年開始，因爲 LASS 社群的促成，開發了農業微型氣象站及田間感測器，以科學方法蒐集植物生長數據，建立開放農業資料庫。
+</p>
+<p>
+2017 年起，在宜蘭的小農村，成立了「Open Hack Farm」，進行「開放農業實驗」計畫，並與台灣農業社群及空間合作，以開源軟、硬體及數位加工技術，以最少資源打造科技農具。
+</p>
+<p>
+2018 年，我們加強對土地的關注，推動堆肥及土壤改良實驗，以生態、科學及改良式機械，加速生命物質循環，保護土壤不要再退化，提高生態多樣性，增強環境的緩衝能力。採用再生性的農耕方法，是爲生活永續之方針。
+</p>
+<p>
+農村的共享科技實驗室，期望能連結更多小農與科技人，透過社群的力量，進行農耕實驗及研發，並運用適切科技輔助，打造更友善的農食環境。讓我們重新與生活產生連結吧，Open Hack Farm！
+</p>
+
+<h3 class="ui header">計畫網頁</h3>
+
+<div class="ui list">
+  <div class="item">
+    <i class="facebook square icon"></i>
+    <div class="content">
+      <a href="https://www.facebook.com/groups/OpenHackFarm/">Open Hack Farm 專案計畫</a>
+    </div>
+  </div>
+  <div class="item">
+    <i class="wordpress icon"></i>
+    <div class="content">
+      <a href="https://openhackfarm.wordpress.com/blog/">Open Hack Farm 部落格</a>
+    </div>
+  </div>
+  <div class="item">
+    <i class="home icon"></i>
+    <div class="content">
+     <a href="https://www.openhackfarm.tw/">Open Hack Farm 官方網站</a>
+    </div>
+  </div>
+</div>
+
+<img src="/p/2019/openhackfarm/2019-new.jpg" class="ui  rounded image">
+
+
+<h3 class="ui header">2019 研究方向</h3>
+<h4 class="ui header">Open Data</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">
+    開放作物資料庫
+        <ul>
+            <li>作物影像。</li>
+            <li>現代農民曆。</li>
+        </ul>
+    </div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">
+    開放病蟲害資料庫
+        <ul>
+            <li>病蟲害影像。</li>
+            <li>疫情地圖。</li>
+        </ul>
+    </div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">
+    氣象資料
+        <ul>
+            <li>歷史氣候圖表。</li>
+            <li>地區微氣候站。</li>
+            <li>地區氣象預報。</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<h4 class="ui header">IOT</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">水田感測器 - 巡田水 v3</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">動力水閘門</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">旱田感測器 - 顧菜園 v4</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">堆肥感測器</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">AgriSensor Breakout Board</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">遠距無線通訊基地臺</div>
+  </div>
+</div>
+
+<h4 class="ui header">Chatbot</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">Line 農夫小幫手</div>
+  </div>
+</div>
+
+<h4 class="ui header">Web</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">CSA Farmer’s Market</div>
+  </div>
+</div>
+
+<h4 class="ui header">Maker</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">堆肥加速器 (碎草機、蚯蚓繁殖、堆肥感測器)</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">福壽螺誘捕裝置</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">綠能模組式田間自走裝置</div>
+  </div>
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">食物乾燥箱</div>
+  </div>
+</div>
+
+<h4 class="ui header">收支記錄</h4>
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">
+      <a href="https://openhackfarm.github.io/funding/" target="_blank">Open Hack Farm 收支表</a>
+    </div>
+  </div>
+</div>
+
+<a class="ui small button" href="https://hackmd.io/DwqOZNpsR9iykHPuChCuIw?view" >Read More</a>
+<h4 class="ui header">預算表</h4>
+<table class="ui table">
+  <thead>
+    <tr>
+      <th>項目</th>
+      <th>單價</th>
+      <th>數量</th>
+      <th>預算</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>遠距無線通訊基地臺開發</td>
+      <td>10000</td>
+      <td></td>
+      <td>10000</td>
+    </tr>
+    <tr>
+      <td>LoRa Gateway</td>
+      <td>16000</td>
+      <td>1 組</td>
+      <td>16000</td>
+    </tr>
+    <tr>
+      <td>水田感測器 - 巡田水 v3</td>
+      <td>3500</td>
+      <td>5 組</td>
+      <td>17500</td>
+    </tr>
+    <tr>
+      <td>動力水閘門</td>
+      <td>3500</td>
+      <td>2 組</td>
+      <td>7000</td>
+    </tr>
+    <tr>
+      <td>旱田感測器 - 顧菜園 v4</td>
+      <td>3500</td>
+      <td>5 組</td>
+      <td>17500</td>
+    </tr>
+    <tr>
+      <td>堆肥感測器</td>
+      <td>1500</td>
+      <td>3 組</td>
+      <td>4500</td>
+    </tr>
+    <tr>
+      <td>堆肥加速器</td>
+      <td>10000</td>
+      <td>1 組</td>
+      <td>10000</td>
+    </tr>
+    <tr>
+      <td>福壽螺誘捕裝置設計</td>
+      <td>10000</td>
+      <td></td>
+      <td>10000</td>
+    </tr>
+    <tr>
+      <td>福壽螺誘捕裝置</td>
+      <td>5000</td>
+      <td>1 組</td>
+      <td>5000</td>
+    </tr>
+     <tr>
+      <td>綠能模組化田間自走裝置</td>
+      <td>40000</td>
+      <td>1 組</td>
+      <td>40000</td>
+    </tr>
+     <tr>
+      <td>農夫小幫手 ChatBot</td>
+      <td>800</td>
+      <td>12 個月</td>
+      <td>9600</td>
+    </tr>
+    <tr>
+      <td>CSA Farmer’s Market Web</td>
+      <td>30000</td>
+      <td></td>
+      <td>30000</td>
+    </tr>
+    <tr>
+      <td>OCF 行政費用</td>
+      <td>12397</td>
+      <td></td>
+      <td>12397</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>總募款目標</th>
+      <th></th>
+      <th></th>
+      <th>NTD$189497 </th>
+    </tr>
+  </tfoot>
+</table>
+
+

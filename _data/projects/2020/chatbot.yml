@@ -3,7 +3,7 @@ name_en: Chatbot
 abbr: 
 tagline: Science, code, and open source
 tagline_en: Science, code, and open source
-cover: /p/2019/chatbot/chatbotTW.png
+cover: /p/chatbot/chatbotTW.png
 avatar: 
 description: Chatbot Developers Taiwan 社群致力於提供一個討論聊天機器人的相關應用的社群。在台北、台中每個月皆有一次的定期 meetup 聚會。
 month: 
@@ -15,13 +15,13 @@ link:
     target: _self
 tag:
   - 
-type_id:
+type_ids:
   - community 
-topic_id:
+topic_ids:
   - source
-field_id: 
+field_ids: 
   - it
-advisor_id:
+advisor_ids:
 organizer_id:
   - chatbot
 co-organizer_id:

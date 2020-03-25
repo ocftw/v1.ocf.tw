@@ -1,0 +1,42 @@
+
+name: 藝術人文開放網絡
+name_en: Open Culture Network for Humanities and Fine Arts
+# 英文版網頁用
+
+description: 這是一個開放文化社群，主軸是要建立一個能彼此分工的參與者網絡，讓網絡參與者能善用開放源碼的工具，以及CC授權的分享機制，來擴大藝術人文領域作品的擴散效益，甚至改變它的營運模式。<br>在「開放文化」儼然成為主流的今日，應用於藝術人文領域時所面臨的問題逐漸浮現出來，並層出不窮。我們希望達到的目標是，如何兼顧固有藝術人文工作者的生活、甚至讓奠基於開放源碼、CC授權的「開放文化」精神，能透過本社群的交流、適應，進一步促進藝術人文領域的活絡，使當代的藝文創生在面對開放文化的挑戰時，不致於在時代的洪流下被淹沒，並為產、官各界提供一套可行的做法及中長程的規劃。
+
+og_image: /p/ocnhfa/OCNHFA.jpg
+# og_image: url
+# 專案的預覽縮圖，會出現在專案列表頁、sns 連結預覽
+# 選用長寬比接近 facebook og image 的圖片（1200 x 630）
+header_image: /p/ocnhfa/ocnhfacover.jpg 
+# 專案頁首的底圖，若有，會出現在專案頁、活動頁
+# 選用長寬比接近長條形的圖片（1400 x 300）
+avatar_image:
+# 專案的 avatar 圖檔網址，若有，會出現在專案頁的右側邊欄
+# 選用長寬比接近正方形的圖片
+theme_color: teal
+    
+type_ids:
+  - community
+topic_ids:
+  - data
+  - license
+field_ids:
+  - art
+tags:
+  - 定期活動
+tags_en:
+
+organizer_ids:
+  - ocnhfa
+co-organizer_ids:
+  - ocf
+staff_ids: 
+  - rock
+
+actions: 
+  - title: 討論區
+    url: https://www.facebook.com/groups/2197780563821860/
+    color: grey
+    icon: home

@@ -1,0 +1,45 @@
+- id: 
+  name: 2019年五月集[聊]思[天]會
+  description: 無論你是藝術家、人文學類工作者、熱愛藝文的開放文化擁護者，文青程式設計師，甚至是路人甲.....，想要在親切人味的藝文氣氛中、藉由科技、藝術、人文與開放文化等話(八)題(卦)的交流中碰撞出智(自)慧(嗨)的火花，都歡迎一起來參加！藝開網的集思會聊天主題採「開放提議、協同策劃」的方式進行，若您想提案有興趣的聊天話題，歡迎在集思會專屬Trello上開設主題卡片！
+  labels:
+    - title: 活動
+      color: 
+  start: 2019/5/28
+  end: 
+  links: 
+    - title: 活動網頁
+      url: https://www.facebook.com/events/2075312292761897/
+    - title: 筆記
+      url: https://hackmd.io/ReUq4FKQSZiHvQkM6mo5-Q
+  cover_image: /p/ocnhfa/OCNHFA.jpg
+
+- id: 
+  name: 2019年四月集[聊]思[天]會
+  subtitle:
+  labels:
+    - title: 活動
+      color: 
+  meta:
+  description: 
+  start: 2019/4/30
+  end: 
+  links: 
+    - title: 活動網頁
+      url: https://www.facebook.com/events/570895216754579/
+    - title: 筆記
+      url: https://hackmd.io/gQZVOPy7TcGR1duYFQcA_A?fbclid=IwAR1-bMyuT1jYIWSK4ei_F66IJzTtgi_SJGJs4pn4jh3HRuhazMM4O3QcQWY
+  cover_image: /p/ocnhfa/ocnhfa201904.jpg
+
+- id: 
+  name: 2019年三月集[聊]思[天]會
+  labels:
+    - title: 活動
+      color: 
+  start: 2019/3/26
+  end: 
+  links: 
+    - title: 活動網頁
+      url: https://www.facebook.com/events/2235299483183902/
+    - title: 筆記
+      url: https://hackmd.io/LHbEDGG_RJ6tCM1vhg4Zyw?fbclid=IwAR3ZQp0EmVu3S-gTPHns_qLlZy-1BXqSyF1lAyufh-IiL-jG4NLnF8AfAAQ
+  cover_image: /p/ocnhfa/ocnhfa201903.jpg

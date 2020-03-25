@@ -26,8 +26,6 @@ menu:
     url: /news/
 
 menu_en:
-  - title: About
-    url: /en/about/
   - title: Our Projects
     url: /en/p/ocf
   - title: Community Projects

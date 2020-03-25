@@ -16,8 +16,6 @@
   project_ids:
     - osln
 
-  reports:
-    2018: 03
   reports_en:
   
 - id: 
@@ -38,8 +36,6 @@
   project_ids:
     - osln
 
-  reports:
-    2018: 05
 
 - id: 
   name: OpenChain 開源管理 (3) - An Intelligent Way to Go
@@ -59,8 +55,6 @@
   project_ids:
     - osln
 
-  reports:
-    2018: 08
   reports_en:
   
   
@@ -82,8 +76,6 @@
   project_ids:
     - osln
 
-  reports:
-    2019: 09
   reports_en:
   
   
@@ -103,7 +95,4 @@
     - ocf
   project_ids:
     - osln
-
-  reports:
-    2020: 02
   reports_en:

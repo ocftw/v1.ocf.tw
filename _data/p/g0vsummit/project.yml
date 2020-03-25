@@ -1,0 +1,75 @@
+name: g0v Summit 2018
+name_en: g0v Summit 2018
+
+description: g0v 國際雙年會兩年舉辦一次，關注開放政府、開源協作、公民參與等面向，是亞洲最大的公民科技黑客年會，過去兩屆吸引多達十九國講者投稿。我們致力讓這個聚會成為近千位現場參與者的開放交流平台，無論是工程師、研究者、倡議者、創作者，希望都能繼續透過科技、專業及群眾參與改變社會。
+description_en: The Largest Civic Tech Event in Asia
+
+abbr: g0v Summit 2018
+abbr_en: g0v Summit 2018
+
+tagline: 
+tagline_en: 
+
+og_image: /p/g0vsummit/2018/og.jpg
+header_image: 
+avatar_image: 
+theme_color: 
+
+start: 10/5
+end: 10/7
+
+type_ids:
+  - community
+topic_ids:
+  - data
+  - government
+  - source
+field_ids:
+  - legal
+  - it
+tags:
+  - 大型研討會
+  - 定期活動
+tags_en:
+
+metas:
+  - label: 
+    content: 
+metas_en:
+
+links:
+links_en:
+
+actions:
+  - title: 
+    url: 
+    icon: 
+    color: 
+  - title: 
+actions_en:
+
+advisor_ids:
+organizer_ids:
+  - g0vsummit2018
+co-organizer_ids:
+  - ocf
+  - asiii
+implementer_ids:
+sponsor_ids:
+
+coordinator_ids:
+case-handler_ids:
+co-worker_ids:
+consultant_ids:
+volunteer_ids:
+contributor_ids:
+donors:
+donors_en:
+
+board_ids:
+  - clkao
+staff_ids:
+  - ttcat
+reports:
+  2018: 10
+reports_en:
