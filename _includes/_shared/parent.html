@@ -1,15 +1,19 @@
 {% assign parent = include.project %}
+{% assign link_title = '返回' %}
+{% if lang == 'en' %}
+  {% assign link_title = 'Back to' %}
+{% endif %}
+{% include p/name.html project=parent return='var' %}
+{% assign link_title = link_title | append: include_project_name %}
 
 <div class="ui left aligned container">
-  <a href="{{ include.url }}" class="ui inverted small header relative">
-    <i class="left arrow icon"></i>
-    {% if lang == 'en' %}
-      Back to
-    {% else %}
-      返回
-    {% endif %}
-    {% include p/name.html project=parent return='string' %}
-  </a>
+  {% include _shared/link.html
+    url=include.url
+    class='ui inverted small header relative'
+    title=link_title
+    icon='left arrow' %}
 </div>
 
 {% assign parent = undefined %}
+{% assign link_title = undefined %}
+{% assign include_project_name = undefined %}

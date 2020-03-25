@@ -1,0 +1,21 @@
+<h1 class="ui icon header">
+  <i class="circular icon
+  {% if page.header_icon contains 'fa-' %}
+  {% else %}
+    {{ page.header_icon }}
+  {% endif %}
+    ">
+    {% if page.header_icon contains 'fa-' %}
+    <i class="{{ page.header_icon }}"></i>
+    {% endif %}
+  </i>
+  {{ page.og_title }}
+  <!--
+  {% if page.og_description %}
+  <div class="sub header">
+    {{ page.og_description }}
+  </div>
+  {% endif %}
+  -->
+
+</h1>

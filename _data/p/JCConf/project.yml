@@ -70,6 +70,9 @@ staff_ids:
   - singing
   - rosa
 
+listed: yes
+listed_en: 
+
 reports:
   2019: 10
 reports_en:

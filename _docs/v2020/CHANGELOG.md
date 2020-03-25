@@ -131,6 +131,7 @@
 | links | `link` | `links`, `actions` |
 | supported org roles | `advisor`, `organizer`, `co-organizer`, `implementer`, `sponsor` | same |
 | supported individual roles | `coordinator`, `consultant`, `volunteer`, `board`, `staff`, `donor`  | same plus `case-handler`, `co-worker`, `contributor`, `host`, `speaker`, `participant` |
+| show in project list | see `_data/p/settings.yml` | `listed` |
 | others | `meta`, `month` | `metas`, `reports` |
 
 | 活動資料的欄位 | 舊版 | 新版 |

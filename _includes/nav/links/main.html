@@ -1,0 +1,59 @@
+<!-- setup temporary variables -->
+{% if lang == "en" %}
+  {% assign menu = site.data.settings.menu_en %}
+  {% assign lang_text = 'Tw' %}
+  {% assign lang_url = '/' %}
+{% else %}
+  {% assign menu = site.data.settings.menu %}
+  {% assign lang_text = 'En' %}
+  {% assign lang_url = '/en/' %}
+{% endif %}
+
+<!-- render site settings -->
+{% for item in menu %}
+
+  <!-- setup item state -->
+  {% assign item_class = 'item' %}
+  {% if page.url contains item.url %}
+    {% assign item_class = 'item active' %}
+  {% endif %}
+  {% if page.layout == 'p' %}
+    {% include _var/p.html %}
+    {% if item.url contains '/p/ocf' %}
+      {% if project.organizer_ids contains 'ocf' %}
+        {% assign item_class = 'item active' %}
+      {% endif %}
+      {% if parent_project %}
+        {% if parent_project.organizer_ids contains 'ocf' %}
+          {% assign item_class = 'item active' %}
+        {% endif %}
+      {% endif %}
+    {% elsif item.url contains '/p/community' %}
+      {% if project.organizer_ids contains 'ocf' %}
+      {% else %}
+        {% assign item_class = 'item active' %}
+      {% endif %}
+      {% if parent_project %}
+        {% if parent_project.organizer_ids contains 'ocf' %}
+        {% else %}
+          {% assign item_class = 'item active' %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+
+  <!-- render item -->
+  {% include _shared/link.html url=item.url class=item_class title=item.title %}
+
+  <!-- clean up temporary variable -->
+  {% assign item_class = undefined %}
+{% endfor %}
+
+<!-- render lang links -->
+{% include _shared/link.html url=lang_url class='item' title=lang_text %}
+
+<!-- clean up temporary variables -->
+{% assign menu = undefined %}
+{% assign lang_text = undefined %}
+{% assign lang_url = undefined %}
+

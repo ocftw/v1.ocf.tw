@@ -1,9 +1,7 @@
-{% include _var/lang.html %}
-
 <!--
   set variables:
-  project, project_id, project_name, project_description, project_url, project_header_image, project_avatar_image
-  (optional) parent_project, parent_project_id, parent_project_name, parent_project_description, parent_project_url, parent_project_header_image
+  project, project_id
+  (optional) parent_project, parent_project_id
 -->
 
 {% if page.url contains '/en/p/' or page.url contains '/p/' %}
@@ -18,59 +16,12 @@
   {% assign project_id = paths[1] %}
   {% assign project = site.data.p[parent_project_id][project_id].project %}
 {% else %}
+  {% assign parent_project_id = undefined %}
+  {% assign parent_project = undefined %}
   {% assign project_id = paths[0] %}
   {% assign project = site.data.p[project_id].project %}
 {% endif %}
 
-<!-- setup urls -->
+<!-- get vars -->
 
-{% if parent_project %}
-  {% assign parent_project_url = parent_project_id | prepend: '/p/' | append: '/' %}
-  {% assign project_url = parent_project_url | append: project_id | append: '/' %}
-  {% if lang == 'en' %}
-    {% assign parent_project_url = parent_project_url | prepend: '/en' %}
-    {% assign project_url = project_url | prepend: '/en' %}
-  {% endif %}
-{% else %}
-  {% assign project_url = project_id | prepend: '/p/' | append: '/' %}
-  {% if lang == 'en' %}
-    {% assign project_url = project_url | prepend: '/en' %}
-  {% endif %}
-{% endif %}
-
-<!-- setup parent project vars -->
-
-{% if parent_project %}
-  {% if lang == 'en' %}
-    {% assign parent_project_name = parent_project.name_en %}
-    {% assign parent_project_description = parent_project.description_en %}  
-  {% else %}
-    {% assign parent_project_name = parent_project.name %}
-    {% assign parent_project_description = parent_project.description %}
-  {% endif %}
-
-  {% assign parent_project_header_image = parent_project.og_image %}
-  {% if parent_project.header_image %}
-    {% assign parent_project_header_image = parent_project.header_image %}
-  {% endif %}
-{% endif %}
-
-<!-- setup project vars -->
-
-{% if lang == 'en' %}
-  {% assign project_name = project.name_en %}
-  {% assign project_description = project.description_en %}  
-{% else %}
-  {% assign project_name = project.name %}
-  {% assign project_description = project.description %}
-{% endif %}
-
-{% assign project_header_image = project.og_image %}
-{% if project.header_image %}
-  {% assign project_header_image = project.header_image %}
-{% endif %}
-
-{% assign project_avatar_image = project.og_image %}
-{% if project.avatar_image %}
-  {% assign project_avatar_image = project.avatar_image %}
-{% endif %}
+{% include _var/plist/item.html project=project parent_project=parent_project %}

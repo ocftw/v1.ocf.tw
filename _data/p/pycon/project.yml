@@ -88,3 +88,6 @@ board_ids:
 staff_ids: 
   - rock
   - xini
+
+listed: yes
+listed_en: yes

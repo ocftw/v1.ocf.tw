@@ -16,13 +16,17 @@ menu:
     url: /about/
   - title: 夥伴
     url: /people/
-  - title: 專案與成果
-    url: /p/
+  - title: 基金會專案
+    url: /p/ocf
+  - title: 社群專案
+    url: /p/community
   - title: 活動
     url: /journal/
   - title: News
     url: /news/
 
 menu_en:
-  - title: Projects
-    url: /en/p/
+  - title: Our Projects
+    url: /en/p/ocf
+  - title: Community Projects
+    url: /en/p/community

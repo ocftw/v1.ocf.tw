@@ -1,0 +1,79 @@
+{% include _var/lang.html %}
+
+<!--
+  set variables:
+  project_name, project_description, project_url, project_links, project_header_image, project_avatar_image
+  (optional) parent_project_name, parent_project_description, parent_project_url, parent_project_links, parent_project_header_image, parent_project_avatar_image
+-->
+
+{% assign project = include.project %}
+{% assign parent_project = include.parent_project %}
+
+<!-- setup urls -->
+
+{% if parent_project %}
+  {% assign parent_project_url = parent_project_id | prepend: '/p/' | append: '/' %}
+  {% assign project_url = parent_project_url | append: project_id | append: '/' %}
+  {% if lang == 'en' %}
+    {% assign parent_project_url = parent_project_url | prepend: '/en' %}
+    {% assign project_url = project_url | prepend: '/en' %}
+  {% endif %}
+{% else %}
+  {% assign project_url = project_id | prepend: '/p/' | append: '/' %}
+  {% if lang == 'en' %}
+    {% assign project_url = project_url | prepend: '/en' %}
+  {% endif %}
+{% endif %}
+
+<!-- setup parent project vars -->
+
+{% if parent_project %}
+  {% if lang == 'en' %}
+    {% assign parent_project_name = parent_project.name_en %}
+    {% assign parent_project_description = parent_project.description_en %}  
+    {% assign parent_project_links = parent_project.links_en %}
+  {% else %}
+    {% assign parent_project_name = parent_project.name %}
+    {% assign parent_project_description = parent_project.description %}
+    {% assign parent_project_links = parent_project.links %}
+  {% endif %}
+
+  {% assign parent_project_header_image = parent_project.og_image %}
+  {% if parent_project.header_image %}
+    {% assign parent_project_header_image = parent_project.header_image %}
+  {% endif %}
+
+  {% assign parent_project_avatar_image = parent_project.og_image %}
+  {% if parent_project.avatar_image %}
+    {% assign parent_project_avatar_image = parent_project.avatar_image %}
+  {% endif %}
+{% endif %}
+
+<!-- setup project vars -->
+
+{% if lang == 'en' %}
+  {% assign project_name = project.name_en %}
+  {% assign project_description = project.description_en %}  
+  {% assign project_links = project.links_en %}
+{% else %}
+  {% assign project_name = project.name %}
+  {% assign project_description = project.description %}
+  {% assign project_links = project.links %}
+{% endif %}
+
+{% assign project_header_image = project.og_image %}
+{% if project.header_image %}
+  {% assign project_header_image = project.header_image %}
+{% endif %}
+
+{% assign project_avatar_image = project.og_image %}
+{% if project.avatar_image %}
+  {% assign project_avatar_image = project.avatar_image %}
+{% endif %}
+
+{% assign file = site.pages | where: 'url', project_url | first %}
+{% if file %}
+{% else %}
+  {% assign project_url = project_links.first.url %}
+{% endif %}
+{% assign file = undefined %}
