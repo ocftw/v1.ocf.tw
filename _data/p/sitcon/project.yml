@@ -23,7 +23,6 @@ field_ids:
   - education
 organizer_ids:
   - sitcon
-  - ocf
 board_ids:
   - pofeng
 staff_ids:
