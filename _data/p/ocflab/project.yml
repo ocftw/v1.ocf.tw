@@ -1,0 +1,36 @@
+name: OCF Lab
+name_en: OCF Lab
+
+description: 藉由一次又一次 Lab 裡的小實驗，累積一篇又一篇的討論和想法，讓開源、開放的數位科技成為推動社會的正向力量！
+description_en: 
+og_image: /p/ocflab/ocflab-og.png
+header_image: /p/ocflab/ocflab-cover.png
+avatar_image: /p/ocflab/ocflab-og.png
+theme_color: teal
+
+start: 
+end: 
+
+type_ids:
+  - research
+topic_ids:
+  - data
+field_ids:
+  - media
+
+actions: 
+  - title: 網站
+    url: https://lab.ocf.tw/
+    color: blue
+    icon: web
+
+organizer_ids:
+  - ocf
+sponsor_ids:
+
+coordinator_ids:
+
+board_ids: 
+staff_ids: 
+listed: yes
+listed_en: 
