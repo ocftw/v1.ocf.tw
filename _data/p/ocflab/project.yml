@@ -18,11 +18,9 @@ topic_ids:
 field_ids:
   - media
 
-actions: 
-  - title: 網站
+links: 
+  - title: OCF Lab 網站
     url: https://lab.ocf.tw/
-    color: blue
-    icon: web
 
 organizer_ids:
   - ocf
