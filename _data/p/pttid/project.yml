@@ -3,9 +3,9 @@ name_en: PTT ID Profiling
 
 description: 網路上的不實資訊、網軍操作帶風向的狀況層出不窮，批踢踢實業坊 (PTT) 的政治類看板, 比起其他看板，帶風向的情形更加嚴重，網路上已經有很多專家利用爬蟲工具，自行搜尋分析出活動異常的 PPT 使用者帳號。本計畫希望能網羅各方資源之外，也能開發出套完整的開源工具，讓使用者自行析判斷誰是誰非。
 description_en: 
-og_image: /pttid/pttid-og.png
-header_image: /pttid/pttid-cover.png
-avatar_image: /pttid/pttid-og.png
+og_image: /p/pttid/pttid-og.png
+header_image: /p/pttid/pttid-cover.png
+avatar_image: /p/pttid/pttid-og.png
 theme_color: teal
 
 start: 
@@ -19,22 +19,27 @@ field_ids:
   - misc
 
 actions: 
+  - title: 捐款支持
+    url: http://ocf.tw/300
+    color: green
+    icon: dollar
+
+links:
   - title: 爬蟲工具
     url: 
     color: yellow
-    icon: dollar
-
+    icon: tool
+  - title: 分析報告
+    url:
+    color: yellow
+    icon: paper 
 organizer_ids:
   - ocf
 sponsor_ids:
 
 coordinator_ids:
-  - pofeng
 
-board_ids:
-  - pofeng
+board_ids: 
 staff_ids: 
-  - rock
-
 listed: yes
 listed_en: 
