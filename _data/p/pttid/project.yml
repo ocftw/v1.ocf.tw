@@ -2,7 +2,7 @@ name: PTT ID Profiling
 name_en: PTT ID Profiling
 
 description: 網路上的不實資訊、網軍操作帶風向的狀況層出不窮，批踢踢實業坊 (PTT) 的政治類看板, 比起其他看板，帶風向的情形更加嚴重，網路上已經有很多專家利用爬蟲工具，自行搜尋分析出活動異常的 PPT 使用者帳號。本計畫希望能網羅各方資源之外，也能開發出套完整的開源工具，讓使用者自行析判斷誰是誰非。
-description_en: 
+description_en: "PTT is currently one of the most influential social media platform in Taiwan. PTT is now facing the same problem: growing amount of disinformation, media manipulation, fake IDs and cyber army operators, just like other social medias. We are creating a suite of open source tools, open data, and open licensed analysing reports, aim to find out the abnormal behavior from virtual IDs, and you can analysis these original data if you don't believe what you saw."
 og_image: /p/pttid/pttid-og.png
 header_image: /p/pttid/pttid-cover.png
 avatar_image: /p/pttid/pttid-og.png
@@ -42,4 +42,4 @@ coordinator_ids:
 board_ids: 
 staff_ids: 
 listed: yes
-listed_en: 
+listed_en: yes
