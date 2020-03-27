@@ -12,9 +12,9 @@ start:
 end: 
 
 type_ids:
-  - misc
+  - research
 topic_ids:
-  - misc
+  - data
 field_ids:
   - misc
 
