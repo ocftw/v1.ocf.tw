@@ -26,13 +26,11 @@ actions:
 
 links:
   - title: 爬蟲工具
-    url: 
-    color: yellow
-    icon: tool
+    url: https://github.com/ocftw/PttCrawler
+  - title: 分析工具
+    url: https://github.com/ocftw/anomaly_detection_in_PTT_forum
   - title: 分析報告
-    url:
-    color: yellow
-    icon: paper 
+    url: To Be Announce
 organizer_ids:
   - ocf
 sponsor_ids:
