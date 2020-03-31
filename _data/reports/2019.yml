@@ -131,6 +131,11 @@ items:
         title: 開源科技訓練營
         subtitle: 
         description: 開放源碼、開源協作講了許久，但許多人仍然不得其門而入，因此開放文基金會與軟體自由協會合作，將過去數年經驗集合成 10 天兩軌課程。[ 初心者課程 ] 七天從基礎電腦網路架構開始，一路學習不同開源科技心法、原理和工具，並了解怎麼跟工程師網頁設計師溝通數位專案。[ 開源人課程 ] 兩天以自架備份工具和管理平台來精進技能，並了解不同類型開源社群經營方針。另外一天兩軌共同參與迷你黑客松 demo，切磋不同技能和不同領域的想法。 
+        items:
+        - title: 2019 開源科技訓練營課程影片
+          url: https://www.youtube.com/playlist?list=PLFuYOsppHDrmep-Sl2Hu_BB6H20V9ZxH5
+        - title: 2019 開源科技訓練營報名頁面
+          url: https://ocftw.kktix.cc/events/2019openbootcamp
   - type: content
     columns:
       - type: image
