@@ -12,6 +12,7 @@ items:
     cover: /p/admin/2019/2.png
     cover_image_alt: 
   - type: content
+    single_column: true
     columns:
       - type: image
         url: /p/admin/2019/0.jpg
@@ -51,9 +52,8 @@ items:
     columns:
       - type: image
         url: /p/admin/2019/-1.jpg
-        swap: false
+        swap: true
       - type: article
-        swap: false
         title: 活動協力
         subtitle: 
         description: 每一年總有一些人，默默思考著開源、開放理念如何能夠發揚光大；如何在有限的資源下辦一場好的活動，當埋頭苦思於找志工、找場地、找贊助、活動網頁、宣傳、開發票……等等瑣碎的事情，不時會冒出：「哎！要是有人能幫我就好了！」的念頭。而這些繁雜卻重要的小事，就是除了社群自己的活動或營運規劃之外， OCF 行政中心能夠挺身而出提供支援的時候！
@@ -244,7 +244,6 @@ items:
     cover: /p/admin/2019/4.png
     cover_image_alt:
   - type: content
-    single_column: true
     columns:
       - type: collage
         grid: five
