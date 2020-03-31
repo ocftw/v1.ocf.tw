@@ -70,14 +70,17 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/cctw/2018/ccfor2018rep.jpg
+        url: /p/admin/2019/OSCVPASS_Banner.png
         swap: false
       - type: article
         title: 服務社群
         subtitle: 
-        description: OCF 首度發起 OSCVPass (開源貢獻者快速通關) 專案，讓開源專案貢獻者能更快速、更方便的獲得研討會活動的各式優待票．鼓勵更多人參與 Open Source 貢獻。
+        description: 在台灣，開源與開放社群十分活躍，一年會有超過十場的中大型會議 / 活動舉辦，也往往會有許多針對開源貢獻者的補助票券釋出。於是 OCF 發起 OSCVPass (開源貢獻者快速通關) 專案，讓開源專案貢獻者可以單一窗口更快速、方便的提交開源貢獻資料內容，再交由 OCF 募集的社群志工協助審查，確認通過者可以申請與 OSCVPass 專案合作的研討會活動各式優待票，鼓勵更多人參與 Open Source 貢獻。
         items:
-          - project_id: OSCVPass
+        - title: OSCVPass 專案頁面
+          url: https://ocf.tw/p/oscvpass/
+        - title: OSCVPass 開源貢獻者快速通關申請表單
+          url: https://forms.gle/j62bUmTy1hKKGm7n6
 
   - type: image_header
     anchor: OCF
@@ -293,7 +296,17 @@ items:
                贊助好夥伴：<br>
                財團法人RC文化藝術基金會<br>
                祐生研究基金會
-
+  - type: content
+    columns:
+      - type: article
+        title: 感謝贊助好夥伴
+        swap: true
+        description: 感謝RC文化藝術基金會、祐生研究基金會年度計畫贊助，企業夥伴在各項專案活動的支持，更感激不遺餘力投注資源的每一個「你」，讓我們在興盛開放文化的路上元氣爆發！
+      - type: article
+        logo_height: 7rem
+        logos:
+          - org_id: rc
+          - org_id: archilife
   - type: image_header
     cover: /p/admin/2018/thumbsup2.png
     cover_image_alt: 
