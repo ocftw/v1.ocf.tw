@@ -1,0 +1,327 @@
+title: 開放文化基金會 2019 成果報告
+description: 🛩跟 OCF 一起開源之旅🛩 OCF 六歲了！ <br>
+             感謝有各路支持開源的組織、好夥伴幫助，我們才能持續為開源貢獻心力。2019 年度支援 16+ 開源社群、7+ 場大型活動、交流出訪 34+ 國家，馬上看看豐富成果吧！
+cover: /p/admin/2019/6.png
+color: write
+cover_image_opacity: 0.9 
+cover_veil_opacity: 0.1
+items:
+  - type: image_header
+    anchor: admin
+    background_color: teal
+    cover: /p/admin/2019/2.png
+    cover_image_alt: 
+  - type: content
+    single_column: true
+    columns:
+      - type: image
+        url: /p/admin/2019/0.jpg
+      - type: article
+        title: 社群後勤
+        subtitle:
+        description: 開源社群中，總是有一群人，下班後不去喝酒尋樂，只為了在一行行的程式碼中，實踐開放資料與開放原始碼的應用，然後找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，以自主參與、自主學習、協作等精神，敲打著鍵盤分享今天得到的新發現。開放文化的社群，就是這麼一群人，而 OCF 行政中心，除了關心和協助之外，也正和這社群們一起成長著。
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        subtitle: 
+        description: 
+        items:
+          - project_id: g0vdathon
+          - project_id: pycourse
+          - project_id: cctw
+          - project_id: osln
+          - project_id: otspace
+          - project_id: gcoin
+          - project_id: osmtw
+          - project_id: hcsm
+      - type: article
+        swap: true
+        title: 
+        subtitle: 
+        description: 
+        items:
+          - project_id: opensuse
+          - project_id: chewingim
+          - project_id: openhackfarm
+          - project_id: sysprogram
+          - project_id: cloudnative
+          - project_id: cscs
+          - project_id: ocnhfa
+          - project_id: gdghualien
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2019/-1.jpg
+        swap: true
+      - type: article
+        title: 活動協力
+        subtitle: 
+        description: 每一年總有一些人，默默思考著開源、開放理念如何能夠發揚光大；如何在有限的資源下辦一場好的活動，當埋頭苦思於找志工、找場地、找贊助、活動網頁、宣傳、開發票……等等瑣碎的事情，不時會冒出：「哎！要是有人能幫我就好了！」的念頭。而這些繁雜卻重要的小事，就是除了社群自己的活動或營運規劃之外， OCF 行政中心能夠挺身而出提供支援的時候！
+        items:
+          - project_id: sitcon
+          - project_id: coscup
+          - project_id: pycon
+          - project_id: jcconf
+          - project_id: wordcamp
+          - project_id: g0vgrants
+          - project_id: sciwork
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2019/OSCVPASS_Banner.png
+        swap: false
+      - type: article
+        title: 服務社群
+        subtitle: 
+        description: 在台灣，開源與開放社群十分活躍，一年會有超過十場的中大型會議 / 活動舉辦，也往往會有許多針對開源貢獻者的補助票券釋出。<br>於是 OCF 發起 OSCVPass (開源貢獻者快速通關) 專案，讓開源專案貢獻者可以單一窗口更快速、方便的提交開源貢獻資料內容，再交由 OCF 募集的社群志工協助審查，確認通過者可以申請與 OSCVPass 專案合作的研討會活動各式優待票，鼓勵更多人參與 Open Source 貢獻。
+        items:
+        - title: OSCVPass 專案頁面
+          url: https://ocf.tw/p/oscvpass/
+        - title: OSCVPass 開源貢獻者快速通關申請表單
+          url: https://forms.gle/j62bUmTy1hKKGm7n6
+
+  - type: image_header
+    anchor: OCF
+    background_color: 
+    cover: /p/admin/2019/3.png
+    cover_image_alt: 
+
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2019/8.jpg
+        swap: true
+      - type: article
+        title: CSCS (Civil Society Cyber Shield)
+        subtitle: 
+        description: 來自資安界和公民社會團體的CSCS成員，今年舉辦了一場資安種子講師培訓，並為超過10個公民團體成員，進行4場資安提升工作坊，幫助公民團體在安全的線上環境中推動社會議題。更將資安意識提升的對象拓展到一般大眾，舉辦4場免費的資安講座，並製作了4隻簡單易懂的資安影片，幫助民眾落實生活中的資安大小事。
+        items:
+        - title: 【專案介紹】CSCS公民團體資安暨隱私交流計劃
+          url: https://ocf.tw/p/cscs/
+        - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題一
+          url: https://ocftw.kktix.cc/events/greenhost1?_ga=2.231636957.391689372.1579257657-2027007759.1573796777
+        - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題二
+          url: https://ocftw.kktix.cc/events/greenhost2?_ga=2.64417901.391689372.1579257657-2027007759.1573796777
+        - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題三
+          url: https://ocftw.kktix.cc/events/greenhost3?_ga=2.61161198.391689372.1579257657-2027007759.1573796777
+        - title: 【活動】COSCUP 開源隱私社群軌
+          url: https://ocf.tw/p/cscs/2019/COSCUP_2019_%E9%96%8B%E6%BA%90%E9%9A%B1%E7%A7%81%E8%BB%8C_%E6%B4%BB%E5%8B%95%E8%A8%98%E9%8C%84.pdf
+        - title: 【活動】網路公民必須學會的資安防護
+          url: https://www.facebook.com/events/2438418669711037/
+        - title: 【活動】NGO 資安種子講師訓練
+          url: https://ocftw.kktix.cc/events/cscs2019tot?_ga=2.27802750.391689372.1579257657-2027007759.1573796777
+        - title: 數位時代，自已的權利自己顧 -- 基礎資安教戰講座
+          url: https://ocftw.kktix.cc/events/e0c1048b?_ga=2.244118087.391689372.1579257657-2027007759.1573796777
+        - title: 【活動】Tor Sharing @ Taipei - 關於匿名瀏覽器，你知道多少?
+          url: https://www.youtube.com/watch?v=Xx7t3aqHuV0&feature=youtu.be
+        - title: 資安小診所＠Oslo Freedum Forum Taipei 
+          url: 
+        - title: 【教學影片】日常資安小教室，常見問題全都錄
+          url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnc5ZT8EbxqjzbwqQCcMNWN
+        - title: 【專案】開源軟體與教材翻譯與推廣
+          url: https://ocf.tw/p/cscs/2019/
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2019/9.png
+        swap: false
+      - type: article
+        title: 開源科技訓練營
+        subtitle: 
+        description: 開放源碼、開源協作講了許久，但許多人仍然不得其門而入，因此開放文基金會與軟體自由協會合作，將過去數年經驗集合成 10 天兩軌課程。[ 初心者課程 ] 七天從基礎電腦網路架構開始，一路學習不同開源科技心法、原理和工具，並了解怎麼跟工程師網頁設計師溝通數位專案。[ 開源人課程 ] 兩天以自架備份工具和管理平台來精進技能，並了解不同類型開源社群經營方針。另外一天兩軌共同參與迷你黑客松 demo，切磋不同技能和不同領域的想法。 
+  - type: content
+    columns:
+      - type: image
+        url:  /p/admin/2019/15.png
+        swap: true
+      - type: article
+        title: 開源教教我
+        subtitle: 
+        description: 開源教 (The Openists) 是開放文化基金會所草創的非宗教活動，舉辦的目標是希望活絡開源社群樂於分享的精神，持續地開放知識共享和鼓勵自主學習。只要你願意開放你的專業知識，哪怕是非常冷門的知識，都歡迎來分享，各個領域的開源教友，快一起來分享和學習吧！
+        items:
+        - title: 開源教 - 教我認清著作權＋快樂使用網路資源
+          url: https://www.youtube.com/watch?v=tj4IirDf3LQ
+        - title: 開源教 - 教我玩轉桌面 GITHUB 
+          url: https://www.youtube.com/watch?v=skhzt66nrNc&feature=youtu.be
+        - title: 開源教 - 教我正確選擇軟體授權 
+          url: https://www.youtube.com/watch?v=raHdvb8y_-Q&feature=youtu.be
+        - title: 過往活動簡報區：
+          url: https://drive.google.com/drive/folders/1SrYPdIYyOF0kBEkIetuIf82L1u6PceWv
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2019/10.jpg
+        swap: false
+      - type: article
+        title: OCF Lab
+        subtitle: 串連科技與公民社會的文字實驗場！ 
+        description: 近年，數位工具與社會議題的結合，為公民價值進步添加許多動能；而今，大量虛實混淆的資訊，夾雜在線上線下媒體襲捲而來，對於仍習於攝取單一或少量觀點的閱聽者而言，實在真假難辨。OCF Lab 串聯開放原始碼、開放政府、開放資料三大核心理念，在 2019 年期間編譯國外科技新訊約 220 篇、採訪與蒐集國際數位公民議題，撰寫專文 21 篇，探討未來發展趨勢與潛在弊端，藉由產出文字，期許為臺灣的閱聽者打開新的大門，進而希望促使公民參與的實際行動，讓科技成為社會的正能量！
+        items:
+        - title: OCF Lab Blog
+          url: https://lab.ocf.tw/
+        - title: FB 粉絲專頁
+          url: https://www.facebook.com/ocflab/
+  - type: image_header
+    anchor: OCF
+    background_color: 
+    cover: /p/admin/2019/1.png
+    cover_image_alt:   
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2019/11.jpg
+        swap: true
+      - type: article
+        title: 【開源透明：開放政府 ＆開放式公眾授權】 
+        subtitle: 
+        description: 長期倡導開源開放的開放文化基金會，今年參與推動創用 CC 與開放政府的國際會議，透過學習國際經驗以優化在台灣持續推動的規劃。在開源碼部分，我們協助 COSCUP 首度至香港參與年會，締結兩地社群的連結。
+        items:
+        - title: 國際出訪：Creative Commons Global Summit 2019
+          url: https://medium.com/@cctaiwan/%E9%82%A3%E4%BA%9B-global-creative-commons-summit-2019-%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%8B-214352b43b42
+        - title: 國際出訪：2019 OGP Summit 國際夥伴聯盟高峰會
+          url: https://docs.google.com/document/d/1oi8N-aJ2g55YFTF1YQmnQE28h0coV9CbV-x2o5y2fzw/edit 
+        - title: 國際出訪：Hong Kong Open Source Conference 香港開源年會 
+          url: https://docs.google.com/document/d/1zg0fJwNAC7xs71Cak-5pCpKJGOCoNK9GAeaFEaT5Otw/edit?usp=sharing
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2019/12.png
+        swap: false
+      - type: article
+        title: 【保障數位人權：隱私、資安與網路自由】
+        subtitle: 串連科技與公民社會的文字實驗場！ 
+        description: 近年，數位工具與社會議題的結合，為公民價值進步添加許多動能；而今，大量虛實混淆的資訊，夾雜在線上線下媒體襲捲而來，對於仍習於攝取單一或少量觀點的閱聽者而言，實在真假難辨。OCF Lab 串聯開放原始碼、開放政府、開放資料三大核心理念，在 2019 年期間編譯國外科技新訊約 220 篇、採訪與蒐集國際數位公民議題，撰寫專文 21 篇，探討未來發展趨勢與潛在弊端，藉由產出文字，期許為臺灣的閱聽者打開新的大門，進而希望促使公民參與的實際行動，讓科技成為社會的正能量！
+        items:
+        - title: Internet Freedom Festival 網路自由節
+          url: https://docs.google.com/document/d/1a5WC6RlKSTS-wpgb6l56nFCXpl58E6hdSEPMJysSoQQ/edit
+        - title: RightsCon Summit 數位人權大會
+          url: https://docs.google.com/document/d/1ojKKMW1hKmUgadBUP3JiaGuSRSF6Ton3XkkP1-w245Q/edit
+        - title: CocoNet 東南亞數位人權營隊
+          url: https://docs.google.com/document/d/1GH82H2ETaZC3IgVVpZByuMYebqXpoVgRDYMkjOz1gqY/edit
+        - title: Infracon 2019 基礎建設國際研討會
+          url: https://equalit.ie/infracon/
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2019/13.JPG
+        swap: true
+      - type: article
+        title: 【用科技改善社會：公民科技】 
+        subtitle: 
+        description: 近年公民科技在世界各地風起雲湧，為人民參與公共事務帶來新氣象。因應各地脈絡不一，每個公民科技社群有各自的長處與面臨的困境。因此，社群間的交流是激盪彼此火花的寶貴經驗。有感於此，開放文化基金會與台灣相關社群一同參與全球重要公民科技盛會，向彼此請益以醞釀更深厚的能量。
+        items:
+        - title: 國際出訪：2019 TICTeC 公民科技動能推升研討會
+          url: https://docs.google.com/document/d/1KkDRF9P4l2C7o_5HFHkefagVoABHM4TjSSUTZkWjDCQ/edit#heading=h.86pbshub2q2z
+        - title: 國際出訪：Facing the Ocean Meet and Hack 面海黑客松 @ 沖繩
+          url: https://docs.google.com/document/d/1aHUddYAEcJvFFYKNPNDyBDpDG07TXr6CNROR5lER6K0/edit#
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2019/14.png
+        swap: false
+      - type: article
+        title: 【國際互動經驗分享】擴散參訪效益
+        subtitle: 
+        description: 由於並不是所有相關人士都有空參與國際盛會，開放文化基金會在參訪之後，會舉辦分享會，介紹大會中有趣的內容和交流獲得的寶貴經驗，讓有限的參訪機會發揮最大的效益。
+        items:
+        - title: 全球最大—網路自由節 Internet Freedom Festival 回國分享
+          url: https://ocftw.kktix.cc/events/visitiff2019
+        - title: 前進 TICTeC & Internet Freedom Festival ( IFF ) 共同分享會
+          url: https://ocftw.kktix.cc/events/ticteciff2019
+        - title: Creative Commons Taiwan Chapter#2
+          url: https://ocftw.kktix.cc/events/cctw20190728
+        - title: 2019 開放政府全球峰會 OGP summit
+          url: https://ocftw.kktix.cc/events/tw2019ogpsummit
+        - title: 前進突尼西亞 RightsCon - 數位人權大會回國分享會
+          url: https://ocftw.kktix.cc/events/2019rightscontaiwan          
+        - title: COCONET 回國分享會
+          url: https://ocftw.kktix.cc/events/tw2019coconet-sharing
+  - type: image_header
+    anchor: OCF
+    background_color: 
+    cover: /p/admin/2019/5.png
+    cover_image_alt:  
+  - type: image_header
+    anchor: OCF
+    background_color: 
+    cover: /p/admin/2019/4.png
+    cover_image_alt:
+  - type: content
+    columns:
+      - type: collage
+        grid: five
+        swap: false
+        items:
+            - person_id: clkao
+            - person_id: bobchao
+            - person_id: honki
+            - person_id: jimyhuang
+            - person_id: pofeng
+      - type: collage
+        grid: five
+        swap: true
+        items:
+            - person_id: rock            
+            - person_id: singing
+            - person_id: huangfu
+            - person_id: leona
+            - person_id: rosa
+      - type: collage
+        grid: five
+        swap: false
+        items:
+            - person_id: xini
+            - person_id: claire
+            - person_id: pellaeon
+            - person_id: lulukeng
+            - person_id: aiya
+      - type: collage
+        grid: five
+        swap: true
+        items:
+            - person_id: yhchang
+            - person_id: kting
+            - person_id: TYC
+            - person_id: leaf
+            - person_id: liyu
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        title: 超能董事：李柏鋒(Pofeng)、黃雋(Jimmy)、鄭鴻旗(honki)、趙柏強(Bob Chao)、高嘉良(clkao)。<br>
+               熱血志工：ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayard, CSCS 資安講師等。<br>
+               OCF員工：Singing、Rock、Lulu、Aiya、小ㄐ、Xini(新入夥)、Claire(新入夥)、冠廷、廷彥、皇甫(已離職)、Leona(已離職)、Pellaeon(已離職)、育軒(已離職)。<br>
+  - type: content
+    columns:
+      - type: article
+        title: 感謝贊助好夥伴
+        swap: true
+        description: 感謝RC文化藝術基金會、祐生研究基金會年度計畫贊助，企業夥伴在各項專案活動的支持，更感激不遺餘力投注資源的每一個「你」，讓我們在興盛開放文化的路上元氣爆發！
+      - type: article
+        logo_height: 7rem
+        logos:
+          - org_id: rc
+          - org_id: archilife
+  - type: image_header
+    cover: /p/admin/2018/thumbsup2.png
+    cover_image_alt: 
+    background_color: tint
+  - type: content
+    columns:
+      - type: article
+        title: 臉書追蹤OCF，活動不會錯過！
+        action: 
+          title: Follow Us on Facebook
+          url: https://lihi.cc/NKpPE
+      - type: article  
+        title: 訂閱EDM，開源資訊不漏接
+        swap: false
+        action:
+          title: 訂閱 OCF 電子報
+          url: https://lihi.cc/mePVc
+    items:
+    cover_image_alt: ''
+    ge_opacity: 0.9
+    cover_veil_opacity: 0.3
