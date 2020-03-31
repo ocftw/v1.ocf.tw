@@ -75,7 +75,7 @@ items:
       - type: article
         title: 服務社群
         subtitle: 
-        description: 在台灣，開源與開放社群十分活躍，一年會有超過十場的中大型會議 / 活動舉辦，也往往會有許多針對開源貢獻者的補助票券釋出。<br>於是 OCF 發起 OSCVPass (開源貢獻者快速通關) 專案，讓開源專案貢獻者可以單一窗口更快速、方便的提交開源貢獻資料內容，再交由 OCF 募集的社群志工協助審查，確認通過者可以申請與 OSCVPass 專案合作的研討會活動各式優待票，鼓勵更多人參與 Open Source 貢獻。
+        description: 在台灣，開源與開放社群十分活躍，一年會有超過十場的中大型會議 / 活動舉辦，也往往會有許多針對開源貢獻者的補助票券釋出。<br>於是 OCF 發起 OSCVPass (開源貢獻者快速通關) 專案，讓開源專案貢獻者可以單一窗口更快速、方便的提交開源貢獻資料內容，並交由 OCF 募集的社群志工協助審查，確認通過者可以申請與 OSCVPass 專案合作的研討會活動各式優待票，鼓勵更多人參與 Open Source 貢獻。
         items:
         - title: OSCVPass 專案頁面
           url: https://ocf.tw/p/oscvpass/
