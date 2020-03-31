@@ -258,6 +258,7 @@ items:
       - type: collage
         grid: five
         swap: true
+        items:
             - person_id: rock            
             - person_id: singing
             - person_id: huangfu
@@ -266,6 +267,7 @@ items:
       - type: collage
         grid: five
         swap: false
+        items:
             - person_id: xini
             - person_id: claire
             - person_id: pellaeon
@@ -274,6 +276,7 @@ items:
       - type: collage
         grid: five
         swap: true
+        items:
             - person_id: yhchang
             - person_id: kting
             - person_id: TYC
