@@ -47,6 +47,11 @@ items:
           - project_id: cscs
           - project_id: ocnhfa
           - project_id: gdghualien
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2019/0.png
+        swap: true
       - type: article
         swap: true
         title: 活動協力
