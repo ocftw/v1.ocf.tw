@@ -53,7 +53,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/admin/2019/-1.jpg
+        url: /p/admin/2019/-2.jpg
         swap: true
       - type: article
         title: 活動協力
