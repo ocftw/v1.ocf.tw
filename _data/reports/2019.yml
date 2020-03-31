@@ -134,7 +134,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/openists/openists-og.png
+        url:  /p/admin/2019/15.png
         swap: true
       - type: article
         title: 開源教教我
