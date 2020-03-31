@@ -50,7 +50,7 @@ items:
   - type: content
     columns:
       - type: image
-        url: /p/admin/2019/0.png
+        url: /p/admin/2019/0.jpg
         swap: true
       - type: article
         swap: true
