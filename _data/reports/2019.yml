@@ -11,14 +11,14 @@ items:
     background_color: teal
     cover: /p/admin/2019/2.png
     cover_image_alt: 
-  - type: content
-    single_column: true
-    columns:
-    - type: image
-      url: /p/admin/2019/0.jpg
-      - type: article
-        title: 社群後勤
-        description: 開源社群中，總是有一群人，下班後不去喝酒尋樂，只為了在一行行的程式碼中，實踐開放資料與開放原始碼的應用，然後找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，以自主參與、自主學習、協作等精神，敲打著鍵盤分享今天得到的新發現。開放文化的社群，就是這麼一群人，而 OCF 行政中心，除了關心和協助之外，也正和這社群們一起成長著。
+  - type: image_header
+    anchor: OCF
+    background_color: 
+    cover: /p/admin/2019/-1.png
+    cover_image_alt:
+  - type: article
+    title: 社群後勤
+    description: 開源社群中，總是有一群人，下班後不去喝酒尋樂，只為了在一行行的程式碼中，實踐開放資料與開放原始碼的應用，然後找到成就自我的歸屬感。深夜裡，總是有一群人，毫無睡意，以自主參與、自主學習、協作等精神，敲打著鍵盤分享今天得到的新發現。開放文化的社群，就是這麼一群人，而 OCF 行政中心，除了關心和協助之外，也正和這社群們一起成長著。
   - type: content
     columns:
       - type: article
