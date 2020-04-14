@@ -1,5 +1,77 @@
 - id: 
 
+  name: Tor Sharing @ Taipei - 關於匿名瀏覽器，你知道多少?
+  name_en: 
+
+  description: "Tor, The Onion Router ，洋蔥路由器，是一套可以增強網路瀏覽匿名性的開源軟體。它會將使用者的網路流量，加密後導流通過三個洋蔥路由節點，再送往目標網站，如此一來，網站不知道使用者真正的來源，三個洋蔥路由節點也不會同時知道使用者的來源和目的地，達成網路傳輸的匿名性。另外，Tor 也具有繞過網路封鎖的功能。如今，Tor 經常被用於匿名傳送資訊、越過網路封鎖，使用人數眾多，是國際知名專案!!這次開放文化基金會（OCF）邀請到 Tor 的創始人之一 Roger Dingledine ，除了將由 Roger 公開與大家來介紹 Tor ，也將在主持人帶領下，與台灣社群交流相關技術知識。"
+  description_en: 
+
+  cover_image: /p/intl/2019/Tor KKtix in EN.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/10/31
+  end: 2019/10/31
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/tor2019twsharing
+    - title: 活動錄影
+      url: https://www.youtube.com/watch?v=Xx7t3aqHuV0&feature=youtu.be
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+    - lulukeng
+
+  project_ids:
+    - cscs
+
+- id: 
+
+  name: 數位時代，自已的權利自己顧 -- 基礎資安教戰講座
+  name_en: 
+
+  description: "隨著科技發展越發進步、方便，人手一機上網搞定生活大小事已成常態，然而資料數位化廣泛應用後，本來應該只在自己電腦&手機&帳戶裡的資訊，常在不知不覺間成為別人輕易可獲取的資訊。資訊安全已成為現代網民必備知識，更是數位公民不可不會的重要技能！千萬別錯過為初心者準備的教戰訓練。"
+  description_en: 
+
+  cover_image: /p/intl/2019/數位時代，自己的權利自己顧！.png
+  banner_image: 
+  theme_color: 
+
+  start: 2019/10/15
+  end: 2019/10/15
+
+  labels:
+  labels_en:
+
+  metas:
+    - 時間：10/15 晚上 7.30-9.30 pm
+    - 地點：77 OMG 文創中心
+    - 主講：珣珣 / Hazel Yen  
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/e0c1048b
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - aiya
+
+  project_ids:
+    - cscs
+
+- id: 
+
   name: 網路公民必須學會的資安防護
   name_en: 
 
