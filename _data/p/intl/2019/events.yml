@@ -33,18 +33,18 @@
 
 - id: 
 
-  name: Tor Sharing @ Taipei - 關於匿名瀏覽器，你知道多少?
+  name: 國際出訪：2019 CocoNet 東南亞數位人權營隊
   name_en: 
 
-  description: "Tor, The Onion Router ，洋蔥路由器，是一套可以增強網路瀏覽匿名性的開源軟體。它會將使用者的網路流量，加密後導流通過三個洋蔥路由節點，再送往目標網站，如此一來，網站不知道使用者真正的來源，三個洋蔥路由節點也不會同時知道使用者的來源和目的地，達成網路傳輸的匿名性。另外，Tor 也具有繞過網路封鎖的功能。如今，Tor 經常被用於匿名傳送資訊、越過網路封鎖，使用人數眾多，是國際知名專案!!這次開放文化基金會（OCF）邀請到 Tor 的創始人之一 Roger Dingledine ，除了將由 Roger 公開與大家來介紹 Tor ，也將在主持人帶領下，與台灣社群交流相關技術知識。"
+  description: 東南亞是全球上網人口快速成長的重點區域之一，然而網路使用的衍生問題，也是東南亞各方十分關注的議題，COCONET (Connecting Communities and Networks)，以串聯社群和網絡為出發點的 COCONET，其副標語為：Southeast Asia Digital Rights Camp，也是在東南亞區域少見以數位權利為主題的跨區域會議。COCONET 的主要主辦單位為菲律賓知名獨立媒體 Engagemedia，以及關注於數位權利的 APC (Association for Progressive Communications) 組織與在東南亞推動媒體自由與人權的組織 SEAPA。值得一提的是，Engagemedia 不只是媒體，更是將數位科技應用在媒體報導、議題分析、社會倡議等各方面的先驅。
   description_en: 
 
-  cover_image: /p/intl/2019/Tor KKtix in EN.png
+  cover_image: /p/intl/2019/2019 CocoNet.jpg
   banner_image: 
   theme_color: 
 
-  start: 2019/10/31
-  end: 2019/10/31
+  start: 2019/10/21
+  end: 2019/10/25
 
   labels:
   labels_en:
@@ -53,15 +53,14 @@
   metas_en:
 
   links:
-    - title: 活動資訊及報名
-      url: https://ocftw.kktix.cc/events/tor2019twsharing
-    - title: 活動錄影
-      url: https://www.youtube.com/watch?v=Xx7t3aqHuV0&feature=youtu.be
+    - title: 官方資訊
+      url: https://www.engagemedia.org/Projects/camp-coconet
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1GH82H2ETaZC3IgVVpZByuMYebqXpoVgRDYMkjOz1gqY/edit    
   links_en:
 
   organizer_ids:
   participant_ids:
-    - pellaeon
     - lulukeng
 
   project_ids:
@@ -69,43 +68,110 @@
 
 - id: 
 
-  name: 數位時代，自已的權利自己顧 -- 基礎資安教戰講座
+  name: 2019 開源科技訓練營
   name_en: 
 
-  description: "隨著科技發展越發進步、方便，人手一機上網搞定生活大小事已成常態，然而資料數位化廣泛應用後，本來應該只在自己電腦&手機&帳戶裡的資訊，常在不知不覺間成為別人輕易可獲取的資訊。資訊安全已成為現代網民必備知識，更是數位公民不可不會的重要技能！千萬別錯過為初心者準備的教戰訓練。"
+  description: 由開放文化基金會和軟體自由協會合作，結合過去多年經驗，規劃10天兩軌開源訊練課程，包括「初心者課程」手把手從頭來、「開源人課程」進階學習也了解社群經營，還有兩軌迷你黑客松直接嘗試運用所學開啟專案。希望不論是新手想要習得運用開源、開放的數位工具技能，或是技術人想要支援更多社群應用的可能，都能在課程裡找到起頭的方式。
   description_en: 
 
-  cover_image: /p/intl/2019/數位時代，自己的權利自己顧！.png
+  cover_image: /p/intl/2019/2019 開源科技訓練營.png
   banner_image: 
   theme_color: 
 
-  start: 2019/10/15
-  end: 2019/10/15
+  start: 2019/09/16
+  end: 2019/09/26
 
   labels:
   labels_en:
 
   metas:
-    - 時間：10/15 晚上 7.30-9.30 pm
-    - 地點：77 OMG 文創中心
-    - 主講：珣珣 / Hazel Yen  
   metas_en:
 
   links:
     - title: 活動資訊及報名
-      url: https://ocftw.kktix.cc/events/e0c1048b
+      url: https://ocftw.kktix.cc/events/2019openbootcamp
   links_en:
 
   organizer_ids:
   participant_ids:
-    - aiya
+    - lulukeng
+    - singing
+    - rock
 
   project_ids:
     - intl
 
 - id: 
 
-  name: 國際出訪：Hong Kong Open Source Conference 香港開源年會
+  name: 回國分享會 前進突尼西亞 RightsCon - 數位人權大會
+  name_en: 
+
+  description: 每年在 RightsCon 數位人權大會中，都可以看到台灣參與者的身影，活躍地參加會議、議程、擔任講者，今年更是有超過 10 個台灣人參與，可謂「軟實力爆棚」。Rightscon 會議多軌同時進行，主題涵蓋極為廣泛，沒有人是可以全部聽完的。因此這次分享會將會有超過五位參與者各自分享不同主題，從數位人權、隱私、不實資訊、網路監管、人工智慧等各種議題，說好說滿。
+  description_en: 
+  
+  cover_image: /p/intl/2019/2019 RightsCon sharing.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2019/07/22
+  end: 2019/07/22
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/2019rightscontaiwan
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - yhchang
+    - pellaeon
+
+  project_ids:
+    - intl
+
+- id: 
+
+  name: 回國分享會  2019 開放政府全球峰會 OGP summit
+  name_en: 
+
+  description: 從開放資料打貪出發，加入透明、課責、公民參與特質的「開放政府」相關方案，成為全球許多國家，從政府到民間，殷殷期盼的社會進步優良解方。而 1~2年舉辦一次的全球大會，更是成為各國政府火力展示成果、各國民間團體審視批判的大會師。然而各國到底關注什麼? 各方是各說各話還是持續對話進展? 也成為每年參與者關注焦點。
+  description_en: 
+  
+  cover_image: /p/intl/2019/2019 OGP summit sharing.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2019/07/03
+  end: 2019/07/10
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://ocftw.kktix.cc/events/tw2019ogpsummit
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - lulukeng
+
+  project_ids:
+    - intl
+
+
+- id: 
+
+  name: 國際出訪：2019 Hong Kong Open Source Conference 香港開源年會
   name_en: 
 
   description: "國際出訪：香港開源年會旨在推動開放原始碼開發，促進社群交流，並鼓勵工商業界使用開放原始碼軟體及方案。今年 COSCUP 與 HKOSC 首度合作交換議程軌，COSCUP 籌組台灣遠征團隊至香港，規劃整個「COSCUP 特別議程軌」活動，切磋技術、互相交流。"
@@ -140,7 +206,7 @@
 
 - id: 
 
-  name: 國際出訪：Rightscon summit
+  name: 國際出訪：2019 RightsCon
   name_en: 
 
   description: "國際出訪：RightsCon 數位人權大會是由 Access Now 所主辦、目前世界最大的數位人權活動國際組織 Access Now ，是一個致力於開放自由網路的人權、公共政策、與倡議性之國際非營利組織。每年的 Rightscon 在全球不同城市舉辦"
@@ -316,7 +382,7 @@
 
 - id: 
 
-  name: 國際出訪：Internet Freedom Festival
+  name: 國際出訪：2019 Internet Freedom Festival
   name_en: 
 
   description: "國際出訪：此活動為 Open Technology Fund (OTF) 旗下的一個年度專案，規模為 2000人，是國際上知名與網路自由、數位人權、隱私監控、網路審查等相關的活動。"
@@ -353,7 +419,7 @@
 
 - id: 
 
-  name: 國際出訪：Infracon
+  name: 國際出訪：2019 Infracon
   name_en: 
 
   description: "Infracon is a conference for alternative infrastructure and service providers around the world."
