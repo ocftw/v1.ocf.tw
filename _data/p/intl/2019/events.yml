@@ -205,7 +205,7 @@
 
 - id: 
 
-  name: 全球最大—網路自由節 Internet Freedom Festival 回國分享
+  name: 全球最大—網路自由節 Internet Freedom Festival 回國分享會
   name_en: 
 
   description: "IFF是捲動全球網路自由社群的 Unconference 大會，以非傳統、充滿火花、深度交流、如慶典般的盛會著稱，2019 台灣有12位參與者，為大家帶來第一手的分享。 "
@@ -227,8 +227,7 @@
   links:
     - title: 活動報名頁
       url: https://ocftw.kktix.cc/events/visitiff2019
-    - title: 出訪報告
-      url: https://docs.google.com/document/d/1a5WC6RlKSTS-wpgb6l56nFCXpl58E6hdSEPMJysSoQQ/edit
+   
   links_en:
 
   organizer_ids:
