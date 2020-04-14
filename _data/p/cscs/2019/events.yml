@@ -70,41 +70,40 @@
   project_ids:
     - cscs
 
+
 - id: 
 
-  name: 網路公民必須學會的資安防護
+  name: 2019 Oslo Freedom Forum TW - 資安小診所
   name_en: 
 
-  description: 數位科技是鼓勵群眾參加活動的有利武器，但同時也將參加者暴露在政府的監控下。極權高科技監控時代，參加者越需要在彼此間串連時保護自己 。例如，香港近期的社會運動中，政府利用數位足跡找出參加者的真實身分，而為了避免政府的監控，香港社運人士揚棄較為開放的 Facebook 與 Twitter，轉向使用隱密的加密即時通訊軟體。這些平台讓參加者可以用較為安全的方式散播活動的資訊和策略，掌握物資的流動，讓參加者免於受監控之恐懼。當網路成為人們獲取資訊、參與公共事務的管道，參加者如何避免在網路監控時代下留下電子足跡？要如何兼顧資訊安全，並確保參與公民的自由與人權呢？讓您不能不知的資訊安全 ABC 一次就上手！
+  description: Oslo Freedom Forum TW 為知名國際人權組織 Human Right Foundation 舉辦之每年人權大會，從 2018 年開始，除了原來在奧斯陸舉辦的主要場次，也於其他地區舉辦，台北, 臺灣場為其在亞洲目前唯一舉辦地。2019 年，由 OCF 協助串聯，Civil Society Cyber Shield (CSCS) 社群專案加入會議現場，架設現場資安小診所，提供參與該大會之國內外與會人員即時的資安諮詢和解答。
   description_en: 
 
-  cover_image: /p/intl/2019/青平台824講座宣傳圖1.png
+  cover_image: /p/intl/2019/資安小診所-01.jpg 的副本.jpg
+  banner_image: 
+  theme_color: 
 
-  start: 2019/08/24
-  end: 
+  start: 2019/09/13
+  end: 2019/09/13
+
+  labels:
+  labels_en:
 
   metas:
-    - "【時間】2019/8/24 (週六) 14:30-17:30  "
-    - 【主講】王保羅（媒體工作者，常駐香港）、秉宇 / PCC（CSCS 資安講師）
-    - 【地點】創咖啡 Trust Cafe
   metas_en:
 
   links:
-    - title: FB活動頁 
-      url: https://www.facebook.com/events/2438418669711037/
-    - title: 報名連結
-      url: https://forms.gle/8ve26T1NevX6kyJS9
+    - title: 活動官網
+      url: https://www.facebook.com/events/taipei-taiwan/2019-oslo-freedom-forum-taiwan-%E5%A5%A7%E6%96%AF%E9%99%B8%E8%87%AA%E7%94%B1%E8%AB%96%E5%A3%87-%E5%8F%B0%E7%81%A3/467377010487712/
   links_en:
 
-  co-worker_ids:
-    - aiya
+  organizer_ids:
+  participant_ids:
+    - pellaeon
+    - lulukeng
 
   project_ids:
     - cscs
-
-  reports:
-    2019: 08
-  reports_en:
 
 - id: 
 
@@ -134,3 +133,38 @@
     2019: 08
   reports_en:
 
+- id: 
+
+  name: 網路公民必須學會的資安防護
+  name_en: 
+
+  description: 數位科技是鼓勵群眾參加活動的有利武器，但同時也將參加者暴露在政府的監控下。極權高科技監控時代，參加者越需要在彼此間串連時保護自己 。例如，香港近期的社會運動中，政府利用數位足跡找出參加者的真實身分，而為了避免政府的監控，香港社運人士揚棄較為開放的 Facebook 與 Twitter，轉向使用隱密的加密即時通訊軟體。這些平台讓參加者可以用較為安全的方式散播活動的資訊和策略，掌握物資的流動，讓參加者免於受監控之恐懼。當網路成為人們獲取資訊、參與公共事務的管道，參加者如何避免在網路監控時代下留下電子足跡？要如何兼顧資訊安全，並確保參與公民的自由與人權呢？讓您不能不知的資訊安全 ABC 一次就上手！
+  description_en: 
+
+  cover_image: /p/intl/2019/青平台824講座宣傳圖1.png
+
+  start: 2019/08/24
+  end: 2019/08/24
+
+  metas:
+    - "【時間】2019/8/24 (週六) 14:30-17:30  "
+    - 【主講】王保羅（媒體工作者，常駐香港）、秉宇 / PCC（CSCS 資安講師）
+    - 【地點】創咖啡 Trust Cafe
+  metas_en:
+
+  links:
+    - title: FB活動頁 
+      url: https://www.facebook.com/events/2438418669711037/
+    - title: 報名連結
+      url: https://forms.gle/8ve26T1NevX6kyJS9
+  links_en:
+
+  co-worker_ids:
+    - aiya
+
+  project_ids:
+    - cscs
+
+  reports:
+    2019: 08
+  reports_en:
