@@ -127,33 +127,7 @@
   speaker_id: 
   banner: 
   avatar: 
-1004JCConf:
-  title: "JCConf 2019"
-  description: "JCConf Taiwan (Java Community Conference Taiwan) 是由社群成員發起的 Java 程式語言及相關領域研討會，由 TWJUG (Taiwan Java User Group) 主辦，Scala Taiwan 和 科斯高 協辦。宗旨在提供台灣的 Java 開發者有更多參與社群以及交流技術的機會，目標與會對象主要為使用 Java 語言及 JVM 相關技術的程式開發者和相關從業人員。"
-  month: "10"
-  start: 10/4
-  end: 10/4
-  link:
-    - title: 官網
-      url: https://jcconf.tw/2019/
-    - title: 報名頁
-      url: https://twjug.kktix.cc/events/jcconf-2019
-  cover: /p/2019/JCConf/JCConf2019.png
-  contributor_id:
-    - rosa
-  project_id:
-    - jcconf
-  label: 
-  organizer_id: 
-  advisor_id: 
-  co-organizer_id: 
-  implementer_id: 
-  sponsor_id: 
-  coordinator_id: 
-  host_id: 
-  speaker_id: 
-  banner: 
-  avatar: 
+
 1116gdghldf:
   title: "GDG Hualien DevFest 2019"
   description: "此次活動我們將邀請GDE、各類型開發者擔任講師與座談人：
