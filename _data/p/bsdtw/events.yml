@@ -1,0 +1,12 @@
+- id:
+  name: BSDTW 2017
+  description: BSDTW 2017 will be held on Nov. 11-12th, 2017, Taipei Taiwan
+  start: 2017/11/11
+  end: 2017/11/12
+  links:
+    - title: 官方網站
+      url: https://2017.bsdtw.org/
+  cover: /p/2017/bsdtw/BSDTW.png
+  contributor_id:
+    - singing
+    - huangfu

@@ -41,6 +41,153 @@
   reports:
     2018: 02
 
+
+- id: 
+  name: 【高雄 Python 學院】 Python 基礎及應用 
+  description: 本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
+  start: 2018/02/24
+  end: 
+  links:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180224
+  cover_image: /p/2018/pycourse/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+  reports:
+    2018: 02
+
+- id: 
+  name: 【高雄 Python 學院】 Python 基礎及應用工作坊
+  description: 本工作坊是「Python 基礎及應用」課程的後續課程。在上一次的課程中，我們在六個小時內一次性地將初學者可能會使用到的技術盡量涵蓋，希望在知識性上讓參與者覺得物超所值。然而從問卷中，我們了解到多數初學者希望可以增加實作時數，進一步的熟悉 Python 的使用。因此我們在討論之後，決定開一個六個小時的工作坊。在本工作坊內，我們會將基本語法做簡短的複習，接著會提出不同的使用情境，讓參與者思考如何解題，視問題的難易程度，在 5-10 分鐘後，講師會提出一個參考的做法，再讓參與者做最後的嘗試及提問。上一次的課程，比較偏向知識的教授，而本工作坊則偏向技術的使用，需要參與者思考及動手，藉由動腦及動手讓 Python 語言自動地變成自己的技能。
+  start: 2018/03/24
+  end: 
+  links:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180224-copy-1
+  cover_image: /p/2018/pycourse/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+  reports:
+    2018: 03
+
+- id: 
+  name: 【高雄 Python 學院】 使用 Python 打造 Line 機器人工作坊 (上)
+  description: 本工作坊是「Python 基礎及應用」課程的實戰課程。在上兩次的課程中，我們將 Python 的一些基礎介紹傳授給初學者，這次，我們將進一步的實戰，透過 Python 打造 Line 機器人 (Line Bot)，這次我們將會手把手的帶大家從 0 建立一個  Line Bot ，並且將這個 Line Bot 佈署到雲端 ( Heroku ) ，這樣一來，您也可以將自己建立的 Line Bot 分享給你的親朋好友使用。
+  start: 2018/04/28
+  end: 
+  links:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180428
+  cover_image: /p/2018/pycourse/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+  reports:
+    2018: 04
+
+- id: 
+  name: 【高雄 Python 學院】 使用 Python 打造 Line 機器人工作坊 (下)
+  description: 本工作坊是「Python 基礎及應用」課程的實戰課程。在上兩次的課程中，我們將 Python 的一些基礎介紹傳授給初學者，這次，我們將進一步的實戰，透過 Python 打造 Line 機器人 (Line Bot)，這次我們將會手把手的帶大家從 0 建立一個  Line Bot ，並且將這個 Line Bot 佈署到雲端 ( Heroku ) ，這樣一來，您也可以將自己建立的 Line Bot 分享給你的親朋好友使用。
+  start: 2018/05/05
+  end: 
+  links:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180505
+  cover_image: /p/2018/pycourse/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+  reports:
+    2018: 05
+
+- id: 
+  name: 【高雄 Python 學院】 IoT基礎實作工作坊
+  description: 本工作坊是「Python 基礎及應用」課程的後續課程。在上一次的課程中，我們在六個小時內練習了各種Python的基礎語法。在本工作坊中，我們將一步一步的帶大家了解MicroPython的硬體相關知識，並且應用各種基礎的Python語法和硬體互動，實作IoT的各種應用。本工作坊偏向實作應用課程，會設計各種使用情境，讓大家思考要如何達成練習情境的功能，視問題的難易度，講師也會提出參考做法，讓大家可順利的藉由引導來完成實作，以熟悉各種Python的技能。
+  start: 2018/06/23
+  end: 
+  links:
+    - title: 活動網站
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180623
+  cover_image: /p/2018/pycourse/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+  reports:
+    2018: 06
+
+- id: 
+  name: 【高雄 Python 學院】 用Python建構股票分析系統(速成班)
+  description: 本課程的目標，是要讓學員在最短的時間內擁有自己的系統。課程首先會講解股票分析系統的架構，之後我們會說明如何訂定策略及藉由回測來判斷策略的好壞，希望藉由循序漸進的引導，最後可以讓學員建構出自己的股票分析系統。本次上課的內容為講師在 PyCon TW 2017 的演講 的更新及延伸。
+  start: 2018/09/01
+  end: 
+  links:
+    - title: 活動資訊及報名
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180901
+  cover_image: /p/2018/pycourse/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+  reports:
+    2018: 09
+
+- id: 
+  name: 【高雄 Python 學院】 MicroPython智慧自走車工作坊 (workshop)
+  description: 無人駕駛、Arduino智能自走車的議題好熱門，但學習Python語言是否就和這些硬體應用無緣?不用怕，本工作坊將一步一步的帶大家使用MicroPython的硬體設計自己的智慧自走車，讓你使用Python也可以享受和硬體互動的樂趣。上完課程後可以帶回自己的自走車，隨時展示你的學習成果！本工作坊偏向實作應用課程，會設計各種使用情境，讓大家思考要如何達成練習情境的功能，視問題的難易度，講師也會提出參考做法，讓大家可順利的藉由引導來完成實作，以熟悉各種Python的技能。
+  start: 2018/09/08
+  end: 
+  links:
+    - title: 活動資訊及報名
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180908
+  cover_image: /p/2018/pycourse/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+  reports:
+    2018: 09
+
+- id: 
+  name: 【高雄 Python 學院】 MiroPython IoT基礎工作坊
+  description: 在本次工作坊中，我們會使用MicroPython的硬體來進行IoT的開發應用。將一步一步的帶大家了解MicroPython的硬體相關知識，並且應用各種基礎的Python語法和硬體互動，實作IoT的各種應用。本工作坊偏向實作應用課程，會設計各種使用情境，讓大家思考要如何達成練習情境的功能，視問題的難易度，講師也會提出參考做法，讓大家可順利的藉由引導來完成實作，以熟悉各種Python的技能。
+  start: 2018/11/03
+  end: 
+  links:
+    - title: 活動資訊及報名
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20181103
+  cover_image: /p/2018/pycourse/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+  reports:
+    2018: 11
+
+- id: 
+  name: 【高雄 Python 學院】 用Python做機器學習 (速成班)
+  description: 本課程的目標，是要讓學員在最短的時間內開始使用 scikit-learn 來做機器學習。本次課程沒有涵蓋深度學習的實作，如果是想要學習深度學習的朋友，請期待之後的深度學習速成班。另外，本次課程著重在 scikit-learn 的使用及介紹，沒有艱深的數學，想要鑽研數學式的朋友請期待其他課程。
+  start: 2018/12/01
+  end: 
+  links:
+    - title: 活動資訊及報名
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180908
+  cover_image: /p/2018/pycourse/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+  reports:
+    2018: 12
+
+
+
 - id: 
   name: 【高雄 Python 學院】 用Python建構股票分析系統(寒假班) 
   description: 本課程著重在思考，主要的目標是要引導學員對投資理財做自發性的思考，並讓學員於課程後擁有一個簡單的股票分析系統。課程首先會講解股票分析系統的架構，之後我們會說明如何訂定策略及藉由回測來判斷策略的好壞，希望藉由循序漸進的引導，最後可以讓學員建構出自己的股票分析系統。

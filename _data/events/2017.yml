@@ -1,76 +1,76 @@
-0318sitcon:
-  title: SITCON 2017
-  description: SITCON2017將以「新世代的網路挑戰」為年會焦點，揭開網際網路便利的面紗，深入探討網路世代在網路治理、內容過濾、識別追蹤、媒體中立性等不同面向上將面臨的困境與挑戰，並共同探求資訊技術的平衡發展。
-  month: 3
-  start: 3/18
-  end: 
-  link:
-    - title: 活動網站
-      url: http://sitcon.org/2017/
-  cover: 
-  contributor_id:
-    - singing
-  project_id:
-    - sitcon
-    - admin
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-0318g0vgrants:
-  title: 2017春季 g0v 公民科技創新獎助金 Kick-off Workshop
-  description: 
-  month: 3
-  start: 3/18
-  end: 
-  link:
-    - title: 活動網站
-      url: https://grants.g0v.tw/  
-  cover: 
-  contributor_id:
-    - ttcat
-  project_id:
-    - g0vgrants
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
-1111BSDTW:
-  title: BSDTW 2017
-  description: BSDTW 2017 will be held on Nov. 11-12th, 2017, Taipei Taiwan
-  month: 11
-  start: 11/11
-  end: 11/12
-  link:
-    - title: 官方網站
-      url: https://2017.bsdtw.org/
-  cover: /p/2017/bsdtw/BSDTW.png
-  contributor_id:
-    - singing
-    - huangfu
-  project_id:
-  label:
-  organizer_id:
-  advisor_id:
-  co-organizer_id:
-  implementer_id:
-  sponsor_id:
-  coordinator_id:
-  host_id:
-  speaker_id:
-  banner: 
-  avatar: 
+#0318sitcon:
+#  title: SITCON 2017
+#  description: SITCON2017將以「新世代的網路挑戰」為年會焦點，揭開網際網路便利的面紗，深入探討網路世代在網路治理、內容過濾、識別追蹤、媒體中立性等不同面向上將面臨的困境與挑戰，並共同探求資訊技術的平衡發展。
+#  month: 3
+#  start: 3/18
+#  end: 
+#  link:
+#    - title: 活動網站
+#      url: http://sitcon.org/2017/
+#  cover: 
+#  contributor_id:
+#    - singing
+#  project_id:
+#    - sitcon
+#    - admin
+#  label:
+#  organizer_id:
+#  advisor_id:
+#  co-organizer_id:
+#  implementer_id:
+#  sponsor_id:
+#  coordinator_id:
+#  host_id:
+#  speaker_id:
+#  banner: 
+#  avatar: 
+#0318g0vgrants:
+#  title: 2017春季 g0v 公民科技創新獎助金 Kick-off Workshop
+#  description: 
+#  month: 3
+#  start: 3/18
+#  end: 
+#  link:
+#    - title: 活動網站
+#      url: https://grants.g0v.tw/  
+#  cover: 
+ # contributor_id:
+ #   - ttcat
+ # project_id:
+ #   - g0vgrants
+ # label:
+ # organizer_id:
+ # advisor_id:
+#  co-organizer_id:
+ # implementer_id:
+#  sponsor_id:
+#  coordinator_id:
+#  host_id:
+#  speaker_id:
+#  banner: 
+#  avatar: 
+#1111BSDTW:
+#  title: BSDTW 2017
+#  description: BSDTW 2017 will be held on Nov. 11-12th, 2017, Taipei Taiwan
+#  month: 11
+#  start: 11/11
+#  end: 11/12
+#  link:
+#    - title: 官方網站
+#      url: https://2017.bsdtw.org/
+#  cover: /p/2017/bsdtw/BSDTW.png
+#  contributor_id:
+#    - singing
+#    - huangfu
+#  project_id:
+#  label:
+#  organizer_id:
+#  advisor_id:
+#  co-organizer_id:
+#  implementer_id:
+#  sponsor_id:
+#  coordinator_id:
+#  host_id:
+#  speaker_id:
+#  banner: 
+#  avatar: 
