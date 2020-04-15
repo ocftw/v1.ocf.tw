@@ -1,3 +1,46 @@
+- id: PyCourse
+  name: 高雄 Python 學院 
+  description: 高雄 Python 學院和 PyCourse 合作，展開一系列的課程，針對初階～中階的學習者進行手把手教學。
+  cover_image: /p/pycourse/2018/pycourse-Kaohsiung.png
+  theme_color: olive
+  links:
+    - title: 2018/2/24 Python 基礎及應用
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180224
+  links:
+    - title: 2018/3/24 Python 基礎及應用工作坊
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180224-copy-1
+    - title: 2018/4/28 使用 Python 打造 Line 機器人工作坊 (上)
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180428
+    - title: 2018/5/5 使用 Python 打造 Line 機器人工作坊 (下)
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180505
+    - title: 2018/6/23 IoT基礎實作工作坊
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180623
+    - title: 2018/9/1 用Python建構股票分析系統(速成班)
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180901
+    - title: 2018/9/8 MicroPython智慧自走車工作坊
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20180908
+    - title: 2018/11/3 MiroPython IoT基礎工作坊
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20181103
+    - title: 2018/12/1 用Python做機器學習 (速成班)
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20181201
+    - title: 2019/2/16 用Python建構股票分析系統(寒假班) 
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20190216
+    - title: 2019/4/20 Python 基礎及應用 (假日班) 
+      url: https://pycourse.kktix.cc/events/khpy20190420
+    - title: 2019/4/23 Python 基礎及應用 (平日班) 
+      url: https://pycourse.kktix.cc/events/khpy20190423
+    - title: 2019/6/10 Python 基礎及應用 (平日班)
+      url: https://pycourse.kktix.cc/events/khpy20190610
+    - title: 2019/2/16 用Python建構股票分析系統(寒假班) 
+  organizer_ids:
+      - pycourse
+  co-worker_ids:
+      - rock
+  project_ids:
+      - pycourse
+  reports:
+    2018: 02
+
 - id: 
   name: 【高雄 Python 學院】 用Python建構股票分析系統(寒假班) 
   description: 本課程著重在思考，主要的目標是要引導學員對投資理財做自發性的思考，並讓學員於課程後擁有一個簡單的股票分析系統。課程首先會講解股票分析系統的架構，之後我們會說明如何訂定策略及藉由回測來判斷策略的好壞，希望藉由循序漸進的引導，最後可以讓學員建構出自己的股票分析系統。
