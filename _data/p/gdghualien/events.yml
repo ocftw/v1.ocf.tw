@@ -1,0 +1,28 @@
+- id: 
+
+  name: GDG Hualien DevFest 2019
+  name_en: 
+
+  description: 此次活動我們將邀請GDE、各類型開發者擔任講師與座談人：ML GDE/交大 AI 學院, 魏澤人副教授、GDG Hualien, Bob Lee、App Girls, 雅方、GDG Taoyuan, Takuma Lee、WTM/GDG Hualien, 笑笑、Assistant GDE/Voice app studio, 林建宏 (Wolke Lin)、JetBrains Developer Advocate, 范聖佑 (Shengyou Fan)
+
+  cover_image: /p/2019/gdghualien/event.png
+
+  start: 2019/11/16
+  end: 2019/11/16
+
+  links:
+    - title: 活動官網
+      url: https://gdg-hualien.site
+    - title: 報名頁
+      url: https://gdghualien.kktix.cc/events/devfest2019
+      color: blue
+      icon: beer
+  organizer_ids:
+    - GDG Hualien
+    - WTM
+  co-organizer_ids:
+  co-worker_ids:
+  project_ids:
+    - gdghualien
+  reports:
+  reports_en:

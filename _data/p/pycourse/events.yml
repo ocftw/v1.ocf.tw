@@ -40,8 +40,64 @@
       - pycourse
   reports:
     2018: 02
+    
+- id: PyCourse
+  name: 【高雄 Python 學院】 用Python建構股票分析系統(寒假班) 
+  description: 本課程著重在思考，主要的目標是要引導學員對投資理財做自發性的思考，並讓學員於課程後擁有一個簡單的股票分析系統。課程首先會講解股票分析系統的架構，之後我們會說明如何訂定策略及藉由回測來判斷策略的好壞，希望藉由循序漸進的引導，最後可以讓學員建構出自己的股票分析系統。
+  start: 2/16
+  end: 2/16
+  links:
+    - title: 活動資訊及報名
+      url: https://pycourse.kktix.cc/events/kaohsiungpy20190216
+  cover_image: /p/pycourse/2019/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
 
-- id:
+  - id: PyCourse
+  name: 【高雄 Python 學院】 Python 基礎及應用 (假日班)
+  description: 本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
+  start: 4/20
+  end: 4/20
+  links:
+    - title: 活動資訊及報名
+      url: https://pycourse.kktix.cc/events/khpy20190420
+  cover_image: /p/pycourse/2019/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+
+  - id: PyCourse
+  name: 【高雄 Python 學院】 Python 基礎及應用 (平日班)
+  description: 本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
+  start: 4/23
+  end: 4/23
+  links:
+    - title: 活動網頁
+      url: https://pycourse.kktix.cc/events/khpy20190423
+  cover_image: /p/pycourse/2019/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+
+  - id: PyCourse
+  name: 【高雄 Python 學院】 Python 基礎及應用 (平日班)
+  description: 本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
+  start: 6/10
+  end: 6/10
+  links:
+    - title: 活動網頁
+      url: https://pycourse.kktix.cc/events/khpy20190610
+  cover_image: /p/pycourse/2019/pycourse-Kaohsiung.png
+  co-worker_ids:
+    - rock
+  project_ids:
+    - pycourse
+
+- id: PyCourse
   name: 手把手打造智慧音箱 | Hack Google AIY Voice Kit
   description: 本次課程將透過簡單明嘹的教學，讓您輕鬆使用 Python 程式語言，透過 Raspberry Pi 的環境設定，快速地打造屬於自己的智慧音箱。喜愛動手做、熱愛新玩意的你千萬不可錯過喔！
   start: 7/29
