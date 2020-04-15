@@ -18,11 +18,8 @@
       color: blue
       icon: beer
   organizer_ids:
-    - GDG Hualien
-    - WTM
   co-organizer_ids:
   co-worker_ids:
   project_ids:
-    - gdghualien
   reports:
   reports_en:
