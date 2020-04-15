@@ -11,6 +11,8 @@
     - rock
   project_ids:
     - pycourse
+  reports:
+    2019: 02
 - id: 
   name: 【高雄 Python 學院】 Python 基礎及應用 (假日班)
   description: 本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
@@ -24,6 +26,8 @@
     - rock
   project_ids:
     - pycourse
+  reports:
+    2019: 04
 
 - id: 
   name: 【高雄 Python 學院】 Python 基礎及應用 (平日班)
@@ -38,7 +42,8 @@
     - rock
   project_ids:
     - pycourse
-
+  reports:
+    2019: 04
 - id: 
   name: 【高雄 Python 學院】 Python 基礎及應用 (平日班)
   description: 本次的課程我們預計會從安裝開始教起，接著說明 Python 的基本資料型態，基本資料結構，及基礎語法。我們會舉豐富的例子來說明基礎語法如何使用，範例包括如何使用 Python 做簡單的圖形處理、畫地圖、寫簡單的爬蟲、畫文字雲、並做出簡單的網頁。實際教學內容，會視學生的反應而調整。 課程軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
@@ -52,7 +57,8 @@
     - rock
   project_ids:
     - pycourse
-
+  reports:
+    2019: 06
 - id: 
   name: 手把手打造智慧音箱 | Hack Google AIY Voice Kit
   description: 本次課程將透過簡單明嘹的教學，讓您輕鬆使用 Python 程式語言，透過 Raspberry Pi 的環境設定，快速地打造屬於自己的智慧音箱。喜愛動手做、熱愛新玩意的你千萬不可錯過喔！
@@ -66,3 +72,5 @@
     - rock
   project_ids:
     - pycourse
+  reports:
+    2019: 07
