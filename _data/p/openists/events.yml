@@ -7,6 +7,7 @@
     - title: 活動網頁
       url: https://ocftw.kktix.cc/events/openist-licensing
   cover_image: /p/openists/openists-20190415.png
+  project_ids: openists
 
 - id: openists
   name: 開源教 - 教我玩轉桌面 GitHub
@@ -17,6 +18,7 @@
     - title: 活動網頁
       url: https://ocftw.kktix.cc/events/openist-githubdesktop
   cover_image: /p/openists/openists-20190624.png
+  project_ids: openists 
 
 - id: openists
   name: 開源教 - 教我認清著作權＋快樂使用網路資源
@@ -27,3 +29,4 @@
     - title: 活動網頁
       url: https://ocftw.kktix.cc/events/openist-ipandcc
   cover_image: /p/openists/openists-20190821.png
+  project_ids: openists
