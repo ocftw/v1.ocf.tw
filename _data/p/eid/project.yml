@@ -1,0 +1,39 @@
+name: 連署：修法與公開 eID 資訊
+name_en: 
+
+description: 當科技治國成為趨勢，完善法源和開放透明是重要基石。數位身分證偷跑硬闖？請跟我們一起幫國家打好根基，守護資安與程序正義，邁向數位經濟新世代！
+description_en: 
+
+abbr: 
+abbr_en: 
+
+tagline: 
+tagline_en: 
+
+og_image: /p/eid/eid-cover.png
+header_image: /p/eid/eid-cover.png
+avatar_image: /p/eid/eid-cover.png
+theme_color: 
+
+start: 
+end: 
+
+type_ids:
+  - misc
+topic_ids:
+  - government
+field_ids:
+  - legal
+tags:
+tags_en:
+
+organizer_ids:
+  - ocf
+
+board_ids:
+  - pofeng
+staff_ids: 
+  - singing
+  - rosa
+
+listed: yes
