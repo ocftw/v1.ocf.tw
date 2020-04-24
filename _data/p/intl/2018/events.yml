@@ -90,8 +90,8 @@
   links:
     - title: 活動網站
       url: https://tictec.mysociety.org/2018
-    - title: 參訪報告
-      url: https://docs.google.com/document/d/16ZGcEuIhVm7dvBLaQwcZ5DlALptLuMUHv0Vbm0YvgrQ/edit#heading=h.770g6vwuymp9
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1_P79FgIfMmMcE74BKghn2gNlEtiwy7ZBAuhGnm9naWg/edit#heading=h.fltmp54ouujx
   links_en:
 
   organizer_ids:
@@ -126,6 +126,8 @@
   links:
     - title: 活動網站
       url: https://ocftw.kktix.cc/events/frtwopendata
+    - title: 講者簡報
+      url: https://beta.hackfoldr.org/frtw-opendataforum2018
   links_en:
 
   organizer_ids:
@@ -230,10 +232,8 @@
   links:
     - title: 活動網站
       url: https://www.rightscon.org/
-    - title: 台灣代表團紀錄
-      url: https://beta.hackfoldr.org/RightsCon2018Taiwan
     - title: 出訪報告
-      url: "https://github.com/ocftw/v1.ocf.tw/raw/gh-pages/p/intl/2018/2018%20%E5%A4%9A%E5%80%AB%E5%A4%9A%20RightsCon%20%E4%B8%96%E7%95%8C%E6%95%B8%E4%BD%8D%E4%BA%BA%E6%AC%8A%E5%A4%A7%E6%9C%83%E6%9C%83%E5%BE%8C%E5%A0%B1%E5%91%8A%20%E5%85%AC%E9%96%8B%E7%89%88.pdf"
+      url: "https://docs.google.com/document/d/1pxEMk0t-RtJCo9gtutige2cTFoU2fYBN6ZQE3qm4lws/edit#heading=h.fltmp54ouujx"
   links_en:
 
   organizer_ids:
@@ -269,6 +269,8 @@
   links:
     - title: 活動網站
       url: https://www.codeforamerica.org/events/summit/2018
+    - title: 出訪紀錄
+      url: https://drive.google.com/file/d/1LBtK-GXChzKqsqJiEDsQA7Q-BkEG3ca1/view
   links_en:
 
   organizer_ids:
@@ -301,6 +303,8 @@
   links:
     - title: 活動網站
       url: https://www.pdf-18.com/
+    - title: 出訪紀錄
+      url: https://drive.google.com/file/d/1LBtK-GXChzKqsqJiEDsQA7Q-BkEG3ca1/view
   links_en:
 
   organizer_ids:
@@ -549,8 +553,8 @@
   links:
     - title: 官方網站
       url: http://aprigf.vu/
-    - title: 台灣參訪團資訊
-      url: https://beta.hackfoldr.org/AprIGF2018Taiwan
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1GN6ncFj1ZKYZk3IbDb-KW7ntnEB8Osq2Mr9tME-Auj4/edit
   links_en:
 
   organizer_ids:
@@ -563,7 +567,7 @@
 
 - id: 
 
-  name: OGP開放政府高峰會 分享會
+  name: OGP開放政府高峰會 回國分享會
   name_en: 
 
   description: OGP Summit 在7月中於俄羅斯南方小國喬治亞（Georgia）舉行，為舉辦開放政府高峰會，喬治亞特別開放短期免簽讓台灣人參與，開放文化基金會也因此籌組了2018 OGP Summit 台灣民間參訪團，並於回台後舉辦 3 場不同主題的分享會：OGP整體觀察 、媒體觀察暨推動台灣加入 OGP 的意義與下一步 聚焦各國案例：公民科技 x 不實訊息 x 環境。
@@ -631,7 +635,7 @@
 
 - id: 
 
-  name: 亞太網路治理論壇 分享會
+  name: 亞太網路治理論壇 回國分享會
   name_en: 
 
   description: 2016 年曾經成功爭取在台北主辦亞太網路治理論壇的台灣，在每年舉辦的 APrIGF 亞太網路治理論壇，都有許多參與者非常活躍地參加。雖然參與者眾多，但由於時間金錢等資源限制，仍然有許多人雖然有興趣、並關注這個議題，但無法遠道參與國際論壇。為了讓國際參與的經驗不僅是停留在出國參加的少數夥伴身上，而可以讓所有關注網路治理、資訊議題有興趣的朋友都可以共襄盛舉，因此在 APrIGF 結束後，許多前往參與的夥伴都會舉辦分享討論的活動，邀請參加者進行經驗分享、並且讓其他朋友一同加入討論。這個分享會針對所有有興趣但無法前往參加的朋友、或是想要了解網路治理議題的夥伴，歡迎大家一起來聽聽參與者們分享這個大型論壇的經驗！
@@ -653,8 +657,6 @@
   links:
     - title: 活動資訊及報名
       url: https://ocftw.kktix.cc/events/aprigf2018-sharing
-    - title: 參訪報告
-      url: https://docs.google.com/document/d/18bd4luXaMwRsYY0ywLbVzqhgibztVMOILZQhhIa_jgw/edit
   links_en:
 
   organizer_ids:
@@ -771,7 +773,7 @@
 
 - id: 
 
-  name: Oslo Freedom Forum
+  name: 參與 Oslo Freedom Forum
   name_en: 
 
   description: The Oslo Freedom Forum (OFF) 是每年舉辦的國際會議，其會議主要為組織、串聯全球社群一起來討論如何讓人類世界更加和平自由。2018 為 OFF 首次於台灣舉辦，OCF 除了現場參與，也與不同專案 (ex. cofacts, 透明足跡, 台權會網路透明度報告) 一起於現場設立攤位，於所有與會者一起交流台灣在地和全球人權議題。 
