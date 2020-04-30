@@ -669,6 +669,40 @@
 
 - id: 
 
+  name: 國際出訪：IODC國際開放資料會議
+  name_en: 
+
+  description: International Open Data Conference (IODC) 是全球最大的開放資料高峰會，聚集全球關心開放資料相關議題的政府、企業、民間、媒體代表，2018 第五屆在阿根廷首度舉辦，也是大會首次前進南半球，超過1500位參與者、70個國家、200位講者。而要能讓全球的講者和題目能更有效呈現、討論、交流，大會將議程以六大分類來做安排，包括開放資料的： 1) 行動，2) 願景/藍圖，3) 在地南美洲數據應用，4) 影響力，5) 全球各區現況，7) 新亮點。
+  description_en: 
+
+  cover_image: /p/intl/2018/iodc2018.jpg
+  banner_image: 
+  theme_color: 
+
+  start: 2018/9/27
+  end: 2018/9/28
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 出訪紀錄
+      url: https://docs.google.com/document/d/1Y81gnxlJp12prnM6Ixoqt74vMB-KdGcLtI_hPR1cB6w/edit
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - ttact, lulu
+
+  project_ids:
+    - intl
+
+
+- id: 
+
   name: 2018開放資料高峰會-回台分享會
   name_en: 
 
@@ -691,8 +725,6 @@
   links:
     - title: 活動網站
       url: https://ocftw.kktix.cc/events/opendatavisits
-    - title: 參訪報告
-      url: https://docs.google.com/document/d/199dE73HFgWkM7_x2zWtI5asYiOy-QLAkBzS8pmnMyaY/edit
   links_en:
 
   organizer_ids:
