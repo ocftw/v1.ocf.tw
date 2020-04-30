@@ -1,59 +1,3 @@
----
-layout: p
-# 要套用哪種版型，凡是專案頁都套用 p 版型，所以這行不用改
-
-# ------ og 設定（選填） ------
-
-og_title: 
-# 這頁的 og title，若留空，會採用專案的 name
-og_description: 
-# 這頁的 og description，若留空，會採用專案的 description
-og_image: 
-# 這頁的 og image 網址，若留空，會採用專案的 cover_image
-
-# ------ header 設定（選填） ------
-
-header_image_opacity: 
-# 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若留空，預設值是 0.95
-header_veil_opacity: 
-# 這頁上方大標題區塊的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若留空，預設值是 0.1
-
-# ------ 內文設定（選填） ------
-
-show_events: yes
-# 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若留空，則不顯示計畫成果區塊
-gsheet_url: 
-# 收知明細表的 google spreadsheet 網址，若留空，則不顯示收支明細區塊
-show_sponsors: 
-# 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若留空，則不顯示贊助商區塊
-show_donors: 
-# 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若留空，則不顯示捐助人區塊
-
-# ------ 右側邊欄設定（選填） ------
-
-show_progress: 
-# 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若留空，則不顯示進度條
-progress:
-# 專案募款進度，會出現在專案列表頁右側邊欄
-  duration: 
-  # 募款期間，若留空，則不顯示此項目
-  goal: 
-  # 募款目標金額，若留空，則不顯示此項目
-  current: 
-  # 已募得款項金額，若留空，則不顯示此項目
-  percent: 
-  # 進度百分比，若留空，則不顯示此項目
-  count: 
-  # 捐款人數，若留空，則不顯示此項目
-  updated: 
-  # 資料更新日期，若留空，則不顯示此項目
-cpid: 
-# 專案從 neticrm 抓募款進度資料時使用的 id，若留空，則不從 neticrm 抓資料
-show_child_projects: yes
-# 如果有子專案，是否在右側邊欄下方顯示通往子專案的連結。若留空，則不顯示
----
-
-<!-- 以下快速複製用
 
 layout: p
 
@@ -61,8 +5,8 @@ og_title:
 og_description: 
 og_image: 
 
-header_image_opacity: 
-header_veil_opacity: 
+header_image_opacity: 0.9
+header_veil_opacity: 0.03
 
 show_events: yes
 gsheet_url: 
@@ -78,64 +22,71 @@ progress:
   count: 
   updated: 
 cpid: 
-show_child_projects: yes
+show_child_projects: 
 
-以上快速複製用 -->
 
-<!-- 專案頁內文 -->
-
-<h2 class="ui dividing header">計畫說明</h2>
-
-<h3 class="ui header">
-標題一
-</h3>
+<h2 class="ui dividing header">國際夥伴&合作</h2>
 
 <p>
-段落一
-</p>
+<h2 class="ui dividing header">計畫說明</h2>
+
+<h3 class="ui header">計畫目標</h3>
+
+<p> <a href="https://beta.hackfoldr.org/ocf-intl-events">活動一覽表&成果hackfoldr</a></p>
+
+<p> <a href="https://docs.google.com/presentation/d/1YgUkpuwDq7iUqoglnFo8sDIQ8bbfjL60rsW3IhWUnuM/edit?usp=sharing">2019國際出訪地圖</a></p>
+
+<p>台灣的開源與開放文化社群相當蓬勃，平均一年有超過十場中大型的會議。在此同時，我們也希望看到有更多台灣的開源貢獻者，站上國際舞台。同時當國際社群希望與本地社群交流，卻尚未建立管道時，協助連結相關社群。<br> 2019年，我們期待能促成更多台灣社群與國際團體的實質合作，合力開發共同計劃，並且，能促成更多科技資安+社會人權環境工作者的跨領域的合作，讓公民科技網絡能有更強健的彼此支援且成長。</p>
+
+<h3 class="ui header">工作內容</h3>
 
 <div class="ui list">
   <div class="item">
     <i class="checkmark icon"></i>
     <div class="content">
-    清單一
+    出訪參與全球公民科技、開放資料、開放政府、數位人權、網路自由相關國際會議。
+    </div>
+  </div>
+  <div class="item">
+    <i class="checkmark icon"></i>
+    <div class="content">
+    結合國內外團體，在台灣舉辦國際研討會、工作坊、培訓課程。
+    </div>
+  </div>
+  <div class="item">
+    <i class="checkmark icon"></i>
+    <div class="content">
+    與國際團體開啟實質合作計畫，捲動國內開源社群人才加入，共同開發跨國專案。
+    </div>
+  </div>
+  <div class="item">
+    <i class="checkmark icon"></i>
+    <div class="content">
+    <a href="https://ocf.tw/p/2019/intldonate/" target="_blank">國際盤纏計畫</a>提供青年學子參與國際會議的旅費支助。
+    </div>
+  </div>
+  <div class="item">
+    <i class="checkmark icon"></i>
+    <div class="content">
+    建置
+    <a href="https://lab.ocf.tw/" target="_blank">OCF Lab</a>
+    開放科技資訊平台，提供數位公民不可不知的國內外議題。
+    </div>
+  </div>
+  <div class="item">
+    <i class="checkmark icon"></i>
+    <div class="content">
+    2017年 > 完成「
+    <a href="https://opengovreport.ocf.tw" target="_blank">2014-2016台灣開放政府觀察報告</a>
+    」。
     </div>
   </div>
 </div>
 
-<p>
-<a href="" target="_blank">
-<i class="globe icon"></i>
-連結一
-</a>
+<h2 class="ui dividing header">OCF國際組織交流名冊</h2>
+<p>OCF 的宗旨是服務開放文化社群，公開建立本表的目的是希望讓 OCF 的工作更加透明，並且讓各社群可以透過 OCF 與我們曾經交流的對象建立更直接的聯繫，增加在地社群的國際能見度。</p>
+
+<p> <a href="https://docs.google.com/spreadsheets/d/1W5EiABu7x9Bie1GEr73dt-4W17k1m3pLdelbr0Mpb-g/edit#gid=0">OCF國際組織交流名冊（公佈）</a></p>
+
 </p>
 
-<table class="ui table">
-  <thead>
-    <tr>
-      <th>項目</th>
-      <th>單價</th>
-      <th>數量</th>
-      <th>預算</th>
-      <th>備註</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td>總募款目標</td>
-      <td></td>
-      <td></td>
-      <td>NT$</td>
-      <td></td>
-    </tr>
-  </tfoot>
-</table>
