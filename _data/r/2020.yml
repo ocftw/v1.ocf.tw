@@ -1,0 +1,90 @@
+title: 開放文化基金會 2020 成果報告
+subtitles:
+  - blah
+descriptions:
+  - blah ... blah ...
+
+title_en:
+subtitles_en:
+  - blah
+descriptions_en:
+  - blah ... blah ...
+
+background_color: teal
+
+background_image: /p/admin/2019/6.png
+background_image_position:
+background_image_opacity:
+background_image_veil_color:
+background_image_veil_opacity:
+
+rows:
+  - anchor_name:
+    background_color:
+
+    background_image:
+    background_image_position:
+    background_image_opacity:
+    background_image_veil_color:
+    background_image_veil_opacity:
+
+    columns_count: two
+    columns_reverse: true
+    columns:
+      - width:
+        text_align:
+        background_color: green
+
+        background_image:
+        background_image_position: center
+        background_image_opacity:
+        background_image_veil_color:
+        background_image_veil_opacity:
+
+        image: /p/admin/2019/6.png
+        image_alt:
+        image_size: fluid
+
+        title: test title
+        title_icon: fire
+        title_icon_style: circular
+        subtitles:
+          - blah
+        descriptions:
+          - blah blah
+
+        links:
+          - title: test
+            url: lala
+
+        buttons:
+          - title: test button
+            url:
+            icon: globe
+            color: yellow
+            style: icon labeled
+
+        people_column_count: five
+        people:
+          - clkao
+          - bobchao
+          - honki
+          - jimyhuang
+          - pofeng
+          - rock
+          - singing
+          - huangfu
+          - leona
+          - rosa
+
+        orgs:
+          - org_id
+
+        slides:
+          - image:
+            alt: lala
+
+        iframes:
+          - url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQYTboHuAwPuFbNUmtyfTEmL1ZQFhH11Qdy_pxrJm681_FOVxj8tQwWT3U-SBEE2xMAJM1XXAzH8qow/pubchart?oid=926655003&format=interactive
+            height: 20rem
+            scrolling:

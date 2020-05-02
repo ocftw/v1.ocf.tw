@@ -1,0 +1,70 @@
+#report .relative {
+  position: relative;
+}
+
+#report .background.image {
+  min-width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-position: top;
+  opacity: 0.9;
+}
+#report .background.image.veil {
+  background-color: #000;
+  opacity: 0.3;
+}
+
+#report .ui.grid .column {
+  text-align: center;
+}
+
+#report .ui.grid .inverted.column {
+  color: #fff;
+}
+
+#report .ui.list {
+  display: inline-block;
+}
+
+#report #hero {
+  overflow: hidden;
+  color: #fff;
+}
+
+#report #people.ui.grid:not(:first-child) {
+  margin-top: 0;
+}
+#report #people.ui.grid:not(:last-child) {
+  margin-top: 0;
+}
+#report #people.ui.grid .column {
+  padding: 0;
+  overflow: hidden;
+}
+#report #people.ui.grid .column .image.container {
+  padding-top: 100%;
+}
+#report #people.ui.grid .column img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100%;
+}
+#report #people.ui.grid .column .ui.label {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+}
+
+#report iframe {
+  width: 100%;
+  border: none;
+  margin: 1rem 0;
+}
+

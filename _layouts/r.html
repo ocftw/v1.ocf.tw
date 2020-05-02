@@ -1,0 +1,202 @@
+---
+layout: global
+---
+
+{% include _var/lang.html %}
+
+{% assign year = page.url | replace: '/en/p/', '' | replace: '/p/', '' | replace: '/', '' %}
+{% assign report = site.data.r[year] %}
+
+{% if lang == 'en' %}
+{% assign report_title = report.title_en %}
+{% assign report_subtitles = report.subtitles_en %}
+{% assign report_descriptions = report.descriptions_en %}
+{% assign report_background_image_alt = report.background_image_alt_en %}
+{% assign report_rows = report.rows_en %}
+{% else %}
+{% assign report_title = report.title %}
+{% assign report_subtitles = report.subtitles %}
+{% assign report_descriptions = report.descriptions %}
+{% assign report_rows = report.rows %}
+{% endif %}
+
+<main id="report">
+
+  <header id="hero"
+          class="ui inverted {{ report.background_color }}
+          center aligned
+          very padded marginless
+          basic segment">
+
+    {% include r/background.html item=report %}
+
+    <hr class="ui hidden divider" />
+
+    <div class="ui stripe relative container">
+      <img class="ui centered tiny image"
+           src="{{ site.data.people.orgs.ocf.icon }}"
+           alt="OCF logo" />
+      <h1 class="ui inverted header">
+        {{ report_title }}
+        {% for subtitle in report_subtitles %}
+        <div class="sub header">{{ subtitle }}</div>
+        {% endfor %}
+      </h1>
+      {% for description in report_descriptions %}
+      <p>{{ description }}</p>
+      {% endfor %}
+    </div>
+
+    <hr class="ui hidden divider" />
+
+  </header>
+
+  {% for row in report_rows %}
+
+  <a name="{{ row.anchor_name }}"></a>
+  <section {% if row.background_color %}
+           class="ui inverted {{ background_color }} marginless basic segment"
+           {% else %}
+           class="ui marginless basic segment"
+           {% endif %}>
+
+    {% if row.background_image %}
+    {% include r/background.html item=row %}
+    {% endif %}
+
+    <div class="ui {{row.columns_count}} column stackable grid"
+         {% if row.columns_reverse %}
+         style="flex-direction: row-reverse;"
+         {% endif %}>
+
+      {% for column in row.columns %}
+      <div class="{{ column.background_color }} {{ column.width }} wide column"
+           {% if column.text_align %}
+           style="text-align: {{ column.text_align }};"
+           {% endif %}>
+
+        {% if column.background_image %}
+        {% include r/background.html item=column %}
+        {% endif %}
+
+        {% if column.image %}
+        <div class="ui {{ column.image_size}} image">
+          <img src="{{ column.image }}"
+               alt="{{ column.image_alt }}" />
+        </div>
+        <hr class="ui hidden divider" />
+        {% endif %}
+
+        {% if column.title %}
+        <h2 {% if column.title_icon %}
+            class="ui {% if column.background_color %} inverted {% endif %} center aligned icon header"
+            {% else %}
+            class="ui {% if column.background_color %} inverted {% endif %} header"
+            {% endif %}>
+
+          {% if column.title_icon %}
+          <i class="icon {{ column.title_icon }} {{ column.title_icon }}"></i>
+          {% endif %}
+
+          {{ column.title }}
+
+          {% if column.subtitles %}
+          {% for subtitle in column.subtitles %}
+          <div class="sub header">
+            {{ subtitle }}
+          </div>
+          {% endfor %}
+          {% endif %}
+        </h2>
+        {% endif %}
+
+        {% if column.descriptions %}
+        {% for description in column.descriptions %}
+        <p>{{ description }}</p>
+        {% endfor %}
+        {% endif %}
+
+        {% if column.links %}
+        <div class="ui link divided list">
+          {% for link in column.links %}
+          {% include _shared/link.html link=link class='item' icon='conditional' %}
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if column.people %}
+        <div id="people"
+             class="ui {{ column.people_column_count }} column stackable grid">
+          {% for person_id in column.people %}
+          {% assign person = site.data.people.individuals[person_id] %}
+          <div class="column">
+            <div class="image container">
+            </div>
+            <img src="{{ person.avatar }}"
+                 alt="Avatar of '{{ person.name }} ({{ person.nick }})'" />
+            <span class="ui tiny bottom attached inverted label">
+              {{ person.name }}
+              ({{ person.nick }})
+            </span>
+          </div>
+          {% assign person = undefined %}
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if column.orgs %}
+        <div class="ui horizontal center aligned logos list">
+          {% for org_id in column.orgs %}
+          {% assign org = site.data.people.orgs[org_id] %}
+          <a class="item"
+             target="_blank"
+             href="{{ org.link[0].url }}">
+            <img class="logo"
+                 src="{{ org.logo }}"
+                 alt="{{ org.name }}" />
+          </a>
+          {% assign org = undefined %}
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if column.iframes %}
+        {% for iframe in column.iframes %}
+        <iframe src="{{ iframe.url }}"
+                style="height: {{ iframe.height }};"
+                {% if iframe.scrolling %}
+                scrolling="auto"
+                {% else %}
+                scrolling="no"
+                {% endif %}></iframe>
+        {% endfor %}
+        {% endif %}
+
+        {% if column.buttons %}
+        <div class="ui buttons">
+          {% for button in column.buttons %}
+          <a class="ui {{ button.style }} {{ button.color }} button"
+             href="{{ button.url }}"
+             target="_blank">
+            <i class="{{ button.icon }} icon"></i>
+            {{ button.title }}
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+      </div>
+      {% endfor %}
+
+    </div>
+
+  </section>
+  {% endfor %}
+
+  <!-- 最後放上無所不在的捐款廣告 -->
+  {% if page.lang == "en" %}
+  {% else %}
+  {% include banner_cta.html %}
+  {% endif %}
+
+</main>
