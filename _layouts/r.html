@@ -1,24 +1,7 @@
 ---
 layout: global
 ---
-
-{% include _var/lang.html %}
-
-{% assign year = page.url | replace: '/en/p/', '' | replace: '/p/', '' | replace: '/', '' %}
-{% assign report = site.data.r[year] %}
-
-{% if lang == 'en' %}
-{% assign report_title = report.title_en %}
-{% assign report_subtitles = report.subtitles_en %}
-{% assign report_descriptions = report.descriptions_en %}
-{% assign report_background_image_alt = report.background_image_alt_en %}
-{% assign report_rows = report.rows_en %}
-{% else %}
-{% assign report_title = report.title %}
-{% assign report_subtitles = report.subtitles %}
-{% assign report_descriptions = report.descriptions %}
-{% assign report_rows = report.rows %}
-{% endif %}
+{% include _var/r.html %}
 
 <main id="report">
 
