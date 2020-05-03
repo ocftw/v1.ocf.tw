@@ -70,6 +70,12 @@ layout: global
         <hr class="ui hidden divider" />
         {% endif %}
 
+        {% if column.icon %}
+        <p><i class="{{ column.icon_color }} {{column.icon_style}}
+             huge {{ column.icon }} icon"></i>
+        </p>
+        {% endif %}
+
         {% if column.title %}
         <h2 {% if column.title_icon %}
             class="ui {% if column.background_color %} inverted {% endif %} center aligned icon header"

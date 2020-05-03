@@ -45,6 +45,10 @@ rows:
         image_alt:
         image_size: fluid
 
+        icon: fire
+        icon_style: bordered inverted
+        icon_color: red
+
         title: test title
         title_icon: fire
         title_icon_style: circular
@@ -71,7 +75,6 @@ rows:
             url:
             icon: globe
             color: yellow
-            style: icon labeled
 
         people_column_count: five
         people:
