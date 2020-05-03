@@ -99,10 +99,50 @@ layout: global
         {% endfor %}
         {% endif %}
 
+        {% if column.projects %}
+        <div class="ui link divided list">
+          {% for project_id in column.projects %}
+            {% assign project = site.data.p[project_id].project %}
+            {% include _var/plist/item.html project=project %}
+            {% include _shared/link.html title=project_name url=project_url class='item' %}
+            {% assign project = undefined %}
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if column.events %}
+        <div class="ui link divided list">
+          {% for item in column.events %}
+            {% if item.parent_project_id %}
+              {% assign parent_project = site.data.p[item.parent_project_id].project %}
+              {% assign project = site.data.p[item.parent_project_id][item.project_id].project %}
+            {% else %}
+              {% assign project = site.data.p[item.project_id].project %}
+            {% endif %}
+            {% include _var/events.html %}
+            {% assign event = events | where: 'id', item.event_id | first %}
+            {% include _var/event.html %}
+            {% if event_url %}
+              {% assign link_url = event_url %}
+            {% else %}
+              {% assign link_url = event.links[0].url %}
+            {% endif %}
+
+            {% include _shared/link.html title=event_name url=link_url class='item' %}
+
+            {% assign parent_project = undefined %}
+            {% assign project = undefined %}
+            {% assign events = undefined %}
+            {% assign event = undefined %}
+            {% assign link_url = undefined %}
+          {% endfor %}
+        </div>
+        {% endif %}
+
         {% if column.links %}
         <div class="ui link divided list">
           {% for link in column.links %}
-          {% include _shared/link.html link=link class='item' icon='conditional' %}
+          {% include _shared/link.html link=link class='item' %}
           {% endfor %}
         </div>
         {% endif %}
@@ -158,10 +198,18 @@ layout: global
         {% if column.buttons %}
         <div class="ui buttons">
           {% for button in column.buttons %}
-          <a class="ui {{ button.style }} {{ button.color }} button"
+          <a {% if button.icon %}
+             class="ui icon labeled {{ button.color }} button"
+             {% else %}
+             class="ui {{ button.color }} button"
+             {% endif %}
              href="{{ button.url }}"
-             target="_blank">
+             {% if button.url contains 'http' %}
+             target="_blank"
+             {% endif %}>
+            {% if button.icon %}
             <i class="{{ button.icon }} icon"></i>
+            {% endif %}
             {{ button.title }}
           </a>
           {% endfor %}

@@ -53,6 +53,15 @@ rows:
         descriptions:
           - blah blah
 
+        projects:
+          - admin
+          - coscup
+
+        events:
+          - event_id: 2019pycon
+            project_id: admin
+            parent_project_id:
+
         links:
           - title: test
             url: lala
