@@ -1,3 +1,5 @@
+/* general styles */
+
 #report .relative {
   position: relative;
 }
@@ -20,15 +22,24 @@
 #report .ui.grid .column {
   text-align: center;
 }
+#report > section.segment > .ui.grid > .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 #report .ui.grid .inverted.column {
   color: #fff;
 }
 
-#report #hero {
-  overflow: hidden;
-  color: #fff;
+@media only screen and (max-width: 767px) {
+  #report > section.segment {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
+
+/* content specific styles: people */
 
 #report #people.ui.grid:not(:first-child) {
   margin-top: 0;
@@ -58,9 +69,23 @@
   border-radius: 0;
 }
 
+/* content specific styles: iframes */
+
 #report iframe {
   width: 100%;
   border: none;
   margin: 1rem 0;
 }
 
+/* content specific styles: image sliders */
+
+#report .slick {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+#report .slick:first-child {
+  margin-top: -1rem;
+}
+#report .slick:first-child {
+  margin-bottom: -1rem;
+}

@@ -15,17 +15,17 @@
   page.layout == "p" or 
   page.layout == "e"
 %}
-{% include _var/og/{{ page.layout }}.html %}
+  {% include _var/og/{{ page.layout }}.html %}
 {% else %}
-{% include _var/og/default.html %}
+  {% include _var/og/default.html %}
 {% endif %}
 
 {% include _var/og/custom.html %}
 
 {% if lang == 'en' %}
-{% assign sitename = site.data.people.orgs.ocf.sitename_en %}
+  {% assign sitename = site.data.people.orgs.ocf.sitename_en %}
 {% else %}
-{% assign sitename = site.data.people.orgs.ocf.sitename %}
+  {% assign sitename = site.data.people.orgs.ocf.sitename %}
 {% endif %}
 
 <!DOCTYPE html>
@@ -82,18 +82,18 @@
 
   <nav class="ui right inverted vertical menu sidebar">
     {% if page.layout == "design" %}
-    {% include design/sidebar.html %}
+      {% include design/sidebar.html %}
     {% else %}
-    {% include nav/sidebar.html %}
+      {% include nav/sidebar.html %}
     {% endif %}
   </nav>
 
   <div class="pusher">
     {% if page.layout == "design" %}
-    {% include nav/header/design.html %}
+      {% include nav/header/design.html %}
     {% elsif page.layout == "landing" %}
     {% else %}
-    {% include nav/header/global.html %}
+      {% include nav/header/global.html %}
     {% endif %}
 
     {{ content }}
@@ -108,19 +108,19 @@
   <script src="/assets/scripts/global.js"></script>
 
   {% if page.enable_slick %}
-  {% include _plugins/slick.html %}
+    {% include _plugins/slick.html %}
   {% endif %}
   {% if page.enable_fancybox %}
-  {% include _plugins/fancybox.html %}
+    {% include _plugins/fancybox.html %}
   {% endif %}
   {% if page.enable_tablesort %}
-  {% include _plugins/tablesort.html %}
+    {% include _plugins/tablesort.html %}
   {% endif %}
 
-  {% if 
-    page.layout == "plist"
-  %}
+  {% if page.layout == "plist" %}
   <script src="/assets/scripts/{{ page.layout }}.js"></script>
+  {% elsif page.layout == "r" %}
+  <script src="/assets/scripts/report.js"></script>
   {% endif %}
 
   {% if page.js %}

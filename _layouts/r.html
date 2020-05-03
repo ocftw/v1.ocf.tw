@@ -62,76 +62,78 @@ layout: global
         {% include r/background.html item=column %}
         {% endif %}
 
-        {% if column.image %}
-        <div class="ui {{ column.image_size}} image">
-          <img src="{{ column.image }}"
-               alt="{{ column.image_alt }}" />
-        </div>
-        <hr class="ui hidden divider" />
-        {% endif %}
+        <div class="ui container">
 
-        {% if column.icon %}
-        <p><i class="{{ column.icon_color }} {{column.icon_style}}
-             huge {{ column.icon }} icon"></i>
-        </p>
-        {% endif %}
-
-        {% if column.title %}
-        <h2 {% if column.title_icon %}
-            class="ui {% if column.background_color %} inverted {% endif %} center aligned icon header"
-            {% else %}
-            class="ui {% if column.background_color %} inverted {% endif %} header"
-            {% endif %}>
-
-          {% if column.title_icon %}
-          <i class="icon {{ column.title_icon }} {{ column.title_icon }}"></i>
+          {% if column.image %}
+          <div class="ui {{ column.image_size}} image">
+            <img src="{{ column.image }}"
+                 alt="{{ column.image_alt }}" />
+          </div>
+          <hr class="ui hidden divider" />
           {% endif %}
 
-          {{ column.title }}
+          {% if column.icon %}
+          <p><i class="{{ column.icon_color }} {{column.icon_style}}
+             huge {{ column.icon }} icon"></i>
+          </p>
+          {% endif %}
 
-          {% if column.subtitles %}
-          {% for subtitle in column.subtitles %}
-          <div class="sub header">
-            {{ subtitle }}
-          </div>
+          {% if column.title %}
+          <h2 {% if column.title_icon %}
+              class="ui {% if column.background_color %} inverted {% endif %} center aligned icon header"
+              {% else %}
+              class="ui {% if column.background_color %} inverted {% endif %} header"
+              {% endif %}>
+
+            {% if column.title_icon %}
+            <i class="icon {{ column.title_icon }} {{ column.title_icon }}"></i>
+            {% endif %}
+
+            {{ column.title }}
+
+            {% if column.subtitles %}
+            {% for subtitle in column.subtitles %}
+            <div class="sub header">
+              {{ subtitle }}
+            </div>
+            {% endfor %}
+            {% endif %}
+          </h2>
+          {% endif %}
+
+          {% if column.descriptions %}
+          {% for description in column.descriptions %}
+          <p>{{ description }}</p>
           {% endfor %}
           {% endif %}
-        </h2>
-        {% endif %}
 
-        {% if column.descriptions %}
-        {% for description in column.descriptions %}
-        <p>{{ description }}</p>
-        {% endfor %}
-        {% endif %}
-
-        {% if column.projects %}
-        <div class="ui link divided list">
-          {% for project_id in column.projects %}
+          {% if column.projects %}
+          <div class="ui link divided list">
+            {% for project_id in column.projects %}
             {% assign project = site.data.p[project_id].project %}
             {% include _var/plist/item.html project=project %}
             {% include _shared/link.html title=project_name url=project_url class='item' %}
             {% assign project = undefined %}
-          {% endfor %}
-        </div>
-        {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
 
-        {% if column.events %}
-        <div class="ui link divided list">
-          {% for item in column.events %}
+          {% if column.events %}
+          <div class="ui link divided list">
+            {% for item in column.events %}
             {% if item.parent_project_id %}
-              {% assign parent_project = site.data.p[item.parent_project_id].project %}
-              {% assign project = site.data.p[item.parent_project_id][item.project_id].project %}
+            {% assign parent_project = site.data.p[item.parent_project_id].project %}
+            {% assign project = site.data.p[item.parent_project_id][item.project_id].project %}
             {% else %}
-              {% assign project = site.data.p[item.project_id].project %}
+            {% assign project = site.data.p[item.project_id].project %}
             {% endif %}
             {% include _var/events.html %}
             {% assign event = events | where: 'id', item.event_id | first %}
             {% include _var/event.html %}
             {% if event_url %}
-              {% assign link_url = event_url %}
+            {% assign link_url = event_url %}
             {% else %}
-              {% assign link_url = event.links[0].url %}
+            {% assign link_url = event.links[0].url %}
             {% endif %}
 
             {% include _shared/link.html title=event_name url=link_url class='item' %}
@@ -141,17 +143,40 @@ layout: global
             {% assign events = undefined %}
             {% assign event = undefined %}
             {% assign link_url = undefined %}
-          {% endfor %}
-        </div>
-        {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
 
-        {% if column.links %}
-        <div class="ui link divided list">
-          {% for link in column.links %}
-          {% include _shared/link.html link=link class='item' %}
-          {% endfor %}
+          {% if column.links %}
+          <div class="ui link divided list">
+            {% for link in column.links %}
+            {% include _shared/link.html link=link class='item' %}
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if column.buttons %}
+          <div class="ui buttons">
+            {% for button in column.buttons %}
+            <a {% if button.icon %}
+               class="ui icon labeled {{ button.color }} button"
+               {% else %}
+               class="ui {{ button.color }} button"
+               {% endif %}
+               href="{{ button.url }}"
+               {% if button.url contains 'http' %}
+               target="_blank"
+               {% endif %}>
+              {% if button.icon %}
+              <i class="{{ button.icon }} icon"></i>
+              {% endif %}
+              {{ button.title }}
+            </a>
+            {% endfor %}
+          </div>
+          {% endif %}
+
         </div>
-        {% endif %}
 
         {% if column.people %}
         <div id="people"
@@ -189,6 +214,16 @@ layout: global
         </div>
         {% endif %}
 
+        {% if column.slides %}
+        <div class="slick">
+          {% for slide in column.slides %}
+          <img class="ui image"
+               src="{{ slide.image }}"
+               alt="{{ slide.alt }}" />
+          {% endfor %}
+        </div>
+        {% endif %}
+
         {% if column.iframes %}
         {% for iframe in column.iframes %}
         <iframe src="{{ iframe.url }}"
@@ -199,27 +234,6 @@ layout: global
                 scrolling="no"
                 {% endif %}></iframe>
         {% endfor %}
-        {% endif %}
-
-        {% if column.buttons %}
-        <div class="ui buttons">
-          {% for button in column.buttons %}
-          <a {% if button.icon %}
-             class="ui icon labeled {{ button.color }} button"
-             {% else %}
-             class="ui {{ button.color }} button"
-             {% endif %}
-             href="{{ button.url }}"
-             {% if button.url contains 'http' %}
-             target="_blank"
-             {% endif %}>
-            {% if button.icon %}
-            <i class="{{ button.icon }} icon"></i>
-            {% endif %}
-            {{ button.title }}
-          </a>
-          {% endfor %}
-        </div>
         {% endif %}
 
       </div>
