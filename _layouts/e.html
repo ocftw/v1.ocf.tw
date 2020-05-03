@@ -34,7 +34,9 @@ layout: global
     {% include e/subheaders.html %}
   </h1>
   <div class="ui basic secondary segment">
-    <p>{{ event_description }}</p>
+    {% for description in event_descriptions %}
+    <p>{{ description }}</p>
+    {% endfor %}
   </div>
 
   {{ content }}

@@ -19,12 +19,14 @@
   <hr class="ui hidden section divider" />
 </header>
 
-{% if project_description %}
+{% if project_descriptions %}
 <div class="ui container">
   <section class="ui inverted bottom attached {{ project.theme_color }} segment borderless">
+    {% for description in project_descriptions %}
     <p>
-      {{ project_description }}
+      {{ description }}
     </p>
+    {% endfor %}
   </section>
 </div>
 {% endif %}

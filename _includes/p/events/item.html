@@ -70,10 +70,12 @@
 
     <!-- 活動簡介 -->
 
-    {% if event_description %}
+    {% if event_descriptions %}
+    {% for description in event_descriptions %}
     <div class="description">
-      <p>{{ event_description }}</p>
+      <p>{{ description }}</p>
     </div>
+    {% endfor %}
     {% endif %}
 
     <!-- 相關連結 -->

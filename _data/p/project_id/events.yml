@@ -8,10 +8,12 @@
   name_en: Event name
   # 英文版網頁用
 
-  description: 用一段話簡單介紹這個活動
-  # 活動摘要簡介，若有，會顯示在專案頁的「計畫成果」列表、活動頁
-  description_en: Introduce the event in one paragraph
-  # 英文版網頁用
+  descriptions:
+    - 簡單介紹這個活動
+    # 活動摘要簡介，若有，會顯示在專案頁的「計畫成果」列表、活動頁
+  descriptions_en:
+    - Introduce the event
+    # 英文版網頁用
 
   subtitles:
   # 活動的副標題，若有，會顯示在專案頁的「計畫成果」列表、活動頁

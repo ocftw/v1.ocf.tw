@@ -21,9 +21,11 @@
     <h3 class="header">
       {% include _shared/link.html title=project_name url=project_url %}
     </h3>
+    {% for description in project_descriptions %}
     <div class="description">
-      {{ project_description }}
+      {{ description }}
     </div>
+    {% endfor %}
   </div>
   <div class="meta extra content">
     <div class="ui divided list">

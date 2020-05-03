@@ -5,10 +5,12 @@ name: 專案名稱（必填）
 name_en: Project name
 # 英文版網頁用
 
-description: 用一段話簡單介紹這個專案（必填）
-# 專案描述，會出現在專案列表頁、專案頁
-description_en: Introduce the project in one paragraph
-# 英文版網頁用
+descriptions:
+  - 簡單介紹這個專案
+  # 專案描述，會出現在專案列表頁、專案頁
+descriptions_en:
+  - Introduce the project
+  # 英文版網頁用
 
 abbr: text
 # 專案的簡稱，若有，會出現在成果報告頁

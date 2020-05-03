@@ -2,8 +2,8 @@
 
 <!--
   set variables:
-  project_name, project_description, project_url, project_links, project_header_image, project_avatar_image
-  (optional) parent_project_name, parent_project_description, parent_project_url, parent_project_links, parent_project_header_image, parent_project_avatar_image
+  project_name, project_descriptions, project_url, project_links, project_header_image, project_avatar_image
+  (optional) parent_project_name, parent_project_descriptions, parent_project_url, parent_project_links, parent_project_header_image, parent_project_avatar_image
 -->
 
 {% assign project = include.project %}
@@ -30,11 +30,17 @@
 {% if parent_project %}
   {% if lang == 'en' %}
     {% assign parent_project_name = parent_project.name_en %}
-    {% assign parent_project_description = parent_project.description_en %}  
+    {% assign parent_project_descriptions = parent_project.description_en | split: ',' %}
+    {% if parent_project.descriptions_en %}
+      {% assign parent_project_descriptions = parent_project_descriptions | concat: parent_project.descriptions_en %}
+    {% endif %}
     {% assign parent_project_links = parent_project.links_en %}
   {% else %}
     {% assign parent_project_name = parent_project.name %}
-    {% assign parent_project_description = parent_project.description %}
+    {% assign parent_project_descriptions = parent_project.description | split: ',' %}
+    {% if parent_project.descriptions %}
+      {% assign parent_project_descriptions = parent_project_descriptions | concat: parent_project.descriptions %}
+    {% endif %}
     {% assign parent_project_links = parent_project.links %}
   {% endif %}
 
@@ -53,11 +59,17 @@
 
 {% if lang == 'en' %}
   {% assign project_name = project.name_en %}
-  {% assign project_description = project.description_en %}  
+  {% assign project_descriptions = project.description_en | split: ',' %}
+  {% if project.descriptions_en %}
+    {% assign project_descriptions = project_descriptions | concat: project.descriptions_en %}
+  {% endif %}
   {% assign project_links = project.links_en %}
 {% else %}
   {% assign project_name = project.name %}
-  {% assign project_description = project.description %}
+  {% assign project_descriptions = project.description | split: ',' %}
+  {% if project.descriptions %}
+    {% assign project_descriptions = project_descriptions | concat: project.descriptions %}
+  {% endif %}
   {% assign project_links = project.links %}
 {% endif %}
 

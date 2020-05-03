@@ -1,12 +1,15 @@
 <!--
   set variables:
-  event_name, event_description, event_subtitles, event_tagline,
+  event_name, event_descriptions, event_subtitles, event_tagline,
   event_labels, event_metas, event_links, event_reports, event_url
 -->
 
 {% if lang == 'en' %}
   {% assign event_name = event.name_en %}
-  {% assign event_description = event.description_en %}
+  {% assign event_descriptions = event.description_en | split: "," %}
+  {% if event.descriptions_en %}
+    {% assign event_descriptions = event_descriptions | concat: event.descriptions_en %}
+  {% endif %}
   {% assign event_subtitles = event.subtitles_en %}
   {% assign event_tagline = event.tagline_en %}
   {% assign event_labels = event.labels_en %}
@@ -15,7 +18,10 @@
   {% assign event_reports = event.reports_en %}
 {% else %}
   {% assign event_name = event.name %}
-  {% assign event_description = event.description %}
+  {% assign event_descriptions = event.description | split: "," %}
+  {% if event.descriptions %}
+    {% assign event_descriptions = event_descriptions | concat: event.descriptions %}
+  {% endif %}
   {% assign event_subtitles = event.subtitles %}
   {% assign event_tagline = event.tagline %}
   {% assign event_labels = event.labels %}
