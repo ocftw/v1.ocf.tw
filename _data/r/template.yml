@@ -1,0 +1,160 @@
+# 年度成果報告資料檔範例（2020 版）
+
+title: 文字（必填）
+# 頁首大標題
+title_en: text (required if there is an English version of this report)
+# 英文版的頁首大標題
+
+subtitles:
+# 頁首副標題，可分成多行
+  - 文字
+subtitles_en:
+# 英文版的頁首副標題，可分成多行
+  - text
+
+descriptions:
+# 頁首說明文字，可分成多行
+  - 文字
+descriptions_en:
+# 英文版的頁首說明文字，可分成多行
+  - text
+
+background_color: semantic ui inverted segment color
+# 頁首背景色，如 teal / pink / blue ... 留空則使用預設值 black
+# 顏色名稱參考 http://semantic-ui.com/elements/segment.html#colored
+
+background_image: url
+# 頁首背景圖的檔案位置，如 /p/2020/header.png
+
+background_image_size: css background-size
+# 頁首背景圖的尺寸設定，如 cover / contain ... 留空則使用預設值 cover
+# css background-size 設定值參考 https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
+
+background_image_repeat: css background-repeat
+# 頁首背景圖是否重複填滿整個面積，如 no-repeat / repeat-x / repeat-y ... 留空則使用預設值 no-repeat
+# css background-repeat 設定值參考 https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
+
+background_image_position: css background-position
+# 頁首背景圖的對齊方式，如 top / bottom / left / right ... 留空則使用預設值 center
+# css background-position 設定值參考 https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
+
+background_image_opacity: css opacity
+# 頁首背景圖的透明度，可填入 0 到 1 之間的數字，留空則使用預設值 0.9
+# css opacity 設定值參考 https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
+
+background_image_veil_color: semantic ui inverted segment color
+# 蓋在頁首背景圖上方的薄紗透顏色，如 teal / pink / blue ... 留空則使用預設值 black
+# 顏色名稱參考 http://semantic-ui.com/elements/segment.html#colored
+
+background_image_veil_opacity: css opacity
+# 蓋在頁首背景圖上方的薄紗透明度，可填入 0 到 1 之間的數字，留空則使用預設值 0.3
+# css opacity 設定值參考 https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
+
+rows:
+# 成果報告頁內容，一個項目代表一個區塊
+
+  - id: text
+    # 要讓頁面快速捲動到這個區塊時，所使用的名稱
+    # 如區塊 id 設定為 admin，網址連 http://ocf.tw/p/2020/#admin 的話，網頁就會直接捲動到這個區塊
+
+    background_color: 
+    background_image: 
+    background_image_size: 
+    background_image_repeat: 
+    background_image_position:
+    background_image_opacity:
+    background_image_veil_color:
+    background_image_veil_opacity: 
+    # 區塊的背景設定，使用方式同頁首背景設定
+
+    columns_count: number
+    # 區塊內容切成幾欄，如 1 / 2 / 3 ... 留空則使用預設值 1 （單欄）
+
+    columns_reverse: true / false
+    # 切出來的欄在顯示時，左右順序是否對調。留空則使用預設值 false（從左排到右）
+
+    columns:
+    # 區塊內容，一個項目代表一欄
+
+      - width: number 1 - 16
+        # 此欄的寬度佔頁寬的 16 分之幾，留空則自動和其他欄均分寬度
+
+        text_align: css text-align
+        # 此欄的文字對齊方式，如 left / right / center ... 留空則使用預設值 center
+        # css text-align 設定值參考 https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+
+        background_color: 
+        background_image:
+        background_image_size: 
+        background_image_repeat: 
+        background_image_position: 
+        background_image_opacity:
+        background_image_veil_color:
+        background_image_veil_opacity:
+        # 此欄的背景設定，使用方式同頁首背景設定
+
+        icon: semantic ui icon
+        # 是否要插入 icon，留空則不插入
+        # semantic ui icon 設定值參考 https://semantic-ui.com/elements/icon.html
+        icon_style: semantic ui icon style
+        # icon 特殊樣式，如 circular / bordered / inverted / loading ... 留空則使用一般樣式
+        # semantic ui icon style 設定值參考 https://semantic-ui.com/elements/icon.html#/definition
+        icon_color: semantic ui icon color
+        # icon 顏色，如 teal / yellow / oragne ... 留空則使用預設值（黑底欄中為白色，白底欄中為黑色）
+        # semantic ui icon color 設定值參考 https://semantic-ui.com/elements/icon.html#colored
+
+        title: text
+        # 是否要插入標題，留空則不插入
+        title_icon: semantic ui icon
+        # 如果有標題，是否在標題上方插入 icon，留空則不插入
+        # 參考資料同 icon
+        title_icon_style: semantic ui icon style
+        # 標題上方 icon 的特殊樣式，如 circular / bordered / inverted / loading ... 留空則使用一般樣式
+        # 參考資料同 icon_style
+        subtitles:
+        # 如果有標題，是否在標題下方插入副標，可分成多行
+          - text
+
+        descriptions:
+        # 是否要插入說明文字，可分成多行
+          - text
+
+        projects:
+          - project id
+
+        events:
+          - event_id: event id（必填）
+            project_id: project id（必填）
+            parent_project_id: parent project id
+
+
+        links:
+          - title: text
+            url: url
+
+        buttons:
+          - title: text
+            url: url
+            icon: semantic ui icon
+            color: semantic ui button color
+
+        orgs:
+          - org id
+
+        image: url
+        image_alt: text
+        image_size: semantic ui image size
+
+        people_column_count: number 1 - 16
+        people:
+          - person id
+
+        slides:
+          - image: url
+            alt: text
+
+        iframes:
+          - url: url
+            height: css height
+            scrolling: 
+

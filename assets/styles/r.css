@@ -11,25 +11,33 @@
   top: 0;
   bottom: 0;
   right: 0;
-  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   opacity: 0.9;
 }
 #report .background.image.veil {
-  background-color: #000;
   opacity: 0.3;
 }
 
 #report .ui.grid .column {
   text-align: center;
 }
+
+#report .ui.grid .inverted.column {
+  color: #fff;
+}
+
+#report .ui.grid .inverted.column .bordered.icon:not(.inverted) {
+  box-shadow: 0 0 0 0.1em hsla(0, 0%, 100%, 0.5) inset;
+}
+
+/* level one grids */
+
 #report > section.segment > .ui.grid > .column {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#report .ui.grid .inverted.column {
-  color: #fff;
 }
 
 @media only screen and (max-width: 767px) {
@@ -39,22 +47,38 @@
   }
 }
 
+/* content specific styles: images, slides */
+
+#report [data-type='image'],
+#report [data-type='slides'] {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+#report [data-type='images']:first-child,
+#report [data-type='slides']:first-child {
+  margin-top: -1rem;
+}
+#report [data-type='images']:last-child,
+#report [data-type='slides']:last-child {
+  margin-bottom: -1rem;
+}
+
 /* content specific styles: people */
 
-#report #people.ui.grid:not(:first-child) {
+#report [data-type='people'].ui.grid:not(:first-child) {
   margin-top: 0;
 }
-#report #people.ui.grid:not(:last-child) {
+#report [data-type='people'].ui.grid:not(:last-child) {
   margin-top: 0;
 }
-#report #people.ui.grid .column {
+#report [data-type='people'].ui.grid .column {
   padding: 0;
   overflow: hidden;
 }
-#report #people.ui.grid .column .image.container {
+#report [data-type='people'].ui.grid .column .image.container {
   padding-top: 100%;
 }
-#report #people.ui.grid .column img {
+#report [data-type='people'].ui.grid .column img {
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -64,7 +88,7 @@
   width: 100%;
   min-height: 100%;
 }
-#report #people.ui.grid .column .ui.label {
+#report [data-type='people'].ui.grid .column .ui.label {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 0;
 }
@@ -73,19 +97,7 @@
 
 #report iframe {
   width: 100%;
+  height: 20rem;
   border: none;
   margin: 1rem 0;
-}
-
-/* content specific styles: image sliders */
-
-#report .slick {
-  margin-left: -1rem;
-  margin-right: -1rem;
-}
-#report .slick:first-child {
-  margin-top: -1rem;
-}
-#report .slick:first-child {
-  margin-bottom: -1rem;
 }

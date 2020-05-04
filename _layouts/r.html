@@ -36,7 +36,7 @@ layout: global
 
   {% for row in report_rows %}
 
-  <a name="{{ row.anchor_name }}"></a>
+  <a id="{{ row.id }}"></a>
   <section {% if row.background_color %}
            class="ui inverted {{ background_color }} marginless basic segment"
            {% else %}
@@ -47,13 +47,17 @@ layout: global
     {% include r/background.html item=row %}
     {% endif %}
 
-    <div class="ui {{row.columns_count}} column stackable grid"
+    {% include _var/numbers.html number=row.columns_count %}
+    {% assign columns_count = text %}
+    <div class="ui {{ columns_count }} column stackable grid"
          {% if row.columns_reverse %}
          style="flex-direction: row-reverse;"
          {% endif %}>
 
       {% for column in row.columns %}
-      <div class="{{ column.background_color }} {{ column.width }} wide column"
+      <div class="{{ column.background_color }}
+          {% if column.background_color %} inverted {% endif %}
+          {{ column.width }} wide column"
            {% if column.text_align %}
            style="text-align: {{ column.text_align }};"
            {% endif %}>
@@ -63,14 +67,6 @@ layout: global
         {% endif %}
 
         <div class="ui container">
-
-          {% if column.image %}
-          <div class="ui {{ column.image_size}} image">
-            <img src="{{ column.image }}"
-                 alt="{{ column.image_alt }}" />
-          </div>
-          <hr class="ui hidden divider" />
-          {% endif %}
 
           {% if column.icon %}
           <p><i class="{{ column.icon_color }} {{column.icon_style}}
@@ -178,9 +174,31 @@ layout: global
 
         </div>
 
+        {% if column.image %}
+        <div data-type="image">
+          <img src="{{ column.image }}"
+               alt="{{ column.image_alt }}"
+               class="ui {{ column.image_size}} image" />
+        </div>
+        <hr class="ui hidden divider" />
+        {% endif %}
+
+        {% if column.slides %}
+        <div data-type="slides"
+             class="slick">
+          {% for slide in column.slides %}
+          <img class="ui image"
+               src="{{ slide.image }}"
+               alt="{{ slide.alt }}" />
+          {% endfor %}
+        </div>
+        {% endif %}
+
         {% if column.people %}
-        <div id="people"
-             class="ui {{ column.people_column_count }} column stackable grid">
+        {% include _var/numbers.html number=column.people_column_count %}
+        {% assign people_column_count = text %}
+        <div data-type="people"
+             class="ui {{ people_column_count }} column stackable grid">
           {% for person_id in column.people %}
           {% assign person = site.data.people.individuals[person_id] %}
           <div class="column">
@@ -196,6 +214,7 @@ layout: global
           {% assign person = undefined %}
           {% endfor %}
         </div>
+        {% assign people_column_count = undefined %}
         {% endif %}
 
         {% if column.orgs %}
@@ -210,16 +229,6 @@ layout: global
                  alt="{{ org.name }}" />
           </a>
           {% assign org = undefined %}
-          {% endfor %}
-        </div>
-        {% endif %}
-
-        {% if column.slides %}
-        <div class="slick">
-          {% for slide in column.slides %}
-          <img class="ui image"
-               src="{{ slide.image }}"
-               alt="{{ slide.alt }}" />
           {% endfor %}
         </div>
         {% endif %}
@@ -240,6 +249,7 @@ layout: global
       {% endfor %}
 
     </div>
+    {% assign columns_count = undefined %}
 
   </section>
   {% endfor %}
