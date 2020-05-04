@@ -73,8 +73,8 @@ staff_ids:
   - pellaeon 
   - singing
 
-listed: yes
-listed_en: yes
+listed: 
+listed_en: 
 
 reports:
 reports_en:
