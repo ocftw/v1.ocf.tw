@@ -2,8 +2,9 @@ name: 國際夥伴 & 合作
 name_en: Global Partnership & Collaboration 
 
 
-description: 在無國界的開源社群中，與全球串聯彼此交流，並且把台灣經驗帶往國際舞台產生更大的影響力，有效串連資源，與全球開放科技社群一同成長。過去幾年，透過國際會議參與、跨國講座及工作坊在台舉辦、資料建置撰寫，國際交流組已與許多不同國家團體開啟實質合作的計畫，建立緊密的全球夥伴網絡。
-description_en: OCF always trying to connect with those who are interested in open source, bring Taiwan experience to the world, and grow with the global community. In the past few years, through international conferences, workshops, data construction, and information sharing, our International Networking Program has teamed up with other organizations, launched many collaborative projects, and created a tight network with open & tech communities from all over the world.
+description: 在無國界的開源社群中，與全球串聯彼此交流，並且把台灣經驗帶往國際舞台產生更大的影響力，有效串連資源，與全球開放科技社群一同成長。過去幾年，透過國際會議出訪、國際社群網絡參與、資料及經驗分享、活動舉辦，開放文化基金會積極建立國際社群 & 台灣社群的合作交流。
+description_en: 
+
 og_image: /p/global/global-og.png
 header_image: /p/global/global-cover.png
 avatar_image: /p/global/global-og.png
@@ -28,15 +29,14 @@ actions:
 
 links:
   - title: OCF國際組織交流名冊
-    url: https://docs.google.com/spreadsheets/d/1W5EiABu7x9Bie1GEr73dt-4W17k1m3pLdelbr0Mpb-g/edit#gid=0
-  - title: 分析工具
-    url: https://github.com/ocftw/anomaly_detection_in_PTT_forum
-  - title: 工具教學 (擱置中，歡迎捐款支持！)
-    url:
-  - title: 分析報告 (CC BY-SA 4.0)
-    url: https://drive.google.com/open?id=1FGB-kbNtRz11FU__0nomJioB146qw2fW
-  - title: 原始分析資料檔案（本資料爬取自 PTT 網站，皆為網路上公開的資料，如果您希望移除個人發言資訊，請 Email 聯絡我們）
-    url: https://drive.google.com/open?id=1GvxUiD4LLU8xyXVkzXsxB_4MGJ1x2b3K
+    url: 
+  - title: 2016-2019 國際出訪一覽表
+    url: https://hackmd.io/xUpkC7ukRA28YtsKZUj1Ug
+  - title: 2014-2016台灣開放政府觀察報告
+    url: https://opengovreport.ocf.tw
+  - title: CivicTechFest 2017 公民科技週
+    url: http://civictechfest.org/
+
 organizer_ids:
   - ocf
 sponsor_ids:
