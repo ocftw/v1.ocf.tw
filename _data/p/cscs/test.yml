@@ -1,76 +1,69 @@
-layout: p
-og_title: 
-og_description: 
+name: 
+name_en: 
+
+description: 
+description_en: 
+
+abbr: 
+abbr_en: 
+
+tagline: 
+tagline_en: 
+
 og_image: 
-header_image_opacity: 
-header_veil_opacity: 
-show_events: yes
-gsheet_url: 
-show_sponsors: 
-show_donors: 
-show_progress: 
-progress:
-  duration: 
-  goal: 
-  current: 
-  percent: 
-  count: 
-  updated: 
-cpid: 
-show_child_projects: yes
+header_image: 
+avatar_image: 
+theme_color: 
 
-<h2 class="ui dividing header">計畫說明</h2>
+start: 
+end: 
 
-<h3 class="ui header">
-標題一
-</h3>
+type_ids:
+topic_ids:
+field_ids:
+tags:
+tags_en:
 
-<p>
-段落一
-</p>
+metas:
+  - label: 
+    content: 
+metas_en:
 
-<div class="ui list">
-  <div class="item">
-    <i class="checkmark icon"></i>
-    <div class="content">
-    清單一
-    </div>
-  </div>
-</div>
+links:
+  - title: 
+    url: 
+    icon: 
+links_en:
 
-<p>
-<a href="" target="_blank">
-<i class="globe icon"></i>
-連結一
-</a>
-</p>
+actions:
+  - title: 
+    url: 
+    icon: 
+    color: 
+  - title: 
+actions_en:
 
-<table class="ui table">
-  <thead>
-    <tr>
-      <th>項目</th>
-      <th>單價</th>
-      <th>數量</th>
-      <th>預算</th>
-      <th>備註</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td>總募款目標</td>
-      <td></td>
-      <td></td>
-      <td>NT$</td>
-      <td></td>
-    </tr>
-  </tfoot>
-</table>
+advisor_ids:
+organizer_ids:
+co-organizer_ids:
+implementer_ids:
+sponsor_ids:
+
+coordinator_ids:
+case-handler_ids:
+co-worker_ids:
+consultant_ids:
+volunteer_ids:
+contributor_ids:
+donors:
+donors_en:
+
+board_ids:
+staff_ids:
+
+listed: 
+listed_en: 
+
+reports:
+  yyyy: mm
+reports_en:
