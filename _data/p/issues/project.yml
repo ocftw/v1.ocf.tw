@@ -1,1 +1,52 @@
+name: 議題關注
+cover: 
+description: 與社會與開放科技息息相關的各項議題，如果還少了那份關注力道，OCF 期許自己能加入推動行列! 
+link:
+  - title: eID 數位身分證
+    url: 
+    target: 
+  - title: 開放資料專法推動
+    url: 
+    target: 
+  - title: OGP 開放政府國家行動方案推動
+    url: 
+    target: 
+  - title: More
+    url: 
+    target: 
+
+type_id:
+topic_id:
+field_id:
+
+actions: 
+  - title: 捐款支持
+    url: http://ocf.tw/300
+    color: green
+    icon: dollar
+
+tagline: 
+avatar: 
+
+organizer_id:
+  - ocf
+advisor_id:
+co-organizer_id:
+implementer_id:
+sponsor_id:
+coordinator_id:
+donors:
+meta:
+
+start: 
+end: 
+tag:
+abbr: 
+month: 
+
+board_ids: 
+staff_ids: 
+listed: 
+listed_en: 
+
 
