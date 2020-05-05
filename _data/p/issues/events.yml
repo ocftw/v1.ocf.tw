@@ -20,6 +20,7 @@
     - title: 歷次共筆
       url: https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q?view
 
- coordinator_ids:
-  - claire
-  - lulu
+  coordinator_ids:
+    - claire
+    - lulu
+
