@@ -1,6 +1,11 @@
 name: 議題關注
 cover: 
-description: 與社會與開放科技息息相關的各項議題，如果還少了那份關注力道，OCF 期許自己能加入推動行列! 
+description: 與社會與開放科技息息相關的各項議題，如果還少了那份關注力道，OCF 期許自己加入推動行列! 
+
+og_image: /p/issues/issues-og.png
+header_image: /p/issues/issues-cover.png
+avatar_image: /p/issues/issues-og.png
+
 link:
   - title: eID 數位身分證
     url: 
@@ -46,7 +51,7 @@ month:
 
 board_ids: 
 staff_ids: 
-listed: 
+listed: yes
 listed_en: 
 
 
