@@ -1,57 +1,77 @@
 name: 議題關注
-cover: 
+name_en: 
+
 description: 與社會與開放科技息息相關的各項議題，如果還少了那份關注力道，OCF 期許自己加入推動行列! 
+description_en: 
+
+abbr: 
+abbr_en: 
+
+tagline: 
+tagline_en: 
 
 og_image: /p/issues/issues-og.png
 header_image: /p/issues/issues-cover.png
 avatar_image: /p/issues/issues-og.png
-
-link:
-  - title: eID 數位身分證
-    url: 
-    target: 
-  - title: 開放資料專法推動
-    url: 
-    target: 
-  - title: OGP 開放政府國家行動方案推動
-    url: 
-    target: 
-  - title: More
-    url: 
-    target: 
-
-type_id:
-topic_id:
-field_id:
-
-actions: 
-  - title: 捐款支持
-    url: http://ocf.tw/300
-    color: green
-    icon: dollar
-
-tagline: 
-avatar: 
-
-organizer_id:
-  - ocf
-advisor_id:
-co-organizer_id:
-implementer_id:
-sponsor_id:
-coordinator_id:
-donors:
-meta:
+theme_color: 
 
 start: 
 end: 
-tag:
-abbr: 
-month: 
 
-board_ids: 
-staff_ids: 
+type_ids:
+topic_ids:
+field_ids:
+tags:
+tags_en:
+
+metas:
+  - label: 
+    content: 
+metas_en:
+
+links:
+  - title: eID 數位身分證
+    url: 
+    icon: 
+  - title: 開放資料專法推動
+    url: 
+    icon: 
+  - title: OGP 開放政府國家行動方案推動
+    url: 
+    icon: 
+
+actions:
+  - title: 捐款支持
+    url: http://ocf.tw/300
+    icon: dollar
+    color: green
+  - title: 
+actions_en:
+
+advisor_ids:
+organizer_ids:
+  - ocf
+co-organizer_ids:
+implementer_ids:
+sponsor_ids:
+
+coordinator_ids:
+case-handler_ids:
+co-worker_ids:
+consultant_ids:
+volunteer_ids:
+contributor_ids:
+donors:
+donors_en:
+
+board_ids:
+staff_ids:
+
 listed: yes
 listed_en: 
+
+reports:
+  yyyy: mm
+reports_en:
 
 
