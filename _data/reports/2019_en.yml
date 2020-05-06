@@ -74,8 +74,7 @@ items:
       - type: article
         title: Community Logistics
         subtitle: 
-        description: In Taiwan, open-source communities are very active. There are more than ten large conferences/events held in a year, and many of them provide discount / free tickets for open source contributors for the applicants. OCF launched the OSCVPass (Open Source contributor VIP Pass) project. Open-source contributors can apply for discount/free tickets by submitting their contribution and information through just one application form. The application will be reviewed by the community volunteers recruited by OCF.  
-Applicants can apply for various preferential tickets for open-source conferences in cooperation with the OSCVPass project, it's a way faster and more convenient than before, also it could encourage more people to participate in Open Source contributions.
+        description: In Taiwan, open-source communities are very active. There are more than ten large conferences/events held in a year, and many of them provide discount / free tickets for open source contributors for the applicants. OCF launched the OSCVPass (Open Source contributor VIP Pass) project. Open-source contributors can apply for discount/free tickets by submitting their contribution and information through just one application form. The application will be reviewed by the community volunteers recruited by OCF. Applicants can apply for various preferential tickets for open-source conferences in cooperation with the OSCVPass project, it's a way faster and more convenient than before, also it could encourage more people to participate in Open Source contributions.
         items:
         - title: OSCVPass
           url: https://ocf.tw/p/oscvpass/
@@ -98,29 +97,29 @@ Applicants can apply for various preferential tickets for open-source conference
         subtitle: 
         description: CSCS community members, who are from digital security communities and civil society groups, have held a lecturers training, and 4 workshops of digital security improving for over 10 civil society group members. CSCS helps civil society groups advocating and lobbying in a secured internet and computer environment. Also, CSCS spread digital security awareness to the public, they held 4 free lectures and made 4 videos released in open-license on YouTube.    
         items:
-        - title: 【專案介紹】CSCS公民團體資安暨隱私交流計劃
+        - title: 【Project】Civil Society Cyber Shield (CSCS)
           url: https://ocf.tw/p/cscs/
-        - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題一
+        - title: 【Event】Greenhost how to build an independent and open cloud platform? Subject I
           url: https://ocftw.kktix.cc/events/greenhost1?_ga=2.231636957.391689372.1579257657-2027007759.1573796777
-        - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題二
+        - title: 【Event】Greenhost how to build an independent and open cloud platform? Subject II
           url: https://ocftw.kktix.cc/events/greenhost2?_ga=2.64417901.391689372.1579257657-2027007759.1573796777
-        - title: 【活動】Greenhost 如何建立獨立且開放的雲端主機平台？主題三
+        - title: 【Event】Greenhost how to build an independent and open cloud platform? Subject III
           url: https://ocftw.kktix.cc/events/greenhost3?_ga=2.61161198.391689372.1579257657-2027007759.1573796777
-        - title: 【活動】COSCUP 開源隱私社群軌
+        - title: 【Event】COSCUP Open Privacy Community Workshops
           url: https://ocf.tw/p/cscs/2019/COSCUP_2019_%E9%96%8B%E6%BA%90%E9%9A%B1%E7%A7%81%E8%BB%8C_%E6%B4%BB%E5%8B%95%E8%A8%98%E9%8C%84.pdf
-        - title: 【活動】網路公民必須學會的資安防護
+        - title: 【Event】Digital Security Protection for People in Internet Generation
           url: https://www.facebook.com/events/2438418669711037/
-        - title: 【活動】NGO 資安種子講師訓練
+        - title: 【Event】Lecturers Training for NGO
           url: https://ocftw.kktix.cc/events/cscs2019tot?_ga=2.27802750.391689372.1579257657-2027007759.1573796777
-        - title: 數位時代，自已的權利自己顧 -- 基礎資安教戰講座
+        - title: 【Event】Digital Times, Protect Your Own Rights - Basic Digital Security Lecture
           url: https://ocftw.kktix.cc/events/e0c1048b?_ga=2.244118087.391689372.1579257657-2027007759.1573796777
-        - title: 【活動】Tor Sharing @ Taipei - 關於匿名瀏覽器，你知道多少?
+        - title: 【Event】Tor Sharing @ Taipei - How much do you know about anonymous browser?
           url: https://www.youtube.com/watch?v=Xx7t3aqHuV0&feature=youtu.be
-        - title: 資安小診所＠Oslo Freedum Forum Taipei 
+        - title: 【Event】Digital Security Clinic＠Oslo Freedum Forum Taipei 
           url: 
-        - title: 【教學影片】日常資安小教室，常見問題全都錄
+        - title: 【Video】Daily digital security class FAQ
           url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnc5ZT8EbxqjzbwqQCcMNWN
-        - title: 【專案】開源軟體與教材翻譯與推廣
+        - title: 【Material】Open source software and teaching material translation and promotion
           url: https://ocf.tw/p/cscs/2019/
   - type: content
     columns:

@@ -112,15 +112,15 @@ items:
           url: https://www.facebook.com/events/2438418669711037/
         - title: 【活動】NGO 資安種子講師訓練
           url: https://ocftw.kktix.cc/events/cscs2019tot?_ga=2.27802750.391689372.1579257657-2027007759.1573796777
-        - title: 數位時代，自已的權利自己顧 -- 基礎資安教戰講座
+        - title: 【活動】數位時代，自已的權利自己顧 -- 基礎資安教戰講座
           url: https://ocftw.kktix.cc/events/e0c1048b?_ga=2.244118087.391689372.1579257657-2027007759.1573796777
         - title: 【活動】Tor Sharing @ Taipei - 關於匿名瀏覽器，你知道多少?
           url: https://www.youtube.com/watch?v=Xx7t3aqHuV0&feature=youtu.be
-        - title: 資安小診所＠Oslo Freedum Forum Taipei 
+        - title: 【活動】資安小診所＠Oslo Freedum Forum Taipei 
           url: 
         - title: 【教學影片】日常資安小教室，常見問題全都錄
           url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnc5ZT8EbxqjzbwqQCcMNWN
-        - title: 【專案】開源軟體與教材翻譯與推廣
+        - title: 【教材】開源軟體與教材翻譯與推廣
           url: https://ocf.tw/p/cscs/2019/
   - type: content
     columns:
@@ -297,7 +297,7 @@ items:
       - type: article
         title: 超能董事：李柏鋒(Pofeng)、黃雋(Jimmy)、鄭鴻旗(honki)、趙柏強(Bob Chao)、高嘉良(clkao)。<br>
                熱血志工：ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayard, CSCS 資安講師等。<br>
-               OCF員工：Singing、Rock、Lulu、Aiya、小ㄐ、Xini(新入夥)、Claire(新入夥)、冠廷、廷彥、皇甫(已離職)、Leona(已離職)、Pellaeon(已離職)、育軒(已離職)。<br>
+               OCF員工：Singing、Rock、Lulu、Aiya、小ㄐ、Xini(新入夥)、Claire(新入夥)、冠廷、廷彥、皇甫、Leona(已離職)、Pellaeon(已離職)、育軒(已離職)。<br>
   - type: content
     columns:
       - type: article
