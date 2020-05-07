@@ -13,7 +13,7 @@ items:
   - type: image_header
     anchor: admin
     background_color: teal
-    cover: /p/admin/2019/2-1.png
+    cover: /p/admin/2019/2-1en.png
     cover_image_alt: 
   - type: content
     single_column: true
@@ -255,7 +255,7 @@ items:
   - type: image_header
     anchor: OCF
     background_color: 
-    cover: /p/admin/2019/5-1.png
+    cover: /p/admin/2019/5-1en.png
     cover_image_alt:
   - type: image_header
     anchor: OCF
