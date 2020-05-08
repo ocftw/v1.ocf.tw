@@ -24,3 +24,6 @@
     - claire
     - lulu
 
+  project_ids:
+    - issues
+
