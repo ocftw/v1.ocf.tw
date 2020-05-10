@@ -44,7 +44,7 @@ actions:
 actions_en:
 
 advisor_ids:
-organizer_ids:
+organizer_ids: ocf
 co-organizer_ids:
 implementer_ids:
 sponsor_ids:
@@ -61,7 +61,7 @@ donors_en:
 board_ids:
 staff_ids:
 
-listed: 
+listed: yes
 listed_en: 
 
 reports:
