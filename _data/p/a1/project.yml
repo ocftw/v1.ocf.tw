@@ -1,9 +1,7 @@
-name: 
-# A1 
+name: A1 
 name_en: 
 
-description: 
-# 測試用
+description: 測試用
 description_en: 
 
 abbr: 
@@ -12,8 +10,7 @@ abbr_en:
 tagline: 
 tagline_en: 
 
-og_image: 
-# og_image: /p/a1/test pic.png
+og_image: /p/a1/test pic.png
 header_image: 
 avatar_image: 
 theme_color: 
@@ -65,7 +62,7 @@ donors_en:
 board_ids:
 staff_ids:
 
-listed: 
+listed: yes
 listed_en: 
 
 reports:
