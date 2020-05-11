@@ -11,7 +11,7 @@ og_image: /p/chatbot/chatbotTW.png
 # og_image: url
 # 專案的預覽縮圖，會出現在專案列表頁、sns 連結預覽
 # 選用長寬比接近 facebook og image 的圖片（1200 x 630）
-header_image: /p/chatbot/chatbottw.jpg
+header_image: /p/chatbot/chatbot_header.png
 # header_image: url
 # 專案頁首的底圖，若有，會出現在專案頁、活動頁
 # 選用長寬比接近長條形的圖片（1400 x 300）
