@@ -11,11 +11,14 @@ items:
     background_color: teal
     cover: /p/admin/2019/2.png
     cover_image_alt: 
-  - type: image_header
-    anchor: admin
-    background_color: teal
-    cover: /p/admin/2019/2-1.png
-    cover_image_alt: 
+
+  - type: content
+    columns:
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQC4Bmr9unjTQg8HqDrYkJC6o6_IUM52Fzh9i4yTbKQqcv-hddD_cJOpqj9C1F8--eeuTEQuMcEXetw/pubchart?oid=1994977453&format=interactive
+        height: 20rem
+        scrolling: "no"
+        
   - type: content
     single_column: true
     columns:
