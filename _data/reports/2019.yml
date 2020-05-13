@@ -208,7 +208,7 @@ items:
         swap: false
       - type: article
         title: 【保障數位人權：隱私、資安與網路自由】
-        subtitle: 串連科技與公民社會的文字實驗場！ 
+        subtitle:  
         description: 科技與人們的生活逐漸密不可分，這讓隨之而來的隱私監控、資安、網路中立性等問題所帶來的影響不可小覷。開放文化基金會長期關注這些數位人權議題，更透過參與國際相關會議了解目前各國面臨的問題、發展趨勢及可借鑑的倡議案例，進而建立跨國合作關係，對於尤其需要信任連結的人權工作十分重要。
         items:
         - title: Internet Freedom Festival 網路自由節
@@ -280,50 +280,13 @@ items:
     cover: /p/admin/2019/4.png
     cover_image_alt:
   - type: content
-    columns:
-      - type: collage
-        grid: five
-        swap: false
-        items:
-            - person_id: clkao
-            - person_id: bobchao
-            - person_id: honki
-            - person_id: jimyhuang
-            - person_id: pofeng
-      - type: collage
-        grid: five
-        swap: true
-        items:
-            - person_id: rock            
-            - person_id: singing
-            - person_id: huangfu
-            - person_id: leona
-            - person_id: rosa
-      - type: collage
-        grid: five
-        swap: false
-        items:
-            - person_id: xini
-            - person_id: claire
-            - person_id: pellaeon
-            - person_id: lulukeng
-            - person_id: aiya
-      - type: collage
-        grid: five
-        swap: true
-        items:
-            - person_id: yhchang
-            - person_id: kting
-            - person_id: TYC
-            - person_id: leaf
-            - person_id: liyu
-  - type: content
     single_column: true
     columns:
       - type: article
         title: 超能董事：李柏鋒(Pofeng)、黃雋(Jimmy)、鄭鴻旗(honki)、趙柏強(Bob Chao)、高嘉良(clkao)。<br>
-               熱血志工：ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayard, CSCS 資安講師等。<br>
-               OCF員工：Singing、Rock、Lulu、Aiya、小ㄐ、Xini(新入夥)、Claire(新入夥)、冠廷、廷彥、皇甫、Leona(已離職)、Pellaeon(已離職)、育軒(已離職)。<br>
+               熱血志工：ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayard, kcchen、CSCS 資安講師等。<br>
+               OCF員工：Singing、Rock、Lulu、Aiya、小ㄐ、Xini, Claire、冠廷、廷彥、皇甫。
+               OCF畢業校友：Leona、Pellaeon、育軒、鯉魚。<br>
   - type: content
     columns:
       - type: article
