@@ -140,13 +140,12 @@ items:
         url: /p/admin/2019/9.png
         swap: false
       - type: article
-        title: 開源科技訓練營
+        title: Open Source Technology Camp
         subtitle: 
-        description: 開放源碼、開源協作講了許久，但許多人仍然不得其門而入，因此開放文基金會與軟體自由協會合作，將過去數年經驗集合成 10 天兩軌課程。[ 初心者課程 ] 七天從基礎電腦網路架構開始，一路學習不同開源科技心法、原理和工具，並了解怎麼跟工程師網頁設計師溝通數位專案。[ 開源人課程 ] 兩天以自架備份工具和管理平台來精進技能，並了解不同類型開源社群經營方針。另外一天兩軌共同參與迷你黑客松 demo，切磋不同技能和不同領域的想法。 
         items:
-        - title: 2019 開源科技訓練營課程影片
+        - title: Videos
           url: https://www.youtube.com/playlist?list=PLFuYOsppHDrmep-Sl2Hu_BB6H20V9ZxH5
-        - title: 2019 開源科技訓練營報名頁面
+        - title: Website
           url: https://ocftw.kktix.cc/events/2019openbootcamp
   - type: content
     columns:
@@ -154,17 +153,17 @@ items:
         url:  /p/admin/2019/15.png
         swap: true
       - type: article
-        title: 開源教教我
+        title: The Openists
         subtitle: 
-        description: 開源教 (The Openists) 是開放文化基金會所草創的非宗教活動，舉辦的目標是希望活絡開源社群樂於分享的精神，持續地開放知識共享和鼓勵自主學習。只要你願意開放你的專業知識，哪怕是非常冷門的知識，都歡迎來分享，各個領域的開源教友，快一起來分享和學習吧！
+        description: The Openists aims to keep the spirit of sharing, open knowledge and self-learning. As long as your have an open heart and are willing to share your professional knowledge, you are always welcome to share with us. 
         items:
-        - title: 開源教 - 教我認清著作權＋快樂使用網路資源
+        - title: What is copyrights and how to use resource from the web 
           url: https://www.youtube.com/watch?v=tj4IirDf3LQ
-        - title: 開源教 - 教我玩轉桌面 GITHUB 
+        - title: Play around on the Github desktop 
           url: https://www.youtube.com/watch?v=skhzt66nrNc&feature=youtu.be
-        - title: 開源教 - 教我正確選擇軟體授權 
+        - title: Choose your own open-source license. 
           url: https://www.youtube.com/watch?v=raHdvb8y_-Q&feature=youtu.be
-        - title: 過往活動簡報區
+        - title: Slides
           url: https://drive.google.com/drive/folders/1SrYPdIYyOF0kBEkIetuIf82L1u6PceWv
   - type: content
     columns:
@@ -173,12 +172,12 @@ items:
         swap: false
       - type: article
         title: OCF Lab
-        subtitle: 串連科技與公民社會的文字實驗場！ 
-        description: 近年，數位工具與社會議題的結合，為公民價值進步添加許多動能；而今，大量虛實混淆的資訊，夾雜在線上線下媒體襲捲而來，對於仍習於攝取單一或少量觀點的閱聽者而言，實在真假難辨。OCF Lab 串聯開放原始碼、開放政府、開放資料三大核心理念，在 2019 年期間編譯國外科技新訊約 220 篇、採訪與蒐集國際數位公民議題，撰寫專文 21 篇，探討未來發展趨勢與潛在弊端，藉由產出文字，期許為臺灣的閱聽者打開新的大門，進而希望促使公民參與的實際行動，讓科技成為社會的正能量！
+        subtitle: A text lab that connect technology and civil society! 
+        description: These years,the combination of digital tools and social issues  makes a big step forward of the advancement of citizen values. Now, A large amount of information that trying to mislead, is full of online and offline media. For readers who are accustomed to reading one single visualized picture or one little paragraph of an article, it is really hard for them to see the whole truth. OCF Lab connects open-source, open data, open government issues, compiles and translates about 220 technology articles into Traditional Chinese, we interview and collect international digital civil issues and write about 21 articles, talk about future trends and potential threat. We hope to open a new door for the readers, encourage them to participate in the actual action of the citizen, let technology become the positive energy of society!   
         items:
         - title: OCF Lab Blog
           url: https://lab.ocf.tw/
-        - title: FB 粉絲專頁
+        - title: Facebook
           url: https://www.facebook.com/ocflab/
   - type: image_header
     anchor: OCF
@@ -191,15 +190,15 @@ items:
         url: /p/admin/2019/11.jpg
         swap: true
       - type: article
-        title: 【開源透明：開放政府 ＆開放式公眾授權】 
+        title: Open and transparency - open government and Creative Commons 
         subtitle: 
-        description: 長期倡導開源開放的開放文化基金會，今年參與推動創用 CC 與開放政府的國際會議，透過學習國際經驗以優化在台灣持續推動的規劃。在開源碼部分，我們協助 COSCUP 首度至香港參與年會，締結兩地社群的連結。
+        description: OCF participates Global CC Summit this year, learn international experience to optimize planning for continuous promotion in Taiwan. We also assist connecting COSCUP (Conference for Open Source Coders, Users and Promoters) and HKOSC (Hong Kong Open Source Conference), the biggest open-source events in Taiwan and Hong Kong.
         items:
-        - title: 國際出訪：Creative Commons Global Summit 2019
+        - title: Interview - Creative Commons Global Summit 2019
           url: https://medium.com/@cctaiwan/%E9%82%A3%E4%BA%9B-global-creative-commons-summit-2019-%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%8B-214352b43b42
-        - title: 國際出訪：2019 OGP Summit 國際夥伴聯盟高峰會
+        - title: Interview - 2019 OGP (Open Government Partnership) Summit 
           url: https://docs.google.com/document/d/1oi8N-aJ2g55YFTF1YQmnQE28h0coV9CbV-x2o5y2fzw/edit 
-        - title: 國際出訪：Hong Kong Open Source Conference 香港開源年會 
+        - title: Interview - Hong Kong Open Source Conference  
           url: https://docs.google.com/document/d/1zg0fJwNAC7xs71Cak-5pCpKJGOCoNK9GAeaFEaT5Otw/edit?usp=sharing
   - type: content
     columns:
@@ -207,17 +206,17 @@ items:
         url: /p/admin/2019/12.png
         swap: false
       - type: article
-        title: 【保障數位人權：隱私、資安與網路自由】
-        subtitle: 串連科技與公民社會的文字實驗場！ 
-        description: 科技與人們的生活逐漸密不可分，這讓隨之而來的隱私監控、資安、網路中立性等問題所帶來的影響不可小覷。開放文化基金會長期關注這些數位人權議題，更透過參與國際相關會議了解目前各國面臨的問題、發展趨勢及可借鑑的倡議案例，進而建立跨國合作關係，對於尤其需要信任連結的人權工作十分重要。
+        title: Digital Rights Protection - Privacy, Digital Security and Internet Freedom
+        subtitle:  
+        description: Digital technology is very close to our daily life, along with many problems we can't ignore：privacy, monitoring, digital security, internet neutral... etc. OCF keeps these issues in mind, participating in international conferences, discussing cases around the world, connecting Taiwan and other countries, accelerating international cooperation, it's very important to build international trust-circle in securing the human rights works.
         items:
-        - title: Internet Freedom Festival 網路自由節
+        - title: Internet Freedom Festival 
           url: https://docs.google.com/document/d/1a5WC6RlKSTS-wpgb6l56nFCXpl58E6hdSEPMJysSoQQ/edit
-        - title: RightsCon Summit 數位人權大會
+        - title: RightsCon Summit 
           url: https://docs.google.com/document/d/1ojKKMW1hKmUgadBUP3JiaGuSRSF6Ton3XkkP1-w245Q/edit
-        - title: CocoNet 東南亞數位人權營隊
+        - title: CocoNet 
           url: https://docs.google.com/document/d/1GH82H2ETaZC3IgVVpZByuMYebqXpoVgRDYMkjOz1gqY/edit
-        - title: Infracon 2019 基礎建設國際研討會
+        - title: Infracon 2019 
           url: https://equalit.ie/infracon/
   - type: content
     columns:
