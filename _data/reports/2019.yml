@@ -21,7 +21,7 @@ items:
         title: 提供社群獨立財務後勤支援
         description: 在 OCF 的每個社群專案都是獨立自主運作，我們讓社群有穩健的行政支援以完善開源各類活動。
         action:
-          title: 看有哪些社群專案
+          title: 捐款支持開源社群
           url: https://ocf.tw/p/community
   - type: content
     single_column: true
