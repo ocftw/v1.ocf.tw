@@ -142,6 +142,7 @@ items:
       - type: article
         title: Open Source Technology Camp
         subtitle: 
+        description: It's been a long time since the world knows about open-source and collaboration, yet there are still people don't know how to say "hello world" to open-source technologies. Open Culture Foundation collect years of experience and held a 10 days camp with SLAT (Software Liberty Association Taiwan). In this camp, we designed 2 different series of courses for both beginners and people who have technology backgrounds. These courses can be basic, from the knowledge of computer and network architecture, what is and why we care about open-source, open-source tools and communication skills for project managers and technical guys, also it is an advanced course about open-source backup tools, how to operate and participate an open-source community, and a 2-day hackathon for people in different area and skills to collaborate and communicate each other.          
         items:
         - title: Videos
           url: https://www.youtube.com/playlist?list=PLFuYOsppHDrmep-Sl2Hu_BB6H20V9ZxH5
