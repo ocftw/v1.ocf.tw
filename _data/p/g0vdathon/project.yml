@@ -18,8 +18,7 @@ theme_color: red
 start: 
 end: 
 
-type_ids:
-  - community
+
 topic_ids:
   - government
 field_ids:

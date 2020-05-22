@@ -3,7 +3,7 @@ name_en: Global Partnership & Collaboration
 
 
 description: 在無國界的開源社群中，與全球串聯彼此交流，並且把台灣經驗帶往國際舞台產生更大的影響力，有效串連資源，與全球開放科技社群一同成長。過去幾年，透過國際會議出訪、國際社群網絡參與、資料及經驗分享、活動舉辦，開放文化基金會積極建立國際社群 & 台灣社群的合作交流。
-description_en: 
+description_en: Open source community is collaborating without boundaries, sharing Taiwan experience to the world, also bring other countries' impact back to  Taiwan. These years, we build a collaborative relationship between international and Taiwan communities actively through visit, interview, participation, and experience sharing. 
 
 og_image: /p/global/global-og.png
 header_image: /p/global/global-cover.png
@@ -46,4 +46,4 @@ coordinator_ids:
 board_ids: 
 staff_ids: 
 listed: yes
-listed_en: 
+listed_en: yes
