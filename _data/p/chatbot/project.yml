@@ -31,8 +31,6 @@ actions:
     color: blue
     icon: facebook
     
-type_ids:
-  - community
 topic_ids:
   - source
 field_ids:

@@ -1,22 +1,22 @@
-- id: type
-  name: 類型
-  name_en: Types
-  items:
-    - id: community
-      name: 社群支援
-      name_en: Community Support
-    - id: organization
-      name: 組織合作
-      name_en: Organization Collaboration
-    - id: overseas
-      name: 國際交流
-      name_en: International Communication
-    - id: consultanting
-      name: 顧問諮詢
-      name_en: Consulting Service
-    - id: misc
-      name: 其他
-      name_en: Misc
+#- id: type
+#  name: 類型
+#  name_en: Types
+#  items:
+#    - id: community
+#      name: 社群支援
+#      name_en: Community Support
+#    - id: organization
+#      name: 組織合作
+#      name_en: Organization Collaboration
+#    - id: overseas
+#      name: 國際交流
+#      name_en: International Communication
+#    - id: consultanting
+#      name: 顧問諮詢
+#      name_en: Consulting Service
+#    - id: misc
+#      name: 其他
+#      name_en: Misc
 
 - id: topic
   name: 議題
@@ -72,6 +72,9 @@
     - id: agri
       name: 農業
       name_en: Argriculture
+    - id: community
+      name: 社群支援
+      name_en: Community Support
     - id: misc
       name: 其他
       name_en: Misc

@@ -18,8 +18,7 @@ theme_color:
 start: 2016/
 end: 
 
-type_ids:
-  - community
+
 topic_ids:
   - data
   - license

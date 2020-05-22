@@ -12,12 +12,10 @@ theme_color: teal
 start: '2014'
 end: 
 
-type_ids:
-  - misc
 topic_ids:
   - misc
 field_ids:
-  - misc
+  - community
 
 actions: 
   - title: 單次捐款

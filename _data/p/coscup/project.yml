@@ -15,8 +15,7 @@ header_image: /p/coscup/2019/coscup_og.jpg
 avatar_image: /p/coscup/avatar.jpg
 theme_color: green
 
-type_ids:
-  - community
+
 topic_ids:
   - source
 field_ids:

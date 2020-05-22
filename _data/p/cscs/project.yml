@@ -15,8 +15,6 @@ theme_color: blue
 start: 
 end: 
 
-type_ids:
-  - organization
 topic_ids:
   - infosec
 field_ids:

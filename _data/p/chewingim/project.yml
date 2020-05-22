@@ -21,8 +21,6 @@ avatar_image: /p/chewingim/og.png
 # 選用長寬比接近正方形的圖片
 theme_color: teal
     
-type_ids:
-  - community
 topic_ids:
   - source
 field_ids:
