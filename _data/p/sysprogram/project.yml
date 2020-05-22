@@ -18,8 +18,7 @@ theme_color: blue
 start: 
 end: 
 
-type_ids:
-  - community
+
 topic_ids:
   - source
 field_ids:

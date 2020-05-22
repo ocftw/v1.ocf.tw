@@ -35,8 +35,7 @@ links:
     url: https://hackmd.io/@openlabtaipei
     color: green
 
-type_ids:
-  - community
+
 topic_ids:
   - source
 field_ids:
