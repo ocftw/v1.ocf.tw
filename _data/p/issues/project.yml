@@ -1,9 +1,9 @@
 name: 議題關注
-name_en: 
+name_en: Law and policy issues
 
 description: 與社會與開放科技息息相關的各項議題，如果還少了那份關注力道，OCF 期許自己加入推動行列! 
-description_en: 
-
+description_en: Lots of public policies have open-source technical issues hidden inside. We focus on those issues, check related law and policy, try to find out if there's any problem, or make initializing laws and policies, or advocating corrections.
+  
 abbr: 
 abbr_en: 
 
@@ -68,7 +68,7 @@ board_ids:
 staff_ids:
 
 listed: yes
-listed_en: 
+listed_en: yes
 
 reports:
   yyyy: mm

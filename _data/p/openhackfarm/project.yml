@@ -18,8 +18,7 @@ theme_color:
 start: 
 end: 
 
-type_ids:
-  - community
+
 topic_ids:
   - data
 field_ids:

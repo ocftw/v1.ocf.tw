@@ -19,12 +19,11 @@ theme_color: yellow
 start: 
 end: 
 
-type_ids:
-  - community
+
 topic_ids:
   - misc
 field_ids:
-  - misc
+  - community
 tags:
 tags_en:
 
@@ -69,7 +68,7 @@ staff_ids:
   - rosa
 
 listed: yes
-listed_en: 
+listed_en: yes
 
 reports:
 reports_en:

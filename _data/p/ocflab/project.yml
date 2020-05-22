@@ -2,7 +2,7 @@ name: OCF Lab
 name_en: OCF Lab
 
 description: 藉由一次又一次 Lab 裡的小實驗，累積一篇又一篇的討論和想法，讓開源、開放的數位科技成為推動社會的正向力量！
-description_en: 
+description_en: OCFLab collects international open-source, civil technology, open data news, makes them more close to the public and forms a positive power to the communities.
 og_image: /p/ocflab/ocflab-og.png
 header_image: /p/ocflab/ocflab-cover.png
 avatar_image: /p/ocflab/ocflab-og.png
@@ -11,8 +11,7 @@ theme_color: teal
 start: 
 end: 
 
-type_ids:
-  - research
+
 topic_ids:
   - data
 field_ids:
@@ -31,4 +30,4 @@ coordinator_ids:
 board_ids: 
 staff_ids: 
 listed: yes
-listed_en: 
+listed_en: yes
