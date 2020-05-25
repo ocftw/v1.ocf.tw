@@ -1,1 +1,51 @@
+- id: 
 
+  name: 國際出訪：FOSDEM 2020
+  name_en: Fosdem 2020
+
+  description: FOSDEM (自由及開源軟體開發者歐洲會議) 是歐洲最大的開源社群年度聚會，由社群志工共同籌辦的兩天的活動，整場活動免報名、開放自由參加。2020 有 818 講者、850 場活動、71 場議程軌、63 個攤位在布魯塞爾自由大學登場。開放文化基金會首度於今年派員參與。
+  description_en: 
+
+  subtitles:
+  subtitles_en:
+
+  cover_image: /p/global/fosdem2020.JPG
+  banner_image: 
+  theme_color:
+
+  start: 2020/02/01
+  end: 2020/02/02
+
+  labels:
+    - title: 
+      color: 
+  labels_en:
+    - title: 
+      color: 
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網站
+      url: https://fosdem.org/2020/
+  links_en:
+    - title:
+      url:
+
+  advisor_ids:
+  organizer_ids:
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+  coordinator_ids:
+  host_ids:
+  speaker_ids:
+  participant_ids:
+  donors:
+  donors_en:
+
+  reports:
+    yyyy: mm
+  reports_en:
+    yyyy: mm
