@@ -1,0 +1,217 @@
+- id: 
+
+  name: g0v 第拾貳次基礎建設松
+  name_en: 
+
+  description: g0v 社群由「人、坑、松」組成，如何讓參與者容易串連協作，需要更多好用的工具與平台。繼兩年前第零次基礎建設松後，揪松團重啟相關計畫，揪碼農筆農一起長期耕耘，希望透過常態經營基礎建設專案，能讓去中心化的分散式工作更有效能。目前進行的計畫有 g0v search（社群文件搜尋器）、g0v domain 申請規劃、g0v 專案雲端主機代管規劃、新手教學、g0v 首頁更新、揪松網、一鍵開大松等，也歡迎提案。
+  description_en: 
+
+  cover_image: https://t.kfs.io/upload_images/84827/infrath1n_kktix-01_large.jpg
+
+  start: 2018/09/02
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/infrath12n
+    - title: 基礎建設 hackfoldr
+      url: http://beta.hackfoldr.org/g0v-infras/
+  links_en:
+
+  organizer_ids: 
+    - g0vjothon
+
+  host_ids:
+  speaker_ids:
+
+  project_ids:
+    - g0vdathon
+  board_ids:
+  staff_ids:
+
+  reports:
+    2018: 09
+  reports_en:
+
+- id: 
+
+  name: g0v 第拾參次基礎建設松
+  name_en: 
+
+  description: g0v 社群由「人、坑、松」組成，如何讓參與者容易串連協作，需要更多好用的工具與平台。繼兩年前第零次基礎建設松後，揪松團重啟相關計畫，揪碼農筆農一起長期耕耘，希望透過常態經營基礎建設專案，能讓去中心化的分散式工作更有效能。目前進行的計畫有 g0v search（社群文件搜尋器）、g0v domain 申請規劃、g0v 專案雲端主機代管規劃、新手教學、g0v 首頁更新、揪松網、一鍵開大松等，也歡迎提案。
+  description_en: 
+
+  cover_image: https://t.kfs.io/upload_images/88994/infrath13_kktix-01_large.jpg
+
+  start: 2018/11/11
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/infrath13n
+    - title: 基礎建設 hackfoldr
+      url: http://beta.hackfoldr.org/g0v-infras/
+  links_en:
+
+  organizer_ids: 
+    - g0vjothon
+
+  host_ids:
+  speaker_ids:
+
+  project_ids:
+    - g0vdathon
+  board_ids:
+  staff_ids:
+
+  reports:
+    2018: 11
+  reports_en:
+
+- id: 
+
+  name: g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松
+  name_en: 
+
+  description: 選完了，要想想接下來 13 個月要一起作些什麼嗎？g0v 黑客松促成了許多不同的公民科技專案，本次 g0v 大黑客松將於 12/8 (Sat.) 舉辦，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、插畫家與媒體工作者等諸眾，帶著熱血來盡一己之力，開源協作參與社會。
+  description_en: 
+
+  subtitles: ～人生短短幾個秋？不吃披薩不罷休～
+
+  cover_image: https://t.kfs.io/upload_images/90268/g0v-hackath32n______1_large.jpg
+
+  start: 2018/12/08
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath32n
+    - title: 本期共筆
+      url: https://beta.hackfoldr.org/g0v-hackath32n/
+  links_en:
+
+  organizer_ids: 
+    - g0vjothon
+
+  host_ids:
+  speaker_ids:
+
+  project_ids:
+    - g0vdathon
+  board_ids:
+  staff_ids:
+
+  reports:
+    2018: 12
+  reports_en:
+
+- id: 
+
+  name: g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松
+  name_en: 
+
+  description: 如果吃滷肉飯不需要任何人同意，為什麼結婚需要全民同意？想吃滷肉飯就吃、想結婚就結、想撿槍就撿，就算北京反對，黑客松還是要辦！
+  description_en: 
+
+  subtitles: ～不顧北京反對，就是要辦黑客松！～
+
+  cover_image: https://t.kfs.io/upload_images/95466/g0v-hackath33n______1_large.png
+
+  start: 2019/03/09
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath33n
+    - title: 本期共筆
+      url: https://beta.hackfoldr.org/g0v-hackath33n/
+  links_en:
+
+  organizer_ids: 
+    - g0vjothon
+
+  host_ids:
+  speaker_ids:
+
+  project_ids:
+    - g0vdathon
+  board_ids:
+  staff_ids:
+
+  reports:
+    2019: 03
+  reports_en:
+
+- id: 
+
+  name: 第零次電視松
+  name_en: 
+
+  description: 歡迎大家來參加第零次電視松！
+  description_en: 
+
+  subtitles: 
+
+  cover_image: 
+
+  start: 2019/04/28
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/hackatv0n
+    - title: 本期共筆
+      url: https://g0v.hackmd.io/LGPFRkyvR4mj6nKVtF5Eyg
+  links_en:
+
+  organizer_ids: 
+    - g0vjothon
+
+  host_ids:
+  speaker_ids:
+
+  project_ids:
+    - g0vdathon
+  board_ids:
+  staff_ids:
+
+  reports:
+    2019: 04
+  reports_en:
+
+- id: 
+
+  name: g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松
+  name_en: 
+
+  description: 如果吃滷肉飯不需要任何人同意，為什麼結婚需要全民同意？想吃滷肉飯就吃、想結婚就結、想撿槍就撿，就算北京反對，黑客松還是要辦！
+  description_en: 
+
+  subtitles: 與其靠託夢，不如來放空，五月二十五，空總黑客松。
+
+  cover_image: https://t.kfs.io/upload_images/97743/hackath34-1200-628_large.png
+
+  start: 2019/05/25
+  end: 
+
+  links:
+    - title: 活動網站
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath34n
+    - title: 本期共筆
+      url: https://beta.hackfoldr.org/g0v-hackath34n/
+  links_en:
+
+  organizer_ids: 
+    - g0vjothon
+
+  host_ids:
+  speaker_ids:
+
+  project_ids:
+    - g0vdathon
+  board_ids:
+  staff_ids:
+
+  reports:
+    2019: 05
+  reports_en:
