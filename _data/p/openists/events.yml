@@ -30,3 +30,27 @@
       url: https://ocftw.kktix.cc/events/openist-ipandcc
   cover_image: /p/openists/openists-20190821.png
   project_ids: openists
+
+20200521openists:
+  name: "開源教 - 教我自己做開源人體工學鍵盤！"
+  name_en: ""
+  description: "鍵盤，不就是個鍵盤嗎？你每天都在用，有什麼神奇的？開源鍵盤比一般你在市面上買的還炫炮，還有很多你想不到的功能，最後你只會懷疑「這是鍵盤嗎？」、「怎麼可能作到這些功能？」只要你願意學，開源的世界就是這麼開放，從鍵盤的基礎，到做出你的「分離式人體工學可自訂鍵位 QMK 鍵盤」，哈維來分享細節與製作過程！"
+  start: 2020/05/21
+  end: 
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/20200521
+  cover_image: /p/openists/openists-20200521.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - openists
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
