@@ -13,6 +13,7 @@ reader = csv.DictReader(respE)
 for row in reader:
     #print(row['event_id'])
     fstring1 = """{event_id}:
+- id: "{project_ids}"
   name: "{name}"
   name_en: "{name_en}"
   description: "{description}"
