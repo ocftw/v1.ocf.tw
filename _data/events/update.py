@@ -16,30 +16,27 @@ for row in reader:
   name: "{name}"
   name_en: "{name_en}"
   description: "{description}"
-  month: "{month}"
   start: {start}
   end: {end}
-  link:"""
+  links:"""
     fstring2 = """    - title: {link_tl1}
       url: {link1}""" if row['link1'] else None
     fstring3 = """    - title: {link_tl2}
       url: {link2}""" if row['link2'] else None
-    fstring4 = """  cover: {cover_image}
-  contributor_id:"""
-    fstring5 = '\n'.join([ "    - "+c for c in row['contributor_id'].split(';')])
-    fstring6 = """  project_id:
-    - {project_id}
-  label: {label}
-  organizer_id: {organizer_id}
-  advisor_id: {advisor_id}
-  co-organizer_id: {co-organizer_id}
-  implementer_id: {implementer_id}
-  sponsor_id: {sponsor_id}
-  coordinator_id: {coordinator_id}
-  host_id: {host_id}
-  speaker_id: {speaker_id}
-  banner: {banner}
-  avatar: {avatar}"""
+    fstring4 = """  cover_image: {cover_image}
+  contributor_ids:"""
+    fstring5 = '\n'.join([ "    - "+c for c in row['contributor_ids'].split(';')])
+    fstring6 = """  project_ids:
+    - {project_ids}
+  organizer_ids: {organizer_ids}
+  advisor_ids: {advisor_ids}
+  co-organizer_ids: {co-organizer_ids}
+  implementer_ids: {implementer_ids}
+  sponsor_ids: {sponsor_ids}
+  coordinator_ids: {coordinator_ids}
+  host_ids: {host_ids}
+  speaker_ids: {speaker_ids}
+  banner: {banner}"""
     print(fstring1.format(**row))
     if fstring2: print(fstring2.format(**row))
     if fstring3: print(fstring3.format(**row))

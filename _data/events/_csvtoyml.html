@@ -17,28 +17,28 @@
       "    - title: {{link_tl1}}\n" +
       "      url: {{link1}}\n" +
       "  cover: {{cover}}\n" +
-      "  contributor_id:\n" +
-      "    - {{contributor_id}}\n" +
-      "  project_id:\n" +
-      "    - {{project_id}}\n" +
+      "  contributor_ids:\n" +
+      "    - {{contributor_ids}}\n" +
+      "  project_ids:\n" +
+      "    - {{project_ids}}\n" +
       "  label:\n" +
       "    - {{label}}\n" +
-      "  organizer_id:\n"+
-      "    - {{organizer_id}}\n" +
-      "  advisor_id:\n"+
-      "    - {{advisor_id}}\n" +
-      "  co-organizer_id:\n"+
-      "    - {{co-organizer_id}}\n" +
-      "  implementer_id:\n"+
-      "    - {{implementer_id}}\n" +
-      "  sponsor_id:\n"+
-      "    - {{sponsor_id}}\n" +
-      "  coordinator_id:\n"+
-      "    - {{coordinator_id}}\n" +
-      "  host_id:\n"+
-      "    - {{host_id}}\n" +
-      "  speaker_id:\n"+
-      "    - {{speaker_id}}\n" +
+      "  organizer_ids:\n"+
+      "    - {{organizer_ids}}\n" +
+      "  advisor_ids:\n"+
+      "    - {{advisor_ids}}\n" +
+      "  co-organizer_ids:\n"+
+      "    - {{co-organizer_ids}}\n" +
+      "  implementer_ids:\n"+
+      "    - {{implementer_ids}}\n" +
+      "  sponsor_ids:\n"+
+      "    - {{sponsor_ids}}\n" +
+      "  coordinator_ids:\n"+
+      "    - {{coordinator_ids}}\n" +
+      "  host_ids:\n"+
+      "    - {{host_ids}}\n" +
+      "  speaker_ids:\n"+
+      "    - {{speaker_ids}}\n" +
       "  banner: {{banner}}\n" +
       "  avatar: {{avatar}}\n"
       
@@ -48,17 +48,17 @@
 
             var temp = yaml_format;
             var list = [
-            "advisor_id",
-            "co-organizer_id",
-            "contributor_id",
-            "coordinator_id",
-            "host_id",
-            "implementer_id",
+            "advisor_ids",
+            "co-organizer_ids",
+            "contributor_ids",
+            "coordinator_ids",
+            "host_ids",
+            "implementer_ids",
             "label",
-            "organizer_id",
-            "project_id",
-            "speaker_id",
-            "sponsor_id"
+            "organizer_ids",
+            "project_ids",
+            "speaker_ids",
+            "sponsor_ids"
             ];
             //console.log(obj)
             for(value in obj){
