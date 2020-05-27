@@ -13,7 +13,8 @@ reader = csv.DictReader(respE)
 for row in reader:
     #print(row['event_id'])
     fstring1 = """{event_id}:
-  title: "{title}"
+  name: "{name}"
+  name_en: "{name_en}"
   description: "{description}"
   month: "{month}"
   start: {start}
@@ -23,7 +24,7 @@ for row in reader:
       url: {link1}""" if row['link1'] else None
     fstring3 = """    - title: {link_tl2}
       url: {link2}""" if row['link2'] else None
-    fstring4 = """  cover: {cover}
+    fstring4 = """  cover: {cover_image}
   contributor_id:"""
     fstring5 = '\n'.join([ "    - "+c for c in row['contributor_id'].split(';')])
     fstring6 = """  project_id:
