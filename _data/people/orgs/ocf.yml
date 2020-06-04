@@ -39,6 +39,9 @@ subscribe:
   - title: Twitter
     url: https://twitter.com/ocftaiwan
     icon: twitter
+  - title: OCFLab
+    url: https://lab.ocf.tw/
+    icon: rss
 join:
   - title: Google Groups
     url: https://groups.google.com/forum/#!forum/ocf-general
