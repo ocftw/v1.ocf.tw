@@ -24,6 +24,8 @@ menu:
     url: /journal/
   - title: 2019成果
     url: /p/2019
+  - title: OCFLab
+    url: https://lab.ocf.tw/
   - title: News
     url: /news/
 
