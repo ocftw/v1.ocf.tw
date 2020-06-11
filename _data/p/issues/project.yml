@@ -40,6 +40,21 @@ links:
     url: https://lab.ocf.tw/2020/04/23/twogpnap/
     icon: 
 
+links_en:
+  - title: eID
+    url: https://ocf.tw/en/p/eid/
+    icon: 
+  - title: Open Data initiative
+    url: https://lab.ocf.tw/2020/03/18/opendatanext-eng/
+    icon: 
+  - title: Open Goveronment
+    url: https://opengovreport.ocf.tw/#tab-0
+    icon: 
+  - title: Internet Freedom
+    url: https://internetfreedomfestival.org/wiki/index.php/Coffee_%26_Circumvention
+    icon: 
+
+
 actions:
   - title: 捐款支持
     url: http://ocf.tw/300
