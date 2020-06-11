@@ -1,10 +1,10 @@
 - id:
 
   name: "2020 網路自由小聚 (每月第三個禮拜四)" 
-  name_en: 
+  name_en: Internet Freedom meets-up (Every 3rd Thursday)
 
   description: "Coffee and Circumvention 是一個由 Internet Freedom Festival (IFF) 發起，串聯全球各城市的網路自由社群聚會。台北場聚會在每個月第三個週四舉辦。我們歡迎學生、上班族、科技人士、藝術家、記者或任何對數位人權、網路隱私、網路安全以及開放科技有興趣的朋友加入我們。"
-  description_en: 
+  description_en: This is the Taipei Coffee and Circumvention, a monthly, community-run meetup that happens simultaneously in various cities throughout the world - on the third Thursday of every month. It brings together technologists, artists, journalists, citizens and others interested in digital rights, online privacy and security, and open technology.
 
   subtitles:
   subtitles_en:
@@ -19,6 +19,10 @@
   links:
     - title: 歷次共筆
       url: https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q?view
+
+  links_en:
+    - title: First Taipei meets-up
+      url: https://ocftw.kktix.cc/events/iffcc201909
 
   coordinator_ids:
     - claire
