@@ -31,13 +31,13 @@ metas_en:
 
 links:
   - title: eID 數位身分證
-    url: 
+    url: https://ocf.tw/p/eid/
     icon: 
   - title: 開放資料專法推動
-    url: 
+    url: https://lab.ocf.tw/2020/03/12/opendatanextstep/
     icon: 
   - title: OGP 開放政府國家行動方案推動
-    url: 
+    url: https://lab.ocf.tw/2020/04/23/twogpnap/
     icon: 
 
 actions:
