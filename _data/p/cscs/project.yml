@@ -23,7 +23,11 @@ tags:
 tags_en:
 
 actions:
-  - title: 我想幫忙
+- title: 招募實習生
+    url: https://hackmd.io/2VzMWU7cTLOD9_jYaqUzSw
+    color: green
+    icon: user icon
+- title: 我想幫忙
     url: mailto:intl@ocf.tw
     color: green
     icon: envelope
