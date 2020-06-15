@@ -543,3 +543,151 @@
   reports:
     2020: 01
   reports_en:
+
+- id: 
+
+  name: 2020 g0v 坑抗 Keng of Conf ── 坑主小聚
+  name_en: 
+
+  description: 這是一個給 g0v 坑主互相經驗交流的空間，因為社群沒有人的特性，會發生一些意料之外或意料之內的事情，甚至也會發生「最大的問題還是人」的狀況。因此 g0v 揪松團想舉辦坑主小聚（a.k.a. g0v Conf of Keng 簡稱「坑抗」），希望可以給不同階段的坑主（初坑、中坑或深坑）一些經驗分享或共同討論解決方式。（# 本活動採邀請制。請洽 g0v 揪松團。 g0v Slack ＃jothon）
+  description_en: 
+
+  subtitles: 「US Taiwan Watch：美國國會台灣觀測站」首次台灣分享會來了！
+
+  cover_image: https://t.kfs.io/upload_images/109019/keng_conf_kktix1_large.png
+
+  start: 2020/02/02
+  end: 
+
+  links:
+    - title: 活動網頁
+      url: https://g0v-jothon.kktix.cc/events/kengconf01
+    - title: 活動共筆
+      url: https://g0v.hackmd.io/bLZZA8HlQcWZyjbgvRS6ig 
+  links_en:
+
+  organizer_ids: 
+    - g0vjothon
+
+  host_ids:
+  speaker_ids:
+
+  project_ids:
+    - g0vdathon
+  board_ids:
+  staff_ids:
+
+  reports:
+    2020: 02
+  reports_en:
+
+- id: 
+
+  name: 零時小學校：三月大松日 Sch001 @ g0v Hackath38n
+  name_en: 
+
+  description: 零時小學校（Sch001）是聚焦在教育的 g0v 專案，將代表數位原生世代的 0 與 1 放入代表教育的「學校（School）」，從零重新思考學校的角色，代表教育與數位社群的連結與協作。零時小學校（Sch001）在 2020 年 2 月開學，為了延續正能量的動能，持續討論教育科技，零時小學校將響應三月的 g0v 在家黑客松，特開實體的協作現場，歡迎對教育科技有興趣的朋友到 KKTIX 報名。
+  description_en: 
+
+  subtitles: 網站 https://sch001.g0v.tw
+
+  cover_image: https://t.kfs.io/upload_images/110173/Sch001_____large.png
+
+  start: 20120/03/14
+  end: 
+
+  links:
+    - title: 活動網頁
+      url: https://g0v-jothon.kktix.cc/events/sch001-hackath38n
+    - title: 本期共筆
+      url: https://g0v.hackmd.io/@jothon/B1DBSGTEL
+  links_en:
+
+  organizer_ids: 
+    - g0vjothon
+
+  host_ids:
+  speaker_ids:
+
+  project_ids:
+    - g0vdathon
+  board_ids:
+  staff_ids:
+
+  reports:
+    2020: 03
+  reports_en:
+
+- id: 
+
+  name: g0v 南庄桐花松
+  name_en: 
+
+  description: 本次主要討論線上揪松改版、2D 線上揪松設計、農業相關議題提案。實體活動採邀請制！也歡迎參與者線上同步參與討論。
+  description_en: 
+
+  subtitles: 0516農起來
+
+  cover_image: https://t.kfs.io/upload_images/111198/____large.png
+
+  start: 2020/05/16
+  end: 
+
+  links:
+    - title: 活動網頁
+      url: https://g0v-jothon.kktix.cc/events/tungflowerthon
+    - title: 討論共筆
+      url: https://g0v.hackmd.io/@jothon/BJtSlq0YU
+  links_en:
+
+  organizer_ids: 
+    - g0vjothon
+
+  host_ids:
+  speaker_ids:
+
+  project_ids:
+    - g0vdathon
+  board_ids:
+  staff_ids:
+
+  reports:
+    2020: 05
+  reports_en:
+
+- id: 
+
+  name: 零時小學校：第三次工作坊 Sch001 Workshop III
+  name_en: 
+
+  description: 零時小學校進入 2020 年的最後階段，一起來做競賽日的最後準備吧！關心教育科技的你，是否正在等待讓想法實現的機會？來參加工作坊，回到令人懷念的實體工作坊現場，跟志同道合的夥伴一起組隊！零時小學校競賽日（Demo Day）在 6/15-7/19 開放線上公開徵件，在徵件平台被選出的 10 組入圍提案，可以在 8/30 的競賽日（Demo Day）呈現自己的初步開發或解決方案，最後，將會有 5 組獲獎團隊可以前往 g0v Summit 2020 教育科技軌，向全世界展示你的成果。
+  description_en: 
+
+  subtitles: 
+
+  cover_image: https://t.kfs.io/upload_images/111900/Sch001_____3_large.png
+
+  start: 2020/06/21
+  end: 
+
+  links:
+    - title: 活動網頁
+      url: https://g0v-jothon.kktix.cc/events/sch001-wsiii
+    - title: 討論共筆
+      url: https://bit.ly/Sch001_WSIII
+  links_en:
+
+  organizer_ids: 
+    - g0vjothon
+
+  host_ids:
+  speaker_ids:
+
+  project_ids:
+    - g0vdathon
+  board_ids:
+  staff_ids:
+
+  reports:
+    2020: 06
+  reports_en:
