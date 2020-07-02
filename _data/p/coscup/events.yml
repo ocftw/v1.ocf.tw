@@ -220,7 +220,7 @@
       url: https://coscup.org/2020/zh-TW/
     - title: 訂閱電子報
       url: https://secretary.coscup.org/subscribe/coscup
-  cover_image: p\coscup\2020\COSCUP2020.png
+  cover_image: /p/coscup/2020/COSCUP2020.png
   contributor_ids:
     - rosa
   project_ids:

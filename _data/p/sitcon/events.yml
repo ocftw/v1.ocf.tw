@@ -179,28 +179,6 @@
   project_id:
     - sitcon
 
-- id: 
-  name: 學生計算機年會 SITCON 2020
-  name_en: SITCON 2020
-  cover_image: /p/sitcon/2020.png
-  start: 2020/08/08
-  end: 2020/08/08
-
-  links:
-    - title: 活動網站
-      url: https://sitcon.org/2020/#/
-  organizer_ids:
-    - sitcon
-  co-organizer_ids:
-    - ocf
-  co-worker_ids:
-    - rock
-
-  project_ids:
-    - sitcon
-
-  reports_en:
-
 
 - id: "sitcon"
   name: "SITCON 2020"
@@ -215,7 +193,7 @@ SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，�
       url: https://sitcon.org/2020/#/
     - title: 社群媒體
       url: https://www.facebook.com/SITCONtw/
-  cover_image: p\sitcon\2020.png
+  cover_image: /p/sitcon/2020.png
   contributor_ids:
     - rock
   project_ids:
