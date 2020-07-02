@@ -207,3 +207,30 @@
   reports:
     2015: 08
   reports_en:
+
+- id: "coscup"
+  name: "COSCUP 2020"
+  name_en: ""
+  description: "開源人年會 COSCUP 已經邁入第十五年了，今年 COSCUP2020 首次嘗試不用報名、自由入場的方式進行。但因為疫情的關係，需要在活動日 2020-08-01 出示「健康聲明表」才可以進場。
+除了延續社群議程外，今年的時間地點則於 8/1-2 在台灣科技大學 IB 大樓舉辦。COSCUP 由各地社群共同舉辦，在眾多同好的參與下，逐漸成長茁壯，希望能打造更多元的主題和議程。無論你是寫 open source 軟體的開發者、熱衷 open source 軟體的推廣者、熟悉 open source 軟體的使用者或是想了解 open source 軟體的新手，都歡迎你來參加一年一度全台最大的 COSCUP 2020！"
+  start: 2020/08/01
+  end: 2020/08/02
+  links:
+    - title: 官方網站
+      url: https://coscup.org/2020/zh-TW/
+    - title: 訂閱電子報
+      url: https://secretary.coscup.org/subscribe/coscup
+  cover_image: p\coscup\2020\COSCUP2020.png
+  contributor_ids:
+    - rosa
+  project_ids:
+    - coscup
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
