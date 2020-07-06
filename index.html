@@ -8,10 +8,12 @@ js: /assets/scripts/homepage.js
 partners: true
 sponsors: true
 donors: false
+
+# 正在加速進行中的專案，填入專案 id，會在首頁中列出 /_data/p/[專案id] 的卡片
 ongoing:
-  - admin
-  - cscs
-  - intl
+  - issues
+  - ocflab
+  - global
 ---
 
 {% assign current = site.data.settings.current | append: "" %}
@@ -291,26 +293,10 @@ ongoing:
     <h2 class="ui header">正在加速進行中</h2>
     <div class="ui three column stackable cards">
 
-  {% for project_id in page.ongoing %}
-    {% assign project = site.data.projects[current][project_id] %}
-      <div class="card">
-        <div class="image">
-          <img src="{{ project.cover }}" alt="" />
-        </div>
-        <div class="content">
-          <h3 class="header">{{ project.name }}</h3>
-          <div class="description">{{ project.description }}
-          </div>
-        </div>
-        <div class="extra content">
-
-    {% for link in project.link %}
-      {% include _shared/link.html link=link class='item' icon='conditional' %}
-    {% endfor %}
-
-        </div>
-      </div>
-  {% endfor %}
+      {% for project_id in page.ongoing %}
+      {% assign project = site.data.p[project_id].project %}
+      {% include plist/card.html project=project %}
+      {% endfor %}
 
     </div>
   </div>
