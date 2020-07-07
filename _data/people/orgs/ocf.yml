@@ -97,3 +97,13 @@ what_we_do:
     tagline_en: 
     description: 台灣的開源社群發展十幾年，累積許多寶貴知識和經驗。我們協助政府或民間單位，從社群取得開源圈的最新趨勢和見解，作為政策和法規制度的參考。
     description_en: 
+ocflab:
+  - id: community
+    icon: hand rock
+    title: 在開源的基礎上開發商用產品：Open Core 的介紹與應用
+    title_en: 
+    tagline: 
+    tagline_en: 
+    description: 開源軟體透明、允許所有人分享及修改的特性，發揮群體智慧，造就高品質的軟體開發與維護。然而，多數開源軟體對非技術使用者的門檻較高，不利於推廣。...
+    description_en: 
+    url: https://lab.ocf.tw/2020/04/29/open-core/
