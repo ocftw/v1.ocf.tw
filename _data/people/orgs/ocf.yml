@@ -98,7 +98,7 @@ what_we_do:
     description: 台灣的開源社群發展十幾年，累積許多寶貴知識和經驗。我們協助政府或民間單位，從社群取得開源圈的最新趨勢和見解，作為政策和法規制度的參考。
     description_en: 
 ocflab:
-  - id: community
+  - id: 
     icon: hourglass
     title: 在開源的基礎上開發商用產品：Open Core 的介紹與應用
     title_en: 
@@ -106,7 +106,7 @@ ocflab:
     tagline_en: 
     description: 開源軟體透明、允許所有人分享及修改的特性，發揮群體智慧，造就高品質的軟體開發與維護。然而，多數開源軟體對非技術使用者的門檻較高，不利於推廣。...
     description_en: 
-  - id: organization
+  - id: 
     icon: map
     title: 【2019 COSCUP 精彩時刻之一】廣納四面八方開發者，多元的香港社群有什麼開源新成果？
     title_en: 
@@ -114,15 +114,15 @@ ocflab:
     tagline_en: 
     description: 2020 COSCUP 開源人年會即將在 8月第一個周末登場，在這之前，先來看看特派記者筆下， 2019 COSCUP 有哪些精彩時刻。...
     description_en: 
-  - id: overseas
-    icon: clone
-    title: 文策院合作專題-【串連作品、引動社群】metadata 在未來內容時代的無限可能
+  - id: 
+    icon: copyright
+    title: 文策院合作專題-【優先選用CC0】公眾授權方式百百款，資料愈開放就愈好用！
     title_en: 
     tagline: 
     tagline_en: 
-    description: 作為「資料的資料」，metadata（後設資料，也譯作「詮釋資料」）能將大量檔案進行索引、分類，並相互連結，協助知識傳播。...
+    description: 為讓數位化的資料達到最大的推播效益，除了將 Metadata 建好建滿，公眾授權更重要！本篇為您簡要分析，開放的 Metadata 如何讓資料更容易看得到、找得到。...
     description_en: 
-  - id: consultanting
+  - id: 
     icon: box
     title: 【開源x開箱】掃了再買：用消費者的力量讓企業做出改變
     title_en: 
