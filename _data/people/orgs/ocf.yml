@@ -99,7 +99,7 @@ what_we_do:
     description_en: 
 ocflab:
   - id: community
-    icon: open-source
+    icon: open source
     title: 在開源的基礎上開發商用產品：Open Core 的介紹與應用
     title_en: 
     tagline: 
