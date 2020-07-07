@@ -97,36 +97,3 @@ what_we_do:
     tagline_en: 
     description: 台灣的開源社群發展十幾年，累積許多寶貴知識和經驗。我們協助政府或民間單位，從社群取得開源圈的最新趨勢和見解，作為政策和法規制度的參考。
     description_en: 
-ocflab:
-  - id: 
-    icon: hourglass
-    title: 在開源的基礎上開發商用產品：Open Core 的介紹與應用
-    title_en: 
-    tagline: 
-    tagline_en: 
-    description: 開源軟體透明、允許所有人分享及修改的特性，發揮群體智慧，造就高品質的軟體開發與維護。然而，多數開源軟體對非技術使用者的門檻較高，不利於推廣。...
-    description_en: 
-  - id: 
-    icon: map
-    title: 邁向下一個開放資料里程碑之前123
-    title_en: 
-    tagline: 
-    tagline_en: 
-    description: 「開放資料專法」今年即將推出，重新盤點現況，才能踏出正確的下一步!因此，開放文化基金會與不同領域之資料運用公民和資料開放專家合作，以案例和實際流程，釐清開放資料現況與民間實質運用的差距，也希望透過這樣的整體，為即將上路的專法，找出正確的方向。
-    description_en: 
-  - id: 
-    icon: copyright
-    title: 文策院合作專題-【優先選用CC0】公眾授權方式百百款，資料愈開放就愈好用！
-    title_en: 
-    tagline: 
-    tagline_en: 
-    description: 為讓數位化的資料達到最大的推播效益，除了將 Metadata 建好建滿，公眾授權更重要！本篇為您簡要分析，開放的 Metadata 如何讓資料更容易看得到、找得到。...
-    description_en: 
-  - id: 
-    icon: box
-    title: 【開源x開箱】掃了再買：用消費者的力量讓企業做出改變
-    title_en: 
-    tagline: 
-    tagline_en: 
-    description: 別再抖內無良廠商！APP 掃條碼，輕鬆看製造商違規紀錄，購物+支持環境正義一兼兩顧！...
-    description_en: 
