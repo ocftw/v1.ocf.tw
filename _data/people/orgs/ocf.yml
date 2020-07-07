@@ -99,7 +99,7 @@ what_we_do:
     description_en: 
 ocflab:
   - id: community
-    icon: hand rock
+    icon: open-source
     title: 在開源的基礎上開發商用產品：Open Core 的介紹與應用
     title_en: 
     tagline: 
@@ -107,7 +107,7 @@ ocflab:
     description: 開源軟體透明、允許所有人分享及修改的特性，發揮群體智慧，造就高品質的軟體開發與維護。然而，多數開源軟體對非技術使用者的門檻較高，不利於推廣。...
     description_en: 
   - id: organization
-    icon: building outline
+    icon: map
     title: 【2019 COSCUP 精彩時刻之一】廣納四面八方開發者，多元的香港社群有什麼開源新成果？
     title_en: 
     tagline: 
@@ -115,7 +115,7 @@ ocflab:
     description: 2020 COSCUP 開源人年會即將在 8月第一個周末登場，在這之前，先來看看特派記者筆下， 2019 COSCUP 有哪些精彩時刻。...
     description_en: 
   - id: overseas
-    icon: plane
+    icon: graph
     title: 文策院合作專題-【串連作品、引動社群】metadata 在未來內容時代的無限可能
     title_en: 
     tagline: 
@@ -123,7 +123,7 @@ ocflab:
     description: 作為「資料的資料」，metadata（後設資料，也譯作「詮釋資料」）能將大量檔案進行索引、分類，並相互連結，協助知識傳播。...
     description_en: 
   - id: consultanting
-    icon: test.jpg
+    icon: box
     title: 【開源x開箱】掃了再買：用消費者的力量讓企業做出改變
     title_en: 
     tagline: 
