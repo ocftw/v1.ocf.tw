@@ -12,7 +12,7 @@ donors: false
 # 正在加速進行中的專案，填入專案 id，會在首頁中列出 /_data/p/[專案id] 的卡片
 ongoing:
   - issues
-  - ocflab
+  - admin
   - global
 ---
 
@@ -162,110 +162,6 @@ ongoing:
 
 </section>
 
-<section id="ocflab" class="ui vertical segment">
-  <div class="ui stripe container">
-    <h2 class="ui header">OCFLab文章</h2>
-    <hr class="ui hidden divider" />
-    <div class="ui two column stackable divided grid">
-      <div class="column">
-        <div class="ui divided relaxed items">
-
-          <div class="item">
-          {% assign item = site.data.people.orgs.ocf.ocflab[0] %}
-            <div class="image">
-              <i class="huge {{ item.icon }} icon bordered"></i>
-            </div>
-            <div class="content">
-              <h3 class="header">{{ item.title }}</h3>
-              <div class="description">
-                <p>
-                  {{ item.description }}
-                </p>
-              </div>
-               <div class="ui center aligned stripe container">
-                <a class="ui button" href="https://lab.ocf.tw/2020/04/29/open-core/">觀看這篇文章<i class="right arrow icon"></i></a>
-              </div>
-              <div class="extra">
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-          {% assign item = site.data.people.orgs.ocf.ocflab[1] %}
-            <div class="image">
-              <i class="huge {{ item.icon }} icon bordered"></i>
-            </div>
-            <div class="content">
-              <h3 class="header">{{ item.title }}</h3>
-              <div class="description">
-                <p>
-                  {{ item.description }}
-                </p>
-              </div>
-              <div class="ui center aligned stripe container">
-                <a class="ui button" href="https://lab.ocf.tw/2020/05/28/2019-coscup1/">觀看這篇文章<i class="right arrow icon"></i></a>
-              </div>
-              <div class="extra">
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui divided relaxed items">
-
-          <div class="item">
-          {% assign item = site.data.people.orgs.ocf.ocflab[2] %}
-            <div class="image">
-              <i class="huge {{ item.icon }} icon bordered"></i>
-            </div>
-            <div class="content">
-              <h3 class="header">{{ item.title }}</h3>
-              <div class="description">
-                <p>
-                  {{ item.description }}
-                </p>
-              <div class="ui center aligned stripe container">
-                <a class="ui button" href="https://lab.ocf.tw/2020/06/08/metadata3/">觀看這篇文章<i class="right arrow icon"></i></a>
-              </div>
-              </div>
-              <div class="extra">
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-          {% assign item = site.data.people.orgs.ocf.ocflab[3] %}
-            <div class="image">
-              <i class="huge {{ item.icon }} icon bordered"></i>
-            </div>
-            <div class="content">
-              <h3 class="header">{{ item.title }}</h3>
-              <div class="description">
-                <p>
-                  {{ item.description }}
-                </p>
-              <div class="ui center aligned stripe container">
-                <a class="ui button" href="https://lab.ocf.tw/2020/06/24/thaubing/">觀看這篇文章<i class="right arrow icon"></i></a>
-              </div>
-              </div>
-              <div class="extra">
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="ui center aligned stripe container">
-    <a class="ui button" href="https://lab.ocf.tw/">觀看更多OCFLab文章<i class="right arrow icon"></i></a>
-    <!-- <a class="ui button" href="/p/{{ recent }}/">近年成果回顧<i class="right arrow icon"></i></a> -->
-  </div>
-
-</section>
 <!--
 <section id="what_they_say" class="ui vertical segment">
   <div class="ui stripe container">
@@ -379,6 +275,112 @@ ongoing:
     </div>
   </div>
 </section>
+
+<section id="ocflab" class="ui vertical segment">
+  <div class="ui stripe container">
+    <h2 class="ui header">OCFLab文章</h2>
+    <hr class="ui hidden divider" />
+    <div class="ui two column stackable divided grid">
+      <div class="column">
+        <div class="ui divided relaxed items">
+
+          <div class="item">
+          {% assign item = site.data.people.orgs.ocf.ocflab[0] %}
+            <div class="image">
+              <i class="huge {{ item.icon }} icon bordered"></i>
+            </div>
+            <div class="content">
+              <h3 class="header">{{ item.title }}</h3>
+              <div class="description">
+                <p>
+                  {{ item.description }}
+                </p>
+              </div>
+               <div class="ui center aligned stripe container">
+                <a class="ui button" href="https://lab.ocf.tw/2020/04/29/open-core/">觀看這篇文章<i class="right arrow icon"></i></a>
+              </div>
+              <div class="extra">
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+          {% assign item = site.data.people.orgs.ocf.ocflab[1] %}
+            <div class="image">
+              <i class="huge {{ item.icon }} icon bordered"></i>
+            </div>
+            <div class="content">
+              <h3 class="header">{{ item.title }}</h3>
+              <div class="description">
+                <p>
+                  {{ item.description }}
+                </p>
+              </div>
+              <div class="ui center aligned stripe container">
+                <a class="ui button" href="https://lab.ocf.tw/2020/05/28/2019-coscup1/">觀看這篇文章<i class="right arrow icon"></i></a>
+              </div>
+              <div class="extra">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="column">
+        <div class="ui divided relaxed items">
+
+          <div class="item">
+          {% assign item = site.data.people.orgs.ocf.ocflab[2] %}
+            <div class="image">
+              <i class="huge {{ item.icon }} icon bordered"></i>
+            </div>
+            <div class="content">
+              <h3 class="header">{{ item.title }}</h3>
+              <div class="description">
+                <p>
+                  {{ item.description }}
+                </p>
+              <div class="ui center aligned stripe container">
+                <a class="ui button" href="https://lab.ocf.tw/2020/06/08/metadata3/">觀看這篇文章<i class="right arrow icon"></i></a>
+              </div>
+              </div>
+              <div class="extra">
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+          {% assign item = site.data.people.orgs.ocf.ocflab[3] %}
+            <div class="image">
+              <i class="huge {{ item.icon }} icon bordered"></i>
+            </div>
+            <div class="content">
+              <h3 class="header">{{ item.title }}</h3>
+              <div class="description">
+                <p>
+                  {{ item.description }}
+                </p>
+              <div class="ui center aligned stripe container">
+                <a class="ui button" href="https://lab.ocf.tw/2020/06/24/thaubing/">觀看這篇文章<i class="right arrow icon"></i></a>
+              </div>
+              </div>
+              <div class="extra">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui center aligned stripe container">
+    <a class="ui button" href="https://lab.ocf.tw/">觀看更多OCFLab文章<i class="right arrow icon"></i></a>
+    <!-- <a class="ui button" href="/p/{{ recent }}/">近年成果回顧<i class="right arrow icon"></i></a> -->
+  </div>
+
+</section>
+
 {% endif %}
 
 {% if page.sponsors %}
