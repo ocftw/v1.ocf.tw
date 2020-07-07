@@ -234,6 +234,35 @@ ongoing:
   </div>
 </section>
 -->
+{% if page.ongoing %}
+<section id="what_is_happening" class="ui vertical segment">
+  <div class="ui stripe container">
+    <h2 class="ui header">正在加速進行中</h2>
+    <div class="ui three column stackable cards">
+
+      {% for project_id in page.ongoing %}
+      {% assign project = site.data.p[project_id].project %}
+      {% include plist/card.html project=project %}
+      {% endfor %}
+
+    </div>
+  </div>
+  <div class="ui center aligned stripe container">
+    <a class="ui button" href="/p">
+      瀏覽所有專案
+      <i class="right arrow icon"></i>
+    </a>
+  </div>
+</section>
+{% endif %}
+
+<section id="ads" class="ui vertical segment">
+  <div class="ui stripe container">
+    {% include banner_cta.html %}
+  </div>
+</section>
+
+
 {% if page.partners %}
 <section id="partners" class="ui vertical segment">
   <div class="ui stripe container">
@@ -287,32 +316,6 @@ ongoing:
 </section>
 {% endif %}
 -->
-{% if page.ongoing %}
-<section id="what_is_happening" class="ui vertical segment">
-  <div class="ui stripe container">
-    <h2 class="ui header">正在加速進行中</h2>
-    <div class="ui three column stackable cards">
 
-      {% for project_id in page.ongoing %}
-      {% assign project = site.data.p[project_id].project %}
-      {% include plist/card.html project=project %}
-      {% endfor %}
-
-    </div>
-  </div>
-  <div class="ui center aligned stripe container">
-    <a class="ui button" href="/p">
-      瀏覽所有專案
-      <i class="right arrow icon"></i>
-    </a>
-  </div>
-</section>
-{% endif %}
-
-<section id="ads" class="ui vertical segment">
-  <div class="ui stripe container">
-    {% include banner_cta.html %}
-  </div>
-</section>
 
 </main>
