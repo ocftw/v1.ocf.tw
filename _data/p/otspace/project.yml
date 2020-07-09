@@ -34,6 +34,9 @@ links:
   - title: 社群線上共筆資料
     url: https://hackmd.io/@openlabtaipei
     color: green
+  - title: 捐款支持
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=42
+    color: green
 
 
 topic_ids:
