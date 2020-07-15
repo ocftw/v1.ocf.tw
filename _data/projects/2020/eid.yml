@@ -1,0 +1,30 @@
+name: 連署：修法與公開 eID 資訊
+
+cover: /p/eid/eid-cover.png
+# 專案的封面圖，會出現在專案列表頁、專案頁、活動頁
+# 選用長寬比接近 facebook og image 的圖片（1200 x 630）
+
+description: 當科技治國成為趨勢，完善法源和開放透明是重要基石。數位身分證偷跑硬闖？請跟我們一起幫國家打好根基，守護資安與程序正義，邁向數位經濟新世代！
+# 專案描述，會出現在專案列表頁、專案頁
+
+link:
+# 專案網址，第一筆資料會被當成專案入口網址，出現在專案列表頁、活動頁、以及行政中心的計畫成果列表
+  - title: 專案介紹
+    # 連結要顯示什麼名稱
+    url: /p/eid
+    # 連結要指向哪裡
+    target: _self
+    # 連結要怎麼打開，可省略
+    # 若沒標註 target: _self 則會以 _blank 打開
+
+type_id:
+# 專案採用的業務類型，會出現在專案列表頁，內容詳 settings
+  - government
+
+topic_id:
+# 專案牽涉的議題，會出現在專案列表頁，內容詳 settings
+  - government
+
+field_id:
+# 專案牽涉的專頁領域，會出現在專案列表頁，內容詳 settings
+  - legal
