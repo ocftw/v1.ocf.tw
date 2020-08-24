@@ -45,12 +45,36 @@
     - rock
   project_ids:
     - openists
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+
+- id: 
+  name: "開源教 - 教我如何線上百人同樂！從架構了解 Jitsi Meet"
+  name_en: ""
+  description: "今年因為疫情的關係視訊會議變得需求越來越強烈，因此揪松使用 Jitsi Meet 為核心開發了線上揪松，結合 HackMD 與大松流程的線上會議系統。同時也做了 2D 揪松，結合 2D RPG 的線上會議。另外揪松也協助了總統盃黑客松以及 AIT 線上會議，開發了揪幾家系統，讓視訊會議變得更加自由。課程內容會簡要地說明 Jitsi Meet 的系統架構，如果想要自架的話的注意事項，對架好的 Jitsi Meet 能怎麼介接，以及揪松開發的揪幾家怎麼使用。"
+  start: 2020/08/27
+  end: 
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/20200827-jitsimeet
+  cover_image: /p/openists/openists-20200827.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - openists
+
+- id: 
+  name: "開源教 - 教我 inkscape 雷切配"
+  name_en: ""
+  description: "Inkscape (https://gitlab.com/inkscape/inkscape) 是一款開放原始碼的向量圖形編輯器，自 2003 年起第一版至今，已經成為美編和設計界眾所皆知，能夠取代 illustrator 的工具。這次活動除了深入淺出講授基本的圖形編輯功能之外，也會從雷切的角度來切入，讓教友們能夠跳脫電腦螢幕中，一探開源 Maker 的雷射切割工藝。"
+  start: 2020/09/19
+  end: 
+  links:
+    - title: 活動網站
+      url: https://ocftw.kktix.cc/events/20200919-inkscape
+  cover_image: /p/openists/openists-20200919.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - openists
+
+
+
