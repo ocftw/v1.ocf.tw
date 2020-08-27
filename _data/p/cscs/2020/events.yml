@@ -1,0 +1,37 @@
+- id: 
+
+  name: 東亞民主論壇 － 公民社會資安培力工作坊
+  name_en: 
+
+  description: "在技術日新月異的時代，資訊產品推陳出新十分迅速，選擇繁多到令人眼花撩亂，尤其在嚴重特殊傳染性肺炎（COVID-19）肆虐的時期，不少公民團體轉為遠端工作，對數位協作工具的依賴加深；於此同時，威權勢力也將數位監控的魔爪擴張到公民社會之中，讓民主人權工作者背負的風險急速升級。然而，面對新穎的工作方式，許多人輕忽資通訊的安全問題，讓機密資料暴露於高度風險中卻渾然不知。當網路成為生活中的必需品，東亞民主論壇希望透過資安培力，為公民團體建設安全的數位工作環境。這套課程專門為民主人權工作者設計，用簡單易懂的語言講解資安概念，目標在培力學員擁有基本的自我防護及挑選數位協作工具的能力，並將資安防護落實於日常及工作中。"
+  description_en: 
+
+  cover_image: /p/intl/2020/2020東亞民主論壇 - 資安工作坊 .png
+  banner_image: 
+  theme_color: 
+
+  start: 2020/08/22
+  end: 2020/08/22
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動資訊及報名
+      url: https://cscs.kktix.cc/events/56cf663a
+    - title: SEC 教材
+      url: /p/cscs/SEC 整併版_+頁碼.pdf
+    - title: CSCS 教材模組
+      url: https://drive.google.com/drive/folders/1g4zKozybOwbCfFT4HGVvT1u_bo6OLNMb
+  links_en:
+
+  organizer_ids:
+  participant_ids:
+    - claire
+    - lulukeng
+
+  project_ids:
+    - cscs
