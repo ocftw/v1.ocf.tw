@@ -1,0 +1,48 @@
+name: OpenChain 台灣社群
+name_en: OpenChain Taiwan Working Group
+
+description: 
+description_en: 
+abbr: openchain
+abbr_en: openchain
+
+tagline: openchain
+tagline_en: 
+
+og_image: 
+header_image:
+avatar_image: 
+theme_color: 
+
+start: 
+end: 
+
+
+topic_ids:
+  - source
+field_ids:
+  - legal
+tags:
+  - 定期活動
+tags_en:
+
+
+actions: 
+  - title: 
+    url: 
+    color: 
+    icon: 
+    
+organizer_ids:
+  - openchain
+co-organizer_ids:
+  -
+coordinator_id:
+  -
+board_ids:
+  -
+staff_ids: 
+  -
+
+listed: no
+listed_en: 
