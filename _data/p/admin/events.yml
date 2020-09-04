@@ -1,0 +1,24 @@
+0919sfd:
+- id: "ocf"
+  name: "Software Freedom Day 軟體自由日同樂派對"
+  name_en: "Software Freedom Day"
+  description: "Richard Stallman 在 80 年代，發起了對軟體發展影響甚鉅的自由軟體運動，開啟了一道大門，之後宛如蝴蝶效應一 般，世界各地掀起一股自由和開放的熱潮。從軟體、硬體、文字、圖像和音樂... 等等的自由、開放和共享的風氣和精神，處處可見。軟體自由日 (Software Freedom Day) 是 Digital Freedom Foundation 2005 年開始發起的國際軟體自由慶祝活動，全球各地每年會舉辦 各式各樣的活動，慶祝軟體的自由帶給世界的美好。9/19，開放文化基金會和 MozTW 社群一起籌備，在藍天白雲的日子裡，邀請自由開放的寶寶們一起出來玩，我們會進行自由開源社群好 物義賣、開源消息分享的閃電講活動。如果你願意，請裝扮成任一個自由軟體的動物，讓我們在這一天和世界一起聊自由、談開放，為自由一起乾杯！"
+  start: 2020/09/19
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=19
+  cover_image: /p/admin/2020/0919sfd.jpg
+  contributor_ids:
+    -
+  project_ids:
+    - ocf
+  organizer_ids:
+  advisor_ids:
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+  coordinator_ids:
+  host_ids:
+  speaker_ids:
+  banner:
