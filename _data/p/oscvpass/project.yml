@@ -46,9 +46,11 @@ actions_en:
 advisor_ids:
 organizer_ids:
   - ocf
-  - coscup
-  - sitcon
 co-organizer_ids:
+- coscup
+- sitcon
+- mopcon
+- g0vsummit
 implementer_ids:
 sponsor_ids:
 
@@ -65,6 +67,7 @@ board_ids:
 staff_ids:
   - singing
   - rosa
+  - leaf
 
 listed: yes
 listed_en: yes
