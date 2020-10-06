@@ -1,0 +1,17 @@
+- id: 
+
+  name: 5G開源與資安座談會
+ 
+  description: 臺灣的社群文化十分興盛，從 2005 年起，已發展出多個致力於推廣開放原始碼（開源）、資訊安全技術研究等社群。開放文化基金會此次執行「5G 開放源碼與資訊安全計畫」，將邀請曾參與台灣各大開源與技術社群 COSCUP 開源人年會、HITCON 台灣駭客年會、MOPCON 行動科技年會與 Cloud Native Taiwan User Group 的資深講者，以貼近資通訊產業關注的核心發展和挑戰為分享方向，介紹進入 5G 時代後，開放源碼與資訊安全領域內，資通訊產業在各方面必須注重的課題。
+  description_en: 
+
+  cover_image: /p/ocf/5G.png
+
+  start: 2020/10/23
+  end: 2020/10/24
+
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+    - ocf
