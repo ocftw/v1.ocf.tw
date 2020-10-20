@@ -1,5 +1,43 @@
 - id: 
 
+  name: CSCS 暑期實習計劃
+  name_en: 
+
+  description: "在兩個月的實習計劃中，實習生與 CSCS 社群一同製作資安教材、舉辦資安培訓工作坊。不僅於過程中幫助提升公民團體的資安意識，實習生也透過與 NGO 工作者交流而了解第一線人權工作者的需求，並習得與一般人說明基礎資安知識的技巧。"
+  description_en: 
+
+  cover_image: _data/p/cscs/2020/intern_1.png
+  banner_image: 
+  theme_color: 
+
+  start: 2020/07/10
+  end: 2020/08/27
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 實習心得
+      url: https://docs.google.com/document/d/1A_wQI0DrChDlUuKhFOKRNgj-34daj6oEpNkZqoD0BiY/edit#heading=h.r9jd7dciky36
+  
+
+  organizer_ids:
+  participant_ids:
+    - claire
+    - lulukeng
+    - aiya
+    - singing
+
+  project_ids:
+    - cscs
+
+
+
+- id: 
+
   name: 東亞民主論壇 － 公民社會資安培力工作坊
   name_en: 
 
