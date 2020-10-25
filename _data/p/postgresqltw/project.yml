@@ -1,7 +1,7 @@
 name: PostgreSQL 台灣使用者社群
 name_en: Taiwan PostgreSQL User Group
 
-description: PostgreSQL 台灣使用者社群以 PostgreSQL 開源資料庫系統為主要標的，推廣善待工作夥伴、與資料長存的資料庫系統技術。除了線上社群，每月均舉辦實體聚會、小講堂，提供開放平等的經驗交流與知識學習平台。每一個人都是資料庫職人，讓持續努力的人被看見。一起教學相長，一同與彼此共好。我們編譯各式正體中文文件，期待以在地文化續存資料庫的技術紅利。
+description: PostgreSQL 台灣使用者社群以 PostgreSQL 開源資料庫系統為主要標的，推廣善待工作夥伴、與資料長存的資料庫系統技術。除了線上社群，每月均舉辦實體聚會、小講堂，提供開放平等的經驗交流與知識學習平台。
 description_en: 
 
 abbr: 
@@ -10,8 +10,8 @@ abbr_en:
 tagline: Taiwan PostgreSQL User Group
 tagline_en: 
 
-og_image: 
-header_image: 
+og_image: /p/postgresqltw/avatar.png
+header_image: /p/postgresqltw/header.png
 avatar_image: /p/postgresqltw/avatar.png
 theme_color: blue
 
@@ -44,11 +44,10 @@ links:
 links_en:
 
 actions:
-  - title: 
-    url: 
-    icon: 
-    color: 
-  - title: 
+  - title: Facebook
+    url: https://www.facebook.com/groups/pgsql.tw
+    color: blue
+    icon: facebook icon
 actions_en:
 
 advisor_ids:
