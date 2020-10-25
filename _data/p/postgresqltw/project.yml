@@ -26,10 +26,6 @@ tags:
   - 定期活動
 tags_en:
 
-metas:
-  - label: 
-    content: 
-metas_en:
 
 links:
   - title: 社群首頁
@@ -50,25 +46,11 @@ actions:
     icon: facebook icon
 actions_en:
 
-advisor_ids:
 organizer_ids:
   - postgresqltw
 co-organizer_ids:
   - ocf
 implementer_ids:
-sponsor_ids:
-
-coordinator_ids:
-case-handler_ids:
-co-worker_ids:
-consultant_ids:
-volunteer_ids:
-contributor_ids:
-donors:
-donors_en:
-
-board_ids:
-staff_ids:
 
 listed: yes
 listed_en: 
