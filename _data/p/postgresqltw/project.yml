@@ -40,6 +40,10 @@ links:
 links_en:
 
 actions:
+  - title: 捐款支持
+    url: https://neti.cc/DYvXwrK
+    color: blue
+    icon: money
   - title: Facebook
     url: https://www.facebook.com/groups/pgsql.tw
     color: blue
