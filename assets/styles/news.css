@@ -1,0 +1,28 @@
+#news .mobile {
+  display: none;
+}
+
+#news .mobile .buttons {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#news #newsletters .header {
+  cursor: pointer;
+}
+
+#news #newsletters .header .icon {
+  font-size: 1em;
+  float: right;
+  line-height: 1.75em;
+}
+
+@media only screen and (max-width: 767px) {
+  #news .mobile {
+    display: initial;
+  }
+
+  #news #newsletters .header .icon {
+    float: none;
+    line-height: 0.85em;
+  }
+}

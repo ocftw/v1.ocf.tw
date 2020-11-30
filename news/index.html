@@ -7,6 +7,9 @@ layout: global
 og_title: 電子報
 og_description: 開源開放大小事，搶鮮送到你家！OCF 電子報，每二個月定期出刊。
 
+css: news.css
+js: news.js
+
 # 電子報檔名與排序
 years:
   - 2020
@@ -21,12 +24,26 @@ years:
 
 <main id="news">
 
-<div class="ui center aligned stripe container">
-  <h1 class="ui icon header">
-    <i class="circular newspaper icon"></i>
-    {{ page.og_title }}
-  </h1>
-</div>
+  <div class="ui center aligned stripe container">
+    <h1 class="ui icon header">
+      <i class="circular newspaper icon"></i>
+      {{ page.og_title }}
+    </h1>
+    <div class="mobile">
+      <div class="ui two sticky basic buttons">
+        <a href="#subscribe"
+           class="ui button">
+          <i class="icon mail outline"></i>
+          訂閱
+        </a>
+        <a href="#news"
+           class="ui button">
+          <i class="icon up arrow"></i>
+          回頁首
+        </a>
+      </div>
+    </div>
+  </div>
 
 <div class="ui stripe container">
   <div class="ui two column stackable grid">
@@ -37,8 +54,10 @@ years:
         {% for news_id in page.years %}
         {% assign year = news_id | append: "" %}
 
-        <h2 class="ui dividing header">{{ year }} 年</h2>
         <div class="ui divided items">
+          <h2 class="ui dividing header">{{ year }} 年
+            <i class="icon down chevron"></i>
+          </h2>
 
           {% for item in site.data.news[year] reversed %}
 
