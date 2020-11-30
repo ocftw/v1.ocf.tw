@@ -68,7 +68,8 @@
   {% endif %}
 
   {% if page.css %}
-  <link rel="stylesheet" href="{{ page.css }}"/>
+  <link rel="stylesheet"
+        href="/assets/styles/{{ page.css }}" />
   {% endif %}
 
 </head>
@@ -117,7 +118,7 @@
   {% endif %}
 
   {% if page.js %}
-  <script src="{{ page.js }}"></script>
+  <script src="/assets/scripts/{{ page.js }}"></script>
   {% endif %}
 
   <script src="/assets/scripts/ga.js"></script>
