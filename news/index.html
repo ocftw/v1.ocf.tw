@@ -45,87 +45,116 @@ years:
     </div>
   </div>
 
-<div class="ui stripe container">
-  <div class="ui two column stackable grid">
-    <div class="ten wide column">
+  <div class="ui stripe container">
+    <div class="ui two column stackable grid">
+      <div class="ten wide column">
 
-      <section id="newsletters">
+        <section id="newsletters">
 
-        {% for news_id in page.years %}
-        {% assign year = news_id | append: "" %}
+          {% for news_id in page.years %}
+          {% assign year = news_id | append: "" %}
 
-        <div class="ui divided items">
           <h2 class="ui dividing header">{{ year }} 年
             <i class="icon down chevron"></i>
           </h2>
 
-          {% for item in site.data.news[year] reversed %}
+          <div class="ui divided items">
 
-          <div class="item">
-            <div class="image">
-              <img src="{{ item.cover }}" alt="" />
-            </div>
-            <div class="content">
-              <h4 class="ui header">
-                <a href="{{ item.link }}" target="_blank">
-                  {{ item.title }}
-                </a>
-              </h4>
-              <div class="meta">{{ item.subtitle }}</div>
-              <div class="description">
-                <p>
-                  {{ item.description }}
-                </p>
+            {% for item in site.data.news[year] reversed %}
+
+            <div class="item">
+              <div class="image">
+                <img src="{{ item.cover }}"
+                     alt="" />
+              </div>
+              <div class="content">
+                <h4 class="ui header">
+                  <a href="{{ item.link }}"
+                     target="_blank">
+                    {{ item.title }}
+                  </a>
+                </h4>
+                <div class="meta">{{ item.subtitle }}</div>
+                <div class="description">
+                  <p>
+                    {{ item.description }}
+                  </p>
+                </div>
               </div>
             </div>
+
+            {% endfor %}
+
           </div>
 
           {% endfor %}
 
-        </div>
+        </section>
+      </div>
+      <div class="six wide column">
+        <section id="subscribe"
+                 class="ui sticky secondary basic segment">
+          <h2 class="ui center aligned small icon header">
+            <i class="mail outline icon"></i>
+            訂閱電子報
+          </h2>
+          <form class="ui form"
+                action="https://ocf.neticrm.tw/civicrm/profile/create?gid=12&amp;reset=1"
+                method="post"
+                name="Edit"
+                id="Edit">
+            <div class="required field">
+              <label for="last_name">姓氏</label>
+              <input type="text"
+                     name="last_name"
+                     id="last_name"
+                     placeholder="姓氏"
+                     required />
+            </div>
+            <div class="required field">
+              <label for="first_name">名字</label>
+              <input type="text"
+                     name="first_name"
+                     id="first_name"
+                     placeholder="名字"
+                     required />
+            </div>
+            <div class="required field">
+              <label for="email-Primary">電子信箱</label>
+              <input type="email"
+                     name="email-Primary"
+                     id="email-Primary"
+                     placeholder="yourname@example.com"
+                     required />
+            </div>
+            <div class="required field">
+              <div class="ui checkbox">
+                <input type="checkbox"
+                       id="group[2]"
+                       name="group[2]"
+                       value="1"
+                       checked />
+                <label>我要訂閱電子報</label>
+              </div>
+            </div>
+            <p class="g-recaptcha"
+               data-sitekey="6LedpB4TAAAAAEubH6xXlcjLa1D8jXzMVMG6Q3J2">
+            </p>
+            <button class="ui submit button"
+                    name="_qf_Edit_next"
+                    value="訂閱"
+                    type="submit"
+                    id="_qf_Edit_next">訂閱</button>
+            <script src="//www.google.com/recaptcha/api.js"></script>
 
-        {% endfor %}
+          </form>
 
-      </section>
-    </div>
-    <div class="six wide column">
-      <section id="subscribe" class="ui sticky secondary basic segment">
-      <h2 class="ui center aligned small icon header">
-        <i class="mail outline icon"></i>
-        訂閱電子報
-      </h2>
-      <form class="ui form" action="https://ocf.neticrm.tw/civicrm/profile/create?gid=12&amp;reset=1" method="post" name="Edit" id="Edit">
-        <div class="required field">
-          <label for="last_name">姓氏</label>
-          <input type="text" name="last_name" id="last_name" placeholder="姓氏" required />
-        </div>
-        <div class="required field">
-          <label for="first_name">名字</label>
-          <input type="text" name="first_name" id="first_name" placeholder="名字" required />
-        </div>
-        <div class="required field">
-          <label for="email-Primary">電子信箱</label>
-          <input type="email" name="email-Primary" id="email-Primary" placeholder="yourname@example.com" required />
-        </div>
-        <div class="required field">
-          <div class="ui checkbox">
-            <input type="checkbox" id="group[2]" name="group[2]" value="1" checked />
-            <label>我要訂閱電子報</label>
-          </div>
-        </div>
-        <p class="g-recaptcha" data-sitekey="6LedpB4TAAAAAEubH6xXlcjLa1D8jXzMVMG6Q3J2">
-        </p>
-        <button class="ui submit button" name="_qf_Edit_next" value="訂閱" type="submit" id="_qf_Edit_next">訂閱</button>
-        <script src="//www.google.com/recaptcha/api.js"></script>
+        </section>
 
-      </form>
-
-      </section>
-      
+      </div>
     </div>
   </div>
-</div>
 
-<hr class="ui hidden divider">
+  <hr class="ui hidden divider">
 
 </main>
