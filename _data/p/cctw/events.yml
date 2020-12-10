@@ -1,0 +1,15 @@
+- id: cctw
+  name: "Creative Commons Taiwan Chapter Meetup"
+  name_en: ""
+  description: "好久沒聚會囉！這次的 Chapter meetup，我們會有一些快速的分享活動，包含 Creative Commons Summit 2020、CC Taiwan Chapter 近期的推廣狀況、和一些小小成果，歡迎各位一起參加！
+關於 CC 台灣社群請參訪：https://cc.ocf.tw/"
+  start: 2020/11/08
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/cctwmeetup3
+  cover_image: /people/partners/cctw_logo.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - cctw

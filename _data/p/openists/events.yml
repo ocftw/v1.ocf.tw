@@ -76,5 +76,38 @@
   project_ids:
     - openists
 
+- id: 
+  name: "開源教 - OBS 快樂錄影人生 "
+  name_en: ""
+  description: OBS (Open Broadcaster Software) 是一款跨平台的影片合成處理軟體，他能夠透過簡單的設備和操作，達到視訊錄影、製作成子母畫面、串流到社交平台直播的功能。
+本次開源教將介紹如何使用相對合理的成本來達成子母畫面的直播以及錄影等辦活動會需要的技巧。"
+  start: 2020/10/28
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/20201028-obs
+  cover_image: /p/openists/openists-20201028.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - openists
+
+
+- id: 
+  name: "開源教 - 教我用資料科學檢測異常帳號"
+  name_en: ""
+  description: "網軍與假新聞在台灣鬧得沸沸揚揚，導致網路上人人自危，各大社群媒體與網路論壇深受其害，網路上的信任感遭到破壞、對立激化，網路上不乏分析異常帳號的網站，但是不夠透明開放。因此我們試著自己找出異常的帳號，使用開源的工具、開放的資料和公眾授權的分析報告，期望在公開透明的前提下，增進平台上的互信基礎。"
+  start: 2020/12/24
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/20201224-data-scientist
+  cover_image: /p/openists/openists-20201224.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - openists
+
+
 
 
