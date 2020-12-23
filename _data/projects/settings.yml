@@ -115,6 +115,7 @@ card:
   - openists
   - eid
   - ocflab
+  - openchain
 card_en:
 # 英文專案列表頁上的專案卡片，會以這個清單的順序排列。
   - admin

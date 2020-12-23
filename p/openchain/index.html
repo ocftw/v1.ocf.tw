@@ -1,0 +1,130 @@
+---
+layout: p
+# 要套用哪種版型，凡是專案頁都套用 p 版型，所以這行不用改
+
+# ------ og 設定（選填） ------
+
+og_title: OpenChain 台灣社群
+# 這頁的 og title，若留空，會採用專案的 name
+og_description: <p>OpenChain 專案隸屬於 Linux Foundation Project，透過簡化及標準化開源合規實務，協助產業在碰觸或思索開源合規 (Open Source Compliance) 爭議或政策時，可更為有效滿足開源合規，從而建立產業供應鏈對開源軟體的信任。包含微軟、Google、高通、西門子、Sony 與 Uber 等都已採用OpenChain 進行開源合規管理並通過 OpenChain 認證。</p> 
+# 這頁的 og description，若留空，會採用專案的 description
+og_image: /p/openchain/openchain視覺.jpg
+# 這頁的 og image 網址，若留空，會採用專案的 cover_image
+
+# ------ header 設定（選填） ------
+
+header_image_opacity: 
+# 這頁上方大標題區塊的背景圖的透明度，可填入 0 到 1 之間的數字，若留空，預設值是 0.95
+header_veil_opacity: 
+# 這頁上方大標題區塊的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若留空，預設值是 0.1
+
+# ------ 內文設定（選填） ------
+
+show_events: yes
+# 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若留空，則不顯示計畫成果區塊
+gsheet_url: 
+# 收知明細表的 google spreadsheet 網址，若留空，則不顯示收支明細區塊
+show_sponsors: 
+# 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若留空，則不顯示贊助商區塊
+show_donors: 
+# 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若留空，則不顯示捐助人區塊
+
+# ------ 右側邊欄設定（選填） ------
+
+show_progress: 
+# 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若留空，則不顯示進度條
+progress:
+# 專案募款進度，會出現在專案列表頁右側邊欄
+  duration: 
+  # 募款期間，若留空，則不顯示此項目
+  goal: 
+  # 募款目標金額，若留空，則不顯示此項目
+  current: 
+  # 已募得款項金額，若留空，則不顯示此項目
+  percent: 
+  # 進度百分比，若留空，則不顯示此項目
+  count: 
+  # 捐款人數，若留空，則不顯示此項目
+  updated: 
+  # 資料更新日期，若留空，則不顯示此項目
+cpid: 
+# 專案從 neticrm 抓募款進度資料時使用的 id，若留空，則不從 neticrm 抓資料
+show_child_projects: yes
+# 如果有子專案，是否在右側邊欄下方顯示通往子專案的連結。若留空，則不顯示
+---
+
+<!-- 以下快速複製用
+
+layout: p
+
+og_title: 
+og_description: 
+og_image: 
+
+header_image_opacity: 
+header_veil_opacity: 
+
+show_events: yes
+gsheet_url: 
+show_sponsors: 
+show_donors: 
+
+show_progress: 
+progress:
+  duration: 
+  goal: 
+  current: 
+  percent: 
+  count: 
+  updated: 
+cpid: 
+show_child_projects: yes
+
+以上快速複製用 -->
+
+<!-- 專案頁內文 -->
+
+<h2 class="ui dividing header">計畫說明</h2>
+
+<p>
+多數 ICT 廠商都有使用自由開源軟體，但在授權合規上由於缺乏管理流程，常呈現一片紊亂，再者，若軟體開發涉及上下游各公司加疊的供應鏈關係，會讓授權問題更加複雜難解。
+隸屬於 Linux Foundation Project 的 OpenChain 專案，則專門為輔助資通訊科技界做好開源合規而生；且已在美國時間 2021/12/16正式成為 <a href="https://www.iso.org/standard/81039.html">ISO 認證的一環</a>（序號為 ISO/IEC 5230:2020）。</p>
+
+<div class="ui list">
+  <div class="item">
+    <i class="pointing right icon"></i>
+    <div class="content">
+    通過 OpenChain 驗證的廠商的優勢在於，OpenChain 可協助達成以下目標：
+        <ul>
+            <li>產出使用的自由開源軟體清單</li>
+            <li>適時提出應提供的開源程式源碼</li>
+            <li>理解某些專案認證金鑰的提供要求，並預作資安防護上可行模式的規劃</li>
+            <li>協助完成授權條款所需的顯名標示及免責標示的要求</li>
+        </ul>
+    </div>
+  </div>
+</div>
+<p>OpenChain 臺灣社群，致力推廣開源合規，積極為臺灣在地的產業公司導入解決方案，不僅可解決其內部長期缺乏開源合規管理的問題，更能爭取供應鏈內其他廠商的信任與合作。
+長遠來看，良好的開源合規狀態更有助於台灣公司真正與國際產生「深度接軌」：除了使用開放源碼，也釋放使用及改作的源碼，與社群產生更多良性的互動，從而貼近自由開源軟體的生態系，直接「身處」最新趨勢，並參與未來走向的發展。
+</p>
+
+<div class="ui list">
+  <div class="item">
+    <i class="telegram icon"></i>
+    <div class="content">
+      <a href="tg://resolve?domain=openchain_twg">OpenChain 台灣社群 Telegram</a>
+    </div>
+  </div>
+  <div class="item">
+    <i class="home icon"></i>
+    <div class="content">
+      <a href="https://openchain-project.github.io/OpenChain-TWG/">OpenChain 台灣社群官網</a>
+    </div>
+  </div>
+  <div class="item">
+    <i class="globe icon"></i>
+    <div class="content">
+     <a href="https://www.openchainproject.org">OpenChain專案計畫官網</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+name: OpenChain 台灣社群
+name_en: OpenChain Taiwan Work Group
+tagline: 
+cover: /p/openchain/openchain視覺.jpg
+description: OpenChain 專案隸屬於 Linux Foundation Project，透過簡化及標準化開源合規實務，協助產業在碰觸或思索開源合規 (Open Source Compliance) 爭議或政策時，可更為有效滿足開源合規，從而建立產業供應鏈對開源軟體的信任。包含微軟、Google、高通、西門子、Sony 與 Uber 等都已採用OpenChain 進行開源合規管理並通過 OpenChain 認證。
+
+link:
+  - title: 專案介紹
+    url: /p/openchain
+    target: _self
+type_id:
+  - community
+topic_id:
+  - source
+field_id:
+  - it
+avatar: 
+organizer_id:
+  - 
+advisor_id:
+co-organizer_id:
+implementer_id:
+sponsor_id:
+coordinator_id:
+donors:
+meta:
+start: 
+end: 
+tag:
+abbr: 
+month: 
+board_id:
+  - bob
+staff_id: 
+  - rosa
+consultant_id:
+volunteer_id:
