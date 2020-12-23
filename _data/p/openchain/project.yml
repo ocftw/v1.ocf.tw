@@ -34,7 +34,7 @@ actions:
     icon: 
     
 organizer_ids:
-  - openchain
+  - ocf
 co-organizer_ids:
   -
 coordinator_id:
