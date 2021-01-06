@@ -1,0 +1,334 @@
+# 這個檔案是年度成果報告資料檔的範例
+
+title: YYYY 回顧
+# 頁首的大標題
+
+description: text
+# 頁首的副標題
+
+color: text
+# 頁首的背景圖混色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
+
+cover: url
+# 頁首的背景圖片
+
+cover_image_alt: ''
+# 頁首背景圖片的替代文字
+
+cover_image_opacity: 0.9
+# 頁首的背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
+
+cover_veil_opacity: 0.3
+# 蓋在頁首的背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
+
+items:
+# 以下每個項目代表一個簡報區塊
+
+  - type: header
+    # 簡報區塊的類型， header 為標題式區塊，不分欄
+
+    title: text
+    # header 區塊的標題，建議跟首頁的 what we do 對應
+
+    anchor: text
+    # 可以連到 header 區塊的 anchor 名稱
+
+    icon: text
+    # header 區塊的 icon，建議跟首頁的 what we do 對應
+
+    background_color: text
+    # header 區塊的被景色，可以是 semantic ui 定義的顏色，若留空則顯示為黑色。參考： http://semantic-ui.com/elements/segment.html#colored
+
+    description: text
+
+    cover: url
+    # header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
+
+    cover_image_alt: ''
+    # header 區塊背景圖片的替代文字
+
+    cover_image_opacity: 0.9
+    # header 區塊背景圖片的透明度，可填入 0 到 1 之間的數字，若留空，會採用預設值 0.9
+
+    cover_veil_opacity: 0.3
+    # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
+
+    button:
+    # 在 header 區塊底部的按鈕，若留空則不顯示
+
+      title: text
+      # 按鈕顯示的文字
+
+      url: url
+      # 按下按鈕後前往的網址
+
+      position: text
+      # 按鈕水平位置： left / right / center
+
+  - type: image_header
+    # 簡報區塊的類型， image_header 為圖片式的標題區塊，不分欄
+
+    anchor: text
+    # 可以連到 image_header 區塊的 anchor 名稱
+
+    background_color: text
+    # image_header 區塊的被景色，可以是 semantic ui 定義的顏色，若留空則顯示為黑色。參考： http://semantic-ui.com/elements/segment.html#colored
+
+    cover: url
+    # image_header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
+
+    cover_image_alt: ''
+    # image_header 區塊背景圖片的替代文字
+
+    button:
+    # 在 image_header 區塊底部的按鈕，若留空則不顯示。若設定按鈕，請一併設定 background_color，因為手機版上會使用它當按鈕的背景色
+
+      title: text
+      # 按鈕顯示的文字
+
+      url: url
+      # 按下按鈕後前往的網址
+
+      position: text
+      # 按鈕水平位置： left / right / center ；螢幕寬度小於 640px 時會一律置中對齊
+
+  - type: content
+    # 簡報區塊的類型， content 為內容式區塊，分兩欄
+
+    single_column: true / false
+    # 設定此簡報區塊是否為單欄，若 false 則為預設的兩欄
+
+    columns:
+    # content 區塊的兩欄的內容
+
+      - type: image
+        # content 區塊內欄位的類型，若為 image 也就是圖片區塊，請放在第一欄
+        # type 為必填
+
+        swap: true / false
+        # 此欄的位置在桌面板網頁上是否要左右對調
+
+        url: url
+        # image 欄的圖檔網址，必填
+
+      - type: slider
+        # content 區塊內欄位的類型，若為 slider 也就是圖片輪播區塊，請放在第一欄
+        # type 為必填
+
+        swap: true / false
+        # 此欄的位置在桌面板網頁上是否要左右對調
+
+        slides:
+        # slider 內的圖檔們的網址
+          - url: url
+          - url: url
+
+      - type: collage
+        # content 區塊內欄位的類型，若為 collage 也就是圖片拼貼區塊，請放在第一欄
+        # type 為必填
+
+        swap: true / false
+        # 此欄的位置在桌面板網頁上是否要左右對調
+
+        items:
+        # collage 內容物
+
+          - person_id: id
+            # 拼圖項目，若設定 person_id 則會自動抓取該個人的資料
+
+          - org_id: id
+            # 拼圖項目，若設定 person_id 則會自動抓取該組織的資料
+
+          - src: image url
+            title: text
+            # 拼圖項目，若無設定 person_id 或 org_id，則會以 src 為圖檔網址來源，同時以 title 為圖檔上的文字標示
+
+      - type: article
+        # content 區塊內欄位的類型，若為 article 也就是文章區塊，請放第二欄
+        # type 為必填
+
+        swap: true / false
+        # 此欄的位置在桌面板網頁上是否要左右對調
+
+        title: text
+        # article 欄的標題，必填
+
+        subtitle: text
+        # article 欄的副標題
+
+        description: text
+        # article 欄的簡介段落
+
+        items:
+        # article 欄的清單
+
+          - project_id: text
+            # 清單項目，若設定 project_id 則會自動抓取該年度該專案的資料
+
+          - title: text
+            # 清單項目，若無設定 project_id 則可手動寫入內容
+            # title 為清單項目的顯示文字，必填
+
+            url: url
+            # 清單項目的連結網址
+
+            month: integer
+            # 清單項目的月份標籤
+
+        logos:
+        # article 欄的合作單位 logo 牆
+
+          - org_id: text
+            # logo 資料來源，若設定 org_id 則會自動抓取該組織的資料
+
+          - src: url
+            # logo 的圖檔網址
+
+            url: url
+            # logo 的連結網址
+
+            title: text
+            # logo 圖片的標題
+
+        logo_height: css (e.g. 5rem)
+        # logo 牆中每個 logo 圖片的高度，若省略，則預設是 5rem（同首頁 logo 牆的設定）
+
+        action:
+        # article 欄的 call to action 按鈕
+
+          title: text
+          # 按鈕內的顯示文字
+
+          url: url
+          # 按鈕的連結網址
+
+        footer: text
+
+      - type: iframe
+        # content 區塊內欄位的類型，若為 iframe 也就是內嵌網頁區塊，放在第一欄或第二欄都可以
+        # type 為必填
+
+        swap: true / false
+        # 此欄的位置在桌面板網頁上是否要左右對調
+
+        url: url
+        # iframe 欄的內嵌頁面網址，必填
+
+        height: css (e.g. 20rem)
+        # iframe 欄的高度，可視內嵌網頁長度而調整
+
+        title: text
+        # iframe 欄的標題
+
+        description: text
+        # iframe 欄的描述文字
+
+        scrolling: "yes / no"
+        # iframe 是否要有捲軸，若 "yes" 則會有，若 "no" 或省略不填則不會有
+
+
+# ------ 以下無註解 & 內建預設標題快速複製版 ------
+
+title: 201_ 回顧
+description: 
+cover: 
+items:
+  - type: header
+    title: 社群支援
+    icon: hand rock
+    background_color: yellow
+    description: 
+  - type: content
+    columns:
+      - type: image
+        swap: false
+        url: 
+      - type: article
+        title: 
+        subtitle: 
+        description: 
+        items:
+          - project_id: 
+          - title: 
+            url: 
+            month: 
+        action:
+          title: 
+          url: 
+        logos:
+          - src: 
+            url: 
+            title: 
+            height: 
+        footer: 
+  - type: content
+    columns:
+      - type: slider
+        swap: true
+        slides:
+          - url: 
+      - type: article
+        title: 
+        subtitle: 
+        description: 
+        items:
+          - project_id: 
+          - title: 
+            url: 
+            month: 
+        action:
+          title: 
+          url: 
+  - type: header
+    title: 組織合作
+    icon: building outline
+    background_color: olive
+    description: 
+  - type: header
+    title: 國際交流
+    icon: plane
+    background_color: teal
+    description: 
+  - type: header
+    title: 顧問諮詢
+    icon: idea
+    background_color: blue
+    description: 
+  - type: header
+    title: 政策倡議
+    icon: announcement
+    background_color: violet
+    description: 
+  - type: header
+    title: 財務報告
+    icon: dollar
+    background_color: purple
+    description: 
+  - type: content
+    columns:
+      - type: iframe
+        url: url
+        height: 
+        title: 
+        description: 
+        scrolling: 
+      - type: iframe
+        url: url
+        height: 
+        title: 
+        description: 
+        scrolling: 
+  - type: content
+    single_column: true
+    columns:
+      - type: iframe
+        url: url
+        height: 
+        title: 
+        description: 
+        scrolling: 
+  - type: header
+    title: 由衷感謝
+    icon: heart
+    background_color: pink
+    description: 
