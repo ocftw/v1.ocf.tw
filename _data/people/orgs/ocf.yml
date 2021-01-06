@@ -52,6 +52,12 @@ join:
   - title: GitHub
     url: https://github.com/ocftw
     icon: github
+  - title: 徵才資訊
+    url: http://blog.ocf.tw/2019/04/jobs.html
+    icon: 
+  - title: 服務學習
+    url: http://blog.ocf.tw/2020/10/blog-post.html
+    icon: 
   - title: 媒體區
     url: /mediakit
     icon: image
