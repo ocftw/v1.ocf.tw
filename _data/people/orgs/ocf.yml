@@ -27,8 +27,14 @@ contact:
     taipei: (10566) 2F., No. 636-1, Sec. 4, Bade Rd., Songshan Dist., Taipei City 105, Taiwan (R.O.C.)
     taoyuan: (33059) No.807, Zhongshan Rd., Taoyuan Dist., Taoyuan City 330, Taiwan
 subscribe:
+  - title: 電子報
+    url: https://ocf.tw/news/
+    icon: rss
   - title: Blog
     url: http://blog.ocf.tw/
+    icon: rss
+  - title: OCFLab
+    url: https://lab.ocf.tw/
     icon: rss
   - title: Facebook
     url: https://www.facebook.com/www.ocf.tw
@@ -39,9 +45,6 @@ subscribe:
   - title: Twitter
     url: https://twitter.com/ocftaiwan
     icon: twitter
-  - title: OCFLab
-    url: https://lab.ocf.tw/
-    icon: rss
 join:
   - title: Google Groups
     url: https://groups.google.com/forum/#!forum/ocf-general
