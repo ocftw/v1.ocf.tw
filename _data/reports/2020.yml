@@ -1,4 +1,4 @@
-title: 開放文化基金會 2020 成果報告
+title: 開放文化基金會 2020 成果報告（建構中）
 description: 
 cover: /p/admin/2020/cover.png
 color: white
@@ -8,12 +8,13 @@ items:
   - type: content
     columns:
       - type: article
-        swap: false
+        swap: true
         title: 開放文化
         description: 起源於開放原始碼運動，從軟體開始將開放、透明、讓眾人能存取的精神，擴展到文件格式、數位資料、甚至在產業和組織的工作方式中。
         action:
           title: 看更多關於開放
           url: https://ocf.tw/about/
+        action:
           title: 捐款支持
           url: https://300
       - type: article
