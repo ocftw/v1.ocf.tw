@@ -12,17 +12,11 @@ items:
         title: 開放文化
         description: 起源於開放原始碼運動，從軟體開始將開放、透明、讓眾人能存取的精神，擴展到文件格式、數位資料、甚至在產業和組織的工作方式中。
         action:
-          title: 看更多關於開放
-          url: https://ocf.tw/about/
-        action:
           title: 捐款支持
           url: https://300
-      - type: article
-        title: 提供社群獨立財務後勤支援
-        description: 在 OCF 的每個社群專案都是獨立自主運作，我們讓社群有穩健的行政支援以完善開源各類活動。
-        action:
-          title: 捐款支持開源社群
-          url: https://ocf.tw/p/community
+      - type: image
+        url: /p/admin/2020/p1-1.jpg
+        title: XDD
   - type: content
     single_column: true
     columns:
