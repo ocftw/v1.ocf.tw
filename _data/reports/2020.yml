@@ -12,9 +12,9 @@ items:
         title: 開放文化
         description: 起源於開放原始碼運動，從軟體開始將開放、透明、讓眾人能存取的精神，擴展到文件格式、數位資料、甚至在產業和組織的工作方式中。
         items: 
-          - 我們相信開放讓世界更美好
-          - 我們努力建設開源文化根基
-          - 我們重視社群的文化和發展
+          - title: 我們相信開放讓世界更美好
+          - title: 我們努力建設開源文化根基
+          - title: 我們重視社群的文化和發展
         action:
           title: 捐款支持
           url: https://300
@@ -42,14 +42,14 @@ items:
         title: 開放文化
         description: 2020，有 9 個新社群與 OCF 展開合作，讓台灣的開源生態系，在這艱難的一年間仍有所茁長、不停邁步。
         items:
-          - g0v intl
-          - Go
-          - DataSci
-          - Cofacts
-          - LOD Taiwan
-          - OpenChain
-          - PostgreSQL
-          - PyData Taipei
-          - CSCS
+          - title: g0v intl
+          - title: Go
+          - title: DataSci
+          - title: Cofacts
+          - title: LOD Taiwan
+          - title: OpenChain
+          - title: PostgreSQL
+          - title: PyData Taipei
+          - title: CSCS
       - type: image
         url: /p/admin/2020/p2-1.png
