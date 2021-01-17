@@ -20,4 +20,9 @@ items:
     anchor: admin
     background_color: teal
     cover: /p/admin/2020/p1-header.png
-    cover_image_alt: 
+    cover_image_alt:
+  - type: image_header
+    anchor: admin
+    background_color: teal
+    cover: /p/admin/2020/p2-header.png
+    cover_image_alt:  
