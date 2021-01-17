@@ -5,18 +5,17 @@ color: white
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
 items:
-  - type: image_header
-    anchor: admin
-    background_color: teal
-    cover: /p/admin/2019/2.png
-    cover_image_alt: 
-
   - type: content
     columns:
-      - type: iframe
-        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQC4Bmr9unjTQg8HqDrYkJC6o6_IUM52Fzh9i4yTbKQqcv-hddD_cJOpqj9C1F8--eeuTEQuMcEXetw/pubchart?oid=1994977453&format=interactive
-        height: 20rem
-        scrolling: "no"
+      - type: article
+        swap: false
+        title: 開放文化
+        description: 起源於開放原始碼運動，從軟體開始將開放、透明、讓眾人能存取的精神，擴展到文件格式、數位資料、甚至在產業和組織的工作方式中。
+        action:
+          title: 看更多關於開放
+          url: https://ocf.tw/about/
+          title: 捐款支持
+          url: https://300
       - type: article
         title: 提供社群獨立財務後勤支援
         description: 在 OCF 的每個社群專案都是獨立自主運作，我們讓社群有穩健的行政支援以完善開源各類活動。
