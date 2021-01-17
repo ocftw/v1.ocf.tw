@@ -1,7 +1,9 @@
-title: 開放文化基金會 2020 成果報告
-description: 
-cover: 
-items:
+title: 2019 Annual Report | Open Culture Foundation
+description: 🛩Follow us to an open-source journey🛩 It's our sixth year! <br> Thanks to all of you, for supporting open-source, that made us continue to contribute to open-source and communities. We support 16+ open-source communities, 7+ international conferences, visit 34+ countries in 2019. Let's check out what happened in 2019!
+cover: /p/admin/2019/6.png
+color: write
+cover_image_opacity: 0.9 
+cover_veil_opacity: 0.1
   - type: content
     columns:
       - type: image_header
