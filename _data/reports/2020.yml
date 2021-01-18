@@ -217,29 +217,14 @@ items:
   - type: content
     columns:
       - type: article
-        title: 臉書追蹤 OCF，活動不會錯過！
+        title: 追蹤 OCF，活動不會錯過！
         items: 
-          - title: <a href="https://lihi.cc/NKpPE" target=_blank>Follow dddUs on Facebook</a>
-        items: 
-          - title: <a href="https://lihi.cc/NKpPE" target=_blank>Follow dddUs on Facebook</a>
+          - title: <a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
       - type: article  
         title: 訂閱 EDM，開源資訊不漏接
+        items: 
+          - title: <a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a><br><a href="https://ocf.tw/p/ocflab/" target=_blank>OCFLab</a>
         swap: false
-
-
-  - type: content
-    columns:
-      - type: article
-        title: 臉書追蹤 OCF，活動不會錯過！
-        action: 
-          title: Follow Us on Facebook
-          url: https://lihi.cc/NKpPE
-      - type: article  
-        title: 訂閱 EDM，開源資訊不漏接
-        swap: false
-        action:
-          title: 訂閱 OCF 電子報
-          url: https://lihi.cc/mePVc
 
     items:
     cover_image_alt: ''
