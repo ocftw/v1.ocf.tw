@@ -33,13 +33,13 @@ items:
   - type: header
     title: 
     icon: handshake outline
-    background_color: 
+    background_color: grey
     description: OCF 的成立，是由多個開源、科技社群共同發起而開始，因此從成立一開始，透過法人組織穩定支援社群專案，使具有各種樣貌、特性的科技社群得以獲得系統化的基礎行政和財務服務，就是 OCF 最大的任務！2020 年，OCF 共支援了 xx 個社群專案，透過這樣的法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。OCF 不需要成為包山包海的組織，我們期許自己能打造一個健康的環境，捲動更多社群一起關心議題、開創更多專案。
   - type: content
     columns:
       - type: article
         swap: true
-        title: 開放文化
+        title: 
         description: 2020，有 9 個新社群與 OCF 展開合作，讓台灣的開源生態系，在這艱難的一年間仍有所茁長、不停邁步。
         items:
           - title: g0v intl
@@ -53,3 +53,18 @@ items:
           - title: CSCS
       - type: image
         url: /p/admin/2020/p2-1.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 對於平日忙於課業和事業的社群夥伴們，社群營運會面臨到的人事聘雇、合約簽立和財會稅務的事務很讓人頭痛，OCF 協助社群完成這些複雜繁瑣的工作。
+        items:
+          - project_id: coscup
+          - project_id: sitcon
+          - project_id: pycon
+          - project_id: g0vsummit
+          - title: <a href="https://ocf.tw/p/community">更多社群專案</a>
+      - type: image
+        url: /p/admin/2020/p3-1.jpg
