@@ -24,7 +24,7 @@ items:
     anchor: admin
     background_color: teal
     cover: /p/admin/2020/p1-header.png
-    cover_image_alt:
+    cover_image_alt: OCF 活動重點成果
   - type: image_header
     anchor: admin
     background_color: teal
@@ -76,7 +76,7 @@ items:
   - type: image_header
     anchor: admin
     background_color: teal
-    cover: /p/admin/2020/p2-header.png
+    cover: /p/admin/2020/p3-header.png
     cover_image_alt:  議題串連
 
   - type: header
@@ -128,7 +128,13 @@ items:
   - type: image_header
     anchor: admin
     background_color: teal
-    cover: /p/admin/2020/p2-header.png
+    cover: /p/admin/2020/p4-header.png
+    cover_image_alt:  議題串連重點成果
+
+  - type: image_header
+    anchor: admin
+    background_color: teal
+    cover: /p/admin/2020/p5-header.png
     cover_image_alt:  開放文化推廣
 
   - type: header
@@ -180,13 +186,13 @@ items:
   - type: image_header
     anchor: admin
     background_color: teal
-    cover: /p/admin/2020/p2-header.png
+    cover: /p/admin/2020/p6-header.png
     cover_image_alt:  財務
 
   - type: image_header
     anchor: admin
     background_color: teal
-    cover: /p/admin/2020/p2-header.png
+    cover: /p/admin/2020/p7-header.png
     cover_image_alt:  成員
 
   - type: content
