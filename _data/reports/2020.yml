@@ -99,4 +99,55 @@ items:
       - type: image
         url: /p/admin/2020/p4-1.jpg
 
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 無孔不入的數位科技雖帶來便利，但也伴隨著個資外洩、隱私侵犯、輿論操控、假訊息混淆視聽等隱憂。OCF 致力於推廣數位人權議題，期望透過倡議、聚會、串連國內外社群等方式，提升公民社會對網路自由的關注。  
+        items:
+          - title: <a href="https://www.eid.tw/" target=_blank>倡議修法與公開數位身分證資訊</a>
+          - title: <a href="https://ocf.tw/p/pttid/" target=blank>開源 PTT 帳號分析工具</a>
+          - title: <a href="https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q?view" target=_blank>發起每月網路自由小聚</a>
+          - title: 參與數位人權 <a href="https://www.rightscon.org/" target=_blank>RightsCon</a>、<a href="https://www.irex.org/project/internet-freedom-festival" target=_blank>Internet Freedom Festival</a> 等活動。
+      - type: image
+        url: /p/admin/2020/p5-1.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 依照國際標準，行政院和立法院在 2020 年全面啟動，分別推動「開放政府國家行動方案」和「開放國會行動方案」，OCF 以民間角色協力舉辦相關培力工作坊，分享開放政府宗旨和國際經驗。另外也擔任第一屆開放國會委員會民間委員，實質參與擬定開放國會行動方案。
+        items:
+          - title: <a href="https://ocftw.kktix.cc/events/opengov2020" target=_blank>2020 開放政府培力工作坊</a>
+          - title: <a href="https://www.ly.gov.tw/Pages/List.aspx?nodeid=43874" target=blank>立法院開放國會行動方案</a>
+      - type: image
+        url: /p/admin/2020/p5-2.png
+
+  - type: image_header
+    anchor: admin
+    background_color: teal
+    cover: /p/admin/2020/p2-header.png
+    cover_image_alt:  開放文化推廣
+
+  - type: header
+    title: 
+    icon: sync
+    background_color: grey
+    description: 什麼是開放文化？是初認識 OCF 的人都會問的問題。<br>從程式原始碼，到資料、政府、公民社會，當「開放」得以形成一種文化，不同群體能夠在不同的素材當中，藉由科技工具找到直接交流和協同合作的模式。<br><br>面對快速改變的數位時代，OCF 希望能讓更多人了解開放文化的重要，使社會的成果結晶得以不被單一群體掌控。<br>而藉由了解開放的科技，也讓人們看見現今數位科技的不開放對人類社會的影響，並一起描繪屬於大家且自由共享的數位科技環境。
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 「<a href="https://lab.ocf.tw/" target=_blank>OCF Lab</a>」是 OCF 運作的資訊平台，希望藉由資訊轉譯、資料收集、基礎專題研究，成為國內外社群和各個不同領域組織的知識交流平台。<br>OCF Lab 關心開放文化、開放科技、數位人權、網路自由相關議題。2020 共刊登 42 篇週報、72 篇中英文專文以及其中 25 篇與媒體合作的專欄文章。
+        items:
+          - title: <a href="https://lab.ocf.tw/category/%e9%80%b1%e5%a0%b1/" target=_blank>數位公民全球週報</a>
+          - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=blank>獨立評論、INSIDE 專欄合作</a>
+          - title: <a href="https://lab.ocf.tw/category/%e5%b0%88%e6%96%87/" target=_blank>專文/編譯文章</a>
+      - type: image
+        url: /p/admin/2020/p5-2.png
+
 
