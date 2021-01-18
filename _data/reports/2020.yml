@@ -60,7 +60,7 @@ items:
           - project_id: sitcon
           - project_id: pycon
           - project_id: g0vsummit
-          - title: <a href="https://ocf.tw/p/community">更多社群專案</a>
+          - title: <a href="https://ocf.tw/p/community" target=_blank>更多社群專案</a>
       - type: image
         url: /p/admin/2020/p3-1.jpg
 
@@ -69,6 +69,6 @@ items:
       - type: article
         swap: true
         title: 
-        description: 研討會的貢獻票和好康總搶不到？OCF 推出 <a href="https://ocf.tw/p/oscvpass/">OSCVPass（開源貢獻者快速通關）</a>特別服務，讓辛勞的開源貢獻者不再慢人一步。只要提早用自己的開源貢獻申請專案資格，就能輕鬆快速地獲取研討會活動的各式優待票或好康福利。2020 年，共有 212 人申請，168 人通過並獲得 SITCON、COSCUP、MOPCON、g0v Summit 提供的專屬開源貢獻者福利。<br><br>左圖：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/">COSCUP on Flickr</a>, CC BY-SA
+        description: 研討會的貢獻票和好康總搶不到？OCF 推出 <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass（開源貢獻者快速通關）</a>特別服務，讓辛勞的開源貢獻者不再慢人一步。只要提早用自己的開源貢獻申請專案資格，就能輕鬆快速地獲取研討會活動的各式優待票或好康福利。2020 年，共有 212 人申請，168 人通過並獲得 SITCON、COSCUP、MOPCON、g0v Summit 提供的專屬開源貢獻者福利。<br><br>左圖：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA
       - type: image
         url: /p/admin/2020/p3-2.jpg
