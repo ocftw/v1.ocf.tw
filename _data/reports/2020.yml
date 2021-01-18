@@ -52,7 +52,7 @@ items:
   - type: content
     columns:
       - type: article
-        swap: true
+        swap: false
         title: 
         description: 對於平日忙於課業和事業的社群夥伴們，社群營運會面臨到的人事聘雇、合約簽立和財會稅務的事務很讓人頭痛，OCF 協助社群完成這些複雜繁瑣的工作。
         items:
@@ -67,7 +67,7 @@ items:
   - type: content
     columns:
       - type: article
-        swap: false
+        swap: true
         title: 
         description: 研討會的貢獻票和好康總搶不到？OCF 推出 <a href="https://ocf.tw/p/oscvpass/">OSCVPass（開源貢獻者快速通關）</a>特別服務，讓辛勞的開源貢獻者不再慢人一步。只要提早用自己的開源貢獻申請專案資格，就能輕鬆快速地獲取研討會活動的各式優待票或好康福利。2020 年，共有 212 人申請，168 人通過並獲得 SITCON、COSCUP、MOPCON、g0v Summit 提供的專屬開源貢獻者福利。<br><br>左圖：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/">COSCUP on Flickr</a>, CC BY-SA
       - type: image
