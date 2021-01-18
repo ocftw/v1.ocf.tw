@@ -42,15 +42,10 @@ items:
         title: 
         description: 2020，有 9 個新社群與 OCF 展開合作，讓台灣的開源生態系，在這艱難的一年間仍有所茁長、不停邁步。
         items:
-          - title: g0v intl
-          - title: Go
-          - title: DataSci
-          - title: Cofacts
-          - title: LOD Taiwan
-          - title: OpenChain
-          - title: PostgreSQL
-          - title: PyData Taipei
-          - title: CSCS
+          - title: g0v 國際交流社群、Golang Taiwan
+          - title: DataSci, Cofacts, CSCS
+          - title: LOD Taiwan, OpenChain
+          - title: PostgreSQL, PyData Taipei
       - type: image
         url: /p/admin/2020/p2-1.png
 
