@@ -219,16 +219,13 @@ items:
       - type: article
         title: 臉書追蹤 OCF，活動不會錯過！
         items: 
-          - title: <a href="https://lihi.cc/NKpPE" target=_blank>Follow Us on Facebook</a>
+          - title: <a href="https://lihi.cc/NKpPE" target=_blank>Follow dddUs on Facebook</a>
+        items: 
+          - title: <a href="https://lihi.cc/NKpPE" target=_blank>Follow dddUs on Facebook</a>
       - type: article  
         title: 訂閱 EDM，開源資訊不漏接
         swap: false
-        action:
-          title: 訂閱 OCF 電子報
-          url: https://lihi.cc/mePVc
-        action:
-          title: 訂閱 OCF 電子報
-          url: https://lihi.cc/mePVc
+
 
   - type: content
     columns:
