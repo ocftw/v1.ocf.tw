@@ -18,6 +18,11 @@
   opacity: 1;
 }
 
+#report .content.container {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 #report .image_header .action {
   position: absolute;
   bottom: 0;
