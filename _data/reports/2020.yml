@@ -218,9 +218,8 @@ items:
     columns:
       - type: article
         title: 臉書追蹤 OCF，活動不會錯過！
-        action: 
-          title: Follow Us on Facebook
-          url: https://lihi.cc/NKpPE
+        items: 
+          - title: <a href="https://lihi.cc/NKpPE" target=_blank>Follow Us on Facebook</a>
       - type: article  
         title: 訂閱 EDM，開源資訊不漏接
         swap: false
