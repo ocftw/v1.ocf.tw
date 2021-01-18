@@ -208,29 +208,42 @@ items:
       - type: article
         title: 感謝贊助好夥伴
         swap: true
-        description: 感謝祐生研究基金會年度計畫贊助，企業夥伴在各項專案活動的支持，更感激不遺餘力投注資源的每一個「你」，讓我們在興盛開放文化的路上元氣爆發！
+        description: 感謝祐生研究基金會年度計畫贊助，如果您也認同開放文化基金會的理念，歡迎加入贊助我們的行列！
       - type: article
         logo_height: 7rem
         logos:
           - org_id: archilife
 
-  - type: image_header
-    cover: /p/admin/2018/thumbsup2.png
-    cover_image_alt: 
-    background_color: tint
   - type: content
     columns:
       - type: article
-        title: 臉書追蹤OCF，活動不會錯過！
+        title: 臉書追蹤 OCF，活動不會錯過！
         action: 
           title: Follow Us on Facebook
           url: https://lihi.cc/NKpPE
       - type: article  
-        title: 訂閱EDM，開源資訊不漏接
+        title: 訂閱 EDM，開源資訊不漏接
         swap: false
         action:
           title: 訂閱 OCF 電子報
           url: https://lihi.cc/mePVc
+          title: 訂閱 OCF 電子報
+          url: https://lihi.cc/mePVc
+
+  - type: content
+    columns:
+      - type: article
+        title: 臉書追蹤 OCF，活動不會錯過！
+        action: 
+          title: Follow Us on Facebook
+          url: https://lihi.cc/NKpPE
+      - type: article  
+        title: 訂閱 EDM，開源資訊不漏接
+        swap: false
+        action:
+          title: 訂閱 OCF 電子報
+          url: https://lihi.cc/mePVc
+
     items:
     cover_image_alt: ''
     ge_opacity: 0.9
