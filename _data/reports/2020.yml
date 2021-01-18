@@ -90,7 +90,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: 自由、開源的概念被運用在生活多處，OCF 從基礎的開源概念到開源軟體合規管理，從開源社群經營到 5G 電信專案開源應用， 累積 20 場次分享、 800+ 人次參與，以不同主題讓大眾了解開源的發展趨勢。<br><br>左圖：JRY_0569, <a href="https://www.flickr.com/photos/coscup/50253602803/in/album-72157715583095936/" target=blank>COSCUP on Flickr</a>, CC BY-SA  
+        description: 左圖：JRY_0569, <a href="https://www.flickr.com/photos/coscup/50253602803/in/album-72157715583095936/" target=blank>COSCUP on Flickr</a>, CC BY-SA<br><br>自由、開源的概念被運用在生活多處，OCF 從基礎的開源概念到開源軟體合規管理，從開源社群經營到 5G 電信專案開源應用， 累積 20 場次分享、 800+ 人次參與，以不同主題讓大眾了解開源的發展趨勢。
         items:
           - project_id: openists
           - title: <a href="https://coscup.org/2020/zh-TW/agenda" target=_blank>開源新手村</a>、<a href="https://lab.ocf.tw/2020/10/07/sfd2020-2/" target=_blank>歡慶軟體自由日</a>
@@ -133,7 +133,7 @@ items:
 
   - type: header
     title: 
-    icon: sync
+    icon: university
     background_color: grey
     description: 什麼是開放文化？是初認識 OCF 的人都會問的問題。<br>從程式原始碼，到資料、政府、公民社會，當「開放」得以形成一種文化，不同群體能夠在不同的素材當中，藉由科技工具找到直接交流和協同合作的模式。<br><br>面對快速改變的數位時代，OCF 希望能讓更多人了解開放文化的重要，使社會的成果結晶得以不被單一群體掌控。<br>而藉由了解開放的科技，也讓人們看見現今數位科技的不開放對人類社會的影響，並一起描繪屬於大家且自由共享的數位科技環境。
 
@@ -148,6 +148,85 @@ items:
           - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=blank>獨立評論、INSIDE 專欄合作</a>
           - title: <a href="https://lab.ocf.tw/category/%e5%b0%88%e6%96%87/" target=_blank>專文/編譯文章</a>
       - type: image
-        url: /p/admin/2020/p5-2.png
+        url: /p/admin/2020/p6-1.png
 
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 
+        items:
+          - title: <a href="https://lab.ocf.tw/2021/01/07/eidseriesall/" target=_blank>【專題】追擊亞洲四國 eID、資安、法制全面釋疑</a>
+          - title: <a href="https://lab.ocf.tw/tag/taicca/" target=blank>【專題】Ｍetadata 系列專文</a>
+          - title: <a href="https://lab.ocf.tw/2020/03/12/opendatanextstep/" target=_blank>【專題】盤點現況，我們需要開放資料專法嗎？</a>
+          - title: <a href="http://www.tfd.org.tw/opencms/chinese/publication/quarterly/data/Quarterly0065.html" target=_blank>民主季刊：數位時代下的民主現場</a>
+      - type: image
+        url: /p/admin/2020/p7-1.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: Photo credit: 左圖：OMH_3364, <a href="https://www.flickr.com/photos/coscup/50253601258/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA<br><br>想了解更多，想支持並一起推廣開放文化！歡迎前往<a href="https://lab.ocf.tw/" target=_blank>下載</a>。
+        items:
+          - title: 開放/自由/共享三主題文宣
+          - title: 開放源碼/開放資料/開放政府六角貼紙
+          - title: 開放/自由/反抗中文標題貼紙
+      - type: image
+        url: /p/admin/2020/p7-2.jpg
+
+  - type: image_header
+    anchor: admin
+    background_color: teal
+    cover: /p/admin/2020/p2-header.png
+    cover_image_alt:  財務
+
+  - type: image_header
+    anchor: admin
+    background_color: teal
+    cover: /p/admin/2020/p2-header.png
+    cover_image_alt:  成員
+
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        title: 超能董事：Pofeng, honki, Bob Chao, clkao, kc chen.<br>
+               熱血志工：ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayared.<br>
+               OCF員工：Singing, Rock, Lulu, Aiya, Rosa, Xini, Claire, kting, TC, huangfu, leaf, 小知. <br> 
+
+  - type: content
+    columns:
+      - type: article
+        title: 感謝贊助好夥伴
+        swap: true
+        description: 感謝祐生研究基金會年度計畫贊助，企業夥伴在各項專案活動的支持，更感激不遺餘力投注資源的每一個「你」，讓我們在興盛開放文化的路上元氣爆發！
+      - type: article
+        logo_height: 7rem
+        logos:
+          - org_id: archilife
+
+  - type: image_header
+    cover: /p/admin/2018/thumbsup2.png
+    cover_image_alt: 
+    background_color: tint
+  - type: content
+    columns:
+      - type: article
+        title: 臉書追蹤OCF，活動不會錯過！
+        action: 
+          title: Follow Us on Facebook
+          url: https://lihi.cc/NKpPE
+      - type: article  
+        title: 訂閱EDM，開源資訊不漏接
+        swap: false
+        action:
+          title: 訂閱 OCF 電子報
+          url: https://lihi.cc/mePVc
+    items:
+    cover_image_alt: ''
+    ge_opacity: 0.9
+    cover_veil_opacity: 0.3
 
