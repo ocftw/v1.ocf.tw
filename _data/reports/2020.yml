@@ -21,6 +21,7 @@ items:
     background_color: teal
     cover: /p/admin/2020/p1-header.png
     cover_image_alt: OCF 活動重點成果
+items:
   - type: header
     anchor: admin
     background_color: grey
@@ -220,9 +221,4 @@ items:
         items: 
           - title: <a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a><br><a href="https://ocf.tw/p/ocflab/" target=_blank>OCFLab</a>
         swap: false
-
-    items:
-    cover_image_alt: ''
-    ge_opacity: 0.9
-    cover_veil_opacity: 0.3
 
