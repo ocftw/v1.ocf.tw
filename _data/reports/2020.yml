@@ -21,6 +21,12 @@ items:
     background_color: teal
     cover: /p/admin/2020/p1-header.png
     cover_image_alt: OCF 活動重點成果
+title: 開放文化基金會 2020 成果報告（建構中）
+description: 
+cover: /p/admin/2020/cover.png
+color: white
+cover_image_opacity: 0.9 
+cover_veil_opacity: 0.1
 items:
   - type: header
     anchor: admin
