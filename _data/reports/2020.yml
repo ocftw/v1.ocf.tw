@@ -20,12 +20,12 @@ items:
           url: https://ocf.tw/300/
       - type: image
         url: /p/admin/2020/p1-1.jpg
-  - type: image_header
+  - type: header
     anchor: admin
     background_color: teal
     cover: /p/admin/2020/p1-header.png
     cover_image_alt: OCF 活動重點成果
-  - type: image_header
+  - type: header
     anchor: admin
     background_color: teal
     cover: /p/admin/2020/p2-header.png
