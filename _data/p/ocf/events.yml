@@ -1,5 +1,3 @@
-
-
 - id: ocf
   name: "109 年開放政府培力工作坊"
   name_en: ""
@@ -14,6 +12,6 @@
   cover_image: 
   contributor_ids:
     - huangfu
-    - lulu
+    - lulukeng
   project_ids:
     - ocf
