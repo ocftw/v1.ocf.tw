@@ -21,11 +21,10 @@ items:
     background_color: teal
     cover: /p/admin/2020/p1-header.png
     cover_image_alt: OCF 活動重點成果
-  - type: image_header
+  - type: header
     anchor: admin
-    background_color: teal
-    cover: /p/admin/2020/p2-header.png
-    cover_image_alt:  社群支援
+    background_color: grey
+    title: 社群支援
   - type: header
     title: 
     icon: handshake outline
