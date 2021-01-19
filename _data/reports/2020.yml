@@ -165,7 +165,20 @@ items:
     icon: dollar sign
     background_color: grey
     description: 
-
+  - type: content
+    columns:
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQC4Bmr9unjTQg8HqDrYkJC6o6_IUM52Fzh9i4yTbKQqcv-hddD_cJOpqj9C1F8--eeuTEQuMcEXetw/pubchart?oid=504217751&format=interactive
+        height: 20rem
+        title: 2019 年度 OCF 收入
+        description: 行政中心  NT$ 4,053,073  <br/> 國際交流  NT$ 7,031,795  <br/> 其他社群專案   NT$ 15,587,213  
+        scrolling: "no"
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQC4Bmr9unjTQg8HqDrYkJC6o6_IUM52Fzh9i4yTbKQqcv-hddD_cJOpqj9C1F8--eeuTEQuMcEXetw/pubchart?oid=379523243&format=interactive
+        height: 20rem
+        title: 2019 年度 OCF 支出
+        description: 行政中心  NT$ 3,747,291  <br/> 國際交流  NT$ 6,965,451  <br/> 其他社群專案   NT$ 13,520,368  
+        scrolling: "no"
   - type: header
     title: 工作人員
     icon: chess knight
