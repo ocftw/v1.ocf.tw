@@ -31,3 +31,143 @@
   project_ids:
     - issues
 
+- id: 
+
+  name: 5G開源與資安座談會
+ 
+  description: 臺灣的社群文化十分興盛，從 2005 年起，已發展出多個致力於推廣開放原始碼（開源）、資訊安全技術研究等社群。開放文化基金會此次執行「5G 開放源碼與資訊安全計畫」，將邀請曾參與台灣各大開源與技術社群 COSCUP 開源人年會、HITCON 台灣駭客年會、MOPCON 行動科技年會與 Cloud Native Taiwan User Group 的資深講者，以貼近資通訊產業關注的核心發展和挑戰為分享方向，介紹進入 5G 時代後，開放源碼與資訊安全領域內，資通訊產業在各方面必須注重的課題。
+  description_en: 
+
+  cover_image: /p/ocf/5G.png
+
+  start: 2020/10/23
+  end: 2020/10/24
+
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+
+
+
+- id: 
+  name: "5G 分享會 - 淺談開源軟體在商業利用上的授權須知"
+  name_en: ""
+  description: "深入淺出了解開源軟體授權須知，洞悉國外公司的開源軟體發展策略，輕鬆掌握國內研發或技術發展的領銜地位"
+  start: 2020/11/02
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/register?reset=1&id=21
+  cover_image: 
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+    - ocf
+
+
+- id: "issues"
+  name: "5G 分享會#2 - 建立與貢獻 5G 與智慧城市的生態系"
+  name_en: ""
+  description: "從 4G 到 5G、從封閉到開源，全球電信專案朝向競合的商業模式。本次邀請來自 Open Networking Foundation 的成員介紹國際組織間在開源專案上的合作要訣，如何跟上開源專案的發展趨勢，讓台灣在這波開源浪潮中能站上最佳戰略位置。
+同場加映，邀請來自 Civil Infrastructure Platform 技術指導委員會成員，分享「透過開源專案打造安全、可靠且穩定之智慧城市基礎平台」。 "
+  start: 2020/11/20
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=22&utm_source=eDM&utm_medium=email&utm_term=OCF
+  cover_image: 
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+    - issues
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+1127  5G分享會:
+- id: "issues"
+  name: "5G 分享會 #3- 企業參與開源實踐，以開源電信專案為例"
+  name_en: ""
+  description: "開源不再只是一群志工個人的小專案貢獻，Google、Intel、Samsung、 Sony、 Toshiba 等科技大廠，紛紛投入企業人力參與開源專案，企圖整合彼此企業間資源加乘商業效益。
+
+本次邀請來自 ONF 、ONAP 的資深貢獻者，分享「商用開源專案及企業合作案例分享」與「企業參與開源專案與開源貢獻的經驗以ONAP為例」。 "
+  start: 2020/11/27
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=23&utm_source=eDM&utm_medium=email&utm_term=OCF
+  cover_image: 
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+    - issues
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+1202  5G分享會:
+- id: "issues"
+  name: "5G 分享會 #4 - 專利聯盟如何保護開源生態圈"
+  name_en: ""
+  description: "想知道專利聯盟如何保護開源生態圈嗎？你不可錯過來自 Open Invention Network 的黃鴻文，介紹推動專利聯盟的目的與策略。 "
+  start: 2020/12/02
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=24&utm_source=eDM&utm_medium=email&utm_term=OCF
+  cover_image: 
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+    - issues
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+2020opmsf:
+
+- id: ""
+  name: "「開放國會行動方案」委員會會議"
+  name_en: ""
+  description: ""
+  start: 2020/12/15
+  end: 2020/12/15
+  links:
+  cover_image: 
+  contributor_ids:
+    - lulu
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+
+
+
