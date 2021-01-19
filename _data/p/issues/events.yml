@@ -1,5 +1,4 @@
-- id:
-
+- id: issues
   name: "2020 網路自由小聚 (每月第三個禮拜四)" 
   name_en: Internet Freedom meets-up (Every 3rd Thursday)
 
@@ -31,7 +30,7 @@
   project_ids:
     - issues
 
-- id: 
+- id: issues
 
   name: 5G開源與資安座談會
  
@@ -50,7 +49,7 @@
 
 
 
-- id: 
+- id: issues
   name: "5G 分享會 - 淺談開源軟體在商業利用上的授權須知"
   name_en: ""
   description: "深入淺出了解開源軟體授權須知，洞悉國外公司的開源軟體發展策略，輕鬆掌握國內研發或技術發展的領銜地位"
@@ -70,8 +69,7 @@
 - id: "issues"
   name: "5G 分享會#2 - 建立與貢獻 5G 與智慧城市的生態系"
   name_en: ""
-  description: "從 4G 到 5G、從封閉到開源，全球電信專案朝向競合的商業模式。本次邀請來自 Open Networking Foundation 的成員介紹國際組織間在開源專案上的合作要訣，如何跟上開源專案的發展趨勢，讓台灣在這波開源浪潮中能站上最佳戰略位置。
-同場加映，邀請來自 Civil Infrastructure Platform 技術指導委員會成員，分享「透過開源專案打造安全、可靠且穩定之智慧城市基礎平台」。 "
+  description: "從 4G 到 5G、從封閉到開源，全球電信專案朝向競合的商業模式。本次邀請來自 Open Networking Foundation 的成員介紹國際組織間在開源專案上的合作要訣，如何跟上開源專案的發展趨勢，讓台灣在這波開源浪潮中能站上最佳戰略位置。同場加映，邀請來自 Civil Infrastructure Platform 技術指導委員會成員，分享「透過開源專案打造安全、可靠且穩定之智慧城市基礎平台」。 "
   start: 2020/11/20
   end: 
   links:
@@ -92,13 +90,11 @@
   host_ids: 
   speaker_ids: 
   banner: 
-1127  5G分享會:
+
 - id: "issues"
   name: "5G 分享會 #3- 企業參與開源實踐，以開源電信專案為例"
   name_en: ""
-  description: "開源不再只是一群志工個人的小專案貢獻，Google、Intel、Samsung、 Sony、 Toshiba 等科技大廠，紛紛投入企業人力參與開源專案，企圖整合彼此企業間資源加乘商業效益。
-
-本次邀請來自 ONF 、ONAP 的資深貢獻者，分享「商用開源專案及企業合作案例分享」與「企業參與開源專案與開源貢獻的經驗以ONAP為例」。 "
+  description: "開源不再只是一群志工個人的小專案貢獻，Google、Intel、Samsung、 Sony、 Toshiba 等科技大廠，紛紛投入企業人力參與開源專案，企圖整合彼此企業間資源加乘商業效益。本次邀請來自 ONF 、ONAP 的資深貢獻者，分享「商用開源專案及企業合作案例分享」與「企業參與開源專案與開源貢獻的經驗以ONAP為例」。 "
   start: 2020/11/27
   end: 
   links:
@@ -119,7 +115,7 @@
   host_ids: 
   speaker_ids: 
   banner: 
-1202  5G分享會:
+
 - id: "issues"
   name: "5G 分享會 #4 - 專利聯盟如何保護開源生態圈"
   name_en: ""
@@ -146,7 +142,7 @@
   banner: 
 2020opmsf:
 
-- id: ""
+- id: "issues"
   name: "「開放國會行動方案」委員會會議"
   name_en: ""
   description: ""
