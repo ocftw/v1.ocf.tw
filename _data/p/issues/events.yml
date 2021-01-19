@@ -46,6 +46,7 @@
     - singing
     - rosa
   project_ids:
+    - issues
 
 
 
@@ -63,7 +64,8 @@
     - singing
     - rosa
   project_ids:
-    - ocf
+    - issues
+
 
 
 - id: "issues"
@@ -153,7 +155,7 @@
   contributor_ids:
     - lulu
   project_ids:
-    - 
+    - issues
   organizer_ids: 
   advisor_ids: 
   co-organizer_ids: 
