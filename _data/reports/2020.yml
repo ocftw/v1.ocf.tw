@@ -160,17 +160,17 @@ items:
       - type: image
         url: /p/admin/2020/p7-2.jpg
 
-  - type: image_header
-    anchor: admin
-    background_color: teal
-    cover: /p/admin/2020/p6-header.png
-    cover_image_alt:  財務
+  - type: header
+    title: 財務報告
+    icon: dollar sign
+    background_color: grey
+    description: 
 
-  - type: image_header
-    anchor: admin
-    background_color: teal
-    cover: /p/admin/2020/p7-header.png
-    cover_image_alt:  成員
+  - type: header
+    title: 工作人員
+    icon: chess knight
+    background_color: grey
+    description: 
 
   - type: content
     single_column: true
