@@ -25,7 +25,7 @@ items:
     background_color: teal
     cover: /p/admin/2020/p1-header.png
     cover_image_alt: OCF 活動重點成果
-  - type: header
+  - type: image_header
     anchor: admin
     background_color: teal
     cover: /p/admin/2020/p2-header.png
