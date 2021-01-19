@@ -10,7 +10,7 @@ items:
       - type: article
         swap: true
         title: 開放文化
-        description: 起源於訴求軟體應該公開其原始程式、讓所有人能自由存取的開放原始碼運動，從軟體開始，將開放、透明、讓眾人能存取的精神，擴展到文件的格式、各種數位化的資料、甚至在產業和組織的工作流程之中。<br><b>我們相信開放讓世界更美好<br>我們努力建設開源文化根基<br>我們重視社群的文化和發展</b><br><br><a href="https://ocf.tw/about/" target=_blank>看更多關於開放文化基金會</a>
+        description: 起源於訴求軟體應該公開其原始程式、讓所有人能自由存取的開放原始碼運動，從軟體開始，將開放、透明、讓眾人能存取的精神，擴展到文件的格式、各種數位化的資料、甚至在產業和組織的工作流程之中。<br><b>我們相信開放讓世界更美好<br>我們努力建設開源文化根基<br>我們重視社群的文化和發展</b><br><br><a href="https://ocf.tw/about/#what_is_open_culture" target=_blank>看更多關於開放文化</a>
         action:
           title: 捐款支持
           url: https://ocf.tw/300/
