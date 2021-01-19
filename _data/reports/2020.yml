@@ -197,7 +197,7 @@ items:
     columns:
       - type: article
         title: 感謝贊助好夥伴
-        swap: true
+        swap: false
         description: 感謝祐生研究基金會年度計畫贊助，如果您也認同開放文化基金會的理念，歡迎加入贊助我們的行列！
       - type: article
         logo_height: 7rem
