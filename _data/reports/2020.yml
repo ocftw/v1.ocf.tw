@@ -60,7 +60,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: 研討會的貢獻票和好康總搶不到？OCF 推出 <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass（開源貢獻者快速通關）</a>特別服務，讓辛勞的開源貢獻者不再慢人一步。只要提早用自己的開源貢獻申請專案資格，就能輕鬆快速地獲取研討會活動的各式優待票或好康福利。2020 年，共有 212 人申請，168 人通過並獲得 SITCON、COSCUP、MOPCON、g0v Summit 提供的專屬開源貢獻者福利。<br><br><i class="arrow left"></i>左圖：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA
+        description: 研討會的貢獻票和好康總搶不到？OCF 推出 <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass（開源貢獻者快速通關）</a>特別服務，讓辛勞的開源貢獻者不再慢人一步。只要提早用自己的開源貢獻申請專案資格，就能輕鬆快速地獲取研討會活動的各式優待票或好康福利。2020 年，共有 212 人申請，168 人通過並獲得 SITCON、COSCUP、MOPCON、g0v Summit 提供的專屬開源貢獻者福利。<br><br><i class="angle left icon">1</i>左圖：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA
       - type: image
         url: /p/admin/2020/p3-2.jpg
 
@@ -76,7 +76,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: 自由、開源的概念被運用在生活多處，OCF 從基礎的開源概念到開源軟體合規管理，從開源社群經營到 5G 電信專案開源應用，累積 20 場次分享、800+ 人次參與，以不同主題讓大眾了解開源的發展趨勢。<br><br><i class="arrow left"></i>左圖：JRY_0569, <a href="https://www.flickr.com/photos/coscup/50253602803/in/album-72157715583095936/" target=blank>COSCUP on Flickr</a>, CC BY-SA
+        description: 自由、開源的概念被運用在生活多處，OCF 從基礎的開源概念到開源軟體合規管理，從開源社群經營到 5G 電信專案開源應用，累積 20 場次分享、800+ 人次參與，以不同主題讓大眾了解開源的發展趨勢。<br><br><i class="angle left icon"></i>左圖：JRY_0569, <a href="https://www.flickr.com/photos/coscup/50253602803/in/album-72157715583095936/" target=blank>COSCUP on Flickr</a>, CC BY-SA
         items:
           - project_id: openists
           - title: <a href="https://coscup.org/2020/zh-TW/agenda" target=_blank>開源新手村</a>、<a href="https://lab.ocf.tw/2020/10/07/sfd2020-2/" target=_blank>歡慶軟體自由日</a>
@@ -155,7 +155,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: 想了解更多，想支持並一起推廣開放文化！歡迎前往<a href="https://lab.ocf.tw/" target=_blank>下載</a>。<br><br><i class="arrow left"></i>左圖：OMH_3364, <a href="https://www.flickr.com/photos/coscup/50253601258/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA<br><br>
+        description: 想了解更多，想支持並一起推廣開放文化！歡迎前往<a href="https://lab.ocf.tw/" target=_blank>下載</a>。<br><br><i class="angle left icon"></i>左圖：OMH_3364, <a href="https://www.flickr.com/photos/coscup/50253601258/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA<br><br>
         items:
           - title: 開放/自由/共享三主題文宣
           - title: 開放源碼/開放資料/開放政府六角貼紙
