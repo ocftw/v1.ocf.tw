@@ -17,14 +17,14 @@ items:
       - type: image
         url: /p/admin/2020/p1-1.jpg
   - type: image_header
-    background_color: 
+    background_color: teal
     cover: /p/admin/2020/p1-header.png
     cover_image_alt: OCF 活動重點成果
   - type: header
     title: 社群支援
     icon: hand rock
     cover: 
-    background_color: 
+    background_color: teal
     description: OCF 的成立，是由多個開源、科技社群共同發起而開始，因此從成立一開始，透過法人組織穩定支援社群專案，使具有各種樣貌、特性的科技社群得以獲得系統化的基礎行政和財務服務，就是 OCF 最大的任務！2020 年，OCF 共支援了 24 個社群專案，透過這樣的法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。OCF 不需要成為包山包海的組織，我們期許自己能打造一個健康的環境，捲動更多社群一起關心議題、開創更多專案。
   - type: content
     columns:
@@ -68,7 +68,7 @@ items:
     title: 議題串連
     cover: 
     icon: handshake outline
-    background_color: 
+    background_color: teal
     description: 數位時代的人類社會，各類議題或多或少都與科技應用互相連結，藉由與科技社群的長期夥伴關係、與公民團體的議題合作，OCF 期許能成為不同領域跟科技交流的橋樑和平台，串聯國內外的民間組織/科技社群/政府機關，讓更多人得以把開源、開放的精神和機制帶到各自的領域發揮，也讓公民社會使用科技工具更加純熟，以因應多變的數位時代。
 
   - type: content
@@ -112,7 +112,7 @@ items:
         url: /p/admin/2020/p5-2.png
 
   - type: image_header
-    background_color: 
+    background_color: teal
     cover: /p/admin/2020/p4-header.png
     cover_image_alt:  議題串連重點成果
 
@@ -120,7 +120,7 @@ items:
     title: 開放文化推廣
     cover: 
     icon: university
-    background_color: 
+    background_color: teal
     description: 什麼是開放文化？是初認識 OCF 的人都會問的問題。<br>從程式原始碼，到資料、政府、公民社會，當「開放」得以形成一種文化，不同群體能夠在不同的素材當中，藉由科技工具找到直接交流和協同合作的模式。<br><br>面對快速改變的數位時代，OCF 希望能讓更多人了解開放文化的重要，使社會的成果結晶得以不被單一群體掌控。<br>而藉由了解開放的科技，也讓人們看見現今數位科技的不開放對人類社會的影響，並一起描繪屬於大家且自由共享的數位科技環境。
 
   - type: content
@@ -128,7 +128,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: <a href="https://lab.ocf.tw/" target=_blank>OCF Lab</a>是 OCF 運作的資訊平台，希望藉由資訊轉譯、資料收集、基礎專題研究，成為國內外社群和各個不同領域組織的知識交流平台。<br>OCF Lab 關心開放文化、開放科技、數位人權、網路自由相關議題。2020 共刊登 42 篇週報、72 篇中英文專文以及其中 25 篇與媒體合作的專欄文章。
+        description: <a href="https://lab.ocf.tw/" target=_blank>OCF Lab</a> 是 OCF 運作的資訊平台，希望藉由資訊轉譯、資料收集、基礎專題研究，成為國內外社群和各個不同領域組織的知識交流平台。<br>OCF Lab 關心開放文化、開放科技、數位人權、網路自由相關議題。2020 共刊登 42 篇週報、72 篇中英文專文以及其中 25 篇與媒體合作的專欄文章。
         items:
           - title: <a href="https://lab.ocf.tw/category/%e9%80%b1%e5%a0%b1/" target=_blank>數位公民全球週報</a>
           - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=blank>獨立評論、INSIDE 專欄合作</a>
@@ -166,7 +166,7 @@ items:
   - type: header
     title: 財務報告
     icon: dollar sign
-    background_color: 
+    background_color: teal
     cover: 
     description: 
 
@@ -188,7 +188,7 @@ items:
     title: 因為有你們，我們得以一直前進
     icon: chess knight
     cover: 
-    background_color: 
+    background_color: teal
     description: 
 
   - type: content
@@ -216,10 +216,10 @@ items:
       - type: article
         title: 追蹤 OCF，活動不會錯過！
         items: 
-          - title: <a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
+          - title: <i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><i class="twitter icon"></i><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
       - type: article  
         title: 訂閱 EDM，開源資訊不漏接
         items: 
-          - title: <a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a><br><a href="https://ocf.tw/p/ocflab/" target=_blank>OCFLab</a>
+          - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a><br><i class="file alternate icon"></i><a href="https://ocf.tw/p/ocflab/" target=_blank>OCFLab</a>
         swap: false
 
