@@ -8,6 +8,8 @@
   cover_image: /p/global/fosdem2020.JPG
   banner_image: 
   theme_color:
+  project_ids:
+    - global
   start: 2020/02/01
   end: 2020/02/02
   links:
@@ -19,4 +21,338 @@
     - title: Event observation notes
       url: https://docs.google.com/document/d/1SiCDSTXLi8fbrUiwVssImbbnNk5uXDc-DD4osXRrTi4
 
+- id: global
+  name: "線上參與：COVIDCon"
+  name_en: ""
+  description: "COVIDCon 是 Oslo Freedom Forum 的主辦單位 Human Rights Foundation 所辦的全球線上大論壇，也是疫情全球大爆發後首批舉辦的疫情專門研討會，除了中國在疫情的角色，其他各國的分享更是打開眼界，畢竟，這場疫情真的讓很多極權者都逮到機會大肆擴張自己的權利。"
+  start: 2020/04/13
+  end: 2020/04/14
+  links:
+  cover_image: /p/global/COVIDCON2020.png
+  contributor_ids:
+    - lulukeng
+  project_ids:
+    - global
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "線上參與：Sinar Project - Open Government Partnership and Malaysia’s Initiatives"
+  name_en: ""
+  description: "Sinar Project 為馬來西亞公民團體，除了科技議題現在也參與該國開放政府推動事項，因為馬來西亞和台灣目前皆不是國際開放政府組織 OGP 的正式會員，且於台灣都在推動階段初期，因此藉由參與其線上分享，希望能更了解其他國家的推動經驗和策略。"
+  start: 2020/05/12
+  end: 2020/05/12
+  links:
+    - title: https://www.eventbrite.com/e/webinar-series-i-open-government-partnership-and-malaysias-initiatives-tickets-103747319024?utm_campaign=event_reminder&utm_medium=email&utm_source=eventbrite&utm_term=eventname#
+      url: https://www.facebook.com/sinarproject/videos
+  cover_image: /p/global/OGPwebinar (sinar project) 2020.jpg
+  contributor_ids:
+    - lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "OCF 分享台灣疫情之數位控管 ＠ IFF CKS"
+  name_en: ""
+  description: "隨著 COVID-19 全球大爆發，台灣的防疫經驗成為各國媒體報導對象，但因為個別媒體報導都針對單一的策略而說明，因此在國際夥伴 IFF 的網絡裡面，特別將所有台灣數位防疫方案一次統整，完整分享說明給各國的參與夥伴了解，台灣的防疫機制已經成為一個綿密的數位系統，雖然有效，但仍然有個人資料隱私擴大使用的疑慮。"
+  start: 2020/05/12
+  end: 2020/05/12
+  links:
+  cover_image: /p/global/TaiwansharingCOVID - IFFCKS2020.png
+  contributor_ids:
+    - lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "線上參與：OGP 2020 Leaders Summit"
+  name_en: ""
+  description: "開放政府夥伴聯盟(Open Government Partnership) 本來今年將在南韓舉辦高峰會，受到疫情影響也選擇線上辦理小型會議，這場會議由會員國最高領導者現身分享，包括德國總理和加拿大總理都有出席，主要是來談，“開放”政府如何在控制疫情上面有正面影響力，也有不同國家分享個案。"
+  start: 2020/09/24
+  end: 2020/09/24
+  links:
+  cover_image: /p/global/OGPleadersSummit 2020.png
+  contributor_ids:
+    - lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "線上參與：Oslo Freedom Forum 2020"
+  name_en: ""
+  description: "作為全球知名人權大會，今年 Oslo Freedom Forum 因應疫情轉為線上，因為疫情，許多的主題也反映的疫情下的人權行動，並連結到如何在數位線上的活動中保護自己。唐鳳政委也是其中一位講者。"
+  start: 2020/09/24
+  end: 2020/09/25
+  links:
+  cover_image: /p/global/OFF2020.png
+  contributor_ids:
+    - lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "線上參與：
+2020 APC Member Convening: Closer than ever"
+  name_en: ""
+  description: "OCF 為國際組織且也是聯盟的 APC (Assoication for Progressive Communctions) 東亞少數的會員之一，這是第一次參加他們每幾年才會舉辦的會員大會，只是因為疫情，第一次採取線上舉辦。除了針對疫情下如何保持社群連結和行動力，作為重要自由網路的發起者之一，APC 近年更格外著重科技發展對自然環境的影響。"
+  start: 2020/10/05
+  end: 2020/10/09
+  links:
+  cover_image: /p/global/2020 APC Member Convening.jpg
+  contributor_ids:
+    - lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "線上參與：Creative Commons Global Summit 2020"
+  name_en: ""
+  description: "Creative Commons 今年也用線上的方式舉辦 Global Summit，聚集了 40 多個國家、1300 多人線上參與討論 CC 授權之外，也探討 Open Education, Open GLAM, Copyright Reform 的相關議題。 "
+  start: 2020/10/19
+  end: 2020/10/23
+  links:
+  cover_image: /p/global/CCsummit2020.jpg
+  contributor_ids:
+    - rock
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "線上參與：TicTec - Digitising parliaments"
+  name_en: ""
+  description: "每年舉辦且深度探討公民科技的 TicTec，今年將不同主題拆為小型線上演講，本來討論開放國會的專門分享，因為疫情成為各國國會分享他們議員如不出門也可以處理事情的方案，而因為疫情，許多國家反而在數位國會方案上大躍進，因為必須讓國會議員能夠在家裡投票討論議案。 "
+  start: 2020/10/20
+  end: 2020/10/20
+  links:
+  cover_image: /p/global/TicTecseminars 2020.jpg
+  contributor_ids:
+    - lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "線上參與：COCONET Reunion"
+  name_en: ""
+  description: "CocoNet 是東南亞數位人權營隊，除了是一年一度的數天聚會，更是一個連結東南亞相關社群的重要網絡，一年不見的大家，趁著這次線上機會，彼此自在交流分享各國現況，也希望能找出遠距保持社群動能的方案。"
+  start: 2020/11/05
+  end: 2020/11/05
+  links:
+  cover_image: /p/global/CocoNet2020.jpg
+  contributor_ids:
+    - lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "RgithsCon 2020"
+  name_en: ""
+  description: "RightsCon 是國際知名的數位人權大會，由於疫情關係改為線上方式，反倒打破紀錄吸引近 157 國家 7,681 參與者， 議程數量超過 309 場次。OCF 在議程 「National Digital ID systems in Asia: Mapping considerations of potential benefits and harms」 中，分享台灣預計發行的數位身分證規劃，以及公民團體對於個人身份數位化、資料串連所帶來的隱私擔憂。"
+  start: 2020/7/27
+  end: 2020/7/31
+  links:
+  cover_image: /p/global/rightscon2020.jpg
+  contributor_ids:
+    - singing, Rosa, claire, aiya, lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "線上參與：IFF OrgSec Village"
+  name_en: ""
+  description: "每年定期舉辦的網路自由節（IFF），今年也由不同地區夥伴組織線上會議，OrgSec Village 由 Internews 籌備，由國際間資安培訓講師及20多個社群一起分享為組織建立資安政策的經驗，並探討五大主題。"
+  start: 2020/6/8
+  end: 2020/6/12
+  links:
+  cover_image: /p/global/OrgSec IFF2020.png
+  contributor_ids:
+    - aiya, claire, lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "線上參與：IFF VPN Village"
+  name_en: ""
+  description: "IFF 舉辦一系列關於 VPN 的講座，OCF 參加第一場 VPN 的簡介，了解加密功能與使用情境，並觀察 IFF 講師的教學方式，期許能將 VPN 知識轉譯給公民團體"
+  start: 2020/09/08
+  end: 2020/09/08
+  links:
+  cover_image: /p/global/VPNvillage IFF2020.png
+  contributor_ids:
+    - aiya, claire, lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "OCF 分享 Open Source Community Management & Collaboration @DevRel Asia"
+  name_en: ""
+  description: "DevRel Asia 2020 是亞太區的開發者關係大會，這場活動聚焦在如果增進開發者關係、找尋潛在開發者市場、維繫開發者社群。在這場會議中，我們分享在台灣經營社群的經驗，並介紹 OCF 這種由社群而生來服務社群的組織模式。"
+  start: 2020/11/14
+  end: 2020/11/14
+  links:
+  cover_image: /p/global/DevRelAsia2020.jpg
+  contributor_ids:
+    - singing
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "線上參與：The new open source: Leadership, contributions and sustainability"
+  name_en: ""
+  description: "Google Open Source Live 系列的首場，由 Google 員工來分享一些經營社群的秘訣。"
+  start: 2020/9/4
+  end: 2020/9/4
+  links:
+  cover_image: 
+  contributor_ids:
+    - singing
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: global
+  name: "實體參與：台南面海松"
+  name_en: "Facing the Ocean"
+  description: "Facing the Ocean (FtO) 面海松，是一個跨國的社群，由台灣、日本、韓國、香港四地的公民駭客發起，彼此開案協作，合力解決各類共重議題。2020年12月的台南面海松，由 g0v-intl 舉辦，一天議程當中除了實體活動，還有其他地區連線提案參與。"
+  start: 2020/12/4
+  end: 2020/12/4
+  links:
+    - title: https://fb.me/e/3P7flMS45
+      url: https://g0v.hackmd.io/@pm5/rJriRnlqE/%2FswjjUGWkS6q2boAWRsUi0Q?type=book
+  cover_image: /p/global/FtOTainan 2020.jpg
+  contributor_ids:
+    - lulukeng
+  project_ids:
+    - 
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
 
