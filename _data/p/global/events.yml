@@ -148,8 +148,8 @@
   name: "RgithsCon 2020"
   name_en: ""
   description: "RightsCon 是國際知名的數位人權大會，由於疫情關係改為線上方式，反倒打破紀錄吸引近 157 國家 7,681 參與者， 議程數量超過 309 場次。OCF 在議程 「National Digital ID systems in Asia: Mapping considerations of potential benefits and harms」 中，分享台灣預計發行的數位身分證規劃，以及公民團體對於個人身份數位化、資料串連所帶來的隱私擔憂。"
-  start: 2020/7/27
-  end: 2020/7/31
+  start: 2020/07/27
+  end: 2020/07/31
   links:
   cover_image: /p/global/rightscon2020.jpg
   contributor_ids:
@@ -161,8 +161,8 @@
   name: "線上參與：IFF OrgSec Village"
   name_en: ""
   description: "每年定期舉辦的網路自由節（IFF），今年也由不同地區夥伴組織線上會議，OrgSec Village 由 Internews 籌備，由國際間資安培訓講師及20多個社群一起分享為組織建立資安政策的經驗，並探討五大主題。"
-  start: 2020/6/8
-  end: 2020/6/12
+  start: 2020/06/08
+  end: 2020/06/12
   links:
   cover_image: /p/global/OrgSec IFF2020.png
   contributor_ids:
@@ -200,8 +200,8 @@
   name: "線上參與：The new open source: Leadership, contributions and sustainability"
   name_en: ""
   description: "Google Open Source Live 系列的首場，由 Google 員工來分享一些經營社群的秘訣。"
-  start: 2020/9/4
-  end: 2020/9/4
+  start: 2020/09/04
+  end: 2020/09/04
   links:
   cover_image: 
   contributor_ids:
@@ -213,8 +213,8 @@
   name: "實體參與：台南面海松"
   name_en: "Facing the Ocean"
   description: "Facing the Ocean (FtO) 面海松，是一個跨國的社群，由台灣、日本、韓國、香港四地的公民駭客發起，彼此開案協作，合力解決各類共重議題。2020年12月的台南面海松，由 g0v-intl 舉辦，一天議程當中除了實體活動，還有其他地區連線提案參與。"
-  start: 2020/12/4
-  end: 2020/12/4
+  start: 2020/12/04
+  end: 2020/12/04
   links:
     - title: https://fb.me/e/3P7flMS45
       url: https://g0v.hackmd.io/@pm5/rJriRnlqE/%2FswjjUGWkS6q2boAWRsUi0Q?type=book
