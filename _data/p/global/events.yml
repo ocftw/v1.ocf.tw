@@ -33,15 +33,7 @@
     - lulukeng
   project_ids:
     - global
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+
 
 - id: global
   name: "線上參與：Sinar Project - Open Government Partnership and Malaysia’s Initiatives"
@@ -56,16 +48,8 @@
   contributor_ids:
     - lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
+
 
 - id: global
   name: "OCF 分享台灣疫情之數位控管 ＠ IFF CKS"
@@ -78,16 +62,8 @@
   contributor_ids:
     - lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
+
 
 - id: global
   name: "線上參與：OGP 2020 Leaders Summit"
@@ -100,16 +76,8 @@
   contributor_ids:
     - lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
+
 
 - id: global
   name: "線上參與：Oslo Freedom Forum 2020"
@@ -122,20 +90,10 @@
   contributor_ids:
     - lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
 - id: global
-  name: "線上參與：
-2020 APC Member Convening: Closer than ever"
+  name: "線上參與：2020 APC Member Convening: Closer than ever"
   name_en: ""
   description: "OCF 為國際組織且也是聯盟的 APC (Assoication for Progressive Communctions) 東亞少數的會員之一，這是第一次參加他們每幾年才會舉辦的會員大會，只是因為疫情，第一次採取線上舉辦。除了針對疫情下如何保持社群連結和行動力，作為重要自由網路的發起者之一，APC 近年更格外著重科技發展對自然環境的影響。"
   start: 2020/10/05
@@ -145,16 +103,7 @@
   contributor_ids:
     - lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
 - id: global
   name: "線上參與：Creative Commons Global Summit 2020"
@@ -167,16 +116,7 @@
   contributor_ids:
     - rock
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
 - id: global
   name: "線上參與：TicTec - Digitising parliaments"
@@ -189,16 +129,7 @@
   contributor_ids:
     - lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
 - id: global
   name: "線上參與：COCONET Reunion"
@@ -211,16 +142,7 @@
   contributor_ids:
     - lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
 - id: global
   name: "RgithsCon 2020"
@@ -233,16 +155,7 @@
   contributor_ids:
     - singing, Rosa, claire, aiya, lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
 - id: global
   name: "線上參與：IFF OrgSec Village"
@@ -255,16 +168,7 @@
   contributor_ids:
     - aiya, claire, lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
 - id: global
   name: "線上參與：IFF VPN Village"
@@ -277,16 +181,7 @@
   contributor_ids:
     - aiya, claire, lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
 - id: global
   name: "OCF 分享 Open Source Community Management & Collaboration @DevRel Asia"
@@ -299,16 +194,7 @@
   contributor_ids:
     - singing
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
 - id: global
   name: "線上參與：The new open source: Leadership, contributions and sustainability"
@@ -321,16 +207,7 @@
   contributor_ids:
     - singing
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
 - id: global
   name: "實體參與：台南面海松"
@@ -345,14 +222,5 @@
   contributor_ids:
     - lulukeng
   project_ids:
-    - 
-  organizer_ids: 
-  advisor_ids: 
-  co-organizer_ids: 
-  implementer_ids: 
-  sponsor_ids: 
-  coordinator_ids: 
-  host_ids: 
-  speaker_ids: 
-  banner: 
+    - global
 
