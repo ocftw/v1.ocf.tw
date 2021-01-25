@@ -76,10 +76,129 @@ project_header_veil_opacity: 0.2
   </div>
   
   <p>
+  <br>
   自 2012 年起，OONI 已經從全球 200 多個國家，收集了數百萬筆網路測量資料，所有資料都發佈在 <a href="https://explorer.ooni.org/" target="_blank">OONI Explorer</a> 和 <a href="https://api.ooni.io/" target="_blank">OONI API</a> 上。<br>
   <br>
   開放文化基金會為 OONI 的正式夥伴，除了在辦公室設置 OONI 偵測器之外，也將共同改進 <a href="https://github.com/citizenlab/test-lists/blob/master/lists/tw.csv" target="_blank">OONI 網路干擾的測試清單</a>、協助分析 <a href="https://explorer.ooni.org/country/TW" target="_blank">OONI 收集的網路干擾測量資料</a>。 
   </p>
   
+<h2 class="ui dividing header">怎麼執行 OONI 測試？ 一起尋找網路封鎖蛛絲馬跡</h2>
+
+  <p>
+  <a href="https://ooni.org/install/" target="_blank">
+  <i class="globe icon"></i>
+  下載 OONI Probe 網路干擾測試工具
+  </a>
+  </p>
   
+  <p>
+  <a href="https://explorer.ooni.org/country/TW" target="_blank">
+  <i class="globe icon"></i>
+  瞭解台灣的網路干擾現狀
+  </a>
+  </p>
+
+  <p>
+  個人貢獻者也可以協助 OONI ！最簡單的貢獻方法，就是下載安裝 OONI Probe 應用程式（支援主要電腦及手機平台），在此應用程式內可以執行各種網路干擾測試，並收集資料回傳給 OONI 資料庫。
+  </p>
+
+<h4 class="ui header">
+  !!注意！！測試執行時 OONI Probe 會嘗試連線至敏感的網站，例如盜版、色情、反政府相關網站，可能有法律風險，請自行瞭解所在地區法令，評估風險之後再執行測試。 
+  </h4>
   
+  <p>
+  使用 OONI Probe 檢測網路干擾時，將會依照裝置的所在國家，選擇該國家的測試清單，再加上國際測試清單，從當中隨機選擇數個網站，進行連線測試，並向資料庫回傳測試結果。除了預先定義的測試清單外，使用者也可以自行指定想要檢測的網站。
+  <br>
+  執行 OONI 檢測時，將會收集的資料包含：
+  </p>
+  
+  <div class="ui list">
+    <div class="item">
+      <i class="checkmark icon"></i>
+      <div class="content">
+      裝置所在的網路商識別碼 (Automonous System Number)
+      </div>
+    </div>
+  </div>
+  
+  <div class="ui list">
+    <div class="item">
+      <i class="checkmark icon"></i>
+      <div class="content">
+      國家
+      </div>
+    </div>
+  </div>
+  
+  <div class="ui list">
+    <div class="item">
+      <i class="checkmark icon"></i>
+      <div class="content">
+      裝置使用的網域名稱伺服器 (DNS Server) IP
+      </div>
+    </div>
+  </div>
+  
+  <div class="ui list">
+    <div class="item">
+      <i class="checkmark icon"></i>
+      <div class="content">
+      DNS 查詢結果
+      </div>
+    </div>
+  </div>
+  
+  <div class="ui list">
+    <div class="item">
+      <i class="checkmark icon"></i>
+      <div class="content">
+      TCP 連線結果
+      </div>
+    </div>
+  </div>
+
+  <div class="ui list">
+    <div class="item">
+      <i class="checkmark icon"></i>
+      <div class="content">
+      網頁回傳內容
+      </div>
+    </div>
+  </div>
+
+  <div class="ui list">
+    <div class="item">
+      <i class="checkmark icon"></i>
+      <div class="content">
+      其他：完整的資料項目可以到 OONI Explorer 的原始資料區查看
+      </div>
+    </div>
+  </div>
+
+  <p>
+  執行 OONI 檢測所收集的資料將有助於研究人員瞭解網站是否真的遭到干擾，以及干擾所使用的技術。
+  <br>
+  除了網頁連線的干擾之外，OONI Probe 也可以檢測針對常見的通訊軟體 (Facebook Messenger, Telegram, Whatsapp) 、翻牆軟體 (Tor, VPN) 的網路干擾。
+  </p>
+
+<h3 class="ui header">
+  群眾協力測試
+  </h3>
+
+  <p>
+  疑似網路封鎖事件發生時，現有的測試清單內可能不包含新近被封鎖的網站，因而沒有新網站的網路干擾資料。為彌補此缺陷，OONI 提供了 OONI Run ，任何人都可以到 OONI Run 輸入想要檢測的網站位址，這將產生一個可供分享的檢測超連結，當有人點開這個超連結，他們裝置上的 OONI Probe 將自動啟動，開始檢測超連結中指定的網站。若裝置上沒有安裝 <a href="https://run.ooni.io/" target="_blank">OONI Run</a>，他們將被引導至安裝指引頁面。
+  <br>
+  舉例來說，假設某國家的人懷疑他們國內開始封鎖 https://example.com 網站，他們可以至 OONI Run ，並輸入 https://example.com ，這將產生一個檢測超連結 https://run.ooni.io/nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fexample.com%22%5D%7D&mv=1.2.0 。他們可廣為分享此檢測超連結，點開超連結的裝置將會啟動 OONI Probe ，並開始針對 https://example.com 進行網路干擾測試。
+  </p>
+
+<h3 class="ui header">
+  瞭解檢測結果
+  </h3>
+
+  <p>
+  使用者可以到 <a href="https://explorer.ooni.org/" target="_blank">OONI Explorer</a> 的搜尋頁面瞭解 OONI 在各國所收集到的網路干擾現狀，可以針對國家、時間區間、網站、檢測類型、檢測結果進行搜尋。
+  </p>
+
+<h2 class="ui dividing header">進階閱讀</h2>
+
+<h2 class="ui dividing header">計劃成果與活動</h2>
