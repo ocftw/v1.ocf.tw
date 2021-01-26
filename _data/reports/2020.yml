@@ -168,7 +168,7 @@ items:
     icon: dollar sign
     background_color: teal
     cover: /p/admin/2020/2020-winter.png
-    description: <br><br><br><br><br><br><br><br>
+    description: <br><br><br><br><br><br><br>
 
   - type: content
     columns:
