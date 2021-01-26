@@ -25,7 +25,7 @@ items:
     icon: hand rock
     cover: /p/admin/2020/2020-spring.png
     background_color: teal
-    description: OCF 的成立，是由多個開源、科技社群共同發起而開始，因此從成立一開始，透過法人組織穩定支援社群專案，使具有各種樣貌、特性的科技社群得以獲得系統化的基礎行政和財務服務，就是 OCF 最大的任務！<br>2020 年，OCF 共支援了 34 個社群專案，透過這樣的法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。<br>OCF 不需要成為包山包海的組織，我們期許自己能打造一個健康的環境，捲動更多社群一起關心議題、開創更多專案。
+    description: <br>OCF 的成立，是由多個開源、科技社群共同發起而開始，因此從成立一開始，透過法人組織穩定支援社群專案，使具有各種樣貌、特性的科技社群得以獲得系統化的基礎行政和財務服務，就是 OCF 最大的任務！<br>2020 年，OCF 共支援了 34 個社群專案，透過這樣的法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。<br>OCF 不需要成為包山包海的組織，我們期許自己能打造一個健康的環境，捲動更多社群一起關心議題、開創更多專案。
   - type: content
     columns:
       - type: article
@@ -69,7 +69,7 @@ items:
     cover: /p/admin/2020/2020-summer.png
     icon: handshake outline
     background_color: teal
-    description: <br>數位時代的人類社會，各類議題或多或少都與科技應用互相連結。<br>藉由與科技社群的長期夥伴關係、與公民團體的議題合作，<br>OCF 期許能成為不同領域跟科技交流的橋樑和平台，串聯國內外的民間組織/科技社群/政府機關，<br>讓更多人得以把開源、開放的精神和機制帶到各自的領域發揮，也讓公民社會使用科技工具更加純熟，以因應多變的數位時代。<br>
+    description: <br>數位時代的人類社會，各類議題或多或少都與科技應用互相連結。<br>藉由與科技社群的長期夥伴關係、與公民團體的議題合作，<br>OCF 期許能成為不同領域跟科技交流的橋樑和平台，串聯國內外的民間組織/科技社群/政府機關，<br>讓更多人得以把開源、開放的精神和機制帶到各自的領域發揮，也讓公民社會使用科技工具更加純熟，以因應多變的數位時代。<br><br>
 
   - type: content
     columns:
@@ -168,7 +168,7 @@ items:
     icon: dollar sign
     background_color: teal
     cover: /p/admin/2020/2020-winter.png
-    description: 
+    description: <br><br><br><br><br><br><br>
 
   - type: content
     columns:
