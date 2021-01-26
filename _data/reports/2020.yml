@@ -3,7 +3,7 @@ description:
 cover: /p/admin/2020/whitebg.png
 color:  
 cover_image_opacity: 0.9 
-cover_veil_opacity: 0
+cover_veil_opacity: 0.3
 items:
   - type: content
     columns:
