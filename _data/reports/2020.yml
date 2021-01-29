@@ -1,6 +1,6 @@
 title: 開放文化基金會 2020 成果報告（建構中）
 description: 
-cover: /p/admin/2020/whitebg.png
+cover: /p/admin/2020/2020cover.png
 color:  
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.3
@@ -187,7 +187,7 @@ items:
   - type: header
     title: 因為有你們，我們得以一直前進
     icon: chess knight
-    cover: /p/admin/2020/whitebg.png
+    cover: /p/admin/2020/2020cover.png
     background_color: teal
     description: <br><br><br><br><br><br>
 
