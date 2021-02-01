@@ -123,28 +123,27 @@ layout: global
   {% elsif item.type == "image_header" %}
   <a name="{{ item.anchor }}"></a>
   <section style="background-color: {{ item.cover_image_background_color }};">
-  <div class="content container"
-        style="max-width: {{ page.width }};">
-    <header
-            class="image_header ui basic segment marginless paddingless">
-      {% if item.cover %}
-      <div class="ui fluid image">
-        <img src="{{ item.cover }}"
-             alt="{{ item.cover_image_alt }}" />
-      </div>
-      {% endif %}
-      {% if item.button %}
-      <p class="action {{ item.button.position }} aligned">
-        <a class="ui basic inverted button"
-           href="{{ item.button.url }}"
-           target="_blank">
-          {{ item.button.title}}
-          <i class="icon right arrow"></i>
-        </a>
-      </p>
-      {% endif %}
-    </header>
-  </div>
+    <div class="content container"
+         style="max-width: {{ page.width }};">
+      <header class="image_header ui basic segment marginless paddingless">
+        {% if item.cover %}
+        <div class="ui fluid image">
+          <img src="{{ item.cover }}"
+               alt="{{ item.cover_image_alt }}" />
+        </div>
+        {% endif %}
+        {% if item.button %}
+        <p class="action {{ item.button.position }} aligned">
+          <a class="ui basic inverted button"
+             href="{{ item.button.url }}"
+             target="_blank">
+            {{ item.button.title}}
+            <i class="icon right arrow"></i>
+          </a>
+        </p>
+        {% endif %}
+      </header>
+    </div>
   </section>
 
   <!-- 內容區塊 -->
