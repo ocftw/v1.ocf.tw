@@ -23,6 +23,11 @@
   max-width: 100%;
 }
 
+#report .center.aligned.container .list .icon {
+  display: inline-block;
+  margin-right: 0.25em;
+}
+
 #report .image_header .action {
   position: absolute;
   bottom: 0;
