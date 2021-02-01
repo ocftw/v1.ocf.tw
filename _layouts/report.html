@@ -122,10 +122,11 @@ layout: global
   <!-- 圖片式標題區塊 -->
   {% elsif item.type == "image_header" %}
   <a name="{{ item.anchor }}"></a>
+  <section style="background-color: {{ item.cover_image_background_color }};">
   <div class="content container"
-       style="max-width: {{ page.width }};">
+        style="max-width: {{ page.width }};">
     <header
-            class="image_header ui basic segment marginless paddingless inverted {{ item.background_color }}">
+            class="image_header ui basic segment marginless paddingless">
       {% if item.cover %}
       <div class="ui fluid image">
         <img src="{{ item.cover }}"
@@ -144,6 +145,7 @@ layout: global
       {% endif %}
     </header>
   </div>
+  </section>
 
   <!-- 內容區塊 -->
   {% elsif item.type == "content" %}

@@ -97,13 +97,16 @@ items:
     # 可以連到 image_header 區塊的 anchor 名稱
 
     background_color: text
-    # image_header 區塊的背景色，可以是 semantic ui 定義的顏色，若留空則顯示為黑色。參考： http://semantic-ui.com/elements/segment.html#colored
+    # 此欄位目前無作用
 
     cover: url
     # image_header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
 
     cover_image_alt: ''
     # image_header 區塊背景圖片的替代文字
+
+    cover_image_background_color: css color
+    # image_header 區塊背景圖片的背景色，可填入任一種合法的 css color，沒有預設值。 css color code 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/color
 
     button:
     # 在 image_header 區塊底部的按鈕，若留空則不顯示。若設定按鈕，請一併設定 background_color，因為手機版上會使用它當按鈕的背景色
