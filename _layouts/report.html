@@ -7,314 +7,451 @@ layout: global
 {% assign year = page.year | append: '' %}
 
 {% if page.lang == "en" %}
-  {% assign report_id = year | append: '_' | append: page.lang %}
+{% assign report_id = year | append: '_' | append: page.lang %}
 {% else %}
-  {% assign report_id = year %}
+{% assign report_id = year %}
 {% endif %}
+
+{% assign report = site.data.reports[ report_id ] %}
 
 <main id="report">
 
-<!-- 從成果報告資料產生頁面 header -->
-<header id="hero" class="ui inverted {{ site.data.reports[ report_id ].color }} center aligned basic very padded segment marginless">
-
-  <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
-  <img class="cover image" src="{{ site.data.reports[ report_id ].cover }}" style="opacity: {{ site.data.reports[ report_id ].cover_image_opacity }}" alt="{{ site.data.reports[ report_id ].cover_image_alt }}" />
-  <div class="cover" style="opacity: {{ site.data.reports[ report_id ].cover_veil_opacity }}"></div>
-  <hr class="ui hidden divider" />
-
-  <div class="ui stripe relative container">
-    <img class="ui centered tiny image" src="{{ site.data.people.orgs.ocf.icon }}" alt=""/>
-    <h1 class="ui inverted header">
-      {{ site.data.reports[ report_id ].title }}
-    </h1>
-    <p>
-      {{ site.data.reports[ report_id ].description }}
-    </p>
-  </div>
-  <hr class="ui hidden divider" />
-</header>
-
-<!-- 從成果報告資料產生各展示區塊 -->
-{% for item in site.data.reports[ report_id ].items %}
-
-<!-- 標題區塊 -->
-{% if item.type == "header" %}
-<a name="{{ item.anchor }}"></a>
-<header class="title ui basic very padded segment marginless inverted {{ item.background_color }}">
-  {% if item.cover %}
-    <img class="cover image" src="{{ item.cover }}" style="opacity: {{ item.cover_image_opacity }}" alt="{{ item.cover_image_alt }}" />
-    <div class="cover" style="opacity: {{ item.cover_veil_opacity }}"></div>
+  <!-- 從成果報告資料產生頁面 header -->
+  {% if report.theme == "light" %}
+  {% assign hero_style = "" %}
+  {% assign hero_title_color = report.color %}
+  {% else %}
+  {% assign hero_style = "inverted" %}
+  {% assign hero_title_color = "white" %}
   {% endif %}
-  <div class="ui center aligned stripe container">
-    {% if item.icon %}
-    <div class="ui two column stackable grid">
-      <div class="four wide column">
-        <a href="#{{ item.anchor }}" style="color: #fff;">
-          <i class="{{ item.icon }} icon bordered"></i>
-        </a>
-      </div>
-      <div class="twelve wide left aligned column">
-    {% endif %}
 
-    <h2 class="ui inverted header">
-      {{ item.title }}
-    </h2>
-    <p>
-      {{ item.description }}
-    </p>
+  <header id="hero"
+          class="ui {{ hero_style }} {{ report.color }} center aligned basic very padded segment marginless">
 
-    {% if item.icon %}
-      </div>
+    <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
+    <div class="cover image"
+         style="background-image: url({{ report.cover }});
+         background-size: {{ report.cover_image_size }};
+         background-position: {{ report.cover_image_position }};
+         background-repeat: {{ report.cover_image_repeat }};
+         opacity: {{ report.cover_image_opacity }};">
     </div>
+    <div class="cover"
+         style="opacity: {{ report.cover_veil_opacity }}"></div>
+    <hr class="ui hidden divider" />
+
+    <div class="ui stripe relative container">
+      <img class="ui centered tiny image"
+           src="{{ site.data.people.orgs.ocf.icon }}"
+           alt="" />
+      <h1 class="ui {{ hero_style }} {{ hero_title_color }} header">
+        {{ report.title }}
+      </h1>
+      <p>
+        {{ report.description }}
+      </p>
+    </div>
+    <hr class="ui hidden divider" />
+  </header>
+
+  <!-- 從成果報告資料產生各展示區塊 -->
+  {% for item in report.items %}
+
+  <!-- 標題區塊 -->
+  {% if item.type == "header" %}
+
+  {% if item.theme == "light" %}
+  {% assign item_style = "" %}
+  {% assign item_title_color = item.background_color %}
+  {% else %}
+  {% assign item_style = "inverted" %}
+  {% assign item_title_color = "white" %}
+  {% endif %}
+  <a name="{{ item.anchor }}"></a>
+  <header
+          class="title ui basic very padded segment marginless {{ item_style }} {{ item.background_color }}">
+    {% if item.cover %}
+    <div class="cover image"
+         style="background-image: url({{ item.cover }});
+         background-size: {{ item.cover_image_size }};
+         background-position: {{ item.cover_image_position }};
+         background-repeat: {{ item.cover_image_repeat }};
+         opacity: {{ item.cover_image_opacity }}">
+    </div>
+    <div class="cover"
+         style="opacity: {{ item.cover_veil_opacity }}"></div>
     {% endif %}
-    {% if item.button %}
-      <hr class="ui hidden divider"></hr>
-      <p class="action" style="text-align: {{ item.button.position }}">
-        <a class="ui basic inverted button" href="{{ item.button.url }}" target="_blank">
+    <div class="ui center aligned stripe container">
+      {% if item.icon %}
+      <div class="ui two column stackable grid">
+        <div class="four wide column">
+          <a href="#{{ item.anchor }}">
+            <i class="{{ item.icon }} {{ item_title_color }} icon bordered"></i>
+          </a>
+        </div>
+        <div class="twelve wide left aligned column">
+          {% endif %}
+
+          <h2 class="ui {{ item_style }} {{ item_title_color }} header">
+            {{ item.title }}
+          </h2>
+          <p>
+            {{ item.description }}
+          </p>
+
+          {% if item.icon %}
+        </div>
+      </div>
+      {% endif %}
+      {% if item.button %}
+      <hr class="ui hidden divider">
+      </hr>
+      <p class="action"
+         style="text-align: {{ item.button.position }}">
+        <a class="ui basic inverted button"
+           href="{{ item.button.url }}"
+           target="_blank">
           {{ item.button.title}}
           <i class="icon right arrow"></i>
         </a>
       </p>
-    {% endif %}
-  </div>
-</header>
-
-<!-- 圖片式標題區塊 -->
-{% elsif item.type == "image_header" %}
-<a name="{{ item.anchor }}"></a>
-<div class="content container" style="max-width: {{ page.width }};">
-<header class="image_header ui basic segment marginless paddingless inverted {{ item.background_color }}">
-  {% if item.cover %}
-    <div class="ui fluid image">
-      <img src="{{ item.cover }}" alt="{{ item.cover_image_alt }}" />
-    </div>
-  {% endif %}
-  {% if item.button %}
-    <p class="action {{ item.button.position }} aligned">
-      <a class="ui basic inverted button" href="{{ item.button.url }}" target="_blank">
-        {{ item.button.title}}
-        <i class="icon right arrow"></i>
-      </a>
-    </p>
-  {% endif %}
-</header>
-</div>
-
-<!-- 內容區塊 -->
-{% elsif item.type == "content" %}
-<div class="content container" style="max-width: {{ page.width }};">
-
-{% if item.single_column == true %}
-{% else %}
-<section class="ui two column stackable grid">
-{% endif %}
-
-{% for column in item.columns %}
-
-  <!-- 根據資料產生 image 欄內容，同時決定位置是否要左右對調 -->
-  {% if column.type == "image" %}
-  <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
-    <img class="ui image" src="{{ column.url }}" alt="" />
-  </div>
-
-  <!-- 根據資料產生 image slider 欄內容，同時決定位置是否要左右對調 -->
-  {% elsif column.type == "slider" %}
-  <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
-    <div class="slick">
-      {% for slide in column.slides %}
-      <img class="ui image" src="{{ slide.url }}" />
-      {% endfor %}
-    </div>
-  </div>
-
-  <!-- 根據資料產生 collage 欄內容，同時決定位置是否要左右對調 -->
-  {% elsif column.type == "collage" %}
-  <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
-    <div class="ui {{ column.grid }} column grid">
-
-    {% for item in column.items %}
-    <div class="column">
-
-      <div class="ui fluid image" >
-      {% if item.person_id %}
-        {% assign person = site.data.people.individuals[item.person_id] %}
-        <img src="{{ person.avatar }}" alt="Avatar of '{{ person.name }} ({{ person.nick }})'" />
-        <span class="ui tiny bottom attached inverted label">{{ person.name }} ({{ person.nick }})</span>
-
-      {% elsif item.org_id %}
-        {% assign org = site.data.people.orgs[item.org_id] %}
-        <img src="{{ org.avatar }}" alt="Avatar of '{{ org.name }}'" />
-        <span class="ui tiny bottom attached inverted label">{{ org.name }}</span>
-
-      {% else %}
-        <img src="{{ item.src }}" alt="{{ item.title }}" />
-        <span class="ui tiny bottom attached inverted label">{{ item.title }}</span>
       {% endif %}
+    </div>
+  </header>
+
+  <!-- 圖片式標題區塊 -->
+  {% elsif item.type == "image_header" %}
+  <a name="{{ item.anchor }}"></a>
+  <div class="content container"
+       style="max-width: {{ page.width }};">
+    <header
+            class="image_header ui basic segment marginless paddingless inverted {{ item.background_color }}">
+      {% if item.cover %}
+      <div class="ui fluid image">
+        <img src="{{ item.cover }}"
+             alt="{{ item.cover_image_alt }}" />
+      </div>
+      {% endif %}
+      {% if item.button %}
+      <p class="action {{ item.button.position }} aligned">
+        <a class="ui basic inverted button"
+           href="{{ item.button.url }}"
+           target="_blank">
+          {{ item.button.title}}
+          <i class="icon right arrow"></i>
+        </a>
+      </p>
+      {% endif %}
+    </header>
+  </div>
+
+  <!-- 內容區塊 -->
+  {% elsif item.type == "content" %}
+  <div class="content container"
+       style="max-width: {{ page.width }};">
+
+    {% if item.single_column == true %}
+    {% else %}
+    <section class="ui two column stackable grid">
+      {% endif %}
+
+      {% for column in item.columns %}
+
+      <!-- 根據資料產生 image 欄內容，同時決定位置是否要左右對調 -->
+      {% if column.type == "image" %}
+      <div class="column{% if column.swap %} flex-swap{% endif %}"
+           data-type="{{ column.type }}">
+        <img class="ui image"
+             src="{{ column.url }}"
+             alt="" />
       </div>
 
-    </div>
-    {% endfor %}
-
-    </div>
-  </div>
-
-  <!-- 根據資料產生 article 欄內容 -->
-  {% elsif column.type == "article" %}
-  <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
-    <div class="ui center aligned stripe container">
-
-      <h3 class="ui header">
-      {{ column.title }}
-      {% if column.subtitle %}
-        <div class="sub header">
-          {{ column.subtitle }}
+      <!-- 根據資料產生 image slider 欄內容，同時決定位置是否要左右對調 -->
+      {% elsif column.type == "slider" %}
+      <div class="column{% if column.swap %} flex-swap{% endif %}"
+           data-type="{{ column.type }}">
+        <div class="slick">
+          {% for slide in column.slides %}
+          <img class="ui image"
+               src="{{ slide.url }}" />
+          {% endfor %}
         </div>
-      {% endif %}
-      </h3>
+      </div>
 
-      {% if column.description %}
-      <p>
-      {{ column.description }}
-      </p>
-      {% endif %}
+      <!-- 根據資料產生 collage 欄內容，同時決定位置是否要左右對調 -->
+      {% elsif column.type == "collage" %}
+      <div class="column{% if column.swap %} flex-swap{% endif %}"
+           data-type="{{ column.type }}">
+        <div class="ui {{ column.grid }} column grid">
 
-      {% if column.items %}
-      <div class="ui link divided list">
-      {% for link in column.items %}
+          {% for item in column.items %}
+          <div class="column">
 
-        {% if link.project_id %}
+            <div class="ui fluid image">
+              {% if item.person_id %}
+              {% assign person = site.data.people.individuals[item.person_id] %}
+              <img src="{{ person.avatar }}"
+                   alt="Avatar of '{{ person.name }} ({{ person.nick }})'" />
+              <span
+                    class="ui tiny bottom attached inverted label">{{ person.name }}
+                ({{ person.nick }})</span>
 
-        {% assign data = site.data.projects[year][link.project_id] %}
-        <a class="item" href="{{ data.link[0].url }}" target="_blank">
+              {% elsif item.org_id %}
+              {% assign org = site.data.people.orgs[item.org_id] %}
+              <img src="{{ org.avatar }}"
+                   alt="Avatar of '{{ org.name }}'" />
+              <span
+                    class="ui tiny bottom attached inverted label">{{ org.name }}</span>
 
-          {% if data.month %}
-          <span class="ui horizontal label">
-          {% if page.lang == 'en' %}
-            {% if data.month == 1 %}
-            Jan
-            {% elsif data.month == 2 %}
-            Feb
-            {% elsif data.month == 3 %}
-            Mar
-            {% elsif data.month == 4 %}
-            Apr
-            {% elsif data.month == 5 %}
-            May
-            {% elsif data.month == 6 %}
-            Jun
-            {% elsif data.month == 7 %}
-            Jul
-            {% elsif data.month == 8 %}
-            Aug
-            {% elsif data.month == 9 %}
-            Sep
-            {% elsif data.month == 10 %}
-            Oct
-            {% elsif data.month == 11 %}
-            Nov
-            {% elsif data.month == 12 %}
-            Dec
+              {% else %}
+              <img src="{{ item.src }}"
+                   alt="{{ item.title }}" />
+              <span
+                    class="ui tiny bottom attached inverted label">{{ item.title }}</span>
+              {% endif %}
+            </div>
+
+          </div>
+          {% endfor %}
+
+        </div>
+      </div>
+
+      <!-- 根據資料產生 article 欄內容 -->
+      {% elsif column.type == "article" %}
+      <div class="column{% if column.swap %} flex-swap{% endif %}"
+           data-type="{{ column.type }}">
+        <div class="ui center aligned stripe container">
+
+          <h3 class="ui header">
+            {{ column.title }}
+            {% if column.subtitle %}
+            <div class="sub header">
+              {{ column.subtitle }}
+            </div>
             {% endif %}
-          {% else %}
-            {{ data.month }} 月
-          {% endif %}
-          </span>
-          {% endif %}
+          </h3>
 
-          {% if page.lang == 'en' %}
-            {{ data.name_en }}
-          {% else %}
-            {{ data.name }}
+          {% if column.description %}
+          <p>
+            {{ column.description }}
+          </p>
           {% endif %}
 
-        </a>
+          {% if column.items %}
+          <div class="ui link divided list">
+            {% for link in column.items %}
 
-        {% else %}
+            {% if link.project_id %}
 
-        <{% if link.url %}a{% else %}div{% endif %} class="item" {% if link.url %} href="{{ link.url }}" target="_blank" {% else %} style="cursor: default;" {% endif %}>
+            {% assign data = site.data.projects[year][link.project_id] %}
+            <a class="item"
+               href="{{ data.link[0].url }}"
+               target="_blank">
 
-          {% if link.month %}
-          <span class="ui horizontal label">
-            {% if page.lang == 'en' %}
-              {{ link.month }}
+              {% if data.month %}
+              <span class="ui horizontal label">
+                {% if page.lang == 'en' %}
+                {% if data.month == 1 %}
+                Jan
+                {% elsif data.month == 2 %}
+                Feb
+                {% elsif data.month == 3 %}
+                Mar
+                {% elsif data.month == 4 %}
+                Apr
+                {% elsif data.month == 5 %}
+                May
+                {% elsif data.month == 6 %}
+                Jun
+                {% elsif data.month == 7 %}
+                Jul
+                {% elsif data.month == 8 %}
+                Aug
+                {% elsif data.month == 9 %}
+                Sep
+                {% elsif data.month == 10 %}
+                Oct
+                {% elsif data.month == 11 %}
+                Nov
+                {% elsif data.month == 12 %}
+                Dec
+                {% endif %}
+                {% else %}
+                {{ data.month }} 月
+                {% endif %}
+              </span>
+              {% endif %}
+
+              {% if page.lang == 'en' %}
+              {{ data.name_en }}
+              {% else %}
+              {{ data.name }}
+              {% endif %}
+
+            </a>
+
             {% else %}
-              {{ link.month }} 月
+
+            <{% if
+                link.url
+                %}a{%
+                else
+                %}div{%
+                endif
+                %}
+                class="item"
+                {%
+                if
+                link.url
+                %}
+                href="{{ link.url }}"
+                target="_blank"
+                {%
+                else
+                %}
+                style="cursor: default;"
+                {%
+                endif
+                %}>
+
+              {% if link.month %}
+              <span class="ui horizontal label">
+                {% if page.lang == 'en' %}
+                {{ link.month }}
+                {% else %}
+                {{ link.month }} 月
+                {% endif %}
+              </span>
+              {% endif %}
+
+              {{ link.title }}
+
+            </{% if
+                 link.url
+                 %}a{%
+                 else
+                 %}div{%
+                 endif
+                 %}>
+
             {% endif %}
-          </span>
+
+            {% endfor %}
+          </div>
           {% endif %}
 
-          {{ link.title }}
+          {% if column.footer %}
+          <p>
+            {{ column.footer }}
+          </p>
+          {% endif %}
 
-        </{% if link.url %}a{% else %}div{% endif %}>
+          {% if column.logos %}
+          <div class="ui horizontal center aligned logos list">
+            {% for logo in column.logos %}
 
-        {% endif %}
+            {% if logo.org_id %}
+            {% assign org = site.data.people.orgs[ logo.org_id ] %}
+            <a class="item"
+               {%
+               if
+               org.link[0].url
+               %}
+               target="_blank"
+               href="{{ org.link[0].url }}"
+               {%
+               else
+               %}
+               style="cursor: auto;"
+               {%
+               endif
+               %}>
+              <img class="logo"
+                   src="{{ org.logo }}"
+                   alt="{{ org.name }}"
+                   style="height: {{ column.logo_height }};" />
+            </a>
+            {% else %}
+            <a class="item"
+               {%
+               if
+               logo.url
+               %}
+               target="_blank"
+               href="{{ logo.url }}"
+               {%
+               else
+               %}
+               style="cursor: auto;"
+               {%
+               endif
+               %}>
+              <img class="logo"
+                   src="{{ logo.src }}"
+                   alt="{{ logo.title }}"
+                   style="height: {{ column.logo_height }};" />
+            </a>
+            {% endif %}
 
-      {% endfor %}
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if column.action %}
+          <a class="ui basic button"
+             href="{{ column.action.url }}"
+             target="_blank">
+            {{ column.action.title }}
+            <i class="right arrow icon"></i>
+          </a>
+          {% endif %}
+
+        </div>
+      </div>
+
+      <!-- 根據資料產生 iframe 欄內容 -->
+      {% elsif column.type == "iframe" %}
+      <div class="column{% if column.swap %} flex-swap{% endif %}"
+           data-type="{{ column.type }}">
+        <div class="ui center aligned stripe container">
+          <h3 class="ui center aligned header">
+            {{ column.title }}
+            <div class="sub header">{{ column.description }}</div>
+          </h3>
+          <iframe src="{{ column.url }}"
+                  style="height: {{ column.height }}; border: none; width: 100%; overflow: {% if column.scrolling == "
+                  yes"
+                  %}auto{%
+                  else
+                  %}hidden{%
+                  endif
+                  %};"
+                  scrolling="{% if column.scrolling == "
+                  yes"
+                  %}auto{%
+                  else
+                  %}no{%
+                  endif
+                  %}"></iframe>
+        </div>
       </div>
       {% endif %}
+      {% endfor %}
 
-      {% if column.footer %}
-      <p>
-      {{ column.footer }}
-      </p>
-      {% endif %}
-
-      {% if column.logos %}
-      <div class="ui horizontal center aligned logos list">
-      {% for logo in column.logos %}
-
-      {% if logo.org_id %}
-        {% assign org = site.data.people.orgs[ logo.org_id ] %}
-        <a class="item" {% if org.link[0].url %} target="_blank" href="{{ org.link[0].url }}"{% else %} style="cursor: auto;" {% endif %}>
-          <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" style="height: {{ column.logo_height }};"/>
-        </a>
+      {% if item.single_column == true %}
       {% else %}
-        <a class="item" {% if logo.url %} target="_blank" href="{{ logo.url }}"{% else %} style="cursor: auto;" {% endif %}>
-          <img class="logo" src="{{ logo.src }}" alt="{{ logo.title }}" style="height: {{ column.logo_height }};"/>
-        </a>
-      {% endif %}
+    </section>
+    {% endif %}
 
-      {% endfor %}
-      </div>
-      {% endif %}
-
-      {% if column.action %}
-      <a class="ui basic button" href="{{ column.action.url }}" target="_blank">
-        {{ column.action.title }}
-        <i class="right arrow icon"></i>
-      </a>
-      {% endif %}
-
-    </div>
-  </div>
-
-  <!-- 根據資料產生 iframe 欄內容 -->
-  {% elsif column.type == "iframe" %}
-  <div class="column{% if column.swap %} flex-swap{% endif %}" data-type="{{ column.type }}">
-    <div class="ui center aligned stripe container">
-      <h3 class="ui center aligned header">
-        {{ column.title }}
-        <div class="sub header">{{ column.description }}</div>
-      </h3>
-      <iframe src="{{ column.url }}" style="height: {{ column.height }}; border: none; width: 100%; overflow: {% if column.scrolling == "yes" %}auto{% else %}hidden{% endif %};" scrolling="{% if column.scrolling == "yes" %}auto{% else %}no{% endif %}"></iframe>
-    </div>
   </div>
   {% endif %}
-{% endfor %}
+  {% endfor %}
 
-{% if item.single_column == true %}
-{% else %}
-</section>
-{% endif %}
-
-</div>
-{% endif %}
-{% endfor %}
-
-<!-- 最後放上無所不在的捐款廣告 -->
-{% if page.lang == "en" %}
-{% else %}
-{% include banner_cta.html %}
-{% endif %}
+  <!-- 最後放上無所不在的捐款廣告 -->
+  {% if page.lang == "en" %}
+  {% else %}
+  {% include banner_cta.html %}
+  {% endif %}
 
 </main>

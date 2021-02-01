@@ -2,17 +2,51 @@
   overflow: hidden;
 }
 
+#report #hero.ui.segment:not(.inverted),
+#report .title.ui.segment:not(.inverted) {
+  border-top: none!important;
+}
+
 #report #hero .cover,
 #report .title .cover {
-  min-width: 100%;
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
   right: 0;
   opacity: 0.3;
+  background-color: #fff;
+}
+
+#report #hero.inverted .cover,
+#report .title.inverted .cover {
   background-color: #000;
 }
+
+#report #hero .cover.image,
+#report .title .cover.image {
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+
+#report #hero .circular.icon,
+#report .title .bordered.icon {
+  color:#000;
+  box-shadow: 0 0 0 .1em rgba(0,0,0,0.3) inset;
+}
+
+#report #hero.inverted .circular.icon,
+#report .title.inverted .bordered.icon {
+  color:#fff;
+  box-shadow: 0 0 0 .1em rgba(255,255,255,0.6) inset;
+}
+
+#report .title .bordered.icon {
+  font-size: 3rem;
+}
+
 #report .og-banner {
   max-width:100%;
   opacity: 1;
@@ -51,24 +85,9 @@
   margin: 0;
 }
 
-#report #hero .cover.image,
-#report .title .cover.image {
-  opacity: 0.9;
-}
-
-#report #hero .circular.icon {
-  box-shadow: 0 0 0 .1em rgba(255,255,255,0.6) inset;
-}
-
 #report .relative {
   position: relative;
 }
-
-#report header.ui.segment .bordered.icon {
-  box-shadow: 0 0 0 .1em rgba(255,255,255,.5) inset;
-  font-size: 3rem;
-}
-
 
 #report .flex-swap {
   order: 3;
