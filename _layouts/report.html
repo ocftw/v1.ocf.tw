@@ -26,24 +26,21 @@ layout: global
   {% endif %}
 
   <header id="hero"
-          class="ui {{ hero_style }} {{ report.color }} center aligned basic very padded segment marginless">
+    class="ui {{ hero_style }} {{ report.color }} center aligned basic very padded segment marginless">
 
     <!-- 若有需要，可在檔頭做設定，調整背景圖的透明度跟混色 -->
-    <div class="cover image"
-         style="background-image: url({{ report.cover }});
+    <div class="cover image" style="background-image: url({{ report.cover }});
          background-size: {{ report.cover_image_size }};
          background-position: {{ report.cover_image_position }};
          background-repeat: {{ report.cover_image_repeat }};
          opacity: {{ report.cover_image_opacity }};">
     </div>
-    <div class="cover"
-         style="opacity: {{ report.cover_veil_opacity }}"></div>
+    <div class="cover" style="opacity: {{ report.cover_veil_opacity }}"></div>
     <hr class="ui hidden divider" />
 
     <div class="ui stripe relative container">
       <img class="ui centered tiny image"
-           src="{{ site.data.people.orgs.ocf.icon }}"
-           alt="" />
+        src="{{ site.data.people.orgs.ocf.icon }}" alt="" />
       <h1 class="ui {{ hero_style }} {{ hero_title_color }} header">
         {{ report.title }}
       </h1>
@@ -69,17 +66,15 @@ layout: global
   {% endif %}
   <a name="{{ item.anchor }}"></a>
   <header
-          class="title ui basic very padded segment marginless {{ item_style }} {{ item.background_color }}">
+    class="title ui basic very padded segment marginless {{ item_style }} {{ item.background_color }}">
     {% if item.cover %}
-    <div class="cover image"
-         style="background-image: url({{ item.cover }});
+    <div class="cover image" style="background-image: url({{ item.cover }});
          background-size: {{ item.cover_image_size }};
          background-position: {{ item.cover_image_position }};
          background-repeat: {{ item.cover_image_repeat }};
          opacity: {{ item.cover_image_opacity }}">
     </div>
-    <div class="cover"
-         style="opacity: {{ item.cover_veil_opacity }}"></div>
+    <div class="cover" style="opacity: {{ item.cover_veil_opacity }}"></div>
     {% endif %}
     <div class="ui center aligned stripe container">
       {% if item.icon %}
@@ -106,11 +101,9 @@ layout: global
       {% if item.button %}
       <hr class="ui hidden divider">
       </hr>
-      <p class="action"
-         style="text-align: {{ item.button.position }}">
-        <a class="ui basic inverted button"
-           href="{{ item.button.url }}"
-           target="_blank">
+      <p class="action" style="text-align: {{ item.button.position }}">
+        <a class="ui basic inverted button" href="{{ item.button.url }}"
+          target="_blank">
           {{ item.button.title}}
           <i class="icon right arrow"></i>
         </a>
@@ -123,20 +116,17 @@ layout: global
   {% elsif item.type == "image_header" %}
   <a name="{{ item.anchor }}"></a>
   <section style="background-color: {{ item.cover_image_background_color }};">
-    <div class="content container"
-         style="max-width: {{ page.width }};">
+    <div class="content container" style="max-width: {{ page.width }};">
       <header class="image_header ui basic segment marginless paddingless">
         {% if item.cover %}
         <div class="ui fluid image">
-          <img src="{{ item.cover }}"
-               alt="{{ item.cover_image_alt }}" />
+          <img src="{{ item.cover }}" alt="{{ item.cover_image_alt }}" />
         </div>
         {% endif %}
         {% if item.button %}
         <p class="action {{ item.button.position }} aligned">
-          <a class="ui basic inverted button"
-             href="{{ item.button.url }}"
-             target="_blank">
+          <a class="ui basic inverted button" href="{{ item.button.url }}"
+            target="_blank">
             {{ item.button.title}}
             <i class="icon right arrow"></i>
           </a>
@@ -148,8 +138,7 @@ layout: global
 
   <!-- 內容區塊 -->
   {% elsif item.type == "content" %}
-  <div class="content container"
-       style="max-width: {{ page.width }};">
+  <div class="content container" style="max-width: {{ page.width }};">
 
     {% if item.single_column == true %}
     {% else %}
@@ -161,20 +150,17 @@ layout: global
       <!-- 根據資料產生 image 欄內容，同時決定位置是否要左右對調 -->
       {% if column.type == "image" %}
       <div class="column{% if column.swap %} flex-swap{% endif %}"
-           data-type="{{ column.type }}">
-        <img class="ui image"
-             src="{{ column.url }}"
-             alt="" />
+        data-type="{{ column.type }}">
+        <img class="ui image" src="{{ column.url }}" alt="" />
       </div>
 
       <!-- 根據資料產生 image slider 欄內容，同時決定位置是否要左右對調 -->
       {% elsif column.type == "slider" %}
       <div class="column{% if column.swap %} flex-swap{% endif %}"
-           data-type="{{ column.type }}">
+        data-type="{{ column.type }}">
         <div class="slick">
           {% for slide in column.slides %}
-          <img class="ui image"
-               src="{{ slide.url }}" />
+          <img class="ui image" src="{{ slide.url }}" />
           {% endfor %}
         </div>
       </div>
@@ -182,7 +168,7 @@ layout: global
       <!-- 根據資料產生 collage 欄內容，同時決定位置是否要左右對調 -->
       {% elsif column.type == "collage" %}
       <div class="column{% if column.swap %} flex-swap{% endif %}"
-           data-type="{{ column.type }}">
+        data-type="{{ column.type }}">
         <div class="ui {{ column.grid }} column grid">
 
           {% for item in column.items %}
@@ -192,23 +178,21 @@ layout: global
               {% if item.person_id %}
               {% assign person = site.data.people.individuals[item.person_id] %}
               <img src="{{ person.avatar }}"
-                   alt="Avatar of '{{ person.name }} ({{ person.nick }})'" />
+                alt="Avatar of '{{ person.name }} ({{ person.nick }})'" />
               <span
-                    class="ui tiny bottom attached inverted label">{{ person.name }}
+                class="ui tiny bottom attached inverted label">{{ person.name }}
                 ({{ person.nick }})</span>
 
               {% elsif item.org_id %}
               {% assign org = site.data.people.orgs[item.org_id] %}
-              <img src="{{ org.avatar }}"
-                   alt="Avatar of '{{ org.name }}'" />
+              <img src="{{ org.avatar }}" alt="Avatar of '{{ org.name }}'" />
               <span
-                    class="ui tiny bottom attached inverted label">{{ org.name }}</span>
+                class="ui tiny bottom attached inverted label">{{ org.name }}</span>
 
               {% else %}
-              <img src="{{ item.src }}"
-                   alt="{{ item.title }}" />
+              <img src="{{ item.src }}" alt="{{ item.title }}" />
               <span
-                    class="ui tiny bottom attached inverted label">{{ item.title }}</span>
+                class="ui tiny bottom attached inverted label">{{ item.title }}</span>
               {% endif %}
             </div>
 
@@ -221,7 +205,7 @@ layout: global
       <!-- 根據資料產生 article 欄內容 -->
       {% elsif column.type == "article" %}
       <div class="column{% if column.swap %} flex-swap{% endif %}"
-           data-type="{{ column.type }}">
+        data-type="{{ column.type }}">
         <div class="ui center aligned stripe container">
 
           <h3 class="ui header">
@@ -246,9 +230,7 @@ layout: global
             {% if link.project_id %}
 
             {% assign data = site.data.projects[year][link.project_id] %}
-            <a class="item"
-               href="{{ data.link[0].url }}"
-               target="_blank">
+            <a class="item" href="{{ data.link[0].url }}" target="_blank">
 
               {% if data.month %}
               <span class="ui horizontal label">
@@ -294,27 +276,9 @@ layout: global
 
             {% else %}
 
-            <{% if
-                link.url
-                %}a{%
-                else
-                %}div{%
-                endif
-                %}
-                class="item"
-                {%
-                if
-                link.url
-                %}
-                href="{{ link.url }}"
-                target="_blank"
-                {%
-                else
-                %}
-                style="cursor: default;"
-                {%
-                endif
-                %}>
+            <{% if link.url %}a{% else %}div{% endif %} class="item" {% if
+              link.url %} href="{{ link.url }}" target="_blank" {% else %}
+              style="cursor: default;" {% endif %}>
 
               {% if link.month %}
               <span class="ui horizontal label">
@@ -328,13 +292,7 @@ layout: global
 
               {{ link.title }}
 
-            </{% if
-                 link.url
-                 %}a{%
-                 else
-                 %}div{%
-                 endif
-                 %}>
+            </{% if link.url %}a{% else %}div{% endif %}>
 
             {% endif %}
 
@@ -354,44 +312,18 @@ layout: global
 
             {% if logo.org_id %}
             {% assign org = site.data.people.orgs[ logo.org_id ] %}
-            <a class="item"
-               {%
-               if
-               org.link[0].url
-               %}
-               target="_blank"
-               href="{{ org.link[0].url }}"
-               {%
-               else
-               %}
-               style="cursor: auto;"
-               {%
-               endif
-               %}>
-              <img class="logo"
-                   src="{{ org.logo }}"
-                   alt="{{ org.name }}"
-                   style="height: {{ column.logo_height }};" />
+            <a class="item" {% if org.link[0].url %} target="_blank"
+              href="{{ org.link[0].url }}" {% else %} style="cursor: auto;" {%
+              endif %}>
+              <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}"
+                style="height: {{ column.logo_height }};" />
             </a>
             {% else %}
-            <a class="item"
-               {%
-               if
-               logo.url
-               %}
-               target="_blank"
-               href="{{ logo.url }}"
-               {%
-               else
-               %}
-               style="cursor: auto;"
-               {%
-               endif
-               %}>
-              <img class="logo"
-                   src="{{ logo.src }}"
-                   alt="{{ logo.title }}"
-                   style="height: {{ column.logo_height }};" />
+            <a class="item" {% if logo.url %} target="_blank"
+              href="{{ logo.url }}" {% else %} style="cursor: auto;" {% endif
+              %}>
+              <img class="logo" src="{{ logo.src }}" alt="{{ logo.title }}"
+                style="height: {{ column.logo_height }};" />
             </a>
             {% endif %}
 
@@ -400,9 +332,8 @@ layout: global
           {% endif %}
 
           {% if column.action %}
-          <a class="ui basic button"
-             href="{{ column.action.url }}"
-             target="_blank">
+          <a class="ui basic button" href="{{ column.action.url }}"
+            target="_blank">
             {{ column.action.title }}
             <i class="right arrow icon"></i>
           </a>
@@ -414,27 +345,17 @@ layout: global
       <!-- 根據資料產生 iframe 欄內容 -->
       {% elsif column.type == "iframe" %}
       <div class="column{% if column.swap %} flex-swap{% endif %}"
-           data-type="{{ column.type }}">
+        data-type="{{ column.type }}">
         <div class="ui center aligned stripe container">
           <h3 class="ui center aligned header">
             {{ column.title }}
             <div class="sub header">{{ column.description }}</div>
           </h3>
           <iframe src="{{ column.url }}"
-                  style="height: {{ column.height }}; border: none; width: 100%; overflow: {% if column.scrolling == "
-                  yes"
-                  %}auto{%
-                  else
-                  %}hidden{%
-                  endif
-                  %};"
-                  scrolling="{% if column.scrolling == "
-                  yes"
-                  %}auto{%
-                  else
-                  %}no{%
-                  endif
-                  %}"></iframe>
+            style="height: {{ column.height }}; border: none; width: 100%; overflow: {% if column.scrolling == "
+            yes" %}auto{% else %}hidden{% endif %};"
+            scrolling="{% if column.scrolling == " yes" %}auto{% else %}no{%
+            endif %}"></iframe>
         </div>
       </div>
       {% endif %}
