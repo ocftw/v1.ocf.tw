@@ -81,7 +81,7 @@ items:
         items:
           - project_id: openists
           - title: <a href="https://coscup.org/2020/zh-TW/agenda" target=_blank>開源新手村</a>、<a href="https://lab.ocf.tw/2020/10/07/sfd2020-2/" target=_blank>歡慶軟體自由日</a>
-          - title: <a href="https://dmfli.kktix.cc/events/openchaintwgm1" target=blank>OpenChain 工作坊</a>、5G 與開源電信專案分享
+          - title: <a href="https://dmfli.kktix.cc/events/openchaintwgm1" target=blank>OpenChain 工作坊</a>、<a href="https://ocf.tw/p/issues/2020/5G.html" target=_blank>5G 與開源電信專案分享</a>
           - title: <a href="https://docs.google.com/document/d/1SiCDSTXLi8fbrUiwVssImbbnNk5uXDc-DD4osXRrTi4/edit" target=_blank>出訪參與歐洲開源年會 FOSDEM </a>
       - type: image
         url: /p/admin/2020/p4-1.jpg
