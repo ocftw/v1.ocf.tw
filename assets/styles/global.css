@@ -40,6 +40,21 @@ code.nick {
   vertical-align: bottom;
 }
 
+/* for icons */
+
+i.icon.fa,
+i.icon.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.ui.list .list > .item > i.icon.fa,
+.ui.list .list > .item > i.icon.fas,
+.ui.list > .item > i.icon.fa,
+.ui.list > .item > i.icon.fas {
+  line-height: 1.6em;
+}
+
 /* adjust default semantic ui line height */
 
 [data-lang='tw'] p,
