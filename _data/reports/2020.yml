@@ -21,6 +21,7 @@ items:
     cover: /p/admin/2020/p1-header.png
     cover_image_alt: OCF 活動重點成果
   - type: header
+    theme: light
     title: 社群支援
     icon: hand rock
     cover: /p/admin/2020/whitebg.png
@@ -67,6 +68,7 @@ items:
 
   - type: header
     title: 議題串連
+    theme: light
     cover: /p/admin/2020/whitebg.png
     cover_veil_opacity: 0
     icon: handshake outline
@@ -120,6 +122,7 @@ items:
 
   - type: header
     title: 開放文化推廣
+    theme: light
     cover: /p/admin/2020/whitebg.png
     cover_veil_opacity: 0
     icon: university
@@ -169,6 +172,7 @@ items:
   - type: header
     title: 財務報告
     icon: dollar sign
+    theme: light
     background_color: teal
     cover: /p/admin/2020/whitebg.png
     cover_veil_opacity: 0
@@ -189,6 +193,7 @@ items:
         description: 行政中心  NT$ 3,747,291  <br/> 國際交流  NT$ 6,965,451  <br/> 其他社群專案   NT$ 13,520,368  
         scrolling: "no"
   - type: header
+    theme: light
     title: 因為有你們，我們得以一直前進
     icon: chess knight
     cover: /p/admin/2020/whitebg.png
