@@ -12,8 +12,8 @@ h4,
 h5,
 h6,
 button {
-  font-family: Lato, Noto sans, 'Helvetica Neue', Arial, Helvetica, '微軟正黑體',
-    'Microsoft JhengHei', sans-serif;
+  font-family: Lato, Noto sans, "Helvetica Neue", Arial, Helvetica, "微軟正黑體",
+    "Microsoft JhengHei", sans-serif;
 }
 
 pre,
@@ -57,27 +57,27 @@ i.icon.fas {
 
 /* adjust default semantic ui line height */
 
-[data-lang='tw'] p,
-[data-lang='tw'] a,
-[data-lang='tw'] li,
-[data-lang='tw'] h1,
-[data-lang='tw'] h2,
-[data-lang='tw'] h3,
-[data-lang='tw'] h4,
-[data-lang='tw'] h5,
-[data-lang='tw'] h6,
-[data-lang='tw'] .header,
-[data-lang='tw'] .ui.header,
-[data-lang='tw'] .ui.header .sub.header,
-[data-lang='tw'] .header .sub.header,
-[data-lang='tw'] .ui.list .item,
-[data-lang='tw'] .ui.list .item .content,
-[data-lang='tw'] .ui.items > .item,
-[data-lang='tw'] .ui.items > .item .meta,
-[data-lang='tw'] .ui.items > .item .description,
-[data-lang='tw'] .ui.cards > .card,
-[data-lang='tw'] .ui.cards > .card .meta,
-[data-lang='tw'] .ui.cards > .card .description {
+[data-lang="tw"] p,
+[data-lang="tw"] a,
+[data-lang="tw"] li,
+[data-lang="tw"] h1,
+[data-lang="tw"] h2,
+[data-lang="tw"] h3,
+[data-lang="tw"] h4,
+[data-lang="tw"] h5,
+[data-lang="tw"] h6,
+[data-lang="tw"] .header,
+[data-lang="tw"] .ui.header,
+[data-lang="tw"] .ui.header .sub.header,
+[data-lang="tw"] .header .sub.header,
+[data-lang="tw"] .ui.list .item,
+[data-lang="tw"] .ui.list .item .content,
+[data-lang="tw"] .ui.items > .item,
+[data-lang="tw"] .ui.items > .item .meta,
+[data-lang="tw"] .ui.items > .item .description,
+[data-lang="tw"] .ui.cards > .card,
+[data-lang="tw"] .ui.cards > .card .meta,
+[data-lang="tw"] .ui.cards > .card .description {
   line-height: 1.6em;
 }
 
@@ -211,20 +211,20 @@ i.icon.fas {
 
 /* for semantic ui sidebar */
 
-#header [data-display='mobile'] {
+#header [data-display="mobile"] {
   display: none;
   margin-right: -1.14285714em;
 }
-#header [data-display='mobile'] i.icon {
+#header [data-display="mobile"] i.icon {
   margin-right: 0;
 }
 
 @media only screen and (max-width: 767px) {
-  #header [data-display='desktop'] {
+  #header [data-display="desktop"] {
     display: none;
   }
 
-  #header [data-display='mobile'] {
+  #header [data-display="mobile"] {
     display: flex;
   }
 }
@@ -247,24 +247,24 @@ html.ios body {
   background-color: rgba(240, 240, 240, 0.8);
 }
 
-#submenu [data-context='mobile'],
-#submenu[data-context='mobile'] {
+#submenu [data-context="mobile"],
+#submenu[data-context="mobile"] {
   display: none;
 }
 
-#submenu [data-context='mobile'] .menu .item,
-#submenu[data-context='mobile'] .menu .item {
+#submenu [data-context="mobile"] .menu .item,
+#submenu[data-context="mobile"] .menu .item {
   text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
-  #submenu [data-context='desktop'],
-  #toc[data-context='desktop'] {
+  #submenu [data-context="desktop"],
+  #toc[data-context="desktop"] {
     display: none;
   }
 
-  #submenu [data-context='mobile'],
-  #submenu[data-context='mobile'] {
+  #submenu [data-context="mobile"],
+  #submenu[data-context="mobile"] {
     display: block;
   }
 }
