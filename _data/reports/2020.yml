@@ -70,7 +70,6 @@ items:
     cover_veil_opacity: 0.2
     background_color: black
     icon: handshake outline
-    background_color: teal
     description: 數位時代的人類社會，各類議題或多或少都與科技應用互相連結，藉由與科技社群的長期夥伴關係、與公民團體的議題合作，OCF 期許能成為不同領域跟科技交流的橋樑和平台，串聯國內外的民間組織/科技社群/政府機關，讓更多人得以把開源、開放的精神和機制帶到各自的領域發揮，也讓公民社會使用科技工具更加純熟，以因應多變的數位時代。
 
   - type: content
@@ -124,7 +123,6 @@ items:
     cover_veil_opacity: 0.2
     background_color: black
     icon: university
-    background_color: teal
     description: 什麼是開放文化？是初認識 OCF 的人都會問的問題。<br>從程式原始碼，到資料、政府、公民社會，當「開放」得以形成一種文化，不同群體能夠在不同的素材當中，藉由科技工具找到直接交流和協同合作的模式。<br>面對快速改變的數位時代，OCF 希望能讓更多人了解開放文化的重要，使社會的成果結晶得以不被單一群體掌控。<br>而藉由了解開放的科技，也讓人們看見現今數位科技的不開放對人類社會的影響，並一起描繪屬於大家且自由共享的數位科技環境。
 
   - type: content
