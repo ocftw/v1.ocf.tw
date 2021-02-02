@@ -38,7 +38,10 @@ links:
     icon: 
   - title: OGP 開放政府國家行動方案推動
     url: https://lab.ocf.tw/2020/04/23/twogpnap/
-    icon: 
+    icon:
+  - title: 5G 開放原始碼與資安主題分享
+    url: https://ocf.tw/p/issues/2020/5G.html
+    icon:
 
 links_en:
   - title: eID
@@ -53,6 +56,9 @@ links_en:
   - title: Internet Freedom
     url: https://internetfreedomfestival.org/wiki/index.php/Coffee_%26_Circumvention
     icon: 
+  - title: Open Source and Security for 5G
+    url: https://ocf.tw/p/issues/2020/5G.html
+    icon:
 
 
 actions:
