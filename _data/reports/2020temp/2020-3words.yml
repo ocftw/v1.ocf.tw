@@ -1,8 +1,9 @@
 title: 開放文化基金會 2020 成果報告（建構中）
 description: 
-theme: light
+cover: /p/admin/2020/2020-op1.png
+color:  
 cover_image_opacity: 0.9 
-cover_veil_opacity: 0.2
+cover_veil_opacity: 0.3
 items:
   - type: content
     columns:
@@ -20,12 +21,11 @@ items:
     cover: /p/admin/2020/p1-header.png
     cover_image_alt: OCF 活動重點成果
   - type: header
-    theme: light
     title: 社群支援
     icon: hand rock
-    cover_veil_opacity: 0.2
-    background_color: black
-    description: OCF 的成立，是由多個開源、科技社群共同發起而開始，因此從成立一開始，透過法人組織穩定支援社群專案，使具有各種樣貌、特性的科技社群得以獲得系統化的基礎行政和財務服務，就是 OCF 最大的任務！2020 年，OCF 共支援了 34 個社群專案，透過這樣的法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。OCF 不需要成為包山包海的組織，我們期許自己能打造一個健康的環境，捲動更多社群一起關心議題、開創更多專案。
+    cover: /p/admin/2020/2020-op2.png
+    background_color: teal
+    description: <br>OCF 的成立，是由多個開源、科技社群共同發起而開始，因此從成立一開始，透過法人組織穩定支援社群專案，使具有各種樣貌、特性的科技社群得以獲得系統化的基礎行政和財務服務，就是 OCF 最大的任務！<br>2020 年，OCF 共支援了 34 個社群專案，透過這樣的法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。<br>OCF 不需要成為包山包海的組織，我們期許自己能打造一個健康的環境，捲動更多社群一起關心議題、開創更多專案。
   - type: content
     columns:
       - type: article
@@ -66,11 +66,10 @@ items:
 
   - type: header
     title: 議題串連
-    theme: light
-    cover_veil_opacity: 0.2
-    background_color: black
+    cover: /p/admin/2020/2020-op3.png
     icon: handshake outline
-    description: 數位時代的人類社會，各類議題或多或少都與科技應用互相連結，藉由與科技社群的長期夥伴關係、與公民團體的議題合作，OCF 期許能成為不同領域跟科技交流的橋樑和平台，串聯國內外的民間組織/科技社群/政府機關，讓更多人得以把開源、開放的精神和機制帶到各自的領域發揮，也讓公民社會使用科技工具更加純熟，以因應多變的數位時代。
+    background_color: teal
+    description: <br>數位時代的人類社會，各類議題或多或少都與科技應用互相連結。<br>藉由與科技社群的長期夥伴關係、與公民團體的議題合作，<br>OCF 期許能成為不同領域跟科技交流的橋樑和平台，串聯國內外的民間組織/科技社群/政府機關，<br>讓更多人得以把開源、開放的精神和機制帶到各自的領域發揮，也讓公民社會使用科技工具更加純熟，以因應多變的數位時代。<br><br>
 
   - type: content
     columns:
@@ -119,10 +118,9 @@ items:
 
   - type: header
     title: 開放文化推廣
-    theme: light
-    cover_veil_opacity: 0.2
-    background_color: black
+    cover: /p/admin/2020/2020-op1.png
     icon: university
+    background_color: teal
     description: 什麼是開放文化？是初認識 OCF 的人都會問的問題。<br>從程式原始碼，到資料、政府、公民社會，當「開放」得以形成一種文化，不同群體能夠在不同的素材當中，藉由科技工具找到直接交流和協同合作的模式。<br>面對快速改變的數位時代，OCF 希望能讓更多人了解開放文化的重要，使社會的成果結晶得以不被單一群體掌控。<br>而藉由了解開放的科技，也讓人們看見現今數位科技的不開放對人類社會的影響，並一起描繪屬於大家且自由共享的數位科技環境。
 
   - type: content
@@ -168,10 +166,9 @@ items:
   - type: header
     title: 財務報告
     icon: dollar sign
-    theme: light
-    cover_veil_opacity: 0.2
-    background_color: black
-    description: 
+    background_color: teal
+    cover: /p/admin/2020/2020-op2.png
+    description: <br><br><br><br><br><br>
 
   - type: content
     columns:
@@ -188,11 +185,11 @@ items:
         description: 行政中心  NT$ 3,747,291  <br/> 國際交流  NT$ 6,965,451  <br/> 其他社群專案   NT$ 13,520,368  
         scrolling: "no"
   - type: header
-    theme: light
     title: 因為有你們，我們得以一直前進
     icon: chess knight
-    cover_veil_opacity: 0.2
-    background_color: black
+    cover: /p/admin/2020/2020-op3.png
+    background_color: teal
+    description: 
 
   - type: content
     single_column: true
