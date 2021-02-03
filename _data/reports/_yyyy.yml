@@ -1,6 +1,6 @@
 # 這個檔案是年度成果報告資料檔的範例
 
-title: YYYY 回顧
+title: text
 # 頁首的大標題
 
 description: text
@@ -9,22 +9,22 @@ description: text
 theme: light / dark
 # 頁首區塊的樣式，light 是淺色背景深色字，dark 是深色背景淺色字，若留空則預設為 dark
 
-color: text
+color: (semantic ui color)
 # 在 dark theme 狀態下，頁首的背景圖混色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
 
 cover: url
 # 頁首的背景圖片
 
-cover_image_alt: ''
+cover_image_alt: ""
 # 頁首背景圖片的替代文字（此欄位於 2021/02/01 作廢）
 
-cover_image_size: text
+cover_image_size: (css background-size)
 # 頁首背景圖片的尺寸設定，可填入任一種合法的 css background-size 設定值，預設值為 cover。 css 的 background-size 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
 
-cover_image_position: text
+cover_image_position: (css background-position)
 # 頁首背景圖片的位置設定，可填入任一種合法的 css background-position 設定值，預設值為 center。 css 的 background-position 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
 
-cover_image_repeat: text
+cover_image_repeat: (css background-repeat)
 # 頁首背景圖片的堆疊設定，可填入任一種合法的 css background-repeat 設定值，預設值為 no-repeat。 css 的 background-repeat 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
 
 cover_image_opacity: 0.9
@@ -34,7 +34,7 @@ cover_veil_opacity: 0.3
 # 蓋在頁首的背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
 
 items:
-# 以下每個項目代表一個簡報區塊
+  # 以下每個項目代表一個簡報區塊
 
   - type: header
     # 簡報區塊的類型， header 為標題式區塊，不分欄
@@ -45,7 +45,7 @@ items:
     anchor: text
     # 可以連到 header 區塊的 anchor 名稱
 
-    icon: text
+    icon: (semantic ui icon / fontawesome icon)
     # header 區塊的 icon，建議跟首頁的 what we do 對應
 
     description: text
@@ -54,22 +54,22 @@ items:
     theme: light / dark
     # header 區塊的樣式，light 是淺色背景深色字，dark 是深色背景淺色字，若留空則預設為 dark
 
-    background_color: text
+    background_color: (semantic ui color)
     # 在 dark theme 狀態下，header 區塊背景圖片的背景圖混色，填入 semantic ui inverted segment 的顏色 class name，如 teal / pink / blue ... 等。若 no 或留空，則會採用黑色。semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
 
     cover: url
     # header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
 
-    cover_image_alt: ''
+    cover_image_alt: ""
     # header 區塊背景圖片的替代文字（此欄位於 2021/02/01 作廢）
 
-    cover_image_size: text
+    cover_image_size: (css background-size)
     # header 區塊背景圖片的尺寸設定，可填入任一種合法的 css background-size 設定值，預設值為 cover。 css 的 background-size 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
 
-    cover_image_position: text
+    cover_image_position: (css background-position)
     # header 區塊背景圖片的位置設定，可填入任一種合法的 css background-position 設定值，預設值為 center。 css 的 background-position 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
 
-    cover_image_repeat: text
+    cover_image_repeat: (css background-repeat)
     # header 區塊背景圖片的堆疊設定，可填入任一種合法的 css background-repeat 設定值，預設值為 no-repeat。 css 的 background-repeat 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
 
     cover_image_opacity: 0.9
@@ -79,7 +79,7 @@ items:
     # 蓋在 header 區塊背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
 
     button:
-    # 在 header 區塊底部的按鈕，若留空則不顯示
+      # 在 header 區塊底部的按鈕，若留空則不顯示
 
       title: text
       # 按鈕顯示的文字
@@ -96,20 +96,18 @@ items:
     anchor: text
     # 可以連到 image_header 區塊的 anchor 名稱
 
-    background_color: text
-    # 此欄位目前無作用
-
     cover: url
     # image_header 區塊的背景圖片，若留空，則顯示單純的背景色塊，且以下三個欄位都不會生效
 
-    cover_image_alt: ''
+    cover_image_alt: ""
     # image_header 區塊背景圖片的替代文字
 
-    cover_image_background_color: css color
-    # image_header 區塊背景圖片的背景色，可填入任一種合法的 css color，沒有預設值。 css color code 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/color
+    background_color: (css color)
+    # image_header 區塊背景圖片的背景色，可填入任一種合法的 css color，沒有預設值。 css 的 color code 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/color
+    # 如果使用 # 開頭的 hex color 如 #000 ，要用引號包起來變成 "#000" ，不然會因為 # 的關係而被 .yml 檔案視為註解
 
     button:
-    # 在 image_header 區塊底部的按鈕，若留空則不顯示。若設定按鈕，請一併設定 background_color，因為手機版上會使用它當按鈕的背景色
+      # 在 image_header 區塊底部的按鈕，若留空則不顯示。若設定按鈕，請一併設定 background_color，因為手機版上會使用它當按鈕的背景色
 
       title: text
       # 按鈕顯示的文字
@@ -127,27 +125,27 @@ items:
     # 設定此簡報區塊是否為單欄，若 false 則為預設的兩欄
 
     columns:
-    # content 區塊的兩欄的內容
+      # content 區塊的兩欄的內容
 
       - type: image
         # content 區塊內欄位的類型，若為 image 也就是圖片區塊，請放在第一欄
         # type 為必填
 
-        swap: true / false
-        # 此欄的位置在桌面板網頁上是否要左右對調
-
         url: url
         # image 欄的圖檔網址，必填
+
+        swap: true / false
+        # 此欄的位置在桌面板網頁上是否要左右對調，預設為 false
 
       - type: slider
         # content 區塊內欄位的類型，若為 slider 也就是圖片輪播區塊，請放在第一欄
         # type 為必填
 
         swap: true / false
-        # 此欄的位置在桌面板網頁上是否要左右對調
+        # 此欄的位置在桌面板網頁上是否要左右對調，預設為 false
 
         slides:
-        # slider 內的圖檔們的網址
+          # slider 內的圖檔們的網址
           - url: url
           - url: url
 
@@ -156,10 +154,10 @@ items:
         # type 為必填
 
         swap: true / false
-        # 此欄的位置在桌面板網頁上是否要左右對調
+        # 此欄的位置在桌面板網頁上是否要左右對調，預設為 false
 
         items:
-        # collage 內容物
+          # collage 內容物
 
           - person_id: id
             # 拼圖項目，若設定 person_id 則會自動抓取該個人的資料
@@ -176,7 +174,7 @@ items:
         # type 為必填
 
         swap: true / false
-        # 此欄的位置在桌面板網頁上是否要左右對調
+        # 此欄的位置在桌面板網頁上是否要左右對調，預設為 false
 
         title: text
         # article 欄的標題，必填
@@ -188,7 +186,7 @@ items:
         # article 欄的簡介段落
 
         items:
-        # article 欄的清單
+          # article 欄的清單
 
           - project_id: text
             # 清單項目，若設定 project_id 則會自動抓取該年度該專案的資料
@@ -204,7 +202,7 @@ items:
             # 清單項目的月份標籤
 
         logos:
-        # article 欄的合作單位 logo 牆
+          # article 欄的合作單位 logo 牆
 
           - org_id: text
             # logo 資料來源，若設定 org_id 則會自動抓取該組織的資料
@@ -222,7 +220,7 @@ items:
         # logo 牆中每個 logo 圖片的高度，若省略，則預設是 5rem（同首頁 logo 牆的設定）
 
         action:
-        # article 欄的 call to action 按鈕
+          # article 欄的 call to action 按鈕
 
           title: text
           # 按鈕內的顯示文字
@@ -237,12 +235,12 @@ items:
         # type 為必填
 
         swap: true / false
-        # 此欄的位置在桌面板網頁上是否要左右對調
+        # 此欄的位置在桌面板網頁上是否要左右對調，預設為 false
 
         url: url
         # iframe 欄的內嵌頁面網址，必填
 
-        height: css (e.g. 20rem)
+        height: (css height)
         # iframe 欄的高度，可視內嵌網頁長度而調整
 
         title: text
@@ -253,110 +251,3 @@ items:
 
         scrolling: "yes / no"
         # iframe 是否要有捲軸，若 "yes" 則會有，若 "no" 或省略不填則不會有
-
-
-# ------ 以下無註解 & 內建預設標題快速複製版 ------
-
-title: 201_ 回顧
-description: 
-cover: 
-items:
-  - type: header
-    title: 社群支援
-    icon: hand rock
-    background_color: yellow
-    description: 
-  - type: content
-    columns:
-      - type: image
-        swap: false
-        url: 
-      - type: article
-        title: 
-        subtitle: 
-        description: 
-        items:
-          - project_id: 
-          - title: 
-            url: 
-            month: 
-        action:
-          title: 
-          url: 
-        logos:
-          - src: 
-            url: 
-            title: 
-            height: 
-        footer: 
-  - type: content
-    columns:
-      - type: slider
-        swap: true
-        slides:
-          - url: 
-      - type: article
-        title: 
-        subtitle: 
-        description: 
-        items:
-          - project_id: 
-          - title: 
-            url: 
-            month: 
-        action:
-          title: 
-          url: 
-  - type: header
-    title: 組織合作
-    icon: building outline
-    background_color: olive
-    description: 
-  - type: header
-    title: 國際交流
-    icon: plane
-    background_color: teal
-    description: 
-  - type: header
-    title: 顧問諮詢
-    icon: idea
-    background_color: blue
-    description: 
-  - type: header
-    title: 政策倡議
-    icon: announcement
-    background_color: violet
-    description: 
-  - type: header
-    title: 財務報告
-    icon: dollar
-    background_color: purple
-    description: 
-  - type: content
-    columns:
-      - type: iframe
-        url: url
-        height: 
-        title: 
-        description: 
-        scrolling: 
-      - type: iframe
-        url: url
-        height: 
-        title: 
-        description: 
-        scrolling: 
-  - type: content
-    single_column: true
-    columns:
-      - type: iframe
-        url: url
-        height: 
-        title: 
-        description: 
-        scrolling: 
-  - type: header
-    title: 由衷感謝
-    icon: heart
-    background_color: pink
-    description: 
