@@ -137,6 +137,22 @@ items:
         swap: true / false
         # 此欄的位置在桌面板網頁上是否要左右對調，預設為 false
 
+        background: true / false
+        # 圖片是否以 background image 呈現，如果設定為 true，可以使用 css background-image 的排版設定，如果留空或設定為 false，則以一般 html <img> 標籤呈現
+
+        background_height: (css min-height)
+        # background 為 true 時，圖片的最小高度，可填入任一種合法的 css min-height 設定值，若留空，則由隔壁 column 撐出來的高度決定。css 的 min-height 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/min-height
+
+        background_color: (css color)
+        # background 為 true 時，圖片的背景色，可填入任一種合法的 css color 設定值。背景色會出現在版面區塊中沒有被圖片填滿的部分。 css 的 color code 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/color
+        # 如果使用 # 開頭的 hex color 如 #000 ，要用引號包起來變成 "#000" ，不然會因為 # 的關係而被 .yml 檔案視為註解
+
+        background_size: cover / contain (css background-size)
+        # background 為 true 時，圖片的尺寸設定，可填入任一種合法的 css background-size 設定值，預設值為 cover。 css 的 background-size 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
+
+        background_position: (css background-position)
+        # background 為 true 時，圖片的位置設定，可填入任一種合法的 css background-position 設定值，預設值為 center。 css 的 background-position 請參考： https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
+
       - type: slider
         # content 區塊內欄位的類型，若為 slider 也就是圖片輪播區塊，請放在第一欄
         # type 為必填

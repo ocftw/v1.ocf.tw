@@ -115,7 +115,7 @@ layout: global
   <!-- 圖片式標題區塊 -->
   {% elsif item.type == "image_header" %}
   <a name="{{ item.anchor }}"></a>
-  <section style="background-color: {{ item.cover_image_background_color }};">
+  <section style="background-color: {{ item.background_color }};">
     <div class="content container" style="max-width: {{ page.width }};">
       <header class="image_header ui basic segment marginless paddingless">
         {% if item.cover %}
@@ -151,7 +151,16 @@ layout: global
       {% if column.type == "image" %}
       <div class="column{% if column.swap %} flex-swap{% endif %}"
         data-type="{{ column.type }}">
+        {% if column.background %}
+        <div class="cover image" style="min-height: {{ column.background_height }};
+          background-image: url({{ column.url }});
+          background-color: {{ column.background_color }};
+          background-size: {{ column.background_size }};
+          background-position: {{ column.background_position }};">
+        </div>
+        {% else %}
         <img class="ui image" src="{{ column.url }}" alt="" />
+        {% endif %}
       </div>
 
       <!-- 根據資料產生 image slider 欄內容，同時決定位置是否要左右對調 -->

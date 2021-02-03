@@ -24,11 +24,20 @@
 }
 
 #report #hero .cover.image,
-#report .title .cover.image {
+#report .title .cover.image,
+#report .content .cover.image {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#report #hero .cover.image,
+#report .title .cover.image {
   opacity: 0.9;
+}
+
+#report .content .cover.image {
+  min-height: 100%;
 }
 
 #report #hero .circular.icon,
