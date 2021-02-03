@@ -45,8 +45,10 @@ items:
     anchor: text
     # 可以連到 header 區塊的 anchor 名稱
 
-    icon: (semantic ui icon / fontawesome icon)
-    # header 區塊的 icon，建議跟首頁的 what we do 對應
+    icon: (semantic ui icon / font awesome free icon)
+    # header 區塊的 icon，建議跟首頁的 what we do 對應。可使用任一 semantic ui 或 font awesome 免費版的 icon。
+    # semantic ui icons: http://semantic-ui.com/elements/icon.html
+    # font awesome free icons: https://fontawesome.com/icons?d=gallery&m=free
 
     description: text
     # header 區塊的段落文字

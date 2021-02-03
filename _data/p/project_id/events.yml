@@ -62,13 +62,15 @@
       # 連結要顯示什麼名稱
       url: url
       # 連結要指向哪裡
-      icon: text
-      # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+      icon: (semantic ui icon / font awesome free icon)
+      # 按鈕文字前的 icon，可使用任一 semantic ui 或 font awesome 免費版的 icon。
+      # semantic ui icons: http://semantic-ui.com/elements/icon.html
+      # font awesome free icons: https://fontawesome.com/icons?d=gallery&m=free
   links_en:
   # 英文版網頁用
     - title: text
       url: url
-      icon: text
+      icon: (semantic ui icon / font awesome free icon)
 
   advisor_ids:
   # 指導單位 id
