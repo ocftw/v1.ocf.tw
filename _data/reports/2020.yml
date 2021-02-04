@@ -172,6 +172,14 @@ items:
 
   - type: content
     columns:
+      - type: image
+        swap: true
+        url: /p/admin/2020/p8-1.png
+      - type: image
+        url: /p/admin/2020/p8-2.png
+
+  - type: content
+    columns:
       - type: iframe
         url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQC4Bmr9unjTQg8HqDrYkJC6o6_IUM52Fzh9i4yTbKQqcv-hddD_cJOpqj9C1F8--eeuTEQuMcEXetw/pubchart?oid=504217751&format=interactive
         height: 20rem
