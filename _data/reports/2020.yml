@@ -168,7 +168,7 @@ items:
     icon: dollar sign
     background_color: 
     cover: /p/admin/2020/2020-winter.png
-    description: <br><br><br><br><br><br>
+    description: 
 
   - type: content
     columns:
@@ -183,7 +183,7 @@ items:
     icon: chess knight
     cover: /p/admin/2020/2020cover.png
     background_color: 
-    description: <br><br><br><br><br><br>
+    description: 
 
   - type: content
     single_column: true
