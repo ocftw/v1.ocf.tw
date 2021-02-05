@@ -168,9 +168,6 @@ listed_en:
 reports:
   yyyy: mm
 # 專案在每年的成果報告中所屬的月份，若有，會出現在該年度的成果報告頁
-reports_en:
-  yyyy: mm
-# 英文版網頁用
 
 # 以下快速複製用
 ---
@@ -243,4 +240,3 @@ listed_en:
 
 reports:
   yyyy: mm
-reports_en:
