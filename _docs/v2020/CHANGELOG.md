@@ -146,3 +146,38 @@
 | supported individual roles | `host`, `speaker`, `contributor`  | same plus project roles |
 | others | `meta`, `month` | `metas`, `reports` |
 
+# 第二階段：2021/01 - 2021/02
+
+## 一、影響全站的
+
+所有 .yml 裡面 icon 欄位，除了 semantic ui icons 以外，也支援 font awesome 免費版的 icons（其實原本就應該要有支援，只是 bug 了導致失效…）
+
+## 二、成果報告頁版面寬度設定
+
+多了一個 width 欄位，可以自行指定該頁的內文寬度。詳 p/_yyyy/index.html
+
+## 三、成果報告頁資料設定
+
+詳 _data/reports/_yyyy.yml
+
+頁首標題區塊多了以下欄位可使用
+* theme: light / dark
+* cover_image_size: (css background-size)
+* cover_image_position: (css background-position)
+* cover_image_repeat: (css background-repeat)
+
+內文 type: image_header 區塊修正了以下欄位的功能
+* background_color: (css color)
+
+內文 type: header 區塊多了以下欄位可使用
+* theme: light / dark
+* cover_image_size: (css background-size)
+* cover_image_position: (css background-position)
+* cover_image_repeat: (css background-repeat)
+
+內文 type: content 的 type: image 區塊多了以下欄位可使用
+* background: true / false
+* background_height: (css min-height)
+* background_color: (css color)
+* background_size: cover / contain (css background-size)
+* background_position: (css background-position)
