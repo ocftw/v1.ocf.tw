@@ -1,0 +1,35 @@
+{% assign lang = include.lang %}
+{% assign month = include.month %}
+
+{% if lang == 'en' %}
+  {% if month == 1 %}
+  Jan
+  {% elsif month == 2 %}
+  Feb
+  {% elsif month == 3 %}
+  Mar
+  {% elsif month == 4 %}
+  Apr
+  {% elsif month == 5 %}
+  May
+  {% elsif month == 6 %}
+  Jun
+  {% elsif month == 7 %}
+  Jul
+  {% elsif month == 8 %}
+  Aug
+  {% elsif month == 9 %}
+  Sep
+  {% elsif month == 10 %}
+  Oct
+  {% elsif month == 11 %}
+  Nov
+  {% elsif month == 12 %}
+  Dec
+  {% endif %}
+{% else %}
+  {{ month }} 月
+{% endif %}
+
+{% assign lang = undefined %}
+{% assign month = undefined %}

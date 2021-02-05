@@ -238,40 +238,19 @@ layout: global
 
             {% if link.project_id %}
 
-            {% assign data = site.data.projects[year][link.project_id] %}
-            <a class="item" href="{{ data.link[0].url }}" target="_blank">
-
-              {% if data.month %}
+            {% if page.year >= 2020 %}
+              {% assign data = site.data.p[link.project_id].project %}
+              {% assign project_url = "/p/" | append: link.project_id | append: "/" %}
+              {% assign project_month = data.reports[page.year] %}
+            {% else %}
+              {% assign data = site.data.projects[year][link.project_id] %}
+              {% assign project_url = data.link[0].url %}
+              {% assign project_month = data.month %}
+            {% endif %}
+            <a class="item" href="{{ project_url }}" target="_blank">
+              {% if project_month %}
               <span class="ui horizontal label">
-                {% if page.lang == 'en' %}
-                {% if data.month == 1 %}
-                Jan
-                {% elsif data.month == 2 %}
-                Feb
-                {% elsif data.month == 3 %}
-                Mar
-                {% elsif data.month == 4 %}
-                Apr
-                {% elsif data.month == 5 %}
-                May
-                {% elsif data.month == 6 %}
-                Jun
-                {% elsif data.month == 7 %}
-                Jul
-                {% elsif data.month == 8 %}
-                Aug
-                {% elsif data.month == 9 %}
-                Sep
-                {% elsif data.month == 10 %}
-                Oct
-                {% elsif data.month == 11 %}
-                Nov
-                {% elsif data.month == 12 %}
-                Dec
-                {% endif %}
-                {% else %}
-                {{ data.month }} 月
-                {% endif %}
+              {% include _shared/month.html lang=page.lang month=project_month %}
               </span>
               {% endif %}
 
@@ -280,7 +259,6 @@ layout: global
               {% else %}
               {{ data.name }}
               {% endif %}
-
             </a>
 
             {% else %}
@@ -291,11 +269,7 @@ layout: global
 
               {% if link.month %}
               <span class="ui horizontal label">
-                {% if page.lang == 'en' %}
-                {{ link.month }}
-                {% else %}
-                {{ link.month }} 月
-                {% endif %}
+                {% include _shared/month.html lang=page.lang month=link.month %}
               </span>
               {% endif %}
 
