@@ -172,9 +172,19 @@ items:
 
   - type: content
     columns:
+      - type: article
+        swap: false
+        title: 2020 年度 OCF 總收入（含外幣）
+        description: 行政中心 NT$ 11,132,422<br>其他社群專案 NT$ 28,669,188<br>總計 NT$ 39,801,610
       - type: image
-        swap: true
         url: /p/admin/2020/p8-1.png
+
+  - type: content
+    columns: 
+      - type: article
+        swap: false
+        title: 2020 年度 OCF 總支出（含外幣）
+        description: 行政中心 NT$ 11,243,652<br>其他社群專案 NT$ 26,702,875<br>總計 NT$ 37,946,527
       - type: image
         url: /p/admin/2020/p8-2.png
 
