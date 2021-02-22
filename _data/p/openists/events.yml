@@ -91,7 +91,6 @@
   project_ids:
     - openists
 
-
 - id: 
   name: "開源教 - 教我用資料科學檢測異常帳號"
   name_en: ""
