@@ -107,6 +107,57 @@
   project_ids:
     - openists
 
+- id: "openists"
+  name: "開源教 - 教我 Odoo 管理 ERP 和 CRM
+"
+  name_en: ""
+  description: "Odoo 是開源世界歷經十餘年開發的大型軟體，完整包含企業營運所需的各種商業活動，從「產銷人發財資」到 POS 系統，涵蓋數十種主要應用場景，延伸數百個應用模組。這堂課教你用最聰明的方法入門上手，體驗百萬級企業系統如何套入組織營運流程，我們會以 CRM 為核心模組，串連幾個相關的模組功能，快速展示 Odoo 常見的流程應用。"
+  start: 2021/02/25
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/20210225-odoo
+  cover_image: /p/openists/openists-20210225.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - openists
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+openists:
+
+- id: "openists"
+  name: "開源教 - 教我用程式來玩數位藝術：Java x Art"
+  name_en: ""
+  description: "學程式一定要從 Hello World 開始嗎？本次實作課程，講師將帶領大家從零開始打造一個古典 2D RPG 的幻想世界！你將從中學習到：
+1. 基本 Java 程式語法：變數、流程、函式、物件等 2. 「說有就有」的物件導向程式魔法 3. 無數藝術家愛用的 Processing 開發環境 4, 自行備製程式所使用的媒材 5. 繪製遊戲畫面、以及代表自己的勇者 6. 接收鍵盤指令控制行進方向"
+  start: 2021/03/16
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/20210316-javaxart
+  cover_image: /p/openists/openists-20210316.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - openists
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
 
 
 
