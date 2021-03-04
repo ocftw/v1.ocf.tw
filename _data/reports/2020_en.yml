@@ -199,9 +199,9 @@ items:
     single_column: true
     columns:
       - type: article
-        title: Board members: Pofeng, honki, Bob Chao, clkao, kc chen.<br>
-               Volunteers: ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayared.<br>
-               Staff: Singing, Rock, Lulu, Aiya, Rosa, Xini, Claire, kting, TC, huangfu, leaf, 小知. <br> 
+        title: Board members：Pofeng, honki, Bob Chao, clkao, kc chen.<br>
+               Volunteers：ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayared.<br>
+               Staff：Singing, Rock, Lulu, Aiya, Rosa, Xini, Claire, kting, TC, huangfu, leaf, 小知. <br> 
 
   - type: content
     columns:
