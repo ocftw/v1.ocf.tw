@@ -116,6 +116,7 @@ card:
   - eid
   - ocflab
   - openchain
+  - cofacts
 card_en:
 # 英文專案列表頁上的專案卡片，會以這個清單的順序排列。
   - admin
@@ -129,3 +130,4 @@ card_en:
   - g0vdathon
   - cctw
   - sciwork
+  - cofacts
