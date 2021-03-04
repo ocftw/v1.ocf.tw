@@ -121,7 +121,7 @@ items:
     cover: /p/admin/2020/2020-autumn.png
     icon: university
     background_color: 
-    description: ”What is open culture?” People always ask this question when they know the OCF for their first time.<br>Open culture is about how to make “open” as a kind of culture that inspires and accelerates exchanges of ideas between different communities and disciplines. For instance, governments and civil society will be able to find the model of exchange and collaboration when open culture is shared in these two different communities. With the help of technology, they can broaden their copperations in more areas, such as source code and data.<br>The OCF strives to let more people learn the importance of open culture: it makes human achievements shared by all human beings instead of being controlled by a specific group under this ever-changing digital era. <br>The OCF also aims to help people to understand what “open technology” is, and thereby realizing what impact human beings will encounter when technology is inaccessible and closed. Based on that, the OCF can encounrage people to imagine what a free and shared digtial technology environment could be like。
+    description: What is open culture? People always ask this question when they know the OCF for their first time.<br>Open culture is about how to make “open” as a kind of culture that inspires and accelerates exchanges of ideas between different communities and disciplines. For instance, governments and civil society will be able to find the model of exchange and collaboration when open culture is shared in these two different communities. With the help of technology, they can broaden their copperations in more areas, such as source code and data.<br>The OCF strives to let more people learn the importance of open culture - it makes human achievements shared by all human beings instead of being controlled by a specific group under this ever-changing digital era. <br>The OCF also aims to help people to understand what “open technology” is, and thereby realizing what impact human beings will encounter when technology is inaccessible and closed. Based on that, the OCF can encounrage people to imagine what a free and shared digtial technology environment could be like。
 
   - type: content
     columns:
@@ -146,7 +146,7 @@ items:
           - title: <a href="https://lab.ocf.tw/2021/01/07/eidseriesall/" target=_blank>On the use of digital identity, information security, legal system in Asia countries.</a>
           - title: <a href="https://lab.ocf.tw/tag/taicca/" target=blank>Metadata series report</a>
           - title: <a href="https://lab.ocf.tw/2020/03/12/opendatanextstep/" target=_blank>Do we need open data law?</a>
-          - title: <a href="http://www.tfd.org.tw/opencms/chinese/publication/quarterly/data/Quarterly0065.html" target=_blank>Digital Democracy in Action: Open Technology and Open Culture. </a>
+          - title: <a href="http://www.tfd.org.tw/opencms/chinese/publication/quarterly/data/Quarterly0065.html" target=_blank>Digital Democracy in Action - Open Technology and Open Culture. </a>
       - type: image
         url: /p/admin/2020/p7-1.png
 
