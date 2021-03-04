@@ -60,7 +60,7 @@ items:
       - type: article
         swap: true
         title: 
-        description:Always too slow to get contributors tickets and benefits of conferences? OCF has intitated the  <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass</a>Special Service, enabling open source contributors to get their tickets on time. By applying for the OCF’s OSCVPass Special Service before the deadline, open source contributors can acquire various discount tickets or benefits of conferences and events. In 2020, 212 applicants have applied for this service, and 168 applicants have been accepted and granted benefits by SITCON、COSCUP、MOPCON、g0v Summit.  <br><i class="hand point left outline icon"></i>Picture on the left：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA
+        description: Always too slow to get contributors tickets and benefits of conferences? OCF has intitated the  <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass</a>Special Service, enabling open source contributors to get their tickets on time. By applying for the OCF’s OSCVPass Special Service before the deadline, open source contributors can acquire various discount tickets or benefits of conferences and events. In 2020, 212 applicants have applied for this service, and 168 applicants have been accepted and granted benefits by SITCON、COSCUP、MOPCON、g0v Summit.  <br><i class="hand point left outline icon"></i>Picture on the left：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA
       - type: image
         url: /p/admin/2020/p3-2.jpg
 
