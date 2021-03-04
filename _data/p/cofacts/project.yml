@@ -55,25 +55,25 @@ links:
 
 
 links_en: 
-    - title: Impact
-      url: https://cofacts.tw/impact
-      icon: file outline
-    - title: Chatbot
-      url: https://lin.ee/gZ4CCc0
-      icon: address book outline
-    - title: Website
-      url: https://cofacts.tw/
-      icon: home
-    - title: Facebook Group
-      url: https://www.facebook.com/groups/cofacts
-      icon: facebook
-    - title: Github
-      url: https://github.com/cofacts
-      icon: github
-    - title: Fanpage
-      url: https://www.facebook.com/cofacts.tw
-      icon: facebook square
-    - title: Donate
+  - title: Impact
+    url: https://cofacts.tw/impact
+    icon: file outline
+  - title: Chatbot
+    url: https://lin.ee/gZ4CCc0
+    icon: address book outline
+  - title: Website
+    url: https://cofacts.tw/
+    icon: home
+  - title: Facebook Group
+    url: https://www.facebook.com/groups/cofacts
+    icon: facebook
+  - title: Github
+    url: https://github.com/cofacts
+    icon: github
+  - title: Fanpage
+    url: https://www.facebook.com/cofacts.tw
+    icon: facebook square
+  - title: Donate
     url: 
     icon: money
 
