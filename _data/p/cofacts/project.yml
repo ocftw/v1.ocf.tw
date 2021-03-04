@@ -10,7 +10,7 @@ abbr_en:
 tagline: 
 tagline_en: 
 
-og_image: /p/cofacts/cover.png
+og_image: /p/cofacts/logo.png
 header_image: 
 avatar_image: 
 theme_color: 
@@ -22,7 +22,7 @@ end:
 topic_ids:
   - data
 field_ids:
-  - media
+  - it
 tags:
 tags_en:
 
