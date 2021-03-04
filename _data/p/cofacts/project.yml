@@ -33,53 +33,50 @@ links:
   - title: 成果報告
     url: https://cofacts.tw/impact
     icon: file outline
-  - title: 加入好友
-    url: https://lin.ee/gZ4CCc0
-    icon: address book outline
   - title: 官網
     url: https://cofacts.tw/
     icon: home
-  - title: Facebook Group
-    url: https://www.facebook.com/groups/cofacts
-    icon: facebook
-  - title: Github
-    url: https://github.com/cofacts
-    icon: github
   - title: Fanpage
     url: https://www.facebook.com/cofacts.tw
     icon: facebook square
-  - title: 募款專頁
-    url: 
-    icon: money
-
-
 
 links_en: 
   - title: Impact
     url: https://cofacts.tw/impact
     icon: file outline
-  - title: Chatbot
-    url: https://lin.ee/gZ4CCc0
-    icon: address book outline
   - title: Website
     url: https://cofacts.tw/
     icon: home
+  - title: Fanpage
+    url: https://www.facebook.com/cofacts.tw
+    icon: facebook square
+
+actions:
+  - title: 加入好友
+    url: https://lin.ee/gZ4CCc0
+    icon: address book outline
+  - title: 募款專頁
+    url: 
+    icon: money
   - title: Facebook Group
     url: https://www.facebook.com/groups/cofacts
     icon: facebook
   - title: Github
     url: https://github.com/cofacts
     icon: github
-  - title: Fanpage
-    url: https://www.facebook.com/cofacts.tw
-    icon: facebook square
+actions_en:
+  - title: Chatbot
+    url: https://lin.ee/gZ4CCc0
+    icon: address book outline
   - title: Donate
     url: 
     icon: money
-
-
-actions:
-actions_en:
+  - title: Facebook Group
+    url: https://www.facebook.com/groups/cofacts
+    icon: facebook
+  - title: Github
+    url: https://github.com/cofacts
+    icon: github
 
 advisor_ids:
 organizer_ids:
