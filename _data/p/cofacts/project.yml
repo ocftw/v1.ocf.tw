@@ -56,7 +56,7 @@ actions:
     url: https://lin.ee/gZ4CCc0
     icon: address book outline
   - title: 募款專頁
-    url: 
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=48
     icon: money
   - title: Facebook Group
     url: https://www.facebook.com/groups/cofacts
@@ -69,7 +69,7 @@ actions_en:
     url: https://lin.ee/gZ4CCc0
     icon: address book outline
   - title: Donate
-    url: 
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=48
     icon: money
   - title: Facebook Group
     url: https://www.facebook.com/groups/cofacts
