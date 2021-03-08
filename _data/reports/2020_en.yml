@@ -18,7 +18,7 @@ items:
         url: /p/admin/2020/p1-1.jpg
   - type: image_header
     background_color: 
-    cover: /p/admin/2020/p1-header.png
+    cover: /p/admin/2020/p1-header-en.png
     cover_image_alt: The OCF’s Key Achievements
   - type: header
     title: Assistance to Communities
@@ -113,7 +113,7 @@ items:
 
   - type: image_header
     background_color: 
-    cover: /p/admin/2020/p4-header.png
+    cover: /p/admin/2020/p4-header-en.png
     cover_image_alt:  Advocacy through Connecting Various Networks  
 
   - type: header
