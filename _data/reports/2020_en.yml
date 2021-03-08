@@ -186,6 +186,7 @@ items:
         title: 2020 OCF Annual Spending
         description: Administration NT$ 11,243,652<br>Community Projects NT$ 26,702,875<br>Total NT$ 37,946,527
       - type: image
+        background_height: 350
         url: /p/admin/2020/p8-2.png
 
   - type: header
