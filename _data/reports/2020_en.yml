@@ -109,7 +109,7 @@ items:
           - title: <a href="https://ocftw.kktix.cc/events/opengov2020" target=_blank>2020 Open Government Workshop</a>
           - title: <a href="https://www.ly.gov.tw/Pages/List.aspx?nodeid=43874" target=blank>Open Parliament Action Plan</a>
       - type: image
-        url: /p/admin/2020/p5-2.png
+        url: /p/admin/2020/p5-2-en.png
 
   - type: image_header
     background_color: 
@@ -148,7 +148,7 @@ items:
           - title: <a href="https://lab.ocf.tw/2020/03/12/opendatanextstep/" target=_blank>Do we need open data law?</a>
           - title: <a href="http://www.tfd.org.tw/opencms/chinese/publication/quarterly/data/Quarterly0065.html" target=_blank>Digital Democracy in Action - Open Technology and Open Culture. </a>
       - type: image
-        url: /p/admin/2020/p7-1.png
+        url: /p/admin/2020/p7-1-en.png
 
   - type: content
     columns:
