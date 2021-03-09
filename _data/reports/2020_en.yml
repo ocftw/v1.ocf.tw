@@ -19,13 +19,13 @@ items:
   - type: image_header
     background_color: 
     cover: /p/admin/2020/p1-header-en.png
-    cover_image_alt: The OCF’s Key Achievements
+    cover_image_alt: OCF’s Key Achievements
   - type: header
     title: Assistance to Communities
     icon: hand rock
     cover: /p/admin/2020/2020-spring.png
     background_color: 
-    description: Open Culture Foundation (OCF) was founded with the support of many open source and technology communities. Therefore, since its founding, OCF’s most important mission is to serve as a stable fiscal sponsor to projects initiated by open source and technology communities. By doing so, the OCF is able to provide stable and systematic administrative and fiscal support to various open source and technology communities. <br>In 2020, OCF has supported 34 projects initiated by communities. Through fiscal sponsorship, OCF is able to support open and technology communities without legal entity status, facilitate their growth, and make them influential.<br>Rather than becoming an organization initiating massive and various tasks, OCF expects itself to focus on establishing a healthy environment that connects more communities to care about issues or causes and start more projects. 
+    description: Open Culture Foundation (OCF) was founded with the support of many open source and technology communities. Therefore, since its founding, OCF’s most important mission is to serve as a stable fiscal sponsor to projects initiated by open source and technology communities. By doing so, OCF is able to provide stable and systematic administrative and fiscal support to various open source and technology communities. <br>In 2020, OCF has supported 34 projects initiated by communities. Through fiscal sponsorship, OCF is able to support open and technology communities without legal entity status, facilitate their growth, and make them influential.<br>Rather than becoming an organization initiating massive and various tasks, OCF expects itself to focus on establishing a healthy environment that connects more communities to care about issues or causes and start more projects. 
   - type: content
     columns:
       - type: article
@@ -69,14 +69,14 @@ items:
     cover: /p/admin/2020/2020-summer.png
     icon: handshake outline
     background_color: 
-    description: <br>In today’s digital era, all kinds of issues in human society are relevant to application of technology.<br>Through long-term partnership with technology communities and cooperation with civil society organizations on advocacy,<br>the OCF expects itself to become a bridge and platform connecting civil society organizations, technology communities, and government apparatuses in Taiwan and abroad. <br>By doing so, the OCF is able to enable more people to apply the spirit and mechanism of open source and openness to their disciplines, and help civil society to harness technology tools in this ever-changing digital era.   
+    description: <br>In today’s digital era, all kinds of issues in human society are relevant to application of technology.<br>Through long-term partnership with technology communities and cooperation with civil society organizations on advocacy,<br>OCF expects itself to become a bridge and platform connecting civil society organizations, technology communities, and government apparatuses in Taiwan and abroad. <br>By doing so, OCF is able to enable more people to apply the spirit and mechanism of open source and openness to their disciplines, and help civil society to harness technology tools in this ever-changing digital era.   
 
   - type: content
     columns:
       - type: article
         swap: true
         title: 
-        description: The concept of freedom and open source is applied everywhere in our daily life. That’s why the OCF has held 20 series events to update the general public on new trends of open source. Topics of these events included the ABCs of open source, open source compliance management, methods to sustain an open source community, applications of open source in 5G telecommunications projects, and various subjects on open source. These events have attracted more than 800 participants in total.   <br><i class="hand point left outline icon"></i>Picture on the left：JRY_0569, <a href="https://www.flickr.com/photos/coscup/50253602803/in/album-72157715583095936/" target=blank>COSCUP on Flickr</a>, CC BY-SA
+        description: The concept of freedom and open source is applied everywhere in our daily life. That’s why OCF has held 20 series events to update the general public on new trends of open source. Topics of these events included the ABCs of open source, open source compliance management, methods to sustain an open source community, applications of open source in 5G telecommunications projects, and various subjects on open source. These events have attracted more than 800 participants in total.   <br><i class="hand point left outline icon"></i>Picture on the left：JRY_0569, <a href="https://www.flickr.com/photos/coscup/50253602803/in/album-72157715583095936/" target=blank>COSCUP on Flickr</a>, CC BY-SA
         items:
           - project_id: openists
           - title: <a href="https://coscup.org/2020/zh-TW/agenda" target=_blank>Holding the Enter the FLOSS World event</a>, <a href="https://lab.ocf.tw/2020/10/07/sfd2020-2/" target=_blank>Celebrating Software Freedom Day</a>
@@ -90,7 +90,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: Digital technology has been penetrating our society and made our lives easier. However, concerns about personal data breaches, infringement of privacy, manipulation of public opinion, and the spread of infodemic are growing as our use of digital technology is increasing. Addressing this challenge, the OCF strives to advance internet freedom through advocacy, gatherings, connecting international and domestic communities, and various approaches that can raise people’s awareness.      <br><i class="hand point right outline icon"></i>Picture on the right：民主意象, <a href="https://www.flickr.com/photos/studiokanu/24121354550/" target=blank>Studio Incendo</a>,  CC BY 2.0 
+        description: Digital technology has been penetrating our society and made our lives easier. However, concerns about personal data breaches, infringement of privacy, manipulation of public opinion, and the spread of infodemic are growing as our use of digital technology is increasing. Addressing this challenge, OCF strives to advance internet freedom through advocacy, gatherings, connecting international and domestic communities, and various approaches that can raise people’s awareness.      <br><i class="hand point right outline icon"></i>Picture on the right：民主意象, <a href="https://www.flickr.com/photos/studiokanu/24121354550/" target=blank>Studio Incendo</a>,  CC BY 2.0 
         items:
           - title: <a href="https://www.eid.tw/" target=_blank>Urging the government to provide the public with sufficient information on eID policy and to amend laws and policies regarding eID  </a>
           - title: <a href="https://ocf.tw/p/pttid/" target=blank>Open source PTT ID Profiling tool</a>
@@ -104,7 +104,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: In 2020, Taiwan’s Executive Yuan and Legislative Yuan have respectively initiated the Open  Government  National  Action  Plan and the Open Parliament Action Plan according to international standards on open government. The OCF joined this initiative as a partner in civil society, holding open government workshops in cooperation with the government. Through these workshops, the OCF and government representatives have shared the goal and international practices of open government with about 100 in-person and more than 1,000 online attendees. Also, the OCF has served as one of civil society members for the first Open Parliament Committee, and thus will practically participate in the formation of Open Parliament Action Plan. 
+        description: In 2020, Taiwan’s Executive Yuan and Legislative Yuan have respectively initiated the Open Government National Action Plan and the Open Parliament Action Plan according to international standards on Open Government. OCF joined this initiative as a partner in civil society, holding Open Government workshops in cooperation with the government. Through these workshops, OCF and government representatives have shared the goal and international practices of open government with about 100 in-person and more than 1,000 online attendees. Also, OCF has served as one of civil society members for the first Open Parliament Committee, and thus will practically participate in the formation of Open Parliament Action Plan. 
         items:
           - title: <a href="https://ocftw.kktix.cc/events/opengov2020" target=_blank>2020 Open Government Workshop</a>
           - title: <a href="https://www.ly.gov.tw/Pages/List.aspx?nodeid=43874" target=blank>Open Parliament Action Plan</a>
@@ -121,14 +121,14 @@ items:
     cover: /p/admin/2020/2020-autumn.png
     icon: university
     background_color: 
-    description: What is open culture? People always ask this question when they know the OCF for their first time.<br>Open culture is about how to make “open” as a kind of culture that inspires and accelerates exchanges of ideas between different communities and disciplines. For instance, governments and civil society will be able to find the model of exchange and collaboration when open culture is shared in these two different communities. With the help of technology, they can broaden their copperations in more areas, such as source code and data.<br>The OCF strives to let more people learn the importance of open culture - it makes human achievements shared by all human beings instead of being controlled by a specific group under this ever-changing digital era. <br>The OCF also aims to help people to understand what “open technology” is, and thereby realizing what impact human beings will encounter when technology is inaccessible and closed. Based on that, the OCF can encounrage people to imagine what a free and shared digtial technology environment could be like.
+    description: What is open culture? People always ask this question when they know OCF for their first time.<br>Open culture is about how to make “open” as a kind of culture that inspires and accelerates exchanges of ideas between different communities and disciplines. For instance, governments and civil society will be able to find the model of exchange and collaboration when open culture is shared in these two different communities. With the help of technology, they can broaden their copperations in more areas, such as source code and data.<br>OCF strives to let more people learn the importance of open culture - it makes human achievements shared by all human beings instead of being controlled by a specific group under this ever-changing digital era. <br>OCF also aims to help people to understand what “open technology” is, and thereby realizing what impact human beings will encounter when technology is inaccessible and closed. Based on that, OCF can encounrage people to imagine what a free and shared digtial technology environment could be like.
 
   - type: content
     columns:
       - type: article
         swap: true
         title: 
-        description: <a href="https://lab.ocf.tw/" target=_blank>OCF Lab</a> is a platform that encourages knowledge exchange between organizations in different disciplines and communities in Taiwan and abroad through interpreting new knowledge, collecting information, and making brief case studies. The Lab is run by the OCF.   <br>OCF Lab focuses on open culture, open technology, digital human rights, internet freedom and other relevant issues. In 2020, the Lab published 42 weekly digests and 72 English and Manderin articles. 25 among the 72 articles were also edited and published as columns on many online media websites.
+        description: <a href="https://lab.ocf.tw/" target=_blank>OCF Lab</a> is a platform that encourages knowledge exchange between organizations in different disciplines and communities in Taiwan and abroad through interpreting new knowledge, collecting information, and making brief case studies. The Lab is run by OCF.   <br>OCF Lab focuses on open culture, open technology, digital human rights, internet freedom and other relevant issues. In 2020, the Lab published 42 weekly digests and 72 English and Manderin articles. 25 among the 72 articles were also edited and published as columns on many online media websites.
         items:
           - title: <a href="https://lab.ocf.tw/category/%e9%80%b1%e5%a0%b1/" target=_blank>Global Digital Weekly Digest for Citizens </a>
           - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=blank>Column projects in cooperation with the Independent Opinions@CommonWealth Magazine and INSIDE</a>
