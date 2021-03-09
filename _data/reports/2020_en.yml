@@ -10,7 +10,7 @@ items:
       - type: article
         swap: true
         title: The Origin of Open Culture
-        description: The idea of open culture was born from the open source movement. The movement advocates that source code of software should be open and allow people to access freely. As the movement moves forward, its spirit of openness, transparency, and accessibility have been applied to formations of file formats, digitalization of various kinds of data, and work processes of industries and organizations. <br><b>We believe openness makes the world better.<br>We strive to establish the foundation of open source culture.<br>We value the culture and development of open source and technology communities.</b><br><a href="https://ocf.tw/about/#what_is_open_culture" target=_blank>Learn more about open culture</a>
+        description: The idea of open culture was born from the open source movement. The movement advocates that the source code of software should be open and allow people to access freely. As the movement moves forward, its spirit of openness, transparency, and accessibility have been applied to formations of file formats, digitalization of various kinds of data, and work processes of industries and organizations. <br><b>We believe openness makes the world better.<br>We strive to establish the foundation of open source culture.<br>We value the culture and development of open source and technology communities.</b><br><a href="https://ocf.tw/about/#what_is_open_culture" target=_blank>Learn more about open culture (Traditional Chinese)</a>
         action:
           title: Donation
           url: https://ocf.tw/300/
@@ -25,13 +25,13 @@ items:
     icon: hand rock
     cover: /p/admin/2020/2020-spring.png
     background_color: 
-    description: The OCF was founded with the support of many open source and technology communities. Therefore, since its founding, the OCF’s most important mission is to serve as a stable fiscal sponsor to projects initiated by open source and technology communities. By doing so, the OCF is able to provide stable and systematic administrative and fiscal support to various open source and technology communities <br>In 2020, the OCF has supported 34 projects initiated by communities. Through fiscal sponsorship, the OCF is able to support open and technology communities without legal entity status, facilitate their growth, and make them influential.<br>Rather than becoming an organization initiating massive and various tasks, the OCF expects itself to focus on establishing a healthy environment that connects more communities to care about issues or causes and start more projects. 
+    description: Open Culture Foundation (OCF) was founded with the support of many open source and technology communities. Therefore, since its founding, OCF’s most important mission is to serve as a stable fiscal sponsor to projects initiated by open source and technology communities. By doing so, the OCF is able to provide stable and systematic administrative and fiscal support to various open source and technology communities. <br>In 2020, OCF has supported 34 projects initiated by communities. Through fiscal sponsorship, OCF is able to support open and technology communities without legal entity status, facilitate their growth, and make them influential.<br>Rather than becoming an organization initiating massive and various tasks, OCF expects itself to focus on establishing a healthy environment that connects more communities to care about issues or causes and start more projects. 
   - type: content
     columns:
       - type: article
         swap: true
         title: 
-        description: In 2020, nine new communities have started their cooperation with the OCF, which is an important force to move Taiwan’s open source ecosystem forward in this year of challenge.
+        description: In 2020, nine new communities have started their cooperation with OCF, which is an important force to move Taiwan’s open source ecosystem forward in this year of challenge.
         items:
           - title: g0v international、Golang Taiwan
           - title: DataSci, Cofacts, CSCS
