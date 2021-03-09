@@ -45,7 +45,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: Running a community requires a lot of work, including hiring, contracts, tax, and dealing with accounting and fiscal affairs. Most of the community members are students or employees at the same time, the above work could be a huge burden. Moreover, some parts of the work can’t be done without a legal entity. Addressing this problem, OCF is here to assist communities in administrative works.
+        description: Running a community requires a lot of work, including hiring, contracts, tax, and dealing with accounting and fiscal affairs. Most of the community members are students or employees at the same time, so the above work could be a huge burden. Moreover, some parts of the work can’t be done without a legal entity. Addressing this problem, OCF is here to assist communities in administrative works.
         items:
           - project_id: coscup
           - project_id: sitcon
