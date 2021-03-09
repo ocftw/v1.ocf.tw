@@ -33,7 +33,7 @@ items:
         title: 
         description: In 2020, nine new communities have started their cooperation with OCF, which is an important force to move Taiwan’s open source ecosystem forward in this year of challenge.
         items:
-          - title: g0v international、Golang Taiwan
+          - title: g0v international, Golang Taiwan
           - title: DataSci, Cofacts, CSCS
           - title: LOD Taiwan, OpenChain
           - title: PostgreSQL, PyData Taipei
@@ -45,7 +45,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: Running a community requires a lot of work, including hiring employees, signing contracts, paying tax, and dealing with accounting and fiscal affairs. To members of a community who are students or employees at the same time, the above work could be a huge burden. Moreover, some parts of the work can’t be done without a legal person status. Addressing this problem, the OCF is here to assist communities in administrative works.
+        description: Running a community requires a lot of work, including hiring, contracts, tax, and dealing with accounting and fiscal affairs. Most of the community members are students or employees at the same time, the above work could be a huge burden. Moreover, some parts of the work can’t be done without a legal entity. Addressing this problem, OCF is here to assist communities in administrative works.
         items:
           - project_id: coscup
           - project_id: sitcon
@@ -60,7 +60,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: Always too slow to get contributors tickets and benefits of conferences? OCF has initiated the  <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass</a>Special Service, enabling open source contributors to get their tickets on time. By applying for the OCF’s OSCVPass Special Service before the deadline, open source contributors can acquire various discount tickets or benefits of conferences and events. In 2020, 212 applicants have applied for this service, and 168 applicants have been accepted and granted benefits by SITCON、COSCUP、MOPCON、g0v Summit.  <br><i class="hand point left outline icon"></i>Picture on the left：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA
+        description: OCF has initiated the <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass</a>, enabling open source contributors to get their admission tickets to attend open source related conference in Taiwan through a one time application. By applying for OSCVPass, open source contributors can acquire various discount admission tickets or benefits of open source related conferences and events. In 2020, there were 212 applicants, and 168 of them have been accepted and granted benefits by SITCON, COSCUP, MOPCON, g0v Summit.  <br><i class="hand point left outline icon"></i>Picture on the left：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA
       - type: image
         url: /p/admin/2020/p3-2.jpg
 
@@ -79,8 +79,8 @@ items:
         description: The concept of freedom and open source is applied everywhere in our daily life. That’s why the OCF has held 20 series events to update the general public on new trends of open source. Topics of these events included the ABCs of open source, open source compliance management, methods to sustain an open source community, applications of open source in 5G telecommunications projects, and various subjects on open source. These events have attracted more than 800 participants in total.   <br><i class="hand point left outline icon"></i>Picture on the left：JRY_0569, <a href="https://www.flickr.com/photos/coscup/50253602803/in/album-72157715583095936/" target=blank>COSCUP on Flickr</a>, CC BY-SA
         items:
           - project_id: openists
-          - title: <a href="https://coscup.org/2020/zh-TW/agenda" target=_blank>Holding the Enter the FLOSS World event</a>、<a href="https://lab.ocf.tw/2020/10/07/sfd2020-2/" target=_blank>Celebrating Software Freedom Day</a>
-          - title: <a href="https://dmfli.kktix.cc/events/openchaintwgm1" target=blank>OpenChain Workshop</a>、<a href="https://ocf.tw/p/issues/2020/5G.html" target=_blank>Experience-sharing events on 5G and telecommunications projects </a>
+          - title: <a href="https://coscup.org/2020/zh-TW/agenda" target=_blank>Holding the Enter the FLOSS World event</a>, <a href="https://lab.ocf.tw/2020/10/07/sfd2020-2/" target=_blank>Celebrating Software Freedom Day</a>
+          - title: <a href="https://dmfli.kktix.cc/events/openchaintwgm1" target=blank>OpenChain Workshop</a>, <a href="https://ocf.tw/p/issues/2020/5G.html" target=_blank>Experience-sharing events on 5G and telecommunications projects </a>
           - title: <a href="https://docs.google.com/document/d/1SiCDSTXLi8fbrUiwVssImbbnNk5uXDc-DD4osXRrTi4/edit" target=_blank>Attending the 2020 Free and Open Source Software Developers' European Meeting(FOSDEMA)  </a>
       - type: image
         url: /p/admin/2020/p4-1.jpg
@@ -90,7 +90,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: Digital technology has been penetrating our society and made our lives easier. However, concerns about personal data breaches, infringement of privacy, manipulation of public opinion, and the spread of infodemic are growing as our use of digital technology is increasing. Addressing this challenge, the OCF strives to advance internet freedom through advocacy, gatherings, connecting international and domestic communities, and various approaches that can raise people’s awareness.       
+        description: Digital technology has been penetrating our society and made our lives easier. However, concerns about personal data breaches, infringement of privacy, manipulation of public opinion, and the spread of infodemic are growing as our use of digital technology is increasing. Addressing this challenge, the OCF strives to advance internet freedom through advocacy, gatherings, connecting international and domestic communities, and various approaches that can raise people’s awareness.      <br><i class="hand point right outline icon"></i>Picture on the right：民主意象, <a href="https://www.flickr.com/photos/studiokanu/24121354550/" target=blank>Studio Incendo</a>,  CC BY 2.0 
         items:
           - title: <a href="https://www.eid.tw/" target=_blank>Urging the government to provide the public with sufficient information on eID policy and to amend laws and policies regarding eID  </a>
           - title: <a href="https://ocf.tw/p/pttid/" target=blank>Open source PTT ID Profiling tool</a>
