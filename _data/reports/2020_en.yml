@@ -10,10 +10,10 @@ items:
       - type: article
         swap: true
         title: The Origin of Open Culture
-        description: The idea of open culture was born from the open source movement. The movement advocates that the source code of software should be open and allow people to access freely. As the movement moves forward, its spirit of openness, transparency, and accessibility have been applied to formations of file formats, digitalization of various kinds of data, and work processes of industries and organizations. <br><b>We believe openness makes the world better.<br>We strive to establish the foundation of open source culture.<br>We value the culture and development of open source and technology communities.</b><br><a href="https://ocf.tw/about/#what_is_open_culture" target=_blank>Learn more about open culture (Traditional Chinese)</a>
+        description: The idea of open culture was born from the open source movement. The movement advocates that the source code of software should be open and allow people to access freely. As the movement moves forward, its spirit of openness, transparency, and accessibility have been applied to formations of file formats, digitalization of various kinds of data, and work processes of industries and organizations. <br><b>We believe openness makes the world better.<br>We strive to establish the foundation of open source culture.<br>We value the culture and development of open source and technology communities.</b><br><a href="https://ocf.tw/en/" target=_blank>Learn more about open culture </a>
         action:
           title: Donation
-          url: https://ocf.tw/300/
+          url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=41
       - type: image
         url: /p/admin/2020/p1-1.jpg
   - type: image_header
@@ -60,7 +60,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: OCF has initiated the <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass</a>, enabling open source contributors to get their admission tickets to attend open source related conference in Taiwan through a one time application. By applying for OSCVPass, open source contributors can acquire various discount admission tickets or benefits of open source related conferences and events. In 2020, there were 212 applicants, and 168 of them have been accepted and granted benefits by SITCON, COSCUP, MOPCON, g0v Summit.  <br><i class="hand point left outline icon"></i>Picture on the left：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA
+        description: OCF has initiated the <a href="https://ocf.tw/en/p/oscvpass/" target=_blank>OSCVPass</a>, enabling open source contributors to get their admission tickets to attend open source related conference in Taiwan through a one time application. By applying for OSCVPass, open source contributors can acquire various discount admission tickets or benefits of open source related conferences and events. In 2020, there were 212 applicants, and 168 of them have been accepted and granted benefits by SITCON, COSCUP, MOPCON, g0v Summit.  <br><i class="hand point left outline icon"></i>Picture on the left：AW-75068, <a href="https://www.flickr.com/photos/coscup/50254249936/in/album-72157715583095936/" target=_blank>COSCUP on Flickr</a>, CC BY-SA
       - type: image
         url: /p/admin/2020/p3-2.jpg
 
@@ -79,7 +79,7 @@ items:
         description: The concept of freedom and open source is applied everywhere in our daily life. That’s why OCF has held 20 series events to update the general public on new trends of open source. Topics of these events included the ABCs of open source, open source compliance management, methods to sustain an open source community, applications of open source in 5G telecommunications projects, and various subjects on open source. These events have attracted more than 800 participants in total.   <br><i class="hand point left outline icon"></i>Picture on the left：JRY_0569, <a href="https://www.flickr.com/photos/coscup/50253602803/in/album-72157715583095936/" target=blank>COSCUP on Flickr</a>, CC BY-SA
         items:
           - project_id: openists
-          - title: <a href="https://coscup.org/2020/zh-TW/agenda" target=_blank>Holding the Enter the FLOSS World event</a>, <a href="https://lab.ocf.tw/2020/10/07/sfd2020-2/" target=_blank>Celebrating Software Freedom Day</a>
+          - title: <a href="https://coscup.org/2020/zh-TW/agenda" target=_blank> FLOSS rookie village</a>, <a href="https://lab.ocf.tw/2020/10/07/sfd2020-2/" target=_blank>Celebrating Software Freedom Day</a>
           - title: <a href="https://dmfli.kktix.cc/events/openchaintwgm1" target=blank>OpenChain Workshop</a>, <a href="https://ocf.tw/p/issues/2020/5G.html" target=_blank>Experience-sharing events on 5G and telecommunications projects </a>
           - title: <a href="https://docs.google.com/document/d/1SiCDSTXLi8fbrUiwVssImbbnNk5uXDc-DD4osXRrTi4/edit" target=_blank>Attending the 2020 Free and Open Source Software Developers' European Meeting(FOSDEMA)  </a>
       - type: image
@@ -145,7 +145,7 @@ items:
         items:
           - title: <a href="https://lab.ocf.tw/2021/01/07/eidseriesall/" target=_blank>On the use of digital identity, information security, legal system in Asia countries.</a>
           - title: <a href="https://lab.ocf.tw/tag/taicca/" target=blank>Metadata series report</a>
-          - title: <a href="https://lab.ocf.tw/2020/03/12/opendatanextstep/" target=_blank>Do we need open data law?</a>
+          - title: <a href="https://lab.ocf.tw/2020/03/18/opendatanext-eng/" target=_blank> Next Milestone of Open Data in Taiwan</a>
           - title: <a href="http://www.tfd.org.tw/opencms/chinese/publication/quarterly/data/Quarterly0065.html" target=_blank>Digital Democracy in Action - Open Technology and Open Culture. </a>
       - type: image
         url: /p/admin/2020/p7-1-en.png
