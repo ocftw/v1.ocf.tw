@@ -81,6 +81,7 @@
   
 - id: 
   name: 開源授權小聚會
+  name_en: Open License meetup
   description: 農曆新年後，開源開春第一炮的活動，開源授權小聚會將帶來目前全球最新的開源授權相關資訊，同時也將介紹開源合規的輔助工具，歡迎來報名參加、認識朋友。
   cover_image: /p/osln/2019/og.png
   start: 2020/02/10

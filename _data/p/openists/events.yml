@@ -33,7 +33,7 @@
 
 - id: 
   name: "開源教 - 教我自己做開源人體工學鍵盤！"
-  name_en: ""
+  name_en: "The Openists - Open Source Ergonomic Keyboard"
   description: "鍵盤，不就是個鍵盤嗎？你每天都在用，有什麼神奇的？開源鍵盤比一般你在市面上買的還炫炮，還有很多你想不到的功能，最後你只會懷疑「這是鍵盤嗎？」、「怎麼可能作到這些功能？」只要你願意學，開源的世界就是這麼開放，從鍵盤的基礎，到做出你的「分離式人體工學可自訂鍵位 QMK 鍵盤」，哈維來分享細節與製作過程！"
   start: 2020/05/21
   end: 
@@ -63,7 +63,7 @@
 
 - id: 
   name: "開源教 - 教我 inkscape 雷切配"
-  name_en: ""
+  name_en: "The Openists - inkscape"
   description: "Inkscape (https://gitlab.com/inkscape/inkscape) 是一款開放原始碼的向量圖形編輯器，自 2003 年起第一版至今，已經成為美編和設計界眾所皆知，能夠取代 illustrator 的工具。這次活動除了深入淺出講授基本的圖形編輯功能之外，也會從雷切的角度來切入，讓教友們能夠跳脫電腦螢幕中，一探開源 Maker 的雷射切割工藝。"
   start: 2020/09/19
   end: 
@@ -78,7 +78,7 @@
 
 - id: 
   name: "開源教 - OBS 快樂錄影人生 "
-  name_en: ""
+  name_en: "The Openists - OBS live stream"
   description: OBS (Open Broadcaster Software) 是一款跨平台的影片合成處理軟體，他能夠透過簡單的設備和操作，達到視訊錄影、製作成子母畫面、串流到社交平台直播的功能。本次開源教將介紹如何使用相對合理的成本來達成子母畫面的直播以及錄影等辦活動會需要的技巧。"
   start: 2020/10/28
   end: 
@@ -93,7 +93,7 @@
 
 - id: 
   name: "開源教 - 教我用資料科學檢測異常帳號"
-  name_en: ""
+  name_en: "The Openists - detect abnormal account by data scientific method"
   description: "網軍與假新聞在台灣鬧得沸沸揚揚，導致網路上人人自危，各大社群媒體與網路論壇深受其害，網路上的信任感遭到破壞、對立激化，網路上不乏分析異常帳號的網站，但是不夠透明開放。因此我們試著自己找出異常的帳號，使用開源的工具、開放的資料和公眾授權的分析報告，期望在公開透明的前提下，增進平台上的互信基礎。"
   start: 2020/12/24
   end: 
