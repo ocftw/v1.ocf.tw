@@ -34,7 +34,7 @@ items:
         description: In 2020, nine new communities have started their cooperation with OCF, which is an important force to move Taiwan’s open source ecosystem forward in this year of challenge.
         items:
           - title: g0v international, Golang Taiwan
-          - title: DataSci, Cofacts, CSCS
+          - title: DataSci, Cofacts, Civil Society Cyber Shield
           - title: LOD Taiwan, OpenChain
           - title: PostgreSQL, PyData Taipei
       - type: image
@@ -47,11 +47,11 @@ items:
         title: 
         description: Running a community requires a lot of work, including hiring, contracts, tax, and dealing with accounting and fiscal affairs. Most of the community members are students or employees at the same time, so the above work could be a huge burden. Moreover, some parts of the work can’t be done without a legal entity. Addressing this problem, OCF is here to assist communities in administrative works.
         items:
-          - project_id: coscup
-          - project_id: sitcon
-          - project_id: pycon
-          - project_id: g0vsummit
-          - title: <a href="https://ocf.tw/p/community" target=_blank>More projects initiated by communities</a>
+          - title: <a href="https://ocf.tw/en/p/coscup/" target=_blank> COSCUP </a>
+          - title: Students’ Information Technology Conference
+          - title: <a href="https://ocf.tw/en/p/pycon/" target=blank> PyCon Taiwan </a>
+          - title: <a href="https://summit.g0v.tw/2020/en" target=blank> g0vsummit </a>
+          - title: <a href="https://ocf.tw/p/community" target=_blank>....there are more projects initiated by communities.</a>
       - type: image
         url: /p/admin/2020/p3-1.jpg
 
@@ -92,10 +92,10 @@ items:
         title: 
         description: Digital technology has been penetrating our society and made our lives easier. However, concerns about personal data breaches, infringement of privacy, manipulation of public opinion, and the spread of infodemic are growing as our use of digital technology is increasing. Addressing this challenge, OCF strives to advance internet freedom through advocacy, gatherings, connecting international and domestic communities, and various approaches that can raise people’s awareness.      <br><i class="hand point right outline icon"></i>Picture on the right：民主意象, <a href="https://www.flickr.com/photos/studiokanu/24121354550/" target=blank>Studio Incendo</a>,  CC BY 2.0 
         items:
-          - title: <a href="https://www.eid.tw/" target=_blank>Urging the government to provide the public with sufficient information on eID policy and to amend laws and policies regarding eID  </a>
-          - title: <a href="https://ocf.tw/p/pttid/" target=blank>Open source PTT ID Profiling tool</a>
+          - title: <a href="https://ocf.tw/en/p/eid/" target=_blank>Urging the government to provide the public with sufficient information on eID policy and to amend laws and policies regarding eID  </a>
+          - title: <a href="https://ocf.tw/en/p/pttid/" target=blank>Open source PTT ID Profiling tool</a>
           - title: <a href="https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q?view" target=_blank>Initiating monthly gatherings for internet freedom as a regular platform for discussion</a>
-          - title: <a href="https://ocf.tw/p/global/" target=_blank>Participating in 27 online international conferences on cyber security and digital human rights</a>
+          - title: <a href="https://ocf.tw/en/p/global/" target=_blank>Participating in 27 online international conferences on cyber security and digital human rights</a>
       - type: image
         url: /p/admin/2020/p5-1-en.png
 
@@ -130,9 +130,9 @@ items:
         title: 
         description: <a href="https://lab.ocf.tw/" target=_blank>OCF Lab</a> is a platform that encourages knowledge exchange between organizations in different disciplines and communities in Taiwan and abroad through interpreting new knowledge, collecting information, and making brief case studies. <br>OCF Lab focuses on open culture, open technology, digital human rights, internet freedom and other relevant issues. In 2020, the Lab published 42 weekly digests and 72 English and Manderin articles. 25 among the 72 articles were also edited and published as columns on many online media websites.
         items:
-          - title: <a href="https://lab.ocf.tw/category/%e9%80%b1%e5%a0%b1/" target=_blank>Global Digital Weekly Digest for Citizens </a>
-          - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=blank>Column projects in cooperation with the Independent Opinions@CommonWealth Magazine and INSIDE</a>
-          - title: <a href="https://lab.ocf.tw/category/%e5%b0%88%e6%96%87/" target=_blank>Articles and Trans-editing Articles</a>
+          - title: <a href="https://lab.ocf.tw/category/%e9%80%b1%e5%a0%b1/" target=_blank> Digital Citizens Bi-weekly Digest </a>
+          - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=blank>Cooperated Columns with media: Independent Opinions @ CommonWealth Magazine and INSIDE</a>
+          - title: <a href="https://lab.ocf.tw/category/%e5%b0%88%e6%96%87/" target=_blank>Self-produced Articles and Translated Articles</a>
       - type: image
         url: /p/admin/2020/p6-1.png
 
@@ -143,7 +143,7 @@ items:
         title: 
         description: 
         items:
-          - title: <a href="https://lab.ocf.tw/2021/01/07/eidseriesall/" target=_blank>On the use of digital identity, information security, legal system in Asia countries.</a>
+          - title: <a href="https://lab.ocf.tw/2021/01/07/eidseriesall/" target=_blank> On the use of digital identity in Asia</a>
           - title: <a href="https://lab.ocf.tw/tag/taicca/" target=blank>Metadata series report</a>
           - title: <a href="https://lab.ocf.tw/2020/03/18/opendatanext-eng/" target=_blank> Next Milestone of Open Data in Taiwan</a>
           - title: <a href="http://www.tfd.org.tw/opencms/chinese/publication/quarterly/data/Quarterly0065.html" target=_blank>Digital Democracy in Action - Open Technology and Open Culture. </a>
@@ -159,7 +159,7 @@ items:
         items:
           - title: Open / Free (Libre) / Share posters
           - title: Open Source / Open Data / Open Government stickers
-          - title: Open / Free (Libre) / Resistant Chinese stickers
+          - title: Open / Free (Libre) / Resistance Traditional Chinese stickers
       - type: image
         url: /p/admin/2020/p7-2.jpg
 
