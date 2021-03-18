@@ -131,7 +131,7 @@ items:
         description: <a href="https://lab.ocf.tw/" target=_blank>OCF Lab</a> is a platform that encourages knowledge exchange between organizations in different disciplines and communities in Taiwan and abroad through interpreting new knowledge, collecting information, and making brief case studies. <br>OCF Lab focuses on open culture, open technology, digital human rights, internet freedom and other relevant issues. In 2020, the Lab published 42 weekly digests and 72 English and Manderin articles. 25 among the 72 articles were also edited and published as columns on many online media websites.
         items:
           - title: <a href="https://lab.ocf.tw/category/%e9%80%b1%e5%a0%b1/" target=_blank> Digital Citizens Bi-weekly Digest </a>
-          - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=blank>Cooperated Columns with media: Independent Opinions @ CommonWealth Magazine and INSIDE</a>
+          - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=blank>Cooperated Columns with media-Independent Opinions@CommonWealth Magazine and INSIDE</a>
           - title: <a href="https://lab.ocf.tw/category/%e5%b0%88%e6%96%87/" target=_blank>Self-produced Articles and Translated Articles</a>
       - type: image
         url: /p/admin/2020/p6-1.png
