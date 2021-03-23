@@ -175,7 +175,7 @@ items:
       - type: article
         swap: false
         title: 2020 OCF Annual Income
-        description: Administration NT$ 11,132,422<br>Community Projects NT$ 28,669,188<br>Total NT$ 39,801,610
+        description: OCF Projects NT$ 11,132,422<br>Community Projects NT$ 28,669,188<br>Total NT$ 39,801,610
       - type: image
         url: /p/admin/2020/p8-1-en.png
 
@@ -184,7 +184,7 @@ items:
       - type: article
         swap: false
         title: 2020 OCF Annual Spending
-        description: Administration NT$ 11,243,652<br>Community Projects NT$ 26,702,875<br>Total NT$ 37,946,527
+        description: OCF Projects NT$ 11,243,652<br>Community Projects NT$ 26,702,875<br>Total NT$ 37,946,527
       - type: image
         url: /p/admin/2020/p8-2-en.png
 
