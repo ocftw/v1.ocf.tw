@@ -42,6 +42,14 @@ actions:
     color: green
     icon: dollar sign
 actions_en:
+  - title: fill out a form
+    url: https://forms.gle/j62bUmTy1hKKGm7n6
+    color: pink
+    icon: pencil alternate
+  - title: Donate OCF project
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=7
+    color: green
+    icon: dollar sign
 
 advisor_ids:
 organizer_ids:
