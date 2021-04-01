@@ -21,6 +21,10 @@ links:
   - title: OCF Lab 網站
     url: https://lab.ocf.tw/
 
+links_en:
+  - title: OCF Lab
+    url: https://lab.ocf.tw/
+
 organizer_ids:
   - ocf
 sponsor_ids:
