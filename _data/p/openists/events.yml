@@ -136,6 +136,23 @@
   project_ids:
     - openists
 
+- id:
+  name: "開源教 - 教我另一個選擇：夜露死苦！參見 Ubuntu 作業系統"
+  name_en: ""
+  description: "每次用電腦的時候，作業系統常常一直卡在藍白畫面、不然就是遇到某些程式一直閃退、或點了沒反應？如果有一套開放原始碼的作業系統，讓你能夠完全掌握自己的系統權限，可以隨時知道發生了什麼事，從此遇到問題自己解決，不必苦等軟體供應商，是不是很自由呢？開源教展開一系列的「另一個選擇」課程，帶你認識各個自由和開源的軟體，不再拘束於單一軟體，從此解放你的軟體自由！本次課程中將教你：1. Linux & Ubuntu 簡介 2. 為什麼要選擇自由開源的 Ubuntu? 3. 實際安裝和設定 4. 夜露死苦！初見 Ubuntu！"
+  start: 2021/04/18
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/20210418-ubuntu
+  cover_image: /p/openists/openists-20210418.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - openists
+
+
+
 
 
 
