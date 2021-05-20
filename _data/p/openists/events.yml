@@ -136,52 +136,6 @@
   project_ids:
     - openists
 
-- id:
-  name: "開源教 - 教我另一個選擇：夜露死苦！參見 Ubuntu 作業系統"
-  name_en: ""
-  description: "每次用電腦的時候，作業系統常常一直卡在藍白畫面、不然就是遇到某些程式一直閃退、或點了沒反應？如果有一套開放原始碼的作業系統，讓你能夠完全掌握自己的系統權限，可以隨時知道發生了什麼事，從此遇到問題自己解決，不必苦等軟體供應商，是不是很自由呢？開源教展開一系列的「另一個選擇」課程，帶你認識各個自由和開源的軟體，不再拘束於單一軟體，從此解放你的軟體自由！本次課程中將教你：1. Linux & Ubuntu 簡介 2. 為什麼要選擇自由開源的 Ubuntu? 3. 實際安裝和設定 4. 夜露死苦！初見 Ubuntu！"
-  start: 2021/04/18
-  end: 
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/20210418-ubuntu
-  cover_image: /p/openists/openists-20210418.png
-  contributor_ids:
-    - rock
-  project_ids:
-    - openists
-
-- id:
-  name: "開源教 - 教我另一個選擇：LibreOffice 辦公實用小技巧"
-  name_en: "The Openists - LibreOffice Basic"
-  description: "不同的辦公軟體，給您不一樣的排版新視界！政府行政單位已經全面採用 ODF (Open Document Format) 檔案格式作為文件交換的格式，從此編輯文件檔案，不用被限制在特定的商業軟體，能夠用任何的文書編輯軟體來編輯、和其他人交換文件不受限制。這次要介紹的 LibreOffice，就是這麼一個免費、開放原始碼，能夠自由使用，來編輯和交換文件的軟體。辦公軟體在工作上的應用，無論是會議記錄、專案計畫書、經費表編列、成果報告…，從文書、試算表、甚至是簡報，皆是不可或缺的一環。但往往在文件製作的過程中，明明功能使用都很熟悉，卻還是會遇到惱人的小問題，找不到解決之道，以致於要花上許多時間才能完成工作。我們這次不空談功能應用，只分享實際發生問題時解決的方式！結合實務應用，分享延伸小技巧，讓您在工作上不只有效率，更得心應手。本課程分為初階與進階兩次授課，記得也要報名 6/5 開源教教我另一個選擇：LibreOffice 文書排版大秘笈！"
-  start: 2021/05/22
-  end: 
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/20210522-libreoffice
-  cover_image: /p/openists/openists-20210522.png
-  contributor_ids:
-    - rock
-  project_ids:
-    - openists
-
-- id:
-  name: "開源教 - 教我另一個選擇：LibreOffice 文書排版大秘笈"
-  name_en: "The Openists - LibreOffice Advance"
-  description: "不同的辦公軟體，給您不一樣的排版新視界！政府行政單位已經全面採用 ODF (Open Document Format) 檔案格式作為文件交換的格式，從此編輯文件檔案，不用被限制在特定的商業軟體，能夠用任何的文書編輯軟體來編輯、和其他人交換文件不受限制。這次要介紹的 LibreOffice，就是這麼一個免費、開放原始碼，能夠自由使用，來編輯和交換文件的軟體。辦公軟體在工作上的應用，無論是會議記錄、專案計畫書、經費表編列、成果報告…，從文書、試算表、甚至是簡報，皆是不可或缺的一環。但往往在文件製作的過程中，明明功能使用都很熟悉，卻還是會遇到惱人的小問題，找不到解決之道，以致於要花上許多時間才能完成工作。我們這次不空談功能應用，只分享實際發生問題時解決的方式！結合實務應用，分享延伸小技巧，讓您在工作上不只有效率，更得心應手。本次課程為【進階】的文書排版大秘笈，課程大綱請參考："
-  start: 2021/06/05
-  end: 
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/20210605-libreoffice
-  cover_image: /p/openists/openists-20210605.png
-  contributor_ids:
-    - rock
-  project_ids:
-    - openists 
-
-
 
 
 
