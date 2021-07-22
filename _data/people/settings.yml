@@ -10,6 +10,8 @@ card:
     name: 工作人員
   - id: consultants
     name: 顧問
+  - id: intern
+    name: 實習夥伴
   - id: volunteers
     name: 熱血志工
   - id: board
@@ -70,6 +72,9 @@ individuals:
   consultant:
     name: 顧問
     name_en: Consultant
+  intern:
+    name: 實習夥伴
+    name_en: interns
   volunteer:
     name: 志工
     name_en: Volunteer
