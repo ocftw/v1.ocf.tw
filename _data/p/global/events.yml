@@ -145,8 +145,8 @@
     - global
 
 - id: global
-  name: "RgithsCon 2020"
-  name_en: "Online attendance & sharing: RgithsCon 2020"
+  name: "RightsCon 2020"
+  name_en: "Online attendance & sharing: RightsCon 2020"
   description: "RightsCon 是國際知名的數位人權大會，由於疫情關係改為線上方式，反倒打破紀錄吸引近 157 國家 7,681 參與者， 議程數量超過 309 場次。OCF 在議程 「National Digital ID systems in Asia: Mapping considerations of potential benefits and harms」 中，分享台灣預計發行的數位身分證規劃，以及公民團體對於個人身份數位化、資料串連所帶來的隱私擔憂。"
   start: 2020/07/27
   end: 2020/07/31
