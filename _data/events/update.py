@@ -3,7 +3,7 @@ import csv
 import codecs
 
 # 2019: https://docs.google.com/spreadsheets/d/e/2PACX-1vR_yogdgGNd7jKclNv6mxyWkCHDETolM3jWqarNL8XVXY27qbsGKjttzYK_g2gAXD1glh0alhlln3-B/pub?output=csv
-url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR_yogdgGNd7jKclNv6mxyWkCHDETolM3jWqarNL8XVXY27qbsGKjttzYK_g2gAXD1glh0alhlln3-B/pub?output=csv';
+url = 'https://docs.google.com/spreadsheets/d/1Jkf1VyZrzbmyWvz5LRh7HI07uchdikIHVSM-1vxb9-Q/pub?output=csv';
 headers = {};
 req = urllib.request.Request(url, headers=headers);
 resp = urllib.request.urlopen(req);
