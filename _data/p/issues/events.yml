@@ -283,6 +283,25 @@
   project_ids:
     - issues
 
+- id:
+  name: "網路自由小聚 [8月] - 間諜軟體是什麼？ >> 聊聊以色列 “Pegasus” 軟體大規模監控事件"
+  name_en: "Coffee and Circumvention - IFF"
+  description: "以色列一直以來，以卓越的資安科技產品和相關破解、監控技術聞名全球，然而在上個月，華盛頓郵報（Washington Post）、衛報（ Guardian ）、世界報（Le Monde）等全球數十家媒體，共同發表調查報導，直指以色列科技公司出品的知名的間諜軟體 “Pegasus” ，暗中搜集了全球社運工作者、高官政要的資料，包括189名記者、85位人權工作者、65名企業高管、數名阿拉伯王室成員、600多個政治人物和外交情報官員。本來應該是高規格列管使用的間諜軟體，怎麼會成為輕易濫用的工具？到底以色列聞名的商業模式間諜軟體產業，是如何運作？又有多少風險？至於全球趨之若鶩的間諜軟體，使用機制到底為何？也再次成為全球注目焦點，畢竟，大家都擔心哪天會成為被監控的對象啊！"
+  start: 2021/08/19
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/internetfreedom-aug2021
+    - title: 
+      url: 
+  cover_image: /p/issues/2021/candc202108.png
+  contributor_ids: 
+    - lulukeng
+    - rock
+  project_ids:
+    - issues
+
+
 
 
 
