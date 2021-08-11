@@ -164,7 +164,8 @@
       url: 
   cover_image: /p/issues/2021/candc202107.png
   contributor_ids: 
-    - lulu;rock
+    - lulukeng
+    - rock
   project_ids:
     - issues
 
@@ -182,7 +183,8 @@
       url: 
   cover_image: /p/issues/2021/candc202106.png
   contributor_ids: 
-    - claire;lulu
+    - claire
+    - lulu
   project_ids:
     - issues
 
@@ -200,7 +202,8 @@
       url: 
   cover_image: /p/issues/2021/candc202105.png
   contributor_ids: 
-    - claire;lulu
+    - claire
+    - lulu
   project_ids:
     - issues
 
@@ -218,7 +221,8 @@
       url: 
   cover_image: /p/issues/2021/candc202104.png
   contributor_ids: 
-    - claire;lulu
+    - claire
+    - lulu
   project_ids:
     - issues
 
@@ -236,7 +240,8 @@
       url: 
   cover_image: /p/issues/2021/candc202103.png
   contributor_ids: 
-    - claire;lulu
+    - claire
+    - lulu
   project_ids:
     - issues
 
@@ -254,7 +259,8 @@
       url: 
   cover_image: /p/issues/2021/candc202102.png
   contributor_ids: 
-    - claire;lulu
+    - claire
+    - lulu
   project_ids:
     - issues
 
@@ -272,7 +278,8 @@
       url: 
   cover_image: /p/issues/2021/candc202101.png
   contributor_ids: 
-    - claire;lulu
+    - claire
+    - lulu
   project_ids:
     - issues
 
