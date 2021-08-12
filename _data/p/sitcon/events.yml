@@ -207,3 +207,41 @@ SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，�
   host_ids: 
   speaker_ids: 
   banner: 
+
+- id:
+  name: 學生計算機年會 2021
+  name_en: SITCON 2021
+  description: 學生計算機年會（SITCON）是由學生自發舉辦，投身學生資訊教育與推廣開源精神的社群， 也是一個由學生主辦、學生擔任講者、以學生為主軸的資訊研討會，給學生們一個發表交流技術的舞台。除了技術研討之外，還有許多從學生角度出發的經驗分享、專題研究成果或探討學生相關議題等等議程。 我們也曾舉辦黑客松、工作坊，和各地學校社團舉辦聯合講座等等。
+  start: 2021/09/04
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://sitcon.org/2021/
+    - title: 
+      url: 
+  cover_image: /p/sitcon/sitcon2021.png
+  contributor_ids: 
+    - rock
+  project_ids:
+    - sitcon
+
+- id:
+  name: SITCON 線上夏令營2021
+  name_en: SITCON Camp 2021
+  description: 2021 年度，SITCON 夏令營因應疫情改於線上舉辦，以「開源星球，源力崛起」為主軸，帶領各位一同進入開源宇宙。我們將傳承歷屆夏令營的概念，今年的線上夏令營將會把往年的豐富活動都移轉到線上舉行，也會有從基礎 Python 程式語言到做出自己的聊天機器人的實作課程。開源宇宙也將更進一步把故事和營隊整合，配合豐富的課程、座談會及社群闖關，絕對能讓學員擁有截然不同的營隊體驗。
+  start: 2021/08/11
+  end: 2021/08/17
+  links:
+    - title: 活動網頁
+      url: https://sitcon.camp/2021/
+    - title: 
+      url: 
+  cover_image: /p/sitcon/sitconcamp2021.png
+  contributor_ids: 
+    - rock
+  project_ids:
+    - sitcon
+
+
+
+

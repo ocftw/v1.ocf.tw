@@ -135,5 +135,22 @@
   reports_en:
 
 
+- id:
+  name: PyConTW 2021
+  name_en: PyConTW 2021
+  description: PyCon ，亦即 Python 年會，是全球 Python 社群年度盛會。PyCon 由各地同好自發籌辦，而現在台灣也有自己的 Python 年會了。這個活動旨在聚集台灣各領域應用 Python 的人，交流彼此的經驗心得，分享最新的技術發展，並親身體驗社群獨有的熱情。"
+  start: 2021/10/02
+  end: 2021/10/03
+  links:
+    - title: 活動網頁
+      url: https://tw.pycon.org/2021/zh-hant
+    - title: 
+      url: 
+  cover_image: /p/pycon/py2021logo.png
+  contributor_ids: 
+    - rock
+    - xini
+  project_ids:
+    - pycon
 
 
