@@ -15,7 +15,7 @@
   {% endfor %}
   ">
   <a href="{{ project_url }}" class="image" {% if project_url contains 'http' %} target="_blank" {% else %} {% endif %}>
-    <img src="{{ project.og_image }}" alt="Thumbnail for '{{project_name}}'">
+    <img src="{{ project_og_image }}" alt="Thumbnail for '{{project_name}}'">
   </a>
   <div class="content">
     <h3 class="header">

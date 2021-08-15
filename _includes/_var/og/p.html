@@ -10,8 +10,8 @@
 {% assign og_title = include_project_name %}
 {% assign include_project_name = undefined %}
 
-{% if project.og_image %}
-  {% assign og_image = project.og_image %}
+{% if project_og_image %}
+  {% assign og_image = project_og_image %}
 {% elsif project.header_image %}
   {% assign og_image = project.header_image %}
 {% elsif project.avatar_image %}
