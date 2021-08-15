@@ -25,14 +25,23 @@ og_image: /p/project_id/cover.png
 # og_image: url
 # 專案的預覽縮圖，會出現在專案列表頁、sns 連結預覽
 # 選用長寬比接近 facebook og image 的圖片（1200 x 630）
+og_image_en: /p/project_id/cover_en.png
+# 英文版網頁用
+
 header_image: /p/project_id/header.png
 # header_image: url
 # 專案頁首的底圖，若有，會出現在專案頁、活動頁
 # 選用長寬比接近長條形的圖片（1400 x 300）
+header_image_en: /p/project_id/header_en.png
+# 英文版網頁用
+
 avatar_image: /p/project_id/avatar.png
 # avatar_image: url
 # 專案的 avatar 圖檔網址，若有，會出現在專案頁的右側邊欄
 # 選用長寬比接近正方形的圖片
+avatar_image_en: /p/project_id/avatar_en.png
+# 英文版網頁用
+
 theme_color: teal
 # theme_color: text
 # 專案頁與所屬活動頁的布景顏色，若留空，則會採用黑色
