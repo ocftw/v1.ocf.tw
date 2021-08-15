@@ -11,18 +11,18 @@ layout: global
 <div class="ui container">
 
   <!-- 版型 start -->
-  {% if event.banner_image %}
+  {% if event_banner_image %}
   <div class="ui two column stackable grid">
     <div class="six wide {{ event.theme_color }} paddingless column">
       <aside class="ui sticky basic paddingless segment">
-        <img class="ui fluid image" src="{{ event.banner_image }}" alt="Banner image for '{{ event_name }}'" />
+        <img class="ui fluid image" src="{{ event_banner_image }}" alt="Banner image for '{{ event_name }}'" />
       </aside>
     </div>
     <div class="ten wide column">
   {% else %}
   <div class="single column">
-    {% if event.cover_image %}
-    <img class="ui fluid image" src="{{ event.cover_image }}" alt="Cover image for '{{ event_name }}'" />
+    {% if event_cover_image %}
+    <img class="ui fluid image" src="{{ event_cover_image }}" alt="Cover image for '{{ event_name }}'" />
     {% else %}
     <div></div>
     {% endif %}
@@ -101,7 +101,7 @@ layout: global
   <div class="ui hidden divider"></div>
 
   <!-- 版型 start -->
-  {% if event.banner_image %}
+  {% if event_banner_image %}
     </div>
   </div>
   {% else %}

@@ -1,8 +1,11 @@
 <!--
   set variables:
   event_name, event_description, event_subtitles, event_tagline,
-  event_labels, event_metas, event_links, event_reports, event_url
+  event_labels, event_metas, event_links, event_reports, event_url,
+  event_cover_image, event_banner_image
 -->
+{% assign event_cover_image = event.cover_image %}
+{% assign event_banner_image = event.banner_image %}
 
 {% if lang == 'en' %}
   {% assign event_name = event.name_en %}
@@ -13,6 +16,14 @@
   {% assign event_metas = event.metas_en %}
   {% assign event_links = event.links_en %}
   {% assign event_reports = event.reports_en %}
+
+  {% if event.cover_image_en %}
+    {% assign event_cover_image = event.cover_image_en %}
+  {% endif %}
+  {% if event.banner_image_en %}
+    {% assign event_banner_image = event.banner_image_en %}
+  {% endif %}
+
 {% else %}
   {% assign event_name = event.name %}
   {% assign event_description = event.description %}

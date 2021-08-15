@@ -23,9 +23,13 @@
   cover_image: /p/project_id/cover.png
   # 活動的封面圖片，若有，會顯示在專案頁的「計畫成果」列表、活動頁
   # 選用長寬比接近 facebook og image 的圖片（1200 x 630）
+  cover_image_en: /p/project_id/cover_en.png
+  # 英文版網頁用
   banner_image: /p/project_id/banner.png
   # 活動的海報圖片，若有，會顯示在活動頁，或當作備用圖片，必要時顯示在專案頁
   # 選用長寬比接近 x 展架的圖片（1600 x 1350）
+  banner_image_en: /p/project_id/banner_en.png
+  # 英文版網頁用
   theme_color: 
   # theme_color: text
   # 專案頁與所屬活動頁的布景顏色，若留空，則會採用白色
