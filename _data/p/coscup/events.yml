@@ -234,3 +234,23 @@
   host_ids: 
   speaker_ids: 
   banner: 
+
+- id:
+  name: 開源人年會 COSCUP 2021
+  name_en: COSCUP 2021
+  description: 全亞洲最大的開源社群聚會「開源人年會 COSCUP」在去年創下 2800 名參與者的歷史新高，今年更與 RubyConfTW 合流，轉戰虛擬會場線上舉辦，在 7/31、8/1 兩日帶來共 28 軌精彩議程，為社群補充滿滿「源力」。全稱為 Conference for Open Source Coders, Users and Promoters 的 COSCUP 是集結了開發者 (Coders)、使用者 (Users) 和推廣者 (Promoters) 的研討會，是台灣自由軟體運動與開放文化的重要推動者。籌備團隊提供大會的基礎設施，而議程內容則給予社群最大的自由度，讓多樣性激盪出創意的火花。開放文化不僅著墨於軟體技術，在教育、藝術與開放文化上都有自己的舞台，即便是完全入門者，也有科普向的開源新手村協助入門。而跨境合作的部分，日本與中國的開源社群亦熱烈響應。而今年最特別的是雖然活動本身改成全線上舉行，但並不僅只是看看直播，大會特地打造融入了台灣特色的虛擬會場，期望可以讓線上與實體活動體驗相同甚至升級，因為讓不同的想法在此交流，藉以產生有趣的新點子，才是這個活動精神所在。
+  start: 2021/07/31
+  end: 2021/08/01
+  links:
+    - title: 活動網頁
+      url: https://coscup.org/2021/zh-TW/
+    - title: 
+      url: 
+  cover_image: p/coscup/2021/COSCUP2021.png
+  contributor_ids: 
+    - yawei
+    - rosa
+    - huangfu
+  project_ids:
+    - coscup
+
