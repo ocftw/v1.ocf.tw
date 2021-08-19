@@ -327,6 +327,23 @@
   project_ids:
     - issues
 
+- id:
+  name: 2021 開放政府培力工作坊－深度二日課程
+  name_en: OGP2021
+  description: 暨去年臺灣按照 Open Government Partnership (OGP) 國際標準推出首部「開放政府國家行動方案」之後，各部會紛紛著手實踐承諾事項。2021 年的深度課程，將延續基礎介紹，帶大家探討如何在執行過程中做到公私協力。
+  start: 2021/09/06
+  end: 2021/09/07
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/opengov2021 
+  cover_image: /p/issues/2021/ogp202109.png
+  contributor_ids: 
+    - claire
+    - lulukeng
+  project_ids:
+    - issues
+
+
 
 
 
