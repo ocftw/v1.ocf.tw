@@ -61,8 +61,8 @@ donors_en:
 board_ids:
 staff_ids:
 
-listed: 
-listed_en: 
+listed: yes
+listed_en: yes 
 
 reports:
   yyyy: 
