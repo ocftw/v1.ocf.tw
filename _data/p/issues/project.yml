@@ -30,6 +30,9 @@ metas:
 metas_en:
 
 links:
+  - title: 網路自由小聚
+    url: https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q
+
   - title: eID 數位身分證
     url: https://ocf.tw/p/eid/
     icon: 
@@ -44,6 +47,9 @@ links:
     icon:
 
 links_en:
+- title: Internet freedom meetup
+    url: https://hackmd.io/@en5bBuSOSvKdMhZUCaoFyQ/HkgHuTpZF
+  
   - title: eID
     url: https://ocf.tw/en/p/eid/
     icon: 
