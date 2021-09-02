@@ -47,8 +47,8 @@ links:
     icon:
 
 links_en:
-  - title: Internet freedom meetup
-    url: https://hackmd.io/en5bBuSOSvKdMhZUCaoFyQ/HkgHuTpZF
+  - title: Internet Freedom meetup
+    url: https://hackmd.io/@en5bBuSOSvKdMhZUCaoFyQ/HkgHuTpZF
     icon: 
   - title: eID
     url: https://ocf.tw/en/p/eid/
@@ -58,9 +58,6 @@ links_en:
     icon: 
   - title: Open Goveronment
     url: https://opengovreport.ocf.tw/#tab-0
-    icon: 
-  - title: Internet Freedom
-    url: https://internetfreedomfestival.org/wiki/index.php/Coffee_%26_Circumvention
     icon: 
   - title: Open Source and Security for 5G
     url: https://ocf.tw/p/issues/2020/5G.html
