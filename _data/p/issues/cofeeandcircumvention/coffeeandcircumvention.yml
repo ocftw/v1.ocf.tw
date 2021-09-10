@@ -1,0 +1,14 @@
+name: 網路自由小聚
+# 專案的中文正式名稱，會顯示在專案列表頁、專案頁、活動頁
+name_en: coffee and circumvention
+# 英文版網頁用
+
+description: 在國際夥伴 Internet Freedom Festival 社群的建議之下，OCF 和來自「摩茲台灣社群Mozilla TW」、 「COSCUP」、和「公民團體資安暨隱私交流 CSCS (Cyber Shield Civil Society)」的夥伴一起發起了每月固定的網路自由小聚。
+# 專案描述，會出現在專案列表頁、專案頁
+description_en: The idea of the meetup came from the Internet Freedom Festival (IFF), one of the largest digital rights communities in the world. It gathers hackers from all over the world to defend activists oin the frontline. OCF was invited by IFF to initiate  “Coffee & Circumvention” (C&C) in Taiwan
+# 英文版網頁用
+
+start: yyyy/mm/dd
+# 專案開始日期，若留空，視為此專案自宇宙大霹靂以來就存在
+end: yyyy/mm/dd
+# 專案結束日期，若留空，視為此專案正在進行中
