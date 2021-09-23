@@ -1,0 +1,40 @@
+name: 民生物聯網
+name_en: Civic Sense 
+
+description: 自台灣至全球，讓我們幫助社群收集到當地環境到資料，進行社群環保管制
+description_en: From Taiwan to the whole world, let’s help communities get the data they need to monitor their changing environment. When communities have access to sensors, it’s “civic sense”. 
+  
+
+tagline: 
+tagline_en: 
+
+og_image: /p/civicsense/cover.png
+og_image_en: /en/p/civicsense/covereng.png
+header_image: /p/civicsense/cover.png
+header_image_en: /en/p/civicsense/covereng.png
+avatar_image: /p/civicsense/cover.png
+avatar_image_en: /en/p/civicsense/covereng.png
+theme_color: 
+
+start: 
+end: 
+
+topic_ids:
+  - government
+field_ids:
+  - legal
+tags:
+tags_en:
+
+organizer_ids:
+  - ocf
+
+board_ids:
+  - pofeng
+staff_ids: 
+  - singing
+  - Leaf
+  - Sam 
+
+listed: yes
+listed_en: yes
