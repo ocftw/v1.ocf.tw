@@ -1,7 +1,7 @@
 name: 民生物聯網
 name_en: Civic Sense 
 
-description: 自台灣至全球，讓我們幫助社群收集到當地環境到資料，進行社群環保管制
+description: 提升公民與環保意識！從臺灣跨出國際，幫全球社群蒐集當地環境監測資料
 description_en: From Taiwan to the whole world, let’s help communities get the data they need to monitor their changing environment. When communities have access to sensors, it’s “civic sense”. 
   
 
@@ -28,11 +28,11 @@ tags:
 tags_en:
 
 links:
-  - title: Watch the playlist from our first webinar
+  - title: 點此觀看第一場網路研討會影片
     url: https://www.youtube.com/playlist?list=PLFuYOsppHDrl4pPE0VsHmAOXiZXMx7O43
     color: green
     icon: world icon
-  - title: Check out the notes from the Q&A here
+  - title: 點此觀看研討會共同筆記與問答
     url: https://hackmd.io/@en5bBuSOSvKdMhZUCaoFyQ/rk_whtKXt
     color: yellow
     icon: world icon
