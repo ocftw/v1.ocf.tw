@@ -42,7 +42,9 @@
   start: 2020/05/12
   end: 2020/05/12
   links:
-    - title: https://www.eventbrite.com/e/webinar-series-i-open-government-partnership-and-malaysias-initiatives-tickets-103747319024?utm_campaign=event_reminder&utm_medium=email&utm_source=eventbrite&utm_term=eventname#
+    - title: Webinar Series I - Open Government Partnership and Malaysia’s Initiatives
+      url: https://www.eventbrite.com/e/webinar-series-i-open-government-partnership-and-malaysias-initiatives-tickets-103747319024?utm_campaign=event_reminder&utm_medium=email&utm_source=eventbrite&utm_term=eventname#
+    - title: Facebook Videos
       url: https://www.facebook.com/sinarproject/videos
   cover_image: /p/global/OGPwebinar (sinar project) 2020.jpg
   contributor_ids:
