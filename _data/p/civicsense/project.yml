@@ -1,0 +1,60 @@
+name: Civic Sense
+name_en: Civic Sense 
+
+description: 提升公民與環保意識！從臺灣跨出國際，幫全球社群蒐集當地環境監測資料
+description_en: From Taiwan to the whole world, let’s help communities get the data they need to monitor their changing environment. When communities have access to sensors, it’s “civic sense”. 
+  
+
+tagline: 
+tagline_en: 
+
+og_image: /p/civicsense/cover.png
+og_image_en: /en/p/civicsense/covereng.png
+header_image: /p/civicsense/banner.png
+header_image_en: /p/civicsense/banner.png
+avatar_image: /p/civicsense/cover.png
+avatar_image_en: /en/p/civicsense/covereng.png
+theme_color: 
+
+start: 
+end: 
+
+topic_ids:
+  - misc
+  - overseas
+field_ids:
+  -  it
+tags:
+tags_en:
+
+links:
+  - title: 點此觀看第一場網路研討會影片
+    url: https://www.youtube.com/playlist?list=PLFuYOsppHDrl4pPE0VsHmAOXiZXMx7O43
+    color: green
+    icon: world icon
+  - title: 點此觀看研討會共同筆記與問答
+    url: https://hackmd.io/@en5bBuSOSvKdMhZUCaoFyQ/rk_whtKXt
+    color: yellow
+    icon: world icon
+links_en:
+  - title: Watch the playlist from our first webinar
+    url: https://www.youtube.com/playlist?list=PLFuYOsppHDrl4pPE0VsHmAOXiZXMx7O43
+    color: green
+    icon: world icon
+  - title: Check out the notes from the Q&A here
+    url: https://hackmd.io/@en5bBuSOSvKdMhZUCaoFyQ/rk_whtKXt
+    color: yellow
+    icon: world icon
+
+organizer_ids:
+  - ocf
+
+board_ids:
+  - pofeng
+staff_ids: 
+  - singing
+  - Leaf
+  - Sam 
+
+listed: yes
+listed_en: yes
