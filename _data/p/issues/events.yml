@@ -209,136 +209,35 @@
     - issues
 
 - id:
-  name: "網路自由小聚 [7月] -  認識數位性別暴力"
-  name_en: "Coffee and Circumvention - IFF"
-  description: "這次小聚，將邀請數位女力聯盟，跟我們分享目前年輕女性及 LGBTQi 為受害之大宗，那些產生錯綜交織的各種「數位性別暴力」，到底有哪些樣貌？另外將分享近期一年，國際夥伴推出的數位報告，也頗析到網路安全隱私為何與性別有關？"
-  start: 2021/07/15
-  end: 
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/internetfreedom-july2021
-  cover_image: /p/issues/2021/candc202107.png
-  contributor_ids: 
-    - lulukeng
-    - rock
-  project_ids:
-    - issues
-
-
-- id:
-  name: "網路自由小聚 [6月] -  防疫可以兼顧隱私嗎？"
-  name_en: "Coffee and Circumvention - IFF"
-  description: "在平行時空度過順遂的一年後，臺灣還是不免跟全球一樣遭受到 COVID-19 的重擊，首次的初體驗也讓更多強烈防疫方案浮出檯面，在數位世界裡面，早已開發的接觸追蹤 APP (ex. 臺灣社交距離）和因應需求出現的各類實聯制系統成為最近的火熱話題。面對防疫需求，我們到底是需要知道更多個人資訊？還是個資隱私安全不能讓？歡迎大家一起來聊聊，面對疫情如何找出適當方案以及怎樣叫做合理呢？"
-  start: 2021/06/17
-  end: 
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/internetfreedom-june2021
-  cover_image: /p/issues/2021/candc202106.png
-  contributor_ids: 
-    - claire
-    - lulukeng
-  project_ids:
-    - issues
-
-
-- id:
-  name: "網路自由小聚 [5月] - Google 終結 Cookie 改用 FLoC，帶來什麼影響？"
-  name_en: "Coffee and Circumvention - IFF"
-  description: "消費者的隱私觀念日漸抬頭，限制 Cookie 追蹤使用者資料的限制日趨嚴格。在這個背景下，Google 在今年三月宣布終結 Chrome 瀏覽器上的第三方 Cookie，改而採用分組追蹤技術- FLoC，透過追蹤使用者在 Chrome 瀏覽器上的上網習慣，將使用者依興趣類型分置於不同群組中，再據此讓廣告商將廣告推播到最適合的群組中。FLoC 將對使用者帶來什麼影響？同樣是追蹤使用者的行為，跟 Cookies 的差異在哪裡？為何 Brave, Firefox 等瀏覽器都拒用？"
-  start: 2021/05/20
-  end: 
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/internetfreedom-may2021
-  cover_image: /p/issues/2021/candc202105.png
-  contributor_ids: 
-    - claire
-    - lulukeng
-  project_ids:
-    - issues
-
-
-- id:
-  name: "網路自由小聚 [4月] - 如何判斷應用程式是否安全？以 Clubhouse 和 TikTok 為例"
-  name_en: "Coffee and Circumvention - IFF"
-  description: "今年初，Clubhouse 這個新應用程式 App 橫空出世，短短時間內成為全球瘋狂搶進使用的語音社交平台，許多在中國極為敏感的話題也在此新 App 大鳴大放的討論，而 Clubhouse 安不安全可不可以保護使用者隱私？也成為不少人關切的議題。其實不只是 Clubhouse，不論是新出的 or 既有的 App，大家真的有認真想過什麼叫安全嗎？？這次小聚將以實際 TikTok 的研究為出發，帶領大家探討怎麼判斷應用程式 App 的安全與否，面對新推出的 App，又該怎麼決定是否應該放膽使用？"
-  start: 2021/04/15
-  end: 
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/internetfreedom-apr2021
-  cover_image: /p/issues/2021/candc202104.png
-  contributor_ids: 
-    - claire
-    - lulukeng
-  project_ids:
-    - issues
-
-
-- id:
-  name: "網路自由小聚 [3月] - 怎麼診斷網路健康？"
-  name_en: "Coffee and Circumvention - IFF"
-  description: "各式數位服務早已全面改變我們的社會，究竟是往更壞或更好的方向前進呢？Mozilla 長期參與者將分享Mozilla 針對 2020 年的網路生態中「健康」與「不健康」的觀察。"
-  start: 2021/03/18
-  end: 
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/internetfreedom-march2021
-  cover_image: /p/issues/2021/candc202103.png
-  contributor_ids: 
-    - claire
-    - lulukeng
-  project_ids:
-    - issues
-
-
-- id:
-  name: "網路自由小聚 [2月] - 平台責任與言論控管  "
-  name_en: "Coffee and Circumvention - IFF"
-  description: "其實早在川普被封鎖事件之前，科技和社群平台就已經存在許多問題，不透明的政策、各類封鎖和言論控管長期為大家詬病。當某幾家科技巨頭掌控了人們和社會大多數的發言管道，如何讓使用者保有制衡這些科技巨頭的對等權力？或是找出網路使用和發聲的多元管道？"
-  start: 2021/02/18
-  end: 
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/internetfreedom-feb2021
-  cover_image: /p/issues/2021/candc202102.png
-  contributor_ids: 
-    - claire
-    - lulukeng
-  project_ids:
-    - issues
-
-
-- id:
-  name: "網路自由小聚 [1月] - 數位行銷如何使用我們的個資？ "
-  name_en: "Coffee and Circumvention - IFF"
-  description: "針對個人喜好加以客製化的行銷技術日臻成熟，我們知道在數位生活中留下的個資都可能化為廣告商鎖定自身的資料庫，但，到底是什麼資料咧？又被如何利用？再說，我們真能割捨精準行銷所帶來的便利嗎？這次小聚，我們邀請行銷與廣告的從業人員，從執行與技術面向講解數位行銷的操作流程與會使用到的個資，並與大家討論個資與便利之間的平衡如何取捨？消費者又可如何掌握更多自身個資的使用權利？"
+  name: "2021 網路自由小聚（每個月第三個禮拜四）"
+  name_en: Internet Freedom meets-up (Every 3rd Thursday)
+  description: "Coffee and Circumvention 是一個由 Internet Freedom Festival (IFF) 發起，串聯全球各城市的網路自由社群聚會。台北場聚會在每個月第三個週四舉辦。我們歡迎學生、上班族、科技人士、藝術家、記者或任何對數位人權、網路隱私、網路安全以及開放科技有興趣的朋友加入我們。"
+  description_en: This is the Taipei Coffee and Circumvention, a monthly, community-run meetup that happens simultaneously in various cities throughout the world - on the third Thursday of every month. It brings together technologists, artists, journalists, citizens and others interested in digital rights, online privacy and security, and open technology.
   start: 2021/01/14
   end: 
   links:
-    - title: 活動網頁
+    - title: 1/14 - 數位行銷如何使用我們的個資？
       url: https://ocftw.kktix.cc/events/internetfreedom-jan2021
-  cover_image: /p/issues/2021/candc202101.png
+    - title: 2/18 - 平台責任與言論控管
+      url: https://ocftw.kktix.cc/events/internetfreedom-feb2021
+    - title: 3/18 - 怎麼診斷網路健康？
+      url: https://ocftw.kktix.cc/events/internetfreedom-march2021
+    - title: 4/15 - 如何判斷應用程式是否安全？以 Clubhouse 和 TikTok 為例
+      url: https://ocftw.kktix.cc/events/internetfreedom-apr2021
+    - title: 5/20 - Google 終結 Cookie 改用 FLoC，帶來什麼影響？
+      url: https://ocftw.kktix.cc/events/internetfreedom-may2021
+    - title: 6/17 - 防疫可以兼顧隱私嗎？
+      url: https://ocftw.kktix.cc/events/internetfreedom-june2021
+    - title: 7/15 - 認識數位性別暴力
+      url: https://ocftw.kktix.cc/events/internetfreedom-july2021
+    - title: 8/19 間諜軟體是什麼？ >> 聊聊以色列 “Pegasus” 軟體大規模監控事件
+      url: https://ocftw.kktix.cc/events/internetfreedom-aug2021
+    - title: 9/16 你的軟體友善嗎？在個資調取中如何安心？台權會網路透明報告分享
+      url: https://ocftw.kktix.cc/events/internetfreedom-sep2021
+  cover_image: /p/issues/C&C-events.png
   contributor_ids: 
     - claire
     - lulukeng
-  project_ids:
-    - issues
-
-- id:
-  name: "網路自由小聚 [8月] - 間諜軟體是什麼？ >> 聊聊以色列 “Pegasus” 軟體大規模監控事件"
-  name_en: "Coffee and Circumvention - IFF"
-  description: "以色列一直以來，以卓越的資安科技產品和相關破解、監控技術聞名全球，然而在上個月，華盛頓郵報（Washington Post）、衛報（ Guardian ）、世界報（Le Monde）等全球數十家媒體，共同發表調查報導，直指以色列科技公司出品的知名的間諜軟體 “Pegasus” ，暗中搜集了全球社運工作者、高官政要的資料，包括189名記者、85位人權工作者、65名企業高管、數名阿拉伯王室成員、600多個政治人物和外交情報官員。本來應該是高規格列管使用的間諜軟體，怎麼會成為輕易濫用的工具？到底以色列聞名的商業模式間諜軟體產業，是如何運作？又有多少風險？至於全球趨之若鶩的間諜軟體，使用機制到底為何？也再次成為全球注目焦點，畢竟，大家都擔心哪天會成為被監控的對象啊！"
-  start: 2021/08/19
-  end: 
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/internetfreedom-aug2021
-  cover_image: /p/issues/2021/candc202108.png
-  contributor_ids: 
-    - lulukeng
-    - rock
   project_ids:
     - issues
 
