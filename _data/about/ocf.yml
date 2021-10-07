@@ -1,21 +1,61 @@
-- title: OpenFoundry 年底吹熄燈號，臺灣開源活動頓失推手
-  url: http://www.ithome.com.tw/news/93686
-  date: 2015-01-21
+- title: 開放源碼 共享協作 締造理想國度
+  url: https://smiletaiwan.cw.com.tw/article/4559
+  date: 2021-06-24
+  media: 天下雜誌
+
+- title: 立院啟動開放國會行動方案　游錫堃：爭取OGP次級組織來台舉辦年會
+  url: https://www.ettoday.net/news/20200602/1728174.htm
+  date: 2020-06-02
+  media: ETtoday
+
+- title: 由下而上的開源社群，造就Python三十年蓬勃
+  url: https://www.ithome.com.tw/news/137504
+  date: 2020-05-14
   media: iThome
 
-- title: 不懂寫程式也能看電影認識開源，開放文化影展要來了
-  url: http://www.ithome.com.tw/news/94211
-  date: 2015-02-06
+- title: Which Right Reserved? CC授權條款的源流與演變
+  url: https://udn.com/news/story/6871/4408410
+  date: 2020-03-12
+  media: 聯合新聞網
+
+- title: 四零四科技加入OpenChain白金會員, 共同推動開源合規標準 
+  url: https://times.hinet.net/news/22802476
+  date: 2020-02-26
+  media: HiNet 生活誌
+
+- title: 民團批新式身分證有資安風險 籲在野黨勿放行預算
+  url: https://news.ltn.com.tw/news/politics/breakingnews/3040846
+  date: 2020-01-15
+  media: 自由時報
+
+- title: 新身分證缺配套 易曝隱私侵害人權
+  url: https://udn.com/news/story/7321/4289873
+  date: 2020-01-15
+  media: 聯合新聞網
+
+- title: 非政府組織籲政府暫停推動晶片身分證 
+  url: https://tw.news.yahoo.com/%E9%9D%9E%E6%94%BF%E5%BA%9C%E7%B5%84%E7%B9%94%E7%B1%B2%E6%94%BF%E5%BA%9C%E6%9A%AB%E5%81%9C%E6%8E%A8%E5%8B%95%E6%99%B6%E7%89%87%E8%BA%AB%E5%88%86%E8%AD%89-082049651.html
+  date: 2019-11-21
+  media: yahoo!
+
+- title: 公民團體聯名致教育部長公開信：暫停校園人臉辨識技術 
+  url: https://www.peoplenews.tw/news/391b49f9-d9c7-467d-9065-024dc71555e7
+  date: 2019-10-20
+  media: 民報
+
+- title: 出席東亞民主論壇 外交部政次：共同反擊專制政權虛假宣傳  
+  url: https://news.ltn.com.tw/news/politics/breakingnews/2834768
+  date: 2019-06-26
+  media: 自由時報
+
+- title: 【g0v雙年會特別報導】g0v讓世界看見臺灣，但下一步要往何方？
+  url: https://www.ithome.com.tw/news/126508
+  date: 2018-10-19
   media: iThome
 
-- title: 好柴不砍嗎？臺北市政府首屆開放資料黑客松，嗡嗡嗡報名開始
-  url: http://www.ithome.com.tw/news/95533
-  date: 2015-04-28
-  media: iThome
-
-- title: 臺灣公民科技的覺醒
-  url: http://www.ithome.com.tw/news/106629
-  date: 2016-06-35
+- title: 【HITCON社群大會】人權工作者也需強化資安意識，開放文化基金會揭NGO資安工作坊成果
+  url: https://www.ithome.com.tw/news/116494
+  date: 2017-08-29
   media: iThome
 
 - title: 資策會成立開源技服中心 活絡軟體服務生態
@@ -23,59 +63,22 @@
   date: 2016-07-21
   media: 經濟日報
 
-- title: 【HITCON社群大會】人權工作者也需強化資安意識，開放文化基金會揭NGO資安工作坊成果
-  url: https://www.ithome.com.tw/news/116494
-  date: 2017-08-29
+- title: 臺灣公民科技的覺醒
+  url: http://www.ithome.com.tw/news/106629
+  date: 2016-06-35
   media: iThome
 
-- title: 【g0v雙年會特別報導】g0v讓世界看見臺灣，但下一步要往何方？
-  url: https://www.ithome.com.tw/news/126508
-  date: 2018-10-19
+- title: 好柴不砍嗎？臺北市政府首屆開放資料黑客松，嗡嗡嗡報名開始
+  url: http://www.ithome.com.tw/news/95533
+  date: 2015-04-28
   media: iThome
 
-- title: 出席東亞民主論壇 外交部政次：共同反擊專制政權虛假宣傳  
-  url: https://news.ltn.com.tw/news/politics/breakingnews/2834768
-  date: 2019-06-26
-  media: 自由時報
-
-- title: 公民團體聯名致教育部長公開信：暫停校園人臉辨識技術 
-  url: https://www.peoplenews.tw/news/391b49f9-d9c7-467d-9065-024dc71555e7
-  date: 2019-10-20
-  media: 民報
-
-- title: 非政府組織籲政府暫停推動晶片身分證 
-  url: https://tw.news.yahoo.com/%E9%9D%9E%E6%94%BF%E5%BA%9C%E7%B5%84%E7%B9%94%E7%B1%B2%E6%94%BF%E5%BA%9C%E6%9A%AB%E5%81%9C%E6%8E%A8%E5%8B%95%E6%99%B6%E7%89%87%E8%BA%AB%E5%88%86%E8%AD%89-082049651.html
-  date: 2019-11-21
-  media: yahoo!
-
-- title: 新身分證缺配套 易曝隱私侵害人權
-  url: https://udn.com/news/story/7321/4289873
-  date: 2020-01-15
-  media: 聯合新聞網
-
-- title: 民團批新式身分證有資安風險 籲在野黨勿放行預算
-  url: https://news.ltn.com.tw/news/politics/breakingnews/3040846
-  date: 2020-01-15
-  media: 自由時報
-
-- title: 四零四科技加入OpenChain白金會員, 共同推動開源合規標準 
-  url: https://times.hinet.net/news/22802476
-  date: 2020-02-26
-  media: HiNet 生活誌
-
-- title: Which Right Reserved? CC授權條款的源流與演變
-  url: https://udn.com/news/story/6871/4408410
-  date: 2020-03-12
-  media: 聯合新聞網
-
-- title: 由下而上的開源社群，造就Python三十年蓬勃
-  url: https://www.ithome.com.tw/news/137504
-  date: 2020-05-14
+- title: 不懂寫程式也能看電影認識開源，開放文化影展要來了
+  url: http://www.ithome.com.tw/news/94211
+  date: 2015-02-06
   media: iThome
 
-- title: 立院啟動開放國會行動方案　游錫堃：爭取OGP次級組織來台舉辦年會
-  url: https://www.ettoday.net/news/20200602/1728174.htm
-  date: 2020-06-02
-  media: ETtoday
-
-
+- title: OpenFoundry 年底吹熄燈號，臺灣開源活動頓失推手
+  url: http://www.ithome.com.tw/news/93686
+  date: 2015-01-21
+  media: iThome
