@@ -1,0 +1,7 @@
+
+{% for item in site.data.people.orgs.ocf.what_we_do %}
+<h3 class="ui header">{{ item.tagline }}</h3>
+<p>
+{{ item.description }}
+</p>
+{% endfor %}
