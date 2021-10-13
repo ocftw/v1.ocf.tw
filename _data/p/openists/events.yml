@@ -136,6 +136,36 @@
   project_ids:
     - openists
 
+- id:
+  name: "開源教 - 教我用 Drupal + RESTful API 快速打造管理後台"
+  name_en: ""
+  description: "Drupal 是一套開放原始碼的網站內容管理系統，因為採用 PHP 撰寫、且開源的特性，讓 Drupal 在運用上非常有彈性，能夠快速地進行大幅度修改和其他套件混用。這次我們將介紹 Drupal 這套工具，搭配 RESTful API ，帶領各位建立自己的網站管理後台。"
+  start: 2021/10/07
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/20211007-drupal
+  cover_image: /p/openists/openists-20211007.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - openists
+
+- id:
+  name: "開源教 - 教我 Odoo 開發入門"
+  name_en: ""
+  description: "Odoo 是開源世界歷經十餘年開發的大型軟體，完整包含企業營運所需的各種商業活動，從「產銷人發財資」到 POS 系統，涵蓋數十種主要應用場景，延伸數百個應用模組。因為開放原始碼的特性，Odoo 可以自行安裝、設定和修改，進行客製化完善自己或客戶想要的功能。這堂課將會帶你綜觀整個 Odoo 程式架構，並親身體驗進行開發環境建置、模組建構，打造一個屬於自己的客製化 Odoo！"
+  start: 2021/10/28
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/20211028-odoo-2
+  cover_image: /p/openists/openists-20211028.png
+  contributor_ids:
+    - rock
+  project_ids:
+    - openists
+
 
 
 
