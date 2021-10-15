@@ -10,6 +10,11 @@
       url: https://www.youtube.com/playlist?list=PLFuYOsppHDrl4pPE0VsHmAOXiZXMx7O43
     - title: 共筆與問答
       url: https://hackmd.io/@en5bBuSOSvKdMhZUCaoFyQ/rk_whtKXt
+  links_en:
+    - title: 活動影片
+      url: https://www.youtube.com/playlist?list=PLFuYOsppHDrl4pPE0VsHmAOXiZXMx7O43
+    - title: 共筆與問答
+      url: https://hackmd.io/@en5bBuSOSvKdMhZUCaoFyQ/rk_whtKXt
   cover_image: /p/civicsense/cover.png
   contributor_ids: 
     - singing
