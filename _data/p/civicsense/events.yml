@@ -1,6 +1,7 @@
 - id: civicsense
   name: Civic Sense Webinar 1/2
   description: 開放文化基金會希望展現公民物聯網的重要性，並且鼓勵更多社群使用開源感測器。透過開源設計將研究、修改與再發布的可能性最大化，讓感測器得以依照當地社群的需求以及建設限制而做適當的調整。 
+  description_en: 開放文化基金會希望展現公民物聯網的重要性，並且鼓勵更多社群使用開源感測器。透過開源設計將研究、修改與再發布的可能性最大化，讓感測器得以依照當地社群的需求以及建設限制而做適當的調整。
   start: 2021/09/09
   end:
   links:
@@ -9,12 +10,23 @@
     - title: 共筆與問答
       url: https://hackmd.io/@en5bBuSOSvKdMhZUCaoFyQ/rk_whtKXt
   cover_image: /p/civicsense/cover.png
-  project_ids: civicsense
+  contributor_ids: 
+    - singing
+    - leaf
+    - sam
+  project_ids: 
+    - civicsense 
 
 - id: civicsense
   name: Civic Sense Webinar 3
-  description: 本次網絡研討會的目標是了解每個社群的目標，並決定與哪些團體合作   
+  description: 本次網絡研討會的目標是了解每個社群的目標，並決定與哪些團體合作
+  description_en: 本次網絡研討會的目標是了解每個社群的目標，並決定與哪些團體合作   
   start: 2021/10/06
   end:
   cover_image: /p/civicsense/cover.png
-  project_ids: civicsense 
+  contributor_ids: 
+    - singing
+    - leaf
+    - sam
+  project_ids: 
+    - civicsense 
