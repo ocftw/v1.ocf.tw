@@ -48,7 +48,8 @@ links_en:
 
 organizer_ids:
   - ocf
-
+co-organizer_ids:
+  - ait_thai
 board_ids:
   - pofeng
 staff_ids: 
