@@ -45,6 +45,12 @@ links_en:
     url: https://hackmd.io/@en5bBuSOSvKdMhZUCaoFyQ/rk_whtKXt
     color: yellow
     icon: world icon
+  - title: September/October Monthly Update
+    url: https://drive.google.com/file/d/1Knz-aOShyYvHBpkGPURTAlTPPThplNi_/preview
+    color: green
+    icon: world icon 
+
+
 
 organizer_ids:
   - ocf
