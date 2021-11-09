@@ -272,7 +272,7 @@
 
 
 - id:
-  name: 【記者會】國際特赦組織台灣分會發布New eID研究報告記者會
+  name: 【記者會】國際特赦組織台灣分會發布 New eID 研究報告記者會
   name_en: 
   description: 【發言稿】開放文化基金會去年有發起連署 - 「支持修法與公開數位晶片身分證規劃資訊」，我們期望政府不強制換發、完善法制架構、保障人民隱私與開放存取系統的原始碼。對於政府提供更便利、創新的服務，我們都給予肯定，也很樂見政府在迎上數位時代上的腳步，但同時，我們也期望政府有更公開、透明的機制，讓民眾得更信任政府的數位應用與基礎建設。在這份報告中，其中一點也是 OCF 在 eID 議題中關注的：「台灣現存法律並未提供任何「逆向監視」的機能，或授權個人追蹤誰有權使用自己的個人資料,以避免資料被政府或企業作為監控或監視的手段任意使用」。個人資料的使用權力應該是在個人手上，為什麼我們卻沒有規劃讓民眾可以查詢追蹤的機制呢？我們需要建立出機制，讓使用者可以查詢、追蹤個人資料的使用狀況。最後，也想讓大家知道，雖然在疫情期間，eID 的發展推動看似暫緩，但民間團體依然會持續關注這個議題，希望能有個在便利與隱私方面都有相當考量發展。
   start: 2021/08/13
@@ -299,7 +299,40 @@
   project_ids:
     - issues
 
+- id:
+  name: 5G Webinar：O-RAN 產業與開源軟體發展趨勢
+  name_en: 
+  description: 在增長迅速的 Open RAN 產業中，負責討論、制定產業標準和發展動向的國際組織也成為重要的決策角色，本活動將邀請 O-RAN 軟體社群來分享 O-RAN 聯盟與國際開源專案的合作經驗，以及探討全球電信運營商在 Open RAN 的佈局與商業動向，並展示開源軟體導入 O-RAN 的經驗。
+  start: 2021/12/01
+  end: 
+  links:
+    - title: 
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=29
+  cover_image: /p/ocf/2021_5G.png
+  contributor_ids: 
+   - singing
+   - leaf
+   - sam
+  project_ids:
+   - issues
 
+
+- id:
+  name: 2021 Open Government International Virtual Forum
+  name_en: 2021 Open Government International Virtual Forum
+  description: "The road to open government is a long journey, and the experiences exchange and lessons learned between partners will be the key to making the open government continue to move forward. This November, the Taiwanese government and the civil society organization will jointly organize an international virtual forum, hoping to promote diversified exchanges and in-depth discussions on three topics: from promise to action, public-private collaboration and anti-corruption. Based on these topics, we organized 4 sessions for everyone for free. Please save your time and register it. We'll send you links for 2 live streaming videos before the forum."
+  start: 2021/11/16
+  end: 
+  links:
+    - title: 
+      url: https://ocftw.kktix.cc/events/opengovforum-tw
+  cover_image: /p/issues/ogi202111.png
+  contributor_ids: 
+    - lulukeng
+    - claire
+    - weichen
+  project_ids:
+    - issues
 
 
 

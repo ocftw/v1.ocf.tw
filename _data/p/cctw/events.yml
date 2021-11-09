@@ -13,3 +13,20 @@
     - rock
   project_ids:
     - cctw
+
+- id:
+  name: 「有感」素材 WikiData 應用編輯松
+  name_en: 
+  description: 這次的「有感」素材 WikiData 編輯松，我們會帶您探索「國家文化記憶庫」中，以 CC 授權釋出的圖像，傳送到 WikiData 的資料庫中，並且編輯 WikiData 的各項資訊，讓這些富含原住民、鐵道、歷史、人文的圖像，能夠被廣泛應用在維基百科中，讓全世界看見台灣的開放，與台灣歷史、人文之美。
+
+
+  start: 2021/11/14
+  end: 
+  links:
+    - title: 
+      url: https://ocftw.kktix.cc/events/ccwikidatathon
+  cover_image: /p/cctw/cctwikidatathon.png
+  contributor_ids: 
+    - rock
+  project_ids:
+    - cctw

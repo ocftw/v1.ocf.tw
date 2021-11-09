@@ -166,6 +166,21 @@
   project_ids:
     - openists
 
+- id:
+  name: 開源教 - 教我寫好履歷表 
+  name_en: 
+  description: 統計顯示，雇主通常在面試 5~10 分鐘之內決定任用與否。履歷表是求職的第 0 關，該如何用好的履歷來爭取到面試的門票？履歷表撰寫的技巧就很重要了，特別是對於工程師而已，該怎麼樣把學經歷、證照和技術完整地透過文字和圖像呈現在紙張上，讓人一目暸然？這次開源教的聚會就要來討論這門技巧。
+  start: 2021/11/25
+  end: 
+  links:
+    - title: 
+      url: https://ocftw.kktix.cc/events/20211125-resume
+  cover_image: /p/openists/openists-20211125.png
+  contributor_ids: 
+    - -rock
+  project_ids:
+    - openists
+
 
 
 
