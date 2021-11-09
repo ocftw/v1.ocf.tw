@@ -704,6 +704,8 @@
     - title: 活動詳情
       url: https://g0v.hackmd.io/@jothon/H1jZY25SK
   cover_image: /p/g0vjothon/jothon-school-hc.png
+  project_ids:
+    - g0vdathon
   organizer_ids: 
     - g0vjothon
 
@@ -719,6 +721,8 @@
     - title: 活動詳情
       url: https://g0v.hackmd.io/@jothon/rxctvtaipei
   cover_image: /p/g0vjothon/jothon-rxctv.png
+  project_ids:
+    - g0vdathon
   organizer_ids: 
     - g0vjothon
 
@@ -736,6 +740,8 @@
   cover_image: /p/g0vjothon/jothon-a-new-era.png
   organizer_ids: 
     - g0vjothon
+  project_ids:
+    - g0vdathon
 
 
 
