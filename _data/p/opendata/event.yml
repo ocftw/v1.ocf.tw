@@ -1,13 +1,13 @@
-- id:
-  name: 國軍退除役官兵輔導委員會 110 年提升政府資料開放品質講習班
-  name_en: 2021 open data lecture of Veterans Affairs Council
-  description: 針對國軍退除役官兵輔導委員會各業務管理處以及三所榮總中，辦理政府開放資料業務的窗口進行政府資料開放與應用簡介，講習內容包含：資料與資訊的差異、公開與開放的差異、什麼是資料品質、如何清理資料，並搭配退輔會在政府資料開放平臺及官網上已公開的資料進行實際操作解說及練習
-  start: 2021/09/30
-  end: 
-  links:
-    - title: 課程簡報
-      url: https://docs.google.com/presentation/d/1KW_CwSGMdFOy_kFRrtJ5TDROxwTdu1mgQaDvHEaDbj0/edit?usp=sharing
-  cover_image: 
-  contributor_ids: 
-    - huangfu
+#- id:
+#  name: 國軍退除役官兵輔導委員會 110 年提升政府資料開放品質講習班
+#  name_en: 2021 open data lecture of Veterans Affairs Council
+#  description: 針對國軍退除役官兵輔導委員會各業務管理處以及三所榮總中，辦理政府開放資料業務的窗口進行政府資料開放與應用簡介，講習內容包含：資料與資訊的差異、公開與開放的差異、什麼是資料品質、如何清理資料，並搭配退輔會在政府資料開放平臺及官網上已公開的資料進行實際操作解說及練習
+#  start: 2021/09/30
+#  end: 
+#  links:
+#    - title: 課程簡報
+#      url: https://docs.google.com/presentation/d/1KW_CwSGMdFOy_kFRrtJ5TDROxwTdu1mgQaDvHEaDbj0/edit?usp=sharing
+#  cover_image: 
+#  contributor_ids: 
+#    - huangfu
 #好像還沒做好，這個先放在 issues.
