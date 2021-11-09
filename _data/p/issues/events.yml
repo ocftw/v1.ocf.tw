@@ -306,7 +306,7 @@
   start: 2021/12/01
   end: 
   links:
-    - title: 
+    - title: 活動網頁
       url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=29
   cover_image: /p/ocf/2021_5G.png
   contributor_ids: 
@@ -324,7 +324,7 @@
   start: 2021/11/16
   end: 
   links:
-    - title: 
+    - title: 活動網頁
       url: https://ocftw.kktix.cc/events/opengovforum-tw
   cover_image: /p/issues/ogi202111.png
   contributor_ids: 

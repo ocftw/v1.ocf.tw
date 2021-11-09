@@ -173,11 +173,11 @@
   start: 2021/11/25
   end: 
   links:
-    - title: 
+    - title: 活動網頁
       url: https://ocftw.kktix.cc/events/20211125-resume
   cover_image: /p/openists/openists-20211125.png
   contributor_ids: 
-    - -rock
+    - rock
   project_ids:
     - openists
 
