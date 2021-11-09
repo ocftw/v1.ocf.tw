@@ -706,9 +706,6 @@
   cover_image: /p/g0vdathon/jothon-school-hc.png
   organizer_ids: 
     - g0vjothon
-  contributor_ids: 
-    - xini
-    - anima
 
 - id:
   name: 暖身活動 - RxC TV 特別節目 - 台北暖身場
@@ -724,9 +721,6 @@
   cover_image: /p/g0vdathon/jothon-rxctv.png
   organizer_ids: 
     - g0vjothon
-  contributor_ids: 
-    - xini
-    - anima
 
 - id:
   name: RxC 2021 開放空間年會–民主新時代
@@ -739,12 +733,9 @@
       url: https://www.eventbrite.com/e/2021-radicalxchange-conference-taipei-taiwan-tickets-169638777149
     - title: 活動共筆
       url: https://g0v.hackmd.io/@jothon/unConf2021/https%3A%2F%2Fg0v.hackmd.io%2F%40jothon%2FBygCT3aBY
-  cover_image: ​​/p/g0vjothon/jothon-a-new-era.png
+  cover_image: ​​/p/g0vdathon/jothon-a-new-era.png
   organizer_ids: 
     - g0vjothon
-  contributor_ids: 
-    - xini
-    - anima
 
 
 
