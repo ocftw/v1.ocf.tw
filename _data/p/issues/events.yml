@@ -230,10 +230,14 @@
       url: https://ocftw.kktix.cc/events/internetfreedom-june2021
     - title: 7/15 - 認識數位性別暴力
       url: https://ocftw.kktix.cc/events/internetfreedom-july2021
-    - title: 8/19 間諜軟體是什麼？ >> 聊聊以色列 “Pegasus” 軟體大規模監控事件
+    - title: 8/19 - 間諜軟體是什麼？ >> 聊聊以色列 “Pegasus” 軟體大規模監控事件
       url: https://ocftw.kktix.cc/events/internetfreedom-aug2021
-    - title: 9/16 你的軟體友善嗎？在個資調取中如何安心？台權會網路透明報告分享
+    - title: 9/16 - 你的軟體友善嗎？在個資調取中如何安心？台權會網路透明報告分享
       url: https://ocftw.kktix.cc/events/internetfreedom-sep2021
+    - title: 10/21 - 扁平世界中的科技與偵查法
+      url: https://ocftw.kktix.cc/events/internetfreedom-oct2021
+    - title: 11/20 GFWatch：中國防火長城 DNS 審查與監控的測量平台 A Longitudinal Measurement Platform Built to Monitor China’s DNS Censorship at Scale
+      url: https://ocftw.kktix.cc/events/internetfreedom-nov2021
   cover_image: /p/issues/C&C-events.png
   contributor_ids: 
     - claire
