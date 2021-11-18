@@ -1,34 +1,10 @@
 name: 議題關注
 name_en: Law and policy issues
-
 description: 與社會與開放科技息息相關的各項議題，如果還少了那份關注力道，OCF 期許自己加入推動行列! 
 description_en: Lots of public policies have open-source technical issues hidden inside. We focus on those issues, check related law and policy, try to find out if there's any problem, or make initializing laws and policies, or advocating corrections.
-  
-abbr: 
-abbr_en: 
-
-tagline: 
-tagline_en: 
-
 og_image: /p/issues/issues-og.png
 header_image: /p/issues/issues-cover.png
 avatar_image: /p/issues/issues-og.png
-theme_color: 
-
-start: 
-end: 
-
-type_ids:
-topic_ids:
-field_ids:
-tags:
-tags_en:
-
-metas:
-  - label: 
-    content: 
-metas_en:
-
 links:
   - title: 網路自由小聚
     url: https://ocf.tw/p/issues/2021/coffeeandcircumvention.html
@@ -69,27 +45,9 @@ actions:
     url: http://ocf.tw/300
     icon: dollar
     color: green
-  - title: 
-actions_en:
 
-advisor_ids:
 organizer_ids:
   - ocf
-co-organizer_ids:
-implementer_ids:
-sponsor_ids:
-
-coordinator_ids:
-case-handler_ids:
-co-worker_ids:
-consultant_ids:
-volunteer_ids:
-contributor_ids:
-donors:
-donors_en:
-
-board_ids:
-staff_ids:
 
 listed: yes
 listed_en: yes

@@ -26,7 +26,7 @@
 - id: 
   name: "Civic Sense Webinar 3"
   name_en: Civic Sense Webinar 3
-  description: "本次網絡研討會的目標是了解每個社群的目標，並決定與哪些團體合作"
+  description: "本次網絡研討會的目標是了解每個參與社群的目標，討論並決定與哪些團體合作。"
   description_en: The goal for this webinar was to understand the goals of each community and to determine which groups to collaborate with   
   start: 2021/10/06
   end:

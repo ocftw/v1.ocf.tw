@@ -230,10 +230,14 @@
       url: https://ocftw.kktix.cc/events/internetfreedom-june2021
     - title: 7/15 - 認識數位性別暴力
       url: https://ocftw.kktix.cc/events/internetfreedom-july2021
-    - title: 8/19 間諜軟體是什麼？ >> 聊聊以色列 “Pegasus” 軟體大規模監控事件
+    - title: 8/19 - 間諜軟體是什麼？ >> 聊聊以色列 “Pegasus” 軟體大規模監控事件
       url: https://ocftw.kktix.cc/events/internetfreedom-aug2021
-    - title: 9/16 你的軟體友善嗎？在個資調取中如何安心？台權會網路透明報告分享
+    - title: 9/16 - 你的軟體友善嗎？在個資調取中如何安心？台權會網路透明報告分享
       url: https://ocftw.kktix.cc/events/internetfreedom-sep2021
+    - title: 10/21 - 扁平世界中的科技與偵查法
+      url: https://ocftw.kktix.cc/events/internetfreedom-oct2021
+    - title: 11/20 GFWatch：中國防火長城 DNS 審查與監控的測量平台 A Longitudinal Measurement Platform Built to Monitor China’s DNS Censorship at Scale
+      url: https://ocftw.kktix.cc/events/internetfreedom-nov2021
   cover_image: /p/issues/C&C-events.png
   contributor_ids: 
     - claire
@@ -272,7 +276,7 @@
 
 
 - id:
-  name: 【記者會】國際特赦組織台灣分會發布New eID研究報告記者會
+  name: 【記者會】國際特赦組織台灣分會發布 New eID 研究報告記者會
   name_en: 
   description: 【發言稿】開放文化基金會去年有發起連署 - 「支持修法與公開數位晶片身分證規劃資訊」，我們期望政府不強制換發、完善法制架構、保障人民隱私與開放存取系統的原始碼。對於政府提供更便利、創新的服務，我們都給予肯定，也很樂見政府在迎上數位時代上的腳步，但同時，我們也期望政府有更公開、透明的機制，讓民眾得更信任政府的數位應用與基礎建設。在這份報告中，其中一點也是 OCF 在 eID 議題中關注的：「台灣現存法律並未提供任何「逆向監視」的機能，或授權個人追蹤誰有權使用自己的個人資料,以避免資料被政府或企業作為監控或監視的手段任意使用」。個人資料的使用權力應該是在個人手上，為什麼我們卻沒有規劃讓民眾可以查詢追蹤的機制呢？我們需要建立出機制，讓使用者可以查詢、追蹤個人資料的使用狀況。最後，也想讓大家知道，雖然在疫情期間，eID 的發展推動看似暫緩，但民間團體依然會持續關注這個議題，希望能有個在便利與隱私方面都有相當考量發展。
   start: 2021/08/13
@@ -299,8 +303,54 @@
   project_ids:
     - issues
 
+- id:
+  name: 5G Webinar：O-RAN 產業與開源軟體發展趨勢
+  name_en: 
+  description: 在增長迅速的 Open RAN 產業中，負責討論、制定產業標準和發展動向的國際組織也成為重要的決策角色，本活動將邀請 O-RAN 軟體社群來分享 O-RAN 聯盟與國際開源專案的合作經驗，以及探討全球電信運營商在 Open RAN 的佈局與商業動向，並展示開源軟體導入 O-RAN 的經驗。
+  start: 2021/12/01
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=29
+  cover_image: /p/ocf/2021_5G.png
+  contributor_ids: 
+   - singing
+   - leaf
+   - sam
+  project_ids:
+   - issues
 
 
+- id:
+  name: 2021 Open Government International Virtual Forum
+  name_en: 2021 Open Government International Virtual Forum
+  description: "The road to open government is a long journey, and the experiences exchange and lessons learned between partners will be the key to making the open government continue to move forward. This November, the Taiwanese government and the civil society organization will jointly organize an international virtual forum, hoping to promote diversified exchanges and in-depth discussions on three topics: from promise to action, public-private collaboration and anti-corruption. Based on these topics, we organized 4 sessions for everyone for free. Please save your time and register it. We'll send you links for 2 live streaming videos before the forum."
+  start: 2021/11/16
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/opengovforum-tw
+  cover_image: /p/issues/ogi202111.png
+  contributor_ids: 
+    - lulukeng
+    - claire
+    - weichen
+  project_ids:
+    - issues
 
+- id:
+  name: 國軍退除役官兵輔導委員會 110 年提升政府資料開放品質講習班
+  name_en: 2021 open data lecture of Veterans Affairs Council
+  description: 針對國軍退除役官兵輔導委員會各業務管理處以及三所榮總中，辦理政府開放資料業務的窗口進行政府資料開放與應用簡介，講習內容包含：資料與資訊的差異、公開與開放的差異、什麼是資料品質、如何清理資料，並搭配退輔會在政府資料開放平臺及官網上已公開的資料進行實際操作解說及練習。
+  start: 2021/09/30
+  end: 
+  links:
+    - title: 課程簡報
+      url: https://docs.google.com/presentation/d/1KW_CwSGMdFOy_kFRrtJ5TDROxwTdu1mgQaDvHEaDbj0/edit?usp=sharing
+  cover_image: 
+  contributor_ids: 
+    - huangfu
+  project_ids:
+    - issues
 
 

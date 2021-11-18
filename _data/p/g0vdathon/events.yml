@@ -691,3 +691,58 @@
   reports:
     2020: 06
   reports_en:
+
+- id:
+  name: ［零時小學校 × LASS］新竹小松
+  name_en: 
+  description: 本次零時小學校的「新竹小松」將與 LASS 開源公益環境感測網路合作，由 #新竹哈爸 引路，讓參與者增進水文地理資料和 QGIS 軟體使用技能，並由零時小學校引導參與者，從參與者所關心的水環境議題，企劃一個流域資料分析專案、水文環境研究題目、資料結合環境教案企劃等，歡迎一起來說一個新竹的故事。
+  start: 2021/11/20
+  end: 
+  links:
+    - title: 活動及報名資訊
+      url: https://g0v-jothon.kktix.cc/events/sch001-hc211120
+    - title: 活動詳情
+      url: https://g0v.hackmd.io/@jothon/H1jZY25SK
+  cover_image: /p/g0vjothon/jothon-school-hc.png
+  project_ids:
+    - g0vdathon
+  organizer_ids: 
+    - g0vjothon
+
+- id:
+  name: 暖身活動 - RxC TV 特別節目 - 台北暖身場
+  name_en: RxC TV - Taipei Livestream event
+  description: 本次 RxC 開放空間年會除了實體與全球線上活動外， RadicalxChange 基金會也精心製作了一檔電視特別節目 「RxC TV」，邀請來自美國、拉丁美洲、台灣以及亞洲各地公民科技社群的來賓，分享他們對於「民主新時代」的觀察與反思。特別節目將在每場開放空間年會前一天於線上播出，讓參與者可以更深入了解實體活動的主題、從中學習，並激發出更多有趣的點子。
+  start: 2021/12/03
+  end: 
+  links:
+    - title: 報名連結
+      url: https://bit.ly/rxctvtaipei-signup
+    - title: 活動詳情
+      url: https://g0v.hackmd.io/@jothon/rxctvtaipei
+  cover_image: /p/g0vjothon/jothon-rxctv.png
+  project_ids:
+    - g0vdathon
+  organizer_ids: 
+    - g0vjothon
+
+- id:
+  name: RxC 2021 開放空間年會–民主新時代
+  name_en: RadicalxChange unConference 2021 - A New Era of Democracy
+  description: 【民主新時代——參與、創新、審議、共創】儘管有越來越多公民投入公共事務參與，治理體制卻因兩極分化，阻卻了民主的發展。幸運的是，有一群體制內外的創新者持續開發新的工具和方法，促進更有效的共識決策、共享資源，打造未來民主的基礎建設。這股趨勢很大一部分受到台灣 g0v 零時政府影響，尤其是台灣蓬勃的公民科技社群與實踐文化，深刻影響了 RadcialxChange 的運動核心精神。不管你自認是思考前衛的科學家、社會學家、藝術家、倡議者、社群領袖、創業家，或是同樣認同這個共同使命的人，歡迎大家加入今年「RxC 2021 開放空間年會」，共同創造一個平權、鼓勵公民參與的未來。
+  start: 2021/12/04
+  end: 
+  links:
+    - title: 年會報名
+      url: https://www.eventbrite.com/e/2021-radicalxchange-conference-taipei-taiwan-tickets-169638777149
+    - title: 活動共筆
+      url: https://g0v.hackmd.io/@jothon/unConf2021/https%3A%2F%2Fg0v.hackmd.io%2F%40jothon%2FBygCT3aBY
+  cover_image: /p/g0vjothon/jothon-a-new-era.png
+  organizer_ids: 
+    - g0vjothon
+  project_ids:
+    - g0vdathon
+
+
+
+
