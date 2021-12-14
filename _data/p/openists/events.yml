@@ -184,7 +184,7 @@
 - id:
   name: 開源教 - 開源藝用 3D 入門體驗
   name_en: 
-  description:Blender 是一個 1998 年釋出，以 C, C++, Python 撰寫而成的 GPL 授權開放原始碼軟體。它強大的 3D 繪圖、建模功能和採現引擎，且開放原始碼、跨平台、容易取得和使用的特性，讓它在 3D 繪圖工具中歷久不衰，始終受到不少使用者的青睞。本次課程內容包含：About Open source & 3D—關於開源與3D、into Blender—進入3D世界、Modeling & Try it—3D建模與實作體驗。
+  description: Blender 是一個 1998 年釋出，以 C, C++, Python 撰寫而成的 GPL 授權開放原始碼軟體。它強大的 3D 繪圖、建模功能和採現引擎，且開放原始碼、跨平台、容易取得和使用的特性，讓它在 3D 繪圖工具中歷久不衰，始終受到不少使用者的青睞。本次課程內容包含：About Open source & 3D—關於開源與3D、into Blender—進入3D世界、Modeling & Try it—3D建模與實作體驗。
   start: 2021/12/21
   end: 
   links:
