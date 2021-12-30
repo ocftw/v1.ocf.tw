@@ -23,21 +23,25 @@ tags:
 tags_en:
 
 actions:
-  - title: 我想幫忙
-    url: mailto:intl@ocf.tw
+  - title: 資安講師徵才中
+    url: https://docs.google.com/document/d/e/2PACX-1vTJZcihCh3MHkw59ZGtTmww1sOiSntK8MO6aJE4JYDkY5dEtz-ct-Y0euuX5eVkLLNKRLwZMcUfZzH8/pub
+    color: yellow
+    icon: briefcase
+  - title: 我想成為志工
+    url: mailto:contact@cscs.asia
     color: green
     icon: envelope
   - title: 求助資安專家
-    url: mailto:intl@ocf.tw
+    url: mailto:contact@cscs.asia
     color: blue
     icon: user
 actions_en:
-  - title: I can help!
-    url: mailto:intl@ocf.tw
+  - title: Become a volunteer
+    url: mailto:contact@cscs.asia
     color: green
     icon: envelope
-  - title: I need help!
-    url: mailto:intl@ocf.tw
+  - title: Digital security assistance
+    url: mailto:contact@cscs.asia
     color: blue
     icon: user
 
