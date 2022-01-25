@@ -1,0 +1,201 @@
+title: 2021 年客家開放資料推廣及活化 – 成果一覽
+#title: 開放文化基金會 2021 成果報告
+description: 本案試圖導入群體協作及「開放」的概念，讓開放資料成為本⼟⽂化發聲的助⼒。
+cover: /p/admin/2020/2020cover.png # 底圖
+color:  
+cover_image_opacity: 0.9 
+cover_veil_opacity: 0.3
+items:
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 當客家文化遇上開放資料
+        description: 透過引導客家社群使用數位工具，將族群文化與在地知識轉譯為數位資訊，我們進一步促進集體認同的凝聚。讓客家社群內不同世代有了交流，並朝發展出與其他文化群體互動交流的機制之方向前進。
+      - type: image
+        url: /p/admin/2020/p1-1.jpg # 插圖1
+
+  - type: image_header
+    background_color: 
+    cover: /p/admin/2020/p1-header.png # icon1
+    cover_image_alt: 活動重點成果    
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 本案在屏東市辦理了三場（四日）的寫作聚會，在苗栗銅鑼則辦理了兩場。此外，在美濃辦理了客家 x 維基愛古蹟的走讀活動，最後則是在臺中烏日舉辦客家跨區交流會。
+      - type: image
+        url: /p/admin/2020/p2-1.png # 地圖式圖表
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 除了實體的串連與走訪，在疫情影響下，有兩場寫作聚會採線上形式舉辦。線上工具的使用也為本案帶來助益與關注。<br>同時團隊也致力於跨界串連，促成了客家文化在 COSCUP 大會議程上的曝光。
+      - type: image
+        url: /p/hakka/numbers.png
+
+  - type: image_header
+    background_color: 
+    cover: /p/admin/2020/p1-header.png # icon2
+    cover_image_alt: wiki 資源產出成果
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 在團隊及參與者的協力下，每場活動我們的資料筆數都有成長，維持穩定的產出。
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # 圖表1
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 本案使用了許多數位工具，因此，線上的觸及人數也是本案關注的重點項目之一。同時，產出的客家文化相關條目等維基資源也不斷在網路上創造觸及，並持續成長中。
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # 圖表2
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 本案客家中文維基百科條目產出列表：Link
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # 插圖2
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 本案完成之維基導遊條目：1. 銅鑼 2. 公館
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # 插圖3
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 為推廣開放資料，團隊將客家出版品整理成開放資料集，以「五顆星」等級的方式處理之。<a href="https://5stardata.info/zh-TW/" target=_blank>五顆星開放資料</a>，意味著資料被處理得更方便取用、更加開放！確保取用者探索到更多相關的資料、可直接學習資料結構；而發佈者的資料也可以更容易被搜尋到、資料的利用途徑更多元後價值也隨之增加！<br><a href="https://w.wiki/4d$h" target=_blank>客家出版物資料集下載連結</a>
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # 五星 icon
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 團隊也將本案產出的 903 筆資料製作成資料集，透過五顆星開放資料的方式，將客家文化的相關產出分享給所有網路使用者！<br><a href="網址來來" target=_blank>本案總產出資料集下載連結</a>
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # 904
+
+ - title: 客家 x 維基愛古蹟
+   description: 
+   cover: /p/admin/2020/2020cover.png # 底圖2
+   color:  
+   cover_image_opacity: 0.9 
+   cover_veil_opacity: 0.3
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。透過如此，客家相關作品的徵得件數也大有突破。
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # 圖表3
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 本次維基愛古蹟共徵得千餘件作品，而客家地區文化資產相關的件數則占了超過一成。
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # 圖表4
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # photo1
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # photo2
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 
+      - type: image
+        url: /p/admin/2020/p3-2.jpg # photo3
+
+ - title: 維基條目編輯指南
+   description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
+   cover: /p/admin/2020/2020cover.png # 底圖1
+   color:  
+   cover_image_opacity: 0.9 
+   cover_veil_opacity: 0.3
+
+# 影片怎塞 ?
+
+  - type: content
+    columns:
+      - type: article
+        title: 主辦單位
+        swap: false
+        description: 財團法人客家公共傳播基金會
+      - type: article
+        logo_height: 
+        logos:
+          - org_id: 
+
+  - type: content
+    columns:
+      - type: article
+        title: 執行單位
+        swap: false
+        description: 財團法人開放文化基金會<br>台灣維基媒體協會
+      - type: article
+        logo_height: 
+        logos:
+          - org_id: 
+          - org_id: 
+
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        title: 插畫設計：YC
+
+  - type: content
+    columns:
+      - type: article
+        title: 追蹤客傳會，活動不會錯過！
+        items: 
+          - title: <i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><i class="twitter icon"></i><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
+      - type: article  
+        title: 訂閱 EDM，開源資訊不漏接
+        items: 
+          - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a><br><i class="file alternate icon"></i><a href="https://ocf.tw/p/ocflab/" target=_blank>OCFLab</a>
+        swap: false
+
