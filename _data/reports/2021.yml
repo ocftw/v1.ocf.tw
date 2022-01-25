@@ -209,3 +209,15 @@ items:
     columns:
       - type: article
         title: 插畫設計：YC
+        
+  - type: content
+    columns:
+      - type: article
+        title: 臉書有追蹤，活動不錯過！
+        items: 
+          - title: <i class="facebook icon"></i><a href="https://www.facebook.com/hpcftw" target=_blank>客傳會</a><br><i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>OCF</a><br><i class="facebook icon"></i><a href="https://www.facebook.com/WSOTK" target=_blank>台灣知識種子計畫</a>
+      - type: article  
+        title: 訂閱 EDM，資訊不漏接！
+        items: 
+          - title: <i class="file alternate icon"></i><a href="https://www.hpcf.tw/" target=_blank>客傳會官網</a><br><i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a>
+        swap: false
