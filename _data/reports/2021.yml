@@ -67,7 +67,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: 為推廣開放資料，團隊將客家出版品整理成開放資料集，以「五顆星」等級的方式處理之。<a href="https://5stardata.info/zh-TW/" target=_blank>五顆星開放資料</a>，意味著資料被處理得更方便取用、更加開放！確保取用者探索到更多相關的資料、可直接學習資料結構；而發佈者的資料也可以更容易被搜尋到、資料的利用途徑更多元後價值也隨之增加！<br><br><a href="https://w.wiki/4d$h" target=_blank>客家出版物資料集下載連結</a>
+        description: 為推廣開放資料，團隊將客家出版品整理成開放資料集，以五星等級的方式處理之。<a href="https://5stardata.info/zh-TW/" target=_blank>五顆星開放資料</a>，意味著資料被處理得更方便取用、更加開放！確保取用者探索到更多相關的資料、可直接學習資料結構；而發佈者的資料也可以更容易被搜尋到、資料的利用途徑更多元後價值也隨之增加！<br><br><a href="https://w.wiki/4d$h" target=_blank>客家出版物資料集下載連結</a>
       - type: image
         url: /p/hakka/illustration_4.png
   - type: content
@@ -75,7 +75,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: 團隊也將本案產出的 2,097 筆資料製作成資料集，透過五顆星開放資料的方式，將客家文化的相關產出分享給所有網路使用者！<br><a href="網址來來" target=_blank>本案總產出資料集下載連結</a>
+        description: 團隊也將本案產出的 2,097 筆資料製作成資料集，透過五顆星開放資料的方式，將客家文化的相關產出分享給所有網路使用者！<br><br><a href="網址來來" target=_blank>本案總產出資料集下載連結</a>
       - type: image
         url: /p/hakka/illustration_5.png
 
@@ -137,7 +137,7 @@ items:
   - type: header
     title: 主辦、執行單位
     icon: building outline
-    background_color: blank
+    background_color: #f8f8f8
     cover: /p/hakka/banner_2.png
-    description: 本案由客傳會委託 OCF 與 wikiTW 執行。
+    description: 本案由客傳會委託 OCF 與 WikiTW 執行。
 
