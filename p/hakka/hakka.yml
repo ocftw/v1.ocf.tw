@@ -13,12 +13,10 @@ items:
         description: 透過引導客家社群使用數位工具，將族群文化與在地知識轉譯為數位資訊，我們進一步促進集體認同的凝聚。讓客家社群內不同世代有了交流，並朝發展出與其他文化群體互動交流的機制之方向前進。
       - type: image
         url: /p/hakka/illustration_1.png
-
   - type: image_header
     background_color: 
     cover: /p/hakka/icon_1.png
     cover_image_alt: 活動重點成果
-
   - type: content
     columns:
       - type: article
@@ -96,12 +94,12 @@ items:
       - type: image
         url: /p/hakka/illustration_5.png
 
- - title: 客家 x 維基愛古蹟
-   description: 
+ - type: header
+   title: 客家 x 維基愛古蹟
    cover: /p/hakka/banner_2.png
-   color:  
-   cover_image_opacity: 0.9 
-   cover_veil_opacity: 0.3
+   icon: 
+   background_color: 
+   description: 
 
   - type: content
     columns:
@@ -148,21 +146,22 @@ items:
       - type: image
         url: /p/hakka/photo3.jpg
 
- - title: 維基條目編輯指南
-   description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
-   cover: /p/hakka/banner_1.png
-   color:  
-   cover_image_opacity: 0.9 
-   cover_veil_opacity: 0.3
+  - type: header
+    title: 維基條目編輯指南
+    icon: 
+    background_color: 
+    cover: /p/hakka/banner_1.png
+    description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
+
 
 # 影片怎塞 ?
 
- - title: 
-   description: 
-   cover: /p/hakka/banner_2.png
-   color:  
-   cover_image_opacity: 0.9 
-   cover_veil_opacity: 0.3
+  - type: header
+    title: 
+    icon: 
+    background_color: 
+    cover: /p/hakka/banner_2.png
+    description: 
 
   - type: content
     columns:
