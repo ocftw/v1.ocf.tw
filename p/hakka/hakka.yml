@@ -74,7 +74,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: 團隊也將本案產出的 903 筆資料製作成資料集，透過五顆星開放資料的方式，將客家文化的相關產出分享給所有網路使用者！<br><a href="網址來來" target=_blank>本案總產出資料集下載連結</a>
+        description: 團隊也將本案產出的 2,097 筆資料製作成資料集，透過五顆星開放資料的方式，將客家文化的相關產出分享給所有網路使用者！<br><a href="網址來來" target=_blank>本案總產出資料集下載連結</a>
       - type: image
         url: /p/hakka/illustration_5.png
 
@@ -101,7 +101,7 @@ items:
         title: 
         description: 本次維基愛古蹟共徵得千餘件作品，而客家地區文化資產相關的件數則占了超過一成。
       - type: image
-        url: /p/hakka/chart_5.png
+        url: /p/hakka/chart_4.png
 
   - type: content
     columns:
