@@ -44,7 +44,7 @@ items:
         title: 
         description: 本案使用了許多數位工具，因此，線上的觸及人數也是本案關注的重點項目之一。同時，產出的客家文化相關條目等維基資源也不斷在網路上創造觸及，並持續成長中。
       - type: image
-        url: /p/admin/2020/p3-2.jpg # 圖表
+        url: /p/hakka/chart_2.jpg # 待修
   - type: content
     columns:
       - type: article
@@ -81,7 +81,6 @@ items:
  - type: header
    title: 客家 x 維基愛古蹟
    cover: /p/hakka/banner_2.png
-   icon: 
    background_color: 
    description: 
 
@@ -92,7 +91,7 @@ items:
         title: 
         description: 本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。透過如此，客家相關作品的徵得件數也大有突破。
       - type: image
-        url: /p/admin/2020/p3-2.jpg # 圖表3
+        url: /p/hakka/chart_3.jpg #待修
 
   - type: content
     columns:
