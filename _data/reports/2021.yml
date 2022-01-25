@@ -159,7 +159,7 @@ items:
         logo_height: 7rem
         logos:
           - org_id: hpcf
-          
+
   - type: content
     columns:
       - type: article
@@ -171,6 +171,7 @@ items:
         logos:
           - org_id: ocf
           - org_id: WikimediaTW
+          
   - type: content
     single_column: true
     columns:
