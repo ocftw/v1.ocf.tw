@@ -26,4 +26,16 @@ items:
         description: 本案在屏東市辦理了三場（四日）的寫作聚會，在苗栗銅鑼則辦理了兩場。此外，在美濃辦理了客家 x 維基愛古蹟的走讀活動，最後則是在臺中烏日舉辦客家跨區交流會。
       - type: image
         url: /p/hakka/chart_1.png
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 除了實體的串連與走訪，在疫情影響下，有兩場寫作聚會採線上形式舉辦。線上工具的使用也為本案帶來助益與關注。<br>同時團隊也致力於跨界串連，促成了客家文化在 COSCUP 大會議程上的曝光。
+      - type: image
+        url: /p/hakka/numbers.png
+  - type: image_header
+    background_color: 
+    cover: /p/hakka/icon_2.png
+    cover_image_alt: wiki 資源產出成果
 
