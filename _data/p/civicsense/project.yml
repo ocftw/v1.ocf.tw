@@ -53,8 +53,10 @@ links_en:
     url: https://drive.google.com/file/d/1j_RCvHYrP9_xDovmVpuMHtTA3OPSZaDR/view?usp=sharing
     color: green
     icon: world icon 
-
-
+  - title: December Monthly Update
+    url: https://drive.google.com/file/d/1jVGCO8R0GkdHQzt670IW8HCgF-WafKXK/view?usp=sharing
+    color: green
+    icon: world icon 
 
 organizer_ids:
   - ocf
