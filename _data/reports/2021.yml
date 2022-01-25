@@ -83,7 +83,7 @@ items:
     title: 客家 x 維基愛古蹟
     cover: /p/hakka/banner_2.png
     theme: light
-    icon: handshake 
+    icon: handshake outline
     description: <br>本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。
   
   - type: content
