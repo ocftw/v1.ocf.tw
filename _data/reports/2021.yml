@@ -83,7 +83,7 @@ items:
     title: 客家 x 維基愛古蹟
     cover: /p/hakka/banner_2.png
     icon: handshake outline
-    background_color: 
+    background_color: light
     description: <br>本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。
   
   - type: content
@@ -94,3 +94,42 @@ items:
         description: 透過與維基的聯名操作，相較於過去幾年，客家相關作品的徵得件數也大有突破。
       - type: image
         url: /p/hakka/chart_3.jpg #待修
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 本次維基愛古蹟共徵得千餘件作品，而客家地區文化資產相關的件數則占了超過一成。
+      - type: image
+        url: /p/hakka/chart_4.png
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 攝影評論
+      - type: image
+        url: /p/hakka/photo1.jpg
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 攝影評論
+      - type: image
+        url: /p/hakka/photo2.jpg
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 攝影評論
+      - type: image
+        url: /p/hakka/photo3.jpg
+
+  - type: header
+    title: 維基條目編輯指南
+    icon: writing 
+    background_color: light
+    cover: /p/hakka/banner_1.png
+    description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
