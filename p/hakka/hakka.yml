@@ -152,9 +152,7 @@ items:
     background_color: 
     cover: /p/hakka/banner_1.png
     description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
-
-
-# 影片怎塞 ?
+    # 影片怎塞 ?
 
   - type: header
     title: 
