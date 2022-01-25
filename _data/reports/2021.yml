@@ -79,12 +79,12 @@ items:
       - type: image
         url: /p/hakka/illustration_5.png
 
- - type: header
-   title: 客家 x 維基愛古蹟
-   cover: /p/hakka/banner_2.png
-   icon: handshake outline
-   background_color: 
-   description: <br>本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。
+  - type: header
+    title: 客家 x 維基愛古蹟
+    cover: /p/hakka/banner_2.png
+    icon: handshake outline
+    background_color: 
+    description: <br>本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。
   
   - type: content
     columns:
