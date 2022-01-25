@@ -169,7 +169,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: 台灣維基媒體協會製作線上課程：<br>圖說(下)文字練成陣？欸欸不是作文課喔！
+        title: 圖說(下)文字練成陣？欸欸不是作文課喔！
         description: 台灣維基媒體協會製作線上課程：此為課程下集，說明圖說（替代性文字）的編寫與實際操作示範。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E5%9C%96%E8%AA%AA%E7%B7%A8%E8%BC%AF%E8%AA%B2%E7%A8%8B%E4%B8%8B.webm" target=_blank>點此觀看影片</a>
       - type: image
         url: /p/hakka/video_5.png
@@ -209,7 +209,7 @@ items:
     columns:
       - type: article
         title: 插畫設計：YC
-        
+
   - type: content
     columns:
       - type: article
