@@ -45,7 +45,7 @@ items:
         title: 線上觸及人數
         description: 本案使用了許多數位工具，因此，線上的觸及人數也是本案關注的重點項目之一。除了宣傳，產出的客家文化相關條目等維基資源也不斷在網路上創造觸及。從七八月的兩萬左右，九月單月就創下超過 40 萬的觸及。十月到一月也持續維持在單月 12 萬左右的觸及，並持續地累積。
       - type: image
-        url: /p/hakka/chart_2.jpg # 待修
+        url: /p/hakka/chart_2.png
   - type: content
     columns:
       - type: article
@@ -93,7 +93,7 @@ items:
         title: 客家文化資產 x 愛古蹟攝影比賽
         description: 透過與維基的聯名操作，相較於過去幾年，<br>客家相關作品的徵得件數也大有突破。
       - type: image
-        url: /p/hakka/chart_3.jpg #待修
+        url: /p/hakka/chart_3.png
   - type: content
     columns:
       - type: article
@@ -161,7 +161,7 @@ items:
     columns:
       - type: article
         swap: true
-        title: 圖說(上)圖片loading中，看不見，怎麼辦？在線等！圖說來啦！
+        title: 圖說(上)圖片 loading 中，看不見，怎麼辦？在線等！圖說來啦！
         description: 台灣維基媒體協會製作線上課程：此為課程上集，主要簡介說明性文字、替代性文字的內容用途及如何編寫。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E5%9C%96%E8%AA%AA%E7%B7%A8%E8%BC%AF%E8%AA%B2%E7%A8%8B%E4%B8%8A.webm" target=_blank>點此觀看影片</a>
       - type: image
         url: /p/hakka/video_4.png
