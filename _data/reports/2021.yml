@@ -59,7 +59,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: 本案完成之維基導遊條目：1. 銅鑼 2. 公館
+        description: 本案完成之維基導遊條目：<br>1. <a href="https://zh.wikivoyage.org/zh-tw/%E9%8A%85%E9%91%BC" target=_blank>銅鑼</a><br> 2. <a href="https://zh.wikivoyage.org/wiki/%E5%85%AC%E9%A4%A8_(%E8%87%BA%E7%81%A3)" target=_blank>公館</a>
       - type: image
         url: /p/hakka/illustration_3.png
   - type: content
