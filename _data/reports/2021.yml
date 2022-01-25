@@ -123,7 +123,7 @@ items:
       - type: article
         swap: true
         title: 維基愛古蹟客家文化資產獎 Top 3
-        description: 作品名：蕭家古厝<br>拍攝時間：2014 年 12 月 20 日<br>作者及授權：<a href="https://commons.wikimedia.org/w/index.php?title=User:Kofyo&action=edit&redlink=1" target=_blank>Kofyo</a> , CC-BY-SA 4.0<br>說明：蕭家是早期佳冬大戶，當時人丁眾多，才人輩出，其宅第所在被喻為上乘龍穴，建築至今還留存有古厝、步月樓、洋樓、碾米廠等，面積四千多平方公尺，共有五十多間房間，可容納近百人居住，是全台灣唯一的客家五進大屋古蹟。<br><a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2021_in_Taiwan/Winners#%E5%85%A5%E9%81%B8_2" target=_blank>其他入選作品</a>
+        description: 作品名：蕭家古厝<br>拍攝時間：2014 年 12 月 20 日<br>作者及授權：<a href="https://commons.wikimedia.org/w/index.php?title=User:Kofyo&action=edit&redlink=1" target=_blank>Kofyo</a> , CC-BY-SA 4.0<br>說明：蕭家是早期佳冬大戶，當時人丁眾多，才人輩出，其宅第所在被喻為上乘龍穴，建築至今還留存有古厝、步月樓、洋樓、碾米廠等，面積四千多平方公尺，共有五十多間房間，可容納近百人居住，是全台灣唯一的客家五進大屋古蹟。<br><br><a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2021_in_Taiwan/Winners#%E5%85%A5%E9%81%B8_2" target=_blank>其他入選作品</a>
       - type: image
         url: /p/hakka/photo3.jpg
 
@@ -146,7 +146,7 @@ items:
       - type: article
         swap: true
         title: 著作權基礎概念及開放授權的活化應用-法規篇
-        description: 說明著作權的保護範圍及期間、類型及態樣，還有文史工作應知悉的重要概念。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E8%91%97%E4%BD%9C%E6%AC%8A%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5%E5%8F%8A%E9%96%8B%E6%94%BE%E6%8E%88%E6%AC%8A%E7%9A%84%E6%B4%BB%E5%8C%96%E6%87%89%E7%94%A8-%E6%B3%95%E8%A6%8F%E7%AF%87.webm#metadata" target=_blank>點此觀看影片</a>
+        description: 說明著作權的保護範圍及期間、類型及態樣，還有文史工作應知悉的重要概念。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E8%91%97%E4%BD%9C%E6%AC%8A%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5%E5%8F%8A%E9%96%8B%E6%94%BE%E6%8E%88%E6%AC%8A%E7%9A%84%E6%B4%BB%E5%8C%96%E6%87%89%E7%94%A8-%E6%B3%95%E8%A6%8F%E7%AF%87.webm" target=_blank>點此觀看影片</a>
       - type: image
         url: /p/hakka/video_2.png
   - type: content
@@ -154,7 +154,7 @@ items:
       - type: article
         swap: false
         title: 著作權基礎概念及開放授權的活化應用-應用篇
-        description: 說明著作權開放、CC 授權與開放資料及其相關應用。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E8%91%97%E4%BD%9C%E6%AC%8A%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5%E5%8F%8A%E9%96%8B%E6%94%BE%E6%8E%88%E6%AC%8A%E7%9A%84%E6%B4%BB%E5%8C%96%E6%87%89%E7%94%A8-%E6%87%89%E7%94%A8%E7%AF%87.webm#metadata" target=_blank>點此觀看影片</a>
+        description: 說明著作權開放、CC 授權與開放資料及其相關應用。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E8%91%97%E4%BD%9C%E6%AC%8A%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5%E5%8F%8A%E9%96%8B%E6%94%BE%E6%8E%88%E6%AC%8A%E7%9A%84%E6%B4%BB%E5%8C%96%E6%87%89%E7%94%A8-%E6%87%89%E7%94%A8%E7%AF%87.webm" target=_blank>點此觀看影片</a>
       - type: image
         url: /p/hakka/video_3.png
   - type: content
@@ -179,7 +179,7 @@ items:
     theme: light
     icon: genderless
     cover: /p/hakka/banner_2.png
-    description: 本案由客傳會委託 OCF 與 WikiTW 執行。
+    description: 本案由 客家公共傳播基金會 委託 開放文化基金會 與 Wikimedia Taiwan 執行。
 
   - type: content
     columns:
