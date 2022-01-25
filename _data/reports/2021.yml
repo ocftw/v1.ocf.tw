@@ -4,7 +4,10 @@ cover: /p/hakka/banner_1.png
 color:  
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.3
+<<<<<<< HEAD
 
+=======
+>>>>>>> e3c4406054d68afef83c51ee128c34a5abc587e1
 items:
   - type: content
     columns:
@@ -14,6 +17,7 @@ items:
         description: 透過引導客家社群使用數位工具，將族群文化與在地知識轉譯為數位資訊，我們進一步促進集體認同的凝聚。讓客家社群內不同世代有了交流，並朝發展出與其他文化群體互動交流的機制之方向前進。
       - type: image
         url: /p/hakka/illustration_1.png
+<<<<<<< HEAD
   - type: image_header
     background_color: 
     cover: /p/hakka/icon_1.png
@@ -26,3 +30,6 @@ items:
         description: 本案在屏東市辦理了三場（四日）的寫作聚會，在苗栗銅鑼則辦理了兩場。此外，在美濃辦理了客家 x 維基愛古蹟的走讀活動，最後則是在臺中烏日舉辦客家跨區交流會。
       - type: image
         url: /p/hakka/chart_1.png
+=======
+
+>>>>>>> e3c4406054d68afef83c51ee128c34a5abc587e1
