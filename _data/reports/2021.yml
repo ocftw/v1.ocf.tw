@@ -202,7 +202,7 @@ items:
         logo_height: 
         logos:
           - org_id: ocf
-          - org_id: WikimediaTW
+          - org_id: wikimediatw
           
   - type: content
     single_column: true
