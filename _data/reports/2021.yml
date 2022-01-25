@@ -83,7 +83,7 @@ items:
     title: 客家 x 維基愛古蹟
     cover: /p/hakka/banner_2.png
     theme: light
-    cover_veil_opacity: 0
+    icon: handshake outline
     description: <br>本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。
   
   - type: content
@@ -107,7 +107,7 @@ items:
       - type: article
         swap: true
         title: 維基愛古蹟客家文化資產獎 Top 1 
-        description: 作品名：萬金天主堂<br>拍攝時間：2021 年 9 月 29 日<br>作者：<a href="https://commons.wikimedia.org/wiki/User:Tslai" target=_blank>Tslai</a> CC-BY-SA 4.0<br>說明：萬金聖母聖殿位於屏東縣萬巒鄉，俗稱萬金天主堂，啟用於1870年，是臺灣現存最早的教堂建築。
+        description: 作品名：萬金天主堂<br>拍攝時間：2021 年 9 月 29 日<br>作者及授權：<a href="https://commons.wikimedia.org/wiki/User:Tslai" target=_blank>Tslai</a> , CC-BY-SA 4.0<br>說明：萬金聖母聖殿位於屏東縣萬巒鄉，俗稱萬金天主堂，啟用於1870年，是臺灣現存最早的教堂建築。
       - type: image
         url: /p/hakka/photo1.jpg
   - type: content
@@ -115,7 +115,7 @@ items:
       - type: article
         swap: false
         title: 維基愛古蹟客家文化資產獎 Top 2
-        description: 作品名：屏東縣佳冬鄉蕭家古厝與蕭家洋樓<br>拍攝時間：2021 年 9 月 29 日<br>CC-BY-SA 4.0<br>作者：<a href="https://commons.wikimedia.org/w/index.php?title=User:%E7%99%BD%E8%A5%AA&action=edit&redlink=1" target=_blank>白襪</a> CC-BY-SA 4.0<br>說明：佳冬蕭宅，是位於臺灣屏東縣佳冬鄉佳冬村的蕭姓五進大院，列為屏東縣古蹟。六堆客家人蕭達梅經營釀酒、染布、米糧等業而致富，從中國大陸延聘師傅在佳冬建造大院。建築格局採雙「回」字型客家圍櫳屋，總計五十一間房，佔地四千多平方公尺。
+        description: 作品名：屏東縣佳冬鄉蕭家古厝與蕭家洋樓<br>拍攝時間：2021 年 9 月 29 日<br>作者及授權：<a href="https://commons.wikimedia.org/w/index.php?title=User:%E7%99%BD%E8%A5%AA&action=edit&redlink=1" target=_blank>白襪</a> , CC-BY-SA 4.0<br>說明：佳冬蕭宅，是位於臺灣屏東縣佳冬鄉佳冬村的蕭姓五進大院，列為屏東縣古蹟。六堆客家人蕭達梅經營釀酒、染布、米糧等業而致富，從中國大陸延聘師傅在佳冬建造大院。建築格局採雙「回」字型客家圍櫳屋，總計五十一間房，佔地四千多平方公尺。
       - type: image
         url: /p/hakka/photo2.jpg
   - type: content
@@ -123,13 +123,14 @@ items:
       - type: article
         swap: true
         title: 維基愛古蹟客家文化資產獎 Top 3
-        description: 作品名：蕭家古厝<br>拍攝時間：2014 年 12 月 20 日<br>CC-BY-SA 4.0<br>作者：<a href="https://commons.wikimedia.org/w/index.php?title=User:Kofyo&action=edit&redlink=1" target=_blank>Kofyo</a> CC-BY-SA 4.0<br>說明：蕭家是早期佳冬大戶，當時人丁眾多，才人輩出，其宅第所在被喻為上乘龍穴，建築至今還留存有古厝、步月樓、洋樓、碾米廠等，面積四千多平方公尺，共有五十多間房間，可容納近百人居住，是全台灣唯一的客家五進大屋古蹟。<br><a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2021_in_Taiwan/Winners#%E5%85%A5%E9%81%B8_2" target=_blank>其他入選作品</a>
+        description: 作品名：蕭家古厝<br>拍攝時間：2014 年 12 月 20 日<br>作者及授權：<a href="https://commons.wikimedia.org/w/index.php?title=User:Kofyo&action=edit&redlink=1" target=_blank>Kofyo</a> , CC-BY-SA 4.0<br>說明：蕭家是早期佳冬大戶，當時人丁眾多，才人輩出，其宅第所在被喻為上乘龍穴，建築至今還留存有古厝、步月樓、洋樓、碾米廠等，面積四千多平方公尺，共有五十多間房間，可容納近百人居住，是全台灣唯一的客家五進大屋古蹟。<br><a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2021_in_Taiwan/Winners#%E5%85%A5%E9%81%B8_2" target=_blank>其他入選作品</a>
       - type: image
         url: /p/hakka/photo3.jpg
 
   - type: header
     title: 維基條目編輯指南
     theme: light
+    icon: hand rock
     cover: /p/hakka/banner_1.png
     description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
 
@@ -144,6 +145,7 @@ items:
   - type: header
     title: 主辦、執行單位
     theme: light
+    icon: building outline
     cover: /p/hakka/banner_2.png
     description: 本案由客傳會委託 OCF 與 WikiTW 執行。
   - type: content
@@ -165,7 +167,7 @@ items:
       - type: article
         logo_height: 
         logos:
-          - org_id: OCF
+          - org_id: ocf
           - org_id: WikimediaTW
   - type: content
     single_column: true
