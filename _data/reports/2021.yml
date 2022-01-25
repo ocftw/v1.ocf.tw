@@ -159,7 +159,7 @@ items:
         swap: false
         description: 財團法人開放文化基金會<br>台灣維基媒體協會
       - type: article
-        logo_height: 7rem
+        logo_height: 
         logos:
           - org_id: ocf
           - org_id: WikimediaTW
