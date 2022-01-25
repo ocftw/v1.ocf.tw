@@ -148,6 +148,7 @@ items:
     icon: building outline
     cover: /p/hakka/banner_2.png
     description: 本案由客傳會委託 OCF 與 WikiTW 執行。
+
   - type: content
     columns:
       - type: article
@@ -155,9 +156,10 @@ items:
         swap: false
         description: 財團法人客家公共傳播基金會
       - type: article
-        logo_height: 
+        logo_height: 7rem
         logos:
           - org_id: hpcf
+          
   - type: content
     columns:
       - type: article
