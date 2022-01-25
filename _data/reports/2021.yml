@@ -151,7 +151,7 @@ items:
   - type: content
     columns:
       - type: article
-        title: 主辦單位
+        title: 委託單位
         swap: false
         description: 財團法人客家公共傳播基金會
       - type: article
