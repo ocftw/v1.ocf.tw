@@ -37,16 +37,6 @@ items:
     background_color: 
     cover: /p/hakka/icon_2.png
     cover_image_alt: wiki 資源產出成果
-
-  - type: content
-    columns:
-      - type: article
-        swap: true
-        title: 
-        description: 在團隊及參與者的協力下，每場活動我們的資料筆數都有成長，維持穩定的產出。
-      - type: image
-        url: /p/admin/2020/p3-2.jpg # 圖表1
-
   - type: content
     columns:
       - type: article
