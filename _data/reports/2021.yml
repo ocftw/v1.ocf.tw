@@ -46,5 +46,21 @@ items:
         description: 本案使用了許多數位工具，因此，線上的觸及人數也是本案關注的重點項目之一。同時，產出的客家文化相關條目等維基資源也不斷在網路上創造觸及，並持續成長中。
       - type: image
         url: /p/admin/2020/p3-2.jpg # 圖表2
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 本案客家中文維基百科條目產出列表：Link
+      - type: image
+        url: /p/hakka/illustration_2.png
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 本案完成之維基導遊條目：1. 銅鑼 2. 公館
+      - type: image
+        url: /p/hakka/illustration_3.png
 
 
