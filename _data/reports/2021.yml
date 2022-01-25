@@ -1,4 +1,4 @@
-title: 開放文化基金會 2021 成果報告
+title: 2021 年客家開放資料推廣及活化 – 成果一覽
 description: 本案試圖導入群體協作及「開放」的概念，讓開放資料成為本⼟⽂化發聲的助⼒。
 cover: /p/admin/2020/2020cover.png # 底圖
 color:  
@@ -96,12 +96,13 @@ items:
       - type: image
         url: /p/admin/2020/p3-2.jpg # 904
 
- - title: 客家 x 維基愛古蹟
+ - type: header
+   title: 客家 x 維基愛古蹟
    description: 
    cover: /p/admin/2020/2020cover.png # 底圖2
-   color:  
-   cover_image_opacity: 0.9 
-   cover_veil_opacity: 0.3
+   #color:  
+   #cover_image_opacity: 0.9 
+   #cover_veil_opacity: 0.3
 
   - type: content
     columns:
@@ -148,12 +149,13 @@ items:
       - type: image
         url: /p/admin/2020/p3-2.jpg # photo3
 
- - title: 維基條目編輯指南
+ - type: header
+   title: 維基條目編輯指南
    description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
    cover: /p/admin/2020/2020cover.png # 底圖1
-   color:  
-   cover_image_opacity: 0.9 
-   cover_veil_opacity: 0.3
+   #color:  
+   #cover_image_opacity: 0.9 
+   #cover_veil_opacity: 0.3
 
 # 影片怎塞 ?
 
