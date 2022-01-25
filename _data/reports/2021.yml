@@ -175,7 +175,7 @@ items:
         url: /p/hakka/video_5.png
 
   - type: header
-    title: 主辦、執行單位
+    title: 主辦、協辦單位
     theme: light
     icon: genderless
     cover: /p/hakka/banner_2.png
@@ -184,7 +184,7 @@ items:
   - type: content
     columns:
       - type: article
-        title: 委託單位
+        title: 主辦單位
         swap: false
         description: 財團法人客家公共傳播基金會
       - type: article
@@ -195,7 +195,7 @@ items:
   - type: content
     columns:
       - type: article
-        title: 執行單位
+        title: 協辦單位
         swap: false
         description: 財團法人開放文化基金會<br>台灣維基媒體協會
       - type: article
