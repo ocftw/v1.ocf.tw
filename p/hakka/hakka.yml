@@ -81,15 +81,15 @@ items:
  - type: header
    title: 客家 x 維基愛古蹟
    cover: /p/hakka/banner_2.png
+   icon: handshake outline
    background_color: 
-   description: 
-
+   description: <br>本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。
   - type: content
     columns:
       - type: article
         swap: true
         title: 
-        description: 本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。透過如此，客家相關作品的徵得件數也大有突破。
+        description: 透過與維基的聯名操作，相較於過去幾年，客家相關作品的徵得件數也大有突破。
       - type: image
         url: /p/hakka/chart_3.jpg #待修
 
