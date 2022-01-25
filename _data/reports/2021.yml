@@ -83,7 +83,7 @@ items:
     title: 客家 x 維基愛古蹟
     cover: /p/hakka/banner_2.png
     theme: light
-    cover_veil_opacity: 0
+    icon: handshake 
     description: <br>本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。
   
   - type: content
@@ -130,6 +130,7 @@ items:
   - type: header
     title: 維基條目編輯指南
     theme: light
+    icon: hand rock
     cover: /p/hakka/banner_1.png
     description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
 
@@ -144,6 +145,7 @@ items:
   - type: header
     title: 主辦、執行單位
     theme: light
+    icon: building outline
     cover: /p/hakka/banner_2.png
     description: 本案由客傳會委託 OCF 與 WikiTW 執行。
   - type: content
