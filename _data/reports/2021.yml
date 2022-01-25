@@ -167,7 +167,7 @@ items:
       - type: article
         logo_height: 
         logos:
-          - org_id: OCF
+          - org_id: ocf
           - org_id: WikimediaTW
   - type: content
     single_column: true
