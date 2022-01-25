@@ -83,7 +83,7 @@ items:
     title: 客家 x 維基愛古蹟
     cover: /p/hakka/banner_2.png
     icon: handshake outline
-    background_color: white
+    background_color: 
     description: <br>本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。
   
   - type: content
@@ -132,6 +132,16 @@ items:
     background_color: 
     cover: /p/hakka/banner_1.png
     description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
+ - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 攝影評論<br><a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2021_in_Taiwan/Winners#%E5%85%A5%E9%81%B8_2" target=_blank>其他入選作品</a>
+      - type: image
+        url: [url=https://commons.wikimedia.org/wiki/File:%E5%A6%82%E4%BD%95%E6%92%B0%E5%AF%AB%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E7%9B%AE%E9%8C%84.webm][img]https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/%E5%A6%82%E4%BD%95%E6%92%B0%E5%AF%AB%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E7%9B%AE%E9%8C%84.webm/512px--%E5%A6%82%E4%BD%95%E6%92%B0%E5%AF%AB%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E7%9B%AE%E9%8C%84.webm.jpg[/img][/url]
+[url=https://commons.wikimedia.org/wiki/File:%E5%A6%82%E4%BD%95%E6%92%B0%E5%AF%AB%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E7%9B%AE%E9%8C%84.webm]如何撰寫文化資產維基百科目錄[/url]
+Wikimedia Taiwan, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
   - type: header
     title: 主辦、執行單位
