@@ -135,7 +135,7 @@ items:
 
   - type: header
     title: 主辦、執行單位
-    background_color: #f8f8f8
+    background_color: gray
     cover: /p/hakka/banner_2.png
     description: 本案由客傳會委託 OCF 與 WikiTW 執行。
 
