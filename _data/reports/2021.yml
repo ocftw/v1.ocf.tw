@@ -146,4 +146,29 @@ items:
     theme: light
     cover: /p/hakka/banner_2.png
     description: 本案由客傳會委託 OCF 與 WikiTW 執行。
-
+  - type: content
+    columns:
+      - type: article
+        title: 主辦單位
+        swap: false
+        description: 財團法人客家公共傳播基金會
+      - type: article
+        logo_height: 
+        logos:
+          - org_id: hpcf
+  - type: content
+    columns:
+      - type: article
+        title: 執行單位
+        swap: false
+        description: 財團法人開放文化基金會<br>台灣維基媒體協會
+      - type: article
+        logo_height: 
+        logos:
+          - org_id: OCF
+          - org_id: WikimediaTW
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        title: 插畫設計：YC
