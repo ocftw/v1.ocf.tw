@@ -138,41 +138,41 @@ items:
       - type: article
         swap: false
         title: 如何撰寫文化資產維基百科目錄
-        description: 作品名：蕭家古厝<br>拍攝時間：2014 年 12 月 20 日<br>作者及授權：<a href="https://commons.wikimedia.org/w/index.php?title=User:Kofyo&action=edit&redlink=1" target=_blank>Kofyo</a> , CC-BY-SA 4.0<br>說明：蕭家是早期佳冬大戶，當時人丁眾多，才人輩出，其宅第所在被喻為上乘龍穴，建築至今還留存有古厝、步月樓、洋樓、碾米廠等，面積四千多平方公尺，共有五十多間房間，可容納近百人居住，是全台灣唯一的客家五進大屋古蹟。<br><a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2021_in_Taiwan/Winners#%E5%85%A5%E9%81%B8_2" target=_blank>其他入選作品</a>
+        description: 從頭到尾帶過一遍維基百科的新增與編寫。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E5%A6%82%E4%BD%95%E6%92%B0%E5%AF%AB%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E7%9B%AE%E9%8C%84.webm" target=_blank>點此觀看影片</a>
       - type: image
-        url: /p/hakka/photo3.jpg
+        url: /p/hakka/video_1.png
   - type: content
     columns:
       - type: article
         swap: true
         title: 著作權基礎概念及開放授權的活化應用-法規篇
-        description: 作品名：蕭家古厝<br>拍攝時間：2014 年 12 月 20 日<br>作者及授權：<a href="https://commons.wikimedia.org/w/index.php?title=User:Kofyo&action=edit&redlink=1" target=_blank>Kofyo</a> , CC-BY-SA 4.0<br>說明：蕭家是早期佳冬大戶，當時人丁眾多，才人輩出，其宅第所在被喻為上乘龍穴，建築至今還留存有古厝、步月樓、洋樓、碾米廠等，面積四千多平方公尺，共有五十多間房間，可容納近百人居住，是全台灣唯一的客家五進大屋古蹟。<br><a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2021_in_Taiwan/Winners#%E5%85%A5%E9%81%B8_2" target=_blank>其他入選作品</a>
+        description: 說明著作權的保護範圍及期間、類型及態樣，還有文史工作應知悉的重要概念。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E8%91%97%E4%BD%9C%E6%AC%8A%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5%E5%8F%8A%E9%96%8B%E6%94%BE%E6%8E%88%E6%AC%8A%E7%9A%84%E6%B4%BB%E5%8C%96%E6%87%89%E7%94%A8-%E6%B3%95%E8%A6%8F%E7%AF%87.webm#metadata" target=_blank>點此觀看影片</a>
       - type: image
-        url: /p/hakka/photo3.jpg
+        url: /p/hakka/video_2.png
   - type: content
     columns:
       - type: article
         swap: false
         title: 著作權基礎概念及開放授權的活化應用-應用篇
-        description: 作品名：蕭家古厝<br>拍攝時間：2014 年 12 月 20 日<br>作者及授權：<a href="https://commons.wikimedia.org/w/index.php?title=User:Kofyo&action=edit&redlink=1" target=_blank>Kofyo</a> , CC-BY-SA 4.0<br>說明：蕭家是早期佳冬大戶，當時人丁眾多，才人輩出，其宅第所在被喻為上乘龍穴，建築至今還留存有古厝、步月樓、洋樓、碾米廠等，面積四千多平方公尺，共有五十多間房間，可容納近百人居住，是全台灣唯一的客家五進大屋古蹟。<br><a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2021_in_Taiwan/Winners#%E5%85%A5%E9%81%B8_2" target=_blank>其他入選作品</a>
+        description: 說明著作權開放、CC 授權與開放資料及其相關應用。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E8%91%97%E4%BD%9C%E6%AC%8A%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5%E5%8F%8A%E9%96%8B%E6%94%BE%E6%8E%88%E6%AC%8A%E7%9A%84%E6%B4%BB%E5%8C%96%E6%87%89%E7%94%A8-%E6%87%89%E7%94%A8%E7%AF%87.webm#metadata" target=_blank>點此觀看影片</a>
       - type: image
-        url: /p/hakka/photo3.jpg
+        url: /p/hakka/video_3.png
   - type: content
     columns:
       - type: article
         swap: true
-        title: 台灣維基媒體協會製作線上課程：<br>圖說(上)圖片loading中，看不見，怎麼辦？在線等！圖說來啦！
-        description: This file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original state, some details such as the timestamp may not fully reflect those of the original file. The timestamp is only as accurate as the clock in the camera, and it may be completely wrong.<br><br><a href="https://commons.wikimedia.org/wiki/File:%E5%9C%96%E8%AA%AA%E7%B7%A8%E8%BC%AF%E8%AA%B2%E7%A8%8B%E4%B8%8A.webm" target=_blank>點此觀看影片</a>
+        title: 圖說(上)圖片loading中，看不見，怎麼辦？在線等！圖說來啦！
+        description: 台灣維基媒體協會製作線上課程：此為課程上集，主要簡介說明性文字、替代性文字的內容用途及如何編寫。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E5%9C%96%E8%AA%AA%E7%B7%A8%E8%BC%AF%E8%AA%B2%E7%A8%8B%E4%B8%8A.webm" target=_blank>點此觀看影片</a>
       - type: image
-        url: /p/hakka/photo3.jpg
+        url: /p/hakka/video_4.png
   - type: content
     columns:
       - type: article
         swap: false
-        title: 台灣維基媒體協會製作線上課程：<br>圖說(下)文字練成陣
-        description: 作品名：蕭家古厝<br>拍攝時間：2014 年 12 月 20 日<br>作者及授權：<a href="https://commons.wikimedia.org/w/index.php?title=User:Kofyo&action=edit&redlink=1" target=_blank>Kofyo</a> , CC-BY-SA 4.0<br>說明：蕭家是早期佳冬大戶，當時人丁眾多，才人輩出，其宅第所在被喻為上乘龍穴，建築至今還留存有古厝、步月樓、洋樓、碾米廠等，面積四千多平方公尺，共有五十多間房間，可容納近百人居住，是全台灣唯一的客家五進大屋古蹟。<br><a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2021_in_Taiwan/Winners#%E5%85%A5%E9%81%B8_2" target=_blank>其他入選作品</a>
+        title: 台灣維基媒體協會製作線上課程：<br>圖說(下)文字練成陣？欸欸不是作文課喔！
+        description: 台灣維基媒體協會製作線上課程：此為課程下集，說明圖說（替代性文字）的編寫與實際操作示範。<br><br><a href="https://commons.wikimedia.org/wiki/File:%E5%9C%96%E8%AA%AA%E7%B7%A8%E8%BC%AF%E8%AA%B2%E7%A8%8B%E4%B8%8B.webm" target=_blank>點此觀看影片</a>
       - type: image
-        url: /p/hakka/photo3.jpg
+        url: /p/hakka/video_5.png
 
   - type: header
     title: 主辦、執行單位
