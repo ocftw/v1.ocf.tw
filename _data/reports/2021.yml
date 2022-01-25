@@ -1,6 +1,6 @@
 title: 2021 年客家開放資料推廣及活化 – 成果一覽
 description: 本案試圖導入群體協作及「開放」的概念，讓開放資料成為本⼟⽂化發聲的助⼒。
-cover: /p/admin/2020/2020cover.png # 底圖
+cover: /p/hakka/banner_1.png
 color:  
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.3
@@ -12,12 +12,12 @@ items:
         title: 當客家文化遇上開放資料
         description: 透過引導客家社群使用數位工具，將族群文化與在地知識轉譯為數位資訊，我們進一步促進集體認同的凝聚。讓客家社群內不同世代有了交流，並朝發展出與其他文化群體互動交流的機制之方向前進。
       - type: image
-        url: /p/admin/2020/p1-1.jpg # 插圖1
+        url: /p/hakka/illustration_1.png
 
   - type: image_header
     background_color: 
-    cover: /p/admin/2020/p1-header.png # icon1
-    cover_image_alt: 活動重點成果    
+    cover: /p/hakka/icon_1.png
+    cover_image_alt: 活動重點成果
 
   - type: content
     columns:
@@ -26,7 +26,7 @@ items:
         title: 
         description: 本案在屏東市辦理了三場（四日）的寫作聚會，在苗栗銅鑼則辦理了兩場。此外，在美濃辦理了客家 x 維基愛古蹟的走讀活動，最後則是在臺中烏日舉辦客家跨區交流會。
       - type: image
-        url: /p/admin/2020/p2-1.png # 地圖式圖表
+        url: /p/hakka/chart_1.png
 
   - type: content
     columns:
@@ -39,7 +39,7 @@ items:
 
   - type: image_header
     background_color: 
-    cover: /p/admin/2020/p1-header.png # icon2
+    cover: /p/hakka/icon_2.png
     cover_image_alt: wiki 資源產出成果
 
   - type: content
@@ -67,7 +67,7 @@ items:
         title: 
         description: 本案客家中文維基百科條目產出列表：Link
       - type: image
-        url: /p/admin/2020/p3-2.jpg # 插圖2
+        url: /p/hakka/illustration_2.png
 
   - type: content
     columns:
@@ -76,7 +76,7 @@ items:
         title: 
         description: 本案完成之維基導遊條目：1. 銅鑼 2. 公館
       - type: image
-        url: /p/admin/2020/p3-2.jpg # 插圖3
+        url: /p/hakka/illustration_3.png
 
   - type: content
     columns:
@@ -85,7 +85,7 @@ items:
         title: 
         description: 為推廣開放資料，團隊將客家出版品整理成開放資料集，以「五顆星」等級的方式處理之。<a href="https://5stardata.info/zh-TW/" target=_blank>五顆星開放資料</a>，意味著資料被處理得更方便取用、更加開放！確保取用者探索到更多相關的資料、可直接學習資料結構；而發佈者的資料也可以更容易被搜尋到、資料的利用途徑更多元後價值也隨之增加！<br><a href="https://w.wiki/4d$h" target=_blank>客家出版物資料集下載連結</a>
       - type: image
-        url: /p/admin/2020/p3-2.jpg # 五星 icon
+        url: /p/hakka/illustration_4.png
 
   - type: content
     columns:
@@ -94,15 +94,14 @@ items:
         title: 
         description: 團隊也將本案產出的 903 筆資料製作成資料集，透過五顆星開放資料的方式，將客家文化的相關產出分享給所有網路使用者！<br><a href="網址來來" target=_blank>本案總產出資料集下載連結</a>
       - type: image
-        url: /p/admin/2020/p3-2.jpg # 904
+        url: /p/hakka/illustration_5.png
 
- - type: header
-   title: 客家 x 維基愛古蹟
+ - title: 客家 x 維基愛古蹟
    description: 
-   cover: /p/admin/2020/2020cover.png # 底圖2
-   #color:  
-   #cover_image_opacity: 0.9 
-   #cover_veil_opacity: 0.3
+   cover: /p/hakka/banner_2.png
+   color:  
+   cover_image_opacity: 0.9 
+   cover_veil_opacity: 0.3
 
   - type: content
     columns:
@@ -120,7 +119,7 @@ items:
         title: 
         description: 本次維基愛古蹟共徵得千餘件作品，而客家地區文化資產相關的件數則占了超過一成。
       - type: image
-        url: /p/admin/2020/p3-2.jpg # 圖表4
+        url: /p/hakka/chart_5.png
 
   - type: content
     columns:
@@ -129,7 +128,7 @@ items:
         title: 
         description: 
       - type: image
-        url: /p/admin/2020/p3-2.jpg # photo1
+        url: /p/hakka/photo1.jpg
 
   - type: content
     columns:
@@ -138,7 +137,7 @@ items:
         title: 
         description: 
       - type: image
-        url: /p/admin/2020/p3-2.jpg # photo2
+        url: /p/hakka/photo2.jpg
 
   - type: content
     columns:
@@ -147,17 +146,23 @@ items:
         title: 
         description: 
       - type: image
-        url: /p/admin/2020/p3-2.jpg # photo3
+        url: /p/hakka/photo3.jpg
 
- - type: header
-   title: 維基條目編輯指南
+ - title: 維基條目編輯指南
    description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
-   cover: /p/admin/2020/2020cover.png # 底圖1
-   #color:  
-   #cover_image_opacity: 0.9 
-   #cover_veil_opacity: 0.3
+   cover: /p/hakka/banner_1.png
+   color:  
+   cover_image_opacity: 0.9 
+   cover_veil_opacity: 0.3
 
 # 影片怎塞 ?
+
+ - title: 
+   description: 
+   cover: /p/hakka/banner_2.png
+   color:  
+   cover_image_opacity: 0.9 
+   cover_veil_opacity: 0.3
 
   - type: content
     columns:
@@ -168,7 +173,7 @@ items:
       - type: article
         logo_height: 
         logos:
-          - org_id: 
+          - org_id: hpcf
 
   - type: content
     columns:
@@ -179,8 +184,8 @@ items:
       - type: article
         logo_height: 
         logos:
-          - org_id: 
-          - org_id: 
+          - org_id: OCF
+          - org_id: WikimediaTW
 
   - type: content
     single_column: true
@@ -191,12 +196,11 @@ items:
   - type: content
     columns:
       - type: article
-        title: 追蹤客傳會，活動不會錯過！
+        title: 臉書有追蹤，活動不錯過！
         items: 
-          - title: <i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><i class="twitter icon"></i><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
+          - title: <i class="facebook icon"></i><a href="https://www.facebook.com/hpcftw" target=_blank>客傳會</a><br><i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>OCF</a><br><i class="facebook icon"></i><a href="https://www.facebook.com/WSOTK" target=_blank>台灣知識種子計畫</a>
       - type: article  
-        title: 訂閱 EDM，開源資訊不漏接
+        title: 訂閱 EDM，資訊不漏接！
         items: 
-          - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a><br><i class="file alternate icon"></i><a href="https://ocf.tw/p/ocflab/" target=_blank>OCFLab</a>
+          - title: <i class="file alternate icon"></i><a href="https://www.hpcf.tw/" target=_blank>客傳會官網</a><br><i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a>
         swap: false
-
