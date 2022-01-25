@@ -4,5 +4,13 @@ cover: /p/hakka/banner_1.png
 color:  
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.3
-
+items:
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 當客家文化遇上開放資料
+        description: 透過引導客家社群使用數位工具，將族群文化與在地知識轉譯為數位資訊，我們進一步促進集體認同的凝聚。讓客家社群內不同世代有了交流，並朝發展出與其他文化群體互動交流的機制之方向前進。
+      - type: image
+        url: /p/hakka/illustration_1.png
 
