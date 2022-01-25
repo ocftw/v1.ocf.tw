@@ -82,7 +82,7 @@ items:
    title: 客家 x 維基愛古蹟
    cover: /p/hakka/banner_2.png
    icon: handshake outline
-   background_color: 
+   background_color: white
    description: <br>本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。
   
   - type: content
@@ -122,22 +122,22 @@ items:
       - type: article
         swap: true
         title: 
-        description: 攝影評論
+        description: 攝影評論<br><a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2021_in_Taiwan/Winners#%E5%85%A5%E9%81%B8_2" target=_blank>其他入選作品</a>
       - type: image
         url: /p/hakka/photo3.jpg
 
   - type: header
     title: 維基條目編輯指南
-    icon:  
-    background_color: light
+    icon: hand rock
+    background_color: white
     cover: /p/hakka/banner_1.png
     description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
     # 影片怎塞 ?
 
   - type: header
     title: 主辦、執行單位
-    icon: hand rock
-    background_color: light
+    icon: building outline
+    background_color: white
     cover: /p/hakka/banner_2.png
     description: 本案由客傳會委託 OCF 與 wikiTW 執行。
   - type: content
