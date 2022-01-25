@@ -78,12 +78,14 @@ items:
         description: 團隊也將本案產出的 2,097 筆資料製作成資料集，透過五顆星開放資料的方式，將客家文化的相關產出分享給所有網路使用者！<br><a href="網址來來" target=_blank>本案總產出資料集下載連結</a>
       - type: image
         url: /p/hakka/illustration_5.png
+
  - type: header
    title: 客家 x 維基愛古蹟
    cover: /p/hakka/banner_2.png
    icon: handshake outline
    background_color: 
    description: <br>本案藉維基行之有年的活動，推出客家 x 維基愛古蹟為客家文化資產作宣傳，期望透過攝影比賽，提升客家地區文化資產及相關文史的能見度。
+  
   - type: content
     columns:
       - type: article
