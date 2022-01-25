@@ -166,7 +166,7 @@ items:
       - type: article
         logo_height: 
         logos:
-          - org_id: 
+          - org_id: hpcf
 
   - type: content
     columns:
@@ -177,8 +177,8 @@ items:
       - type: article
         logo_height: 
         logos:
-          - org_id: 
-          - org_id: 
+          - org_id: OCF
+          - org_id: WikimediaTW
 
   - type: content
     single_column: true
@@ -189,12 +189,12 @@ items:
   - type: content
     columns:
       - type: article
-        title: 追蹤客傳會，活動不會錯過！
+        title: 臉書有追蹤，活動不錯過！
         items: 
-          - title: <i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><i class="twitter icon"></i><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
+          - title: <i class="facebook icon"></i><a href="https://www.facebook.com/hpcftw" target=_blank>客傳會</a><br><i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>OCF</a><br><i class="facebook icon"></i><a href="https://www.facebook.com/WSOTK" target=_blank>台灣知識種子計畫</a>
       - type: article  
-        title: 訂閱 EDM，開源資訊不漏接
+        title: 訂閱 EDM，資訊不漏接！
         items: 
-          - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a><br><i class="file alternate icon"></i><a href="https://ocf.tw/p/ocflab/" target=_blank>OCFLab</a>
+          - title: <i class="file alternate icon"></i><a href="https://www.hpcf.tw/" target=_blank>客傳會官網</a><br><i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a>
         swap: false
 
