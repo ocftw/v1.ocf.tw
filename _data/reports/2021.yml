@@ -127,3 +127,53 @@ items:
       - type: image
         url: /p/hakka/photo3.jpg
 
+  - type: header
+    title: 維基條目編輯指南
+    theme: light
+    icon: genderless
+    cover: /p/hakka/banner_1.png
+    description: 透過使用 wiki 資源，我們得以用開放資料的方式去轉譯客家地景與文化。
+
+  - type: iframe
+     swap: true
+     url: https://commons.wikimedia.org/wiki/File:%E5%A6%82%E4%BD%95%E6%92%B0%E5%AF%AB%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E7%9B%AE%E9%8C%84.webm
+     height: 100
+     title: test
+     description: text
+     scrolling: no
+
+  - type: header
+    title: 主辦、執行單位
+    theme: light
+    icon: genderless
+    cover: /p/hakka/banner_2.png
+    description: 本案由客傳會委託 OCF 與 WikiTW 執行。
+
+  - type: content
+    columns:
+      - type: article
+        title: 委託單位
+        swap: false
+        description: 財團法人客家公共傳播基金會
+      - type: article
+        logo_height: 7rem
+        logos:
+          - org_id: hpcf
+
+  - type: content
+    columns:
+      - type: article
+        title: 執行單位
+        swap: false
+        description: 財團法人開放文化基金會<br>台灣維基媒體協會
+      - type: article
+        logo_height: 7rem
+        logos:
+          - org_id: ocf
+          - org_id: WikimediaTW
+          
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        title: 插畫設計：YC
