@@ -75,7 +75,7 @@ items:
       - type: article
         swap: false
         title: 資料集製作
-        description: 團隊也將本案產出的 2,097 筆資料製作成資料集，透過五顆星開放資料的方式，將客家文化的相關產出分享給所有網路使用者！<br><br><a href="網址來來" target=_blank>本案總產出資料集下載連結</a>
+        description: 團隊也將本案產出的 2,097 筆資料製作成資料集，透過五顆星開放資料的方式，將客家文化的相關產出分享給所有網路使用者！<br><br><a href="https://m.wikidata.org/wiki/Wikidata:WikiProject_Taiwan/Hakka" target=_blank>本案總產出資料集下載連結</a>
       - type: image
         url: /p/hakka/illustration_5.png
 
