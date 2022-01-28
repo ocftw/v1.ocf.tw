@@ -1,10 +1,10 @@
 name: 110 年客家開放資料推廣及活化
 name_en: Hakka x OpenData 
 
-description: 
+description: 以開放資料推廣客家文化。
 description_en: 
 
-tagline: 以開放資料推廣客家文化
+tagline: 
 tagline_en: 
 
 og_image: /p/hakka/illustration_1.png
@@ -16,7 +16,7 @@ start:
 end: 
 
 topic_ids:
-  - infosec
+  - data
 field_ids:
   - it
 tags:
