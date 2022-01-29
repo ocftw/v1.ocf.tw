@@ -126,6 +126,26 @@ TODO：未來專案列表會自動抓取資料，不需再額外設定
     - 範例：[`en/p/project_id/event_id.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/en/p/project_id/event_id.html)
     - [活動英文網頁範例預覽](https://ocf.tw/en/p/project_id/event_id)
 
+
+### 新增專案成果網頁
+
+#### 一、建立專案成果資料
+
+3. 建立專案成果的 yml 檔案
+    - 名稱：`（年份）.yml`
+    - 位置：`_data/p/（專案 id）/`
+4. 編輯專案成果的 yml 檔案
+    - 範例：[`_data/p/project_id/2021.yml`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/_data/p/project_id/2021.yml)
+
+#### 二、建立專案成果網頁
+
+1. 建立專案網頁的 html 檔案
+    - 名稱：`（年份）.html`
+    - 位置：`p/（專案 id）/`
+3. 編輯專案網頁的 html 檔案
+    - 範例：[`p/project_id/2021.html`](https://github.com/ocftw/v1.ocf.tw/blob/gh-pages/p/project_id/2021.html)
+    - [專案網頁範例預覽](https://ocf.tw/p/project_id/2021)
+
 ### 新增自由頁面
 
 需要在專案底下架一個網頁、但又沒有要套用任何特定版型的時候，可以使用自由頁面，自由頁面僅提供 header 跟 footer，中間的內容和排版不受任何限制。
