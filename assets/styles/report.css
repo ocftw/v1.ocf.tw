@@ -25,6 +25,10 @@
   background-color: #000;
 }
 
+#report #projectLink .ui.header {
+  display: inline;
+}
+
 #report #projectLink .ui.header > .icon {
   font-size: 1em;
   vertical-align: initial;
