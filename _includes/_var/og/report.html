@@ -6,7 +6,15 @@
   {% assign report_id = year %}
 {% endif %}
 
+{% include _var/p.html %}
+
+{% if project %}
+{% assign report = site.data.p[ project_id ][ report_id ] %}
+{% else %}
+{% assign report = site.data.reports[ report_id ] %}
+{% endif %}
+
 {% assign og_url = page.url %}
-{% assign og_title = site.data.reports[ report_id ].title %}
-{% assign og_image = site.data.reports[ report_id ].cover %}
-{% assign og_description = site.data.reports[ report_id ].description %}
+{% assign og_title = report.title %}
+{% assign og_image = report.cover %}
+{% assign og_description = report.description %}
