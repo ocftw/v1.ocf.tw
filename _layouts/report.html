@@ -4,6 +4,7 @@ layout: global
 
 <!-- 成果報告頁共用的 template -->
 
+<!-- 抓取 report 資訊 -->
 {% assign year = page.year | append: '' %}
 
 {% if page.lang == "en" %}
@@ -12,9 +13,24 @@ layout: global
 {% assign report_id = year %}
 {% endif %}
 
+{% include _var/p.html %}
+
+{% if project %}
+{% assign report = site.data.p[ project_id ][ report_id ] %}
+{% else %}
 {% assign report = site.data.reports[ report_id ] %}
+{% endif %}
 
 <main id="report">
+
+  <!-- 從專案資料產生回上層連結 (optional) -->
+  {% if project %}  
+  <header id="projectLink" class="ui inverted {{ project.theme_color }} center aligned basic segment marginless">
+    <img class="background image" src="{{ project_header_image }}" style="opacity: {{ page.header_image_opacity }}" alt="header image for {{ project_name }}" />
+    <div class="background veil" style="opacity: {{ page.header_veil_opacity }}"></div>
+    {% include _shared/parent.html url=project_url project=project %}
+  </header>
+  {% endif %}
 
   <!-- 從成果報告資料產生頁面 header -->
   {% if report.theme == "light" %}
