@@ -1,3 +1,35 @@
+#report #projectLink {
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#report #projectLink .background {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#report #projectLink .background.image {
+  opacity: 0.95;
+}
+
+#report #projectLink .background.veil {
+  opacity: 0.1;
+  background-color: #000;
+}
+
+#report #projectLink .ui.header > .icon {
+  font-size: 1em;
+  vertical-align: initial;
+}
+
 #report #hero {
   overflow: hidden;
 }
