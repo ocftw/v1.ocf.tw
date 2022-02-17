@@ -1,4 +1,8 @@
 {% assign year_id = include.year_id %}
+{% if lang == 'en' %}
+    {% assign year_id = include.year_id %}
+    {% assign id = year | append: "_en" %}
+{% endif %}
 {% assign report = include.report %}
 {% assign report_url = '/p/' | append: year_id %}
 {% if lang == 'en' %}
