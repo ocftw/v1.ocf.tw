@@ -7,7 +7,7 @@ js: projects.js
 lang: en
 
 # 歷年成果檔名與排序
- years:
+years:
   - 2020
   - 2019
   - 2018
@@ -173,8 +173,8 @@ lang: en
 <div class="ui horizontal divider">Annual Reports</div>
 
 <section id="results" class="ui stripe container">
-  <div class="ui divided items">
 
+  <div class="ui divided items">
 {% for year in page.years %}
   {% assign id = year | append: "_en" %}
   {% assign data = site.data.reports[id] %}
@@ -183,7 +183,7 @@ lang: en
       <img src="{{ data.cover }}" alt="">
     </div>
     <div class="content">
-      <a href="/en/p/{{ id }}" class="header">{{ data.title }}</a>
+      <a href="/en/p/{{ year }}" class="header">{{ data.title }}</a>
       <div class="meta">
         <span></span>
       </div>
@@ -191,7 +191,7 @@ lang: en
         <p>{{ data.description }}</p>
       </div>
       <div class="extra">
-        <a href="/en/p/{{ id }}">
+        <a href="/en/p/{{ year }}">
           Read Report
           <i class="right arrow icon"></i>
         </a>
@@ -199,7 +199,9 @@ lang: en
     </div>
   </div>
 {% endfor %}
-
   </div>
+
 </section>
+
+
 </div>
