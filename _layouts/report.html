@@ -8,7 +8,7 @@ layout: global
 {% assign year = page.year | append: '' %}
 
 {% if page.lang == "en" %}
-{% assign report_id = year | append: '_' | append: page.lang %}
+{% assign report_id = year %}
 {% else %}
 {% assign report_id = year %}
 {% endif %}
