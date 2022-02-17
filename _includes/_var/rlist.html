@@ -11,7 +11,7 @@
 
 {% if lang == 'en' %}
   {% if year_id contains '_en' %}
-    {% assign rlist = rlist | append: ',' | append: year_id %}
+    {% assign year_id = year_file[0] %}
   {% endif %}
 {% else %}
   {% if year_id contains '_en' %}
