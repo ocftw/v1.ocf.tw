@@ -16,7 +16,6 @@ years:
 ---
 
 {% assign current = site.data.settings.current | append: "" %}
-<div id="en">
 
 <div id="projects">
 
@@ -171,9 +170,11 @@ years:
 
 </section>
 
-<section id="results" class="ui stripe container">
+<div class="ui horizontal divider">Annual Reports</div>
 
+<section id="results" class="ui stripe container">
   <div class="ui divided items">
+
 {% for year in page.years %}
   {% assign id = year | append: "_en" %}
   {% assign data = site.data.reports[id] %}
@@ -198,9 +199,7 @@ years:
     </div>
   </div>
 {% endfor %}
+
   </div>
-
 </section>
-
-
 </div>
