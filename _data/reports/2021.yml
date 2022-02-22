@@ -60,7 +60,7 @@ items:
         title: 
         description: 2021 年各 Conf 因為疫情轉換成線上形式的研討會，但 <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass 開源貢獻者快速通關計畫</a>，依舊不畏疫情影響與 4 個研討會合作，持續服務開源貢獻者。<br>截至 2021 年，累積共有 339 人次申請，261 人次通過並獲得 SITCON、COSCUP、MOPCON、g0v Summit、PyCON Taiwan 提供的專屬開源貢獻者福利。
       - type: image
-        url: /p/admin/2020/p3-2.jpg
+        url: /p/admin/2021/oscvpass.png
   - type: content
     columns:
       - type: article
