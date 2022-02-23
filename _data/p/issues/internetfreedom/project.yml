@@ -6,24 +6,16 @@ og_image: /p/issues/issues-og.png
 header_image: /p/issues/issues-cover.png
 avatar_image: /p/issues/issues-og.png
 links:
-
-
 links_en:
-
-
-
 actions:
   - title: 捐款支持
     url: http://ocf.tw/300
     icon: dollar
     color: green
-
 organizer_ids:
   - ocf
-
 listed: yes
 listed_en: yes
-
 reports:
   yyyy: mm
 
