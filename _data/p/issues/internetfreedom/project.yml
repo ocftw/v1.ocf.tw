@@ -13,7 +13,6 @@ actions:
     icon: dollar
     color: green
 organizer_ids:
-  - ocf
 listed: yes
 listed_en: yes
 reports:
