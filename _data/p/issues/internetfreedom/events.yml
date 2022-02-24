@@ -125,3 +125,24 @@
     - lulukeng
   project_ids:
     - internetfreedom
+
+- id:
+  name: "2022 網路自由小聚（每個月第三個禮拜四）"
+  name_en: Internet Freedom meets-up (Every 3rd Thursday)
+  description: "Coffee and Circumvention 是一個由 Internet Freedom Festival (IFF) 發起，串聯全球各城市的網路自由社群聚會。台北場聚會在每個月第三個週四舉辦。我們歡迎學生、上班族、科技人士、藝術家、記者或任何對數位人權、網路隱私、網路安全以及開放科技有興趣的朋友加入我們。"
+  description_en: This is the Taipei Coffee and Circumvention, a monthly, community-run meetup that happens simultaneously in various cities throughout the world - on the third Thursday of every month. It brings together technologists, artists, journalists, citizens and others interested in digital rights, online privacy and security, and open technology.
+  start: 2021/01/14
+  end: 
+  links:
+    - title: 1/20 - 停下臉部辨識的失速列車 - 用在哪？怎麼用？  
+      url: https://ocftw.kktix.cc/events/internetfreedom-jan2022
+    - title: 3/12 - 《智能社會：進退兩難》電影放映＆映後座談 w/ 劉致昕 - 越算越怒的社群媒體演算法  
+      url: https://ocftw.kktix.cc/events/internetfreedom-screening
+    - title: 3/23 - 網路自由小聚性別專場：網路情色平台帶來剝削還是解放？  
+      url: 
+  cover_image: /p/issues/C&C-events.png
+  contributor_ids: 
+    - claire
+    - lulukeng
+  project_ids:
+    - internetfreedom
