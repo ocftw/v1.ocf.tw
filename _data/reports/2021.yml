@@ -25,7 +25,7 @@ items:
   - type: header
     title: 社群支援
     icon: hand rock
-    cover: 
+    cover: /p/admin/2021/2021-b2.png
     background_color: 
     description: 2021 年，在 COVID-19 疫情的影響下，OCF 依舊支援了 7+場線上活動、30+ 個社群專案，透過法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。<br>OCF 期許自己能打造一個健康的環境，與更多社群一起關心議題、開創更多專案。
   - type: content
@@ -74,7 +74,7 @@ items:
 
   - type: header
     title: 議題串連
-    cover: 
+    cover: /p/admin/2021/2021-b3.png
     icon: handshake outline
     background_color: 
     description: 科技是兩面刃，每次科技越發進步，民眾的數位權利彷彿就越受到威脅。政府組織、民間團體、科技社群三方之間，或者共同關心的主題，藉由與科技社群的長期夥伴關係、與公民團體的議題合作，OCF 期許能成為不同領域跟科技交流的橋樑和平台，串聯國內外的團體和社群，讓更多人得以把開源、開放的精神和機制帶到各自的領域發揮，也讓公民使用開源的科技工具更加純熟，以因應多變的數位時代。
@@ -136,7 +136,7 @@ items:
 
   - type: header
     title: 開放文化推廣
-    cover: 
+    cover: /p/admin/2021/2021-b4.png
     icon: university
     background_color: 
     description: 「這麼好的東西不能只有我知道！」<br>公開、共享－－開放文化蘊含的意義，其實如此簡單。<br>數位技術蓬勃發展的現在，無論程式碼、資訊資料、歷史文獻甚至影音圖像等知識文化的結晶，都能藉著科技工具彼此交流和發揚成果。<br>若是「公開透明」能凝聚為一種風氣、「協作共享」能形成公民間的共識，則更能打破不同群體間的隔閡，讓各類的知識得以流通傳播，甚至做出更有效的利用。<br>OCF 在 2021 年不受疫情威脅，仍設法走出社群、面向大眾，分別用報導文章、公眾講座與教育議程的方式，讓更多人了解：開放文化，文化開放，真的能讓社會更美好。
@@ -184,7 +184,7 @@ items:
     title: 財務報告
     icon: dollar sign
     background_color: 
-    cover: 
+    cover: /p/admin/2021/2021-b5.png
     description: 
 
   - type: content
@@ -208,7 +208,7 @@ items:
   - type: header
     title: 因為有你們，我們得以一直前進
     icon: chess knight
-    cover: 
+    cover: /p/admin/2021/2021-b6.png
     background_color: 
     description: 
 
@@ -238,7 +238,7 @@ items:
   - type: header
     title: 開放文化基金會延續並連結全世界的開放原始碼運動，在台灣致力於促進開放政府、推廣開源軟體、支援友好社群、創造國際串聯。我們需要大家齊心協力，澆灌尚在扎根的開放文化。期望在劇烈變化的時代，與所有人一起做好準備、改善我們的生活、避免潛在的威脅。<br>我們相信，開源／開放文化可以保障隱私、促進自由、杜絕壟斷專制，<br>開源使我們不再是孤島。
     icon: chess knight
-    cover: 
+    cover: /p/admin/2021/2021-b1.png
     background_color: 
     description: 
 
