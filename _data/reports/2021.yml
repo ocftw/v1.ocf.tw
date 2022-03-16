@@ -1,6 +1,6 @@
 title: 開放文化基金會 2021 成果報告
 description: TBA
-cover: 
+cover: /p/admin/2021/2021-b1.png
 color:  
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.3
@@ -17,7 +17,7 @@ items:
           title: 捐款支持
           url: https://ocf.tw/300/
       - type: image
-        url: 
+        url: /p/admin/2021/2021-main.png
   - type: image_header
     background_color: 
     cover: 
