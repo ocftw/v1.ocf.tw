@@ -3,7 +3,7 @@ description: TBA
 cover: /p/admin/2021/2021-b1.png
 color:  
 cover_image_opacity: 0.9 
-cover_veil_opacity: 0.3
+cover_veil_opacity: 0.1
 items:
   - type: content
     columns:
