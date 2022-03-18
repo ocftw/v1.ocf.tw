@@ -1,16 +1,16 @@
 title: 開放文化基金會 2021 成果報告
-description: TBA
+description: 
 cover: /p/admin/2021/2021-b1.png
 color:  
 cover_image_opacity: 0.9 
-cover_veil_opacity: 0.5
+cover_veil_opacity: 0.7
 items:
   - type: content
     columns:
       - type: article
         swap: true
         title: 2021年，你過得好嗎？
-        description: 開放文化基金會從 2014 年播下開源的種子，至今已八年了！<br>經歷兩年疫情跌宕，我們更常在家上班、更常使用外送、更常藉由網路科技維持人與人之間的連結。在疫情蔓延前，我們播下的種子早已生根發芽；疫情擴散後，走向全面數位轉型的迫切，更讓開源之芽成長茁壯。
+        description: 開放文化基金會從 2014 年播下開源的種子，至今已八年了！<br>經歷兩年疫情跌宕，我們更常在家上班、更常使用外送、更常藉由網路科技維持人與人之間的連結。在疫情蔓延前，我們播下的種子早已生根發芽；疫情擴散後，走向全面數位轉型的迫切，讓開源之芽成長茁壯。
         action:
           title: 關於開放文化看更多
           url: https://ocf.tw/about/
@@ -20,7 +20,7 @@ items:
         url: /p/admin/2021/2021-main.png
   - type: image_header
     background_color: 
-    cover: 
+    cover: /p/admin/2021/num1-tw.png
     cover_image_alt: OCF 活動重點成果
   - type: header
     title: 社群支援
@@ -131,7 +131,7 @@ items:
 
   - type: image_header
     background_color: 
-    cover: 
+    cover: /p/admin/2021/num2-tw.png
     cover_image_alt:  議題串連重點成果
 
   - type: header
