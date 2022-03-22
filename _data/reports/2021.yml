@@ -146,7 +146,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: 自由與開源對軟體發展影響甚鉅，一直到現在都還與我們的生活息息相關，OCF 從不間斷地在各個領域推廣自由與開源的理念，從帶領初學者的開源新手村、開源教教我各種軟體技術分享、5G Open RAN 工作坊... 等等，共累積 20 場次分享、 800+ 人次參與，從不同的面相帶給大眾開源的發展趨勢。<br><br>圖：2021 年疫情不停歇，採線上舉辦的軟體自由日活動，帶大家瞭解自由開源的歷史演進 
+        description: 自由與開源對軟體發展影響甚鉅，一直到現在都還與我們的生活息息相關，OCF 從不間斷地在各個領域推廣自由與開源的理念，從帶領初學者的開源新手村、開源教教我各種軟體技術分享、5G Open RAN 工作坊... 等等，共累積 20 場次分享、 800+ 人次參與，從不同的面相帶給大眾開源的發展趨勢。<br><br>圖：2021 年疫情不停歇，採線上舉辦的軟體自由日活動，帶大家瞭解自由開源的歷史演進。 
         items:
           - title: <a href="https://ocf.tw/p/openists/" target=_blank>開源教教我</a>
           - title: <a href="https://www.youtube.com/watch?v=zNt4JMIYV_4&list=PLFuYOsppHDrl5g6EtVqqs_ZRDsZn76BrL" target=blank>開源新手村</a>
