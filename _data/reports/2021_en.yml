@@ -122,8 +122,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: Civic Sense hopes to encourage more communities to use open source environmental sensing devices. Through international collaboration, we hope to promote open source awareness, and give civic tech groups around the world the ability to use self-made, low-cost envrionmental sesnors.<br>
-In 2021, OCF hosted 3 webinars and invited 3 speakers, and over 10 international communities joined in. 4  communities submitted plans to join our Civic Sense project, and in the end we have decided to work with three communities in Thailand, India and Nigeria on a total of four projects. Each project will involve installing either air boxes or water boxes in partnership with international communities to help these groups better monitor local evnrionmetnal change. 
+        description: Civic Sense hopes to encourage more communities to use open source environmental sensing devices. Through international collaboration, we hope to promote open source awareness, and give civic tech groups around the world the ability to use self-made, low-cost envrionmental sesnors.<br>In 2021, OCF hosted 3 webinars and invited 3 speakers, and over 10 international communities joined in. 4  communities submitted plans to join our Civic Sense project, and in the end we have decided to work with three communities in Thailand, India and Nigeria on a total of four projects. Each project will involve installing either air boxes or water boxes in partnership with international communities to help these groups better monitor local evnrionmetnal change. 
         items:
           - project_id: civicsense
           - item: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrl4pPE0VsHmAOXiZXMx7O43" target=_blank>Recap - Civic IoT's and Environmental Sensors Webinar</a>
