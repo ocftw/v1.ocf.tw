@@ -1,5 +1,5 @@
 title: 開放文化基金會 2021 成果報告
-description: 
+description: 疫情嚴峻，我們依然和社群手牽手度過，今年 OCF 依舊支援了 7+ 場線上活動、30+ 個社群專案...
 cover: /p/admin/2021/2021-b1.png
 color:  
 cover_image_opacity: 0.9 
@@ -27,7 +27,7 @@ items:
     icon: hand rock
     cover: /p/admin/2021/2021-b2.png
     background_color: 
-    description: 2021 年，在 COVID-19 疫情的影響下，OCF 依舊支援了 7+場線上活動、30+ 個社群專案，透過法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。<br>OCF 期許自己能打造一個健康的環境，與更多社群一起關心議題、開創更多專案。
+    description: 2021 年，在 COVID-19 疫情的影響下，OCF 依舊支援了 7+ 場線上活動、30+ 個社群專案，透過法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。<br>OCF 期許自己能打造一個健康的環境，與更多社群一起關心議題、開創更多專案。
   - type: content
     columns:
       - type: article
