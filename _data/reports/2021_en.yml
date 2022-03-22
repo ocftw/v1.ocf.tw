@@ -225,9 +225,9 @@ items:
   - type: content
     columns:
       - type: article
-        title: Thanks
+        title: Sponsor
         swap: false
-        description: 
+        description: We appreciate RC Foundation and Archlife Research Foundation’s support in all our projects and events, and our individual donors.
       - type: article
         logo_height: 7rem
         logos:
