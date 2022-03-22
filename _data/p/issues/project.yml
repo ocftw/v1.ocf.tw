@@ -7,7 +7,7 @@ header_image: /p/issues/issues-cover.png
 avatar_image: /p/issues/issues-og.png
 links:
   - title: 網路自由小聚
-    url: https://ocf.tw/p/issues/2021/coffeeandcircumvention.html
+    url: https://ocf.tw/p/issues/internetfreedom
     icon:
   - title: eID 數位身分證
     url: https://ocf.tw/p/eid/
@@ -24,7 +24,7 @@ links:
 
 links_en:
   - title: Internet Freedom meetup
-    url: https://ocf.tw/en/p/issues/coffeeandcircumventionen.html
+    url: https://ocf.tw/p/issues/internetfreedom
     icon: 
   - title: eID
     url: https://ocf.tw/en/p/eid/
