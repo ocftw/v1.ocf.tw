@@ -187,13 +187,14 @@ items:
     cover: /p/admin/2021/2021-b5.png
     description: 
 
-  - type: iframe
-    url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=676481337&format=interactive 
-
   - type: content
     single_column: true
-    title: 2021 年度基金會自營專案收支
-    description: 收入 NT$ 19,144,853<br>支出 NT$ 16,148,444<br>基金會年度總計 +NT$ 2,996,402
+    - type: article
+      swap: false
+      title: 2021 年度基金會自營專案收支
+      description: 收入 NT$ 19,144,853<br>支出 NT$ 16,148,444<br>基金會年度總計 +NT$ 2,996,402
+    - type: iframe
+      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=676481337&format=interactive 
 
   - type: content
     columns: 
