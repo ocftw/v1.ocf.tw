@@ -193,8 +193,8 @@ items:
         swap: false
         title: 2021 年度 OCF 總收入
         description: 基金會自營專案 NT$ <br>其他社群專案 NT$ <br>總計 NT$ 
-      - type: image
-        url: 
+      - type: iframe
+        url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=1618377686&format=interactive
 
   - type: content
     columns: 
