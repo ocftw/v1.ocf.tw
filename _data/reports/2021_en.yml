@@ -77,7 +77,7 @@ items:
     cover: /p/admin/2021/2021-b3.png
     icon: handshake outline
     background_color: 
-    description: Technology is a double-edged sword. With every new technology developped, our public rights seemingly come under a new threat. OCF hopes to promote and create channels of dialogue between government bodies, civil society organizations and tech groups and serve as a bridge between these groups. We hope to connect with groups in Taiwan and around the world and allow them to realise the potential of openness and open source in adressing a range of different issues. We also work to make civil society more aware of the digital tools at their disposal, and allow them to prepare for the increasingly digital future. 
+    description: Technology is a double-edged sword. With every new technology developped, our public rights seemingly face a new threat. OCF hopes to promote and create channels of dialogue between government bodies, civil society organizations and tech groups and serve as a bridge between these groups. We hope to connect with groups in Taiwan and around the world and help them to realise the potential of openness and open source in adressing a range of different issues. We also work to make civil society more aware of the digital tools at their disposal, and allow them to prepare for the increasingly digital future. 
 
   - type: content
     columns:
@@ -139,7 +139,7 @@ items:
     cover: /p/admin/2021/2021-b4.png
     icon: university
     background_color: 
-    description: I can’t be the only one who knows about all this great stuff! Openness、sharing－－Open Culture is just that simple!<br>In our world of advanced and increasingly common digital technology，whether it be code, information and data, history and culture or even video and images can all be shared and brought together through digital technology. <br>If “open and transparent” can be turned into common practise, then “collaboration and sharing” can become the common basis for activism amongst civil society. If that happens we would be able to break down the divides between different groups of people and help spread knowledge more easily and effectively. <br>In 2021, OCF remained unthreatened by the pandemic. We continued to find ways to reach broader audiences through news articles,  lecture series and educational courses in order to make more people aware that open culture and cultural openness can truly have a positive impact on society. 
+    description: In our world of advanced and increasingly common digital technology, whether it be code, information and data, history and culture or even video and images can all be shared and brought together through digital technology. <br>If “open and transparent” can be turned into a habit, then collaboration and sharing can become the basis for activism amongst civil society. If that happens we would be able to break down the divides between different groups of people and help spread knowledge more easily and effectively. <br>In 2021, OCF remained unthreatened by the pandemic. We continued to find ways to reach broader audiences through news articles,  lecture series and educational courses in order to make more people aware that open culture and cultural openness can truly have a positive impact on society. 
 
   - type: content
     columns:
@@ -172,7 +172,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: 「OCF Lab」is a news platform operated by OCF which aims to collect, translate and report on a range of civic tech and open source topics. We hope to raise awareness of these issues for the public as we move into the digital age, and provide a platform for learning and knowledge sharing. <br>In 2021， we published 34 weekly reprots、55 articles in Mandarin and English, and 25 special issues in collaboration with media organisations 
+        description: OCF Lab is a news platform operated by OCF which aims to collect, translate and report on a range of civic tech and open source topics. We hope to raise awareness of these issues for the public as we move into the digital age, and provide a platform for learning and knowledge sharing. <br>In 2021,  we published 34 weekly reprots, 55 articles in Mandarin and English, and 25 special issues in collaboration with media organisations.
         items:
           - title: <a href="https://lab.ocf.tw/category/%e9%80%b1%e5%a0%b1/" target=_blank>Global Digital Civil Weekly Post</a>
           - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=_blank>Column Collaboration</a>
