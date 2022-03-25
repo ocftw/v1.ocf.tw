@@ -10,7 +10,7 @@ items:
       - type: article
         swap: true
         title: Did you have a good 2021?
-        description: OCF was born in 2014, so we’re turning 8 this year! After two years of the pandemic, we’ve got used to working at home and ordering take out, and we’ve got more reliant on technology to maintain our connections to others. The seedlings we planted before the pandemic had already started sprouting, but with the spread of the disease and the urgent need to speed up our digital transformation, we hope that our open source sprouts can continue to grow stronger and more robust. 
+        description: OCF was born in 2014, so we’re turning 8 this year! After two years of the pandemic, we’ve got used to working at home and ordering take out, and we’ve got more reliant on technology to maintain our connections to others. The seedlings we planted before the pandemic had already started sprouting, but with the spread of the disease and the urgent need to speed up our digital transformation, we hope that our open source sprouts can continue to grow stronger and more robust.<br>This year's theme is “digital forest”.Although there is now increased awareness about digital human rights, OCF believes that it is crucial to focus on the “roots” of internet and social design by promoting open source, open data and open government, which we call "open tech." <br>OCF is an organization that supports Taiwan’s tech communities and promotes open tech to help create a healthier digital ecosystem for us all. By focusing on the core infrastructure that lies behind digital systems, we hope to create a safer and more equitable world for all.
         action:
           title: About OCF
           url: https://ocf.tw/about/
@@ -27,7 +27,7 @@ items:
     icon: hand rock
     cover: /p/admin/2021/2021-b2.png
     background_color: 
-    description: Despite the challgnes brought about by the pandemic, in 2021, OCF continued to support 7 online events and 30 community projects. In our role as fiscal sponsor, 為 have supported the development open source and tech communities and let these groups remain influential even when they couldn’t work together in person. OCF hopes to continue to create a supporting envrionment for communities to continue to grow. 
+    description: Despite the challgnes brought about by the pandemic, in 2021, OCF continued to support 7 online events and 30 community projects. In our role as fiscal sponsor, we have supported the development open source and tech communities and let these groups remain influential even when they couldn’t work together in person.<br>OCF hopes to continue to create a supporting envrionment for communities to continue to grow.
   - type: content
     columns:
       - type: article
@@ -44,7 +44,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: Running a community requires a lot of work, including hiring, writing and signing contracts, dealing with tax forms, and sorting out accounting and fiscal affairs. Most of the members of the open source community are students or have full time jobs so all the work needed to maintain a community could be a huge burden. That’s where OCF comes into help. We’ve worked with these groups：
+        description: Running a community requires a lot of work, including hiring, writing and signing contracts, dealing with tax forms, and sorting out accounting and fiscal affairs. Most of the members of the open source community are students or have full time jobs so all the work needed to maintain a community can be a huge burden. That’s where OCF comes into help. We’ve worked with these groups：
         items:
           - project_id: coscup
           - project_id: sitcon
