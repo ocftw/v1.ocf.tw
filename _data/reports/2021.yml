@@ -203,12 +203,10 @@ items:
 
   - type: content
     columns:
-    - type: iframe
-      height: 16rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=1618377686&format=interactive
-    - type: iframe
-      height: 16rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=1337789693&format=interactive
+    - type: image
+      url: /p/admin/2021/finance-left-tw.png
+    - type: image
+      url: /p/admin/2021/finance-right-tw.png
 
   - type: content
     single_column: true
