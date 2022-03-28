@@ -221,9 +221,8 @@ items:
   - type: content
     single_column: true
     columns:
-    - type: iframe
-      height: 21rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=1646934724&format=interactive
+    - type: image
+      url: /p/admin/2021/finance-1-tw.png
 
 
   - type: header

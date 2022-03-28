@@ -212,9 +212,8 @@ items:
   - type: content
     single_column: true
     columns:
-    - type: iframe
-      height: 18rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRosOXaf-o6x023NZusJHxdZK_fYdzUybFO8-P0gRFZOOJns5aYhAo9qY505GZ9McSsf8slr9ogKCPN/pubchart?oid=1337789693&format=interactive
+    - type: image
+      url: /p/admin/2021/finance-1-en.png
 
   - type: content
     single_column: true
@@ -227,10 +226,8 @@ items:
   - type: content
     single_column: true
     columns:
-    - type: iframe
-      height: 21rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRosOXaf-o6x023NZusJHxdZK_fYdzUybFO8-P0gRFZOOJns5aYhAo9qY505GZ9McSsf8slr9ogKCPN/pubchart?oid=1646934724&format=interactive
-
+    - type: image
+      url: /p/admin/2021/finance-2-en.png
 
   - type: header
     title: We keep going because of your support
