@@ -200,6 +200,7 @@ items:
     columns:
     - type: iframe
       height: 21rem
+      width: 100%
       url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=676481337&format=interactive 
 
   - type: content
