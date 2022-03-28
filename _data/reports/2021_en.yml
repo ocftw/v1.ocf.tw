@@ -205,10 +205,10 @@ items:
   - type: content
     columns:
     - type: iframe
-      height: 16rem
+      height: 17rem
       url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRosOXaf-o6x023NZusJHxdZK_fYdzUybFO8-P0gRFZOOJns5aYhAo9qY505GZ9McSsf8slr9ogKCPN/pubchart?oid=1618377686&format=interactive
     - type: iframe
-      height: 16rem
+      height: 17rem
       url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRosOXaf-o6x023NZusJHxdZK_fYdzUybFO8-P0gRFZOOJns5aYhAo9qY505GZ9McSsf8slr9ogKCPN/pubchart?oid=1337789693&format=interactive
 
   - type: content
