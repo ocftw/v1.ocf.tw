@@ -196,25 +196,17 @@ items:
       description: Income NT$ 19,144,853<br>Expenditure NT$ 16,148,444<br>Surplus NT$ 2,996,402
 
   - type: content
-    single_column: true
     columns:
-    - type: iframe
-      height: 21rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRosOXaf-o6x023NZusJHxdZK_fYdzUybFO8-P0gRFZOOJns5aYhAo9qY505GZ9McSsf8slr9ogKCPN/pubchart?oid=676481337&format=interactive
+    - type: image
+      url: /p/admin/2021/finance-left-en.png
+    - type: image
+      url: /p/admin/2021/finance-right-en.png
 
   - type: content
     single_column: true
     columns:
-    - type: iframe
-      height: 18rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRosOXaf-o6x023NZusJHxdZK_fYdzUybFO8-P0gRFZOOJns5aYhAo9qY505GZ9McSsf8slr9ogKCPN/pubchart?oid=1618377686&format=interactive
-
-  - type: content
-    single_column: true
-    columns:
-    - type: iframe
-      height: 18rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRosOXaf-o6x023NZusJHxdZK_fYdzUybFO8-P0gRFZOOJns5aYhAo9qY505GZ9McSsf8slr9ogKCPN/pubchart?oid=1337789693&format=interactive
+    - type: image
+      url: /p/admin/2021/finance-1-en.png
 
   - type: content
     single_column: true
@@ -227,10 +219,8 @@ items:
   - type: content
     single_column: true
     columns:
-    - type: iframe
-      height: 21rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRosOXaf-o6x023NZusJHxdZK_fYdzUybFO8-P0gRFZOOJns5aYhAo9qY505GZ9McSsf8slr9ogKCPN/pubchart?oid=1646934724&format=interactive
-
+    - type: image
+      url: /p/admin/2021/finance-2-en.png
 
   - type: header
     title: We keep going because of your support
@@ -262,11 +252,11 @@ items:
           - org_id: archilife
 
   - type: header
-    title: Open Culture Foundation strengthens and connects open source movements around the world. In Taiwan, we promote open government, open source, and support local tech communities whilst also building international bridges. We need everyone’s support to help foster open culture as it continues to take root. We look forward to working together to prepare for our rapidly changing world, and improve our lives and avoid the potential dangers of technology. We believe that open souce and open culture can protect privacy, promote freedom and put an end to monopolies of power and resources. In short, open source ensures that no person is an island. 
+    title: 
     icon: chess knight
     cover: /p/admin/2021/2021-b1.png
     background_color: 
-    description: 
+    description: Open Culture Foundation strengthens and connects open source movements around the world. In Taiwan, we promote open government, open source, and support local tech communities whilst also building international bridges. We need everyone’s support to help foster open culture as it continues to take root. We look forward to working together to prepare for our rapidly changing world, and improve our lives and avoid the potential dangers of technology. We believe that open souce and open culture can protect privacy, promote freedom and put an end to monopolies of power and resources. In short, open source ensures that no person is an island. 
 
   - type: content
     columns:

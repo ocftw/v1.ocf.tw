@@ -198,18 +198,15 @@ items:
   - type: content
     single_column: true
     columns:
-    - type: iframe
-      height: 21rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=676481337&format=image
+    - type: image
+      url: /p/admin/2021/finance-1-tw.png
 
   - type: content
     columns:
-    - type: iframe
-      height: 16rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=1618377686&format=interactive
-    - type: iframe
-      height: 16rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=1337789693&format=interactive
+    - type: image
+      url: /p/admin/2021/finance-left-tw.png
+    - type: image
+      url: /p/admin/2021/finance-right-tw.png
 
   - type: content
     single_column: true
@@ -222,9 +219,8 @@ items:
   - type: content
     single_column: true
     columns:
-    - type: iframe
-      height: 21rem
-      url: https://docs.google.com/spreadsheets/d/e/2PACX-1vS09LEVEPKiTDx1hdvuzTfDyCvzI3Ec4FMXGTHX_4_tHa3FKUflDwbFtb2__B99w009jz2eH8INsko9/pubchart?oid=1646934724&format=interactive
+    - type: image
+      url: /p/admin/2021/finance-1-tw.png
 
 
   - type: header
@@ -257,11 +253,11 @@ items:
           - org_id: archilife
 
   - type: header
-    title: 開放文化基金會延續並連結全世界的開放原始碼運動，在台灣致力於促進開放政府、推廣開源軟體、支援友好社群、創造國際串聯。我們需要大家齊心協力，澆灌尚在扎根的開放文化。期望在劇烈變化的時代，與所有人一起做好準備、改善我們的生活、避免潛在的威脅。<br>我們相信，開源／開放文化可以保障隱私、促進自由、杜絕壟斷專制，<br>開源使我們不再是孤島。
+    title: 
     icon: chess knight
     cover: /p/admin/2021/2021-b1.png
     background_color: 
-    description: 
+    description: 開放文化基金會延續並連結全世界的開放原始碼運動，在台灣致力於促進開放政府、推廣開源軟體、支援友好社群、創造國際串聯。我們需要大家齊心協力，澆灌尚在扎根的開放文化。期望在劇烈變化的時代，與所有人一起做好準備、改善我們的生活、避免潛在的威脅。<br>我們相信，開源／開放文化可以保障隱私、促進自由、杜絕壟斷專制，<br>開源使我們不再是孤島。
 
   - type: content
     columns:
