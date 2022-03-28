@@ -259,7 +259,8 @@ items:
           - org_id: archilife
 
   - type: header
-    title: Open Culture Foundation strengthens and connects open source movements around the world. In Taiwan, we promote open government, open source, and support local tech communities whilst also building international bridges. We need everyone’s support to help foster open culture as it continues to take root. We look forward to working together to prepare for our rapidly changing world, and improve our lives and avoid the potential dangers of technology. We believe that open souce and open culture can protect privacy, promote freedom and put an end to monopolies of power and resources. In short, open source ensures that no person is an island. 
+    title: 
+    description: Open Culture Foundation strengthens and connects open source movements around the world. In Taiwan, we promote open government, open source, and support local tech communities whilst also building international bridges. We need everyone’s support to help foster open culture as it continues to take root. We look forward to working together to prepare for our rapidly changing world, and improve our lives and avoid the potential dangers of technology. We believe that open souce and open culture can protect privacy, promote freedom and put an end to monopolies of power and resources. In short, open source ensures that no person is an island. 
     icon: chess knight
     cover: /p/admin/2021/2021-b1.png
     background_color: 
