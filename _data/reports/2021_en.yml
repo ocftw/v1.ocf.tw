@@ -267,6 +267,6 @@ items:
       - type: article  
         title: Subscribe EDM
         items: 
-          - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF E-Paper</a><br><i class="file alternate icon"></i>
+          - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF E-Paper</a>
         swap: false
 
