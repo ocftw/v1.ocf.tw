@@ -265,8 +265,8 @@ items:
         items: 
           - title: <i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><i class="twitter icon"></i><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
       - type: article  
-        title: Subscribe EDMs
+        title: Subscribe EDM
         items: 
-          - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a><br><i class="file alternate icon"></i><a href="https://ocf.tw/p/ocflab/" target=_blank>OCFLab</a>
+          - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF E-Paper</a><br><i class="file alternate icon"></i>
         swap: false
 
