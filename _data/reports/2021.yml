@@ -58,7 +58,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: 2021 年各 Conf 因為疫情轉換成線上形式的研討會，但 <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass 開源貢獻者快速通關計畫</a>，依舊不畏疫情影響與 4 個研討會合作，持續服務開源貢獻者。<br>截至 2021 年，累積共有 339 人次申請，261 人次通過並獲得 SITCON、COSCUP、MOPCON、g0v Summit、PyCON Taiwan 提供的專屬開源貢獻者福利。
+        description: 2021 年各 Conf 因為疫情轉換成線上形式的研討會，但 <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass 開源貢獻者快速通關計畫</a>，依舊不畏疫情影響與 4 個研討會合作，持續服務開源貢獻者。<br>截至 2021 年，累積共有 339 人次申請，261 人次通過並獲得 SITCON, COSCUP, MOPCON, g0v Summit, PyCON Taiwan 提供的專屬開源貢獻者福利。
       - type: image
         url: /p/admin/2021/oscvpass.png
   - type: content
@@ -146,7 +146,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: 自由與開源對軟體發展影響甚鉅，一直到現在都還與我們的生活息息相關，OCF 從不間斷地在各個領域推廣自由與開源的理念，從帶領初學者的開源新手村、開源教教我各種軟體技術分享、5G Open RAN 工作坊... 等等，共累積 20 場次分享、 800+ 人次參與，從不同的面向帶給大眾開源的發展趨勢。<br><br>圖：2021 年疫情不停歇，採線上舉辦的軟體自由日活動，帶大家瞭解自由開源的歷史演進。 
+        description: 自由與開源對軟體發展影響甚鉅，一直到現在都還與我們的生活息息相關，OCF 從不間斷地在各個領域推廣自由與開源的理念，從帶領初學者的開源新手村、開源教教我各種軟體技術分享、5G Open RAN 工作坊... 等等，共累積 20 場次分享、800+ 人次參與，從不同的面向帶給大眾開源的發展趨勢。<br><br>圖：2021 年疫情不停歇，採線上舉辦的軟體自由日活動，帶大家瞭解自由開源的歷史演進。 
         items:
           - title: <a href="https://ocf.tw/p/openists/" target=_blank>開源教教我</a>
           - title: <a href="https://www.youtube.com/watch?v=zNt4JMIYV_4&list=PLFuYOsppHDrl5g6EtVqqs_ZRDsZn76BrL" target=blank>開源新手村</a>
@@ -239,7 +239,7 @@ items:
                OCF 員工：Singing, Rock, Lulu, Rosa, Xini, Claire, kting, TC, huangfu, Leaf, Anima, Sam, weichen, 紅馬, Dreamer.<br>
                OCF 畢業校友：Yawei, Aiya, 小知.<br>
                實習小夥伴：柏均、嘉禕、彥涵、明真、威弘、濰綾.<br>
-               以及各位熱血志工夥伴：ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayared！
+               以及各位熱血志工夥伴！
   - type: content
     columns:
       - type: article
@@ -265,7 +265,7 @@ items:
         title: 追蹤 OCF，活動不會錯過！
         items: 
           - title: <i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><i class="twitter icon"></i><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
-      - type: article  
+      - type: article
         title: 訂閱 EDM，開源資訊不漏接
         items: 
           - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a>

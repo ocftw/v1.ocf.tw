@@ -10,7 +10,7 @@ items:
       - type: article
         swap: true
         title: Did you have a good 2021?
-        description: OCF was born in 2014, so we’re turning 8 this year! After two years of the pandemic, we’ve got used to working at home and ordering take out, and we’ve got more reliant on technology to maintain our connections to others. The seedlings we planted before the pandemic had already started sprouting, but with the spread of the disease and the urgent need to speed up our digital transformation, we hope that our open source sprouts can continue to grow stronger and more robust.<br>This year's theme is “digital forest”. Although there is now increased awareness about digital human rights, OCF believes that it is crucial to focus on the “roots” of internet and social design by promoting open source, open data and open government, which we call "open tech." <br>OCF is an organization that supports Taiwan’s tech communities and promotes open tech to help create a healthier digital ecosystem for us all. By focusing on the core infrastructure that lies behind digital systems, we hope to create a safer and more equitable world for all.
+        description: OCF was born in 2014, so we’re turning 8 this year! After two years of the pandemic, we’ve got used to working at home and ordering take out. We have also become more reliant on technology to maintain our connections to others. The seedlings we planted before the pandemic had already started sprouting. Amidst the ongoing public health emergency and the urgent need to speed up our digital transformation, we hope that our open source sprouts can continue to grow stronger and more robust.<br>OCF is an organization that supports Taiwan’s tech communities and promotes open tech to help create a healthier digital ecosystem for all. By focusing on core infrastructures behind digital systems, we hope to build a safer and more equitable world for all.<br>This year's theme is “digital forest”. Although there has been growing awareness about digital human rights, OCF believes that it is crucial to focus on “open tech” as the root of internet and social design. We dedicate ourselves in open tech by promoting open source, open data and open government.
         action:
           title: About OCF
           url: https://ocf.tw/about/
@@ -27,7 +27,7 @@ items:
     icon: hand rock
     cover: /p/admin/2021/2021-b2.png
     background_color: 
-    description: Despite the challgnes brought about by the pandemic, in 2021, OCF continued to support 7 online events and 30 community projects. In our role as fiscal sponsor, we have supported the development open source and tech communities and let these groups remain influential even when they couldn’t work together in person.<br>OCF hopes to continue to create a supporting envrionment for communities to continue to grow.
+    description: Despite the challenges brought about by the pandemic, in 2021, OCF continued to support 7 online events and 30 community projects. As fiscal sponsor, we have supported the development of open source and tech communities. With our services, let these groups remain influential even when they couldn’t work together in person.<br>OCF hopes to continue creating a supportive environment for communities to grow.
   - type: content
     columns:
       - type: article
@@ -44,7 +44,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: Running a community requires a lot of work, including hiring, writing and signing contracts, dealing with tax forms, and sorting out accounting and fiscal affairs. Most of the members of the open source community are students or have full time jobs so all the work needed to maintain a community can be a huge burden. That’s where OCF comes into help. We’ve worked with these groups：
+        description: Running a community requires a lot of work, including hiring, writing and signing contracts, dealing with tax forms, and sorting out accounting and fiscal affairs. Most members of the open source community are students or have full time jobs, so these administrative tasks can be a huge burden. That is where OCF comes into help. We have worked with these groups：
         items:
           - project_id: coscup
           - project_id: sitcon
@@ -58,7 +58,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: Although the pandemic meant that many conferences were held online in 2021, the <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass (open source contirbutor VP Pass)</a> still managed to collaborate with 4 conferences and help facilitate contirbutors’ participation. In 2021, a total of 339 people applied, and 261 received the open source contributor benefits provided by SITCON, COSCUP, MOPCON, g0v Summit and PyCON Taiwan.
+        description: Although the pandemic meant that many conferences were held online in 2021, the <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass (Open Source Contributor VIP Pass)</a> still managed to collaborate with 4 conferences and help facilitate contirbutors’ participation. In 2021, a total of 339 people applied, and 261 received the open source contributor benefits provided by SITCON, COSCUP, MOPCON, g0v Summit and PyCON Taiwan.
       - type: image
         url: /p/admin/2021/oscvpass.png
   - type: content
@@ -66,19 +66,18 @@ items:
       - type: article
         swap: false
         title: 
-        description: In collaboration with Hakka Public Communication Foundation and WikimeidaTW, OCF worked to promote community collaboration and openness and turn open data into a tool to give a voice to local cultures. By encouraging hakka communities to use digital tools, we helped translate communitiy culture and local knowledge into digital information and thereby helped to promote local collective conciousness. We created new channels of dialogue between generations, and worked towards the goal of promoting exhcngae between different communtieis and culture. 
+        description: In collaboration with Hakka Public Communication Foundation and WikimeidaTW, OCF worked to promote community collaboration and openness, and turned open data into a tool for voicing local cultures. By encouraging Hakka communities to use digital tools, we helped translate community culture and local knowledge into digital information,thereby achieving the strengthening of solidarity. We created new channels of dialogue between generations, and charted a road toward broader exchange between communities and cultures.
         items:
           - title: <a href="https://ocf.tw/p/hakka/2021" target=_blank>Hakka Open Data Project overview (TW)</a>
       - type: image
         url: /p/admin/2021/hakka.png
 
   - type: header
-    title: Issue advocacy
+    title: Our Advocacy
     cover: /p/admin/2021/2021-b3.png
     icon: handshake outline
     background_color: 
-    description: Technology is a double-edged sword. With every new technology developped, our public rights seemingly face a new threat. OCF hopes to promote and create channels of dialogue between government bodies, civil society organizations and tech groups and serve as a bridge between these groups. We hope to connect with groups in Taiwan and around the world and help them to realise the potential of openness and open source in adressing a range of different issues. We also work to make civil society more aware of the digital tools at their disposal, and allow them to prepare for the increasingly digital future. 
-
+    description: Technology is a double-edged sword. With every new technology developed, our rights could face a new threat. OCF promotes and creates channels of dialogue between government bodies, civil society organizations and tech groups. We hope to be the bridge between these groups. We also hope to connect Taiwan and the reset of the world, so that we can collectively realize the potential of openness and open source to address the challenges we are collectively facing. We also promote Taiwanese civil society’s awareness of digital tools that can be at disposal for preparing to enter an increasingly digitized future.<br>Current 5g technology has reversed the closed paradigm that has dominated the development of communication technology. Open RAN is promoting openness in internet design, and has broken the previous model of architecture development as determined by behemoth corporatives.<br>In order to make Taiwanese business and academics more aware of international open source projects in this area, OCF worked with the Industrial Technology Research Institute (ITRI) and inivted international partners from the O-RAN alliance to discuss their experience of international collaboration, as well as the current landscape and trends of global telecoms operators in Open Ran and their experience in incorporating open source into 5g.
   - type: content
     columns:
       - type: article
@@ -95,7 +94,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: Continuing on from our open government work in 2020, in 2021, OCF continued to host training workshops as part of the “Open Government National Action Plan”. We also held an online conference, which had a total of 48 speakers, over 300 attendees, and an online reach to over 1000 people. At the event, many speakers discussed the goals and their experience of open government. In addition, OCF has continued to serve as a civil society represetnetative for the open parliament action plan in Taiwan, and has participating in drafting the open parliament action plan.  
+        description: Continuing on from our open government work in 2020, in 2021, OCF continued to host training workshops as part of the “Open Government National Action Plan''. We held an online conference with a total of 48 speakers, over 300 attendees, and an online reach to over 1000 audience. At the event, many speakers discussed the goals and their experiences of open government. In addition, OCF has continued to serve as a civil society representative for the Open Parliament Action Plan in Taiwan, and has participated in drafting the plan.
         items:
           - title: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrkm_cFhwh6UkcRCfcCsSZlA" target=_blank>Open Government National Action Plan Cultivation Workshop</a>
           - title: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrksew2NyLeU4APXHzKP2CTK" target=blank>Open Government National Action Plan Weekend Forum</a>
@@ -109,11 +108,11 @@ items:
       - type: article
         swap: true
         title: 
-        description: Although digital technology makes our life more convenient, it has also brought with it worries of personal informataion leaks, privacy infringement, public opinion manipulation, and disifformation. Especially since the outbreak of the pandemic and the implementation of anti-pandemic prevention measures, it has become easier for organisations to get hold of personal data, and it is thus more crucial than ever to pay attention to protecting our digital human rights. 
+        description: Although digital technology makes our life more convenient, it has also brought with it worries of personal information leaks, privacy infringement, public opinion manipulation, and disinformation. Especially since the outbreak of the COVID-19 pandemic and the implementation of preventive measures, it has become easier for authorities to get hold of personal data. It is thus more crucial than ever to pay attention to protecting our digital human rights.
         items:
           - title: <a href="https://ocf.tw/en/p/eid/" target=_blank>Amend the law and make eID reform more transparent</a>
           - title: <a href="https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q?view" target=blank>Internet Freedom Meetup</a>
-          - title: Participate more than 20 online international digital security and digital rights meeting.
+          - title: Participate in more than 20 online international digital security and digital rights meetings.
       - type: image
         url: /p/admin/2021/internetfreedom.png
 
@@ -122,7 +121,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: Civic Sense hopes to encourage more communities to use open source environmental sensing devices. Through international collaboration, we hope to promote open source awareness, and give civic tech groups around the world the ability to use self-made, low-cost envrionmental sesnors.<br>In 2021, OCF hosted 3 webinars and invited 3 speakers, and over 10 international communities joined in. 4  communities submitted plans to join our Civic Sense project, and in the end we have decided to work with three communities in Thailand, India and Nigeria on a total of four projects. Each project will involve installing either air boxes or water boxes in partnership with international communities to help these groups better monitor local evnrionmetnal change. 
+        description: Civic Sense hopes to encourage more communities to use open source environmental sensing devices. Through international collaboration, we promote open source awareness, and give civic tech groups around the world the ability to use self-made, low-cost environmental sensors.<br>In 2021, OCF hosted 3 webinars and invited 3 speakers, and over 10 international communities joined in. 4 communities submitted plans to be part of our Civic Sense project, and 3 communities in Thailand, India and Nigeria were selected to carry out a total of 4 projects. Each project will involve installing either air boxes or water boxes in partnership with international communities, so that these communities can better monitor local environmental hazards and changes.
         items:
           - project_id: civicsense
           - item: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrl4pPE0VsHmAOXiZXMx7O43" target=_blank>Recap - Civic IoT's and Environmental Sensors Webinar</a>
@@ -132,14 +131,14 @@ items:
   - type: image_header
     background_color: 
     cover: /p/admin/2021/num2b-en.png
-    cover_image_alt:  Issues Collaborating Results
+    cover_image_alt: Issues Collaborating Results
 
   - type: header
     title: Promoting Open Culture 
     cover: /p/admin/2021/2021-b4.png
     icon: university
     background_color: 
-    description: In our world of advanced and increasingly common digital technology, whether it be code, information and data, history and culture or even video and images can all be shared and brought together through digital technology. <br>If “open and transparent” can be turned into a habit, then collaboration and sharing can become the basis for activism amongst civil society. If that happens we would be able to break down the divides between different groups of people and help spread knowledge more easily and effectively. <br>In 2021, OCF remained unthreatened by the pandemic. We continued to find ways to reach broader audiences through news articles,  lecture series and educational courses in order to make more people aware that open culture and cultural openness can truly have a positive impact on society. 
+    description: Our world is increasingly infused with digital technology. Whether it be code, information and data, materials inscribed with our history and culture can all be shared and brought together through digital technology.<br>If “open and transparent” can be turned into a habit, collaboration and sharing can then become the basis for activism amongst civil society. If that truly happens, we would be able to break down the divides between different groups of people and help spread knowledge more easily and effectively.<br>In 2021, OCF was not pushed back by the pandemic. We continued to find ways to reach broader audiences through news articles, lecture series and educational courses in order to make more people aware that open culture and cultural openness can truly have a positive impact on society.<br>The impact of free and open source technology is large and it continues to remain deeply integral to our daily lives. OCF is continuing to support the promotion of open source and open culture in a range of fields. This includes our project “Open Source Newbies” which introduces those unfamiliar with open source to the community; The Openists, a space for all times of technical knowledge sharing, our 5G Open RAN project and many others. In total, we hosted over 20 events with a total of over 800 participants, allowing people to engage with open source through many different channels.
 
   - type: content
     columns:
@@ -149,7 +148,7 @@ items:
         description: The impact of free and open source technology is large and it continues to remain deeply intergral to our daily lives. OCF is continuing to support the promotiong of open souece and open culture in a range of fields. This includes our project “Open Source Newbies” which introduces those unfamiliar with open source to the community; The Openists, a space for all times of technical knowledge sharing, our 5G Open RAN project and many others. In total, we hosted over 20 events with a total of over 800 participants, allowing people to engage with open source through mant different channels. 
         items:
           - title: <a href="https://ocf.tw/p/openists/" target=_blank>The Openists</a>
-          - title: <a href="https://www.youtube.com/watch?v=zNt4JMIYV_4&list=PLFuYOsppHDrl5g6EtVqqs_ZRDsZn76BrL" target=blank>Open Culture Newbies Villiage</a>
+          - title: <a href="https://www.youtube.com/watch?v=zNt4JMIYV_4&list=PLFuYOsppHDrl5g6EtVqqs_ZRDsZn76BrL" target=blank>Open Culture Newbies Village</a>
           - title: <a href="https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=198" target=_blank>Celebration Online for Software Freedom Day 2021</a>
       - type: image
         url: /p/admin/2021/openpromo.png
@@ -159,7 +158,7 @@ items:
       - type: article
         swap: false
         title: 
-        description: Along with our volunteers, OCF has made a board game entitled “OpenStarTerVillage” which hopes to raise awareness about how to participate in open source projects in a fun way. The game also introduces famous open source, open government and open data projects from Taiwan and abroad in both English and Mandarin. We hope we can help promote these projects, and also encourage people from a more diverse range of backgrounds become a part of the open source community. <br>In 2021 we hosted test-runs of the game at the following events. 
+        description: Along with our volunteers, OCF has made a board game entitled “OpenStarTerVillage” which hopes to raise awareness about how to participate in open source projects in a fun way. The game also introduces famous open source, open government and open data projects from Taiwan and abroad in both English and Mandarin. We hope we can help promote these projects, and also encourage people from a more diverse range of backgrounds to become a part of the open source community.<br>In 2021 we hosted test-runs of the game at the following events.
         items:
           - title: Online：COSCUP, SITCON CAMP, g0v hackath44n
           - title: In person：g0v, Hackath47n
@@ -172,11 +171,11 @@ items:
       - type: article
         swap: true
         title: 
-        description: OCF Lab is a news platform operated by OCF which aims to collect, translate and report on a range of civic tech and open source topics. We hope to raise awareness of these issues for the public as we move into the digital age, and provide a platform for learning and knowledge sharing. <br>In 2021,  we published 34 weekly reprots, 55 articles in Mandarin and English, and 25 special issues in collaboration with media organisations.
+        description: OCF Lab is a news platform operated by OCF which aims to collect, translate and report on a range of civic tech and open source topics. We hope to raise awareness of these issues for the public as we move into the digital age, and provide a platform for learning and knowledge sharing.<br>In 2021, we published 34 weekly reports, 55 articles in Mandarin and English, and 25 special issues in collaboration with media organizations.
         items:
           - title: <a href="https://lab.ocf.tw/category/%e9%80%b1%e5%a0%b1/" target=_blank>Global Digital Civil Weekly Post</a>
           - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=_blank>Column Collaboration</a>
-          - title: <a href="https://lab.ocf.tw/category/%e5%b0%88%e6%96%87/" target=_blank>Monograph/Translted and Edited Articles</a>
+          - title: <a href="https://lab.ocf.tw/category/%e5%b0%88%e6%96%87/" target=_blank>Monograph/Translated and Edited Articles</a>
       - type: image
         url: /p/admin/2021/ocflab.png
 
@@ -238,7 +237,7 @@ items:
                OCF Staff：Singing, Rock, Lulu, Rosa, Xini, Claire, kting, TC, huangfu, Leaf, Anima, Sam, weichen, 紅馬, Dreamer.<br>
                2021 OCF Graduates：Yawei, Aiya, 小知.<br>
                Interns：柏均、嘉禕、彥涵、明真、威弘、濰綾.<br>
-               And passionated volunteers：ETBlue, ipa, isabel, Lucien, marr, miaoski, Muka, yayared.
+               And passionated volunteers!
   - type: content
     columns:
       - type: article
@@ -264,7 +263,7 @@ items:
         title: Follow OCF on Social Media
         items: 
           - title: <i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><i class="twitter icon"></i><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
-      - type: article  
+      - type: article
         title: Subscribe EDM
         items: 
           - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF E-Paper</a>
