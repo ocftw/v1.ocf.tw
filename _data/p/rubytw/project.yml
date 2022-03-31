@@ -1,7 +1,7 @@
 name: Ruby Taiwan
 name_en: Ruby Taiwan
 
-description: Ruby Taiwan 社群成立於 2008 年 10 月，主要針對 Ruby 程式語言及軟體開發，舉辦各式講座活動與國際研討會等各式活動，提昇開發人員的技術深度與廣度，增進業界的分享交流，目前舉辦的活動有：Taipei.rb, RubyConf Taiwan, Rails Girls 等。
+description: Ruby Taiwan 是由一群喜愛 Ruby 程式語言的人所組成，他們固定舉辦小聚會、大型研討會，如果你對 Ruby 有興趣，歡迎參加社群活動！
 description_en: 
 
 tagline: 
@@ -19,6 +19,8 @@ topic_ids:
   - rubytw
 field_ids:
   - source
+field_ids:
+  - it
 tags:
 tags_en:
 
