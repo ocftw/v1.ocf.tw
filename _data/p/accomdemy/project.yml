@@ -64,7 +64,7 @@ actions:
     icon: microphone
     color: grey
   - title: 捐款支持伴伴學
-    url: 
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=52
     icon: users
     color: grey
 actions_en:
