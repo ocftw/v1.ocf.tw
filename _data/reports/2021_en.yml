@@ -192,7 +192,7 @@ items:
     - type: article
       swap: false
       title: 2021 OCF Projects Annual Total Income & Expenditure
-      description: Income NT$ 19,144,853<br>Expenditure NT$ 16,148,444<br>Surplus NT$ 2,996,402
+      description: Income NT$ 19,145,153<br>Expenditure NT$ 16,148,451<br>Surplus NT$ 2,996,702
 
   - type: content
     columns:
@@ -213,7 +213,7 @@ items:
     - type: article
       swap: false
       title: 2021 Communities' Projects Annual Total Income & Expenditure
-      description: Income NT$ 21,051,847<br>Expenditure NT$ 12,711,395<br>Surplus NT$ 8,340,452 
+      description: Income NT$ 21,051,847<br>Expenditure NT$ 12,711,705<br>Surplus NT$ 8,340,142 
 
   - type: content
     single_column: true
