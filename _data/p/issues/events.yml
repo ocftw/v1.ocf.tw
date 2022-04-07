@@ -1,6 +1,22 @@
 - id:
   name: 有效打開政府!—— 原青參與政治的新管道
   name_en:
+  description: 公部門有沒有可能主動邀請、開放參與呢?打開政府有沒有可能像打開罐頭一樣簡單呢?2022/4/13,原民小聚移師花蓮,OCF 與原住民青年們站在一起!快來和我們一同了解原青參政的新管道「開放政府」吧!
+  start: 2022/04/13
+  end:
+  links:
+    - title:
+      url: https://ocftw.kktix.cc/events/indigenousog-april
+  cover_image: /p/issues/2022/indiOG_0413.png
+  contributor_ids:
+    - lulukeng
+    - weichen
+  project_ids:
+    - issues
+
+- id:
+  name: 有效打開政府!—— 原青參與政治的新管道
+  name_en:
   description: 原住民族青年們,一起聽聽「開放政府」在台灣的推動狀況、國內外的案例,也聊聊原住民族委員會和其他政府部會目前的承諾事項,以及我們可以如何透過「開放政府」降低門檻,更全面而有效地進入公部門參與政策擬定吧!
   start: 2022/3/8
   end:

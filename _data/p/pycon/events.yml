@@ -151,4 +151,18 @@
   project_ids:
     - pycon
 
-
+- id:
+  name: PyCon APAC 2022
+  name_en: PyCon APAC 2022
+  description: PyCon ,亦即 Python 年會,是全球 Python 社群年度盛會。PyCon 由各地同好自發籌辦,而現在台灣也有自己的 Python 年會了。這個活動旨在聚集台灣各領域應用 Python 的人,交流彼此的經驗心得,分享最新的技術發展,並親身體驗社群獨有的熱情。
+  start: 2022/09/03
+  end: 2022/09/04
+  links:
+    - title: 活動網頁
+      url: https://tw.pycon.org/2022/en-us
+  cover_image: /p/pycon/py2022logo.png
+  contributor_ids:
+    - rock
+    - claire
+  project_ids:
+    - pycon
