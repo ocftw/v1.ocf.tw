@@ -98,8 +98,8 @@ items:
         items:
           - title: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrkm_cFhwh6UkcRCfcCsSZlA" target=_blank>Open Government National Action Plan Cultivation Workshop</a>
           - title: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrksew2NyLeU4APXHzKP2CTK" target=blank>Open Government National Action Plan Weekend Forum</a>
-          - title: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrnH4vHKCErKSgAjoITogjAX" target=_blank>Open Government National Action Plan Online Forum</a>
-          - title: <a href="https://www.ly.gov.tw/Pages/List.aspx?nodeid=43874" target=_blank>Open Government National Action Plan (Legislative Yuan)</a>
+          - title: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrnH4vHKCErKSgAjoITogjAX" target=_blank>Open Government International Virtual Forum</a>
+          - title: <a href="https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=44847&pid=207514" target=_blank>Open Parliament Action Plan (Legislative Yuan)</a>
       - type: image
         url: /p/admin/2021/opengov.jpg
 
@@ -111,7 +111,7 @@ items:
         description: Although digital technology makes our life more convenient, it has also brought with it worries of personal information leaks, privacy infringement, public opinion manipulation, and disinformation. Especially since the outbreak of the COVID-19 pandemic and the implementation of preventive measures, it has become easier for authorities to get hold of personal data. It is thus more crucial than ever to pay attention to protecting our digital human rights.
         items:
           - title: <a href="https://ocf.tw/en/p/eid/" target=_blank>Amend the law and make eID reform more transparent</a>
-          - title: <a href="https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q?view" target=blank>Internet Freedom Meetup</a>
+          - title: <a href="https://lab.ocf.tw/2021/06/20/ogp_taiwan-en/" target=blank>Internet Freedom Meetup</a>
           - title: Participate in more than 20 online international digital security and digital rights meetings.
       - type: image
         url: /p/admin/2021/internetfreedom.png
