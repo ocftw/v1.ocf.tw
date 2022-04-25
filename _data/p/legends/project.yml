@@ -19,24 +19,16 @@ field_ids:
 links: 
   - title: 開源教
     url: https://ocf.tw/p/openists/
-
-links:
   - title: OCF Lab
     url: https://ocf.tw/p/ocflab/
-
-links:
   - title: PTT ID Profiling
     url: https://ocf.tw/p/pttid/
 
 links_en: 
   - title: The Openists
     url: https://ocf.tw/p/openists/
-
-links_en:
   - title: OCF Lab
     url: https://ocf.tw/p/ocflab/
-
-links_en:
   - title: PTT ID Profiling
     url: https://ocf.tw/p/pttid/
 
