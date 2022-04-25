@@ -1,0 +1,53 @@
+name: 專案名人堂
+name_en: Legends (CLOSED Proejcts)
+
+description: 這些專案已經結束啦！過去累積一篇又一篇的討論和想法，都是我們推動社會的正向力量，每個專案都有許多的主題與能量，歡迎來看看！雖然我們未來不再更新他們，但裡面的內容能讓我們一起分享和自主學習！
+
+description_en: 
+og_image: /p/legends/legends-og.png
+header_image: /p/legends/legends-og.png
+avatar_image: /p/legends/legends-og.png
+theme_color: teal
+
+start: 
+end: 
+
+
+topic_ids:
+field_ids:
+
+links: 
+  - title: 開源教
+    url: https://ocf.tw/p/openists/
+
+links:
+  - title: OCF Lab
+    url: https://ocf.tw/p/ocflab/
+
+links:
+  - title: PTT ID Profiling
+    url: https://ocf.tw/p/pttid/
+
+links_en: 
+  - title: The Openists
+    url: https://ocf.tw/p/openists/
+
+links_en:
+  - title: OCF Lab
+    url: https://ocf.tw/p/ocflab/
+
+links_en:
+  - title: PTT ID Profiling
+    url: https://ocf.tw/p/pttid/
+
+
+organizer_ids:
+  - ocf
+sponsor_ids:
+
+coordinator_ids:
+
+board_ids: 
+staff_ids: 
+listed: yes
+listed_en: 

@@ -61,7 +61,7 @@ board_ids:
 staff_ids:
   - rock
 
-listed: yes
+listed: 
 listed_en: 
 
 reports:
