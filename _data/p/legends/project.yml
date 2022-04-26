@@ -17,20 +17,32 @@ topic_ids:
 field_ids:
 
 links: 
-  - title: 開源教
-    url: https://ocf.tw/p/openists/
-  - title: OCF Lab
-    url: https://ocf.tw/p/ocflab/
-  - title: PTT ID Profiling
-    url: https://ocf.tw/p/pttid/
+  - title: 開源教播放清單 (YouTube)
+    url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnkhreO8LEfKwclaSAmKvf-
+  - title: 開源教簡報下載
+    url: https://drive.google.com/drive/folders/1SrYPdIYyOF0kBEkIetuIf82L1u6PceWv
+  - title: PTT ID Profiling 爬蟲工具
+    url: https://github.com/ocftw/PttCrawler
+  - title: PTT ID Profiling 分析工具
+    url: https://github.com/ocftw/anomaly_detection_in_PTT_forum
+  - title: PTT ID Profiling 分析報告 (CC BY-SA 4.0)
+    url: https://drive.google.com/open?id=1FGB-kbNtRz11FU__0nomJioB146qw2fW
+  - title: PTT ID Profiling 原始分析資料檔案（本資料爬取自 PTT 網站，皆為網路上公開的資料，如果您希望移除個人發言資訊，請 Email 聯絡我們）
+    url: https://drive.google.com/open?id=1GvxUiD4LLU8xyXVkzXsxB_4MGJ1x2b3K
 
 links_en: 
-  - title: The Openists
-    url: https://ocf.tw/p/openists/
-  - title: OCF Lab
-    url: https://ocf.tw/p/ocflab/
-  - title: PTT ID Profiling
-    url: https://ocf.tw/p/pttid/
+  - title: The Openists playlist (YouTube)
+    url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnkhreO8LEfKwclaSAmKvf-
+  - title: The Openists slides download
+    url: https://drive.google.com/drive/folders/1SrYPdIYyOF0kBEkIetuIf82L1u6PceWv
+  - title: PTT ID Profiling crawler
+    url: https://github.com/ocftw/PttCrawler
+  - title: PTT ID Profiling analyzing tool
+    url: https://github.com/ocftw/anomaly_detection_in_PTT_forum
+  - title: PTT ID Profiling report (CC BY-SA 4.0)
+    url: https://drive.google.com/open?id=1FGB-kbNtRz11FU__0nomJioB146qw2fW
+  - title: PTT ID Profiling raw data（The data is public access and downloaded from PTT public forum, if you wish to remove the data that contains your personal speech, please contact us.)
+    url: https://drive.google.com/open?id=1GvxUiD4LLU8xyXVkzXsxB_4MGJ1x2b3K
 
 
 organizer_ids:
@@ -42,4 +54,4 @@ coordinator_ids:
 board_ids: 
 staff_ids: 
 listed: yes
-listed_en: 
+listed_en: yes
