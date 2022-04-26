@@ -29,8 +29,6 @@ links:
     url: https://github.com/ocftw/PttCrawler
   - title: 分析工具
     url: https://github.com/ocftw/anomaly_detection_in_PTT_forum
-  - title: 工具教學 (擱置中，歡迎捐款支持！)
-    url:
   - title: 分析報告 (CC BY-SA 4.0)
     url: https://drive.google.com/open?id=1FGB-kbNtRz11FU__0nomJioB146qw2fW
   - title: 原始分析資料檔案（本資料爬取自 PTT 網站，皆為網路上公開的資料，如果您希望移除個人發言資訊，請 Email 聯絡我們）
