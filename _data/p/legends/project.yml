@@ -25,18 +25,12 @@ links:
     url: https://ocf.tw/p/pttid/
 
 links_en: 
-  - title: The Openists playlist (YouTube)
-    url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnkhreO8LEfKwclaSAmKvf-
-  - title: The Openists slides download
-    url: https://drive.google.com/drive/folders/1SrYPdIYyOF0kBEkIetuIf82L1u6PceWv
-  - title: PTT ID Profiling crawler
-    url: https://github.com/ocftw/PttCrawler
-  - title: PTT ID Profiling analyzing tool
-    url: https://github.com/ocftw/anomaly_detection_in_PTT_forum
-  - title: PTT ID Profiling report (CC BY-SA 4.0)
-    url: https://drive.google.com/open?id=1FGB-kbNtRz11FU__0nomJioB146qw2fW
-  - title: PTT ID Profiling raw data（The data is public access and downloaded from PTT public forum, if you wish to remove the data that contains your personal speech, please contact us.)
-    url: https://drive.google.com/open?id=1GvxUiD4LLU8xyXVkzXsxB_4MGJ1x2b3K
+  - title: OCF Lab - A hub of open, technology and knowledges
+    url: https://lab.ocf.tw/
+  - title: The Openists - A stage for people sharing knowledges openly 
+    url: https://ocf.tw/p/openists/
+  - title: PTT ID Profiling - Open source analyzing tools and report of misinformation on social media
+    url: https://ocf.tw/p/pttid/
 
 
 organizer_ids:
