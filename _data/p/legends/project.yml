@@ -17,18 +17,12 @@ topic_ids:
 field_ids:
 
 links: 
-  - title: 開源教播放清單 (YouTube)
-    url: https://www.youtube.com/playlist?list=PLFuYOsppHDrnkhreO8LEfKwclaSAmKvf-
-  - title: 開源教簡報下載
-    url: https://drive.google.com/drive/folders/1SrYPdIYyOF0kBEkIetuIf82L1u6PceWv
-  - title: PTT ID Profiling 爬蟲工具
-    url: https://github.com/ocftw/PttCrawler
-  - title: PTT ID Profiling 分析工具
-    url: https://github.com/ocftw/anomaly_detection_in_PTT_forum
-  - title: PTT ID Profiling 分析報告 (CC BY-SA 4.0)
-    url: https://drive.google.com/open?id=1FGB-kbNtRz11FU__0nomJioB146qw2fW
-  - title: PTT ID Profiling 原始分析資料檔案（本資料爬取自 PTT 網站，皆為網路上公開的資料，如果您希望移除個人發言資訊，請 Email 聯絡我們）
-    url: https://drive.google.com/open?id=1GvxUiD4LLU8xyXVkzXsxB_4MGJ1x2b3K
+  - title: OCF Lab - 開放與科技的新知匯集
+    url: https://lab.ocf.tw/
+  - title: 開源教 - 一個讓開源人分享學習的舞台
+    url: https://ocf.tw/p/openists/
+  - title: PTT ID Profiling - 用開源的方式側寫那些怪怪的 PTT 帳號
+    url: https://ocf.tw/p/pttid/
 
 links_en: 
   - title: The Openists playlist (YouTube)
