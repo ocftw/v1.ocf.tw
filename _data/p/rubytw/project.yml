@@ -1,0 +1,51 @@
+name: Ruby Taiwan
+name_en: Ruby Taiwan
+
+description: Ruby Taiwan 是由一群喜愛 Ruby 程式語言的人所組成，他們固定舉辦小聚會、大型研討會，如果你對 Ruby 有興趣，歡迎參加社群活動！
+description_en: 
+
+tagline: 
+tagline_en: 
+
+og_image: /p/rubytw/rubytw-logo.png
+header_image: 
+avatar_image: 
+theme_color: blue
+
+start: 
+end: 
+
+topic_ids:
+  - rubytw
+field_ids:
+  - source
+field_ids:
+  - it
+tags:
+tags_en:
+
+actions:
+  - title: Ruby Taiwan 網站
+    url: https://ruby.tw/
+    color: yellow
+    icon: global
+  - title: Ruby Taiwan Facebook
+    url: https://www.facebook.com/ruby.taiwan/
+    color: green
+    icon: facebook
+
+
+organizer_ids:
+  - rubytw
+co-organizer_ids:
+
+consultant_ids:
+
+board_ids:
+staff_ids:
+  - rock
+
+listed: yes
+listed_en: 
+
+reports:

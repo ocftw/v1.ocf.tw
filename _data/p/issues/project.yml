@@ -24,7 +24,7 @@ links:
 
 links_en:
   - title: Internet Freedom meetup
-    url: https://ocf.tw/p/issues/internetfreedom
+    url: https://ocf.tw/en/p/issues/coffeeandcircumventionen
     icon: 
   - title: eID
     url: https://ocf.tw/en/p/eid/
@@ -33,7 +33,7 @@ links_en:
     url: https://lab.ocf.tw/2020/03/18/opendatanext-eng/
     icon: 
   - title: Open Government
-    url: https://opengovreport.ocf.tw/#tab-0
+    url: https://lab.ocf.tw/2021/06/20/ogp_taiwan-en/
     icon: 
   - title: Open Source and Security for 5G
     url: https://ocf.tw/p/issues/2020/5G.html

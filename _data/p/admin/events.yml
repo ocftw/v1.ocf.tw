@@ -21,3 +21,16 @@
   host_ids:
   speaker_ids:
   banner:
+
+- id:
+  name: OCF 春季派對 2022
+  name_en: OCF SPRING PARTY 2022
+  description: ALL MONEY BACK ME HOME! OCF 春季派對回來啦,感謝開源各界對開放文化基金會的支持與愛護,睽違兩年沒有舉辦的春酒,今年終於在疫情漸趨平緩的情況下,得以春季派對的形式,讓我們在春神快離走前相聚。2021 年,在 COVID-19 疫情影響下,OCF 依舊支援了 30+ 個社群專案、發起或協力舉辦 7+場線上活動,透過法人服務 (Fiscal Sponsor) 支持開源、科技社群茁壯發展,發揮更多社會影響力。 OCF 期許自己能打造一個健康的環境,與更多社群一起關心議題、開創更多專案。OCF 誠摯地邀請各位,在春暖花開的 4 月 17 日到張榮發基金會國際會議中心 603 室,回顧 OCF 2021 成果之外,也能一起享受春季的美好喔!
+  start: 2022/04/17
+  end:
+  links:
+    - title: 報名頁面
+      url: https://ocftw.kktix.cc/events/ocf-spring-2022
+  cover_image: /p/admin/2022/2022_spring_party.png
+  project_ids:
+    - admin
