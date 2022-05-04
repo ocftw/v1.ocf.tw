@@ -43,7 +43,7 @@ links:
     color: green
     icon: world icon
 links_en:
-   - title: RDR Official website
+  - title: RDR Official website
     url: https://rankingdigitalrights.org 
     color: green
     icon: world icon
