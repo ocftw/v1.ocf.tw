@@ -6,10 +6,11 @@ description: 數位時代，人權的伸張與資訊產品和服務息息相關�
 description_en: In the digital era, the promotion of human rights and data-based services and products are intimately connected. OCF and our international partners are using knowledge as power, and using international standards to evaluate the standards related to free-speech management and personal information protection used by Taiwanese corporations.
 
 
-tagline: 
-tagline_en: 
+tagline: 用知識達成責信 
+tagline_en: From Knowledge to Accountability
 
-og_image: /p/RDR/RDR-logo.jpeg
+og_image: /p/rdr/rdr-logo.jpeg
+og_image_en: /p/rdr/rdr-logo.jpeg
 header_image: 
 avatar_image: 
 theme_color: blue
@@ -63,7 +64,7 @@ co-organizer_ids:
 consultant_ids:
 
 board_ids:
-  - clkao
+
 staff_ids:
   - Singing
   - Lulu
