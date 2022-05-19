@@ -33,9 +33,9 @@ subscribe:
   - title: Blog
     url: http://blog.ocf.tw/
     icon: rss
-  - title: OCFLab
-    url: https://lab.ocf.tw/
-    icon: rss
+#  - title: OCFLab
+#    url: https://lab.ocf.tw/
+#    icon: rss
   - title: Facebook
     url: https://www.facebook.com/www.ocf.tw
     icon: facebook
