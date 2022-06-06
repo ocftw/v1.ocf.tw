@@ -33,9 +33,9 @@ subscribe:
   - title: Blog
     url: http://blog.ocf.tw/
     icon: rss
-  - title: OCFLab
-    url: https://lab.ocf.tw/
-    icon: rss
+#  - title: OCFLab
+#    url: https://lab.ocf.tw/
+#    icon: rss
   - title: Facebook
     url: https://www.facebook.com/www.ocf.tw
     icon: facebook
@@ -58,8 +58,8 @@ join:
   - title: 徵才資訊
     url: http://blog.ocf.tw/2019/04/jobs.html
     icon: text file outline
-  - title: 服務學習
-    url: http://blog.ocf.tw/2020/10/blog-post.html
+  - title: 實習佈告
+    url: http://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92
     icon: text file outline
   - title: 媒體區
     url: /mediakit

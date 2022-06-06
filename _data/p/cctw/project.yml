@@ -58,7 +58,7 @@ actions:
     url: https://goo.gl/forms/Uo9EP4GHNnbnLlBt2
     icon: microphone
     color: grey
-  - title: 加入 CC Taiwan Chapter
+  - title: 參與社群簡單自介
     url: mailto:cc@ocf.tw
     icon: users
     color: grey

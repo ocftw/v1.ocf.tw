@@ -9,19 +9,19 @@ description_en: In the digital era, the promotion of human rights and data-based
 tagline: 用知識達成責信 
 tagline_en: From Knowledge to Accountability
 
-og_image: /p/rdr/rdr-logo.jpeg
-og_image_en: /p/rdr/rdr-logo.jpeg
-header_image: 
-avatar_image: 
+og_image: /p/rdr/rdrlogo.jpeg
+og_image_en: /p/rdr/rdrlogo.jpeg
+header_image: /p/rdr/rdrlogo.jpeg
+avatar_image: /p/rdr/rdrlogo.jpeg
 theme_color: blue
 
 start: 
 end: 
 
 topic_ids:
-  - misc
+  - 
 field_ids:
-  - misc
+  - 
 tags:
 tags_en:
 
