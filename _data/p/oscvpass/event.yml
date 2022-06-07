@@ -5,8 +5,8 @@
   start: 2022/06/12
   end:
   links:
-  - title: 申請說明頁
-    url: https://oscvpass.ocf.tw/
+    - title: 申請說明頁
+      url: https://oscvpass.ocf.tw/
   cover_image: /p/oscvpass/2022/oscvpasswork2022.png
   contributor_ids:
     - leaf
