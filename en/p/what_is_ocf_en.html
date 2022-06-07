@@ -2,14 +2,9 @@
 layout: global
 og_title: About OCF
 og_description: 
-toc:
-  The Origins of Open Source: The Origins of Open Source
+
 
 ---
-
-
-
-<main id="about">
 
 <div class="ui center aligned stripe container">
   <h1 class="ui icon header">
@@ -18,63 +13,6 @@ toc:
     </i>
     {{ page.og_title }}
   </h1>
-  <p> {{ site.data.people.orgs.ocf.slogan }}</p>
-
-  <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
-    <div class="ui dropdown item">
-      <span data-content="current">跳至...</span>
-      <i class="dropdown icon"></i>
-      <div class="menu">
-
-        {% for article in page.toc %}
-        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
-        {% endfor %}
-
-      </div>
-    </div>
-  </nav>
-
-</div>
-
-<hr class="ui hidden divider" />
-
-<div class="ui stripe container">
-  <div class="ui two column stackable grid">
-
-    <div id="toc" data-context="desktop" class="six wide column">
-      <nav class="ui secondary sticky vertical pointing fluid menu">
-
-        {% for article in page.toc %}
-        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
-        {% endfor %}
-
-      </nav>
-    </div>
-
-    <div class="ten wide column">
-
-      {% for article in page.toc %}
-      {% assign id = article[0] %}
-
-      <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
-
-      {% include_relative {{ id }}.html %}
-
-      {% endfor %}
-
-    </div>
-
-  </div>
-</div>
-
-<section id="ads" class="ui vertical segment">
-  <div class="ui stripe container">
-    {% include banner_cta.html %}
-  </div>
-</section>
-
-</main>
-
 
 <p>Learn more about our activism, our history, and our core values.</p> 
 <h3 class="ui header">The Origins of Open Source</h3> 
@@ -118,5 +56,5 @@ toc:
 <p>Our expenses include administrative, event, and office operating costs. Our Funding mainly comes through two channels: 1) the collection of service fees from the communities we support and 2) regular and fixed donations.</p> 
  <p>As a fiscal sponsor for open tech communities, in addition to collecting our own administrative fund, funds that are donated to each community project is earmarked for that project specifically.</p> 
  
-Our annual reports include a detailed account of our income and expenses each year. 
-
+<p>Our annual reports include a detailed account of our income and expenses each year. </p>
+</div>
