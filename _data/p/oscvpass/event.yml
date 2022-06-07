@@ -1,0 +1,16 @@
+- id:
+  name: OSCVPass x SITCON Workshop
+  name_en: OSCVPass x SITCON Workshop
+  description: 去年在疫情影響下，與 OSCVPass 合作的研討會多半轉為線上活動、以致 OSCVPass 申請人數下降。於此，今年我們將與 OSCVPass 合作社群：SITCON、COSCUP x g0v jothon，分別舉辦兩場次 (6/12 SITCON、6/18 COSCUP x g0v jothon) 的開源貢獻工作坊，透過推廣活動，讓更多人了解什麼是開源貢獻，以及如何做開源貢獻。
+  start: 2022/06/12
+  end:
+  links:
+  - title: 申請說明頁
+    url: https://oscvpass.ocf.tw/
+  cover_image: /p/oscvpass/2022/oscvpasswork2022.png
+  contributor_ids:
+    - leaf
+    - Renwei
+  project_ids:
+    - oscvpass
+    - sitcon
