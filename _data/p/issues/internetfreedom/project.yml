@@ -10,7 +10,7 @@ links_en:
 actions:
   - title: 活動共筆
     url: https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q
-    icon: global
+    icon: cloud
     color: green
 organizer_ids:
 listed: yes
