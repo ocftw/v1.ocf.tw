@@ -8,9 +8,9 @@ avatar_image:
 links:
 links_en:
 actions:
-  - title: 捐款支持
-    url: http://ocf.tw/300
-    icon: dollar
+  - title: 活動共筆
+    url: https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q
+    icon: fist
     color: green
 organizer_ids:
 listed: yes
