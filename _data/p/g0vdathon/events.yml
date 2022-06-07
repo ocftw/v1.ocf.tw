@@ -12,9 +12,7 @@
   cover_image: https://t.kfs.io/upload_images/146915/g0v-hackathon-50n_large.jpg
   contributor_ids:
   project_ids:
-    - g0vdathon
-    - coscup
-    - oscvpass
+    - g0vdathon;coscup;oscvpass
 
 
 - id: 
