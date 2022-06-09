@@ -5,14 +5,25 @@ og_description:
 
 
 ---
+<main id="freestyle">
 
-<div class="ui center aligned stripe container">
-  <h1 class="ui icon header">
-    <i class="circular icon">
-      <i class="fas fa-seedling"></i>
-    </i>
-    {{ page.og_title }}
-  </h1>
+{% include e/header.html %}
+
+<div class="ui container">
+  <section id="content">
+    {% if page.og_image %}
+    <img class="ui fluid image" src="{{ page.og_image }}" alt="Cover image for '{{ page.og_title }}'" />
+    {% else %}
+    <div></div>
+    {% endif %}
+
+    <h2 class="ui header">
+      {{ page.og_title }}
+    </h2>
+    <div class="ui basic secondary segment">
+      {{ page.og_description }}
+    </div>    
+  
 
 <p>Learn more about our activism, our history, and our core values.</p> 
 <h3 class="ui header">The Origins of Open Source</h3> 
@@ -57,4 +68,20 @@ og_description:
  
 <p>Our annual reports include a detailed account of our income and expenses each year. </p>
 <p><a href="https://ocf.tw/en/">Back to main page to check them out.</a></p>
+
+    <div class="ui hidden divider"></div>
+  </section>
+</div>
+
+</main>
+
+
+<div class="ui center aligned stripe container">
+  <h1 class="ui icon header">
+    <i class="circular icon">
+      <i class="fas fa-seedling"></i>
+    </i>
+    {{ page.og_title }}
+  </h1>
+
 </div>
