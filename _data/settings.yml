@@ -31,6 +31,8 @@ menu:
 
 
 menu_en:
+  - title: About
+    url: /en/p/what_is_ocf_en.html
   - title: Our Projects
     url: /en/p/ocf
   - title: Community Projects
