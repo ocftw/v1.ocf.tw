@@ -13,7 +13,7 @@ og_image: /p/openstarter/cover.png
 og_image_en: /p/openstarter/cover.png
 header_image: /p/openstarter/banner.png
 avatar_image: /p/openstarter/cover.png
-theme_color: gold
+theme_color: yellow
 
 start: 
 end: 
@@ -28,11 +28,11 @@ tags_en:
 links:
   - title: 開源星手村 官方網站
     url: https://sites.google.com/ocf.tw/openstarter/home
-    color: green
+    color: yellow
     icon: world icon
   - title: 開源星手村 Discord
     url: https://discord.com/channels/920674931438669874/
-    color: green
+    color: yellow
     icon: discord icon
 
 links_en:
