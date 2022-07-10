@@ -1,13 +1,13 @@
 name: 開源星手村
-name_en: Open StarTer Village 
- 
+name_en: Open StarTer Village
+
 
 description: 「開源是開放軟體嗎？我不會寫程式能做嗎？」常聽到這樣的疑問，但其實每種開源專案需要的都不只是單一種人才，開源文化也不只是軟體，而是一種精神。這款桌遊的誕生，就是希望能透過沉浸式學習，讓更多人了解什麼是開放文化的精神，未來一起做出更多酷酷的專案（⁎⁍̴̛ᴗ⁍̴̛⁎）
-description_en: 
+description_en:
 
 
 tagline: 一款給所有人的開源桌遊
-tagline_en: 
+tagline_en:
 
 og_image: /p/openstarter/cover.png
 og_image_en: /p/openstarter/cover.png
@@ -15,14 +15,14 @@ header_image: /p/openstarter/banner.png
 avatar_image: /p/openstarter/cover.png
 theme_color: yellow
 
-start: 
-end: 
+start:
+end:
 
 topic_ids:
-  - 
+  -
 field_ids:
-  - 
-tags: 
+  -
+tags:
 tags_en:
 
 links:
@@ -31,7 +31,7 @@ links:
     color: yellow
     icon: world icon
   - title: 開源星手村 Discord
-    url: https://discord.com/channels/920674931438669874/
+    url: https://discord.gg/JnTHGnxwYS
     color: yellow
     icon: discord icon
 
@@ -41,14 +41,14 @@ links_en:
     color: green
     icon: world icon
   - title: Open StarTer Village Discord
-    url: https://discord.com/channels/920674931438669874/
+    url: https://discord.gg/JnTHGnxwYS
     color: green
     icon: discord icon
 
 organizer_ids:
   - ocf
-co-organizer_ids: 
-consultant_ids: 
+co-organizer_ids:
+consultant_ids:
 
 board_ids:
 
