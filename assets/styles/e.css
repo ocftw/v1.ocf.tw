@@ -36,8 +36,13 @@
 
 #event .single.column {
   width: 80%;
-  min-width: 768px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1023px) {
+  #event .single.column {
+    width: 100%;
+  }
 }
 
 #event .ui.two.column.grid {
