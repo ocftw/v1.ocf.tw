@@ -1,0 +1,77 @@
+---
+layout: global
+og_title: 關於我們
+og_description: 開放文化就在身邊，影響著每天生活！開源技術的發展背後其實都有看不見的一隻手？我們為您來解密！
+toc:
+  what_is_ocf: 關於 OCF
+  join_us: 加入我們
+  contact_us: 聯絡方式
+  in_the_news: 新聞集錦
+  website: 關於本網站
+---
+
+<main id="about">
+
+<div class="ui center aligned stripe container">
+  <h1 class="ui icon header">
+    <i class="circular icon">
+      <i class="fas fa-seedling"></i>
+    </i>
+    {{ page.og_title }}
+  </h1>
+  <p> {{ site.data.people.orgs.ocf.slogan }}</p>
+
+  <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
+    <div class="ui dropdown item">
+      <span data-content="current">跳至...</span>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+
+        {% for article in page.toc %}
+        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
+        {% endfor %}
+
+      </div>
+    </div>
+  </nav>
+
+</div>
+
+<hr class="ui hidden divider" />
+
+<div class="ui stripe container">
+  <div class="ui two column stackable grid">
+
+    <div id="toc" data-context="desktop" class="six wide column">
+      <nav class="ui secondary sticky vertical pointing fluid menu">
+
+        {% for article in page.toc %}
+        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
+        {% endfor %}
+
+      </nav>
+    </div>
+
+    <div class="ten wide column">
+
+      {% for article in page.toc %}
+      {% assign id = article[0] %}
+
+      <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
+
+      {% include_relative {{ id }}.html %}
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+</div>
+
+<section id="ads" class="ui vertical segment">
+  <div class="ui stripe container">
+    {% include banner_cta.html %}
+  </div>
+</section>
+
+</main>
