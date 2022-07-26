@@ -1,4 +1,19 @@
 - id:
+  name: JobFair
+  name_en: JobFair
+  description: 參加由 TeamCommunity 主辦的線上數位人權徵才會，進行東亞狀況分享和人才募集。
+  start: 2022/06/16
+  end: 2022/06/17
+  links:
+    - title: 活動網頁
+      url: https://www.digitalrights.community/job-board
+  cover_image: 
+  contributor_ids:
+  project_ids:
+    - issues
+
+
+- id:
   name: 有效打開政府!—— 原青參與政治的新管道
   name_en:
   description: 公部門有沒有可能主動邀請、開放參與呢?打開政府有沒有可能像打開罐頭一樣簡單呢?2022/4/13,原民小聚移師花蓮,OCF 與原住民青年們站在一起!快來和我們一同了解原青參政的新管道「開放政府」吧!

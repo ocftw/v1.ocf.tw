@@ -36,6 +36,11 @@
 
 #freestyle #content {
   width: 80%;
-  min-width: 768px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1023px) {
+  #freestyle #content {
+    width: 100%;
+  }
 }
