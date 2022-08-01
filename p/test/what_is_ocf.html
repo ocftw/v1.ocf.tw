@@ -1,4 +1,5 @@
 <h2 class="ui header">開放文化基金會 (Open Culture Foundation，簡稱 OCF) </h2>
+<img src="/about/kaifang.png" title="開放文化" border="0">
 <p>
 是一個非營利性的組織。透過推廣開放科技和跨界合作，在台灣持續的銜繫科技社群與其他公／私領域，來促成開放共創保障數位人權、支持透明涵融的數位公民社會。
 </p>
@@ -70,7 +71,7 @@
 <li>數位人權(Digital Rights)：數位權即是數位人權。數位人權的兩種意涵：第一，既有人權類別（例如隱私權）在數位世界的實踐；第二，由於新興資訊通訊科技的普及而產生的、符合人權範疇的新型態權利（例如網路可及性）  
 </ul>
 </p>
-<img src="/about/kaifang.png" title="開放文化" border="0">
+
 <h2 class="ui header">組織文化</h2>
 
 <h3 class="ui header">公開、透明、眾人參與</h3>
@@ -120,61 +121,7 @@
     <li>本會之知識產出皆以 CC 授權釋出。於工作使用工具上，盡量以開源軟體為主。
     </ul>  
 </ul>
-<h2 class="ui header"> 歷年成果</h2>
 
-<p>
-OCF的經費來源主要是透過對社群收取服務費用、專案承攬、定期定額的捐款，以及單次性的捐贈等。這些經費除了使用在每月固定的行政開銷費用(行政、辦公室營運等)之外，多使用於專案支持、活動辦理等業務進行。 OCF主要業務之一為協助開源社群行政及財務管理，其各社群在 OCF 的捐款收入皆為各自社群之捐款收入，OCF 僅盡代管之責。
-每年業務成果、收支情形及社群協助狀況等，詳細請見 OCF 年度報告：
-</p>
-
-<div class="ui list">
-{% assign i = site.data.settings.current %}
-{% for item in site.data.reports %}
-{% unless item[0] contains "_" %}
-  {% assign i = i | minus:1 %}
-  <div class="item">
-    <a href="/p/{{ i }}" target="_blank">
-      <i class="globe icon"></i>
-      {{ i }} 年成果報告
-    </a>
-  </div>
-{% endunless %}
-{% endfor %}
-  <div class="item">
-    <a href="https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=1" target="_blank">
-      <i class="globe icon"></i>
-      2014 年成果報告
-    </a>
-  </div>
-</div>
-
-<h2 class="ui header"> OCF 公開徵信</h2>
-
-<p>
-OCF是一個從開源社群發起的非營利組織，每一筆的收入和捐贈都是大家支持我們的力量。本會詳細捐款/捐物徵信資料每半年會更新在官網上，公開予大眾以進行徵信。詳細資訊請見：
-</p>
-<div class="ui list">
-  <div class="item">
-    <a href="http://blog.ocf.tw/search/label/捐款徵信" target="_blank">
-      <i class="icon globe"></i>
-      捐款徵信
-    </a>
-  </div>
-  <div class="item">
-    <a href="http://blog.ocf.tw/search/label/捐物徵信" target="_blank">
-      <i class="icon globe"></i>
-      捐物徵信
-    </a>
-  </div>
-  <!--
-  <div class="item">
-    <a href="" target="_blank">
-      <i class="icon globe"></i>
-      財務報表
-    </a>
-  </div>
-  -->
-</div>
 
 
 
