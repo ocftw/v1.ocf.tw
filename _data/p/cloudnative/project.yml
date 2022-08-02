@@ -32,6 +32,14 @@ metas_en:
 links:
   - title: 贊助社群
     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=29
+  - title: 社群網站
+    url: https://cloudnative.tw
+  - title: YouTube
+    url: https://www.youtube.com/channel/UCoYY8K9fbfDtTY7m68UCATA
+  - title: GitHub
+    url: https://github.com/cloud-native-taiwan
+  - title: Telegram
+    url: https://t.me/cntug
 links_en:
 
 actions:
