@@ -16,3 +16,18 @@
   project_ids:
     - openchain
   reports_en:
+
+- id:
+  name: 2022 OpenChain Taiwan Meetup
+  name_en:
+  description: OpenChain 協助產業在碰觸或思索開源合規 (Open Source Compliance) 爭議或政策時,有一套流程可以提供參考!這場工作坊將會介紹 OpenChain 專案,並邀請國內外的開源合規專家來分享實務經驗,以及在過程中如何克服遭遇到的困難。
+  start: 2022/08/26
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://openchain.kktix.cc/events/openchain220826
+  contributor_ids:
+    - Singing
+    - Claire
+  project_ids:
+    - openchain
