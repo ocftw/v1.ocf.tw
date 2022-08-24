@@ -1,8 +1,8 @@
 name: 伴伴學 Accomdemy - 陪伴科技學習
-name_en: Accomdemy
+name_en: Accomdemy = Accompany + Academy
 
 description: 伴伴學 Accomdemy 是由一群來自科技、新創與教育等不同領域的夥伴們所發起的自學社群。
-description_en: 
+description_en: Accomdemy.org is an open source non-profit co-learning community. We are a group of tech enthusiasts have the same vision of using technology to make self-learning fun and not lonely.
 
 abbr: 
 abbr_en: 
@@ -91,6 +91,6 @@ staff_ids:
   - rock
 
 listed: yes
-listed_en: 
+listed_en: yes
 
 reports:
