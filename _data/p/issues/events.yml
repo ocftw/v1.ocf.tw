@@ -1,4 +1,22 @@
 - id:
+  name: 2022【突破論壇】 虛擬世界、真實人們：元宇宙中的人權省思
+  name_en: 
+  description: 「元宇宙」浪潮興起，穿戴式裝置結合個人生活應用，正悄無聲息地侵犯我們的隱私權。邀請政治大學法律學系廖元豪副教授、台北市政府資訊局呂新科局長、微軟全球助理法務長施立成總經理、開放文化基金會李柏鋒董事長與談，並由本會執行長蔡玉玲律師主持，從法律面、公部門、企業面、公民團體角度，深度剖析元宇宙發展中，科技與人權隱私保護的平衡點。本次論壇邀請政治大學法律學系廖元豪副教授、台北市政府資訊局呂新科局長、微軟全球助理法務長施立成總經理、開放文化基金會李柏鋒董事長與談，並由本會執行長蔡玉玲律師主持，從法律面、公部門、企業面、公民團體角度，深度剖析元宇宙發展中，科技與人權隱私保護的平衡點。
+  start: 2022/09/17
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://forms.gle/FHsbrCRbWwsMuNWY8
+      title: 活動簡介 
+      url: http://fairwindsfoundation.org/activity/%E7%AA%81%E7%A0%B4%E8%AB%96%E5%A3%87/2/2022%E3%80%90%E7%AA%81%E7%A0%B4%E8%AB%96%E5%A3%87%E3%80%91%E8%99%9B%E6%93%AC%E4%B8%96%E7%95%8C%E3%80%81%E7%9C%9F%E5%AF%A6%E4%BA%BA%E5%80%91%EF%BC%9A%E5%85%83%E5%AE%87%E5%AE%99%E4%B8%AD%E7%9A%84%E4%BA%BA%E6%AC%8A%E7%9C%81%E6%80%9D/92
+  cover_image: /p/issues/2022/突破論壇.jpg
+  contributor_ids:
+    - SzuHui
+  project_ids:
+    - issues
+
+
+- id:
   name: 數位中介服務法草案討論會 (II)
   name_en: 
   description: 言論自由、錯假訊息、民主韌性、平台責任、檢舉下架與異議申復、一頁式詐騙、透明度報告、網路中立與安全港，數位中介服務法草案，99 個願望一次滿足？歡迎大家一起參與，讓我們針對目前的草案逐條討論。（9/17 將從第五章第 22 條開始討論）
@@ -42,7 +60,7 @@
       url: https://moztw.kktix.cc/events/digital-service-act
     - title: 會議筆記分享
       url: https://g0v.hackmd.io/@irvin/20220827-digital-act
-  cover_image: p/issues/2022/20220827event.jpg
+  cover_image: /p/issues/2022/20220827event.jpg
   contributor_ids:
     - Singing
     - SzuHui
