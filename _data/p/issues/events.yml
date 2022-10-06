@@ -1,4 +1,55 @@
 - id:
+  name: 數位中介服務法草案討論會 (II)
+  name_en: 
+  description: 言論自由、錯假訊息、民主韌性、平台責任、檢舉下架與異議申復、一頁式詐騙、透明度報告、網路中立與安全港，數位中介服務法草案，99 個願望一次滿足？歡迎大家一起參與，讓我們針對目前的草案逐條討論。（9/17 將從第五章第 22 條開始討論）
+  start: 2022/09/17
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://moztw.kktix.cc/events/digital-service-act-2
+  cover_image: /p/issues/2022/20220917event.jpg
+  contributor_ids:
+    - Singing
+  project_ids:
+    - issues
+
+- id:
+  name: 與唐鳳聊聊數位部
+  name_en: Chat with AU @ Moda
+  description: 與唐鳳一起討論數位部的未來。
+  start: 2022/08/06
+  end: 
+  links:
+    - title: 活動記錄
+      url: https://hackmd.io/U2xAr-aCRGamvjerzFjGKQ?both
+  cover_image: 
+  contributor_ids:
+    - Singing
+    - Chia-Shuo
+    - Lulu
+    - SzuHui
+  project_ids:
+    - issues
+
+- id:
+  name: 數位中介服務法草案討論會
+  name_en: 
+  description: 言論自由、錯假訊息、民主韌性、平台責任、檢舉下架與異議申復、一頁式詐騙、透明度報告、網路中立與安全港，數位中介服務法草案，99 個願望一次滿足？歡迎大家一起參與，讓我們針對目前的草案逐條討論。
+  start: 2022/08/27
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://moztw.kktix.cc/events/digital-service-act
+    - title: 會議筆記分享
+      url: https://g0v.hackmd.io/@irvin/20220827-digital-act
+  cover_image: p/issues/2022/20220827event.jpg
+  contributor_ids:
+    - Singing
+    - SzuHui
+  project_ids:
+    - issues
+
+- id:
   name: JobFair
   name_en: JobFair
   description: 參加由 TeamCommunity 主辦的線上數位人權徵才會，進行東亞狀況分享和人才募集。
