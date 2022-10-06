@@ -12,12 +12,11 @@
     - title: 參與者- Ted 的分享文
       url: https://www.instagram.com/p/CfJlqygJTv8/?igshid=MDJmNzVkMjY%3D
     - title: 參與者- Ted 的分享文
-    - url: https://hackmd.io/@Ted-Lu/HJ8p-qod5
+      url: https://hackmd.io/@Ted-Lu/HJ8p-qod5
   links_en:
   organizer_ids:
-    - ocf
   co-organizer_ids:
-  co-worker_ids:
+  contributor_ids: 
     - SzuHui
     - Lulu
   project_ids:
@@ -39,9 +38,8 @@
       url: https://docs.google.com/presentation/d/1hORQ6lYduGKQzDmCFj0WV5DPwtvTOSjqrT-p5WM8Us0/edit?usp=sharing
   links_en:
   organizer_ids:
-    - ocf
   co-organizer_ids:
-  co-worker_ids:
+  contributor_ids: 
     - SzuHui
     - Lulu
   project_ids:
@@ -62,9 +60,8 @@
     - title: 會議筆記分享
       url: https://hackmd.io/@cccccs100203/OSSLA2022-records
   organizer_ids:
-    - ocf
   co-organizer_ids:
-  co-worker_ids:
+  contributor_ids: 
     - SzuHui
     - Lulu
   project_ids:
