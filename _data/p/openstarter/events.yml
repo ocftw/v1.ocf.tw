@@ -1,0 +1,31 @@
+- id:
+  name: 數位科技如何深化民主？從開源與協作看公民多元的參與形式
+  name_en: 
+  description: 以開源星手村為媒介，OCF 在這場工作坊中介紹開源文化與開放資料如何促進公私協力、深化民主，並邀請開源專案貢獻者親身分享，讓參與者了解開源世界的趣味之外，也透過互動了解開源協力蘊含的能動性，對民主帶來的正向潛力。
+  start: 2022/10/02
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/osv-taspaa2022
+  cover_image: 
+  contributor_ids:
+    - claire
+    - xini
+    - rosa
+  project_ids:
+
+- id:
+  name: 開源星手村－用桌遊翻轉公民教育，桌遊體驗場
+  name_en: 
+  description: 《開源星手村》是一款由開放文化基金會與志工共同開發的桌遊，旨在帶領入門者，透過輕鬆的遊戲形式了解開源專案的多元應用。本次與 TASPAA 合作，在兩天會期內推出專門為公共行政領域打造，數場 1hr 的體驗場。歡迎各位教育工作者加入同樂，以開源桌遊一同翻轉教育！
+  start: 2022/09/30
+  end: 2022/10/01
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/osv-taspaa2022
+  cover_image: 
+  contributor_ids:
+    - claire
+    - xini
+    - rosa
+  project_ids:
