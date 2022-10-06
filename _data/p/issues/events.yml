@@ -1,4 +1,24 @@
 - id:
+  name: OCF 培訓活動 - 如何建立安全的網路架構
+  name_en: 
+  description: 想要自我突破、想更了解網路架構？想對組織層級設備掌握更多、想要嘗試建置完整的組織網路架構？滿足你對於網路線路的概論知識、實作課程及案例分析，這裡通通有！隨著疫情衝擊日常生活的所有面向，台灣的公私部門已經在過去三年急遽數位化，日常及辦公室相關的各式事務都被擺上雲端。隨著工作仰賴網路為中介後，安全與隱私卻也逐漸成為關鍵議題。也因此，網路架構的安全對業界來說日趨重要，相關技能也漸漸成為求才的依據，這次 OCF 主辦的培訓便是針對這樣的趨勢！本次培訓以「如何建立安全的網路架構」為題，請業界講師從實務角度出發、手把手帶你操作及演練！讓我們找到彼此、培育你成為具備建置安全網路能力的夥伴！透過兩個下午的課程，你可以接觸到：建置前的網路需求評估與設計、組織規模的網路搭建、減少數位足跡及防禦惡意入侵的安全網路架構，以及各種錯誤案例的經驗分享。
+  start: 2022/10/01
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/ocftot2022
+  cover_image: 
+  contributor_ids:
+    - lulukeng
+    - leaf
+    - renwei
+  project_ids:
+    - issues
+
+
+
+
+- id:
   name: 2022【突破論壇】 虛擬世界、真實人們：元宇宙中的人權省思
   name_en: 
   description: 「元宇宙」浪潮興起，穿戴式裝置結合個人生活應用，正悄無聲息地侵犯我們的隱私權。邀請政治大學法律學系廖元豪副教授、台北市政府資訊局呂新科局長、微軟全球助理法務長施立成總經理、開放文化基金會李柏鋒董事長與談，並由本會執行長蔡玉玲律師主持，從法律面、公部門、企業面、公民團體角度，深度剖析元宇宙發展中，科技與人權隱私保護的平衡點。本次論壇邀請政治大學法律學系廖元豪副教授、台北市政府資訊局呂新科局長、微軟全球助理法務長施立成總經理、開放文化基金會李柏鋒董事長與談，並由本會執行長蔡玉玲律師主持，從法律面、公部門、企業面、公民團體角度，深度剖析元宇宙發展中，科技與人權隱私保護的平衡點。
@@ -11,7 +31,7 @@
       url: http://fairwindsfoundation.org/activity/%E7%AA%81%E7%A0%B4%E8%AB%96%E5%A3%87/2/2022%E3%80%90%E7%AA%81%E7%A0%B4%E8%AB%96%E5%A3%87%E3%80%91%E8%99%9B%E6%93%AC%E4%B8%96%E7%95%8C%E3%80%81%E7%9C%9F%E5%AF%A6%E4%BA%BA%E5%80%91%EF%BC%9A%E5%85%83%E5%AE%87%E5%AE%99%E4%B8%AD%E7%9A%84%E4%BA%BA%E6%AC%8A%E7%9C%81%E6%80%9D/92
   cover_image: /p/issues/2022/突破論壇.jpg
   contributor_ids:
-    - SzuHui
+    - szuhui
   project_ids:
     - issues
 
@@ -27,7 +47,7 @@
       url: https://moztw.kktix.cc/events/digital-service-act-2
   cover_image: /p/issues/2022/20220917event.jpg
   contributor_ids:
-    - Singing
+    - singing
   project_ids:
     - issues
 
@@ -42,10 +62,10 @@
       url: https://hackmd.io/U2xAr-aCRGamvjerzFjGKQ?both
   cover_image: 
   contributor_ids:
-    - Singing
-    - Chia-Shuo
-    - Lulu
-    - SzuHui
+    - singing
+    - joshua
+    - lulukeng
+    - szuhui
   project_ids:
     - issues
 
