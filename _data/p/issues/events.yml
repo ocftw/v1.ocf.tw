@@ -16,8 +16,6 @@
     - issues
 
 
-
-
 - id:
   name: 2022【突破論壇】 虛擬世界、真實人們：元宇宙中的人權省思
   name_en: 
@@ -82,8 +80,8 @@
       url: https://g0v.hackmd.io/@irvin/20220827-digital-act
   cover_image: /p/issues/2022/20220827event.jpg
   contributor_ids:
-    - Singing
-    - SzuHui
+    - singing
+    - szuhui
   project_ids:
     - issues
 
