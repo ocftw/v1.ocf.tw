@@ -1,0 +1,72 @@
+- id: 
+  name: Part I - Rights Con 2022 心得分享
+  name_en: Scholarship Program - Rights Con 2022
+  description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
+  description_en: 
+  cover_image: p/intldonate/Rights%20Con.png
+  start: 2022/06/06
+  end: 2022/06/10
+  links:
+    - title: 參與者- Hitomi 的分享
+      url: https://hitomixu.medium.com/context-matters-rightscon-2022-%E5%8F%83%E8%88%87%E5%BF%83%E5%BE%97-21597b6b1396
+    - title: 參與者- Ted 的分享文
+      url: https://www.instagram.com/p/CfJlqygJTv8/?igshid=MDJmNzVkMjY%3D
+    - title: 參與者- Ted 的分享文
+    - url: https://hackmd.io/@Ted-Lu/HJ8p-qod5
+  links_en:
+  organizer_ids:
+    - ocf
+  co-organizer_ids:
+  co-worker_ids:
+    - SzuHui
+    - Lulu
+  project_ids:
+  reports:
+  reports_en:
+
+- id: 
+  name: Part II - Rights Con 2022 心得分享
+  name_en: Scholarship Program - Rights Con 2022
+  description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
+  description_en: 
+  cover_image: p/intldonate/Rights%20Con.png
+  start: 2022/06/06
+  end: 2022/06/10
+  links:
+    - title: 參與者- 彥涵的分享
+      url: https://www.facebook.com/100003678251177/posts/pfbid0vq5uoyQhL3KdADtCCf9crVj3CYtLo78mczZo3d5kAi9qnygPM7pfYfjz2pDDUraYl/?d=n
+    - title: 會議筆記分享
+      url: https://docs.google.com/presentation/d/1hORQ6lYduGKQzDmCFj0WV5DPwtvTOSjqrT-p5WM8Us0/edit?usp=sharing
+  links_en:
+  organizer_ids:
+    - ocf
+  co-organizer_ids:
+  co-worker_ids:
+    - SzuHui
+    - Lulu
+  project_ids:
+  reports:
+  reports_en:
+
+- id: 
+  name: Open Source Summit Latin America 2022 心得分享
+  name_en: Scholarship Program - Code for Latin America 2022
+  description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
+  description_en: 
+  cover_image: p/intldonate/OSS2022.png
+  start: 2022/08/24
+  end: 2022/08/26
+  links:
+    - title: 演講者- Shao-Tse的分享
+      url: https://hackmd.io/@cccccs100203/OSSLA2022-thoughts
+    - title: 會議筆記分享
+      url: https://hackmd.io/@cccccs100203/OSSLA2022-records
+  organizer_ids:
+    - ocf
+  co-organizer_ids:
+  co-worker_ids:
+    - SzuHui
+    - Lulu
+  project_ids:
+  reports:
+  reports_en:
