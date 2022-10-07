@@ -13,6 +13,7 @@
     - xini
     - rosa
   project_ids:
+    - openstarter
 
 - id:
   name: 開源星手村－用桌遊翻轉公民教育，桌遊體驗場
@@ -29,3 +30,4 @@
     - xini
     - rosa
   project_ids:
+    - openstarter
