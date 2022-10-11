@@ -27,7 +27,7 @@ tags_en:
 
 links:
   - title: 開源星手村 官方網站
-    url: https://sites.google.com/ocf.tw/openstarter/home
+    url: https://openstartervillage.ocf.tw/
     color: yellow
     icon: world icon
   - title: 開源星手村 Discord
@@ -37,7 +37,7 @@ links:
 
 links_en:
   - title: Open StarTer Village website
-    url: https://sites.google.com/ocf.tw/openstarter/home
+    url: https://openstartervillage.ocf.tw/
     color: green
     icon: world icon
   - title: Open StarTer Village Discord
