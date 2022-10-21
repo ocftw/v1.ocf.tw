@@ -22,55 +22,6 @@ items:
     background_color: 
     cover: /p/admin/2021/num1-tw.png
     cover_image_alt: OCF 活動重點成果
-  - type: header
-    title: 社群支援
-    icon: hand rock
-    cover: /p/admin/2021/2021-b2.png
-    background_color: 
-    description: 2021 年，在 COVID-19 疫情的影響下，OCF 依舊支援了 7+ 場線上活動、30+ 個社群專案，透過法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。<br>OCF 期許自己能打造一個健康的環境，與更多社群一起關心議題、開創更多專案。
-  - type: content
-    columns:
-      - type: article
-        swap: true
-        title: 
-        description: 2021，有 2 個新社群與 OCF 展開合作，讓台灣的開源生態系，在這艱難的一年間仍有所茁長、不停邁步。
-        items:
-          - title: 梅竹黑客松
-          - title: OpenInfra Days Asia
-      - type: image
-        url: /p/admin/2021/newcome.png
-  - type: content
-    columns:
-      - type: article
-        swap: false
-        title: 
-        description: 平時忙於課業和工作的社群夥伴們，在社群營運上經常會面臨到的財務、會計、稅務、合約簽立和人事聘雇等事務不但令人神傷，且缺乏法人身分的社群經常在這些項目上無法進行，因此由 OCF 協助社群完成這些複雜繁瑣的工作。 
-        items:
-          - project_id: coscup
-          - project_id: sitcon
-          - project_id: pycon
-          - project_id: cctw
-          - title: <a href="https://ocf.tw/p/community" target=_blank>更多社群專案</a>
-      - type: image
-        url: /p/admin/2021/finance.png
-  - type: content
-    columns:
-      - type: article
-        swap: true
-        title: 
-        description: 2021 年各 Conf 因為疫情轉換成線上形式的研討會，但 <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass 開源貢獻者快速通關計畫</a>，依舊不畏疫情影響與 4 個研討會合作，持續服務開源貢獻者。<br>截至 2021 年，累積共有 339 人次申請，261 人次通過並獲得 SITCON, COSCUP, MOPCON, g0v Summit, PyCON Taiwan 提供的專屬開源貢獻者福利。
-      - type: image
-        url: /p/admin/2021/oscvpass.png
-  - type: content
-    columns:
-      - type: article
-        swap: false
-        title: 
-        description: OCF 與客家公共傳播基金會、WikimeidaTW 合作，導入群體協作及「開放」的概念，讓開放資料成為本⼟⽂化發聲的助⼒。透過引導客家社群使用數位工具，將族群文化與在地知識轉譯為數位資訊，我們進一步促進集體認同的凝聚。讓客家社群內不同世代有了交流，並朝發展出與其他文化群體互動交流的機制之方向前進。
-        items:
-          - title: <a href="https://ocf.tw/p/hakka/2021" target=_blank>110 年客家開放資料推廣及活化成果網頁</a>
-      - type: image
-        url: /p/admin/2021/hakka.png
 
   - type: header
     title: 議題串連
@@ -179,6 +130,56 @@ items:
           - title: <a href="https://lab.ocf.tw/category/%e5%b0%88%e6%96%87/" target=_blank>專文 / 編譯文章</a>
       - type: image
         url: /p/admin/2021/ocflab.png
+  - type: header
+    title: 社群支援
+    icon: hand rock
+    cover: /p/admin/2021/2021-b2.png
+    background_color: 
+    description: 2021 年，在 COVID-19 疫情的影響下，OCF 依舊支援了 7+ 場線上活動、30+ 個社群專案，透過法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。<br>OCF 期許自己能打造一個健康的環境，與更多社群一起關心議題、開創更多專案。
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 2021，有 2 個新社群與 OCF 展開合作，讓台灣的開源生態系，在這艱難的一年間仍有所茁長、不停邁步。
+        items:
+          - title: 梅竹黑客松
+          - title: OpenInfra Days Asia
+      - type: image
+        url: /p/admin/2021/newcome.png
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 平時忙於課業和工作的社群夥伴們，在社群營運上經常會面臨到的財務、會計、稅務、合約簽立和人事聘雇等事務不但令人神傷，且缺乏法人身分的社群經常在這些項目上無法進行，因此由 OCF 協助社群完成這些複雜繁瑣的工作。 
+        items:
+          - project_id: coscup
+          - project_id: sitcon
+          - project_id: pycon
+          - project_id: cctw
+          - title: <a href="https://ocf.tw/p/community" target=_blank>更多社群專案</a>
+      - type: image
+        url: /p/admin/2021/finance.png
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 2021 年各 Conf 因為疫情轉換成線上形式的研討會，但 <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass 開源貢獻者快速通關計畫</a>，依舊不畏疫情影響與 4 個研討會合作，持續服務開源貢獻者。<br>截至 2021 年，累積共有 339 人次申請，261 人次通過並獲得 SITCON, COSCUP, MOPCON, g0v Summit, PyCON Taiwan 提供的專屬開源貢獻者福利。
+      - type: image
+        url: /p/admin/2021/oscvpass.png
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: OCF 與客家公共傳播基金會、WikimeidaTW 合作，導入群體協作及「開放」的概念，讓開放資料成為本⼟⽂化發聲的助⼒。透過引導客家社群使用數位工具，將族群文化與在地知識轉譯為數位資訊，我們進一步促進集體認同的凝聚。讓客家社群內不同世代有了交流，並朝發展出與其他文化群體互動交流的機制之方向前進。
+        items:
+          - title: <a href="https://ocf.tw/p/hakka/2021" target=_blank>110 年客家開放資料推廣及活化成果網頁</a>
+      - type: image
+        url: /p/admin/2021/hakka.png
+
 
   - type: header
     title: 財務報告
