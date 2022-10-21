@@ -1,0 +1,273 @@
+title: 開放文化基金會 2021 成果報告
+description: 疫情嚴峻，我們依然和社群手牽手度過，今年 OCF 依舊支援了 7+ 場線上活動、30+ 個社群專案...
+cover: /p/admin/2021/2021-b1.png
+color:  
+cover_image_opacity: 0.9 
+cover_veil_opacity: 0.7
+items:
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 2021 年，你過得好嗎？
+        description: 開放文化基金會從 2014 年播下開源的種子，至今已八年了！<br>經歷兩年疫情跌宕，我們更常在家上班、更常使用外送、更常藉由網路科技維持人與人之間的連結。在疫情蔓延前，我們播下的種子早已生根發芽；疫情擴散後，走向全面數位轉型的迫切，讓開源之芽成長茁壯。<br>今年度的主題是「數位/樹位」。儘管現今越來越多人認識數位人權，OCF 開放文化基金會相信透過推廣開放科技，即開放原始碼、開放資料和開放政府，在網路世界和社會設計向下扎根是至關重要的。<br>OCF 開放文化基金會是一個支持台灣科技社群和推廣開放科技，以健全數位生態環境的非營利組織。透過聚焦於數位體系背後的核心基礎設施，我們期待創造線上和線下皆更加安全平等的世界。
+        action:
+          title: 關於開放文化看更多
+          url: https://ocf.tw/about/
+          title: 捐款支持
+          url: https://ocf.tw/300/
+      - type: image
+        url: /p/admin/2021/2021-main.png
+  - type: image_header
+    background_color: 
+    cover: /p/admin/2021/num1-tw.png
+    cover_image_alt: OCF 活動重點成果
+  - type: header
+    title: 社群支援
+    icon: hand rock
+    cover: /p/admin/2021/2021-b2.png
+    background_color: 
+    description: 2021 年，在 COVID-19 疫情的影響下，OCF 依舊支援了 7+ 場線上活動、30+ 個社群專案，透過法人服務 (Fiscal Sponsor) 支持無法人實體的開源、科技社群茁壯發展，發揮更多社會影響力。<br>OCF 期許自己能打造一個健康的環境，與更多社群一起關心議題、開創更多專案。
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 2021，有 2 個新社群與 OCF 展開合作，讓台灣的開源生態系，在這艱難的一年間仍有所茁長、不停邁步。
+        items:
+          - title: 梅竹黑客松
+          - title: OpenInfra Days Asia
+      - type: image
+        url: /p/admin/2021/newcome.png
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 平時忙於課業和工作的社群夥伴們，在社群營運上經常會面臨到的財務、會計、稅務、合約簽立和人事聘雇等事務不但令人神傷，且缺乏法人身分的社群經常在這些項目上無法進行，因此由 OCF 協助社群完成這些複雜繁瑣的工作。 
+        items:
+          - project_id: coscup
+          - project_id: sitcon
+          - project_id: pycon
+          - project_id: cctw
+          - title: <a href="https://ocf.tw/p/community" target=_blank>更多社群專案</a>
+      - type: image
+        url: /p/admin/2021/finance.png
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 2021 年各 Conf 因為疫情轉換成線上形式的研討會，但 <a href="https://ocf.tw/p/oscvpass/" target=_blank>OSCVPass 開源貢獻者快速通關計畫</a>，依舊不畏疫情影響與 4 個研討會合作，持續服務開源貢獻者。<br>截至 2021 年，累積共有 339 人次申請，261 人次通過並獲得 SITCON, COSCUP, MOPCON, g0v Summit, PyCON Taiwan 提供的專屬開源貢獻者福利。
+      - type: image
+        url: /p/admin/2021/oscvpass.png
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: OCF 與客家公共傳播基金會、WikimeidaTW 合作，導入群體協作及「開放」的概念，讓開放資料成為本⼟⽂化發聲的助⼒。透過引導客家社群使用數位工具，將族群文化與在地知識轉譯為數位資訊，我們進一步促進集體認同的凝聚。讓客家社群內不同世代有了交流，並朝發展出與其他文化群體互動交流的機制之方向前進。
+        items:
+          - title: <a href="https://ocf.tw/p/hakka/2021" target=_blank>110 年客家開放資料推廣及活化成果網頁</a>
+      - type: image
+        url: /p/admin/2021/hakka.png
+
+  - type: header
+    title: 議題串連
+    cover: /p/admin/2021/2021-b3.png
+    icon: handshake outline
+    background_color: 
+    description: 科技是兩面刃，每次科技越發進步，民眾的數位權利彷彿就越受到威脅。政府組織、民間團體、科技社群三方之間，或者共同關心的主題，藉由與科技社群的長期夥伴關係、與公民團體的議題合作，OCF 期許能成為不同領域跟科技交流的橋樑和平台，串聯國內外的團體和社群，讓更多人得以把開源、開放的精神和機制帶到各自的領域發揮，也讓公民使用開源的科技工具更加純熟，以因應多變的數位時代。
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 現今 5G 網路通訊科技，扭轉過往封閉技術的風氣，突破以往由單一製造商提供解決方案的專有架構，導入開放概念 - 開放無線接入網路 (Open RAN)。<br>為了讓國內廠商、學界與研究機構更能了解國際開源專案，OCF 受工業技術研究院委託，邀請 O-RAN 軟體社群來分享 O-RAN 聯盟與國際開源專案的合作經驗，以及探討全球電信運營商在 Open RAN 的佈局與商業動向，並展示開源軟體導入 O-RAN 的經驗。
+        items:
+          - title: <a href="https://www.youtube.com/watch?v=WNspJp3rB1Y" target=_blank>影片回顧 Open RAN 國際產業發展動態 </a>
+      - type: image
+        url: /p/admin/2021/5G.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: 延續 2020 年的開放政府工作，OCF 在 2021 年以民間角色協力舉辦「開放政府國家行動方案」之培力工作坊，並辦理國際線上研討會，共計 48 講師、300+ 名學員及線上觸及 1000+ 人次一起談論、分享開放政府宗旨、相關案例與國際經驗。<br>另外，OCF 也持續擔任開放國會委員會民間委員，實質參與擬定開放國會行動方案。
+        items:
+          - title: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrkm_cFhwh6UkcRCfcCsSZlA" target=_blank>2021 開放政府培力工作坊</a>
+          - title: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrksew2NyLeU4APXHzKP2CTK" target=blank>2021 開放政府民間論壇</a>
+          - title: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrnH4vHKCErKSgAjoITogjAX" target=_blank>2021 開放政府國際線上研討會</a>
+          - title: <a href="https://www.ly.gov.tw/Pages/List.aspx?nodeid=43874" target=_blank>立法院開放國會行動方案</a>
+      - type: image
+        url: /p/admin/2021/opengov.jpg
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 網路和數位科技雖帶來便利，但也伴隨著個資外洩、隱私侵犯、輿論操控、假訊息混淆視聽等隱憂。尤其在疫情爆發之後，因為防疫等級提高，組織能夠取得各種數位資料和身份認證的資訊也相對更多元，我們對於自身的數位權利便更加不能夠忽視。
+        items:
+          - title: <a href="https://www.eid.tw/" target=_blank>倡議修法與公開數位身分證資訊</a>
+          - title: <a href="https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q?view" target=blank>發起每月網路自由小聚，定期交流最新發展</a>
+          - title: 線上參與 20 多場國際資安與人權會議
+      - type: image
+        url: /p/admin/2021/internetfreedom.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: Civic Sense 希望展現公民物聯網的重要性，並且鼓勵更多社群使用開源環境感測器，並藉由跨國公私合作的力量達到推廣開源與環境意識的目標，讓全球公民科技組織能夠使用自造的低成本環境感測器。<br>在 2021 年，OCF 舉辦 3 場 Webinar，共計邀請 3 位講者，超過 10 個社群線上參與，並有 4 個社群提案申請希望加入 Civic Sense 的計畫，最終與海外 3 個社群促成 4 個專案在海外場域驗證台灣的水盒子與空氣盒子應用在當地，解決當地的環境問題。
+        items:
+          - project_id: civicsense
+          - item: <a href="https://www.youtube.com/playlist?list=PLFuYOsppHDrl4pPE0VsHmAOXiZXMx7O43" target=_blank>影片回顧 Civic IoT's and Environmental Sensors Webinar</a>
+      - type: image
+        url: /p/admin/2021/civicsense.png
+
+  - type: image_header
+    background_color: 
+    cover: /p/admin/2021/num2-tw.png
+    cover_image_alt:  議題串連重點成果
+
+  - type: header
+    title: 開放文化推廣
+    cover: /p/admin/2021/2021-b4.png
+    icon: university
+    background_color: 
+    description: 「這麼好的東西不能只有我知道！」<br>公開、共享－－開放文化蘊含的意義，其實如此簡單。<br>數位技術蓬勃發展的現在，無論程式碼、資訊資料、歷史文獻甚至影音圖像等知識文化的結晶，都能藉著科技工具彼此交流和發揚成果。<br>若是「公開透明」能凝聚為一種風氣、「協作共享」能形成公民間的共識，則更能打破不同群體間的隔閡，讓各類的知識得以流通傳播，甚至做出更有效的利用。<br>OCF 在 2021 年不受疫情威脅，仍設法走出社群、面向大眾，分別用報導文章、公眾講座與教育議程的方式，讓更多人了解：開放文化，文化開放，真的能讓社會更美好。
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: 自由與開源對軟體發展影響甚鉅，一直到現在都還與我們的生活息息相關，OCF 從不間斷地在各個領域推廣自由與開源的理念，從帶領初學者的開源新手村、開源教教我各種軟體技術分享、5G Open RAN 工作坊... 等等，共累積 20 場次分享、800+ 人次參與，從不同的面向帶給大眾開源的發展趨勢。<br><br>圖：2021 年疫情不停歇，採線上舉辦的軟體自由日活動，帶大家瞭解自由開源的歷史演進。 
+        items:
+          - title: <a href="https://ocf.tw/p/openists/" target=_blank>開源教教我</a>
+          - title: <a href="https://www.youtube.com/watch?v=zNt4JMIYV_4&list=PLFuYOsppHDrl5g6EtVqqs_ZRDsZn76BrL" target=blank>開源新手村</a>
+          - title: <a href="https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=198" target=_blank>線上同慶軟體自由日</a>
+      - type: image
+        url: /p/admin/2021/openpromo.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: OCF 協力志工夥伴打造一款桌遊－「開源星手村」，期望透過桌遊寓教於樂的效果，打破大眾認為參與開源專案必須懂程式的迷思。此外，桌遊以中英文簡介開放原始碼、開放政府、開放資料三大領域知名的國內外開源專案，發揮推廣開源專案，進一步促進多元背景的貢獻者加入開源、協作的生態系。<br>2021 年，我們共舉辦了以下試玩活動：
+        items:
+          - title: 線上試玩活動，於：COSCUP, SITCON CAMP, g0v hackath44n 舉辦
+          - title: 實體試玩活動，於：g0v Hackath47n 舉辦
+          - title: <a href="https://sites.google.com/ocf.tw/openstarter/home" target=_blank>桌遊網站入口</a>
+      - type: image
+        url: /p/admin/2021/boardgame.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: OCF Lab 是 OCF 運作的資訊平台，針對數位公民科技以及開源相關議題，蒐集資料、轉譯新聞並執行基礎專題研究，用平易近人的方式，為生在數位時代的普羅民眾，提升開放文化意識，並學習相關知識基礎。<br>2021 共刊登 34 篇週報、55 篇中英文專文以及其中 25 篇與媒體合作的專欄文章。
+        items:
+          - title: <a href="https://lab.ocf.tw/category/%e9%80%b1%e5%a0%b1/" target=_blank>數位公民全球週報</a>
+          - title: <a href="https://lab.ocf.tw/tag/COLUMN/" target=_blank>獨立評論、INSIDE 專欄合作</a>
+          - title: <a href="https://lab.ocf.tw/category/%e5%b0%88%e6%96%87/" target=_blank>專文 / 編譯文章</a>
+      - type: image
+        url: /p/admin/2021/ocflab.png
+
+  - type: header
+    title: 財務報告
+    icon: dollar sign
+    background_color: 
+    cover: /p/admin/2021/2021-b5.png
+    description: 
+
+  - type: content
+    single_column: true
+    columns:
+    - type: article
+      swap: false
+      title: 2021 年度基金會自營專案收支
+      description: 收入 NT$ 19,145,153<br>支出 NT$ 16,148,451<br>基金會年度總計 NT$ 2,996,702
+
+  - type: content
+    single_column: true
+    columns:
+    - type: image
+      url: /p/admin/2021/finance-1-tw.png
+
+  - type: content
+    columns:
+    - type: image
+      url: /p/admin/2021/finance-left-tw.png
+    - type: image
+      url: /p/admin/2021/finance-right-tw.png
+
+  - type: content
+    single_column: true
+    columns: 
+    - type: article
+      swap: false
+      title: 2021 年度社群專案收支
+      description: 收入 NT$ 21,051,847<br>支出 NT$ 12,711,705<br>社群專案年度總計 NT$ 8,340,142 
+
+  - type: content
+    single_column: true
+    columns:
+    - type: image
+      url: /p/admin/2021/finance-2-tw.png
+
+
+  - type: header
+    title: 因為有你們，我們得以一直前進
+    icon: tree
+    cover: /p/admin/2021/2021-b6.png
+    background_color: 
+    description: 
+
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        title: 超能董事：Pofeng, honki, Bob Chao, clkao, kc chen.<br>
+               顧問：isabel, Lucien, miaoski.<br>
+               OCF 員工：Singing, Rock, Lulu, Rosa, Xini, Claire, kting, TC, huangfu, Leaf, Anima, Sam, weichen, 紅馬, Dreamer.<br>
+               OCF 畢業校友：Yawei, Aiya, 小知.<br>
+               實習小夥伴：柏均、嘉禕、彥涵、明真、威宏、濰綾.<br>
+               以及各位熱血志工夥伴！
+  - type: content
+    columns:
+      - type: article
+        title: 感謝
+        swap: false
+        description: 
+      - type: article
+        logo_height: 7rem
+        logos:
+          - org_id: rc
+          - org_id: archilife
+
+  - type: header
+    title: 
+    icon: chess knight
+    cover: /p/admin/2021/2021-b1.png
+    background_color: 
+    description: 開放文化基金會延續並連結全世界的開放原始碼運動，在台灣致力於促進開放政府、推廣開源軟體、支援友好社群、創造國際串聯。我們需要大家齊心協力，澆灌尚在扎根的開放文化。期望在劇烈變化的時代，與所有人一起做好準備、改善我們的生活、避免潛在的威脅。<br>我們相信，開源／開放文化可以保障隱私、促進自由、杜絕壟斷專制，<br>開源使我們不再是孤島。
+
+  - type: content
+    columns:
+      - type: article
+        title: 追蹤 OCF，活動不會錯過！
+        items: 
+          - title: <i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><i class="twitter icon"></i><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
+      - type: article
+        title: 訂閱 EDM，開源資訊不漏接
+        items: 
+          - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a>
+        swap: false
+
