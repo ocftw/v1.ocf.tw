@@ -1,4 +1,22 @@
 - id:
+  name: 開放科技桌遊工作坊：玩桌遊，認識開放科技 x 拓展跨界人脈
+  name_en: 
+  description: 這款桌遊收錄國內外知名的開放政府、開放資料與開放原始碼三大領域的專案。非常適合以下領域的學生、老師，或對社會議題有興趣的人參加！
+  start: 2022/10/29
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/utstudent
+  cover_image: 
+  contributor_ids:
+    - claire
+    - xini
+    - rosa
+  project_ids:
+    - openstarter
+
+
+- id:
   name: 數位科技如何深化民主？從開源與協作看公民多元的參與形式
   name_en: 
   description: 以開源星手村為媒介，OCF 在這場工作坊中介紹開源文化與開放資料如何促進公私協力、深化民主，並邀請開源專案貢獻者親身分享，讓參與者了解開源世界的趣味之外，也透過互動了解開源協力蘊含的能動性，對民主帶來的正向潛力。
