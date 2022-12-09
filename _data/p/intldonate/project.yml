@@ -25,7 +25,11 @@ tags_en:
 listed: yes
 listed_en: yes
 
+
 links:
+  - title: FOSDEM2023 旅費補助 至 2022/12/25
+    url: https://forms.gle/Qxhz8BtuRmL4dTSTA
+    icon:
   - title: MOZILLA FESTIVAL 投稿 至 12/15止
     url: https://forms.gle/Qxhz8BtuRmL4dTSTA
     icon: 
