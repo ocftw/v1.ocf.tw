@@ -34,6 +34,18 @@ links:
     url: https://discord.gg/JnTHGnxwYS
     color: yellow
     icon: discord icon
+  - title: 開源星手村遊戲規則與借用申請書
+    url: https://drive.google.com/drive/folders/16FZ0F8D32D4zWGBKwP13-fnf9gr-CZJz
+    color: yellow
+    icon: world icon
+  - title: 開源星手村教學工具包
+    url: https://drive.google.com/drive/folders/1fLz5wBrNFWEx7FTmyTkAJUrPibU9UvWM
+    color: yellow
+    icon: world icon
+  - title: 開源星手村視覺素材
+    url: https://drive.google.com/drive/folders/1790me8hwJVJZpusIBtICdM2YOErbRIM5
+    color: yellow
+    icon: world icon
 
 links_en:
   - title: Open StarTer Village website
@@ -44,6 +56,19 @@ links_en:
     url: https://discord.gg/JnTHGnxwYS
     color: green
     icon: discord icon
+  - title: Game Rules and Lending Application of Open StarTer Village
+    url: https://drive.google.com/drive/folders/16FZ0F8D32D4zWGBKwP13-fnf9gr-CZJz
+    color: yellow
+    icon: world icon
+  - title: Teaching Materials of Open StarTer Village
+    url: https://drive.google.com/drive/folders/1fLz5wBrNFWEx7FTmyTkAJUrPibU9UvWM
+    color: yellow
+    icon: world icon
+  - title: Visiaul Materials of Open StarTer Village
+    url: https://drive.google.com/drive/folders/1790me8hwJVJZpusIBtICdM2YOErbRIM5
+    color: yellow
+    icon: world icon
+
 
 organizer_ids:
   - ocf
