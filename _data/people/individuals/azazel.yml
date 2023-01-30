@@ -3,7 +3,7 @@ name_en:
 nick: azazel
 role: 實習
 description: 我是沈軒睿,目前為文化大學四年級生。興趣是網頁前端設計以及嘗試使用新技術來解決問題。
-avatar:/people/intern/azazel.jpg
+avatar: /people/intern/azazel.jpg
 link:
   - title:
     url:
