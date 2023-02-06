@@ -1,26 +1,4 @@
 - id: global
-  name: 2022 APRIGF亞太網路治理論壇
-  name_en: 2022 Asia Pacific Regional Internet Governance Forum
-  description: 聯合國於 2000 年初發起網路治理論壇（Internet Governance Forum，IGF），集合各界代表，討論網路「管理」與「治理」。亞太地區於 2010 年首次在香港召開亞太網路治理論壇 APrIGF。OCF 曾經實地參與 2018 年的 APrIGF 並帶回會議成果與夥伴分享，並於2022年再次共襄盛舉實體參與。
-  description_en: Asia Pacific Regional Internet Governance Forum (APrIGF) serves as a platform for discussion, exchange and collaboration at a regional level, and also where possible to aggregate national IGF discussions, ultimately advance the Internet governance development in the Asia Pacific region.
-  cover_image: 
-  start: 2022/09/11
-  end: 2022/09/15
-  links:
-    - title: 會議官網
-      url: https://ap.rigf.asia
-    - title: 參與報告分享
-      url: https://docs.google.com/document/d/1GVwqBFjO78fl4rA9y8IObV5LDJT7g0YoW4X_mGxPxV0/edit#heading=h.vfr2b5ubsh8
-  organizer_ids:
-  co-organizer_ids:
-  contributor_ids: 
-    - chiashou
-  project_ids:
-    - global
-  reports: 2022/09/11
-  reports_en: 2022/09/15
-
-- id: global
   name: 國際出訪：FOSDEM 2020
   name_en: Fosdem 2020
   description: FOSDEM (自由及開源軟體開發者歐洲會議) 是歐洲最大的開源社群年度聚會，由社群志工共同籌辦的兩天的活動，整場活動免報名、開放自由參加。2020 有 818 講者、850 場活動、71 場議程軌、63 個攤位在布魯塞爾自由大學登場。開放文化基金會首度於今年派員參與。
@@ -247,4 +225,26 @@
     - lulukeng
   project_ids:
     - global
+
+  - id: global
+  name: 2022 APRIGF亞太網路治理論壇
+  name_en: 2022 Asia Pacific Regional Internet Governance Forum
+  description: 聯合國於 2000 年初發起網路治理論壇（Internet Governance Forum，IGF），集合各界代表，討論網路「管理」與「治理」。亞太地區於 2010 年首次在香港召開亞太網路治理論壇 APrIGF。OCF 曾經實地參與 2018 年的 APrIGF 並帶回會議成果與夥伴分享，並於2022年再次共襄盛舉實體參與。
+  description_en: Asia Pacific Regional Internet Governance Forum (APrIGF) serves as a platform for discussion, exchange and collaboration at a regional level, and also where possible to aggregate national IGF discussions, ultimately advance the Internet governance development in the Asia Pacific region.
+  cover_image: /p/global/aprigf-logo-horiz-on-light-600w
+  start: 2022/09/11
+  end: 2022/09/15
+  links:
+    - title: 會議官網
+      url: https://ap.rigf.asia
+    - title: 參與報告分享
+      url: https://docs.google.com/document/d/1GVwqBFjO78fl4rA9y8IObV5LDJT7g0YoW4X_mGxPxV0/edit#heading=h.vfr2b5ubsh8
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - chiashou
+  project_ids:
+    - global
+  reports: 2022/09/11
+  reports_en: 2022/09/15
 
