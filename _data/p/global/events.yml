@@ -226,7 +226,7 @@
   project_ids:
     - global
 
-  - id: global
+- id: global
   name: 2022 APRIGF亞太網路治理論壇
   name_en: 2022 Asia Pacific Regional Internet Governance Forum
   description: 聯合國於 2000 年初發起網路治理論壇（Internet Governance Forum，IGF），集合各界代表，討論網路「管理」與「治理」。亞太地區於 2010 年首次在香港召開亞太網路治理論壇 APrIGF。OCF 曾經實地參與 2018 年的 APrIGF 並帶回會議成果與夥伴分享，並於2022年再次共襄盛舉實體參與。
