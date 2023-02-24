@@ -57,3 +57,37 @@ OCF是一個從開源社群發起的非營利組織，每一筆的收入和捐�
 <h3 class="ui header">OCF 相關報導</h3>
 
 <div class="ui list">
+{% for item in site.data.about.ocf %}
+  <div class="item">
+    <i class="icon newspaper"></i>
+    <div class="content">
+      <div class="header">
+      {{ item.date }} / {{ item.media }}
+      </div>
+      <a href="{{ item.url }}" target="_blank">
+      {{ item.title }}
+      </a>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<h3 class="ui header">開源 / 開放文化相關報導</h3>
+
+<div class="ui list">
+{% for item in site.data.about.floss %}
+  <div class="item">
+    <i class="icon newspaper"></i>
+    <div class="content">
+      <div class="header">
+      {{ item.date }} / {{ item.media }}
+      </div>
+      <a href="{{ item.url }}" target="_blank">
+      {{ item.title }}
+      </a>
+    </div>
+  </div>
+{% endfor %}
+</div>
+<h3 class="ui header">文宣品下載</h3>
+<a href="https://ocf.tw/mediakit/"_blank>請點此</a> 
