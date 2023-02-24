@@ -11890,7 +11890,7 @@ ol.ui.list > li:first-child:after,
 ul.ui.list > li:first-child:after {
   content: "";
   display: block;
-  height: 0;
+  height: 2;
   clear: both;
   /* visibility: hidden; */
 }
