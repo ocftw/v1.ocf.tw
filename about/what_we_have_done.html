@@ -12,20 +12,20 @@ OCF的經費來源主要是透過對社群收取服務費用、專案承攬、�
 {% for item in site.data.reports %}
 {% unless item[0] contains "_" %}
   {% assign i = i | minus:1 %}
-  <div class="item">
-    <a href="/p/{{ i }}" target="_blank">
+<div class="item">
+  <a href="/p/{{ i }}" target="_blank">
       <i class="globe icon"></i>
       {{ i }} 年成果報告
-    </a>
-  </div>
+  </a>
+</div>
 {% endunless %}
 {% endfor %}
 <!--
-  <div class="item">
-    <a href="https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=1" target="_blank">
-      <i class="globe icon"></i>
-      2014 年成果報告
-    </a>
--->
-  </div>
+<div class="item">
+  <a href="https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=1" target="_blank">
+    <i class="globe icon"></i>
+    2014 年成果報告
+  </a>
+</div>
 
+-->
