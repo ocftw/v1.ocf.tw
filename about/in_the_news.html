@@ -26,7 +26,7 @@ OCF的經費來源主要是透過對社群收取服務費用、專案承攬、�
   </div>
 </div>
 -->
-
+<!--
 <h2 class="ui header"> OCF 公開徵信</h2>
 
 <p>
@@ -45,20 +45,19 @@ OCF是一個從開源社群發起的非營利組織，每一筆的收入和捐�
       捐物徵信
     </a>
 </div>
-
+-->
 <h3 class="ui header">OCF 相關報導</h3>
 
 {% for item in site.data.about.ocf %}
-  <div class="item">
-    <i class="icon newspaper"></i>
-    <div class="content">
-      <div class="header">
-      {{ item.date }} / {{ item.media }}
-      </div>
-      <a href="{{ item.url }}" target="_blank">
-      {{ item.title }}
-      </a>
-    </div>
+<div class="item"><i class="icon newspaper"></i>
+  <div class="content">
+    <div class="header">
+    {{ item.date }} / {{ item.media }}
+  </div>
+    <a href="{{ item.url }}" target="_blank">
+    {{ item.title }}
+    </a>
+</div>
 {% endfor %}
 </div>
 
