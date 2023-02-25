@@ -11892,7 +11892,7 @@ ul.ui.list > li:first-child:after {
   display: block;
   height: 0;
   clear: both;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 .ui.list .list > .item:first-child,
 .ui.list > .item:first-child,
