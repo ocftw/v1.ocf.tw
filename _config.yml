@@ -1,6 +1,6 @@
 source: .
 destination: _deploy
-config_url: http://ocf.tw
+config_url: https://ocf.tw
 # defaults:
 #   - scope:
 #       path: ""
