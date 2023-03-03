@@ -1,3 +1,63 @@
+
+- id: issues
+  name: OCF 培訓：NGO worker 不能不知道的數位防禦須知
+  name_en: 
+  description: 我知道我在網路上輸入的資料不安全，那我還可以放心的使用網路嗎？可以！這次活動就是要帶各位更深入地談談如何保障自己的數位資料安全，讓各位安心上網無負擔！
+  start: 2023/03/29
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocftw.kktix.cc/events/southworkshop
+  cover_image: /p/admin/2023/ocf-ngo-worker.png
+  contributor_ids:
+    - leaf
+    - lulukeng
+    - weichen
+  project_ids:
+    - issues
+  organizer_ids:
+
+
+- id: issue
+  name: OCF x MOPCON 春季開源交流會
+  name_en: 
+  description: 3 月底 OCF 與 MOPCON 合辦一場在高雄的聚會，開放技術人、設計師、相關產業的朋友們有一個可以交流的活動，並且我們徵求 3 個講題來讓大家分享，若臨時覺得還可以分享，也可以於 Open Mic 及自由交流時間在台上接上 HDMI 進行分享。
+  start: 2023/03/28
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocftw.kktix.cc/events/khspringparty
+  cover_image: /p/admin/2023/ocfxmopcon.png
+  contributor_ids:
+    - leaf
+    - lulukeng
+    - weichen
+  project_ids:
+    - issues
+  organizer_ids:
+  advisor_ids:
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+  coordinator_ids:
+  host_ids:
+  speaker_ids:
+  banner:
+
+- id: issues
+  name: 2023 國會開放與監督論壇
+  name_en: 
+  description: 本次國際論壇奠基在臺灣立法院 2021 之「開放國會行動方案」，邀請了來自全球五大洲的議會監督組織與專家學者蒞臨台灣，一同交流全球議會開放與監督之挑戰和趨勢。OCF 除了代表開放國會推動小組民間發言人發言，也將擔任其中相關議程的主持人及講者。期待透過演講者和參與者之間的經驗分享與交流，激盪出全球議會開放與監督的新方法，並鞏固民主的深化，同時以台灣做為樞紐，帶動亞太地區未來在公民社會推動開放與監督國會的能量。
+  start: 2023/03/14
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://www.facebook.com/photo?fbid=568960185271596&amp%3Bset=a.482475107253438
+  cover_image: 
+  contributor_ids:
+  project_ids:
+    - issues
+
 - id: issues
   name: 言論自由與犯罪防制在數位時代中的兩難—數位中介服務法之現況與未來
   name_en: 
