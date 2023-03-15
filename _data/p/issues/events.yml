@@ -1,4 +1,17 @@
-
+- id: issues
+  name: 數位公民研討會： 從認清威脅到建立防禦
+  name_en: Digital Citizenship Seminar：Identify Threats and Build up Defense
+  description: 根據 2022 年 Freedom House 的網路自由報告指出，全球網路自由度每況愈下，且各國政府正在切割和擴張個別的網路疆域，以求更多可自我控制的線上空間。尤其在亞太區域，數位威權主義擴張之下，藉由數位科技對人民的壓制不僅使其自由空間越趨限制，更是跨越傳統的疆界加大其受迫害的範圍。「數位壓迫」已經是一個具體的事實和專有名詞，其中更涉及兩國政府、跨國企業、經濟利害關係人等，使之已非一國之力可以應對和反抗的壓迫。身處公民社會的我們，更需要覺察作為外於政府、企業的第三方立場，以跨領域和跨國界的視野進行監督、接露和倡議的角色。對於國內，敦促政府數位治理完備和加強公民合作，以強健台灣的數位韌性；對於亞太地區和全球脈絡，如何運用公民社會的力量和角色，強化台灣和亞太區域合作，對於跨國的數位壓制提出全域的人民防衛和保護機制。
+  start: 2023/04/08
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocftw.kktix.cc/events/citizenseminar
+  cover_image: /p/admin/2023/citizenseminar.png
+  contributor_ids:
+  project_ids:
+    - issues
+  organizer_ids:
 
 - id: issues
   name: OCF 培訓：NGO worker 不能不知道的數位防禦須知
