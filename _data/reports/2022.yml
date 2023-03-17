@@ -266,19 +266,12 @@ items:
       - type: article
         title: 感謝
         swap: false
-        description:
+        description: 感謝各界夥伴的支持，使我們能伸展開放科技的力量，在 2022 年有如此百花齊放的發展。我們深信，跨界的合作可以燃點更多的動能，未來，也請與我們繼續一同前行，共同關注在臺灣與世界的數位挑戰，實踐開放科技的價值。
       - type: article
         logo_height: 7rem
         logos:
           - org_id: rc
           - org_id: archilife
-
-  - type: header
-    title:
-    icon: chess knight
-    cover: /p/admin/2021/2021-b1.png
-    background_color:
-    description: 感謝各界夥伴的支持，使我們能伸展開放科技的力量，在 2022 年有如此百花齊放的發展。我們深信，跨界的合作可以燃點更多的動能，未來，也請與我們繼續一同前行，共同關注在臺灣與世界的數位挑戰，實踐開放科技的價值。
 
   - type: content
     columns:
