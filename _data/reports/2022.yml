@@ -1,5 +1,5 @@
 title: 開放文化基金會 2022 成果報告
-description:
+description: 2022 年，疫情的影響逐漸遠離，社群運作回歸軌道上，2022年OCF支援了 6+ 場活動、30+ 個社群專案
 cover: /p/admin/2022/2022-top.png
 color:
 cover_image_opacity: 0.9
@@ -243,13 +243,6 @@ items:
     columns:
       - type: image
         url: /p/admin/2021/finance-2-tw.png
-
-  - type: header
-    title: 因為有你們，我們得以一直前進
-    icon: tree
-    cover: /p/admin/2021/2021-b6.png
-    background_color:
-    description:
 
   - type: content
     single_column: true
