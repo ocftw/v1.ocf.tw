@@ -3,7 +3,7 @@ description: 2022 年，疫情的影響逐漸遠離，社群運作回歸軌道�
 cover: /p/admin/2022/2022-top.png
 color:
 cover_image_opacity: 0.9
-cover_veil_opacity: 0.2
+cover_veil_opacity: 0.7
 items:
   - type: content
     columns:
