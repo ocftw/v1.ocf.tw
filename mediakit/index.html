@@ -38,7 +38,7 @@ toc:
 
   <div class="ui stripe container">
     <div class="ui two column stackable grid">
-      <div id="toc" data-context="desktop" class="four wide column">
+      <div id="toc" data-context="desktop" class="five wide column">
         <nav class="ui secondary sticky vertical pointing fluid menu">
           {% for article in page.toc %}
           <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
@@ -46,7 +46,7 @@ toc:
         </nav>
       </div>
 
-      <div class="twelve wide column">
+      <div class="eleven wide column">
         {% for article in page.toc %} {% assign id = article[0] %}
 
         <h2 id="{{ article[0] }}" class="ui dividing header">
