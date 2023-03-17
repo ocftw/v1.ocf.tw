@@ -211,7 +211,7 @@
 
 @media only screen and (min-width: 768px) {
   #report section.ui.column.grid .column > .ui.image {
-    min-height: 100%;
+    min-height: auto;
   }
 }
 
