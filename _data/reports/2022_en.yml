@@ -223,6 +223,7 @@ items:
         url: /p/admin/2022/2022-en-chart1.png
 
   - type: content
+    single_column: true
     columns:
       - type: image
         url: /p/admin/2022/2022-en-chart2.png
