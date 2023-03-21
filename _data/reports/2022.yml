@@ -116,7 +116,7 @@ items:
           - title: <a href=" https://ocf.tw/p/issues/twogp" target=_blank>開放政府 / 國會專案頁面</a>
           - title: <a href="https://docs.google.com/presentation/d/1WAh6lcLDfof_iZzuGmvw-ztIWZfP7QZSdHJu7HScTlA/edit?usp=sharing" target=blank>研究報告</a>
       - type: image
-        url: /p/admin/2022/openGov.png
+        url: /p/admin/2022/openGov2022.png
 
   - type: content
     columns:
@@ -190,7 +190,7 @@ items:
         items:
           - title: <a href="https://www.youtube.com/playlist?list=PLqfib4St70XNbd3fLdxeI-7jGfwgZV9Ti" target=_blank>開源新手村議程一覽及影片 </a>
       - type: image
-        url: /p/admin/2022/boardgame_text.png
+        url: /p/admin/2022/osnewbie2022.png
 
   - type: content
     columns:
