@@ -213,7 +213,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: 2021 年度基金會自營專案收支
+        title: 2022 年度基金會自營專案收支
         description: 收入 NT$ 31,217,377<br>支出 NT$ 19,909,315<br>基金會年度總計 NT$ 11,308,062
 
   - type: content
@@ -233,7 +233,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: 2021 年度社群專案收支
+        title: 2022 年度社群專案收支
         description: 收入 NT$ 13,439,519<br>支出 NT$ 13,855,298<br>社群專案年度總計 NT$ -415,779
 
   - type: content

@@ -77,7 +77,6 @@ items:
   - type: image_header
     cover_image_alt: 議題串連
     cover: /p/admin/2022/2022-en-b3.png
-  # 做到這邊
   - type: content
     columns:
       - type: article
@@ -156,7 +155,7 @@ items:
 
   - type: image_header
     cover_image_alt: 開放文化推廣
-    cover: /p/admin/2022/2022-b4.png
+    cover: /p/admin/2022/2022-en-b4.png
 
   - type: content
     columns:
@@ -206,7 +205,7 @@ items:
 
   - type: image_header
     cover_image_alt: 開放文化推廣
-    cover: /p/admin/2022/2022-b5.png
+    cover: /p/admin/2022/2022-en-b5.png
 
   - type: content
     single_column: true
