@@ -1,0 +1,278 @@
+title: 2022 Annual Report | Open Culture Foundation
+description: 2022 年，疫情的影響逐漸遠離，社群運作回歸軌道上，2022年OCF支援了 6+ 場活動、30+ 個社群專案
+cover: /p/admin/2022/2022-top.png
+color:
+cover_image_opacity: 0.9
+cover_veil_opacity: 0.7
+items:
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: With your warm accompaniment
+        description: Open Culture Foundation (OCF) is very grateful to kick off the 9th year of our amazing journey!<br>In 2022, albeit the subsiding pandemic, our lifestyle has changed drastically. Digital tools have become an indispensable part of everyday life.<br>As our workstyle and living continue to reform, digital technologies become the heart of governance. However, it could also be misused as a tool to oppress the disadvantaged and dissenters.<br>Recognizing the ongoing takeover of reality by the digital, OCF's core mission is to promote open source digital applications that perceive freedom and human rights. In the past year, this mission has become increasingly important and deserves broader attention.<br>Open Culture Foundation (OCF) is a non-profit organization that applies open tech and crossover collaborations to confront possible threats and foster social developments in the digital age.<br>In 2022, we have supported 30+ community projects, issued the first cosignatory on digital affairs, and continued to promote open source and digital human rights through crossover collaborations. We would like to warmly share with you our accomplishments in 2022.
+        action:
+          title: support us
+          url: https://ocf.tw/300/
+      - type: image
+        url: /p/admin/2022/2022-main.png
+
+  - type: image_header
+    cover: /p/admin/2022/2022-en-b1.png
+    cover_image_alt: OCF 活動重點成果
+
+  - type: image_header
+    cover_image_alt: 社群支援
+    cover: /p/admin/2022/2022-en-b2.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title:
+        description: As the world recovered from the pandemic, educational and cultural exchange communities continued to evolve. 5 new communities in total have established partnerships with OCF in 2022, fertilizing the open source ecosystem in Taiwan after the pandemic.
+        items:
+          - title: US Taiwan Watch
+          - title: Dreamer Academy Open Education Community
+          - project_id: accomdemy
+          - title: Taiwan Open Education Develop Unit
+          - project_id: rubytW
+      - type: image
+        url: /p/admin/2022/newcome2022.png
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: OCF started as and continued to serve the open source community. Ever since the establishment of OCF, we have been collaborating with  many unincorporated communities as a fiscal sponsor, and taken over administrative works such as financial and accounting affairs, tax forms, hiring, and business contracts.<br>Project highlights this year
+        items:
+          - project_id: sitcon
+          - project_id: coscup
+          - project_id: pycon
+          - project_id: cofacts
+          - title: <a href="https://ocf.tw/p/community" target=_blank>...more</a>
+      - type: image
+        url: /p/admin/2022/community2022.png
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title:
+        description: In 2022, many conferences that were shifted online during the pandemic regained to be held physically. “OSCVPass (Open Source Contributor VIP Pass)” continued to benefit open source contributors. We expand the communities by collaborating with 5 conferences.<br>By 2022, a total of 521 applied, and 411 people received the open source contributor benefits provided by SITCON, COSCUP, MOPCON, PyCON Taiwan, and Laravel x Vue Conf.
+        items:
+          - project_id: oscvpass
+      - type: image
+        url: /p/admin/2022/2022-oscvpass.png
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: After two gloomy years, 2022 marks the silver lining of the pandemic. Aside from the physical conferences, community events are also reviving. However, communities and organizers now face the challenges of hybrid events, staff changes, and people’s tendency to stay at home. How should contributors run communities in the post-pandemic time? In December 2022, we held a one-day workshop with 50 members from 20 communities to exchange past experiences and discuss future collaborations in the upcoming 2023.
+        items:
+          - title: <a href="https://hackmd.io/@kBz6ToufTP6WQT7BIzCDqA/SyRYwmvOo" target=_blank>CONCOM minute</a>
+      - type: image
+        url: /p/admin/2022/concom2022.png
+
+  - type: image_header
+    cover_image_alt: 議題串連
+    cover: /p/admin/2022/2022-en-b3.png
+  # 做到這邊
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title:
+        description: OCF actively supervises and advocates digital governance in Taiwan. This year, we represented civic communities to issue the very first cosignatory on the launch of the Ministry of Digital Affairs. The consignatory was brought to the ministry’s notice. In a follow-up public hearing, Minister Audrey Tang answered up to 40 queries vis-à-vis the civic communities.<br>In addition, regarding the controversial draft of the Digital Intermediary Services Act, OCF has held 4 online/offline workshops with the communities. Aside from discussing the draft in detail, we also introduced the digital service supervision policies in different countries. We hope to build the public’s consensus on Taiwan’s platform governance in the near future.<br>Along with the above actions, we also continued to participate in digital human rights advocacies in Taiwan, which include the Interpretation of Taiwan’s National Health Insurance Research Database (NHIRD), legal amendments of digital ID cards (eID), and many more. We provide tech support and actively take a stand in these advocacies.
+        items:
+          - title: <a href="https://ocf.tw/p/issues/2022/">【Cosignatory】The Ministry of Digital Affairs should address a comprehensive plan regarding digital transformation </a>
+          - title: <a href="https://www.accupass.com/event/2212021230461929689100">The dilemma between freedom of speech and crime prevention： examining the status quo and the future of Digital Intermediary Services Act</a>
+          - title: <a href="https://g0v.hackmd.io/@irvin/20220827-digital-act">Digital Intermediary Services Act seminar minute</a>
+          - title: <a href="https://www.youtube.com/watch?v=9iAjKL7z34A">Let’s talk about the Ministry of Digital Affairs with AU</a>
+          - title: <a href="https://www.cna.com.tw/news/aipl/202207060168.aspx">Press conference： Calling public attention to the Interpretation of Taiwan’s National Health Insurance Research Database and personal data exploitations </a>
+          - title: <a href="https://blog.ocf.tw/2022/12/health-insurance-database.html">The ten year’s war on the Interpretation of Taiwan’s National Health Insurance Research Database (ft. pofeng) </a>
+          - title: <a href="https://www.eid.tw/">Support legal amendments and make eID reform more transparent</a>
+      - type: image
+        url: /p/admin/2022/2022-issues.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: In this digitalized time, content moderation and large-scale personal data collection by online platforms have contaminated people’s privacy and freedom of speech. This year, OCF kicked off the “Ranking Digital Rights'' project in Taiwan. We evaluated the digital human rights performances of 20 major digital cooperations/services and would publish our first report in 2023. Through transparent data, we aim to point out the weakness of the enterprises’ policies, call for improvements, and increase the public’s awareness of their own rights.
+        items:
+          - title: <a href="https://ocf.tw/p/rdr/" target=_blank>More about Ranking Digital Rights (RDR)</a>
+      - type: image
+        url: /p/admin/2022/RDR2022.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title:
+        description: OCF has been globally engaged in the work of open government. Ever since the Taiwanese government announced its participation in the open government affairs, OCF has continued to serve as a civil society representative throughout the execution.<br>In 2022, we hosted multiple panels and workshops for the public sector, as well as focus group seminars with civic stakeholders. For instance, the open government meetup of indigenous people. Furthermore, through the invitation of the National Democratic Institute, OCF attended the Copenhagen Democracy Summit to exchange thoughts on the execution of the open government plan around the globe.<br>In the Open Government/Parliament committee held by the Administrative and Legislative Yuan, OCF staff have participated as OP-MSF (Open Parliament Multistakeholder Forum) members and expanded the discussions into public scenarios. Through brainstorming with different stakeholders, we successfully maintain and inspect Taiwan's open government.<br>OCF held collaboration workshops to revise the workflow and organization of the Open Parliament stakeholders. We also published an integrated report on Taiwan’s Open Parliament Action Plan in 2022 to improve the efficiency of public-private collaborations.
+        items:
+          - title: <a href=" https://ocf.tw/p/issues/twogp" target=_blank>More about Open Government/Parliament</a>
+          - title: <a href="https://docs.google.com/presentation/d/1WAh6lcLDfof_iZzuGmvw-ztIWZfP7QZSdHJu7HScTlA/edit?usp=sharing" target=blank>Report on Taiwan’s Open Parliament Action Plan</a>
+      - type: image
+        url: /p/admin/2022/openGov.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: Compared to the rest of the world, Taiwan’s Internet is relatively free from excessive moderation and regulation. However, in a modern society that operates heavily on all kinds of digital devices, we could not  be more conscious about Internet freedom and digital rights.<br>OCF has continued to hold Internet Freedom Monthly Meetups with our fellow communities this year. Moreover, in collaboration with the Taipei Economic and Cultural Office in Canada, we also held divergent events such as film festivals. We discussed Internet unfreedom through topics including China’s Great Firewall, Hong Kong’s Leave Home Safe, DNS blocking, etc. Tapping into the future of the Internet, we also investigated issues such as online sexual violence, gender misogyny, Internet infrastructure during the war, methods to implement data trust, and the Digital Intermediary Services Act. These monthly meetups facilitate our vision of Internet freedom.
+        items:
+          - title: <a href="https://ocf.tw/p/issues/internetfreedom/" target=_blank>More about Internet Freedom Monthly Meetups</a>
+      - type: image
+        url: /p/admin/2022/reunion2022.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title:
+        description: Joining hands with the National Democratic Institute (NDI), OCF successfully linked young NGO workers across Indonesia, Philippines, Sri Lanka, and Papua New Guinea in the ACTIVE Youth program. We seek to act collectively on issues including democracy, anti-corruption, open government, and media literacy. Aside from holding monthly empowerment workshops online, we arranged trips for our global partners to meet them face-to-face in Taiwan. In addition, we also globally promote the methodology of transparent open-source digital collaborations through online hackathons.
+        items:
+          - title: <a href="https://www.ndi.org/our-stories/building-anti-corruption-youth-network-indo-pacific" target=_blank>NDI ACTIVE Youth</a>
+      - type: image
+        url: /p/admin/2022/international2022.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: The power of the Internet has been significantly boosted in the post-pandemic time. Aside from telecommunication and online shopping, remote working and cloud services also enter the mainstream. OCF has been keen on digital human rights and Internet freedom. In order to nurture a vigorous digital society, we actively serve as initiators and service providers.<br>In 2022, OCF carried out our mission through three accomplishments, which are hands-on workshops, a digital defense playbook, and malicious flow detection. The hands-on workshops aim to train capacity in building safe Internet structures. We published a playbook on open source services and Internet structures, and built an open source meeting platform to secure the safety of NGO workers. The seminar observations were demonstrated in SITCON and COSCUP.<br>We wish to secure a safe digital space with our global partners from different fields. Based on this strong ally, we would then reach out to fellow organizations with high risks of cyber attacks. Through malicious flow detection, we would check if any malware has stolen confidential data from their main phones and computers. Through these three key projects, OCF aims to bridge the gap between technologies and civic communities.
+        items:
+          - title: <a href="https://ocftw.kktix.cc/events/ocftot2022" target=_blank>Workshop registration page on KKTIX</a>
+          - title: <a href="https://coscup.org/2022/zh-TW/session/FPSJTC" target=_blank>COSCUP demonstration</a>
+          - title: <a href="https://sitcon.org/2022/agenda/347b81" target=_blank>SITCON  demonstration</a>
+          - title: <a href="https://handbook.ocf.tw" target=_blank>Digital Defense Playbook for NGO</a>
+      - type: image
+        url: /p/admin/2022/technology2022.png
+
+  - type: image_header
+    cover_image_alt: 開放文化推廣
+    cover: /p/admin/2022/2022-b4.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: Aside from putting up physical booths at major open source conferences, OCF is dedicated to promoting open culture in various ways. However, open source and culture could be hard to understand since  the general public is unfamiliar with programming, open source and culture could be hard to understand. In order to break down the barrier, OCF has developed a board game entitled “OpenStarTerVillage” with our volunteers, and hosted 2 workshops and 1 in-class tutorial in 2022. Through this accessible game, the general public gets an overview of open source, open data, and open government through solid cases. Accordingly, they could discover their unique roles in these domestic and global open source projects. We are confident that OpenStarTerVillage is a fun space to start off the journey in open culture for the general public.
+        items:
+          - title: <a href="https://openstartervillage.ocf.tw/" target=_blank>OpenStarTerVillage official site</a>
+          - title: <a href="https://discord.com/invite/JnTHGnxwYS" target=_blank>Join the OpenStarTerVillage Discord</a>
+          - title: <a href="https://reurl.cc/NqAzzx" target=_blank>OpenStarTerVillage playbook and application form</a>
+          - title: <a href="https://reurl.cc/EGrq8a " target=_blank>OpenStarTerVillage Starter Pack</a>
+      - type: image
+        url: /p/admin/2022/boardgame.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title:
+        description: From 2022, international conferences started rolling again as the pandemic subsides. In response, we relaunched the Support Program for International Conference Participation in March. The revised program covers pre-sessions, funding, and program FAQ, which sufficiently support youngsters and full-time workers to participate in international conferences. To expand tech communities’ interests in the international conferences and global affairs, OCF also hosted 2 panels and booths at COSCUP and SITCON. There were over 100 participants who took part in the events to get globally involved.<br>By the end of 2022, OCF has supported 1 contributor and 3 attendees to participate in RightsCon and Code for Latin America online. We held 1 public sharing after each conference, and over 30 participants engaged in our discussions. All field notes of the international conferences were made public on the program website in the notion of knowledge sharing. Their sharings have expanded our knowledge base and nurtured new contributors for the reopening physical conferences.
+      - type: image
+        url: /p/admin/2022/Scholarship2022.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: With a strong motivation to shape a better future, OCF continues to promote open culture and open source. To preserve the warm tradition of “veteran-led community orientations,” this year, we continued to run the “Open Source Newbies” project through sessions at COSCUP, the largest open source annual conference in Taiwan. The sessions covered eight themes related to open culture and tech, introducing those unfamiliar with the topics to the community. In total, over 400 participants joined the sessions.
+        items:
+          - title: <a href="https://www.youtube.com/playlist?list=PLqfib4St70XNbd3fLdxeI-7jGfwgZV9Ti" target=_blank>“Open Source Newbies” sessions and recordings </a>
+      - type: image
+        url: /p/admin/2022/boardgame_text.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title:
+        description: To nourish Taiwan’s open source, open culture ecosystem, as well as building capacity in community operation and global affairs, OCF recruited interns and collaborated with 5 communities including RubyTW, CCTW, FreeBSD, CNTUG, and CSCS. The interns could learn about open tech and open culture, not only from OCF's works but also from these communities. In 2022, we had 17 university students participating in the OCF & community internship program.
+        items:
+          - title: <a href="https://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97" target=_blank>Our interns’ reflections</a>
+          - title: <a href="https://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92" target=_blank>More about the internship program </a>
+      - type: image
+        url: /p/admin/2022/internship2022.png
+
+  - type: image_header
+    cover_image_alt: 開放文化推廣
+    cover: /p/admin/2022/2022-b5.png
+
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        swap: false
+        title: 2021 年度基金會自營專案收支
+        description: 收入 NT$ 19,145,153<br>支出 NT$ 16,148,451<br>基金會年度總計 NT$ 2,996,702
+
+  - type: content
+    single_column: true
+    columns:
+      - type: image
+        url: /p/admin/2021/finance-1-tw.png
+
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2021/finance-left-tw.png
+      - type: image
+        url: /p/admin/2021/finance-right-tw.png
+
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        swap: false
+        title: 2021 年度社群專案收支
+        description: 收入 NT$ 21,051,847<br>支出 NT$ 12,711,705<br>社群專案年度總計 NT$ 8,340,142
+
+  - type: content
+    single_column: true
+    columns:
+      - type: image
+        url: /p/admin/2021/finance-2-tw.png
+
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        title: Board Members：Pofeng, honki, Bob Chao, clkao, kc chen.<br>
+          Consultants：isabel, Lucien, miaoski.<br>
+          OCF Staff：Singing, Rock, Lulu, Rosa, Xini, Claire, huangfu, Leaf, Anima, weichen, szhui, cstang.<br>
+          OCF Graduates：Sam, Dreamer, kting, TC, 仁瑋、紅馬.<br>
+          Interns：許瞳、雨歆、彥皓、昱翔、盛益、靖軒、峰瑞、政憲、孟芸、仲宇、致伶、品妤、家祐.<br>
+          以及各位熱血志工夥伴！
+  - type: content
+    columns:
+      - type: article
+        title: 感謝
+        swap: false
+        description: We deeply appreciate the support from our fellow communities. OCF would not be able to make such amazing leaps in 2022 without your kind encouragement. We believe that crossover collaborations spark new energies. Looking toward the future, we warmly invite you to continue this amazing journey with us. In joint hands, let us face the digital challenges in and around Taiwan and cherish the values of open tech.
+      - type: article
+        logo_height: 7rem
+        logos:
+          - org_id: rc
+          - org_id: archilife
+
+  - type: content
+    columns:
+      - type: article
+        title: 追蹤 OCF，活動不會錯過！
+        items:
+          - title: <i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><i class="twitter icon"></i><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
+      - type: article
+        title: 訂閱 EDM，開源資訊不漏接
+        items:
+          - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a>
+        swap: false
