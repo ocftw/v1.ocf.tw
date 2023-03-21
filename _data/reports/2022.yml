@@ -62,7 +62,7 @@ items:
         items:
           - project_id: oscvpass
       - type: image
-        url: /p/admin/2022/2022-oscvpass.png
+        url: /p/admin/2022/oscvpass2022.png
   - type: content
     columns:
       - type: article
@@ -93,7 +93,7 @@ items:
           - title: <a href="https://blog.ocf.tw/2022/12/health-insurance-database.html">健保資料庫訴訟案十年回顧：ft. pofeng 李柏鋒醫師</a>
           - title: <a href="https://www.eid.tw/">支持修法與公開 數位晶片身分證規劃資訊</a>
       - type: image
-        url: /p/admin/2022/2022-issues.png
+        url: /p/admin/2022/issues2022.png
 
   - type: content
     columns:
@@ -127,7 +127,7 @@ items:
         items:
           - title: <a href="https://ocf.tw/p/issues/internetfreedom/" target=_blank>網路自由小聚全記錄</a>
       - type: image
-        url: /p/admin/2022/reunion2022.png
+        url: /p/admin/2022/internetfreedom2022.png
 
   - type: content
     columns:
