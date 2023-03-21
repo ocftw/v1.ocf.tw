@@ -38,7 +38,7 @@ items:
           - title: Taiwan Open Education Develop Unit
           - project_id: rubytW
       - type: image
-        url: /p/admin/2022/newcome2022.png
+        url: /p/admin/2022/newcome2022-en.png
   - type: content
     columns:
       - type: article
@@ -52,7 +52,7 @@ items:
           - project_id: cofacts
           - title: <a href="https://ocf.tw/p/community" target=_blank>...more</a>
       - type: image
-        url: /p/admin/2022/community2022.png
+        url: /p/admin/2022/community2022-en.png
   - type: content
     columns:
       - type: article
@@ -62,7 +62,7 @@ items:
         items:
           - project_id: oscvpass
       - type: image
-        url: /p/admin/2022/2022-oscvpass.png
+        url: /p/admin/2022/oscvpass2022-en.png
   - type: content
     columns:
       - type: article
@@ -72,7 +72,7 @@ items:
         items:
           - title: <a href="https://hackmd.io/@kBz6ToufTP6WQT7BIzCDqA/SyRYwmvOo" target=_blank>CONCOM minute</a>
       - type: image
-        url: /p/admin/2022/concom2022.png
+        url: /p/admin/2022/concom2022-en.png
 
   - type: image_header
     cover_image_alt: 議題串連
@@ -92,7 +92,7 @@ items:
           - title: <a href="https://blog.ocf.tw/2022/12/health-insurance-database.html">The ten year’s war on the Interpretation of Taiwan’s National Health Insurance Research Database (ft. pofeng) </a>
           - title: <a href="https://www.eid.tw/">Support legal amendments and make eID reform more transparent</a>
       - type: image
-        url: /p/admin/2022/2022-issues.png
+        url: /p/admin/2022/issues2022-en.png
 
   - type: content
     columns:
@@ -103,7 +103,7 @@ items:
         items:
           - title: <a href="https://ocf.tw/p/rdr/" target=_blank>More about Ranking Digital Rights (RDR)</a>
       - type: image
-        url: /p/admin/2022/RDR2022.png
+        url: /p/admin/2022/RDR2022-en.png
 
   - type: content
     columns:
@@ -115,7 +115,7 @@ items:
           - title: <a href=" https://ocf.tw/p/issues/twogp" target=_blank>More about Open Government/Parliament</a>
           - title: <a href="https://docs.google.com/presentation/d/1WAh6lcLDfof_iZzuGmvw-ztIWZfP7QZSdHJu7HScTlA/edit?usp=sharing" target=blank>Report on Taiwan’s Open Parliament Action Plan</a>
       - type: image
-        url: /p/admin/2022/openGov.png
+        url: /p/admin/2022/openGov2022-en.png
 
   - type: content
     columns:
@@ -126,7 +126,7 @@ items:
         items:
           - title: <a href="https://ocf.tw/p/issues/internetfreedom/" target=_blank>More about Internet Freedom Monthly Meetups</a>
       - type: image
-        url: /p/admin/2022/reunion2022.png
+        url: /p/admin/2022/internetfreedom2022-en.png
 
   - type: content
     columns:
@@ -137,7 +137,7 @@ items:
         items:
           - title: <a href="https://www.ndi.org/our-stories/building-anti-corruption-youth-network-indo-pacific" target=_blank>NDI ACTIVE Youth</a>
       - type: image
-        url: /p/admin/2022/international2022.png
+        url: /p/admin/2022/international2022-en.png
 
   - type: content
     columns:
@@ -151,7 +151,7 @@ items:
           - title: <a href="https://sitcon.org/2022/agenda/347b81" target=_blank>SITCON  demonstration</a>
           - title: <a href="https://handbook.ocf.tw" target=_blank>Digital Defense Playbook for NGO</a>
       - type: image
-        url: /p/admin/2022/technology2022.png
+        url: /p/admin/2022/technology2022-en.png
 
   - type: image_header
     cover_image_alt: 開放文化推廣
@@ -169,7 +169,7 @@ items:
           - title: <a href="https://reurl.cc/NqAzzx" target=_blank>OpenStarTerVillage playbook and application form</a>
           - title: <a href="https://reurl.cc/EGrq8a " target=_blank>OpenStarTerVillage Starter Pack</a>
       - type: image
-        url: /p/admin/2022/boardgame.png
+        url: /p/admin/2022/boardgame2022-en.png
 
   - type: content
     columns:
@@ -178,7 +178,7 @@ items:
         title:
         description: From 2022, international conferences started rolling again as the pandemic subsides. In response, we relaunched the Support Program for International Conference Participation in March. The revised program covers pre-sessions, funding, and program FAQ, which sufficiently support youngsters and full-time workers to participate in international conferences. To expand tech communities’ interests in the international conferences and global affairs, OCF also hosted 2 panels and booths at COSCUP and SITCON. There were over 100 participants who took part in the events to get globally involved.<br>By the end of 2022, OCF has supported 1 contributor and 3 attendees to participate in RightsCon and Code for Latin America online. We held 1 public sharing after each conference, and over 30 participants engaged in our discussions. All field notes of the international conferences were made public on the program website in the notion of knowledge sharing. Their sharings have expanded our knowledge base and nurtured new contributors for the reopening physical conferences.
       - type: image
-        url: /p/admin/2022/Scholarship2022.png
+        url: /p/admin/2022/Scholarship2022-en.png
 
   - type: content
     columns:
@@ -189,7 +189,7 @@ items:
         items:
           - title: <a href="https://www.youtube.com/playlist?list=PLqfib4St70XNbd3fLdxeI-7jGfwgZV9Ti" target=_blank>“Open Source Newbies” sessions and recordings </a>
       - type: image
-        url: /p/admin/2022/boardgame_text.png
+        url: /p/admin/2022/osnewbie2022-en.png
 
   - type: content
     columns:
@@ -201,7 +201,7 @@ items:
           - title: <a href="https://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97" target=_blank>Our interns’ reflections</a>
           - title: <a href="https://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92" target=_blank>More about the internship program </a>
       - type: image
-        url: /p/admin/2022/internship2022.png
+        url: /p/admin/2022/internship2022-en.png
 
   - type: image_header
     cover_image_alt: 開放文化推廣
