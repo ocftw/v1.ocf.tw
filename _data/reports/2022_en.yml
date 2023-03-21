@@ -213,35 +213,33 @@ items:
     columns:
       - type: article
         swap: false
-        title: 2021 年度基金會自營專案收支
-        description: 收入 NT$ 19,145,153<br>支出 NT$ 16,148,451<br>基金會年度總計 NT$ 2,996,702
+        title: 2022 OCF Projects Annual Total Income & Expenditure
+        description: Income NT$ 31,217,377<br>Expenditure NT$ 19,909,315<br>Surplus NT$ 11,308,062
 
   - type: content
     single_column: true
     columns:
       - type: image
-        url: /p/admin/2021/finance-1-tw.png
+        url: /p/admin/2022/2022-en-chart1.png
 
   - type: content
     columns:
       - type: image
-        url: /p/admin/2021/finance-left-tw.png
-      - type: image
-        url: /p/admin/2021/finance-right-tw.png
+        url: /p/admin/2022/2022-en-chart2.png
 
   - type: content
     single_column: true
     columns:
       - type: article
         swap: false
-        title: 2021 年度社群專案收支
-        description: 收入 NT$ 21,051,847<br>支出 NT$ 12,711,705<br>社群專案年度總計 NT$ 8,340,142
+        title: 2022 Communities' Projects Annual Total Income & Expenditure
+        description: Income NT$ 13,439,519<br>Expenditure NT$ 13,855,298<br>Surplus NT$ -415,779
 
   - type: content
     single_column: true
     columns:
       - type: image
-        url: /p/admin/2021/finance-2-tw.png
+        url: /p/admin/2022/2022-en-chart3.png
 
   - type: content
     single_column: true
