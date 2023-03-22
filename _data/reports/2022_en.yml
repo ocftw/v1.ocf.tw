@@ -84,13 +84,13 @@ items:
         title:
         description: OCF actively supervises and advocates digital governance in Taiwan. This year, we represented civic communities to issue the very first cosignatory on the launch of the Ministry of Digital Affairs. The consignatory was brought to the ministry’s notice. In a follow-up public hearing, Minister Audrey Tang answered up to 40 queries vis-à-vis the civic communities.<br>In addition, regarding the controversial draft of the Digital Intermediary Services Act, OCF has held 4 online/offline workshops with the communities. Aside from discussing the draft in detail, we also introduced the digital service supervision policies in different countries. We hope to build the public’s consensus on Taiwan’s platform governance in the near future.<br>Along with the above actions, we also continued to participate in digital human rights advocacies in Taiwan, which include the Interpretation of Taiwan’s National Health Insurance Research Database (NHIRD), legal amendments of digital ID cards (eID), and many more. We provide tech support and actively take a stand in these advocacies.
         items:
-          - title: <a href="https://ocf.tw/p/issues/2022/">【Cosignatory】The Ministry of Digital Affairs should address a comprehensive plan regarding digital transformation </a>
-          - title: <a href="https://www.accupass.com/event/2212021230461929689100">The dilemma between freedom of speech and crime prevention： examining the status quo and the future of Digital Intermediary Services Act</a>
-          - title: <a href="https://g0v.hackmd.io/@irvin/20220827-digital-act">Digital Intermediary Services Act seminar minute</a>
-          - title: <a href="https://www.youtube.com/watch?v=9iAjKL7z34A">Let’s talk about the Ministry of Digital Affairs with AU</a>
-          - title: <a href="https://www.cna.com.tw/news/aipl/202207060168.aspx">Press conference： Calling public attention to the Interpretation of Taiwan’s National Health Insurance Research Database and personal data exploitations </a>
-          - title: <a href="https://blog.ocf.tw/2022/12/health-insurance-database.html">The ten year’s war on the Interpretation of Taiwan’s National Health Insurance Research Database (ft. pofeng) </a>
-          - title: <a href="https://www.eid.tw/">Support legal amendments and make eID reform more transparent</a>
+          - title: <a href="https://ocf.tw/p/issues/2022/" target=_blank>【Cosignatory】The Ministry of Digital Affairs should address a comprehensive plan regarding digital transformation </a>
+          - title: <a href="https://www.accupass.com/event/2212021230461929689100" target=_blank>The dilemma between freedom of speech and crime prevention： examining the status quo and the future of Digital Intermediary Services Act</a>
+          - title: <a href="https://g0v.hackmd.io/@irvin/20220827-digital-act" target=_blank>Digital Intermediary Services Act seminar minute</a>
+          - title: <a href="https://www.youtube.com/watch?v=9iAjKL7z34A" target=_blank>Let’s talk about the Ministry of Digital Affairs with AU</a>
+          - title: <a href="https://www.cna.com.tw/news/aipl/202207060168.aspx" target=_blank>Press conference： Calling public attention to the Interpretation of Taiwan’s National Health Insurance Research Database and personal data exploitations </a>
+          - title: <a href="https://blog.ocf.tw/2022/12/health-insurance-database.html" target=_blank>The ten year’s war on the Interpretation of Taiwan’s National Health Insurance Research Database (ft. pofeng) </a>
+          - title: <a href="https://www.eid.tw/" target=_blank>Support legal amendments and make eID reform more transparent</a>
       - type: image
         url: /p/admin/2022/issues2022-en.png
 
