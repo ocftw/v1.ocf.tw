@@ -19,10 +19,10 @@ items:
 
   - type: image_header
     cover: /p/admin/2022/2022-en-b1.png
-    cover_image_alt: OCF 活動重點成果
+    cover_image_alt: OCF highlights
 
   - type: image_header
-    cover_image_alt: 社群支援
+    cover_image_alt: community
     cover: /p/admin/2022/2022-en-b2.png
 
   - type: content
@@ -75,7 +75,7 @@ items:
         url: /p/admin/2022/concom2022-en.png
 
   - type: image_header
-    cover_image_alt: 議題串連
+    cover_image_alt: issues
     cover: /p/admin/2022/2022-en-b3.png
   - type: content
     columns:
@@ -122,7 +122,7 @@ items:
       - type: article
         swap: false
         title:
-        description: Compared to the rest of the world, Taiwan’s Internet is relatively free from excessive moderation and regulation. However, in a modern society that operates heavily on all kinds of digital devices, we could not  be more conscious about Internet freedom and digital rights.<br>OCF has continued to hold Internet Freedom Monthly Meetups with our fellow communities this year. Moreover, in collaboration with the Taipei Economic and Cultural Office in Canada, we also held divergent events such as film festivals. We discussed Internet unfreedom through topics including China’s Great Firewall, Hong Kong’s Leave Home Safe, DNS blocking, etc. Tapping into the future of the Internet, we also investigated issues such as online sexual violence, gender misogyny, Internet infrastructure during the war, methods to implement data trust, and the Digital Intermediary Services Act. These monthly meetups facilitate our vision of Internet freedom.
+        description: Compared to the rest of the world, Taiwan’s Internet is relatively free from excessive moderation and regulation. However, in a modern society that operates heavily on all kinds of digital devices, we could not be more conscious about Internet freedom and digital rights.<br>OCF has continued to hold Internet Freedom Monthly Meetups with our fellow communities this year. Moreover, in collaboration with the Taipei Economic and Cultural Office in Canada, we also held divergent events such as film festivals. We discussed Internet unfreedom through topics including China’s Great Firewall, Hong Kong’s Leave Home Safe, DNS blocking, etc. Tapping into the future of the Internet, we also investigated issues such as online sexual violence, gender misogyny, Internet infrastructure during the war, methods to implement data trust, and the Digital Intermediary Services Act. These monthly meetups facilitate our vision of Internet freedom.
         items:
           - title: <a href="https://ocf.tw/p/issues/internetfreedom/" target=_blank>More about Internet Freedom Monthly Meetups</a>
       - type: image
@@ -154,7 +154,7 @@ items:
         url: /p/admin/2022/technology2022-en.png
 
   - type: image_header
-    cover_image_alt: 開放文化推廣
+    cover_image_alt: open culture promotion
     cover: /p/admin/2022/2022-en-b4.png
 
   - type: content
@@ -176,7 +176,7 @@ items:
       - type: article
         swap: true
         title:
-        description: From 2022, international conferences started rolling again as the pandemic subsides. In response, we relaunched the Support Program for International Conference Participation in March. The revised program covers pre-sessions, funding, and program FAQ, which sufficiently support youngsters and full-time workers to participate in international conferences. To expand tech communities’ interests in the international conferences and global affairs, OCF also hosted 2 panels and booths at COSCUP and SITCON. There were over 100 participants who took part in the events to get globally involved.<br>By the end of 2022, OCF has supported 1 contributor and 3 attendees to participate in RightsCon and Code for Latin America online. We held 1 public sharing after each conference, and over 30 participants engaged in our discussions. All field notes of the international conferences were made public on the program website in the notion of knowledge sharing. Their sharings have expanded our knowledge base and nurtured new contributors for the reopening physical conferences.
+        description: From 2022, international conferences started rolling again as the pandemic subsides. In response, we relaunched the <a href="https://ocf.tw/p/intldonate/" target=_blank>Support Program for International Conference Participation</a> in March. The revised program covers pre-sessions, funding, and program FAQ, which sufficiently support youngsters and full-time workers to participate in international conferences. To expand tech communities’ interests in the international conferences and global affairs, OCF also hosted 2 panels and booths at COSCUP and SITCON. There were over 100 participants who took part in the events to get globally involved.<br>By the end of 2022, OCF has supported 1 contributor and 3 attendees to participate in RightsCon and Code for Latin America online. We held 1 public sharing after each conference, and over 30 participants engaged in our discussions. All field notes of the international conferences were made public on the program website in the notion of knowledge sharing. Their sharings have expanded our knowledge base and nurtured new contributors for the reopening physical conferences.
       - type: image
         url: /p/admin/2022/Scholarship2022-en.png
 
@@ -204,7 +204,7 @@ items:
         url: /p/admin/2022/internship2022-en.png
 
   - type: image_header
-    cover_image_alt: 開放文化推廣
+    cover_image_alt: open culture promotion
     cover: /p/admin/2022/2022-en-b5.png
 
   - type: content
@@ -250,11 +250,11 @@ items:
           OCF Staff：Singing, Rock, Lulu, Rosa, Xini, Claire, huangfu, Leaf, Anima, weichen, szhui, cstang.<br>
           OCF Graduates：Sam, Dreamer, kting, TC, 仁瑋、紅馬.<br>
           Interns：許瞳、雨歆、彥皓、昱翔、盛益、靖軒、峰瑞、政憲、孟芸、仲宇、致伶、品妤、家祐.<br>
-          以及各位熱血志工夥伴！
+          and all of the volunteers！
   - type: content
     columns:
       - type: article
-        title: 感謝
+        title: Thank you!
         swap: false
         description: We deeply appreciate the support from our fellow communities. OCF would not be able to make such amazing leaps in 2022 without your kind encouragement. We believe that crossover collaborations spark new energies. Looking toward the future, we warmly invite you to continue this amazing journey with us. In joint hands, let us face the digital challenges in and around Taiwan and cherish the values of open tech.
       - type: article
@@ -266,11 +266,11 @@ items:
   - type: content
     columns:
       - type: article
-        title: 追蹤 OCF，活動不會錯過！
+        title: Follow us on social media!
         items:
           - title: <i class="facebook icon"></i><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a><br><i class="twitter icon"></i><a href="https://twitter.com/ocftaiwan" target=_blank>Twitter</a>
       - type: article
-        title: 訂閱 EDM，開源資訊不漏接
+        title: Subcribe EDMs!
         items:
           - title: <i class="paper plane icon"></i><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a>
         swap: false
