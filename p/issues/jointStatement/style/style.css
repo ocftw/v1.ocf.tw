@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-picture {
+  width: 60vw;
+  height: 55vh;
+  margin: 0 auto 2rem auto;
+}
+
+section {
+  margin: 8rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+span {
+  margin-top: 2rem;
+}
+
+#buttonSix {
+  background-color: #f4a460;
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.footer-img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+footer p,
+footer a,
+footer h5 {
+  font-size: 15px;
+}
+footer .Partition {
+  margin-top: 3rem;
+}
+
+@media (max-width: 767px) {
+  .row {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
