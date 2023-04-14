@@ -16,13 +16,6 @@ menu:
     url: /about/
   - title: 夥伴
     url: /people/
-<<<<<<< HEAD
-  - title:
-      - title: 基金會專案
-      - title: 社群專案
-=======
-  - title: 專案
->>>>>>> b844528975d5f82aae87ddb9a59039764e968546
   - title: 基金會專案
     url: /p/ocf
   - title: 社群專案
