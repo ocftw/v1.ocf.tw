@@ -11,7 +11,7 @@ current: 2023
 # 4.重新導向的頁面中 year 設定為 current 者
 
 menu:
-# 這個欄位用來設定主選單的選項與連結
+  # 這個欄位用來設定主選單的選項與連結
   - title: 關於
     url: /about/
   - title: 夥伴
@@ -28,7 +28,6 @@ menu:
     url: https://lab.ocf.tw/
   - title: 支持我們
     url: /supportus/
-
 
 menu_en:
   - title: About

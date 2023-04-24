@@ -1,31 +1,3 @@
-<!--<h2 class="ui header"> 歷年成果</h2>
-
-<p>
-OCF的經費來源主要是透過對社群收取服務費用、專案承攬、定期定額的捐款，以及單次性的捐贈等。這些經費除了使用在每月固定的行政開銷費用(行政、辦公室營運等)之外，多使用於專案支持、活動辦理等業務進行。 OCF主要業務之一為協助開源社群行政及財務管理，其各社群在 OCF 的捐款收入皆為各自社群之捐款收入，OCF 僅盡代管之責。
-每年業務成果、收支情形及社群協助狀況等，詳細請見 OCF 年度報告：
-</p>
-
-<div class="ui list">
-{% assign i = site.data.settings.current %}
-{% for item in site.data.reports %}
-{% unless item[0] contains "_" %}
-  {% assign i = i | minus:1 %}
-  <div class="item">
-    <a href="/p/{{ i }}" target="_blank">
-      <i class="globe icon"></i>
-      {{ i }} 年成果報告
-    </a>
-  </div>
-{% endunless %}
-{% endfor %}
-  <div class="item">
-    <a href="https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=1" target="_blank">
-      <i class="globe icon"></i>
-      2014 年成果報告
-    </a>
-  </div>
-</div>
--->
 <!--
 <h2 class="ui header"> OCF 公開徵信</h2>
 
@@ -48,21 +20,25 @@ OCF是一個從開源社群發起的非營利組織，每一筆的收入和捐�
 -->
 <h3 class="ui header">OCF 相關報導</h3>
 
+<div class="ui list">
 {% for item in site.data.about.ocf %}
-<div class="item"><i class="icon newspaper"></i>
-  <div class="content">
-    <div class="header">
-    {{ item.date }} / {{ item.media }}
+  <div class="item">
+    <i class="icon newspaper"></i>
+    <div class="content">
+      <div class="header">
+      {{ item.date }} / {{ item.media }}
+      </div>
+      <a href="{{ item.url }}" target="_blank">
+      {{ item.title }}
+      </a>
+    </div>
   </div>
-    <a href="{{ item.url }}" target="_blank">
-    {{ item.title }}
-    </a>
-</div>
 {% endfor %}
 </div>
 
 <h3 class="ui header">開源 / 開放文化相關報導</h3>
 
+<div class="ui list">
 {% for item in site.data.about.floss %}
   <div class="item">
     <i class="icon newspaper"></i>
@@ -74,6 +50,7 @@ OCF是一個從開源社群發起的非營利組織，每一筆的收入和捐�
       {{ item.title }}
       </a>
     </div>
+  </div>
 {% endfor %}
 </div>
 <!--
