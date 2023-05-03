@@ -38,8 +38,8 @@ links:
     url:  https://www.digitalasiahub.org
     color: green
     icon: world icon
-  - title: （國際夥伴） Open Net Korea 
-    url:  http://opennetkorea.org/en/wp/ 
+  # - title: （國際夥伴） Open Net Korea 
+  #   url:  http://opennetkorea.org/en/wp/ 
     color: green
     icon: world icon
 links_en:
