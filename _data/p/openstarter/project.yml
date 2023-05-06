@@ -1,10 +1,8 @@
 name: 開源星手村
 name_en: Open StarTer Village
 
-
 description: 「開源是開放軟體嗎？我不會寫程式能做嗎？」常聽到這樣的疑問，但其實每種開源專案需要的都不只是單一種人才，開源文化也不只是軟體，而是一種精神。這款桌遊的誕生，就是希望能透過沉浸式學習，讓更多人了解什麼是開放文化的精神，未來一起做出更多酷酷的專案（⁎⁍̴̛ᴗ⁍̴̛⁎）
 description_en:
-
 
 tagline: 一款給所有人的開源桌遊
 tagline_en:
@@ -19,9 +17,9 @@ start:
 end:
 
 topic_ids:
-  -
+  - source
 field_ids:
-  -
+  - it
 tags:
 tags_en:
 
@@ -68,7 +66,6 @@ links_en:
     url: https://drive.google.com/drive/folders/1790me8hwJVJZpusIBtICdM2YOErbRIM5
     color: yellow
     icon: world icon
-
 
 organizer_ids:
   - ocf
