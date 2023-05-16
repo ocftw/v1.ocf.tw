@@ -38,8 +38,8 @@ links:
     url:  https://www.digitalasiahub.org
     color: green
     icon: world icon
-  # - title: （國際夥伴） Open Net Korea 
-  #   url:  http://opennetkorea.org/en/wp/ 
+  - title: （在地夥伴） 台灣人權促進會 
+    url:  https://www.tahr.org.tw
     color: green
     icon: world icon
 links_en:
@@ -55,8 +55,8 @@ links_en:
     url:  https://www.digitalasiahub.org
     color: green
     icon: world icon
-  - title: (international project partners) Open Net Korea 
-    url:  http://opennetkorea.org/en/wp/ 
+  - title: (Local Project Partners) Taiwan Association for Human Rights  
+    url:  https://www.tahr.org.tw
     color: green
     icon: world icon
 
