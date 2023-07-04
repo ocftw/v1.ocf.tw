@@ -1,4 +1,16 @@
-
+- id: admin
+  name: "OCF x Sāngs Taipei 跨界藝術夏日派對"
+  name_en: "OCF x Sāngs Taipei Summer Party"
+  description: "OCF 一年一度的開源社群聚會又來了！準備好迎接一場突破界限的夏日派對了嗎？今年我們將呈獻一場融合科技與藝術的跨界展演活動，透過藝術展演和短講，向與會者介紹網路隱私和安全的重要性。歡迎舊雨新知一同來探索科技與藝術碰撞下迸發的火花！"
+  start: 2023/07/16
+  end: 2023/07/16
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/ocf-summer-2023
+  cover_image: /p/admin/2023/summerparty2023.png
+  contributor_ids:
+  project_ids:
+    - admin
 
 
 - id: admin
