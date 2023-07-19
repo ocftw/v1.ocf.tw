@@ -47,7 +47,7 @@ subscribe:
     icon: twitter
   - title: Flickr
     url: https://www.flickr.com/people/ocftw/
-    icon: Flickr
+    icon: fa-flickr
 join:
   - title: Google Groups
     url: https://groups.google.com/forum/#!forum/ocf-general
