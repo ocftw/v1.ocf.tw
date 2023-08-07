@@ -27,7 +27,21 @@
     - title: 活動網頁
       url: https://openchain.kktix.cc/events/openchain220826
   contributor_ids:
-    - Singing
-    - Claire
+    - singing
+    - claire
+  project_ids:
+    - openchain
+
+- id:
+  name: 2023 Taiwan OpenChain Meetup
+  name_en:
+  description: 各位科技業的從業人員，你知道自家產品/服務使用多少開源程式碼嗎？如果哪一天，發生如 Log4j 這種核彈等級的資安危機時，你有把握第一時間迅速了解自家是否有使用含有漏洞的程式碼嗎？用在哪？第幾版本？要將公司裡所有使用到的開源程式碼的版本、授權條款與授權合規證據都整理，需要良好的管理程序與人員意識。聽起來工程浩大，該怎麼辦？ 來參加 8 月 15 日的 2023 Taiwan Open Chain Meetup 吧！三小時的議程，免費分享國內外的實務經驗給你聽！
+  start: 2023/08/15
+  end: 
+  cover_image: /p/openchain/openchain2023.png
+  links:
+    - title: 活動網頁
+      url: https://openchain.kktix.cc/events/openchain20230815
+  contributor_ids:
   project_ids:
     - openchain
