@@ -6,9 +6,9 @@ abbr: WordCamp
 abbr_en: WordCamp
 tagline: WordCamp
 
-og_image: /p/wordcamp/Banner.jpg
+og_image: /p/wordcamp/wordcamp2023.jpg
 header_image: /p/wordcamp/Banner.jpg
-avatar_image: /p/wordcamp/Banner.jpg
+avatar_image: /p/wordcamp/wordcamp2023.jpg
 theme_color: 
 start: 
 end: 
@@ -20,7 +20,7 @@ topic_ids:
 field_ids:
   - 
 organizer_ids:
-  - wordcamp Taiwan
+  - wordcamp
 board_ids:
   - 
 staff_ids:
