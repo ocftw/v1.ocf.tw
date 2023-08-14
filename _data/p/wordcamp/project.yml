@@ -1,0 +1,36 @@
+name: WordCamp
+name_en: Students’ Information Technology Conference
+description: WordCamp 是自 2006 年起源於美國舊金山，在世界各地所舉辦一系列的自發性開放原始碼的 WordPress 使用者實體社群活動。
+透過一整天內容豐富的大型活動，將來自台灣各地、以及來自國外的 WordPress 愛好者齊聚一堂，分享知識、交流經驗，並共同學習最新的科技變革與技術資訊。
+WordCamp Taiwan 今年將在 2023 年 10 月 14 日於台北 TICC 國際會議中心舉辦一場專屬於台灣充滿活力與創新的 WordPress 盛會。
+WordCamp Taiwan 的運作方式是志工們透過贊助和捐款，以及門票收入來舉辦活動，這是一個與參與者近距離互動絕佳機會，歡迎所有想在這場活動曝光、增加知名度的廠商、企業，團體贊助者一起共襄盛舉。
+description_en:
+abbr: WordCamp 
+abbr_en: WordCamp
+tagline: WordCamp
+
+og_image: /p/wordcamp/Banner.jpg
+header_image: /p/wordcamp/Banner.jpg
+avatar_image: /p/wordcamp/Banner.jpg
+theme_color: 
+start: 
+end: 
+tags:
+  - 大型研討會
+  - 定期活動
+topic_ids:
+  - source
+field_ids:
+  - 
+organizer_ids:
+  - wordcamp
+board_ids:
+  - 
+staff_ids:
+  - leaf
+
+listed: yes
+listed_en: 
+
+actions: 
+
