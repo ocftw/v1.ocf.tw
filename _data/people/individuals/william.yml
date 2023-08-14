@@ -1,60 +1,6 @@
-# 這個檔案是自然人資料檔的範例
-
-name: text
-# 個人的中文全名，會出現在：
-# 1.工作夥伴頁（若是 OCF 成員）
-# 2.專案頁
-
-# ------ 以上必填，以下 OCF 成員必填，非 OCF 成員選填 ------
-
-nick: text
-# 個人的網路 id，若有，會出現在：
-# 1.工作夥伴頁（OCF 成員）
-# 2.專案頁
-
-# ------ 以下僅 OCF 成員需要填 ------
-
-name_en: text
-# 個人的英文全名，若有，會出現在工作夥伴頁
-
-role: text
-# 個人在 OCF 扮演的角色，若有，會出現在工作夥伴頁
-
-description: text
-# 個人簡介，若有，會出現在工作夥伴頁
-
-avatar: url
-# 個人頭像，若有，會出現在工作夥伴頁
-
-link:
-# 個人相關連結，若有，會出現在工作夥伴頁
-  - title: text
-    # 連結目的地說明
-    url: url
-    # 連結要指向哪裡
-
-# ------ 以下目前沒用到的 ------
-
-position: text
-# 個人在 OCF 的正式職稱，目前沒用到，僅供編輯備註
-
-log: 
-# 個人在 OCF 的 HR 紀錄，目前沒用到，僅供編輯備註
-  - date: yyyy/m/dd
-    # 日期
-    action: text
-    # 事項
-
-# ------ 以下無註解快速複製版 ------
-
-name: 
-
-nick: 
-
-name_en: 
-role: 
-description: 
-avatar: 
-link:
-  - title: 
-    url: 
+name: 劉韋巖
+nick: William
+name_en: William Liu
+role: 新手爸爸 
+description: Lí hó！我是一位建築背景出身的純正麻瓜，踏進職場後就開始了我的藝文產業滾動人生！過去曾任職於書店、數位媒體公司和教育機構，當過編輯、課程開發和內容企劃等工作，而就在今年，有幸獲得一顆紅色藥丸，踏入了開源世界，才發現這裡的空間與想像力是如此的廣闊與無限！
+avatar: /people/staff/William.jpg

@@ -1,4 +1,58 @@
-- id:
+- id: coscupStarGame
+  name: 開源星手村桌遊體驗工作坊
+  name_en: 
+  description: 手把手帶你玩桌遊，用桌遊體驗發起、協作及完成開源專案！OCF 與 FNF 期許透過「開源星手村桌遊」讓大家進一步認識「開源文化」是什麼，於此同時希冀降低大家參與「開源人年會」的門檻，特別安排這個 SideEvent「COSCUP 領航導覽系列活動」，讓你第一次參與 COSCUP 年會之餘，可以找到你可能可以奉獻的社群；又或者可以進一步找到和自身關注議題相關的議程；又或者嘗試在這邊認識更多未來理念與興趣相仿的朋友們，一同為台灣的開源文化、民主社會盡一份力！
+  start: 2023/07/29
+  end: 2023/07/30
+  links:
+    - title: 活動報名
+      url: https://i.coscup.org/OCFStarGame/Office
+  cover_image: /p/openstarter/072930Game.jpg
+  contributor_ids:
+    - claire
+    - yanyiyi
+    - xini
+    - rosa
+  project_ids:
+    - openstarter
+
+- id: coscupLeadGuide
+  name: COSCUP 領航線上講座
+  name_en: 
+  description: 兩場領航課程將會由 COSCUP 夥伴們與您分享來參加 COSCUP 前的各種心態、工具與知識上的準備。 OCF 與 FNF 期許透過「開源星手村桌遊」讓大家進一步認識「開源文化」是什麼，於此同時希冀降低大家參與「開源人年會」的門檻，特別安排這個「COSCUP 領航導覽系列活動」，讓你第一次參與 COSCUP 年會之餘，可以找到你可能可以奉獻的社群。
+  start: 2023/07/13
+  end: 2023/07/17
+  links:
+    - title: 活動報名
+      url: https://i.coscup.org/OCFGuide/Office
+  cover_image: /p/openstarter/072930Guide.jpg
+  contributor_ids:
+    - claire
+    - yanyiyi
+    - xini
+    - rosa
+  project_ids:
+    - openstarter 
+
+- id: coscupGuide
+  name: COSCUP 現場導覽活動
+  name_en: 
+  description: 三場導覽活動，幫助你認識當天的活動，我們會有專業、資深的過往 COSCUP 參與者，帶你遊走整個會場，快速認識整個活動，有哪些有趣、好玩的！OCF 與 FNF 期許透過「開源星手村桌遊」讓大家進一步認識「開源文化」是什麼，於此同時希冀降低大家參與「開源人年會」的門檻，特別安排這個 SideEvent「COSCUP 領航導覽系列活動」，讓你第一次參與 COSCUP 年會之餘，可以找到你可能可以奉獻的社群；又或者可以進一步找到和自身關注議題相關的議程；又或者嘗試在這邊認識更多未來理念與興趣相仿的朋友們，一同為台灣的開源文化、民主社會盡一份力！
+  start: 2023/07/29
+  end: 2023/07/30
+  links:
+    - title: 活動網頁
+      url: https://i.coscup.org/OCFGuide/Office
+  cover_image: /p/openstarter/071317Guide.jpg
+  contributor_ids:
+    - claire
+    - yanyiyi
+    - xini
+    - rosa
+  project_ids:
+    - openstarter  
+    
+- id: civicTrialCap
   name: 開放科技桌遊工作坊：玩桌遊，認識開放科技 x 拓展跨界人脈
   name_en: 
   description: 這款桌遊收錄國內外知名的開放政府、開放資料與開放原始碼三大領域的專案。非常適合以下領域的學生、老師，或對社會議題有興趣的人參加！
@@ -7,7 +61,7 @@
   links:
     - title: 活動網頁
       url: https://ocftw.kktix.cc/events/utstudent
-  cover_image: 
+  cover_image: https://t.kfs.io/upload_images/153858/0928-%E9%96%8B%E6%94%BE%E6%96%87%E5%8C%96-%E9%96%8B%E6%BA%90%E8%88%87%E6%9C%AA%E4%BE%86%E8%81%B7%E6%B6%AF_large.png
   contributor_ids:
     - claire
     - xini
@@ -15,8 +69,7 @@
   project_ids:
     - openstarter
 
-
-- id:
+- id: civicTrialDec
   name: 數位科技如何深化民主？從開源與協作看公民多元的參與形式
   name_en: 
   description: 以開源星手村為媒介，OCF 在這場工作坊中介紹開源文化與開放資料如何促進公私協力、深化民主，並邀請開源專案貢獻者親身分享，讓參與者了解開源世界的趣味之外，也透過互動了解開源協力蘊含的能動性，對民主帶來的正向潛力。
@@ -25,7 +78,7 @@
   links:
     - title: 活動網頁
       url: https://ocftw.kktix.cc/events/osv-taspaa2022
-  cover_image: 
+  cover_image: https://t.kfs.io/upload_images/152704/%E6%98%9F%E6%89%8B%E6%9D%91TASPAA%E9%81%8A%E7%8E%A9%E9%AB%94%E9%A9%97%E8%88%87%E5%B7%A5%E4%BD%9C%E5%9D%8A_v4_large.png
   contributor_ids:
     - claire
     - xini
@@ -33,7 +86,7 @@
   project_ids:
     - openstarter
 
-- id:
+- id: civicTrial
   name: 開源星手村－用桌遊翻轉公民教育，桌遊體驗場
   name_en: 
   description: 《開源星手村》是一款由開放文化基金會與志工共同開發的桌遊，旨在帶領入門者，透過輕鬆的遊戲形式了解開源專案的多元應用。本次與 TASPAA 合作，在兩天會期內推出專門為公共行政領域打造，數場 1hr 的體驗場。歡迎各位教育工作者加入同樂，以開源桌遊一同翻轉教育！
@@ -42,7 +95,7 @@
   links:
     - title: 活動網頁
       url: https://ocftw.kktix.cc/events/osv-taspaa2022
-  cover_image: 
+  cover_image: https://t.kfs.io/upload_images/152704/%E6%98%9F%E6%89%8B%E6%9D%91TASPAA%E9%81%8A%E7%8E%A9%E9%AB%94%E9%A9%97%E8%88%87%E5%B7%A5%E4%BD%9C%E5%9D%8A_v4_large.png
   contributor_ids:
     - claire
     - xini

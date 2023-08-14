@@ -1,0 +1,80 @@
+name:  2022 台灣企業數位人權排名
+name_en: 2022 Ranking Digital Rights (RDR) Taiwan 
+ 
+
+description: 數位時代，人權的伸張與資訊產品和服務息息相關！OCF 偕同國際夥伴一起化知識為力量，導入國際標準，評估台灣企業的隱私保護以及言論管制相關規範， 改善舊有企業政策，讓「公（民社會）」、「私（人企業）」共同在邁步國際、促進數位人權的路上攜手前進！
+description_en: In the digital era, the promotion of human rights and data-based services and products are intimately connected. OCF and our international partners are using knowledge as power, and using international standards to evaluate the standards related to free-speech management and personal information protection used by Taiwanese corporations.
+
+
+tagline: 用知識達成責信 
+tagline_en: From Knowledge to Accountability
+
+og_image: /p/rdr/2022/rdrlogo.jpeg
+og_image_en: /p/rdr/2022/rdrlogo_en.jpeg
+header_image: /p/rdr/2022/Banner.png
+header_image_en: /p/rdr/2022/Banner.png
+avatar_image: /p/rdr/2022/rdrlogo.jpeg
+avatar_image_en: /p/rdr/2022/rdrlogo_en.jpeg
+theme_color: green
+
+start: 
+end: 
+
+topic_ids:
+  - source
+field_ids:
+  - it
+tags:
+tags_en:
+
+links:
+  - title: RDR 官方網站
+    url: https://rankingdigitalrights.org 
+    color: green
+    icon: world icon
+  - title: 2020 RDR 全球企業數位人權排名
+    url:  https://rankingdigitalrights.org/index2020/
+    color: green
+    icon: world icon
+  - title: （國際夥伴） Digital Asia Hub 
+    url:  https://www.digitalasiahub.org
+    color: green
+    icon: world icon
+  - title: （在地夥伴） 台灣人權促進會 
+    url:  https://www.tahr.org.tw
+    color: green
+    icon: world icon
+links_en:
+  - title: RDR Official website
+    url: https://rankingdigitalrights.org 
+    color: green
+    icon: world icon
+  - title: 2020 RDR global ranking
+    url:  https://rankingdigitalrights.org/index2020/
+    color: green
+    icon: world icon
+  - title: (International Project Partners) Digital Asia Hub 
+    url:  https://www.digitalasiahub.org
+    color: green
+    icon: world icon
+  - title: (Local Project Partners) Taiwan Association for Human Rights  
+    url:  https://www.tahr.org.tw
+    color: green
+    icon: world icon
+
+organizer_ids:
+  - ocf
+co-organizer_ids:
+consultant_ids:
+
+board_ids:
+
+staff_ids:
+  - Singing
+  - Lulu
+  - rosa
+  - joshua
+  - yanyiyi
+
+listed: yes
+listed_en: yes

@@ -1,0 +1,67 @@
+name: SQCS 學生電腦量子交流會
+name_en: 
+description: 聚集來自台灣各地的高中與大學量子運算同好，精進彼此能力，拓展量子運算在台灣的知名度。
+description_en:
+abbr: SQCS
+abbr_en: SQCS
+tagline: SQCS
+
+og_image: /p/sqcs/sqcs.png
+header_image: /p/sqcs/sqcs.png
+avatar_image: /p/sqcs/sqcs.png
+theme_color: 
+start: 
+end: 
+tags:
+  - 大型研討會
+  - 定期活動
+
+
+topic_ids:
+  - source
+field_ids:
+  - education
+organizer_ids:
+  - sqcs
+board_ids:
+staff_ids:
+  - rock
+
+listed: yes
+listed_en: 
+
+actions: 
+# 專案頁的 call to action，可以是按鈕或一段文字，會出現在右側邊欄的最下方
+#  - title: SITCON 夏令營官網
+    # 按鈕上的文字
+#    url: http://sitcon.camp/2017/
+    # 按下後會連去哪裡
+#    color: green
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+#    icon: world icon
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+  - title: 官方網站
+    # 按鈕上的文字
+    url: https://sqcs.tw/
+    # 按下後會連去哪裡
+    color: green
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    icon: world icon
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+  - title: SQCS 粉絲專頁
+    # 按鈕上的文字
+    url: https://www.facebook.com/sqcs819/
+    # 按下後會連去哪裡
+    color: blue
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    icon: facebook
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+  - title: SQCS instagram
+    # 按鈕上的文字
+    url: https://www.instagram.com/sqcs.2020/
+    # 按下後會連去哪裡
+    color: blue
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    icon: instagram
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+

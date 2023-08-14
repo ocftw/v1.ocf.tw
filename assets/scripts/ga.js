@@ -9,13 +9,4 @@ ga('create', 'UA-379894-19', 'auto', { 'allowLinker': true });
 ga('require', 'linker');
 ga('linker:autoLink', ['neticrm.tw', 'kktix.cc', 'kktix.com']);
 
-ga('send', 'pageview');    
-
-
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "h0k16cetd0");
-</script>
+ga('send', 'pageview');

@@ -9,11 +9,11 @@ description_en: In the digital era, the promotion of human rights and data-based
 tagline: 用知識達成責信 
 tagline_en: From Knowledge to Accountability
 
-og_image: /p/rdr/rdrlogo.jpeg
-og_image_en: /p/rdr/rdrlogo.jpeg
-header_image: /p/rdr/rdrlogo.jpeg
-avatar_image: /p/rdr/rdrlogo.jpeg
-theme_color: blue
+og_image: /p/rdr/2022/rdrlogo.jpeg
+og_image_en: /p/rdr/2022/rdrlogo_en.jpeg
+header_image: /p/rdr/2022/Banner.png
+avatar_image: /p/rdr/2022/rdrlogo.jpeg
+theme_color: green
 
 start: 
 end: 
@@ -38,8 +38,8 @@ links:
     url:  https://www.digitalasiahub.org
     color: green
     icon: world icon
-  # - title: （國際夥伴） Open Net Korea 
-  #   url:  http://opennetkorea.org/en/wp/ 
+  - title: （在地夥伴） 台灣人權促進會 
+    url:  https://www.tahr.org.tw
     color: green
     icon: world icon
 links_en:
@@ -55,8 +55,8 @@ links_en:
     url:  https://www.digitalasiahub.org
     color: green
     icon: world icon
-  - title: (international project partners) Open Net Korea 
-    url:  http://opennetkorea.org/en/wp/ 
+  - title: (Local Project Partners) Taiwan Association for Human Rights  
+    url:  https://www.tahr.org.tw
     color: green
     icon: world icon
 
@@ -72,6 +72,7 @@ staff_ids:
   - Lulu
   - rosa
   - joshua
+  - yanyiyi
 
 listed: yes
 listed_en: yes

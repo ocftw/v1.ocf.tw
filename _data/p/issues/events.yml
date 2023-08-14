@@ -1,4 +1,19 @@
 - id: issues
+  name: 交叉觀點：AI X 數位人權 亞洲契機交流會 
+  name_en: Intersection：Exchange Activities for AI x Digital Rights
+  description: 本次交流活動將以「AI 人工智慧產業」作為主題，特邀請到國際指標性公民組織 - Access Now 與跨國領導性企業代表- LINE 與各界一同探討納入數位人權，更多產業發展的可能，同時兼具數位人權。
+  start: 2023/08/01
+  end:
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/aixdigitalrights
+  cover_image: /p/admin/2023/intersection.png
+  contributor_ids:
+  project_ids:
+    - issues
+  organizer_ids:
+
+- id: issues
   name: OCF 培訓：NGO worker 不能不知道的數位防禦須知台北場
   name_en: 
   description: 我知道我在網路上輸入的資料不安全，那我還可以放心的使用網路嗎？可以！這次活動就是要帶各位更深入地談談如何保障自己的數位資料安全，讓各位安心上網無負擔！
