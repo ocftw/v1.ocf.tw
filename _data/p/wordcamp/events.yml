@@ -1,4 +1,26 @@
 - id: wordcamp
+  name: WordCamp Taiwan 2023 
+  name_en: WordCamp Taiwan 2023
+  description: WordCamp 是由各地區用戶發起的非正式大會，討論 WordPress 這個打造全球超過 7500 萬個網站、自由開源的部落格軟體與之相關的話題。2006 年 Matt Mullenweg 在美國舊金山舉行了第一屆 WordCamp，從那時起，WordPress 社群已發起累計 1022 場 WordCamp，地點遍及 6 大洲、65 個國家與 75 個城市。
+  start: 2023/10/14
+  end:
+  links:
+    - title: 活動官網
+      url: https://taiwan.wordcamp.org/2023/
+  cover_image: /p/wordcamp/wordcamp2023.jpg
+
+- id: wordcamp
+  name: WordCamp Taiwan 2021 
+  name_en: WordCamp Taiwan 2021
+  description: WordCamp 是由各地區用戶發起的非正式大會，討論 WordPress 這個打造全球超過 7500 萬個網站、自由開源的部落格軟體與之相關的話題。2006 年 Matt Mullenweg 在美國舊金山舉行了第一屆 WordCamp，從那時起，WordPress 社群已發起累計 1005 場 WordCamp，地點遍及 6 大洲、65 個國家與 75 個城市。
+  start: 2021/12/11~2022/12/12
+  end:
+  links:
+    - title: 活動官網
+      url: https://taiwan.wordcamp.org/2021/
+  cover_image: /p/wordcamp/wordcamp2021.PNG
+
+- id: wordcamp
   name: WordCamp Taipei 2019 
   name_en: WordCamp Taipei 2019
   description: WordCamp 是由各地區用戶發起的非正式大會，討論 WordPress 這個打造全球超過 7500 萬個網站、自由開源的部落格軟體與之相關的話題。2006 年 Matt Mullenweg 在美國舊金山舉行了第一屆 WordCamp，從那時起，WordPress 社群已發起累計 1005 場 WordCamp，地點遍及 6 大洲、65 個國家與 74 個城市。
