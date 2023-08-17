@@ -10,7 +10,7 @@ abbr_en: COSCUP
 tagline: Conference for Open Source Coders, Users and Promoters
 tagline_en: Conference for Open Source Coders, Users and Promoters
 
-og_image: /p/coscup/coscup2021.png
+og_image: /p/coscup/coscup2023.png
 header_image: /p/coscup/2020/everybodynew.jpg
 avatar_image: /p/coscup/avatar.jpg
 theme_color: green
@@ -37,8 +37,8 @@ links_en:
     icon: world icon
 
 actions: 
-  - title: 2020！前夜派對！
-    url: https://blog.coscup.org/2020/07/2020open-source-and-wine-welcome-party.html
+  - title: 加入 COSCUP 志工！
+    url: https://volunteer.coscup.org/
     color: blue
     icon: beer
 actions_en: 
