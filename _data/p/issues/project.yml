@@ -27,6 +27,9 @@ links:
   - title: 5G 開放原始碼與資安主題分享
     url: https://ocf.tw/p/issues/2020/5G.html
     icon:
+  - title: CSOs 數位防禦手冊
+    url: https://digitalsecurityhandbook.ocf.tw/
+    icon:
 
 links_en:
   - title: Joint Statement
@@ -46,6 +49,9 @@ links_en:
     icon:
   - title: Open Source and Security for 5G
     url: https://ocf.tw/p/issues/2020/5G.html
+    icon:
+  - title: Digital security handbook for CSOs
+    url: https://digitalsecurityhandbook.ocf.tw/
     icon:
 
 actions:
