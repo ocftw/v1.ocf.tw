@@ -2,8 +2,12 @@ name: Ruby Taiwan
 name_en: Ruby Taiwan
 
 description: Ruby Taiwan 是由一群喜愛 Ruby 程式語言的人所組成，他們固定舉辦小聚會、大型研討會，如果你對 Ruby 有興趣，歡迎參加社群活動！
+<<<<<<< HEAD
 description_en: Ruby Taiwan: Celebrating the beauty of Ruby since 2008.
 
+=======
+description_en: 
+>>>>>>> parent of 5e36af75 (Update project.yml)
 
 tagline: 
 tagline_en: 
