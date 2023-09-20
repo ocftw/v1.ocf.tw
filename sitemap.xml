@@ -6,47 +6,55 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
+<!-- 首頁 -->
 <url>
   <loc>https://ocf.tw/</loc>
   <lastmod>2023-09-20T05:05:51+00:00</lastmod>
   <priority>1.00</priority>
 </url>
+<!-- 關於 OCF -->
 <url>
   <loc>https://ocf.tw/about/</loc>
   <lastmod>2023-09-20T05:05:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<!-- OCF 成員 -->
 <url>
   <loc>https://ocf.tw/people/</loc>
   <lastmod>2023-09-20T05:05:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<!-- OCF 專案 -->
 <url>
   <loc>https://ocf.tw/p/ocf</loc>
   <lastmod>2023-09-20T05:05:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<!-- 社群專案 -->
 <url>
   <loc>https://ocf.tw/p/community</loc>
   <lastmod>2023-09-20T05:05:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<!-- 近期活動 -->
 <url>
   <loc>https://ocf.tw/journal/</loc>
   <lastmod>2023-09-20T05:05:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<!-- 電子報 -->
 <url>
   <loc>https://ocf.tw/news/</loc>
   <lastmod>2023-09-20T05:05:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<!-- 支持我們 -->
 <url>
   <loc>https://ocf.tw/supportus/</loc>
   <lastmod>2023-09-20T05:05:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<!-- 英文版 -->
 <url>
   <loc>https://ocf.tw/en/</loc>
   <lastmod>2023-09-20T05:05:51+00:00</lastmod>
