@@ -37,3 +37,46 @@
     - sam
   project_ids: 
     - civicsense 
+
+- id: 
+  name: "Environment Sustainability with IoT Solutions"
+  name_en: Environment Sustainability with IoT Solutions
+  description: "This event serves as a platform to connect attendees, enabling networking and project sharing, particularly focusing on IoT sensors for environmental monitoring enabled advocacy. Discussions will encompass environmental Open Data projects, especially those related to real-time air and water quality insights. The event will also introduce OCF's upcoming Thailand event. Attendees are urged to bring their insights, experiences, and queries regarding IoT's role in environmental sustainability."
+  description_en: This event serves as a platform to connect attendees, enabling networking and project sharing, particularly focusing on IoT sensors for environmental monitoring enabled advocacy. Discussions will encompass environmental Open Data projects, especially those related to real-time air and water quality insights. The event will also introduce OCF's upcoming Thailand event. Attendees are urged to bring their insights, experiences, and queries regarding IoT's role in environmental sustainability.
+  start: 2023/08/25
+  end:
+  cover_image: /p/civicsense/Environment_Sustainability_with_IoT_Solutions.png
+  contributor_ids: 
+    - singing
+    - leaf
+    - weichen
+  project_ids: 
+    - civicsense 
+
+- id: 
+  name: "Smart IoT x City Digital Transformation Forum"
+  name_en: Smart IoT x City Digital Transformation Forum
+  description: "Join us to boost collaboration among IoT experts, environmentalists, academia, and businesses. Regional top minds from public and private sectors are gathering to share insights, needs, and successes, forging exciting partnerships for a better tomorrow. Don't miss out on shaping the IoT landscape!"
+  description_en: Join us to boost collaboration among IoT experts, environmentalists, academia, and businesses. Regional top minds from public and private sectors are gathering to share insights, needs, and successes, forging exciting partnerships for a better tomorrow. Don't miss out on shaping the IoT landscape!
+  start: 2023/09/14
+  end:
+  cover_image: /p/civicsense/smart_iot_forum.png
+  contributor_ids: 
+    - leaf
+    - weichen
+  project_ids: 
+    - civicsense 
+
+- id: 
+  name: "The IoT Sensors and Data (Hands-on) Workshop"
+  name_en: The IoT Sensors and Data (Hands-on) Workshop
+  description:
+  description_en:   
+  start: 2023/09/15
+  end:
+  cover_image:
+  contributor_ids: 
+    - leaf
+    - weichen
+  project_ids: 
+    - civicsense 
