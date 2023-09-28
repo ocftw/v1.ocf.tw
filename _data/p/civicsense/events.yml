@@ -20,6 +20,7 @@
     - singing
     - leaf
     - sam
+    - Dongpo
   project_ids: 
     - civicsense 
 
@@ -35,6 +36,7 @@
     - singing
     - leaf
     - sam
+    - Dongpo
   project_ids: 
     - civicsense 
 
@@ -45,11 +47,18 @@
   description_en: This event serves as a platform to connect attendees, enabling networking and project sharing, particularly focusing on IoT sensors for environmental monitoring enabled advocacy. Discussions will encompass environmental Open Data projects, especially those related to real-time air and water quality insights. The event will also introduce OCF's upcoming Thailand event. Attendees are urged to bring their insights, experiences, and queries regarding IoT's role in environmental sustainability.
   start: 2023/08/25
   end:
+  links:
+    - title: 當天錄音檔
+      url: https://www.apc.org/en/news/ecothursday-internet-things-and-environmental-justice
   cover_image: /p/civicsense/Environment_Sustainability_with_IoT_Solutions.png
+  links_en:
+    - title: Content of written discussion
+      url: https://twitter.com/APC_News/status/1704843189826261444
   contributor_ids: 
     - singing
     - leaf
     - weichen
+    - Dongpo
   project_ids: 
     - civicsense 
 
@@ -64,6 +73,7 @@
   contributor_ids: 
     - leaf
     - weichen
+    - Dongpo
   project_ids: 
     - civicsense 
 
@@ -78,5 +88,25 @@
   contributor_ids: 
     - leaf
     - weichen
+    - Dongpo
+  project_ids: 
+    - civicsense 
+
+- id: 
+  name: "EcoThursday on the Internet of Things and environmental justice"
+  name_en: EcoThursday on the Internet of Things and environmental justice
+  description:
+  description_en:   
+  start: 2023/09/21
+  end:
+  links:
+    - title: 筆談內容
+      url: https://twitter.com/APC_News/status/1704843189826261444
+  links_en:
+    - title: Content of written discussion
+      url: https://twitter.com/APC_News/status/1704843189826261444
+  cover_image:
+  contributor_ids: 
+    - Dongpo
   project_ids: 
     - civicsense 
