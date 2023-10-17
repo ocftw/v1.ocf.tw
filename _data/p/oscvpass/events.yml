@@ -10,9 +10,10 @@
   cover_image: /p/oscvpass/2022/oscvpassworkshop2022.png
   contributor_ids:
     - leaf
-    - Renwei
+    - renwei
   project_ids:
     - oscvpass
+    - sitcon
 
 
 - id:
@@ -27,6 +28,7 @@
   cover_image: /p/oscvpass/2022/oscvpassworkshop2022.png
   contributor_ids:
     - leaf
-    - Renwei
+    - renwei
   project_ids:
     - oscvpass
+    - sitcon
