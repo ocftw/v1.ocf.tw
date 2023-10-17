@@ -17,10 +17,10 @@
       url: https://hackmd.io/@en5bBuSOSvKdMhZUCaoFyQ/rk_whtKXt
   cover_image: /p/civicsense/cover.png
   contributor_ids: 
+    - dongpo
     - singing
     - leaf
     - sam
-    - Dongpo
   project_ids: 
     - civicsense 
 
@@ -33,10 +33,10 @@
   end:
   cover_image: /p/civicsense/cover_01.png
   contributor_ids: 
+    - dongpo
     - singing
     - leaf
     - sam
-    - Dongpo
   project_ids: 
     - civicsense 
 
@@ -55,10 +55,10 @@
     - title: Content of written discussion
       url: https://twitter.com/APC_News/status/1704843189826261444
   contributor_ids: 
+    - dongpo
     - singing
-    - leaf
     - weichen
-    - Dongpo
+    - leaf
   project_ids: 
     - civicsense 
 
@@ -71,9 +71,9 @@
   end:
   cover_image: /p/civicsense/smart_iot_forum.png
   contributor_ids: 
+    - dongpo
     - leaf
     - weichen
-    - Dongpo
   project_ids: 
     - civicsense 
 
@@ -86,9 +86,9 @@
   end:
   cover_image:
   contributor_ids: 
+    - dongpo
     - leaf
     - weichen
-    - Dongpo
   project_ids: 
     - civicsense 
 
@@ -107,6 +107,6 @@
       url: https://twitter.com/APC_News/status/1704843189826261444
   cover_image:
   contributor_ids: 
-    - Dongpo
+    - dongpo
   project_ids: 
     - civicsense 
