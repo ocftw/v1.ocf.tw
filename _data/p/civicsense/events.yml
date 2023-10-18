@@ -39,7 +39,6 @@
     - sam
   project_ids: 
     - civicsense 
-
 - id: 
   name: "Environment Sustainability with IoT Solutions"
   name_en: Environment Sustainability with IoT Solutions
