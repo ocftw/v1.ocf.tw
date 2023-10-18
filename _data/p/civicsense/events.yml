@@ -52,14 +52,14 @@
       url: https://www.apc.org/en/news/ecothursday-internet-things-and-environmental-justice
    links:
     - title: 當天錄影
-      url: https://drive.google.com/file/d/1FMLNnhrxirLg8wH9SwBvo7ZwQPRBAHtQ/view    
-  cover_image: /p/civicsense/Environment_Sustainability_with_IoT_Solutions.png
+      url: https://drive.google.com/file/d/1FMLNnhrxirLg8wH9SwBvo7ZwQPRBAHtQ/view
   links_en:
     - title: Event recording
       url: https://www.apc.org/en/news/ecothursday-internet-things-and-environmental-justice
   links_en:
     - title: Event video
-      url: https://drive.google.com/file/d/1FMLNnhrxirLg8wH9SwBvo7ZwQPRBAHtQ/view  
+      url: https://drive.google.com/file/d/1FMLNnhrxirLg8wH9SwBvo7ZwQPRBAHtQ/view
+  cover_image: /p/civicsense/Environment_Sustainability_with_IoT_Solutions.png  
   contributor_ids: 
     - singing
     - weichen
