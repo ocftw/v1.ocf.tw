@@ -39,6 +39,7 @@
     - sam
   project_ids: 
     - civicsense 
+
 - id: 
   name: "Environment Sustainability with IoT Solutions"
   name_en: Environment Sustainability with IoT Solutions
@@ -99,8 +100,8 @@
 - id: 
   name: "EcoThursday on the Internet of Things and environmental justice"
   name_en: EcoThursday on the Internet of Things and environmental justice
-  description:How can the internet of things (IoT) be used to promote environmental justice? On Thursday, 21 September, APC will dedicate its monthly "#EcoThursday" initiative to exchanges around this issue through our social media and platforms. We'll be joined by Open Culture Foundation (Taiwan), Media Awareness and Justice Initiative (Nigeria) and Colnodo (Colombia), who will be sharing their experiences at a local and regional level, from using data to monitor air quality to working with community networks, governments and other stakeholders in advancing environmental justice. 
-  description_en:How can the internet of things (IoT) be used to promote environmental justice? On Thursday, 21 September, APC will dedicate its monthly "#EcoThursday" initiative to exchanges around this issue through our social media and platforms. We'll be joined by Open Culture Foundation (Taiwan), Media Awareness and Justice Initiative (Nigeria) and Colnodo (Colombia), who will be sharing their experiences at a local and regional level, from using data to monitor air quality to working with community networks, governments and other stakeholders in advancing environmental justice.    
+  description:How can the internet of things (IoT) be used to promote environmental justice? On Thursday, 21 September, APC will dedicate its monthly EcoThursday initiative to exchanges around this issue through our social media and platforms. We'll be joined by Open Culture Foundation (Taiwan), Media Awareness and Justice Initiative (Nigeria) and Colnodo (Colombia), who will be sharing their experiences at a local and regional level, from using data to monitor air quality to working with community networks, governments and other stakeholders in advancing environmental justice. 
+  description_en:How can the internet of things (IoT) be used to promote environmental justice? On Thursday, 21 September, APC will dedicate its monthly EcoThursday initiative to exchanges around this issue through our social media and platforms. We'll be joined by Open Culture Foundation (Taiwan), Media Awareness and Justice Initiative (Nigeria) and Colnodo (Colombia), who will be sharing their experiences at a local and regional level, from using data to monitor air quality to working with community networks, governments and other stakeholders in advancing environmental justice.    
   start: 2023/09/21
   end:
   links:
