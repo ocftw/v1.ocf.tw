@@ -101,14 +101,14 @@
   start: 2023/09/15
   end: 2023/09/17
   links:
-     - title: 參與者 - Irvin Chen 文章分享
+    - title: 參與者 - Irvin Chen 文章分享
       url: https://irvinfly.medium.com/feira-2023-6d251baa07b2
-     - title: 參與者 - Irvin Chen 影片分享
+    - title: 參與者 - Irvin Chen 影片分享
       url: https://www.youtube.com/playlist?list=PL9q3Nz3iaXIY7qa-BpO8KBNFetfb-Vltu     
   organizer_ids:
   co-organizer_ids:
   contributor_ids: 
-      - liyhs
+    - liyhs
   project_ids:
   reports:
   reports_en:
