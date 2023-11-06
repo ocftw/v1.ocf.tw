@@ -32,6 +32,19 @@ metas:
 metas_en:
 
 links:
+  - title: 島島阿學學習資源平台
+    url: https://www.daoedu.tw/
+    icon: home
+    color: grey
+  - title: 島島阿學 Facebook 粉絲專頁
+    url: https://www.facebook.com/daodao.edu
+    icon: facebook
+    color: grey
+  - title: 島島阿學 Instagram
+    url: https://www.instagram.com/daodao_edu/
+    icon: instagram
+    color: grey
+
 links_en:
 
 actions: 
@@ -63,7 +76,8 @@ actions:
 actions_en:
 
 advisor_ids:
-organizer_ids: daodao
+organizer_ids:
+  - daodao
 co-organizer_ids:
 implementer_ids:
 sponsor_ids:
