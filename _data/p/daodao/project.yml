@@ -4,11 +4,11 @@ name_en: Dao Dao Learning Community
 description: 島島阿學是由親師生以集體智慧共創的民主學習社群。邀請學習者一同解決民主教育兩大元素「自主學習、民主社群」的困難，如找不到目標、資源、學伴等。目前提供多元學習資源平台，邀學習者共享並分類資源。
 description_en: 
 
-abbr: 
-abbr_en: 
+abbr: Dao Dao Learning Community
+abbr_en: Dao Dao Learning Community
 
-tagline: 
-tagline_en: 
+tagline: Dao Dao Learning Community
+tagline_en: Dao Dao Learning Community
 
 og_image: /p/daodao/島島阿學logo.jpg
 header_image: 
@@ -63,7 +63,7 @@ actions:
 actions_en:
 
 advisor_ids:
-organizer_ids:
+organizer_ids: daodao
 co-organizer_ids:
 implementer_ids:
 sponsor_ids:
