@@ -91,3 +91,24 @@
   project_ids:
   reports:
   reports_en:
+
+- id: 
+  name: Feira @ the Global Gathering 2023 數位人權研討會 心得分享
+  name_en: Scholarship Program - Feira @ the Global Gathering 2023
+  description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
+  description_en: 
+  cover_image: /p/intldonate/20230915.jpg
+  start: 2023/09/15
+  end: 2023/09/17
+  links:
+    - title: 參與者 - Irvin Chen 文章分享
+      url: https://irvinfly.medium.com/feira-2023-6d251baa07b2
+    - title: 參與者 - Irvin Chen 影片分享
+      url: https://www.youtube.com/playlist?list=PL9q3Nz3iaXIY7qa-BpO8KBNFetfb-Vltu     
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+  reports:
+  reports_en:

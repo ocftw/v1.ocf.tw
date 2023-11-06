@@ -1,3 +1,20 @@
+- id: 
+  name: 開源星手村入班課程：玩桌遊認識開源文化＿文化大學 USR 學程
+  name_en: 
+  description: OCF 與文化大學 USR 學程合作，推出一整天的工作坊。以桌遊的趣味學習切入，帶同學了解開源文化可應用到程式碼、開放資料、開放政府等多元領域，並結合 OCF 實務專案的分享，讓同學更進一步理解如何將開源的價值應用到自己關心的議題與生活之中。
+  start: 2023/09/22
+  end: 
+  links:
+  cover_image: 
+  contributor_ids:
+    - claire
+    - yanyiyi
+    - xini
+    - rosa
+  project_ids:
+    - openstarter
+
+
 - id: coscupStarGame
   name: 開源星手村桌遊體驗工作坊
   name_en: 
