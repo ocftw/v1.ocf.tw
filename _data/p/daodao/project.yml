@@ -1,0 +1,102 @@
+name: 島島阿學學習社群
+name_en: Dao Dao Learning Community
+
+description: 島島阿學是由親師生以集體智慧共創的民主學習社群。邀請學習者一同解決民主教育兩大元素「自主學習、民主社群」的困難，如找不到目標、資源、學伴等。目前提供多元學習資源平台，邀學習者共享並分類資源。
+description_en: 
+
+abbr: daodao
+abbr_en: daodao
+
+tagline: Dao Dao Learning Community
+tagline_en: Dao Dao Learning Community
+
+og_image: /p/daodao/島島阿學logo.jpg
+header_image: /p/daodao/daodao_banner.png
+avatar_image: /p/daodao/daodao_banner.png
+theme_color: 
+
+start: 
+end: 
+
+
+topic_ids:
+  - source
+field_ids:
+  - education
+tags:
+tags_en:
+
+metas:
+  - label: 
+    content: 
+metas_en:
+
+links:
+  - title: 島島阿學學習資源平台
+    url: https://www.daoedu.tw/
+    icon: home
+    color: grey
+  - title: 島島阿學 Facebook 粉絲專頁
+    url: https://www.facebook.com/daodao.edu
+    icon: facebook
+    color: grey
+  - title: 島島阿學 Instagram
+    url: https://www.instagram.com/daodao_edu/
+    icon: instagram
+    color: grey
+links_en:
+
+actions: 
+# 專案頁的 call to action，可以是按鈕或一段文字，會出現在右側邊欄的最下方
+  - title: 島島阿學學習資源平台
+    # 按鈕上的文字
+    url: https://www.daoedu.tw/
+    # 按下後會連去哪裡
+    color: green
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    icon: world icon
+    # 按鈕文字前的 icon，可使用任一 semantic ui 的 icon，參考： http://semantic-ui.com/elements/icon.html
+  - title: Facebook 粉絲專頁
+    # 按鈕上的文字
+    url: https://www.facebook.com/daodao.edu
+    # 按下後會連去哪裡
+    color: blue
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    icon: facebook
+    # 按鈕文字前的 icon，可使用任一 semantic 
+  - title: Instagram
+    # 按鈕上的文字
+    url: https://www.instagram.com/daodao_edu/
+    # 按下後會連去哪裡
+    color: pink
+    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    icon: instagram
+    # 按鈕文字前的 icon，可使用任一 semantic 
+actions_en:
+
+advisor_ids:
+organizer_ids:
+  - daodao
+co-organizer_ids:
+implementer_ids:
+sponsor_ids:
+
+coordinator_ids:
+case-handler_ids:
+co-worker_ids:
+consultant_ids:
+volunteer_ids:
+contributor_ids:
+donors:
+donors_en:
+
+board_ids:
+  - 
+staff_ids:
+  - 
+
+listed: yes
+listed_en: 
+
+reports:
+  2020: 01
