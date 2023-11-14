@@ -1,0 +1,163 @@
+---
+layout: p
+
+og_title: OONI 網路干預開放觀察計畫
+og_description: "OONI（Open Observatory of Network Interference）
+  是一個觀察網路審查的專案。由全球的志工協助執行觀測應用程式並偵測阻擋與回報其觀察結果到該組織。
+  開放文化基金會（Open Culture Foundation, OCF）身為 OONI 的社群夥伴之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。"
+og_image: /p/ooni/ooni_research.png
+
+header_image_opacity: 0
+header_veil_opacity: 0.1
+
+show_events: yes
+gsheet_url:
+show_sponsors:
+show_donors:
+
+show_progress:
+progress:
+  duration:
+  goal:
+  current:
+  percent:
+  count:
+  updated:
+cpid:
+show_child_projects: yes
+---
+
+<h2 class="ui dividing header">計畫說明</h2>
+<p>
+  OONI（Open Observatory of Network
+  Interference）是一個觀察網路審查的專案。由全球的志工協助執行觀測應用程式並偵測阻擋與回報其觀察結果到該組織。
+</p>
+
+<p>
+  開放文化基金會（Open Culture Foundation, OCF）身為 OONI
+  的<a href="https://ooni.org/partners/open-culture-foundation/">社群夥伴</a>之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。
+</p>
+
+<h3 class="ui dividing header">觀測程式</h3>
+<p>
+  OONI
+  計畫主要觀測所在的網路是否透過干預的方式提供非預期的瀏覽內容到用戶端，並提供即時與公開的網路審查觀測資料分析。
+</p>
+
+<p>
+  <img class="ui image centered rounded" src="/p/ooni/how-ooni-works.svg" />
+</p>
+
+<div class="ui yellow message icon mini">
+  <i class="user secret icon"></i>
+  <div class="content">
+    <div class="header">網路干預</div>
+    <p>網路干預檢測狀況會透過以下但不侷限的狀況發生：</p>
+    <ul class="list">
+      <li>DNS tampering (DNS anomaly)</li>
+      <li>IP blocking (TCP/IP anomaly)</li>
+      <li>HTTP blocking (e.g block page)</li>
+      <li>
+      TLS based interference (e.g connection reset observed right after the
+      ClientHello message during the TLS handshake)
+      </li>
+    </ul>
+  </div>
+</div>
+
+<h2 class="ui dividing header">研究項目</h2>
+
+<h3 class="ui dividing header">各區域觀察資料與 ASN 涵蓋率</h3>
+<p>
+  <img class="ui image centered rounded" src="/p/ooni/ooni_flow.svg" />
+</p>
+
+<ul class="ui list">
+  <li>研究狀態：<span class="ui green tag label">進行中</li>
+  <li>研究主題：主要解析目前 OONI 的觀測資料與各區域已知的 ASN 涵蓋狀況，觀察資料是否平均分散在各區域不同的電信或網路架構中。</li>
+  <li>研究方式：
+    <ul>
+      <li>透過 OONI Data Mining 的方式建立本地資料庫（AWS S3）與全球已知 ASN 列表清單作初步比對。</li>
+      <li>建立線上圖表呈現各區域觀察涵蓋資料。</li>
+      <li>後端建立與 OONI Data 即時資料串接。</li>
+    </ul>
+  </li>
+</ul>
+<div class="ui info message icon mini">
+  <i class="book icon"></i>
+  <div class="content">
+    <div class="header">什麼是 ASN 自主系統碼？</div>
+    <p>網際網路是一個網路的網路，自主系統是組成網際網路的大型網路。更具體地說，自主系統 (AS) 是具有統一路由原則的大型網路或網路群組。連接到網際網路的每台電腦或裝置都連接到 AS。
+      詳細的介紹可以參考：<a href="https://www.cloudflare.com/zh-tw/learning/network-layer/what-is-an-autonomous-system/">什麽是自治系統| 什麼是 ASN？ | Cloudflare</a></p>
+  </div>
+</div>
+
+<h3 class="ui dividing header">檢測名單更新</h3>
+
+<p>
+  <img class="ui image centered rounded" src="/p/ooni/ooni_research_slide_28.png" />
+</p>
+
+<ul class="ui list">
+  <li>研究狀態：<span class="ui yellow tag label">籌備中</li>
+  <li>進行內容：檢視 TW 檢測名單中的網站列表是否可用。</li>
+  <li>進行方式：
+    <ul>
+      <li>撰寫檢查腳本或是增修 <a href="https://github.com/citizenlab/test-lists">citizenlab/test-lists</a> 的<a href="https://github.com/citizenlab/test-lists/blob/master/scripts/prune-dead-urls.py">檢查腳本</a>可以支援區域的指定檢測。</li>
+      <li>檢查是否在其他區域有 <span class="ui tag">.tw</span> 結尾的網站列表。</li>
+      <li>更新需要放入觀察檢測的網站名單。</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="ui info message icon mini">
+  <i class="comment outline icon"></i>
+  <div class="content">
+    <div class="header">檢測名單</div>
+    <p>OONI 在執行「網站」檢測階段會透過 The Citizen Lab 所維護的全球與區域的名單列表，但 TW 的名單最後更新時間為 2017，有很多網站已關站或網址已變更，需要整理與檢視。</p>
+  </div>
+</div>
+
+<h3 class="ui dividing header">正體中文化翻譯</h3>
+
+<p>
+  <img class="ui image centered rounded" src="/p/ooni/ooni_research_slide_32.png" />
+</p>
+
+<ul class="ui list">
+  <li>研究狀態：<span class="ui yellow tag label">籌備中</li>
+  <li>進行內容：OONI 網頁、檢測軟體與文件正體中文化（zh-tw, zh-hant）</li>
+  <li>進行方式：
+    <ul>
+      <li>整理 OONI 相關產品清單，並註記目前有無正體中文語系與如何貢獻方式。</li>
+      <li>校閱目前已翻譯的文字內容。</li>
+      <li>建立詞彙表（Glossary）。</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 class="ui dividing header">常見問題</h2>
+<div class="ui info message">
+  <div class="header">Q：如何安裝 OONI？</div>
+  <p>桌面版或行動裝置版的安裝可以參考 ooni.org 的<a href="https://ooni.org/install/">安裝簡介</a>，安裝後皆有「正體中文」語系可以切換使用。</p>
+</div>
+<div class="ui info message">
+  <div class="header">Q：OONI 觀測資料會洩漏我的 IP 嗎？</div>
+  <p>OONI 的觀測資料雖然都會上傳到 <a href="https://explorer.ooni.org/zh-Hant">Explorer</a> 資料庫，但 IP 的部分都會使用 <strong>127.0.0.1</strong> 的值替換掉真實的 IP。</p>
+</div>
+<div class="ui yellow message">
+  <div class="header">Q：如何參與專案與貢獻？</div>
+  <p>目前專案的研究項目可以參考在基金會的 Github 專案頁 <a href="https://github.com/ocftw/ooni-research">ocftw/ooni-research</a>。</p>
+</div>
+<div class="ui yellow message">
+  <div class="header">Q：如何持續收到專案訊息？</div>
+  <p>可以加入 <strong>ooni-research-info</strong> 的<a href="https://forms.gle/XF6yDbceDAxRKKcdA">郵件群組</a>，相關的研究資訊會透過此信箱發佈。</p>
+</div>
+<div class="ui yellow message">
+  <div class="header">Q：如何參與實習計畫？</div>
+  <p>實習計畫可以參考基金會的「<a href="https://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92">實習佈告</a>」並參考公告內容<a href="https://blog.ocf.tw/2023/09/ooni.html">提出申請</a>。</p>
+</div>
+<div class="ui brown message">
+  <div class="header">Q：是否有可以推廣的素材？</div>
+  <p>可參考<a href="https://s3.toomore.net/ocf/ooni_research.pdf">這份</a>約 34 頁的簡報內容，簡介 OONI 與研究項目計畫說明。</p>
+</div>
