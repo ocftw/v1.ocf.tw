@@ -1,0 +1,155 @@
+---
+layout: p
+
+og_title: OONI, Open Observatory of Network Interference
+og_description: 
+  "Open Culture Foundation (OCF), as a partner of the OONI community,
+  supports censorship measurement from a local perspective and shares internet censorship findings with the public."
+og_image: /p/ooni/ooni_research.png
+
+header_image_opacity: 0
+header_veil_opacity: 0.1
+
+show_events:
+gsheet_url:
+show_sponsors:
+show_donors:
+
+show_progress:
+progress:
+  duration:
+  goal:
+  current:
+  percent:
+  count:
+  updated:
+cpid:
+show_child_projects: yes
+---
+
+<h2 class="ui dividing header">Project</h2>
+<p>
+  Open Culture Foundation (<a href="https://ocf.tw/">OCF</a>), as a <a href="https://ooni.org/partners/open-culture-foundation/">partner</a> of the OONI community, supports censorship measurement from a local perspective and shares internet censorship findings with the public.
+</p>
+
+<h3 class="ui dividing header">Apps</h3>
+<p>The OONI project primarily observes whether the network it is located in delivers unexpected browsing content to the end-user through intervention. It provides real-time and publicly available analysis of network censorship observation data.</p>
+
+<p>
+  <img class="ui image centered rounded" src="how-ooni-works.svg" />
+</p>
+
+<div class="ui yellow message icon mini">
+  <i class="user secret icon"></i>
+  <div class="content">
+    <div class="header">Internet Tampering</div>
+    <p>The detection of network intervention situations may occur through the following, but is not limited to, conditions:</p>
+    <ul class="list">
+      <li>DNS tampering (DNS anomaly)</li>
+      <li>IP blocking (TCP/IP anomaly)</li>
+      <li>HTTP blocking (e.g block page)</li>
+      <li>
+      TLS based interference (e.g connection reset observed right after the
+      ClientHello message during the TLS handshake)
+      </li>
+    </ul>
+  </div>
+</div>
+
+<h2 class="ui dividing header">Research Items</h2>
+
+<h3 class="ui dividing header">Censorship Measurement with an ASN Coverage Rate Analysis</h3>
+<p>
+  <img class="ui image centered rounded" src="ooni_flow.svg" />
+</p>
+
+<ul class="ui list">
+  <li>status: <span class="ui green tag label">ongoing</li>
+  <li>subject: Analyzing OONI's current observational data alongside the known ASN coverage in different regions, to observe whether the data is evenly distributed across various telecommunications or network infrastructures in different areas.</li>
+  <li>methods:
+    <ul>
+      <li>Create a local database using the OONI Data Mining (from AWS S3) approach for preliminary comparisons with a global known ASN list.</li>
+      <li>Develop online charts to display observation coverage data in various regions.</li>
+      <li>Establish real-time data integration with OONI Data on the backend.</li>
+    </ul>
+  </li>
+</ul>
+<div class="ui info message icon mini">
+  <i class="book icon"></i>
+  <div class="content">
+    <div class="header">What is an autonomous system? | What are ASNs?</div>
+    <p>The Internet is a network of networks*, and autonomous systems are the big networks that make up the Internet. More specifically, an autonomous system (AS) is a large network or group of networks that has a unified routing policy. Every computer or device that connects to the Internet is connected to an AS.
+      More details could refer to "<a href="https://www.cloudflare.com/learning/network-layer/what-is-an-autonomous-system/">What is an autonomous system? | What are ASNs? | Cloudflare</a>".
+    </p>
+  </div>
+</div>
+
+<h3 class="ui dividing header">Country-specific Test Lists Updated</h3>
+
+<p>
+  <img class="ui image centered rounded" src="ooni_research_slide_28.png" />
+</p>
+
+<ul class="ui list">
+  <li>status: <span class="ui yellow tag label">in-progress</li>
+  <li>subject: Check if the website list in the TW test list is accessible.</li>
+  <li>methods:
+    <ul>
+      <li>Write the scripts or modify the <a href="https://github.com/citizenlab/test-lists">citizenlab/test-lists</a> scripts to support country-specific testing.</li>
+      <li>Check if there are website lists ending with .tw in other regions.</li>
+      <li>Update the list of websites to be included in observation testing.</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="ui info message icon mini">
+  <i class="comment outline icon"></i>
+  <div class="content">
+    <div class="header">Test Lists</div>
+    <p>During the 'Web Connectivity' test phase, OONI utilizes lists maintained by The Citizen Lab globally and regionally. However, the list for TW (Taiwan) was last updated in 2017, and many websites have since shut down or changed their URLs, requiring organization and review.</p>
+  </div>
+</div>
+
+<h3 class="ui dividing header">Localization(l10n)</h3>
+
+<p>
+  <img class="ui image centered rounded" src="ooni_research_slide_32.png" />
+</p>
+
+<ul class="ui list">
+  <li>status: <span class="ui yellow tag label">in-progress</li>
+  <li>subject: Translations for the web, applications, documents of OONI in zh-tw, zh-hant.</li>
+  <li>methods:
+    <ul>
+      <li>Compile a list of OONI-related products and note whether they currently support Traditional Chinese language and how to contribute, include the platform for translation.</li>
+      <li>Review the content that had been translated.</li>
+      <li>Maintain a glossary list for zh-tw and zh-hant.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 class="ui dividing header">Questions</h2>
+<div class="ui info message">
+  <div class="header">Q: How to install OONI?</div>
+  <p>The installation of the desktop or mobile version can refer to the <a href="https://ooni.org/install/">installation instructions</a> on ooni.org. After installation, there is an option to switch to the 'Traditional Chinese' language.</p>
+</div>
+<div class="ui info message">
+  <div class="header">Q: Will OONI observation data leak my IP?</div>
+  <p>Although OONI observation data is uploaded to the <a href="https://explorer.ooni.org/">Explorer</a> database, the IP addresses are replaced with the value <strong>127.0.0.1</strong>, and the actual IP is not disclosed.</p>
+</div>
+<div class="ui yellow message">
+  <div class="header">Q: How to participate in the project and contribute?</div>
+  <p>You can refer to the research projects of the current initiative on the foundation's GitHub project page at <a href="https://github.com/ocftw/ooni-research">ocftw/ooni-research</a>.</p>
+</div>
+<div class="ui yellow message">
+  <div class="header">Q: How to continue receiving project updates?</div>
+  <p>You can join the ooni-research-info mailing list, and relevant research information will be disseminated through this email address.</p>
+</div>
+<div class="ui yellow message">
+  <div class="header">Q: How to participate in the internship program?</div>
+  <p>You can refer to the foundation's '<a href="https://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92">Internship Bulletin</a>' for information on the internship program and submit your application following the details in the announcement.</p>
+</div>
+<div class="ui brown message">
+  <div class="header">Q: Are there any promotional materials available?</div>
+  <p>You can refer to this approximately 34-page <a href="https://s3.toomore.net/ocf/ooni_research.pdf">presentation</a>, which provides an overview of OONI and explains the research project.</p>
+</div>
