@@ -78,7 +78,7 @@ actions:
     # 按鈕文字前的 icon，可使用任一 semantic 
   - title: 捐款支持島島阿學
     # 按鈕上的文字
-    url: httpshttps://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=73
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=73
     # 按下後會連去哪裡
     color: grey
     # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
