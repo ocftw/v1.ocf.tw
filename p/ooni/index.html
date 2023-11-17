@@ -48,8 +48,8 @@ show_child_projects: yes
   <img class="ui image centered rounded" src="how-ooni-works.svg" />
 </p>
 
-<div class="ui yellow message icon mini">
-  <i class="user secret icon"></i>
+<div class="ui brown message icon mini">
+  <i class="eye icon"></i>
   <div class="content">
     <div class="header">網路干預</div>
     <p>網路干預檢測狀況會透過以下但不侷限的狀況發生：</p>
@@ -59,6 +59,75 @@ show_child_projects: yes
       <li>HTTP 封鎖（HTTP blocking, 例如：封鎖頁面）</li>
       <li>基於 TLS 的干擾（例如在 TLS 握手期間的 ClientHello 訊息後觀察到的連線重置）</li>
     </ul>
+  </div>
+</div>
+
+<p>網路干預可以透過以下方式進行，但其結果與目的都是阻止檢視網站內容。
+  在台灣比較熟悉與類似的阻擋行為與技術如中華電信提供的「<a href="https://hicare.hinet.net/CHT/hicare/">色情守門員</a>」、透過 DNS 阻擋廣告、惡意網站的 <a href="https://adguard.com/zh_tw/welcome.html">AdGuard</a>、<a href="https://pi-hole.net/">Pi-Hole</a>。
+  或是數位發展部與財團法人台灣網路資訊中心（TWNIC）進行網域阻擋的<a href="https://moda.gov.tw/press/press-releases/6303">打擊詐騙方式</a>，都可算是阻擋網頁瀏覽。
+</p>
+
+<p>
+  以上舉例通常都是針對惡意網站、網路廣告、釣魚詐騙來進行善意阻擋，但如果是刻意阻擋某些內容呢？或是來自某些未被觀察紀錄到 ASN 的阻擋行為？
+</p>
+
+<div class="ui violet message icon mini">
+  <i class="question icon"></i>
+  <div class="content">
+    <div class="header">我們所處的網路是否真的自由？</div>
+    <p>雖然目前觀測的資料都無大規模阻擋，但因為觀測資料多樣性不足，都只集中在中華電信的觀測資料，因此在「各區域觀察資料與 ASN 涵蓋率」研究項目中會比對目前我們還有多少在 TW 的 ASN 是未被觀測到的。</p>
+  </div>
+</div>
+
+<h3 class="ui dividing header">如何安裝 OONI Probe 觀測程式</h3>
+
+<p>
+  觀測程式提供<a href="https://ooni.org/install/">行動裝置版本</a>（Android, iOS）、<a href="https://ooni.org/install/">桌面版本</a>（Windows 64bit, macOS）、或是無任何桌面介面的<a href="https://ooni.org/install/cli">終端程式版本</a>。
+</p>
+
+<p>
+  桌面版本與行動裝置版本介面類似，可以透過「執行」來檢測所有項目或是單一項目檢測均可。
+</p>
+
+<p>
+  <img class="ui image centered rounded bordered" src="ooni_screen_desktop.png" />
+</p>
+
+<p>
+  終端機介面可以使用 <code>ooniprobe run</code> 執行所有檢測項目。或是設定 <code>cronjob</code> 在空閒時間跑觀察檢測。
+</p>
+
+<pre>
+10 4,10,22 * * * ooniprobe run > /dev/null 2>&1 &
+</pre>
+
+<div class="ui teal message icon mini">
+  <i class="info icon"></i>
+  <div class="content">
+    <div class="header">自動執行<code>autorun</code></div>
+    <p>目前<code>ooniprobe autorun</code>的指令還未實作完成，因此先使用<code>cronjob</code>方式定時檢測。</p>
+  </div>
+</div>
+
+<h3 class="ui dividing header">OONI Explorer 觀測資料</h3>
+
+<p>
+  <img class="ui image centered rounded bordered" src="ooni_explorer.png" />
+</p>
+
+<p>
+  檢測觀察資料會即時回傳到 OONI 資料庫，可以透過 <a href="https://explorer.ooni.org/zh-Hant/chart/mat?probe_cc=TW&since=2023-10-18&until=2023-11-18&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity">OONI Explorer</a> 線上分析各區域與檢測項目狀況。
+  或是透過直接存取 S3 <a href="https://registry.opendata.aws/ooni/">儲存空間</a>下載延遲一小時的原始觀測資料作更多的交叉分析。
+</p>
+
+<div class="ui teal message icon mini">
+  <i class="info icon"></i>
+  <div class="content">
+    <div class="header">觀察 ASN 資料</div>
+    <p>可將「縱軸」項目選成 ASN 篩選分離各 ASN 觀測資料狀況。</p>
+    <p>
+      <img class="ui image centered rounded bordered" src="ooni_explorer_asn.png" />
+    </p>
   </div>
 </div>
 
