@@ -1,9 +1,8 @@
 name: 國際夥伴 & 合作
-name_en: Global Partnership & Collaboration 
-
+name_en: Global Partnership & Collaboration
 
 description: 在無國界的開源社群中，與全球串聯彼此交流，並且把台灣經驗帶往國際舞台產生更大的影響力，有效串連資源，與全球開放科技社群一同成長。過去幾年，透過國際會議出訪、國際社群網絡參與、資料及經驗分享、活動舉辦，開放文化基金會積極建立國際社群 & 台灣社群的合作交流。
-description_en: Open source community is collaborating without boundaries, sharing Taiwan experience to the world, also bring other countries' impact back to  Taiwan. These years, we build a collaborative relationship between international and Taiwan communities actively through visit, interview, participation, and experience sharing. 
+description_en: Open source community is collaborating without boundaries, sharing Taiwan experience to the world, also bring other countries' impact back to  Taiwan. These years, we build a collaborative relationship between international and Taiwan communities actively through visit, interview, participation, and experience sharing.
 
 og_image: /p/global/global-og.png
 header_image: /p/global/global-cover.png
@@ -11,8 +10,8 @@ avatar_image: /p/global/global-og.png
 
 theme_color: teal
 
-start: 
-end: 
+start:
+end:
 
 type_ids:
   - overseas
@@ -21,7 +20,7 @@ topic_ids:
 field_ids:
   - it
 
-actions: 
+actions:
   - title: 捐款支持
     url: http://ocf.tw/300
     color: green
@@ -33,11 +32,14 @@ links:
   - title: 國際出訪一覽表
     url: https://hackmd.io/xUpkC7ukRA28YtsKZUj1Ug
   - title: OONI 網路審查偵測工具 - 中文介紹
-    url: https://ocf.tw/p/global/ooni-intro  
+    url: https://ocf.tw/p/global/ooni-intro
   - title: 2014-2016台灣開放政府觀察報告
     url: https://opengovreport.ocf.tw
   - title: CivicTechFest 2017 公民科技週
     url: http://civictechfest.org/
+  - title: 帶著臺灣開源社群一起去 FOSDEM
+    url: /p/gobal/fosdem-taiwan-community
+    icon: plane
 
 organizer_ids:
   - ocf
@@ -45,7 +47,7 @@ sponsor_ids:
 
 coordinator_ids:
 
-board_ids: 
-staff_ids: 
+board_ids:
+staff_ids:
 listed: yes
 listed_en: yes

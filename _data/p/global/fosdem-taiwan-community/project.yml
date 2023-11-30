@@ -1,0 +1,34 @@
+name: 帶著臺灣開源社群前往 FOSDEM
+name_en: Taiwan Open Source communities to FOSDEM
+
+description: 與臺灣開源社群一同前往 FOSDEM 歐洲最盛大的自由與開源軟體的開發者聚會。
+description_en: Gathering the Taiwan open-source community to attend FOSDEM.
+
+og_image: /p/global/fosdem-taiwan-community/cover.png
+og_image_en: /p/global/fosdem-taiwan-community/cover.png
+
+avatar_image: /p/global/fosdem-taiwan-community/avatar.png
+avatar_image_en: /p/global/fosdem-taiwan-community/avatar.png
+
+theme_color: purple
+
+type_ids:
+  - overseas
+topic_ids:
+  - data
+field_ids:
+  - it
+
+actions:
+  - title: 填寫社群資訊
+    url: https://forms.gle/4SkNeeXML5bKaEUy9
+    color: purple
+
+organizer_ids:
+  - ocf
+
+staff_ids:
+  - toomore
+
+listed: yes
+listed_en: yes
