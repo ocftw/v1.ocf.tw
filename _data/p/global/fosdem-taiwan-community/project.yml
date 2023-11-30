@@ -24,6 +24,12 @@ actions:
     url: https://forms.gle/4SkNeeXML5bKaEUy9
     color: purple
 
+links:
+  - title: FOSDEM
+    url: https://fosdem.org/
+  - title: Accepted stands for FOSDEM 2024
+    url: https://fosdem.org/2024/news/2023-11-20-accepted-stands-fosdem-2024/
+
 organizer_ids:
   - ocf
 
