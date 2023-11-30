@@ -1,0 +1,53 @@
+name: 公民社會數位防禦計畫
+name_en: 
+
+description: "使用數位工具進行倡議、工作已經是公民團體的日常。然而，這也讓公民團體暴露在不只是實體更是數位威脅之下，成為駭客和極權國家的攻擊目標。藉由提供工具、概念推動和專業諮詢，OCF希望透過知識教育提升公民團體的資安意識及自我防禦機制，同時，藉由概念推廣吸引更多科技人才投如，以達到公民社會無礙的可能。"
+description_en:
+tagline:
+tagline_en:
+
+og_image: /p/csodefense/csodefense_1.png
+og_image_en: 
+header_image:
+header_image_en:
+avatar_image: 
+avatar_image_en: 
+theme_color: orange
+
+start:
+end:
+
+topic_ids:
+  - infosec
+field_ids:
+  - it
+tags:
+tags_en:
+
+links:
+  - title: CSOs 數位防禦手冊
+    url: https://digitalsecurityhandbook.ocf.tw/
+    color: green
+    icon: world icon
+
+actions:
+  - title: CSOs 數位防禦手冊 
+    url: https://digitalsecurityhandbook.ocf.tw/
+    color: violet
+    icon: home
+
+organizer_ids:
+  - ocf
+co-organizer_ids:
+consultant_ids:
+  - cscs
+board_ids:
+staff_ids:
+  - toomore
+  - singing
+  - weichen
+  - szuhui
+  - leaf
+
+listed: yes
+listed_en: no
