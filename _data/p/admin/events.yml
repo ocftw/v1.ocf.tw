@@ -1,22 +1,4 @@
 - id: admin
-  name: OCF 秋季交流會 
-  name_en: 
-  description: 11 月 OCF 也將前往高雄參加 MOPCON！藉著這難得的開源盛會，我們也想邀請在地的開源技術人、NGO 夥伴及所有 OCF 的朋友一起相聚、交流彼此的近況，歡迎參加完 MOPCON 意猶未盡的朋友，一起來交流會續攤抬槓！
-  start: 2023/11/11
-  links:
-    - title: 活動網頁
-      url: https://ocftw.kktix.cc/events/khfallparty
-  cover_image: /p/admin/2023/fallact.png
-  contributor_ids:
-    - leaf
-    - toomore
-    - anima
-  project_ids:
-    - admin
-
-
-
-- id: admin
   name: "OCF x Sāngs Taipei 跨界藝術夏日派對"
   name_en: "OCF x Sāngs Taipei Summer Party"
   description: "OCF 一年一度的開源社群聚會又來了！準備好迎接一場突破界限的夏日派對了嗎？今年我們將呈獻一場融合科技與藝術的跨界展演活動，透過藝術展演和短講，向與會者介紹網路隱私和安全的重要性。歡迎舊雨新知一同來探索科技與藝術碰撞下迸發的火花！"

@@ -1,0 +1,79 @@
+- id: csodefense
+  name: OCF 秋季交流會 
+  name_en: 
+  description: 11 月 OCF 也將前往高雄參加 MOPCON！藉著這難得的開源盛會，我們也想邀請在地的開源技術人、NGO 夥伴及所有 OCF 的朋友一起相聚、交流彼此的近況，歡迎參加完 MOPCON 意猶未盡的朋友，一起來交流會續攤抬槓！
+  start: 2023/11/11
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/khfallparty
+  cover_image: /p/admin/2023/fallact.png
+  contributor_ids:
+    - leaf
+    - toomore
+    - szuhui
+  project_ids:
+    - csodefense
+
+- id: csodefense
+  name: OCF 培訓：NGO worker 不能不知道的數位防禦須知台北場
+  name_en: 
+  description: 我知道我在網路上輸入的資料不安全，那我還可以放心的使用網路嗎？可以！這次活動就是要帶各位更深入地談談如何保障自己的數位資料安全，讓各位安心上網無負擔！
+  start: 2023/04/25
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocftw.kktix.cc/events/taipeiworkshop
+  cover_image: /p/admin/2023/ocf-ngo-worker.png
+  contributor_ids:
+    - leaf
+    - lulukeng
+    - weichen
+  project_ids:
+    - csodefense
+  organizer_ids:
+
+- id: csodefense
+  name: OCF 培訓：NGO worker 不能不知道的數位防禦須知
+  name_en: 
+  description: 我知道我在網路上輸入的資料不安全，那我還可以放心的使用網路嗎？可以！這次活動就是要帶各位更深入地談談如何保障自己的數位資料安全，讓各位安心上網無負擔！
+  start: 2023/03/29
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocftw.kktix.cc/events/southworkshop
+  cover_image: /p/admin/2023/ocf-ngo-worker.png
+  contributor_ids:
+    - leaf
+    - lulukeng
+    - weichen
+  project_ids:
+    - csodefense
+  organizer_ids:
+
+
+- id: csodefense
+  name: OCF x MOPCON 春季開源交流會
+  name_en: 
+  description: 3 月底 OCF 與 MOPCON 合辦一場在高雄的聚會，開放技術人、設計師、相關產業的朋友們有一個可以交流的活動，並且我們徵求 3 個講題來讓大家分享，若臨時覺得還可以分享，也可以於 Open Mic 及自由交流時間在台上接上 HDMI 進行分享。
+  start: 2023/03/28
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocftw.kktix.cc/events/khspringparty
+  cover_image: /p/admin/2023/ocfxmopcon.png
+  contributor_ids:
+    - leaf
+    - lulukeng
+    - weichen
+  project_ids:
+    - csodefense
+  organizer_ids:
+  advisor_ids:
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+  coordinator_ids:
+  host_ids:
+  speaker_ids:
+  banner:
+
