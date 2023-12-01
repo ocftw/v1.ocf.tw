@@ -31,16 +31,18 @@ metas:
 metas_en:
 
 links:
+  - title: g0v 官網
+    url: https://g0v.tw/
   - title: g0v 社群行事曆
-    url: http://g0v.tw/actinfo.html
+    url: https://g0v.tw/intl/zh-TW/event/
+  - title: g0v 揪松團官網
+    url: http://hack.g0v.tw/
   - title: g0v 揪松團活動列表
     url: http://g0v-jothon.kktix.cc/
-  - title: g0v 揪松團工作小組討論區
-    url: https://groups.google.com/forum/#!forum/g0v-jothon-staff
-  - title: g0v 大松入口網站
-    url: http://hack.g0v.tw/
+  - title: 零時小學校官網
+    url: https://sch001.g0v.tw/
   - title: g0v 大松收支明細
-    url: http://hack.g0v.tw/transaction
+    url: https://jothon.g0v.tw/transaction/
   - title: OCF 捐款徵信資訊
     url: http://blog.ocf.tw/search/label/%E6%8D%90%E6%AC%BE%E5%BE%B5%E4%BF%A1
 links_en:
