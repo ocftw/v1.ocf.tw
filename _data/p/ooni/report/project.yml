@@ -1,0 +1,67 @@
+name: OONI 網路干預開放觀察計畫報告列表
+name_en: OONI-Research Reports
+
+description: "OONI（Open Observatory of Network Interference）
+  是一個觀察網路審查的專案。由全球的志工協助執行觀測應用程式並偵測阻擋與回報其觀察結果到該組織。
+  開放文化基金會（Open Culture Foundation, OCF）身為 OONI 的社群夥伴之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。"
+description_en:
+  "Open Culture Foundation (OCF), as a partner of the OONI community,
+  supports censorship measurement from a local perspective and shares internet censorship findings with the public."
+tagline:
+tagline_en:
+
+og_image: /p/ooni/ooni_research.png
+og_image_en: /en/p/ooni/ooni_research.png
+header_image:
+header_image_en:
+avatar_image: /p/ooni/ooni_research.png
+avatar_image_en: /en/p/ooni/ooni_research.png
+theme_color: blue
+
+start:
+end:
+
+topic_ids:
+  - source
+field_ids:
+  - it
+tags:
+tags_en:
+
+links:
+  - title: OONI-Research Github
+    url: https://github.com/ocftw/ooni-research
+    color: green
+    icon: github icon
+links_en:
+  - title: OONI-Research Github
+    url: https://github.com/ocftw/ooni-research
+    color: green
+    icon: world icon
+
+actions:
+  - title: 前往報告列表
+    url: /p/ooni/report/
+    color: blue
+    icon: file alternate outline icon
+  - title: 前往 Github 專案
+    url: https://github.com/ocftw/ooni-research
+    color: violet
+    icon: github
+
+actions_en:
+  - title: ocftw/ooni-research
+    url: https://github.com/ocftw/ooni-research
+    color: violet
+    icon: github
+
+organizer_ids:
+  - ocf
+co-organizer_ids:
+board_ids:
+staff_ids:
+  - toomore
+
+listed: yes
+listed_en: yes
+show_child_projects: yes
