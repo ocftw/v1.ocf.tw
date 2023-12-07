@@ -50,6 +50,10 @@ actions:
     icon: github
 
 actions_en:
+  - title: Report Lists
+    url: /en/p/ooni/report/
+    color: blue
+    icon: file alternate outline icon
   - title: ocftw/ooni-research
     url: https://github.com/ocftw/ooni-research
     color: violet

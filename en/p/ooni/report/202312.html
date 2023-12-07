@@ -1,0 +1,688 @@
+---
+layout: p
+
+og_title: OONI-Research Reports TW 2023/12
+og_description:
+  "Open Culture Foundation (OCF), as a partner of the OONI community,
+  supports censorship measurement from a local perspective and shares internet censorship findings with the public."
+og_image: /p/ooni/ooni_research.png
+
+header_image_opacity: 0
+header_veil_opacity: 0.1
+
+show_events:
+gsheet_url:
+show_sponsors:
+show_donors:
+
+show_progress:
+progress:
+  duration:
+  goal:
+  current:
+  percent:
+  count:
+  updated:
+cpid:
+show_child_projects: yes
+---
+
+<h2 class="ui dividing header">Introduction</h2>
+<p>
+  The Open Culture Foundation (OCF) began reorganizing the
+  <a href="/en/p/ooni">OONI project</a> in October 2023 and opened the
+  <a href="https://github.com/ocftw/ooni-research">ooni-research</a> project on
+  the foundation's Github page. The project's planning details, research
+  directions, data extraction programs, etc., are presented in an open-source
+  and open spirit manner!
+</p>
+<p>
+  OONI Observation Data and Internet Autonomous System (ASN) Coverage." OONI
+  primarily collects detection data of local networks through volunteers and
+  participants to observe whether there are instances of significant
+  interference with the internet. OONI is a project under the
+  <a href="https://www.torproject.org/">Tor Project</a>, and from its inception
+  in 2012 to 2023, it has
+  <a href="https://explorer.ooni.org/">observed data</a> from nearly 2 billion
+  sets, covering 241 countries, with observations across 30,000 networks.
+</p>
+
+<p>
+  And we are also curious about the current status and patterns of observation
+  data in Taiwan (TW). How much observation data comes from known Autonomous
+  System Numbers (ASNs)? Are there still Internet regions that we are unaware of
+  and remain unobserved? Ultimately, we want to examine the data to question
+  whether our internet is truly free.
+</p>
+
+<p>
+  With these questions in mind, we begin to plan and analyze OONI observation
+  data. After the OONI detection
+  <a href="https://ooni.org/install/">application</a> is executed, the
+  observation data is uploaded to AWS S3 storage (<a
+    href="https://registry.opendata.aws/ooni/"
+    >Registry of Open Data on AWS</a
+  >). Therefore, it is possible to download the raw observation data through
+  existing package tools for organization and analysis. For detailed file
+  download procedures, please refer to the '<a
+    href="https://github.com/ocftw/ooni-research/blob/main/asn_coverage/ooni.py"
+    >ooni.py</a
+  >' in the
+  <a href="https://github.com/ocftw/ooni-research/tree/main/asn_coverage"
+    >project folder</a
+  >.
+</p>
+
+<h2 class="ui dividing header">Observation Data</h2>
+<p>
+  Data fetched from September 1, 2023, to December 3, 2023, spanning a total of
+  94 days, with approximately over two million observation records. The minimum
+  time interval for data is hourly. Currently, there is a data contribution for
+  every hour, achieving a 100% coverage rate for hourly observation data."
+</p>
+
+<table class="ui table compact blue small">
+  <caption>
+    Observation Data for Each Month
+  </caption>
+  <thead>
+    <tr class="right aligned">
+      <th>Month</th>
+      <th>Days</th>
+      <th>Hours</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="right aligned">
+      <th>2023/09</th>
+      <td>30</td>
+      <td>720</td>
+    </tr>
+    <tr class="right aligned">
+      <th>2023/10</th>
+      <td>31</td>
+      <td>744</td>
+    </tr>
+    <tr class="right aligned">
+      <th>2023/11</th>
+      <td>30</td>
+      <td>720</td>
+    </tr>
+    <tr class="right aligned">
+      <th>~2023/12/03</th>
+      <td>3</td>
+      <td>120</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="right aligned">
+      <th>Total</th>
+      <th>94</th>
+      <th>2,304</th>
+    </tr>
+  </tfoot>
+</table>
+
+<p>
+  The total observation hours are counted on the basis of ASN (Autonomous System
+  Number), with unique ASN in each hourly record. The data count represents the
+  number of observations checking websites. The average observation count is
+  calculated as the data count divided by the total observation hours. (For data
+  organization, refer to the
+  <a
+    href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=1906591844"
+    >provided reference</a
+  >.)
+</p>
+
+<div>
+  <canvas id="chart_03"></canvas>
+</div>
+
+<table class="ui table compact blue small">
+  <caption>
+    Observation Hours
+  </caption>
+  <thead>
+    <tr class="right aligned">
+      <th>Month</th>
+      <th>Total Observation Hours</th>
+      <th>Data Count</th>
+      <th>Average Observation Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="right aligned">
+      <th>2023/09</th>
+      <td>2,342</td>
+      <td>712,724</td>
+      <td>304.32</td>
+    </tr>
+    <tr class="right aligned">
+      <th>2023/10</th>
+      <td>2,512</td>
+      <td>1,029,845</td>
+      <td>409.97</td>
+    </tr>
+    <tr class="right aligned">
+      <th>2023/11</th>
+      <td>2,243</td>
+      <td>945,011</td>
+      <td>421.32</td>
+    </tr>
+    <tr class="right aligned">
+      <th>~2023/12/03</th>
+      <td>240</td>
+      <td>90,509</td>
+      <td>377.12</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="right aligned">
+      <th>Total</th>
+      <th>7337</th>
+      <th>2,778,089</th>
+      <th>378.64</th>
+    </tr>
+  </tfoot>
+</table>
+
+<h3 class="ui header">ASN Data Patterns</h3>
+<p>
+  From the observation data collected from September 2023 to December 3, 2023,
+  there are a total of 32 unique ASNs. Among them, AS3462 and AS18041 contribute
+  approximately 78.94% of the observation data. (For data organization, refer to
+  the
+  <a
+    href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=225771675"
+    >provided reference</a
+  >.)
+</p>
+
+<div>
+  <canvas id="chart_01"></canvas>
+</div>
+
+<div>
+  <canvas id="chart_02"></canvas>
+</div>
+
+<table class="ui table compact blue small">
+  <caption>
+    ASNs with Records Each Month from September 2023 to December 3, 2023<br />
+    <small>(Sorted by Observation Data Quantity, More to Less)</small>
+  </caption>
+  <thead>
+    <tr class="right aligned">
+      <th>ASN</th>
+      <th>2023/09</th>
+      <th>2023/10</th>
+      <th>2023/11</th>
+      <th>~2023/12/03</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="top aligned right warning">
+      <td>AS3462</td>
+      <td>328,656</td>
+      <td>470,142</td>
+      <td>468,767</td>
+      <td>42,663</td>
+      <td>1,310,228<br />47.16%</td>
+    </tr>
+    <tr class="top aligned right warning">
+      <td>AS18041</td>
+      <td>41,567</td>
+      <td>415,974</td>
+      <td>386,789</td>
+      <td>38,415</td>
+      <td>882,745<br />31.78%</td>
+    </tr>
+    <tr class="top aligned right">
+      <td>AS18419</td>
+      <td>72,405</td>
+      <td>74,721</td>
+      <td>62,593</td>
+      <td>7,195</td>
+      <td>216,914<br />7.81%</td>
+    </tr>
+    <tr class="top aligned right">
+      <td>AS38136</td>
+      <td>2,900</td>
+      <td>3,100</td>
+      <td>3,000</td>
+      <td>300</td>
+      <td>9,300<br />0.33%</td>
+    </tr>
+    <tr class="top aligned right">
+      <td>AS1659</td>
+      <td>3,100</td>
+      <td>1,001</td>
+      <td>4,053</td>
+      <td>300</td>
+      <td>8,454<br />0.30%</td>
+    </tr>
+    <tr class="top aligned right">
+      <td>AS945</td>
+      <td>400</td>
+      <td>3,100</td>
+      <td>3,000</td>
+      <td>300</td>
+      <td>6,800<br />0.24%</td>
+    </tr>
+    <tr class="top aligned right">
+      <td>AS24158</td>
+      <td>1,511</td>
+      <td>1,520</td>
+      <td>627</td>
+      <td>598</td>
+      <td>4,256<br />0.15%</td>
+    </tr>
+  </tbody>
+</table>
+<table class="ui table compact green small">
+  <tbody>
+    <tr class="top aligned right">
+      <th>Total (with records each month)</th>
+      <th>450,539</th>
+      <th>969,558</th>
+      <th>928,829</th>
+      <th>89,771</th>
+      <th>2,438,697<br />87.78%</th>
+    </tr>
+    <tr class="top aligned right">
+      <th>Total (Others)</th>
+      <th>262,185</th>
+      <th>60,287</th>
+      <th>16,172</th>
+      <th>738</th>
+      <th>339,392<br />12.22%</th>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="top aligned right">
+      <th>Total</th>
+      <th>712,724</th>
+      <th>1,029,845</th>
+      <th>945,011</th>
+      <th>90,509</th>
+      <th>2,778,089<br />100%</th>
+    </tr>
+  </tfoot>
+</table>
+
+<h4 class="ui header">Complete List of ASNs with Observation Data</h4>
+<table class="ui table compact blue small">
+  <caption>
+    Unique ASN
+  </caption>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Unique ASN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2023/09</th>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>2023/10</th>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>2023/11</th>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>~2023/12/03</th>
+      <td>10</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>2023/09 ~ 2023/12/03</th>
+      <th>32</th>
+    </tr>
+  </tfoot>
+</table>
+
+<p>
+  In the current
+  <a
+    href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=1687744854"
+    >registration</a
+  >
+  of ASNs in Taiwan, there are a total of 437, and the observation data (TW)
+  with unique ASNs for only <strong>7.32%</strong>, which is a relatively low
+  proportion.
+</p>
+
+<table class="ui table compact striped blue small">
+  <caption>
+    Unique ASNs
+  </caption>
+  <tbody>
+    <tr>
+      <td class="warning">AS945**</td>
+      <td>AS9678</td>
+      <td>AS18182</td>
+      <td class="warning">AS38136**</td>
+      <td>AS131668</td>
+    </tr>
+    <tr>
+      <td class="warning">AS1659**</td>
+      <td>AS9916</td>
+      <td>AS18412</td>
+      <td>AS38841</td>
+      <td>AS134823</td>
+    </tr>
+    <tr>
+      <td class="warning">AS3462**</td>
+      <td>AS9919</td>
+      <td class="warning">AS18419**</td>
+      <td>AS38844</td>
+      <td>AS147049</td>
+    </tr>
+    <tr>
+      <td>AS4780</td>
+      <td>AS9924</td>
+      <td>AS19527</td>
+      <td>AS41378</td>
+      <td>AS396982</td>
+    </tr>
+    <tr>
+      <td>AS7539</td>
+      <td>AS17421</td>
+      <td>AS24157</td>
+      <td>AS55720</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AS9416</td>
+      <td>AS17716</td>
+      <td class="warning">AS24158**</td>
+      <td>AS131596</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AS9674</td>
+      <td class="warning">AS18041**</td>
+      <td>AS24164</td>
+      <td>AS131627</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th colspan="5">
+        <ul>
+          <li>
+            <small
+              >** Indicating that there is a contribution of observation data
+              throughout the period from September 2023 to December 3,
+              2024.</small
+            >
+          </li>
+          <li><small>Period: 2023/09/01 ~ 2023/12/03</small></li>
+        </ul>
+      </th>
+    </tr>
+  </tfoot>
+</table>
+
+<h2 class="ui dividing header">Actions</h2>
+<p>
+  In the OONI Explorer
+  <a
+    href="https://explorer.ooni.org/chart/mat?since=2023-09-01&until=2023-12-03&time_grain=week&axis_x=measurement_start_day&axis_y=probe_cc&test_name=web_connectivity"
+    >database</a
+  >, Taiwan's observation data ranks among the
+  <a
+    href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=1277016641"
+    >top 10</a
+  >; however, an analysis of the data content reveals that approximately 80% of
+  the current observation data is concentrated in the contributions from AS3462
+  and AS18041. During the analysis period, ASNs contributing data each month
+  represent only 7.32% of the known ASNs
+  <a
+    href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=1687744854"
+    >registered</a
+  >
+  in Taiwan.
+</p>
+
+<p>
+  At this moment, the observation data is not comprehensive and diverse enough
+  to fully reflect the current network patterns in Taiwan, including those of
+  the three major telecom operators, broadband services from cable TV, fixed
+  network services, and second-class telecom services (virtual mobile network
+  services), etc.
+</p>
+
+<p>
+  As one of the OONI community partners, the Open Culture Foundation is
+  responsible for local promotion and observation. In the upcoming promotion
+  strategy, efforts will be adjusted to assist contributors in understanding
+  ASNs and discovering observations from unknown ASNs. Continuous provision of
+  straightforward installation guides will also be maintained.
+</p>
+
+<h2 class="ui dividing header">Reference</h2>
+<ul>
+  <li>
+    <a
+      href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/"
+      >Observation Data and Data Compilation Document</a
+    >
+  </li>
+</ul>
+
+<div class="ui success message">
+  <div class="header">
+    Continuously follow our network intervention observations.
+  </div>
+  <p>
+    If you are interested in OONI network intervention observations, you can
+    refer to the <a href="/en/p/ooni/">project page</a> or subscribe to the
+    ooni-research
+    <a href="https://groups.google.com/g/ocftw-ooni-research">mailing list</a>.
+    Relevant research information will be disseminated through this email. Refer
+    to more <a href="/en/p/ooni/report/">observation reports</a>.
+  </p>
+</div>
+
+<script src="/p/ooni/chart.umd.min.js"></script>
+<script src="/p/ooni/chartjs-plugin-datalabels@2.0.0.js"></script>
+
+<script>
+  (function () {
+    const chart_01 = document.getElementById("chart_01");
+    const chart_02 = document.getElementById("chart_02");
+    const chart_03 = document.getElementById("chart_03");
+
+    new Chart(chart_01, {
+      type: "bar",
+      data: {
+        labels: ["2023/09", "2023/10", "2023/11", "~2023/12/03"],
+        datasets: [
+          {
+            label: "AS3462",
+            data: [328656, 470142, 468767, 42663],
+            borderWidth: 1,
+            backgroundColor: "rgba(255, 99, 132, 0.2)",
+            borderColor: "rgb(255, 99, 132)",
+          },
+          {
+            label: "AS18041",
+            data: [41567, 415974, 386789, 38415],
+            borderWidth: 1,
+            backgroundColor: "rgba(255, 159, 64, 0.2)",
+            borderColor: "rgb(255, 159, 64)",
+          },
+          {
+            label: "AS18419",
+            data: [72405, 74721, 62593, 7195],
+            borderWidth: 1,
+            backgroundColor: "rgba(255, 205, 86, 0.2)",
+            borderColor: "rgb(255, 205, 86)",
+          },
+          {
+            label: "AS38136",
+            data: [2900, 3100, 3000, 300],
+            borderWidth: 1,
+            backgroundColor: "rgba(75, 192, 192, 0.2)",
+            borderColor: "rgb(75, 192, 192)",
+          },
+          {
+            label: "AS1659",
+            data: [3100, 1001, 4053, 300],
+            borderWidth: 1,
+            backgroundColor: "rgba(54, 162, 235, 0.2)",
+            borderColor: "rgb(54, 162, 235)",
+          },
+          {
+            label: "AS945",
+            data: [400, 3100, 3000, 300],
+            borderWidth: 1,
+            backgroundColor: "rgba(153, 102, 255, 0.2)",
+            borderColor: "rgb(153, 102, 255)",
+          },
+          {
+            label: "AS24158",
+            data: [1511, 1520, 627, 598],
+            borderWidth: 1,
+            backgroundColor: "rgba(201, 203, 207, 0.2)",
+            borderColor: "rgb(201, 203, 207)",
+          },
+          {
+            label: "其他",
+            data: [262185, 60287, 16172, 738],
+            borderWidth: 1,
+            backgroundColor: "rgba(201, 203, 207, 0.8)",
+            borderColor: "rgb(201, 203, 207)",
+          },
+        ],
+      },
+      options: {
+        plugins: {
+          title: {
+            display: true,
+            text: "ASNs with Records Each Month from September 2023 to December 3, 2023 (Sorted by Observation Data Quantity, More to Less).",
+          },
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+      },
+    });
+    new Chart(chart_02, {
+      type: "pie",
+      data: {
+        labels: [
+          "AS3462",
+          "AS18041",
+          "AS18419",
+          "AS38136",
+          "AS1659",
+          "AS945",
+          "AS24158",
+          "Others",
+        ],
+        datasets: [
+          {
+            label: "Total",
+            data: [1310228, 882745, 216914, 9300, 8454, 6800, 4256, 339392],
+            borderWidth: 1,
+            backgroundColor: [
+              "rgba(255, 99, 132, 0.8)",
+              "rgba(255, 159, 64, 0.8)",
+              "rgba(255, 205, 86, 0.8)",
+              "rgba(75, 192, 192, 0.8)",
+              "rgba(54, 162, 235, 0.8)",
+              "rgba(153, 102, 255, 0.8)",
+              "rgba(201, 203, 207, 0.8)",
+              "rgba(201, 203, 207, 0.5)",
+            ],
+          },
+        ],
+      },
+      plugins: [ChartDataLabels],
+      options: {
+        animation: {
+          animateScale: true,
+        },
+        plugins: {
+          title: {
+            display: true,
+            text: " 2023/09 - 2023/12/03 Total Count of Observation Data",
+          },
+          datalabels: {
+            color: "white",
+            backgroundColor: "black",
+            borderColor: "white",
+            borderWidth: 1,
+            borderRadius: 3,
+            font: {
+              size: 12,
+            },
+            textAlign: "center",
+            formatter: function (value, context) {
+              return (
+                context.chart.data.labels[context.dataIndex] + "\n" + value
+              );
+            },
+          },
+        },
+      },
+    });
+    new Chart(chart_03, {
+      data: {
+        labels: ["2023/09", "2023/10", "2023/11", "~2023/12/03"],
+        datasets: [
+          {
+            type: "line",
+            label: "Total Observation Hours",
+            data: [2342, 2512, 2243, 240],
+            borderWidth: 5,
+            borderColor: "rgba(75, 192, 192)",
+            tension: 0.2,
+          },
+          {
+            type: "line",
+            label: "Data Count（*1,000）",
+            data: [712.724, 1029.845, 945.011, 90.509],
+            borderWidth: 5,
+            borderColor: "rgba(153, 102, 255)",
+            tension: 0.2,
+          },
+          {
+            type: "line",
+            label: "Average Observation Count",
+            data: [304.32, 409.97, 421.32, 377.12],
+            borderWidth: 5,
+            borderColor: "rgb(255, 205, 86)",
+            tension: 0.5,
+          },
+        ],
+      },
+      options: {
+        plugins: {
+          title: {
+            display: true,
+            text: " 2023/09 - 2023/12/03 Observation Hour, Count",
+          },
+        },
+        scales: {
+          y: {
+            beginAtZero: false,
+          },
+        },
+      },
+    });
+  })();
+</script>
