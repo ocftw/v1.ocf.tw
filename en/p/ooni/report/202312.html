@@ -78,7 +78,7 @@ show_child_projects: yes
   Data fetched from September 1, 2023, to December 3, 2023, spanning a total of
   94 days, with approximately over two million observation records. The minimum
   time interval for data is hourly. Currently, there is a data contribution for
-  every hour, achieving a 100% coverage rate for hourly observation data."
+  every hour, achieving a 100% coverage rate for hourly observation data.
 </p>
 
 <table class="ui table compact blue small">
@@ -109,7 +109,7 @@ show_child_projects: yes
       <td>720</td>
     </tr>
     <tr class="right aligned">
-      <th>~2023/12/03</th>
+      <th>2023/12/01 ~ 2023/12/03</th>
       <td>3</td>
       <td>120</td>
     </tr>
@@ -171,7 +171,7 @@ show_child_projects: yes
       <td>421.32</td>
     </tr>
     <tr class="right aligned">
-      <th>~2023/12/03</th>
+      <th>2023/12/01 ~ 2023/12/03</th>
       <td>240</td>
       <td>90,509</td>
       <td>377.12</td>
@@ -218,7 +218,7 @@ show_child_projects: yes
       <th>2023/09</th>
       <th>2023/10</th>
       <th>2023/11</th>
-      <th>~2023/12/03</th>
+      <th>2023/12/01<br />~2023/12/03</th>
       <th>Total</th>
     </tr>
   </thead>
@@ -279,9 +279,27 @@ show_child_projects: yes
       <td>598</td>
       <td>4,256<br />0.15%</td>
     </tr>
+    <tr class="center aligned active">
+      <td colspan="6">
+        <small>
+          Others<br />
+          (Excluding other ASNs without observation data each month.)
+        </small>
+      </td>
+    </tr>
   </tbody>
 </table>
 <table class="ui table compact green small">
+  <thead>
+    <tr class="right aligned">
+      <th></th>
+      <th>2023/09</th>
+      <th>2023/10</th>
+      <th>2023/11</th>
+      <th>2023/12/01<br />~2023/12/03</th>
+      <th>SUM</th>
+    </tr>
+  </thead>
   <tbody>
     <tr class="top aligned right">
       <th>Total (with records each month)</th>
@@ -337,7 +355,7 @@ show_child_projects: yes
       <td>19</td>
     </tr>
     <tr>
-      <th>~2023/12/03</th>
+      <th>2023/12/01 ~ 2023/12/03</th>
       <td>10</td>
     </tr>
   </tbody>
@@ -475,7 +493,8 @@ show_child_projects: yes
   <li>
     <a
       href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/"
-      >Observation Data and Data Compilation Document</a
+      ><i class="file alternate icon"></i> Observation Data and Data Compilation
+      Document</a
     >
   </li>
 </ul>
@@ -506,7 +525,7 @@ show_child_projects: yes
     new Chart(chart_01, {
       type: "bar",
       data: {
-        labels: ["2023/09", "2023/10", "2023/11", "~2023/12/03"],
+        labels: ["2023/09", "2023/10", "2023/11", "2023/12/01 ~ 2023/12/03"],
         datasets: [
           {
             label: "AS3462",
@@ -642,7 +661,7 @@ show_child_projects: yes
     });
     new Chart(chart_03, {
       data: {
-        labels: ["2023/09", "2023/10", "2023/11", "~2023/12/03"],
+        labels: ["2023/09", "2023/10", "2023/11", "2023/12/01 ~ 2023/12/03"],
         datasets: [
           {
             type: "line",
