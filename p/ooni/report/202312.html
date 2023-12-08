@@ -100,7 +100,7 @@ show_child_projects: yes
       <td>720</td>
     </tr>
     <tr class="right aligned">
-      <th>~2023/12/03</th>
+      <th>2023/12/01 ~ 2023/12/03</th>
       <td>3</td>
       <td>120</td>
     </tr>
@@ -119,7 +119,7 @@ show_child_projects: yes
   為單位，不重複出現在每一小時的紀錄。資料筆數為檢測觀察網站的筆數。平均觀測筆數為資料筆數
   / 總觀測時數。（<a
     href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=1906591844"
-    >資料整理可參考</a
+    ><i class="file alternate icon"></i> 參考資料</a
   >。）
 </p>
 
@@ -159,7 +159,7 @@ show_child_projects: yes
       <td>421.32</td>
     </tr>
     <tr class="right aligned">
-      <th>~2023/12/03</th>
+      <th>2023/12/01 ~ 2023/12/03</th>
       <td>240</td>
       <td>90,509</td>
       <td>377.12</td>
@@ -180,7 +180,7 @@ show_child_projects: yes
   從 2023/09 - 2023/12/03 的觀察資料中，不重複的 ASN 數量為 32 組，其中以
   AS3462、AS18041 貢獻約 78.94% 的觀測資料。（<a
     href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=225771675"
-    >資料整理可參考</a
+    ><i class="file alternate icon"></i> 參考資料</a
   >。）
 </p>
 
@@ -203,7 +203,7 @@ show_child_projects: yes
       <th>2023/09</th>
       <th>2023/10</th>
       <th>2023/11</th>
-      <th>~2023/12/03</th>
+      <th>2023/12/01<br />~2023/12/03</th>
       <th>總計</th>
     </tr>
   </thead>
@@ -264,9 +264,27 @@ show_child_projects: yes
       <td>598</td>
       <td>4,256<br />0.15%</td>
     </tr>
+    <tr class="center aligned active">
+      <td colspan="6">
+        <small>
+          其他<br />
+          （省略其他 ASNs 未每月均有觀測資料）
+        </small>
+      </td>
+    </tr>
   </tbody>
 </table>
 <table class="ui table compact green small">
+  <thead>
+    <tr class="right aligned">
+      <th></th>
+      <th>2023/09</th>
+      <th>2023/10</th>
+      <th>2023/11</th>
+      <th>2023/12/01<br />~2023/12/03</th>
+      <th>合計</th>
+    </tr>
+  </thead>
   <tbody>
     <tr class="top aligned right">
       <th>總計（均有觀察資料）</th>
@@ -322,7 +340,7 @@ show_child_projects: yes
       <td>19</td>
     </tr>
     <tr>
-      <th>~2023/12/03</th>
+      <th>2023/12/01 ~ 2023/12/03</th>
       <td>10</td>
     </tr>
   </tbody>
@@ -424,11 +442,11 @@ show_child_projects: yes
   所貢獻的資料。而在分析的期間每月都有資料貢獻的 ASN 更只佔已知<a
     href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=1687744854"
     >註冊</a
-  >在 TW 的 ASNs 中的 7.32％。
+  >在 TW 的 ASNs 中的 <strong>7.32％</strong>。
 </p>
 
 <p>
-  在此刻的觀察資料還不夠全面且多樣的反應目前臺灣的網路樣態，三大電信業者、有線電視的寬頻服務、固網、第二類電信（虛擬行動網路服務）⋯等。
+  此刻的資料顯示，目前的觀察還不夠全面與多樣，無法反應目前臺灣的網路樣態，如包含：三大電信業者、有線電視的寬頻服務、固網、第二類電信（虛擬行動網路服務）⋯等。
 </p>
 
 <p>
@@ -442,7 +460,7 @@ show_child_projects: yes
   <li>
     <a
       href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/"
-      >觀測資料與數據整理文檔</a
+      ><i class="file alternate icon"></i> 觀測資料與數據整理文檔</a
     >
   </li>
 </ul>
@@ -473,7 +491,7 @@ show_child_projects: yes
     new Chart(chart_01, {
       type: "bar",
       data: {
-        labels: ["2023/09", "2023/10", "2023/11", "~2023/12/03"],
+        labels: ["2023/09", "2023/10", "2023/11", "2023/12/01 ~ 2023/12/03"],
         datasets: [
           {
             label: "AS3462",
@@ -558,7 +576,7 @@ show_child_projects: yes
           "AS1659",
           "AS945",
           "AS24158",
-          "Others",
+          "其他",
         ],
         datasets: [
           {
@@ -609,7 +627,7 @@ show_child_projects: yes
     });
     new Chart(chart_03, {
       data: {
-        labels: ["2023/09", "2023/10", "2023/11", "~2023/12/03"],
+        labels: ["2023/09", "2023/10", "2023/11", "2023/12/01 ~ 2023/12/03"],
         datasets: [
           {
             type: "line",
