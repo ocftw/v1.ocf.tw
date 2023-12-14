@@ -1,0 +1,673 @@
+---
+layout: p
+
+og_title: OONI 網路干預開放觀察計畫報告 2023/12
+og_description: "OONI（Open Observatory of Network Interference）
+  是一個觀察網路審查的專案。由全球的志工協助執行觀測應用程式並偵測阻擋與回報其觀察結果到該組織。
+  開放文化基金會（Open Culture Foundation, OCF）身為 OONI 的社群夥伴之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。"
+og_image: /p/ooni/ooni_research.png
+
+header_image_opacity: 0
+header_veil_opacity: 0.1
+
+show_events:
+gsheet_url:
+show_sponsors:
+show_donors:
+
+show_progress:
+progress:
+  duration:
+  goal:
+  current:
+  percent:
+  count:
+  updated:
+cpid:
+show_child_projects: yes
+---
+
+<h2 class="ui dividing header">報告說明</h2>
+<p>
+  開放文化基金會（OCF）於 2023/10 開始重新規劃
+  <a href="/p/ooni/">OONI</a> 專案項目，並在基金會的 Github 專頁開啟
+  <a href="https://github.com/ocftw/ooni-research">ooni-research</a>
+  專案，將計畫的規劃內容、研究方向、擷取資料程式 …
+  等採取開放原始碼、開源精神的方式呈現！
+</p>
+
+<p>
+  第一個研究項目為「OONI 觀測資料與網際網路自治系統 ASN 涵蓋率」，OONI
+  主要是透過志工、參與者提供當地網路的檢測資料，觀察網路是否有備受干預的狀況，OONI
+  是 <a href="https://www.torproject.org/">Tor</a> 專案底下的專案，從 2012
+  年專案開啟截至 2023 年已經<a href="https://explorer.ooni.org/zh-Hant">觀察</a
+  >了近 20 億組資料、241 個國家、3 萬的網路觀察。
+</p>
+<p>
+  而我們也好奇在臺灣（TW）的觀測資料目前的狀況、樣態如何？有多少觀測資料來自於已知的
+  ASN？是否還有我們不知道的網際網路區域是未被觀測到的？最後我們還是想看看數據來反問我們的網路真的自由嗎？
+</p>
+
+<p>
+  以上疑問，我們開始規劃與分析 OONI 觀察資料。由於 OONI 檢測<a
+    href="https://ooni.org/install/"
+    >應用程式</a
+  >執行完後，會將觀測資料上傳到 AWS S3 儲存（<a
+    href="https://registry.opendata.aws/ooni/"
+    >Registry of Open Data on AWS</a
+  >），因此可以透過現有的套件工具下載原始的觀測資料來整理與分析。詳細的檔案下載程式可以參考<a
+    href="https://github.com/ocftw/ooni-research/tree/main/asn_coverage"
+    >專案資料夾</a
+  >中的
+  <a
+    href="https://github.com/ocftw/ooni-research/blob/main/asn_coverage/ooni.py"
+    >ooni.py</a
+  >。
+</p>
+
+<h2 class="ui dividing header">觀測資料基本樣態</h2>
+<p>
+  期間抓取 2023/09/01 - 2023/12/03，共 94
+  天，約二百多萬筆觀測資料，資料最小時間間隔為小時。目前每一小時都有觀測資料貢獻，每小時觀測資料涵蓋率為
+  100%。
+</p>
+
+<table class="ui table compact blue small">
+  <caption>
+    各月份的觀察數據
+  </caption>
+  <thead>
+    <tr class="right aligned">
+      <th>月份</th>
+      <th>天數</th>
+      <th>時數</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="right aligned">
+      <th>2023/09</th>
+      <td>30</td>
+      <td>720</td>
+    </tr>
+    <tr class="right aligned">
+      <th>2023/10</th>
+      <td>31</td>
+      <td>744</td>
+    </tr>
+    <tr class="right aligned">
+      <th>2023/11</th>
+      <td>30</td>
+      <td>720</td>
+    </tr>
+    <tr class="right aligned">
+      <th>2023/12/01 ~ 2023/12/03</th>
+      <td>3</td>
+      <td>120</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="right aligned">
+      <th>總計</th>
+      <th>94</th>
+      <th>2,304</th>
+    </tr>
+  </tfoot>
+</table>
+
+<p>
+  總觀測時數是以 ASN
+  為單位，不重複出現在每一小時的紀錄。資料筆數為檢測觀察網站的筆數。平均觀測筆數為資料筆數
+  / 總觀測時數。（<a
+    href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=1906591844"
+    ><i class="file alternate icon"></i> 參考資料</a
+  >。）
+</p>
+
+<div>
+  <canvas id="chart_03"></canvas>
+</div>
+
+<table class="ui table compact blue small">
+  <caption>
+    觀測時數
+  </caption>
+  <thead>
+    <tr class="right aligned">
+      <th>月份</th>
+      <th>總觀測時數</th>
+      <th>資料筆數</th>
+      <th>平均觀測筆數</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="right aligned">
+      <th>2023/09</th>
+      <td>2,342</td>
+      <td>712,724</td>
+      <td>304.32</td>
+    </tr>
+    <tr class="right aligned">
+      <th>2023/10</th>
+      <td>2,512</td>
+      <td>1,029,845</td>
+      <td>409.97</td>
+    </tr>
+    <tr class="right aligned">
+      <th>2023/11</th>
+      <td>2,243</td>
+      <td>945,011</td>
+      <td>421.32</td>
+    </tr>
+    <tr class="right aligned">
+      <th>2023/12/01 ~ 2023/12/03</th>
+      <td>240</td>
+      <td>90,509</td>
+      <td>377.12</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="right aligned">
+      <th>總計</th>
+      <th>7337</th>
+      <th>2,778,089</th>
+      <th>378.64</th>
+    </tr>
+  </tfoot>
+</table>
+
+<h3 class="ui header">ASN 資料樣態</h3>
+<p>
+  從 2023/09 - 2023/12/03 的觀察資料中，不重複的 ASN 數量為 32 組，其中以
+  AS3462、AS18041 貢獻約 78.94% 的觀測資料。（<a
+    href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=225771675"
+    ><i class="file alternate icon"></i> 參考資料</a
+  >。）
+</p>
+
+<div>
+  <canvas id="chart_01"></canvas>
+</div>
+
+<div>
+  <canvas id="chart_02"></canvas>
+</div>
+
+<table class="ui table compact blue small">
+  <caption>
+    2023/09 - 2023/12/03 均有觀測資料的 ASNs 列表<br />
+    <small>（依觀測資料量排序，多→少）</small>
+  </caption>
+  <thead>
+    <tr class="right aligned">
+      <th>ASN 編號</th>
+      <th>2023/09</th>
+      <th>2023/10</th>
+      <th>2023/11</th>
+      <th>2023/12/01<br />~2023/12/03</th>
+      <th>總計</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="top aligned right warning">
+      <td>AS3462</td>
+      <td>328,656</td>
+      <td>470,142</td>
+      <td>468,767</td>
+      <td>42,663</td>
+      <td>1,310,228<br />47.16%</td>
+    </tr>
+    <tr class="top aligned right warning">
+      <td>AS18041</td>
+      <td>41,567</td>
+      <td>415,974</td>
+      <td>386,789</td>
+      <td>38,415</td>
+      <td>882,745<br />31.78%</td>
+    </tr>
+    <tr class="top aligned right">
+      <td>AS18419</td>
+      <td>72,405</td>
+      <td>74,721</td>
+      <td>62,593</td>
+      <td>7,195</td>
+      <td>216,914<br />7.81%</td>
+    </tr>
+    <tr class="top aligned right">
+      <td>AS38136</td>
+      <td>2,900</td>
+      <td>3,100</td>
+      <td>3,000</td>
+      <td>300</td>
+      <td>9,300<br />0.33%</td>
+    </tr>
+    <tr class="top aligned right">
+      <td>AS1659</td>
+      <td>3,100</td>
+      <td>1,001</td>
+      <td>4,053</td>
+      <td>300</td>
+      <td>8,454<br />0.30%</td>
+    </tr>
+    <tr class="top aligned right">
+      <td>AS945</td>
+      <td>400</td>
+      <td>3,100</td>
+      <td>3,000</td>
+      <td>300</td>
+      <td>6,800<br />0.24%</td>
+    </tr>
+    <tr class="top aligned right">
+      <td>AS24158</td>
+      <td>1,511</td>
+      <td>1,520</td>
+      <td>627</td>
+      <td>598</td>
+      <td>4,256<br />0.15%</td>
+    </tr>
+    <tr class="center aligned active">
+      <td colspan="6">
+        <small>
+          其他<br />
+          （省略其他 ASNs 未每月均有觀測資料）
+        </small>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table class="ui table compact green small">
+  <thead>
+    <tr class="right aligned">
+      <th></th>
+      <th>2023/09</th>
+      <th>2023/10</th>
+      <th>2023/11</th>
+      <th>2023/12/01<br />~2023/12/03</th>
+      <th>合計</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="top aligned right">
+      <th>總計（均有觀察資料）</th>
+      <th>450,539</th>
+      <th>969,558</th>
+      <th>928,829</th>
+      <th>89,771</th>
+      <th>2,438,697<br />87.78%</th>
+    </tr>
+    <tr class="top aligned right">
+      <th>總計（其他）</th>
+      <th>262,185</th>
+      <th>60,287</th>
+      <th>16,172</th>
+      <th>738</th>
+      <th>339,392<br />12.22%</th>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="top aligned right">
+      <th>總計</th>
+      <th>712,724</th>
+      <th>1,029,845</th>
+      <th>945,011</th>
+      <th>90,509</th>
+      <th>2,778,089<br />100%</th>
+    </tr>
+  </tfoot>
+</table>
+
+<h4 class="ui header">完整的觀測資料 ASNs 列表</h4>
+<table class="ui table compact blue small">
+  <caption>
+    不重複的 ASN
+  </caption>
+  <thead>
+    <tr>
+      <th>月份</th>
+      <th>不重複的 ASN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2023/09</th>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>2023/10</th>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>2023/11</th>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>2023/12/01 ~ 2023/12/03</th>
+      <td>10</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>2023/09 ~ 2023/12/03</th>
+      <th>32</th>
+    </tr>
+  </tfoot>
+</table>
+
+<p>
+  在目前<a
+    href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=1687744854"
+    >註冊</a
+  >在 TW 的 ASN 共有 437 組，而觀測資料（TW）不重複 ASN 僅佔其中的
+  7.32%，比例相當低。
+</p>
+
+<table class="ui table compact striped blue small">
+  <caption>
+    分析期間不重複的 ASNs 列表
+  </caption>
+  <tbody>
+    <tr>
+      <td class="warning">AS945**</td>
+      <td>AS9678</td>
+      <td>AS18182</td>
+      <td class="warning">AS38136**</td>
+      <td>AS131668</td>
+    </tr>
+    <tr>
+      <td class="warning">AS1659**</td>
+      <td>AS9916</td>
+      <td>AS18412</td>
+      <td>AS38841</td>
+      <td>AS134823</td>
+    </tr>
+    <tr>
+      <td class="warning">AS3462**</td>
+      <td>AS9919</td>
+      <td class="warning">AS18419**</td>
+      <td>AS38844</td>
+      <td>AS147049</td>
+    </tr>
+    <tr>
+      <td>AS4780</td>
+      <td>AS9924</td>
+      <td>AS19527</td>
+      <td>AS41378</td>
+      <td>AS396982</td>
+    </tr>
+    <tr>
+      <td>AS7539</td>
+      <td>AS17421</td>
+      <td>AS24157</td>
+      <td>AS55720</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AS9416</td>
+      <td>AS17716</td>
+      <td class="warning">AS24158**</td>
+      <td>AS131596</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AS9674</td>
+      <td class="warning">AS18041**</td>
+      <td>AS24164</td>
+      <td>AS131627</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th colspan="5">
+        <ul>
+          <li>
+            <small>** 表示 2023/09 - 2024/12/03 期間均有觀測資料貢獻。</small>
+          </li>
+          <li><small>觀測資料期間：2023/09/01 ~ 2023/12/03</small></li>
+        </ul>
+      </th>
+    </tr>
+  </tfoot>
+</table>
+
+<h2 class="ui dividing header">後續行動</h2>
+<p>
+  臺灣的觀測資料在 OONI Explorer
+  <a
+    href="https://explorer.ooni.org/chart/mat?since=2023-09-01&until=2023-12-03&time_grain=week&axis_x=measurement_start_day&axis_y=probe_cc&test_name=web_connectivity"
+    >資料庫</a
+  >中排名在<a
+    href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=1277016641"
+    >前十名</a
+  >中，但經過資料內涵的分析後發現，目前的觀測資料中約 80% 集中在 AS3462、AS18041
+  所貢獻的資料。而在分析的期間每月都有資料貢獻的 ASN 更只佔已知<a
+    href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/edit#gid=1687744854"
+    >註冊</a
+  >在 TW 的 ASNs 中的 <strong>7.32％</strong>。
+</p>
+
+<p>
+  此刻的資料顯示，目前的觀察還不夠全面與多樣，無法反應目前臺灣的網路樣態，如包含：三大電信業者、有線電視的寬頻服務、固網、第二類電信（虛擬行動網路服務）⋯等。
+</p>
+
+<p>
+  開放文化基金會身為 OONI
+  社群夥伴之一，負責在地推廣與觀察。在接下來的推廣策略會調整成協助貢獻者認識 ASN
+  與發現未知的 ASN 觀察，並持續提供簡易的安裝教學文件。
+</p>
+
+<h2 class="ui dividing header">參考資料</h2>
+<ul>
+  <li>
+    <a
+      href="https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/"
+      ><i class="file alternate icon"></i> 觀測資料與數據整理文檔</a
+    >
+  </li>
+</ul>
+
+<div class="ui success message">
+  <div class="header">持續關注我們的網路干預觀察</div>
+  <p>
+    如果您對 OONI 網路干預觀察有興趣，可以先參考專案<a href="/p/ooni/"
+      >說明頁面</a
+    >，或是訂閱加入 ooni-research 的<a
+      href="https://groups.google.com/g/ocftw-ooni-research"
+      >郵件群組</a
+    >，相關的研究資訊會透過此信箱發佈。參考更多的<a href="/p/ooni/report/"
+      >網路觀察報告</a
+    >。
+  </p>
+</div>
+
+<script src="/p/ooni/chart.umd.min.js"></script>
+<script src="/p/ooni/chartjs-plugin-datalabels@2.0.0.js"></script>
+
+<script>
+  (function () {
+    const chart_01 = document.getElementById("chart_01");
+    const chart_02 = document.getElementById("chart_02");
+    const chart_03 = document.getElementById("chart_03");
+
+    new Chart(chart_01, {
+      type: "bar",
+      data: {
+        labels: ["2023/09", "2023/10", "2023/11", "2023/12/01 ~ 2023/12/03"],
+        datasets: [
+          {
+            label: "AS3462",
+            data: [328656, 470142, 468767, 42663],
+            borderWidth: 1,
+            backgroundColor: "rgba(255, 99, 132, 0.2)",
+            borderColor: "rgb(255, 99, 132)",
+          },
+          {
+            label: "AS18041",
+            data: [41567, 415974, 386789, 38415],
+            borderWidth: 1,
+            backgroundColor: "rgba(255, 159, 64, 0.2)",
+            borderColor: "rgb(255, 159, 64)",
+          },
+          {
+            label: "AS18419",
+            data: [72405, 74721, 62593, 7195],
+            borderWidth: 1,
+            backgroundColor: "rgba(255, 205, 86, 0.2)",
+            borderColor: "rgb(255, 205, 86)",
+          },
+          {
+            label: "AS38136",
+            data: [2900, 3100, 3000, 300],
+            borderWidth: 1,
+            backgroundColor: "rgba(75, 192, 192, 0.2)",
+            borderColor: "rgb(75, 192, 192)",
+          },
+          {
+            label: "AS1659",
+            data: [3100, 1001, 4053, 300],
+            borderWidth: 1,
+            backgroundColor: "rgba(54, 162, 235, 0.2)",
+            borderColor: "rgb(54, 162, 235)",
+          },
+          {
+            label: "AS945",
+            data: [400, 3100, 3000, 300],
+            borderWidth: 1,
+            backgroundColor: "rgba(153, 102, 255, 0.2)",
+            borderColor: "rgb(153, 102, 255)",
+          },
+          {
+            label: "AS24158",
+            data: [1511, 1520, 627, 598],
+            borderWidth: 1,
+            backgroundColor: "rgba(201, 203, 207, 0.2)",
+            borderColor: "rgb(201, 203, 207)",
+          },
+          {
+            label: "其他",
+            data: [262185, 60287, 16172, 738],
+            borderWidth: 1,
+            backgroundColor: "rgba(201, 203, 207, 0.8)",
+            borderColor: "rgb(201, 203, 207)",
+          },
+        ],
+      },
+      options: {
+        plugins: {
+          title: {
+            display: true,
+            text: " 2023/09 - 2023/12/03 均有觀測資料的 ASNs 列表（依觀測資料量排序，多→少、其他）",
+          },
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+      },
+    });
+    new Chart(chart_02, {
+      type: "pie",
+      data: {
+        labels: [
+          "AS3462",
+          "AS18041",
+          "AS18419",
+          "AS38136",
+          "AS1659",
+          "AS945",
+          "AS24158",
+          "其他",
+        ],
+        datasets: [
+          {
+            label: "Total",
+            data: [1310228, 882745, 216914, 9300, 8454, 6800, 4256, 339392],
+            borderWidth: 1,
+            backgroundColor: [
+              "rgba(255, 99, 132, 0.8)",
+              "rgba(255, 159, 64, 0.8)",
+              "rgba(255, 205, 86, 0.8)",
+              "rgba(75, 192, 192, 0.8)",
+              "rgba(54, 162, 235, 0.8)",
+              "rgba(153, 102, 255, 0.8)",
+              "rgba(201, 203, 207, 0.8)",
+              "rgba(201, 203, 207, 0.5)",
+            ],
+          },
+        ],
+      },
+      plugins: [ChartDataLabels],
+      options: {
+        animation: {
+          animateScale: true,
+        },
+        plugins: {
+          title: {
+            display: true,
+            text: " 2023/09 - 2023/12/03 觀測資料總計數量",
+          },
+          datalabels: {
+            color: "white",
+            backgroundColor: "black",
+            borderColor: "white",
+            borderWidth: 1,
+            borderRadius: 3,
+            font: {
+              size: 12,
+            },
+            textAlign: "center",
+            formatter: function (value, context) {
+              return (
+                context.chart.data.labels[context.dataIndex] + "\n" + value
+              );
+            },
+          },
+        },
+      },
+    });
+    new Chart(chart_03, {
+      data: {
+        labels: ["2023/09", "2023/10", "2023/11", "2023/12/01 ~ 2023/12/03"],
+        datasets: [
+          {
+            type: "line",
+            label: "總觀測時數",
+            data: [2342, 2512, 2243, 240],
+            borderWidth: 5,
+            borderColor: "rgba(75, 192, 192)",
+            tension: 0.2,
+          },
+          {
+            type: "line",
+            label: "資料筆數（*1,000）",
+            data: [712.724, 1029.845, 945.011, 90.509],
+            borderWidth: 5,
+            borderColor: "rgba(153, 102, 255)",
+            tension: 0.2,
+          },
+          {
+            type: "line",
+            label: "平均觀察筆數",
+            data: [304.32, 409.97, 421.32, 377.12],
+            borderWidth: 5,
+            borderColor: "rgb(255, 205, 86)",
+            tension: 0.5,
+          },
+        ],
+      },
+      options: {
+        plugins: {
+          title: {
+            display: true,
+            text: " 2023/09 - 2023/12/03 觀測時數、筆數",
+          },
+        },
+        scales: {
+          y: {
+            beginAtZero: false,
+          },
+        },
+      },
+    });
+  })();
+</script>
