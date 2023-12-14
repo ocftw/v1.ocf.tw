@@ -1,3 +1,21 @@
+
+- id:
+  name: g0v hackath60n | 台灣零時政府第陸拾次記得投票黑客松
+  name_en:
+  description: 4 年一次的總統、副總統與立委選舉投票日即將在 1 月 13 日舉行，本次大松邀請大家在選前一週（1/6 週六）一起 hacking 松一下！參加大松只要保持基本禮貌與尊重，並遵守 g0v 社群守則，不論你是什麼顏色與立場，都歡迎你一起來玩！\ 特別提醒 /政黨及任何人於投票日前 10 日起至投票時間截止前，不得以任何方式，發布有關候選人或選舉之民意調查資料，亦不得加以報導、散布、評論或引述。有更多好吃好玩的事情即將在 g0v 社群發生，邀請你一起來 1/6 中研院資訊所的大松現場，一起邊玩邊做專案！「g0v 第陸拾次記得投票黑客松」將在 2023.01.06（六）於「中研院資訊所」舉辦，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、藝術家、媒體工作者、教育工作者等諸眾，帶著熱血來盡一己之力，開源協作參與社會。參加者需同意遵守活動守則。
+  start: 2024/01/06
+  end:
+  links:
+    - title: 活動及報名資訊
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath60n
+    - title: 活動共筆
+      url: https://g0v.hackmd.io/@jothon/SJd8BS4r6
+  cover_image: https://t.kfs.io/upload_images/186261/g0v_hackath60n_large.PNG
+  contributor_ids:
+  project_ids:
+    - g0vdathon
+
+
 - id:
   name: g0v hackath50n | 台灣零時政府第伍拾次來電五十黑客松 x COSCUP Open Source Contributor Workshop
   name_en:
