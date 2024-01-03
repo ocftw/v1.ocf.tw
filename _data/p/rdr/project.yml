@@ -42,6 +42,14 @@ links:
     url:  https://www.tahr.org.tw
     color: green
     icon: world icon
+  - title: 【深度瞭解】評估企業人權表現的國際標準：RDR 
+    url:  https://ocf.tw/p/rdr/intro/
+    color: green
+    icon: world icon
+  - title: 【報告出爐】數位人權在台灣：2022 企業責信報告
+    url:  https://ocf.tw/p/rdr/2022/
+    color: green
+    icon: world icon
 links_en:
   - title: 【International project partners】Ranking Digital Rights Official
     url: https://rankingdigitalrights.org/
