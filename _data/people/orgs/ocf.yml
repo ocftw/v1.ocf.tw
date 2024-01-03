@@ -68,7 +68,7 @@ join:
     url: /mediakit
     icon: image
     target: _self
-icon: /mediakit/icon_white.png
+#icon: /mediakit/icon_white.png
 logo: /mediakit/logo.png
 avatar: 
 cover: /mediakit/cover.png
