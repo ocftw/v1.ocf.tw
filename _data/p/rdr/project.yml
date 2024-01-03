@@ -26,7 +26,7 @@ tags:
 tags_en:
 
 links:
-  - title: 【國際夥伴】Ranking Digital Rights Officia
+  - title: 【國際夥伴】Ranking Digital Rights Official
     url: https://rankingdigitalrights.org 
     color: green
     icon: world icon
@@ -43,19 +43,19 @@ links:
     color: green
     icon: world icon
 links_en:
-  - title: [International project partners] Ranking Digital Rights Official
-    url: https://rankingdigitalrights.org 
+  - title: 【International project partners】Ranking Digital Rights Official
+    url: https://rankingdigitalrights.org/
     color: green
     icon: world icon
-  - title: [International project partners] Digital Asia Hub 
-    url:  https://www.digitalasiahub.org
+  - title: 【International project partners】Digital Asia Hub 
+    url:  https://www.digitalasiahub.org/
     color: green
     icon: world icon
-  - title: [International project partners] OpenNet
+  - title: 【International project partners】OpenNet
     url:  https://www.opennetkorea.org/
     color: green
     icon: world icon
-  - title: [Local Project Partners] Taiwan Association for Human Rights  
+  - title: 【Local Project Partners】Taiwan Association for Human Rights  
     url:  https://www.tahr.org.tw
     color: green
     icon: world icon
