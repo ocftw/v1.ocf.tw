@@ -52,8 +52,6 @@
     - title: 活動報名
       url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=19
   cover_image: /p/admin/2020/0919sfd.jpg
-  contributor_ids:
-    -
   project_ids:
     - admin
   organizer_ids:
