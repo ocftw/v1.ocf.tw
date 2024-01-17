@@ -8,8 +8,6 @@
     - title: 活動報名
       url: https://ocftw.kktix.cc/events/concom2024
   cover_image: /p/admin/2024/concom2024.png
-  contributor_ids:
-    -
   project_ids:
     - admin
 
@@ -39,8 +37,6 @@
     - title: 活動報名
       url: https://ocftw.kktix.cc/events/concom2022
   cover_image: /p/admin/2022/concom2022.png
-  contributor_ids:
-    -
   project_ids:
     - admin
 
