@@ -1,4 +1,18 @@
 - id: admin
+  name: CONCOM 2024
+  name_en: CONCOM 2024
+  description: CONCOM（為 CONference for open COMmunities 的縮寫）期望創造一個交流與探索的空間，將開源相關社群/大會籌備團隊平常遇到的困難與需求提出與討論，使得各社群夥伴們長期累積的活動籌辦經驗、組織經營心得可以互相交流與分享，一同讓社群力量可以協力擴展。
+  start: 2024/01/27
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocftw.kktix.cc/events/concom2024
+  cover_image: /p/admin/2024/concom2024.png
+  project_ids:
+    - admin
+
+
+- id: admin
   name: "OCF x Sāngs Taipei 跨界藝術夏日派對"
   name_en: "OCF x Sāngs Taipei Summer Party"
   description: "OCF 一年一度的開源社群聚會又來了！準備好迎接一場突破界限的夏日派對了嗎？今年我們將呈獻一場融合科技與藝術的跨界展演活動，透過藝術展演和短講，向與會者介紹網路隱私和安全的重要性。歡迎舊雨新知一同來探索科技與藝術碰撞下迸發的火花！"
@@ -23,19 +37,9 @@
     - title: 活動報名
       url: https://ocftw.kktix.cc/events/concom2022
   cover_image: /p/admin/2022/concom2022.png
-  contributor_ids:
-    -
   project_ids:
     - admin
-  organizer_ids:
-  advisor_ids:
-  co-organizer_ids:
-  implementer_ids:
-  sponsor_ids:
-  coordinator_ids:
-  host_ids:
-  speaker_ids:
-  banner:
+
 
 
 - id: admin
@@ -48,8 +52,6 @@
     - title: 活動報名
       url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=19
   cover_image: /p/admin/2020/0919sfd.jpg
-  contributor_ids:
-    -
   project_ids:
     - admin
   organizer_ids:

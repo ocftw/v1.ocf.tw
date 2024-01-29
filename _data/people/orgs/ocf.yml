@@ -70,7 +70,7 @@ join:
     target: _self
 icon: /mediakit/icon_white.png
 logo: /mediakit/logo.png
-avatar: /mediakit/avatar.jpg
+avatar: 
 cover: /mediakit/cover.png
 link:
   - title: 官方網站
