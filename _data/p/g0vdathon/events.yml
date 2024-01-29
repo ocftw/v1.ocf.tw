@@ -1,3 +1,18 @@
+- id:
+  name: g0v hackath61n | 台灣零時政府第陸拾壹次龍來 Open Data Day 黑客松暨零時小學校 4th 專案孵化競賽決選日
+  name_en:
+  description: g0v 社群每兩個月舉辦一次黑客松，以資訊透明、開放成果、開放協作為核心，透過公民科技的力量，持續助力往社會共好的方向前進。本次 g0v 黑客松與 Open Data Day 同日開跑，活動地點在鄰近臺大後門的學新館二樓 SPACE M 空間，歡迎各界夥伴龍來黑客松！黑客松當天也將同步舉行「零時小學校 4th 專案孵化競賽決選」活動，邀請 13 組初選入圍團隊進行專案 Demo，擇優決選出 3 - 5 組獲獎團隊。歡迎大家前來給予現場團隊更多元的回饋！另邀請 Code for Japan 舉辦的「公民科技挑戰盃 U-22（Civictech Challenge Cup U-22）」獲獎團隊來到大松現場分享專案與學習歷程。參加者需同意遵守活動守則。
+  start: 2024/03/02
+  end:
+  links:
+    - title: 活動及報名資訊
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath61n
+    - title: 活動共筆
+      url: https://beta.hackfoldr.org/g0v-hackath61n
+  cover_image: https://t.kfs.io/upload_images/189260/1__1__large.png
+  contributor_ids:
+  project_ids:
+    - g0vdathon
 
 - id:
   name: g0v hackath60n | 台灣零時政府第陸拾次記得投票黑客松
