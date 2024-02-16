@@ -1,0 +1,45 @@
+name: 2024 帶著臺灣開源社群前往 FOSDEM 活動紀錄
+name_en: Taiwan Open Source communities to FOSDEM
+
+description: 我們帶著臺灣開源社群從 FOSDEM 2024 回來了，這是我們這次的活動紀錄！
+description_en: Gathering the Taiwan open-source community to attend FOSDEM.
+
+og_image: /p/global/fosdem-2024/cover.png
+og_image_en: /p/global/fosdem-2024/cover.png
+
+header_image: /p/global/fosdem-2024/header.png
+header_image_en: /p/global/fosdem-2024/header.png
+
+avatar_image: /p/global/fosdem-2024/avatar.png
+avatar_image_en: /p/global/fosdem-2024/avatar.png
+
+theme_color: purple
+
+type_ids:
+  - overseas
+topic_ids:
+  - data
+field_ids:
+  - it
+
+actions:
+  - title: 2024 活動紀錄
+    url: /p/global/fosdem-2024
+    color: purple
+
+links:
+  - title: 帶著臺灣開源社群前往 FOSDEM 活動招募
+    url: /p/global/fosdem-taiwan-community/
+  - title: FOSDEM
+    url: https://fosdem.org/
+  - title: Accepted stands for FOSDEM 2024
+    url: https://fosdem.org/2024/news/2023-11-20-accepted-stands-fosdem-2024/
+
+organizer_ids:
+  - ocf
+
+staff_ids:
+  - toomore
+
+listed: yes
+listed_en: yes
