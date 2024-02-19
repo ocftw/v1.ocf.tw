@@ -1,8 +1,8 @@
 - id: 
-  name: "Civic Sense Webinar 1/2"
-  name_en: Civic Sense Webinar 1/2
+  name: Civic Sense 線上研討會
+  name_en: Civic Sense project launching webinar
   description: "開放文化基金會希望展現公民物聯網的重要性，並且鼓勵更多社群使用開源感測器。透過開源設計將研究、修改與再發布的可能性最大化，讓感測器得以依照當地社群的需求以及建設限制而做適當的調整。" 
-  description_en: Open Culture Foundation hopes to demonstrate the importance of the Internet of Things for citizen groups and encourage more communities to use open source monitors. Through open source design, there is more possibility of research, modification and re-release, so it the monitors can be adjusted appropriately according to the needs of the local community and any  restrictions that might exist.
+  description_en: OCF is dedicated to encouraging more communities to adopt open-source sensors by  demonstrating the importance of civic IoTs and the influence of open access data. By using open source design and development, the possibility of research, modification and redistribution of civic IoTs is maximized. Consequently Civic Sense accelerates  localization of civic IoTs to fit the local need and infrastructure availability.
   start: 2021/09/09
   end:
   links:
@@ -25,10 +25,10 @@
     - civicsense 
 
 - id: 
-  name: "Civic Sense Webinar 3"
-  name_en: Civic Sense Webinar 3
+  name: Civic Sense 線上研討會
+  name_en: Civic Sense adaptation webinar
   description: "本次網絡研討會的目標是了解每個參與社群的目標，討論並決定與哪些團體合作。"
-  description_en: The goal for this webinar was to understand the goals of each community and to determine which groups to collaborate with   
+  description_en: Following the previous event, OCF held another webinar to understand attending communities, discuss their future plan with civic IoTs, in the meanwhile, explore the possibility of collaboration. 
   start: 2021/10/06
   end:
   cover_image: /p/civicsense/cover_01.png
@@ -41,9 +41,9 @@
     - civicsense 
 
 - id: 
-  name: "Environment Sustainability with IoT Solutions"
+  name: 「環境永續之物聯網解決方案」線上研討會
   name_en: Environment Sustainability with IoT Solutions
-  description: "This event serves as a platform to connect attendees, enabling networking and project sharing, particularly focusing on IoT sensors for environmental monitoring enabled advocacy. Discussions will encompass environmental Open Data projects, especially those related to real-time air and water quality insights. The event will also introduce OCF's upcoming Thailand event. Attendees are urged to bring their insights, experiences, and queries regarding IoT's role in environmental sustainability."
+  description: 透過此次活動，提供與會者擴展人際網絡的機會，並且針對物聯網環境資料監測促進倡議的經驗進行分享。 討論內容涵蓋環境開放資料專案，特別是與即時空氣和水質之監測相關的項目。 在本次活動中，OCF也介紹了即將在泰國舉辦的自辦活動。 期許與會者提出更多有關物聯網在環境永續中之作用的見解、經驗和疑問。
   description_en: This event serves as a platform to connect attendees, enabling networking and project sharing, particularly focusing on IoT sensors for environmental monitoring enabled advocacy. Discussions will encompass environmental Open Data projects, especially those related to real-time air and water quality insights. The event will also introduce OCF's upcoming Thailand event. Attendees are urged to bring their insights, experiences, and queries regarding IoT's role in environmental sustainability.
   start: 2023/08/25
   end:
@@ -68,10 +68,10 @@
     - civicsense 
 
 - id: 
-  name: "Smart IoT x City Digital Transformation Forum"
+  name: 「智慧物聯網、智慧城市與數位轉型」論壇
   name_en: Smart IoT x City Digital Transformation Forum
-  description: "Join us to boost collaboration among IoT experts, environmentalists, academia, and businesses. Regional top minds from public and private sectors are gathering to share insights, needs, and successes, forging exciting partnerships for a better tomorrow. Don't miss out on shaping the IoT landscape!"
-  description_en: Join us to boost collaboration among IoT experts, environmentalists, academia, and businesses. Regional top minds from public and private sectors are gathering to share insights, needs, and successes, forging exciting partnerships for a better tomorrow. Don't miss out on shaping the IoT landscape!
+  description: OCF 透過在泰國舉辦此場座談會，讓國際夥伴與海外在地組織（包含泰國非營利組織、政府部門等）更加了解台灣民生公共物聯網的解決方案、推動成果、以及台灣在智慧城市的發展進程。此外，此次座談會也促成台灣廠商和與會組織共同設計、執行海外場域驗證計畫。
+  description_en: By hosting this forum in Thailand, OCF allowed international partners and overseas local organizations (including Thai non-profit organizations, government sectors, etc.) to have a better understanding of Taiwan’s civic IoTs solutions and achievements of promotion , as well as Taiwan’s progress in smart cities. In addition, this forum also enabled Taiwanese manufacturers and participating local organizations to jointly design and implement overseas field verification plans
   start: 2023/09/14
   end:
   cover_image: /p/civicsense/smart_iot_forum.png
@@ -83,13 +83,13 @@
     - civicsense 
 
 - id: 
-  name: "The IoT Sensors and Data (Hands-on) Workshop"
+  name: 「物聯網感測器及數據實作」工作坊
   name_en: The IoT Sensors and Data (Hands-on) Workshop
-  description:
-  description_en:   
+  description:除了經驗分享外，OCF 亦提供實作的機會。於論壇隔日舉辦的「物聯網感測器及數據實作」工作坊，呈現台灣民生公共物聯網在資料面的應用。在實務上，OCF 執行團隊設計數個練習題，如：資料清理、基礎資料分析，以及資料清理與標示的 AI 運用，讓參與者能夠在台灣民生公共物聯網的架構面與技術面上有更深入的瞭解。
+  description_en: In addition to sharing experiences, OCF also provides opportunities for implementation. The “IoT Sensors and Data (Hands-on)” workshop held on the next day of the forum presented the data-related application of Taiwan's civic IoTs. In practice, the OCF executive team designed several exercises, such as: data cleaning, basic data analysis, and AI application for data cleaning and labeling, so that participants had better understanding about Taiwan's civic IoTs on the aspect of structures and techniques.   
   start: 2023/09/15
   end:
-  cover_image:
+  cover_image: /p/civicsense/The_IoT_Sensors_and_Data_Workshop.png
   contributor_ids: 
     - dongpo
     - leaf
@@ -100,7 +100,7 @@
 - id: 
   name: "EcoThursday on the Internet of Things and environmental justice"
   name_en: EcoThursday on the Internet of Things and environmental justice
-  description: How can the internet of things (IoT) be used to promote environmental justice? On Thursday, 21 September, APC will dedicate its monthly EcoThursday initiative to exchanges around this issue through our social media and platforms. We'll be joined by Open Culture Foundation (Taiwan), Media Awareness and Justice Initiative (Nigeria) and Colnodo (Colombia), who will be sharing their experiences at a local and regional level, from using data to monitor air quality to working with community networks, governments and other stakeholders in advancing environmental justice. 
+  description: 如何利用物聯網（IoT）促進環境正義？ 9 月 21 日，APC 推出每月一次的 EcoThursday 活動，透過社群媒體及其平台圍繞此議題進行交流。 APC、開放文化基金會（台灣）、媒體意識與正義倡議（奈及利亞）和 Colnodo（哥倫比亞）分享了地方和區域層面的經驗，從使用資料監測空氣品質到與在地社群網絡、政府和其他利害關係人合作，藉此推進環境正義。 
   description_en: How can the internet of things (IoT) be used to promote environmental justice? On Thursday, 21 September, APC will dedicate its monthly EcoThursday initiative to exchanges around this issue through our social media and platforms. We'll be joined by Open Culture Foundation (Taiwan), Media Awareness and Justice Initiative (Nigeria) and Colnodo (Colombia), who will be sharing their experiences at a local and regional level, from using data to monitor air quality to working with community networks, governments and other stakeholders in advancing environmental justice.    
   start: 2023/09/21
   end:
@@ -110,7 +110,7 @@
   links_en:
     - title: Content of written discussion
       url: https://twitter.com/APC_News/status/1704843189826261444
-  cover_image:
+  cover_image: /p/civicsense/EcoThursday.jpg
   contributor_ids: 
     - dongpo
   project_ids: 
