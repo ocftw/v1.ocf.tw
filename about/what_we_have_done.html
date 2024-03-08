@@ -11,7 +11,7 @@ OCF的經費來源主要是透過對社群收取服務費用、專案承攬、�
 {% assign i = site.data.settings.current %}
 {% for item in site.data.reports %}
 {% unless item[0] contains "_" %}
-{% unless item[0] contains i %}
+{% unless item[0] contains “2023" %}
   {% assign i = i | minus:1 %}
 <div class="item">
   <a href="/p/{{ i }}" target="_blank">
