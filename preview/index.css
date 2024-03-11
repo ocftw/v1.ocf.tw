@@ -1,12 +1,13 @@
 html {
   font-size: 16px;
-  font-family: 'Roboto', 'Chiron Hei HK', 'Noto Sans', 'Noto Sans TC', 'Helvetica Neue', sans-serif;
-  --ocf-primary: #6450DC;
-  --ocf-secondary-light: #D7DCF0;
-  --ocf-secondary-dark: #0F1923;
-  --ocf-secondary-white: #FFFFFF;
-  --ocf-cyan: #0091DA;
-  --ocf-magenda: #CE0058;
+  font-family: "Roboto", "Chiron Hei HK", "Noto Sans", "Noto Sans TC",
+    "Helvetica Neue", sans-serif;
+  --ocf-primary: #6450dc;
+  --ocf-secondary-light: #d7dcf0;
+  --ocf-secondary-dark: #0f1923;
+  --ocf-secondary-white: #ffffff;
+  --ocf-cyan: #0091da;
+  --ocf-magenda: #ce0058;
 }
 
 body {
@@ -14,7 +15,12 @@ body {
   font-size: 0.875rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--ocf-primary);
   margin: 3em 0;
 }
@@ -73,7 +79,9 @@ figcaption.small {
   font-size: 0.4375rem;
 }
 
-a, a:link, a:hover {
+a,
+a:link,
+a:hover {
   text-decoration: none;
 }
 
@@ -81,9 +89,9 @@ a, a:link, a:hover {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  }
+}
 
-@media only screen and (min-width: 1920px){
+@media only screen and (min-width: 1920px) {
   .container {
     max-width: 1440px;
   }
@@ -132,6 +140,10 @@ a, a:link, a:hover {
 #homepage #hero .menu .item {
   padding: 1rem;
   color: var(--ocf-primary);
+}
+
+#homepage #hero .menu .item:hover {
+  color: var(--ocf-secondary-light);
 }
 
 #homepage #categories {
@@ -183,7 +195,7 @@ a, a:link, a:hover {
 }
 
 #projects {
-padding: 8rem 0;
+  padding: 8rem 0;
 }
 
 #projects > .container {
