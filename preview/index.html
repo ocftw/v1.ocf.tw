@@ -15,33 +15,72 @@
   <!--<link rel="stylesheet" href="/assets/libs/semantic/semantic.min.css"/>-->
 
   <link rel="stylesheet" href="./assets/fonts/chiron/css/vf.css" />
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.1-web/css/all.min.css" />
   <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
   <div id="homepage">
-    <header id="hero">
+    <div id="topbar">
+      <div class="spacer large"></div>
       <div class="container">
-        <nav class="menu flex">
+        <nav class="flex">
           <a href="/" class="logo">
             <img src="./assets/images/web_homepage_elements_logo_全稱紫.svg" alt="開放文化基金會 logo" />
           </a>
-          <div class="flex_spacer"></div>
-          <a href="/about" class="item">關於</a>
-          <a href="/ocf" class="item">基金會專案</a>
-          <a href="/community" class="item">社群專案</a>
-          <a href="/journal" class="item">活動</a>
-          <a class="item">資源</a>
-          <a href="/supportus" class="item">支持我們</a>
+          <span class="flex_spacer"></span>
+          <ul id="horizontal_menu" class="flex">
+            <li><a href="/about" class="item">關於</a></li>
+            <li><a href="/ocf" class="item">基金會專案</a></li>
+            <li><a href="/community" class="item">社群專案</a></li>
+            <li><a href="/journal" class="item">活動</a></li>
+            <li>
+              <a class="item">資源</a>
+              <ul class="dropdown">
+                <li><a href="">電子報</a></li>
+                <li><a href="">新聞錦集</a></li>
+                <li><a href="">關於本網站</a></li>
+                <li><a href="">新訊 Blog</a></li>
+                <li><a href="">OCF Lab</a></li>
+              </ul>
+            </li>
+            <li><a href="/supportus" class="item">支持我們</a></li>
+          </ul>
+          <button id="sidebar_toggle"><i class="fa-solid fa-bars"></i></button>
         </nav>
       </div>
-    </header>
+    </div>
+
+    <div class="spacer xlarge"></div>
+
+    <div id="keyvisual">
+      <img src="./assets/images/web_homepage_elements_homepage_KV.png"
+        alt="充滿科技感的主視覺圖片，前景是開放文化基金會的 logo，背景是開源授權條款顯示於電腦螢幕上的照片" />
+    </div>
+
+    <div id="keyvisual_inner">
+      <div class="container">
+        <img class="decorator" src="./assets/images/level_one_kv_decorator_upper.svg" />
+      </div>
+      <div id="title_block">
+        <div class="container">
+          <h1>基金會專案</h1>
+        </div>
+      </div>
+      <div id="subtitle_block">
+        <p>13 個專案正在加速進行中！</p>
+      </div>
+      <div class="container">
+        <img class="decorator" src="./assets/images/level_one_kv_decorator_lower.svg" />
+      </div>
+    </div>
 
     <main>
       <section id="categories">
         <div class="container">
+          <div class="spacer xlarge"></div>
           <h2>專案成果</h2>
-          <div class="flex">
+          <div class="grid">
             <a class="category" href="">
               <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
               <span class="title"> 基金會<br />專案 </span>
@@ -56,10 +95,12 @@
             </a>
           </div>
         </div>
+        <div class="spacer xlarge"></div>
       </section>
 
       <section id="projects">
         <div class="container">
+          <div class="spacer xlarge"></div>
           <div class="grid">
             <div class="project grid">
               <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
@@ -90,7 +131,69 @@
                 </p>
               </article>
             </div>
+
+            <div class="project grid">
+              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+              <article>
+                <h3>企業數位人權</h3>
+                <p>
+                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                </p>
+              </article>
+            </div>
+
+            <div class="project grid">
+              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+              <article>
+                <h3>企業數位人權</h3>
+                <p>
+                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                </p>
+              </article>
+            </div>
+
+            <div class="project grid">
+              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+              <article>
+                <h3>企業數位人權</h3>
+                <p>
+                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                </p>
+              </article>
+            </div>
+
+            <div class="project grid">
+              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+              <article>
+                <h3>企業數位人權</h3>
+                <p>
+                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                </p>
+              </article>
+            </div>
+
+            <div class="project grid">
+              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+              <article>
+                <h3>企業數位人權</h3>
+                <p>
+                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                </p>
+              </article>
+            </div>
+
+            <div class="project grid">
+              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+              <article>
+                <h3>企業數位人權</h3>
+                <p>
+                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                </p>
+              </article>
+            </div>
           </div>
+        </div>
+        <div class="spacer xlarge"></div>
       </section>
     </main>
   </div>
