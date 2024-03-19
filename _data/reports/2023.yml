@@ -113,122 +113,112 @@ items:
         items:
           - title: <a href="https://archive.fosdem.org/2023/" target=_blank>自由及開源軟體開發者歐洲會議</a>
       - type: image
+        url: /p/admin/2023/FOSDEM2023.JPG
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 4/8 舉辦「數位公民研討會： 從認清威脅到建立防禦」深化臺灣民主
+        description: 以加強臺灣在抵禦數位威權的數位韌性為目標，OCF 在這場會議裡邀請國際知名學者莫乃光、臺灣「國家人權委員會」的高涌誠委員，與國內外的公民組織工作者對談。
+        items:
+          - title: <a href="https://ocftw.kktix.cc/events/citizenseminar" target=_blank>數位公民研討會： 從認清威脅到建立防禦</a>
+      - type: image
+        url: /p/admin/2023/MOMO1.JPG
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 5/22-5/26 參與「亞太平洋數位人權大會」 ，將國際新知帶回臺灣
+        description: OCF 加入 EngageMedia 針對此活動的籌備委員會，共籌專為亞太平洋夥伴打造的聚會——Digital Rights Asia-Pacific 2023，邀集各地區的公民團體及專家學者交流知識、建立協作網絡。
+        items:
+          - title: <a href="https://engagemedia.org/projects/drapac23/" target=_blank>亞太平洋數位人權大會</a>
+      - type: image
+        url:
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 7/16 首度舉辦跨界藝術派對，以藝術創作反思科技與隱私議題
+        description: 為了將 OCF 推動的數位人權與隱私議題傳播得更廣，OCF 與藝術團隊 Sāngs Taipei 跨界合作，舉辦一場結合藝術與科技的夏日派對。透過表演藝術與互動裝置，讓參與者對科技與隱私的關係有更深層的理解。
+        items:
+          - title: <a href="https://ocftw.kktix.cc/events/ocf-summer-2023" target=_blank>OCF 跨界藝術派對</a>
+      - type: image
+        url: /p/admin/2023/summer2023.jpg
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 7/29-7/30 在「開源人年會」舉辦領航與導覽活動，試做開源新手的引路人
+        description: OCF 相信多元背景的貢獻者能讓開源生態系蓬勃發展，為此需要使開源文化更容易跨越同溫層傳播。因此 OCF 在「開源人年會」首開先例，結合前導講座、現場導覽與桌遊工作坊，引導新手更快找到參與社群和貢獻開源的機會。
+        items:
+          - title: <a href="https://blog.coscup.org/" target=_blank>COSCUP 開源人年會</a>
+      - type: image
+        url: /p/admin/2023/COSCUP2023.jpg
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 9/6-9/8 參與「開放政府夥伴關係聯盟峰會」，將臺灣開放國會經驗帶到國際舞台
+        description: 距離臺灣按照開放政府夥伴關係聯盟（Open Government Partnership）的標準發布「開放國會國家行動方案」已逾三年，以民間召集人的身份，OCF、友團與立法院一起爭取在峰會舉辦周邊論壇，與各國夥伴交流公私協力的經驗。
+        items:
+          - title: <a href="https://www.opengovpartnership.org/events/2023-ogp-global-summit-tallinn-estonia/" target=_blank>開放政府夥伴關係聯盟峰會</a>
+          - title: <a href="https://www.opengovpartnership.org/" target=_blank>開放政府夥伴關係聯盟</a>
+          - title: <a href="https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=44847&pid=207514" target=_blank>開放國會國家行動方案</a>
+      - type: image
+        url: /p/admin/2023/opengov.jpg
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 9/27 出席開放政府第 131 次協作會議「數據公益運作指引」，守護人民隱私
+        description: OCF 在這場政府內部指引草案的討論會議中，提出不應自創「公益數據」名詞，使個資定位曖昧不清；同時期待具體的資料治理機制以及監管機制。我們呼籲政府應優先規劃以保障人民對個資的自主權與隱私的相關施政。
+      - type: image
+        url: /p/admin/2023/m131data.jpg
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 10/4-10/5 擔任「臺灣網路治理論壇」與談人，呼籲各方重視數位人權
+        description: 在這場以促進網路的可持續性、健全性、安全性和發展為目標的論壇，OCF 為人民的數位權益發聲，期望提升政府、企業與民間對 AI、科技與資料運用時的風險意識，落實對人民隱私與資料自主權的保障。
+        items:
+          - title: <a href="https://www.igf.org.tw/?page_id=8337" target=_blank>臺灣網路治理論壇</a>
+      - type: image
         url: 
 
   - type: content
     columns:
       - type: article
         swap: false
-        title:
-        description: 線上平台進行內容審查、大量搜集個人資料，對於人們在數位時代的隱私與言論自由等人權保障造成衝擊，OCF 今年啟動「企業數位人權排名 Ranking Digital Rights」臺灣專案，調查二十家個臺灣市場中的主要數位企業／服務的數位人權表現，並預計於 2023 年發布調查結果報告。藉由公開透明的數據，我們希望能指出目前企業政策的不足之處、令其改善政策，也喚醒大眾的權利意識。
-        items:
-          - title: <a href="https://ocf.tw/p/rdr/" target=_blank>RDR 企業數位人權排名專案介紹頁面</a>
+        title: 11/22 於「數位醫療發展條例草案」公聽會呼籲政府建立個資專責機關以落實個資保護
+        description: OCF 表達對草案在個資保障上的幾項擔憂，包括未完全落實民眾應有的「知情同意」與「退出權」。OCF 呼籲主管機關在評估機器學習型醫療軟體時不能僅評估臨床效益，還需監管資料搜集與運用的責任。
       - type: image
-        url: /p/admin/2022/RDR2022.png
+        url: /p/admin/2023/med.png
 
   - type: content
     columns:
       - type: article
         swap: true
-        title:
-        description: OCF 長期關注國際上的開放政府事務，政府於 2019 年宣示自主加入開放政府事務的推動後，OCF 便以民間利害關係人的角色參與至今。<br>2022 年我們辦理了面向公部門的多場宣講 / 工作坊，以及面向民間焦點團體的分享會，例如開放政府原民小聚。更應美國國際民主協會之邀，出訪哥本哈根民主高峰會，交流臺灣及各國的開放政府執行現況。<br>而在行政院與立法院的開放政府 / 國會委員會方面，OCF 不僅派員以民間委員身分參與，也積極將相關討論帶到公民空間，與各路夥伴集思廣益，維繫協力與監督的力道。 <br>同時我們也在 2022 年末產出針對臺灣「開放國會行動方案」舉辦相關協作工作坊並產出研究報告，試圖改善執行流程與組織架構，讓公私協力效率提升。
-        items:
-          - title: <a href=" https://ocf.tw/p/issues/twogp" target=_blank>開放政府 / 國會專案頁面</a>
-          - title: <a href="https://docs.google.com/presentation/d/1WAh6lcLDfof_iZzuGmvw-ztIWZfP7QZSdHJu7HScTlA/edit?usp=sharing" target=blank>研究報告</a>
+        title: 12/8-12/9 參與「開源合規峰會」，藉國際交流以突破臺灣推動困境
+        description: 許多企業苦於不熟悉開源程式的授權與管理，讓公司深陷資安與訴訟的風險之中。OCF 在東京的開源合規（Open Source Compliance）峰會上與各國夥伴交流，將國際最新資訊帶回臺灣，協助我國企業更好的運用開源程式，建立可信任的產品供應鏈。
       - type: image
-        url: /p/admin/2022/openGov2022.png
+        url: /p/admin/2023/occ.png
 
-  - type: content
-    columns:
-      - type: article
-        swap: false
-        title:
-        description: 臺灣的網路與世界上其他國家比起來，是相對自由、較沒受到監控、管制和侵害的，但是，在現代數位化社會中，充斥各種資訊設備，網路的自由和數位的權利就更需要重視了。<br>我們在今年持續和社群夥伴舉辦網路自由小聚，今年更擴大和加拿大辦事處合作，舉辦了電影展覽和數場活動，從中國防火城牆、安心出行和 DNS 封鎖... 等網路不自由的議題，探討到數位性別暴力、性別平權這些網路上的霸凌、以及戰時如何架設網路、資料該如何信託公信力的組織、數位中介法的討論... 這些擬定未來對策的主題，我們也都會在每月一次的網路自由小聚中進行探尋和討論。
-        items:
-          - title: <a href="https://ocf.tw/p/issues/internetfreedom/" target=_blank>網路自由小聚專案頁面</a>
-      - type: image
-        url: /p/admin/2022/internetfreedom2022.png
 
-  - type: content
-    columns:
-      - type: article
-        swap: true
-        title:
-        description: 與美國國際民主協會合作，串聯印尼、菲律賓、斯里蘭卡、巴布亞紐幾內亞等四國的青年 NGO 工作者，針對民主、廉政、開放政府、數位識讀及倡議等面向進行交流與培力。除了每月舉辦線上培力講座外，更安排數次國際夥伴來台交流、訪問，同時也舉辦線上的黑客松，將透明、開放的開源數位協作方式傳散到更遠的角落。
-        items:
-          - title: <a href="https://www.ndi.org/our-stories/building-anti-corruption-youth-network-indo-pacific" target=_blank>NDI ACTIVE Youth</a>
-      - type: image
-        url: /p/admin/2022/international2022.png
-
-  - type: content
-    columns:
-      - type: article
-        swap: false
-        title:
-        description: 在後疫情時代，網路的影響力顯著地成長。除了過去的交流資訊、購物等等，遠端工作及雲端服務也漸漸成為主流。OCF 長期關注數位人權及網路自由，為了催生更健全的數位社會，我們積極扮演提升意識及提供服務的角色。<br>2022 年 OCF 辦理了三個部分，分別是培訓工作坊、手冊、惡意流量監測，辦理培訓工作坊從實務角度出發、手把手操作及演練打造安全網路架構的人才、產出推薦開源服務及網路架構概念的指南手冊、打造開源會議平台以確保 NGO 夥伴的安全性、在 SITCON 與 COSCUP 創建議程分享成果。<br>期待這些不同領域、不同國家的夥伴可以在數位世界保有安全性，也在日後成為我們堅實的夥伴、最後也找尋具有高風險的友好組織，透過惡意流量檢測，確認是否有惡意程式植入慣用的手機與電腦，進而被竊取重要資料。希望藉由這三個項目來達成 OCF 扮演科技與公民跨界的橋樑。
-        items:
-          - title: <a href="https://ocftw.kktix.cc/events/ocftot2022" target=_blank>培訓工作坊 KKTIX 頁面</a>
-          - title: <a href="https://coscup.org/2022/zh-TW/session/FPSJTC" target=_blank>COSCUP 推廣</a>
-          - title: <a href="https://sitcon.org/2022/agenda/347b81" target=_blank>SITCON 推廣</a>
-          - title: <a href="https://handbook.ocf.tw" target=_blank>NGO 數位防禦手冊</a>
-      - type: image
-        url: /p/admin/2022/technology2022.png
-
-  - type: image_header
-    cover_image_alt: 開放文化推廣
-    cover: /p/admin/2022/2022-b4.png
-
-  - type: content
-    columns:
-      - type: article
-        swap: false
-        title:
-        description: OCF 除了每年固定在各大開源年會上擺攤，也持續努力探索更多推廣開放文化的方法。然而，初次接觸開源的民眾很難在第一時間了解不寫程式的自己，為什麼要知道開源文化？為了解決這道難題，OCF 與熱血志工合力開發桌遊「開源星手村」，並在 2022 年舉辦 2 場工作坊與 1 場入班教學。透過遊戲體驗，民眾可具體認識開源文化在開放程式碼、開放資料、開放政府三大領域的具體應用，並在國內外的開源專案中找到自己發揮長才的一席之地。開源星手村讓認識開放文化成為一件輕鬆有趣的事！
-        items:
-          - title: <a href="https://openstartervillage.ocf.tw/" target=_blank>開源星手村官網</a>
-          - title: <a href="https://discord.com/invite/JnTHGnxwYS" target=_blank>加入開源星手村社群</a>
-          - title: <a href="https://reurl.cc/NqAzzx" target=_blank>開源星手村遊戲規則與借用申請書</a>
-          - title: <a href="https://reurl.cc/EGrq8a " target=_blank>開源星手村教學工具包</a>
-      - type: image
-        url: /p/admin/2022/boardgame2022.png
-
-  - type: content
-    columns:
-      - type: article
-        swap: true
-        title:
-        description: 2022 年初，有鑑於疫情趨緩，國際合作和活動沉寂兩年後再次蓬勃。自 3 月初重新推行國際會議獎助計畫，希望透過整合培訓、獎金資助和資訊補充的完整支持方式，協助青年和現職工作者投稿或現身國際會議。為擴大科技社群對國際會議認識和國際趨勢，於 7 - 9 月期間，在COSCUP 和 SITCON 共舉辦了兩場講座並擺攤推廣，更有逾 100 人參與和加深對國際會議的認識。<br>截至 2022 年底，共計補助了一位投稿者和三位會議參與者線上參與 全球數位人權大會 RightsCon 和 Code for all Latin America。兩次會議結束皆在台各舉辦一次分享會，超過 30 名以上群眾一同參與及討論，並開放所有國際會議相關資料於網站上作為知識分享。他們的分享更擴大了相關知識的累積和分享，也為國際解封的來年，培養出一批可能的種子。
-        items:
-          - title: <a href="https://ocf.tw/p/intldonate/" target=_blank>國際會議獎助計畫</a>
-      - type: image
-        url: /p/admin/2022/Scholarship2022.png
-
-  - type: content
-    columns:
-      - type: article
-        swap: false
-        title:
-        description: 持續讓更多人知道開放文化和科技，用它們來引領世界走向更美好的未來，一直是我們的願景。我們今年也持續把「老手帶領新手入門」的優良傳統，透過「開源新手村」活動，以社群議程的方式，在全臺灣最大規模的開源人年會（COSCUP）舉行，一整天共有八個和開放文化、科技相關的、且適合剛開始參與這個領域的人聆聽、討論的主題，現場吸引了 400 多位的與會者參與。
-        items:
-          - title: <a href="https://www.youtube.com/playlist?list=PLqfib4St70XNbd3fLdxeI-7jGfwgZV9Ti" target=_blank>開源新手村議程一覽及影片 </a>
-      - type: image
-        url: /p/admin/2022/osnewbie2022.png
-
-  - type: content
-    columns:
-      - type: article
-        swap: true
-        title:
-        description: 為了延臺灣開源、開放的生態，培養能夠熟悉社群運作、洞悉國際趨勢的人才，OCF 今年起除了自身的實習招募之外，也開始與五個合作社群：RubyTW, CCTW, FreeBSD, CNTUG, CSCS 社群一起培養實習夥伴，讓學生們在參與有興趣的社群事務同時，也能夠從和 OCF 和社群夥伴的交流中，認識開放科技與文化的博大精深。本年度共有 17 名大專院校學生參與 OCF 與社群實習。
-        items:
-          - title: <a href="https://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97" target=_blank>實習心得</a>
-          - title: <a href="https://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92" target=_blank>更多實習招募 </a>
-      - type: image
-        url: /p/admin/2022/internship2022.png
-
-  - type: image_header
-    cover_image_alt: 開放文化推廣
-    cover: /p/admin/2022/2022-b5.png
+  - type: header
+    title: 推動五大核心領域，建立開放、共好的數位社會
+    anchor: 
+    icon: 
+    description: 為貫徹建立數位公民社會和應對數位時代各種威脅的使命，OCF 致力於推動數位領域的開放與共享。具體而言，我們倡導開放原始碼的理念，透過公開協作的方式使科技的開發與應用都能納入多元、涵融的聲音。同時，也致力於實現資料的開放共享與互通性，以及運用數位科技推動更公開透明的數位治理。<br>在 OCF 邁入第十年之際，我們回顧過往累積的經驗，集結開源社群關注的議題、公民團體強化數位安全的需求，以及打開政府協力大門的期望，擬定了 OCF 未來 5-10 年的倡議方針，且即將在 2024 年推出「開放科技白皮書」，清楚闡述開源文化從科技、資料到政治參與的演變，為開源文化的普及奠定基礎。這些倡議方針，將透過社群支援、人才培訓、知識分享、監督倡議、國際串聯與開源推廣等六大行動策略逐步實踐。<br>OCF 持續努力推動以下五大核心領域，期許透過這些成果，激發群眾參與，共同構築一個開放、共融與創新的數位公民社會。我們相信這些努力，能幫助社會應對數位時代的種種挑戰，建立更公正與永續的未來。
+    theme: 
+    background_color: 
+    cover: 
 
   - type: content
     single_column: true
