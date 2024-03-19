@@ -49,21 +49,43 @@ items:
         description: OCF 透過演講、聚會、擺攤等不同形式，向各領域的人介紹開放原始碼、開放政府、開放資料、數位人權與網路自由的精神，持續連結多元的利害關係人，促進開放世界的共榮。
       - type: image
         url: 
-
+#監督倡議
   - type: content
     columns:
       - type: article
         swap: false
-        title:
-        description: 歷經 2020 - 2021 年之間的疫情籠罩，2022 年開始，實體活動重新回到社群之中，社群活動也慢慢復甦。面對線上線下整合趨勢、舊有社群人員洗牌、群眾越來越不出門的後疫情時代，社群和各大 Conf 該如何持續維持和發展呢？ 2022 年 12 月末，透過一整天的工作坊，來自 20 個社群的 50 位夥伴齊聚一堂，分享相互過往兩年的經驗和未來合作的可能，並且共同發展出 2023 年的合作機會。
-        items:
-          - title: <a href="https://hackmd.io/@kBz6ToufTP6WQT7BIzCDqA/SyRYwmvOo" target=_blank>CONCOM 當天紀實</a>
+        title: 出席 15 場諮詢會議，將開放協作的精神帶進公部門
+        description: OCF 是開放國會的民間召集人之一，更擔任 3 個政府部會的開放資料諮詢委員、2 部會的開放政府民間委員。我們藉此協助政府建立開放協作的文化，督促公部門落實開放政府與數位人權的相關措施。
       - type: image
-        url: /p/admin/2022/concom2022.png
+        url: 
+#國際串連
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 參與 21 場國際會議，連結臺灣與國際趨勢
+        description: OCF 連結國內開源社群與公民團體，將臺灣的數位人權、開放政府與開放原始碼的近況帶到國際會議，建立臺灣與國際社群的合作網絡。OCF 擔任「亞太平洋數位人權大會」（DRAPAC 2023）執行委員，標誌著臺灣參與國際數位人權議題的大躍進。
+      - type: image
+        url: /p/admin/2023/DRAPAC2023.jpg
+#開源推廣
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 舉辦 13 場開源文化推廣活動，引導超過 200 人接觸開源世界
+        description: OCF 與 4 位不同校系的教授合作開課，研發以桌遊「開源星手村」的趣味性包裝而成的開源推廣教材。加上 OCF 在「開源人年會」舉辦的領航與工作坊，我們共計接觸超過 200 位新人，為他們開啟開源世界的大門。
+      - type: image
+        url: 
+  - type: header
+    title: 
+    anchor: 
+    icon: 
+    description: OCF 即將邁入第十年，我們會持續連結開放世界的資源，努力成為臺灣開源社群的堅實後盾，與大家一起創造蓬勃的開源生態系、一個保障數位人權與網路自由的公民社會。
+    theme: 
+    background_color: 
+    cover: 
 
-  - type: image_header
-    cover_image_alt: 議題串連
-    cover: /p/admin/2022/2022-b3.png
+
 
   - type: content
     columns:
@@ -80,7 +102,7 @@ items:
           - title: <a href="https://blog.ocf.tw/2022/12/health-insurance-database.html" target=_blank>健保資料庫訴訟案十年回顧：ft. pofeng 李柏鋒醫師</a>
           - title: <a href="https://www.eid.tw/" target=_blank>支持修法與公開 數位晶片身分證規劃資訊</a>
       - type: image
-        url: /p/admin/2022/issues2022.png
+        url: 
 
   - type: content
     columns:
