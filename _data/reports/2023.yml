@@ -13,49 +13,25 @@ items:
     theme: 
     background_color: 
     cover: 
-    cover_image_opacity: 0.9
-    cover_veil_opacity: 0.3
-
-
-  - type: 社群支援
-    title: 協助 43 個社群、首開支援群眾募資案的服務模式
-    anchor: 
-    icon: 
-    description: OCF 以財團法人的身份支援開源社群，提供專案在行政與帳務管理上的支援。此外，OCF 不斷探索創新的服務模式。在與「立法院大小聲」合作中建立 OCF 與開源專案合作群眾募資案的服務模式，讓開源社群有更多元與靈活的選擇。
-    theme: 
-    background_color: 
-    cover: 
-    cover_image_opacity: 0.9
-    cover_veil_opacity: 0.3
-
-
-
+#社群支援
   - type: content
     columns:
       - type: article
         swap: true
-        title:
-        description: 隨著後疫情時代來臨，教育、跨國交流相關的社群也逐漸興起，2022 年一共有 5 個新社群與 OCF 展開合作，讓臺灣的開源生態系，經歷過疫情時期後仍有所茁長、不停邁步。
+        title: 協助 43 個社群、首開支援群眾募資案的服務模式
+        description: OCF 以財團法人的身份支援開源社群，提供專案在行政與帳務管理上的支援。此外，OCF 不斷探索創新的服務模式。在與「立法院大小聲」合作中建立 OCF 與開源專案合作群眾募資案的服務模式，讓開源社群有更多元與靈活的選擇。
         items:
-          - title: 美國台灣觀測站
-          - title: 築夢學院教育社群
-          - project_id: accomdemy
-          - title: 台灣開放教育推動團隊
-          - project_id: rubytW
       - type: image
-        url: /p/admin/2022/newcome2022.png
+        url: 
+#人才培訓
   - type: content
     columns:
       - type: article
         swap: false
-        title:
-        description: OCF 起源於開源社群，也持續服務社群。從 OCF 創立至今，一直在社群營運上不留餘力，協助平時忙於課業和工作的社群夥伴們會面臨到的財務、會計、稅務、合約簽立和人事聘僱等事務，因為這些事情，缺乏法人身份，是困難重重，因此，OCF 協助社群完成這些複雜繁瑣的工作。
-        items:
-          - project_id: coscup
-          - project_id: sitcon
-          - project_id: pycon
-          - project_id: cofacts
-          - title: <a href="https://ocf.tw/p/community" target=_blank>更多社群專案</a>
+        title: 攜手社群共同培育 16 個實習生
+        description: OCF 跟 6 個開源社群合作實習計畫，提供學生探索開源技術與倡議的機會。在實習計畫中，OCF 除了帶領實習生探索開源的職涯，也作為平台去曝光各開源社群的實習內容，並核發實習證明等行政流程通順。
+        title: 獎助 7 位開放科技種子出國交流
+        description: 透過獎助計畫，OCF 資助長期投入開源社群、深耕數位人權領域多年的公民團體，以及關注開放與民主議題的貢獻者，使其有機會出國交流，拓寬視野並建立臺灣與世界社群的連結。
       - type: image
         url: /p/admin/2022/community2022.png
   - type: content
