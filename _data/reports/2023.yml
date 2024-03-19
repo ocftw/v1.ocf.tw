@@ -71,7 +71,7 @@ items:
   - type: content
     columns:
       - type: article
-        swap: true
+        swap: false
         title: 舉辦 13 場開源文化推廣活動，引導超過 200 人接觸開源世界
         description: OCF 與 4 位不同校系的教授合作開課，研發以桌遊「開源星手村」的趣味性包裝而成的開源推廣教材。加上 OCF 在「開源人年會」舉辦的領航與工作坊，我們共計接觸超過 200 位新人，為他們開啟開源世界的大門。
       - type: image
