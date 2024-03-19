@@ -30,20 +30,26 @@ items:
         swap: false
         title: 攜手社群共同培育 16 個實習生
         description: OCF 跟 6 個開源社群合作實習計畫，提供學生探索開源技術與倡議的機會。在實習計畫中，OCF 除了帶領實習生探索開源的職涯，也作為平台去曝光各開源社群的實習內容，並核發實習證明等行政流程通順。
+      - type: image
+        url: 
+  - type: content
+    columns:
+      - type: article
+        swap: false
         title: 獎助 7 位開放科技種子出國交流
         description: 透過獎助計畫，OCF 資助長期投入開源社群、深耕數位人權領域多年的公民團體，以及關注開放與民主議題的貢獻者，使其有機會出國交流，拓寬視野並建立臺灣與世界社群的連結。
       - type: image
-        url: /p/admin/2022/community2022.png
+        url: 
+#知識分享
   - type: content
     columns:
       - type: article
         swap: true
-        title:
-        description: 2022 年進入後疫情時代，各 Conf 也從因為疫情更改成的線上形式，恢復成實體舉辦的形式，而 OSCVPass 開源貢獻者快速通關計畫，持續服務開源貢獻者，擴大合作的研討會社群，共計與 5 個研討會社群合作。<br>截至 2022 年，累積共有 521 人次申請，411 人次通過並獲得 SITCON, COSCUP, MOPCON, PyCON Taiwan, Laravel x Vue Conf 提供的專屬開源貢獻者福利。
-        items:
-          - project_id: oscvpass
+        title: 舉辦及參與 83 項活動，向公民、政府與企業推廣開放文化
+        description: OCF 透過演講、聚會、擺攤等不同形式，向各領域的人介紹開放原始碼、開放政府、開放資料、數位人權與網路自由的精神，持續連結多元的利害關係人，促進開放世界的共榮。
       - type: image
-        url: /p/admin/2022/oscvpass2022.png
+        url: 
+
   - type: content
     columns:
       - type: article
