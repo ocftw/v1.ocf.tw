@@ -93,22 +93,25 @@ items:
         description: 眼尖的支持者應該早已發現，OCF 的 logo 現在更新了。我們在重新設計品牌標誌時，將開放文化基金會的核心價值和使命融入視覺元素及色彩，展現 OCF 在開放科技和跨界合作方面的能量，以因應數位時代的各項挑戰，並促進數位社會的健全發展。<br>新版品牌標誌以開放文化基金會的品牌標語 —— "Co-create the digital future"（開放世界的超連結）為設計靈感。OCF 期盼推動社會發展、保護個人數位權利，並促進政府與社會的開放合作。因此，新版的品牌標誌以底線來模擬數位編碼介面中的畫面，透過標誌呈現這些面向，使其成為對組織使命的直接體現，而不僅僅是一個視覺符號，同時也體現了其致力於連結數位世界的使命。
       - type: image
         url: 
+#組織架構圖
 
+  - type: header
+    title: OCF 大事記
+    anchor: 
+    icon: 
+    description: OCF 在 2023 年除了持續舉辦線上與實體的聚會、監督政府落實開放文化，也加深與國際社群的聯繫。我們完成許多專案，也突破許多難關。其中有些嘗試非常特別、創新，或是帶來重要的跨領域交流。我們精挑細選 10 項重大的里程碑，邀請大家一起回顧這些精彩瞬間。
+    theme: 
+    background_color: 
+    cover: 
 
   - type: content
     columns:
       - type: article
-        swap: true
-        title:
-        description: OCF 在監督臺灣數位發展與政策上扮演重要的議題領航角色。我們在今年串連各界團體，提出首份公民社群對數位發展部成立的聲明，並後續邀請到部長唐鳳親自與社群面對面，具體對於公民近 40 個提問一一詳盡回答。 <br>針對引起各界疑慮的《數位中介服務法》草案，我們也與社群合作舉辦 4 場線上／線下工作坊，不只討論草案內容，也介紹各國數位服務監管政策，藉以凝聚社會各界對於臺灣平台治理未來走向的共識。 <br>另外，我們也持續參與臺灣正在進行的數位人權相關倡議行動，包括健保資料庫釋憲案、數位身分證（eID）推行修正等，都能看到 OCF 的身影並提供與科技專業有關的支援。
+        swap: false
+        title: 2/3-2/4 參加「自由及開源軟體開發者歐洲會議」帶回國際趨勢
+        description: Free and Open source Software Developers' European Meeting（簡稱 FOSDEM）是全球最盛大的開源人年會，OCF 派員且號召臺灣開源社群共同參與，並在會場擺攤推廣臺灣開源成果。
         items:
-          - title: <a href="https://ocf.tw/p/issues/jointStatement/" target=_blank>【聯合聲明】數位發展部應有全面的數位轉型規劃</a>
-          - title: <a href="https://www.accupass.com/event/2212021230461929689100" target=_blank>數位中介服務法之現況與未來</a>
-          - title: <a href="https://g0v.hackmd.io/@irvin/20220827-digital-act" target=_blank>數位中介服務法討論會共筆</a>
-          - title: <a href="https://www.youtube.com/watch?v=9iAjKL7z34A" target=_blank>與唐鳳 AU 聊聊數位發展部</a>
-          - title: <a href="https://www.cna.com.tw/news/aipl/202207060168.aspx" target=_blank>「健保資料庫案宣判在即，終結強迫全民個資利用」記者會</a>
-          - title: <a href="https://blog.ocf.tw/2022/12/health-insurance-database.html" target=_blank>健保資料庫訴訟案十年回顧：ft. pofeng 李柏鋒醫師</a>
-          - title: <a href="https://www.eid.tw/" target=_blank>支持修法與公開 數位晶片身分證規劃資訊</a>
+          - title: <a href="https://archive.fosdem.org/2023/" target=_blank>自由及開源軟體開發者歐洲會議</a>
       - type: image
         url: 
 
