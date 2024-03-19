@@ -15,6 +15,19 @@ items:
     cover: 
     cover_image_opacity: 0.9
     cover_veil_opacity: 0.3
+items:
+  - type: 社群支援
+    title: 協助 43 個社群、首開支援群眾募資案的服務模式
+    anchor: 
+    icon: 
+    description: OCF 以財團法人的身份支援開源社群，提供專案在行政與帳務管理上的支援。此外，OCF 不斷探索創新的服務模式。在與「立法院大小聲」合作中建立 OCF 與開源專案合作群眾募資案的服務模式，讓開源社群有更多元與靈活的選擇。
+    theme: 
+    background_color: 
+    cover: 
+    cover_image_opacity: 0.9
+    cover_veil_opacity: 0.3
+
+
 
   - type: content
     columns:
