@@ -85,6 +85,14 @@ items:
     background_color: 
     cover: 
 
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 標誌識別設計介紹
+        description: 眼尖的支持者應該早已發現，OCF 的 logo 現在更新了。我們在重新設計品牌標誌時，將開放文化基金會的核心價值和使命融入視覺元素及色彩，展現 OCF 在開放科技和跨界合作方面的能量，以因應數位時代的各項挑戰，並促進數位社會的健全發展。<br>新版品牌標誌以開放文化基金會的品牌標語 —— "Co-create the digital future"（開放世界的超連結）為設計靈感。OCF 期盼推動社會發展、保護個人數位權利，並促進政府與社會的開放合作。因此，新版的品牌標誌以底線來模擬數位編碼介面中的畫面，透過標誌呈現這些面向，使其成為對組織使命的直接體現，而不僅僅是一個視覺符號，同時也體現了其致力於連結數位世界的使命。
+      - type: image
+        url: 
 
 
   - type: content
