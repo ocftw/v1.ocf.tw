@@ -1,5 +1,5 @@
 title: 開放文化基金會 2023 成果報告
-description: <a href=”2023 成果報告“> 連接開放世界的 OCF
+description: 連接開放世界的 OCF
 cover: 
 color:
 cover_image_opacity: 0.9
@@ -15,7 +15,8 @@ items:
     cover: 
     cover_image_opacity: 0.9
     cover_veil_opacity: 0.3
-items:
+
+
   - type: 社群支援
     title: 協助 43 個社群、首開支援群眾募資案的服務模式
     anchor: 
