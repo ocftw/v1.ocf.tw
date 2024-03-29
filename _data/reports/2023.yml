@@ -2,8 +2,8 @@ title: 開放文化基金會 2023 成果報告
 description: 連接開放世界的 OCF
 cover: /p/admin/2023/b-2023main.png
 color:
-cover_image_opacity: 0.9
-cover_veil_opacity: 0.7
+cover_image_opacity: 
+cover_veil_opacity: 
 items:
   - type: header
     title: 執行長的話
