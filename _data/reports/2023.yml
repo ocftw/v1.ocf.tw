@@ -320,17 +320,6 @@ items:
   #財務
 
   - type: content
-    single_column: true
-    columns:
-      - type: article
-        title: 超能董事：Pofeng, honki, Bob Chao, clkao, kc chen.<br>
-          顧問：isabel, Lucien, miaoski.<br>
-          OCF 員工：Singing, Rock, Lulu, Rosa, Xini, Claire, huangfu, Leaf, Anima, weichen, szhui, cstang.<br>
-          OCF 畢業校友：Sam, Dreamer, kting, TC, 仁瑋、紅馬.<br>
-          實習小夥伴：許瞳、雨歆、彥皓、昱翔、盛益、靖軒、峰瑞、政憲、孟芸、仲宇、致伶、品妤、家祐.<br>
-          以及各位熱血志工夥伴！
-
-  - type: content
     columns:
       - type: article
         title: 感謝你的支持
