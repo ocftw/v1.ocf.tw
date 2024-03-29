@@ -336,11 +336,12 @@ items:
         title: 感謝你的支持
         swap: false
         description: 各位支持者的陪伴、開源社群的合作與照顧，是讓 OCF 克服推動開放文化之路上各種挑戰的動力。2023 年，OCF 努力連結開放世界的各個角落——科技社群與公民團體、政府與公民社會、國內與國際社群——因為我們相信，比起一個組織硬幹，一群人攜手前行能走得更久、看得更遠。開放、協作、共享，讓我們能建立更永續與具備韌性的數位社會。
-        logo_height: 7rem
-        logos:
-          - org_id: archilife
+#        logo_height: 7rem
+#        logos:
+#          - org_id: archilife
       - type: image
         url: /p/admin/2023/b-tks.png
+
     columns:
       - type: article
         title: OCF 十年：開源祭
