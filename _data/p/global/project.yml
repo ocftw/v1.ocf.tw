@@ -33,15 +33,18 @@ links:
     url: https://hackmd.io/xUpkC7ukRA28YtsKZUj1Ug
   - title: OONI 網路審查偵測工具 - 中文介紹
     url: https://ocf.tw/p/global/ooni-intro
-#  - title: 2014-2016台灣開放政府觀察報告
-#    url: https://opengovreport.ocf.tw
-#  - title: CivicTechFest 2017 公民科技週
-#    url: http://civictechfest.org/
-#  - title: 帶著臺灣開源社群一起去 FOSDEM
-#    url: /p/global/fosdem-taiwan-community
-#    icon: plane
+  - title: 2014-2016台灣開放政府觀察報告
+    url: https://opengovreport.ocf.tw
+  - title: CivicTechFest 2017 公民科技週
+    url: http://civictechfest.org/
+  - title: 帶著臺灣開源社群一起去 FOSDEM
+    url: /p/global/fosdem-taiwan-community
+    icon: plane
   - title: FOSDEM 2024 活動紀錄
     url: /p/global/fosdem-2024
+    icon: plane
+  - title: FOSDEM 2024 出訪報告
+    url: https://docs.google.com/document/d/1uUR2vXIiYFuU5KqF2653PUS4z35_P3p4exLGc_M955Y/edit#heading=h.9y258y1gjxgx
     icon: plane
 
 organizer_ids:
