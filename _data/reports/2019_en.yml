@@ -4,6 +4,7 @@ cover: /p/admin/2019/6.png
 color: write
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
+alignment: center
 items:
   - type: image_header
     anchor: admin

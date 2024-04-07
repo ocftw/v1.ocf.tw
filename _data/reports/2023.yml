@@ -3,8 +3,9 @@ description: 連接開放世界的 OCF
 cover: /p/admin/2023/b-2023main.png
 theme: dark
 color:
-cover_image_opacity: 
-cover_veil_opacity: 
+cover_image_opacity:
+cover_veil_opacity:
+alignment: left
 items:
   - type: header
     title: 執行長的話
@@ -337,8 +338,8 @@ items:
         title: OCF 十年：開源祭
         swap: true
         description: 為慶祝開放文化基金會成立十週年，我們將於 2024 年 9 月 14 日舉辦「開源祭」。我們誠摯地邀請所有支持者以及社群夥伴們，一同回顧過臺灣開源社群的發展歷程、展望開源技術的多元應用與發展。<br><br>來年還請各位繼續支持，與 OCF 度過第一個十年！<br><br>＊開源祭：開放文化基金會十週年特別活動<br>＊活動日期｜2024/9/14<br>＊活動地點｜Pipe Live Music + 公館水岸廣場<br>＊活動資訊｜10years.ocf.tw
-      - type: image  
-        url: 
+      - type: image
+        url:
 
   - type: content
     columns:
