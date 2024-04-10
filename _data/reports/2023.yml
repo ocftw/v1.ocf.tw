@@ -108,7 +108,7 @@ items:
     description: OCF 在 2023 年除了持續舉辦線上與實體的聚會、監督政府落實開放文化，也加深與國際社群的聯繫。我們完成許多專案，也突破許多難關。其中有些嘗試非常特別、創新，或是帶來重要的跨領域交流。我們精挑細選 10 項重大的里程碑，邀請大家一起回顧這些精彩瞬間。
     theme: dark
     background_color:
-    cover: /p/admin/2023/b-bi.png
+    cover: /p/admin/2023/b-ceo.png
 
   - type: content
     columns:
