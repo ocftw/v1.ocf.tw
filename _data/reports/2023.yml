@@ -38,7 +38,7 @@ items:
       - type: article
         swap: false
         title: 獎助 7 位開放科技種子出國交流
-        description: 透過獎助計畫，OCF 資助長期投入開源社群、深耕數位人權領域多年的公民團體，以及關注開放與民主議題的貢獻者，使其有機會出國交流，拓寬視野並建立臺灣與世界社群的連結。
+        description: 透過獎助計畫，OCF 資助長期投入開源社群、深耕數位人權領域多年的公民團體，以及關注開放與民主議題的貢獻者，使其有機會出國交流，拓寬視野並建立臺灣與世界社群的連結。<br>圖片：Feira 會場一隅 - 主講台，CC BY-SA @Irvin Chen
       - type: image
         url: /p/admin/2023/b-int.jpg
   #知識分享
@@ -67,7 +67,7 @@ items:
         title: 參與 21 場國際會議，連結臺灣與國際趨勢
         description: OCF 連結國內開源社群與公民團體，將臺灣的數位人權、開放政府與開放原始碼的近況帶到國際會議，建立臺灣與國際社群的合作網絡。OCF 擔任「亞太平洋數位人權大會」（DRAPAC 2023）執行委員，標誌著臺灣參與國際數位人權議題的大躍進。
       - type: image
-        url: /p/admin/2023/DRAPAC2023.jpg
+        url: 
   #開源推廣
   - type: content
     columns:
@@ -136,7 +136,7 @@ items:
         items:
           - title: <a href="https://engagemedia.org/projects/drapac23/" target=_blank>亞太平洋數位人權大會</a>
       - type: image
-        url:
+        url: /p/admin/2023/DRAPAC2023.jpg
 
   - type: content
     columns:
