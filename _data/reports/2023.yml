@@ -11,7 +11,7 @@ items:
     title: 執行長的話
     cover: /p/admin/2023/b-ceo.png
     description: 
-    theme: 
+    theme: dark
     background_color:
   - type: content
     columns:
@@ -26,7 +26,7 @@ items:
     title: 六大行動策略
     cover: /p/admin/2023/b-ceo.png
     description: 
-    theme: 
+    theme: dark
     background_color:
   #社群支援
   - type: content
