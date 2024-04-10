@@ -29,8 +29,10 @@ items:
   - type: header
     title: 六大行動策略
     description: 
+    icon: bullhorn
     theme: dark
     cover: /p/admin/2023/b-ceo.png
+    
   #社群支援
   - type: content
     columns:
