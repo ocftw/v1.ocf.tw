@@ -86,7 +86,7 @@ items:
     description: 
     theme:
     background_color:
-    cover: 
+    cover: /p/admin/2023/b-10y.png
   - type: content
     columns:
       - type: article
