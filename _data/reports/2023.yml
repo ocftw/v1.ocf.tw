@@ -224,7 +224,7 @@ items:
   - type: content
     columns:
       - type: article
-        swap: true
+        swap: false
         title: 建立開放、共好的數位社會
         description: 為貫徹建立數位公民社會和應對數位時代各種威脅的使命，OCF 致力於推動數位領域的開放與共享。具體而言，我們倡導開放原始碼的理念，透過公開協作的方式使科技的開發與應用都能納入多元、涵融的聲音。同時，也致力於實現資料的開放共享與互通性，以及運用數位科技推動更公開透明的數位治理。
       - type: article
