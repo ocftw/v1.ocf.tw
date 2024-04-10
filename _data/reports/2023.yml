@@ -10,8 +10,8 @@ items:
   - type: header
     title: 執行長的話
     description: 
-    theme: dark
     cover: /p/admin/2023/b-ceo.png
+    theme: dark
   - type: content
     columns:
       - type: article
