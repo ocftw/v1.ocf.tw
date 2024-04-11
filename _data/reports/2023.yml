@@ -281,14 +281,12 @@ items:
   - type: content
     columns:
       - type: article
-        alignment: left / center
         title: 追蹤 OCF，活動不會錯過！
         items:
           - title: <i class="facebook icon"><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a></i>
           - title: <i class="twitter icon"><a href="https://twitter.com/ocftaiwan" target=_blank>X (Twitter)</a></i>
       
       - type: article
-        alignment: left / center
         title: 訂閱 EDM，開源資訊不漏接
         items:
           - title: <i class="paper plane icon"><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a></i>
