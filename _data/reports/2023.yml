@@ -115,7 +115,7 @@ items:
         items:
           - title: <a href="https://archive.fosdem.org/2023/" target=_blank>自由及開源軟體開發者歐洲會議</a>
       - type: image
-        url: /p/admin/2023/FOSDEM2023.JPG
+        url: 
 
   - type: content
     columns:
@@ -210,7 +210,7 @@ items:
         title: 12/8-12/9 參與「開源合規峰會」，藉國際交流以突破臺灣推動困境
         description: 許多企業苦於不熟悉開源程式的授權與管理，讓公司深陷資安與訴訟的風險之中。OCF 在東京的開源合規（Open Source Compliance）峰會上與各國夥伴交流，將國際最新資訊帶回臺灣，協助我國企業更好的運用開源程式，建立可信任的產品供應鏈。
       - type: image
-        url: /p/admin/2023/occ.png
+        url: 
 
   - type: header
     title: <br>推動五大核心領域
@@ -247,7 +247,7 @@ items:
         title: 
         description: 以建立貢獻與回饋的正向循環為目標，OCF 積極向政府、企業、社群和公民個人推廣開源的價值，以期促成「貢獻者付出、取用者回饋」的正向循環。<br><br>為了落實不重造輪子，也讓使用納稅錢建立的政府網站、數位服務能真正為人民所知、所用，OCF 與「數位發展部」（簡稱數位部）合作研究，蒐集國際英、美、德案例、彙整國內產官學界與執行者意見，試圖提出政府採購規範裡落實 Public Money, Public Code 的方針性建議；於 2022 年起也與數位部、智新資通股份有限公司、來自開源社群的譯者合作，翻譯 7 個泛用性高的國際開源專案以降低本土使用門檻。
       - type: image
-        url:
+        url: 
 
   - type: content
     columns:
@@ -256,7 +256,7 @@ items:
         title:
         description: 為了解決企業不熟悉開源授權與管理的問題，OCF 將 Linux 基金會推出的 ISO/IEC 5230 與 ISO/IEC 18974 兩套國際標準推廣給臺灣企業，以建立可信任的開源軟體供應鏈。<br><br>此外，OCF 獎助開源貢獻者到海外交流，並與社群合作輔導實習生，期望透過人才育成來促進社群蓬勃發展。我們也發展出一套寓教於樂的開源文化推廣教材，引導更多非科技領域的新手投入開源生態系。
       - type: image
-        url:
+        url: /p/admin/2023/occ.png
   #開放政府與國會
 
   - type: content
