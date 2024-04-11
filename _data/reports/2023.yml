@@ -160,12 +160,19 @@ items:
         url: /p/admin/2023/opengov.jpg
 
   #開放資料
-
+  - type: header
+    title: 開放資料：呼籲政府應保障人民個資
+    anchor:
+    icon: expand arrows alternate
+    description: 
+    theme:
+    background_color:
+    cover: /p/admin/2023/b-bi.png
   - type: content
     columns:
       - type: article
         swap: false
-        title: 開放資料：呼籲政府應保障人民個資
+        title: 
         description: 深信開放價值的 OCF，也在推廣開放政府資料方面不遺餘力。除了倡議建置周全的開放資料政策以利跨機關與民間使用，OCF 也呼籲政府應加強隱私保護與救濟措施，才能安全並合理地開放資料，真正發揮造福公民的效益。
       - type: image
         url: /p/admin/2023/opdata.png
@@ -177,7 +184,7 @@ items:
         title:
         description: 為實現這一目標，OCF 擔任國軍退除役官兵輔導委員會、國防部、衛生福利部的開放資料諮詢委員，並主動參與立法院的開放資料諮詢會議，以民間團體與開放資料專家的角度提供各政府機關改善建議。OCF 也在「數據公益運作指引草案」協作會議及立法院衛福委員會的「數位醫療發展條例草案」公聽會，表達捍衛民眾的個資自主權與隱私保護的立場。<br><br>OCF 持續將開源社群的聲音帶入政府機關的諮詢會議，期望在推動開放資料的同時，能透過向政府倡議，對我國的資料治理政策發揮影響力，以守護人民取得資料、個資自主與隱私保護等基本權利。
       - type: image
-        url: 
+        url: /p/admin/2023/med.png
 
   #數位人權
 
