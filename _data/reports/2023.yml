@@ -148,7 +148,7 @@ items:
         title: 
         description: 開源文化裡的開放協作，與開放政府訴求的透明、參與、課責及涵融等要素相互呼應，也符合 OCF 以開放科技推動公私協力、建立公民參與公共議題討論管道的目標。<br><br>從臺灣在 2020 年按照開放政府夥伴關係聯盟（Open Government Partnership, OGP）撰寫開放政府與開放國會兩套行動方案以來，OCF 便持續關注相關進展，不僅派員出任行政院「開放政府國家行動方案」民間委員，也為國家發展委員會提供出訪 OGP 峰會的相關建議。此外，OCF 也以組織名義出任「開放國會國家行動方案」的民間召集委員，促進立法院與民間對話及合作。
       - type: image
-        url: /p/admin/2023/ogp1.png
+        url: /p/admin/2023/ogp11.png
 
   - type: content
     columns:
@@ -202,7 +202,7 @@ items:
         title: 
         description: OCF 聚焦於提升企業數位人權責任、強化公民社會的數位防禦能力，以及推動國際間的數位人權合作。<br><br>為促使企業改善政策透明度，OCF 率先導入國際標準，研究 20 間具代表性的臺灣業者在隱私保護、公司治理與言論自由方面的表現。該份報告囊括人力銀行、社群媒體、電商與電信公司等產業類別。我們積極在國內外推廣成果與介紹企業數位人權的概念。最終促使 4 家企業與 OCF 討論數位人權相關的公司政策，更有 2 家企業著手修改條款。
       - type: image
-        url: /p/admin/2023/pri.png
+        url: /p/admin/2023/prii.png
 
   - type: content
     columns:
@@ -283,11 +283,11 @@ items:
       - type: article
         title: 追蹤 OCF，活動不會錯過！
         items:
-          - title: <i class="facebook icon"><a href="https://lihi.cc/NKpPE" target=_blank>Facebook</a></i>
-          - title: <i class="twitter icon"><a href="https://twitter.com/ocftaiwan" target=_blank>X (Twitter)</a></i>
+          - title: <a href="https://lihi.cc/NKpPE" target=_blank><i class="facebook icon"></i>Facebook</a>
+          - title: <a href="https://twitter.com/ocftaiwan" target=_blank><i class="twitter icon"></i>X (Twitter)</a>
       
       - type: article
         title: 訂閱 EDM，開源資訊不漏接
         items:
-          - title: <i class="paper plane icon"><a href="https://ocf.tw/news/" target=_blank>OCF 電子報</a></i>
+          - title: <a href="https://ocf.tw/news/" target=_blank><i class="paper plane icon"></i>OCF 電子報</a>
         swap: false
