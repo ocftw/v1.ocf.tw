@@ -108,7 +108,7 @@ items:
 
   #開放原始碼
   - type: header
-    title: 開放原始碼：建立蓬勃的開源生態系
+    title: 開放原始碼<br>建立蓬勃的開源生態系
     anchor:
     icon: expand arrows alternate
     description: 
@@ -134,7 +134,7 @@ items:
         url: /p/admin/2023/occ.png
   #開放政府與國會
   - type: header
-    title: 開放政府與國會：奠定公私協力的基礎
+    title: 開放政府與國會<br>奠定公私協力的基礎
     anchor:
     icon: chess rook
     description: 
@@ -161,7 +161,7 @@ items:
 
   #開放資料
   - type: header
-    title: 開放資料：呼籲政府應保障人民個資
+    title: 開放資料<br>呼籲政府應保障人民個資
     anchor:
     icon: folder open outline
     description: 
@@ -188,7 +188,7 @@ items:
 
   #數位人權
   - type: header
-    title: 數位人權：打造企業、公民社會與國際社群的合作網絡
+    title: 數位人權<br>打造企業、公民社會與國際社群的合作網絡
     anchor:
     icon: balance scale
     description: 
@@ -215,7 +215,7 @@ items:
 
   #網路自由
   - type: header
-    title: 網路自由：強化公眾對數位隱私與網路自由的意識
+    title: 網路自由<br>強化公眾對數位隱私與網路自由的意識
     anchor:
     icon: paper plane
     description: 
@@ -239,15 +239,30 @@ items:
         description: 藉由在臺灣網路治理論壇擔任 3 場次的與談人，OCF 與開源社群將個資保護、數位安全等議題帶給專家學者、政府機關與企業代表。此外，身為 OONI（Open Observatory of Network Interference）的社群夥伴，OCF 主動分享臺灣觀測資料的階段成果，發覺資料範圍不廣，因而難以反映臺灣的網路樣態。未來 OCF 將與 Taiwan Network Operators' Group 社群合作，協助完善臺灣的 OONI 安裝與觀測結果。
       - type: image
         url: /p/admin/2023/oonirep.png
+#財務
+  - type: header
+    title: <br>財務報告
+    anchor:
+    icon: money bill alternate
+    description: 
+    theme: dark
+    background_color:
+    cover: /p/admin/2023/b-ceo.png
+#感謝
 
-  #財務
+  - type: header
+    title: 感謝你的支持
+    description: 各位支持者的陪伴、開源社群的合作與照顧，是讓 OCF 克服推動開放文化之路上各種挑戰的動力。2023 年，OCF 努力連結開放世界的各個角落——科技社群與公民團體、政府與公民社會、國內與國際社群——因為我們相信，比起一個組織孤軍奮戰，一群人攜手前行能走得更久、看得更遠。開放、協作、共享，讓我們能建立更永續與具備韌性的數位社會。
+    icon: hand spock
+    theme: dark
+    cover: /p/admin/2023/b-5co.png
 
   - type: content
     columns:
       - type: article
-        title: 感謝你的支持
+        title: 
         swap: true
-        description: 各位支持者的陪伴、開源社群的合作與照顧，是讓 OCF 克服推動開放文化之路上各種挑戰的動力。2023 年，OCF 努力連結開放世界的各個角落——科技社群與公民團體、政府與公民社會、國內與國際社群——因為我們相信，比起一個組織孤軍奮戰，一群人攜手前行能走得更久、看得更遠。開放、協作、共享，讓我們能建立更永續與具備韌性的數位社會。
+        description: 
         logo_height: 7rem
         logos:
           - org_id: archilife
