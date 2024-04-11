@@ -163,7 +163,7 @@ items:
   - type: header
     title: 開放資料：呼籲政府應保障人民個資
     anchor:
-    icon: expand arrows alternate
+    icon: folder open outline
     description: 
     theme:
     background_color:
@@ -187,12 +187,19 @@ items:
         url: /p/admin/2023/med.png
 
   #數位人權
-
+  - type: header
+    title: 數位人權：打造企業、公民社會與國際社群的合作網絡
+    anchor:
+    icon: balance scale
+    description: 
+    theme:
+    background_color:
+    cover: /p/admin/2023/b-10y.png
   - type: content
     columns:
       - type: article
         swap: true
-        title: 數位人權：打造企業、公民社會與國際社群的合作網絡
+        title: 
         description: OCF 聚焦於提升企業數位人權責任、強化公民社會的數位防禦能力，以及推動國際間的數位人權合作。<br><br>為促使企業改善政策透明度，OCF 率先導入國際標準，研究 20 間具代表性的臺灣業者在隱私保護、公司治理與言論自由方面的表現。該份報告囊括人力銀行、社群媒體、電商與電信公司等產業類別。我們積極在國內外推廣成果與介紹企業數位人權的概念。最終促使 4 家企業與 OCF 討論數位人權相關的公司政策，更有 2 家企業著手修改條款。
       - type: image
         url: /p/admin/2023/pri.png
@@ -207,12 +214,19 @@ items:
         url: /p/admin/2023/RDRtw_logo_All.png
 
   #網路自由
-
+  - type: header
+    title: 網路自由：強化公眾對數位隱私與網路自由的意識
+    anchor:
+    icon: paper plane
+    description: 
+    theme:
+    background_color:
+    cover: /p/admin/2023/b-bi.png
   - type: content
     columns:
       - type: article
         swap: false
-        title: 網路自由：強化公眾對數位隱私與網路自由的意識
+        title: 
         description: 以提高公眾對數位隱私的意識，並推動政府和企業關注網路自由相關議題為目標，OCF 延續自 2019  年 9 月起每月舉辦網路自由小聚的習慣，建立一個讓關注監控與隱私、不實資訊擴散、網路平台的資料管理責任等議題的同好者，可以自在討論的空間。2024 年更透過將共筆記錄轉化為短影片的方式，將每次僅能容納 20-30 人討論的聚會擴散給更多人瞭解。
       - type: image
         url: /p/admin/2023/ifm.png
