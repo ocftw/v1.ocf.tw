@@ -96,6 +96,21 @@ items:
       - type: image
         url: /p/admin/2023/b-ci.png
 #組織架構圖
+  - type: header
+    title: <br>組織架構圖
+    anchor:
+    icon: sitemap
+    description: 
+    theme:
+    background_color:
+    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    anchor: 
+    cover: /p/admin/2023/org.png
+    cover_image_alt: 組織架構圖
+    background_color:
+    button:
+
 #大事記
   - type: header
     title: OCF 大事記（趕工中，預計四月底更新）   
