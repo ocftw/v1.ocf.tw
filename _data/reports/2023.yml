@@ -129,14 +129,7 @@ items:
     background_color:
     cover: /p/admin/2023/b-ceo.png
 
-  - type: image_header
-    cover: /p/admin/2023/big-3.png
-  - type: image_header
-    cover: /p/admin/2023/big-4.png
-  - type: image_header
-    cover: /p/admin/2023/big-5.png
-  - type: image_header
-    cover: /p/admin/2023/big-6.png
+
   #開放原始碼
   - type: header
     title: 開放原始碼<br>建立蓬勃的開源生態系
@@ -279,27 +272,66 @@ items:
     theme: dark
     background_color:
     cover: /p/admin/2023/b-ceo.png
-#感謝
 
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        swap: false
+        title: 2023 年度基金會自營專案收支
+#        description: 收入 NT$ 31,217,377<br>支出 NT$ 19,909,315<br>基金會年度總計 NT$ 11,308,062
+
+  - type: content
+    single_column: true
+    columns:
+      - type: image
+        url: /p/admin/2023/fin-1.png
+
+  - type: content
+    single_column: true
+    columns:
+      - type: image
+        url: /p/admin/2023/fin-2.png
+
+  - type: content
+    single_column: true
+    columns:
+      - type: article
+        swap: false
+        title: 2023 年度社群專案收支
+#        description: 收入 NT$ 13,439,519<br>支出 NT$ 13,855,298<br>社群專案年度總計 NT$ -415,779
+#感謝
   - type: header
-    title: 感謝你的支持
-    description: 各位支持者的陪伴、開源社群的合作與照顧，是讓 OCF 克服推動開放文化之路上各種挑戰的動力。2023 年，OCF 努力連結開放世界的各個角落——科技社群與公民團體、政府與公民社會、國內與國際社群——因為我們相信，比起一個組織孤軍奮戰，一群人攜手前行能走得更久、看得更遠。開放、協作、共享，讓我們能建立更永續與具備韌性的數位社會。
+    title: <br>感謝你的支持
+    description: 
     icon: hand spock
     theme: dark
     cover: /p/admin/2023/b-5co.png
+  - type: image_header
+    anchor: 
+    cover: /p/admin/2023/b-tks.png
+    cover_image_alt: 感謝支持
+    background_color:
+    button:
 
+  - type: content
+    columns:
+      - type: article
+        title:
+        description: 各位支持者的陪伴、開源社群的合作與照顧，是讓 OCF 克服推動開放文化之路上各種挑戰的動力。2023 年，OCF 努力連結開放世界的各個角落——科技社群與公民團體、政府與公民社會、國內與國際社群——因為我們相信，比起一個組織孤軍奮戰，一群人攜手前行能走得更久、看得更遠。開放、協作、共享，讓我們能建立更永續與具備韌性的數位社會。
+      - type: article
+        logo_height: 7rem
+        logos:
+          - org_id: archilife
+          - org_id: gss        
   - type: content
     columns:
       - type: article
         title: 
         swap: true
         description: 董事群：Bobchao、Clkao、Honki、KC、Pofeng<br>員工：Amos、Anima、BQ、Claire、Jin、Joshua、Rock、Singing、Toomore、Weichen、Wenny、William、Yanyiyi、小ㄐ、阿欣、葉子、盈萱、愛馬<br>校友：Huangfu、Lulu<br>實習夥伴：麗雅、子杰、宥岑、軒睿、Verena、Howard、楷祐、承昊、冠翰、柏竣、峻誠、懋軒、Dennis、宜萍、沁柔
-        logo_height: 7rem
-        logos:
-          - org_id: archilife
-          - org_id: gss
       - type: image
-        url: /p/admin/2023/b-tks.png
+        url: /p/admin/2023/group2023.png
 
   - type: content
     columns:
