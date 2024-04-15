@@ -335,12 +335,6 @@ items:
       - type: image
         url: /p/admin/2023/b-tks.png
   - type: content
-    single_column: true
-    alignment: center
-    columns:
-      - type: image
-        url: /p/admin/2023/big-4.png
-  - type: content
     columns:
       - type: article
         title:
