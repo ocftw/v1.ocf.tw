@@ -129,6 +129,14 @@ items:
     background_color:
     cover: /p/admin/2023/b-ceo.png
 
+  - type: image_header
+    cover: /p/admin/2023/big-3.png
+  - type: image_header
+    cover: /p/admin/2023/big-4.png
+  - type: image_header
+    cover: /p/admin/2023/big-5.png
+  - type: image_header
+    cover: /p/admin/2023/big-6.png
   #開放原始碼
   - type: header
     title: 開放原始碼<br>建立蓬勃的開源生態系
