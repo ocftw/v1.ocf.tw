@@ -111,6 +111,14 @@ items:
     background_color:
     button:
 
+  - type: content
+    columns:
+      - type: image
+        swap: false
+        url: /p/admin/2023/big-1.png
+      - type: image
+        url: /p/admin/2023/big-2.png
+
 #大事記
   - type: header
     title: OCF 大事記（趕工中，預計四月底更新）   
