@@ -286,7 +286,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: 2023 年度社群專案收支
+        title: 2023 年度社群專案收支（計算中）
 #       description: 收入 NT$ 13,439,519<br>支出 NT$ 13,855,298<br>社群專案年度總計 NT$ -415,779
       - type: image
         url: /p/admin/2023/fin-2.png
