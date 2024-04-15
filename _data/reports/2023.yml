@@ -16,6 +16,13 @@ items:
         items:
       - type: image
         url: /p/admin/2023/b-sign.png
+
+  - type: content
+    columns:
+      - type: image
+        url: /p/admin/2023/big-1.png
+      - type: image
+        url: /p/admin/2023/big-2.png
   #六大行動
   - type: header
     title: <br>六大行動策略
@@ -111,13 +118,6 @@ items:
     background_color:
     button:
 
-  - type: content
-    columns:
-      - type: image
-        swap: false
-        url: /p/admin/2023/big-1.png
-      - type: image
-        url: /p/admin/2023/big-2.png
 
 #大事記
   - type: header
