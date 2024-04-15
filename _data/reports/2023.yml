@@ -296,22 +296,29 @@ items:
     cover: /p/admin/2023/b-ceo.png
 
   - type: content
+    single_column: true
+    alignment: center
     columns:
-      - type: article
-        swap: false
-        title: 2023 年度基金會自營專案收支（計算中）
-#       description: 收入 NT$ 31,217,377<br>支出 NT$ 19,909,315<br>基金會年度總計 NT$ 11,308,062
       - type: image
         url: /p/admin/2023/fin-1.png
+
+  - type: content
+    single_column: true
+    alignment: center
+    columns:
+      - type: image
+        url: /p/admin/2023/fin-2.png
 
   - type: content
     columns:
       - type: article
         swap: false
+        title: 2023 年度基金會自營專案收支（計算中）
+#       description: 收入 NT$ 31,217,377<br>支出 NT$ 19,909,315<br>基金會年度總計 NT$ 11,308,062
+      - type: article
         title: 2023 年度社群專案收支（計算中）
 #       description: 收入 NT$ 13,439,519<br>支出 NT$ 13,855,298<br>社群專案年度總計 NT$ -415,779
-      - type: image
-        url: /p/admin/2023/fin-2.png
+
 
 #感謝
   - type: header
