@@ -301,8 +301,8 @@ items:
     alignment: center
     columns:
       - type: image
-        url: /p/admin/2023/big-3.png
-        
+        url: /p/admin/2023/fin-1.png
+
   - type: content
     single_column: true
     alignment: center
