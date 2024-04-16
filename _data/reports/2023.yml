@@ -214,6 +214,7 @@ items:
     theme:
     background_color:
     cover: /p/admin/2023/b-bi.png
+
   - type: content
     columns:
       - type: article
@@ -295,6 +296,13 @@ items:
     background_color:
     cover: /p/admin/2023/b-ceo.png
 
+  - type: content
+    single_column: true
+    alignment: center
+    columns:
+      - type: image
+        url: /p/admin/2023/big-3.png
+        
   - type: content
     single_column: true
     alignment: center
