@@ -296,20 +296,6 @@ items:
     background_color:
     cover: /p/admin/2023/b-ceo.png
 
-  - type: image_header
-    anchor: 
-    cover: /p/admin/2023/fin-1.png
-    cover_image_alt: 
-    background_color:
-    button:
-
-  - type: image_header
-    anchor: 
-    cover: /p/admin/2023/fin-2.png
-    cover_image_alt: 
-    background_color:
-    button:
-
   - type: content
     single_column: true
     alignment: center
@@ -339,12 +325,6 @@ items:
     background_color:
     button:
 
-  - type: content
-    single_column: true
-    alignment: center
-    columns:
-      - type: image
-        url: /p/admin/2023/b-tks.png
   - type: content
     columns:
       - type: article
