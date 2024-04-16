@@ -317,6 +317,14 @@ items:
     icon: hand spock
     theme: dark
     cover: /p/admin/2023/b-5co.png
+
+  - type: image_header
+    anchor: 
+    cover: /p/admin/2023/b-tks.png
+    cover_image_alt: 
+    background_color:
+    button:
+
   - type: content
     single_column: true
     alignment: center
