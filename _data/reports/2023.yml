@@ -302,13 +302,7 @@ items:
     cover_image_alt: 
     background_color:
     button:
-  - type: content
-    columns:
-      - type: image
-        swap: false
-        url: /p/admin/2023/fin-1.png
-      - type: image
-        url: /p/admin/2023/fin-2.png
+
   - type: content
     single_column: true
     alignment: center
