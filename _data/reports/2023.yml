@@ -304,18 +304,17 @@ items:
     button:
   - type: content
     columns:
-      - type: article
-        swap: false
-        title:
-        description: 
       - type: image
+        swap: false
         url: /p/admin/2023/fin-1.png
+      - type: image
+        url: /p/admin/2023/fin-2.png
   - type: content
     single_column: true
     alignment: center
     columns:
       - type: image
-        url: /p/admin/2023/fin-2.png
+        url: /p/admin/2023/fin-1.png
 
   - type: content
     single_column: true
