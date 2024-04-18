@@ -121,7 +121,7 @@ items:
 
 #大事記
   - type: header
-    title: OCF 大事記（趕工中，預計四月底更新）   
+    title: OCF 大事記
     anchor:
     icon: keyboard outline
     description: OCF 在 2023 年除了持續舉辦線上與實體的聚會、監督政府落實開放文化，也加深與國際社群的聯繫。我們完成許多專案，也突破許多難關。其中有些嘗試非常特別、創新，或是帶來重要的跨領域交流。我們精挑細選 10 項重大的里程碑，邀請大家一起回顧這些精彩瞬間。
@@ -288,7 +288,7 @@ items:
         url: /p/admin/2023/oonirep.png
 #財務
   - type: header
-    title: <br>財務報告（趕工中，預計四月底更新）
+    title: <br>財務報告
     anchor:
     icon: money bill alternate
     description: 
@@ -302,13 +302,20 @@ items:
     cover_image_alt: 
     background_color:
     button:
-
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: 
+      - type: image
+        url: /p/admin/2023/fin-1.png
   - type: content
     single_column: true
     alignment: center
     columns:
       - type: image
-        url: /p/admin/2023/fin-1.png
+        url: /p/admin/2023/fin-2.png
 
   - type: content
     single_column: true
