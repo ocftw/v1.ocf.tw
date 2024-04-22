@@ -10,4 +10,5 @@ url: https://ocf.tw
 #       og_description: "test default description"
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 encoding: utf-8
