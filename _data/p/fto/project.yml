@@ -1,0 +1,68 @@
+name:  在台人權工作者的數位安全樣態與培力
+name_en: Defending and Documenting Digital Threats for HRDs in Taiwan
+ 
+
+description: 在台人權與民主倡議工作者（Human Rights Defenders，HRDs）因其倡議工作，面對著來自境內或境外的惡意數位威脅攻擊。本項專案旨在記錄在台人權工作者所遭遇到的數位威脅的來源及規模，並且發展一個可分享的整體性資安培力工具及訓練計劃，讓人權工作者得以透過研究成果和工具來提升他們的數位安全。
+description_en:  Human rights defenders (HRDs) based in Taiwan have become the targets of digital attacks from malicious actors. This project aims to identify and document the scope and the sources of the digital threats, in order to develop a capacity-building toolkits  to assist HRDs effectively mitigate the risks and support their work.
+
+
+tagline: 
+tagline_en: 
+
+og_image: /p/fto/fto logo_zh.png
+og_image_en: /p/fto/fto logo_en.png
+header_image: 
+avatar_image: 
+theme_color: 
+
+start: 
+end: 
+
+topic_ids:
+  - infosec
+field_ids:
+  - it
+tags:
+tags_en:
+
+links:
+  - title: （國際夥伴） Open Technology Fund 
+    url:  https://www.opentech.fund/projects-we-support/supported-projects/defending-and-documenting-digital-threats-for-human-rights-defenders-in-taiwan/
+    color: 
+    icon: world icon
+  - title: （研究報告） 台灣人權與民主倡議團體數位威脅概況 (English)
+    url:  https://drive.google.com/file/d/12l4xClip4dSRQG_KWTYfb_CQzx9o_iWK/view?usp=drive_link
+    color: 
+    icon: file outline
+  - title: （報告摘要） 台灣人權與民主倡議團體數位威脅概況 (中文)
+    url:  https://drive.google.com/file/d/1I_5qLVHbbsU6jNjkFB65mAJnMWt7UXwP/view?usp=drive_link
+    color: 
+    icon: file outline
+links_en:
+  - title: (International project partners) Open Technology Fund
+    url:  https://www.opentech.fund/projects-we-support/supported-projects/defending-and-documenting-digital-threats-for-human-rights-defenders-in-taiwan/
+    color: 
+    icon: world icon
+  - title: (Report) Digital Security Mapping for HRDs in Taiwan
+    url:  https://drive.google.com/file/d/12l4xClip4dSRQG_KWTYfb_CQzx9o_iWK/view?usp=drive_link
+    color: 
+    icon: file outline
+
+organizer_ids:
+  - ocf
+co-organizer_ids:
+consultant_ids:
+
+board_ids:
+
+staff_ids:
+  - Singing
+  - weichen
+  - rosa
+  - SzuHui
+  - CSTang
+  - Toomore
+  - Jin
+
+listed: yes
+listed_en: yes
