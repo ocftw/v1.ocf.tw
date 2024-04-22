@@ -1,0 +1,57 @@
+name:  數位人權與倡議
+name_en: Digital Rights and Advocacy
+ 
+
+description: 以開放科技為基礎，促進臺灣政府、企業與公民社會對數位安全與隱私的意識，引導其作出相對應的改善行為，共創台灣在人權基礎上，達到數位使用的真實開放。
+description_en: Based on open technology, promote awareness of digital security and privacy among the Taiwan government, businesses, and civil society, guiding them to take corresponding improvement actions, and jointly create a Taiwan where digital usage is genuinely open on the basis of human rights.
+
+
+tagline:  
+tagline_en: 
+
+og_image: /p/dra/dra_c.png
+og_image_en: /p/dra/dra_e.png
+header_image: /p/dra/dra_c.png
+avatar_image: /p/dra/dra_e.png
+theme_color: green
+
+start: 
+end: 
+
+topic_ids:
+  - dr
+field_ids:
+  - rsh
+  - adv
+  - legal
+tags:
+tags_en:
+
+links:
+  - title: 【研究報告】 強化隱私：東亞數位人權及所處環境之下，公民社會的行動策略
+    url: https://ocf.tw/p/dra/ep/ 
+    color: green
+    icon: world icon
+links_en:
+  - title: 【Report】Empowering Privacy：Civil Society Strategies in East Asia's Digital Landscape
+    url: https://ocf.tw/p/dra/ep/ 
+    color: green
+    icon: world icon
+
+organizer_ids:
+  - ocf
+co-organizer_ids:
+consultant_ids:
+
+board_ids:
+
+staff_ids:
+  - singing
+  - weichen
+  - rosa
+  - joshua
+  - szuhui
+  - liyhs
+
+listed: yes
+listed_en: yes
