@@ -1,4 +1,4 @@
-name:  台灣企業數位人權排名
+name:  企業數位人權
 name_en: Ranking Digital Rights (RDR) Taiwan 
  
 
@@ -9,10 +9,10 @@ description_en: In the digital era, the promotion of human rights and data-based
 tagline: 用知識達成責信 
 tagline_en: From Knowledge to Accountability
 
-og_image: /p/rdr/2022/rdrlogo.jpeg
+og_image: /p/rdr/RDRtw_logo_All.png
 og_image_en: /p/rdr/2022/rdrlogo_en.jpeg
 header_image: /p/rdr/2022/Banner.png
-avatar_image: /p/rdr/2022/rdrlogo.jpeg
+avatar_image: /p/rdr/RDRtw_logo_All.png
 theme_color: green
 
 start: 
@@ -26,36 +26,44 @@ tags:
 tags_en:
 
 links:
-  - title: RDR 官方網站
+  - title: 【國際夥伴】Ranking Digital Rights Official
     url: https://rankingdigitalrights.org 
     color: green
     icon: world icon
-  - title: 2020 RDR 全球企業數位人權排名
-    url:  https://rankingdigitalrights.org/index2020/
-    color: green
-    icon: world icon
-  - title: （國際夥伴） Digital Asia Hub 
+  - title: 【國際夥伴】Digital Asia Hub 
     url:  https://www.digitalasiahub.org
     color: green
     icon: world icon
-  - title: （在地夥伴） 台灣人權促進會 
+  - title: 【國際夥伴】OpenNet
+    url:  https://www.opennetkorea.org/
+    color: green
+    icon: world icon
+  - title: 【在地夥伴】台灣人權促進會  
     url:  https://www.tahr.org.tw
     color: green
     icon: world icon
+  - title: 【深度瞭解】評估企業人權表現的國際標準：RDR 
+    url:  https://ocf.tw/p/rdr/Intro/
+    color: green
+    icon: world icon
+  - title: 【報告出爐】數位人權在台灣：2022 企業責信報告
+    url:  https://ocf.tw/p/rdr/2022/
+    color: green
+    icon: world icon
 links_en:
-  - title: RDR Official website
-    url: https://rankingdigitalrights.org 
+  - title: 【International project partners】Ranking Digital Rights Official
+    url: https://rankingdigitalrights.org/
     color: green
     icon: world icon
-  - title: 2020 RDR global ranking
-    url:  https://rankingdigitalrights.org/index2020/
+  - title: 【International project partners】Digital Asia Hub 
+    url:  https://www.digitalasiahub.org/
     color: green
     icon: world icon
-  - title: (International project partners) Digital Asia Hub 
-    url:  https://www.digitalasiahub.org
+  - title: 【International project partners】OpenNet
+    url:  https://www.opennetkorea.org/
     color: green
     icon: world icon
-  - title: (Local Project Partners) Taiwan Association for Human Rights  
+  - title: 【Local Project Partners】Taiwan Association for Human Rights  
     url:  https://www.tahr.org.tw
     color: green
     icon: world icon

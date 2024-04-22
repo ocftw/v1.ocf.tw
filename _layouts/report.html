@@ -21,6 +21,16 @@ layout: global
 {% assign report = site.data.reports[ report_id ] %}
 {% endif %}
 
+<!-- 自訂對齊方式 -->
+
+{% if report.alignment == "center" %}
+  {% assign report_alignment = "center aligned" %}
+{% elsif report.alignment == "right" %}
+  {% assign report_alignment = "right aligned" %}
+{% else %}
+  {% assign report_alignment = "left aligned" %}
+{% endif %}
+
 <main id="report">
 
   <!-- 從專案資料產生回上層連結 (optional) -->
@@ -55,8 +65,6 @@ layout: global
     <hr class="ui hidden divider" />
 
     <div class="ui stripe relative container">
-      <img class="ui centered tiny image"
-        src="{{ site.data.people.orgs.ocf.icon }}" alt="" />
       <h1 class="ui {{ hero_style }} {{ hero_title_color }} header">
         {{ report.title }}
       </h1>
@@ -163,6 +171,16 @@ layout: global
 
       {% for column in item.columns %}
 
+      {% if column.alignment == "center" %}
+        {% assign column_alignment = "center aligned" %}
+      {% elsif column.alignment == "right" %}
+        {% assign column_alignment = "right aligned" %}
+      {% elsif column.alignment == "left" %}
+        {% assign column_alignment = "left aligned" %}
+      {% else %}
+        {% assign column_alignment = report_alignment %}
+      {% endif %}
+
       <!-- 根據資料產生 image 欄內容，同時決定位置是否要左右對調 -->
       {% if column.type == "image" %}
       <div class="column{% if column.swap %} flex-swap{% endif %}"
@@ -231,7 +249,7 @@ layout: global
       {% elsif column.type == "article" %}
       <div class="column{% if column.swap %} flex-swap{% endif %}"
         data-type="{{ column.type }}">
-        <div class="ui center aligned stripe container">
+        <div class="ui {{ column_alignment }} padded stripe container">
 
           <h3 class="ui header">
             {{ column.title }}
@@ -345,8 +363,8 @@ layout: global
       {% elsif column.type == "iframe" %}
       <div class="column{% if column.swap %} flex-swap{% endif %}"
         data-type="{{ column.type }}">
-        <div class="ui center aligned stripe container">
-          <h3 class="ui center aligned header">
+        <div class="ui {{ column_alignment }} stripe container">
+          <h3 class="ui {{ column_alignment }} header">
             {{ column.title }}
             <div class="sub header">{{ column.description }}</div>
           </h3>

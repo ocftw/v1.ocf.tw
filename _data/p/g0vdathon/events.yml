@@ -1,4 +1,53 @@
 - id:
+  name: g0v hackath61n | 台灣零時政府第陸拾壹次龍來 Open Data Day 黑客松暨零時小學校 4th 專案孵化競賽決選日
+  name_en:
+  description: g0v 社群每兩個月舉辦一次黑客松，以資訊透明、開放成果、開放協作為核心，透過公民科技的力量，持續助力往社會共好的方向前進。本次 g0v 黑客松與 Open Data Day 同日開跑，活動地點在鄰近臺大後門的學新館二樓 SPACE M 空間，歡迎各界夥伴龍來黑客松！黑客松當天也將同步舉行「零時小學校 4th 專案孵化競賽決選」活動，邀請 13 組初選入圍團隊進行專案 Demo，擇優決選出 3 - 5 組獲獎團隊。歡迎大家前來給予現場團隊更多元的回饋！另邀請 Code for Japan 舉辦的「公民科技挑戰盃 U-22（Civictech Challenge Cup U-22）」獲獎團隊來到大松現場分享專案與學習歷程。參加者需同意遵守活動守則。
+  start: 2024/03/02
+  end:
+  links:
+    - title: 活動及報名資訊
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath61n
+    - title: 活動共筆
+      url: https://beta.hackfoldr.org/g0v-hackath61n
+  cover_image: https://t.kfs.io/upload_images/189260/1__1__large.png
+  contributor_ids:
+  project_ids:
+    - g0vdathon
+
+- id:
+  name: g0v hackath60n | 台灣零時政府第陸拾次記得投票黑客松
+  name_en:
+  description: 4 年一次的總統、副總統與立委選舉投票日即將在 1 月 13 日舉行，本次大松邀請大家在選前一週（1/6 週六）一起 hacking 松一下！參加大松只要保持基本禮貌與尊重，並遵守 g0v 社群守則，不論你是什麼顏色與立場，都歡迎你一起來玩！\ 特別提醒 /政黨及任何人於投票日前 10 日起至投票時間截止前，不得以任何方式，發布有關候選人或選舉之民意調查資料，亦不得加以報導、散布、評論或引述。有更多好吃好玩的事情即將在 g0v 社群發生，邀請你一起來 1/6 中研院資訊所的大松現場，一起邊玩邊做專案！「g0v 第陸拾次記得投票黑客松」將在 2023.01.06（六）於「中研院資訊所」舉辦，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、藝術家、媒體工作者、教育工作者等諸眾，帶著熱血來盡一己之力，開源協作參與社會。參加者需同意遵守活動守則。
+  start: 2024/01/06
+  end:
+  links:
+    - title: 活動及報名資訊
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath60n
+    - title: 活動共筆
+      url: https://g0v.hackmd.io/@jothon/SJd8BS4r6
+  cover_image: https://t.kfs.io/upload_images/186261/g0v_hackath60n_large.PNG
+  contributor_ids:
+  project_ids:
+    - g0vdathon
+
+- id:
+  name: g0v hackath59n | 台灣零時政府第伍拾玖次輪班寫 code 救台灣黑客松
+  name_en:
+  description: 11 年來，g0v 社群在 hacking 協作中誕生了許多專案，無數 g0ver 在課餘下班時間自發寫 code，輪班燃肝為台灣社會帶來一點一點的改變，逐步往更好的方向前進。本次黑客松首次來到新竹與大家相聚，無論你會不會寫 code，肝是黑白還是彩色，都歡迎帶著一顆好奇與熱血的心，來到 g0v 黑客松一探究竟！本次黑客松也將舉辦【零時小學校數位素養師培】運用科技做 PBL 解社會議題 - 數位資源應用教學。零時小學校與 g0v 社群陪你一起帶學生做 PBL，從自身關注的問題出發，嘗試運用科技做專案解題！本次師培你將獲得 PBL 各階段可運用的社群資源、數位工具，以及各式 PBL 解方案例，並擬定上述資源應用於教學、工作的計畫。另外下午 1:30 - 2:30 在主會場也有「數位財哥來投票」的活動，讓大家透過參與平方投票更認識 g0v 中正在建造數位公共財的專案，當天也會邀請各坑主為大家說明各專案目前的階段性成果，不止寫 code 可以救台灣，投票也可以！歡迎各位新朋老友，一起來新竹 hacking、吹風、救台灣吧！有更多好吃好玩的事情即將在 g0v 社群發生，邀請你一起 12/9 來到位於竹北的大松現場，一起邊玩邊做專案！「g0v 第伍拾玖次輪班寫 code 救台灣黑客松」將在 2023/12/9（六）於「竹北市中興里集會所」舉辦，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、藝術家、媒體工作者、教育工作者等諸眾，帶著熱血來盡一己之力，開源協作參與社會。參加者需同意遵守活動守則。
+  start: 2023/12/09
+  end:
+  links:
+    - title: 活動及報名資訊
+      url: https://g0v-jothon.kktix.cc/events/g0v-hackath59n
+    - title: 活動共筆
+      url: https://beta.hackfoldr.org/g0v-hackath59n
+  cover_image: https://t.kfs.io/upload_images/183992/IMG_6960_large.png
+  contributor_ids:
+  project_ids:
+    - g0vdathon
+
+
+- id:
   name: g0v hackath50n | 台灣零時政府第伍拾次來電五十黑客松 x COSCUP Open Source Contributor Workshop
   name_en:
   description: 本次 g0v 黑客松要與 COSCUP 一起來電⚡五十，匯集不同面向的專案、各種有趣還很有用的開源資源、以及來自四面八方的貢獻者，進行一場妖嬈的媒合，讓丟點子和拋繡球一樣,都有許多不同的人來接球接力~歡迎大家以復古的裝扮參與本次黑客松！g0v 第伍拾次來電五十黑客松 x COSCUP 將在 2022/6/18 (六)於台北「升級會議中心-松江 101 館」舉行，歡迎公民、鄉民、憤青、開發者、設計者、社會運動工作者、公務員、法律專家、文字工作者、藝術家、媒體工作者、教育工作者等諸眾，帶著熱血來盡一己之力，用協作化解焦慮,開源協作貢獻社會。參加者需同意遵守活動守則。

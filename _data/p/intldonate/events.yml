@@ -134,3 +134,24 @@
   project_ids:
   reports:
   reports_en:
+
+- id: 
+  name: FOSDEM 2024 心得分享
+  name_en: Scholarship Program - FOSDEM 2024
+  description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於開源社群、數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
+  description_en: 
+  cover_image: /p/intldonate/20240203.png
+  start: 2024/02/03
+  end: 2024/02/04
+  links: 
+    - title: 參與者 - yc 油成的分享
+      url: https://blog.imych.one/fosdem-2024/
+    - title: 參與者 - 翰庭 Timothy 的分享
+      url: https://hackmd.io/@hts1/HJnGYRg26
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+  reports:
+  reports_en:
