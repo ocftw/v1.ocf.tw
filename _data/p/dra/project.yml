@@ -30,12 +30,12 @@ tags_en:
 links:
   - title: 【研究報告】 強化隱私：東亞數位人權及所處環境之下，公民社會的行動策略
     url: https://ocf.tw/p/dra/ep/ 
-    color: green
+    color: purple
     icon: world icon
 links_en:
   - title: 【Report】Empowering Privacy：Civil Society Strategies in East Asia's Digital Landscape
-    url: https://ocf.tw/p/dra/ep/ 
-    color: green
+    url: https://ocf.tw/en/p/dra/ep/ 
+    color: purple
     icon: world icon
 
 organizer_ids:
