@@ -9,8 +9,8 @@ description_en:  Human rights defenders (HRDs) based in Taiwan have become the t
 tagline: 
 tagline_en: 
 
-og_image: /p/fto/fto logo_zh.png
-og_image_en: /p/fto/fto logo_en.png
+og_image: /p/defendhrd/defendhrd logo_tw.png
+og_image_en: /p/defendhrd/defendhrd logo_en.png
 header_image: 
 avatar_image: 
 theme_color: 
@@ -39,7 +39,7 @@ links:
     color: 
     icon: file outline
 links_en:
-  - title: 【International project partners】 Open Technology Fund
+  - title: 【International Project Partners】 Open Technology Fund
     url:  https://www.opentech.fund/projects-we-support/supported-projects/defending-and-documenting-digital-threats-for-human-rights-defenders-in-taiwan/
     color: 
     icon: world icon
