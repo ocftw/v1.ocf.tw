@@ -81,8 +81,10 @@ board_ids:
   - pofeng
 staff_ids: 
   - singing
-  - Leaf
-  - Sam 
+  - leaf
+  - sam
+  - weichen
+  - amos 
 
 listed: yes
 listed_en: yes
