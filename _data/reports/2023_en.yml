@@ -97,10 +97,10 @@ items:
 
 
   - type: header
-    title: <br>Branding Design
+    title: Branding Design
     anchor:
     icon: registered outline
-    description: 
+    description: Eagle-eyed supporters may have already noticed that the OCF logo has been updated. In redesigning our brand logo, we've integrated the core values and mission of the Open Culture Foundation into the visual elements and colors, showcasing OCF's energy in open technology and interdisciplinary collaboration. This is in response to the various challenges of the digital age and to promote the healthy development of digital society.
     theme:
     background_color:
     cover: /p/admin/2023/b-10y.png
@@ -109,7 +109,7 @@ items:
       - type: article
         swap: true
         title: 
-        description: Eagle-eyed supporters may have already noticed that the OCF logo has been updated. In redesigning our brand logo, we've integrated the core values and mission of the Open Culture Foundation into the visual elements and colors, showcasing OCF's energy in open technology and interdisciplinary collaboration. This is in response to the various challenges of the digital age and to promote the healthy development of digital society.<br><br>The new brand logo is inspired by the Open Culture Foundation's slogan - "Co-create the digital future". OCF aspires to promote social development, protect individual digital rights, and foster open cooperation between the government and society. Thus, the new brand logo uses underlines to mimic the interface of digital encoding, presenting these aspects through the logo to directly reflect the organization's mission, not just as a visual symbol, but also embodying its commitment to connecting the digital world.
+        description: The new brand logo is inspired by the Open Culture Foundation's slogan - "Co-create the digital future". OCF aspires to promote social development, protect individual digital rights, and foster open cooperation between the government and society. Thus, the new brand logo uses underlines to mimic the interface of digital encoding, presenting these aspects through the logo to directly reflect the organization's mission, not just as a visual symbol, but also embodying its commitment to connecting the digital world.
       - type: image
         url: /p/admin/2023/b-ci.png
 #組織架構圖
