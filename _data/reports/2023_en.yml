@@ -17,12 +17,6 @@ items:
       - type: image
         url: /p/admin/2023/b-sign-en.png
 
-  - type: content
-    columns:
-      - type: image
-        url: /p/admin/2023/big-1.png
-      - type: image
-        url: /p/admin/2023/big-2.png
   #六大行動
   - type: header
     title: <br>6 of Major Strategic Actions
