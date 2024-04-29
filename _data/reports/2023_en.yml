@@ -41,9 +41,16 @@ items:
       - type: article
         swap: false
         title: Talents Training:<br>Collaboratively nurtured 16 interns with the communities.<br>Awarded scholarships to 7 open technology seeded players for international exchanges.
-        description: OCF collaborated with 6 open source communities on internship programs, providing students with opportunities to explore open source technologies and advocacy. In these internship programs, OCF not only guided interns in exploring careers related to open source, but also served as a platform to highlight the internship opportunities offered by various open source communities, ensuring smooth administrative procedures like issuing internship certificates.<br><br>Through scholarship programs, OCF funded civic groups that have been deeply involved in the open source community and digital rights field for many years, as well as contributors concerned with openness and democracy, encouraging them to travel abroad for exchanges, broaden their horizons, and establish connections between Taiwan and global communities.
       - type: image
         url: /p/admin/2023/b-16int.png
+   - type: content
+    columns:
+      - type: article
+        description: OCF collaborated with 6 open source communities on internship programs, providing students with opportunities to explore open source technologies and advocacy. In these internship programs, OCF not only guided interns in exploring careers related to open source, but also served as a platform to highlight the internship opportunities offered by various open source communities, ensuring smooth administrative procedures like issuing internship certificates.
+      - type: article
+        description: Through scholarship programs, OCF funded civic groups that have been deeply involved in the open source community and digital rights field for many years, as well as contributors concerned with openness and democracy, encouraging them to travel abroad for exchanges, broaden their horizons, and establish connections between Taiwan and global communities.
+
+
   #知識分享
   - type: content
     columns:
