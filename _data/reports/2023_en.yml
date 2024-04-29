@@ -84,9 +84,18 @@ items:
       - type: article
         swap: false
         title: Promotion of Open Source:<br>Organized 13 open source culture promotional events, guiding over 200 people to engage with the open source world.
-        description: OCF collaborated with professors from four different departments to develop open source promotional materials, encapsulated in the fun of the board game 'OpenStartTerVillage.' Coupled with the leadership and workshops held at the 'Open Source Contributors Conference' by OCF, we have reached over 200 newcomers, opening the door to the open source world for them.<br><br>As OCF approaches its tenth year, we will continue to connect resources in the open world, striving to be a solid backing for Taiwan's open source community, together creating a thriving open source ecosystem and a civil society that safeguards digital rights and internet freedom.
       - type: image
         url: /p/admin/2023/b-13os.png
+
+  - type: content
+    columns:
+      - type: article
+        description: OCF collaborated with professors from four different departments to develop open source promotional materials, encapsulated in the fun of the board game 'OpenStartTerVillage.' Coupled with the leadership and workshops held at the 'Open Source Contributors Conference' by OCF, we have reached over 200 newcomers, opening the door to the open source world for them.
+      - type: article
+        description: As OCF approaches its tenth year, we will continue to connect resources in the open world, striving to be a solid backing for Taiwan's open source community, together creating a thriving open source ecosystem and a civil society that safeguards digital rights and internet freedom.
+
+
+
   - type: header
     title: <br>Branding Design
     anchor:
