@@ -11,8 +11,8 @@ items:
     columns:
       - type: article
         swap: false
-        title: CEO's Message
-        description: As the first full-time employee of OCF, I have grown with the organization from its inception to its current state, witnessing the development of OCF from a one-person team to now having 17 full-time staff members. Starting from providing administrative and logistical support to open source communities, the scope of OCF's services has gradually expanded. With the goal of nurturing a vibrant open source ecosystem, we promote our ideals to civil society, while also advocating to the government and engaging in international exchanges to popularize and implement open source culture.<br><br>Since the foundation in early 2014, it has been 9 years filled with fulfillment and challenges. I am deeply grateful to all supporters who have walked with OCF, allowing us to continue our work in the areas of open source, open government, open data, digital rights, and internet freedom, achieving many significant accomplishments.<br><br>After the pandemic was brought under control, communities both domestically and internationally seemed to awaken from a long hibernation - not only did physical events make a return, but there was also an increase in integrated online and offline interactions. In 2023, OCF connected more deeply and widely with the open world. Allow me to report on OCF's six major strategic actions and the remarkable results we have achieved through several key figures.
+        title: 
+        description: As the first full-time employee of OCF
         items:
       - type: image
         url: /p/admin/2023/b-sign.png
