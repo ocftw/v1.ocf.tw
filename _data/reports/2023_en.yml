@@ -116,20 +116,11 @@ items:
 
 
 #大事記
-  - type: header
-    title: Milestones
-    anchor:
-    icon: keyboard outline
-    description: In 2023, OCF not only continued to hold online and in-person gatherings and monitored the government's implementation of open culture but also deepened connections with the international community. We completed many projects and overcame numerous challenges. Some attempts were very special and innovative, or brought about important interdisciplinary exchanges. We have carefully selected 10 significant milestones and invite everyone to look back on these exciting moments together.
-    theme: dark
-    background_color:
-    cover: /p/admin/2023/b-ceo.png
-  - type: content
-    single_column: true
-    columns:
-      - type: article
-        items: sdll
-        items: aas
+  - type: image_header
+    cover: /p/admin/2023/b-org-en.png
+    cover_image_alt: Milestones
+
+
 
   #五大領域
   - type: header
