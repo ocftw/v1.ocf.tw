@@ -235,7 +235,7 @@ items:
 
   - type: image_header
     cover: /p/admin/2023/b-dr.png
-    cover_image_alt: 開放資料
+    cover_image_alt: 數位人權
   - type: content
     columns:
       - type: article
@@ -255,14 +255,9 @@ items:
         url: /p/admin/2023/RDRtw_logo_All.png
 
   #網路自由
-  - type: header
-    title: 網路自由<br>強化公眾對數位隱私與網路自由的意識
-    anchor:
-    icon: paper plane
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-if.png
+    cover_image_alt: 網路自由
   - type: content
     columns:
       - type: article
