@@ -19,7 +19,7 @@ items:
 
   #六大行動
   - type: header
-    title: <br>6 of Major Strategic Actions
+    title: <br>Major Strategic Actions
     description: 
     icon: bullhorn
     theme: dark
@@ -30,7 +30,7 @@ items:
     columns:
       - type: article
         swap: true
-        title: Communities Supporting:<br>Assisted 43 communities, pioneering a service model for supporting crowdfunding campaigns.
+        title: Communities Supporting<br><br>＊Assisted 43 communities, pioneering a service model for supporting crowdfunding campaigns.
         description: As a foundation, OCF supports the open source communities by providing administrative and financial management support for community projects. Moreover, OCF continuously explores innovative service models. In collaboration with "CCWatch", we established a crowdfunding service model for OCF and open source projects, offering more diverse and flexible options for the open source communities.
         items:
       - type: image
@@ -40,7 +40,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: Talents Training:<br>Collaboratively nurtured 16 interns with the communities.<br>Awarded scholarships to 7 open technology seeded players for international exchanges.
+        title: Talents Training<br><br>＊Collaboratively nurtured 16 interns with the communities.<br><br>＊Awarded scholarships to 7 open technology seeded players for international exchanges.
       - type: image
         url: /p/admin/2023/b-16int.png
   - type: content
@@ -56,7 +56,7 @@ items:
     columns:
       - type: article
         swap: true
-        title: Knowledge Sharing:<br>Hosted and participated in 83 events, promoting open culture to citizens, governments, and businesses.
+        title: Knowledge Sharing<br><br>＊Hosted and participated in 83 events, promoting open culture to citizens, governments, and businesses.
         description: OCF through lectures, meetings, booths, and other forms, bringing the spirit of open source, open government, open data, digital rights, and internet freedom to people from various fields, continually connecting a diverse range of stakeholders to promote the prosperity of an open world.
       - type: image
         url: /p/admin/2023/b-83a.png
@@ -65,7 +65,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: Monitoring and Advocacy:<br>Attended 15 consultation meetings, bringing the spirit of open collaboration into the public sector.
+        title: Monitoring and Advocacy<br><br>＊Attended 15 consultation meetings, bringing the spirit of open collaboration into the public sector.
         description: OCF is one of the civilian conveners for the Open Parliament initiative and serves as an open data consultant for three government ministries and a civilian member of the open government committee for two ministries. Through these roles, we assist the government in building a culture of open collaboration and urge public departments to implement measures related to open government and digital rights.
       - type: image
         url: /p/admin/2023/b-15mg.png
@@ -74,7 +74,7 @@ items:
     columns:
       - type: article
         swap: true
-        title: International Networking:<br>Participated in 21 international conferences, connecting Taiwan with global trends.
+        title: International Networking<br><br>＊Participated in 21 international conferences, connecting Taiwan with global trends.
         description: OCF connects domestic open source communities and civic groups, bringing news and current status of digital rights, open government, and open source in Taiwan to international conferences, establishing a network of cooperation between Taiwan and international communities. 
       - type: image
         url: /p/admin/2023/b-21int.png
@@ -83,7 +83,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: Promotion of Open Source:<br>Organized 13 open source culture promotional events, guiding over 200 people to engage with the open source world.
+        title: Promotion of Open Source<br><br>＊Organized 13 open source culture promotional events, guiding over 200 people to engage with the open source world.
       - type: image
         url: /p/admin/2023/b-13os.png
 
@@ -140,28 +140,11 @@ items:
     cover: /p/admin/2023/b-ceo.png
   - type: content
     single_column: true
-    alignment: center
     columns:
-      - type: image
-        url: /p/admin/2023/big-3.png
-  - type: content
-    single_column: true
-    alignment: center
-    columns:
-      - type: image
-        url: /p/admin/2023/big-4.png
-  - type: content
-    single_column: true
-    alignment: center
-    columns:
-      - type: image
-        url: /p/admin/2023/big-5.png
-  - type: content
-    single_column: true
-    alignment: center
-    columns:
-      - type: image
-        url: /p/admin/2023/big-6.png
+      - type: article
+        items: sdll
+        items: aas
+
   #五大領域
   - type: header
     title: Promoting five core areas to establish an open and mutually beneficial digital society.
