@@ -91,16 +91,10 @@ items:
       - type: article
         description: As OCF approaches its tenth year, we will continue to connect resources in the open world, striving to be a solid backing for Taiwan's open source community, together creating a thriving open source ecosystem and a civil society that safeguards digital rights and internet freedom.
 
+  - type: image_header
+    cover: /p/admin/2023/b-bd-en.png
+    cover_image_alt: Branding Design
 
-
-  - type: header
-    title: Branding Design
-    anchor:
-    icon: registered outline
-    description: Eagle-eyed supporters may have already noticed that the OCF logo has been updated. In redesigning our brand logo, we've integrated the core values and mission of the Open Culture Foundation into the visual elements and colors, showcasing OCF's energy in open technology and interdisciplinary collaboration. This is in response to the various challenges of the digital age and to promote the healthy development of digital society.
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-10y.png
   - type: content
     columns:
       - type: article
