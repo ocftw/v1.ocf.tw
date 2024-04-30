@@ -280,12 +280,9 @@ items:
         url: /p/admin/2023/fin-2.png
 
 #感謝
-  - type: header
-    title: <br>Thank you for your support.
-    description: 
-    icon: hand spock
-    theme: dark
-    cover: /p/admin/2023/b-5co.png
+  - type: image_header
+    cover: /p/admin/2023/b-tks-en.png
+    cover_image_alt: Thank you
 
   - type: image_header
     anchor: 
