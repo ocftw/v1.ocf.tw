@@ -254,14 +254,9 @@ items:
       - type: image
         url: /p/admin/2023/oonirep.png
 #財務
-  - type: header
-    title: <br>Financial Report
-    anchor:
-    icon: money bill alternate
-    description: 
-    theme: dark
-    background_color:
-    cover: /p/admin/2023/b-ceo.png
+  - type: image_header
+    cover: /p/admin/2023/b-fa-en.png
+    cover_image_alt: Financial Report
 
   - type: image_header
     anchor: 
