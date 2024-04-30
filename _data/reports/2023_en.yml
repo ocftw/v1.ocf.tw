@@ -133,7 +133,7 @@ items:
         title:
         description: To fulfill the mission of establishing a digital civil society and addressing various threats in the digital age, OCF is dedicated to promoting openness and sharing in the digital domain. Specifically, we advocate for the philosophy of open source, making the development and application of technology inclusive of diverse and integrated voices through public collaboration. At the same time, we are committed to realizing the open sharing and interoperability of data, as well as using digital technology to promote more open and transparent digital governance.
       - type: image
-        url: https://ocf.tw/p/test/main%20areas.png  
+        url: https://ocf.tw/en/p/5areas_EN.png  
   - type: content
     columns:
       - type: article
