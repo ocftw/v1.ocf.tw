@@ -28,13 +28,6 @@ items:
     cover: /p/admin/2023/b-5co1.png
     cover_image_alt: 六大行動策略
 
-  - type: header
-    title: <br>六大行動策略
-    description: 
-    icon: bullhorn
-    theme: dark
-    cover: /p/admin/2023/b-5co.png
-
   #社群支援
   - type: content
     columns:
