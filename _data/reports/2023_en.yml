@@ -123,12 +123,27 @@ items:
 
 
   #五大領域
-  - type: header
-    title: Promoting five core areas to establish an open and mutually beneficial digital society.
-    description: To fulfill the mission of establishing a digital civil society and addressing various threats in the digital age, OCF is dedicated to promoting openness and sharing in the digital domain. Specifically, we advocate for the philosophy of open source, making the development and application of technology inclusive of diverse and integrated voices through public collaboration. At the same time, we are committed to realizing the open sharing and interoperability of data, as well as using digital technology to promote more open and transparent digital governance.<br><br>As OCF approaches its tenth year, we reflect on our accumulated experiences, assembling issues of concern to the open-source community, the needs of civic groups for strengthened digital security, and the desire to open the doors to government collaboration. We have formulated OCF’s advocacy directions for the next 5-10 years and are set to launch the 'Open Technology White Paper' in 2024. It will clearly articulate the evolution of open-source culture from technology and data to political participation, laying the foundation for the popularization of open-source culture. These advocacy directions will be gradually implemented through six major action strategies：community support, talent training, knowledge sharing, monitoring and advocacy, international networking, and promotion of open source.<br><br>OCF continues to diligently promote the following five core areas, hoping that through these achievements, we can inspire public participation and collectively build an open, inclusive, and innovative digital civil society. We believe that these efforts can help society address the various challenges of the digital age, establishing a more equitable and sustainable future.
-    icon: microchip
-    theme: dark
-    cover: /p/admin/2023/b-5co.png 
+
+  - type: image_header
+    cover: /p/admin/2023/b-5a.png
+    cover_image_alt: 5Areas
+  - type: content
+    columns:
+      - type: article
+        title:
+        description: To fulfill the mission of establishing a digital civil society and addressing various threats in the digital age, OCF is dedicated to promoting openness and sharing in the digital domain. Specifically, we advocate for the philosophy of open source, making the development and application of technology inclusive of diverse and integrated voices through public collaboration. At the same time, we are committed to realizing the open sharing and interoperability of data, as well as using digital technology to promote more open and transparent digital governance.
+      - type: image
+        url: https://ocf.tw/p/test/main%20areas.png  
+  - type: content
+    columns:
+      - type: article
+        description: As OCF approaches its tenth year, we reflect on our accumulated experiences, assembling issues of concern to the open-source community, the needs of civic groups for strengthened digital security, and the desire to open the doors to government collaboration. We have formulated OCF’s advocacy directions for the next 5-10 years and are set to launch the 'Open Technology White Paper' in 2024. It will clearly articulate the evolution of open-source culture from technology and data to political participation, laying the foundation for the popularization of open-source culture. These advocacy directions will be gradually implemented through six major action strategies：community support, talent training, knowledge sharing, monitoring and advocacy, international networking, and promotion of open source.
+      - type: article
+        description: OCF continues to diligently promote the following five core areas, hoping that through these achievements, we can inspire public participation and collectively build an open, inclusive, and innovative digital civil society. We believe that these efforts can help society address the various challenges of the digital age, establishing a more equitable and sustainable future.
+
+    
+
+
 
   #開放原始碼
   - type: header
