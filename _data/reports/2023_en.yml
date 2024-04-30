@@ -109,7 +109,7 @@ items:
     cover_image_alt: Organizational Structure Chart
   - type: image_header
     anchor: 
-    cover: /p/admin/2023/org.png
+    cover: /p/admin/2023/org-en.png
     cover_image_alt: Organizational Structure Chart
     background_color:
     button:
