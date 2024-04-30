@@ -91,16 +91,10 @@ items:
       - type: article
         description: As OCF approaches its tenth year, we will continue to connect resources in the open world, striving to be a solid backing for Taiwan's open source community, together creating a thriving open source ecosystem and a civil society that safeguards digital rights and internet freedom.
 
+  - type: image_header
+    cover: /p/admin/2023/b-bd-en.png
+    cover_image_alt: Branding Design
 
-
-  - type: header
-    title: Branding Design
-    anchor:
-    icon: registered outline
-    description: Eagle-eyed supporters may have already noticed that the OCF logo has been updated. In redesigning our brand logo, we've integrated the core values and mission of the Open Culture Foundation into the visual elements and colors, showcasing OCF's energy in open technology and interdisciplinary collaboration. This is in response to the various challenges of the digital age and to promote the healthy development of digital society.
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-10y.png
   - type: content
     columns:
       - type: article
@@ -110,14 +104,9 @@ items:
       - type: image
         url: /p/admin/2023/b-ci.png
 #組織架構圖
-  - type: header
-    title: <br>Organizational Structure Chart
-    anchor:
-    icon: sitemap
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-org-en.png
+    cover_image_alt: Organizational Structure Chart
   - type: image_header
     anchor: 
     cover: /p/admin/2023/org.png
@@ -127,38 +116,37 @@ items:
 
 
 #大事記
-  - type: header
-    title: Milestones
-    anchor:
-    icon: keyboard outline
-    description: In 2023, OCF not only continued to hold online and in-person gatherings and monitored the government's implementation of open culture but also deepened connections with the international community. We completed many projects and overcame numerous challenges. Some attempts were very special and innovative, or brought about important interdisciplinary exchanges. We have carefully selected 10 significant milestones and invite everyone to look back on these exciting moments together.
-    theme: dark
-    background_color:
-    cover: /p/admin/2023/b-ceo.png
-  - type: content
-    single_column: true
-    columns:
-      - type: article
-        items: sdll
-        items: aas
+  - type: image_header
+    cover: /p/admin/2023/b-org-en.png
+    cover_image_alt: Milestones
+
+
 
   #五大領域
-  - type: header
-    title: Promoting five core areas to establish an open and mutually beneficial digital society.
-    description: To fulfill the mission of establishing a digital civil society and addressing various threats in the digital age, OCF is dedicated to promoting openness and sharing in the digital domain. Specifically, we advocate for the philosophy of open source, making the development and application of technology inclusive of diverse and integrated voices through public collaboration. At the same time, we are committed to realizing the open sharing and interoperability of data, as well as using digital technology to promote more open and transparent digital governance.<br><br>As OCF approaches its tenth year, we reflect on our accumulated experiences, assembling issues of concern to the open-source community, the needs of civic groups for strengthened digital security, and the desire to open the doors to government collaboration. We have formulated OCF’s advocacy directions for the next 5-10 years and are set to launch the 'Open Technology White Paper' in 2024. It will clearly articulate the evolution of open-source culture from technology and data to political participation, laying the foundation for the popularization of open-source culture. These advocacy directions will be gradually implemented through six major action strategies：community support, talent training, knowledge sharing, monitoring and advocacy, international networking, and promotion of open source.<br><br>OCF continues to diligently promote the following five core areas, hoping that through these achievements, we can inspire public participation and collectively build an open, inclusive, and innovative digital civil society. We believe that these efforts can help society address the various challenges of the digital age, establishing a more equitable and sustainable future.
-    icon: microchip
-    theme: dark
-    cover: /p/admin/2023/b-5co.png 
+
+  - type: image_header
+    cover: /p/admin/2023/b-5a.png
+    cover_image_alt: 5Areas
+  - type: content
+    columns:
+      - type: article
+        title:
+        description: To fulfill the mission of establishing a digital civil society and addressing various threats in the digital age, OCF is dedicated to promoting openness and sharing in the digital domain. Specifically, we advocate for the philosophy of open source, making the development and application of technology inclusive of diverse and integrated voices through public collaboration. At the same time, we are committed to realizing the open sharing and interoperability of data, as well as using digital technology to promote more open and transparent digital governance.
+      - type: image
+        url: https://ocf.tw/en/p/5areas_EN.png  
+  - type: content
+    columns:
+      - type: article
+        description: As OCF approaches its tenth year, we reflect on our accumulated experiences, assembling issues of concern to the open-source community, the needs of civic groups for strengthened digital security, and the desire to open the doors to government collaboration. We have formulated OCF’s advocacy directions for the next 5-10 years and are set to launch the 'Open Technology White Paper' in 2024. It will clearly articulate the evolution of open-source culture from technology and data to political participation, laying the foundation for the popularization of open-source culture. These advocacy directions will be gradually implemented through six major action strategies：community support, talent training, knowledge sharing, monitoring and advocacy, international networking, and promotion of open source.
+      - type: article
+        description: OCF continues to diligently promote the following five core areas, hoping that through these achievements, we can inspire public participation and collectively build an open, inclusive, and innovative digital civil society. We believe that these efforts can help society address the various challenges of the digital age, establishing a more equitable and sustainable future.
+
+    
 
   #開放原始碼
-  - type: header
-    title: Open Source<br>Establishing a Thriving Open Source Ecosystem
-    anchor:
-    icon: expand arrows alternate
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-oss-en.png
+    cover_image_alt: Open Source
   - type: content
     columns:
       - type: article
@@ -177,14 +165,11 @@ items:
       - type: image
         url: /p/admin/2023/occ.png
   #開放政府與國會
-  - type: header
-    title: Open Government and Parliament<br>Laying the Foundation for Public-Private Collaboration.
-    anchor:
-    icon: chess rook
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-10y.png
+
+  - type: image_header
+    cover: /p/admin/2023/b-ogp-en.png
+    cover_image_alt: Open Government
+
   - type: content
     columns:
       - type: article
@@ -204,15 +189,9 @@ items:
         url: /p/admin/2023/opengov.jpg
 
   #開放資料
-  - type: header
-    title: Open Data<br>Calling on the Government to Protect Personal Data
-
-    anchor:
-    icon: folder open outline
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-od-en.png
+    cover_image_alt: Open Data
 
   - type: content
     columns:
@@ -233,15 +212,9 @@ items:
         url: /p/admin/2023/med.png
 
   #數位人權
-  - type: header
-    title: Digital Rights<br>Building a Collaborative Network among Businesses, Civil Society, and the International Community Network
-    anchor:
-    icon: balance scale
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-10y.png
-  - type: content
+  - type: image_header
+    cover: /p/admin/2023/b-dr-en.png
+    cover_image_alt: Digital Rights
     columns:
       - type: article
         swap: true
@@ -260,15 +233,9 @@ items:
         url: /p/admin/2023/RDRtw_logo_All.png
 
   #網路自由
-  - type: header
-    title: Internet Freedom<br>Strengthening Public Awareness of Digital Privacy and Internet Freedom
-
-    anchor:
-    icon: paper plane
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-if-en.png
+    cover_image_alt: Internet Freedom
   - type: content
     columns:
       - type: article
@@ -287,14 +254,9 @@ items:
       - type: image
         url: /p/admin/2023/oonirep.png
 #財務
-  - type: header
-    title: <br>Financial Report
-    anchor:
-    icon: money bill alternate
-    description: 
-    theme: dark
-    background_color:
-    cover: /p/admin/2023/b-ceo.png
+  - type: image_header
+    cover: /p/admin/2023/b-fa-en.png
+    cover_image_alt: Financial Report
 
   - type: image_header
     anchor: 
@@ -318,12 +280,9 @@ items:
         url: /p/admin/2023/fin-2.png
 
 #感謝
-  - type: header
-    title: <br>Thank you for your support.
-    description: 
-    icon: hand spock
-    theme: dark
-    cover: /p/admin/2023/b-5co.png
+  - type: image_header
+    cover: /p/admin/2023/b-tks-en.png
+    cover_image_alt: Thank you
 
   - type: image_header
     anchor: 
@@ -356,7 +315,7 @@ items:
       - type: article
         title: OCF 10 years：Open Culture Festival
         swap: false
-        description: To celebrate the tenth anniversary of the Open Culture Foundation, we will be hosting an 'Open Culture Festival' on September 14, 2024. We sincerely invite all supporters and community partners to join us in reviewing the development journey of the open-source community in Taiwan and looking forward to the diverse applications and development of open-source technology.<br><br>In the coming years, we ask for your continued support as we embark on OCF's first decade together!<br><br>＊Open Culture Festival：A Special Event Celebrating the Tenth Anniversary of the Open Culture Foundation<br>＊DATE｜2024/9/14<br>＊LOCATION｜Pipe Live Music + Gongguan Riverside Plaza<br>＊活動資訊｜<a href="https://10years.ocf.tw/">10years.ocf.tw</a>
+        description: To celebrate the tenth anniversary of the Open Culture Foundation, we will be hosting an 'Open Culture Festival' on September 14, 2024. We sincerely invite all supporters and community partners to join us in reviewing the development journey of the open-source community in Taiwan and looking forward to the diverse applications and development of open-source technology.<br><br>In the coming years, we ask for your continued support as we embark on OCF's first decade together!<br><br>＊Open Culture Festival：A Special Event Celebrating the Tenth Anniversary of the Open Culture Foundation<br>＊DATE｜2024/9/14<br>＊LOCATION｜Pipe Live Music + Gongguan Riverside Plaza<br>＊Info.｜<a href="https://10years.ocf.tw/">10years.ocf.tw</a>
       - type: image
         url: /p/admin/2023/429edm-small.jpg
 
@@ -371,5 +330,5 @@ items:
       - type: article
         title: Subcribe EDMs! 
         items:
-          - title: <a href="https://ocf.tw/news/" target=_blank><i class="paper plane icon"></i>OCF 電子報</a>
+          - title: <a href="https://ocf.tw/news/" target=_blank><i class="paper plane icon"></i>OCF epaper</a>
         swap: false
