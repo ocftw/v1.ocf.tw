@@ -116,7 +116,7 @@ items:
 
   - type: image_header
     cover: /p/admin/2023/b-bi2.png
-    cover_image_alt: 組織架構圖
+    cover_image_alt: 大事記
 
   - type: content
     single_column: true
@@ -151,20 +151,21 @@ items:
   - type: content
     columns:
       - type: article
-        title: 為貫徹建立數位公民社會和應對數位時代各種威脅的使命，OCF 致力於推動數位領域的開放與共享。具體而言，我們倡導開放原始碼的理念，透過公開協作的方式使科技的開發與應用都能納入多元、涵融的聲音。同時，也致力於實現資料的開放共享與互通性，以及運用數位科技推動更公開透明的數位治理。<br>在 OCF 邁入第十年之際，我們回顧過往累積的經驗，集結開源社群關注的議題、公民團體強化數位安全的需求，以及打開政府協力大門的期望，擬定了 OCF 未來 5-10 年的倡議方針，且即將在 2024 年推出「開放科技白皮書」，清楚闡述開源文化從科技、資料到政治參與的演變，為開源文化的普及奠定基礎。這些倡議方針，將透過社群支援、人才培訓、知識分享、監督倡議、國際串聯與開源推廣等六大行動策略逐步實踐。<br>OCF 持續努力推動以下五大核心領域，期許透過這些成果，激發群眾參與，共同構築一個開放、共融與創新的數位公民社會。我們相信這些努力，能幫助社會應對數位時代的種種挑戰，建立更公正與永續的未來。 
-        description: 
+        description: 為貫徹建立數位公民社會和應對數位時代各種威脅的使命，OCF 致力於推動數位領域的開放與共享。具體而言，我們倡導開放原始碼的理念，透過公開協作的方式使科技的開發與應用都能納入多元、涵融的聲音。同時，也致力於實現資料的開放共享與互通性，以及運用數位科技推動更公開透明的數位治理。
+      - type: article
+        description: 在 OCF 邁入第十年之際，我們回顧過往累積的經驗，集結開源社群關注的議題、公民團體強化數位安全的需求，以及打開政府協力大門的期望，擬定了 OCF 未來 5-10 年的倡議方針，且即將在 2024 年推出「開放科技白皮書」，清楚闡述開源文化從科技、資料到政治參與的演變，為開源文化的普及奠定基礎。這些倡議方針，將透過社群支援、人才培訓、知識分享、監督倡議、國際串聯與開源推廣等六大行動策略逐步實踐。
+    columns:
+      - type: article
+        description: OCF 持續努力推動以下五大核心領域，期許透過這些成果，激發群眾參與，共同構築一個開放、共融與創新的數位公民社會。我們相信這些努力，能幫助社會應對數位時代的種種挑戰，建立更公正與永續的未來。 
       - type: image
-        url: https://ocf.tw/p/test/main%20areas.png
+        url: https://ocf.tw/p/test/main%20areas.png      
 
   #開放原始碼
-  - type: header
-    title: 開放原始碼<br>建立蓬勃的開源生態系
-    anchor:
-    icon: expand arrows alternate
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+
+  - type: image_header
+    cover: /p/admin/2023/b-op.png
+    cover_image_alt: 開放原始碼
+
   - type: content
     columns:
       - type: article
