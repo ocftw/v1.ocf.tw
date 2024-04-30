@@ -143,17 +143,10 @@ items:
 
     
 
-
-
   #開放原始碼
-  - type: header
-    title: Open Source<br>Establishing a Thriving Open Source Ecosystem
-    anchor:
-    icon: expand arrows alternate
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-oss-en.png
+    cover_image_alt: Open Source
   - type: content
     columns:
       - type: article
@@ -172,6 +165,10 @@ items:
       - type: image
         url: /p/admin/2023/occ.png
   #開放政府與國會
+
+  - type: image_header
+    cover: /p/admin/2023/b-ogp-en.png
+    cover_image_alt: Open Government
   - type: header
     title: Open Government and Parliament<br>Laying the Foundation for Public-Private Collaboration.
     anchor:
@@ -199,15 +196,9 @@ items:
         url: /p/admin/2023/opengov.jpg
 
   #開放資料
-  - type: header
-    title: Open Data<br>Calling on the Government to Protect Personal Data
-
-    anchor:
-    icon: folder open outline
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-od-en.png
+    cover_image_alt: Open Data
 
   - type: content
     columns:
