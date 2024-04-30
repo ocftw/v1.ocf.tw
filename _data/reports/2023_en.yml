@@ -18,12 +18,9 @@ items:
         url: /p/admin/2023/b-sign-en.png
 
   #六大行動
-  - type: header
-    title: <br>Major Strategic Actions
-    description: 
-    icon: bullhorn
-    theme: dark
-    cover: /p/admin/2023/b-5co.png
+  - type: image_header
+    cover: /p/admin/2023/b-6b-en.png
+    cover_image_alt: Major Strategic Actions
 
   #社群支援
   - type: content
