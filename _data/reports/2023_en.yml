@@ -219,15 +219,9 @@ items:
         url: /p/admin/2023/med.png
 
   #數位人權
-  - type: header
-    title: Digital Rights<br>Building a Collaborative Network among Businesses, Civil Society, and the International Community Network
-    anchor:
-    icon: balance scale
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-10y.png
-  - type: content
+  - type: image_header
+    cover: /p/admin/2023/b-dr-en.png
+    cover_image_alt: Digital Rights
     columns:
       - type: article
         swap: true
@@ -246,15 +240,9 @@ items:
         url: /p/admin/2023/RDRtw_logo_All.png
 
   #網路自由
-  - type: header
-    title: Internet Freedom<br>Strengthening Public Awareness of Digital Privacy and Internet Freedom
-
-    anchor:
-    icon: paper plane
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-if-en.png
+    cover_image_alt: Internet Freedom
   - type: content
     columns:
       - type: article
