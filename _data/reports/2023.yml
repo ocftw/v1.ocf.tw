@@ -276,14 +276,9 @@ items:
       - type: image
         url: /p/admin/2023/oonirep.png
 #財務
-  - type: header
-    title: <br>財務報告
-    anchor:
-    icon: money bill alternate
-    description: 
-    theme: dark
-    background_color:
-    cover: /p/admin/2023/b-ceo.png
+  - type: image_header
+    cover: /p/admin/2023/b-fr.png
+    cover_image_alt: 財務
 
   - type: image_header
     anchor: 
@@ -307,12 +302,9 @@ items:
         url: /p/admin/2023/fin-2.png
 
 #感謝
-  - type: header
-    title: <br>感謝您的支持
-    description: 
-    icon: hand spock
-    theme: dark
-    cover: /p/admin/2023/b-5co.png
+  - type: image_header
+    cover: /p/admin/2023/b-tks1.png
+    cover_image_alt: 感謝
 
   - type: image_header
     anchor: 
