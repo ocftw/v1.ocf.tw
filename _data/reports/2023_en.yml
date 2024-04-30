@@ -315,7 +315,7 @@ items:
       - type: article
         title: OCF 10 years：Open Culture Festival
         swap: false
-        description: To celebrate the tenth anniversary of the Open Culture Foundation, we will be hosting an 'Open Culture Festival' on September 14, 2024. We sincerely invite all supporters and community partners to join us in reviewing the development journey of the open-source community in Taiwan and looking forward to the diverse applications and development of open-source technology.<br><br>In the coming years, we ask for your continued support as we embark on OCF's first decade together!<br><br>＊Open Culture Festival：A Special Event Celebrating the Tenth Anniversary of the Open Culture Foundation<br>＊DATE｜2024/9/14<br>＊LOCATION｜Pipe Live Music + Gongguan Riverside Plaza<br>＊活動資訊｜<a href="https://10years.ocf.tw/">10years.ocf.tw</a>
+        description: To celebrate the tenth anniversary of the Open Culture Foundation, we will be hosting an 'Open Culture Festival' on September 14, 2024. We sincerely invite all supporters and community partners to join us in reviewing the development journey of the open-source community in Taiwan and looking forward to the diverse applications and development of open-source technology.<br><br>In the coming years, we ask for your continued support as we embark on OCF's first decade together!<br><br>＊Open Culture Festival：A Special Event Celebrating the Tenth Anniversary of the Open Culture Foundation<br>＊DATE｜2024/9/14<br>＊LOCATION｜Pipe Live Music + Gongguan Riverside Plaza<br>＊Info.｜<a href="https://10years.ocf.tw/">10years.ocf.tw</a>
       - type: image
         url: /p/admin/2023/429edm-small.jpg
 
@@ -330,5 +330,5 @@ items:
       - type: article
         title: Subcribe EDMs! 
         items:
-          - title: <a href="https://ocf.tw/news/" target=_blank><i class="paper plane icon"></i>OCF 電子報</a>
+          - title: <a href="https://ocf.tw/news/" target=_blank><i class="paper plane icon"></i>OCF epaper</a>
         swap: false
