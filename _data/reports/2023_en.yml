@@ -104,14 +104,9 @@ items:
       - type: image
         url: /p/admin/2023/b-ci.png
 #組織架構圖
-  - type: header
-    title: <br>Organizational Structure Chart
-    anchor:
-    icon: sitemap
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-org-en.png
+    cover_image_alt: Organizational Structure Chart
   - type: image_header
     anchor: 
     cover: /p/admin/2023/org.png
