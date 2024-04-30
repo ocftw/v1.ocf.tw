@@ -25,8 +25,7 @@ items:
         url: /p/admin/2023/big-2.png
   #六大行動
   - type: image_header
-    cover: /p/admin/2023/b-5co.png
-    title: 六大行動策略
+    cover: /p/admin/2023/b-5co1.png
     cover_image_alt: 六大行動策略
 
   - type: header
