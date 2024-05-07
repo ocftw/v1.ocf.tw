@@ -120,6 +120,16 @@ items:
     cover: /p/admin/2023/b-mt-en.png
     cover_image_alt: Milestones
 
+  - type: content
+    columns:
+      - type: article
+        single_column: true
+        items:
+          - title: 3 - 4 FEB, participated in FOSDEM (Free and Open Source Software Developers' European Meeting), bringing back global trends. FOSDEM is the world’s largest annual meeting for open source enthusiasts. OCF sent delegates and called upon the Taiwanese open-source community to participate together, promoting Taiwanese open-source achievements with a booth at the event.
+          - title: 8 APR, Digital Citizenship Seminar：Identify Threats and Build up Defense was held to deepen Taiwan's democracy. Aiming to strengthen Taiwan's digital resilience against digital authoritarianism, OCF invited internationally renowned scholar Charles Mok, Commissioner Yung-Cheng Kao from Taiwan's National Human Rights Commission, and civil organization workers from both domestic and international spheres for discussions at this conference.
+          - project_id: accomdemy
+          - title: 台灣開放教育推動團隊
+          - project_id: rubytW
 
 
   #五大領域
