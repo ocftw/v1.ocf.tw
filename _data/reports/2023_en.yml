@@ -123,11 +123,48 @@ items:
   - type: content
     columns:
       - type: article
-        title: 3-4 FEB - Participated in <a href="https://archive.fosdem.org/2023/">FOSDEM (Free and Open Source Software Developers' European Meeting)</a>, bringing back global trends. 
+        title: 3-4 FEB - Participated in <a href="https://archive.fosdem.org/2023/" target=_blank>FOSDEM (Free and Open Source Software Developers' European Meeting)</a>, bringing back global trends. 
         description: FOSDEM is the world’s largest annual meeting for open source enthusiasts. OCF sent delegates and called upon the Taiwanese open-source community to participate together, promoting Taiwanese open-source achievements with a booth at the event.
       - type: article
-        title: 8 APR - <a href="https://ocftw.kktix.cc/events/citizenseminar">Digital Citizenship Seminar</a> - Identify Threats and Build up Defense was held to deepen Taiwan's democracy. 
+        title: 8 APR - <a href="https://ocftw.kktix.cc/events/citizenseminar" target=_blank>Digital Citizenship Seminar</a> - Identify Threats and Build up Defense was held to deepen Taiwan's democracy. 
         description: Aiming to strengthen Taiwan's digital resilience against digital authoritarianism, OCF invited internationally renowned scholar Charles Mok, Commissioner Yung-Cheng Kao from Taiwan's National Human Rights Commission, and civil organization workers from both domestic and international spheres for discussions at this conference.
+
+  - type: content
+    columns:
+      - type: article
+        title: 22-26 MAY - Participated in the <a href="https://engagemedia.org/projects/drapac23/" target=_blank>Digital Rights Asia-Pacific</a>, bringing international knowledge back to Taiwan. 
+        description: OCF joined the planning committee for this event with EngageMedia, co-organizing a gathering specifically designed for Asia-Pacific partners—Digital Rights Asia-Pacific 2023. This event convened civil society organizations and expert scholars from various regions to exchange knowledge and establish collaborative networks.
+      - type: article
+        title: 16 JUL - Our first <a href="https://ocftw.kktix.cc/events/ocf-summer-2023" target=_blank>interdisciplinary art party</a> was held, reflecting on technology and privacy issues through artistic creation. 
+        description: To spread the digital rights and privacy issues promoted by OCF more widely, OCF collaborated with the art team Sāngs Taipei for an interdisciplinary cooperation, organizing a summer party that combines art and technology. Through performing arts and interactive installations, participants gained a deeper understanding of the relationship between technology and privacy.
+
+  - type: content
+    columns:
+      - type: article
+        title: 29-30 JUL - <a href="https://blog.coscup.org/" target=_blank>COSCUP (Conference for Open Source Coders, Users, and Promoters)</a> featured orientation and guided activities, serving as trailblazers for open source newcomers. 
+        description: OCF believes that contributors from diverse backgrounds can foster a thriving open-source ecosystem, which requires making open source culture more accessible beyond echo chambers. Therefore, at the 'Open Source Contributors Conference,' OCF set a precedent by combining introductory lectures, on-site tours, and board game workshops to guide newcomers more quickly in finding opportunities to participate in communities and contribute to open source."
+      - type: article
+        title: 6-8 SEP - Participated in the <a href="https://www.opengovpartnership.org/events/2023-ogp-global-summit-tallinn-estonia/" target=_blank>Open Government Partnership Global Summit</a>, bringing Taiwan's Open Parliament experience to the international stage. 
+        description: More than three years have passed since Taiwan released the Taiwan Open Parliament Action Plan according to the standards of the Open Government Partnership (OGP). As a civil society convener, OCF, along with partner organizations and the Legislative Yuan, strived to organize peripheral forums at the summit to exchange experiences of public-private collaboration with partners from various countries.
+
+  - type: content
+    columns:
+      - type: article
+        title: 27 SEP - Attending in the 131st Open Government Collaboration Meeting 'Guidelines for Data Altruism,' protecting people's privacy. 
+        description: In this discussion meeting on the government's internal guideline draft, OCF raised concerns about creating the term “Data Altruism,” which could lead to ambiguous positioning of personal information; concurrently, there was an anticipation for concrete data governance and regulatory mechanisms. We called on the government to prioritize planning to protect individuals' autonomy and privacy regarding their personal data.
+      - type: article
+        title: 4-5 OCT - Served as a speaker at the <a href="https://www.igf.org.tw/?page_id=8337" target=_blank>Taiwan Internet Governance Forum</a>, calling for attention to digital rights. 
+        description: In this forum aimed at promoting the sustainability, integrity, safety, and development of the internet, OCF spoke up for the digital rights of the people, hoping to raise awareness among the government, corporations, and the public about the risks associated with AI, technology, and data usage, and to implement protections for people's privacy and data autonomy.
+
+  - type: content
+    columns:
+      - type: article
+        title: 22 Nov - At the public hearing for the draft of the Act on the Development of Digital Healthcare, OCF called on the government to establish a dedicated authority for personal data protection to implement the protection of personal information. 
+        description: OCF expressed several concerns about the draft's provisions for personal data protection, including the lack of full implementation of people's 'informed consent' and 'right to opt-out.' OCF urged the regulatory authorities to not only assess the clinical benefits when evaluating machine learning-based medical software but also to regulate the responsibilities associated with data collection and usage.
+      - type: article
+        title: 8-9 DEC - Participated in the 'Open Source Compliance Summit,' leveraging international exchanges to overcome the challenges faced by Taiwan in promoting open source. 
+        description: Many companies struggle with the unfamiliarity of open-source program licensing and management, placing them at risk of cybersecurity breaches and litigation. At the Open Source Compliance Summit in Tokyo, OCF exchanged ideas with partners from various countries, bringing back the latest international information to Taiwan to assist local enterprises in better utilizing open-source programs and establishing a trustworthy product supply chain.
+
 
   #五大領域
 
