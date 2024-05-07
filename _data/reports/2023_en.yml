@@ -260,24 +260,29 @@ items:
 
   - type: image_header
     anchor: 
-    cover: /p/admin/2023/fin-0.png
+    cover: /p/admin/2023/fin-1-en.png
     cover_image_alt: 
     background_color:
     button:
+  - type: image_header
+    anchor: 
+    cover: /p/admin/2023/fin-2-en.png
+    cover_image_alt: 
+    background_color:
+    button:
+  - type: content
+    single_column: true
+    alignment: center
+    columns:
+      - type: image
+        url: /p/admin/2023/fin-3-en.png
 
   - type: content
     single_column: true
     alignment: center
     columns:
       - type: image
-        url: /p/admin/2023/fin-1.png
-
-  - type: content
-    single_column: true
-    alignment: center
-    columns:
-      - type: image
-        url: /p/admin/2023/fin-2.png
+        url: /p/admin/2023/fin-4-en.png
 
 #感謝
   - type: image_header
