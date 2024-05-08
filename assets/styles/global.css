@@ -1,10 +1,36 @@
 html {
   font-size: 16px;
   font-family: "Roboto", "Chiron Hei HK", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+  --ocf-primary: #6450dc;
+  --ocf-supportive_cyan: #0091da;
+  --ocf-supportive_magenda: #ce0058;
+  --ocf-secondary_light: #d7dcf0;
+  --ocf-secondary_dark: #0f1923;
+  --ocf-secondary_white: #ffffff;
 }
 
 body {
+  margin: 0;
+  /* in design guide: body 2 14px */
   font-size: 0.875rem;
+  /* in design guide: body 1 */
+  font-weight: 400;
+}
+
+.ocf__text--light {
+  font-weight: 300;
+}
+
+.ocf__text--regular {
+  font-weight: 400;
+}
+
+.ocf__text--bold {
+  font-weight: 700;
+}
+
+.ocf__text--black {
+  font-weight: 900;
 }
 
 h1,
@@ -12,8 +38,219 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.ocf__title,
+.ocf__heading1,
+.ocf__heading2,
+.ocf__heading3,
+.ocf__tagline {
   font-family: "Roboto Slab", "Chiron Hei HK", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+  /* in design guide: medium */
+  font-weight: 500;
+  margin: 1em 0;
+}
+
+
+.ocf__title {
+  /* in design guide: large title 48px */
+  font-size: 3rem;
+}
+
+.ocf__subtitle {
+  /* in design guide: subtitle 21px */
+  font-size: 1.3125rem;
+}
+
+.ocf__tagline {
+  /* in design guide: headline 36px */
+  font-size: 2.25rem;
+}
+
+.ocf__heading1 {
+  /* in design guide: title 1: 26px */
+  font-size: 1.625rem;
+}
+
+.ocf__heading2 {
+  /* in design guide: title 2 18px */
+  font-size: 1.125rem;
+}
+
+.ocf__heading3 {
+  /* in design guide: title 3 14px */
+  font-size: 0.875rem;
+}
+
+.ocf__index_heading {
+  /* in design guide: index title 26px */
+  font-size: 1.625rem;
+}
+
+.ocf__footnote {
+  /* in design guide: footnote 11px -> limited to smallest font size */
+  font-size: 0.75rem;
+}
+
+.ocf__caption {
+  /* in design guide: caption 1 14px */
+  font-size: 0.875rem;
+}
+
+.ocf__caption--small {
+  /* in design guide: caption 2 7px -> limited to smallest font size */
+  font-size: 0.75rem;
+}
+
+.ocf__link {
+  transition: all 0.2s;
+}
+
+.ocf__link--primary_in_dark_background,
+.ocf__link--primary_in_dark_background:link {
+  color: var(--ocf-primary);
+}
+
+.ocf__link--primary_in_dark_background:hover,
+.ocf__link--primary_in_dark_background:active {
+  color: var(--ocf-secondary_light);
+}
+
+.ocf__link--primary_in_dark_background:visited {
+  color: var(--ocf-primary)
+}
+
+.ocf__link--primary_in_light_background,
+.ocf__link--primary_in_light_background:link {
+  color: var(--ocf-primary);
+}
+
+.ocf__link--primary_in_light_background:hover,
+.ocf__link--primary_in_light_background:active {
+  color: var(--ocf-secondary_dark);
+}
+
+.ocf__link--primary_in_light_background:visited {
+  color: var(--ocf-primary)
+}
+
+.ocf__link--supportive_cyan,
+.ocf__link--supportive_cyan:link {
+  color: var(--ocf-supportive_cyan);
+}
+
+.ocf__link--supportive_cyan:hover,
+.ocf__link--supportive_cyan:active {
+  color: var(--ocf-secondary_light);
+}
+
+.ocf__link--supportive_cyan:visited {
+  color: var(--ocf-supportive_cyan);
+}
+
+.ocf__link--supportive_magenda,
+.ocf__link--supportive_magenda:link {
+  color: var(--ocf-supportive_magenda);
+}
+
+.ocf__link--supportive_magenda:hover,
+.ocf__link--supportive_magenda:active {
+  color: var(--ocf-secondary_light);
+}
+
+.ocf__link--supportive_magenda:visited {
+  color: var(--ocf-supportive_magenda);
+}
+
+.ocf__link--secondary_dark,
+.ocf__link--secondary_dark:link {
+  color: var(--ocf-secondary_dark);
+}
+
+.ocf__link--secondary_dark:hover,
+.ocf__link--secondary_dark:active {
+  color: var(--ocf-primary);
+}
+
+.ocf__link--secondary_dark:visited {
+  color: var(--ocf-secondary_dark);
+}
+
+.ocf__link--secondary_light,
+.ocf__link--secondary_light:link {
+  color: var(--ocf-secondary_light);
+}
+
+.ocf__link--secondary_light:hover,
+.ocf__link--secondary_light:active {
+  color: var(--ocf-secondary_white);
+}
+
+.ocf__link--secondary_light:visited {
+  color: var(--ocf-secondary_light)
+}
+
+.ocf__link--secondary_white,
+.ocf__link--secondary_white:link {
+  color: var(--ocf-secondary_white);
+}
+
+.ocf__link--secondary_white:hover,
+.ocf__link--secondary_white:active {
+  color: var(--ocf-primary);
+}
+
+.ocf__link--secondary_white:visited {
+  color: var(--ocf-secondary_white);
+}
+
+.ocf__button {
+  line-height: 1;
+  padding: 0.75em 1.5em;
+  transition: all 0.2s;
+}
+
+.ocf__button--primary {
+  background-color: var(--ocf-primary);
+  color: var(--ocf-secondary_white);
+  box-shadow: 0 0 0 3px var(--ocf-secondary_white);
+}
+
+.ocf__button--primary:hover {
+  color: var(--ocf-secondary_light);
+  box-shadow: 0 0 0 3px var(--ocf-secondary_light);
+}
+
+.ocf__button--primary_outline {
+  background-color: none;
+  color: var(--ocf-primary);
+  box-shadow: 0 0 0 3px var(--ocf-primary);
+}
+
+.ocf__button--primary_outline:hover {
+  background-color: var(--ocf-primary);
+  color: var(--ocf-secondary_white);
+}
+
+.ocf__button--supportive_cyan_outline {
+  background-color: none;
+  color: var(--ocf-supportive_cyan);
+  box-shadow: 0 0 0 3px var(--ocf-supportive_cyan);
+}
+
+.ocf__button--supportive_cyan_outline:hover {
+  background-color: var(--ocf-supportive_cyan);
+  color: var(--ocf-secondary_white);
+}
+
+.ocf__button--supportive_magenda_outline {
+  background-color: none;
+  color: var(--ocf-supportive_magenda);
+  box-shadow: 0 0 0 3px var(--ocf-supportive_magenda);
+}
+
+.ocf__button--supportive_magenda_outline:hover {
+  background-color: var(--ocf-supportive_magenda);
+  color: var(--ocf-secondary_white);
 }
 
 pre,
