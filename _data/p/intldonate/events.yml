@@ -18,6 +18,7 @@
     - szuhui
     - lulukeng
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
@@ -41,6 +42,7 @@
     - szuhui
     - lulukeng
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
@@ -63,6 +65,7 @@
     - szuhui
     - lulukeng
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
@@ -85,6 +88,7 @@
     - liyhs
     - szuhui
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
@@ -111,6 +115,7 @@
     - szuhui
     - liyhs
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
@@ -132,6 +137,7 @@
   contributor_ids: 
     - liyhs
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
@@ -153,5 +159,6 @@
   contributor_ids: 
     - liyhs
   project_ids:
+    - intldonate
   reports:
   reports_en:
