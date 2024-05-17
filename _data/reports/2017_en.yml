@@ -4,6 +4,7 @@ cover: /mediakit/cover2017.jpg
 color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
+alignment: center
 items:
   - type: header
     title: Community Support

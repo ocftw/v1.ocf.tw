@@ -1,4 +1,17 @@
 - id: admin
+  name: OCF 十週年：開源祭
+  name_en: OCF 10 Years：Open Culture Festival
+  description: 為慶祝開放文化基金會成立十週年，我們將於 9 月 14 日（六）在 Pipe Live Music（公館水岸廣場）舉辦「開源祭」主題活動。這場活動將是一個融合音樂與科技藝術的盛會，將邀請到林強、百合花、PUZZLEMAN、拷秋勤等知名音樂人進行精彩的表演，同時舉辦開放文化基金會十週年特展和主題講座。
+  start: 2024/09/16
+  end:
+  links:
+    - title: 活動報名
+      url: https://10years.ocf.tw
+  cover_image: /p/admin/2024/ocfestival.png
+  project_ids:
+    - admin
+
+- id: admin
   name: CONCOM 2024
   name_en: CONCOM 2024
   description: CONCOM（為 CONference for open COMmunities 的縮寫）期望創造一個交流與探索的空間，將開源相關社群/大會籌備團隊平常遇到的困難與需求提出與討論，使得各社群夥伴們長期累積的活動籌辦經驗、組織經營心得可以互相交流與分享，一同讓社群力量可以協力擴展。

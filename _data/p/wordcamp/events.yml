@@ -8,6 +8,8 @@
     - title: 活動官網
       url: https://taiwan.wordcamp.org/2023/
   cover_image: /p/wordcamp/wordcamp2023.jpg
+  project_ids:
+    - wordcamp
 
 - id: wordcamp
   name: WordCamp Taiwan 2021 
@@ -19,6 +21,8 @@
     - title: 活動官網
       url: https://taiwan.wordcamp.org/2021/
   cover_image: /p/wordcamp/wordcamp2021.PNG
+  project_ids:
+    - wordcamp
 
 - id: wordcamp
   name: WordCamp Taipei 2019 
@@ -32,3 +36,5 @@
     - title: 報名購票
       url: https://2019.taipei.wordcamp.org/tickets/
   cover_image: /p/2019/wordcamp/WCTPE2019-Key-Visual.png.png
+  project_ids:
+    - wordcamp

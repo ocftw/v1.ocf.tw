@@ -4,6 +4,7 @@ cover: /p/admin/2020/2020cover.png
 color:  
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.3
+alignment: center
 items:
   - type: content
     columns:

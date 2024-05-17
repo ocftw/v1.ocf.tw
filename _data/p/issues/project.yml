@@ -6,8 +6,8 @@ og_image: /p/issues/issues-og.png
 header_image: /p/issues/issues-cover.png
 avatar_image: /p/issues/issues-og.png
 links:
-  - title: CSOs 數位防禦手冊
-    url: https://digitalsecurityhandbook.ocf.tw/
+  - title: 閱讀與下載《關於開放科技—從原始碼、資料到政府：開放，如何塑造新時代數位社會
+    url: https://ocf.tw/p/issues/otguide
     icon:
   - title: 十年磨一法－－開放資料法制化卡在哪？
     url: https://ocf.tw/p/issues/10YrsOpenDataLegalization
@@ -29,8 +29,8 @@ links:
     icon:
 
 links_en:
-  - title: Digital security handbook for CSOs
-    url: https://digitalsecurityhandbook.ocf.tw/
+  - title: Open Technology - From Source Code, Data to the Government：How Open Shapes the Digital Society of the New Era
+    url: https://ocf.tw/en/p/issues/otguide
     icon:
   - title: Joint Statement
     url: https://ocf.tw/en/p/issues/joint
