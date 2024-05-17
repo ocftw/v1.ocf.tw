@@ -8,6 +8,8 @@
     - title: 活動官網
       url: https://asia.wordcamp.org/2024/
   cover_image: /p/wordcamp/WCA 2024.png
+  project_ids:
+    - wordcamp
 
 - id: wordcamp
   name: WordCamp Taiwan 2023 
