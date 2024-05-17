@@ -1,4 +1,15 @@
 - id: wordcamp
+  name: WordCamp Asia 2024 
+  name_en: WordCamp Asia 2024
+  description: WordCamp 象徵了開源領域的影響力與協作力，現今世界上有 43% 的網站都使用 WordPress 作為系統，代表了當代網路世界開創的基石與科技的未來。作為全球三大洲際級 WordCamp 之一，WordCamp Asia 站在這場網路潮流的浪頭，匯聚了所有喜愛 WordPress 的專業人士、創業家、科技領航者，一同歡慶與推動開源技術與數位創新的前進。
+  start: 2024/03/07
+  end: 2024/03/09
+  links:
+    - title: 活動官網
+      url: https://asia.wordcamp.org/2024/
+  cover_image: /p/wordcamp/2024/wordcamp asia 2024_logo.png
+
+- id: wordcamp
   name: WordCamp Taiwan 2023 
   name_en: WordCamp Taiwan 2023
   description: WordCamp 是由各地區用戶發起的非正式大會，討論 WordPress 這個打造全球超過 7500 萬個網站、自由開源的部落格軟體與之相關的話題。2006 年 Matt Mullenweg 在美國舊金山舉行了第一屆 WordCamp，從那時起，WordPress 社群已發起累計 1022 場 WordCamp，地點遍及 6 大洲、65 個國家與 75 個城市。
