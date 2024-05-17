@@ -1,4 +1,20 @@
 - id:
+  name: g0v 第貳拾肆次基礎建設松
+  name_en:
+  description: g0v 社群由「人、坑、松」組成，如何讓參與者容易串連協作，需要更多好用的工具與平台。因此揪松團啟動相關計畫，揪碼農筆農一起長期耕耘，希望透過常態經營基礎建設專案，能讓多中心的工作更有效能。本次將聚焦討論「g0v 基礎建設更新機制」，目前已有初步的草稿，想邀請社群貢獻者們一起共編、review，期待大家分頭進行、認領工作，共同度過充實的下午！
+  start: 2024/04/20
+  end:
+  links:
+    - title: 活動及報名資訊
+      url: https://g0v-jothon.kktix.cc/events/infrath24n
+    - title: 活動共筆
+      url: https://beta.hackfoldr.org/g0v-infras/
+  cover_image: https://t.kfs.io/upload_images/195861/IMG_8440_large.jpg
+  contributor_ids:
+  project_ids:
+    - g0vdathon
+
+- id:
   name: g0v hackath61n | 台灣零時政府第陸拾壹次龍來 Open Data Day 黑客松暨零時小學校 4th 專案孵化競賽決選日
   name_en:
   description: g0v 社群每兩個月舉辦一次黑客松，以資訊透明、開放成果、開放協作為核心，透過公民科技的力量，持續助力往社會共好的方向前進。本次 g0v 黑客松與 Open Data Day 同日開跑，活動地點在鄰近臺大後門的學新館二樓 SPACE M 空間，歡迎各界夥伴龍來黑客松！黑客松當天也將同步舉行「零時小學校 4th 專案孵化競賽決選」活動，邀請 13 組初選入圍團隊進行專案 Demo，擇優決選出 3 - 5 組獲獎團隊。歡迎大家前來給予現場團隊更多元的回饋！另邀請 Code for Japan 舉辦的「公民科技挑戰盃 U-22（Civictech Challenge Cup U-22）」獲獎團隊來到大松現場分享專案與學習歷程。參加者需同意遵守活動守則。
