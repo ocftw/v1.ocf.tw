@@ -3,7 +3,7 @@
   name: OCF 培訓工作坊：備份 3-2-1 與災後復原 
   name_en: 
   description: 1998年《玩具總動員2》上映前夕，某皮克斯員工曾誤刪整部工作檔，幸好當時有位同事因育嬰假遠距工作，筆電裡留下唯一倖存的備份檔。即時備份救世界，謹記「備份 321 」守則：同樣檔案存三份、儲存設備分兩個、所有東西別擺在同一空間。在本次的工作坊中，就複習備份 3-2-1 的知識與守則外，也會在工作坊中教你如何在事件發現後如何災後復原。
-  start: 2024/05/09
+  start: 2024/05/19
   links:
     - title: 活動網頁
       url: https://ocftw.kktix.cc/events/backup321
@@ -11,7 +11,7 @@
   contributor_ids:
     - leaf
     - toomore
-    - szuhui
+    - weichen
   project_ids:
     - csodefense
 
