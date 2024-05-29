@@ -19,7 +19,7 @@ start:
 end: 
 
 topic_ids:
-  - opentech
+  - tech
   - source
   - data
   - government
