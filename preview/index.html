@@ -11,9 +11,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet" />
-
-  <!--<link rel="stylesheet" href="/assets/libs/semantic/semantic.min.css"/>-->
-
   <link rel="stylesheet" href="./assets/fonts/chiron/css/vf.css" />
   <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.1-web/css/all.min.css" />
   <link rel="stylesheet" href="./index.css" />
@@ -21,22 +18,210 @@
 
 <body>
   <div id="homepage">
-    <div id="topbar">
-      <div class="spacer large"></div>
-      <div class="container">
-        <nav class="flex">
-          <a href="/" class="logo">
-            <img src="./assets/images/web_homepage_elements_logo_全稱紫.svg" alt="開放文化基金會 logo" />
-          </a>
-          <span class="flex_spacer"></span>
-          <ul id="horizontal_menu" class="flex">
-            <li><a href="/about" class="item">關於</a></li>
-            <li><a href="/ocf" class="item">基金會專案</a></li>
-            <li><a href="/community" class="item">社群專案</a></li>
-            <li><a href="/journal" class="item">活動</a></li>
-            <li>
-              <a class="item">資源</a>
-              <ul class="dropdown">
+    <div id="wrapper-pushable">
+      <div id="pushable">
+
+        <div id="topbar">
+          <div class="spacer large"></div>
+          <div class="container">
+            <nav class="flex">
+              <a href="/" class="logo">
+                <img src="./assets/images/web_homepage_elements_logo_全稱紫.svg" alt="開放文化基金會 logo" />
+              </a>
+              <span class="flex_spacer"></span>
+              <ul id="horizontal_menu" class="flex">
+                <li><a href="/about">關於</a></li>
+                <li><a href="/ocf">基金會專案</a></li>
+                <li><a href="/community">社群專案</a></li>
+                <li><a href="/journal">活動</a></li>
+                <li>
+                  <a>資源</a>
+                  <ul class="dropdown">
+                    <li><a href="">電子報</a></li>
+                    <li><a href="">新聞錦集</a></li>
+                    <li><a href="">關於本網站</a></li>
+                    <li><a href="">新訊 Blog</a></li>
+                    <li><a href="">OCF Lab</a></li>
+                  </ul>
+                </li>
+                <li><a href="/supportus">支持我們</a></li>
+              </ul>
+              <button id="toggle-sidebar"><i class="fa-solid fa-bars"></i></button>
+            </nav>
+          </div>
+        </div>
+
+        <div id="keyvisual">
+          <img src="./assets/images/web_homepage_elements_homepage_KV.png"
+            alt="充滿科技感的主視覺圖片，前景是開放文化基金會的 logo，背景是開源授權條款顯示於電腦螢幕上的照片" />
+        </div>
+
+        <div id="keyvisual_inner">
+          <div class="container">
+            <img class="decorator" src="./assets/images/level_one_kv_decorator_upper.svg" />
+          </div>
+          <div id="title_block">
+            <div class="container">
+              <h1>基金會專案</h1>
+            </div>
+          </div>
+          <div id="subtitle_block">
+            <p>13 個專案正在加速進行中！</p>
+          </div>
+          <div class="container">
+            <img class="decorator" src="./assets/images/level_one_kv_decorator_lower.svg" />
+          </div>
+        </div>
+
+        <main>
+          <section id="about">
+            <div class="container">
+              <div class="spacer xlarge"></div>
+              <h2>關於我們</h2>
+              <p class="primary small">(desktop 12px, mobile 9px) 自 2014 年創立以來，我們以法人做為組織形式，支持台灣 30
+                多個開放科技社群，在過程中，不僅是持續性的推廣開放科技概念，我們也開始參與政策倡議，為眾人的數位人權發聲，進而創建了一個在台灣發展開放科技的基地。這些成果並非由開放文化基金會獨立實現，而是透過科技社群和公民夥伴一起促使台灣的數位/網路環境變得更加公開、透明和公眾參與
+                — 不論這樣的參與是以個人、社群或是組織為名義。</p>
+              <div class="spacer xlarge"></div>
+              <h2>開放文化基金會（Open Culture Foundation，簡稱 OCF）</h2>
+              <p>(desktop 14px, mobile 13px) 自 2014 年創立以來，我們以法人做為組織形式，支持台灣 30
+                多個開放科技社群，在過程中，不僅是持續性的推廣開放科技概念，我們也開始參與政策倡議，為眾人的數位人權發聲，進而創建了一個在台灣發展開放科技的基地。這些成果並非由開放文化基金會獨立實現，而是透過科技社群和公民夥伴一起促使台灣的數位/網路環境變得更加公開、透明和公眾參與
+                — 不論這樣的參與是以個人、社群或是組織為名義。</p>
+              <div class="spacer xlarge"></div>
+            </div>
+          </section>
+
+          <section id="categories">
+            <div class="container">
+              <div class="spacer xlarge"></div>
+              <h2>專案成果</h2>
+              <div class="grid">
+                <a class="category" href="">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <span class="title"> 基金會<br />專案 </span>
+                </a>
+                <a class="category" href="">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <span class="title"> 社群<br />專案 </span>
+                </a>
+                <a class="category" href="">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <span class="title"> 近期<br />活動計畫 </span>
+                </a>
+              </div>
+            </div>
+            <div class="spacer xlarge"></div>
+          </section>
+
+          <section id="projects">
+            <div class="container">
+              <div class="spacer xlarge"></div>
+              <div class="grid">
+                <div class="project grid">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <article>
+                    <h3>企業數位人權</h3>
+                    <p>
+                      透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                    </p>
+                  </article>
+                </div>
+
+                <div class="project grid">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <article>
+                    <h3>企業數位人權</h3>
+                    <p>
+                      透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                    </p>
+                  </article>
+                </div>
+
+                <div class="project grid">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <article>
+                    <h3>企業數位人權</h3>
+                    <p>
+                      透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                    </p>
+                  </article>
+                </div>
+
+                <div class="project grid">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <article>
+                    <h3>企業數位人權</h3>
+                    <p>
+                      透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                    </p>
+                  </article>
+                </div>
+
+                <div class="project grid">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <article>
+                    <h3>企業數位人權</h3>
+                    <p>
+                      透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                    </p>
+                  </article>
+                </div>
+
+                <div class="project grid">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <article>
+                    <h3>企業數位人權</h3>
+                    <p>
+                      透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                    </p>
+                  </article>
+                </div>
+
+                <div class="project grid">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <article>
+                    <h3>企業數位人權</h3>
+                    <p>
+                      透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                    </p>
+                  </article>
+                </div>
+
+                <div class="project grid">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <article>
+                    <h3>企業數位人權</h3>
+                    <p>
+                      透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                    </p>
+                  </article>
+                </div>
+
+                <div class="project grid">
+                  <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
+                  <article>
+                    <h3>企業數位人權</h3>
+                    <p>
+                      透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="spacer xlarge"></div>
+          </section>
+        </main>
+
+      </div>
+      <div id="pusher">
+        <nav id="sidebar">
+          <ul>
+            <li><a href="/about">關於</a></li>
+            <li><a href="/ocf">基金會專案</a></li>
+            <li><a href="/community">社群專案</a></li>
+            <li><a href="/journal">活動</a></li>
+            <li id="resources">
+              <a>資源</a>
+              <ul>
                 <li><a href="">電子報</a></li>
                 <li><a href="">新聞錦集</a></li>
                 <li><a href="">關於本網站</a></li>
@@ -44,156 +229,14 @@
                 <li><a href="">OCF Lab</a></li>
               </ul>
             </li>
-            <li><a href="/supportus" class="item">支持我們</a></li>
+            <li><a href="/supportus">支持我們</a></li>
           </ul>
-          <button id="sidebar_toggle"><i class="fa-solid fa-bars"></i></button>
         </nav>
       </div>
     </div>
 
-    <div id="keyvisual">
-      <img src="./assets/images/web_homepage_elements_homepage_KV.png"
-        alt="充滿科技感的主視覺圖片，前景是開放文化基金會的 logo，背景是開源授權條款顯示於電腦螢幕上的照片" />
-    </div>
-
-    <div id="keyvisual_inner">
-      <div class="container">
-        <img class="decorator" src="./assets/images/level_one_kv_decorator_upper.svg" />
-      </div>
-      <div id="title_block">
-        <div class="container">
-          <h1>基金會專案</h1>
-        </div>
-      </div>
-      <div id="subtitle_block">
-        <p>13 個專案正在加速進行中！</p>
-      </div>
-      <div class="container">
-        <img class="decorator" src="./assets/images/level_one_kv_decorator_lower.svg" />
-      </div>
-    </div>
-
-    <main>
-      <section id="categories">
-        <div class="container">
-          <div class="spacer xlarge"></div>
-          <h2>專案成果</h2>
-          <div class="grid">
-            <a class="category" href="">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <span class="title"> 基金會<br />專案 </span>
-            </a>
-            <a class="category" href="">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <span class="title"> 社群<br />專案 </span>
-            </a>
-            <a class="category" href="">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <span class="title"> 近期<br />活動計畫 </span>
-            </a>
-          </div>
-        </div>
-        <div class="spacer xlarge"></div>
-      </section>
-
-      <section id="projects">
-        <div class="container">
-          <div class="spacer xlarge"></div>
-          <div class="grid">
-            <div class="project grid">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <article>
-                <h3>企業數位人權</h3>
-                <p>
-                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
-                </p>
-              </article>
-            </div>
-
-            <div class="project grid">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <article>
-                <h3>企業數位人權</h3>
-                <p>
-                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
-                </p>
-              </article>
-            </div>
-
-            <div class="project grid">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <article>
-                <h3>企業數位人權</h3>
-                <p>
-                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
-                </p>
-              </article>
-            </div>
-
-            <div class="project grid">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <article>
-                <h3>企業數位人權</h3>
-                <p>
-                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
-                </p>
-              </article>
-            </div>
-
-            <div class="project grid">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <article>
-                <h3>企業數位人權</h3>
-                <p>
-                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
-                </p>
-              </article>
-            </div>
-
-            <div class="project grid">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <article>
-                <h3>企業數位人權</h3>
-                <p>
-                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
-                </p>
-              </article>
-            </div>
-
-            <div class="project grid">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <article>
-                <h3>企業數位人權</h3>
-                <p>
-                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
-                </p>
-              </article>
-            </div>
-
-            <div class="project grid">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <article>
-                <h3>企業數位人權</h3>
-                <p>
-                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
-                </p>
-              </article>
-            </div>
-
-            <div class="project grid">
-              <img src="./assets/images/web_homepage_elements_What_upcoming events.png" alt="即將舉辦的活動" />
-              <article>
-                <h3>企業數位人權</h3>
-                <p>
-                  透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。透過資助、培育、合作等方式，推動開放文化的發展，並協助社會各界共同參與開放文化的推動。
-                </p>
-              </article>
-            </div>
-          </div>
-        </div>
-        <div class="spacer xlarge"></div>
-      </section>
-    </main>
+    <script src="./assets/javascript/jquery-3.7.1.slim.min.js"></script>
+    <script src="./assets/javascript/preview.js"></script>
   </div>
 </body>
 

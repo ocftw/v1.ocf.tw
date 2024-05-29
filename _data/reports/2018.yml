@@ -4,6 +4,7 @@ cover: /p/admin/2018/report_壓縮1.png
 color: blue
 cover_image_opacity: 0.9 
 cover_veil_opacity: 0.1
+alignment: center
 items:
   - type: image_header
     anchor: admin

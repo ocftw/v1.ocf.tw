@@ -43,6 +43,9 @@ links:
   - title: FOSDEM 2024 活動紀錄
     url: /p/global/fosdem-2024
     icon: plane
+  - title: FOSDEM 2024 出訪報告
+    url: https://docs.google.com/document/d/1uUR2vXIiYFuU5KqF2653PUS4z35_P3p4exLGc_M955Y/edit#heading=h.9y258y1gjxgx
+    icon: plane
 
 organizer_ids:
   - ocf

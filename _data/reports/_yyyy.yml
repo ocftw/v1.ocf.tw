@@ -33,6 +33,9 @@ cover_image_opacity: 0.9
 cover_veil_opacity: 0.3
 # 蓋在頁首的背景圖片上方的黑色薄紗的透明度，可填入 0 到 1 之間的數字，若或留空，會採用預設值 0.3
 
+alignment: left / center / right
+# 此頁 article / iframe 欄的文字對齊方向，若留白則採用預設值 left
+
 items:
   # 以下每個項目代表一個簡報區塊
 
@@ -194,6 +197,9 @@ items:
         swap: true / false
         # 此欄的位置在桌面板網頁上是否要左右對調，預設為 false
 
+        alignment: left / center / right
+        # article 欄的文字對齊方向，若留白則採用頁面設定，若頁面設定也留白則採用預設值 left
+
         title: text
         # article 欄的標題，必填
 
@@ -260,6 +266,9 @@ items:
 
         height: (css height)
         # iframe 欄的高度，可視內嵌網頁長度而調整
+
+        alignment: left / center / right
+        # iframe 欄的文字對齊方向，若留白則採用頁面設定，若頁面設定也留白則採用預設值 left
 
         title: text
         # iframe 欄的標題

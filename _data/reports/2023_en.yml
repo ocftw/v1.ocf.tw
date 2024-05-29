@@ -1,0 +1,383 @@
+title: 2023 Annual Report | Open Culture Foundation
+description: Co-create the digital future
+cover: /p/admin/2023/b-2023main.png
+theme: dark
+color:
+cover_image_opacity:
+cover_veil_opacity:
+alignment: left
+items:
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: As the first full-time employee of OCF, I have grown with the organization from its inception to its current state, witnessing the development of OCF from a one-person team to now having 17 full-time staff members. Starting from providing administrative and logistical support to open source communities, the scope of OCF's services has gradually expanded. With the goal of nurturing a vibrant open source ecosystem, we promote our ideals to civil society, while also advocating to the government and engaging in international exchanges to popularize and implement open source culture.<br>Since the foundation in early 2014, it has been 9 years filled with fulfillment and challenges. I am deeply grateful to all supporters who have walked with OCF, allowing us to continue our work in the areas of open source, open government, open data, digital rights, and internet freedom, achieving many significant accomplishments.<br>After the pandemic was brought under control, communities both domestically and internationally seemed to awaken from a long hibernation - not only did physical events make a return, but there was also an increase in integrated online and offline interactions. In 2023, OCF connected more deeply and widely with the open world. Allow me to report on OCF's six major strategic actions and the remarkable results we have achieved through several key figures.
+        items:
+      - type: image
+        url: /p/admin/2023/b-sign-en.png
+
+  #六大行動
+  - type: image_header
+    cover: /p/admin/2023/b-6b-en.png
+    cover_image_alt: Major Strategic Actions
+
+  #社群支援
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: Communities Supporting<br><br>＊Assisted 43 communities, pioneering a service model for supporting crowdfunding campaigns.
+        description: As a foundation, OCF supports the open source communities by providing administrative and financial management support for community projects. Moreover, OCF continuously explores innovative service models. In collaboration with "CCWatch", we established a crowdfunding service model for OCF and open source projects, offering more diverse and flexible options for the open source communities.
+        items:
+      - type: image
+        url: /p/admin/2023/b-43c.png
+  #人才培訓
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: Talents Training<br><br>＊Collaboratively nurtured 16 interns with the communities.<br><br>＊Awarded scholarships to 7 open technology seeded players for international exchanges.
+      - type: image
+        url: /p/admin/2023/b-16int.png
+  - type: content
+    columns:
+      - type: article
+        description: OCF collaborated with 6 open source communities on internship programs, providing students with opportunities to explore open source technologies and advocacy. In these internship programs, OCF not only guided interns in exploring careers related to open source, but also served as a platform to highlight the internship opportunities offered by various open source communities, ensuring smooth administrative procedures like issuing internship certificates.
+      - type: article
+        description: Through scholarship programs, OCF funded civic groups that have been deeply involved in the open source community and digital rights field for many years, as well as contributors concerned with openness and democracy, encouraging them to travel abroad for exchanges, broaden their horizons, and establish connections between Taiwan and global communities.
+
+
+  #知識分享
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: Knowledge Sharing<br><br>＊Hosted and participated in 83 events, promoting open culture to citizens, governments, and businesses.
+        description: OCF through lectures, meetings, booths, and other forms, bringing the spirit of open source, open government, open data, digital rights, and internet freedom to people from various fields, continually connecting a diverse range of stakeholders to promote the prosperity of an open world.
+      - type: image
+        url: /p/admin/2023/b-83a.png
+  #監督倡議
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: Monitoring and Advocacy<br><br>＊Attended 15 consultation meetings, bringing the spirit of open collaboration into the public sector.
+        description: OCF is one of the civilian conveners for the Open Parliament initiative and serves as an open data consultant for three government ministries and a civilian member of the open government committee for two ministries. Through these roles, we assist the government in building a culture of open collaboration and urge public departments to implement measures related to open government and digital rights.
+      - type: image
+        url: /p/admin/2023/b-15mg.png
+  #國際串連
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: International Networking<br><br>＊Participated in 21 international conferences, connecting Taiwan with global trends.
+        description: OCF connects domestic open source communities and civic groups, bringing news and current status of digital rights, open government, and open source in Taiwan to international conferences, establishing a network of cooperation between Taiwan and international communities. 
+      - type: image
+        url: /p/admin/2023/b-21int.png
+  #開源推廣
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: Promotion of Open Source<br><br>＊Organized 13 open source culture promotional events, guiding over 200 people to engage with the open source world.
+      - type: image
+        url: /p/admin/2023/b-13os.png
+
+  - type: content
+    columns:
+      - type: article
+        description: OCF collaborated with professors from four different departments to develop open source promotional materials, encapsulated in the fun of the board game 'OpenStartTerVillage.' Coupled with the leadership and workshops held at the 'Open Source Contributors Conference' by OCF, we have reached over 200 newcomers, opening the door to the open source world for them.
+      - type: article
+        description: As OCF approaches its tenth year, we will continue to connect resources in the open world, striving to be a solid backing for Taiwan's open source community, together creating a thriving open source ecosystem and a civil society that safeguards digital rights and internet freedom.
+
+  - type: image_header
+    cover: /p/admin/2023/b-bd-en.png
+    cover_image_alt: Branding Design
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: The new brand logo is inspired by the Open Culture Foundation's slogan - "Co-create the digital future". OCF aspires to promote social development, protect individual digital rights, and foster open cooperation between the government and society. Thus, the new brand logo uses underlines to mimic the interface of digital encoding, presenting these aspects through the logo to directly reflect the organization's mission, not just as a visual symbol, but also embodying its commitment to connecting the digital world.
+      - type: image
+        url: /p/admin/2023/b-ci.png
+#組織架構圖
+  - type: image_header
+    cover: /p/admin/2023/b-org-en.png
+    cover_image_alt: Organizational Structure Chart
+  - type: image_header
+    anchor: 
+    cover: /p/admin/2023/org-en.png
+    cover_image_alt: Organizational Structure Chart
+    background_color:
+    button:
+
+
+#大事記
+  - type: image_header
+    cover: /p/admin/2023/b-mt-en.png
+    cover_image_alt: Milestones
+
+  - type: content
+    columns:
+      - type: article
+        title: 3-4 FEB - Participated in <a href="https://archive.fosdem.org/2023/" target=_blank>FOSDEM (Free and Open Source Software Developers' European Meeting)</a>, bringing back global trends. 
+        description: FOSDEM is the world’s largest annual meeting for open source enthusiasts. OCF sent delegates and called upon the Taiwanese open-source community to participate together, promoting Taiwanese open-source achievements with a booth at the event.
+      - type: article
+        title: 8 APR - <a href="https://ocftw.kktix.cc/events/citizenseminar" target=_blank>Digital Citizenship Seminar</a> - Identify Threats and Build up Defense was held to deepen Taiwan's democracy. 
+        description: Aiming to strengthen Taiwan's digital resilience against digital authoritarianism, OCF invited internationally renowned scholar Charles Mok, Commissioner Yung-Cheng Kao from Taiwan's National Human Rights Commission, and civil organization workers from both domestic and international spheres for discussions at this conference.
+
+  - type: content
+    columns:
+      - type: article
+        title: 22-26 MAY - Participated in the <a href="https://engagemedia.org/projects/drapac23/" target=_blank>Digital Rights Asia-Pacific</a>, bringing international knowledge back to Taiwan. 
+        description: OCF joined the planning committee for this event with EngageMedia, co-organizing a gathering specifically designed for Asia-Pacific partners—Digital Rights Asia-Pacific 2023. This event convened civil society organizations and expert scholars from various regions to exchange knowledge and establish collaborative networks.
+      - type: article
+        title: 16 JUL - Our first <a href="https://ocftw.kktix.cc/events/ocf-summer-2023" target=_blank>interdisciplinary art party</a> was held, reflecting on technology and privacy issues through artistic creation. 
+        description: To spread the digital rights and privacy issues promoted by OCF more widely, OCF collaborated with the art team Sāngs Taipei for an interdisciplinary cooperation, organizing a summer party that combines art and technology. Through performing arts and interactive installations, participants gained a deeper understanding of the relationship between technology and privacy.
+
+  - type: content
+    columns:
+      - type: article
+        title: 29-30 JUL - <a href="https://blog.coscup.org/" target=_blank>COSCUP (Conference for Open Source Coders, Users, and Promoters)</a> featured orientation and guided activities, serving as trailblazers for open source newcomers. 
+        description: OCF believes that contributors from diverse backgrounds can foster a thriving open-source ecosystem, which requires making open source culture more accessible beyond echo chambers. Therefore, at the 'Open Source Contributors Conference,' OCF set a precedent by combining introductory lectures, on-site tours, and board game workshops to guide newcomers more quickly in finding opportunities to participate in communities and contribute to open source."
+      - type: article
+        title: 6-8 SEP - Participated in the <a href="https://www.opengovpartnership.org/events/2023-ogp-global-summit-tallinn-estonia/" target=_blank>Open Government Partnership Global Summit</a>, bringing Taiwan's Open Parliament experience to the international stage. 
+        description: More than three years have passed since Taiwan released the Taiwan Open Parliament Action Plan according to the standards of the Open Government Partnership (OGP). As a civil society convener, OCF, along with partner organizations and the Legislative Yuan, strived to organize peripheral forums at the summit to exchange experiences of public-private collaboration with partners from various countries.
+
+  - type: content
+    columns:
+      - type: article
+        title: 27 SEP - Attended the 131st Open Government Collaboration Meeting 'Guidelines for Data Altruism,' protecting people's privacy. 
+        description: In this discussion meeting on the government's internal guideline draft, OCF raised concerns about creating the term “Data Altruism,” which could lead to ambiguous positioning of personal information; concurrently, there was an anticipation for concrete data governance and regulatory mechanisms. We called on the government to prioritize planning to protect individuals' autonomy and privacy regarding their personal data.
+      - type: article
+        title: 4-5 OCT - Served as a speaker at the <a href="https://www.igf.org.tw/?page_id=8337" target=_blank>Taiwan Internet Governance Forum</a>, calling for attention to digital rights. 
+        description: In this forum aimed at promoting the sustainability, integrity, safety, and development of the internet, OCF spoke up for the digital rights of the people, hoping to raise awareness among the government, corporations, and the public about the risks associated with AI, technology, and data usage, and to implement protections for people's privacy and data autonomy.
+
+  - type: content
+    columns:
+      - type: article
+        title: 22 Nov - At the public hearing for the draft of the Act on the Development of Digital Healthcare, OCF called on the government to establish a dedicated authority for personal data protection to implement the protection of personal information. 
+        description: OCF expressed several concerns about the draft's provisions for personal data protection, including the lack of full implementation of people's 'informed consent' and 'right to opt-out.' OCF urged the regulatory authorities to not only assess the clinical benefits when evaluating machine learning-based medical software but also to regulate the responsibilities associated with data collection and usage.
+      - type: article
+        title: 8-9 DEC - Participated in the 'Open Source Compliance Summit,' leveraging international exchanges to overcome the challenges faced by Taiwan in promoting open source. 
+        description: Many companies struggle with the unfamiliarity of open-source program licensing and management, placing them at risk of cybersecurity breaches and litigation. At the Open Source Compliance Summit in Tokyo, OCF exchanged ideas with partners from various countries, bringing back the latest international information to Taiwan to assist local enterprises in better utilizing open-source programs and establishing a trustworthy product supply chain.
+
+
+  #五大領域
+
+  - type: image_header
+    cover: /p/admin/2023/b-5a.png
+    cover_image_alt: 5Areas
+  - type: content
+    columns:
+      - type: article
+        title:
+        description: To fulfill the mission of establishing a digital civil society and addressing various threats in the digital age, OCF is dedicated to promoting openness and sharing in the digital domain. Specifically, we advocate for the philosophy of open source, making the development and application of technology inclusive of diverse and integrated voices through public collaboration. At the same time, we are committed to realizing the open sharing and interoperability of data, as well as using digital technology to promote more open and transparent digital governance.
+      - type: image
+        url: https://ocf.tw/en/p/5areas_EN.png  
+  - type: content
+    columns:
+      - type: article
+        description: As OCF approaches its tenth year, we reflect on our accumulated experiences, assembling issues of concern to the open-source community, the needs of civic groups for strengthened digital security, and the desire to open the doors to government collaboration. We have formulated OCF’s advocacy directions for the next 5-10 years and are set to launch the 'Open Technology White Paper' in 2024. It will clearly articulate the evolution of open-source culture from technology and data to political participation, laying the foundation for the popularization of open-source culture. These advocacy directions will be gradually implemented through six major action strategies：community support, talent training, knowledge sharing, monitoring and advocacy, international networking, and promotion of open source.
+      - type: article
+        description: OCF continues to diligently promote the following five core areas, hoping that through these achievements, we can inspire public participation and collectively build an open, inclusive, and innovative digital civil society. We believe that these efforts can help society address the various challenges of the digital age, establishing a more equitable and sustainable future.
+
+    
+
+  #開放原始碼
+  - type: image_header
+    cover: /p/admin/2023/b-oss-en.png
+    cover_image_alt: Open Source
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: Aiming to establish a positive cycle of contribution and reciprocation, OCF actively promotes the value of open source to the government, enterprises, communities, and individual citizens, hoping to create a positive cycle of 'contributors give, users reciprocate.<br><br>To avoid reinventing the wheel and ensure that government websites and digital services funded by taxpayer money are truly known and used by the public, OCF collaborates with the Ministry of Digital Affairs (MODA) on research. This involves collecting case studies from the UK, the USA, and Germany, compiling opinions from domestic industry, government, academia, and implementers, and attempting to propose policy recommendations for government procurement that implement the principle of Public Money, Public Code. Since 2022, OCF has also worked with the Digital Department, Steps Software Incorporation, and translators from the open source community to translate 7 internationally used open-source projects to lower the barriers to local use.<br><br>
+      - type: image
+        url: /p/admin/2023/FOSDEM2023.JPG
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: To address the issue of enterprises being unfamiliar with open source licensing and management, OCF promotes the Linux Foundation's ISO/IEC 5230 and ISO/IEC 18974, two sets of international standards, to Taiwanese enterprises to establish a trustworthy open source software supply chain.<br><br>Furthermore, OCF awards scholarships to open source contributors for international exchanges and collaborates with communities to mentor interns, hoping to encourage the thriving development of communities through talent cultivation. We have also developed a set of educational materials for promoting open source culture in an entertaining way, guiding more newcomers from non-technical fields to engage in the open source ecosystem.
+      - type: image
+        url: /p/admin/2023/occ.png
+  #開放政府與國會
+
+  - type: image_header
+    cover: /p/admin/2023/b-ogp-en.png
+    cover_image_alt: Open Government
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: The open collaboration in open source culture echoes the elements of transparency, participation, accountability, and inclusion advocated by open government, aligning with OCF's goal of using open technology to promote public-private collaboration and establish channels for civic participation in public discourse.<br><br>Since Taiwan drafted two sets of action plans for open government and open parliament in 2020 in accordance with the Open Government Partnership (OGP), OCF has continuously monitored their progress. Not only has OCF delegated members to serve as civil society members of the Executive Yuan's Taiwan Open Parliament Action Plan, but it has also provided recommendations for the National Development Council's visits to OGP summits. Furthermore, OCF has served as a civil society convener for the 'Open Parliament National Action Plan,' facilitating dialogue and cooperation between the Legislative Yuan and civil society.
+      - type: image
+        url: /p/admin/2023/ogp11.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title:
+        description: In the parliamentary aspect, since the Taiwan Open Parliament Action Plan was passed in 2021 with the support of various party caucuses, OCF has been pleased to see that legislative officials have gradually developed the habit of opening documents and collaborating with the public, laying a solid foundation for an open parliament. How should we take the next step towards an open parliament? OCF and other civil members successfully secured the opportunity to organize peripheral activities at the OGP Summit. Through international exchanges, they explored ways to increase the actual participation rate of legislators and leveraged international attention to advocate for the Taiwanese government, the Legislative Yuan, and civil society to value open culture.
+      - type: image
+        url: /p/admin/2023/opengov.jpg
+
+  #開放資料
+  - type: image_header
+    cover: /p/admin/2023/b-od-en.png
+    cover_image_alt: Open Data
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: OCF, firmly believing in open values, also spares no effort in promoting open government data. Besides advocating for the establishment of comprehensive open data policies to facilitate cross-agency and civil use, OCF also calls on the government to strengthen privacy protection and remedial measures. Only by safely and reasonably opening up data can we truly benefit citizens.
+      - type: image
+        url: /p/admin/2023/opdata.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: To achieve this goal, OCF serves as an open data consultant for the Veterans Affairs Council, Ministry of National Defense, and Ministry of Health and Welfare, and actively participates in the Legislative Yuan's open data consultation meetings. OCF provides suggestions for improvement from the perspective of civil groups and open data experts to various government agencies. OCF also expressed its stance on defending the public's data autonomy and privacy protection at the draft of the Guidelines for Data Altruism collaboration meeting and the Legislative Yuan's Health and Welfare Committee's public hearing on the 'Draft Act on the Development of Digital Healthcare'.<br><br>OCF continues to bring the voice of the open-source community into government consultation meetings, hoping to exert influence on our country's data governance policies through advocacy to the government while promoting open data. This aims to protect the fundamental rights of the public to access data, data autonomy, and privacy protection.
+      - type: image
+        url: /p/admin/2023/med.png
+
+  #數位人權
+  - type: image_header
+    cover: /p/admin/2023/b-dr-en.png
+    cover_image_alt: Digital Rights
+    columns:
+      - type: article
+        swap: true
+        title: 
+        description: OCF focuses on enhancing corporate digital rights responsibilities, strengthening the digital defense capabilities of civil society, and promoting international collaboration on digital rights.<br><br>To encourage enterprises to improve policy transparency, OCF took the lead in introducing international standards and studied the performance of 20 representative Taiwanese businesses in terms of privacy protection, corporate governance, and freedom of speech. The report covers industries such as human resources banks, social media, e-commerce, and telecommunications companies. We actively promote the results domestically and internationally, introducing the concept of corporate digital rights. This initiative led to discussions with four companies about digital rights-related corporate policies, with two of them beginning to amend their terms.
+      - type: image
+        url: /p/admin/2023/prii.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: true
+        title:
+        description: To help civil society defend against digital attacks, OCF developed materials and syllabuses for digital transformation tailored to civic groups, conducted 5 training courses specifically designed for these groups, and facilitated understanding between the technology community and civic groups regarding their cybersecurity needs to ensure adequate technical support.<br><br>Furthermore, OCF collaborated with nearly 70 international organizations, accumulating over 27 lectures/forums to discuss issues such as personal data protection during the pandemic, the rise of digital authoritarianism, and internet freedom. OCF is committed to sharing Taiwan's experiences and achievements in the digital rights field with the international community, enhancing international cooperation and exchange.
+      - type: image
+        url: /p/admin/2023/RDRtw_logo_All.png
+
+  #網路自由
+  - type: image_header
+    cover: /p/admin/2023/b-if-en.png
+    cover_image_alt: Internet Freedom
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: With the goal of raising public awareness about digital privacy and encouraging government and businesses to focus on issues related to internet freedom, OCF has continued the tradition of hosting monthly Internet Freedom Meetups since September 2019. These meetups create a space where enthusiasts concerned with surveillance and privacy, the spread of misinformation, and the data management responsibilities of internet platforms can freely discuss these topics. In 2024, by transforming collaborative notes into short videos, the discussions from these meetups, which can only accommodate 20-30 people, are made accessible to a broader audience.
+      - type: image
+        url: /p/admin/2023/ifm.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title:
+        description: By serving as a panelist in three sessions at the Taiwan Internet Governance Forum, OCF and the open-source community have brought issues of personal data protection and digital security to experts, scholars, government agencies, and corporate representatives. Additionally, as a community partner of OONI (Open Observatory of Network Interference), OCF proactively shared the phase results of Taiwan's observation data, finding that the limited scope of data made it difficult to reflect the internet landscape of Taiwan. In the future, OCF will collaborate with the Taiwan Network Operators' Group community to help improve the installation and observation results of OONI in Taiwan.
+      - type: image
+        url: /p/admin/2023/oonirep.png
+#財務
+  - type: image_header
+    cover: /p/admin/2023/b-fa-en.png
+    cover_image_alt: Financial Report
+
+  - type: image_header
+    anchor: 
+    cover: /p/admin/2023/fin-1-en.png
+    cover_image_alt: 
+    background_color:
+    button:
+  - type: image_header
+    anchor: 
+    cover: /p/admin/2023/fin-2-en.png
+    cover_image_alt: 
+    background_color:
+    button:
+  - type: content
+    single_column: true
+    alignment: center
+    columns:
+      - type: image
+        url: /p/admin/2023/fin-3-en.png
+
+  - type: content
+    single_column: true
+    alignment: center
+    columns:
+      - type: image
+        url: /p/admin/2023/fin-4-en.png
+
+#感謝
+  - type: image_header
+    cover: /p/admin/2023/b-tks-en.png
+    cover_image_alt: Thank you
+
+  - type: image_header
+    anchor: 
+    cover: /p/admin/2023/b-tks.png
+    cover_image_alt: 
+    background_color:
+    button:
+
+  - type: content
+    columns:
+      - type: article
+        title:
+        description: The support and companionship of our supporters, and the cooperation and care from the open-source community, are what power OCF through various challenges on the path to promoting open culture. In 2023, OCF worked hard to connect every corner of the open world—technology communities and civic groups, government and civil society, domestic and international communities—because we believe that walking together as a group can take us further and allow us to see more than just one organization pushing forward on its own. Openness, collaboration, and sharing enable us to build a more sustainable and resilient digital society.
+      - type: article
+        logo_height: 7rem
+        logos:
+          - org_id: archilife
+          - org_id: gss        
+  - type: content
+    columns:
+      - type: article
+        title: 
+        swap: true
+        description: Board members：Bobchao、Clkao、Honki、KC、Pofeng<br>Consultants：Dongpo Deng, irvinfly, Isabel Hou, Kaia, Lucien, Miaoski<br>Staff：Amos、Anima、BQ、Claire、Jin、Joshua、Rock、Singing、Toomore、Weichen、Wenny、William、Yanyiyi、小ㄐ、阿欣、葉子、盈萱、愛馬<br>Alumni：Huangfu、Lulu<br>Interns：麗雅、子杰、宥岑、軒睿、Verena、Howard、楷祐、承昊、冠翰、柏竣、峻誠、懋軒、Dennis、宜萍、沁柔<br>and all the passionate volunteers!
+      - type: image
+        url: /p/admin/2023/group2023.png
+
+  - type: content
+    columns:
+      - type: article
+        title: OCF 10 years：Open Culture Festival
+        swap: false
+        description: To celebrate the tenth anniversary of the Open Culture Foundation, we will be hosting an 'Open Culture Festival' on September 14, 2024. We sincerely invite all supporters and community partners to join us in reviewing the development journey of the open-source community in Taiwan and looking forward to the diverse applications and development of open-source technology.<br><br>In the coming years, we ask for your continued support as we embark on OCF's first decade together!<br><br>＊Open Culture Festival：A Special Event Celebrating the Tenth Anniversary of the Open Culture Foundation<br>＊DATE｜2024/9/14<br>＊LOCATION｜Pipe Live Music + Gongguan Riverside Plaza<br>＊Info.｜<a href="https://10years.ocf.tw/">10years.ocf.tw</a>
+      - type: image
+        url: /p/admin/2023/429edm-small.jpg
+
+  - type: content
+    columns:
+      - type: article
+        title: Follow us on social media! 
+        items:
+          - title: <a href="https://lihi.cc/NKpPE" target=_blank><i class="facebook icon"></i>Facebook</a>
+          - title: <a href="https://twitter.com/ocftaiwan" target=_blank><i class="twitter icon"></i>X (Twitter)</a>
+      
+      - type: article
+        title: Subcribe EDMs! 
+        items:
+          - title: <a href="https://ocf.tw/news/" target=_blank><i class="paper plane icon"></i>OCF epaper</a>
+        swap: false
