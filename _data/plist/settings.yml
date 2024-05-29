@@ -22,6 +22,9 @@
   name: 議題
   name_en: Issues
   items:
+    - id: tech
+      name: 開放科技
+      name_en: Open Technology
     - id: source
       name: 開放源碼
       name_en: Open Source
