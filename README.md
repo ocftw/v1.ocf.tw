@@ -257,7 +257,7 @@ TODO: 目前為舊版（2016）網站架構，將來視情況看要不要替新�
 ### 程式
 
 ```
-$ gem install jekyll
+$ gem install jekyll -v 3.9.5
 $ gem install jekyll-redirect-from
-$ jekyll serve
+$ jekyll _3.9.5_ serve --watch
 ```
