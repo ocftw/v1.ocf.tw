@@ -7,7 +7,7 @@ description_en: OCF helps Taiwan’s open source community deal with tedious adm
 og_image: /mediakit/cover.png
 header_image: /mediakit/cover_bg.png
 avatar_image: /mediakit/avatar.jpg
-theme_color: teal
+theme_color: violet
 
 start: '2014'
 end: 
@@ -20,20 +20,20 @@ field_ids:
 actions: 
   - title: 單次捐款
     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8
-    color: yellow
+    color: magenda
     icon: dollar
   - title: 長期認養：一起讓科技改變世界
     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=7
-    color: green
+    color: cyan
     icon: dollar
 actions_en: 
   - title: One-off Donation
     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=8
-    color: yellow
+    color: magenda
     icon: dollar
   - title: Monthly Donation
     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=7
-    color: green
+    color: cyan
     icon: dollar
 
 organizer_ids:
