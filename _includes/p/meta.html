@@ -33,6 +33,12 @@
 <h2 class="ui center aligned small header">
   {% include p/name.html return='string' %}
 </h2>
+<!-- 專案簡介 -->
+{% if project_description %}
+<p>
+  {{ project_description }}
+</p>
+{% endif %}
 
 <!-- 專案 meta 資訊 -->
 
