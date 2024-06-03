@@ -1,179 +1,105 @@
-# 2020 版專案資料範本
 
 name: 子專案名稱（必填）
-# 專案的中文正式名稱，會顯示在專案列表頁、專案頁、活動頁
 name_en: Project name
-# 英文版網頁用
 
 description: 用一段話簡單介紹這個專案（必填）
-# 專案描述，會出現在專案列表頁、專案頁
 description_en: Introduce the project in one paragraph
-# 英文版網頁用
 
 abbr: text
-# 專案的簡稱，若有，會出現在成果報告頁
-# 201701 update: 成果報告頁改為顯示專案全名，此欄位目前沒用處
 abbr_en: text
-# 英文版網頁用
 
 tagline: text
-# 專案的標語，若有，會出現在專案頁上方，顯示為副標
 tagline_en: text
-# 英文版網頁用
 
 og_image: /p/project_id/cover.png
-# og_image: url
-# 專案的預覽縮圖，會出現在專案列表頁、sns 連結預覽
-# 選用長寬比接近 facebook og image 的圖片（1200 x 630）
 og_image_en: /p/project_id/cover_en.png
-# 英文版網頁用
 
 header_image: /p/project_id/header.png
-# header_image: url
-# 專案頁首的底圖，若有，會出現在專案頁、活動頁
-# 選用長寬比接近長條形的圖片（1400 x 300）
 header_image_en: /p/project_id/header_en.png
-# 英文版網頁用
 
 avatar_image: /p/project_id/avatar.png
-# avatar_image: url
-# 專案的 avatar 圖檔網址，若有，會出現在專案頁的右側邊欄
-# 選用長寬比接近正方形的圖片
 avatar_image_en: /p/project_id/avatar_en.png
-# 英文版網頁用
 
 theme_color: teal
-# theme_color: text
-# 專案頁與所屬活動頁的布景顏色，若留空，則會採用黑色
-# 填入 semantic ui inverted segment 的顏色 class name 如 teal / pink / blue / green / red ... 等
-# semantic ui 顏色名稱請參考： http://semantic-ui.com/elements/segment.html#colored
 
 start: yyyy/mm/dd
-# 專案開始日期，若留空，視為此專案自宇宙大霹靂以來就存在
 end: yyyy/mm/dd
-# 專案結束日期，若留空，視為此專案正在進行中
 
 type_ids:
-# 專案採用的業務類型，會出現在專案列表頁，內容詳 settings
   - id
 topic_ids:
-# 專案牽涉的議題，會出現在專案列表頁，內容詳 settings
   - id
 field_ids:
-# 專案牽涉的專頁領域，會出現在專案列表頁，內容詳 settings
   - id
 tags:
-# 專案關鍵字標籤，若有，會出現在專案列表頁
   - text
 tags_en:
-# 英文版網頁用
   - text
 
 metas:
-# 額外的 meta 資訊，若有，會出現在專案頁的右側邊欄
   - label: text
-    # 標籤名稱，限五個中文字以內
     content: text
-    # 標籤內容，長度不限
 metas_en:
-# 英文版網頁用
   - label: text
-    # 標籤名稱，盡量短
     content: text
 
 links:
-# 專案相關連結，出現在專案頁側邊欄、專案列表頁、活動頁、行政中心的計畫成果列表
   - title: text
-    # 連結要顯示什麼名稱
     url: url
-    # 連結要指向哪裡
-    icon: (semantic ui icon / font awesome free icon)
-    # 按鈕文字前的 icon，可使用任一 semantic ui 或 font awesome 免費版的 icon。
-    # semantic ui icons: http://semantic-ui.com/elements/icon.html
-    # font awesome free icons: https://fontawesome.com/icons?d=gallery&m=free
+    icon: (semantic ui icon)
 links_en:
-# 英文版網頁用
   - title: text
     url: url
-    icon: (semantic ui icon / font awesome free icon)
+    icon: (semantic ui icon)
 
 actions:
-# 專案頁的 call to action，可以是按鈕或一段文字，會出現在專案頁側邊欄
   - title: text
-    # 按鈕上的文字
     url: url
-    # 按下後會連去哪裡
-    icon: (semantic ui icon / font awesome free icon)
-    # 按鈕文字前的 icon，可使用任一 semantic ui 或 font awesome 免費版的 icon。
-    # semantic ui icons: http://semantic-ui.com/elements/icon.html
-    # font awesome free icons: https://fontawesome.com/icons?d=gallery&m=free
+    icon: (semantic ui icon)
     color: text
-    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
   - title: text
-    # 沒有設定 url 的狀況下，會單純以一段文字的形式顯示
 actions_en: 
-# 英文版網頁用
   - title: text
     url: url
-    icon: (semantic ui icon / font awesome free icon)
+    icon: (semantic ui icon)
     color: text
   - title: text
 
 advisor_ids:
-# 指導單位 id
   - id
 organizer_ids:
-# 主辦單位 id
   - id
 co-organizer_ids:
-# 協辦單位 id
   - id
 implementer_ids:
-# 承辦單位 id
   - id
 sponsor_ids:
-# 贊助單位 id
   - id
 
 coordinator_ids:
-# 召集人 id
   - id
 case-handler_ids:
-# 窗口 id
   - id
 co-worker_ids:
-# 協力 id
   - id
 consultant_ids:
-# 顧問 id
   - id
 volunteer_ids:
-# 志工 id
   - id
 contributor_ids:
-# 貢獻者 id
   - id
 donors:
-# 捐助人名單，若有，會出現在專案頁最下方
   - text
 donors_en:
-# 英文版網頁用
   - text
 
 board_ids:
-# 負責董事 id （隱藏欄位，僅供內部備註用）
   - id
 staff_ids:
-# 負責員工 id （隱藏欄位，僅供內部備註用）
   - id
 
 listed: 
-# yes / no
-# 是否在專案列表中顯示，留空則視為 no
 listed_en: 
-# yes / no
-# 是否在英文版專案列表中顯示，留空則視為 no
 
 reports:
   yyyy: mm
-# 專案在每年的成果報告中所屬的月份，若有，會出現在該年度的成果報告頁
