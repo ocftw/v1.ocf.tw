@@ -227,6 +227,28 @@
     - global
 
 - id: global
+  name: 哥本哈根高峰會
+  name_en: Copenhagen Democracy Summit
+  description: OCF 受國際夥伴邀請加入臺灣開放國會代表團，參加哥本哈根民主高峰會（Copenhagen Democracy Summit)，此會議藉鏈結全球民主社群成員，推動全球民主化運動的目標。透過各國政要、學者專家及民運人士的參與，近年已成為強化民主論述的重要國際論壇。會議主辦單位「民主聯盟(Alliance of Democracies, AoD)」是丹麥前總理、前北約秘書長 Anders Fogh Rasmussen 於 2017 年成立的非政府組織。
+  description_en: OCF was invited by international partners to join the Taiwan Open Congress delegation to participate in the Copenhagen Democracy Summit. This conference promotes the goals of the global democratization movement by linking members of the global democratic community. Through the participation of political figures, scholars, experts and democratic activists from various countries, it has become an important international forum to strengthen democratic discussion in recent years. The conference organizer, Alliance of Democracies (AoD), is a non-governmental organization established in 2017 by former Danish Prime Minister and former NATO Secretary-General Anders Fogh Rasmussen.
+  cover_image: /p/global/202206C
+  start: 2022/06/09 
+  end: 2022/06/10
+  links:
+    - title: 會議官網
+      url: https://copenhagendemocracysummit.com/2022
+    - title: 參與報告分享
+      url: https://docs.google.com/document/d/1cz_OMGVZeYuCqHA-a8pQzuu3mwQrVch_-IBJCngPz28/edit
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2022/06/09
+  reports_en: 2022/06/10
+
+- id: global
   name: 2022 APRIGF亞太網路治理論壇
   name_en: 2022 Asia Pacific Regional Internet Governance Forum
   description: 聯合國於 2000 年初發起網路治理論壇（Internet Governance Forum，IGF），集合各界代表，討論網路「管理」與「治理」。亞太地區於 2010 年首次在香港召開亞太網路治理論壇 APrIGF。OCF 曾經實地參與 2018 年的 APrIGF 並帶回會議成果與夥伴分享，並於2022年再次共襄盛舉實體參與。
@@ -248,3 +270,223 @@
   reports: 2022/09/11
   reports_en: 2022/09/15
 
+- id: global
+  name: FOSDEM 2023
+  name_en: FOSDEM 2023
+  description: FOSDEM（自由及開源軟體開發者歐洲會議）是歐洲最大的開源社群年度聚會，由社群志工共同籌辦的兩天的活動，整場活動免報名、開放自由參加，有超過 8000 名開源參與者加入。OCF 除了在議程中汲取新知之外，更申請到大會攤位，與COSCUP 等臺灣開源社群推廣介紹臺灣的開源活動與相關組織發展。
+  description_en: FOSDEM (Free and Open Source Software Developers Europe Conference) is the largest annual gathering of the open source community in Europe. It is a two-day event co-organized by community volunteers. The entire event is free of registration and open to participation. There are more than 8,000 open source participants. who join. In addition to learning new knowledge from the agenda, OCF also applied for a booth at the conference to promote and introduce Taiwan's open source activities and related organizational developments with Taiwanese open source communities such as COSCUP.
+  cover_image: /p/global/2023FOSDEM
+  start: 2023/02/03
+  end:2023/02/04
+  links:
+    - title: 會議官網
+      url: https://fosdem.org/2023
+    - title: 參與報告分享
+      url: https://docs.google.com/document/d/1cnM75_PJV2M_NQpMQ6EoybhGRXPRR62KMHL_VMA31zU/edit?usp=drive_link
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2023/02/03
+  reports_en: 2023/02/04
+
+- id: global
+  name: Global Asia:Human Rights in Asia:Open and Closed Societies in a Post-Pandemic World
+  name_en: Global Asia:Human Rights in Asia:Open and Closed Societies in a Post-Pandemic World
+  description: OCF 受韓國 The Sejong Institute (世宗研究所) 邀約參與 Human Rights in Asia Workshop 進行分享刊登在 Global Asia 平台上的 Digital Authoritarianism and Threats Posed to Human-Rights Advocacy 一文。
+  description_en: OCF was invited by The Sejong Institute in South Korea to participate in the Human Rights in Asia Workshop to share the article Digital Authoritarianism and Threats Posed to Human-Rights Advocacy published on the Global Asia platform.
+  cover_image: /p/global/202304kr
+  start: 2023/04/14
+  end: 2023/04/14
+  links:
+    - title: 會議官網
+      url: https://sejong.org/web/boad/22/egoread.php?bd=61&itm=&txt=&pg=8&seq=7093
+    - title: OCF之會議文章(網頁)
+      url: https://www.globalasia.org/v18no2/cover/digital-authoritarianism-and-threats-posed-to-human-rights-advocacy_szu-hui-huanglulu-kengsinging-li
+    - title: OCF之會議文章(pdf)
+      url: https://www.globalasia.org/data/file/articles/0bb31f16cf81499bc2dafd9f315b69b8.pdf
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2023/04/14
+  reports_en: 2023/04/14
+
+- id: global
+  name: 亞太數位人權大會 DRAPAC 23
+  name_en: DRAPAC, Asia-Pacific Digital Rights Festival
+  description: 亞太數位人權大會 (The 2023 Digital Rights Asia Pacific Assembly ( DRAPAC23) 在泰國清邁舉辦，包含 161 個關於各種形式和主題的會議。此會議由 EngageMedia 主辦，聯合 Article 19、APC 亞太區域辦公室、菲律賓 Foundation for Media Alternatives 、巴基斯坦 Media Matter for Democracy 及 OCF 開放文化基金會一同聯合主辦。透過創立亞太地區指標性數位人權活動的過程，同時建立亞太數位人權聯盟，使得亞太地區的公民組織和民主倡議者得以發聲。
+  description_en: The 2023 Digital Rights Asia Pacific Assembly (DRAPAC23) was held in Chiang Mai, Thailand, and included 161 sessions on various formats and themes. This conference was hosted by EngageMedia, in conjunction with Article 19, APC Asia Pacific Regional Office, Philippines Foundation for Media Alternatives, Pakistan’s Media Matter for Democracy and the Open Culture Foundation, through the process of creating a landmark digital rights event in the Asia-Pacific region, and establishing the Asia-Pacific Digital Rights Alliance, empowering citizen organizations and democracy advocates in the Asia-Pacific region. 
+  cover_image: /p/global/2023drapac
+  start: 2023/05/22
+  end: 2023/05/26
+  links:
+    - title: 會議官網
+      url: https://engagemedia.org/projects/drapac23/
+    - title: 數位人權會後分享會
+      url: https://ocftw.kktix.cc/events/internetfreedom-july
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2023/05/22
+  reports_en: 2023/05/26
+
+- id: global
+  name: 全球數位人權大會 RightsCon 2023
+  name_en: RightsCon 2023
+  description: 全球數位人權大會 RightsCon 由全球指標性的國際非營利組職 AccessNow 發起舉辦，2023 年會議於 6 月 5-8 日哥斯大黎加舉行，採用線上線下混合 （Hybrid） 的舉辦方式，場次超過 600 場。參加實體會議者有來自 174 個國家，超過 8,100 報名者，針對各類網際網路、科技與人權議題進行交流，並就數位時代下，社會及多邊關係面對人權及數位使用權利議題進行多邊專家討論。
+  description_en: RightsCon 2023 is a global digital rights conference, hosted by AccessNow, a global iconic international non-profit organization. The 2023 conference is held in Costa Rica from June 5 to 8. It is held in a hybrid online and offline format with over 600 sessions. There are more than 8,100 participants from 174 countries signed up for physical participation. They exchanged views on various Internet, technology and human rights issues, and conducted multilateral expert discussions on human rights and digital rights issues faced by society and multilateral relations in the digital era. 
+  cover_image: /p/global/2023rightscon
+  start: 2023/06/05
+  end: 2023/06/08
+  links:
+    - title: 會議官網
+      url: https://www.rightscon.org/rc23-outcomes-report/
+    - title: 數位人權會後分享會
+      url: https://ocftw.kktix.cc/events/internetfreedom-july
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2023/06/05
+  reports_en: 2023/06/08
+
+- id: global
+  name: 開放政府全球峰會
+  name_en: Open Government Partnership Global Summit
+  description: 開放政府是 OCF 核心倡議議題之一。OCF 參與 OGP 峰會已有數年歷史，此次 Open Government Partnership Global Summit（開放政府全球峰會）愛沙尼亞塔林舉辦。愛沙尼亞是數位政府表現較佳之國家，OCF 前往參加此次會議以持續追蹤國際開放政府社群的趨勢、獲得國外最佳實踐、並交流台灣經驗。
+  description_en: Open Government is one of OCF's core initiatives. OCF has been participating in OGP summits for several years, and this time the Open Government Partnership Global Summit was held in Tallinn, Estonia. Estonia is a country with better digital government performance. OCF went to attend this conference to continue to track the trends of the international open government community, obtain foreign best practices, and exchange Taiwanese experience.
+  cover_image: /p/global/2023OGP
+  start: 2023/09/06
+  end: 2023/09/07
+  links:
+    - title: 會議官網
+      url: https://www.opengovpartnership.org/events/2023-ogp-global-summit-tallinn-estonia/
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2023/09/06
+  reports_en: 2023/09/07
+
+- id: global
+  name: IFF/ Global Gathering Summit & Feira
+  name_en: IFF/ Global Gathering Summit & Feira
+  description: Global Gathering 2023 是 Team Community 在後疫情舉辦的第一場給數位人權捍衛者（Digital Rights Defender）的實體聚會。Team Coummunity 原先為 InternetFF 組織，並且舉辦 Internet Freedom Festivel。OCF 參加此活動以拓展與維繫 OCF 與國際 Digital Rights Defender  的關係，並介紹疫情期間，OCF 在數位人權、網路自由上的發展。
+  description_en: Global Gathering 2023 is the first physical gathering for Digital Rights Defenders organized by Team Community after the epidemic. Team Coummunity is organized for InternetFF and runs the Internet Freedom Festival. OCF has connected with  IFF and OTF therefore invited to partipate this event to furthur deepen our relationship with international digital copyright defenders, and introduces OCF’s development in digital human rights and Internet freedom during the epidemic.
+  cover_image: /p/global/2023GG
+  start: 2023/09/15
+  end: 2023/09/17
+  links:
+    - title: 會議官網
+      url: https://www.digitalrights.community/blog/announcing-team-communitys-global-gathering
+    - title: 會後分享：網路自由小聚特別場
+      url: https://ocftw.kktix.cc/events/internetfreedom-october2023-special
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2023//09/15
+  reports_en: 2023/09/17
+
+- id: global
+  name: 日本開源峰會 & 開源合規峰會
+  name_en: Open Source Summit Japan & Open Source Compliance Summit
+  description: 日本開源峰會(Open Source Summit Japan) 旨讓開源生態系統中的技術人員和開源行業領導者得以協作、共用資訊，瞭解最新的開源技術，並瞭解如何通過使用創新的開放解決方案獲得競爭優勢。
+開源合規峰會(Open Source Compliance Summit) 讓Linux基金會成員和參與者討論開源許可、安全和出口管制合規性的會議。
+OCF 推廣 OpenChain 已逾兩年，這是 OCF 第一次參加國際的 OpenChain 主題相關的會議，分享台灣的推廣狀況，並藉此瞭解各國發展、探索可能合作對象。
+  description_en: Open Source Summit Japan enables technologists and open source industry leaders in the open source ecosystem to collaborate, share information, learn about the latest open source technologies, and learn how to gain a competitive advantage through the use of innovative open solutions. Open Source Compliance Summit is a conference for Linux Foundation members and participants to discuss open source licensing, security, and export control compliance. OCF has been promoting OpenChain for more than two years. This is the first time that OCF has participated in an international OpenChain-themed conference to share the promotion status in Taiwan, learn about the development of various countries, and explore possible partners for cooperation.
+  cover_image: /p/global/2023OSS
+  start: 2023/12/05
+  end: 2023/12/08
+  links:
+    - title: Open Source Summit Japan 會議官網
+      url: https://events-linuxfoundation-org.translate.goog/open-source-summit-japan/?_x_tr_sl=en&_x_tr_tl=zh-TW&_x_tr_hl=zh-TW&_x_tr_pto=sc
+    - title: Open Source Compliance Summit 會議官網
+      url: https://www.digitalrights.community/blog/announcing-team-communitys-global-gathering
+    - title: 會後分享簡報
+      url: https://docs.google.com/presentation/d/1p3HIpnvnUMhE4vSmyELMZQwj9GST5PJwpoi7bSGXRj0/edit#slide=id.g262636ebe2c_0_238
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2023/12/05
+  reports_en: 2023/12/08
+
+- id: global
+  name: FOSDEM 2024
+  name_en: FOSDEM 2024
+  description: FOSDEM（自由及開源軟體開發者歐洲會議）是歐洲最大的開源社群年度聚會，由社群志工共同籌辦的兩天的活動，整場活動免報名、開放自由參加，有超過 8000 名開源參與者加入。OCF 除了在議程中汲取新知之外，更申請到大會攤位，與COSCUP 等臺灣開源社群推廣介紹臺灣的開源活動與相關組織發展。
+  description_en: FOSDEM (Free and Open Source Software Developers Europe Conference) is the largest annual gathering of the open source community in Europe. It is a two-day event co-organized by community volunteers. The entire event is free of registration and open to participation. There are more than 8,000 open source participants. who join. In addition to learning new knowledge from the agenda, OCF also applied for a booth at the conference to promote and introduce Taiwan's open source activities and related organizational developments with Taiwanese open source communities such as COSCUP.
+  cover_image: /p/global/2024FOSDEM
+  start: 2024/02/03
+  end: 2024/02/04
+  links:
+    - title: 會議官網
+      url: https://fosdem.org/2024/
+    - title: 出訪紀錄
+      url: https://ocf.tw/p/global/fosdem-2024/
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2024/02/03
+  reports_en: 2024/02/04
+
+- id: global
+  name: IETF 119
+  name_en: IETF 119
+  description: Internet Engineering Task Force, IETF 是一個沒有會員資格、所有人皆可參與的，以開發和推廣自願性網際網路標準 (Internet Standard, ISD) 為核心任務的會議。可將其理解為 ISOC（Internet Society，網際網路協會）之指導委員會或是會議活動。OCF 參與此次在澳洲布里斯本 IETF 會議的目標，在於促進網際網路標準及相關的決策、政策依據成形的過程中，公民團體在乎的（數位）人權可以被考量進去。
+  description_en: The Internet Engineering Task Force, IETF, is a membership-free, open-to-all conference with the core mission of developing and promoting voluntary Internet standards (Internet Standards, ISDs). It can be understood as the steering committee or conference activities of ISOC (Internet Society). The goal of OCF's participation in this IETF meeting at Brisbane, Australia is to promote that the (digital) rights that citizen groups care about can be taken into consideration when Internet standards and related decisions and policy basis are formed.
+  cover_image: /p/global/2024IETF
+  start: 2024/03/16
+  end: 2024/03/17
+  links:
+    - title: 會議官網
+      url: https://www.ietf.org/meeting/hackathons/119-hackathon/
+    - title: 回國分享：網路自由小聚
+      url: https://ocftw.kktix.cc/events/internetfreedom-april2024
+  organizer_ids:
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2024/03/16
+  reports_en: 2024/03/17
+
+  - id: global
+  name: OONI 夥伴聚會
+  name_en: OONI Partner Meetup
+  description: OONI 在馬來西亞吉隆坡舉辦為期兩天的「OONI 夥伴聚會」，匯集 40 位來自亞洲和中東地區合作夥伴，交流技能和知識將改進其工具以更好地滿足社群需求，以更好地掌握使用OONI 工具和數據（作為網路審查的證據之一）作為其研究和倡議工作的一部分。OCF 是OONI 在台灣的合作夥伴，了解更多 OONI 計畫在台灣。
+  description_en: OONI held a two-day "OONI Partner Meetup" in Kuala Lumpur, Malaysia, bringing together 40 partners from Asia and the Middle East to exchange skills and knowledge to improve their tools to better meet the needs of the community and to better master the use of OONI tools and data as part of its research and advocacy work. OCF is OONI's partner in Taiwan, learn more about OONI's programs in Taiwan.
+  cover_image: /p/global/2024OONI
+  start: 2024/05/08
+  end: 2024/05/09
+  links:
+    - title: OCF 的 OONI專頁
+      url: https://ocf.tw/p/ooni/
+  co-organizer_ids:
+  contributor_ids: 
+    - liyhs
+  project_ids:
+    - global
+  reports: 2024/05/08
+  reports_en: 2024/05/09
