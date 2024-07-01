@@ -470,7 +470,7 @@
   reports: 2024/03/16
   reports_en: 2024/03/17
 
-  - id: global
+- id: global
   name: OONI 夥伴聚會
   name_en: OONI Partner Meetup
   description: OONI 在馬來西亞吉隆坡舉辦為期兩天的「OONI 夥伴聚會」，匯集 40 位來自亞洲和中東地區合作夥伴，交流技能和知識將改進其工具以更好地滿足社群需求，以更好地掌握使用OONI 工具和數據（作為網路審查的證據之一）作為其研究和倡議工作的一部分。OCF 是OONI 在台灣的合作夥伴，了解更多 OONI 計畫在台灣。
