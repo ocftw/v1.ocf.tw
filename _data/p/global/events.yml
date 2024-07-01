@@ -277,7 +277,7 @@
   description_en: FOSDEM (Free and Open Source Software Developers Europe Conference) is the largest annual gathering of the open source community in Europe. It is a two-day event co-organized by community volunteers. The entire event is free of registration and open to participation. There are more than 8,000 open source participants. who join. In addition to learning new knowledge from the agenda, OCF also applied for a booth at the conference to promote and introduce Taiwan's open source activities and related organizational developments with Taiwanese open source communities such as COSCUP.
   cover_image: /p/global/2023FOSDEM
   start: 2023/02/03
-  end:2023/02/04
+  end: 2023/02/04
   links:
     - title: 會議官網
       url: https://fosdem.org/2023
@@ -405,9 +405,7 @@
 - id: global
   name: 日本開源峰會 & 開源合規峰會
   name_en: Open Source Summit Japan & Open Source Compliance Summit
-  description: 日本開源峰會(Open Source Summit Japan) 旨讓開源生態系統中的技術人員和開源行業領導者得以協作、共用資訊，瞭解最新的開源技術，並瞭解如何通過使用創新的開放解決方案獲得競爭優勢。
-開源合規峰會(Open Source Compliance Summit) 讓Linux基金會成員和參與者討論開源許可、安全和出口管制合規性的會議。
-OCF 推廣 OpenChain 已逾兩年，這是 OCF 第一次參加國際的 OpenChain 主題相關的會議，分享台灣的推廣狀況，並藉此瞭解各國發展、探索可能合作對象。
+  description: 日本開源峰會(Open Source Summit Japan) 旨讓開源生態系統中的技術人員和開源行業領導者得以協作、共用資訊，瞭解最新的開源技術，並瞭解如何通過使用創新的開放解決方案獲得競爭優勢。開源合規峰會(Open Source Compliance Summit) 讓Linux基金會成員和參與者討論開源許可、安全和出口管制合規性的會議。OCF 推廣 OpenChain 已逾兩年，這是 OCF 第一次參加國際的 OpenChain 主題相關的會議，分享台灣的推廣狀況，並藉此瞭解各國發展、探索可能合作對象。
   description_en: Open Source Summit Japan enables technologists and open source industry leaders in the open source ecosystem to collaborate, share information, learn about the latest open source technologies, and learn how to gain a competitive advantage through the use of innovative open solutions. Open Source Compliance Summit is a conference for Linux Foundation members and participants to discuss open source licensing, security, and export control compliance. OCF has been promoting OpenChain for more than two years. This is the first time that OCF has participated in an international OpenChain-themed conference to share the promotion status in Taiwan, learn about the development of various countries, and explore possible partners for cooperation.
   cover_image: /p/global/2023OSS
   start: 2023/12/05
