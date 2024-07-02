@@ -1,5 +1,60 @@
 - id: 
 
+  name: g0v summit 2024
+  name_en: g0v summit 2024
+
+  description: g0v.tw 台灣零時政府社群從 2012 年開始，在「寫程式改造社會」的號召下，形成了東亞最具規模的公民黑客社群，以資訊透明、開放成果、開放協作為核心，透過群眾草根的力量來關心公共事務。在 318 運動過後，更首度於 2014 年舉辦 g0v Summit 零時政府雙年會（「啥米」），促成開放社群、政府、NGO、學術圈、以及網路鄉民跨界交流。凝聚起來的這股力量，在 2016 年政黨輪替後，以不同的形式深入各界發揮作用：公私協力、議題倡議、跨界串連，公民們的腳步沒有停下。g0v Summit 也維持每兩年舉辦一次的步調，逐步擴展規模，透過開放徵稿與邀集討論的議題也愈加深刻。到 2020 年，更連結了台南在地長期經營的 NGO、資訊技術與創客社群，進行了連續 4 天的議程。2024 對 g0v Summit 而言是個新局面。一方面，疫情後的社群需要重新建立連結，找回各自努力與一同前進的動能；另一方面，全球情勢距離第一次 g0v Summit 已改變許多：社會極化、極權擴張、以及民主倒退的傾向在短期內或許不會有大幅改善，但我們也看到學生社群的活躍、鄰近國家公民黑客社群之間強韌的連結，以及公民團體們也更加積極地發聲與串連。g0v Summit 2024 選擇在 2024 年 5 月台灣總統就職典禮的兩個禮拜前舉辦。在許多民主國家舉行選舉的這年，我們希望 g0v Summit 能夠繼續維持一個聚集、傾聽、尋找共同點並建立合作的場所。改變不是請客吃飯、民主不只投票凍蒜，期許我們於選後仍不放慢參與的步伐，公民不打烊。
+  description_en: 
+
+  subtitles:
+  subtitles_en:
+
+  cover_image: https://summit.g0v.tw/2024/assets/img/pgln_g0v_summit.svg
+  banner_image: 
+  theme_color: 
+
+  start: 2024/05/04
+  end: 2024/05/05
+
+  labels:
+  labels_en:
+
+  metas:
+  metas_en:
+
+  links:
+    - title: 活動網頁
+      url: https://summit.g0v.tw/2024/
+  links_en:
+
+  advisor_ids:
+  organizer_ids:
+  co-organizer_ids:
+  implementer_ids:
+  sponsor_ids:
+
+  coordinator_ids:
+  case-handler_ids:
+  co-worker_ids:
+  consultant_ids:
+  volunteer_ids:
+  contributor_ids:
+  host_ids:
+  speaker_ids:
+  participant_ids:
+  donors:
+  donors_en:
+
+  project_ids:
+    - g0vsummit
+  board_ids:
+  staff_ids:
+
+  reports:
+    2024: 05
+  reports_en:
+- id: 
+
   name: g0v summit 2020
   name_en: g0v summit 2020
 

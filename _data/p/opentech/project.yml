@@ -1,0 +1,70 @@
+name:  開放科技與倡議
+name_en: 
+ 
+
+description: 「開放科技」是開放源碼、開放資料及開放政府三個概念的集合，呼應科技社群的協作分享文化及公民社會平等參與的精神。我們期望科技發展及其打造使用方案的過程中，能將社會脈絡、多方利害關係人納入考量，以減少應對新興科技衝擊所需付出的社會成本。
+description_en: 
+
+
+tagline:  
+tagline_en: 
+
+og_image: /p/opentech/opentech.png
+og_image_en: 
+header_image: /p/opentech/opentech.png
+avatar_image: /p/opentech/opentech.png
+theme_color: purple
+
+start: 
+end: 
+
+topic_ids:
+  - tech
+  - source
+  - data
+  - government
+field_ids:
+  - it
+  - rsh
+  - adv
+tags:
+tags_en:
+
+links:
+  - title: 手冊《關於開放科技—從原始碼、資料到政府：開放，如何塑造新時代數位社會》
+    url: https://ocf.tw/p/opentech/otguide/
+    color: purple
+    icon: world icon
+  - title: 活動《開放科技小聚》
+    url: https://hackmd.io/@OCFTW/OpenTechMeetup/
+    color: purple
+    icon: world icon
+  - title: 倡議《第二屆行政院開放政府行動方案》提案
+    url: https://hackmd.io/@OCFTW/OGP2024OCF
+    color: purple
+    icon: world icon
+  - title: 專文《十年磨一法－－開放資料法制化卡在哪？》
+    url: https://ocf.tw/p/issues/10YrsOpenDataLegalization/
+    color: purple
+    icon: world icon
+links_en:
+
+organizer_ids:
+  - ocf
+co-organizer_ids:
+consultant_ids:
+
+board_ids:
+
+staff_ids:
+  - weichen
+  - rosa
+  - leaf
+  - yanyiyi
+  - liyhs
+  - amos
+  - jin
+  - cheng
+
+listed: yes
+listed_en: yes

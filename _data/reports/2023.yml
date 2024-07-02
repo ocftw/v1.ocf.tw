@@ -11,8 +11,8 @@ items:
     columns:
       - type: article
         swap: false
-        title: 執行長的話
-        description: 身為 OCF 的第一號正職員工，我跟著組織一路成長至今，見證 OCF 從一人團隊到現在 17 位正式職員的發展。從提供開源社群行政後勤支援開始，OCF 的服務範圍逐步擴大——以孕育一個充滿活力的開源生態系為目標 ，我們向公民社會推廣，同時也對政府倡議、與國際交流以推動開源文化的普及與實踐。從 2014 年初創至今，轉眼間已過了 9 個充實且充滿挑戰的年頭，非常感謝各位支持者一直與 OCF 攜手前行，讓我們能在開放原始碼、開放政府、開放資料、數位人權與網路自由這 5 大領域持續耕耘，並取得不少重大成就。疫情解封後，國內外的社群彷彿從漫長的冬眠中甦醒——不僅有久違的實體活動，還多了虛實整合的交流。在 2023 年，OCF 與開放世界連結得更深、更廣。僅讓我透過以下幾組數字，跟各位報告 OCF 的六大行動策略及我們取得的亮眼成果。
+        title: 
+        description: 身為 OCF 的第一號正職員工，我跟著組織一路成長至今，見證 OCF 從一人團隊到現在 17 位正式職員的發展。從提供開源社群行政後勤支援開始，OCF 的服務範圍逐步擴大——以孕育一個充滿活力的開源生態系為目標 ，我們向公民社會推廣，同時也對政府倡議、與國際交流以推動開源文化的普及與實踐。<br>從 2014 年初創至今，轉眼間已過了 9 個充實且充滿挑戰的年頭，非常感謝各位支持者一直與 OCF 攜手前行，讓我們能在開放原始碼、開放政府、開放資料、數位人權與網路自由這 5 大領域持續耕耘，並取得不少重大成就。<br>疫情解封後，國內外的社群彷彿從漫長的冬眠中甦醒——不僅有久違的實體活動，還多了虛實整合的交流。在 2023 年，OCF 與開放世界連結得更深、更廣。僅讓我透過以下幾組數字，跟各位報告 OCF 的六大行動策略及我們取得的亮眼成果。
         items:
       - type: image
         url: /p/admin/2023/b-sign.png
@@ -24,12 +24,9 @@ items:
       - type: image
         url: /p/admin/2023/big-2.png
   #六大行動
-  - type: header
-    title: <br>六大行動策略
-    description: 
-    icon: bullhorn
-    theme: dark
-    cover: /p/admin/2023/b-5co.png
+  - type: image_header
+    cover: /p/admin/2023/b-5co1.png
+    cover_image_alt: 六大行動策略
 
   #社群支援
   - type: content
@@ -86,14 +83,13 @@ items:
         description: OCF 與 4 位不同校系的教授合作開課，研發以桌遊「開源星手村」的趣味性包裝而成的開源推廣教材。加上 OCF 在「開源人年會」舉辦的領航與工作坊，我們共計接觸超過 200 位新人，為他們開啟開源世界的大門。<br><br>OCF 即將邁入第十年，我們會持續連結開放世界的資源，努力成為臺灣開源社群的堅實後盾，與大家一起創造蓬勃的開源生態系、一個保障數位人權與網路自由的公民社會。
       - type: image
         url: /p/admin/2023/b-13os.png
-  - type: header
-    title: <br>標誌識別設計介紹
-    anchor:
-    icon: registered outline
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-10y.png
+  
+  #標誌識別設計介紹
+
+  - type: image_header
+    cover: /p/admin/2023/b-10y1.png
+    cover_image_alt: 標誌識別設計介紹
+
   - type: content
     columns:
       - type: article
@@ -103,14 +99,11 @@ items:
       - type: image
         url: /p/admin/2023/b-ci.png
 #組織架構圖
-  - type: header
-    title: <br>組織架構圖
-    anchor:
-    icon: sitemap
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+
+  - type: image_header
+    cover: /p/admin/2023/b-bi1.png
+    cover_image_alt: 組織架構圖
+
   - type: image_header
     anchor: 
     cover: /p/admin/2023/org.png
@@ -120,14 +113,11 @@ items:
 
 
 #大事記
-  - type: header
-    title: OCF 大事記
-    anchor:
-    icon: keyboard outline
-    description: OCF 在 2023 年除了持續舉辦線上與實體的聚會、監督政府落實開放文化，也加深與國際社群的聯繫。我們完成許多專案，也突破許多難關。其中有些嘗試非常特別、創新，或是帶來重要的跨領域交流。我們精挑細選 10 項重大的里程碑，邀請大家一起回顧這些精彩瞬間。
-    theme: dark
-    background_color:
-    cover: /p/admin/2023/b-ceo.png
+
+  - type: image_header
+    cover: /p/admin/2023/b-bi2.png
+    cover_image_alt: 大事記
+
   - type: content
     single_column: true
     alignment: center
@@ -152,15 +142,33 @@ items:
     columns:
       - type: image
         url: /p/admin/2023/big-6.png
+
+  #五大領域
+
+  - type: image_header
+    cover: /p/admin/2023/b-13.png
+    cover_image_alt: 五大領域
+  - type: content
+    columns:
+      - type: article
+        title:
+        description: 為貫徹建立數位公民社會和應對數位時代各種威脅的使命，OCF 致力於推動數位領域的開放與共享。具體而言，我們倡導開放原始碼的理念，透過公開協作的方式使科技的開發與應用都能納入多元、涵融的聲音。同時，也致力於實現資料的開放共享與互通性，以及運用數位科技推動更公開透明的數位治理。
+      - type: image
+        url: https://ocf.tw/p/test/main%20areas.png  
+  - type: content
+    columns:
+      - type: article
+        description: 在 OCF 邁入第十年之際，我們回顧過往累積的經驗，集結開源社群關注的議題、公民團體強化數位安全的需求，以及打開政府協力大門的期望，擬定了 OCF 未來 5-10 年的倡議方針，且即將在 2024 年推出「開放科技白皮書」，清楚闡述開源文化從科技、資料到政治參與的演變，為開源文化的普及奠定基礎。這些倡議方針，將透過社群支援、人才培訓、知識分享、監督倡議、國際串聯與開源推廣等六大行動策略逐步實踐。
+      - type: article
+        description: OCF 持續努力推動以下五大核心領域，期許透過這些成果，激發群眾參與，共同構築一個開放、共融與創新的數位公民社會。我們相信這些努力，能幫助社會應對數位時代的種種挑戰，建立更公正與永續的未來。 
+    
+
   #開放原始碼
-  - type: header
-    title: 開放原始碼<br>建立蓬勃的開源生態系
-    anchor:
-    icon: expand arrows alternate
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+
+  - type: image_header
+    cover: /p/admin/2023/b-op.png
+    cover_image_alt: 開放原始碼
+
   - type: content
     columns:
       - type: article
@@ -179,14 +187,9 @@ items:
       - type: image
         url: /p/admin/2023/occ.png
   #開放政府與國會
-  - type: header
-    title: 開放政府與國會<br>奠定公私協力的基礎
-    anchor:
-    icon: chess rook
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-10y.png
+  - type: image_header
+    cover: /p/admin/2023/b-og.png
+    cover_image_alt: 開放政府與國會
   - type: content
     columns:
       - type: article
@@ -206,14 +209,9 @@ items:
         url: /p/admin/2023/opengov.jpg
 
   #開放資料
-  - type: header
-    title: 開放資料<br>呼籲政府應保障人民個資
-    anchor:
-    icon: folder open outline
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-od.png
+    cover_image_alt: 開放資料
 
   - type: content
     columns:
@@ -234,14 +232,10 @@ items:
         url: /p/admin/2023/med.png
 
   #數位人權
-  - type: header
-    title: 數位人權<br>打造企業、公民社會與國際社群的合作網絡
-    anchor:
-    icon: balance scale
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-10y.png
+
+  - type: image_header
+    cover: /p/admin/2023/b-dr.png
+    cover_image_alt: 數位人權
   - type: content
     columns:
       - type: article
@@ -261,14 +255,9 @@ items:
         url: /p/admin/2023/RDRtw_logo_All.png
 
   #網路自由
-  - type: header
-    title: 網路自由<br>強化公眾對數位隱私與網路自由的意識
-    anchor:
-    icon: paper plane
-    description: 
-    theme:
-    background_color:
-    cover: /p/admin/2023/b-bi.png
+  - type: image_header
+    cover: /p/admin/2023/b-if.png
+    cover_image_alt: 網路自由
   - type: content
     columns:
       - type: article
@@ -287,14 +276,9 @@ items:
       - type: image
         url: /p/admin/2023/oonirep.png
 #財務
-  - type: header
-    title: <br>財務報告
-    anchor:
-    icon: money bill alternate
-    description: 
-    theme: dark
-    background_color:
-    cover: /p/admin/2023/b-ceo.png
+  - type: image_header
+    cover: /p/admin/2023/b-fr.png
+    cover_image_alt: 財務
 
   - type: image_header
     anchor: 
@@ -318,12 +302,9 @@ items:
         url: /p/admin/2023/fin-2.png
 
 #感謝
-  - type: header
-    title: <br>感謝您的支持
-    description: 
-    icon: hand spock
-    theme: dark
-    cover: /p/admin/2023/b-5co.png
+  - type: image_header
+    cover: /p/admin/2023/b-tks1.png
+    cover_image_alt: 感謝
 
   - type: image_header
     anchor: 
@@ -347,7 +328,7 @@ items:
       - type: article
         title: 
         swap: true
-        description: 董事群：Bobchao、Clkao、Honki、KC、Pofeng<br>員工：Amos、Anima、BQ、Claire、Jin、Joshua、Rock、Singing、Toomore、Weichen、Wenny、William、Yanyiyi、小ㄐ、阿欣、葉子、盈萱、愛馬<br>校友：Huangfu、Lulu<br>實習夥伴：麗雅、子杰、宥岑、軒睿、Verena、Howard、楷祐、承昊、冠翰、柏竣、峻誠、懋軒、Dennis、宜萍、沁柔
+        description: 董事群：Bobchao、Clkao、Honki、KC、Pofeng<br>顧問：Consultants：Dongpo Deng, irvinfly, Isabel Hou, Kaia, Lucien, Miaoski<br>員工：Amos、Anima、BQ、Claire、Jin、Joshua、Rock、Singing、Toomore、Weichen、Wenny、William、Yanyiyi、小ㄐ、阿欣、葉子、盈萱、愛馬<br>校友：Huangfu、Lulu<br>實習夥伴：麗雅、子杰、宥岑、軒睿、Verena、Howard、楷祐、承昊、冠翰、柏竣、峻誠、懋軒、Dennis、宜萍、沁柔<br>以及所有熱情志工們！
       - type: image
         url: /p/admin/2023/group2023.png
 
@@ -356,9 +337,9 @@ items:
       - type: article
         title: OCF 十年：開源祭
         swap: false
-        description: 為慶祝開放文化基金會成立十週年，我們將於 2024 年 9 月 14 日舉辦「開源祭」。我們誠摯地邀請所有支持者以及社群夥伴們，一同回顧過臺灣開源社群的發展歷程、展望開源技術的多元應用與發展。<br><br>來年還請各位繼續支持，與 OCF 度過第一個十年！<br><br>＊開源祭：開放文化基金會十週年特別活動<br>＊活動日期｜2024/9/14<br>＊活動地點｜Pipe Live Music + 公館水岸廣場<br>＊活動資訊｜10years.ocf.tw
+        description: 為慶祝開放文化基金會成立十週年，我們將於 2024 年 9 月 14 日舉辦「開源祭」。我們誠摯地邀請所有支持者以及社群夥伴們，一同回顧過臺灣開源社群的發展歷程、展望開源技術的多元應用與發展。<br><br>來年還請各位繼續支持，與 OCF 度過第一個十年！<br><br>＊開源祭：開放文化基金會十週年特別活動<br>＊活動日期｜2024/9/14<br>＊活動地點｜Pipe Live Music + 公館水岸廣場<br>＊活動資訊｜<a href="https://10years.ocf.tw/">10years.ocf.tw</a>
       - type: image
-        url:
+        url: /p/admin/2023/429edm-small.jpg
 
   - type: content
     columns:

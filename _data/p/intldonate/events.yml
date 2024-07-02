@@ -1,4 +1,4 @@
-- id: 
+- id: intldonate
   name: Part I - Rights Con 2022 心得分享
   name_en: Scholarship Program - Rights Con 2022
   description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
@@ -18,10 +18,11 @@
     - szuhui
     - lulukeng
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
-- id: 
+- id: intldonate
   name: Part II - Rights Con 2022 心得分享
   name_en: Scholarship Program - Rights Con 2022
   description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
@@ -41,10 +42,11 @@
     - szuhui
     - lulukeng
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
-- id: 
+- id: intldonate
   name: Open Source Summit Latin America 2022 心得分享
   name_en: Scholarship Program - Code for Latin America 2022
   description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於開源有興趣者分享其所學和心得，並更進一步的回饋台灣開源社群和學子們。期待更多台灣的coder/promoter/user與國際開源社群有更多協作和互動。
@@ -63,10 +65,11 @@
     - szuhui
     - lulukeng
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
-- id: 
+- id: intldonate
   name: FOSDEM 2023 心得分享
   name_en: Scholarship Program - FOSDEM 2023
   description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於開源社群、數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
@@ -85,10 +88,11 @@
     - liyhs
     - szuhui
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
-- id: 
+- id: intldonate
   name: RightsCon 2023 心得分享
   name_en: Scholarship Program - RightsCon 2023
   description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
@@ -111,10 +115,11 @@
     - szuhui
     - liyhs
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
-- id: 
+- id: intldonate
   name: Feira @ the Global Gathering 2023 數位人權研討會 心得分享
   name_en: Scholarship Program - Feira @ the Global Gathering 2023
   description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
@@ -132,10 +137,11 @@
   contributor_ids: 
     - liyhs
   project_ids:
+    - intldonate
   reports:
   reports_en:
 
-- id: 
+- id: intldonate
   name: FOSDEM 2024 心得分享
   name_en: Scholarship Program - FOSDEM 2024
   description: 透過獎勵金、領航員和會議資訊分享，鼓勵台灣對於開源社群、數位人權有興趣之民眾透過參與和公開經驗分享的方式，在全球數位人權最大的盛會 - Rights Con 之中，增加國際會議參與的經驗和與國際社群的接觸。以期國人未來有更進一步，邁入國際舞台講述台灣數位人權經驗的可能。
@@ -153,5 +159,6 @@
   contributor_ids: 
     - liyhs
   project_ids:
+    - intldonate
   reports:
   reports_en:

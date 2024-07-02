@@ -22,6 +22,9 @@
   name: 議題
   name_en: Issues
   items:
+    - id: tech
+      name: 開放科技
+      name_en: Open Technology
     - id: source
       name: 開放源碼
       name_en: Open Source
@@ -40,6 +43,12 @@
     - id: infosec
       name: 資訊安全
       name_en: Information Security
+    - id: dr
+      name: 數位人權
+      name_en: Digital Rights
+    - id: infr
+      name: 網路自由
+      name_en: Internet Freedom
     - id: misc
       name: 其他
       name_en: Misc
@@ -75,6 +84,12 @@
     - id: community
       name: 社群支援
       name_en: Community Support
+    - id: adv
+      name: 倡議
+      name_en: Advocation
+    - id: rsh
+      name: 研究
+      name_en: Research
     - id: misc
       name: 其他
       name_en: Misc

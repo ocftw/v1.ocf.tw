@@ -25,6 +25,8 @@ filter:
       government: 開放政府
       hardware: 開放硬體
       infosec: 資訊安全
+      dr: 數位人權
+      infr: 網路自由
       misc: 其他
 
   field:
@@ -39,6 +41,8 @@ filter:
       education: 教育
       finance: 金融
       agri: 農業
+      adv: 倡議
+      rsh: 研究
       misc: 其他
 
 filter_en:
@@ -94,7 +98,6 @@ card:
   - g0vsummit
   - coscup
   - pycon
-  - pycourse
   - sitcon
   - jcconf
   - cctw
