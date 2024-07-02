@@ -7,6 +7,45 @@
   margin: 0;
 }
 
+#homepage #hero .banner {
+  margin: auto;
+}
+
+@keyframes heart {
+  0%, 40%, 80%, 100% {
+    box-shadow: 1px 1px 40px #3fff0f;
+  }
+  20%, 60% {
+    box-shadow: 1px 1px 40px #6450DC;
+  }
+}
+
+#homepage #hero .banner .tenyearbtn {
+  transition: all 500ms;
+  transition-timing-function: linear;
+}
+
+#homepage #hero .banner a img {
+  max-width: 1440px;
+  margin-bottom: 1rem;
+  border: 1px #6450DC;
+  box-shadow: 1px 1px 40px #6450DC;
+  animation: heart linear 3500ms infinite;
+}
+
+#homepage #hero .banner a img:hover {
+  animation: heart linear 1000ms infinite;
+}
+
+#homepage #hero .banner a.tenyearbtn {
+  border: 1px #7a70b3 !important;
+  box-shadow: 1px 1px 40px #6450DC !important;
+}
+
+#homepage #hero .banner a.tenyearbtn:hover {
+  box-shadow: 1px 1px 40px #3fff0f !important;
+}
+
 #homepage #header {
   background-color: none;
   background: none;
