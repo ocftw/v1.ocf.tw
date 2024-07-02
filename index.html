@@ -22,10 +22,22 @@ ongoing:
 <main id="homepage">
 
 
+<div style="width:100%;background-color: #333333;">
+{% include nav/header/home.html %}
+</div>
+
 <section id="hero" class="ui inverted center aligned basic segment marginless">
 
-  {% include nav/header/home.html %}
-
+  <div class="banner">
+    <a href="https://10years.ocf.tw/">
+      <img class="ui centered rounded image"
+          src="/assets/images/10years_banner.jpg">
+    </a>
+    <a class="ui purple inverted button tenyearbtn"
+       href="https://10years.ocf.tw/">
+      10 週年 開源音樂祭
+    </a>
+  </div>
   <div class="ui hidden section divider"></div>
   <div class="ui stripe container">
     <h2 class="ui inverted header"> 
