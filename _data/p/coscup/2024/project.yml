@@ -1,0 +1,58 @@
+name: OCF x COSCUP 2024 開源人年會
+name_en: OCF x COSCUP 2024
+
+description: COSCUP 希望藉由每一屆的年度會議，讓世界各地的 FLOSS 愛好者齊聚一堂，並邀請世界各地的專家上台分享經驗，想法與新的技術，來共同的激發國內外的愛好者更加踴躍投入 FLOSS 的開發與使用。
+description_en: COSCUP's aim is providing a platform to connect Open Source coders, users, and promoters, and promote FLOSS with the annual conference. The conference is free to attend because of the enthusiastic sponsors and donators. Since the conference venue is limited, tickets are often sold out immediately after the online registration starts.
+
+abbr: COSCUP
+abbr_en: COSCUP
+
+tagline: Conference for Open Source Coders, Users and Promoters
+tagline_en: Conference for Open Source Coders, Users and Promoters
+
+og_image: /p/coscup/2024/banner.jpg
+header_image: /p/coscup/2024/banner.jpg
+avatar_image: /p/coscup/2024/avatar.jpg
+theme_color: green
+
+topic_ids:
+  - source
+field_ids:
+  - it
+tags:
+  - 大型研討會
+  - 定期活動
+tags_en:
+
+links:
+  - title: COSCUP 2024
+    url: https://coscup.org/
+    color: green
+    icon: world icon
+links_en:
+  - title: COSCUP 2024
+    url: https://coscup.org/
+    color: yellow
+    icon: world icon
+
+actions:
+  - title: 報名桌遊體驗工作坊
+    url: https://forms.gle/YGascQ369raUQiPLA
+    color: blue
+    icon: beer
+  - title: 10 週年音樂祭
+    url: https://10years.ocf.tw/
+    color: purple
+    icon: music
+actions_en:
+
+organizer_ids:
+  - ocf
+
+board_ids:
+  - bobchao
+staff_ids:
+  - rosa
+
+listed: yes
+listed_en: yes
