@@ -10,9 +10,9 @@ abbr_en: COSCUP
 tagline: Conference for Open Source Coders, Users and Promoters
 tagline_en: Conference for Open Source Coders, Users and Promoters
 
-og_image: /p/coscup/2024/ocf-at-coscup-2024-banner-1918x490.jpg
-header_image: /p/coscup/2024/ocf-at-coscup-2024-banner-1918x490.jpg
-avatar_image: /p/coscup/2024/ocf-at-coscup-2024-avatar.jpg
+og_image: /p/coscup/2024/ocf-at-coscup-2024-banner-1918x490.png
+header_image: /p/coscup/2024/banner.jpg
+avatar_image: /p/coscup/2024/ocf-at-coscup-2024-avatar.png
 theme_color: green
 
 topic_ids:
@@ -53,7 +53,6 @@ board_ids:
   - bobchao
 staff_ids:
   - rosa
-  - cheng
 
 listed: yes
 listed_en: yes
