@@ -289,7 +289,7 @@
   organizer_ids:
   co-organizer_ids:
   contributor_ids: 
-    - singing、rosa
+    - singing, rosa
   project_ids:
     - global
   reports: 2023/02/03
@@ -314,7 +314,7 @@
   organizer_ids:
   co-organizer_ids:
   contributor_ids: 
-    - singing、lulukeng
+    - singing, lulukeng
   project_ids:
     - global
   reports: 2023/04/14
@@ -359,7 +359,7 @@
   organizer_ids:
   co-organizer_ids:
   contributor_ids: 
-    - singing、szuhui、joshua
+    - singing, szuhui, joshua
   project_ids:
     - global
   reports: 2023/06/05
@@ -379,7 +379,7 @@
   organizer_ids:
   co-organizer_ids:
   contributor_ids: 
-    - weichen、claire
+    - weichen, claire
   project_ids:
     - global
   reports: 2023/09/06
@@ -401,7 +401,7 @@
   organizer_ids:
   co-organizer_ids:
   contributor_ids: 
-    - singing、szuhui
+    - singing, szuhui
   project_ids:
     - global
   reports: 2023//09/15
@@ -447,7 +447,7 @@
   organizer_ids:
   co-organizer_ids:
   contributor_ids: 
-    - rosa、weichen、toomore
+    - rosa, weichen, toomore
   project_ids:
     - global
   reports: 2024/02/03
