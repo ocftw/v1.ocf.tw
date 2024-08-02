@@ -45,7 +45,7 @@ actions:
     color: purple
     icon: music
   - title: 看看開源新手村議程軌
-    url: #open-source-beginner
+    url: https://ocf.tw/p/coscup/2024/#open-source-beginner
     color: pink
     icon: trophy
 actions_en:
