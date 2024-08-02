@@ -44,6 +44,10 @@ actions:
     url: https://10years.ocf.tw/
     color: purple
     icon: music
+  - title: 看看開源新手村議程軌
+    url: https://ocf.tw/p/coscup/2024#open-source-beginner
+    color: purple
+    icon: music
 actions_en:
 
 organizer_ids:
