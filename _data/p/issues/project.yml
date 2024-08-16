@@ -6,12 +6,6 @@ og_image: /p/issues/issues-og.png
 header_image: /p/issues/issues-cover.png
 avatar_image: /p/issues/issues-og.png
 links:
-  - title: 閱讀與下載《關於開放科技—從原始碼、資料到政府：開放，如何塑造新時代數位社會
-    url: https://ocf.tw/p/issues/otguide
-    icon:
-  - title: 十年磨一法－－開放資料法制化卡在哪？
-    url: https://ocf.tw/p/issues/10YrsOpenDataLegalization
-    icon:
   - title: 【聯合聲明】 數位發展部應有全面的數位轉型規劃
     url: https://ocf.tw/p/issues/jointStatement/
     icon:
@@ -29,9 +23,6 @@ links:
     icon:
 
 links_en:
-  - title: Open Technology - From Source Code, Data to the Government：How Open Shapes the Digital Society of the New Era
-    url: https://ocf.tw/en/p/issues/otguide
-    icon:
   - title: Joint Statement
     url: https://ocf.tw/en/p/issues/joint
     icon:
@@ -43,9 +34,6 @@ links_en:
     icon:
   - title: Open Data initiative
     url: https://lab.ocf.tw/2020/03/18/opendatanext-eng/
-    icon:
-  - title: Open Government
-    url: https://lab.ocf.tw/2021/06/20/ogp_taiwan-en/
     icon:
 
 actions:

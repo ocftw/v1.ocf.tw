@@ -10,7 +10,7 @@ tagline:
 tagline_en: 
 
 og_image: /p/opentech/opentech.png
-og_image_en: 
+og_image_en: /p/opentech/opentech_logo_en.png
 header_image: /p/opentech/opentech.png
 avatar_image: /p/opentech/opentech.png
 theme_color: purple
@@ -48,7 +48,18 @@ links:
     color: purple
     icon: world icon
 links_en:
-
+  - title: Open Technology - From Source Code, Data to the Government：How Open Shapes the Digital Society of the New Era
+    url: https://ocf.tw/en/p/opentech/otguide/
+    color: purple
+    icon: world icon
+  - title: Open Data initiative：research & legislation suggestion
+    url: https://lab.ocf.tw/2020/03/18/opendatanext-eng/
+    color: purple
+    icon: world icon
+  - title: Open Government Partnership (OGP) 
+    url: https://lab.ocf.tw/2021/06/20/ogp_taiwan-en/
+    color: purple
+    icon: world icon
 organizer_ids:
   - ocf
 co-organizer_ids:
