@@ -27,13 +27,14 @@
 
 #homepage #hero .banner a img {
   margin-bottom: 1rem;
-  border: 1px #6450DC;
-  box-shadow: 1px 1px 40px #6450DC;
-  animation: heart linear 3500ms infinite;
+  border: 1px solid #d2d9d4;
+  box-shadow: 0 0 50px #ffffff;
+  width: 75%;
+  transition: box-shadow 250ms ease-in-out;
 }
 
 #homepage #hero .banner a img:hover {
-  animation: heart linear 1000ms infinite;
+  box-shadow: 0 0 20px #ffffff;
 }
 
 #homepage #hero .banner a.tenyearbtn {
