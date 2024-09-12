@@ -9,11 +9,11 @@ description_en: 為培力我國公務人員對於公共程式的認知與認同�
 tagline:  
 tagline_en: 
 
-og_image: 
+og_image: /p/pmpc/class/PMPC_Class.png
 og_image_en: 
-header_image: 
-avatar_image: 
-theme_color: 
+header_image: /p/pmpc/class/PMPC_Class.png
+avatar_image: /p/pmpc/class/PMPC_Class.png
+theme_color: purple
 
 start: 
 end: 
@@ -31,10 +31,10 @@ tags:
 tags_en:
 
 links:
-  - title: 
-    url: 
-    color: 
-    icon: 
+  - title: PMPC 公共程式培力系列試辦課程
+    url: https://ocf.tw/p/pmpc/class/
+    color: purple
+    icon: world icon 
 
 links_en:
   - title: 
@@ -43,7 +43,7 @@ links_en:
     icon: 
 
 organizer_ids:
-  - 
+  - ocf
 co-organizer_ids:
 consultant_ids:
 
