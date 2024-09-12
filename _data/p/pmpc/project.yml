@@ -1,0 +1,56 @@
+name:  PMPC
+name_en: 
+ 
+
+description: 
+description_en: 
+
+
+tagline:  
+tagline_en: 
+
+og_image: 
+og_image_en: 
+header_image: 
+avatar_image: 
+theme_color: 
+
+start: 
+end: 
+
+topic_ids:
+  - tech
+  - source
+  - data
+  - government
+field_ids:
+  - it
+  - rsh
+  - adv
+tags:
+tags_en:
+
+links:
+  - title: 
+    url: 
+    color: 
+    icon: 
+
+links_en:
+  - title: 
+    url: 
+    color: 
+    icon: 
+
+organizer_ids:
+  - 
+co-organizer_ids:
+consultant_ids:
+
+board_ids:
+
+staff_ids:
+
+
+listed: no
+listed_en: no
