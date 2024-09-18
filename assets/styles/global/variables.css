@@ -1,0 +1,28 @@
+:root {
+  /* theme 2024 */
+  --ocf-primary: #6450dc;
+  --ocf-cyan: #0091da;
+  --ocf-magenda: #ce0058;
+  --ocf-light: #d7dcf0;
+  --ocf-dark: #0f1923;
+  --ocf-white: #ffffff;
+
+
+  /* support old project data with semantic ui colors */
+  --semantic-red: #db2828;
+  --semantic-orange: #f2711c;
+  --semantic-yellow: #fbbd08;
+  --semantic-olive: #b5cc18;
+  --semantic-green: #21ba45;
+  --semantic-teal: #00b5ad;
+  --semantic-blue: #2185d0;
+  --semantic-violet: #6435c9;
+  --semantic-purple: #a333c8;
+  --semantic-pink: #e03997;
+  --semantic-brown: #a5673f;
+  --semantic-grey: #767676;
+  --semantic-black: #1b1c1d;
+
+  /* misc */
+  --page-transition_duration: 0.3s;
+}

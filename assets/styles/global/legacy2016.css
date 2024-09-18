@@ -1,0 +1,334 @@
+/* version 2016: senmantic-ui based styles */
+
+pre,
+code {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+pre {
+  padding: 1rem;
+  white-space: pre-wrap;
+}
+
+code {
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+}
+
+code.nick {
+  margin: 0;
+  font-size: 0.9em;
+  padding-top: 0.05em;
+  padding-bottom: 0.05em;
+  vertical-align: bottom;
+}
+
+/* for icons */
+
+i.icon.fa,
+i.icon.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.ui.list .list > .item > i.icon.fa,
+.ui.list .list > .item > i.icon.fas,
+.ui.list > .item > i.icon.fa,
+.ui.list > .item > i.icon.fas {
+  line-height: 1.6em;
+}
+
+/* adjust default semantic ui line height */
+
+[data-lang="tw"] p,
+[data-lang="tw"] a,
+[data-lang="tw"] li,
+[data-lang="tw"] h1,
+[data-lang="tw"] h2,
+[data-lang="tw"] h3,
+[data-lang="tw"] h4,
+[data-lang="tw"] h5,
+[data-lang="tw"] h6,
+[data-lang="tw"] .header,
+[data-lang="tw"] .ui.header,
+[data-lang="tw"] .ui.header .sub.header,
+[data-lang="tw"] .header .sub.header,
+[data-lang="tw"] .ui.list .item,
+[data-lang="tw"] .ui.list .item .content,
+[data-lang="tw"] .ui.items > .item,
+[data-lang="tw"] .ui.items > .item .meta,
+[data-lang="tw"] .ui.items > .item .description,
+[data-lang="tw"] .ui.cards > .card,
+[data-lang="tw"] .ui.cards > .card .meta,
+[data-lang="tw"] .ui.cards > .card .description {
+  line-height: 1.6em;
+}
+
+.ui.horizontal.list > .item > i.icon,
+.ui.horizontal.list > .item > .content {
+  vertical-align: initial;
+}
+
+.ui.header .sub.header,
+.header .sub.header,
+.ui.items > .item .meta,
+.ui.cards > .card .meta {
+  margin-bottom: 0;
+}
+
+.ui.header .sub.header:first-child,
+.header .sub.header:first-child,
+.ui.items > .item .header + .meta,
+.ui.cards > .card .header + .meta {
+  margin-top: 0.2em;
+}
+
+.ui.items .item .meta .ui.labels {
+  margin-top: 0.5em;
+}
+
+/* universal */
+
+.small {
+  font-size: 0.8em;
+}
+
+.ui.marginless.segment {
+  margin: 0;
+}
+
+.ui.paddingless.segment {
+  padding: 0;
+}
+
+.ui.borderless.segment {
+  border: none;
+}
+
+.ui.stripe.container {
+  margin: 2rem 0;
+}
+
+.floated.left {
+  float: left;
+}
+
+.floated.right {
+  float: right;
+}
+
+.left.aligned {
+  text-align: left;
+}
+
+.center.aligned {
+  text-align: center;
+}
+
+.right.aligned {
+  text-align: right;
+}
+
+.top.margin {
+  margin-top: 1rem;
+}
+
+.bottom.margin {
+  margin-bottom: 1rem;
+}
+
+.vertical.padding {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.horizontal.padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ui.label + .text {
+  margin-left: 0.5rem;
+}
+
+/* for container */
+
+.ui.container {
+  width: 100%;
+  max-width: 1440px !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* for header */
+
+#header {
+  background: url(/assets/images/header-shell.png) repeat center 0;
+}
+
+#header .ui.secondary.pointing.menu {
+  border: none;
+}
+
+#header .ui.secondary.pointing.menu .item {
+  margin-bottom: 0;
+}
+
+#header .ui.menu .logo.item {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  margin-left: -1.14285714em;
+}
+
+#header .ui.menu .logo.image {
+  margin: 0 0.5em 0 0;
+  height: 1.5em;
+}
+
+/* for semantic ui sidebar */
+
+#header [data-display="mobile"] {
+  display: none;
+  margin-right: -1.14285714em;
+}
+#header [data-display="mobile"] i.icon {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  #header [data-display="desktop"] {
+    display: none;
+  }
+
+  #header [data-display="mobile"] {
+    display: flex;
+  }
+}
+
+/* for semantic ui sidebar on ios */
+
+html.ios {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+html.ios,
+html.ios body {
+  height: initial !important;
+}
+
+/* for submenu */
+
+#submenu .ui.menu {
+  margin-top: 1rem;
+  background-color: rgba(240, 240, 240, 0.8);
+}
+
+#submenu [data-context="mobile"],
+#submenu[data-context="mobile"] {
+  display: none;
+}
+
+#submenu [data-context="mobile"] .menu .item,
+#submenu[data-context="mobile"] .menu .item {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #submenu [data-context="desktop"],
+  #toc[data-context="desktop"] {
+    display: none;
+  }
+
+  #submenu [data-context="mobile"],
+  #submenu[data-context="mobile"] {
+    display: block;
+  }
+}
+
+/* for headings */
+
+.ui.cards > .card h3.header {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  h2.ui.header,
+  h1.ui.header {
+    display: block;
+    text-align: center;
+  }
+
+  #about h2.ui.header {
+    text-align: left;
+  }
+}
+
+/* for footer */
+
+#footer {
+  background: url(/assets/images/footer.png) repeat 0 0;
+}
+
+#footer .ui.grid > .column,
+#footer .ui.list > .item {
+  font-size: 0.8rem;
+}
+
+/* for semantic ui list in footer */
+
+#footer .ui.horizontal.list > .item {
+  margin-left: 0;
+  margin-right: 1em;
+}
+
+#footer .ui.horizontal.list > .item:last-child {
+  margin-right: 0;
+}
+
+/* for semantic ui list in partner sections */
+
+#partners .ui.horizontal.list,
+#sponsors .ui.horizontal.list,
+#orgs .ui.horizontal.list {
+  text-align: center;
+  display: block;
+}
+
+#logos .logo,
+.logos .logo,
+#partners .logo,
+#sponsors .logo,
+#orgs .logo {
+  max-width: 20em;
+  max-height: 10em;
+}
+
+/* for youtube videos */
+
+.video_container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+}
+
+.video_container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}

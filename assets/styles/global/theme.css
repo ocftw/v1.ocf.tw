@@ -1,0 +1,423 @@
+/* text */
+
+.ocf__text--light {
+  font-weight: 300;
+}
+
+.ocf__text--regular {
+  font-weight: 400;
+}
+
+.ocf__text--bold {
+  font-weight: 700;
+}
+
+.ocf__text--black {
+  font-weight: 900;
+}
+
+.ocf__text--primary {
+  color: var(--ocf-primary);
+}
+.ocf__text--cyan {
+  color: var(--ocf-cyan);
+}
+.ocf__text--magenda {
+  color: var(--ocf-magenda);
+}
+.ocf__text--light {
+  color: var(--ocf-light);
+}
+.ocf__text--dark {
+  color: var(--ocf-dark);
+}
+.ocf__text--white {
+  color: var(--ocf-white);
+}
+
+p,
+.ocf__paragraph {
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.ocf__title,
+.ocf__heading1,
+.ocf__heading2,
+.ocf__heading3,
+.ocf__tagline {
+  font-family: "Roboto Slab", "Chiron Hei HK", "微軟正黑體",
+    "Microsoft JhengHei", sans-serif;
+  /* in design guide: medium */
+  font-weight: 500;
+  margin: 1em 0;
+}
+
+h1,
+.ocf__title {
+  /* in design guide: large title 48px */
+  font-size: 3rem;
+}
+
+.ocf__subtitle {
+  /* in design guide: subtitle 21px */
+  font-size: 1.3125rem;
+}
+
+.ocf__tagline {
+  /* in design guide: headline 36px */
+  font-size: 2.25rem;
+}
+
+h2,
+.ocf__heading1 {
+  /* in design guide: title 1: 26px */
+  font-size: 1.625rem;
+}
+
+h3,
+.ocf__heading2 {
+  /* in design guide: title 2 18px */
+  font-size: 1.125rem;
+}
+
+h4,
+.ocf__heading3 {
+  /* in design guide: title 3 14px */
+  font-size: 0.875rem;
+}
+
+.ocf__index_heading {
+  /* in design guide: index title 26px */
+  font-size: 1.625rem;
+}
+
+.ocf__footnote {
+  /* in design guide: footnote 11px -> limited to smallest font size */
+  font-size: 0.75rem;
+}
+
+.ocf__caption {
+  /* in design guide: caption 1 14px */
+  font-size: 0.875rem;
+}
+
+.ocf__caption--small {
+  /* in design guide: caption 2 7px -> limited to smallest font size */
+  font-size: 0.75rem;
+}
+
+/* links */
+
+a:link,
+.ocf__link {
+  transition: all var(--page-transition_duration);
+
+  &.ocf__button {
+    text-decoration: none;
+  }
+
+  &:not(.ocf__button) {
+    color: var(--ocf-dark);
+    opacity: 0.8;
+
+    &:hover,
+    &:active {
+      opacity: 1;
+    }
+  }
+}
+
+.ocf__link--primary_in_dark_background {
+  color: var(--ocf-primary);
+
+  &:link {
+    color: var(--ocf-primary);
+  }
+  &:hover,
+  &:active {
+    color: var(--ocf-light);
+  }
+  &:visited {
+    color: var(--ocf-primary);
+  }
+}
+
+.ocf__link--primary_in_light_background {
+  color: var(--ocf-primary);
+
+  &:link {
+    color: var(--ocf-primary);
+  }
+  &:hover,
+  &:active {
+    color: var(--ocf-dark);
+  }
+  &:visited {
+    color: var(--ocf-primary);
+  }
+}
+
+.ocf__link--cyan {
+  color: var(--ocf-cyan);
+
+  &:link {
+    color: var(--ocf-cyan);
+  }
+  &:hover,
+  &:active {
+    color: var(--ocf-light);
+  }
+  &:visited {
+    color: var(--ocf-cyan);
+  }
+}
+
+.ocf__link--magenda {
+  color: var(--ocf-magenda);
+
+  &:link {
+    color: var(--ocf-magenda);
+  }
+  &:hover,
+  &:active {
+    color: var(--ocf-light);
+  }
+  &:visited {
+    color: var(--ocf-magenda);
+  }
+}
+
+.ocf__link--dark {
+  color: var(--ocf-dark);
+
+  &:link {
+    color: var(--ocf-dark);
+  }
+  &:hover,
+  &:active {
+    color: var(--ocf-primary);
+    text-decoration: underline;
+  }
+  &:visited {
+    color: var(--ocf-dark);
+  }
+}
+
+.ocf__link--light {
+  color: var(--ocf-light);
+
+  &:link {
+    color: var(--ocf-light);
+  }
+  &:hover,
+  &:active {
+    color: var(--ocf-white);
+  }
+  &:visited {
+    color: var(--ocf-light);
+  }
+}
+
+.ocf__link--white {
+  color: var(--ocf-white);
+
+  &:link {
+    color: var(--ocf-white);
+  }
+  &:hover,
+  &:active {
+    color: var(--ocf-primary);
+  }
+  &:visited {
+    color: var(--ocf-white);
+  }
+}
+
+/* buttons */
+
+.ocf__button {
+  line-height: 1;
+  padding: 0.75em 1.5em;
+  transition: all var(--page-transition_duration);
+}
+
+.ocf__button--outline {
+  background-color: none;
+}
+
+.ocf__button--primary {
+  background-color: var(--ocf-primary);
+  color: var(--ocf-white);
+
+  &:hover {
+    color: var(--ocf-light);
+  }
+}
+
+.ocf__button--primary_outline {
+  color: var(--ocf-primary);
+  box-shadow: 0 0 0 3px var(--ocf-primary) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--ocf-primary);
+  }
+}
+
+.ocf__button--cyan_outline {
+  color: var(--ocf-cyan);
+  box-shadow: 0 0 0 3px var(--ocf-cyan) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--ocf-cyan);
+  }
+}
+
+.ocf__button--magenda_outline {
+  color: var(--ocf-magenda);
+  box-shadow: 0 0 0 3px var(--ocf-magenda) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--ocf-magenda);
+  }
+}
+
+/* support old project data with semantic ui colors */
+
+.semantic__button--red_outline {
+  color: var(--semantic-red);
+  box-shadow: 0 0 0 3px var(--semantic-red) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-red);
+  }
+}
+
+.semantic__button--orange_outline {
+  color: var(--semantic-orange);
+  box-shadow: 0 0 0 3px var(--semantic-orange) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-orange);
+  }
+}
+
+.semantic__button--yellow_outline {
+  color: var(--semantic-yellow);
+  box-shadow: 0 0 0 3px var(--semantic-yellow) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-yellow);
+  }
+}
+
+.semantic__button--olive_outline {
+  color: var(--semantic-olive);
+  box-shadow: 0 0 0 3px var(--semantic-olive) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-olive);
+  }
+}
+
+.semantic__button--green_outline {
+  color: var(--semantic-green);
+  box-shadow: 0 0 0 3px var(--semantic-green) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-green);
+  }
+}
+
+.semantic__button--teal_outline {
+  color: var(--semantic-teal);
+  box-shadow: 0 0 0 3px var(--semantic-teal) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-teal);
+  }
+}
+
+.semantic__button--blue_outline {
+  color: var(--semantic-blue);
+  box-shadow: 0 0 0 3px var(--semantic-blue) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-blue);
+  }
+}
+
+.semantic__button--violet_outline {
+  color: var(--semantic-violet);
+  box-shadow: 0 0 0 3px var(--semantic-violet) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-violet);
+  }
+}
+
+.semantic__button--purple_outline {
+  color: var(--semantic-purple);
+  box-shadow: 0 0 0 3px var(--semantic-purple) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-purple);
+  }
+}
+
+.semantic__button--pink_outline {
+  color: var(--semantic-pink);
+  box-shadow: 0 0 0 3px var(--semantic-pink) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-pink);
+  }
+}
+
+.semantic__button--brown_outline {
+  color: var(--semantic-brown);
+  box-shadow: 0 0 0 3px var(--semantic-brown) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-brown);
+  }
+}
+
+.semantic__button--grey_outline {
+  color: var(--semantic-grey);
+  box-shadow: 0 0 0 3px var(--semantic-grey) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-grey);
+  }
+}
+
+.semantic__button--black_outline {
+  color: var(--semantic-black);
+  box-shadow: 0 0 0 3px var(--semantic-black) inset;
+
+  &:hover {
+    color: var(--ocf-white);
+    background-color: var(--semantic-black);
+  }
+}
