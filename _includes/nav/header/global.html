@@ -1,9 +1,42 @@
 <header id="header" class="ui segment inverted basic marginless paddingless">
   <div class="ui container">
     <nav class="ui secondary inverted pointing menu">
+      
+{% include _var/lang.html %}
 
-    {% include nav/links/header.html %}
+{% assign org = site.data.people.orgs.ocf %}
 
+{% if lang == "en" %}
+  {% assign home_text = org.name_en %}
+  {% assign home_url = '/en/' %}
+{% else %}
+  {% assign home_text = org.abbr %}
+  {% assign home_url = '/' %}
+{% endif %}
+
+<div id="topbar">
+  <div class="page__spacer--large"></div>
+  <div class="page__container">
+
+    <nav class="page__flex">
+      <a href="{{ home_url }}" class="logo">
+        <img src="./assets/images/web_homepage_elements_logo_全稱紫.svg" alt="{{ home_text }}" />
+      </a>
+
+      <span class="page__flex_spacer"></span>
+
+      <ul class="page__flex page__menu--horizontal" data-display="desktop">
+        {% include nav/links/main.html %}
+      </ul>
+      <button id="toggle-sidebar" data-display="mobile" data-toggle="sidebar">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </nav>
+
   </div>
+</div>
+
+{% assign home_text = undefined %}
+{% assign home_url = undefined %}
+
 </header>
