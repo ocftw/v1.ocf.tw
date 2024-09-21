@@ -86,17 +86,9 @@
   {% endif %}
 
 </head>
-<body data-lang="{{ lang }}">
+<body data-lang="{{ lang }}" id="page__pushable--wrapper">
 
-  <nav class="ui right inverted vertical menu sidebar">
-  {% if page.layout == "design" %}
-    {% include design/sidebar.html %}
-  {% else %}
-    {% include nav/sidebar.html %}
-  {% endif %}
-  </nav>
-
-  <div class="pusher">
+  <div id="page__pushable">
   {% if page.layout == "design" %}
     {% include nav/header/design.html %}
   {% else %}
@@ -107,6 +99,12 @@
 
   {% include nav/footer.html %}
   </div>
+
+  {% if page.layout == "design" %}
+    {% include design/sidebar.html %}
+  {% else %}
+    {% include nav/sidebar.html %}
+  {% endif %}
 
   <script src="/assets/libs/jquery-3.7.0.min.js"></script>
   <script src="/assets/libs/jquery.address.min.js"></script>

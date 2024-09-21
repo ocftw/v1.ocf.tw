@@ -8,8 +8,19 @@
   {% assign home_url = '/' %}
 {% endif %}
 
-{% include _shared/link.html url=home_url class='item' title=home_text %}
-{% include nav/links/main.html %}
+<ul>
+  <li>
+    {% assign item_class = '' %}
+    {% if page.url == home_url %}
+      {% assign item_class = 'active' %}
+    {% endif %}
+
+    {% include _shared/link.html url=home_url class=item_class title=home_text %}
+
+    {% assign item_class = undefined %}
+  </li>
+  {% include nav/links/main.html %}
+</ul>
 
 {% assign home_text = undefined %}
 {% assign home_url = undefined %}

@@ -1,0 +1,17 @@
+#footer {
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      a,
+      a:link {
+        line-height: 1;
+        display: block;
+        padding: 0.5rem 0;
+        color: var(--ocf-light);
+        transition: all var(--page-transition_duration) ease;
+      }
+    }
+  }
+}

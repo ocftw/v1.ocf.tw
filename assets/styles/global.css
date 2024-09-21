@@ -2,6 +2,8 @@
 @import "global/theme.css";
 @import "global/layouts.css";
 @import "global/topbar.css";
+@import "global/sidebar.css";
+@import "global/footer.css";
 @import "global/legacy2016.css";
 
 html {
@@ -17,4 +19,44 @@ body {
   /* in design guide: body 1 */
   font-weight: 400;
   color: var(--ocf-dark);
+}
+
+#page__pushable--wrapper {
+  --sidebar-width: 18.75rem;
+
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+  transition: all var(--page-transition_duration) ease;
+
+  display: grid;
+  grid-template-columns: 100vw auto;
+
+  #page__pushable,
+  #page__pusher {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  #page__pusher {
+    background-color: var(--ocf-dark);
+    width: 0;
+  }
+
+  &.page__pushable--wrapper--pushed {
+    left: calc(var(--sidebar-width) * -1);
+
+    #page__pushable {
+      overflow-y: hidden;
+    }
+    #page__pusher {
+      width: var(--sidebar-width);
+    }
+  }
+}
+
+@media only screen and (960px <= width) {
+  #page__pushable--wrapper {
+    --sidebar-width: 0;
+  }
 }
