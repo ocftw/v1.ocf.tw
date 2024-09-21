@@ -1,6 +1,7 @@
 @import "global/variables.css";
 @import "global/theme.css";
 @import "global/layouts.css";
+@import "global/topbar.css";
 @import "global/legacy2016.css";
 
 html {

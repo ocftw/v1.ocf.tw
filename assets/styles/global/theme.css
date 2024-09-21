@@ -241,7 +241,12 @@ a:link,
 
 /* buttons */
 
+button,
 .ocf__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+
   line-height: 1;
   padding: 0.75em 1.5em;
   transition: all var(--page-transition_duration);

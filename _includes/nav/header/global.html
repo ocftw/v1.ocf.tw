@@ -1,7 +1,3 @@
-<header id="header" class="ui segment inverted basic marginless paddingless">
-  <div class="ui container">
-    <nav class="ui secondary inverted pointing menu">
-      
 {% include _var/lang.html %}
 
 {% assign org = site.data.people.orgs.ocf %}
@@ -20,23 +16,25 @@
 
     <nav class="page__flex">
       <a href="{{ home_url }}" class="logo">
-        <img src="./assets/images/web_homepage_elements_logo_全稱紫.svg" alt="{{ home_text }}" />
+        <img
+          src="/assets/images/web_homepage_elements_logo_全稱紫.svg"
+          alt="{{ home_text }}"
+        />
       </a>
 
       <span class="page__flex_spacer"></span>
 
-      <ul class="page__flex page__menu--horizontal" data-display="desktop">
+      <ul class="page__flex page__menu--horizontal">
         {% include nav/links/main.html %}
       </ul>
-      <button id="toggle-sidebar" data-display="mobile" data-toggle="sidebar">
+      <button id="toggle-sidebar" class="topbar__button--toggleSidebar" data-toggle="sidebar">
         <i class="fa-solid fa-bars"></i>
       </button>
     </nav>
 
   </div>
+  <div class="page__spacer--large"></div>
 </div>
 
 {% assign home_text = undefined %}
 {% assign home_url = undefined %}
-
-</header>
