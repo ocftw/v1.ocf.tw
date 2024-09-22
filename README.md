@@ -259,5 +259,6 @@ TODO: 目前為舊版（2016）網站架構，將來視情況看要不要替新�
 ```
 $ gem install jekyll -v 3.9.5
 $ gem install jekyll-redirect-from
+$ gem install jekyll-sitemap
 $ jekyll _3.9.5_ serve --watch
 ```
