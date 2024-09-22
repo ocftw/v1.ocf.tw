@@ -1,3 +1,66 @@
+#plist {
+  background-image: url("/assets/images/web_project_elements_background.svg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#plist>.container {
+  max-width: calc(300px * 3 + 5rem);
+}
+
+#plist>.container>.grid {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2.5rem;
+  row-gap: 2.5rem;
+  align-items: stretch;
+}
+
+#plist>.container>.grid .project {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border: 5px var(--ocf-primary) solid;
+  background-color: hsla(0, 0%, 100%, 0.625);
+}
+
+#plist>.container>.grid .project img {
+  width: 100%;
+  border-bottom: 5px var(--ocf-primary) solid;
+}
+
+#plist>.container>.grid .project article {
+  padding: 1.25rem;
+}
+
+#plist>.container>.grid .project article h3 {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+#plist>.container>.grid .project article p {
+  font-size: 0.75rem;
+  margin: 1.75em 0;
+}
+
+@media only screen and (400px <=width < 768px) {
+  #plist>.container>.grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+  }
+}
+
+@media only screen and (width < 400px) {
+  #plist>.container>.grid {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+}
+
+
+
 #plist .card.display-none {
   display: none;
 }
@@ -12,7 +75,7 @@
   min-height: 1.6rem;
 }
 
-#plist .card .meta .ui.list .item > .ui.label {
+#plist .card .meta .ui.list .item>.ui.label {
   padding-left: 0;
   padding-right: 0;
   min-width: 5rem;

@@ -28,5 +28,21 @@
         }
       }
     }
+
+    /*
+    & > li#resources > a {
+      cursor: pointer;
+    }
+
+    & > li#resources > ul {
+      transition: all var(--page-transition_duration) ease;
+      display: none;
+      margin-left: 1rem;
+    }
+
+    & > li#resources.active > ul {
+      display: block;
+    }
+    */
   }
 }

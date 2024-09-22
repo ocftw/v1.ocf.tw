@@ -40,6 +40,16 @@ menu:
     url: https://blog.ocf.tw/search/label/捐款徵信
   - title: OCFLab
     url: https://lab.ocf.tw/
+  # TODO: to be added
+  # - title: 資源
+    # items:
+    # - title: 新聞集錦
+    #   url: /press/
+    # - title: 關於本網站
+    #   url: /site/
+    # - title: 新訊 Blog
+    #   url: https://blog.ocf.tw
+    # TODO: to be deprecated
   - title: 支持我們
     url: /supportus/
 
