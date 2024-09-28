@@ -3,6 +3,9 @@ layout: global
 og_title: 活動一覽
 og_description: 推廣開放文化需要不斷地、不斷地、不斷地採取行動！基金會歷年來做過哪些嘗試？請看我們的活動日誌 ^_<
 
+css: journal.css
+js: journal.js
+
 # 活動日誌檔名與排序
 years:
   - "2024"
@@ -19,81 +22,64 @@ years:
 ---
 
 <main id="log">
+  <div class="ui center aligned stripe container">
+    <h1 class="ui icon header">
+      <i class="circular heartbeat icon"></i>
+      {{ page.og_title }}
+    </h1>
+    <p>
+      推廣開放文化需要不斷地、不斷地、不斷地採取行動！（握拳）馬上關注我們的活動：簡介、網頁、報名資訊攏底加！
+    </p>
 
-<div class="ui center aligned stripe container">
-  <h1 class="ui icon header">
-    <i class="circular heartbeat icon"></i>
-    {{ page.og_title }}
-  </h1>
-  <p>推廣開放文化需要不斷地、不斷地、不斷地採取行動！（握拳）馬上關注我們的活動：簡介、網頁、報名資訊攏底加！</p>
-
-  <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
-    <div class="ui dropdown item">
-      <span data-content="current">跳至...</span>
-      <i class="dropdown icon"></i>
-      <div class="menu">
-
-      {% for year in page.years %}
-        <a href="#{{ year }}" class="item">{{ year }}</a>
-      {% endfor %}
-
+    <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
+      <div class="ui dropdown item">
+        <span data-content="current">跳至...</span>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          {% for year in page.years %}
+          <a href="#{{ year }}" class="item">{{ year }}</a>
+          {% endfor %}
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
-</div>
+  <hr class="ui hidden divider" />
 
-<hr class="ui hidden divider" />
+  <div class="ui stripe container">
+    <div class="ui two column stackable grid">
+      <div id="toc" data-context="desktop" class="three wide column">
+        <nav class="ui secondary sticky vertical pointing fluid menu">
+          {% for year in page.years %}
+          <a href="#{{ year }}" class="item">{{ year }}</a>
+          {% endfor %}
+        </nav>
+      </div>
 
-<div class="ui stripe container">
-  <div class="ui two column stackable grid">
+      <div class="thirteen wide column">
+        {% for year in page.years %}
 
-    <div id="toc" data-context="desktop" class="three wide column">
-      <nav class="ui secondary sticky vertical pointing fluid menu">
-
-      {% for year in page.years %}
-        <a href="#{{ year }}" class="item">{{ year }}</a>
-      {% endfor %}
-
-      </nav>
-    </div>
-
-    <div class="thirteen wide column">
-      {% for year in page.years %}
-
-        <h2 id="{{ year }}" class="ui dividing header">{{ year }} 年</h2>
+        <h2 id="{{ year }}" class="ui dividing header">
+          {{ year }} 年
+          <i class="icon down chevron"></i>
+        </h2>
 
         <div class="ui divided items">
-
-        {% include _var/events.html %}
-        {% for event in events %}
-          {% if event.start contains year %}
-            {% include p/events/item.html %}
-          {% endif %}
-        {% endfor %}
-
-        {% assign events = site.data.events[year] %}
-        {% if events %}
-        {% for event in events reversed %}
-
-          {% assign item = event[1] %}
-          {% include events/item.html %}
-
-        {% endfor %}
-        {% endif %}
-
+          {% include _var/events.html %}
+            {% for event in events %}
+              {% if event.start contains year %}
+                {% include p/events/item.html %}
+              {% endif %}
+            {% endfor %} {% assign events = site.data.events[year] %} {% if
+          events %} {% for event in events reversed %} {% assign item = event[1]
+          %} {% include events/item.html %} {% endfor %} {% endif %}
         </div>
-      {% endfor %}
-
+        {% endfor %}
+      </div>
     </div>
-
   </div>
-</div>
 
-<section id="ads" class="ui vertical segment">
-  <div class="ui stripe container">
-    {% include banner_cta.html %}
-  </div>
-</section>
-
+  <section id="ads" class="ui vertical segment">
+    <div class="ui stripe container">{% include banner_cta.html %}</div>
+  </section>
 </main>

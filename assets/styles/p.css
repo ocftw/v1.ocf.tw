@@ -109,3 +109,12 @@
     order: 0;
   }
 }
+
+.ui.dividing.header {
+  cursor: pointer;
+  .icon {
+    font-size: 1em;
+    float: right;
+    line-height: 1.75em;
+  }
+}
