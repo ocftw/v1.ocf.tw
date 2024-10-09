@@ -1,4 +1,19 @@
 - id: opentech
+  name: OCF 秋季交流會
+  name_en: 
+  description: 10 月 OCF 也將前往高雄參加 MOPCON！藉著這難得的開源盛會，我們也想邀請在地的開源技術人、NGO 夥伴及所有 OCF 的朋友一起相聚、交流彼此的近況，歡迎參加完 MOPCON 意猶未盡的朋友，一起來交流會續攤抬槓！
+  start: 2024/10/26
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocftw.kktix.cc/events/khfallparty2024
+  cover_image: /p/opentech/2024_OCF_fall_pARTY_large.png
+  contributor_ids:
+  project_ids:
+    - opentech
+
+
+- id: opentech
   name: 開放科技小聚 [000] ：2024 開放政府週之承諾事項，提案了，然後呢？
   name_en: 開放科技小聚 [000] ：2024 開放政府週之承諾事項，提案了，然後呢？
   description: 五月底是國際的開放政府週 (Open Gov Week)，同時作為新政府上任後的時刻，正適合討論二月用力徵集民間提案的「開放政府國家行動方案承諾事項」的下一步。不知各 CSOs、公民科技社群朋友、眾提案人們，是否也跟 OCF 一樣眼睛睜大、心情忐忑，想了解在新政府下各個提案的下一步呢？這輪提案中，OCF 提出了五個促進產生開放資料制度建置共識的提案，希冀在各種資料治理中有更多公民參與，將在這次小聚中跟大家分享。
