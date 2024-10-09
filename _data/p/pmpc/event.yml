@@ -1,0 +1,178 @@
+- id: 
+  name: 公共程式系列試辦課程 - 澎湖場：從開放原始碼與公共程式－效益與日常應用
+  name_en: 
+  description: "藉由桌遊教具「開源星手村」引導學員認識數位協作之基本心法與進行原則。並延伸介紹得以實踐數位協作軟體工具或服務，以俾學員透過工作日常中，實現開放原始碼背後之數位協作精神。" 
+  description_en: 
+  start: 2024/11/15
+  end:
+  links:
+    - title: 報名網址
+      url:  https://forms.gle/JigeCWCAsd1m1Uyt5
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 澎湖場：從開放原始碼到公共程式－概念介紹
+  name_en: 
+  description: "從軟體程式開發之基本原理出發，進一步介紹開放原始碼軟體之定義、歷史發展、與著名案例，並介紹公共程式政策目標與影響。" 
+  description_en: 
+  start: 2024/11/15
+  end:
+  links:
+    - title: 報名網址
+      url: https://forms.gle/JigeCWCAsd1m1Uyt5
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 台北場：公共程式廠商管理國際標準
+  name_en: 
+  description: "藉由實際案例說明完善政府軟體管理之重要，並介紹軟體管理的三項基石：軟體物料清單（SBOM）、國際開源管理標準 ISO/IEC 5230、ISO/IEC 18974。本課程也帶領學員認識國際公共程式開發標準 Standard for Public Code。" 
+  description_en: 
+  start: 2024/11/01
+  end:
+  links:
+    - title: 報名網址
+      url: https://forms.gle/o88Kt4WpgDnKKpLA8
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 宜蘭場：軟體管理基本標準與元素
+  name_en: 
+  description: "從實際例子談論軟體管理之重要，並介紹軟體管理所需的三項基石：軟體物料清單（SBOM）、國際開源管理標準 ISO/IEC 5230、ISO/IEC 18974。" 
+  description_en: 
+  start: 2024/10/25
+  end:
+  links:
+    - title: 報名網址
+      url: https://forms.gle/DwA344ZQjMNk9W1Z7
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 宜蘭場：我國公共程式政策和開放原始碼案例
+  name_en: 
+  description: "從軟體程式開發之基本原理出發，進一步介紹開放原始碼軟體之定義、歷史發展、與著名案例，並介紹公共程式政策目標與影響。" 
+  description_en: 
+  start: 2024/10/25
+  end:
+  links:
+    - title: 報名網址
+      url: https://forms.gle/yBdaE3egrWbjVAqC7
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 高雄場：公共程式國際案例與政策 
+  name_en: 
+  description: "藉由介紹具體的國際政策案例，使學員了解開放原始碼對於政府數位轉型的助益、消除學員對機關資訊服務採購預設開放原始碼的疑慮、以及提供學員公共程式政策落實相關的的國際經驗。" 
+  description_en: 
+  start: 2024/10/18
+  end:
+  links:
+    - title: 報名網址
+      url: https://forms.gle/so4ZRQe5icbJJPcr9
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 高雄場：從開放原始碼到公共程式－概念介紹 
+  name_en: 
+  description: "從軟體程式開發之基本原理出發，進一步介紹開放原始碼軟體之定義、歷史發展、與著名案例，並介紹公共程式政策目標與影響。" 
+  description_en: 
+  start: 2024/10/18
+  end:
+  links:
+    - title: 報名網址
+      url: https://forms.gle/bKm1JXQpbesTt86e6
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 台中場：公共程式招標文件入門－需求評估和授權條款 
+  name_en: 
+  description: "以自由與開源軟體基本概念為起點，架構常見自由與開源授權條款與資訊安全所需知識，進而使參與者能了解如何進行開放原始碼解決方案需求評估，以及如何適用於我國的採購流程中。" 
+  description_en: 
+  start: 2024/10/17
+  end:
+  links:
+    - title: 報名網址
+      url: https://forms.gle/5Lc7Nhk4U5HFCfwz6
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 台中場：開放原始碼全球趨勢與生態系
+  name_en: 
+  description: "藉由介紹具體的國際政策案例，使學員了解開放原始碼對於政府數位轉型的助益、以及公共程式精神在各國具體落實所形成的政策樣態。學員也將深入認識公共程式如何促進國家發展高自主性的政府數位基礎設施、豐富開放原始碼產業生態系、以及提供具有社會公益性的數位公共財。" 
+  description_en: 
+  start: 2024/10/17
+  end:
+  links:
+    - title: 報名網址
+      url: https://forms.gle/utNkn52xMfcCpFsy7
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 桃園場：我國公共程式政策和開放原始碼案例
+  name_en: 
+  description: "從軟體程式開發之基本原理出發，進一步介紹開放原始碼軟體之定義、歷史發展、與著名案例，並介紹公共程式政策目標與影響。" 
+  description_en: 
+  start: 2024/09/27
+  end:
+  links:
+    - title: 報名網址
+      url: https://forms.gle/8U2nZ1bazoyRZ22v8
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+  project_ids: 
+    - pmpc
