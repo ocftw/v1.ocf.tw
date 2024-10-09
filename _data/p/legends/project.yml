@@ -17,6 +17,8 @@ topic_ids:
 field_ids:
 
 links: 
+  - title: 連署：修法與公開 eID 資訊
+    url: https://ocf.tw/p/eid/
   - title: OCF Lab - 開放與科技的新知匯集
     url: https://lab.ocf.tw/
   - title: 開源教 - 一個讓開源人分享學習的舞台
@@ -25,6 +27,8 @@ links:
     url: https://ocf.tw/p/pttid/
 
 links_en: 
+  - title: Petition - Amend the Law and Disclose eID Information
+    url: https://ocf.tw/p/eid/
   - title: OCF Lab - A hub of open, technology and knowledges
     url: https://lab.ocf.tw/
   - title: The Openists - A stage for people sharing knowledges openly 
