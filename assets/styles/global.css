@@ -99,7 +99,7 @@ body {
   font-size: 3rem;
   padding: 1rem 0;
   margin: 0;
-  margin-left: 3.5rem;
+  margin-left: 7.5rem;
 }
 
 @media screen and (400px <= width < 1024px) {
