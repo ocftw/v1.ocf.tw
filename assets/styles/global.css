@@ -60,3 +60,204 @@ body {
     --sidebar-width: 0;
   }
 }
+
+#keyvisual_inner {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+#keyvisual_inner img#background {
+  position: absolute;
+  inset: 0;
+}
+
+#keyvisual_inner .container {
+  max-width: 1024px;
+  height: calc(100% / 3);
+}
+
+#keyvisual_inner .container.upper {
+  display: flex;
+  align-items: flex-end;
+}
+#keyvisual_inner .container.lower {
+  display: flex;
+  align-items: flex-start;
+}
+
+#keyvisual_inner .container img.decorator {
+  width: 100%;
+}
+
+#keyvisual_inner #title_block {
+  background-color: var(--ocf-white);
+}
+
+#keyvisual_inner #title_block h1 {
+  font-size: 3rem;
+  padding: 1rem 0;
+  margin: 0;
+  margin-left: 7.5rem;
+}
+
+@media screen and (400px <= width < 1024px) {
+  #keyvisual_inner #title_block h1 {
+    font-size: 1.2rem;
+    padding: 0.5em 0;
+    margin-left: 3em;
+  }
+}
+
+@media screen and (width < 400px) {
+  #keyvisual_inner #title_block h1 {
+    font-size: 1rem;
+    padding: 0.5em 0;
+    margin-left: 0;
+  }
+  #keyvisual_inner {
+    height: 30vh;
+  }
+}
+
+#keyvisual_inner #subtitle_block {
+  background-color: var(--ocf-white);
+  position: absolute;
+  right: 0;
+  top: calc(50% - 13rem);
+  width: calc(50% - 3rem);
+  padding: 0.125rem 0.5rem;
+}
+
+#keyvisual_inner #subtitle_block p {
+  color: var(--ocf-primary);
+  font-size: 1.325rem;
+  margin: 0;
+}
+
+@media screen and (400px <= width < 1024px) {
+  #keyvisual_inner #subtitle_block {
+    top: calc(50% - 6rem);
+    width: calc(50%);
+  }
+  #keyvisual_inner #subtitle_block p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (width < 400px) {
+  #keyvisual_inner #subtitle_block {
+    top: calc(50% - 4rem);
+    width: calc(50%) + 3rem;
+  }
+  #keyvisual_inner #subtitle_block p {
+    font-size: 0.625rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", sans-serif;
+  color: var(--ocf-primary);
+  margin: 1em 0;
+}
+
+h1 {
+  /* in design guide: large title */
+  font-size: 3rem;
+}
+
+h2 {
+  /* in design guide: title 1: 26px */
+  font-size: 1.625rem;
+}
+
+h3 {
+  /* in design guide: title 2 */
+  font-size: 1.125rem;
+}
+
+h4 {
+  /* in design guide: title 3 */
+  font-size: 0.875rem;
+}
+
+.headline {
+  font-size: 2.25rem;
+}
+
+p {
+  /* in design guide: body 2 */
+  font-size: 0.875rem;
+}
+
+p.small {
+  /* in design guide: body 1 */
+  font-size: 0.75rem;
+}
+
+@media only screen and (width < 400px) {
+  h1 {
+    font-size: 1.125rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.875rem;
+  }
+  p {
+    font-size: 13px;
+  }
+  p.small {
+    font-size: 0.5625rem;
+  }
+}
+
+p.primary {
+  color: var(--ocf-primary);
+}
+
+.footnote {
+  /* in design guide: footnote */
+  font-size: 0.6875rem;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  /* in design guide: caption 1 */
+  font-size: 0.875rem;
+}
+
+figcaption.small {
+  /* in design guide: caption 2 */
+  font-size: 0.4375rem;
+}
+
+img {
+  border: none;
+  margin-bottom: -4px;
+}
+
+button {
+  border: none;
+  background: none;
+  color: inherit;
+  padding: 0.5em 1em;
+  margin: 0;
+}
+
+a,
+a:link,
+a:hover {
+  text-decoration: none;
+}

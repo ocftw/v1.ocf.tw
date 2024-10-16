@@ -1,10 +1,17 @@
 #homepage #hero {
   background-color: #333;
-  /*
-  background: url(/img/cover.png) no-repeat center center;
-  */
-  background-clip: border-box;
+  background-image: url(/preview/assets/images/web_homepage_elements_homepage_KV.png);
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-size: cover;
   margin: 0;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+  #homepage #hero {
+    height: 40vh;
+  }
 }
 
 #homepage #header {
@@ -13,7 +20,7 @@
 }
 
 #homepage #header .ui.menu .logo.item {
-  padding: .85714286em 1.14285714em;
+  padding: 0.85714286em 1.14285714em;
 }
 
 #homepage #header .ui.menu .logo.image {
@@ -38,11 +45,11 @@
   opacity: 1;
 }
 
-#homepage #what_we_do .items>.item>.image:not(.ui) {
+#homepage #what_we_do .items > .item > .image:not(.ui) {
   width: 8rem;
 }
 
-#homepage #what_we_do .items>.item .bordered.icon {
+#homepage #what_we_do .items > .item .bordered.icon {
   margin-right: 0;
   width: 100%;
 }
@@ -64,7 +71,8 @@
   display: inline-block;
 }
 
-#homepage .blockquote:before, .blockquote:after {
+#homepage .blockquote:before,
+.blockquote:after {
   opacity: 0.5;
   position: absolute;
   top: 0;
@@ -96,14 +104,11 @@
 }
 
 @media only screen and (max-width: 767px) {
+  #homepage #what_we_do hr.ui.hidden.divider {
+    display: none;
+  }
 
-#homepage #what_we_do hr.ui.hidden.divider {
-  display: none;
+  #homepage #what_we_do .items > .item > .image {
+    width: 100% !important;
+  }
 }
-
-#homepage #what_we_do .items>.item>.image {
-  width: 100%!important;
-}
-
-}
-
