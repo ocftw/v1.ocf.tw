@@ -24,17 +24,17 @@ show_events: yes
 # 是否顯示計畫成果，若填 yes 則會自動列出屬於這個專案的活動，若留空，則不顯示計畫成果區塊
 gsheet_url: 
 # 收知明細表的 google spreadsheet 網址，若留空，則不顯示收支明細區塊
-show_sponsors: 
+show_sponsors: yes
 # 是否顯示贊助商，若填 yes 則會自動出現專案贊助商們的 logo，若留空，則不顯示贊助商區塊
-show_donors: 
+show_donors: yes
 # 是否顯示捐助人，若填 yes 則會自動出現捐助人們的名單，若留空，則不顯示捐助人區塊
 
-# ------ 右側邊欄設定（選填） ------
+# ------ 左側邊欄設定（選填） ------
 
-show_progress: 
+show_progress: yes
 # 是否顯示募款進度，若填 yes 則會從檔頭 yml 中抓取 progress 資料、或單純提供進度條 dom element 讓 neticrm 的自動化 js 可以作用，若留空，則不顯示進度條
 progress:
-# 專案募款進度，會出現在專案列表頁右側邊欄
+# 專案募款進度，會出現在專案列表頁左側邊欄
   duration: 
   # 募款期間，若留空，則不顯示此項目
   goal: 
@@ -50,7 +50,7 @@ progress:
 cpid: 
 # 專案從 neticrm 抓募款進度資料時使用的 id，若留空，則不從 neticrm 抓資料
 show_child_projects: yes
-# 如果有子專案，是否在右側邊欄下方顯示通往子專案的連結。若留空，則不顯示
+# 如果有子專案，是否在左側邊欄下方顯示通往子專案的連結。若留空，則不顯示
 ---
 
 <!-- 以下快速複製用
@@ -84,9 +84,9 @@ show_child_projects: yes
 
 <!-- 專案頁內文 -->
 
-<h2 class="ui dividing header">計畫說明</h2>
+<h2 class="ocf__text--primary">計畫說明</h2>
 
-<h3 class="ui header">
+<h3>
 標題一
 </h3>
 

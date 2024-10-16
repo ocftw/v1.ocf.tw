@@ -51,6 +51,18 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/assets/fonts/chiron/css/vf.css" />
+  <link
+    rel="stylesheet"
+    href="/assets/fonts/fontawesome-free-6.5.1-web/css/all.min.css"
+  />
+
   <link rel="stylesheet" href="/assets/libs/fa/css/all.css">
   <link rel="stylesheet" href="/assets/libs/semantic/semantic.min.css"/>
   <link rel="stylesheet" href="/assets/styles/global.css"/>
@@ -74,20 +86,11 @@
   {% endif %}
 
 </head>
-<body data-lang="{{ lang }}">
+<body data-lang="{{ lang }}" id="page__pushable--wrapper">
 
-  <nav class="ui right inverted vertical menu sidebar">
-  {% if page.layout == "design" %}
-    {% include design/sidebar.html %}
-  {% else %}
-    {% include nav/sidebar.html %}
-  {% endif %}
-  </nav>
-
-  <div class="pusher">
+  <div id="page__pushable">
   {% if page.layout == "design" %}
     {% include nav/header/design.html %}
-  {% elsif page.layout == "landing" %}
   {% else %}
     {% include nav/header/global.html %}
   {% endif %}
@@ -96,6 +99,12 @@
 
   {% include nav/footer.html %}
   </div>
+
+  {% if page.layout == "design" %}
+    {% include design/sidebar.html %}
+  {% else %}
+    {% include nav/sidebar.html %}
+  {% endif %}
 
   <script src="/assets/libs/jquery-3.7.0.min.js"></script>
   <script src="/assets/libs/jquery.address.min.js"></script>
@@ -122,6 +131,9 @@
   <script src="/assets/scripts/{{ page.js }}"></script>
   {% endif %}
 
+  {% if page.layout == "p" %}
+    <script src="/assets/scripts/p.js"></script>
+  {% endif %}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3DG2E5E3W"></script>
   <script>
     window.dataLayer = window.dataLayer || [];

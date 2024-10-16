@@ -1,16 +1,16 @@
 {% assign has_sub_project = false %}
 
-{% for project_folder in site.data.p[project_id] %}
+<div class="meta__section">
+  {% for project_folder in site.data.p[project_id] %}
   {% if project_folder[0] != 'project' and project_folder[0] != 'events' %}
     {% assign sub_project_id = project_folder[0] %}
     {% assign sub_project = site.data.p[project_id][sub_project_id].project %}
 
     {% if sub_project %}
       {% if has_sub_project == false %}
-        <div class="ui horizontal divider">
-          <i class="folder open icon"></i>
+        <h2 class="ocf__heading3 ocf__text--primary">
           {% include _shared/titles.html type='project' id='child' %}
-        </div>
+        </h2>
         <div id="child" class="ui link list">
         {% assign has_sub_project = true %}
       {% endif %}
@@ -29,5 +29,6 @@
 {% if has_sub_project == true %}
   </div>
 {% endif %}
+</div>
 
 {% assign has_sub_project = undefined %}

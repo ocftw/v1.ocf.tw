@@ -37,12 +37,12 @@ header_image_en: /p/project_id/header_en.png
 
 avatar_image: /p/project_id/avatar.png
 # avatar_image: url
-# 專案的 avatar 圖檔網址，若有，會出現在專案頁的右側邊欄
+# 專案的 avatar 圖檔網址，若有，會出現在專案頁的左側邊欄
 # 選用長寬比接近正方形的圖片
 avatar_image_en: /p/project_id/avatar_en.png
 # 英文版網頁用
 
-theme_color: teal
+theme_color: violet
 # theme_color: text
 # 專案頁與所屬活動頁的布景顏色，若留空，則會採用黑色
 # 填入 semantic ui inverted segment 的顏色 class name 如 teal / pink / blue / green / red ... 等
@@ -70,7 +70,7 @@ tags_en:
   - text
 
 metas:
-# 額外的 meta 資訊，若有，會出現在專案頁的右側邊欄
+# 額外的 meta 資訊，若有，會出現在專案頁的左側邊欄
   - label: text
     # 標籤名稱，限五個中文字以內
     content: text
@@ -87,15 +87,14 @@ links:
     # 連結要顯示什麼名稱
     url: url
     # 連結要指向哪裡
-    icon: (semantic ui icon / font awesome free icon)
-    # 按鈕文字前的 icon，可使用任一 semantic ui 或 font awesome 免費版的 icon。
+    icon: (semantic ui icon)
+    # 按鈕文字前的 icon，可使用任一 semantic ui的 icon。
     # semantic ui icons: http://semantic-ui.com/elements/icon.html
-    # font awesome free icons: https://fontawesome.com/icons?d=gallery&m=free
 links_en:
 # 英文版網頁用
   - title: text
     url: url
-    icon: (semantic ui icon / font awesome free icon)
+    icon: (semantic ui icon)
 
 actions:
 # 專案頁的 call to action，可以是按鈕或一段文字，會出現在專案頁側邊欄
@@ -103,69 +102,86 @@ actions:
     # 按鈕上的文字
     url: url
     # 按下後會連去哪裡
-    icon: (semantic ui icon / font awesome free icon)
-    # 按鈕文字前的 icon，可使用任一 semantic ui 或 font awesome 免費版的 icon。
+    icon: thumbs up
+    # 按鈕文字前的 icon，可使用任一 semantic ui的 icon。
     # semantic ui icons: http://semantic-ui.com/elements/icon.html
-    # font awesome free icons: https://fontawesome.com/icons?d=gallery&m=free
-    color: text
-    # 按鈕顏色，可使用任一 semantic ui 的顏色，參考： http://semantic-ui.com/elements/button.html#colored
+    color: primary
+    # 按鈕顏色，可使用任一 semantic ui 或 ocf theme 的顏色，參考：
+    # semantic ui colors: http://semantic-ui.com/elements/button.html#colored
+    # ocf theme colors: primary (purple) / cyan / magenda
+  - title: text
+    url: url
+    icon: arrow right
+    color: cyan
+  - title: text
+    url: url
+    icon: hand point right
+    color: magenda
   - title: text
     # 沒有設定 url 的狀況下，會單純以一段文字的形式顯示
 actions_en: 
 # 英文版網頁用
   - title: text
     url: url
-    icon: (semantic ui icon / font awesome free icon)
-    color: text
+    icon: thumbs up
+    color: primary
+  - title: text
+    url: url
+    icon: arrow right
+    color: cyan
+  - title: text
+    url: url
+    icon: hand point right
+    color: magenda
   - title: text
 
 advisor_ids:
 # 指導單位 id
-  - id
+  - ocf
 organizer_ids:
 # 主辦單位 id
-  - id
+  - coscup
 co-organizer_ids:
 # 協辦單位 id
-  - id
+  - coscup
 implementer_ids:
 # 承辦單位 id
-  - id
+  - coscup
 sponsor_ids:
 # 贊助單位 id
-  - id
+  - ocf
 
 coordinator_ids:
 # 召集人 id
-  - id
+  - clkao
 case-handler_ids:
 # 窗口 id
-  - id
+  - bobchao
 co-worker_ids:
 # 協力 id
-  - id
+  - honki
 consultant_ids:
 # 顧問 id
-  - id
+  - pofeng
 volunteer_ids:
 # 志工 id
-  - id
+  - kcchen
 contributor_ids:
 # 貢獻者 id
-  - id
+  - jimyhuang
 donors:
 # 捐助人名單，若有，會出現在專案頁最下方
-  - text
+  - Mrs. Donor
 donors_en:
 # 英文版網頁用
-  - text
+  - Mrs. Donor
 
 board_ids:
 # 負責董事 id （隱藏欄位，僅供內部備註用）
-  - id
+  - bobchao
 staff_ids:
 # 負責員工 id （隱藏欄位，僅供內部備註用）
-  - id
+  - singing
 
 listed: 
 # yes / no

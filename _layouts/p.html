@@ -22,28 +22,26 @@ layout: global
 
 <!-- 主要區塊 -->
 
-<div class="ui container">
-  <div class="ui hidden divider"></div>
-  <div class="ui two column stackable grid">
+<div class="page__container">
+  <div class="page__spacer--xlarge"></div>
+  <div class="page__grid project__body">
 
-    <!-- 右側邊欄 -->
+    <!-- 左側邊欄 -->
 
-    <div class="six wide column flex-swap">
-      <aside id="meta" class="ui sticky secondary basic segment">
-      {% include p/meta.html %}
-      </aside>
-    </div>
+    <aside id="meta">
+    {% include p/meta.html %}
+    </aside>
     
-    <!-- 左側內容 start -->
+    <!-- 右側內容 start -->
 
-    <div class="ten wide column">
+    <div>
 
       {{ content }}
 
       <!-- 屬於此專案的活動 -->
 
       {% if page.show_events %}
-      <h2 class="ui dividing header">
+      <h2 class="ocf__text--primary">
         {% include _shared/titles.html type='project' id='events' %}
       </h2>
       {% include p/events.html %}
@@ -63,7 +61,7 @@ layout: global
       <!-- 贊助商 logo 牆 -->
 
       {% if project.sponsor_ids and page.show_sponsors %}
-      <h2 class="ui dividing header">
+      <h2 class="ocf__text--primary">
         {{ sponsor_title }}
       </h2>
       {% assign org_ids = project.sponsor_ids %}
@@ -73,7 +71,7 @@ layout: global
       <!-- 捐助人名單 -->
 
       {% if project_donors and page.show_donors %}
-      <h2 class="ui dividing header">
+      <h2 class="ocf__text--primary">
         {{ donor_title }}
       </h2>
       <div id="donors" class="ui center aligned labels">
@@ -85,7 +83,7 @@ layout: global
 
     </div>
 
-    <!-- 左側內容 end -->
+    <!-- 右側內容 end -->
 
   </div>
   <div class="ui hidden divider"></div>

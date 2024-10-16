@@ -7,10 +7,8 @@
 {% if project_metas %}
 
 {% for item in project_metas %}
-<div class="item">
-  <span class="ui horizontal label">{{ item.label }}</span>
-  <span class="text">{{ item.content }}</span>
-</div>
+  <dt>{{ item.label }}</dt>
+  <dd>{{ item.content }}</dd>
 {% endfor %}
 
 {% endif %}
