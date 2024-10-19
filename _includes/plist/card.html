@@ -1,7 +1,7 @@
 {% assign project = include.project %}
 {% include _var/plist/item.html project=project %}
 
-<div class="card" data-type="
+<div class="project page__grid" data-type="
   {% for id in project.type_ids %}
   {{ id }}
   {% endfor %}
@@ -17,28 +17,45 @@
   <a href="{{ project_url }}" class="image" {% if project_url contains 'http' %} target="_blank" {% else %} {% endif %}>
     <img src="{{ project_og_image }}" alt="Thumbnail for '{{project_name}}'">
   </a>
-  <div class="content">
-    <h3 class="header">
-      {% include _shared/link.html title=project_name url=project_url %}
+  <article>
+    <h3 class="ocf__text--primary">
+      <a class="ocf__link--primary_in_light_background" href="{{ project_url }}" target="_blank">
+        {{ project_name }}
+      </a>
     </h3>
-    <div class="description">
+    <p>
       {{ project_description }}
-    </div>
-  </div>
-  <div class="meta extra content">
-    <div class="ui divided list">
+    </p>
+  </article>
+  <footer class="card__footer page__flex">
+    <div class="page__grid meta__cast ocf__text--primary ocf__caption--small">
       {% include p/meta/people.html %}
       {% include p/meta/metas.html %}
     </div>
-  </div>
-  {% if project_links %}
-  <div class="link extra content">
-    <div class="ui divided list">
-      {% for link in project_links %}
-        {% include _shared/link.html link=link class='item' icon='conditional' %}
+    {% if project.type_ids or project.topic_ids or project.field_ids %}
+      <div class="footer__tags page__flex">
+      {% for filter in site.data.plist.settings %}
+      
+        {% assign field_name = filter.id | append: '_ids' %}
+        {% for id in project[field_name] %}
+      
+          {% assign item = filter.items | where: 'id', id  | first %}
+          {% if item %}
+            <a class="tag" data-{{ filter.id }}="{{ item.id }}">
+              {% if lang == 'en' %}
+                {{ item.name_en }}
+              {% else %}
+                {{ item.name }}
+              {% endif %}
+            </a>
+          {% endif %}
+          {% assign item = undefined %}
+      
+        {% endfor %}
+        {% assign field_name = undefined %}
+      
       {% endfor %}
-    </div>
-  </div>
-  {% endif %}
-  {% include plist/item/tags.html %}
+      </div>
+    {% endif %}
+  </footer>
 </div>
