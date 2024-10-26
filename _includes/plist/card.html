@@ -14,8 +14,10 @@
   {{ id }}
   {% endfor %}
   ">
-  <a href="{{ project_url }}" class="image" {% if project_url contains 'http' %} target="_blank" {% else %} {% endif %}>
-    <img src="{{ project_og_image }}" alt="Thumbnail for '{{project_name}}'">
+  <a href="{{ project_url }}" class="image"
+    {% if project_url contains 'http' %} target="_blank" {% else %} {% endif %}
+    style="background-image: url('{{ project_og_image }}');"
+    >
   </a>
   <article>
     <h3 class="ocf__text--primary">
