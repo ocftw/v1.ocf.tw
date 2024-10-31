@@ -5,6 +5,7 @@ redirect_from:
 
 layout: global
 og_title: 電子報
+og_slogn: 歡迎訂閱OCF電子報！
 og_description: 開源開放大小事，搶鮮送到你家！OCF 電子報，每月定期出刊！
 
 css: news.css
@@ -28,11 +29,10 @@ years:
 
 <main id="news">
 
+  {% include _shared/kv.html title= page.og_title
+    description= page.og_slogn image="news_KV.png" %}
+
   <div class="ui center aligned stripe container">
-    <h1 class="ui icon header">
-      <i class="circular newspaper icon"></i>
-      {{ page.og_title }}
-    </h1>
     <div class="mobile">
       <div class="ui two sticky basic buttons">
         <a href="#subscribe"

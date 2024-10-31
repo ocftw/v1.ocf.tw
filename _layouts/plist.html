@@ -1,4 +1,5 @@
 ---
+og_title: 基金會專案
 layout: global
 ---
 
@@ -7,20 +8,15 @@ layout: global
 
 <div id="plist">
 
+  {% include _shared/kv.html title=page.og_title
+    description="lorem" image="project_KV.png" %}
+
   <div class="ui center aligned stripe container">
 
-    {% include plist/title.html %}
 
     {% include plist/menu.html %}
 
-    <p class="top margin">
-      <span id="filter_count"></span>
-      {% if lang == 'en' %}
-        ongoing projects
-      {% else %}
-        個專案正在加速進行中！
-      {% endif %}
-    </p>
+
 
   </div>
 

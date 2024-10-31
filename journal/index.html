@@ -1,7 +1,8 @@
 ---
 layout: global
-og_title: 活動一覽
+og_title: 活動
 og_description: 推廣開放文化需要不斷地、不斷地、不斷地採取行動！基金會歷年來做過哪些嘗試？請看我們的活動日誌 ^_<
+og_slogn: 推廣開放文化需要不斷地、不斷地、不斷地採取行動！
 
 css: journal.css
 js: journal.js
@@ -22,14 +23,10 @@ years:
 ---
 
 <main id="log">
+  {% include _shared/kv.html title= page.og_title
+    description= page.og_slogn image="events_KV.png" %}
+
   <div class="ui center aligned stripe container">
-    <h1 class="ui icon header">
-      <i class="circular heartbeat icon"></i>
-      {{ page.og_title }}
-    </h1>
-    <p>
-      推廣開放文化需要不斷地、不斷地、不斷地採取行動！（握拳）馬上關注我們的活動：簡介、網頁、報名資訊攏底加！
-    </p>
 
     <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
       <div class="ui dropdown item">
