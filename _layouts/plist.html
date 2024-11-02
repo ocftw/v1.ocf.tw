@@ -8,16 +8,17 @@ layout: global
 
 <div id="plist">
 
+  {% if lang == 'en' %}
+    {% assign description="ongoing projects" %}
+  {% else %}
+    {% assign description="個專案正在加速進行中！" %}
+  {% endif %}
+
   {% include _shared/kv.html title=page.og_title
-    description="lorem" image="project_KV.png" %}
+    description=description image=page.og_image %}
 
   <div class="ui center aligned stripe container">
-
-
     {% include plist/menu.html %}
-
-
-
   </div>
 
   <section id="current" class="ui stripe container">
