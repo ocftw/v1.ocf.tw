@@ -12,7 +12,8 @@ $(function() {
   // define filter actions
 
   var $selectedCards = $('#plist .card')
-  $('#filter_count').text($selectedCards.length)
+  var originalText = $('#plist #subtitle_block p').text()
+  $('#plist #subtitle_block p').text($selectedCards.length + ' ' + originalText)
 
   var runFilter = function() {
     $selectedCards = $('#plist .card')

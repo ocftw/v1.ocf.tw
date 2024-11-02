@@ -1,4 +1,5 @@
 ---
+og_title: 基金會專案
 layout: global
 ---
 
@@ -6,11 +7,16 @@ layout: global
 
 <div id="plist">
 
-  <div id="title" class="page__container page__flex">
-    {% include plist/title.html %}
-  </div>
+  {% if lang == 'en' %}
+    {% assign description="ongoing projects" %}
+  {% else %}
+    {% assign description="個專案正在加速進行中！" %}
+  {% endif %}
 
-  <div id="menu" class="page__container page__flex">
+  {% include _shared/kv.html title=page.og_title
+    description=description image=page.og_image %}
+
+  <div class="ui center aligned stripe container">
     {% include plist/menu.html %}
   </div>
 
