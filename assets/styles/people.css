@@ -1,32 +1,78 @@
-#people .ui.cards>.card .image {
-  text-align: center;
-  padding: 1rem;
-  line-height: 0;
+#people {
+  background-image: url("/assets/images/web_project_elements_background.svg");
+  background-size: cover;
+  background-attachment: fixed;
+
+  --size-people-card-width-max: 300px;
+
+  .page__container {
+    max-width: calc(var(--size-people-card-width-max) * 3 + 5rem + 4rem * 2);
+  }
+
+  .page__container>.page__grid {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+    align-items: stretch;
+
+    .person {
+      padding: 1.25rem;
+      border: 5px var(--ocf-primary) solid;
+      background-color: hsla(0, 0%, 100%, 0.625);
+
+      &>.header {
+        grid-template-columns: 1fr auto;
+        align-items: flex-end;
+        background-image: url('/assets/images/icon_link_primary.svg');
+        background-size: 2rem;
+        background-position: 0% -0.4rem;
+        background-repeat: no-repeat;
+
+        &>.name {
+          flex-direction: column;
+          align-items: flex-start;
+
+          &>h3 {
+            margin: 0.5rem 0;
+            line-height: 1;
+          }
+
+          &>p {
+            line-height: 1;
+          }
+        }
+
+        &>.image {
+          width: 80px;
+          height: 80px;
+          flex-direction: column;
+          align-items: stretch;
+          text-align: center;
+          background-size: cover;
+          background-position: center;
+
+          &>.title {
+            margin: 0;
+            background-color: var(--ocf-primary);
+          }
+        }
+      }
+    }
+  }
 }
 
-#people .ui.cards>.card .avatar.image img {
-  width: 5rem;
-  height: 5rem;
-  display: inline-block;
+@media only screen and (400px <=width < 768px) {
+  #people .page__container>.page__grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+  }
 }
 
-#people .ui.cards>.card .header .small {
-  font-size: 0.8em;
-}
-
-#people .ui.cards>.card .logo.image {
-  background: none;
-  height: 7rem;
-}
-
-#people .ui.cards>.card>.logo.image>img {
-  max-height: 5rem; 
-  max-width: 100%;
-  width: auto;
-  display: inline-block;
-  border-radius: 0;
-}
-
-.ui[class*="bottom pointing"].label, .ui[class*="pointing below"].label {
-  margin-bottom: 1.5em;
+@media only screen and (width < 400px) {
+  #people .page__container>.page__grid {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
 }
