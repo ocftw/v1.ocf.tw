@@ -11,7 +11,7 @@ $(function() {
 
   // define filter actions
 
-  var $selectedCards = $('#plist .card')
+  var $selectedCards = $('#plist .project')
   var originalText = $('#plist #subtitle_block p').text()
   $('#plist #subtitle_block p').text($selectedCards.length + ' ' + originalText)
 
