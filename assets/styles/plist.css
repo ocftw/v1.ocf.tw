@@ -24,13 +24,16 @@
       grid-template-columns: 1fr;
       grid-template-rows: auto 1fr auto;
       align-items: flex-start;
-      box-sizing: border-box;
       border: 5px var(--ocf-primary) solid;
       background-color: hsla(0, 0%, 100%, 0.625);
+      container: project / inline-size;
 
-      img {
-        width: 100%;
+      .image {
         border-bottom: 5px var(--ocf-primary) solid;
+        height: 100cqw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
       }
 
       article,
