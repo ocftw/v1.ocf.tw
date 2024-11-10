@@ -6,22 +6,26 @@
   {% assign join_title = '參與' %}
 {% endif %}
 
-<h3 class="ui small inverted header">
+<h3>
   {{ subscribe_title }}
 </h3>
 
-<div class="ui horizontal list inverted">
+<ul>
 {% for item in org.subscribe %}
+  <li>
   {% include nav/links/item.html style='horizontal' %}
+  </li>
 {% endfor %}
-</div>
+</ul>
 
-<h3 class="ui small inverted header">
+<h3>
   {{ join_title }}
 </h3>
 
-<div class="ui horizontal inverted list">
+<ul>
 {% for item in org.join %}
+  <li>
   {% include nav/links/item.html style='horizontal' %}
+  </li>
 {% endfor %}
-</div>
+</ul>

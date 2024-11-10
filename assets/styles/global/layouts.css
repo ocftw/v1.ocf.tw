@@ -63,6 +63,10 @@
   display: flex;
   align-items: center;
 
+  &.page__flex--inline {
+    display: inline-flex;
+  }
+
   .page__flex_spacer {
     flex-grow: 1;
     flex-shrink: 1;
