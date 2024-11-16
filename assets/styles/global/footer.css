@@ -37,8 +37,36 @@
   }
 
   .footer__body {
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
     align-items: flex-start;
     gap: 2rem;
+
+    .footer__links {
+      grid-template-columns: repeat(2, auto);
+      align-items: flex-start;
+      gap: 2rem;
+    }
+  }
+}
+
+@media only screen and (400px <=width < 960px) {
+  #footer .footer__body {
+    gap: 1.5rem;
+
+    .footer__links {
+      grid-template-columns: repeat(1, auto);
+      gap: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (width < 600px) {
+  #footer .footer__body {
+    grid-template-columns: repeat(1, auto);
+    gap: 1rem;
+
+    .footer__links {
+      gap: 1rem;
+    }
   }
 }
