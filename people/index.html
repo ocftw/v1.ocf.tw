@@ -24,10 +24,11 @@ css: people.css
   <div id="submenu" class="ui sticky">
 
     <nav data-context="desktop" class="ui pagination borderless menu">
-      {% for type in site.data.people.settings %}
-      {% for item in type[1] %}
+      {% for item in site.data.people.settings.card %}
       <a class="item" href="#{{ item.id }}">{{ item.name }}</a>
       {% endfor %}
+      {% for item in site.data.people.settings.logo %}
+      <a class="item" href="#{{ item.id }}">{{ item.name }}</a>
       {% endfor %}
     </nav>
 
@@ -36,10 +37,11 @@ css: people.css
         <span data-content="current">跳至...</span>
         <i class="dropdown icon"></i>
         <div class="menu">
-          {% for type in site.data.people.settings %}
-          {% for item in type[1] %}
+          {% for item in site.data.people.settings.card %}
           <a class="item" href="#{{ item.id }}">{{ item.name }}</a>
           {% endfor %}
+          {% for item in site.data.people.settings.logo %}
+          <a class="item" href="#{{ item.id }}">{{ item.name }}</a>
           {% endfor %}
         </div>
       </div>
