@@ -9,6 +9,23 @@
     max-width: calc(var(--size-people-card-width-max) * 3 + 5rem + 4rem * 2);
   }
 
+  .page__menu--horizontal {
+    background-color: var(--ocf-primary);
+    justify-content: center;
+
+    .menu__item,
+    a:link {
+      background-color: none;
+      color: var(--ocf-light);
+      padding: 0.5rem 1rem;
+
+      &:hover,
+      &:active {
+        color: var(--ocf-white);
+      }
+    }
+  }
+
   .page__container>.page__grid {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2.5rem;

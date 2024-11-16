@@ -23,12 +23,12 @@ css: people.css
 
   <div id="submenu" class="ui sticky">
 
-    <nav data-context="desktop" class="ui pagination borderless menu">
+    <nav data-context="desktop" class="page__flex page__menu--horizontal">
       {% for item in site.data.people.settings.card %}
-      <a class="item" href="#{{ item.id }}">{{ item.name }}</a>
+      <a class="menu__item" href="#{{ item.id }}">{{ item.name }}</a>
       {% endfor %}
       {% for item in site.data.people.settings.logo %}
-      <a class="item" href="#{{ item.id }}">{{ item.name }}</a>
+      <a class="menu__item" href="#{{ item.id }}">{{ item.name }}</a>
       {% endfor %}
     </nav>
 
