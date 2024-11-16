@@ -4,11 +4,23 @@
   background-attachment: fixed;
 
   --size-project-card-width-max: 300px;
-}
 
-#title,
-#menu {
-  justify-content: center;
+  .page__menu--horizontal {
+    background-color: var(--ocf-primary);
+    justify-content: center;
+
+    .menu__item,
+    a:link {
+      background-color: none;
+      color: var(--ocf-light);
+      padding: 0.5rem 1rem;
+
+      &:hover,
+      &:active {
+        color: var(--ocf-white);
+      }
+    }
+  }
 }
 
 #projects {
