@@ -1,8 +1,17 @@
 #en #hero {
   background-color: #333;
-  background: url(/mediakit/3source.png) no-repeat center center;
+  background-image: url(/assets/images/web_homepage_elements_homepage_KV.png);
+  background-repeat: no-repeat;
+  background-position: center 100%;
   background-size: cover;
   margin: 0;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+  #homepage #hero {
+    height: 40vh;
+  }
 }
 
 #en #header {

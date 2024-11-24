@@ -9,11 +9,6 @@ partners: true
 sponsors: true
 donors: false
 
-# 正在加速進行中的專案，填入專案 id，會在首頁中列出 /_data/p/[專案id] 的卡片
-ongoing:
-  - opentech
-  - dra
-  - defendhrd
 ---
 
 {% assign current = site.data.settings.current | append: "" %}
@@ -27,207 +22,106 @@ ongoing:
 <section id="about" class="ui vertical segment">
   <div class="ui stripe container">
     <div class="ui two column stackable grid">
-      <div class="column">
-        <h2 class="ui header">什麼是開放文化</h2>
-        <p>開放原始碼的開發機制，讓軟體界快速蓬勃發展，至今深深影響每個人的生活。近年來，這套開放的機制跨出了軟體開發領域，往文藝、政治、教育等領域擴散，形成一股新興的文化，為許多社會議題帶來新的視野。</p>
-        <h2 class="ui header">開放文化基金會的起源</h2>
-        <p>2014 年，多個臺灣開源社群共同發起開放文化基金會（Open Culture Foundation，簡稱 OCF），期望以法人組織的力量推廣開放文化，在產、官、學、民之間激起開放協作的火花。</p>
+      <div class="column about-us">
+        <h2>關於我們</h2>
+        <p>2014年，多個開元、科技社群和活動組織共同發起[開放文化基金會]，期許能支援台灣開元社群活躍發展；促進政府、企業、民間在各領域能跨界交流與合作，產出更豐富的開放原始碼、開放資料可供取用。不只是民眾受惠，也讓公民使用科技工具更加純熟，靠社群的力量去改變現況。</p>
+      <div class="read-more">
+        <a href="/about">更多...</a>  
+      </div>
+      <div class="ui left aligned stripe container">
+        <a class="support-us-button" href="/about">支持我們</a>
+      </div>
       </div>
       <div class="center aligned column">
-        <img class="ui fluid image" src="/assets/images/121212_2_OpenSwissKnife.png" alt="By Johannes Spielhagen, Bamberg, Germany [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons">
-          <!--
-          <figcaption>隨著軟體產業革命的成功，開放原始碼模式逐漸廣為人知，並在各種領域散播開來。</figcaption>
-        -->
-        <cite>
-          By Johannes Spielhagen, Bamberg, Germany<br /> [<a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3A121212_2_OpenSwissKnife.png">via Wikimedia Commons
-          </a>
-        </cite>
+        <img class="ui fluid image" src="/assets/images/openAbout_ch.svg" alt="">
       </div>
     </div>
   </div>
-
-  <div class="ui center aligned stripe container">
-    <a class="ui button" href="/about">進一步瞭解<i class="right arrow icon"></i></a>
-  </div>
-
 </section>
 
-<section id="what_we_do" class="ui vertical segment">
-  <div class="ui stripe container">
-    <h2 class="ui header">我們在做些什麼</h2>
-    <hr class="ui hidden divider" />
-    <div class="ui two column stackable divided grid">
-      <div class="column">
-        <div class="ui divided relaxed items">
-
-          <div class="item">
-          {% assign item = site.data.people.orgs.ocf.what_we_do[0] %}
-            <div class="image">
-              <i class="huge {{ item.icon }} icon bordered"></i>
-            </div>
-            <div class="content">
-              <h3 class="header">{{ item.title }}</h3>
-              <div class="description">
-                <p>
-                  {{ item.description }}
-                </p>
-              </div>
-              <div class="extra">
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-          {% assign item = site.data.people.orgs.ocf.what_we_do[1] %}
-            <div class="image">
-              <i class="huge {{ item.icon }} icon bordered"></i>
-            </div>
-            <div class="content">
-              <h3 class="header">{{ item.title }}</h3>
-              <div class="description">
-                <p>
-                  {{ item.description }}
-                </p>
-              </div>
-              <div class="extra">
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="ui divided relaxed items">
-
-          <div class="item">
-          {% assign item = site.data.people.orgs.ocf.what_we_do[2] %}
-            <div class="image">
-              <i class="huge {{ item.icon }} icon bordered"></i>
-            </div>
-            <div class="content">
-              <h3 class="header">{{ item.title }}</h3>
-              <div class="description">
-                <p>
-                  {{ item.description }}
-                </p>
-              </div>
-              <div class="extra">
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-          {% assign item = site.data.people.orgs.ocf.what_we_do[3] %}
-            <div class="image">
-              <i class="huge {{ item.icon }} icon bordered"></i>
-            </div>
-            <div class="content">
-              <h3 class="header">{{ item.title }}</h3>
-              <div class="description">
-                <p>
-                  {{ item.description }}
-                </p>
-              </div>
-              <div class="extra">
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="ui center aligned stripe container">
-    <a class="ui button" href="/about/#what_we_have_done">近年成果回顧<i class="right arrow icon"></i></a>
-    <a class="ui button" href="/p/admin/2023/OCF2023成果報告.pdf">2023 成果報告<i class="right arrow icon"></i></a>
-    <a class="ui button" href="https://10years.ocf.tw/">十週年開源祭<i class="right arrow icon"></i></a>
-    <!-- <a class="ui button" href="/p/{{ recent }}/">近年成果回顧<i class="right arrow icon"></i></a> -->
-  </div>
-
-</section>
-
-{% if page.ongoing %}
-<section id="what_is_happening" class="ui vertical segment">
-  <div class="ui stripe container">
-    <h2 class="ui header">正在加速進行中</h2>
-    <div class="ui three column stackable cards">
-
-      {% for project_id in page.ongoing %}
-      {% assign project = site.data.p[project_id].project %}
-      {% include plist/card.html project=project %}
-      {% endfor %}
-
-    </div>
-  </div>
-  <div class="ui center aligned stripe container">
-    <a class="ui button" href="/p">
-      瀏覽所有專案
-      <i class="right arrow icon"></i>
-    </a>
-  </div>
-</section>
-
-</section>
-<section id="ocflab" class="ui vertical segment">
-  <div class="ui stripe container">
-  <h2 class="ui header">Blog 快報</h2>
-
-  <div class="ui three column stackable cards">
+<section id="what_we_do" >
   
-
-  <div class="card">
-    <div class="image">
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKOis7peh_PF-DWZ5PgUVdLJBO_ylIU5aL8YnQWdhpNiaM6B6HGAjIKol8LjLPWxaZqHLjuzK7rYy9uYl8UKHE0UK8mAIMf-lYEjLPqE9pjWpliEa2s6aqcwUv2spsVsa2cSdK8tIQxhyphenhyphen6nlOc4frn1FW4Lz5P3rdjhFS1FyjM2w-3slPbUjdYCdXY_Tg/s320/%E6%A8%99%E9%A1%8C.png" >
-      </a>
-    </div>
-    <div class="content">
-      <a href="https://blog.ocf.tw/2024/01/Judicial-Yuan-AI.html">
-      <h3 class="header">「司法院及所屬各機關發展人工智慧參考指引草案」公聽會發言摘要與觀點</h3>
-       </a>
-      <div class="description">
-        資料應用侵犯隱私的隱憂，並不能光靠科技手段來解決，而是要重視民眾的資訊自主權，建立資訊揭露的管道，讓民眾擁有知的權利，使民眾有權查詢個人相關資料是否被納入，看到程式如何思考，資料如何產生，才能評估風險、自由選擇，進而實現「使用者自主原則」，確保自行決定是否退出的權力，讓政府資料應用具有充分的正當性。
+    <div class="what_we_do_container">
+      <div class="top-item-container">
+        <div class="item">
+          {% assign item = site.data.people.orgs.ocf.what_we_do[0] %}
+          <div class="item-title-group">
+            <img src="./assets/images/web_homepage_elements_How_Icon_1.svg">
+            <h2>{{ item.title }}</h2>
+          </div>
+          <p>
+            {{ item.description }}
+          </p>
+        </div>
+        <div class="item-gap"></div>
+        <div class="item">
+          {% assign item = site.data.people.orgs.ocf.what_we_do[1] %}
+          <div class="item-title-group">
+            <img src="./assets/images/web_homepage_elements_How_Icon_2.svg">
+            <h2>{{ item.title }}</h2>
+          </div>            
+          <p>
+            {{ item.description }}
+          </p>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="image">
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU445GxTwouQAo4Kc2q8XnULaua-gUdlTWxRF0RS5yyVsWeDojs78YYlEpzUV1ChYWj-rWFIhZ-USIzr7f8p-ddL-Otam7ftVVYW2EHzNULyPuJEyeY97yX6y3FtuRSCzLpPEPmmm9si_nWXKf7ON6qiV3u6P-YEKss9iICu9OI-G_Z845WqGhOKX27Gn3/w458-h229/human-rights-impact-assessment-for-ai-post-header.png" >
-      </a>
-    </div>
-    <div class="content">
-      <a href="https://blog.ocf.tw/2024/06/ai3.html">
-      <h3 class="header">各國 AI 治理</h3>
-      </a>
-      <div class="description">
-     隨著人工智慧（Artificial Intelligence, AI）技術蓬勃發展，AI 逐漸深入各個產業和領域中，以驚人的速度改變了人們的工作與生活。與此同時，AI 也產生了許多道德與法律的疑慮，引起社會大眾的擔憂。為了應對這個棘手議題，世界各國已開始採取行動，試圖立法治理 AI 的開發及運用方式。
+      <div class="title">
+        <div class="divider"></div>
+        <h2>我們在做些什麼</h2>
+        <div class="divider"></div>
       </div>
+      <div class="bottom-item-container">
+        <div class="item">
+          {% assign item = site.data.people.orgs.ocf.what_we_do[2] %}
+          <div class="item-title-group">
+            <img src="./assets/images/web_homepage_elements_How_Icon_3.svg">
+            <h2>{{ item.title }}</h2>
+          </div>  
+          <p>
+            {{ item.description }}
+          </p>
+        </div>
+        <div class="item-gap"></div>
+        <div class="item">
+          {% assign item = site.data.people.orgs.ocf.what_we_do[3] %}
+          <div class="item-title-group">
+            <img src="./assets/images/web_homepage_elements_How_Icon_4.svg">
+            <h2>{{ item.title }}</h2>
+          </div>  
+            <p>
+            {{ item.description }}
+          </p>
+        </div>
+      </div>  
     </div>
-  </div>
-  <div class="card">
-    <div class="image" >
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgccbrEuc4hcBM9G5HF7GDxjYVh9uZsnV4oJiBmuPPX3XV_hEo0lcsUy2p2BEP6PSqPZ0ukY8nWsUncRpG4UZN6ihyphenhyphenSbhdV_lHUVZyhNuSF5rhew-yddxek87Rj_oFrkIyWtHT-eHYQoD_ipVpavphvf_UKMmXVn23w6MlwYTDwv-oN-D6nkMgJ3DdV6Aw/s16000/%E6%88%AA%E5%9C%96%202024-02-16%2011.56.31_nologo.png" >
-      </a>
-    </div>
-    <div class="content">
-      <a href="https://blog.ocf.tw/2024/02/ooni2024update.html">
-      <h3 class="header">OONI 專案近況更新</h3>
-      </a>
-      <div class="description">
-        在 2023/12 我們初步分析 OONI 收到的觀測資料，發現目前的觀測資料約 80% 集中在 AS3462、AS18041 這兩組網路自治系統（ASN）所貢獻的資料，這樣的資料樣態對於描述目前臺灣網路狀況稍微欠缺參考價值。此外目前註冊在 TW 的 ASN 共有 437 組，而觀測資料（TW）不重複 ASN 僅佔其中的 7.32%，比例也相當低。
-        透過 TWNOG 社群的協助，大約在 2023/12/16 之後，TW 的觀測資料約成長三倍、新增 8 組未成觀測到的 ASNs。
-      </div>
-    </div>
-  </div>
-  </div>
-
-
-<div class="ui center aligned stripe container">
-    <a class="ui button" href="http://blog.ocf.tw/">觀看 OCF Blogger<i class="right arrow icon"></i></a>
-  </div>
-
 </section>
+
+<section id="what_is_happening">
+  <div class="project-result-container">
+    <h2>專案成果</h2>
+    <div class="project-items">
+      <a href="/p/ocf/" class="item">
+        <div>
+          <img src="assets/images/web_homepage_elements_What Icon 2.svg" class="item-icon" >
+          <h2>基金會專案</h2> 
+        </div>
+      </a>
+      <a href="/p/community" class="item">
+        <div>
+          <img src="assets/images/web_homepage_elements_What Icon 2.svg" class="item-icon" >
+          <h2>社群專案</h2> 
+        </div>
+      </a>
+      <a href="/journal/"  class="item">
+        <div>
+          <img src="assets/images/web_homepage_elements_What Icon 2.svg" class="item-icon" >
+          <h2>近期活動計劃</h2> 
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!--
 <section id="ocflab" class="ui vertical segment">
   <div class="ui stripe container">
@@ -340,11 +234,11 @@ ongoing:
 
 </section>
 -->
-{% endif %}
 
 {% if page.partners %}
 <section id="partners" class="ui vertical segment">
-  <div class="ui stripe container">
+  <div class="ui stripe container partners-container">
+    <img src="assets/images/web_homepage_elements_What Icon 1.svg" class="item-icon" >
     <h2 class="ui header">合作夥伴</h2>
     <div class="ui horizontal center aligned list">
 
@@ -364,8 +258,9 @@ ongoing:
 {% endif %}
 
 {% if page.sponsors %}
-<section id="sponsors" class="ui vertical segment">
-  <div class="ui stripe container">
+<section id="sponsors">
+  <div class="ui stripe container sponsors-container">
+    <img src="assets/images/web_homepage_elements_What Icon 1.svg" class="item-icon" >
     <h2 class="ui header">贊助夥伴</h2>
     <div class="ui horizontal center aligned list">
 
@@ -396,10 +291,10 @@ ongoing:
 </section>
 {% endif %}
 -->
-<section id="ads" class="ui vertical segment">
+<!-- <section id="ads" class="ui vertical segment">
   <div class="ui stripe container">
     {% include banner_cta.html %}
   </div>
-</section>
+</section> -->
 
 </main>
