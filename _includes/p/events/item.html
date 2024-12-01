@@ -4,12 +4,18 @@
 
   <!-- 活動主視覺圖片 -->
 
-  <div class="image" style="margin: auto;">
+  <div class="image" style="margin: auto; background-image: url(
     {% if event_banner_image %}
-    <img src="{{ event_banner_image }}" alt="Event banner image for {{ event_name }}"/>
+      {{event_banner_image}}
     {% elsif event_cover_image %}
-    <img src="{{ event_cover_image }}" alt="Event cover image for {{ event_name }}"/>
+      {{event_cover_image}}
     {% endif %}
+  ); 
+    background-size: contain;
+    height: 175px;
+    background-repeat: no-repeat;
+    background-position: center;
+  ">
   </div>
 
   <div class="content">
