@@ -45,7 +45,7 @@
       container: project / inline-size;
 
       .image {
-        border-bottom: 5px var(--ocf-primary) solid;
+        /* border-bottom: 5px var(--ocf-primary) solid; */
         height: 100cqw;
         background-size: contain;
         background-repeat: no-repeat;
@@ -58,6 +58,7 @@
       }
 
       article {
+        border-top: 5px var(--ocf-primary) solid;
         h3 {
           font-size: 0.875rem;
           margin: 0;
