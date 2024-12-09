@@ -1,9 +1,9 @@
-#en #hero {
-  background-color: #333;
+#homepage #hero {
+  background-color: #152139;
   background-image: url(/assets/images/web_homepage_elements_homepage_KV.png);
   background-repeat: no-repeat;
   background-position: center 100%;
-  background-size: cover;
+  background-size: contain;
   margin: 0;
   height: 100vh;
 }
@@ -14,25 +14,45 @@
   }
 }
 
-#en #header {
+#homepage #header {
   background-color: none;
   background: none;
 }
 
-#en #header .ui.menu .logo.item {
-  margin: -0.85714286em -1.14285714em;
+#homepage #header .ui.menu .logo.item {
+  padding: 0.85714286em 1.14285714em;
 }
 
-#en #header .ui.menu .logo.image {
+#homepage #header .ui.menu .logo.image {
   height: 2.5rem;
+  margin: -1.5rem 1em -1.5rem -1rem;
 }
 
-#en .sentence {
+#homepage .sentence {
   display: inline-block;
   margin: 0 0.5em;
 }
 
-#en cite {
+#homepage #about .about-us {
+  margin: auto;
+
+  @media only screen and (max-width: 767px) {
+    padding: 2rem !important;
+  }
+
+  h2,
+  p {
+    color: var(--ocf-primary);
+  }
+
+  .read-more {
+    a {
+      color: var(--ocf-primary);
+    }
+  }
+}
+
+#homepage cite {
   text-align: center;
   font-size: 0.8rem;
   line-height: 1.5em;
@@ -40,37 +60,6 @@
   display: block;
 }
 
-#en cite:hover {
-  opacity: 1;
-}
-
-/* for reports */
-
-#en #results .ui.items > .item > .image > img {
-  object-fit: cover;
-  min-height: 100%;
-}
-
-#homepage #what_we_do .items > .item > .image {
-  width: 100% !important;
-}
-#homepage .blockquote:before,
-.blockquote:after {
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
-  font-family: Icons;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.5rem;
-  width: 1em;
-  height: 1em;
-  font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-backface-visibility: hidden;
-  speak: none;
-}
 #homepage .title {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -89,13 +78,15 @@
 
     @media only screen and (max-width: 767px) {
       padding: 2rem 4rem;
+     
     }
   }
-
+  
   .divider {
     height: 4px;
     width: 100%;
     background-color: var(--ocf-white);
+
 
     @media only screen and (max-width: 767px) {
       display: none;
@@ -287,7 +278,7 @@
   }
 }
 
-#homepage #partners .item-icon {
+#homepage #partners .item-icon{
   width: 4rem;
   position: absolute;
   top: 1rem;
@@ -308,27 +299,81 @@
   }
 }
 
-#homepage #sponsors .item-icon {
+#homepage #sponsors .item-icon{
   width: 4rem;
   position: absolute;
   top: 1rem;
   left: 1rem;
 }
-#homepage #about .about-us {
-  margin: auto;
 
-  @media only screen and (max-width: 767px) {
-    padding: 2rem !important;
+#homepage cite:hover {
+  opacity: 1;
+}
+
+#homepage #what_we_do .items > .item > .image:not(.ui) {
+  width: 8rem;
+}
+
+#homepage #what_we_do .items > .item .bordered.icon {
+  margin-right: 0;
+  width: 100%;
+}
+
+#homepage #what_they_say .slick .small.container {
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+#homepage .ui.reference.image {
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+}
+
+#homepage .blockquote {
+  position: relative;
+  display: inline-block;
+}
+
+#homepage .blockquote:before,
+.blockquote:after {
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  font-family: Icons;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 1em;
+  height: 1em;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  speak: none;
+}
+
+#homepage .blockquote:before {
+  content: "\f10d";
+  left: -1.5em;
+}
+
+#homepage .blockquote:after {
+  content: "\f10e";
+  right: -1.5em;
+}
+
+#homepage #ads .ui.inverted.segment {
+  background-color: #333;
+}
+
+@media only screen and (max-width: 767px) {
+  #homepage #what_we_do hr.ui.hidden.divider {
+    display: none;
   }
 
-  h2,
-  p {
-    color: var(--ocf-primary);
-  }
-
-  .read-more {
-    a {
-      color: var(--ocf-primary);
-    }
+  #homepage #what_we_do .items > .item > .image {
+    width: 100% !important;
   }
 }
