@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="content" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 525">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: RobotoSlab-Medium, 'Roboto Slab';
+        font-size: 14px;
+        font-variation-settings: 'wght' 500;
+        font-weight: 500;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #6450d5;
+      }
+
+      .cls-5, .cls-7 {
+        fill: #0f1923;
+      }
+
+      .cls-8 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-11 {
+        letter-spacing: .01em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(199.48 81.14)"><tspan x="0" y="0">O</tspan><tspan class="cls-11" x="9.61" y="0">p</tspan><tspan x="18.14" y="0">en Sou</tspan><tspan class="cls-1" x="62.78" y="0">r</tspan><tspan class="cls-19" x="68.62" y="0">c</tspan><tspan x="76.04" y="0">e</tspan></text>
+  <text class="cls-4" transform="translate(410.22 127.79)"><tspan x="0" y="0">O</tspan><tspan class="cls-11" x="9.61" y="0">p</tspan><tspan x="18.14" y="0">en D</tspan><tspan class="cls-8" x="47.49" y="0">a</tspan><tspan x="55.17" y="0">ta</tspan></text>
+  <text class="cls-5" transform="translate(410.22 419.63)"><tspan x="0" y="0">Digital Rig</tspan><tspan class="cls-2" x="69.47" y="0">h</tspan><tspan x="78.16" y="0">t</tspan></text>
+  <text class="cls-5" transform="translate(187.78 456.13)"><tspan x="0" y="0">I</tspan><tspan class="cls-2" x="4.8" y="0">n</tspan><tspan class="cls-9" x="13.58" y="0">t</tspan><tspan x="18.44" y="0">e</tspan><tspan class="cls-18" x="25.75" y="0">r</tspan><tspan class="cls-3" x="31.75" y="0">n</tspan><tspan x="40.7" y="0">et </tspan><tspan class="cls-14" x="56.48" y="0">F</tspan><tspan class="cls-15" x="64.92" y="0">r</tspan><tspan class="cls-13" x="70.75" y="0">e</tspan><tspan class="cls-20" x="78.17" y="0">e</tspan><tspan class="cls-12" x="85.6" y="0">d</tspan><tspan x="93.88" y="0">om</tspan></text>
+  <text class="cls-4" transform="translate(479.61 269.14)"><tspan x="0" y="0">O</tspan><tspan class="cls-11" x="9.61" y="0">p</tspan><tspan x="18.14" y="0">en </tspan><tspan class="cls-16" x="37.94" y="0">G</tspan><tspan class="cls-17" x="47.34" y="0">o</tspan><tspan class="cls-10" x="54.92" y="0">v</tspan><tspan x="63.18" y="0">e</tspan><tspan class="cls-18" x="70.49" y="0">r</tspan><tspan x="76.49" y="0">n</tspan><tspan class="cls-3" x="85.52" y="0">m</tspan><tspan x="98.72" y="0">e</tspan><tspan class="cls-2" x="106.03" y="0">n</tspan><tspan x="114.82" y="0">t</tspan></text>
+  <g>
+    <polygon class="cls-6" points="312.18 260.64 312.18 267.06 434.91 270.27 434.91 257.43 312.18 260.64"/>
+    <polygon class="cls-6" points="381.51 146.34 371.47 138.33 297.46 236.29 302.47 240.29 381.51 146.34"/>
+    <polygon class="cls-6" points="275.53 231.12 251.35 110.75 238.83 113.61 269.27 232.55 275.53 231.12"/>
+    <polygon class="cls-7" points="297.46 291.42 371.47 389.37 381.51 381.37 302.47 287.41 297.46 291.42"/>
+    <polygon class="cls-7" points="238.83 414.1 251.35 416.95 275.53 296.58 269.27 295.15 238.83 414.1"/>
+    <polygon class="cls-6" points="147.66 213.45 252.34 263.85 147.66 314.25 147.66 340.38 279.33 276.97 279.33 250.73 147.66 187.32 147.66 213.45"/>
+  </g>
+</svg>
