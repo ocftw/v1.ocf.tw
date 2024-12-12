@@ -80,32 +80,32 @@ what_we_do:
   - id: community
     icon: hand rock
     title: 社群支援
-    title_en: 
+    title_en: Community Support
     tagline: 支援台灣開放社群
-    tagline_en: 
+    tagline_en: Community Support
     description: 活躍的在地社群，是開放文化發展的基礎。我們提供台灣各大開源社群舉辦活動時所需的法人身份，協助整合跨社群資源，降低社群經營的工作負擔。<br><a href="https://forms.gle/wqGycyn6jwjKmq848"><i class="globe icon"></i>開放文化基金會社群專案申請</a>
-    description_en: 
+    description_en: An active local community is the foundation for the development of open culture. We provide a legal entity for various open-source communities in Taiwan to host events, assist in integrating cross-community resources, and reduce the operational workload of community management.<br><a href="https://forms.gle/wqGycyn6jwjKmq848"><i class="globe icon"></i>Open Culture Foundation Community Project Application (Traditional Chinese Only)</a>
   - id: organization
     icon: building outline
     title: 組織合作
-    title_en: 
+    title_en: Collaboration
     tagline: 與其他組織合作
-    tagline_en: 
+    tagline_en: Collaboration
     description: 開放文化在不同領域的導入與應用，各自需要不同的專業。我們與其他深耕多年的組織協力，結合彼此的知識與專長，讓開源協作的方法滲入不同的領域。
-    description_en: 
+    description_en: The introduction and application of open culture in various fields require different expertise. We collaborate with organizations that have years of experience, combining our knowledge and expertise to integrate open-source collaboration methods into diverse domains.
   - id: overseas
     icon: plane
     title: 國際交流
-    title_en: 
+    title_en: International Exchange
     tagline: 促進台灣開源社群的國際交流
-    tagline_en: 
+    tagline_en: International Exchange
     description: 開放文化的推廣，在各國的法規與體制下會遇到不同的挑戰。我們協助台灣開源社群與全球各地的相關組織串連，吸取彼此的經驗，探索可能的創新模式。
-    description_en: 
+    description_en: The promotion of open culture faces different challenges under the regulations and systems of each country. We assist Taiwan’s open-source community in connecting with related organizations worldwide, sharing experiences, and exploring potential innovative models.
   - id: consultanting
     icon: idea
     title: 顧問諮詢
-    title_en: 
+    title_en: Consultanting
     tagline: 提供顧問諮詢服務
-    tagline_en: 
+    tagline_en: Consultanting
     description: 台灣的開源社群發展十幾年，累積許多寶貴知識和經驗。我們協助政府或民間單位，從社群取得開源圈的最新趨勢和見解，作為政策和法規制度的參考。
-    description_en: 
+    description_en: Taiwan’s open-source community has developed for over a decade, accumulating valuable knowledge and experience. We assist government and private organizations in accessing the latest trends and insights from the open-source community, serving as a reference for policies and regulatory frameworks.
