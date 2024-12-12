@@ -15,7 +15,7 @@ body {
   /* in design guide: body 2 14px */
   font-family: "Roboto", "Chiron Hei HK", "微軟正黑體", "Microsoft JhengHei",
     sans-serif;
-  font-size: 0.875rem;
+  font-size: 1rem;
   /* in design guide: body 1 */
   font-weight: 400;
   color: var(--ocf-dark);
@@ -183,7 +183,7 @@ h4 {
 
 p {
   /* in design guide: body 2 */
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 p.small {
