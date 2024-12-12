@@ -13,16 +13,9 @@ toc:
 ---
 
 <main id="about">
-
-<div class="ui center aligned stripe container">
-  <h1 class="ui icon header">
-    <i class="circular icon">
-      <i class="fas fa-seedling"></i>
-    </i>
-    {{ page.og_title }}
-  </h1>
-  <p> {{ site.data.people.orgs.ocf.slogan }}</p>
-
+  {% include _shared/kv.html title= page.og_title
+    description= site.data.people.orgs.ocf.slogan image="/assets/images/supportus_KV.png" %}
+    <div class="ui center aligned stripe container">
   <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
     <div class="ui dropdown item">
       <span data-content="current">跳至...</span>
@@ -69,11 +62,4 @@ toc:
 
   </div>
 </div>
-
-<section id="ads" class="ui vertical segment">
-  <div class="ui stripe container">
-    {% include banner_cta.html %}
-  </div>
-</section>
-
 </main>

@@ -4,19 +4,10 @@ og_title: About OCF
 og_description: 
 ---
 
-<div class="ui center aligned stripe container">
-  <h1 class="ui icon header">
-    <i class="circular icon">
-      <i class="fas fa-seedling"></i>
-    </i>
-    {{ page.og_title }}
-  </h1>
-<p>Learn more about our activism, our history, and our core values.</p> 
-
-
+  {% include _shared/kv.html title=page.og_title
+    description=site.data.people.orgs.ocf.slogan_en image="/assets/images/about_KV.png" %}
+    
 <h3 class="ui header">About Open Culture Foundation (OCF)</h3> 
-</div>
-
 <P><blockquote>(The) Open Culture Foundation is a non-profit organization. Through promoting open technology and cross-field collaboration, we continue to connect tech communities and other public and private entities in Taiwan. By doing so, we work to promote open co-creation and protect digital rights, and thereby support a more transparent and inclusive digital civil society.</blockquote></p>
 
 <P><blockquote>Since 2014, we have functioned as a legal entity and supported over 30 open technology communities in Taiwan. Throughout this process, we have not only continued to promote the idea of open technology, we have also become involved in policy advocacy and spoken up for the public's digital rights. Through this process, we have created a base for the development of open technology in Taiwan. None of these successes are the result of OCF alone. Rather, they are the result of several open tech communities, individuals and organizations working together to make Taiwan's internet and digital environment more open, transparent, and participation.<blockquote> </p>

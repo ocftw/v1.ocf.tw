@@ -1,7 +1,5 @@
 {% assign org = site.data.people.orgs.ocf %}
 
-{% include nav/links/footer-sidebar.html %}
-
 {% if lang == "en" %}
   {% assign subscribe_title = 'Subscribe' %}
   {% assign join_title = 'Join' %}
@@ -14,29 +12,59 @@
   {% assign license_content = '源碼 MIT / 內容 CC' %}
 {% endif %}
 
-<div class="item">
-  {{ subscribe_title }}
-  <div class="menu">
+<nav id="page__pusher">
+
+  {% include nav/links/footer-sidebar.html %}
+
+  <h4>
+    {{ subscribe_title }}
+  </h4>
+  <ul>
     {% for item in org.subscribe %}
-      {% include nav/links/item.html %}
+      {% if lang == 'en and item.title_en' %}
+        {% assign item_title = item.title_en %}
+      {% else %}
+        {% assign item_title = item.title %}
+      {% endif %}
+      <li>
+        {% include _shared/link.html url=item.url title=item_title icon=item.icon %}
+      </li>
+      {% assign item_title = undefined %}
     {% endfor %}
-  </div>
-</div>
+  </ul>
 
-<div class="item">
-  {{ join_title }}
-  <div class="menu">
+  <h4>
+    {{ join_title }}
+  </h4>
+  <ul>
   {% for item in org.join %}
-    {% include nav/links/item.html %}
+    {% if lang == 'en and item.title_en' %}
+      {% assign item_title = item.title_en %}
+    {% else %}
+      {% assign item_title = item.title %}
+    {% endif %}
+    <li>
+      {% include _shared/link.html url=item.url title=item_title icon=item.icon %}
+    </li>
+    {% assign item_title = undefined %}
   {% endfor %}
-  </div>
-</div>
+  </ul>
 
-<div class="item">
-  {{ license_title }}
-  <div class="menu">
-    {% include _shared/link.html url='/about/#website' class='item' title=license_content %}
-  </div>
-</div>
+  <h4>
+    {{ license_title }}
+  </h4>
+  <ul>
+    <li>
+      <a href="/about/#website">
+        {{ license_content }}
+      </a>
+    </li>
+  </ul>
 
+</nav>
 
+{% assign subscribe_title = undefined %}
+{% assign join_title = undefined %}
+{% assign license_title = undefined %}
+{% assign license_content = undefined %}
+{% assign org = undefined %}

@@ -5,6 +5,7 @@ redirect_from:
 
 layout: global
 og_title: 電子報
+og_slogn: 歡迎訂閱OCF電子報！
 og_description: 開源開放大小事，搶鮮送到你家！OCF 電子報，每月定期出刊！
 
 css: news.css
@@ -28,11 +29,10 @@ years:
 
 <main id="news">
 
+  {% include _shared/kv.html title= page.og_title
+    description= page.og_slogn image="/assets/images/news_KV.png" %}
+
   <div class="ui center aligned stripe container">
-    <h1 class="ui icon header">
-      <i class="circular newspaper icon"></i>
-      {{ page.og_title }}
-    </h1>
     <div class="mobile">
       <div class="ui two sticky basic buttons">
         <a href="#subscribe"
@@ -97,7 +97,7 @@ years:
       </div>
       <div class="six wide column">
         <section id="subscribe"
-                 class="ui sticky secondary basic segment">
+                 class="ui sticky secondary basic segment" style="background-color: var(--ocf-light);">
           <h2 class="ui center aligned small icon header">
             <i class="mail outline icon"></i>
             訂閱電子報
@@ -108,7 +108,7 @@ years:
                 name="Edit"
                 id="Edit">
             <div class="required field">
-              <label for="last_name">姓氏</label>
+              <label for="last_name" style="color: var(--ocf-primary);">姓氏</label>
               <input type="text"
                      name="last_name"
                      id="last_name"
@@ -116,7 +116,7 @@ years:
                      required />
             </div>
             <div class="required field">
-              <label for="first_name">名字</label>
+              <label for="first_name" style="color: var(--ocf-primary);">名字</label>
               <input type="text"
                      name="first_name"
                      id="first_name"
@@ -124,7 +124,7 @@ years:
                      required />
             </div>
             <div class="required field">
-              <label for="email-Primary">電子信箱</label>
+              <label for="email-Primary" style="color: var(--ocf-primary);">電子信箱</label>
               <input type="email"
                      name="email-Primary"
                      id="email-Primary"
@@ -138,17 +138,21 @@ years:
                        name="group[2]"
                        value="1"
                        checked />
-                <label>我要訂閱電子報</label>
+                <label style="color: var(--ocf-primary);">我要訂閱電子報</label>
               </div>
             </div>
+            <div style="display: flex; justify-content: space-around; align-items: center;">
             <p class="g-recaptcha"
                data-sitekey="6LedpB4TAAAAAEubH6xXlcjLa1D8jXzMVMG6Q3J2">
             </p>
-            <button class="ui submit button"
-                    name="_qf_Edit_next"
-                    value="訂閱"
-                    type="submit"
-                    id="_qf_Edit_next">訂閱</button>
+              <button class="ui submit button"
+              name="_qf_Edit_next"
+              value="訂閱"
+              type="submit"
+              id="_qf_Edit_next"
+              style="background-color: var(--ocf-primary); color: var(--ocf-white);"
+              >訂閱</button>
+            </div>
             <script src="//www.google.com/recaptcha/api.js"></script>
 
           </form>

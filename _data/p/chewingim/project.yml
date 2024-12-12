@@ -17,7 +17,7 @@ header_image:
 # 選用長寬比接近長條形的圖片（1400 x 300）
 avatar_image: /p/chewingim/og.png
 # avatar_image: url
-# 專案的 avatar 圖檔網址，若有，會出現在專案頁的右側邊欄
+# 專案的 avatar 圖檔網址，若有，會出現在專案頁的左側邊欄
 # 選用長寬比接近正方形的圖片
 theme_color: teal
 links:

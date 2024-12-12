@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="content" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 748.47 524.51">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-family: ChironHeiHK-Medium-B5pc-H, 'Chiron Hei HK';
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #0f1923;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #6450dc;
+      }
+
+      .cls-4, .cls-3 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(197.95 80.99)"><tspan x="0" y="0">開放原始碼</tspan></text>
+  <text class="cls-2" transform="translate(408.68 127.65)"><tspan x="0" y="0">開放資料</tspan></text>
+  <text class="cls-1" transform="translate(408.68 419.48)"><tspan x="0" y="0">數位人權</tspan></text>
+  <text class="cls-1" transform="translate(186.25 455.98)"><tspan x="0" y="0">網路自由</tspan></text>
+  <text class="cls-2" transform="translate(478.08 268.99)"><tspan x="0" y="0">開放政府</tspan></text>
+  <g>
+    <polygon class="cls-4" points="310.65 260.15 310.65 266.57 433.38 269.78 433.38 256.94 310.65 260.15"/>
+    <polygon class="cls-4" points="379.98 145.85 369.94 137.84 295.93 235.8 300.94 239.8 379.98 145.85"/>
+    <polygon class="cls-4" points="274 230.63 249.82 110.26 237.3 113.12 267.74 232.06 274 230.63"/>
+    <polygon class="cls-3" points="295.93 290.93 369.94 388.88 379.98 380.88 300.94 286.92 295.93 290.93"/>
+    <polygon class="cls-3" points="237.3 413.61 249.82 416.46 274 296.09 267.74 294.66 237.3 413.61"/>
+    <polygon class="cls-4" points="146.13 212.96 250.81 263.36 146.13 313.76 146.13 339.89 277.8 276.48 277.8 250.23 146.13 186.83 146.13 212.96"/>
+  </g>
+</svg>

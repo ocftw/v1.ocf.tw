@@ -6,26 +6,29 @@
 
 {% if project_actions %}
 
-<div class="ui horizontal divider">
-  <i class="heart icon"></i>
+<div class="meta__section">
+<h2 class="ocf__heading3 ocf__text--primary">
   {% include _shared/titles.html type='project' id='join' %}
-</div>
+</h2>
 
+<div class="page__flex meta__join">
 {% for action in project_actions %}
   {% if action.url %}
-    {% assign item_class = action.color | append: ' ui fluid button' %}
-    <p>
-      {% include _shared/link.html
-        url=action.url
-        class=item_class
-        title=action.title
-        icon=action.icon %}
-    </p>
-    {% assign item_class = undefined %}
+    <a href="{{ action.url }}" target="_blank"
+      class="semantic__button--{{ action.color }}_outline ocf__button ocf__button--outline ocf__button--{{ action.color }}_outline">
+      {% if action.icon %}
+        <i class="icon {{ action.icon }}"></i>
+      {% endif %}
+      <span>
+        {{ action.title }}
+      </span>
+    </a>
   {% else %}
     <p>{{ action.title }}</p>
   {% endif %}
 {% endfor %}
+</div>
+</div>
 
 {% endif %}
 

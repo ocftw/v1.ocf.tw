@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: global
 og_title: Home
 og_description: "OCF promotes open source, open data, and open government in Taiwan and nearby regions. Based in Taiwan."
 css: en.css
@@ -19,68 +19,154 @@ years:
 
 <div id="en">
 
-<section id="hero" class="ui inverted center aligned basic segment marginless">
+  <main id="homepage">
 
-  {% include nav/header/home.html %}
-
-  <div class="ui hidden section divider"></div>
-  <div class="ui stripe container">
-    <h1 class="ui inverted header">
-      <span class="sentence">Open Culture Foundation</span>
-    </h1>
-    <p>
-    Open source, open data, and open government.
-    </p>
-  </div>
-  <hr class="ui hidden section divider">
-<div class="ui stripe container">
-    <a class="ui huge teal button" href="https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=41">DONATE<i class="right arrow icon"></i></a>
-  </div>
-</section>
-
-<section class="ui vertical segment">
-  <div class="ui stripe container">
-  <p>
-    The Open Culture Foundation (OCF), is a nonpartisan, nonprofit organization, founded in 2014 by several open tech communities in Taiwan. Our main goal is to support local communities in their  advocacy of open technology as we see open technology as the core to securing digital rights and internet freedom. “Open technology” includes three dimensions: (1) open source software & hardware that can freely used, developed and redistributed by anyone; (2) open data that can similarly be freely used, reused and redistributed by anyone; and (3) open government that promotes transparent, participatory, inclusive and accountable governance.</p> 
-<p>We help governments, enterprises, and NGO’s better understand the benefits of adopting open technology, and promote the use of open tech in the public sphere. We believe that a culture of openness is the foundation for an innovative society, and the engine of  participatory democracy.
-OCF was established to serve as the fiscal sponsor for Taiwanese open tech communities. Our main goal is to support local communities in their advocacy for open culture and open tech. We have continued to support these communities to run large-scale conferences, seminars, and hackathons. We have also  collaborated with a number of international offices and multilateral institutions to deepen Taiwan’s connection to the global open culture community. Some of our past collaboration partners include the American Institute in Taiwan, British Office Taipei, Bureau Francais de Taipei, and the World Bank. OCF also has strong connections with the global open source community, and regularly works with groups promoting digital human rights and internet freedom worldwide. Our mission is to build bridges between local and global open tech communities and thus act as a mediator for the promotion of open culture.</p>
-<p> 
-In addition to supporting  local and international communities, OCF also works on a range of our own projects. This includes our work to promote open government initiatives in Taiwan; to facilitate open environmental data, and to advocate for eID legislation reform. You can learn more about our projects in <a href="https://ocf.tw/en/p/ocf" target="_blank">our projects</a>, and about the communities we work with in <a href="https://ocf.tw/en/p/community" target="_blank">community projects.</a></p>  
-
-  </p>
-  </div>
-</section>
-
-<section id="results" class="ui stripe container">
-
-  <div class="ui divided items">
-{% for year in page.years %}
-  {% assign id = year | append: "_en" %}
-  {% assign data = site.data.reports[id] %}
-  <div class="item">
-    <div class="image">
-      <img src="{{ data.cover }}" alt="">
-    </div>
-    <div class="content">
-      <a href="/en/p/{{ year }}" class="header">{{ data.title }}</a>
-      <div class="meta">
-        <span></span>
+    <section id="hero" class="ui inverted center aligned basic segment marginless"></section>
+    
+    
+    <section id="about" class="ui vertical segment">
+      <div class="ui stripe container">
+        <div class="ui two column stackable grid">
+          <div class="column about-us">
+            <h2>關於我們</h2>
+            <p>2014年，多個開元、科技社群和活動組織共同發起[開放文化基金會]，期許能支援台灣開元社群活躍發展；促進政府、企業、民間在各領域能跨界交流與合作，產出更豐富的開放原始碼、開放資料可供取用。不只是民眾受惠，也讓公民使用科技工具更加純熟，靠社群的力量去改變現況。</p>
+          <div class="read-more">
+            <a href="/about">更多...</a>  
+          </div>
+          <div class="ui left aligned stripe container">
+            <a class="support-us-button" href="https://ocf.tw/300">支持我們</a>
+          </div>
+          </div>
+          <div class="center aligned column">
+            <img class="ui fluid image" src="/assets/images/openAbout_ch.svg" alt="">
+          </div>
+        </div>
       </div>
-      <div class="description">
-        <p>{{ data.description }}</p>
+    </section>
+    
+    <section id="what_we_do" >
+      
+        <div class="what_we_do_container">
+          <div class="top-item-container">
+            <div class="item">
+              {% assign item = site.data.people.orgs.ocf.what_we_do[0] %}
+              <div class="item-title-group">
+                <img src="../assets/images/web_homepage_elements_How_Icon_1.svg">
+                <h2>{{ item.title_en }}</h2>
+              </div>
+              <p>
+                {{ item.description_en }}
+              </p>
+            </div>
+            <div class="item-gap"></div>
+            <div class="item">
+              {% assign item = site.data.people.orgs.ocf.what_we_do[1] %}
+              <div class="item-title-group">
+                <img src="../assets/images/web_homepage_elements_How_Icon_2.svg">
+                <h2>{{ item.title_en }}</h2>
+              </div>            
+              <p>
+                {{ item.description_en }}
+              </p>
+            </div>
+          </div>
+          <div class="title">
+            <div class="divider"></div>
+            <h2>我們在做些什麼</h2>
+            <div class="divider"></div>
+          </div>
+          <div class="bottom-item-container">
+            <div class="item">
+              {% assign item = site.data.people.orgs.ocf.what_we_do[2] %}
+              <div class="item-title-group">
+                <img src="../assets/images/web_homepage_elements_How_Icon_3.svg">
+                <h2>{{ item.title_en }}</h2>
+              </div>  
+              <p>
+                {{ item.description_en }}
+              </p>
+            </div>
+            <div class="item-gap"></div>
+            <div class="item">
+              {% assign item = site.data.people.orgs.ocf.what_we_do[3] %}
+              <div class="item-title-group">
+                <img src="../assets/images/web_homepage_elements_How_Icon_4.svg">
+                <h2>{{ item.title_en }}</h2>
+              </div>  
+                <p>
+                {{ item.description_en }}
+              </p>
+            </div>
+          </div>  
+        </div>
+    </section>
+    
+    <section id="what_is_happening">
+      <div class="project-result-container">
+        <h2>專案成果</h2>
+        <div class="project-items">
+          <a href="/p/ocf/" class="item">
+            <div>
+              <img src="../assets/images/web_homepage_elements_What Icon 2.svg" class="item-icon" >
+              <h2>基金會專案</h2> 
+            </div>
+          </a>
+          <a href="/p/community" class="item">
+            <div>
+              <img src="../assets/images/web_homepage_elements_What Icon 2.svg" class="item-icon" >
+              <h2>社群專案</h2> 
+            </div>
+          </a>
+          <a href="/journal/"  class="item">
+            <div>
+              <img src="../assets/images/web_homepage_elements_What Icon 2.svg" class="item-icon" >
+              <h2>近期活動計劃</h2> 
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="extra">
-        <a href="/en/p/{{ year }}">
-          Read Report
-          <i class="right arrow icon"></i>
-        </a>
+    </section>  
+    {% if page.partners %}
+    <section id="partners" class="ui vertical segment">
+      <div class="ui stripe container partners-container">
+        <img src="assets/images/web_homepage_elements_What Icon 1.svg" class="item-icon" >
+        <h2 class="ui header">合作夥伴</h2>
+        <div class="ui horizontal center aligned list">
+    
+      {% for org_id in site.data.people.relations.partners %}
+      {% assign org = site.data.people.orgs[org_id] %}
+    
+          <a class="item" target="_blank" href="{{ org.link[0].url }}">
+            <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+          </a>
+    
+      {% endfor %}
+    
+        </div>
       </div>
-    </div>
-  </div>
-{% endfor %}
-  </div>
-
-</section>
+    
+    </section>
+    {% endif %}
+    
+    {% if page.sponsors %}
+    <section id="sponsors">
+      <div class="ui stripe container sponsors-container">
+        <img src="assets/images/web_homepage_elements_What Icon 1.svg" class="item-icon" >
+        <h2 class="ui header">贊助夥伴</h2>
+        <div class="ui horizontal center aligned list">
+    
+      {% for org_id in site.data.people.relations.sponsors %}
+      {% assign org = site.data.people.orgs[org_id] %}
+          <a class="item" target="_blank" href="{{ org.link[0].url }}">
+            <img class="logo" src="{{ org.logo }}" alt="{{ org.name }}" />
+          </a>
+      {% endfor %}
+    
+        </div>
+      </div>
+    </section>
+    {% endif %}
+    </main>
 
 
 </div>

@@ -11,11 +11,13 @@ $(function() {
 
   // define filter actions
 
-  var $selectedCards = $('#plist .card')
-  $('#filter_count').text($selectedCards.length)
+  var $selectedCards = $('#plist .project')
+  var originalText = $('#plist #subtitle_block p').text()
+  $('#plist #subtitle_block p').text($selectedCards.length + ' ' + originalText)
 
   var runFilter = function() {
-    $selectedCards = $('#plist .card')
+    $selectedCards = $('#plist .project')
+    console.log($selectedCards.length)
 
     Object.keys(settings).forEach(function(filter_id) {
       if (settings[filter_id] != 'all') {
@@ -27,11 +29,12 @@ $(function() {
 
     $('#filter_count').text($selectedCards.length)
 
-    $selectedCards.removeClass('display-none')
-    $('#plist .card')
+    $selectedCards.removeClass('hidden')
+    $('#plist .project')
       .not($selectedCards)
-      .addClass('display-none')
-  }
+      .addClass('hidden')
+      console.log($selectedCards.length)
+    }
 
   // bind events
 
@@ -45,7 +48,7 @@ $(function() {
       runFilter()
     })
 
-    $('.cards .card .label[data-' + filter_id + ']').on(
+    $('#projects .project .tag[data-' + filter_id + ']').on(
       'click tap',
       function() {
         if (settings[filter_id] === $(this).attr('data-' + filter_id)) {

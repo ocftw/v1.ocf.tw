@@ -32,7 +32,7 @@ listed: yes
 listed_en: 
 
 actions: 
-# 專案頁的 call to action，可以是按鈕或一段文字，會出現在右側邊欄的最下方
+# 專案頁的 call to action，可以是按鈕或一段文字，會出現在左側邊欄的最下方
 #  - title: SITCON 夏令營官網
     # 按鈕上的文字
 #    url: http://sitcon.camp/2017/
