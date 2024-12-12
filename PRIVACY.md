@@ -25,7 +25,7 @@
 * 為了提供您最佳的服務，本網站會在您的電腦中放置並取用我們的 Cookie，若您不願接受 Cookie 的寫入，您可在您使用的瀏覽器功能項中設定隱私權等級為高，即可拒絕 Cookie 的寫入，但可能會導至網站某些功能無法正常執行 。
 * 我們如何使用 Cookie？
    * 我們在官網 (ocf.tw 以及包含 ocf.tw 結尾的網頁) 、OCF Lab 開放實驗室 (lab.ocf.tw) 、CRM 募款頁 (ocf.neticrm.tw/civicrm/contribute/) 、CRM 活動報名頁 (ocf.neticrm.tw/civicrm/event) 以及 KKTIX 活動報名系統  (ocftw.kktix.cc/events/) 均使用 Cookie。
-   * 我們的主要目的是進行流量分析並確保網站功能的正常運作。此外，我們也使用 Google Analytics 來進行流量統計分析。我們尚無法完全避免使用 Cookie，但我們深知理想的做法是讓您可以選擇拒絕 Cookie，同時仍能順暢地瀏覽網站，這也是我們不斷努力改進的目標。目前，僅能先請您調整瀏覽器，設定封鎖及刪除 Cookies，或可考慮 Google 提供的 Google Analytics (分析) 不透露資訊瀏覽器外掛程式 (https://tools.google.com/dlpage/gaoptout) 亦使用 EFF 開發適用瀏覽器的隱私保護擴充功能 (https://privacybadger.org/) 或考慮使用其他控制 Cookie 的工具 ( https://zh.wikipedia.org/wiki/請勿追蹤 )。
+   * 我們的主要目的是進行流量分析並確保網站功能的正常運作。此外，我們也使用 Google Analytics 來進行流量統計分析。我們尚無法完全避免使用 Cookie，但我們深知理想的做法是讓您可以選擇拒絕 Cookie，同時仍能順暢地瀏覽網站，這也是我們不斷努力改進的目標。目前，我們建議您可以先請您調整瀏覽器設定來封鎖及刪除 Cookies，或可考慮 Google 提供的 Google Analytics (分析) 不透露資訊瀏覽器外掛程式 (https://tools.google.com/dlpage/gaoptout) 亦使用 EFF 開發適用瀏覽器的隱私保護擴充功能 (https://privacybadger.org/) 也可考慮使用其他控制 Cookie 的工具 ( https://zh.wikipedia.org/wiki/請勿追蹤 )。
 ### 七、隱私權保護政策之修正
 * 本網站隱私權保護政策將因應需求隨時進行修正，修正後的條款將刊登於網站上。
 ### 八、個人資料查詢、修正、停止利用與刪除
