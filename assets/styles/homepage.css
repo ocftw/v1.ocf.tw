@@ -1,9 +1,9 @@
 #homepage #hero {
   background-color: #152139;
-  background-image: url(/assets/images/web_homepage_elements_homepage_KV.png);
+  background-image: url(/assets/images/web_homepage_elements_KV.png);
   background-repeat: no-repeat;
   background-position: center 100%;
-  background-size: contain;
+  background-size: cover;
   margin: 0;
   height: 100vh;
 }
@@ -103,7 +103,6 @@
   background-color: var(--ocf-primary);
   color: var(--ocf-white);
   font-size: 1rem;
-  border-radius: 8px;
   opacity: 0.8;
   padding: 1rem 3rem;
 }
