@@ -8,6 +8,7 @@
 
 html {
   font-size: 16px;
+  font-weight: 600;
 }
 
 body {
@@ -164,7 +165,7 @@ h1 {
 
 h2 {
   /* in design guide: title 1: 26px */
-  font-size: 1.625rem;
+  font-size: 1.75rem;
 }
 
 h3 {

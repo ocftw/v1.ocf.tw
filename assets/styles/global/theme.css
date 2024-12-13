@@ -124,12 +124,12 @@ a:link,
 
   &:not(.ocf__button) {
     color: var(--ocf-dark);
-    opacity: 0.8;
+    /* opacity: 0.8;
 
     &:hover,
     &:active {
       opacity: 1;
-    }
+    } */
   }
 }
 

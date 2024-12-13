@@ -1,7 +1,7 @@
 #footer {
   color: var(--ocf-white);
   background-color: var(--ocf-primary);
-  padding: 2rem 0;
+  padding: 4rem 0 8rem 0;
 
   h2,
   h3 {
@@ -12,6 +12,10 @@
   ul {
     padding: 0;
     list-style: none;
+  }
+
+  .page__spacer--large{
+    height: 3rem;
   }
 
   a,

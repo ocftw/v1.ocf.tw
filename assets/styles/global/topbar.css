@@ -28,14 +28,14 @@
       display: block;
       position: relative;
 
-      & > a {
+      /* & > a {
         &:hover {
           color: var(--ocf-light);
         }
         &.active {
           color: var(--ocf-white);
         }
-      }
+      } */
     }
   }
 

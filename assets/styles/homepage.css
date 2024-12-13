@@ -113,6 +113,10 @@
   width: 100vw;
   background-color: var(--ocf-light);
 
+  @media only screen and (max-width: 1280px) {
+    padding: 1rem;
+  }
+
   @media only screen and (max-width: 767px) {
     display: flex;
     flex-direction: column;
@@ -132,9 +136,19 @@
     }
 
     .item {
-      padding: 4rem 8rem;
+      padding: 14rem;
       color: var(--ocf-primary);
       width: 50%;
+
+      p {
+        a {
+          line-height: 2.5rem;
+        }
+      }
+
+      @media only screen and (max-width: 1280px) {
+        padding: 1rem 0.45rem;
+      }
 
       @media only screen and (max-width: 990px) {
         width: 100%;
@@ -176,7 +190,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 6rem;
+  padding: 8rem;
 
   @media only screen and (max-width: 767px) {
     padding: 2rem 0;
@@ -197,9 +211,15 @@
   .project-items {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 40px;
+    gap: 4rem;
+    padding: 0 3rem;
+
+    @media only screen and (max-width: 1280px) {
+      gap: 2rem;
+      padding: 0;
+    }
 
     @media only screen and (max-width: 1024px) {
       flex-direction: column;
@@ -208,8 +228,8 @@
 
   .project-items .item {
     width: 100%;
-    max-width: 300px;
-    height: 300px;
+    max-width: 400px;
+    height: 400px;
     padding: 1rem;
     position: relative;
     border: 10px solid var(--ocf-primary);
@@ -280,8 +300,8 @@
 #homepage #partners .item-icon{
   width: 4rem;
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: 2rem;
+  left: 2rem;
 }
 
 #homepage #sponsors {
@@ -301,8 +321,8 @@
 #homepage #sponsors .item-icon{
   width: 4rem;
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: 2rem;
+  left: 2rem;
 }
 
 #homepage cite:hover {
