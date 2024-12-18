@@ -3,6 +3,10 @@
   background-color: var(--ocf-primary);
   padding: 4rem 0 8rem 0;
 
+  @media only screen and (min-width: 1040px) {
+    padding: 4rem 2rem 8rem 2rem;
+  }
+
   h2,
   h3 {
     color: var(--ocf-white);
@@ -14,7 +18,7 @@
     list-style: none;
   }
 
-  .page__spacer--large{
+  .page__spacer--large {
     height: 3rem;
   }
 
