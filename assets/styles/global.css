@@ -8,6 +8,7 @@
 
 html {
   font-size: 16px;
+  font-weight: 600;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
     sans-serif;
   font-size: 1rem;
   /* in design guide: body 1 */
-  font-weight: 400;
+  font-weight: 600;
   color: var(--ocf-dark);
 }
 
@@ -164,7 +165,7 @@ h1 {
 
 h2 {
   /* in design guide: title 1: 26px */
-  font-size: 1.625rem;
+  font-size: 1.75rem;
 }
 
 h3 {

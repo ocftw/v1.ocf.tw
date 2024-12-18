@@ -34,7 +34,7 @@ toc:
       <div id="toc" data-context="desktop" class="six wide column">
         <nav class="ui secondary sticky vertical pointing fluid menu">
           {% for article in page.toc %}
-          <a href="#{{ article[0] }}" class="item" style="color: var(--ocf-primary);">{{ article[1] }}</a>
+          <a href="#{{ article[0] }}" class="item" style="color: var(--ocf-primary); font-size: 1.75rem;">{{ article[1] }}</a>
           {% endfor %}
         </nav>
       </div>
@@ -42,7 +42,7 @@ toc:
       <div class="ten wide column">
         {% for article in page.toc %} {% assign id = article[0] %}
 
-        <h2 id="{{ article[0] }}" class="ui dividing header" style="color: var(--ocf-primary);">
+        <h2 id="{{ article[0] }}" class="ui dividing header" style="color: var(--ocf-primary); font-size: 1.75rem;">
           {{ article[1] }}
         </h2>
 
