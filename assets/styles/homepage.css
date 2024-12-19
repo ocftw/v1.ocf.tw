@@ -35,9 +35,15 @@
 
 #homepage #about .about-us {
   margin: auto;
+  margin-left: 0;
+  width: 40%;
 
   @media only screen and (max-width: 767px) {
     padding: 2rem !important;
+  }
+
+  @media only screen and (min-width: 1280px) {
+    margin: auto;
   }
 
   h2,
@@ -78,15 +84,13 @@
 
     @media only screen and (max-width: 767px) {
       padding: 2rem 4rem;
-     
     }
   }
-  
+
   .divider {
     height: 4px;
     width: 100%;
     background-color: var(--ocf-white);
-
 
     @media only screen and (max-width: 767px) {
       display: none;
@@ -113,9 +117,6 @@
   width: 100vw;
   background-color: var(--ocf-light);
 
-  @media only screen and (max-width: 1280px) {
-    padding: 1rem;
-  }
 
   @media only screen and (max-width: 767px) {
     display: flex;
@@ -136,7 +137,6 @@
     }
 
     .item {
-      padding: 4rem 6rem 4rem 14rem;
       color: var(--ocf-primary);
       width: 50%;
 
@@ -146,8 +146,8 @@
         }
       }
 
-      @media only screen and (max-width: 1280px) {
-        padding: 1rem 0.45rem;
+      @media only screen and (min-width: 1280px) {
+        padding: 1rem 4.45rem;
       }
 
       @media only screen and (max-width: 990px) {
@@ -159,15 +159,19 @@
         display: flex;
         justify-content: left;
         align-items: center;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         gap: 2rem;
+
+        h2{
+          margin: 0;
+        }
 
         @media only screen and (max-width: 767px) {
           margin-bottom: 2rem;
         }
 
         img {
-          max-width: 100px;
+          max-width: 65px;
 
           @media only screen and (max-width: 767px) {
             max-width: 60px;
@@ -228,8 +232,8 @@
 
   .project-items .item {
     width: 100%;
-    max-width: 400px;
-    height: 400px;
+    max-width: 300px;
+    height: 300px;
     padding: 1rem;
     position: relative;
     border: 10px solid var(--ocf-primary);
@@ -258,7 +262,7 @@
     background-size: cover;
 
     h2 {
-      width: 5rem;
+      width: 6rem;
     }
   }
   .project-items > :nth-child(2) {
@@ -285,6 +289,7 @@
 
 #homepage #partners {
   text-align: center;
+  padding: 4.5rem;
 
   .partners-container {
     border: 4px solid var(--ocf-primary);
@@ -297,7 +302,7 @@
   }
 }
 
-#homepage #partners .item-icon{
+#homepage #partners .item-icon {
   width: 4rem;
   position: absolute;
   top: 2rem;
@@ -306,6 +311,7 @@
 
 #homepage #sponsors {
   text-align: center;
+  padding: 4.5rem;
 
   .sponsors-container {
     border: 4px solid var(--ocf-primary);
@@ -318,7 +324,7 @@
   }
 }
 
-#homepage #sponsors .item-icon{
+#homepage #sponsors .item-icon {
   width: 4rem;
   position: absolute;
   top: 2rem;
