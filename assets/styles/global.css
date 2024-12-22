@@ -185,6 +185,7 @@ h4 {
 p {
   /* in design guide: body 2 */
   font-size: 1rem;
+  font-weight: 500;
 }
 
 p.small {
