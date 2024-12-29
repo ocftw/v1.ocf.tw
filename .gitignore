@@ -5,4 +5,4 @@ _deploy
 *.lock
 Gemfile
 .jekyll-cache
-
+.zshrc
