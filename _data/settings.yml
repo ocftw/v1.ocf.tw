@@ -30,7 +30,7 @@ menu:
     url: /people/
   - title: 基金會專案
     url: /p/ocf
-  - title: 社群專案
+  - title: 社群夥伴
     url: /p/community
   - title: 活動
     url: /journal/
@@ -48,5 +48,5 @@ menu_en:
     url: /en/p/what_is_ocf_en.html
   - title: Our Projects
     url: /en/p/ocf
-  - title: Community Projects
+  - title: Community Partners
     url: /en/p/community
