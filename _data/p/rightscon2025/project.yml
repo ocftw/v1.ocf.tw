@@ -1,0 +1,69 @@
+name:  RightsCon 全球數位人權大會 2025
+name_en: 
+ 
+
+description: RightsCon 2025 將於 2 月 24 日至 27 日在臺北！
+全球數位人權大會（RightsCon），由國際非營利組織 Access Now 主辦，是全球最大的數位人權會議。2025 年不僅首度在東亞舉辦，更選擇臺北作為據點，預計將有來自 150 個國家、約 3,000 名產官學專家親身到訪臺灣，用 18 軌 500+ 場議程，討論人工智慧、數位治理、開源應用於公民倡議、反數位壓迫等議題。是臺灣開源技術社群、人權組織一覽全球數位人權議題的大好機會！
+description_en: 
+
+
+tagline:  
+tagline_en: 
+
+og_image: /p/rightscon2025/RightsCon2025.png
+og_image_en: /p/rightscon2025/RightsCon2025.png
+header_image: /p/rightscon2025/RightsCon2025.png
+avatar_image: /p/rightscon2025/RightsCon2025.png
+theme_color: purple
+
+start: 
+end: 
+
+topic_ids:
+  - tech
+  - dr
+field_ids:
+  - it
+  - rsh
+  - adv
+tags:
+tags_en:
+
+links:
+  - title: 2018 多倫多 RightsCon 數位人權大會分享會共筆
+    url: https://beta.hackfoldr.org/RightsCon2018Taiwan/https%253A%252F%252Fhackmd.io%252FIjxa9K38StSitV5MD-lmUA
+    color: purple
+    icon: world icon
+  - title: 2019 RightsCon 數位人權大會出訪記錄
+    url: https://docs.google.com/document/d/1ojKKMW1hKmUgadBUP3JiaGuSRSF6Ton3XkkP1-w245Q/edit?tab=t.0
+    color: purple
+    icon: world icon
+  - title: 2023 RightsCon 全球數位人權大會分享會共筆
+    url: https://hackmd.io/75rmGtgfRe2UhKCYpIRc3Q#20230704-%E6%95%B8%E4%BD%8D%E4%BA%BA%E6%AC%8A%E5%9C%8B%E9%9A%9B%E6%9C%83%E8%AD%B0-%E6%9C%83%E5%BE%8C%E5%88%86%E4%BA%AB%E6%9C%83
+    color: purple
+    icon: world icon
+links_en:
+  # - title: Open Technology - From Source Code, Data to the Government：How Open Shapes the Digital Society of the New Era
+  #   url: https://ocf.tw/en/p/opentech/otguide/
+  #   color: purple
+  #   icon: world icon
+  # - title: Open Data initiative：research & legislation suggestion
+  #   url: https://lab.ocf.tw/2020/03/18/opendatanext-eng/
+  #   color: purple
+  #   icon: world icon
+  # - title: Open Government Partnership (OGP) 
+  #   url: https://lab.ocf.tw/2021/06/20/ogp_taiwan-en/
+  #   color: purple
+  #   icon: world icon
+organizer_ids:
+  - ocf
+co-organizer_ids:
+consultant_ids:
+
+board_ids:
+
+staff_ids:
+
+
+listed: yes
+listed_en: yes
