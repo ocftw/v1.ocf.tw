@@ -23,7 +23,7 @@
         &:hover {
           color: var(--ocf-primary);
         }
-        &.active {
+        &:active {
           color: var(--ocf-white);
         }
       }
