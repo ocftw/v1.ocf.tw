@@ -17,7 +17,7 @@
     display: block;
     padding: 0.5rem;
     transition: all var(--page-transition_duration);
-    color: var(--ocf-primary);
+    color: var(--ocf-light);
   }
 
   ul.page__menu--horizontal {
