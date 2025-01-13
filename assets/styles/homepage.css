@@ -297,6 +297,7 @@
   .partners-container {
     border: 4px solid var(--ocf-primary);
     padding: 2rem;
+    max-width: 100%;
     position: relative;
 
     h2 {
