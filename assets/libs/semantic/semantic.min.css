@@ -12583,7 +12583,7 @@ ol.ui.horizontal.list li:before {
 }
 .ui.horizontal.list .list > .item,
 .ui.horizontal.list > .item {
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
 .ui.large.horizontal.list .list > .item,
 .ui.large.horizontal.list > .item {
