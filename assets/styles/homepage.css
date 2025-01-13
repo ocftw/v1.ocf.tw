@@ -291,7 +291,7 @@
   padding: 4.5rem;
 
   @media only screen and (max-width: 767px) {
-    padding: 2.5rem;
+    padding: 0.8rem;
   }
 
   .partners-container {
@@ -314,7 +314,7 @@
 
 #homepage #sponsors {
   text-align: center;
-  padding: 4.5rem;
+  padding: 0.8rem;
 
   .sponsors-container {
     border: 4px solid var(--ocf-primary);
