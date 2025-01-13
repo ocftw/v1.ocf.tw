@@ -17,11 +17,11 @@
         line-height: 1;
         display: block;
         padding: 0.5rem 1rem;
-        color: var(--ocf-primary);
+        color: var(--ocf-light);
         transition: all var(--page-transition_duration) ease;
 
         &:hover {
-          color: var(--ocf-light);
+          color: var(--ocf-primary);
         }
         &.active {
           color: var(--ocf-white);
