@@ -123,7 +123,7 @@ a:link,
   }
 
   &:not(.ocf__button) {
-    color: var(--ocf-dark);
+    color: var(--ocf-primary);
     opacity: 0.8;
 
     &:hover,
