@@ -1,4 +1,17 @@
 - id: admin
+  name: 林強《時間浸漬 Bioerosion》專輯發行座談會
+  name_en: Bioerosion
+  description: 林強睽違 19 年重磅推出全新專輯《時間浸漬 Bioerosion》，2 月 16 日晚間 8 點，誠品松菸店將舉行一場充滿創意與啟發的對話。當晚，林強將攜手音像藝術家 Luca Bonaccorsi，與現場觀眾分享專輯創作的靈感來源與理念碰撞，探討音像藝術與開源精神的緊密連結。
+  start: 2025/02/16
+  end:
+  links:
+    - title: 自由參加
+      url: https://www.facebook.com/events/3573895562911955/?acontext=%7B%22event_action_history%22%3A[]%7D
+  cover_image: /assets/images/rea03.png
+  project_ids:
+    - admin
+
+- id: admin
   name: OCF 十週年：開源祭
   name_en: OCF 10 Years：Open Culture Festival
   description: 為慶祝開放文化基金會成立十週年，我們將於 9 月 14 日（六）在 Pipe Live Music（公館水岸廣場）舉辦「開源祭」主題活動。這場活動將是一個融合音樂與科技藝術的盛會，將邀請到林強、百合花、PUZZLEMAN、拷秋勤等知名音樂人進行精彩的表演，同時舉辦開放文化基金會十週年特展和主題講座。
