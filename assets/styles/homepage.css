@@ -255,7 +255,7 @@
   }
 
   .project-items > :nth-child(1) {
-    background-image: url("/assets/images/web_homepage_elements_What_foundation.png");
+    background-image: url("/assets/images/rea01.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,17 +265,17 @@
     }
   }
   .project-items > :nth-child(2) {
-    background-image: url("/assets/images/web_homepage_elements_What_community.png");
+    background-image: url("/assets/images/rea02.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     h2 {
-      width: 4rem;
+      width: 6rem;
     }
   }
   .project-items > :nth-child(3) {
-    background-image: url("/assets/images/web_homepage_elements_What_upcoming events.png");
+    background-image: url("/assets/images/rea03.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
