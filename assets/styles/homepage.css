@@ -261,7 +261,7 @@
     background-size: cover;
 
     h2 {
-      width: 6rem;
+      width: 7rem;
     }
   }
   .project-items > :nth-child(2) {
@@ -271,7 +271,7 @@
     background-size: cover;
 
     h2 {
-      width: 6rem;
+      width: 7rem;
     }
   }
   .project-items > :nth-child(3) {
@@ -281,7 +281,7 @@
     background-size: cover;
 
     h2 {
-      width: 6rem;
+      width: 7rem;
     }
   }
 }
