@@ -12,6 +12,11 @@ actions:
     url: https://hackmd.io/efBMZl4ITImkxUOjlmByHg?view
     icon: cloud
     color: green
+  - title: 線上論壇
+    url: https://groups.google.com/g/coffee-circumvention-tw
+    icon: cloud
+    color: green
+
 organizer_ids:
 listed: yes
 listed_en: yes
