@@ -10368,7 +10368,7 @@ img.ui.bordered.image {
 .ui.fluid.images img,
 .ui.fluid.images svg {
   display: block;
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 .ui.avatar.image,
