@@ -62,6 +62,10 @@ join:
     title_en: We're Hiring!
     url: http://blog.ocf.tw/2019/04/jobs.html
     icon: text file outline
+  - title: 加入志工 Join Volunteers
+    title_en: Join Volunteers
+    url: https://volunteer.ocf.tw/
+    icon: fas fa-bullhorn
   - title: 實習佈告 Intership Program
     url: http://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92
     icon: text file outline
