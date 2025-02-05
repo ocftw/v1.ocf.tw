@@ -6,7 +6,7 @@
   end:
   links:
     - title: 報名網頁
-      url: https://ocftw.kktix.cc/events/internetfreedom-tor-tails-ooni-2025
+      url: https://ooni-research.ocf.tw/docs/blog/2025/02/rightscon25-tor-tails-ooni/
   cover_image: /p/ooni/ooni-202502.png
   project_ids:
     - ooni
