@@ -25,8 +25,8 @@ actions:
 organizer_ids:
   - ocf
 
-listed: yes
-listed_en: yes
+listed: 
+listed_en: 
 
 reports:
   yyyy: mm
