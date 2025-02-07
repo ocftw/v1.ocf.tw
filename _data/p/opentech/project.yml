@@ -47,6 +47,15 @@ links:
     url: https://ocf.tw/p/issues/10YrsOpenDataLegalization/
     color: purple
     icon: world icon
+  - title: 【聯合聲明】 數位發展部應有全面的數位轉型規劃
+    url: https://ocf.tw/p/issues/jointStatement/
+    icon:
+  - title: 開放資料專法推動
+    url: https://lab.ocf.tw/2020/03/12/opendatanextstep/
+    icon:
+  - title: 推動台灣開放政府與開放國會
+    url: https://ocf.tw/p/issues/twogp
+    icon:
 links_en:
   - title: Open Technology - From Source Code, Data to the Government：How Open Shapes the Digital Society of the New Era
     url: https://ocf.tw/en/p/opentech/otguide/
@@ -60,6 +69,12 @@ links_en:
     url: https://lab.ocf.tw/2021/06/20/ogp_taiwan-en/
     color: purple
     icon: world icon
+  - title: Joint Statement
+    url: https://ocf.tw/en/p/issues/joint
+    icon:
+  - title: Open Data initiative
+    url: https://lab.ocf.tw/2020/03/18/opendatanext-eng/
+    icon:
 organizer_ids:
   - ocf
 co-organizer_ids:
