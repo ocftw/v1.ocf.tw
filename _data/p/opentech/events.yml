@@ -47,3 +47,19 @@
   project_ids:
     - opentech
 
+
+- id: ocf
+  name: "109 年開放政府培力工作坊"
+  name_en: "Open Government Empowerment Workshop"
+  description: "2020 對臺灣開放政府來說，是個重要的一年。今年在行政院支持、唐鳳政委指導下，國家發展委員會正式啟動與國際 OGP (Open Government Partnership) 接軌的臺灣 【開放政府國家行動方案】!!在方案制定、推動執行開跑之際，最重要的是做好準備，不論是公部門或民間，一同學習了解：什麼是符合國際標準的開放政府方案？臺灣如何與國際串聯開啟行動？公私部門又該如何彼此協力？"
+  start: 2020/11/02
+  end: 2020/11/03
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/opengov2020
+  cover_image: 
+  contributor_ids:
+    - huangfu
+    - lulukeng
+  project_ids:
+    - ocf
