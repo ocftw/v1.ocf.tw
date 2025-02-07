@@ -20,25 +20,25 @@ links:
   - title: 議題關注
     url: /p/issues/
   - title: 連署：修法與公開 eID 資訊
-    url: https://ocf.tw/p/eid/
+    url: /p/eid/
   - title: OCF Lab - 開放與科技的新知匯集
     url: https://lab.ocf.tw/
   - title: 開源教 - 一個讓開源人分享學習的舞台
-    url: https://ocf.tw/p/openists/
+    url: /p/openists/
   - title: PTT ID Profiling - 用開源的方式側寫可能是不實資訊的散播帳號
-    url: https://ocf.tw/p/pttid/
+    url: /p/pttid/
 
 links_en: 
   - title: Issues
     url: /en/p/issues/
   - title: Petition - Amend the Law and Disclose eID Information
-    url: https://ocf.tw/p/eid/
+    url: /p/eid/
   - title: OCF Lab - A hub of open, technology and knowledges
     url: https://lab.ocf.tw/
   - title: The Openists - A stage for people sharing knowledges openly 
-    url: https://ocf.tw/p/openists/
+    url: /p/openists/
   - title: PTT ID Profiling - Open source analyzing tools and report of misinformation on social media
-    url: https://ocf.tw/p/pttid/
+    url: /p/pttid/
 
 
 organizer_ids:
