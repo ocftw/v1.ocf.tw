@@ -260,3 +260,89 @@
     - szuhui
   project_ids:
     - internetfreedom
+
+
+
+- id: issues
+  name: 數位公民研討會： 從認清威脅到建立防禦
+  name_en: Digital Citizenship Seminar：Identify Threats and Build up Defense
+  description: 根據 2022 年 Freedom House 的網路自由報告指出，全球網路自由度每況愈下，且各國政府正在切割和擴張個別的網路疆域，以求更多可自我控制的線上空間。尤其在亞太區域，數位威權主義擴張之下，藉由數位科技對人民的壓制不僅使其自由空間越趨限制，更是跨越傳統的疆界加大其受迫害的範圍。「數位壓迫」已經是一個具體的事實和專有名詞，其中更涉及兩國政府、跨國企業、經濟利害關係人等，使之已非一國之力可以應對和反抗的壓迫。身處公民社會的我們，更需要覺察作為外於政府、企業的第三方立場，以跨領域和跨國界的視野進行監督、接露和倡議的角色。對於國內，敦促政府數位治理完備和加強公民合作，以強健台灣的數位韌性；對於亞太地區和全球脈絡，如何運用公民社會的力量和角色，強化台灣和亞太區域合作，對於跨國的數位壓制提出全域的人民防衛和保護機制。
+  start: 2023/04/08
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocftw.kktix.cc/events/citizenseminar
+  cover_image: /p/admin/2023/citizenseminar.jpg
+  contributor_ids:
+  project_ids:
+    - issues
+  organizer_ids:
+
+- id: issues
+  name: 言論自由與犯罪防制在數位時代中的兩難—數位中介服務法之現況與未來
+  name_en: 
+  description: 從平台的責任義務，以及政府權力的界線和外力干預的不實資訊操控，到個人使用者在網路的言論自由、透過網路來進行的各式新型態犯罪行為，這些其實都需要法律來做適當規範。法白與開放文化基金會合辦，希望這些多元面向的問題都亟待社會凝聚共識，針對資訊科技和數位服務等原本是要改善大眾生活的工具，找到社會大眾能夠接受的運作與治理機制。
+  start: 2022/12/17
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://plainlaw.me/subject/disa2
+  cover_image: 
+  contributor_ids:
+    - szuhui
+  project_ids:
+    - issues
+
+
+- id: issues
+  name: OCF 培訓活動 - 如何建立安全的網路架構
+  name_en: 
+  description: 想要自我突破、想更了解網路架構？想對組織層級設備掌握更多、想要嘗試建置完整的組織網路架構？滿足你對於網路線路的概論知識、實作課程及案例分析，這裡通通有！隨著疫情衝擊日常生活的所有面向，台灣的公私部門已經在過去三年急遽數位化，日常及辦公室相關的各式事務都被擺上雲端。隨著工作仰賴網路為中介後，安全與隱私卻也逐漸成為關鍵議題。也因此，網路架構的安全對業界來說日趨重要，相關技能也漸漸成為求才的依據，這次 OCF 主辦的培訓便是針對這樣的趨勢！本次培訓以「如何建立安全的網路架構」為題，請業界講師從實務角度出發、手把手帶你操作及演練！讓我們找到彼此、培育你成為具備建置安全網路能力的夥伴！透過兩個下午的課程，你可以接觸到：建置前的網路需求評估與設計、組織規模的網路搭建、減少數位足跡及防禦惡意入侵的安全網路架構，以及各種錯誤案例的經驗分享。
+  start: 2022/10/01
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/ocftot2022
+  cover_image: 
+  contributor_ids:
+    - lulukeng
+    - leaf
+    - renwei
+  project_ids:
+    - issues
+
+
+- id: issues
+  name: 數位中介服務法草案討論會 (II)
+  name_en: 
+  description: 言論自由、錯假訊息、民主韌性、平台責任、檢舉下架與異議申復、一頁式詐騙、透明度報告、網路中立與安全港，數位中介服務法草案，99 個願望一次滿足？歡迎大家一起參與，讓我們針對目前的草案逐條討論。（9/17 將從第五章第 22 條開始討論）
+  start: 2022/09/17
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://moztw.kktix.cc/events/digital-service-act-2
+  cover_image: /p/issues/2022/20220917event.jpg
+  contributor_ids:
+    - singing
+  project_ids:
+    - issues
+
+- id: issues
+  name: 數位中介服務法草案討論會
+  name_en: 
+  description: 言論自由、錯假訊息、民主韌性、平台責任、檢舉下架與異議申復、一頁式詐騙、透明度報告、網路中立與安全港，數位中介服務法草案，99 個願望一次滿足？歡迎大家一起參與，讓我們針對目前的草案逐條討論。
+  start: 2022/08/27
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://moztw.kktix.cc/events/digital-service-act
+    - title: 會議筆記分享
+      url: https://g0v.hackmd.io/@irvin/20220827-digital-act
+  cover_image: /p/issues/2022/20220827event.jpg
+  contributor_ids:
+    - singing
+    - szuhui
+  project_ids:
+    - issues
+
+
