@@ -1,4 +1,21 @@
 - id: opentech
+  name: 開放科技小聚 [001] ：一同起造未來十年開放資料標準
+  name_en: 開放科技小聚 [001] ：一同起造未來十年開放資料標準
+  description: 最近一次公私協力整合討論過程中，有關「開放資料標準升級」，OCF 的提案期待納入 OECD 的 OURdata 指數真正關注資料的再利用性與影響力，數位部也提出了期待用 FAIR 標準更有效率的提升個資料集。台灣開放資料標準未來十年的發展，或許就在此波的公私協力中能有所推進 ! 
+  start: 2024/12/26
+  end:
+  links:
+    - title: 活動報名
+      url: https://ocftw.kktix.cc/events/opentechmeetup-00124
+  cover_image: /p/opentech/opentechmeetup2.png
+  contributor_ids:
+    - leaf
+    - yanyiyi
+    - liyhs
+  project_ids:
+    - opentech
+
+- id: opentech
   name: OCF 秋季交流會
   name_en: 
   description: 10 月 OCF 也將前往高雄參加 MOPCON！藉著這難得的開源盛會，我們也想邀請在地的開源技術人、NGO 夥伴及所有 OCF 的朋友一起相聚、交流彼此的近況，歡迎參加完 MOPCON 意猶未盡的朋友，一起來交流會續攤抬槓！
