@@ -176,3 +176,50 @@
     - amos
   project_ids: 
     - pmpc
+
+- id: pmpc
+  name: 法制研析：公共程式與資訊服務採購產業座談會（北部場）
+  name_en: 
+  description: 本系列座談活動將邀請到各級行政或立法機關、學界、產業人士，以及公民科技社群 ，一同以「公共程式」（Public Code）作為核心，深入了解各國政府公共程式潮流，藉以廣納各級行政或立法機關對公共程式法制研析及推動相關建言，加速建構具民主精神與社會價值之數位前瞻韌性環境之推動。 
+  start: 2023/11/20
+  end:
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/publiccodeforum3
+  cover_image: /p/admin/2023/pmpc-3.png
+  contributor_ids:
+  project_ids:
+    - pmpc
+  organizer_ids:
+
+
+- id: pmpc
+  name: 法制研析：公共程式與資訊服務採購座談會（北部場）
+  name_en: 
+  description: 本次座談會將以「公共程式」作為主題，特邀請熟悉公共程式法制等專家學者與各界一同探討推動公共程式，需協助制度化之文件或應予以修改之程序、法規等議題，使得公共程式推廣更臻完善。活動流程上會先引介基本知識，循序漸進讓與會成員了解議題重點，再激發參與人分享其經驗。
+  start: 2023/10/30
+  end:
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/publiccodeforum2
+  cover_image: /p/admin/2023/pmpc-2.png
+  contributor_ids:
+  project_ids:
+    - pmpc
+  organizer_ids:
+
+
+- id: pmpc
+  name: 法制研析：公共程式與資訊服務採購座談會（南部場） 
+  name_en: 
+  description: 本系列座談活動將邀請到各級行政或立法機關、學界、產業人士，以及公民科技社群 ，一同以「公共程式」（Public Code）作為核心，深入了解各國政府公共程式潮流，藉以廣納各級行政或立法機關對公共程式法制研析及推動相關建言，加速建構具民主精神與社會價值之數位前瞻韌性環境之推動。 
+  start: 2023/10/25
+  end:
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/publiccodeforum1
+  cover_image: /p/admin/2023/pmpc-1.png
+  contributor_ids:
+  project_ids:
+    - pmpc
+  organizer_ids:
