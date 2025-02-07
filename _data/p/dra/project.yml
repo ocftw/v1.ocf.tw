@@ -32,11 +32,17 @@ links:
     url: https://ocf.tw/p/dra/ep/ 
     color: purple
     icon: world icon
+  - title: eID 數位身分證
+    url: https://ocf.tw/p/eid/
+    icon:
 links_en:
   - title: 【Report】Empowering Privacy：Civil Society Strategies in East Asia's Digital Landscape
     url: https://ocf.tw/en/p/dra/ep/ 
     color: purple
     icon: world icon
+  - title: eID
+    url: https://ocf.tw/en/p/eid/
+    icon:
 
 organizer_ids:
   - ocf

@@ -9,17 +9,11 @@ links:
   - title: 網路自由小聚
     url: https://ocf.tw/p/issues/internetfreedom
     icon:
-  - title: eID 數位身分證
-    url: https://ocf.tw/p/eid/
-    icon:
 
 links_en:
 
   - title: Internet Freedom meetup
     url: https://ocf.tw/en/p/issues/coffeeandcircumventionen
-    icon:
-  - title: eID
-    url: https://ocf.tw/en/p/eid/
     icon:
 
 actions:
