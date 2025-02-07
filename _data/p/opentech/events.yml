@@ -63,3 +63,258 @@
     - lulukeng
   project_ids:
     - ocf
+
+
+- id: issues
+  name: 2023 國會開放與監督論壇
+  name_en: 
+  description: 本次國際論壇奠基在臺灣立法院 2021 之「開放國會行動方案」，邀請了來自全球五大洲的議會監督組織與專家學者蒞臨台灣，一同交流全球議會開放與監督之挑戰和趨勢。OCF 除了代表開放國會推動小組民間發言人發言，也將擔任其中相關議程的主持人及講者。期待透過演講者和參與者之間的經驗分享與交流，激盪出全球議會開放與監督的新方法，並鞏固民主的深化，同時以台灣做為樞紐，帶動亞太地區未來在公民社會推動開放與監督國會的能量。
+  start: 2023/03/14
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://www.facebook.com/photo?fbid=568960185271596&amp%3Bset=a.482475107253438
+  cover_image: 
+  contributor_ids:
+  project_ids:
+    - issues
+
+
+- id: issues
+  name: 有效打開政府!—— 原青參與政治的新管道
+  name_en:
+  description: 公部門有沒有可能主動邀請、開放參與呢?打開政府有沒有可能像打開罐頭一樣簡單呢?2022/4/13,原民小聚移師花蓮,OCF 與原住民青年們站在一起!快來和我們一同了解原青參政的新管道「開放政府」吧!
+  start: 2022/04/13
+  end:
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/indigenousog-april
+  cover_image: /p/issues/2022/indiOG_0413.png
+  contributor_ids:
+    - lulukeng
+    - weichen
+    - claire
+  project_ids:
+    - issues
+
+- id: issues
+  name: 有效打開政府!—— 原青參與政治的新管道
+  name_en:
+  description: 原住民族青年們,一起聽聽「開放政府」在台灣的推動狀況、國內外的案例,也聊聊原住民族委員會和其他政府部會目前的承諾事項,以及我們可以如何透過「開放政府」降低門檻,更全面而有效地進入公部門參與政策擬定吧!
+  start: 2022/03/08
+  end:
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/indigenousog
+  cover_image: /p/issues/2022/indiOG_0308.png
+  contributor_ids:
+    - lulukeng
+    - weichen
+  project_ids:
+    - issues
+
+
+- id: issues
+  name: "5G 分享會 - 淺談開源軟體在商業利用上的授權須知"
+  name_en: "5G sharing #1 - open srouce license in commercial use"
+  description: "深入淺出了解開源軟體授權須知，洞悉國外公司的開源軟體發展策略，輕鬆掌握國內研發或技術發展的領銜地位"
+  start: 2020/11/02
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/register?reset=1&id=21
+  cover_image: 
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+    - issues
+
+
+
+- id: issues
+  name: "5G 分享會#2 - 建立與貢獻 5G 與智慧城市的生態系"
+  name_en: "5G sharing #2 - build and contribute 5G and smart city ecosystem"
+  description: "從 4G 到 5G、從封閉到開源，全球電信專案朝向競合的商業模式。本次邀請來自 Open Networking Foundation 的成員介紹國際組織間在開源專案上的合作要訣，如何跟上開源專案的發展趨勢，讓台灣在這波開源浪潮中能站上最佳戰略位置。同場加映，邀請來自 Civil Infrastructure Platform 技術指導委員會成員，分享「透過開源專案打造安全、可靠且穩定之智慧城市基礎平台」。 "
+  start: 2020/11/20
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=22&utm_source=eDM&utm_medium=email&utm_term=OCF
+  cover_image: 
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+    - issues
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: issues
+  name: "5G 分享會 #3- 企業參與開源實踐，以開源電信專案為例"
+  name_en: "5G sharing #3 - case of enterprise's open srouce practice"
+  description: "開源不再只是一群志工個人的小專案貢獻，Google、Intel、Samsung、 Sony、 Toshiba 等科技大廠，紛紛投入企業人力參與開源專案，企圖整合彼此企業間資源加乘商業效益。本次邀請來自 ONF 、ONAP 的資深貢獻者，分享「商用開源專案及企業合作案例分享」與「企業參與開源專案與開源貢獻的經驗以ONAP為例」。 "
+  start: 2020/11/27
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=23&utm_source=eDM&utm_medium=email&utm_term=OCF
+  cover_image: 
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+    - issues
+  organizer_ids: 
+  advisor_ids: 
+  co-organizer_ids: 
+  implementer_ids: 
+  sponsor_ids: 
+  coordinator_ids: 
+  host_ids: 
+  speaker_ids: 
+  banner: 
+
+- id: issues
+  name: "5G 分享會 #4 - 專利聯盟如何保護開源生態圈"
+  name_en: "5G sharing #4 - how Patent Pool protect open source environment?"
+  description: "想知道專利聯盟如何保護開源生態圈嗎？你不可錯過來自 Open Invention Network 的黃鴻文，介紹推動專利聯盟的目的與策略。 "
+  start: 2020/12/02
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=24&utm_source=eDM&utm_medium=email&utm_term=OCF
+  cover_image: 
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+    - issues
+
+
+- id: issues
+  name: "「開放國會行動方案」委員會會議"
+  name_en: "Open Parliament Action Plan committee meeting"
+  description: "在委員努力和院長支持之下，立法院於 2020 開啟 「開放國會行動方案」計畫，從擬定過程就邀請民間參與，開放文化基金會從一開始 4/15 籌備會議開始一路參與成為正式民間委員一員，共參加六場籌備會議、六場正式委員會，數場小型討論＋內訓＋英文版編輯會議。方案預計 2021年1月公布。"
+  start: 2020/04/15
+  end: 2020/12/15
+  links:
+    - title: 開放國會行動方案
+      url: https://www.ly.gov.tw/Pages/List.aspx?nodeid=43874
+  cover_image: /p/global/openparliament 2020.jpg
+  contributor_ids:
+    - lulukeng
+  project_ids:
+    - issues
+
+- id: issues
+  name: 2021 Open Government International Virtual Forum
+  name_en: 2021 Open Government International Virtual Forum
+  description: "The road to open government is a long journey, and the experiences exchange and lessons learned between partners will be the key to making the open government continue to move forward. This November, the Taiwanese government and the civil society organization will jointly organize an international virtual forum, hoping to promote diversified exchanges and in-depth discussions on three topics: from promise to action, public-private collaboration and anti-corruption. Based on these topics, we organized 4 sessions for everyone for free. Please save your time and register it. We'll send you links for 2 live streaming videos before the forum."
+  start: 2021/11/16
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/opengovforum-tw
+  cover_image: /p/issues/ogi202111.png
+  contributor_ids: 
+    - lulukeng
+    - claire
+    - weichen
+  project_ids:
+    - issues
+
+- id: issues
+  name: 國軍退除役官兵輔導委員會 110 年提升政府資料開放品質講習班
+  name_en: 2021 open data lecture of Veterans Affairs Council
+  description: 針對國軍退除役官兵輔導委員會各業務管理處以及三所榮總中，辦理政府開放資料業務的窗口進行政府資料開放與應用簡介，講習內容包含：資料與資訊的差異、公開與開放的差異、什麼是資料品質、如何清理資料，並搭配退輔會在政府資料開放平臺及官網上已公開的資料進行實際操作解說及練習。
+  start: 2021/09/30
+  end: 
+  links:
+    - title: 課程簡報
+      url: https://docs.google.com/presentation/d/1KW_CwSGMdFOy_kFRrtJ5TDROxwTdu1mgQaDvHEaDbj0/edit?usp=sharing
+  cover_image: 
+  contributor_ids: 
+    - huangfu
+  project_ids:
+    - issues
+
+- id: issues
+  name: 2021 開放政府培力工作坊－深度二日課程
+  name_en: OGP2021
+  description: 暨去年臺灣按照 Open Government Partnership (OGP) 國際標準推出首部「開放政府國家行動方案」之後，各部會紛紛著手實踐承諾事項。2021 年的深度課程，將延續基礎介紹，帶大家探討如何在執行過程中做到公私協力。
+  start: 2021/09/06
+  end: 2021/09/07
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/opengov2021 
+  cover_image: /p/issues/2021/ogp202109.png
+  contributor_ids: 
+    - claire
+    - lulukeng
+  project_ids:
+    - issues
+
+- id: issues
+  name: 5G Webinar：O-RAN 產業與開源軟體發展趨勢
+  name_en: 
+  description: 在增長迅速的 Open RAN 產業中，負責討論、制定產業標準和發展動向的國際組織也成為重要的決策角色，本活動將邀請 O-RAN 軟體社群來分享 O-RAN 聯盟與國際開源專案的合作經驗，以及探討全球電信運營商在 Open RAN 的佈局與商業動向，並展示開源軟體導入 O-RAN 的經驗。
+  start: 2021/12/01
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://ocf.neticrm.tw/civicrm/event/info?reset=1&id=29
+  cover_image: /p/ocf/2021_5G.png
+  contributor_ids: 
+   - singing
+   - leaf
+   - sam
+  project_ids:
+   - issues
+
+
+- id: issues
+
+  name: 5G開源與資安座談會
+  name_en: 5G Open Source and Cybersecurity Symposium
+ 
+  description: 臺灣的社群文化十分興盛，從 2005 年起，已發展出多個致力於推廣開放原始碼（開源）、資訊安全技術研究等社群。開放文化基金會此次執行「5G 開放源碼與資訊安全計畫」，將邀請曾參與台灣各大開源與技術社群 COSCUP 開源人年會、HITCON 台灣駭客年會、MOPCON 行動科技年會與 Cloud Native Taiwan User Group 的資深講者，以貼近資通訊產業關注的核心發展和挑戰為分享方向，介紹進入 5G 時代後，開放源碼與資訊安全領域內，資通訊產業在各方面必須注重的課題。
+  description_en: 
+
+  cover_image: /p/ocf/5G.png
+
+  start: 2020/10/23
+  end: 2020/10/24
+
+  contributor_ids:
+    - singing
+    - rosa
+  project_ids:
+    - issues
+
+
+- id: issues
+  name: 與唐鳳聊聊數位部
+  name_en: Chat with AU @ Moda
+  description: 與唐鳳一起討論數位部的未來。
+  start: 2022/08/06
+  end: 
+  links:
+    - title: 活動記錄
+      url: https://hackmd.io/U2xAr-aCRGamvjerzFjGKQ?both
+  cover_image: 
+  contributor_ids:
+    - singing
+    - joshua
+    - lulukeng
+    - szuhui
+  project_ids:
+    - issues
+
