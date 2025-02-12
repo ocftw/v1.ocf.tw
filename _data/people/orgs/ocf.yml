@@ -39,6 +39,9 @@ subscribe:
   - title: Facebook
     url: https://www.facebook.com/www.ocf.tw
     icon: facebook
+  - title: Instagram
+    url: https://www.instagram.com/ocftw/
+    icon: instagram
   - title: YouTube
     url: https://www.youtube.com/c/OcfTw
     icon: youtube play
