@@ -29,10 +29,10 @@ contact:
 subscribe:
   - title: 電子報 epaper
     url: https://ocf.tw/news/
-    icon: rss
+    icon: newspaper
   - title: Blog
     url: http://blog.ocf.tw/
-    icon: rss
+    icon: blog
 #  - title: OCFLab
 #    url: https://lab.ocf.tw/
 #    icon: rss
