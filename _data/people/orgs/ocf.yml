@@ -32,7 +32,7 @@ subscribe:
     icon: newspaper
   - title: Blog
     url: http://blog.ocf.tw/
-    icon: blog
+    icon: rss
 #  - title: OCFLab
 #    url: https://lab.ocf.tw/
 #    icon: rss
