@@ -1,5 +1,5 @@
 name:  RightsCon 全球數位人權大會 2025
-name_en: RightsCon 2025
+name_en: RightsCon 2025 @ Taipei
 
 description: 將於 2 月 24 日至 27 日在臺北！RightsCon 由國際非營利組織 Access Now 主辦，是全球最大的數位人權會議。
 description_en: RightsCon 2025 will be held in Taipei, the world's largest digital human rights conference, is organized by the international non-profit organization Access Now.
@@ -68,7 +68,6 @@ actions_en:
 organizer_ids:
   - accessnow
 co-organizer_ids: 
-  - ocf
 consultant_ids:
 
 board_ids:
