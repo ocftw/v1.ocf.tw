@@ -99,6 +99,7 @@ card:
   - coscup
   - pycon
   - sitcon
+  - rightscon2025
   - jcconf
   - cctw
   - osln
@@ -127,6 +128,7 @@ card:
 card_en:
 # 英文專案列表頁上的專案卡片，會以這個清單的順序排列。
   - admin
+  - rightscon2025
   - intl
   - intldonate
   - g0vgrants
