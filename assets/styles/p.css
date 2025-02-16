@@ -100,9 +100,11 @@
   border: none;
 }
 
-#project .project__body {
-  img {
-    max-width: 35%;
+@media only screen and (width < 768px) {
+  #project .project__body {
+    img {
+      max-width: 35%;
+    }
   }
 }
 
