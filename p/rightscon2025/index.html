@@ -24,7 +24,7 @@ updated:
 cpid:
 show_child_projects: yes
 ---
-
+<div id="top" class="ui styled page">
 <div class="ui info message icon mini">
   <i class="book icon"></i>
   <div class="content">
@@ -66,31 +66,41 @@ show_child_projects: yes
   </div>
 </div>
 
+<div id="topics" class="title" style="cursor: pointer;">
+  <div>
+    <h1 style="margin: 0; font-size: 1.5em;">什麼議題在 RightsCon 被討論？</h1>
+    <h2 style="margin: 0.2em 0 0.5em 0; font-size: 1em; color: #555;">
+      <p>本次議程尚未公開時間地點，但你可以先看：<a href="https://www.rightscon.org/program/">https://www.rightscon.org/program</a></p><br>
+      議程主題包含</h2>
+  </div>
+  <i class="dropdown icon"></i>
+  <span style="margin-left: 0.5em;">點擊展開完整內容</span>
+</div>
 
-<h2 id="topics" class="ui dividing header">什麼議題在 RightsCon 被討論？</h2>
-<p>本次議程尚未公開時間地點，但你可以先看：<a href="https://www.rightscon.org/program/">https://www.rightscon.org/program</a></p>
-<p>議程主題包含：</p>
-
-<ul>
-  <li>Artificial Intelligence and Emerging Technologies（人工智慧與新興技術）</li>
-  <li>Business and Human Rights（商業與人權）</li>
-  <li>Conflict and Humanitarian Action（衝突與人道行動）</li>
-  <li>Content Governance（內容治理）</li>
-  <li>Data Protection（資料保護）</li>
-  <li>Digital Security for Communities（社群數位安全）</li>
-  <li>Freedom of the Media（媒體自由）</li>
-  <li>Freedoms and Agency in the Age of Surveillance（監控時代的自由與代理權）</li>
-  <li>Futures, Fictions, and Creativity（未來、虛構與創意）</li>
-  <li>Global Cyber Norms and Encryption（全球網絡規範與加密技術）</li>
-  <li>Governance, Politics, and Elections（治理、政治與選舉）</li>
-  <li>Human Rights-Centered Design（以人權為中心的設計）</li>
-  <li>Internet Access and Inclusion（網絡接入與包容性）</li>
-  <li>Internet Shutdowns and Disruptions（網絡中斷與封鎖）</li>
-  <li>Justice, Litigation, and Documentation（正義、訴訟與文檔記錄）</li>
-  <li>Online Hate and Violence（線上仇恨與暴力）</li>
-  <li>Organizational Capacity and Funding（組織能力建設與資金籌措）</li>
-  <li>Tactics and Contexts for Activists（行動者的策略與背景）</li>
-</ul>
+<div class="content">
+  <div class="ui segment" style="background-color: #f0f8ff; padding: 1em; margin-bottom: 1em;">
+    <ul>
+      <li>Artificial Intelligence and Emerging Technologies（人工智慧與新興技術）</li>
+      <li>Business and Human Rights（商業與人權）</li>
+      <li>Conflict and Humanitarian Action（衝突與人道行動）</li>
+      <li>Content Governance（內容治理）</li>
+      <li>Data Protection（資料保護）</li>
+      <li>Digital Security for Communities（社群數位安全）</li>
+      <li>Freedom of the Media（媒體自由）</li>
+      <li>Freedoms and Agency in the Age of Surveillance（監控時代的自由與代理權）</li>
+      <li>Futures, Fictions, and Creativity（未來、虛構與創意）</li>
+      <li>Global Cyber Norms and Encryption（全球網絡規範與加密技術）</li>
+      <li>Governance, Politics, and Elections（治理、政治與選舉）</li>
+      <li>Human Rights-Centered Design（以人權為中心的設計）</li>
+      <li>Internet Access and Inclusion（網絡接入與包容性）</li>
+      <li>Internet Shutdowns and Disruptions（網絡中斷與封鎖）</li>
+      <li>Justice, Litigation, and Documentation（正義、訴訟與文檔記錄）</li>
+      <li>Online Hate and Violence（線上仇恨與暴力）</li>
+      <li>Organizational Capacity and Funding（組織能力建設與資金籌措）</li>
+      <li>Tactics and Contexts for Activists（行動者的策略與背景）</li>
+    </ul>    
+  </div>
+</div>
 
 <h2 id="ocf-at-rc25" class="ui dividing header">OCF 在 RightsCon</h2>
 <h3 class="ui dividing header">【工作坊、講座】OONI-Research 網路干預開放觀察計畫</h4>
@@ -604,3 +614,11 @@ show_child_projects: yes
 
 <p style="color:#b2babb;">作為 RightsCon 2025 在地夥伴，OCF 希望臺灣相關團體能夠共同與會，極力爭取優惠票券釋出，優惠幅度由 25%~75% off 不等，可以透過此表單申請；由於票券數量有限、得來不易，OCF 將依申請者之類型、關懷領域，以及後續產出面向等評估後進行分配。預計將於 1/23 起進行審核，先到先審，並於二月初陸續通知申請結果。</p>
 <p align="right" style="color:#d5d8dc;"><a href="#join">回到上方</a></p>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Semantic UI JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script>
+  $('.ui.page').page();
+</script>
+
