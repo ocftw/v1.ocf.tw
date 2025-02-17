@@ -36,11 +36,20 @@ links:
     url: https://ocf.tw/p/rightscon2025/#ocf-at-rc25
     color: purple
     icon: world icon
+  - title: 公民團體聯合聲明
+    url: https://ocf.tw/p/rightscon2025/joint-statement
+    color: purple
+    icon: microphone icon
+
 links_en:
   - title: Find OCF at RightsCon
     url: https://ocf.tw/en/p/rightscon2025/#ocf-at-rc25
     color: purple
     icon: world icon
+  - title: Joint Statement from TW CSOs
+    url: https://ocf.tw/en/p/rightscon2025/joint-statement
+    color: purple
+    icon: microphone icon
     
 actions: 
   - title: 【活動】周邊活動大全
