@@ -370,41 +370,27 @@ items:
   - type: content
     columns:
       - type: article
-        title:
-        description: 各位支持者的陪伴、開源社群的合作與照顧，是讓 OCF 克服推動開放文化之路上各種挑戰的動力。2023 年，OCF 努力連結開放世界的各個角落——科技社群與公民團體、政府與公民社會、國內與國際社群——因為我們相信，比起一個組織孤軍奮戰，一群人攜手前行能走得更久、看得更遠。開放、協作、共享，讓我們能建立更永續與具備韌性的數位社會。
-      - type: article
         logo_height: 7rem
         logos:
           - org_id: archilife
+      - type: article
+        logo_height: 7rem
+        logos:
           - org_id: gss        
   - type: content
     columns:
       - type: article
-        title: 
+        title: 感謝熱血幫忙的開源小夥伴們！
         swap: true
-        description: 董事群：Bobchao、Clkao、Honki、KC、Pofeng<br>顧問：Consultants：Dongpo Deng, irvinfly, Isabel Hou, Kaia, Lucien, Miaoski<br>員工：Amos、Anima、BQ、Claire、Jin、Joshua、Rock、Singing、Toomore、Weichen、Wenny、William、Yanyiyi、小ㄐ、阿欣、葉子、盈萱、愛馬<br>校友：Huangfu、Lulu<br>實習夥伴：麗雅、子杰、宥岑、軒睿、Verena、Howard、楷祐、承昊、冠翰、柏竣、峻誠、懋軒、Dennis、宜萍、沁柔<br>以及所有熱情志工們！
+        description: 
       - type: image
-        url: /p/admin/2023/group2023.png
+        url: /p/admin/2024/report2024-vol.png
 
   - type: content
     columns:
       - type: article
-        title: OCF 十年：開源祭
+        title: OCF 十年活動 - 開源祭順利結束，後面還有更精彩的...
         swap: false
-        description: 為慶祝開放文化基金會成立十週年，我們將於 2024 年 9 月 14 日舉辦「開源祭」。我們誠摯地邀請所有支持者以及社群夥伴們，一同回顧過臺灣開源社群的發展歷程、展望開源技術的多元應用與發展。<br><br>來年還請各位繼續支持，與 OCF 度過第一個十年！<br><br>＊開源祭：開放文化基金會十週年特別活動<br>＊活動日期｜2024/9/14<br>＊活動地點｜Pipe Live Music + 公館水岸廣場<br>＊活動資訊｜<a href="https://10years.ocf.tw/">10years.ocf.tw</a>
+        description: OCF 十年活動 - 開源祭順利結束，承蒙各界大力支持、志工們的協助，我們透過社群展覽、科技對談、音像演出的方式，將開放科技與文化在不同領域的活力綻放出來。接下來，我們還會準備更多值得期待的活動，歡迎您與我們一起走向下一個十年！<br><a href="https://10years.ocf.tw/ target=_blank>10 週年網站</a>
       - type: image
-        url: /p/admin/2023/429edm-small.jpg
-
-  - type: content
-    columns:
-      - type: article
-        title: 追蹤 OCF，活動不會錯過！
-        items:
-          - title: <a href="https://lihi.cc/NKpPE" target=_blank><i class="facebook icon"></i>Facebook</a>
-          - title: <a href="https://twitter.com/ocftaiwan" target=_blank><i class="twitter icon"></i>X (Twitter)</a>
-      
-      - type: article
-        title: 訂閱 EDM，開源資訊不漏接
-        items:
-          - title: <a href="https://ocf.tw/news/" target=_blank><i class="paper plane icon"></i>OCF 電子報</a>
-        swap: false
+        url: /p/admin/2024/report2024-10years.png
