@@ -380,17 +380,8 @@ items:
   - type: content
     columns:
       - type: article
-        title: 感謝熱血幫忙的開源小夥伴們！
+        title: OCF 十年活動 - 開源祭順利結束...
         swap: true
-        description: 
+        description: "開源祭順利結束，感謝各界大力支持，以及志工們的協助，我們透過社群展覽、科技對談、音像演出的方式，將開放科技與文化在不同領域的活力綻放出來。接下來，我們還會準備更多值得期待的活動，歡迎您與我們一起走向下一個十年！"
       - type: image
         url: /p/admin/2024/report2024-vol.png
-
-  - type: content
-    columns:
-      - type: article
-        title: OCF 十年活動 - 開源祭順利結束，後面還有更精彩的...
-        swap: false
-        description: OCF 十年活動 - 開源祭順利結束，承蒙各界大力支持、志工們的協助，我們透過社群展覽、科技對談、音像演出的方式，將開放科技與文化在不同領域的活力綻放出來。接下來，我們還會準備更多值得期待的活動，歡迎您與我們一起走向下一個十年！<br><a href="https://10years.ocf.tw/ target=_blank>10 週年網站</a>
-      - type: image
-        url: /p/admin/2024/report2024-10years.png
