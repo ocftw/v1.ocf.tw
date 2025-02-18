@@ -136,15 +136,19 @@ items:
   - type: header
     title: 
     icon:
-    description: "2024 年，我們努力將開放文化擴散出開放原始碼的圈子。我們相信，唯有建立一個開放、透明與涵容的數位環境，才能滋養出蓬勃的開源生態系。
+    description: 
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: "2024 年，我們努力將開放文化擴散出開放原始碼的圈子。我們相信，唯有建立一個開放、透明與涵容的數位環境，才能滋養出蓬勃的開源生態系。
 <br>為了達到這個長遠目標，我們在五大核心領域採取不同行動策略。配合該領域在臺灣發展的成熟程度，選擇最適切的切入點與推動途徑。
-
 <br>在有一定推廣程度的開放原始碼、開放政府與開放資料領域，我們將三個主題整合為「開放科技」以建立跨領域的對話，讓開放協作的文化能更好地融入公私部門。
-
-<br>至於數位人權議題，在臺灣的發展階段尚屬早期，大眾普遍對這個議題認識較少。因此，我們首先盤點臺灣公民團體遭遇的數位威脅與防禦方法，瞭解問題在哪邊，才能對症下藥。
-
+" 
+      - type: article
+        description: "<br>至於數位人權議題，在臺灣的發展階段尚屬早期，大眾普遍對這個議題認識較少。因此，我們首先盤點臺灣公民團體遭遇的數位威脅與防禦方法，瞭解問題在哪邊，才能對症下藥。
 <br>在網路自由的方面，除了 OCF 持續舉辦 5 年的網路自由小聚，我們在 2024 主動踏出一大步，探索將 OCF 倡議多年的開放、保障數位人權等概念結合到網路治理標準的可能性。
-
 "
 
   #開放原始碼
@@ -197,7 +201,6 @@ items:
 
 
 
-
   #開放政府與國會
   - type: image_header
     cover: /p/admin/2024/2024report-opengov.png
@@ -205,44 +208,74 @@ items:
   - type: content
     columns:
       - type: article
-        swap: true
+        swap: false
         title: 
-        description: 開源文化裡的開放協作，與開放政府訴求的透明、參與、課責及涵融等要素相互呼應，也符合 OCF 以開放科技推動公私協力、建立公民參與公共議題討論管道的目標。<br><br>從臺灣在 2020 年按照開放政府夥伴關係聯盟（Open Government Partnership, OGP）撰寫開放政府與開放國會兩套行動方案以來，OCF 便持續關注相關進展，不僅派員出任行政院「開放政府國家行動方案」民間委員，也為國家發展委員會提供出訪 OGP 峰會的相關建議。此外，OCF 也以組織名義出任「開放國會國家行動方案」的民間召集委員，促進立法院與民間對話及合作。
-      - type: image
-        url: /p/admin/2023/ogp11.png
+        description: "公共程式 （Public Money, Public Code）意指政府所使用、開發的軟體應優先採用開源解決方案。這可以確保政府在數位轉型過程中的公開透明，也允許公眾參與協作、共享成果。落實公共程式，已是台灣開放政府國家行動方案的承諾事項之一。OCF 舉辦培力課程，向公務機關傳遞開放原始碼與公共程式的核心精神。透過國內外專家訪談，我們瞭解推動公共程式的挑戰與國際經驗，為臺灣的公共程式策略發展奠定基礎。
+"
+      - type: article
+        title: 舉辦培力課程，將開源協作文化引入公部門
+        description: "我們與數位發展部（簡稱數位部）合作，在全臺各地舉辦十場公共程式培力試辦課程。我們總計編寫 8 份教案、講師手冊、簡報及課後測驗，從最基礎的開放原始碼定義，到理念層面的公共程式的效益、落地層面的國際管理標準，全都包含在內。透過現場教學與系統化的學習資源規劃，OCF 向公務機關傳遞透明、協作的開放原始碼核心精神。
+<br>此外，我們也為法務部廉政署廉政研習中心舉辦工作坊，帶公務員了解如何使用協作工具做到公私協力。
+"
+        items:
+          - title: <a href="https://ocf.tw/p/pmpc/" target=_blank>公共程式培力試辦課程</a> 
 
   - type: content
     columns:
       - type: article
         swap: true
-        title:
-        description: 在國會方面，自 2021 年在各黨團支持下通過「開放國會國家行動方案」後，OCF 欣見立法院文官逐漸養成公開文件、開放與民間協作的習慣，為開放國會奠定良好的基礎。該如何踏出開放國會的下一步？OCF 與其他民間委員成功爭取到在 OGP 峰會舉辦周邊活動的機會，藉國際交流的機會，探討提升立委實際參與率，並藉國際關注爭取我國政府、立法院與民間對開放文化的重視。
+        title: 借鑑國際，瞭解推動公共程式的現況與挑戰
+        description: "為了借鑑他山之石，發展我國的公共程式策略，我們訪談 5 位國外開放原始碼領域專案負責人，瞭解國際推動開放原始碼的現況，並與之分享臺灣發展公共程式的經驗。
+<br>同時，OCF 也深入訪談 5 位國內政策執行者與推廣者，探討我國公共程式推行過程中面臨的挑戰，以訂立便於後續執行的建議。這些訪談讓我們認識國外推動公共程式的路徑，對國內的推動也有了更清晰的想像。
+"
       - type: image
-        url: /p/admin/2023/opengov.jpg
+        url: /p/admin/2024/2024report-pmpc1.png
+
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 協作公共程式指引草案
+        description: "OCF 將開源倡議的經驗轉化成政策推動的能量，與勤業眾信聯合會計師事務所和中華民國軟體自由協會攜手合作，共同為數位發展部研擬公共程式指引草案，確保政策內容有切實反映開源社群的需求和國際最佳實踐，讓台灣的政府數位轉型既開放也開源！
+"
+      - type: image
+        url: /p/admin/2024/2024report-pmpc2.png
+
 
   #開放資料
   - type: image_header
-    cover: /p/admin/2023/b-od.png
+    cover: /p/admin/2024/2024report-opendata.png
     cover_image_alt: 開放資料
 
   - type: content
     columns:
       - type: article
         swap: false
-        title: 
-        description: 深信開放價值的 OCF，也在推廣開放政府資料方面不遺餘力。除了倡議建置周全的開放資料政策以利跨機關與民間使用，OCF 也呼籲政府應加強隱私保護與救濟措施，才能安全並合理地開放資料，真正發揮造福公民的效益。
-      - type: image
-        url: /p/admin/2023/opdata.png
+        title: 從政策建議著手，建立健全的開放資料環境
+        description: "OCF 透過開放科技小聚與政策參與，深化公私協力，推動高品質的開放資料標準，倡議建立保護隱私與人權的法制基礎。
+"
+        items:
+          - title: <a href="https://ocf.tw/p/opentech/" target=_blank>開放科技與倡議</a> 
+      - type: article
+        swap: 
+        title: 倡議成功！OCF 5 項提案被納入開放政府承諾事項
+        description: "OCF 在「開放政府國家行動方案承諾事項」遞交 5 項提案，呼籲政府務實規劃開放資料升級之路。提案內容包括盤點現有量能、建立跨部會對於開放資料的發展共識。我們也呼籲政府開放民間參與討論的管道，據以發揮資料的價值效益，並建立兼顧人民隱私與權益的開放資料政策。
+<br>政府已接受這 5 項提案，OCF 將持續與開源社群協力，參與數位部及相關政府機關的討論，公私協力以建立高品質的臺灣開放資料基礎。
+"
 
   - type: content
     columns:
       - type: article
         swap: false
-        title:
-        description: 為實現這一目標，OCF 擔任國軍退除役官兵輔導委員會、國防部、衛生福利部的開放資料諮詢委員，並主動參與立法院的開放資料諮詢會議，以民間團體與開放資料專家的角度提供各政府機關改善建議。OCF 也在「數據公益運作指引草案」協作會議及立法院衛福委員會的「數位醫療發展條例草案」公聽會，表達捍衛民眾的個資自主權與隱私保護的立場。<br><br>OCF 持續將開源社群的聲音帶入政府機關的諮詢會議，期望在推動開放資料的同時，能透過向政府倡議，對我國的資料治理政策發揮影響力，以守護人民取得資料、個資自主與隱私保護等基本權利。
-      - type: image
-        url: /p/admin/2023/med.png
-
+        title: 舉辦開放科技小聚，促進民間交流開放資料的想像
+        description: "我們在 2024 年舉辦 2 場開放科技小聚。在第一場小聚，參與者一同回顧臺灣自 2012 年推動開放資料的歷程、交流對於向政府倡議開放資料的期待，也討論國際的開放資料標準（例如 FAIR 與 OURdata）；在第二場小聚，OCF 邀請參與者集思廣益，共思如何讓政府與民間協力，齊心採建立臺灣未來十年的開放資料標準。
+"
+      - type: article
+        swap: 
+        title: 推動法制基礎：參與資料創新與開放政策制定
+        description: "OCF 持續擔任衛生福利部、文化部及退輔會的開放資料委員，並受邀參與數位部舉辦的「資料創新促進條例意見徵集會議」。
+<br>我們致力於向政府傳達立法需重視既有的個資法與著作權法的立場，為保障人民權益的開放資料應用，奠定穩定基礎。我們樂見臺灣在此基礎上實現資料的開放共享，帶來多元的創新應用。
+"
   #數位人權
 
   - type: image_header
@@ -288,30 +321,6 @@ items:
       - type: image
         url: /p/admin/2023/oonirep.png
 #財務
-  - type: image_header
-    cover: /p/admin/2023/b-fr.png
-    cover_image_alt: 財務
-
-  - type: image_header
-    anchor: 
-    cover: /p/admin/2023/fin-0.png
-    cover_image_alt: 
-    background_color:
-    button:
-
-  - type: content
-    single_column: true
-    alignment: center
-    columns:
-      - type: image
-        url: /p/admin/2023/fin-1.png
-
-  - type: content
-    single_column: true
-    alignment: center
-    columns:
-      - type: image
-        url: /p/admin/2023/fin-2.png
 
 #感謝
   - type: image_header
