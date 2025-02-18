@@ -285,6 +285,7 @@ items:
         description: "OCF 結合研究、推廣與國際串聯，建立出一套「公民團體數位防禦行動方案」，為倡議工作者提供具體的支持系統。
 "
         items:
+          - title: <a href="https://ocf.tw/p/dra/" target=_blank>數位人權與倡議</a>
           - title: <a href="https://ocf.tw/p/csodefense/" target=_blank>公民社會數位防禦計畫</a>
       - type: article
         title: 深入研究數位威脅現狀
@@ -324,7 +325,7 @@ items:
         description: "自 2019 年啟動的網路自由小聚，不僅延續至今，OCF 還擴大規模，連結國際經驗與建立跨領域對話，帶動各界人士關注網路自由在我國的發展。
 "
         items:
-          - title: <a href="https://ocf.tw/p/infr/" target=_blank>網路自由</a>
+          - title: <a href="https://ocf.tw/p/infr/" target=_blank>網路自由專案頁</a>
           - title: <a href="https://groups.google.com/g/coffee-circumvention-tw" target=_blank>網路自由小聚線上討論區</a>
           - title: <a href="https://www.youtube.com/watch?v=04fsSK3q7Oo" target=_blank>網路自由小劇場 PodCast</a>
           - title: <a href="https://www.youtube.com/watch?v=ek2XjW7Q3wI&list=PLFuYOsppHDrlYquISvSfOjrT5g_mjMGot" target=_blank>網路自由小聚 2024 回顧短影音</a>
