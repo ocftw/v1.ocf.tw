@@ -71,6 +71,7 @@ items:
         swap: false
         title: 監督倡議：
         description: "OCF 向行政院開放政府承諾事項提出 5 項具體提案，希望落實開放資料。提案並不是倡議的終點。為了追蹤政府的實踐程度，我們舉辦開放科技社群小聚，邀請開源社群及相關倡議者持續關注。<br>透過參與政府機關的諮詢會議、立法意見徵集會議，我們呼籲政府，資料的創新應用，應建立在對人民個資的周延保護基礎之上。"
+      - type: image  
         url: /p/admin/2024/2024report-mon.png
   #國際串連
   - type: content
@@ -113,13 +114,6 @@ items:
   - type: image_header
     cover: /p/admin/2024/2024report-big-title2.png
     cover_image_alt: 大事記
-
-  - type: header
-    title: 
-    icon:
-    description: "從在地行動到跨國交流，OCF 在 2024 年積極建立跨領域協作的空間，擴大開放生態系的影響力。這一年，我們不僅參與了全球性的開源與數位人權會議，展現臺灣社群與民間團體的活力，也在國內舉辦了超過十場培力課程，協助公部門建立開放協作的基礎。同時，我們透過十週年開源祭的跨界活動，讓開放精神在不同領域發揚光大。<br>
-以下，我們精選 12 件年度大事，從實務推廣到國際串聯，邀請您一起回顧 OCF 在 2024 年的努力與成就！"
-
   - type: image_header
     cover: /p/admin/2024/2024report-big1.png
     cover_image_alt: 大事記
