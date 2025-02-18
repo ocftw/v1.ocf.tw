@@ -301,7 +301,9 @@ items:
         title: 開發工具與實務支持
         description: "透過研究，我們發現多數 NGO 受限於資源與資安專業度不足，僅能以拼裝策略應對數位威脅。為了從根本解決這個問題，OCF 編撰符合 NGO 需求的「數位防禦手冊」，並開設「網路架構與數位安全技術工作坊」培力更多科技人瞭解臺灣 NGO 遭受的資安攻擊以及安全的網路架構重要性。
 <br>我們期望透過引導教材、培育提供 NGO 資安協助的專業人才，打造整合性的數位防禦方案，藉此賦予 NGO 提升數位安全的能力。
-"      
+"
+        items:
+          - title: <a href="https://digitalsecurityhandbook.ocf.tw/" target=_blank>數位防禦手冊</a>      
       - type: article
         swap: true
         title: 推動知識分享與國際對話
