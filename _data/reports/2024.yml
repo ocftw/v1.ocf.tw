@@ -133,10 +133,6 @@ items:
     cover: /p/admin/2024/2024report-5areas.png
     cover_image_alt: 五大領域
 
-  - type: header
-    title: 
-    icon:
-    description: 
   - type: content
     columns:
       - type: article
