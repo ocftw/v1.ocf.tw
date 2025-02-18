@@ -376,7 +376,7 @@ items:
       - type: article
         logo_height: 7rem
         logos:
-          - org_id: rc        
+          - org_id:        
   - type: content
     columns:
       - type: article
