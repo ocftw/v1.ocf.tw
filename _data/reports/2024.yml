@@ -275,60 +275,81 @@ items:
   #數位人權
 
   - type: image_header
-    cover: /p/admin/2023/b-dr.png
+    cover: /p/admin/2024/2024report-dr.png
     cover_image_alt: 數位人權
   - type: content
     columns:
       - type: article
-        swap: true
-        title: 
-        description: OCF 聚焦於提升企業數位人權責任、強化公民社會的數位防禦能力，以及推動國際間的數位人權合作。<br><br>為促使企業改善政策透明度，OCF 率先導入國際標準，研究 20 間具代表性的臺灣業者在隱私保護、公司治理與言論自由方面的表現。該份報告囊括人力銀行、社群媒體、電商與電信公司等產業類別。我們積極在國內外推廣成果與介紹企業數位人權的概念。最終促使 4 家企業與 OCF 討論數位人權相關的公司政策，更有 2 家企業著手修改條款。
-      - type: image
-        url: /p/admin/2023/prii.png
-
+        swap: false
+        title: 從研究到行動，強化臺灣公民團體的數位防禦能力
+        description: "OCF 結合研究、推廣與國際串聯，建立出一套「公民團體數位防禦行動方案」，為倡議工作者提供具體的支持系統。
+"
+        items:
+          - title: <a href="https://ocf.tw/p/csodefense/" target=_blank>公民社會數位防禦計畫</a>
+      - type: article
+        title: 深入研究數位威脅現狀
+        description: "我們發表「臺灣人權與民主倡議團體數位威脅概況」研究報告，集結超過 35 家臺灣人權與民主倡議團體的經驗，揭露我國倡議工作者面臨的數位威脅概況。報告指出，大多數 NGO 採用拼裝策略應對威脅，現有資源分散且專業支持不足，亟需整合性的能力建構方案。
+"
+        items:
+          - title: <a href="https://ocf.tw/p/defendhrd/" target=_blank>在台人權工作者的數位安全樣態與培力</a>
+          - title: <a href="https://drive.google.com/file/d/1VV12Rp7IKkWexNTKQRuWIA4Zfd8ztN9X/view?usp=sharing" target=_blank>臺灣人權與民主倡議團體數位威脅概況中文摘要</a>
+          - title: <a href="https://drive.google.com/file/d/1sxAFmSiJL6DzdO3ezq_hJSBROuGXNLAA/view?usp=sharing" target=_blank>臺灣人權與民主倡議團體數位威脅概況英文全文</a>
   - type: content
     columns:
       - type: article
         swap: true
-        title:
-        description: 為協助公民社會抵禦數位攻擊，OCF 開發給公民團體的教材、數位轉型的課綱、舉辦 5 堂專為公民團體設計的培訓課程，並媒合科技社群瞭解公民團體的資安需求，以確保充足的技術支援。<br><br>此外，OCF 與近 70 個國際團體合作，累計舉辦超過 27 場演講/論壇，探討疫情期間的個資保護、數位威權主義的興起和網路自由等議題，致力於將臺灣在數位人權領域的經驗與成果分享給國際社群，增進國際合作與交流。
-      - type: image
-        url: /p/admin/2023/RDRtw_logo_All.png
+        title: 開發工具與實務支持
+        description: "透過研究，我們發現多數 NGO 受限於資源與資安專業度不足，僅能以拼裝策略應對數位威脅。為了從根本解決這個問題，OCF 編撰符合 NGO 需求的「數位防禦手冊」，並開設「網路架構與數位安全技術工作坊」培力更多科技人瞭解臺灣 NGO 遭受的資安攻擊以及安全的網路架構重要性。
+<br>我們期望透過引導教材、培育提供 NGO 資安協助的專業人才，打造整合性的數位防禦方案，藉此賦予 NGO 提升數位安全的能力。
+"      
+      - type: article
+        swap: true
+        title: 推動知識分享與國際對話
+        description: "OCF 參與 DRAPAC、APrIGF 和 RightsCon 等國際數位人權大會，發表臺灣數位人權現況與倡議經驗，促進東亞與全球的跨國對話，將臺灣的數位人權倡議推向新高度。
+"   
+#      - type: image
+#        url: /p/admin/2024/2024report-drp1.png
 
   #網路自由
   - type: image_header
-    cover: /p/admin/2023/b-if.png
+    cover: /p/admin/2024/2024report-ifd.png
     cover_image_alt: 網路自由
   - type: content
     columns:
       - type: article
         swap: false
-        title: 
-        description: 以提高公眾對數位隱私的意識，並推動政府和企業關注網路自由相關議題為目標，OCF 延續自 2019  年 9 月起每月舉辦網路自由小聚的習慣，建立一個讓關注監控與隱私、不實資訊擴散、網路平台的資料管理責任等議題的同好者，可以自在討論的空間。2024 年更透過將共筆記錄轉化為短影片的方式，將每次僅能容納 20-30 人討論的聚會擴散給更多人瞭解。
-      - type: image
-        url: /p/admin/2023/ifm.png
-
-  - type: content
+        title: 連結全球與在地的多元行動，推動兼顧人權與自由的治理新標準
+        description: "自 2019 年啟動的網路自由小聚，不僅延續至今，OCF 還擴大規模，連結國際經驗與建立跨領域對話，帶動各界人士關注網路自由在我國的發展。
+"
+        items:
+          - title: <a href="https://ocf.tw/p/infr/" target=_blank>網路自由</a>
+          - title: <a href="https://groups.google.com/g/coffee-circumvention-tw" target=_blank>網路自由小聚線上討論區</a>
+          - title: <a href="https://www.youtube.com/watch?v=04fsSK3q7Oo" target=_blank>網路自由小劇場 PodCast</a>
+          - title: <a href="https://www.youtube.com/watch?v=ek2XjW7Q3wI&list=PLFuYOsppHDrlYquISvSfOjrT5g_mjMGot" target=_blank>網路自由小聚 2024 回顧短影音</a>
+      - type: article
+        title: 每月舉辦網路自由小聚，針對科技、自由與人權展開對話
+        description: "我們在 2024 年舉辦 12 場網路自由小聚，共 360 人次參與。參與者來自倡議團體、技術專家與熱心公民，一同探討探封網對人權的影響、AI 技術的法治管理挑戰、數位皮夾新政策的走向等議題，主題非常多元。
+<br>在快速變化的科技世界中，我們持續思辨科技創新應用與人權的平衡點。這些寶貴的討論紀錄透過共筆與短影音保存。
+"
     columns:
       - type: article
         swap: false
-        title:
-        description: 藉由在臺灣網路治理論壇擔任 3 場次的與談人，OCF 與開源社群將個資保護、數位安全等議題帶給專家學者、政府機關與企業代表。此外，身為 OONI（Open Observatory of Network Interference）的社群夥伴，OCF 主動分享臺灣觀測資料的階段成果，發覺資料範圍不廣，因而難以反映臺灣的網路樣態。未來 OCF 將與 Taiwan Network Operators' Group 社群合作，協助完善臺灣的 OONI 安裝與觀測結果。
-      - type: image
-        url: /p/admin/2023/oonirep.png
+        title: 取經國際，探索臺灣網路治理新藍圖
+        description: "2024 年，OCF 首次參與上層網路治理組織的會議，觀察學者、科技公司、政府部門與數位人權團體之間的利益角力與合作機制，我們致力於探索如何讓科技與人權連結得更緊密，既不壓縮便利，也不犧牲自由。
+<br>各方利害關係人的思辨，成為我們制定臺灣網路治理相關政策的倡議基礎。下一步，我們將推動成立我國的「網路治理民間同盟」，期望將民間的聲音帶入網路治理標準的討論之中。
+"
+      - type: article
+        title: 推廣 OONI，回報觀測數據以守護網路自由
+        description: "作為 OONI（Open Observatory of Network Interference）的社群夥伴，OCF 持續協助在臺灣推廣與安裝 OONI 觀察軟體，讓更多人認識及瞭解網路審查對於數位人權的侵害，並透過觀測、回報 OONI 數據來對抗網路審查、守護網路自由。
+"
+        items:
+          - title: <a href="https://ocf.tw/p/infr/" target=_blank>網路自由</a>
 #財務
 
 #感謝
   - type: image_header
-    cover: /p/admin/2023/b-tks1.png
+    cover: /p/admin/2024/2024report-end.png
     cover_image_alt: 感謝
-
-  - type: image_header
-    anchor: 
-    cover: /p/admin/2023/b-tks.png
-    cover_image_alt: 
-    background_color:
-    button:
 
   - type: content
     columns:
