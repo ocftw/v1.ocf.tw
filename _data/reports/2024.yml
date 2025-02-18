@@ -50,6 +50,7 @@ items:
         description: "開源生態系的蓬勃發展，有賴更多元的人才加入貢獻者的行列。OCF 在 2024 年共培養 15 位實習生，與開源社群或 OCF 合作，體驗社群與 NGO 的工作樣態；我們也育成 2 位熟悉開放原始碼文化、科技與數位公民等議題的翻譯者，將國際重磅消息翻譯成中文。<br>此外，OCF 獎助 2 名青年參與 FOSDEM 國際會議，將所學帶回臺灣。讓開源的影響力在臺灣校園萌芽。"
         items:
           - title: <a href="https://ocf.tw/p/intldonate/" target=_blank>國際會議獎助計畫</a>
+          - title: <a href="https://ocf.tw/p/global/fosdem-taiwan-community/" target=_blank>帶著臺灣開源社群前往 FOSDEM</a>
       - type: image
         url: /p/admin/2024/2024report-intern.png
   #知識分享
@@ -80,6 +81,10 @@ items:
         swap: true
         title: 國際串聯：
         description: "OCF 在 2024 大幅探索將開源文化與數位人權、網路治理的對話空間。我們在 亞太數位人權大會 DRAPC（Digital Rights Asia-Pacific Assembly）、亞太區域網路治理論壇（APrIGF） 和 Global Gathering 等國際會議上分享我們以開源方案來抵禦數位威脅、資訊壟斷的倡議策略。<br>我們搭建開源科技社群、人權組織、企業、政府等多方利害關係人的對話平台，探索更涵融多元、尊重人權的網路治理的可能性。"
+        items:
+          - title: <a href="https://ocf.tw/p/global/" target=_blank>國際夥伴專頁</a>
+
+
       - type: image
         url: /p/admin/2024/2024report-global.png
   #開源推廣
@@ -180,6 +185,8 @@ items:
 <br>同時，OCF 延續以桌遊「開源星手村」推廣開源文化的積累，進一步將數位人權與開放資料融入教學課程，發展出更完整的開放科技培力課程。
 <br>此外，OCF 也挹注不少資源栽培開源人才。我們獎助數名青年參與 FOSDEM 國際會議、培力多位開源與數位人權領域的專業翻譯者，並與開源社群合作育成 15 位實習生，為開源生態系注入活力新血。
 "
+        items:
+          - title: <a href="https://ocf.tw/p/global/fosdem-taiwan-community/" target=_blank>帶著臺灣開源社群前往 FOSDEM</a>
       - type: image
         url: /p/admin/2024/2024report-fosdem.png
 
@@ -190,6 +197,8 @@ items:
         title: 協助國際開源專案落地臺灣
         description: "延續去年翻譯國際開源專案的成果，OCF 在 2024 年持續推動多項國際專案的在地化，為臺灣的使用者改善使用體驗。消除語言隔閡，可望讓更多臺灣人接觸這些開源專案，不必重造輪子，加速我國的技術發展。
 <br>此外，我們更進一步將正體中文的翻譯成果回流到專案上游，讓臺灣的貢獻可以被全世界看到。我們完成回流的有 Standard for Public Code、Bitwarden、Nextcloud、FreeOTP、GIMP 與 Mattermost 等專案。此舉不僅提升本地化技術的國際可見度，也進一步鞏固臺灣作為國際開源社群重要參與者的地位。"
+        items:
+          - title: <a href="https://ocf.tw/p/oss_localization/" target=_blank>自由與開源軟體中文化計畫</a>
       - type: image
         url: /p/admin/2024/2024report-intmet.png
 
@@ -214,7 +223,7 @@ items:
 <br>此外，我們也為法務部廉政署廉政研習中心舉辦工作坊，帶公務員了解如何使用協作工具做到公私協力。
 "
         items:
-          - title: <a href="https://ocf.tw/p/pmpc/" target=_blank>公共程式培力試辦課程</a> 
+          - title: <a href="https://ocf.tw/p/pmpc/" target=_blank>公共出資，公共程式 - 專案頁面</a> 
 
   - type: content
     columns:
@@ -304,7 +313,10 @@ items:
 <br>我們期望透過引導教材、培育提供 NGO 資安協助的專業人才，打造整合性的數位防禦方案，藉此賦予 NGO 提升數位安全的能力。
 "
         items:
-          - title: <a href="https://digitalsecurityhandbook.ocf.tw/" target=_blank>數位防禦手冊</a>      
+          - title: <a href="https://digitalsecurityhandbook.ocf.tw/" target=_blank>數位防禦手冊</a> 
+          - title: <a href="https://drive.google.com/file/d/1usqoexY5SfFVsLc8XAJGeDlgrOerNiI3/view?usp=sharing">強化隱私：東亞數位人權及所處環境之下，公民社會的行動策略-中文版</a>
+          - title: <a href="https://drive.google.com/file/d/17DgeI_xVRdvt4_sAGetSRAv7tSVAGg-3/view?usp=sharing">強化隱私：東亞數位人權及所處環境之下，公民社會的行動策略-英文版</a>
+
       - type: article
         swap: true
         title: 推動知識分享與國際對話
@@ -346,7 +358,7 @@ items:
         description: "作為 OONI（Open Observatory of Network Interference）的社群夥伴，OCF 持續協助在臺灣推廣與安裝 OONI 觀察軟體，讓更多人認識及瞭解網路審查對於數位人權的侵害，並透過觀測、回報 OONI 數據來對抗網路審查、守護網路自由。
 "
         items:
-          - title: <a href="https://ocf.tw/p/infr/" target=_blank>網路自由</a>
+          - title: <a href="https://ocf.tw/p/ooni/" target=_blank>OONI 網路干預開放觀察計劃</a>
 #財務
 
 #感謝
