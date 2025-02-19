@@ -26,9 +26,6 @@ items:
   - type: image_header
     cover: /p/admin/2024/2024report-nums.png
   #六大行動
-  - type: header
-    cover: /p/admin/2024/2024report-six.png
-    # 簡報區塊的類型， header 為標題式區塊，不分欄
   - type: image_header
     cover: /p/admin/2024/2024report-six.png
     cover_image_alt: 六大行動策略
@@ -99,20 +96,6 @@ items:
         description: "OCF 與大學合作開發 2 套推廣開源文化的課程模組、錄製線上課程，並且將這些資源開放釋出，建立系統化的學習資源，讓開源之力得以無遠弗屆的傳播。<br>針對關注開源文化的夥伴們，OCF 發送電子報、知識文章、與翻譯實習生推出系列編譯文章。主題從今年最夯的 AI 與開源的發展，到數位人權的跨國觀察，為社群更新國際最新發展資訊。"
       - type: image
         url: /p/admin/2024/2024report-promo.png
-  
-#組織架構圖
-
-  - type: image_header
-    cover: /p/admin/2024/2024report-orgtitle.png
-    cover_image_alt: 組織架構圖
-
-  - type: image_header
-    cover: /p/admin/2024/2024report-org1.png
-    cover_image_alt: 組織架構圖
-
-  - type: image_header
-    cover: /p/admin/2024/2024report-org2.png
-    cover_image_alt: 組織架構圖
 
 #大事記
 
@@ -363,6 +346,22 @@ items:
 "
         items:
           - title: <a href="https://ocf.tw/p/ooni/" target=_blank>OONI 網路干預開放觀察計劃</a>
+
+  
+#組織架構圖
+
+  - type: image_header
+    cover: /p/admin/2024/2024report-orgtitle.png
+    cover_image_alt: 組織架構圖
+
+  - type: image_header
+    cover: /p/admin/2024/2024report-org1.png
+    cover_image_alt: 組織架構圖
+
+  - type: image_header
+    cover: /p/admin/2024/2024report-org2.png
+    cover_image_alt: 組織架構圖
+
 #財務
 
 #感謝
