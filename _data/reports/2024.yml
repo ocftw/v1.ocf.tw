@@ -26,8 +26,8 @@ items:
   - type: image_header
     cover: /p/admin/2024/2024report-nums.png
   #六大行動
-- type: header
-  cover: /p/admin/2024/2024report-six.png
+  - type: header
+    cover: /p/admin/2024/2024report-six.png
     # 簡報區塊的類型， header 為標題式區塊，不分欄
   - type: image_header
     cover: /p/admin/2024/2024report-six.png
