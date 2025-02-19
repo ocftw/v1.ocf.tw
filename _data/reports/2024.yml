@@ -32,7 +32,7 @@ items:
   - type: image_header
     cover: /p/admin/2024/2024report-3in1-1.png
     cover_image_alt: 六大行動策略其一
-  #社群支援 #人才培訓  #知識分享
+  #社群支援 #人才培訓 #知識分享
   - type: content
     columns:
       - type: article
@@ -56,43 +56,29 @@ items:
         <br>我們開發各式課程，主題橫跨開放原始碼的基礎介紹、以數位協作開通公民參與、開放資料、數位人權、強化隱私保護等議題。透過深入淺出的講解，或是搭配桌遊「開源星手村」，將開源文化帶進政府與校園。
         <br>此外，我們也推出具體的行動方案。透過實作教學與公開教材，提升全民面對數位威脅與風險時的韌性。
         "
-
-
-
-  #監督倡議
+  - type: image_header
+    cover: /p/admin/2024/2024report-3in1-2.png
+    cover_image_alt: 六大行動策略其二
+  #監督倡議  #國際串連   #開源推廣
   - type: content
     columns:
       - type: article
         swap: false
-        title: 監督倡議：
-        description: "OCF 向行政院開放政府承諾事項提出 5 項具體提案，希望落實開放資料。提案並不是倡議的終點。為了追蹤政府的實踐程度，我們舉辦開放科技社群小聚，邀請開源社群及相關倡議者持續關注。<br>透過參與政府機關的諮詢會議、立法意見徵集會議，我們呼籲政府，資料的創新應用，應建立在對人民個資的周延保護基礎之上。"
-      - type: image  
-        url: /p/admin/2024/2024report-mon.png
-  #國際串連
-  - type: content
-    columns:
-      - type: article
-        swap: true
-        title: 國際串聯：
-        description: "OCF 在 2024 大幅探索將開源文化與數位人權、網路治理的對話空間。我們在 「亞太數位人權大會（DRAPAC）」、亞太區域網路治理論壇（APrIGF） 和 Global Gathering 等國際會議上分享我們以開源方案來抵禦數位威脅、資訊壟斷的倡議策略。"
+        title: 
+        description: "<b>監督倡議：</b>
+        <br>OCF 向行政院開放政府承諾事項提出 5 項具體提案，希望落實開放資料。提案並不是倡議的終點。為了追蹤政府的實踐程度，我們舉辦開放科技社群小聚，邀請開源社群及相關倡議者持續關注。<br>透過參與政府機關的諮詢會議、立法意見徵集會議，我們呼籲政府，資料的創新應用，應建立在對人民個資的周延保護基礎之上。
+        <br><br>
+        <b>國際串聯：</b>
+        <br>OCF 在 2024 大幅探索將開源文化與數位人權、網路治理的對話空間。我們在 「亞太數位人權大會（DRAPAC）」、亞太區域網路治理論壇（APrIGF） 和 Global Gathering 等國際會議上分享我們以開源方案來抵禦數位威脅、資訊壟斷的倡議策略。
+        "
         items:
           - title: <a href="https://ocf.tw/p/global/" target=_blank>國際夥伴專頁</a>
-
-
-      - type: image
-        url: /p/admin/2024/2024report-global.png
-  #開源推廣
-  - type: content
-    columns:
       - type: article
-        swap: false
-        title: 開源推廣：
-        description: "OCF 與大學合作開發 2 套推廣開源文化的課程模組、錄製線上課程，並且將這些資源開放釋出，建立系統化的學習資源，讓開源之力得以無遠弗屆的傳播。<br>針對關注開源文化的夥伴們，OCF 發送電子報、知識文章、與翻譯實習生推出系列編譯文章。主題從今年最夯的 AI 與開源的發展，到數位人權的跨國觀察，為社群更新國際最新發展資訊。"
+        title: 
+        description: "<b>開源推廣：</b>
+        <br>OCF 與大學合作開發 2 套推廣開源文化的課程模組、錄製線上課程，並且將這些資源開放釋出，建立系統化的學習資源，讓開源之力得以無遠弗屆的傳播。<br>針對關注開源文化的夥伴們，OCF 發送電子報、知識文章、與翻譯實習生推出系列編譯文章。主題從今年最夯的 AI 與開源的發展，到數位人權的跨國觀察，為社群更新國際最新發展資訊。"
         items:
           - title: <a href="https://docs.google.com/document/d/1g-ZovwWkILKehA3uQyWL5pc-xTUKfpiKsldEir9zVnE/edit?tab=t.0#heading=h.loc81xkju4hg" _blank>開放科技課程</a>
-      - type: image
-        url: /p/admin/2024/2024report-promo.png
-
 
 #大事記
 
