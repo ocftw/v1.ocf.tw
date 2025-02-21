@@ -130,7 +130,7 @@ In 2024, we worked to extend open culture beyond the traditional open-source com
     columns:
       - type: article
         swap: false
-        title: Build A Solid Open Source Foundation in Taiwan
+        title: 
         description: "Through educational programs, talent development, and open-source project localization, OCF actively expanded the influence of open-source culture, strengthening the foundation of Taiwan's open-source ecosystem.
 
 " 
@@ -178,32 +178,40 @@ In 2024, we worked to extend open culture beyond the traditional open-source com
 
 
 
+
+
   #開放政府與國會
   - type: image_header
-    cover: /p/admin/2024/2024report-opengov.png
-    cover_image_alt: 開放政府與國會
+    cover: /p/admin/2024/2024enreport-opengov.png
+    cover_image_alt: Open Government
   - type: content
     columns:
       - type: article
         swap: false
         title: 
-        description: "公共程式 （Public Money, Public Code）意指政府所使用、開發的軟體應優先採用開源解決方案。這可以確保政府在數位轉型過程中的公開透明，也允許公眾參與協作、共享成果。落實公共程式，已是台灣開放政府國家行動方案的承諾事項之一。OCF 舉辦培力課程，向公務機關傳遞開放原始碼與公共程式的核心精神。透過國內外專家訪談，我們瞭解推動公共程式的挑戰與國際經驗，為臺灣的公共程式策略發展奠定基礎。
+        description: "Public Money, Public Code (PMPC) is a campaign that advocates for governments to prioritize open-source solutions in the software they develop and use. PMPC ensures transparency in digital transformation, enables civic engagement, and maximizes shared benefits. Implementing PMPC is already a commitment under Taiwan's Open Government National Action Plan.
+<br>To support this effort, OCF organized capacity-building workshops to introduce public agencies to open-source principles and Public Code. Additionally, through interviews with domestic and international experts, we gained insights into the practical experience and key challenges, laying the groundwork for Taiwan's PMPC strategy.
+
 "
       - type: article
-        title: 舉辦培力課程，將開源協作文化引入公部門
-        description: "我們與數位發展部（簡稱數位部）合作，在全臺各地舉辦十場公共程式培力試辦課程。我們總計編寫 8 份教案、講師手冊、簡報及課後測驗，從最基礎的開放原始碼定義，到理念層面的公共程式的效益、落地層面的國際管理標準，全都包含在內。透過現場教學與系統化的學習資源規劃，OCF 向公務機關傳遞透明、協作的開放原始碼核心精神。
-<br>此外，我們也為法務部廉政署廉政研習中心舉辦工作坊，帶公務員了解如何使用協作工具做到公私協力。
+        title: Host Capacity-Building Lectures for Public Sector Learn Open and Collaboration
+        description: "In partnership with the Ministry of Digital Affairs (MoDA), OCF conducted 10 pilot training sessions on PMPC across Taiwan. We developed eight instructional materials, including lesson plans, instructor guides, presentations, and assessments, covering everything from basic open-source definitions to the global standards for open-source management.
+<br>Through interactive teaching and structured learning resources, we helped public officials understand the core values of transparency and collaboration in open-source development.
+<br>Additionally, we conducted a workshop for the Agency Against Corruption's Training Center, equipping public servants with collaborative tools to enhance public-private cooperation.
+
 "
         items:
-          - title: <a href="https://ocf.tw/p/pmpc/" target=_blank>公共出資，公共程式 - 專案頁面</a> 
+          - title: <a href="https://ocf.tw/p/pmpc/" target=_blank>Public Money, Public Code</a> 
 
   - type: content
     columns:
       - type: article
         swap: true
-        title: 借鑑國際，瞭解推動公共程式的現況與挑戰
-        description: "為了借鑑他山之石，發展我國的公共程式策略，我們訪談 5 位國外開放原始碼領域專案負責人，瞭解國際推動開放原始碼的現況，並與之分享臺灣發展公共程式的經驗。
-<br>同時，OCF 也深入訪談 5 位國內政策執行者與推廣者，探討我國公共程式推行過程中面臨的挑戰，以訂立便於後續執行的建議。這些訪談讓我們認識國外推動公共程式的路徑，對國內的推動也有了更清晰的想像。
+        title: Understand the Landscape and Challenges of Public Code Worldwide
+        description: "To shape an effective Public Code strategy for Taiwan, OCF interviewed five international open-source project owners, gaining a deeper insight into the global push for open-source adoption in governments.
+<br>At the same time, we conducted five in-depth interviews with domestic policymakers and advocates, identifying key challenges in Taiwan's PMPC implementation and formulating actionable recommendations.
+<br>These interviews provided valuable perspectives on international Public Code adoption pathways, helping us refine Taiwan's approach.
+
 "
       - type: image
         url: /p/admin/2024/2024report-pmpc1.png
@@ -212,8 +220,9 @@ In 2024, we worked to extend open culture beyond the traditional open-source com
     columns:
       - type: article
         swap: false
-        title: 協作公共程式指引草案
-        description: "OCF 將開源倡議的經驗轉化成政策推動的能量，與勤業眾信聯合會計師事務所和中華民國軟體自由協會攜手合作，共同為數位發展部研擬公共程式指引草案，確保政策內容有切實反映開源社群的需求和國際最佳實踐，讓台灣的政府數位轉型既開放也開源！
+        title: Collaborate on a Public Code Guidelines Draft
+        description: "OCF transformed its open-source advocacy experience into policy action, working alongside Deloitte Taiwan and the Software Liberty Association Taiwan (SLAT) to draft PMPC guidelines for the MoDA. This draft ensures that Taiwan's government's digital transformation will be transparent and open-source, aligning policies with community needs and global best practices.
+
 "
       - type: image
         url: /p/admin/2024/2024report-pmpc2.png
@@ -221,139 +230,151 @@ In 2024, we worked to extend open culture beyond the traditional open-source com
 
   #開放資料
   - type: image_header
-    cover: /p/admin/2024/2024report-opendata.png
-    cover_image_alt: 開放資料
+    cover: /p/admin/2024/2024enreport-opendata.png
+    cover_image_alt: Open Data
 
   - type: content
     columns:
       - type: article
         swap: false
-        title: 從政策建議著手，建立健全的開放資料環境
-        description: "OCF 透過開放科技小聚與政策參與，深化公私協力，推動高品質的開放資料標準，倡議建立保護隱私與人權的法制基礎。
+        title: 
+        description: "OCF created a robust open data environment through policy advocacy and organizing Open Technology Meetups. We aim to establish high-quality open data standards and a legal foundation that protects human rights.
 "
         items:
           - title: <a href="https://ocf.tw/p/opentech/" target=_blank>開放科技與倡議</a> 
       - type: article
         swap: 
-        title: 倡議成功！OCF 5 項提案被納入開放政府承諾事項
-        description: "OCF 在「開放政府國家行動方案承諾事項」遞交 5 項提案，呼籲政府務實規劃開放資料升級之路。提案內容包括盤點現有量能、建立跨部會對於開放資料的發展共識。我們也呼籲政府開放民間參與討論的管道，據以發揮資料的價值效益，並建立兼顧人民隱私與權益的開放資料政策。
-<br>政府已接受這 5 項提案，OCF 將持續與開源社群協力，參與數位部及相關政府機關的討論，公私協力以建立高品質的臺灣開放資料基礎。
+        title: A Step Forward! Five OCF Proposals Adopted in Taiwan’s Open Government Commitments
+        description: "OCF submitted 5 proposals to the Open Government National Action Plan, urging the government to take a practical and strategic approach to upgrading open data policies. Our proposals emphasized the need for a cross-agency consensus on open data development and an assessment of current open data capabilities. We also encourage the government to discuss with the citizens how to maximize data value while safeguarding privacy and individual rights.
+<br>The government accepted all OCF proposals, marking a significant step toward a more substantial open data ecosystem. OCF will continue to collaborate with open-source communities and government agencies, ensuring that public-private partnerships drive Taiwan's open data initiatives forward.
+
 "
 
   - type: content
     columns:
       - type: article
         swap: false
-        title: 舉辦開放科技小聚，促進民間交流開放資料的想像
-        description: "我們在 2024 年舉辦 2 場開放科技小聚。在第一場小聚，參與者一同回顧臺灣自 2012 年推動開放資料的歷程、交流對於向政府倡議開放資料的期待，也討論國際的開放資料標準（例如 FAIR 與 OURdata）；在第二場小聚，OCF 邀請參與者集思廣益，共思如何讓政府與民間協力，齊心採建立臺灣未來十年的開放資料標準。
+        title: Host Open Technology Meetups to Envision the Future of Open Data
+        description: "In 2024, OCF organized two Open Technology Meetups to facilitate public dialogue on open data.
+<br>In the first meetups, the attendees reflected on Taiwan's open data journey since 2012. We discussed the expectations for open government data and learned about international open data standards such as FAIR and OURdata together.
+<br>In the second meetup, we focused on brainstorming long-term collaboration between the government and civil society to establish Taiwan's open data standards for the next decade.
+
 "
       - type: article
         swap: 
-        title: 推動法制基礎：參與資料創新與開放政策制定
-        description: "OCF 持續擔任衛生福利部、文化部及退輔會的開放資料委員，並受邀參與數位部舉辦的「資料創新促進條例意見徵集會議」。
-<br>我們致力於向政府傳達立法需重視既有的個資法與著作權法的立場，為保障人民權益的開放資料應用，奠定穩定基礎。我們樂見臺灣在此基礎上實現資料的開放共享，帶來多元的創新應用。
+        title: Contribute to Open Data and Innovation Policies
+        description: "OCF continued to advise the open data committee of the Ministry of Health and Welfare, Ministry of Culture, and Veterans Affairs Council. Additionally, OCF has participated in the MoDAs' consultation on the Data Innovation Promotion Act.
+<br>In legislation, we consistently advocated for strong legal protections for personal data and intellectual property. By ensuring a rights-based approach to open data applications, we aim to enable openness and privacy protection, fostering a diverse and innovative data ecosystem in Taiwan.
+
 "
   #數位人權
 
   - type: image_header
-    cover: /p/admin/2024/2024report-dr.png
+    cover: /p/admin/2024/2024enreport-dr.png
     cover_image_alt: 數位人權
   - type: content
     columns:
       - type: article
         swap: false
-        title: 從研究到行動，強化臺灣公民團體的數位防禦能力
-        description: "OCF 結合研究、推廣與國際串聯，建立出一套「公民團體數位防禦行動方案」，為倡議工作者提供具體的支持系統。
+        title: 
+        description: "From research to action, OCF developed a Digital Defense Framework for Civil Society, providing advocacy groups with concrete support systems through research, capacity-building, and global collaboration.
 "
         items:
-          - title: <a href="https://ocf.tw/p/dra/" target=_blank>數位人權與倡議</a>
-          - title: <a href="https://ocf.tw/p/csodefense/" target=_blank>公民社會數位防禦計畫</a>
+          - title: <a href="https://ocf.tw/en/p/dra/" target=_blank>Digital Rights and Advocacy</a>
+          - title: <a href="https://ocf.tw/p/csodefense/" target=_blank>Digital Defense Plans for CSOs</a>
       - type: article
-        title: 深入研究數位威脅現狀
-        description: "我們發表「臺灣人權與民主倡議團體數位威脅概況」研究報告，集結超過 35 家臺灣人權與民主倡議團體的經驗，揭露我國倡議工作者面臨的數位威脅概況。報告指出，大多數 NGO 採用拼裝策略應對威脅，現有資源分散且專業支持不足，亟需整合性的能力建構方案。
+        title: Research the Digital Threat Landscape
+        description: "OCF published the report ”Why Concerning Human Rights Defenders (HRD)' s Digital Security in Taiwan?,” compiling insights from 35+ Taiwanese human rights and democracy organizations. The report revealed that most advocacy groups rely on patchwork security measures due to limited resources and expertise, highlighting an urgent need for comprehensive capacity-building solutions.
+
 "
         items:
-          - title: <a href="https://ocf.tw/p/defendhrd/" target=_blank>在台人權工作者的數位安全樣態與培力</a>
-          - title: <a href="https://drive.google.com/file/d/1VV12Rp7IKkWexNTKQRuWIA4Zfd8ztN9X/view?usp=sharing" target=_blank>臺灣人權與民主倡議團體數位威脅概況中文摘要</a>
-          - title: <a href="https://drive.google.com/file/d/1sxAFmSiJL6DzdO3ezq_hJSBROuGXNLAA/view?usp=sharing" target=_blank>臺灣人權與民主倡議團體數位威脅概況英文全文</a>
+          - title: <a href="https://ocf.tw/en/p/defendhrd/" target=_blank>Defending and Documenting Digital Threats for HRDs in Taiwan</a>
+          - title: <a href="https://drive.google.com/file/d/1VV12Rp7IKkWexNTKQRuWIA4Zfd8ztN9X/view?usp=sharing" target=_blank>Digital Security Mapping for HRDs in Taiwan:Preliminary Result</a>
   - type: content
     columns:
       - type: article
         swap: true
-        title: 開發工具與實務支持
-        description: "透過研究，我們發現多數 NGO 受限於資源與資安專業度不足，僅能以拼裝策略應對數位威脅。為了從根本解決這個問題，OCF 編撰符合 NGO 需求的「數位防禦手冊」，並開設「網路架構與數位安全技術工作坊」培力更多科技人瞭解臺灣 NGO 遭受的資安攻擊以及安全的網路架構重要性。
-<br>我們期望透過引導教材、培育提供 NGO 資安協助的專業人才，打造整合性的數位防禦方案，藉此賦予 NGO 提升數位安全的能力。
+        title: Develop Tools and Practical Support
+        description: "Our research showed that many NGOs lack dedicated resources and cybersecurity expertise, leaving them vulnerable to digital threats. To address this, OCF developed the Digital Defense Handbook, tailored to the specific needs of NGOs. Additionally, we launched the Internet Infrastructure & Digital Security Workshop, training technical experts to understand the cybersecurity challenges faced by NGOs and the importance of secure digital infrastructure.
+<br>Through educational resources and specialized training, OCF aims to equip NGOs with the knowledge and skilled personnel needed to enhance their cybersecurity defenses.
 "
         items:
-          - title: <a href="https://digitalsecurityhandbook.ocf.tw/" target=_blank>數位防禦手冊</a> 
-          - title: <a href="https://drive.google.com/file/d/1usqoexY5SfFVsLc8XAJGeDlgrOerNiI3/view?usp=sharing">強化隱私：東亞數位人權及所處環境之下，公民社會的行動策略-中文版</a>
-          - title: <a href="https://drive.google.com/file/d/17DgeI_xVRdvt4_sAGetSRAv7tSVAGg-3/view?usp=sharing">強化隱私：東亞數位人權及所處環境之下，公民社會的行動策略-英文版</a>
+          - title: <a href="https://digitalsecurityhandbook.ocf.tw/" target=_blank>Digital Security Handbook</a> 
+          - title: <a href="https://drive.google.com/file/d/1usqoexY5SfFVsLc8XAJGeDlgrOerNiI3/view?usp=sharing">Defending and Documenting Digital Threats for HRDs in Taiwan</a>
+          - title: <a href="https://drive.google.com/file/d/17DgeI_xVRdvt4_sAGetSRAv7tSVAGg-3/view?usp=sharing">Empowering Privacy:Civil Society Strategies
+in East Asia's Digital Landscape</a>
 
       - type: article
         swap: true
-        title: 推動知識分享與國際對話
-        description: "OCF 參與 DRAPAC、APrIGF 和 RightsCon 等國際數位人權大會，發表臺灣數位人權現況與倡議經驗，促進東亞與全球的跨國對話，將臺灣的數位人權倡議推向新高度。
+        title: Promote Knowledge Sharing & Global Dialogue
+        description: "OCF actively participated in major international digital rights conferences, including DRAPAC, APrIGF, and RightsCon, where we presented Taiwan's digital rights landscape and advocacy strategies. By fostering cross-border discussions, we strengthened regional and global collaboration, bringing Taiwan's digital rights advocacy to a new level of international visibility.
+
 "   
 #      - type: image
 #        url: /p/admin/2024/2024report-drp1.png
 
   #網路自由
   - type: image_header
-    cover: /p/admin/2024/2024report-ifd.png
+    cover: /p/admin/2024/2024enreport-ifd.png
     cover_image_alt: 網路自由
   - type: content
     columns:
       - type: article
         swap: false
-        title: 連結全球與在地的多元行動，推動兼顧人權與自由的治理新標準
-        description: "自 2019 年啟動的網路自由小聚，不僅延續至今，OCF 還擴大規模，連結國際經驗與建立跨領域對話，帶動各界人士關注網路自由在我國的發展。
+        title: 
+        description: "Since launching Internet Freedom Meetups in 2019, OCF has sustained the initiative and expanded its scope, integrating global insights and fostering cross-sector dialogue to raise awareness of internet freedom issues in Taiwan.
+
 "
         items:
-          - title: <a href="https://ocf.tw/p/infr/" target=_blank>網路自由專案頁</a>
-          - title: <a href="https://groups.google.com/g/coffee-circumvention-tw" target=_blank>網路自由小聚線上討論區</a>
-          - title: <a href="https://www.youtube.com/watch?v=04fsSK3q7Oo" target=_blank>網路自由小劇場 PodCast</a>
-          - title: <a href="https://www.youtube.com/watch?v=ek2XjW7Q3wI&list=PLFuYOsppHDrlYquISvSfOjrT5g_mjMGot" target=_blank>網路自由小聚 2024 回顧短影音</a>
+          - title: <a href="https://ocf.tw/en/p/infr/" target=_blank>Internet Freedom</a>
+          - title: <a href="https://groups.google.com/g/coffee-circumvention-tw" target=_blank>Google Forum</a>
+          - title: <a href="https://www.youtube.com/watch?v=04fsSK3q7Oo" target=_blank>Recap PodCast</a>
+          - title: <a href="https://www.youtube.com/watch?v=ek2XjW7Q3wI&list=PLFuYOsppHDrlYquISvSfOjrT5g_mjMGot" target=_blank>Recap Videos of 2024</a>
       - type: article
-        title: 每月舉辦網路自由小聚，針對科技、自由與人權展開對話
-        description: "我們在 2024 年舉辦 12 場網路自由小聚，共 360 人次參與。參與者來自倡議團體、技術專家與熱心公民，一同探討探封網對人權的影響、AI 技術的法治管理挑戰、數位皮夾新政策的走向等議題，主題非常多元。
-<br>在快速變化的科技世界中，我們持續思辨科技創新應用與人權的平衡點。這些寶貴的討論紀錄透過共筆與短影音保存。
+        title: Monthly Dialogues on Technology, Freedom, and Human Rights
+        description: "In 2024, OCF organized 12 Internet Freedom Meetups, attracting 360 participants from advocacy groups, tech experts, and engaged citizens. Together, we explored diverse topics, such as the impact of internet shutdowns on human rights, legal challenges in AI governance, and emerging policies on digital wallets.
+<br>In an era of rapid technological change, these discussions helped critically examine the balance between innovation and human rights. Key takeaways were documented through collaborative notes and video summaries for broader accessibility.
 "
   - type: content
     columns:
       - type: article
         swap: false
-        title: 取經國際，探索臺灣網路治理新藍圖
-        description: "2024 年，OCF 首次參與上層網路治理組織的會議，觀察學者、科技公司、政府部門與數位人權團體之間的利益角力與合作機制，我們致力於探索如何讓科技與人權連結得更緊密，既不壓縮便利，也不犧牲自由。
-<br>各方利害關係人的思辨，成為我們制定臺灣網路治理相關政策的倡議基礎。下一步，我們將推動成立我國的「網路治理民間同盟」，期望將民間的聲音帶入網路治理標準的討論之中。
+        title: Shape Taiwan’s Internet Policy Framework
+
+        description: "For the first time in 2024, OCF participated in high-level internet governance forums, observing the power dynamics and collaborations among scholars, tech corporations, government agencies, and digital rights organizations. Our goal was to bridge technology and human rights in a way that preserves convenience and freedom.
+<br>The insights gained from these multi-stakeholder discussions laid the groundwork for OCF's internet governance advocacy in Taiwan. Looking ahead, we plan to establish a ”Taiwan Internet Governance Civil Alliance“ to ensure that civil society speaks in discussions on internet governance standards.
+
 "
       - type: article
-        title: 推廣 OONI，回報觀測數據以守護網路自由
-        description: "作為 OONI（Open Observatory of Network Interference）的社群夥伴，OCF 持續協助在臺灣推廣與安裝 OONI 觀察軟體，讓更多人認識及瞭解網路審查對於數位人權的侵害，並透過觀測、回報 OONI 數據來對抗網路審查、守護網路自由。
+        title: Monitoring and Reporting Internet Censorship Data with OONI
+        description: "As a community partner of OONI (Open Observatory of Network Interference), OCF continued to promote and support the installation of OONI monitoring tools in Taiwan.
+        <br>By raising awareness of how internet censorship threatens digital rights, we empowered more individuals to track, report, and combat online restrictions. We aim to strengthen internet freedom through open data and transparency.
+
 "
         items:
-          - title: <a href="https://ocf.tw/p/ooni/" target=_blank>OONI 網路干預開放觀察計劃</a>
+          - title: <a href="https://ocf.tw/en/p/ooni/" target=_blank>OONI open observatory of network interference</a>
 
   
 #組織架構圖
 
   - type: image_header
-    cover: /p/admin/2024/2024report-orgtitle.png
-    cover_image_alt: 組織架構圖
+    cover: /p/admin/2024/2024enreport-orgtitle.png
+    cover_image_alt: Chart
 
   - type: image_header
-    cover: /p/admin/2024/2024report-org1.png
-    cover_image_alt: 組織架構圖
+    cover: /p/admin/2024/2024enreport-org1.png
+    cover_image_alt: Chart
 
   - type: image_header
-    cover: /p/admin/2024/2024report-org2.png
-    cover_image_alt: 組織架構圖
+    cover: /p/admin/2024/2024enreport-org2.png
+    cover_image_alt: Chart
 
 #財務
 
 #感謝
   - type: image_header
     cover: /p/admin/2024/2024report-end.png
-    cover_image_alt: 感謝
+    cover_image_alt: Thanks
 
   - type: content
     columns:
@@ -368,10 +389,11 @@ In 2024, we worked to extend open culture beyond the traditional open-source com
   - type: content
     columns:
       - type: article
-        title: OCF 十年活動 - 開源祭順利結束...
+        title: OCF ten years - after Open Source Festival...
         swap: true
-        description: "開源祭順利結束，感謝各界大力支持，以及志工們的協助，我們透過社群展覽、科技對談、音像演出的方式，將開放科技與文化在不同領域的活力綻放出來。接下來，我們還會準備更多值得期待的活動，歡迎您與我們一起走向下一個十年！"
+        description: "The Open Source Festival has successfully concluded! We sincerely appreciate the tremendous support from all sectors and the dedicated efforts of our volunteers. Through community exhibitions, tech discussions, and audiovisual performances, we showcased the vibrant energy of open technology and culture across various fields.
+<br>Looking ahead, we have more exciting events in store. Join us as we step into the next decade together!"
         items:
-          - title: <a href="https://10years.ocf.tw/" target=_blank>OCF 十週年網站</a>
+          - title: <a href="https://10years.ocf.tw/" target=_blank>OCF 10 years website</a>
       - type: image
         url: /p/admin/2024/report2024-vol.png
