@@ -131,7 +131,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: 從人才培育到開源專案在地化，為臺灣開源生態系打下穩固基礎
+        title: 
         description: "透過推廣課程、人才培育與協助開源專案在地化，OCF 積極擴大開源文化的影響力，為臺灣的開源生態奠定更穩固的基礎。
 " 
       - type: image
@@ -227,7 +227,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: 從政策建議著手，建立健全的開放資料環境
+        title: 
         description: "OCF 透過開放科技小聚與政策參與，深化公私協力，推動高品質的開放資料標準，倡議建立保護隱私與人權的法制基礎。
 "
         items:
@@ -261,7 +261,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: 從研究到行動，強化臺灣公民團體的數位防禦能力
+        title: 
         description: "OCF 結合研究、推廣與國際串聯，建立出一套「公民團體數位防禦行動方案」，為倡議工作者提供具體的支持系統。
 "
         items:
@@ -304,7 +304,7 @@ items:
     columns:
       - type: article
         swap: false
-        title: 連結全球與在地的多元行動，推動兼顧人權與自由的治理新標準
+        title: 
         description: "自 2019 年啟動的網路自由小聚，不僅延續至今，OCF 還擴大規模，連結國際經驗與建立跨領域對話，帶動各界人士關注網路自由在我國的發展。
 "
         items:
