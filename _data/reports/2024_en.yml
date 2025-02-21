@@ -242,7 +242,7 @@ In 2024, we worked to extend open culture beyond the traditional open-source com
         description: "OCF created a robust open data environment through policy advocacy and organizing Open Technology Meetups. We aim to establish high-quality open data standards and a legal foundation that protects human rights.
 "
         items:
-          - title: <a href="https://ocf.tw/p/opentech/" target=_blank>開放科技與倡議</a> 
+          - title: <a href="https://ocf.tw/en/p/opentech/" target=_blank>Open Technology and Advocacy</a> 
       - type: article
         swap: 
         title: A Step Forward! Five OCF Proposals Adopted in Taiwan’s Open Government Commitments
@@ -272,7 +272,7 @@ In 2024, we worked to extend open culture beyond the traditional open-source com
 
   - type: image_header
     cover: /p/admin/2024/2024enreport-dr.png
-    cover_image_alt: 數位人權
+    cover_image_alt: Digital Rights
   - type: content
     columns:
       - type: article
@@ -389,7 +389,7 @@ In 2024, we worked to extend open culture beyond the traditional open-source com
   - type: content
     columns:
       - type: article
-        title: OCF ten years - after Open Source Festival...
+        title: OCF ten years - after the Open Source Festival...
         swap: true
         description: "The Open Source Festival has successfully concluded! We sincerely appreciate the tremendous support from all sectors and the dedicated efforts of our volunteers. Through community exhibitions, tech discussions, and audiovisual performances, we showcased the vibrant energy of open technology and culture across various fields.
 <br>Looking ahead, we have more exciting events in store. Join us as we step into the next decade together!"
