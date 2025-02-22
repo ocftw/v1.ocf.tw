@@ -23,7 +23,7 @@ items:
         "
         items:
       - type: image
-        url: /p/admin/2023/b-sign-en.png
+        url: /p/admin/2024/b-sign-en.png
   #數字圖
   - type: image_header
     cover: /p/admin/2024/2024enreport-nums.png
