@@ -16,14 +16,27 @@ items:
         description: "After ten years, OCF continues to evolve while staying true to its original mission. We remain dedicated to helping open-source communities grow by supporting emerging communities and sustaining long-established ones. Over the years, we have witnessed Taiwan's open-source ecosystem flourish.
         <br>This year, we explored more cross-sector collaborations by organizing the ”Open Source Festival,“ where we reflected on the history and the progress of open source in Taiwan. Also, we built connections with the arts and music communities to bring fresh energy to open-source culture.
 <br>The past decade has brought many changes. The COVID-19 pandemic made online events the norm. Open-source communities have faced challenges in leadership transition and sustainability. Rapid technological advancements have also raised concerns about human rights and privacy. In response, we have never stopped exploring new ways to collaborate with communities and develop effective partnership models.
-<br>In 2024, we focused on five core areas. We gained a deeper understanding of the open-source ecosystem and its challenges through research and active engagement with stakeholders. We aim to build an inclusive, diverse, and open digital environment.
+ "
+        items:
+      - type: article
+        swap: false
+        title: 
+        description: "In 2024, we focused on five core areas. We gained a deeper understanding of the open-source ecosystem and its challenges through research and active engagement with stakeholders. We aim to build an inclusive, diverse, and open digital environment.
 <br>We also took action by proposing initiatives to the government and training public officials, embedding the DNA of open collaboration into public-private partnerships. While strengthening the collaboration infrastructure between citizens, the government, and parliament, we also monitored the implementation of digital rights policies to ensure that technology remains open and inclusive. Technology should make our lives more convenient and protect our privacy and human rights simultaneously.
+        "
+  - type: content
+    columns:
+      - type: article
+        swap: false
+        title: 
+        description: "
 <br>To better advocate for open-source culture, we integrated open government, open data, and open-source software under a unified “Open Technology” initiative. We organized various promotional activities locally while strengthening our connections with international communities. Through the Open Source Festival, we sparked interdisciplinary collaboration by expanding open-source culture into the humanities and arts fields.
 <br>By staying true to our mission while adapting to the times, we can create even more possibilities in the next decade. Thank you to all our supporters—let's continue working together for the future of open culture!
         "
         items:
       - type: image
         url: /p/admin/2024/b-sign-en.png
+
   #數字圖
   - type: image_header
     cover: /p/admin/2024/2024enreport-nums.png
