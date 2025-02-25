@@ -27,7 +27,8 @@ contact:
     taipei: (105057) No. 636-1, Sec. 4, Bade Rd., Songshan Dist., Taipei City 105, Taiwan (R.O.C.)
     taoyuan: (33059) No.807, Zhongshan Rd., Taoyuan Dist., Taoyuan City 330, Taiwan
 subscribe:
-  - title: 電子報 epaper
+  - title: 電子報 
+    title_en: ePaper
     url: https://ocf.tw/news/
     icon: rss
   - title: Blog
@@ -58,14 +59,16 @@ join:
   - title: GitHub
     url: https://github.com/ocftw
     icon: github
-  - title: 徵才資訊 We're Hiring!
+  - title: 徵才資訊 
     title_en: We're Hiring!
     url: http://blog.ocf.tw/2019/04/jobs.html
     icon: text file outline
-  - title: 實習佈告 Intership Program
+  - title: 實習佈告 
+    title_en: Internship Program
     url: http://blog.ocf.tw/search/label/%E5%AF%A6%E7%BF%92
     icon: text file outline
-  - title: 媒體區 Mediakit
+  - title: 媒體區 
+    title_en: Mediakit
     url: /mediakit
     icon: image
     target: _self
