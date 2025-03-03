@@ -29,25 +29,33 @@ tags:
 tags_en:
 
 links:
+  - title: OONI-Research 專案執行文件
+    url: https://ooni-research.ocf.tw/docs/
+    color: green
+    icon: world icon
   - title: OONI-Research Github
     url: https://github.com/ocftw/ooni-research
     color: green
     icon: github icon
 links_en:
+  - title: OONI-Research Docs
+    url: https://ooni-research.ocf.tw/docs/
+    color: green
+    icon: world icon
   - title: OONI-Research Github
     url: https://github.com/ocftw/ooni-research
     color: green
     icon: world icon
 
 actions:
-  - title: 前往 Github 專案
-    url: https://github.com/ocftw/ooni-research
+  - title: OONI-Research 專案
+    url: https://ooni-research.ocf.tw/docs/
     color: violet
     icon: github
 
 actions_en:
-  - title: ocftw/ooni-research
-    url: https://github.com/ocftw/ooni-research
+  - title: OONI-Research
+    url: https://ooni-research.ocf.tw/docs/
     color: violet
     icon: github
 
