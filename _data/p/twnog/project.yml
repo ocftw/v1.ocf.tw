@@ -1,13 +1,13 @@
-name: 台灣網路維運社群
+name: 台灣網路維運社群 TWNOG
 name_en: TWNOG
 
-description: 從參與時間較長、自學能力佳的學生族群著手，帶領不同學校、不同科系、不同年齡的學生，給予其足夠的資源，透過開放原始碼專案的參與，爭取國際交流的機會，從而和個別領域的一流高手交流，最終再讓這些資源回到台灣這塊土地。
+description: 聚集各界人士以促進台灣網路環境及網路相關產業之蓬勃發展。
 description_en: 
 
 abbr: 
 abbr_en: 
 
-tagline: 聚集各界人士以促進台灣網路環境及網路相關產業之蓬勃發展。
+tagline: 
 tagline_en: 
 
 og_image: /p/twnog/twnog.png
@@ -40,11 +40,11 @@ actions:
   - title: Facebook
     url: https://www.facebook.com/groups/twnog/
     color: green
-    icon: Facebook
+    icon: facebook
   - title: KKTIX 
     url: https://twnog.kktix.cc/
     color: green
-    icon: fist
+    icon: feed
 actions_en:
 
 advisor_ids:
