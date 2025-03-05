@@ -1,0 +1,71 @@
+name: 台灣網路維運社群 TWNOG
+name_en: TWNOG
+
+description: 聚集各界人士以促進台灣網路環境及網路相關產業之蓬勃發展。
+description_en: 
+
+abbr: 
+abbr_en: 
+
+tagline: 
+tagline_en: 
+
+og_image: /p/twnog/twnog.png
+header_image: /p/twnog/twnog.png
+avatar_image: /p/twnog/twnog.png
+theme_color: blue
+
+start: 
+end: 
+
+
+topic_ids:
+  - misc
+field_ids:
+  - it
+tags:
+tags_en:
+
+metas:
+metas_en:
+
+links:
+links_en:
+
+actions:
+  - title: 官網
+    url: https://2025.twnog.net/
+    color: green
+    icon: home
+  - title: Facebook
+    url: https://www.facebook.com/groups/twnog/
+    color: green
+    icon: facebook
+  - title: KKTIX 
+    url: https://twnog.kktix.cc/
+    color: green
+    icon: feed
+actions_en:
+
+advisor_ids:
+organizer_ids:
+co-organizer_ids:
+implementer_ids:
+sponsor_ids:
+
+coordinator_ids:
+case-handler_ids:
+co-worker_ids:
+consultant_ids:
+volunteer_ids:
+contributor_ids:
+donors:
+donors_en:
+
+board_ids:
+staff_ids:
+
+listed: yes
+listed_en: 
+
+reports:

@@ -4,37 +4,33 @@
 {% for org_type in org_types %}
   {% assign key = org_type | append: '_ids' %}
   {% if project[key] %}
-  <div class="item">
-    <span class="ui horizontal label">
-      {% include _shared/org_type.html org_type=org_type %}
-    </span>
-    <span class="text">
-    {% for org_id in project[key] %}
-      {% include _shared/org_name.html org_id=org_id %}
-      {% if forloop.rindex > 1 %}
-      /
-      {% endif %}
-    {% endfor %}
-    </span>
-  </div>
+  <dt>
+    {% include _shared/org_type.html org_type=org_type %}
+  </dt>
+  <dd>
+  {% for org_id in project[key] %}
+    {% include _shared/org_name.html org_id=org_id %}
+    {% if forloop.rindex > 1 %}
+    /
+    {% endif %}
+  {% endfor %}
+  </dd>
   {% endif %}
 {% endfor %}
 
 {% for individual_type in individual_types %}
   {% assign key = individual_type | append: '_ids' %}
   {% if project[key] %}
-  <div class="item">
-    <span class="ui horizontal label">
-      {% include _shared/individual_type.html individual_type=individual_type %}
-    </span>
-    <span class="text">
-    {% for individual_id in project[key] %}
-      {% include _shared/individual_name.html individual_id=individual_id %}
-      {% if forloop.rindex > 1 %}
-      /
-      {% endif %}
-    {% endfor %}
-    </span>
-  </div>
+  <dt>
+    {% include _shared/individual_type.html individual_type=individual_type %}
+  </dt>
+  <dd>
+  {% for individual_id in project[key] %}
+    {% include _shared/individual_name.html individual_id=individual_id %}
+    {% if forloop.rindex > 1 %}
+    /
+    {% endif %}
+  {% endfor %}
+  </dd>
   {% endif %}
 {% endfor %}

@@ -1,0 +1,13 @@
+- id: ooni
+  name: 網路自由工作坊：Tor、Tails、OONI
+  name_en: Tor, Tails, OONI
+  description: 今年，全球最受矚目的人權與數位議題研討會 ─ RightsCon 2025，將在臺灣舉辦。這是一次難得的機會，我們誠摯邀請到來自國際知名組織如 Tor、Tails 和 OONI 的團隊，在研討會前夕，針對開發者及使用者舉辦一場專業工作坊。這場活動將不僅為參加者提供實際的技術交流機會，也讓我們共同探索如何維護和推動網路自由。歡迎對此議題有興趣的朋友把握機會參加！
+  start: 2025/02/23
+  end:
+  links:
+    - title: 報名網頁
+      url: https://ooni-research.ocf.tw/docs/blog/2025/02/rightscon25-tor-tails-ooni/
+  cover_image: /p/ooni/ooni-202502.png
+  project_ids:
+    - ooni
+    - rightscon2025

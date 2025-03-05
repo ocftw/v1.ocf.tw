@@ -1,0 +1,225 @@
+- id: 
+  name: 公共程式系列試辦課程 - 澎湖場：從開放原始碼與公共程式－效益與日常應用
+  name_en: 
+  description: "藉由桌遊教具「開源星手村」引導學員認識數位協作之基本心法與進行原則。並延伸介紹得以實踐數位協作軟體工具或服務，以俾學員透過工作日常中，實現開放原始碼背後之數位協作精神。" 
+  description_en: 
+  start: 2024/11/15
+  end:
+  links:
+    - title: 
+      url:  
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 澎湖場：從開放原始碼到公共程式－概念介紹
+  name_en: 
+  description: "從軟體程式開發之基本原理出發，進一步介紹開放原始碼軟體之定義、歷史發展、與著名案例，並介紹公共程式政策目標與影響。" 
+  description_en: 
+  start: 2024/11/15
+  end:
+  links:
+    - title: 
+      url: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 台北場：公共程式廠商管理國際標準
+  name_en: 
+  description: "藉由實際案例說明完善政府軟體管理之重要，並介紹軟體管理的三項基石：軟體物料清單（SBOM）、國際開源管理標準 ISO/IEC 5230、ISO/IEC 18974。本課程也帶領學員認識國際公共程式開發標準 Standard for Public Code。" 
+  description_en: 
+  start: 2024/11/01
+  end:
+  links:
+    - title: 
+      url: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 宜蘭場：軟體管理基本標準與元素
+  name_en: 
+  description: "從實際例子談論軟體管理之重要，並介紹軟體管理所需的三項基石：軟體物料清單（SBOM）、國際開源管理標準 ISO/IEC 5230、ISO/IEC 18974。" 
+  description_en: 
+  start: 2024/10/25
+  end:
+  links:
+    - title: 
+      url: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 宜蘭場：我國公共程式政策和開放原始碼案例
+  name_en: 
+  description: "從軟體程式開發之基本原理出發，進一步介紹開放原始碼軟體之定義、歷史發展、與著名案例，並介紹公共程式政策目標與影響。" 
+  description_en: 
+  start: 2024/10/25
+  end:
+  links:
+    - title: 
+      url: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 高雄場：公共程式國際案例與政策 
+  name_en: 
+  description: "藉由介紹具體的國際政策案例，使學員了解開放原始碼對於政府數位轉型的助益、消除學員對機關資訊服務採購預設開放原始碼的疑慮、以及提供學員公共程式政策落實相關的的國際經驗。" 
+  description_en: 
+  start: 2024/10/18
+  end:
+  links:
+    - title: 
+      url: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 高雄場：從開放原始碼到公共程式－概念介紹 
+  name_en: 
+  description: "從軟體程式開發之基本原理出發，進一步介紹開放原始碼軟體之定義、歷史發展、與著名案例，並介紹公共程式政策目標與影響。" 
+  description_en: 
+  start: 2024/10/18
+  end:
+  links:
+    - title: 
+      url: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 台中場：公共程式招標文件入門－需求評估和授權條款 
+  name_en: 
+  description: "以自由與開源軟體基本概念為起點，架構常見自由與開源授權條款與資訊安全所需知識，進而使參與者能了解如何進行開放原始碼解決方案需求評估，以及如何適用於我國的採購流程中。" 
+  description_en: 
+  start: 2024/10/17
+  end:
+  links:
+    - title: 
+      url: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 台中場：開放原始碼全球趨勢與生態系
+  name_en: 
+  description: "藉由介紹具體的國際政策案例，使學員了解開放原始碼對於政府數位轉型的助益、以及公共程式精神在各國具體落實所形成的政策樣態。學員也將深入認識公共程式如何促進國家發展高自主性的政府數位基礎設施、豐富開放原始碼產業生態系、以及提供具有社會公益性的數位公共財。" 
+  description_en: 
+  start: 2024/10/17
+  end:
+  links:
+    - title: 
+      url: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+    - joshua
+  project_ids: 
+    - pmpc
+
+- id: 
+  name: 公共程式系列試辦課程 - 桃園場：我國公共程式政策和開放原始碼案例
+  name_en: 
+  description: "從軟體程式開發之基本原理出發，進一步介紹開放原始碼軟體之定義、歷史發展、與著名案例，並介紹公共程式政策目標與影響。" 
+  description_en: 
+  start: 2024/09/27
+  end:
+  links:
+    - title: 
+      url: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+    - amos
+  project_ids: 
+    - pmpc
+
+- id: pmpc
+  name: 法制研析：公共程式與資訊服務採購產業座談會（北部場）
+  name_en: 
+  description: 本系列座談活動將邀請到各級行政或立法機關、學界、產業人士，以及公民科技社群 ，一同以「公共程式」（Public Code）作為核心，深入了解各國政府公共程式潮流，藉以廣納各級行政或立法機關對公共程式法制研析及推動相關建言，加速建構具民主精神與社會價值之數位前瞻韌性環境之推動。 
+  start: 2023/11/20
+  end:
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/publiccodeforum3
+  cover_image: /p/admin/2023/pmpc-3.png
+  contributor_ids:
+  project_ids:
+    - pmpc
+  organizer_ids:
+
+
+- id: pmpc
+  name: 法制研析：公共程式與資訊服務採購座談會（北部場）
+  name_en: 
+  description: 本次座談會將以「公共程式」作為主題，特邀請熟悉公共程式法制等專家學者與各界一同探討推動公共程式，需協助制度化之文件或應予以修改之程序、法規等議題，使得公共程式推廣更臻完善。活動流程上會先引介基本知識，循序漸進讓與會成員了解議題重點，再激發參與人分享其經驗。
+  start: 2023/10/30
+  end:
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/publiccodeforum2
+  cover_image: /p/admin/2023/pmpc-2.png
+  contributor_ids:
+  project_ids:
+    - pmpc
+  organizer_ids:
+
+
+- id: pmpc
+  name: 法制研析：公共程式與資訊服務採購座談會（南部場） 
+  name_en: 
+  description: 本系列座談活動將邀請到各級行政或立法機關、學界、產業人士，以及公民科技社群 ，一同以「公共程式」（Public Code）作為核心，深入了解各國政府公共程式潮流，藉以廣納各級行政或立法機關對公共程式法制研析及推動相關建言，加速建構具民主精神與社會價值之數位前瞻韌性環境之推動。 
+  start: 2023/10/25
+  end:
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/publiccodeforum1
+  cover_image: /p/admin/2023/pmpc-1.png
+  contributor_ids:
+  project_ids:
+    - pmpc
+  organizer_ids:

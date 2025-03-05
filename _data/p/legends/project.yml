@@ -1,5 +1,5 @@
 name: 專案名人堂
-name_en: Legends (CLOSED Proejcts)
+name_en: Legends (CLOSED Projects)
 
 description: 這些專案已經結束啦！過去累積一篇又一篇的討論和想法，都是我們推動社會的正向力量，每個專案都有許多的主題與能量，歡迎來看看！雖然我們未來不再更新他們，但裡面的內容能讓我們一起分享和自主學習！
 
@@ -17,20 +17,28 @@ topic_ids:
 field_ids:
 
 links: 
+  - title: 議題關注
+    url: /p/issues/
+  - title: 連署：修法與公開 eID 資訊
+    url: /p/eid/
   - title: OCF Lab - 開放與科技的新知匯集
     url: https://lab.ocf.tw/
   - title: 開源教 - 一個讓開源人分享學習的舞台
-    url: https://ocf.tw/p/openists/
+    url: /p/openists/
   - title: PTT ID Profiling - 用開源的方式側寫可能是不實資訊的散播帳號
-    url: https://ocf.tw/p/pttid/
+    url: /p/pttid/
 
 links_en: 
+  - title: Issues
+    url: /en/p/issues/
+  - title: Petition - Amend the Law and Disclose eID Information
+    url: /p/eid/
   - title: OCF Lab - A hub of open, technology and knowledges
     url: https://lab.ocf.tw/
   - title: The Openists - A stage for people sharing knowledges openly 
-    url: https://ocf.tw/p/openists/
+    url: /p/openists/
   - title: PTT ID Profiling - Open source analyzing tools and report of misinformation on social media
-    url: https://ocf.tw/p/pttid/
+    url: /p/pttid/
 
 
 organizer_ids:

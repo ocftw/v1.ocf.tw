@@ -9,9 +9,14 @@ links:
 links_en:
 actions:
   - title: 活動共筆
-    url: https://hackmd.io/@Zk9U4bElTa-Yc1HLb7NLbw/SJwfIn-pp/edit
+    url: https://hackmd.io/efBMZl4ITImkxUOjlmByHg?view
     icon: cloud
     color: green
+  - title: 線上論壇
+    url: https://groups.google.com/g/coffee-circumvention-tw
+    icon: cloud
+    color: green
+
 organizer_ids:
 listed: yes
 listed_en: yes

@@ -1,0 +1,83 @@
+name:  RightsCon 全球數位人權大會 2025
+name_en: RightsCon 2025 @ Taipei
+
+description: 將於 2 月 24 日至 27 日在臺北！RightsCon 由國際非營利組織 Access Now 主辦，是全球最大的數位人權會議。
+description_en: RightsCon 2025 will be held in Taipei, the world's largest digital human rights conference, is organized by the international non-profit organization Access Now.
+
+tagline:  
+tagline_en: 
+
+og_image: /p/rightscon2025/RightsCon2025.png
+og_image_en: /p/rightscon2025/RightsCon2025.png
+header_image: /assets/images/shell-bg05.png
+avatar_image: /p/rightscon2025/RightsCon2025.png
+theme_color: purple
+
+start: 2025/
+end: 
+
+topic_ids:
+  - tech
+  - dr
+field_ids:
+  - it
+  - rsh
+  - adv
+  - legal
+tags:
+tags_en:
+
+links:
+  - title: 【主題】現場有哪些議題？
+    url: https://ocf.tw/p/rightscon2025/#topics
+    color: purple
+    icon: world icon
+  - title: 【OCF】我們在現場的活動有哪些？
+    url: https://ocf.tw/p/rightscon2025/#ocf-at-rc25
+    color: purple
+    icon: world icon
+  - title: 公民團體聯合聲明
+    url: https://ocf.tw/p/rightscon2025/joint-statement
+    color: purple
+    icon: microphone icon
+
+links_en:
+  - title: Find OCF at RightsCon
+    url: https://ocf.tw/en/p/rightscon2025/#ocf-at-rc25
+    color: purple
+    icon: world icon
+  - title: Joint Statement from TW CSOs
+    url: https://ocf.tw/en/p/rightscon2025/joint-statement
+    color: purple
+    icon: microphone icon
+    
+actions: 
+  - title: 【活動】周邊活動大全
+    url: https://ocf.tw/p/rightscon2025/#side-events
+    color: blue
+    icon: beer
+  - title: 【議程】大會與台灣相關之議程大全
+    url: https://ocf.tw/p/rightscon2025/#tw-sessions
+    icon: users
+    color: purple
+actions_en: 
+  - title: Side Events at Taipei
+    url: https://ocf.tw/en/p/rightscon2025/#side-events
+    color: blue
+    icon: beer
+  - title: RC Sessions about Taiwan / East Asia
+    url: https://ocf.tw/en/p/rightscon2025/#tw-sessions
+    icon: users
+    color: purple
+
+organizer_ids:
+  - accessnow
+co-organizer_ids: 
+consultant_ids:
+
+board_ids:
+
+staff_ids:
+
+listed: yes
+listed_en: yes

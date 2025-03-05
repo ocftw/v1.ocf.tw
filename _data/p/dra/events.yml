@@ -1,0 +1,90 @@
+
+- id: dra
+  name: 交叉觀點：AI X 數位人權 亞洲契機交流會 
+  name_en: Intersection：Exchange Activities for AI x Digital Rights
+  description: 本次交流活動將以「AI 人工智慧產業」作為主題，特邀請到國際指標性公民組織 - Access Now 與跨國領導性企業代表- LINE 與各界一同探討納入數位人權，更多產業發展的可能，同時兼具數位人權。
+  start: 2023/08/01
+  end:
+  links:
+    - title: 活動網頁
+      url: https://ocftw.kktix.cc/events/aixdigitalrights
+  cover_image: /p/admin/2023/intersection.png
+  contributor_ids:
+  project_ids:
+    - dra
+  organizer_ids:
+
+
+
+- id: issues
+  name: 2022【突破論壇】 虛擬世界、真實人們：元宇宙中的人權省思
+  name_en: 
+  description: 「元宇宙」浪潮興起，穿戴式裝置結合個人生活應用，正悄無聲息地侵犯我們的隱私權。邀請政治大學法律學系廖元豪副教授、台北市政府資訊局呂新科局長、微軟全球助理法務長施立成總經理、開放文化基金會李柏鋒董事長與談，並由本會執行長蔡玉玲律師主持，從法律面、公部門、企業面、公民團體角度，深度剖析元宇宙發展中，科技與人權隱私保護的平衡點。本次論壇邀請政治大學法律學系廖元豪副教授、台北市政府資訊局呂新科局長、微軟全球助理法務長施立成總經理、開放文化基金會李柏鋒董事長與談，並由本會執行長蔡玉玲律師主持，從法律面、公部門、企業面、公民團體角度，深度剖析元宇宙發展中，科技與人權隱私保護的平衡點。
+  start: 2022/09/17
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://forms.gle/FHsbrCRbWwsMuNWY8
+      title: 活動簡介 
+      url: http://fairwindsfoundation.org/activity/%E7%AA%81%E7%A0%B4%E8%AB%96%E5%A3%87/2/2022%E3%80%90%E7%AA%81%E7%A0%B4%E8%AB%96%E5%A3%87%E3%80%91%E8%99%9B%E6%93%AC%E4%B8%96%E7%95%8C%E3%80%81%E7%9C%9F%E5%AF%A6%E4%BA%BA%E5%80%91%EF%BC%9A%E5%85%83%E5%AE%87%E5%AE%99%E4%B8%AD%E7%9A%84%E4%BA%BA%E6%AC%8A%E7%9C%81%E6%80%9D/92
+  cover_image: /p/issues/2022/突破論壇.jpg
+  contributor_ids:
+    - szuhui
+  project_ids:
+    - issues
+
+- id: issues
+  name: JobFair
+  name_en: JobFair
+  description: 參加由 TeamCommunity 主辦的線上數位人權徵才會，進行東亞狀況分享和人才募集。
+  start: 2022/06/16
+  end: 2022/06/17
+  links:
+    - title: 活動網頁
+      url: https://www.digitalrights.community/job-board
+  cover_image: 
+  contributor_ids:
+  project_ids:
+    - issues
+
+- id: issues
+  name: 【記者會】 晶片身分證母法不明，相片管理辦法已進立法院
+  name_en: 
+  description: 【發言稿】開放文化基金會在去年就有對於修正草案提出 10 項問題，在這裡面有許多民間對於晶片身分證的使用與效力提出質疑。我們認為目前的戶籍法未被授權管理晶片，而基於這個法源來衍生的管理辦法，修正成「國民身分證及戶口名簿格式內容製發相片影像檔建置管理辦法」將造成十足的爭議。更重要的是，在今年一月行政院都承諾要對於晶片身分證立專法、推動獨立個資機關符合歐盟標準，在此呼籲立法院要將明天要備查的「國民身分證及戶口名簿格式內容製發相片影像檔建置管理辦法」轉為審查，並在下一步去討論廢止這個為了倉促推動晶片身分證而制定修改的辦法。推動晶片身分證需要多方討論與廣納民間意見，現在在行政院已承諾修法時，正是個好時機一一檢視過往的行動、程序和舊有法案有何可改善的地方，若繼續使用此舊有的管理辦法，將無法信服民眾政院有決心想好好解決大眾對於晶片身分證的疑慮，反而像是不想動腦筋、負責任。
+  start: 2021/03/04
+  end: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+  project_ids:
+    - issues
+
+- id: issues
+  name: 【演講分享】海光人權講堂2020大事紀系列座談之三：數位監控與數據搜集時代的自由與人權
+  name_en: 
+  description: 由網路科技巨頭引領而起的大數據時代，只要我們使用網路，就無時不刻被數據收集網包覆。我們在網路上的所有活動都被紀錄、收集，並反映在你所接收到的廣告、影片推薦中。 疫情更是將數位監控議題直接拉到我們的面前，面對以行政管理效率、防疫等理由而出現的數位監控策略，我們該如何自處？【演講分享】台灣數位身分證─ 便利與隱私的兩難 / 李欣穎
+  start: 2021/07/01
+  end: 
+  links:
+    - title: 活動網頁
+      url: https://www.accupass.com/event/2105010447424752661040
+    - title: 活動錄影
+      url: https://www.youtube.com/watch?v=IIfqz9wgAIc
+  cover_image: 
+  contributor_ids: 
+    - singing
+  project_ids:
+    - issues
+
+
+- id: issues
+  name: 【記者會】國際特赦組織台灣分會發布 New eID 研究報告記者會
+  name_en: 
+  description: 【發言稿】開放文化基金會去年有發起連署 - 「支持修法與公開數位晶片身分證規劃資訊」，我們期望政府不強制換發、完善法制架構、保障人民隱私與開放存取系統的原始碼。對於政府提供更便利、創新的服務，我們都給予肯定，也很樂見政府在迎上數位時代上的腳步，但同時，我們也期望政府有更公開、透明的機制，讓民眾得更信任政府的數位應用與基礎建設。在這份報告中，其中一點也是 OCF 在 eID 議題中關注的：「台灣現存法律並未提供任何「逆向監視」的機能，或授權個人追蹤誰有權使用自己的個人資料,以避免資料被政府或企業作為監控或監視的手段任意使用」。個人資料的使用權力應該是在個人手上，為什麼我們卻沒有規劃讓民眾可以查詢追蹤的機制呢？我們需要建立出機制，讓使用者可以查詢、追蹤個人資料的使用狀況。最後，也想讓大家知道，雖然在疫情期間，eID 的發展推動看似暫緩，但民間團體依然會持續關注這個議題，希望能有個在便利與隱私方面都有相當考量發展。
+  start: 2021/08/13
+  end: 
+  cover_image: 
+  contributor_ids: 
+    - singing
+  project_ids:
+    - issues

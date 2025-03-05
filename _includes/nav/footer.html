@@ -1,23 +1,37 @@
 {% assign org = site.data.people.orgs.ocf %}
 
-<footer id="footer" class="ui inverted basic segment marginless">
-  <div class="ui stripe container">
+<footer id="footer">
+  <div class="page__container">
 
-    {% include nav/footer/logo.html %}
+    <div class="footer__header page__flex">
+      <div class="footer__header__logo">
+        <img src="{{ site.data.people.orgs.ocf.icon }}" alt="ocf logo" />
+      </div>
+      <h2>
+        {% if lang == "en" %}
+          {{ site.data.people.orgs.ocf.name_en }}
+        {% else %}
+          {{ site.data.people.orgs.ocf.name }}
+        {% endif %}
+      </h2>
+    </div>
 
-    <hr class="ui divider" />
-    <div class="ui four column stackable grid">
-      <div class="column">
+    <div class="page__spacer--large"></div>
+    
+    <div class="footer__body page__grid">
+      <div>
         {% include nav/footer/basic.html %}
       </div>
-      <div class="column">
+      <div>
         {% include nav/footer/office.html %}
       </div>
-      <div class="column">
-        {% include nav/footer/action.html %}
-      </div>
-      <div class="column">
-        {% include nav/footer/site.html %}
+      <div class="footer__links page__grid">
+        <div>
+          {% include nav/footer/action.html %}
+        </div>
+        <div>
+          {% include nav/footer/site.html %}
+        </div>
       </div>
     </div>
 

@@ -12,44 +12,43 @@
   {% assign project_links = project.links %}
 {% endif %}
 
+<!-- 頭像 -->
+
+{% include p/meta/avatar.html %}
+
+<div class="meta__section">
+<!-- 專案名稱 -->
+<h2 class="ocf__heading3 ocf__text--primary">
+  {% include p/name.html return='string' %}
+</h2>
+<!-- 專案簡介 -->
+{% if project_description %}
+<p>
+  {{ project_description }}
+</p>
+{% endif %}
+</div>
+
+<div class="meta__section">
+<!-- 專案資訊 -->
+<div id="cast" class="page__grid meta__cast ocf__text--primary ocf__caption--small">
+{% include p/meta/people.html %}
+{% include p/meta/metas.html %}
+{% if page.show_progress %}
+  {% include p/meta/raising.html %}
+{% endif %}
+</div>
+</div>
+
+{% if page.show_progress %}
+  {% include p/meta/progress.html %}
+{% endif %}
+
 <!-- 行動按鈕 -->
 
 {% if now > project.end %}
 {% else %}
   {% include p/meta/join.html %}
-{% endif %}
-
-<!-- 頭像 -->
-
-<div class="ui horizontal divider">
-  <i class="info circle icon"></i>
-  {% include _shared/titles.html type='project' id='about' %}
-</div>
-
-{% include p/meta/avatar.html %}
-
-<!-- 專案名稱 -->
-
-<h2 class="ui center aligned small header">
-  {% include p/name.html return='string' %}
-</h2>
-
-<!-- 專案 meta 資訊 -->
-
-<div id="cast" class="ui divided list">
-
-{% include p/meta/people.html %}
-
-{% include p/meta/metas.html %}
-
-{% if page.show_progress %}
-  {% include p/meta/raising.html %}
-{% endif %}
-
-</div>
-
-{% if page.show_progress %}
-  {% include p/meta/progress.html %}
 {% endif %}
 
 <!-- 相關連結 -->

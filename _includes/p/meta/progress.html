@@ -1,20 +1,24 @@
 {% assign progress = page.progress %}
 
 {% if progress.percent %}
+<div class="meta__section">
 <div id="crm_cpid_{{ page.cpid }}_amt_fill" class="ui indicating progress active" data-percent="{{ progress.percent }}">
   <div class="bar" style="width: {{ progress.percent }}%;">
     <div class="progress">{{ progress.percent }} %</div>
   </div>
 </div>
+</div>
 {% endif %}
 
 {% if progress.updated %}
+<div class="meta__section">
 <p class="center aligned" style="font-weight: normal; opacity: 0.5; margin-top: -2em;">
   {% include _shared/titles.html type='shared' id='updated' %}
   <span id="progress_updated">
   {{ progress.updated }}
   </span>
 </p>
+</div>
 {% endif %}
 
 {% if page.cpid %}

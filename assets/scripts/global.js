@@ -4,3 +4,9 @@ $(function(){
   $('.ui.sticky').sticky();
   $('.ui.checkbox').checkbox();
 });
+
+$(function () {
+  $("#topbar__button--toggleSidebar").on("click", function () {
+    $("#page__pushable--wrapper").toggleClass("page__pushable--wrapper--pushed");
+  });
+});

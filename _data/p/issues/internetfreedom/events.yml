@@ -223,6 +223,18 @@
       url: https://ocftw.kktix.cc/events/internetfreedom-may2024
     - title: 6/20 - 數位防禦x物理防禦：數位公民與民防組織如何互相協助
       url: https://ocftw.kktix.cc/events/internetfreedom-jun2024
+    - title: 7/18 - 網路治理 RPG
+      url: https://ocftw.kktix.cc/events/internetfreedom-jul2024
+    - title: 8/22 - 第二屆台灣國際民主誌影展 Freedom Memory Film Festival ：全面監視 TOTAL TRUST
+      url: https://ocftw.kktix.cc/events/internetfreedom-aug2024
+    - title: 9/19 - AI 基本法要來了（嗎）！？ 台灣人與 AI 之間的距離
+      url: https://ocftw.kktix.cc/events/internetfreedom-sep2024
+    - title: 10/17 - AI 的安全與社會衝擊＋你的通訊軟體夠自由嗎？
+      url: https://ocftw.kktix.cc/events/internetfreedom-oct2024
+    - title: 11/14 - 全球數位人權大會 RightsCon 25 Taipei 前導介紹會
+      url: https://ocftw.kktix.cc/events/internetfreedom-nov2024
+    - title: 12/19 - 台灣的全球網路自由分數竟被扣在這！！政府打詐封網措施「 DNS RPZ 停止解析」過度了嗎?
+      url: https://ocftw.kktix.cc/events/internetfreedom-dec2024
   cover_image: /p/issues/C&C-events.png
   contributor_ids: 
     - rock
@@ -230,3 +242,21 @@
   project_ids:
     - internetfreedom
 
+- id:
+  name: "2025 網路自由小聚（每個月第三個禮拜四）"
+  name_en: Internet Freedom meets-up (Every 3rd Thursday)
+  description: "Coffee and Circumvention 是一個由 Internet Freedom Festival (IFF) 發起，串聯全球各城市的網路自由社群聚會。台北場聚會在每個月第三個週四舉辦。我們歡迎學生、上班族、科技人士、藝術家、記者或任何對數位人權、網路隱私、網路安全以及開放科技有興趣的朋友加入我們。"
+  description_en: This is the Taipei Coffee and Circumvention, a monthly, community-run meetup that happens simultaneously in various cities throughout the world - on the third Thursday of every month. It brings together technologists, artists, journalists, citizens and others interested in digital rights, online privacy and security, and open technology.
+  start: 2025/01/16
+  end: 
+  links:
+    - title: 當海纜全斷 - 如何通訊來維繫救援的生命線
+      url: https://ocftw.kktix.cc/events/internetfreedom-jan2025
+    - title: 網際網路傳播政策白皮書
+      url: https://ocftw.kktix.cc/events/internetfreedom-feb2025
+  cover_image: /p/issues/C&C-events.png
+  contributor_ids: 
+    - rock
+    - szuhui
+  project_ids:
+    - internetfreedom

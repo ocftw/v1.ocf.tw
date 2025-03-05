@@ -6,15 +6,16 @@
 
 {% if project_links %}
 
-<div class="ui horizontal divider">
-  <i class="linkify icon"></i>
+<div class="meta__section">
+<h2 class="ocf__heading3 ocf__text--primary">
   {% include _shared/titles.html type='shared' id='links' %}
-</div>
+</h2>
 
 <div id="links" class="ui link list">
   {% for link in project_links %}
     {% include _shared/link.html link=link class='item' icon='conditional' %}
   {% endfor %}
+</div>
 </div>
 
 {% endif %}

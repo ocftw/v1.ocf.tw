@@ -1,13 +1,20 @@
-<div id="events" class="ui divided items">
 
 {% include _var/events.html %}
 
 {% if events %}
+{% assign years = site.data.settings.years %} 
+{% for year in years %}
+  <h2 class="ui dividing header">
+    {{ year }} 年
+    <i class="icon down chevron"></i>
+  </h2> 
+<div id="events" class="ui divided items">
   {% for event in events %}
-    {% if event %}
+    {% if event.start contains year %}
       {% include p/events/item.html %}
-    {% endif %}
+    {% endif%}
+  {% endfor %}
+</div>
   {% endfor %}
 {% endif %}
 
-</div>

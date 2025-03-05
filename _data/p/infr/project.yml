@@ -1,0 +1,59 @@
+name:  網路自由
+name_en: Internet Freedom
+
+description: 透過推廣、倡議等方式，訴求網路應以開放科技為基礎，力求言論自由、不受監控審查、技術保持中立。
+description_en: Through promotion and advocacy, we call for the internet to be built on a foundation of open technology, striving to ensure freedom of expression, freedom from surveillance and censorship, and technological neutrality.
+
+
+tagline:  
+tagline_en: 
+
+og_image: /p/infr/infr.png
+og_image_en: /p/infr/infr.png
+header_image: 
+avatar_image: /p/infr/infr.png
+theme_color: purple
+
+start: 
+end: 
+
+topic_ids:
+  - infr
+field_ids:
+  - rsh
+  - adv
+  - legal
+tags:
+tags_en:
+
+links:
+  - title: 網路自由小聚線上論壇
+    url: https://groups.google.com/g/coffee-circumvention-tw
+    icon: cloud
+    color: purple
+  - title: 網路自由小聚活動
+    url: https://ocftw.kktix.cc/
+    color: purple
+    icon: world icon
+  - title: 網路自由小聚活動共筆
+    url: https://hackmd.io/efBMZl4ITImkxUOjlmByHg?view
+    icon: cloud
+    color: purple
+links_en:
+  - title: Internet Freedom Meetup
+    url: https://ocftw.kktix.cc/
+    color: purple
+    icon: world icon
+
+
+organizer_ids:
+  - ocf
+co-organizer_ids:
+consultant_ids:
+
+board_ids:
+
+staff_ids:
+
+listed: yes
+listed_en: yes

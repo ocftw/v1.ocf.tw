@@ -11,67 +11,43 @@ toc:
 ---
 
 <main id="about">
+  {% include _shared/kv.html title=page.og_title
+  description=site.data.people.orgs.ocf.slogan image="/assets/images/about_KV.png" %}
+  <div class="ui center aligned stripe container">
+    <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
+      <div class="ui dropdown item">
+        <span data-content="current">跳至...</span>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          {% for article in page.toc %}
+          <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </nav>
+  </div>
 
-<div class="ui center aligned stripe container">
-  <h1 class="ui icon header">
-    <i class="circular icon">
-      <i class="fas fa-seedling"></i>
-    </i>
-    {{ page.og_title }}
-  </h1>
-  <p> {{ site.data.people.orgs.ocf.slogan }}</p>
+  <hr class="ui hidden divider" />
 
-  <nav id="submenu" data-context="mobile" class="ui sticky one item menu">
-    <div class="ui dropdown item">
-      <span data-content="current">跳至...</span>
-      <i class="dropdown icon"></i>
-      <div class="menu">
+  <div class="ui stripe container">
+    <div class="ui two column stackable grid">
+      <div id="toc" data-context="desktop" class="six wide column">
+        <nav class="ui secondary sticky vertical pointing fluid menu">
+          {% for article in page.toc %}
+          <a href="#{{ article[0] }}" class="item" style="color: var(--ocf-primary); font-size: 1.75rem;">{{ article[1] }}</a>
+          {% endfor %}
+        </nav>
+      </div>
 
-        {% for article in page.toc %}
-        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
-        {% endfor %}
+      <div class="ten wide column">
+        {% for article in page.toc %} {% assign id = article[0] %}
 
+        <h2 id="{{ article[0] }}" class="ui dividing header" style="color: var(--ocf-primary); font-size: 1.75rem;">
+          {{ article[1] }}
+        </h2>
+
+        {% include_relative {{ id }}.html %} {% endfor %}
       </div>
     </div>
-  </nav>
-
-</div>
-
-<hr class="ui hidden divider" />
-
-<div class="ui stripe container">
-  <div class="ui two column stackable grid">
-
-    <div id="toc" data-context="desktop" class="six wide column">
-      <nav class="ui secondary sticky vertical pointing fluid menu">
-
-        {% for article in page.toc %}
-        <a href="#{{ article[0] }}" class="item">{{ article[1] }}</a>
-        {% endfor %}
-
-      </nav>
-    </div>
-
-    <div class="ten wide column">
-
-      {% for article in page.toc %}
-      {% assign id = article[0] %}
-
-      <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
-
-      {% include_relative {{ id }}.html %}
-
-      {% endfor %}
-
-    </div>
-
   </div>
-</div>
-
-<section id="ads" class="ui vertical segment">
-  <div class="ui stripe container">
-    {% include banner_cta.html %}
-  </div>
-</section>
-
 </main>

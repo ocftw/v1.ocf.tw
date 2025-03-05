@@ -1,39 +1,19 @@
 name: 議題關注
 name_en: Law and policy issues
-description: 與社會與開放科技息息相關的各項議題，如果還少了那份關注力道，OCF 期許自己加入推動行列!
+description: 與社會與開放科技息息相關的各項議題，如果還少了那份關注力道，OCF 期許自己加入推動行列！
 description_en: Lots of public policies have open-source technical issues hidden inside. We focus on those issues, check related law and policy, try to find out if there's any problem, or make initializing laws and policies, or advocating corrections.
 og_image: /p/issues/issues-og.png
 header_image: /p/issues/issues-cover.png
 avatar_image: /p/issues/issues-og.png
 links:
-  - title: 【聯合聲明】 數位發展部應有全面的數位轉型規劃
-    url: https://ocf.tw/p/issues/jointStatement/
-    icon:
   - title: 網路自由小聚
     url: https://ocf.tw/p/issues/internetfreedom
     icon:
-  - title: eID 數位身分證
-    url: https://ocf.tw/p/eid/
-    icon:
-  - title: 開放資料專法推動
-    url: https://lab.ocf.tw/2020/03/12/opendatanextstep/
-    icon:
-  - title: 推動台灣開放政府與開放國會
-    url: https://ocf.tw/p/issues/twogp
-    icon:
 
 links_en:
-  - title: Joint Statement
-    url: https://ocf.tw/en/p/issues/joint
-    icon:
+
   - title: Internet Freedom meetup
     url: https://ocf.tw/en/p/issues/coffeeandcircumventionen
-    icon:
-  - title: eID
-    url: https://ocf.tw/en/p/eid/
-    icon:
-  - title: Open Data initiative
-    url: https://lab.ocf.tw/2020/03/18/opendatanext-eng/
     icon:
 
 actions:
@@ -45,8 +25,8 @@ actions:
 organizer_ids:
   - ocf
 
-listed: yes
-listed_en: yes
+listed: 
+listed_en: 
 
 reports:
   yyyy: mm
