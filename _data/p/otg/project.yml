@@ -1,0 +1,54 @@
+name:  開放科技車庫 Open Tech Garage
+name_en: Open Tech Garage
+
+description: 一個專注於評估與分析各類開源工具的專案，旨在提供透明、客觀的資訊，幫助使用者選擇適合自己的安全與隱私工具。
+description_en: A project focused on evaluating and analyzing various open-source tools, aiming to provide transparent and objective information to help users choose the right security and privacy tools.
+
+tagline:  您的開源工具指南
+tagline_en: Your Guide to Open Source Tools
+
+og_image: /p/otg/otg-logo.png
+og_image_en: /p/otg/otg-logo.png
+header_image: /p/otg/otg-banner.png
+avatar_image: /p/otg/otg-logo.png
+theme_color: blue
+
+start: 
+end: 
+
+topic_ids:
+  - tech
+  - source
+  - data
+  - security
+field_ids:
+  - it
+  - rsh
+  - adv
+tags:
+tags_en:
+
+links:
+  - title: 專案首頁
+    url: https://ocf.tw/p/otg/
+    color: blue
+    icon: world icon 
+
+links_en:
+  - title: Project Home
+    url: https://ocf.tw/p/otg/
+    color: blue
+    icon: world icon 
+
+organizer_ids:
+    - ocf
+co-organizer_ids:
+consultant_ids:
+
+board_ids:
+
+staff_ids:
+
+
+listed: yes
+listed_en: yes
