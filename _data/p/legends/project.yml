@@ -17,6 +17,8 @@ topic_ids:
 field_ids:
 
 links: 
+  - title: Civic Sense
+    url: /p/civicsense/
   - title: 議題關注
     url: /p/issues/
   - title: 連署：修法與公開 eID 資訊
@@ -29,6 +31,8 @@ links:
     url: /p/pttid/
 
 links_en: 
+  - title: Civic Sense
+    url: /p/civicsense/
   - title: Issues
     url: /en/p/issues/
   - title: Petition - Amend the Law and Disclose eID Information

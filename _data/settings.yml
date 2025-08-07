@@ -37,10 +37,10 @@ menu:
     url: /journal/
   - title: 電子報
     url: /news/
-  - title: 捐款徵信
-    url: https://blog.ocf.tw/search/label/捐款徵信
-  - title: OCFLab
-    url: https://lab.ocf.tw/
+#  - title: 捐款徵信
+#    url: https://blog.ocf.tw/search/label/捐款徵信
+#  - title: OCFLab
+#    url: https://lab.ocf.tw/
   - title: 捐款支持
     url: /supportus/
 
