@@ -49,7 +49,7 @@ page_title: Open Tech Garage
       <div class="item">
         <i class="folder open outline icon"></i>
         <div class="content">
-          <div class="header">{{ group.name | replace: '-', ' ' | capitalize }}</div>
+          <div class="header">{{ site.data.otg_categories[group.name] | default: group.name | replace: '-', ' ' | capitalize }}</div>
           <div class="list">
             {% for tool_file in group.items %}
               {% assign tool_name = tool_file.name | replace: '.md', '' | replace: '-', ' ' | capitalize %}
