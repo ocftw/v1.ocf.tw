@@ -1,6 +1,6 @@
 ---
-layout: project
-project_id: otg
+layout: story
+title: AdGuard
 ---
 
 # AdGuard
