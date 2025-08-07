@@ -1,9 +1,3 @@
----
-layout: story
-title: AdGuard
-project_id: otg
----
-
 # AdGuard
 
 ## 基本資訊
