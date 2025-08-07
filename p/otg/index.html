@@ -44,7 +44,7 @@ page_title: Open Tech Garage
 
   <h2 class="ui header">工具評估分析</h2>
   <div class="ui list">
-    {% assign otg_docs = site.collections.p | where_exp: "item", "item.relative_path contains 'otg/'" %}
+    {% assign otg_docs = site.pages | where_exp: "item", "item.relative_path contains 'otg/'" %}
     {% assign category_tools = otg_docs | where_exp: "item", "item.relative_path contains 'otg/tools/categories/'" | group_by_exp: "item", "item.relative_path | split: '/' | slice: -2, 1 | first" %}
     {% for group in category_tools %}
       <div class="item">
@@ -71,7 +71,7 @@ page_title: Open Tech Garage
 
   <h2 class="ui header">主題比較報告</h2>
   <div class="ui relaxed divided list">
-    {% assign otg_docs = site.collections.p | where_exp: "item", "item.relative_path contains 'otg/'" %}
+    {% assign otg_docs = site.pages | where_exp: "item", "item.relative_path contains 'otg/'" %}
     {% for comparison_file in otg_docs %}
       {% if comparison_file.relative_path contains 'otg/tools/comparisons/' and comparison_file.name != 'README.md' %}
          {% assign tool_name = comparison_file.name | replace: '.md', '' | replace: '-', ' ' | capitalize %}
