@@ -6,7 +6,39 @@ page_title: Open Tech Garage
 <div class="ui container">
   <h1 class="ui header">{{ site.data.p.otg.project.name }}</h1>
   <p class="ui sub header">{{ site.data.p.otg.project.tagline }}</p>
-  <p>{{ site.data.p.otg.project.description }}</p>
+
+  <div class="ui divider"></div>
+
+  <h2>專案簡介</h2>
+  <p>開放科技車庫（Open Tech Garage）是一個聚焦於評估、分析與測試多種開源軟體工具的專案，目標在於提供透明且客觀的資訊，幫助用戶—尤其是對安全與隱私有需求的使用者—做出明智的選擇。專案由開放文化基金會 (OCF) 與 伍斯特理工學院 (WPI) IQP 計畫共同推動，並獲得 APC 支持，力求結合學術研究與實務經驗，打造一個開源工具使用與推廣的平台。</p>
+
+  <h2>我們的願景與目標</h2>
+  <ul class="ui list">
+    <li><b>全面且嚴謹的評測：</b>包括功能性、安全性、隱私保障、使用者體驗及技術維護等多面向分析。</li>
+    <li><b>降低使用門檻：</b>透過實際安裝測試，提供明確的「安裝難易度評估」和「硬體/軟體需求」，幫助不同技術背景的用戶理解是否適合使用該工具。</li>
+    <li><b>持續更新與維護：</b>隨著技術演進與社群回饋，持續調整與完善評測標準與內容。</li>
+    <li><b>促進開源文化與合作：</b>鼓勵社群共創，擴大全球開源軟體的影響力和生態系統。</li>
+  </ul>
+
+  <h2>專案特色</h2>
+  <ul class="ui list">
+    <li><b>安裝難易度與設備需求測試：</b>我們親自測試各類工具的安裝流程，評估所需硬體設備、系統環境、網路條件與技術門檻，並以清楚易懂的方式呈現給用戶。目的是讓技術力較低的用戶，也能在採用前充分了解該工具是否符合自身條件，避免踩雷並提升採用成功率。</li>
+    <li><b>多維度的工具分類：</b>依應用領域如通信、加密、隱私保護、數據分析等，讓使用者輕鬆找到目標工具。</li>
+    <li><b>完整的使用說明與指引：</b>從入門教學、操作手冊、常見問題解答到部署流程，提供不同層次的支持文件。</li>
+    <li><b>社群互動與貢獻機制：</b>歡迎使用者提交工具推薦、使用心得、評測建議，共同提升資料品質。</li>
+  </ul>
+
+  <h2>適用對象</h2>
+  <ul class="ui list">
+    <li>對安全、隱私有需求的個人使用者</li>
+    <li>技術背景多寡不一的非營利組織與民間團體</li>
+    <li>軟體開發者與安全研究人員</li>
+    <li>教育與學術研究機構</li>
+    <li>政府或公共服務相關單位</li>
+  </ul>
+
+  <h2>如何參與專案</h2>
+  <p>在 GitHub 提交工具推薦或評測資料、分享實際使用經驗與回饋、協助撰寫或完善操作指南與安裝教學、參與社群討論與推廣活動。詳細貢獻流程請參閱專案的 Contributing 文件。</p>
 
   <div class="ui divider"></div>
 
@@ -44,10 +76,5 @@ page_title: Open Tech Garage
       {% endif %}
     {% endfor %}
   </div>
-
-  <div class="ui divider"></div>
-
-  <h2 class="ui header">技術文件</h2>
-  <p>關於本專案的評估方法、資料結構等詳細資訊，請參考我們的<a href="{{ site.baseurl }}/p/otg/technical/assessment/data-structure.md">技術文件</a>。</p>
 
 </div>
