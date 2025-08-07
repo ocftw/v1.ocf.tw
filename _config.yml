@@ -8,6 +8,10 @@ url: https://ocf.tw
 #       og_title: "test default title"
 #       og_image: /mediakit/cover.png
 #       og_description: "test default description"
+collections:
+  p:
+    output: true
+    permalink: /p/:path/
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
