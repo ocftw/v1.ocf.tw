@@ -1,8 +1,8 @@
 name:  開放科技車庫 Open Tech Garage
 name_en: Open Tech Garage
 
-description: 一個專注於評估與分析各類開源工具的專案，旨在提供透明、客觀的資訊，幫助使用者選擇適合自己的安全與隱私工具。
-description_en: A project focused on evaluating and analyzing various open-source tools, aiming to provide transparent and objective information to help users choose the right security and privacy tools.
+description: Open Tech Garage 是一個專注於評估、分析和測試各種開放原始碼軟體工具的專案。我們致力於提供透明的資訊，幫助使用者做出明智的選擇，特別是那些重視安全和隱私的使用者。評估範圍涵蓋功能性、安全性、隱私保護、使用者體驗和技術維護等多個面向。我們親自測試工具的安裝過程，評估硬體需求、系統環境、網路條件和技術門檻，透過完整的說明文件降低入門障礙。內容包含從教學手冊到常見問題的各層級文件，並以多維度分類整理工具。我們持續更新以回應技術演進和社群回饋，歡迎透過 GitHub 貢獻工具推薦、使用經驗和評估建議，共同推廣開源文化並鼓勵協作開發。
+description_en: Open Tech Garage is a project focused on evaluating, analyzing and testing various open source software tools. We provide transparent information to help users make informed choices, particularly those prioritizing security and privacy. Our comprehensive evaluation spans functionality, security, privacy protection, user experience, and technical maintenance. We personally test tool installation processes, evaluating hardware requirements, system environment, network conditions, and technical thresholds. Complete documentation ranges from tutorials to FAQs across all skill levels. We organize tools through multi-dimensional categorization and provide continuous updates responsive to technological evolution and community feedback. We welcome contributions of tool recommendations, user experiences, and evaluation suggestions via GitHub, promoting open source culture and encouraging collaborative development.
 
 tagline:  您的開源工具指南
 tagline_en: Your Guide to Open Source Tools
@@ -29,14 +29,14 @@ tags:
 tags_en:
 
 links:
-  - title: 專案首頁
-    url: https://ocf.tw/p/otg/
+  - title: Open Tech Garage 網站
+    url: https://otg.ocf.tw/
     color: blue
-    icon: world icon 
+    icon: world icon
 
 links_en:
-  - title: Project Home
-    url: https://ocf.tw/p/otg/
+  - title: Open Tech Garage Website
+    url: https://otg.ocf.tw/
     color: blue
     icon: world icon 
 
