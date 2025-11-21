@@ -43,4 +43,24 @@
 - title: COSCUP 20 週年！OCF 精彩活動一次看
   subtitle: 2025 年 8 月號
   description: COSCUP 開源人年會第二十年舉辦，8/9 ~ 8/10 地點一樣選擇在書卷氣息濃厚的臺灣科技大學，今年 OCF 有哪些重點活動，一起來看看吧！
+  link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=357
   cover: /p/newspaper/epaper202508.png
+
+- title: 音樂現場已落幕，自由的節奏才剛開始
+  subtitle: 2025 年 9 月號
+  description: 從 OCF 首張公眾授權專輯《時間浸漬》，到今年與 Mong Tong 合作的《明日音》黑膠專輯，我們持續把 Open Data 與開源精神帶進文化載體，開啟更多跨界共創的可能...
+  link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=362
+  cover: /p/newspaper/epaper202509.jpg
+
+- title: 迷幻開源宇宙啟動 - Mong Tong × XTRUX《明日音》
+  subtitle: 2025 年 10 月號
+  description: 繼與林強、Luca Bonaccorsi 合作的 CC 公眾授權專輯「時間浸漬」大受好評之後，我們再次將「開源精神」帶入音樂與藝術，與迷幻電子雙人組 Mong Tong 合作推出全新專輯《明日音》，並於 10 月 15 日起登上 FlyingV 展開募資。
+  link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=364
+  cover: /p/newspaper/epaper202510.png
+
+- title: 社群不滅火！開源人才接力賽，續航力大升級！
+  subtitle: 2025 年 11 月號
+  description: 你是否曾為開源社群「一陣熱鬧後又歸於沉寂」的困境感到惋惜？OCF 決定不再讓這成為常態！我們在今年 8 月到 11 月，與政府資源合作嘗試啟動了 AI 技術小聚之「開源人才接力賽」，透過導入「業師-學員相互學習」模式，成功協助 Apache Taipei 與 Twinkle AI 兩個社群注入新鮮血液，目標尋求終結社群的「來一波、又消火」魔咒！
+  link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=367
+  cover: /p/newspaper/epaper202511.png
+

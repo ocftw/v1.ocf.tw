@@ -13,21 +13,21 @@
   bottom: 12%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #D7DCF0; 
-  color: #CE0058;
+  background-color: #d7dcf0;
+  color: #ce0058;
   padding: 12px 24px;
   border: none;
   border-radius: 8px;
   font-size: 1rem;
   text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   z-index: 10;
 }
 
 .donate-button:hover {
-  background-color: #FFFFFF;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  background-color: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
 @media only screen and (max-width: 767px) {
@@ -425,5 +425,36 @@
 
   #homepage #what_we_do .items > .item > .image {
     width: 100% !important;
+  }
+}
+
+/* test */
+
+/* slick 輪播 RWD fix，限制圖片最大寬度 100% 並自動縮放 */
+.slick img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+/* slick 輪播區自適應寬度，避免橫向滾動 */
+.slick {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .slick {
+    /* 可依需求自訂 padding 或 margin */
+    padding: 0 8px;
+  }
+  .slick img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transform: scale(1.2); /* 放大圖片以適應較小螢幕 */
+    transform-origin: center center; /* 以圖片中心為縮放基準 */
   }
 }

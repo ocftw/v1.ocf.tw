@@ -1,56 +1,28 @@
-// Mixins
+// mixins
 // --------------------------
+@use 'variables' as v;
 
-@mixin fa-icon {
+// base rendering for an icon
+@mixin fa-icon($family: v.$family) {
+  --_#{v.$css-prefix}-family: var(--#{v.$css-prefix}-family, var(--#{v.$css-prefix}-style-family, '#{$family}'));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
+  display: var(--#{v.$css-prefix}-display, #{v.$display});
+  font-family: var(--_#{v.$css-prefix}-family);
+  font-feature-settings: normal;
   font-style: normal;
+  font-synthesis: none;
   font-variant: normal;
-  font-weight: normal;
+  font-weight: var(--#{v.$css-prefix}-style, #{v.$style});
   line-height: 1;
+  text-align: center;
+  text-rendering: auto;
+  width: var(--#{v.$css-prefix}-width, #{v.$fw-width});
 }
 
-@mixin fa-icon-rotate($degrees, $rotation) {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
-  transform: rotate($degrees);
-}
-
-@mixin fa-icon-flip($horiz, $vert, $rotation) {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1)";
-  transform: scale($horiz, $vert);
-}
-
-
-// Only display content to screen readers. A la Bootstrap 4.
-//
-// See: http://a11yproject.com/posts/how-to-hide-content/
-
-@mixin sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-// Use in conjunction with .sr-only to only display content when it's focused.
-//
-// Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
-//
-// Credit: HTML5 Boilerplate
-
-@mixin sr-only-focusable {
-  &:active,
-  &:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-  }
+// sets relative font-sizing and alignment (in _sizing)
+@mixin fa-size ($font-size) {
+  font-size: calc(#{$font-size} / #{v.$size-scale-base} * 1em); /* converts a #{$font-size}px size into an em-based value that's relative to the scale's #{v.$size-scale-base}px base */
+  line-height: calc(1 / #{$font-size} * 1em); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc(((6 / #{$font-size}) - (3 / 8)) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
 }

@@ -1,11 +1,67 @@
-- title: 他們用程式碼改變世界——臺灣開源運動的前世今生
+- title: "從蔡衍明控告維基百科，回頭檢視台灣的平台法制"
+  slug: epaper/2025/202511news/wiki-sue/
+  date: 2025-11-18
+
+- title: "【開源治理系列】OSPO 正在集結中！來自世界各地的政府開源專案辦公室"
+  slug: ospos-2-floss-pso-intl-network
+  date: 2025-11-04
+
+- title: "【開源治理系列】OCF 正式加入 OSPO 聯盟！開源治理手冊是什麼？"
+  slug: ospos-1-join-OSPO-alliance
+  date: 2025-11-01
+  
+- title: "OCF 與愛陌生基金會攜手改善 AED 資料品質"
+  slug: epaper/2025/202511news/aed
+  date: 2025-10-31
+
+- title: "數位威權主義商品化-網路政變報告分享會"
+  slug: epaper/2025/202510news/ifm10/
+  date: 2025-10-27
+
+- title: "台灣數位信任協會"
+  slug: epaper/2025/202510news/ifm07/
+  date: 2025-10-27
+  
+- title: "迷幻開源宇宙啟動：Mong Tong × XTRUX《明日音》"
+  slug: epaper/2025/202510news/main/
+  date: 2025-10-15
+
+- title: "MONG TONG《明日音》「反民族誌音樂」的誕生"
+  slug: epaper/2025/202510news/mongtong-da/
+  date: 2025-10-15
+
+- title: "【新聞】2025/10 開放科技新聞摘要"
+  slug: epaper/2025/202510news/news/
+  date: 2025-10-07
+
+- title: "OCF 參與 Jam Jam Asia 亞洲音樂節回顧：開放音像派對：從《時間浸漬》到《明日音》"
+  slug: epaper/2025/202509news/jja-music
+  date: 2025-09-18
+
+- title: "OCF 參與臺北音樂博覽會回顧：解放創作的未來 —— 從開源共創到 AI 藝術創作"
+  slug: epaper/2025/202509news/jja-forum
+  date: 2025-09-18
+
+- title: "【新聞】2025/9 開放科技新聞摘要"
+  slug: epaper/2025/202509news/news
+  date: 2025-09-01
+
+- title: "【新聞】2025/8 開放科技新聞摘要"
+  slug: epaper/2025/202508news
+  date: 2025-08-01
+
+- title: "【開源祭特刊】他們用程式碼改變世界——臺灣開源運動的前世今生"
   slug: change-the-world
   date: 2025-07-31
 
-- title: 沒寫過程式，也能當開源大神！走進開源祭，找到自己的位子
+- title: "【開源祭特刊】沒寫過程式，也能當開源大神！走進開源祭，找到自己的位子"
   slug: find-your-place
   date: 2025-07-31
 
-- title: 從協助社群帳務到登上國際舞台，OCF 推動開源文化的十年之路
+- title: "【開源祭特刊】從協助社群帳務到登上國際舞台，OCF 推動開源文化的十年之路"
   slug: ten-years-of-ocf
   date: 2025-07-31
+
+- title: "OCF 精彩活動一次看，COSCUP 20 週年！"
+  slug: ocf-in-coscup
+  date: 2025-07-20

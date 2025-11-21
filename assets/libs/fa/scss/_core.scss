@@ -1,21 +1,29 @@
-// Base Class Definition
+// base icon class definition
 // -------------------------
+@use 'variables' as v;
+@use 'mixins' as m;
 
-.#{$fa-css-prefix},
+.#{v.$css-prefix}-solid,
+.#{v.$css-prefix}-regular,
+.#{v.$css-prefix}-brands,
+.#{v.$css-prefix}-classic,
 .fas,
 .far,
-.fal,
-.fad,
-.fab {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
+.fab,
+.#{v.$css-prefix} {
+  @include m.fa-icon();
 }
 
-%fa-icon {
-  @include fa-icon;
+:is(
+  .fas,
+  .far,
+  .fab,
+  .#{v.$css-prefix}-solid,
+  .#{v.$css-prefix}-regular,
+  .#{v.$css-prefix}-brands,
+  .#{v.$css-prefix}-classic,
+  .fa
+)::before {
+  content: var(#{v.$icon-property});
+  content: var(#{v.$icon-property})/"";
 }

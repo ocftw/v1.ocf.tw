@@ -1,0 +1,12 @@
+- id: cscs
+  name: 2025 十一月 教材編輯松
+  name_en: 2025 November Edit-a-thon
+  description: 在 2023 開始的培訓課程當中，我們蒐集到學員與講師們對於現有的教材的回饋意見。但由於建議的內容包含很多面向，而且課程使用到的簡報只是總體教材的一部分。所以正在接連舉辦教材編輯松，邀請各位協助改善教材內容。在今年的教材編輯松中，我們繼續針對CSCS 社群自製教材（公開網路版） 的十份簡報為主要目標，在現場與線上進行總體與個別內容的檢視、編修作業。因應最近服務經驗的現場需求，在五月也開始編輯「安全使用 AI 服務」的新章節，有興趣參與的朋友可以留意。也歡迎各位在現場對於SEC 教材或更多不同主題的教材提出編修、新建的需求。
+  start: 2025/11/15
+  end:
+  links:
+    - title: 報名網頁
+      url: https://docs.google.com/forms/d/e/1FAIpQLSeXzrEOJO9uDoKaxpFSSmuxl-4WY6qoJMH4Mbcf2DwSKjw3NQ/viewform
+  cover_image:
+  project_ids:
+    - cscs
