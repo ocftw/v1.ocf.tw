@@ -39,6 +39,13 @@ tags_en:
 organizer_ids:
   - ocf
 
+actions:
+  - title: 我要參與連署
+    url: https://forms.gle/sFLb27WYARo1j6BY6
+    icon: edit
+    color: red
+actions_en:
+
 board_ids:
 staff_ids:
 
