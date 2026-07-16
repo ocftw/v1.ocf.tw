@@ -1,0 +1,63 @@
+<section id="infr-webm-hero" class="infr-hero" aria-labelledby="infr-hero-title">
+  <video
+    id="infr-webm-motion"
+    class="infr-hero__motion"
+    poster="/p/infr/assets/internet-freedom-poster.jpg"
+    width="1280"
+    height="720"
+    preload="metadata"
+    muted
+    loop
+    playsinline
+    aria-hidden="true"
+  >
+    <source src="/p/infr/assets/internet-freedom.webm" type="video/webm">
+    <source src="/p/infr/assets/internet-freedom.mp4" type="video/mp4">
+  </video>
+
+  <svg class="infr-network-flow" viewBox="0 0 1440 810" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <filter id="infr-signal-glow" x="-80%" y="-80%" width="260%" height="260%">
+        <feGaussianBlur stdDeviation="7" result="blur"></feGaussianBlur>
+        <feMerge>
+          <feMergeNode in="blur"></feMergeNode>
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+      </filter>
+      <path id="infr-route-main" d="M312 822 C420 758 584 682 744 638 C808 632 848 604 869 568 C889 535 886 522 905 518 C916 491 945 468 932 430 C921 392 911 371 943 348 C978 322 1019 338 1052 329 C1071 323 1072 304 1054 297 C1028 289 1019 272 1032 254 C1064 216 1104 202 1149 159 C1129 126 1091 111 1046 105 C1015 101 988 92 965 81"></path>
+      <path id="infr-route-lower" d="M905 518 C958 519 1011 533 1054 559 C1078 574 1098 585 1122 587 C1166 584 1183 546 1198 507 C1216 469 1250 456 1287 451 C1290 417 1279 389 1263 370"></path>
+      <path id="infr-route-dotted" d="M744 638 C680 621 631 584 568 546 C578 493 607 452 650 427 C695 402 740 384 782 361 C759 331 759 302 782 270 C811 229 846 190 890 141 C915 112 940 95 965 81"></path>
+    </defs>
+
+    <g class="infr-network-flow__routes">
+      <use href="#infr-route-main"></use>
+      <use href="#infr-route-lower"></use>
+      <use href="#infr-route-dotted"></use>
+    </g>
+
+    <g class="infr-network-flow__signals" filter="url(#infr-signal-glow)">
+      <circle r="4"><animateMotion dur="5.8s" repeatCount="indefinite"><mpath href="#infr-route-main"></mpath></animateMotion></circle>
+      <circle r="3"><animateMotion dur="5.8s" begin="-2.9s" repeatCount="indefinite"><mpath href="#infr-route-main"></mpath></animateMotion></circle>
+      <circle r="3"><animateMotion dur="4.6s" begin="-1.4s" repeatCount="indefinite"><mpath href="#infr-route-lower"></mpath></animateMotion></circle>
+      <circle r="3"><animateMotion dur="6.2s" begin="-3.1s" repeatCount="indefinite"><mpath href="#infr-route-dotted"></mpath></animateMotion></circle>
+    </g>
+  </svg>
+
+  <div class="infr-hero__veil" aria-hidden="true"></div>
+
+  <div class="infr-hero__content page__container">
+    <p class="infr-hero__eyebrow">OCF × Internet Freedom</p>
+    <h1 id="infr-hero-title">讓訊號繞過封鎖，<br>保持網路開放。</h1>
+    <p class="infr-hero__intro">
+      網路讓人交換資訊、組織行動，也讓權力更容易追蹤與阻斷溝通。
+      我們持續揭露網路審查、推廣隱私工具，讓更多人有能力保護自己的數位權利。
+    </p>
+    <div class="infr-hero__actions">
+      <button id="infr-webm-control" class="infr-route-control" type="button" aria-pressed="false">
+        <span class="infr-route-control__dot" aria-hidden="true"></span>
+        讓訊號重新連上
+      </button>
+      <a class="infr-hero__link" href="#project-content">了解我們的工作</a>
+    </div>
+  </div>
+</section>

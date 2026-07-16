@@ -1,0 +1,293 @@
+:root {
+  --infr-night: #080823;
+  --infr-purple: #7d56c9;
+  --infr-coral: #ff684d;
+  --infr-amber: #ffbd69;
+  --infr-paper: #fffaf4;
+}
+
+.infr-aval-demo {
+  background: var(--infr-paper);
+  color: #262236;
+}
+
+.infr-hero {
+  position: relative;
+  min-height: min(760px, calc(100vh - 72px));
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--infr-night);
+  color: #fff;
+}
+
+.infr-hero__motion,
+.infr-hero__fallback {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.infr-hero__motion {
+  z-index: -3;
+  transform: scale(1.001);
+  filter: saturate(.9) brightness(.7);
+  transition: filter .6s ease, transform 1.2s ease;
+}
+
+.infr-hero[data-engaged] .infr-hero__motion {
+  filter: saturate(1.2) brightness(1.08);
+  transform: scale(1.025);
+}
+
+.infr-network-flow {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  opacity: 0;
+  filter: saturate(.85) brightness(.8);
+  transition: filter .45s ease, opacity .45s ease;
+}
+
+.infr-network-flow__routes use {
+  fill: none;
+  stroke: rgba(255, 184, 96, .72);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-dasharray: 1.5 18;
+  animation: infr-route-flow 2.8s linear infinite;
+  animation-play-state: paused;
+  filter: drop-shadow(0 0 4px rgba(255, 96, 64, .75));
+}
+
+.infr-network-flow__routes use:nth-child(2) {
+  animation-duration: 3.6s;
+  opacity: .78;
+}
+
+.infr-network-flow__routes use:nth-child(3) {
+  animation-duration: 4.2s;
+  opacity: .65;
+}
+
+.infr-network-flow__routes use:nth-child(4) {
+  animation-duration: 3.2s;
+  opacity: .55;
+}
+
+.infr-network-flow__signals circle {
+  fill: #fff4c7;
+  stroke: #ff714e;
+  stroke-width: 1.5;
+}
+
+.infr-hero[data-engaged] .infr-network-flow {
+  opacity: 1;
+  filter: saturate(1.3) brightness(1.35);
+}
+
+.infr-hero[data-engaged] .infr-network-flow__routes use {
+  animation-duration: 1.35s;
+  animation-play-state: running;
+}
+
+@keyframes infr-route-flow {
+  to { stroke-dashoffset: -108; }
+}
+
+.infr-hero__veil {
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(5, 7, 31, .98) 0%, rgba(5, 7, 31, .88) 31%, rgba(5, 7, 31, .28) 64%, rgba(5, 7, 31, .08) 100%),
+    linear-gradient(0deg, rgba(5, 7, 31, .55), transparent 45%);
+  pointer-events: none;
+}
+
+.infr-hero__content {
+  display: flex;
+  min-height: min(760px, calc(100vh - 72px));
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 88px;
+  padding-bottom: 72px;
+}
+
+.infr-hero__eyebrow,
+.infr-demo-note__label {
+  margin: 0 0 18px;
+  color: var(--infr-amber);
+  font: 700 .82rem/1.4 "Roboto", sans-serif;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.infr-hero h1 {
+  max-width: 760px;
+  margin: 0;
+  font: 800 clamp(3rem, 6.3vw, 6.8rem)/.98 "Chiron Hei HK", "Noto Sans TC", sans-serif;
+  letter-spacing: -.055em;
+  text-wrap: balance;
+}
+
+.infr-hero__intro {
+  max-width: 610px;
+  margin: 32px 0 0;
+  color: rgba(255, 255, 255, .82);
+  font-size: clamp(1.05rem, 1.55vw, 1.25rem);
+  line-height: 1.8;
+}
+
+.infr-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 26px;
+  margin-top: 36px;
+}
+
+.infr-route-control {
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 999px;
+  padding: 13px 22px;
+  background: rgba(15, 10, 45, .72);
+  box-shadow: 0 12px 32px rgba(3, 3, 20, .25);
+  color: #fff;
+  cursor: pointer;
+  font: 700 1rem/1.25 inherit;
+  backdrop-filter: blur(14px);
+  transition: border-color .2s ease, background .2s ease, transform .2s ease;
+}
+
+.infr-route-control:hover,
+.infr-route-control:focus-visible {
+  border-color: var(--infr-amber);
+  background: rgba(77, 38, 105, .88);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+.infr-route-control__dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--infr-coral);
+  box-shadow: 0 0 0 5px rgba(255, 104, 77, .17), 0 0 18px var(--infr-coral);
+}
+
+.infr-hero__link {
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 0;
+}
+
+.infr-hero__link:hover,
+.infr-hero__link:focus-visible {
+  border-color: var(--infr-amber);
+  color: var(--infr-amber);
+}
+
+.infr-motion-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin: 24px 0 0;
+  color: rgba(255, 255, 255, .58);
+  font-size: .82rem;
+}
+
+.infr-motion-status > span:first-child {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #b8afc8;
+}
+
+.infr-motion-status[data-mode="motion"] > span:first-child {
+  background: #7ce2bc;
+  box-shadow: 0 0 10px rgba(124, 226, 188, .8);
+}
+
+.infr-motion-status[data-mode="fallback"] > span:first-child {
+  background: var(--infr-amber);
+}
+
+.infr-demo-note {
+  max-width: 900px;
+  padding-top: 80px;
+  padding-bottom: 96px;
+}
+
+.infr-demo-note__label {
+  color: #7750b6;
+}
+
+.infr-demo-note h2 {
+  margin: 0 0 22px;
+  color: #1b1730;
+  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  line-height: 1.2;
+}
+
+.infr-demo-note p:last-child {
+  max-width: 760px;
+  font-size: 1.1rem;
+  line-height: 1.85;
+}
+
+@media (max-width: 720px) {
+  .infr-hero {
+    min-height: 720px;
+  }
+
+  .infr-hero__veil {
+    background:
+      linear-gradient(0deg, rgba(5, 7, 31, .98) 0%, rgba(5, 7, 31, .84) 52%, rgba(5, 7, 31, .25) 100%);
+  }
+
+  .infr-hero__content {
+    min-height: 720px;
+    justify-content: flex-end;
+    padding-top: 180px;
+    padding-bottom: 44px;
+  }
+
+  .infr-hero h1 {
+    font-size: clamp(2.75rem, 13vw, 4.5rem);
+  }
+
+  .infr-hero__intro {
+    margin-top: 24px;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .infr-motion-status {
+    margin-top: 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .infr-route-control,
+  .infr-hero__motion,
+  .infr-network-flow {
+    transition: none;
+  }
+
+  .infr-network-flow {
+    display: none;
+  }
+}

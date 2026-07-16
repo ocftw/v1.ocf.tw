@@ -18,11 +18,15 @@ layout: global
 
 <main id="project">
 
+{% if page.custom_header == 'infr-webm' %}
+{% include p/infr-webm-header.html %}
+{% else %}
 {% include p/header.html %}
+{% endif %}
 
 <!-- 主要區塊 -->
 
-<div class="page__container">
+<div class="page__container"{% if page.custom_header == 'infr-webm' %} id="project-content"{% endif %}>
   <div class="page__spacer--xlarge"></div>
   <div class="page__grid project__body">
 
