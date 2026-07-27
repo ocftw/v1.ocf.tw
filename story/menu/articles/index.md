@@ -28,16 +28,19 @@ toc: false
         {% endunless %}
       {% endfor %}
 
-      <div class="story-filter-panel" aria-label="文章分類篩選">
-        <div class="story-filter-heading">依 TAG 瀏覽</div>
-        <div class="ui small buttons story-filter-buttons">
-          <button type="button" class="ui button story-filter active" data-filter-type="all" data-filter-value="">
-            全部文章
+      <nav class="story-filter-bar" aria-label="文章分類篩選">
+        <div class="story-filter-bar__topline">
+          <div class="story-filter-heading">文章分類</div>
+          <div id="story-filter-summary" class="story-filter-summary" aria-live="polite"></div>
+        </div>
+        <div class="story-filter-buttons">
+          <button type="button" class="story-filter active" data-filter-type="all" data-filter-value="">
+            全部
           </button>
           {% for category in story_categories %}
           <button
             type="button"
-            class="ui basic button story-filter"
+            class="story-filter"
             data-filter-type="category"
             data-filter-value="{{ category | escape }}"
           >
@@ -45,8 +48,7 @@ toc: false
           </button>
           {% endfor %}
         </div>
-        <div id="story-filter-summary" class="story-filter-summary" aria-live="polite"></div>
-      </div>
+      </nav>
 
       <div class="ui relaxed divided list">
       {% assign new_articles = "" | split: "," %}
@@ -132,7 +134,6 @@ toc: false
                 button.dataset.filterType === type &&
                 button.dataset.filterValue === value;
               button.classList.toggle('active', isActive);
-              button.classList.toggle('basic', !isActive);
             });
           }
 
@@ -151,8 +152,8 @@ toc: false
             setActiveButton(type, value);
             filterSummary.textContent =
               type === 'all'
-                ? `共 ${visibleCount} 篇文章`
-                : `「${value}」共有 ${visibleCount} 篇文章`;
+                ? `共 ${visibleCount} 篇`
+                : `${visibleCount} 篇`;
 
             if (type !== 'all') {
               olderAccordion.accordion('open', 0);
