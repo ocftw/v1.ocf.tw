@@ -1,16 +1,13 @@
 ---
 layout: story
-og_title: "串連社群、產業和政府：OSPOlogy 2026 現場速記"
-og_description: "OCF 在 OSPOlogy Asia 2026 分享如何透過轉譯、連結、陪伴與能力移轉，協助企業和政府建立開源治理能力。"
+og_title: "串連社群、產業和政府"
+og_description: "OSPOlogy 2026 現場速記"
 publish_date: 2026-07-27
 modified_time: 2026-07-27 18:00
 author: OCF
-section: 開源治理系列
 ---
 
 # 串連社群、產業和政府
-
-***OSPOlogy 2026 現場速記***
 
 很多公司和政府機關早就在使用開源軟體，內部也有熟悉開源社群的工程師。問題是，這些經驗常常只留在個人身上。想回報問題、貢獻程式碼，或把內部工具開放出來時，組織裡未必有共同流程，也不一定知道誰能做決定。
 
@@ -51,12 +48,3 @@ OCF 去年完成[《開放原始碼良善治理手冊》](https://ocf.tw/story/o
 組織還沒有正式 OSPO，也可以先做 OSPO 會做的事。從盤點現況、建立討論方式，到完成一次具體協作，這些工作現在就能開始。
 
 從準備、協助 OSPO 成立的角度，OCF 協助組織看見既有的開源能力，進行連結和實作，讓經驗逐步留在組織內部，成為能夠持續運作的能力。如果你的組織也正面對類似問題，歡迎與我們聯繫。
-
-## 開源治理系列專文
-
-* [#01 OCF 正式加入 OSPO 聯盟！開源治理手冊是什麼？](https://ocf.tw/story/ospos-1-join-OSPO-alliance/)
-* [#02 OSPO 正在集結中！來自世界各地的政府開源專案辦公室](https://ocf.tw/story/ospos-2-floss-pso-intl-network/)
-* [#03 2026 Q1 開源合規與安全調查報告：臺灣企業準備好了嗎？](https://ocf.tw/story/ospos-3-taiwan-open-compliance-security-report-2026-q1/)
-* [#04 開源不只是技術選擇：AI 時代企業布局國際競爭力的起點](https://ocf.tw/story/open-source-business-ai-competitiveness-2026/)
-* [#05 OCF 前進 Sony 總部：台灣開源治理推動經驗如何與亞洲接軌？](https://ocf.tw/story/ospos-5-ospology-asia-sony-2026/)
-* [#06 串連社群、產業和政府：OSPOlogy 2026 現場速記](https://ocf.tw/story/ospos-6-start-before-formal-ospo/)
