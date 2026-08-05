@@ -309,5 +309,5 @@ html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .infr-route-control, .infr-hero__motion, .infr-network-flow, .infr-step, .infr-packet-map__progress { transition: none; }
-  .infr-network-flow { display: none; }
+  .infr-network-flow__routes use { animation: none; }
 }
