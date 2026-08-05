@@ -244,24 +244,24 @@ html { scroll-behavior: smooth; }
 
 /* The shared project theme colors every heading and link purple. Dark story
    sections need stronger, local selectors to preserve readable contrast. */
-#project .infr-hero h1,
-#project .infr-journey h2,
-#project .infr-journey h3,
-#project .infr-work h2,
-#project .infr-work h3,
-#project .infr-closing h2 { color: #fff; }
+:is(#project, #internet-freedom) .infr-hero h1,
+:is(#project, #internet-freedom) .infr-journey h2,
+:is(#project, #internet-freedom) .infr-journey h3,
+:is(#project, #internet-freedom) .infr-work h2,
+:is(#project, #internet-freedom) .infr-work h3,
+:is(#project, #internet-freedom) .infr-closing h2 { color: #fff; }
 
-#project .infr-section-nav a { color: rgba(255,255,255,.72); }
-#project .infr-section-nav a:hover,
-#project .infr-section-nav a:focus-visible,
-#project .infr-hero__link,
-#project .infr-text-link { color: #fff; }
-#project .infr-hero__link:hover,
-#project .infr-hero__link:focus-visible { color: var(--infr-amber); }
-#project .infr-work-grid a { color: var(--infr-purple-light); }
-#project .infr-button,
-#project .infr-button:hover,
-#project .infr-button:focus-visible { color: #fff; }
+:is(#project, #internet-freedom) .infr-section-nav a { color: rgba(255,255,255,.72); }
+:is(#project, #internet-freedom) .infr-section-nav a:hover,
+:is(#project, #internet-freedom) .infr-section-nav a:focus-visible,
+:is(#project, #internet-freedom) .infr-hero__link,
+:is(#project, #internet-freedom) .infr-text-link { color: #fff; }
+:is(#project, #internet-freedom) .infr-hero__link:hover,
+:is(#project, #internet-freedom) .infr-hero__link:focus-visible { color: var(--infr-amber); }
+:is(#project, #internet-freedom) .infr-work-grid a { color: var(--infr-purple-light); }
+:is(#project, #internet-freedom) .infr-button,
+:is(#project, #internet-freedom) .infr-button:hover,
+:is(#project, #internet-freedom) .infr-button:focus-visible { color: #fff; }
 
 @media (max-width: 900px) {
   .infr-opening__copy, .infr-topic-grid, .infr-work-grid, .infr-meetup { grid-template-columns: 1fr; }

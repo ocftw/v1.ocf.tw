@@ -1,0 +1,152 @@
+---
+layout: internet-freedom
+
+og_title: 網路自由
+og_description: 從一次連線開始，理解網路封鎖、隱私監控、平台權力與網路韌性，以及 OCF 如何讓網路保持開放。
+og_image: /p/infr/assets/internet-freedom-poster.jpg
+
+css: infr-aval-demo.css?v=8
+js: infr-webm-demo.js?v=8
+---
+<nav class="infr-section-nav" aria-label="本頁段落">
+  <a href="#journey">連線的旅程</a>
+  <a href="#topics">認識問題</a>
+  <a href="#work">OCF 的工作</a>
+  <a href="#meetup">近期行動</a>
+</nav>
+
+<section class="infr-opening infr-shell" aria-labelledby="infr-opening-title">
+  <p class="infr-kicker">從一次連線開始</p>
+  <h2 id="infr-opening-title">你看到網頁的這一刻，<br>資料已經經過許多人的手。</h2>
+  <div class="infr-opening__copy">
+    <p>你輸入網址，裝置先詢問網站在哪裡，再向伺服器索取內容。這段短短幾秒的路程，經過電信網路、DNS、平台與跨國海纜。每一站都可能影響你能不能抵達，也可能留下紀錄。</p>
+    <p>網路自由關注人們能否使用網路取得資訊、表達意見與組織行動，同時免於不當監控、審查與差別待遇。</p>
+  </div>
+</section>
+
+<section id="journey" class="infr-journey" aria-labelledby="infr-journey-title">
+  <div class="infr-journey__visual" aria-hidden="true">
+    <div class="infr-packet-map">
+      <div class="infr-packet-map__label">一次連線</div>
+      <svg viewBox="0 0 720 540" role="presentation">
+        <path class="infr-packet-map__path" d="M80 420 C155 420 153 306 244 306 S332 202 425 202 S525 112 642 112"></path>
+        <path class="infr-packet-map__progress" d="M80 420 C155 420 153 306 244 306 S332 202 425 202 S525 112 642 112"></path>
+        <g class="infr-map-node" data-node="0" transform="translate(80 420)"><circle r="15"></circle><text y="43">你的裝置</text></g>
+        <g class="infr-map-node" data-node="1" transform="translate(244 306)"><circle r="15"></circle><text y="43">DNS</text></g>
+        <g class="infr-map-node" data-node="2" transform="translate(425 202)"><circle r="15"></circle><text y="43">網路與平台</text></g>
+        <g class="infr-map-node" data-node="3" transform="translate(642 112)"><circle r="15"></circle><text y="43">目的地</text></g>
+      </svg>
+      <p class="infr-packet-map__status">輸入網址，準備送出請求</p>
+    </div>
+  </div>
+  <div class="infr-journey__steps">
+    <header class="infr-journey__intro">
+      <p class="infr-kicker">一則訊息如何抵達</p>
+      <h2 id="infr-journey-title">連得上，是許多條件暫時都成立。</h2>
+    </header>
+    <article class="infr-step is-active" data-stage="0" data-status="輸入網址，準備送出請求">
+      <span>01</span><h3>你發出請求</h3>
+      <p>瀏覽器需要知道網站所在的 IP 位址。這個查詢通常會交給 DNS 服務處理。</p>
+    </article>
+    <article class="infr-step" data-stage="1" data-status="DNS 正在回答網站位址">
+      <span>02</span><h3>有人替網路指路</h3>
+      <p>DNS 像網路的地址簿。錯誤回覆、攔截查詢或修改紀錄，都可能讓使用者找不到原本的網站。</p>
+    </article>
+    <article class="infr-step" data-stage="2" data-status="請求通過網路與平台規則">
+      <span>03</span><h3>沿途可以觀察，也能阻擋</h3>
+      <p>電信業者、平台與政府各自掌握不同的技術和權力。限速、封鎖、內容下架與流量監控，可能發生在不同位置。</p>
+    </article>
+    <article class="infr-step" data-stage="3" data-status="訊息抵達，但自由仍需要被守住">
+      <span>04</span><h3>抵達不代表問題消失</h3>
+      <p>連線成功之後，個資如何被蒐集、演算法如何決定內容能見度、使用者能否申訴，仍會影響每個人的數位權利。</p>
+    </article>
+  </div>
+</section>
+
+<section id="topics" class="infr-topics infr-shell" aria-labelledby="infr-topics-title">
+  <div class="infr-section-heading">
+    <p class="infr-kicker">問題離生活很近</p>
+    <h2 id="infr-topics-title">網路自由受到哪些壓力？</h2>
+    <p>封鎖只是其中一種形式。日常使用的服務、裝置與制度，都會改變人們在網路上的處境。</p>
+  </div>
+  <div class="infr-topic-grid">
+    <article class="infr-topic-card infr-topic-card--censorship">
+      <span class="infr-topic-card__number">01</span><div class="infr-topic-card__signal" aria-hidden="true"></div>
+      <h3>網路封鎖與審查</h3><p>網站突然無法開啟，可能來自 DNS、IP、關鍵字或整段網路的封鎖。測量工具能協助我們分辨技術故障與人為干預。</p>
+      <a href="/p/ooni/">認識 OONI <span aria-hidden="true">→</span></a>
+    </article>
+    <article class="infr-topic-card infr-topic-card--privacy">
+      <span class="infr-topic-card__number">02</span><div class="infr-topic-card__signal" aria-hidden="true"></div>
+      <h3>隱私與監控</h3><p>瀏覽紀錄、位置、聯絡人與生物特徵都能拼出一個人的生活。資料蒐集需要清楚界線，也需要真正可行的拒絕方式。</p>
+      <a href="/p/eid/">閱讀數位身分案例 <span aria-hidden="true">→</span></a>
+    </article>
+    <article class="infr-topic-card infr-topic-card--platform">
+      <span class="infr-topic-card__number">03</span><div class="infr-topic-card__signal" aria-hidden="true"></div>
+      <h3>平台權力</h3><p>內容排序、下架與帳號停權會改變公共討論。規則需要透明，受到錯誤處置的人也需要有效的申訴管道。</p>
+      <a href="/p/issues/">查看議題倡議 <span aria-hidden="true">→</span></a>
+    </article>
+    <article class="infr-topic-card infr-topic-card--resilience">
+      <span class="infr-topic-card__number">04</span><div class="infr-topic-card__signal" aria-hidden="true"></div>
+      <h3>網路韌性</h3><p>海纜、基地台與資料中心都可能中斷。災害或政治危機發生時，通訊備援與開放工具會直接影響人們能否互相找到。</p>
+      <a href="#meetup">查看相關小聚 <span aria-hidden="true">→</span></a>
+    </article>
+  </div>
+</section>
+
+<section id="work" class="infr-work" aria-labelledby="infr-work-title">
+  <div class="infr-shell">
+    <div class="infr-section-heading infr-section-heading--light">
+      <p class="infr-kicker">把關心變成行動</p>
+      <h2 id="infr-work-title">OCF 如何守住網路自由</h2>
+      <p>技術問題需要測量，政策爭議需要追蹤，使用工具的人也需要互相交換經驗。我們讓這些工作在台灣持續發生。</p>
+    </div>
+    <div class="infr-work-grid">
+      <article><strong>測量</strong><h3>留下網路審查的證據</h3><p>推廣 OONI，協助更多人理解測量資料，辨認網站封鎖與連線異常。</p><a href="/p/ooni/">查看 OONI 專案</a></article>
+      <article><strong>討論</strong><h3>讓艱難議題有人能問</h3><p>網路自由小聚從 2019 年開始，持續討論隱私、平台治理、AI、通訊安全與網路韌性。</p><a href="#meetup">查看近期主題</a></article>
+      <article><strong>倡議</strong><h3>把公民觀點帶進政策現場</h3><p>追蹤數位治理與人權爭議，透過文章、聲明、會議參與及跨組織合作提出意見。</p><a href="/p/issues/">閱讀倡議工作</a></article>
+      <article><strong>串連</strong><h3>讓台灣加入國際對話</h3><p>參與 RightsCon、DRAPAC、IETF 與 OONI 社群，把在地經驗帶出去，也把國際方法帶回來。</p><a href="/p/global/">查看國際交流</a></article>
+    </div>
+    <div class="infr-history" aria-label="網路自由工作時間軸">
+      <div><time>2019</time><p>台北網路自由小聚開始，每月聚集關心數位權利的人。</p></div>
+      <div><time>2023</time><p>從 OONI、AI 到數位韌性，議題跨進更多生活與政策現場。</p></div>
+      <div><time>2025</time><p>RightsCon 在台北舉行，台灣公民社會與全球數位人權社群相遇。</p></div>
+      <div><time>2026</time><p>持續追問海纜、平台管制、災防通訊與身分資料帶來的新問題。</p></div>
+    </div>
+  </div>
+</section>
+
+{% assign current_event = site.data.p.infr.events | first %}
+<section id="meetup" class="infr-meetup infr-shell" aria-labelledby="infr-meetup-title">
+  <div class="infr-meetup__intro">
+    <p class="infr-kicker">Coffee &amp; Circumvention</p>
+    <h2 id="infr-meetup-title">下一個問題，帶來小聚一起拆。</h2>
+    <p>每個月第三個星期四，我們邀請技術工作者、研究者、記者、學生與一般使用者，從具體事件理解網路自由。</p>
+    <a class="infr-button infr-button--dark" href="https://ocftw.kktix.cc/" target="_blank" rel="noopener">查看最新活動</a>
+  </div>
+  <div class="infr-meetup__topics">
+    <p class="infr-meetup__year">2026 討論主題</p>
+    <ol>
+      {% for link in current_event.links %}
+      <li><a href="{{ link.url }}" target="_blank" rel="noopener"><span>{{ forloop.index | prepend: '0' }}</span>{{ link.title }}</a></li>
+      {% endfor %}
+    </ol>
+    <div class="infr-resource-links">
+      <a href="https://hackmd.io/efBMZl4ITImkxUOjlmByHg?view" target="_blank" rel="noopener">歷次活動共筆</a>
+      <a href="https://groups.google.com/g/coffee-circumvention-tw" target="_blank" rel="noopener">加入線上論壇</a>
+      <a href="https://www.youtube.com/watch?v=ek2XjW7Q3wI&amp;list=PLFuYOsppHDrlYquISvSfOjrT5g_mjMGot" target="_blank" rel="noopener">觀看活動影片</a>
+    </div>
+  </div>
+</section>
+
+<section class="infr-closing" aria-labelledby="infr-closing-title">
+  <div class="infr-closing__signal" aria-hidden="true"><span></span></div>
+  <div class="infr-shell">
+    <p class="infr-kicker">Keep the internet open</p>
+    <h2 id="infr-closing-title">自由的網路，需要有人持續測量、追問與行動。</h2>
+    <p>讓下一次連線，也能抵達它原本要去的地方。</p>
+    <div class="infr-closing__actions">
+      <a class="infr-button" href="https://ocf.tw/300/" target="_blank" rel="noopener">捐款支持 OCF</a>
+      <a class="infr-text-link" href="https://ocftw.kktix.cc/" target="_blank" rel="noopener">參加網路自由小聚 <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
