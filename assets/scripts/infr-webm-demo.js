@@ -61,4 +61,37 @@
   hero.setAttribute("data-motion-ready", "true");
   video.load();
   setEngaged(false);
+
+  var journey = document.getElementById("journey");
+  var steps = Array.prototype.slice.call(document.querySelectorAll(".infr-step"));
+  var progressPath = document.querySelector(".infr-packet-map__progress");
+  var mapNodes = Array.prototype.slice.call(document.querySelectorAll(".infr-map-node"));
+  var mapStatus = document.querySelector(".infr-packet-map__status");
+
+  function showJourneyStage(stage, text) {
+    var lastStage = Math.max(steps.length - 1, 1);
+    var progress = Math.min(Math.max(stage / lastStage, 0), 1);
+
+    steps.forEach(function (step) {
+      step.classList.toggle("is-active", Number(step.dataset.stage) === stage);
+    });
+    mapNodes.forEach(function (node) {
+      node.classList.toggle("is-active", Number(node.dataset.node) <= stage);
+    });
+    if (progressPath) progressPath.style.strokeDashoffset = String(1 - progress);
+    if (mapStatus && text) mapStatus.textContent = text;
+  }
+
+  if (journey && steps.length && "IntersectionObserver" in window) {
+    var stepObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        showJourneyStage(Number(entry.target.dataset.stage), entry.target.dataset.status);
+      });
+    }, { rootMargin: "-38% 0px -42% 0px", threshold: 0 });
+
+    steps.forEach(function (step) { stepObserver.observe(step); });
+  }
+
+  showJourneyStage(0, steps[0] && steps[0].dataset.status);
 }());

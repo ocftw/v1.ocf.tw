@@ -26,7 +26,12 @@ layout: global
 
 <!-- 主要區塊 -->
 
-<div class="page__container"{% if page.custom_header == 'infr-webm' %} id="project-content"{% endif %}>
+{% if page.custom_header == 'infr-webm' %}
+<div id="project-content" class="infr-story-page">
+  {{ content }}
+</div>
+{% else %}
+<div class="page__container">
   <div class="page__spacer--xlarge"></div>
   <div class="page__grid project__body">
 
@@ -94,5 +99,6 @@ layout: global
   </div>
   <div class="ui hidden divider"></div>
 </div>
+{% endif %}
 
 </main>
