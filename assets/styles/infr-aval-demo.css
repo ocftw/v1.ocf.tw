@@ -73,6 +73,7 @@ html { scroll-behavior: smooth; }
   pointer-events: none;
   opacity: 0;
   filter: saturate(.85) brightness(.8);
+  mix-blend-mode: screen;
   transition: filter .45s ease, opacity .45s ease;
 }
 
@@ -89,8 +90,9 @@ html { scroll-behavior: smooth; }
 .infr-network-flow__routes use:nth-child(2) { animation-duration: 3.6s; opacity: .78; }
 .infr-network-flow__routes use:nth-child(3) { animation-duration: 4.2s; opacity: .65; }
 .infr-network-flow__signals circle { fill: #fff4c7; stroke: #ff714e; stroke-width: 1.5; }
-.infr-hero[data-engaged] .infr-network-flow { opacity: 1; filter: saturate(1.3) brightness(1.35); }
-.infr-hero[data-engaged] .infr-network-flow__routes use { animation-duration: 1.35s; animation-play-state: running; }
+.infr-hero[data-engaged] .infr-network-flow { opacity: 1; filter: saturate(1.55) brightness(1.75) drop-shadow(0 0 14px rgba(255,118,78,.72)); }
+.infr-hero[data-engaged] .infr-network-flow__routes use { animation-duration: 1.35s; animation-play-state: running; stroke: rgba(255,216,148,.98); stroke-width: 2.6; }
+.infr-hero[data-engaged] .infr-network-flow__signals circle { fill: #fff; stroke-width: 2.4; filter: drop-shadow(0 0 9px #ff784f); }
 @keyframes infr-route-flow { to { stroke-dashoffset: -108; } }
 
 .infr-hero__veil {
@@ -135,6 +137,7 @@ html { scroll-behavior: smooth; }
 
 .infr-route-control:hover, .infr-route-control:focus-visible { border-color: var(--infr-amber); background: rgba(77,38,105,.88); outline: none; transform: translateY(-2px); }
 .infr-route-control__dot { width: 11px; height: 11px; border-radius: 50%; background: var(--infr-coral); box-shadow: 0 0 0 5px rgba(255,104,77,.17), 0 0 18px var(--infr-coral); }
+.infr-hero[data-engaged] .infr-route-control__dot { background: #fff2bb; box-shadow: 0 0 0 6px rgba(255,189,105,.24), 0 0 28px 7px rgba(255,104,77,.9); }
 .infr-hero__link { border-bottom: 1px solid rgba(255,255,255,.5); padding: 8px 0; color: #fff; font-weight: 700; }
 .infr-hero__link:hover, .infr-hero__link:focus-visible { border-color: var(--infr-amber); color: var(--infr-amber); }
 

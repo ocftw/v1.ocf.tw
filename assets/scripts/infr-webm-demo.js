@@ -9,6 +9,8 @@
 
   var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   var svg = hero.querySelector(".infr-network-flow");
+  var controlLabel = control.querySelector(".infr-route-control__label");
+  var interactionLocked = false;
 
   function setStatus(mode, text) {
     if (!status || !statusText) return;
@@ -19,6 +21,9 @@
   function setEngaged(engaged) {
     hero.toggleAttribute("data-engaged", engaged);
     control.setAttribute("aria-pressed", String(engaged));
+    if (controlLabel) {
+      controlLabel.textContent = engaged && interactionLocked ? "關閉發亮訊號" : "讓訊號重新連上";
+    }
 
     if (reducedMotion.matches || !engaged) {
       video.pause();
@@ -48,15 +53,28 @@
   });
 
   control.addEventListener("pointerenter", function () { setEngaged(true); });
-  control.addEventListener("pointerleave", function () { setEngaged(false); });
+  control.addEventListener("pointerleave", function () {
+    if (!interactionLocked) setEngaged(false);
+  });
   control.addEventListener("focus", function () { setEngaged(true); });
-  control.addEventListener("blur", function () { setEngaged(false); });
-  control.addEventListener("click", function () { setEngaged(true); });
+  control.addEventListener("blur", function () {
+    if (!interactionLocked) setEngaged(false);
+  });
+  control.addEventListener("click", function () {
+    interactionLocked = !interactionLocked;
+    setEngaged(interactionLocked);
+  });
 
   if (typeof reducedMotion.addEventListener === "function") {
-    reducedMotion.addEventListener("change", function () { setEngaged(false); });
+    reducedMotion.addEventListener("change", function () {
+      interactionLocked = false;
+      setEngaged(false);
+    });
   } else if (typeof reducedMotion.addListener === "function") {
-    reducedMotion.addListener(function () { setEngaged(false); });
+    reducedMotion.addListener(function () {
+      interactionLocked = false;
+      setEngaged(false);
+    });
   }
   hero.setAttribute("data-motion-ready", "true");
   video.load();
