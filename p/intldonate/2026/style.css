@@ -30,6 +30,19 @@ header.site-header {
   text-align: center;
 }
 
+header.site-header .back-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+header.site-header .back-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 header.site-header h1 {
   margin: 0 0 4px;
   font-size: 1.3rem;
