@@ -1,0 +1,86 @@
+---
+layout: null
+permalink: /p/intldonate/recommend
+---
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>我要推薦會議 - 國際會議獎助計畫 2026</title>
+<link rel="stylesheet" href="/p/intldonate/2026/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>國際會議獎助計畫</h1>
+    <p class="tagline">2026 年度・開放文化基金會・鼓勵台灣青年與國際社群交流</p>
+    <nav class="site-nav">
+      <a href="/p/intldonate/" class="back-link-nav">← 回專案頁</a>
+      <a href="/p/intldonate/rule">計畫申請辦法</a>
+      <a href="/p/intldonate/apply">立即報名</a>
+      <a href="/p/intldonate/recommend" class="active">我要推薦會議</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="info-box">
+      不打算申請也歡迎推薦！你的推薦會成為 OCF 未來徵集建議活動清單的參考依據，也有機會被列入下一輪的「OCF 建議活動」。歡迎匿名填寫。
+    </div>
+
+    <div class="success-box" id="successBox">
+      ✅ 推薦已送出，謝謝你！
+    </div>
+
+    <form class="gform" id="recommendForm"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSdbWfz94htfBdpjD4xFj7qjgUktakUI-5o53M2vAHvJV613bg/formResponse"
+          method="POST">
+
+      <div class="field">
+        <label class="field-label" for="r_name">姓名／代稱（可匿名，選填）</label>
+        <input type="text" id="r_name" name="entry.959588238" />
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="r_email">Email（選填，方便後續聯繫）</label>
+        <input type="email" id="r_email" name="entry.2046633896" />
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="r_conf">推薦的國際會議名稱<span class="required">*</span></label>
+        <input type="text" id="r_conf" name="entry.1651884532" required />
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="r_link">會議官網／連結</label>
+        <input type="url" id="r_link" name="entry.1207445016" />
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="r_reason">推薦原因（為何值得台灣人參與或投稿）<span class="required">*</span></label>
+        <textarea id="r_reason" name="entry.121767037" required></textarea>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="r_other">其他意見</label>
+        <textarea id="r_other" name="entry.192502322"></textarea>
+      </div>
+
+      <div class="submit-row">
+        <button type="submit">送出推薦</button>
+        <span class="submit-status"></span>
+      </div>
+    </form>
+
+    <a class="fallback-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdbWfz94htfBdpjD4xFj7qjgUktakUI-5o53M2vAHvJV613bg/viewform" target="_blank" rel="noopener">表單無法送出？點此改用 Google 原生表單填寫</a>
+  </main>
+
+  <footer class="site-footer">
+    Open Culture Foundation 開放文化基金會・國際會議獎助計畫
+  </footer>
+
+  <script src="/p/intldonate/2026/gform-submit.js"></script>
+  <script>
+    initGformSubmit(document.getElementById('recommendForm'), document.getElementById('successBox'));
+  </script>
+</body>
+</html>

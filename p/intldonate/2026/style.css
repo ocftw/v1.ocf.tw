@@ -1,0 +1,366 @@
+:root {
+  /* OCF 品牌識別規範（08 Feb, 2024）色彩系統 */
+  --bg: #faf9fd;
+  --card-bg: #ffffff;
+  --text: #0f1923; /* OCF Dark Blue */
+  --text-muted: #5a5f75;
+  --accent: #6450dc; /* OCF Purple（主色） */
+  --accent-dark: #4d3cae;
+  --accent-tint: #d7dcf0; /* OCF Light Blue（次要色） */
+  --border: #e2e1f2;
+  --max-width: 780px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", -apple-system, sans-serif;
+  line-height: 1.75;
+}
+
+header.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--card-bg);
+  padding: 20px 16px;
+  text-align: center;
+}
+
+header.site-header h1 {
+  margin: 0 0 4px;
+  font-size: 1.3rem;
+}
+
+header.site-header .tagline {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+nav.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+nav.site-nav a {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.88rem;
+  background: var(--bg);
+}
+
+nav.site-nav a.back-link-nav {
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  padding: 6px 10px 6px 0;
+  margin-right: 4px;
+  border-right: 1px solid var(--border);
+}
+
+nav.site-nav a.back-link-nav:hover {
+  background: transparent;
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+nav.site-nav a.active,
+nav.site-nav a:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+
+.hero {
+  text-align: center;
+  padding: 24px 0 8px;
+}
+
+.hero h2 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.hero p {
+  color: var(--text-muted);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.card .emoji {
+  font-size: 1.6rem;
+}
+
+.card h3 {
+  margin: 8px 0 4px;
+  font-size: 1.05rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+.info-box {
+  background: var(--accent-tint);
+  border: 1px solid #c3c9ea;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 20px 0;
+  font-size: 0.92rem;
+}
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 24px;
+  font-size: 0.92rem;
+}
+
+.event-table th,
+.event-table td {
+  border: 1px solid var(--border);
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.event-table th {
+  background: var(--accent-tint);
+}
+
+.rules h2 {
+  margin-top: 2.2em;
+  border-left: 4px solid var(--accent);
+  padding-left: 10px;
+  font-size: 1.15rem;
+}
+
+.rules h3 {
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.rules h4 {
+  margin-top: 1.6em;
+  font-size: 0.95rem;
+  color: var(--accent-dark);
+}
+
+.rules ul,
+.rules ol {
+  padding-left: 1.4em;
+}
+
+.rules li {
+  margin-bottom: 6px;
+}
+
+.amount-highlight {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 8px;
+  padding: 2px 10px;
+  font-weight: bold;
+}
+
+.disclaimer {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--border);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.form-embed-wrap iframe {
+  width: 100%;
+  min-height: 1400px;
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.fallback-link {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* 原生表單樣式 */
+.gform {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.gform fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 0 28px;
+}
+
+.gform fieldset legend {
+  font-weight: bold;
+  font-size: 1.02rem;
+  color: var(--accent-dark);
+  padding: 0 0 10px;
+  border-bottom: 1px solid var(--border);
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.gform .field {
+  margin-bottom: 18px;
+}
+
+.gform label.field-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 0.92rem;
+}
+
+.gform p.field-hint {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.gform label.field-label .required {
+  color: var(--accent);
+  margin-left: 3px;
+}
+
+.gform input[type="text"],
+.gform input[type="email"],
+.gform input[type="url"],
+.gform textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.gform input:focus,
+.gform textarea:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.gform textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.gform .choice-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.gform .choice-option input {
+  margin-top: 3px;
+}
+
+.gform .submit-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.gform button[type="submit"] {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 28px;
+  font-size: 0.98rem;
+  cursor: pointer;
+}
+
+.gform button[type="submit"]:hover {
+  background: var(--accent-dark);
+}
+
+.gform button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.submit-status {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.success-box {
+  display: none;
+  background: #eef7ee;
+  border: 1px solid #b9dab9;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.success-box.show {
+  display: block;
+}
+
+.gform.hide-after-submit {
+  display: none;
+}
+
+footer.site-footer {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  padding: 20px 16px 40px;
+}

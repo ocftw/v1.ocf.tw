@@ -27,9 +27,15 @@ listed_en: yes
 
 
 links:
+  - title: OCF 國際會議獎助計畫 2026 - 立即報名
+    url: https://a4ltw.github.io/ocf-intl-travel-2026/apply.html
+    icon:
+  - title: OCF 國際會議獎助計畫 2026 - 我要推薦會議
+    url: https://a4ltw.github.io/ocf-intl-travel-2026/recommend.html
+    icon:
   - title: OCF 國際會議獎助計畫 - FOSDEM 2024 報名至 11/30
     url: https://docs.google.com/forms/d/e/1FAIpQLSftSumqthsElUUMRBh3oyrA3LQ99TPfnn8xWVVU3lma3-9kLw/viewform
-    icon: 
+    icon:
 
 
 
