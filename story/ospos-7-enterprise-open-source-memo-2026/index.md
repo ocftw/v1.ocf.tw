@@ -2,11 +2,12 @@
 layout: story
 og_title: 【開源治理系列 07】AI 時代的企業開源備忘錄：亞洲協作趨勢、歐盟供應鏈規範到 17 年實戰
 og_description: "開源治理系列 #07"
-og_image: /story/ospos-6-enterprise-open-source-memo-2026/images/banner.png
+og_image: /story/ospos-7-enterprise-open-source-memo-2026/images/banner.png
 publish_date: 2026-09-10
 modified_time: 2026-09-10
 author: Ian Liu (Yanyiyi)
 section: 開源治理系列
+redirect_from: /story/ospos-6-enterprise-open-source-memo-2026/
 ---
 
 # AI 時代的企業開源備忘錄
@@ -96,6 +97,9 @@ section: 開源治理系列
 
 <div class="ui three stackable cards">
   <div class="card">
+    <div class="image" style="padding-top: 1.5em; background: transparent;">
+      <img class="ui centered image" src="images/ryan-hsieh.png" alt="Ryan Hsieh 謝文豪" style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%;">
+    </div>
     <div class="content">
       <div class="header">Ryan Hsieh 謝文豪</div>
       <div class="meta">OSPOlogy Asia 2026 籌備暨議程委員｜企業開源治理實務工作者</div>
@@ -103,6 +107,9 @@ section: 開源治理系列
     </div>
   </div>
   <div class="card">
+    <div class="image" style="padding-top: 1.5em; background: transparent;">
+      <img class="ui centered image" src="images/lucien-lin.png" alt="林誠夏 Lucien C. H. Lin" style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%;">
+    </div>
     <div class="content">
       <div class="header">林誠夏 Lucien C. H. Lin</div>
       <div class="meta">群牧開源管理顧問有限公司負責人｜OSLN.tw 台灣開源法律網絡共同創辦人</div>
@@ -110,6 +117,9 @@ section: 開源治理系列
     </div>
   </div>
   <div class="card">
+    <div class="image" style="padding-top: 1.5em; background: transparent;">
+      <img class="ui centered image" src="images/jimmy-huang.png" alt="Jimmy Huang 黃雋" style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%;">
+    </div>
     <div class="content">
       <div class="header">Jimmy Huang 黃雋</div>
       <div class="meta">網絡行動科技股份有限公司（NETivism）共同創辦人</div>
@@ -126,4 +136,4 @@ section: 開源治理系列
 * [#04 開源不只是技術選擇：AI 時代企業布局國際競爭力的起點](https://ocf.tw/story/open-source-business-ai-competitiveness-2026/)
 * [#05 OCF 前進 Sony 總部：台灣開源治理推動經驗如何與亞洲接軌？](https://ocf.tw/story/ospos-5-ospology-asia-sony-2026/)
 * [#06 串連社群、產業和政府：OCF 在 OSPOlogy Asia 2026 的分享紀實](https://ocf.tw/story/ospos-6-start-before-formal-ospo/)
-* [#07 AI 時代的企業開源備忘錄：亞洲協作趨勢、歐盟供應鏈規範到 17 年實戰](https://ocf.tw/story/ospos-6-enterprise-open-source-memo-2026/)
+* [#07 AI 時代的企業開源備忘錄：亞洲協作趨勢、歐盟供應鏈規範到 17 年實戰](https://ocf.tw/story/ospos-7-enterprise-open-source-memo-2026/)
