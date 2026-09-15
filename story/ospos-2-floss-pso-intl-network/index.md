@@ -94,6 +94,8 @@ OS2 的代表專案包括：
 * [#05 OCF 前進 Sony 總部：台灣開源治理推動經驗如何與亞洲接軌？](https://ocf.tw/story/ospos-5-ospology-asia-sony-2026/)
 * [#06 串連社群、產業和政府：OCF 在 OSPOlogy Asia 2026 的分享紀實](https://ocf.tw/story/ospos-6-start-before-formal-ospo/)
 * [#07 AI 時代的企業開源備忘錄：亞洲協作趨勢、歐盟供應鏈規範到 17 年實戰](https://ocf.tw/story/ospos-7-enterprise-open-source-memo-2026/)
+* [#08 從「和」到一套能直接使用的文件：日本如何以 OSPO Starter Kit 支持產業](https://ocf.tw/story/ospos-8-japan-ospo-starter-kit/)
+* [#09 讓麻瓜也看懂 SBOM：韓國 BomLens 如何從個人手上的風險介接到公司治理](https://ocf.tw/story/ospos-9-korea-bomlens/)
 
 [^1]:  OSPO 聯盟，Open Source Program Offices Alliance 於 2021 年 6 月 由歐洲多個開放原始碼組織共同發起，包括 OW2、Eclipse Foundation、OpenForum Europe 與 Foundation for Public Code 等。這是一個以「開源」為核心的社群型態聯盟，由各支持組織與志工共同組成，致力於推動公共與私部門建立及強化開放原始碼治理能力，主要為國際級的經驗共用平台與治理工具庫。
 
