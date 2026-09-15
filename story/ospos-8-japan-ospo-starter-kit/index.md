@@ -81,7 +81,7 @@ IPA 支持產業與政府的，並不僅是「多認識 OSPO」，而是連一�
 OCF 已經建立 [OSPO Starter Kit 的 Weblate 正體中文在地化專案](https://translate.codeberg.org/projects/ospo-starter-kit/)。懂日文或英文的朋友可以協助翻譯；熟悉企業流程、授權、採購或資安的朋友，可以一起確認用語和情境是否合理。即使你正在公司裡第一次接觸 OSPO，也可以幫忙指出哪些說明還不夠清楚。
 
 ![OSPO Starter Kit 的 Codeberg Translate 翻譯介面](images/starter-kit-weblate.png)
-***OSPO Starter Kit 的繁體中文內容透過 Codeberg Translate（以 Weblate 建置）協作，完成翻譯後仍需要大家一起檢查與改進。***
+***OSPO Starter Kit 的正體中文內容透過 Codeberg Translate（以 Weblate 建置）協作，完成翻譯後仍需要大家一起檢查與改進。***
 
 期待這份文件在後去是真的有人拿去使用、修改，有機會也很期待各位企業夥伴，再把臺灣企業遇到的問題與做法帶回上游。
 這也正是我喜歡的「和」：不是大家得出完全相同的答案，而是願意把各自走過的路，留成下一個人也能繼續往前的材料。
@@ -101,6 +101,6 @@ OCF 已經建立 [OSPO Starter Kit 的 Weblate 正體中文在地化專案](http
 ## 延伸閱讀與參與
 
 * [OSPO Starter Kit 原始文件與貢獻入口](https://github.com/japan-opensource-hub/ospo-starter-kit)
-* [一起參與 OSPO Starter Kit 繁體中文在地化](https://translate.codeberg.org/projects/ospo-starter-kit/)
+* [一起參與 OSPO Starter Kit 正體中文在地化](https://translate.codeberg.org/projects/ospo-starter-kit/)
 * [Japan Open Source Hub](https://www.ipa.go.jp/digital/kaihatsu/oss/index.html)
 * [OSPOlogy Asia 議程與講者分享資料](https://github.com/todogroup/ospology/discussions/816)

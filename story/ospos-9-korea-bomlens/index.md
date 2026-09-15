@@ -98,7 +98,7 @@ Haksung Jang 除了擔任 SK Telecom 的 OSPO Manager，也長期參與 [OpenCha
 
 我認為 BomLens 很能反映這種社群連結的價值。它不是只為 SK Telecom 內部留下的一套工具，而是以 Apache-2.0 授權開放出來，讓其他企業、供應商與開發者也能使用及改進。標準讓 SBOM 可以繼續往組織平台流動，開源則讓工具本身也能繼續往不同地區與使用情境延伸。
 
-## 先試用，再一起把繁體中文變得更好懂
+## 先試用，再一起把正體中文變得更好懂
 
 如果還沒有使用過 BomLens，可以先打開[線上 DEMO](https://sktelecom.github.io/bomlens/demo/)、[線上 DEMO （目前中文版）](https://bomlens.ospo.tw/demo/)，查看已完成的掃描結果。示範站只提供閱讀；要掃描自己的專案，可以依照[官方入門文件](https://github.com/sktelecom/bomlens)安裝桌面程式或使用容器環境。
 
@@ -122,4 +122,4 @@ OCF 也建了一個 [BomLens 的 Weblate 正體中文在地化專案](https://tr
 
 * [BomLens 上游專案與使用文件](https://github.com/sktelecom/bomlens)
 * [Haksung Jang 的 OSPOlogy Asia 分享簡報](https://sktelecom.github.io/bomlens/talks/ospology-asia-2026-tokyo/slides.html)
-* [一起參與 BomLens 繁體中文在地化](https://translate.codeberg.org/projects/bomlens-taiwan/)
+* [一起參與 BomLens 正體中文在地化](https://translate.codeberg.org/projects/bomlens-taiwan/)
