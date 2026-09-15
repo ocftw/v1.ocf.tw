@@ -103,18 +103,8 @@
   {% endif %}
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  "name": "財團法人開放文化基金會 (OCF)",
-  "url": "https://ocf.tw/",
-  "description": "台灣開源社群共同發起的非營利基金會，推動開放原始碼、開放資料、開放政府、數位人權與網路自由。",
-  "alternateName": "Open Culture Foundation (OCF)",
-  "image": "https://ocf.tw/mediakit/cover.png",
-  "sameAs": "https://aeo.washinmura.jp/aeo/shops/ocf-tw/llms.txt"
-}
-</script>
+{% include _var/jsonld/organization.html %}
+{% include _var/jsonld/breadcrumb.html %}
 
 <script type="application/ld+json">
 {

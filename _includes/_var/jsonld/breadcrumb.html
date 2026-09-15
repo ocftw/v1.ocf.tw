@@ -1,0 +1,109 @@
+{%- comment -%}
+  BreadcrumbList JSON-LD。
+  依下列順序決定 breadcrumb 內容：
+    1. page.breadcrumb（front matter 陣列，items: [{name, url}]）→ 直接使用
+    2. 自動產生：首頁 → 區段（依 URL 第一段對應，可選） → 當前頁
+  首頁本身不輸出 breadcrumb。
+  必須在 og/ include 之後執行（會用到 og_title）。
+{%- endcomment -%}
+
+{%- assign url = page.url -%}
+{%- assign is_home = false -%}
+{%- if url == '/' or url == '/index.html' or url == '/en/' or url == '/en/index.html' -%}
+  {%- assign is_home = true -%}
+{%- endif -%}
+
+{%- unless is_home -%}
+
+{%- if lang == 'en' -%}
+  {%- assign home_name = 'Home' -%}
+  {%- assign home_url = '/en/' -%}
+{%- else -%}
+  {%- assign home_name = '首頁' -%}
+  {%- assign home_url = '/' -%}
+{%- endif -%}
+
+{%- comment -%} 從 URL 推斷區段（中介層） {%- endcomment -%}
+{%- assign segments = url | remove_first: '/en' | split: '/' -%}
+{%- assign first_seg = segments[1] -%}
+{%- assign section_name = '' -%}
+{%- assign section_url = '' -%}
+
+{%- if lang == 'en' -%}
+  {%- case first_seg -%}
+    {%- when 'p' -%}{%- assign section_name = 'Projects' -%}{%- assign section_url = '/en/p/' -%}
+    {%- when 'about' -%}{%- assign section_name = 'About' -%}{%- assign section_url = '/en/about/' -%}
+    {%- when 'people' -%}{%- assign section_name = 'People' -%}{%- assign section_url = '/en/people/' -%}
+    {%- when 'journal' -%}{%- assign section_name = 'Events' -%}{%- assign section_url = '/en/journal/' -%}
+    {%- when 'news' -%}{%- assign section_name = 'News' -%}{%- assign section_url = '/en/news/' -%}
+    {%- when 'story' -%}{%- assign section_name = 'Stories' -%}{%- assign section_url = '/en/story/' -%}
+    {%- when 'supportus' -%}{%- assign section_name = 'Support Us' -%}{%- assign section_url = '/en/supportus/' -%}
+    {%- when 'mediakit' -%}{%- assign section_name = 'Mediakit' -%}{%- assign section_url = '/en/mediakit/' -%}
+    {%- when 'jobs' -%}{%- assign section_name = 'Jobs' -%}{%- assign section_url = '/en/jobs/' -%}
+    {%- when 'join' -%}{%- assign section_name = 'Join' -%}{%- assign section_url = '/en/join/' -%}
+    {%- when 'design' -%}{%- assign section_name = 'Design System' -%}{%- assign section_url = '/en/design/' -%}
+  {%- endcase -%}
+{%- else -%}
+  {%- case first_seg -%}
+    {%- when 'p' -%}{%- assign section_name = '專案' -%}{%- assign section_url = '/p/' -%}
+    {%- when 'about' -%}{%- assign section_name = '關於' -%}{%- assign section_url = '/about/' -%}
+    {%- when 'people' -%}{%- assign section_name = '工作夥伴' -%}{%- assign section_url = '/people/' -%}
+    {%- when 'journal' -%}{%- assign section_name = '活動' -%}{%- assign section_url = '/journal/' -%}
+    {%- when 'news' -%}{%- assign section_name = '電子報' -%}{%- assign section_url = '/news/' -%}
+    {%- when 'story' -%}{%- assign section_name = '文章' -%}{%- assign section_url = '/story/' -%}
+    {%- when 'supportus' -%}{%- assign section_name = '捐款支持' -%}{%- assign section_url = '/supportus/' -%}
+    {%- when 'mediakit' -%}{%- assign section_name = '媒體區' -%}{%- assign section_url = '/mediakit/' -%}
+    {%- when 'jobs' -%}{%- assign section_name = '徵才' -%}{%- assign section_url = '/jobs/' -%}
+    {%- when 'join' -%}{%- assign section_name = '加入我們' -%}{%- assign section_url = '/join/' -%}
+    {%- when 'design' -%}{%- assign section_name = '設計系統' -%}{%- assign section_url = '/design/' -%}
+  {%- endcase -%}
+{%- endif -%}
+
+{%- assign current_name = og_title | default: page.title | default: page.name -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {%- if page.breadcrumb -%}
+      {%- for item in page.breadcrumb -%}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "name": "{{ item.name | escape }}"{% if item.url %},
+      "item": "{{ item.url | absolute_url }}"{% endif %}
+    }{%- unless forloop.last -%},{%- endunless -%}
+      {%- endfor -%}
+    {%- else -%}
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ home_name }}",
+      "item": "{{ home_url | absolute_url }}"
+    }
+    {%- if section_name != '' and section_url != url -%},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ section_name }}",
+      "item": "{{ section_url | absolute_url }}"
+    }
+    {%- assign current_position = 3 -%}
+    {%- else -%}
+    {%- assign current_position = 2 -%}
+    {%- endif -%}
+    {%- if current_name and current_name != '' -%},
+    {
+      "@type": "ListItem",
+      "position": {{ current_position }},
+      "name": "{{ current_name | escape }}",
+      "item": "{{ url | absolute_url }}"
+    }
+    {%- endif -%}
+    {%- endif -%}
+  ]
+}
+</script>
+
+{%- endunless -%}

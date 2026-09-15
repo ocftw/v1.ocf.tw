@@ -1,0 +1,66 @@
+{%- comment -%}
+  全站 Organization (NGO) JSON-LD。資料來源：_data/people/orgs/ocf.yml
+  schema.org NGO type，附兩個辦公室的 PostalAddress（涵蓋 issue #107 提到的 LocalBusiness 需求）。
+{%- endcomment -%}
+{%- assign org = site.data.people.orgs.ocf -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  "@id": "{{ site.url }}/#organization",
+  "name": "{{ org.name }}",
+  "alternateName": ["{{ org.name_en }}", "{{ org.abbr }}", "{{ org.abbr_en }}"],
+  "url": "{{ site.url }}/",
+  "logo": "{{ org.logo | absolute_url }}",
+  "image": "{{ org.cover | absolute_url }}",
+  "description": "{{ org.description | strip_newlines | escape }}",
+  "foundingDate": "2014-06",
+  "foundingLocation": "Taiwan",
+  "email": "{{ org.contact.email.general }}",
+  "sameAs": [
+    "https://www.facebook.com/www.ocf.tw",
+    "https://www.instagram.com/ocftw/",
+    "https://www.youtube.com/c/OcfTw",
+    "https://g0v.social/@ocftw",
+    "https://www.flickr.com/people/ocftw/",
+    "https://github.com/ocftw",
+    "https://blog.ocf.tw/"
+  ],
+  "location": [
+    {
+      "@type": "Place",
+      "name": "Taipei Office",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "八德路四段 636 之 1 號",
+        "addressLocality": "松山區",
+        "addressRegion": "臺北市",
+        "postalCode": "105057",
+        "addressCountry": "TW"
+      },
+      "telephone": "+886-2-2395-1505"
+    },
+    {
+      "@type": "Place",
+      "name": "Taoyuan Office",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "中山路 807 號",
+        "addressLocality": "桃園區",
+        "addressRegion": "桃園市",
+        "postalCode": "33059",
+        "addressCountry": "TW"
+      },
+      "telephone": "+886-3-220-7480",
+      "faxNumber": "+886-3-220-1542"
+    }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "general inquiries",
+    "email": "{{ org.contact.email.general }}",
+    "telephone": "+886-2-2395-1505",
+    "availableLanguage": ["zh-Hant", "en"]
+  }
+}
+</script>
