@@ -13,20 +13,20 @@ section: 開源治理系列
 
 撰文／Ian Liu (Yanyiyi)
 
-SBOM 常常對非開發者會是相對複雜的文件，而中文翻譯叫「SBOM 清單」或「SBOM 表」，也常會以為交付完文件就結束了。檔案交付了、生出來了，但打開以後，應該先處理哪一件事呢？
+SBOM 對非開發者是相對複雜的文件，而中文很常被翻譯叫 SBOM「清單」或 SBOM「表」，也常會以為讓企業或團隊間往來時，誤會只要交付文件就結案了。檔案交付了、生出來了，但打開以後，應該怎解讀、怎判斷哪些事情該處理呢？
 
-這次在 OSPOlogy Asia，SK Telecom 的 OSPO Manager Haksung Jang 分享了他們開源釋出的工具 [BomLens](https://github.com/sktelecom/bomlens)。當 SK Telecom 開始要求供應商提供 SBOM，真正接到要求的人可能沒有專門的資安團隊，也沒有一套容易使用的工具。
+這次 OCF 7 月出訪 OSPOlogy Asia，SK Telecom 的 OSPO Manager Haksung Jang 分享了他們開源釋出的工具 [BomLens](https://github.com/sktelecom/bomlens)。當 SK Telecom 開始要求供應商提供 SBOM，真正接到要求的人可能沒有專門的資安團隊，也沒有一套容易使用的工具。
 
 BomLens 就從這個落差出發。它不只協助產生 SBOM，也把元件、授權與已知漏洞整理成比較容易閱讀的介面，讓原本只存在於一大份資料裡的風險，成為使用者看得見、能開始處理的項目。
 
 ![Haksung Jang 在 OSPOlogy Asia 2026 分享 BomLens](images/ospology-haksung-bomlens.jpg)
 ***SK Telecom OSPO Manager Haksung Jang 在 OSPOlogy Asia 2026 現場介紹 BomLens：一套協助供應鏈安全與合規的一鍵式開源 SBOM 工具。***
 
-前面的[#5](https://ocf.tw/story/ospos-5-ospology-asia-sony-2026/)介紹 OSPOlogy Asia，[#6](https://ocf.tw/story/ospos-6-start-before-formal-ospo/)分享 OCF 如何串連企業、政府與開源社群。這一篇則想從韓國帶回另一個觀察：當企業對供應鏈提出新的要求，也需要讓真正執行的人有工具可以開始。
+前面的 [#5](https://ocf.tw/story/ospos-5-ospology-asia-sony-2026/)介紹 OSPOlogy Asia，[#6](https://ocf.tw/story/ospos-6-start-before-formal-ospo/)分享 OCF 如何串連企業、政府與開源社群。這一篇則想從韓國帶回另一個觀察：當企業對供應鏈提出新的要求，也需要讓真正執行的人有工具可以開始。
 
 ## 我真的拿自己的專案掃了一次
 
-OCF 回臺灣後，只要和企業或社群夥伴談到 SBOM，我們幾乎都會順手打開 BomLens。不是因為它能一次解決所有合規問題，而是它很適合把對話從「我們應該開始管理」推進到「那就先掃一次看看」。
+這次回臺後這段時間，只要和企業或社群夥伴談到 SBOM 時，幾乎都會順手打開 BomLens，因為他用了一個方便的地端工具，讓我們能把對話從「我們應該開始管理」推進到「那就先掃一次看看」的簡單行動。
 
 BomLens 提供 macOS 的 DMG 與 Windows 的 EXE 安裝檔，對於非開發者的好處在於不用先學會一串指令，就能在自己的電腦上開始操作。這讓每個人都可以在本地端，隨時掌握自己使用的專案有哪些開源元件、授權與安全問題。
 
@@ -84,11 +84,11 @@ BomLens 也不會替公司宣布「已經合規」。它更像一支放大鏡：
 ![BomLens 分析外部提交 SBOM 的畫面](images/bomlens-submitted-sbom.png)
 ***收到供應商或其他工具產生的 SBOM，也可以提交給 BomLens 分析，查看格式、元件、授權及合規相關資訊。***
 
-BomLens 採取 local-first 的設計，不需要帳號或遠端伺服器，掃描內容也不會上傳到 SaaS 平台。它在個人電腦上負責產生 SBOM 與初步判讀，再透過標準的 CycloneDX 格式，把結果交給公司使用的集中管理平台。
+BomLens 採取 local-first 的設計，不需要帳號或遠端伺服器，掃描內容也不會上傳到 SaaS 平臺。它在個人電腦上負責產生 SBOM 與初步判讀，再透過標準的 CycloneDX 格式，把結果交給公司使用的集中管理平臺。
 
 現場示範串接的是 TrustedOSS 的 [TRUSCA](https://github.com/trustedoss/trusca)。兩項工具的分工主要在於：BomLens 負責在單一專案產生 SBOM、整理風險；TRUSCA 則負責公司內不同專案與供應商的集中管理、漏洞判讀、授權政策及歷史紀錄。BomLens 目前也能將結果送往 TRUSCA 或 Dependency-Track 等管理系統。
 
-如果放回供應鏈情境，可以看到兩次重要的銜接：供應商可以用 BomLens 整理交付軟體的元件資訊，客戶也能用它分析收到的 SBOM；進一步需要跨專案管理時，再把標準化結果送進公司的治理平台。
+如果放回供應鏈情境，可以看到兩次重要的銜接：供應商可以用 BomLens 整理交付軟體的元件資訊，客戶也能用它分析收到的 SBOM；進一步需要跨專案管理時，再把標準化結果送進公司的治理平臺。
 
 這也讓「要求供應商交 SBOM」不只是新增一項交付文件。企業還可以一起提供工具、範例與學習資源，讓供應商知道怎麼產生、怎麼檢查，也知道資料交出去之後會如何被使用。同時這套工具雖然在個人端執行，但也有和上游廠商交付掃瞄對接管理的可能性。
 
@@ -96,15 +96,22 @@ BomLens 採取 local-first 的設計，不需要帳號或遠端伺服器，掃�
 
 Haksung Jang 除了擔任 SK Telecom 的 OSPO Manager，也長期參與 [OpenChain Korea Work Group](https://openchainproject.org/featured/2021/03/16/openchain-korea-wg-9)。OpenChain 是 Linux Foundation 旗下推動開放原始碼供應鏈信任的專案，透過標準與各地工作小組，讓企業實務者交換授權合規、安全治理與供應鏈協作的方法。
 
-我認為 BomLens 很能反映這種社群連結的價值。它不是只為 SK Telecom 內部留下的一套工具，而是以 Apache-2.0 授權開放出來，讓其他企業、供應商與開發者也能使用及改進。標準讓 SBOM 可以繼續往組織平台流動，開源則讓工具本身也能繼續往不同地區與使用情境延伸。
+我認為 BomLens 很能反映這種社群連結的價值。它不是只為 SK Telecom 內部留下的一套工具，而是以 Apache-2.0 授權開放出來，讓其他企業、供應商與開發者也能使用及改進。標準讓 SBOM 可以繼續往組織平臺流動，開源則讓工具本身也能繼續往不同地區與使用情境延伸。
 
 ## 先試用，再一起把正體中文變得更好懂
 
 如果還沒有使用過 BomLens，可以先打開[線上 DEMO](https://sktelecom.github.io/bomlens/demo/)、[線上 DEMO （目前中文版）](https://bomlens.ospo.tw/demo/)，查看已完成的掃描結果。示範站只提供閱讀；要掃描自己的專案，可以依照[官方入門文件](https://github.com/sktelecom/bomlens)安裝桌面程式或使用容器環境。
 
-OCF 也建了一個 [BomLens 的 Weblate 正體中文在地化專案](https://translate.codeberg.org/projects/bomlens-taiwan/)。也歡迎熟悉 SBOM、資安或授權的朋友，可以協助確認技術意思；如果你是第一次接觸 SBOM，也可以幫忙指出哪些文字看不懂、哪些地方不知道下一步該做什麼。
+OCF 也建了一個 [BomLens 的 Weblate 正體中文在地化專案](https://translate.codeberg.org/projects/bomlens-taiwan/)。也歡迎熟悉 SBOM、資安或授權的朋友，可以協助確認其技術文件與實踐手法；如果你是第一次接觸 SBOM，也可以幫忙指出哪些文字看不懂、哪些地方不知道下一步該做什麼。
 
-回國後，我一直向不同夥伴推薦 BomLens，正是因為它讓 SBOM 不再只是一份被要求繳交的檔案。從個人第一次看懂風險，到公司逐步建立管理流程，都有一個可以實際動手的入口。接下來，也邀請大家一起讓這個入口更適合台灣的使用者。
+向不同夥伴推薦 BomLens 的重點，我們都抓在，它讓 SBOM 不再只是一份被要求繳交的檔案。從個人第一次看懂風險，到公司逐步建立管理流程，都有一個可以實際動手的入口。接下來，也邀請大家一起讓這個入口更適合臺灣的使用者。
+
+## 延伸閱讀與參與
+
+* [BomLens 上游專案與使用文件](https://github.com/sktelecom/bomlens)
+* [BomLens 正體中文專案文件（可從次載下來測中文版）](https://github.com/yanyiyi/bomlens)
+* [Haksung Jang 的 OSPOlogy Asia 分享簡報](https://sktelecom.github.io/bomlens/talks/ospology-asia-2026-tokyo/slides.html)
+* [一起參與 BomLens 正體中文在地化](https://translate.codeberg.org/projects/bomlens-taiwan/)
 
 ## 開源治理系列專文
 
@@ -112,14 +119,8 @@ OCF 也建了一個 [BomLens 的 Weblate 正體中文在地化專案](https://tr
 * [#02 OSPO 正在集結中！來自世界各地的政府開源專案辦公室](https://ocf.tw/story/ospos-2-floss-pso-intl-network/)
 * [#03 2026 Q1 開源合規與安全調查報告：臺灣企業準備好了嗎？](https://ocf.tw/story/ospos-3-taiwan-open-compliance-security-report-2026-q1/)
 * [#04 開源不只是技術選擇：AI 時代企業布局國際競爭力的起點](https://ocf.tw/story/open-source-business-ai-competitiveness-2026/)
-* [#05 OCF 前進 Sony 總部：台灣開源治理推動經驗如何與亞洲接軌？](https://ocf.tw/story/ospos-5-ospology-asia-sony-2026/)
+* [#05 OCF 前進 Sony 總部：臺灣開源治理推動經驗如何與亞洲接軌？](https://ocf.tw/story/ospos-5-ospology-asia-sony-2026/)
 * [#06 串連社群、產業和政府：OCF 在 OSPOlogy Asia 2026 的分享紀實](https://ocf.tw/story/ospos-6-start-before-formal-ospo/)
 * [#07 AI 時代的企業開源備忘錄：亞洲協作趨勢、歐盟供應鏈規範到 17 年實戰](https://ocf.tw/story/ospos-7-enterprise-open-source-memo-2026/)
 * [#08 從「和」到一套能直接使用的文件：日本如何以 OSPO Starter Kit 支持產業](https://ocf.tw/story/ospos-8-japan-ospo-starter-kit/)
 * [#09 讓麻瓜也看懂 SBOM：韓國 BomLens 如何從個人手上的風險介接到公司治理](https://ocf.tw/story/ospos-9-korea-bomlens/)
-
-## 延伸閱讀與參與
-
-* [BomLens 上游專案與使用文件](https://github.com/sktelecom/bomlens)
-* [Haksung Jang 的 OSPOlogy Asia 分享簡報](https://sktelecom.github.io/bomlens/talks/ospology-asia-2026-tokyo/slides.html)
-* [一起參與 BomLens 正體中文在地化](https://translate.codeberg.org/projects/bomlens-taiwan/)
