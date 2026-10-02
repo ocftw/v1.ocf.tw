@@ -1,14 +1,14 @@
 name: 鍾依靜
 name_en: Amelia 
 nick: Amelia
-role: 自由資料記者
+role: 書記官
 position:  專案管理師 
 description: 非典型數據記者，中央法文系畢業，曾任職於《端傳媒》與《環境資訊中心》，長期跑選舉、環境線，熱愛製作地圖、p5.js與議題資料視覺化，AI風潮席捲人類世界前，享受利用QGIS手刻地圖的快感。
 
 因台灣企業在印尼造成人權與環境衝擊系列報導，進入人權坑，相信布丁好不好吃，只有吃過才知道。
 
 avatar: /people/staff/amelia.jpg
-link:https://ameliachung.github.io/
+link: https://ameliachung.github.io/
 log: 
   - date: 
     action: 到職
