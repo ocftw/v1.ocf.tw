@@ -42,6 +42,8 @@ menu:
   - title: 核心倡議
     url:
     items:
+      - title: 網路自由
+        url: /internet-freedom/
       - title: 基金會專案
         url: /p/ocf
       - title: 十週年開源祭
