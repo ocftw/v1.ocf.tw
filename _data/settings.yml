@@ -58,6 +58,8 @@ menu:
     url: /news/
   - title: 成果
     url: /story/menu/resource/
+  - title: 開放好物
+    url: https://opengoods.cashier.ecpay.com.tw/
   - title: 捐款支持
     url: /supportus/ 
     items:
