@@ -51,3 +51,9 @@
   description: COSCUP 2026 落幕，OCF 首辦 AI 治理軌，並以兩天 15 場開源政策議程串起社群、產業與政府。從 AI 生成程式碼到政府採購，現場累積超過 690 人次參與。
   link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=400
   cover: /p/newspaper/epaper202609.png
+
+- title: 24 小時內通報，你查得到用了哪些開源嗎？
+  subtitle: 2026 年 10 月號
+  description: 歐盟《網路韌性法案》通報義務已上路，企業遇到遭利用的漏洞，24 小時內就得發出警示。這也考驗組織能否掌握產品用了哪些開源套件，以及誰負責處理風險。
+  link: https://ocf.neticrm.tw/civicrm/mailing/view?reset=1&id=407
+  cover: /p/newspaper/epaper202610.png
