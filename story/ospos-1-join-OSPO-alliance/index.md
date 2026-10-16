@@ -83,3 +83,4 @@ OSPO 是什麼？怎麼起步？如何評估組織內部的開源程度為何？
 [image4]: images/image4.png
 [image5]: images/image5.png
 [image6]: images/image6.png
+* [#11 企業用了開源之後：責任、技術依賴與社群回饋的現場對話](https://ocf.tw/story/ospos-11-enterprise-open-source-memo-recap-2026/)

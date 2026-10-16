@@ -69,3 +69,4 @@ OCF 近年一方面加入 [OSPO Alliance](https://ospo-alliance.org/)，參與�
 * [#10 企業開源趨勢講堂：AI 時代的企業開源運用、管理與價值創造](https://ocf.tw/story/ospos-10-enterprise-open-source-ai-2026/)
 
 [cover]: images/cover.png
+* [#11 企業用了開源之後：責任、技術依賴與社群回饋的現場對話](https://ocf.tw/story/ospos-11-enterprise-open-source-memo-recap-2026/)
