@@ -177,8 +177,12 @@ og_image:
 
 <h2 class="section-title">開放科技與倡議</h2>
 <div class="card-grid">
+    <a href="https://ai.ocf.tw/" class="resource-card">
+        <div class="resource-card__visual"><img src="/story/menu/resource/images/ocf-ai-research.png" alt="OCF AI 研究報告索引" fetchpriority="high"></div>
+        <div class="resource-card__body"><h3>OCF AI 研究報告索引</h3><p>開放文化基金會 AI 研究計畫的技術報告總覽</p><span class="resource-card__actions"><span class="resource-card__button">查看報告</span></span></div>
+    </a>
     <a href="/p/opentech/ai-ready-data/" class="resource-card">
-        <div class="resource-card__visual"><img src="/story/menu/resource/images/ai-ready.webp" alt="" fetchpriority="high"></div>
+        <div class="resource-card__visual"><img src="/story/menu/resource/images/ai-ready.webp" alt="" loading="lazy"></div>
         <div class="resource-card__body"><h3>從開放資料到 AI-READY 國際實踐研究</h3><p>從 5 個國際案例，整理 AI 時代開放資料治理的實務路徑</p><span class="resource-card__actions"><span class="resource-card__button">查看研究</span></span></div>
     </a>
     <a href="https://ocf.tw/p/opentech/otguide/" class="resource-card">
