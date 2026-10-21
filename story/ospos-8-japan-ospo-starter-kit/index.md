@@ -106,3 +106,4 @@ OCF 已經建立 [OSPO Starter Kit 的 Weblate 正體中文在地化專案](http
 * [Japan Open Source Hub](https://www.ipa.go.jp/digital/kaihatsu/oss/index.html)
 * [OSPOlogy Asia 議程與講者分享資料](https://github.com/todogroup/ospology/discussions/816)
 * [#11 企業用了開源之後：責任、技術依賴與社群回饋的現場對話](https://ocf.tw/story/ospos-11-enterprise-open-source-memo-recap-2026/)
+* [#12 PHP 有事，大家都有事？從高市首相的晚間緊急喊話，談藏在你服務底層的開源](https://i.ospo.tw/story-012)
