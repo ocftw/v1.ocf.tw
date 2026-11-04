@@ -12,7 +12,9 @@ toc:
   charity: 【公益合作】乖乖吃飯貓主食餐包
 ---
 
-<main id="about">
+<link rel="stylesheet" href="{{ "/assets/styles/supportus.css" | relative_url }}">
+
+<main id="about" class="support-page">
   {% include _shared/kv.html title= page.og_title
     description= site.data.people.orgs.ocf.slogan image="/assets/images/supportus_KV.png" %}
     <div class="ui center aligned stripe container">
@@ -52,9 +54,11 @@ toc:
       {% for article in page.toc %}
       {% assign id = article[0] %}
 
+      <section class="support-section" aria-labelledby="{{ id }}">
       <h2 id="{{ article[0] }}" class="ui dividing header">{{ article[1] }}</h2>
 
       {% include_relative {{ id }}.html %}
+      </section>
 
       {% endfor %}
 

@@ -1,0 +1,78 @@
+/* All donation methods share the same spacing, typography and image treatment. */
+.support-page { --ocf-primary: #6450dc; --line-green: #087f3d; }
+.support-page .support-section { margin-bottom: 56px; line-height: 1.8; }
+.support-page .support-section > h2 { scroll-margin-top: 100px; margin-bottom: 24px; line-height: 1.5; }
+.support-page .support-section * { box-sizing: border-box; }
+.support-page .regular-donate-card,
+.support-page .linepay-container,
+.support-page .crypto-header,
+.support-page .product-section { display: grid; grid-template-columns: minmax(160px, 30%) minmax(0, 1fr); gap: 28px; align-items: start; }
+.support-page .donate-img-col,
+.support-page .lp-image-area,
+.support-page .product-img-wrapper { background: #f7f7fa; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; gap: 16px; align-items: center; justify-content: center; min-height: 200px; }
+.support-page .support-section img { display: block; max-width: 100%; width: auto; height: auto; object-fit: contain; margin: 0 auto; max-height: 240px; }
+.support-page .crypto-header > img { width: 100%; padding: 24px; background: #f7f7fa; border-radius: 12px; }
+.support-page .donate-title,
+.support-page .lp-title,
+.support-page .product-title,
+.support-page .crypto-intro h3 { font-size: 1.35rem; line-height: 1.5; margin: 0 0 16px; color: #333; }
+.support-page .donate-quote,
+.support-page .lp-desc,
+.support-page .product-desc { margin-bottom: 20px; }
+.support-page .highlight-text { display: block; margin-top: 12px; }
+.support-page .benefit-box,
+.support-page .step-box,
+.support-page .step-card,
+.support-page .brand-story,
+.support-page .legal-footer { background: #f7f7fa; padding: 20px; border-radius: 8px; margin: 20px 0; }
+.support-page .benefit-title,
+.support-page .step-title,
+.support-page .brand-title,
+.support-page .coin-title { font-weight: 700; margin-bottom: 12px; }
+.support-page .benefit-list { list-style: none; padding: 0; margin: 0; }
+.support-page li { margin-bottom: 8px; }
+.support-page .donate-btn,
+.support-page .cta-btn { display: inline-block; background: var(--ocf-primary); color: #fff; padding: 12px 24px; border-radius: 6px; font-weight: 600; text-align: center; margin: 0 0 20px; text-decoration: none; }
+.support-page .donate-btn:hover,
+.support-page .cta-btn:hover { background: #4b3bb3; }
+.support-page a:focus-visible,
+.support-page summary:focus-visible { outline: 3px solid #6450dc; outline-offset: 4px; }
+.support-page .notice-section,
+.support-page .note-warning,
+.support-page .legal-footer { font-size: .95rem; color: #555; }
+.support-page .notice-section { border-top: 1px solid #e5e5e5; padding-top: 16px; }
+.support-page .notice-item { display: flex; gap: 8px; margin-bottom: 10px; }
+.support-page .step-flow { display: flex; flex-wrap: wrap; gap: 8px; }
+.support-page .step-label { display: block; margin-bottom: 8px; font-weight: 600; }
+.support-page .points-badge { font-size: .9rem; color: var(--line-green); font-weight: 600; }
+.support-page .donate-images { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: center; padding: 24px; background: #f7f7fa; border-radius: 12px; margin-bottom: 24px; }
+.support-page .donate-images img { max-height: 200px; }
+.support-page .steps-container { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.support-page .highlight-code { font-size: 1.4em; font-weight: 700; color: var(--ocf-primary); }
+.support-page .feature-list { padding-left: 20px; }
+.support-page .wallet-list { margin-top: 24px; }
+.support-page .wallet-card { border: 1px solid #e5e5e5; border-radius: 8px; padding: 20px; margin-bottom: 16px; }
+.support-page .chain-row { margin-bottom: 12px; }
+.support-page .network-label { font-size: .85rem; background: #efedf9; color: #4b3bb3; border-radius: 4px; padding: 3px 6px; }
+.support-page .address-box { overflow-wrap: anywhere; font-family: monospace; background: #f7f7fa; padding: 10px; margin-top: 8px; }
+.support-page .warning-box { color: #8b4310; font-size: .95rem; }
+.support-page .faq-item { border-bottom: 1px solid #e5e5e5; }
+.support-page .faq-item summary { cursor: pointer; padding: 18px 0; font-weight: 600; }
+.support-page .q-badge { color: var(--ocf-primary); margin-right: 8px; }
+.support-page .faq-content { padding: 0 0 20px; }
+@media (max-width: 767px) {
+  .support-page .regular-donate-card,
+  .support-page .linepay-container,
+  .support-page .crypto-header,
+  .support-page .product-section,
+  .support-page .steps-container { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .support-page .support-section { margin-bottom: 40px; }
+  .support-page .support-section img { max-height: 180px; }
+  .support-page .donate-images { grid-template-columns: minmax(0, 1fr); }
+  .support-page .donate-images img { max-height: 200px; }
+  .support-page .donate-btn,
+  .support-page .cta-btn { width: 100%; }
+  .support-page .donate-img-col,
+  .support-page .lp-image-area,
+  .support-page .product-img-wrapper { min-height: 0; }
+}
