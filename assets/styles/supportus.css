@@ -76,3 +76,7 @@
   .support-page .lp-image-area,
   .support-page .product-img-wrapper { min-height: 0; }
 }
+
+/* Keep donation actions readable across the global link states. */
+.support-page a.donate-btn:any-link,
+.support-page a.cta-btn:any-link { color: #fff !important; }
