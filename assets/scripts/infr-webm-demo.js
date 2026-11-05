@@ -9,6 +9,8 @@
 
   var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   var svg = hero.querySelector(".infr-network-flow");
+  var controlLabel = control.querySelector(".infr-route-control__label");
+  var interactionLocked = false;
 
   function setStatus(mode, text) {
     if (!status || !statusText) return;
@@ -19,6 +21,9 @@
   function setEngaged(engaged) {
     hero.toggleAttribute("data-engaged", engaged);
     control.setAttribute("aria-pressed", String(engaged));
+    if (controlLabel) {
+      controlLabel.textContent = engaged && interactionLocked ? "關閉發亮訊號" : "讓訊號重新連上";
+    }
 
     if (reducedMotion.matches || !engaged) {
       video.pause();
@@ -48,17 +53,63 @@
   });
 
   control.addEventListener("pointerenter", function () { setEngaged(true); });
-  control.addEventListener("pointerleave", function () { setEngaged(false); });
+  control.addEventListener("pointerleave", function () {
+    if (!interactionLocked) setEngaged(false);
+  });
   control.addEventListener("focus", function () { setEngaged(true); });
-  control.addEventListener("blur", function () { setEngaged(false); });
-  control.addEventListener("click", function () { setEngaged(true); });
+  control.addEventListener("blur", function () {
+    if (!interactionLocked) setEngaged(false);
+  });
+  control.addEventListener("click", function () {
+    interactionLocked = !interactionLocked;
+    setEngaged(interactionLocked);
+  });
 
   if (typeof reducedMotion.addEventListener === "function") {
-    reducedMotion.addEventListener("change", function () { setEngaged(false); });
+    reducedMotion.addEventListener("change", function () {
+      interactionLocked = false;
+      setEngaged(false);
+    });
   } else if (typeof reducedMotion.addListener === "function") {
-    reducedMotion.addListener(function () { setEngaged(false); });
+    reducedMotion.addListener(function () {
+      interactionLocked = false;
+      setEngaged(false);
+    });
   }
   hero.setAttribute("data-motion-ready", "true");
   video.load();
   setEngaged(false);
+
+  var journey = document.getElementById("journey");
+  var steps = Array.prototype.slice.call(document.querySelectorAll(".infr-step"));
+  var progressPath = document.querySelector(".infr-packet-map__progress");
+  var mapNodes = Array.prototype.slice.call(document.querySelectorAll(".infr-map-node"));
+  var mapStatus = document.querySelector(".infr-packet-map__status");
+
+  function showJourneyStage(stage, text) {
+    var lastStage = Math.max(steps.length - 1, 1);
+    var progress = Math.min(Math.max(stage / lastStage, 0), 1);
+
+    steps.forEach(function (step) {
+      step.classList.toggle("is-active", Number(step.dataset.stage) === stage);
+    });
+    mapNodes.forEach(function (node) {
+      node.classList.toggle("is-active", Number(node.dataset.node) <= stage);
+    });
+    if (progressPath) progressPath.style.strokeDashoffset = String(1 - progress);
+    if (mapStatus && text) mapStatus.textContent = text;
+  }
+
+  if (journey && steps.length && "IntersectionObserver" in window) {
+    var stepObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        showJourneyStage(Number(entry.target.dataset.stage), entry.target.dataset.status);
+      });
+    }, { rootMargin: "-38% 0px -42% 0px", threshold: 0 });
+
+    steps.forEach(function (step) { stepObserver.observe(step); });
+  }
+
+  showJourneyStage(0, steps[0] && steps[0].dataset.status);
 }());
