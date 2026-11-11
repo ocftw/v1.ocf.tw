@@ -1,0 +1,47 @@
+#content p,
+#content li,
+#content blockquote {
+  font-weight: 400;
+}
+
+#content ol > li > p:first-child {
+  margin-bottom: 0.25rem;
+}
+
+#content ol > li > p:first-child + p {
+  margin-top: 0;
+}
+
+#content ol,
+#content ul {
+  padding-left: 2.5rem;
+}
+
+#content ol > li + li {
+  margin-top: 1rem;
+}
+
+#content ul > li + li {
+  margin-top: 0.25rem;
+}
+
+#content ol > li > p:last-child,
+#content ul > li > p:last-child {
+  margin-bottom: 0;
+}
+
+#content .notice-signature {
+  margin-top: 2.5rem;
+}
+
+#content ol > li > h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: inherit;
+  margin: 0 0 0.25rem;
+  color: inherit;
+}
+
+#content ol > li > h2 + p {
+  margin-top: 0;
+}
