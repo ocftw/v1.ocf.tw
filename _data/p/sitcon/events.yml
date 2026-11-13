@@ -8,6 +8,9 @@
   links:
     - title: 活動網站
       url: https://sitcon.org/2015/#/
+  links_en:
+    - title: Event website
+      url: https://sitcon.org/2015/#/
   organizer_ids:
     - sitcon
   co-organizer_ids:
@@ -25,10 +28,14 @@
   name: SITCON Camp 學生計算機年會夏令營 2015（第一梯次）
   name_en: SITCON Camp 2015
   description: 2015 年度，以「開源、創新、夥伴精神」為營隊主軸，SITCON 夏令營將在聖約翰科技大學舉辦共兩梯次的四天三夜營隊，延續去年大受好評的新手村的概念，配合豐富的課程、演講、座談會及社群闖關等，讓學員在程式編寫管理、演算法思維、團隊合作、資源尋找等主題架構下愉快學習，今年並將更進一步把 RPG 故事概念和營隊課程整合，必將帶給學員截然不同的營隊體驗。
+  description_en: "With open source, innovation, and teamwork as its themes, SITCON Camp 2015 offered two four-day sessions at St. John’s University. Building on the previous year’s beginner-village theme, classes, talks, panel discussions, and community activities helped campers learn to manage code, think through algorithms, work in teams, and find resources. This edition tied its role-playing story more closely to the program."
   start: 2015/07/20
   end: 2015/07/23
   links:
     - title: 活動頁
+      url: http://sitcon.kktix.cc/events/camp-2015-first-1
+  links_en:
+    - title: Event website
       url: http://sitcon.kktix.cc/events/camp-2015-first-1
   cover_image: /p/2015/sitconcamp/og.png
   project_id:
@@ -38,10 +45,14 @@
   name: SITCON Camp 學生計算機年會夏令營 2015（第二梯次）
   name_en: SITCON Camp 2015
   description: 2015 年度，以「開源、創新、夥伴精神」為營隊主軸，SITCON 夏令營將在聖約翰科技大學舉辦共兩梯次的四天三夜營隊，延續去年大受好評的新手村的概念，配合豐富的課程、演講、座談會及社群闖關等，讓學員在程式編寫管理、演算法思維、團隊合作、資源尋找等主題架構下愉快學習，今年並將更進一步把 RPG 故事概念和營隊課程整合，必將帶給學員截然不同的營隊體驗。
+  description_en: "With open source, innovation, and teamwork as its themes, SITCON Camp 2015 offered two four-day sessions at St. John’s University. Building on the previous year’s beginner-village theme, classes, talks, panel discussions, and community activities helped campers learn to manage code, think through algorithms, work in teams, and find resources. This edition tied its role-playing story more closely to the program."
   start: 2015/07/20
   end: 2015/07/23
   links:
     - title: 活動頁
+      url: http://sitcon.kktix.cc/events/camp-2015-second-1
+  links_en:
+    - title: Event website
       url: http://sitcon.kktix.cc/events/camp-2015-second-1
   cover_image: /p/2015/sitconcamp/og.png
   project_id:
@@ -56,6 +67,9 @@
 
   links:
     - title: 活動網站
+      url: https://sitcon.org/2016/#/
+  links_en:
+    - title: Event website
       url: https://sitcon.org/2016/#/
   organizer_ids:
     - sitcon
@@ -72,13 +86,18 @@
 
 - id: 
   name: SITCON 夏令營 2016
+  name_en: SITCON Camp 2016
   subtitle:
     - SITCON 開源鄉
   description: 2016 年度，以「墜入資訊夢，喚醒開源魂」為主軸，SITCON 夏令營將於中央大學舉辦，新創開源鄉的概念，配合豐富的課程、座談會及社群闖關，讓學員在程式編寫管理、演算法思維、團隊合作等架構下學習；今年將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+  description_en: "SITCON Camp 2016 took place at National Central University and introduced an open-source village theme. Through classes, panel discussions, and community activities, campers learned to manage code, think through algorithms, and work in teams. The camp wove its story throughout the program."
   start: 2016/08/02
   end: 2016/08/05
   links:
     - title: 活動頁
+      url: http://sitcon.camp/2016/
+  links_en:
+    - title: Event website
       url: http://sitcon.camp/2016/
   cover_image: /p/2016/sitconcamp/og.png
   project_id:
@@ -93,6 +112,9 @@
 
   links:
     - title: 活動網站
+      url: https://sitcon.org/2017/#/
+  links_en:
+    - title: Event website
       url: https://sitcon.org/2017/#/
   organizer_ids:
     - sitcon
@@ -109,13 +131,18 @@
 
 - id: 
   name: SITCON 夏令營 2017
+  name_en: SITCON Camp 2017
   subtitle:
     - SITCON 開源城
   description: 2017 年度，以「踏入資訊域，放眼開源界」為主軸，SITCON 夏令營將於東海大學舉辦，承接開源鄉的概念，配合豐富的課程、座談會及社群闖關，透過程式編寫管理、演算法思維、團隊合作等架構下學習，讓學員推開程式大門、踏入資訊領域，並認識「開源」世界的廣大，透過開源城的引導，甚至做出自己的聊天室機器人，擁有截然不同的營隊體驗。
+  description_en: "SITCON Camp 2017 took place at Tunghai University and built on the previous camp’s open-source village theme. Classes, panel discussions, and community activities introduced campers to computing and open source. They practiced managing code, thinking through algorithms, and working in teams, and even built their own chatbots."
   start: 2017/08/14
   end: 2017/08/17
   links:
     - title: 活動頁
+      url: http://sitcon.camp/2017/
+  links_en:
+    - title: Event website
       url: http://sitcon.camp/2017/
   cover_image: /p/sitcon/2017.png
   project_id:
@@ -130,6 +157,9 @@
 
   links:
     - title: 活動網站
+      url: https://sitcon.org/2018/#/
+  links_en:
+    - title: Event website
       url: https://sitcon.org/2018/#/
   organizer_ids:
     - sitcon
@@ -155,6 +185,9 @@
   links:
     - title: 活動網站
       url: https://sitcon.org/2019/#/
+  links_en:
+    - title: Event website
+      url: https://sitcon.org/2019/#/
   organizer_ids:
     - sitcon
   co-organizer_ids:
@@ -167,13 +200,18 @@
 
 - id: 
   name: SITCON 夏令營 2019
+  name_en: SITCON Camp 2019
   subtitle:
     - SITCON 開源宇宙
   description: 2019 年度，SITCON 夏令營將於國立臺灣海洋大學舉辦，以「浸身資訊流，征服開源星」為主軸，帶各位一同進入開源宇宙，承接開源城的概念，配合豐富的課程、座談會及社群闖關，透過基礎的 Python 程式語言到做出自己的聊天機器人的實作課程，也有讓學員認識社群精神、開源文化、資訊安全等廣度課程，社群闖關讓學員藉由遊戲更加了解各個社群的理念、運作；為學員帶來前段提到的精彩活動，絕對能讓每一個人大開眼界。今年並將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+  description_en: "SITCON Camp 2019 took place at National Taiwan Ocean University. Its open-source space adventure built on the earlier open-source city theme. Campers learned Python by building chatbots and explored how communities work, what open-source culture means, and how to think about information security. Classes, discussions, and games tied into the camp’s story."
   start: 2019/08/07
   end: 2019/08/11
   links:
     - title: 活動頁
+      url: http://sitcon.camp/2019/
+  links_en:
+    - title: Event website
       url: http://sitcon.camp/2019/
   cover_image: /p/sitcon/2019.png
   project_id:
@@ -186,12 +224,18 @@
   description: "學生計算機年會（Students’ Information Technology Conference）自 2013 年發起，以學生為本、由學生自發舉辦，長期投身學生資訊教育與推廣開源精神，希望引領更多學子踏入資訊的殿堂，更冀望所有對資訊有興趣的學生，能夠在年會裏齊聚一堂，彼此激盪、傳承、啟發，達到「學以致用、教學相長」的實際展現。
 二十一世紀已經過了五分之一，今年，我們期待帶著豐沛熱情的你，能和我們一起在 2020 年這麼一個「承先啟後」的年份，綜觀不同領域發展與事件脈絡，自主學習感興趣之專長與技術，彼此分享、相濡以沫。在 SITCON 2020 裡，願所有與會者皆能拓展視野，鍛鍊與發展自我，找到向前邁步的勇氣與目標。相信身為學生的我們，也將能重新定義自我、定義未來！
 SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，期待您能在演講桌前，與我們一起 #define student。"
+  description_en: "Under the theme #define student, SITCON 2020 invited students to share their experiences and technical knowledge onstage. It encouraged participants to look at developments across fields, pursue the skills they were interested in, and learn from one another as they found their own direction."
   start: 2020/08/08
   end: 
   links:
     - title: 官方網站
       url: https://sitcon.org/2020/#/
     - title: 社群媒體
+      url: https://www.facebook.com/SITCONtw/
+  links_en:
+    - title: Event website
+      url: https://sitcon.org/2020/#/
+    - title: Social media
       url: https://www.facebook.com/SITCONtw/
   cover_image: /p/sitcon/2020.png
   contributor_ids:
@@ -212,10 +256,14 @@ SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，�
   name: 學生計算機年會 SITCON 2021
   name_en: SITCON 2021
   description: 學生計算機年會（SITCON）是由學生自發舉辦，投身學生資訊教育與推廣開源精神的社群， 也是一個由學生主辦、學生擔任講者、以學生為主軸的資訊研討會，給學生們一個發表交流技術的舞台。除了技術研討之外，還有許多從學生角度出發的經驗分享、專題研究成果或探討學生相關議題等等議程。 我們也曾舉辦黑客松、工作坊，和各地學校社團舉辦聯合講座等等。
+  description_en: "SITCON is a student-led community that promotes computing education and open source. Students organize and speak at the conference, where they share technical knowledge, present research, and discuss issues that matter to them. The community has also held hackathons, workshops, and joint talks with school clubs across Taiwan."
   start: 2021/09/04
   end: 
   links:
     - title: 活動網頁
+      url: https://sitcon.org/2021/
+  links_en:
+    - title: Event website
       url: https://sitcon.org/2021/
   cover_image: /p/sitcon/sitcon2021.png
   contributor_ids: 
@@ -227,10 +275,14 @@ SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，�
   name: SITCON 線上夏令營 2021
   name_en: SITCON Camp 2021
   description: 2021 年度，SITCON 夏令營因應疫情改於線上舉辦，以「開源星球，源力崛起」為主軸，帶領各位一同進入開源宇宙。我們將傳承歷屆夏令營的概念，今年的線上夏令營將會把往年的豐富活動都移轉到線上舉行，也會有從基礎 Python 程式語言到做出自己的聊天機器人的實作課程。開源宇宙也將更進一步把故事和營隊整合，配合豐富的課程、座談會及社群闖關，絕對能讓學員擁有截然不同的營隊體驗。
+  description_en: "SITCON moved its 2021 summer camp online in response to the pandemic. The camp brought its open-source space adventure to online classes, panel discussions, and community activities, including hands-on sessions where campers learned Python and built their own chatbots."
   start: 2021/08/11
   end: 2021/08/17
   links:
     - title: 活動網頁
+      url: https://sitcon.camp/2021/
+  links_en:
+    - title: Event website
       url: https://sitcon.camp/2021/
   cover_image: /p/sitcon/sitconcamp2021.png
   contributor_ids: 
@@ -242,10 +294,14 @@ SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，�
   name: 學生計算機年會 SITCON 2022
   name_en: SITCON 2022
   description: 學生計算機年會（SITCON）是由學生自發舉辦，投身學生資訊教育與推廣開源精神的社群， 也是一個由學生主辦、學生擔任講者、以學生為主軸的資訊研討會，給學生們一個發表交流技術的舞台。除了技術研討之外，還有許多從學生角度出發的經驗分享、專題研究成果或探討學生相關議題等等議程。 我們也曾舉辦黑客松、工作坊，和各地學校社團舉辦聯合講座等等。
+  description_en: "SITCON is a student-led community that promotes computing education and open source. Students organize and speak at the conference, where they share technical knowledge, present research, and discuss issues that matter to them. The community has also held hackathons, workshops, and joint talks with school clubs across Taiwan."
   start: 2022/09/04
   end:
   links:
     - title: 活動網頁
+      url: https://sitcon.org/2022/
+  links_en:
+    - title: Event website
       url: https://sitcon.org/2022/
   cover_image: /p/sitcon/sitcon2022.png
   contributor_ids: 
@@ -257,10 +313,14 @@ SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，�
   name: SITCON 夏令營 2023
   name_en: SITCON Camp 2023
   description: 2023 年度，SITCON 夏令營將於國立陽明交通大學光復校區舉辦，這次以主題「開源文明，源力擴張」，帶各位一同進入開源宇宙，承接開源城的概念，配合豐富的課程、座談會及社群闖關，透過基礎的 Python 程式語言到做出自己的聊天機器人的實作課程，也有讓學員認識社群精神、開源文化、資訊安全等廣度課程，社群闖關讓學員藉由遊戲更加了解各個社群的理念、運作；為學員帶來前段提到的精彩活動，絕對能讓每一個人大開眼界。今年並將更進一步把故事和營隊整合，完整營造整體感，務求讓學員擁有截然不同的營隊體驗。
+  description_en: "SITCON Camp 2023 took place at National Yang Ming Chiao Tung University’s Guangfu campus. The camp continued its open-source space adventure with classes, panel discussions, and games about how communities work. Campers built chatbots with Python and explored open-source culture, community participation, and information security. The story ran throughout the camp."
   start: 2023/07/20
   end: 2023/07/24
   links:
     - title: 活動網頁
+      url: https://sitcon.camp/2023/
+  links_en:
+    - title: Event website
       url: https://sitcon.camp/2023/
   cover_image: /p/sitcon/sitcon2023.png
   contributor_ids: 
@@ -272,10 +332,14 @@ SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，�
   name: 學生計算機年會 SITCON 2024
   name_en: SITCON 2024
   description: 2024 年的社會仍然有各式問題需要解決：社群媒體審查機制、內容推薦演算法、科技綁架、個人資料追蹤、深度偽造技術、詐騙及假新聞、科技巨擘壟斷行為、⋯⋯。每個議題的複雜程度之高、涉及層面之廣，不禁讓我們思考：究竟科技發展會帶領我們到何方？
+  description_en: "SITCON 2024 asked where technological development is taking us. Its introduction highlighted problems such as social media moderation, recommendation algorithms, dependence on technology, personal data tracking, deepfakes, scams, misinformation, and monopolistic practices by major tech companies."
   start: 2024/03/09
   end: 
   links:
     - title: 活動網頁
+      url: https://sitcon.org/2024/
+  links_en:
+    - title: Event website
       url: https://sitcon.org/2024/
   cover_image: /p/sitcon/sitcon2024-1.png
   contributor_ids: 
@@ -287,10 +351,14 @@ SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，�
   name: SITCON 夏令營 2024
   name_en: SITCON Camp 2024
   description: 今年 SITCON 夏令營將於陽明交通大學光復校區舉辦，以「拉麵加點 source，麵向開源界」為主軸。正如同拉麵的麵條和配料可以隨個人喜好自由搭配組合，在程式設計中也可以讓每個人根據自己的想法和需求，選用不同的程式模組和元件，打造獨一無二的作品。透過兩者結合，傳達開源及資訊的無限可能性，在動手實作的過程中，激發創意靈感，發掘個人興趣所在，進而體會開源的樂趣與價值。
+  description_en: "SITCON Camp 2024 took place at National Yang Ming Chiao Tung University’s Guangfu campus. Its ramen-themed program compared choosing noodles and toppings to combining software modules and components. Through hands-on work, campers explored what open source makes possible and discovered what they wanted to learn next."
   start: 2024/07/17
   end: 2024/07/21
   links:
     - title: 活動網頁
+      url: https://sitcon.camp/2024/
+  links_en:
+    - title: Event website
       url: https://sitcon.camp/2024/
   cover_image: /p/sitcon/sitconcamp2024.png
   contributor_ids: 
@@ -302,10 +370,14 @@ SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，�
   name: 學生計算機年會 SITCON 2025
   name_en: SITCON 2025
   description: 作為學生，我們處在一個迷惘卻充滿熱血的年紀，可以試圖去尋找社會中的裂隙，並透過「自我覺察」來建立屬於自己的價值觀與信念。無論是發掘在螢幕後方的我們，被社群媒體影響的同時遺漏了什麼；或是如何不為了合群或符合社會期待，而去隱藏自己的真實想法以此從眾；甚至是勇敢地成為先鋒，以資訊結合不同領域，打造出多元化的社群生態。讓我們帶著自我覺察的心，去開創一條屬於這個時代的逃逸路線。
+  description_en: "SITCON 2025 invited students to reflect on how social media and social expectations shape what they notice, what they value, and how they express themselves. It also encouraged them to combine computing with other fields and help build a more diverse community."
   start: 2025/03/08
   end: 
   links:
     - title: 活動網頁
+      url: https://sitcon.org/2025/
+  links_en:
+    - title: Event website
       url: https://sitcon.org/2025/
   cover_image: /p/sitcon/sitcon2025.png
   contributor_ids: 
