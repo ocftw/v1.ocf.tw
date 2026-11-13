@@ -1,7 +1,7 @@
 name: WordCamp Taiwan
 name_en: Students’ Information Technology Conference
 description: WordCamp 是自 2006 年起源於美國舊金山，在世界各地所舉辦一系列的自發性開放原始碼的 WordPress 使用者實體社群活動。透過一整天內容豐富的大型活動，將來自台灣各地、以及來自國外的 WordPress 愛好者齊聚一堂，分享知識、交流經驗，並共同學習最新的科技變革與技術資訊。
-description_en:
+description_en: "WordCamp Taiwan is a community-organized event for people who use, build, and contribute to WordPress. It brings together participants from Taiwan and abroad to share what they know, learn about new developments, and meet others in the WordPress community."
 abbr: WordCamp 
 abbr_en: WordCamp
 tagline: WordCamp
@@ -26,8 +26,12 @@ board_ids:
 staff_ids:
   - leaf
 
+links_en:
+  - title: "WordCamp Taiwan (in Chinese)"
+    url: /p/wordcamp/
+
 listed: yes
-listed_en: 
+listed_en: yes
 
 actions: 
 

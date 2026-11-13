@@ -2,7 +2,7 @@ name: 國家寶藏
 name_en: Taiwan National Treasure
 
 description: 關於台灣過去的拼圖，散落在全世界的各個角落。我們需要把它們找出來、加以數位化，轉譯成為人人都可取用的開放資料與有意義的歷史故事。國家寶藏號召志工一起深入世界各地的國家檔案局與圖書館，挖出台灣相關史料，並建立網路開放資料庫，供全民免費使用。
-description_en: 
+description_en: "Taiwan National Treasure brings volunteers together to find records about Taiwan in archives and libraries around the world. They digitize and interpret those materials, then make them available to the public as open data and historical stories."
 
 abbr: 
 abbr_en: 
@@ -32,6 +32,8 @@ links:
   - title: 贊助社群
     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=35
 links_en:
+  - title: "Support Taiwan National Treasure"
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=35
 
 actions:
 actions_en:
@@ -57,6 +59,6 @@ staff_ids:
   - rosa
 
 listed: yes
-listed_en: 
+listed_en: yes
 
 reports:

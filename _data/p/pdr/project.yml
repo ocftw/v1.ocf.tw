@@ -33,6 +33,8 @@ links:
     icon: file alternate outline icon
 
 links_en:
+  - title: "Research report and project overview (in Chinese)"
+    url: /p/pdr/
 
 organizer_ids:
   - ocf
@@ -44,4 +46,4 @@ board_ids:
 staff_ids:
 
 listed: yes
-listed_en: no
+listed_en: yes

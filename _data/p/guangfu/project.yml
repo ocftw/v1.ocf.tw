@@ -1,9 +1,9 @@
 name: 支持光復超人
-name_en: 
+name_en: "Support the Guangfu Volunteers"
 
 description: 光復超人平台起源於 2025 年光復與馬太鞍溪洪災。在第一線，我們看到的不是沒有人願意幫忙，而是——資訊太亂、角色太多、沒有一個地方可以好好協作。於是，一群來自不同背景的志工，用最臨時、最克難的方式，把資訊、行動與人連在一起。
 
-description_en: 
+description_en: "After flooding in Guangfu and along the Matai’an River in 2025, volunteers built a platform to make it easier to find reliable information and coordinate relief. It brings people, information, and on-the-ground work together so volunteers can see where help is needed."
 
 abbr: guangfu
 abbr_en: 
@@ -51,7 +51,11 @@ organizer_ids:
 board_ids:
 staff_ids:
 
+links_en:
+  - title: "Guangfu Volunteers (in Chinese)"
+    url: /p/guangfu/
+
 listed: yes
-listed_en: 
+listed_en: yes
 
 reports:

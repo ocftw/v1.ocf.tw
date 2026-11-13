@@ -1,7 +1,7 @@
 name: SQCS 學生電腦量子交流會
-name_en: 
+name_en: "Student Quantum Computer Society (SQCS)"
 description: 聚集來自台灣各地的高中與大學量子運算同好，精進彼此能力，拓展量子運算在台灣的知名度。
-description_en:
+description_en: "SQCS brings together high school and university students across Taiwan who are interested in quantum computing. Members learn together, build their skills, and introduce more people to the field."
 abbr: SQCS
 abbr_en: SQCS
 tagline: SQCS
@@ -27,8 +27,12 @@ board_ids:
 staff_ids:
   - rock
 
+links_en:
+  - title: "Student Quantum Computer Society (in Chinese)"
+    url: /p/sqcs/
+
 listed: yes
-listed_en: 
+listed_en: yes
 
 actions: 
 # 專案頁的 call to action，可以是按鈕或一段文字，會出現在左側邊欄的最下方

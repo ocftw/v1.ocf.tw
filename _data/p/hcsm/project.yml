@@ -2,7 +2,7 @@ name: 新竹碼農
 name_en: Hsinchu Coding Serfs Meeting
 
 description: 新竹碼農是一群熱愛 Open Source 工程師們在新竹創立的定期聚會，目前固定隔週四在 Book 11 聊天分享，歡迎各位碼農友路過參加聚會，也可線上小額贊助聚會經費。
-description_en: 
+description_en: "Hsinchu Coding Serfs Meeting is a regular meetup for engineers who enjoy open source. The group welcomes people who want to share what they are working on, learn from others, or support the meetups."
 
 abbr: 
 abbr_en: 
@@ -32,6 +32,8 @@ links:
   - title: 贊助社群
     url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=20
 links_en:
+  - title: "Support the community"
+    url: https://ocf.neticrm.tw/civicrm/contribute/transact?reset=1&id=20
 
 actions:
 actions_en:
@@ -57,6 +59,6 @@ staff_ids:
   - singing
 
 listed: yes
-listed_en: 
+listed_en: yes
 
 reports:

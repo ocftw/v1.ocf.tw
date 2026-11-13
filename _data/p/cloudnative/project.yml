@@ -2,7 +2,7 @@ name: Cloud Native Taiwan User Group
 name_en: Cloud Native Taiwan User Group
 
 description: Cloud Native Taiwan User Group 希望整合台灣雲端相關社群如 OpenStack, Kubernetes, Ceph, SDN 等，並利用 Meetup 定期在各台灣地區舉辦技術與推廣分享活動。
-description_en: 
+description_en: "Cloud Native Taiwan User Group brings together local communities working on technologies such as OpenStack, Kubernetes, Ceph, and software-defined networking. It holds meetups across Taiwan for people to share what they are building and learning."
 
 abbr: 
 abbr_en: 
@@ -49,6 +49,8 @@ links:
     icon: telegram
     color: grey
 links_en:
+  - title: "Cloud Native Taiwan User Group website"
+    url: https://cloudnative.tw
 
 actions:
 actions_en:
@@ -75,6 +77,6 @@ staff_ids:
   - singing
 
 listed: yes
-listed_en: 
+listed_en: yes
 
 reports:

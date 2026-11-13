@@ -6,6 +6,7 @@ name_en: Gcoin Blockchain Project
 # 英文版網頁用
 
 description: 開放文化基金會下之 Gcoin 專案，除致力於 Gcoin 軟體程式之研發，也希望有興趣的開發者一同參與，群策群力讓這個開源專案快速成長，對台灣的金融界能及時貢獻。專案成果除將以開放原始碼授權外，並將推廣新一代的數位金融基礎建設概念及尋求相關法制商業模式等配套落實，使台灣成為 Gcoin 技術能實際應用的場域。
+description_en: "The Gcoin project develops open-source blockchain software and invites developers to contribute. It also explores how the technology can be used in Taiwan’s financial sector, including the legal and business conditions needed for practical adoption."
 
 og_image: /p/gcoin/2019/avatar.png
 # og_image: url
@@ -45,5 +46,9 @@ actions:
     icon: github
   - title: 如果你想捐贈儀器設備，請與我們聯絡 ( hi@ocf.tw)。
 
+links_en:
+  - title: "Gcoin project overview (in Chinese)"
+    url: /p/gcoin/
+
 listed: yes
-listed_en: 
+listed_en: yes

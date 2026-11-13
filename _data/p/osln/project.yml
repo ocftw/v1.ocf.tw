@@ -2,7 +2,7 @@ name: 台灣開源法律網絡
 name_en: Open Source Legal Network
 
 description: 開放授權 (Open License)，是跨界團結眾多參與人士的運作規則，然而，有時因為解讀立場不同，導致近年紛爭日起。因應於此，「台灣開源法律網絡（Open Source Legal Network, Taiwan）」，是希望在國內建立一個中立客觀且保障參與隱私的自由開源法律資訊分享網絡。
-description_en: 
+description_en: "The Open Source Legal Network brings people in Taiwan together to share information about open-source law and licensing. It aims to provide a neutral space for discussing different interpretations while protecting participants’ privacy."
 abbr: OSLN.TW
 abbr_en: OSLN.TW
 
@@ -44,5 +44,9 @@ board_ids:
 staff_ids: 
   - rock
 
+links_en:
+  - title: "Open Source Legal Network (in Chinese)"
+    url: /p/osln/
+
 listed: yes
-listed_en: 
+listed_en: yes
