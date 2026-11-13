@@ -1,5 +1,12 @@
 {% assign project = include.project %}
 {% include _var/plist/item.html project=project %}
+{% assign card_image_src = project_og_image %}
+{% assign card_image_first_char = project_og_image | slice: 0, 1 %}
+{% assign card_image_prefix = project_og_image | slice: 0, 2 %}
+{% assign card_image_extension = project_og_image | split: '?' | first | downcase | slice: -4, 4 %}
+{% if page.transform_card_images and jekyll.environment == 'production' and card_image_first_char == '/' and card_image_prefix != '//' and card_image_extension != '.svg' %}
+  {% assign card_image_src = project_og_image | uri_escape | prepend: '/cdn-cgi/image/width=600,height=600,fit=scale-down,format=auto,onerror=redirect' %}
+{% endif %}
 
 <div class="project page__grid" data-type="
   {% for id in project.type_ids %}
@@ -14,10 +21,17 @@
   {{ id }}
   {% endfor %}
   ">
-  <a href="{{ project_url }}" class="image"
+  <a href="{{ project_url }}" class="image" aria-label="{{ project_name | escape }}"
     {% if project_url contains 'http' %} target="_blank" {% else %} {% endif %}
-    style="background-image: url('{{ project_og_image }}');"
     >
+    {% if card_image_src and card_image_src != empty %}
+    <img src="{{ card_image_src | escape }}" alt=""
+      {% if card_image_src != project_og_image %}
+      data-original-src="{{ project_og_image | escape }}"
+      onerror="this.onerror = null; this.src = this.dataset.originalSrc;"
+      {% endif %}
+      >
+    {% endif %}
   </a>
   <article>
     <h3 class="ocf__text--primary">
