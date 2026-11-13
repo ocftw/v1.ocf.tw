@@ -12,7 +12,7 @@
   {% endfor %}
   {% if year_events.size > 0 %}
   <h2 class="ui dividing header">
-    {{ year }} 年
+    {{ year }}{% unless lang == 'en' %} 年{% endunless %}
     <i class="icon down chevron"></i>
   </h2> 
 <div id="events" class="ui divided items opentech-event-list">
