@@ -1,8 +1,8 @@
 name: Twinkle AI
-name_en: 
+name_en: "Twinkle AI"
 
 description: Twinkle AI 是一個以繁體中文為核心的開源 AI 社群，專注於打造在地語言模型與資料集。我們致力於推動可公開使用的模型權重、訓練資料與實務經驗分享，串聯研究者、工程師與創作者，促進台灣在地 AI 生態的交流與共創。
-description_en: 
+description_en: "Twinkle AI is an open-source AI community centered on Traditional Chinese. It develops language models and datasets for local needs and promotes public access to model weights and training data, as well as the sharing of practical experience. By connecting researchers, engineers, and creators, the community supports exchange and collaboration in Taiwan’s AI ecosystem."
 
 abbr: 
 abbr_en: 
@@ -35,6 +35,8 @@ links:
     url: https://neti.cc/x58Ym4q
 
 links_en:
+  - title: "Support Twinkle AI"
+    url: https://neti.cc/x58Ym4q
 
 actions:
 
@@ -62,6 +64,6 @@ staff_ids:
 
 
 listed: yes
-listed_en:
+listed_en: yes
 
 reports:

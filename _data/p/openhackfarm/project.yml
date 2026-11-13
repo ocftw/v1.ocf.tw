@@ -2,7 +2,7 @@ name: 開放農業實驗基地
 name_en: Open Hack Farm
 
 description: 進行農耕生活四年多，於 2017 年，在宜蘭的小農村裡，成立了「開放農業實驗基地」。希望聚集更多小農與科技人，透過社群的力量，進行開放農耕實驗及研發，並運用適切科技輔助，打造更友善的農食環境。讓我們與生活產生新的連結吧，Open Hack Farm！
-description_en: 
+description_en: "After more than four years of farming, the founders established Open Hack Farm in a small village in Yilan in 2017. They hope to bring more small-scale farmers and technologists together to experiment with open approaches to farming and develop them as a community. The project uses technology suited to local needs to create a more supportive environment for farming and food production. Open Hack Farm invites people to find new ways to connect farming with everyday life."
 
 abbr: 
 abbr_en: 
@@ -33,6 +33,8 @@ metas_en:
 
 links:
 links_en:
+  - title: "Open Hack Farm (in Chinese)"
+    url: /p/openhackfarm/
 
 actions: 
 # 專案頁的 call to action，可以是按鈕或一段文字，會出現在左側邊欄的最下方
@@ -76,7 +78,7 @@ staff_ids:
   - leona
 
 listed: yes
-listed_en: 
+listed_en: yes
 
 reports:
   2020: 01
