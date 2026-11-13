@@ -3,7 +3,7 @@ description: 海底電纜中斷時，平常用的網站和手機 App 還能用�
 og_image: /p/resilience/cover.png
 
 topic_ids:
-  - tech
+  - resilience
 field_ids:
   - it
   - rsh
