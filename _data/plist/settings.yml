@@ -49,6 +49,9 @@
     - id: infr
       name: 網路自由
       name_en: Internet Freedom
+    - id: resilience
+      name: 網路韌性
+      name_en: Internet Resilience
     - id: misc
       name: 其他
       name_en: Misc
