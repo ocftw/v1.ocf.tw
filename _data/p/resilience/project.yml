@@ -1,5 +1,7 @@
 name: 網路韌性專案
+name_en: Internet Resilience Project
 description: 海底電纜中斷時，平常用的網站和手機 App 還能用嗎？OCF 從馬祖斷纜事件出發，透過專題報導、研究報告與開源工具，檢視臺灣對外連線受阻時，通訊、訂票與付款等日常服務可能受到的影響。專案也收錄民間海纜觀測指引與離線生活的採訪，讓讀者了解如何追蹤斷纜事件，並為網路中斷做準備。
+description_en: Would your apps and websites still work if the cables connecting Taiwan to the rest of the world went down? Drawing on the cable outages in Matsu, OCF explores what disruptions could mean for everyday tasks like sending messages, booking tickets, and paying online. The portal brings together reporting, research, and open-source tools, along with a guide to tracking cable outages and interviews about how people prepare to go offline.
 og_image: /p/resilience/cover.png
 
 topic_ids:
@@ -12,7 +14,11 @@ links:
   - title: 網路韌性入口網
     url: https://resilience.ocf.tw/
 
+links_en:
+  - title: Internet Resilience Portal
+    url: https://resilience.ocf.tw/
+
 organizer_ids:
   - ocf
 listed: true
-listed_en: false
+listed_en: true
