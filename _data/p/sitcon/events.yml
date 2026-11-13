@@ -26,7 +26,7 @@
 
 - id: 
   name: SITCON Camp 學生計算機年會夏令營 2015（第一梯次）
-  name_en: SITCON Camp 2015
+  name_en: SITCON Camp 2015 (Session 1)
   description: 2015 年度，以「開源、創新、夥伴精神」為營隊主軸，SITCON 夏令營將在聖約翰科技大學舉辦共兩梯次的四天三夜營隊，延續去年大受好評的新手村的概念，配合豐富的課程、演講、座談會及社群闖關等，讓學員在程式編寫管理、演算法思維、團隊合作、資源尋找等主題架構下愉快學習，今年並將更進一步把 RPG 故事概念和營隊課程整合，必將帶給學員截然不同的營隊體驗。
   description_en: "With open source, innovation, and teamwork as its themes, SITCON Camp 2015 offered two four-day sessions at St. John’s University. Building on the previous year’s beginner-village theme, classes, talks, panel discussions, and community activities helped campers learn to manage code, think through algorithms, work in teams, and find resources. This edition tied its role-playing story more closely to the program."
   start: 2015/07/20
@@ -43,7 +43,7 @@
 
 - id: 
   name: SITCON Camp 學生計算機年會夏令營 2015（第二梯次）
-  name_en: SITCON Camp 2015
+  name_en: SITCON Camp 2015 (Session 2)
   description: 2015 年度，以「開源、創新、夥伴精神」為營隊主軸，SITCON 夏令營將在聖約翰科技大學舉辦共兩梯次的四天三夜營隊，延續去年大受好評的新手村的概念，配合豐富的課程、演講、座談會及社群闖關等，讓學員在程式編寫管理、演算法思維、團隊合作、資源尋找等主題架構下愉快學習，今年並將更進一步把 RPG 故事概念和營隊課程整合，必將帶給學員截然不同的營隊體驗。
   description_en: "With open source, innovation, and teamwork as its themes, SITCON Camp 2015 offered two four-day sessions at St. John’s University. Building on the previous year’s beginner-village theme, classes, talks, panel discussions, and community activities helped campers learn to manage code, think through algorithms, work in teams, and find resources. This edition tied its role-playing story more closely to the program."
   start: 2015/07/20
@@ -370,7 +370,7 @@ SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，�
   name: 學生計算機年會 SITCON 2025
   name_en: SITCON 2025
   description: 作為學生，我們處在一個迷惘卻充滿熱血的年紀，可以試圖去尋找社會中的裂隙，並透過「自我覺察」來建立屬於自己的價值觀與信念。無論是發掘在螢幕後方的我們，被社群媒體影響的同時遺漏了什麼；或是如何不為了合群或符合社會期待，而去隱藏自己的真實想法以此從眾；甚至是勇敢地成為先鋒，以資訊結合不同領域，打造出多元化的社群生態。讓我們帶著自我覺察的心，去開創一條屬於這個時代的逃逸路線。
-  description_en: "SITCON 2025 invited students to reflect on how social media and social expectations shape what they notice, what they value, and how they express themselves. It also encouraged them to combine computing with other fields and help build a more diverse community."
+  description_en: "SITCON 2025 invited students to use self-awareness to develop their own values and beliefs. It asked them to consider what they might miss when social media shapes their view of the world, and how the pressure to fit in can lead them to hide what they really think. It also encouraged them to bring computing together with other fields and help build a more diverse community."
   start: 2025/03/08
   end: 
   links:
