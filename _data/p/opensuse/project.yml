@@ -2,7 +2,7 @@ name: openSUSE Taiwan
 name_en: openSUSE Taiwan
 
 description: openSUSE 是基於 Linux 的開源作業系統，適合初學者、有經驗的使用者以及超級技客。正體中文社群創立於 2011 年，協助翻譯 Release notes 與 Wiki 條目、舉辦 Release Party 與 InstallFest 等活動。
-description_en: "The Traditional Chinese openSUSE community was founded in 2011. Its members translate release notes and wiki pages and organize release parties and installfests for people learning and using openSUSE."
+description_en: "openSUSE is an open-source operating system based on Linux, with something to offer beginners, experienced users, and enthusiasts. Founded in 2011, the Traditional Chinese openSUSE community helps translate release notes and wiki pages and organizes release parties and installfests."
 
 abbr: 
 abbr_en: 

@@ -6,7 +6,7 @@ name_en: OpenStreetMap Taiwan
 # 英文版網頁用
 
 description: 開放街圖（OpenStreetMap，簡稱 OSM）是一個靠群眾協作而成的地理資料庫，同時也是採用開放資料授權的全球地圖，由像你一樣的使用者繪製，在日常生活、導航、學術、商業領域創造出豐富的應用，台灣開放街圖社群是活躍的參與者之一。凡支持開放街圖運動之個人，捐款至開放文化基金會下之台灣開放街圖社群專戶，即可加入台灣開放街圖社群會員，參與社群營運之事務。
-description_en: "OpenStreetMap Taiwan contributes to the global, collaboratively edited OpenStreetMap database. Its open geographic data supports everyday navigation, research, and other uses. The local community welcomes contributors and supporters who want to help maintain and improve the map."
+description_en: "OpenStreetMap (OSM) is a collaboratively built geographic database and a global map available under an open-data license. People around the world contribute to the map, and its data supports everyday uses, navigation, academic research, and business. The Taiwan community is an active contributor. Supporters of OpenStreetMap can join the Taiwan community and take part in running it by donating to the community’s dedicated account at OCF."
 
 og_image: /p/osmtw/avatar.png
 # og_image: url

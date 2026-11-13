@@ -2,7 +2,7 @@ name: OpenChain 臺灣社群
 name_en: OpenChain Taiwan Working Group
 
 description: OpenChain 專案隸屬於 Linux Foundation Project，透過簡化及標準化開源合規實務，協助產業在碰觸或思索開源合規 (Open Source Compliance) 爭議或政策時，可更為有效滿足開源合規，從而建立產業供應鏈對開源軟體的信任。包含微軟、Google、高通、西門子、Sony 與 Uber 等都已採用OpenChain 進行開源合規管理並通過 OpenChain 認證。
-description_en: "The OpenChain Taiwan Working Group promotes practical, standardized ways for organizations to comply with open-source licenses. OpenChain is a Linux Foundation project that helps organizations build trust in how open-source software is managed across supply chains."
+description_en: "OpenChain is a Linux Foundation project that simplifies and standardizes open-source compliance practices. It helps companies handle compliance questions and policies more effectively and build trust in how open-source software is managed across supply chains. Companies including Microsoft, Google, Qualcomm, Siemens, Sony, and Uber have adopted OpenChain for managing open-source compliance and obtained OpenChain certification."
 abbr: openchain
 abbr_en: openchain
 

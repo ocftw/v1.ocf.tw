@@ -3,7 +3,7 @@ name_en: opensource4you
 # 英文版網頁用
 
 description: 「源來適你」是一個將開源技術帶給台灣工程師的社群！參與開源技術對軟體工程師是一條職涯晉升的捷徑，可惜很多台灣工程師「不得其門而入」，而已經獲得開源頭銜的台灣人也沒「環境」在台灣推廣開源。因此在台灣成立社群「源來適你」，我們將開源領域有傑出表現的台灣人團結起來，一起思考如何組織一系列的活動來推廣開源、找出有潛力的工程師培養成下一批「技術專家」！
-description_en: "opensource4you helps engineers in Taiwan get involved in open-source projects. It brings experienced contributors together to organize events, share what they have learned, and mentor engineers who want to start contributing."
+description_en: "opensource4you brings open-source technology to engineers in Taiwan. Contributing to open source can help software engineers advance their careers, yet many engineers in Taiwan have trouble getting started. Established contributors also have few opportunities to promote open source locally. The community brings accomplished Taiwanese contributors together to organize activities, promote open source, and help promising engineers develop their expertise."
 
 
 og_image: /p/opensource4you/os4u.png
