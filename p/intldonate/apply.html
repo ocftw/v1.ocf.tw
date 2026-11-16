@@ -24,7 +24,7 @@ permalink: /p/intldonate/apply
 
   <main>
     <div class="info-box">
-      申請前請先閱讀<a href="/p/intldonate/rule">計畫申請辦法</a>，確認獎助對象、金額與義務規定。送出後 OCF 內部隨到隨審，約 1 個月內通知結果。
+      申請前請先閱讀<a href="/p/intldonate/rule">計畫申請辦法</a>，確認獎助對象、金額與義務規定。在學學生，以及於活動中投稿議程、設置攤位或籌辦周邊活動（side event）者，將優先錄取。送出後 OCF 內部隨到隨審，約 1 個月內通知結果。
     </div>
 
     <div class="success-box" id="successBox">
@@ -61,6 +61,7 @@ permalink: /p/intldonate/apply
 
         <div class="field">
           <label class="field-label" for="f_job">現職或現讀學校（含科系）<span class="required">*</span></label>
+          <p class="field-hint">在學學生請註明學校、科系與年級。</p>
           <input type="text" id="f_job" name="entry.179868925" required />
         </div>
 
@@ -118,13 +119,18 @@ permalink: /p/intldonate/apply
         </div>
 
         <div class="field">
-          <label class="field-label" for="f_proof">活動報名或投稿入選證明（如有，請附上連結）</label>
-          <input type="text" id="f_proof" name="entry.17527471" />
+          <label class="field-label" for="f_proof">是否投稿議程、設置攤位或籌辦周邊活動（side event）？請簡述並附上連結（如有）</label>
+          <textarea id="f_proof" name="entry.17527471"></textarea>
         </div>
 
         <div class="field">
           <label class="field-label" for="f_plan">詳述參與規劃、預期產出<span class="required">*</span></label>
           <textarea id="f_plan" name="entry.1354289025" required></textarea>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="f_othergrant">是否已就本活動向其他單位申請或獲得補助？如有，請填寫單位名稱、補助項目與金額</label>
+          <textarea id="f_othergrant" name="entry.429589284"></textarea>
         </div>
       </fieldset>
 
@@ -155,7 +161,7 @@ permalink: /p/intldonate/apply
         <div class="field">
           <label class="choice-option">
             <input type="checkbox" name="entry.711208944" value="是，我已閱讀並同意" required />
-            我已閱讀並同意「<a href="/p/intldonate/rule" target="_blank">國際會議獎助計畫 受獎助者同意書</a>」之權利義務內容<span class="required">*</span>
+            我已閱讀並同意「<a href="/p/intldonate/rule" target="_blank">計畫申請辦法</a>」之權利義務內容<span class="required">*</span>
           </label>
         </div>
       </fieldset>
