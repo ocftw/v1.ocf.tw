@@ -33,8 +33,10 @@ toc:
       <div class="sixteen wide column">
         {% for article in page.toc %} 
           {% assign id = article[0] %}
-          
-          {% include_relative {{ id }}.html %} 
+
+          <section id="{{ id }}">
+            {% include_relative {{ id }}.html %}
+          </section>
         {% endfor %}
       </div>
       
