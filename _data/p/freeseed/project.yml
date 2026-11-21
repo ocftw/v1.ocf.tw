@@ -1,8 +1,8 @@
 name: FreeSEED 「台灣製造」大型語言模型計劃
-name_en: 
+name_en: "FreeSEED — Made-in-Taiwan Large Language Model Project"
 
 description: 我們以 DeepSeek R1 為基礎，透過重新訓練與改善，打造出一個符合台灣需求的開放模型權重的大型語言模型。這個模型會專注於繁體中文與英文，讓它在這兩種語言的文字表現遠優於簡體中文，且具備民主價值。這不只是技術專案，更是文化與價值工程。
-description_en: 
+description_en: "FreeSEED aims to develop a large language model with open weights tailored to Taiwan’s needs by retraining and refining DeepSeek R1. The project focuses on Traditional Chinese and English, aiming for the model to perform substantially better in those languages than in Simplified Chinese and to reflect democratic values. The team sees this as work on culture and values as well as a technical project."
 
 abbr: 
 abbr_en: 
@@ -42,6 +42,8 @@ links:
 
 
 links_en:
+  - title: "FreeSEED project overview (in Chinese)"
+    url: /p/freeseed/
 
 
 actions_en:
@@ -67,6 +69,6 @@ staff_ids:
 
 
 listed: yes
-listed_en: 
+listed_en: yes
 
 reports:

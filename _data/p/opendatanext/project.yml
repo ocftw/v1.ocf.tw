@@ -49,5 +49,9 @@ actions_en:
 board_ids:
 staff_ids:
 
+links_en:
+  - title: "2026–2036 Open Data Advocacy Manifesto (in Chinese)"
+    url: /p/opendatanext/
+
 listed: yes
-listed_en: no
+listed_en: yes

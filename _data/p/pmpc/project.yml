@@ -52,10 +52,8 @@ links:
     icon: world icon
 
 links_en:
-  - title: 
-    url: 
-    color: 
-    icon: 
+  - title: "Public Money, Public Code (in Chinese)"
+    url: /p/pmpc/
 
 organizer_ids:
     - ocf
@@ -68,4 +66,4 @@ staff_ids:
 
 
 listed: yes
-listed_en: no
+listed_en: yes

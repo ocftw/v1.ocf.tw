@@ -2,7 +2,7 @@ name: 台灣網路維運社群 TWNOG
 name_en: TWNOG
 
 description: 聚集各界人士以促進台灣網路環境及網路相關產業之蓬勃發展。
-description_en: 
+description_en: "TWNOG brings people from different sectors together to support the development of Taiwan’s internet and related industries."
 
 abbr: 
 abbr_en: 
@@ -31,6 +31,8 @@ metas_en:
 
 links:
 links_en:
+  - title: "Taiwan Network Operators’ Group (in Chinese)"
+    url: /p/twnog/
 
 actions:
   - title: 官網
@@ -66,6 +68,6 @@ board_ids:
 staff_ids:
 
 listed: yes
-listed_en: 
+listed_en: yes
 
 reports:
