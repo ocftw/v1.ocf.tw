@@ -186,6 +186,56 @@
   margin-top: auto;
 }
 
+.fundraising-product {
+  display: grid;
+  grid-template-columns: minmax(300px, .9fr) minmax(0, 1.1fr);
+  gap: 44px;
+  align-items: center;
+  margin: 32px 0 0;
+  padding: 28px;
+  border: 1px solid rgba(76, 35, 142, .15);
+  border-radius: 20px;
+  background: #eef4f7;
+  box-shadow: 0 16px 42px rgba(43, 18, 85, .09);
+}
+
+.fundraising-product__image-wrap {
+  overflow: hidden;
+  border-radius: 14px;
+  background: #dbe6ec;
+}
+
+.fundraising-product__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fundraising-product__story h3 {
+  margin: 0 0 20px;
+  color: var(--fund-purple-dark);
+  font-size: 1.8rem;
+  line-height: 1.35;
+}
+
+.fundraising-product__story > p:not(.fundraising-card__label) {
+  margin: 0 0 16px;
+}
+
+.fundraising-product__story code {
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: var(--fund-purple-dark);
+  background: rgba(255, 255, 255, .75);
+  font-size: .92em;
+}
+
+.fundraising-product__story .fundraising-product__note {
+  margin-top: 24px;
+  color: #53636c;
+  font-size: .92rem;
+}
+
 .fundraising-gift {
   display: grid;
   grid-template-columns: minmax(0, 1.4fr) minmax(260px, .6fr);
@@ -336,6 +386,7 @@
   }
 
   .fundraising-cards,
+  .fundraising-product,
   .fundraising-gift {
     grid-template-columns: 1fr;
   }
@@ -343,6 +394,19 @@
   .fundraising-card {
     min-height: 0;
     padding: 28px 24px;
+  }
+
+  .fundraising-product {
+    gap: 26px;
+    padding: 18px;
+  }
+
+  .fundraising-product__story {
+    padding: 0 6px 6px;
+  }
+
+  .fundraising-product__story h3 {
+    font-size: 1.55rem;
   }
 
   .fundraising-card .fundraising-button,
