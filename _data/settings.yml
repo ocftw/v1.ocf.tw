@@ -63,6 +63,8 @@ menu:
   - title: 捐款支持
     url: /supportus/ 
     items:
+      - title: 2026 年末募款
+        url: /supportus/2026-year-end/
       - title: 捐款方式
         url: /supportus/ 
       - title: 捐款徵信
