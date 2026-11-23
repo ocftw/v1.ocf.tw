@@ -177,3 +177,4 @@ Armani 也將從企業經營角度，分享開源與商業模式的結合，從�
 * [#10 企業開源趨勢講堂：AI 時代的企業開源運用、管理與價值創造](https://ocf.tw/story/ospos-10-enterprise-open-source-ai-2026/)
 * [#11 企業用了開源之後：責任、技術依賴與社群回饋的現場對話](https://ocf.tw/story/ospos-11-enterprise-open-source-memo-recap-2026/)
 * [#12 PHP 有事，大家都有事？從高市首相的晚間緊急喊話，談藏在你服務底層的開源](https://i.ospo.tw/story-012)
+* [#13 從 OpenChain CRA 檢核表，看各國團隊如何準備](https://ocf.tw/story/ospos-13-openchain-cra-checklist-2026/)
