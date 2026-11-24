@@ -67,3 +67,4 @@ OCF 去年完成[《開放原始碼良善治理手冊》](https://ocf.tw/story/o
 * [#11 企業用了開源之後：責任、技術依賴與社群回饋的現場對話](https://ocf.tw/story/ospos-11-enterprise-open-source-memo-recap-2026/)
 * [#12 PHP 有事，大家都有事？從高市首相的晚間緊急喊話，談藏在你服務底層的開源](https://i.ospo.tw/story-012)
 * [#13 從 OpenChain CRA 檢核表，看各國團隊如何準備](https://ocf.tw/story/ospos-13-openchain-cra-checklist-2026/)
+* [#15 企業開源趨勢講堂：AI 與開源競爭力－從在地技術採用到全球生態](https://ocf.tw/story/ospos-15-ai-open-source-competitiveness-2026/)
