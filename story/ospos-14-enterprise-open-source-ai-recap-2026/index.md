@@ -1,7 +1,7 @@
 ---
 layout: story
 og_title: "〖開源治理系列 14〗AI 寫進企業開發流程之後，開源怎麼管？｜11 月 4 日高雄場紀錄"
-og_description: "同一個開源元件被多項產品共用，出了問題誰來修？AI 改寫的程式碼要怎麼審？11 月 4 日高雄場從供應鏈安全、授權合規與 AI 維運，談企業如何把開源治理做進開發流程。"
+og_description: "開源元件出了問題誰來修？AI 改寫的程式碼怎麼審？從高雄場交流，看企業如何把開源治理放進開發流程。"
 og_image: /story/ospos-14-enterprise-open-source-ai-recap-2026/images/group-photo.jpg
 publish_date: 2026-11-25
 modified_time: 2026-11-25
