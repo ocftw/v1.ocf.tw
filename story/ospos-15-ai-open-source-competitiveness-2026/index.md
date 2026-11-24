@@ -1,7 +1,7 @@
 ---
 layout: story
 og_title: "【開源治理系列 15】企業開源趨勢講堂：AI 與開源競爭力－從在地技術採用到全球生態"
-og_description: "12 月 22 日臺北登場，邀請林旅強、嚴孝頤與蔡祈岩，從國際開發者生態、實體場域 Agentic OS 到企業開源 AI 投入，探討臺灣產業如何透過開源協作連結全球生態、創造商業價值。"
+og_description: "從國際開發者生態、實體場域 Agentic OS 到企業開源 AI 投入"
 og_image: /story/ospos-15-ai-open-source-competitiveness-2026/images/banner.png
 publish_date: 2026-11-25
 modified_time: 2026-11-25
