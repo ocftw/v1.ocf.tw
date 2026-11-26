@@ -7,13 +7,13 @@ permalink: /p/intldonate/apply
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>立即報名 - 國際會議獎助計畫 2026</title>
+<title>立即報名 - 國際會議獎助計畫 2027 上半年</title>
 <link rel="stylesheet" href="/p/intldonate/2026/style.css" />
 </head>
 <body>
   <header class="site-header">
     <h1>國際會議獎助計畫</h1>
-    <p class="tagline">2026 年度・開放文化基金會・鼓勵台灣青年與國際社群交流</p>
+    <p class="tagline">2027 上半年・開放文化基金會・鼓勵台灣青年與國際社群交流</p>
     <nav class="site-nav">
       <a href="/p/intldonate/" class="back-link-nav">← 回專案頁</a>
       <a href="/p/intldonate/rule">計畫申請辦法</a>
@@ -24,7 +24,7 @@ permalink: /p/intldonate/apply
 
   <main>
     <div class="info-box">
-      申請前請先閱讀<a href="/p/intldonate/rule">計畫申請辦法</a>，確認獎助對象、金額與義務規定。送出後 OCF 內部隨到隨審，約 1 個月內通知結果。
+      申請前請先閱讀<a href="/p/intldonate/rule">計畫申請辦法</a>，確認獎助對象、金額與義務規定。在學學生，以及於活動中投稿議程、設置攤位或籌辦周邊活動（side event）者，將優先錄取。送出後 OCF 內部隨到隨審，約 1 個月內通知結果。
     </div>
 
     <div class="success-box" id="successBox">
@@ -61,6 +61,7 @@ permalink: /p/intldonate/apply
 
         <div class="field">
           <label class="field-label" for="f_job">現職或現讀學校（含科系）<span class="required">*</span></label>
+          <p class="field-hint">在學學生請註明學校、科系與年級。</p>
           <input type="text" id="f_job" name="entry.179868925" required />
         </div>
 
@@ -81,16 +82,20 @@ permalink: /p/intldonate/apply
         <div class="field">
           <label class="field-label">欲參加之活動<span class="required">*</span></label>
           <label class="choice-option">
-            <input type="radio" name="entry.1891047798" value="Open Tech Week（含 Mozilla Festival）｜2026/10/28–10/30｜巴塞隆納" required />
-            Open Tech Week（含 Mozilla Festival）｜2026/10/28–10/30｜巴塞隆納
+            <input type="radio" name="entry.1891047798" value="FOSDEM 2027｜2027/1/30–1/31｜布魯塞爾" required />
+            FOSDEM 2027｜2027/1/30–1/31｜布魯塞爾
           </label>
           <label class="choice-option">
-            <input type="radio" name="entry.1891047798" value="Open Source Summit Japan｜2026/12/7–12/9｜東京" />
-            Open Source Summit Japan｜2026/12/7–12/9｜東京
+            <input type="radio" name="entry.1891047798" value="FOSSASIA Summit 2027｜2027/3/7–3/9｜曼谷" />
+            FOSSASIA Summit 2027｜2027/3/7–3/9｜曼谷
           </label>
           <label class="choice-option">
-            <input type="radio" name="entry.1891047798" value="Open Source Compliance Summit Japan｜2026/12/10–12/11｜東京" />
-            Open Source Compliance Summit Japan｜2026/12/10–12/11｜東京
+            <input type="radio" name="entry.1891047798" value="ConfConf 2027｜2027/3/12–3/13｜曼谷" />
+            ConfConf 2027｜2027/3/12–3/13｜曼谷
+          </label>
+          <label class="choice-option">
+            <input type="radio" name="entry.1891047798" value="Global DPI Summit 2027｜2027/3/23–3/25｜峇里島" />
+            Global DPI Summit 2027｜2027/3/23–3/25｜峇里島
           </label>
           <label class="choice-option">
             <input type="radio" name="entry.1891047798" value="自訂活動（請於下方欄位說明）" />
@@ -114,13 +119,18 @@ permalink: /p/intldonate/apply
         </div>
 
         <div class="field">
-          <label class="field-label" for="f_proof">活動報名或投稿入選證明（如有，請附上連結）</label>
-          <input type="text" id="f_proof" name="entry.17527471" />
+          <label class="field-label" for="f_proof">是否投稿議程、設置攤位或籌辦周邊活動（side event）？請簡述並附上連結（如有）</label>
+          <textarea id="f_proof" name="entry.17527471"></textarea>
         </div>
 
         <div class="field">
           <label class="field-label" for="f_plan">詳述參與規劃、預期產出<span class="required">*</span></label>
           <textarea id="f_plan" name="entry.1354289025" required></textarea>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="f_othergrant">是否已就本活動向其他單位申請或獲得補助？如有，請填寫單位名稱、補助項目與金額</label>
+          <textarea id="f_othergrant" name="entry.429589284"></textarea>
         </div>
       </fieldset>
 
@@ -151,7 +161,7 @@ permalink: /p/intldonate/apply
         <div class="field">
           <label class="choice-option">
             <input type="checkbox" name="entry.711208944" value="是，我已閱讀並同意" required />
-            我已閱讀並同意「<a href="/p/intldonate/rule" target="_blank">國際會議獎助計畫 受獎助者同意書</a>」之權利義務內容<span class="required">*</span>
+            我已閱讀並同意「<a href="/p/intldonate/rule" target="_blank">計畫申請辦法</a>」之權利義務內容<span class="required">*</span>
           </label>
         </div>
       </fieldset>
